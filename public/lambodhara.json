@@ -2,7 +2,9 @@
     "song_details": {
         "title": "Lambodhara Lakumikara",
         "raga": "Malahari",
+        "janya": "15th Melakarta",
         "tala": "Rupakam",
+        "jati": "Chaturasra",
         "composer": "Purandaradasa",
         "arohana": "S R1 M1 P D1 S'",
         "avarohana": "S' D1 P M1 G1 R1 S"
@@ -13,14 +15,14 @@
             "content": [
                 {
                     "swaram": "M P | D S S R || R S | D P M P ||",
-                    "sahityam": "Sre - | Ga Na Na Tha || Sin Dhu | - Ra Var Na ||"
+                    "sahityam": "Sree - | Ga Na Na Tha || Sin Dhu | - Ra Var Na ||"
                 },
                 {
                     "swaram": "R M | P D M P || D P | M G R S ||",
                     "sahityam": "Ka Ru | Na Sa Ga Ra || Ka Ri | Va Da Na - ||"
                 },
                 {
-                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "swaram": "S R | M - G R || S R | G R S - ||",
                     "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 },
                 {
@@ -28,7 +30,7 @@
                     "sahityam": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
                 },
                 {
-                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "swaram": "S R | M - G R || S R | G R S - ||",
                     "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
@@ -45,7 +47,7 @@
                     "sahityam": "Sid Dhi | Vi Na Ya Ka || Te Na | Mo Na Mo ||"
                 },
                 {
-                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "swaram": "S R | M - G R || S R | G R S - ||",
                     "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 },
                 {
@@ -53,7 +55,7 @@
                     "sahityam": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
                 },
                 {
-                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "swaram": "S R | M - G R || S R | G R S - ||",
                     "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
@@ -70,7 +72,7 @@
                     "sahityam": "Sar - | Vo - Ta Ma || Te - | Na Mo Na Mo ||"
                 },
                 {
-                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "swaram": "S R | M - G R || S R | G R S - ||",
                     "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 },
                 {
@@ -78,7 +80,7 @@
                     "sahityam": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
                 },
                 {
-                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "swaram": "S R | M - G R || S R | G R S - ||",
                     "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
