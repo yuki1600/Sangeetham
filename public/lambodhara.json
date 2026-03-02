@@ -1,0 +1,55 @@
+{
+    "song_details": {
+        "title": "Lambodhara Lakumikara",
+        "raga": "Malahari",
+        "tala": "Rupakam",
+        "composer": "Purandaradasa",
+        "arohana": "S R1 M1 P D1 S'",
+        "avarohana": "S' D1 P M1 G1 R1 S"
+    },
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swaram": "m p d S | S d p p | d p m p | m r s , ||",
+                    "sahityam": "Sri Ga na na | tha Sin dhu ra | Var na Ka ru | na Sa ga ra ||"
+                },
+                {
+                    "swaram": "m r s , | s r m , | p m p , | m r s , ||",
+                    "sahityam": "Ka ri Va da | na Lam bo dha | ra la ku mi | ka ra am ||"
+                },
+                {
+                    "swaram": "p d S , | d p m , | p m r , | s r m , ||",
+                    "sahityam": "baa su ta a | ma ra vi nu | tha . . . | . . . . ||"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 1",
+            "content": [
+                {
+                    "swaram": "p m p , | m r s , | r s r m | g r s , ||",
+                    "sahityam": "Sid dha cha ra | na ga na se | vi tha sid dhi | vi na ya ka ||"
+                },
+                {
+                    "swaram": "r s r m | g r s , ||",
+                    "sahityam": "Te Na mo Na | mo . . . ||"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
+                {
+                    "swaram": "p m p , | m r s , | r s r m | g r s , ||",
+                    "sahityam": "Sa ka la Vi | dhya di Pu ji | ta Sar vot ta | ma . . . ||"
+                },
+                {
+                    "swaram": "r s r m | g r s , ||",
+                    "sahityam": "Te Na mo Na | mo . . . ||"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+  "song_details": {
+    "title": "Mathe Malayadwaja (Daru)",
+    "raga": "Khamas",
+    "tala": "Adi (Vilamba)",
+    "composer": "Muttaiah Bhagavatar",
+    "arohana": "S M1 G3 M1 P D2 N2 S'",
+    "avarohana": "S' N2 D2 P M1 G3 R2 S"
+  },
+  "composition": [
+    {
+      "section": "Pallavi",
+      "content": [
+        {
+          "swaram":   "D     N     S'    ;     N     R'    S'    N     D     P     M     P     D     M     G     M     ;     | M     G     M     N     D     S'    N     S'    | S'    N     N     D     D     P     ||",
+          "sahityam": "Maa   .     the   .     ma    la    ya    .     dhwa  ja    paan  .     .     .     dya   sam   | jaa   .     .     .     the   .     maa   .     | tham  .     ga    va    da    na    gu    ha    ||"
+        },
+        {
+          "swaram":   "D     N     S'    R'    R'    S'    N     D     N     S'    N     D     P     N     D     P     M     P     M     P     | N     D     P     M     G     M     ;     M     G     M     N     | D     S'    N     S'    S'    N     N     D     D     P     ||",
+          "sahityam": "Maa   .     the   .     .     .     ma    la    ya    .     .     dhwa  .     ja    .     paan  .     .     .     | .     dya   sam   jaa   .     .     .     the   .     maa   .     | tham  .     ga    va    .     da    na    gu    ha    .     ||"
+        }
+      ]
+    },
+    {
+      "section": "Anupallavi",
+      "content": [
+        {
+          "swaram":   "D     N     S'    D     P     M     D     N     S'    S'    D     N     S'    M'    G'    M'    | R'    S'    N     R'    S'    S'    N     D     ;     | N     R'    S'    S'    N     D     P     P     D     N     D     P     M     ||",
+          "sahityam": "Shaa  .     tho   da    ri    sham  .     ka    ri    chaa  .     mun   dee   .     shwa  ri    | chan  dra   ka    laa   .     .     dha   ri    thaa  .     | .     .     ye    gau   .     .     .     ri    .     .     .     .     .     ||"
+        }
+      ]
+    },
+    {
+      "section": "Chittaswara",
+      "content": [
+        {
+          "swaram":   "D     D     N     D     D     N     D     D     N     D     D     N     P     M     P     D     | N     R'    S'    N     S'    D     N     S'    | S'    D     P     M     ||",
+          "jati_1":   "Daa   daa   ni    da    da    ni    da    da    ni    da    da    ni    pa    ma    daa   .     | da    ni    ri    sa    ni    sa    da    ni    | sa sa da    pa    ma    ||",
+          "jati_2":   "Daa   daa   tha   ku    jhu   nu    da    da    ni    da    dhi   mi    ta    ka    thaam thaam | ku    kun   da    ra    tha   ru    nu    tha   | sa    da    pa    ma    ||",
+          "sahityam": "Daa   thaa  sa    ka    la    ka    laa   ni    pu    na    cha   tu    ra    daa   .     .     | thaa  .     vi    vi    dha   ma    tha   .     | sa    ma    ya    sa    ma    ra    sa    ||"
+        },
+        {
+          "swaram":   "D     D     N     G'    R'    N     R'    S'    N     D     P     N     D     M     P     D     | M     G     M     P     M     P     D     P     | N     D     P     M     ||",
+          "jati":     "Daa   daa   ni    ga    ri    ni    ri    sa    dhi   mi    ta    ka    tha   ki    ta    .     | jhum  jhum  tha   ki    ta    tha   .     .     | ku    kun   da    ri    nam   tha   ri    ||",
+          "sahityam": "Daa   thaa  su    la    bha   hru   da    ya    ma    dhu   ra    va    cha   na    daa   .     | thaa  sa    ra    sa    ru    chi   ra    .     | tha   ra    swa   ra    la    ya    ||"
+        },
+        {
+          "swaram":   "D     D     R'    S'    N     D     N     D     D     M     D     N     M     N     D     D     | S'    S'    P     D     N     D     D     M     | G'    R'    S'    N     ||",
+          "jati":     "Daa   daa   dhi   ki    na    tha   ri    jhe   nu    ma    da    ni    tha   ka    nan   tha   | sa    sa    dhi   mi    tha   thoon tha   .     | dhi   mi    ta    ki    ta    ||",
+          "sahityam": "Gee   tha   su    kha   da    ni    ja    bhaa  va    ra    si    ka    va    ra    daa   .     | tha   ma    hi    shoo  ra    naa   tha   .     | naa   l     va    di    shree ||"
+        },
+        {
+          "swaram":   "D     D     P     D     D     N     D     D     S'    D     R'    D     ,     M'    G'    R'    | S'    N     D     N     S'    N     N     D     | D     P     M     ||",
+          "jati":     "Thoon tha   pa    daa   da    tha   ra    nu    sa    daa   ri    dum   ma    ga    ri    .     | sa    ni    daa   ni    tha   ka    tha   .     | di    gi    na    thoom ||",
+          "sahityam": "Kru   shna  ra    jeen  dra   ra    thaa  ya    sa    daa   poo   re    .     .     .     .     | ma    hi    tha   ha    ri    ke    sha   .     | ma    no    ha    ra    sa    da    yee   || (maathe)"
+        }
+      ]
+    },
+    {
+      "section": "Charana",
+      "content": [
+        {
+          "swaram":   "M     ,     M     ,     P     S'    N     D     P     M     P     ;     N     D     D     P     | M     G     M     ,     D     N     | 1. S'  S'    N     D     P     P     N     D     M     P     D     ||",
+          "sahityam": "Shyaa .     mee   .     sa    ka    la    bhu   va    na    saa   .     rva   bhau  .     mee   | sha   shi   man   .     da    la    | ma     .     dhya  ga    .     .     .     .     .     .     .     ||"
+        },
+        {
+          "swaram":   "2. R'  S'    N     D     S'    N     D     P     N     D     P     M     P     D     ||",
+          "sahityam": "   (al ter   na    te    en    di    ng    swa   ra    s)                                  ||"
+        }
+      ]
+    },
+    {
+      "section": "Ettugade Swaragalu",
+      "content": [
+        {
+          "number": 1,
+          "swaram": "M     ,     M     ,     P     N     D     D     P     P     M     G     M     P     | M     ,     M     ,     N     D     M     ,     | S'    N     D     P     D     || (shyaame)"
+        },
+        {
+          "number": 2,
+          "swaram": "N     D     N     D     D     P     P     M     P     P     N     D     P     M     | G     P     M     N     D     M     | S'    N     D     P     M     N     D     || (shyaame)"
+        },
+        {
+          "number": 3,
+          "swaram": "S'    S'    P     S'    N     D     N     P     N     D     P     M     G     M     P     | M     M     M     P     M     G     M     | P     S'    N     D     N     ;     ||\nD     D     N     P     P     D     N     M     P     D     N     P     M     G     M     P     | D     N     P     M     G     M     G     R'    | S'    N     D     N     D     G     M     D     || (shyaame)"
+        },
+        {
+          "number": 4,
+          "swaram": "N     ,     M     G     M     D     N     S'    M     N     | G     M     S'    N     M     | N     D     G     ;     N     G     ||\nR'    G'    D     R'    N     ,     S'    D     N     P     | D     P     M     G     M     N     | D     ,     N     D     M     G     || (shyaame)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+[
+  {
+    "start": 5.979999999999999,
+    "end": 17.9,
+    "text": "Sri Gananatha Sindhura Varna Karuna Sagara Kari Vadana",
+    "whisper_detected": " ಶಿಗನನಾತ ಸಿಂದುರಾವರ್ಣ ಕರೂನ ಸಾಗರ ಕರಿವದ ನಾಲಮ್",
+    "words": [
+      {
+        "word": "Sri",
+        "start": 5.979999999999999,
+        "end": 7.379999999999999
+      },
+      {
+        "word": "Gananatha",
+        "start": 7.379999999999999,
+        "end": 8.78
+      },
+      {
+        "word": "Sindhura",
+        "start": 8.78,
+        "end": 10.82
+      },
+      {
+        "word": "Varna",
+        "start": 10.82,
+        "end": 12.68
+      },
+      {
+        "word": "Karuna",
+        "start": 12.68,
+        "end": 15.48
+      },
+      {
+        "word": "Sagara",
+        "start": 15.48,
+        "end": 17.9
+      },
+      {
+        "word": "Kari",
+        "start": 17.9,
+        "end": 17.9
+      },
+      {
+        "word": "Vadana",
+        "start": 17.9,
+        "end": 17.9
+      }
+    ]
+  },
+  {
+    "start": 21.040000000000003,
+    "end": 33.52,
+    "text": "Lambodara Lakumikara Amba Suta Amara Vinuta",
+    "whisper_detected": " ಗೋದರಲಕು ಮಿಕರ ಅಮ್ಬಾಸುತ ಆಮರ ವಿನುತಲಮ್",
+    "words": [
+      {
+        "word": "Lambodara",
+        "start": 21.040000000000003,
+        "end": 22.44
+      },
+      {
+        "word": "Lakumikara",
+        "start": 22.44,
+        "end": 23.84
+      },
+      {
+        "word": "Amba",
+        "start": 23.84,
+        "end": 28.6
+      },
+      {
+        "word": "Suta",
+        "start": 28.6,
+        "end": 30.12
+      },
+      {
+        "word": "Amara",
+        "start": 30.12,
+        "end": 33.52
+      },
+      {
+        "word": "Vinuta",
+        "start": 33.52,
+        "end": 33.52
+      }
+    ]
+  },
+  {
+    "start": 36.760000000000005,
+    "end": 47.88,
+    "text": "Siddha Charana Gana Sevita Siddhi Vinayaka Te Namo Namo",
+    "whisper_detected": " ಗೋದರಲಕು ಮಿಕರ ಸಿತ್ತ ಚಾರಣ ಗಾಣ ಸಿತ್ತ ನಾಲಮ್",
+    "words": [
+      {
+        "word": "Siddha",
+        "start": 36.760000000000005,
+        "end": 38.160000000000004
+      },
+      {
+        "word": "Charana",
+        "start": 38.160000000000004,
+        "end": 39.56
+      },
+      {
+        "word": "Gana",
+        "start": 39.56,
+        "end": 43.56
+      },
+      {
+        "word": "Sevita",
+        "start": 43.56,
+        "end": 45.62
+      },
+      {
+        "word": "Siddhi",
+        "start": 45.62,
+        "end": 47.04
+      },
+      {
+        "word": "Vinayaka",
+        "start": 47.04,
+        "end": 47.88
+      },
+      {
+        "word": "Te",
+        "start": 47.88,
+        "end": 47.88
+      },
+      {
+        "word": "Namo",
+        "start": 47.88,
+        "end": 47.88
+      },
+      {
+        "word": "Namo",
+        "start": 47.88,
+        "end": 47.88
+      }
+    ]
+  },
+  {
+    "start": 47.88,
+    "end": 58.2,
+    "text": "Siddha Charana Gana Sevita Siddhi Vinayaka Te Namo Namo",
+    "whisper_detected": " ಸೇವಿತ ಸಿದ್ದಿವಿನಾಯಕ ರೇಯೆ ನಮೋನ ಮೋಳಮ್",
+    "words": [
+      {
+        "word": "Siddha",
+        "start": 47.88,
+        "end": 49.48
+      },
+      {
+        "word": "Charana",
+        "start": 49.48,
+        "end": 53.48
+      },
+      {
+        "word": "Gana",
+        "start": 53.48,
+        "end": 55.02
+      },
+      {
+        "word": "Sevita",
+        "start": 55.02,
+        "end": 56.6
+      },
+      {
+        "word": "Siddhi",
+        "start": 56.6,
+        "end": 58.2
+      },
+      {
+        "word": "Vinayaka",
+        "start": 58.2,
+        "end": 58.2
+      },
+      {
+        "word": "Te",
+        "start": 58.2,
+        "end": 58.2
+      },
+      {
+        "word": "Namo",
+        "start": 58.2,
+        "end": 58.2
+      },
+      {
+        "word": "Namo",
+        "start": 58.2,
+        "end": 58.2
+      }
+    ]
+  },
+  {
+    "start": 61.22,
+    "end": 73.04,
+    "text": "Lambodara Lakumikara Amba Suta Amara Vinuta",
+    "whisper_detected": " ಗೋದರಲಕು ಮಿಕರ ಅಮ್ಬಾಸುತ ಆಮರ ವಿನುತಲಮ್",
+    "words": [
+      {
+        "word": "Lambodara",
+        "start": 61.22,
+        "end": 62.62
+      },
+      {
+        "word": "Lakumikara",
+        "start": 62.62,
+        "end": 64.02
+      },
+      {
+        "word": "Amba",
+        "start": 64.02,
+        "end": 68.38
+      },
+      {
+        "word": "Suta",
+        "start": 68.38,
+        "end": 69.86
+      },
+      {
+        "word": "Amara",
+        "start": 69.86,
+        "end": 73.04
+      },
+      {
+        "word": "Vinuta",
+        "start": 73.04,
+        "end": 73.04
+      }
+    ]
+  },
+  {
+    "start": 75.74,
+    "end": 77.86,
+    "text": "Siddha Charana Gana Sevita Siddhi Vinayaka Te Namo Namo",
+    "whisper_detected": " ಗೋದರಲಕು ಮಿಕರ ಸಿತ್ತ ಚಾರಣ ಗಾಣ ಸಿತ್ತ ನಾಲಮ್",
+    "words": [
+      {
+        "word": "Siddha",
+        "start": 75.74,
+        "end": 77.14
+      },
+      {
+        "word": "Charana",
+        "start": 77.14,
+        "end": 77.86
+      },
+      {
+        "word": "Gana",
+        "start": 77.86,
+        "end": 77.86
+      },
+      {
+        "word": "Sevita",
+        "start": 77.86,
+        "end": 77.86
+      },
+      {
+        "word": "Siddhi",
+        "start": 77.86,
+        "end": 77.86
+      },
+      {
+        "word": "Vinayaka",
+        "start": 77.86,
+        "end": 77.86
+      },
+      {
+        "word": "Te",
+        "start": 77.86,
+        "end": 77.86
+      },
+      {
+        "word": "Namo",
+        "start": 77.86,
+        "end": 77.86
+      },
+      {
+        "word": "Namo",
+        "start": 77.86,
+        "end": 77.86
+      }
+    ]
+  },
+  {
+    "start": 91.49999999999999,
+    "end": 95.88,
+    "text": "Siddha Charana Gana Sevita Siddhi Vinayaka Te Namo Namo",
+    "whisper_detected": " ಸಿತ್ತ ನಮೋನ ಮೋಳಮ್",
+    "words": [
+      {
+        "word": "Siddha",
+        "start": 91.49999999999999,
+        "end": 92.89999999999999
+      },
+      {
+        "word": "Charana",
+        "start": 92.89999999999999,
+        "end": 94.3
+      },
+      {
+        "word": "Gana",
+        "start": 94.3,
+        "end": 95.88
+      },
+      {
+        "word": "Sevita",
+        "start": 95.88,
+        "end": 95.88
+      },
+      {
+        "word": "Siddhi",
+        "start": 95.88,
+        "end": 95.88
+      },
+      {
+        "word": "Vinayaka",
+        "start": 95.88,
+        "end": 95.88
+      },
+      {
+        "word": "Te",
+        "start": 95.88,
+        "end": 95.88
+      },
+      {
+        "word": "Namo",
+        "start": 95.88,
+        "end": 95.88
+      },
+      {
+        "word": "Namo",
+        "start": 95.88,
+        "end": 95.88
+      }
+    ]
+  },
+  {
+    "start": 98.65999999999998,
+    "end": 107.84,
+    "text": "Lambodara Lakumikara Amba Suta Amara Vinuta",
+    "whisper_detected": " ಗೋದರಲಕು ಮಿಕರ ಅಮ್ಬಾಸುತ ಆಮರ ವಿನುತಲಮ್",
+    "words": [
+      {
+        "word": "Lambodara",
+        "start": 98.65999999999998,
+        "end": 100.05999999999999
+      },
+      {
+        "word": "Lakumikara",
+        "start": 100.05999999999999,
+        "end": 101.46
+      },
+      {
+        "word": "Amba",
+        "start": 101.46,
+        "end": 105.72
+      },
+      {
+        "word": "Suta",
+        "start": 105.72,
+        "end": 107.02
+      },
+      {
+        "word": "Amara",
+        "start": 107.02,
+        "end": 107.84
+      },
+      {
+        "word": "Vinuta",
+        "start": 107.84,
+        "end": 107.84
+      }
+    ]
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "text": "Maa",
+    "start": 6.559999999999999,
+    "end": 7.259999999999999,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 7.259999999999999,
+    "end": 7.959999999999999,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": "the",
+    "start": 7.959999999999999,
+    "end": 8.66,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": ".",
+    "start": 8.66,
+    "end": 9.36,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": "ma",
+    "start": 9.36,
+    "end": 9.833333333333332,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "la",
+    "start": 9.833333333333332,
+    "end": 10.306666666666667,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "ya",
+    "start": 10.306666666666667,
+    "end": 10.78,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": ".",
+    "start": 10.78,
+    "end": 11.146666666666667,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "dhwa",
+    "start": 11.146666666666667,
+    "end": 11.513333333333334,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "ja",
+    "start": 11.513333333333334,
+    "end": 11.88,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "paan",
+    "start": 11.88,
+    "end": 12.533333333333333,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 12.533333333333333,
+    "end": 13.186666666666667,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 13.186666666666667,
+    "end": 13.84,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 15.58,
+    "end": 16.046666666666667,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": "dya",
+    "start": 16.046666666666667,
+    "end": 16.513333333333335,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": "sam",
+    "start": 16.513333333333335,
+    "end": 16.98,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": "jaa",
+    "start": 16.98,
+    "end": 17.62,
+    "whisper_word": "\u0935\u0926\u0928"
+  },
+  {
+    "text": ".",
+    "start": 17.62,
+    "end": 18.26,
+    "whisper_word": "\u0935\u0926\u0928"
+  },
+  {
+    "text": ".",
+    "start": 18.26,
+    "end": 18.76,
+    "whisper_word": "\u0917\u0941\u0916\u093e"
+  },
+  {
+    "text": ".",
+    "start": 18.76,
+    "end": 19.26,
+    "whisper_word": "\u0917\u0941\u0916\u093e"
+  },
+  {
+    "text": "the",
+    "start": 19.26,
+    "end": 19.990000000000002,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 19.990000000000002,
+    "end": 20.72,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": "maa",
+    "start": 20.72,
+    "end": 21.92,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": ".",
+    "start": 21.92,
+    "end": 23.12,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": "tham",
+    "start": 23.12,
+    "end": 23.64,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": ".",
+    "start": 23.64,
+    "end": 24.16,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "ga",
+    "start": 24.16,
+    "end": 24.68,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "va",
+    "start": 24.68,
+    "end": 24.986666666666668,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "da",
+    "start": 24.986666666666668,
+    "end": 25.293333333333333,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "na",
+    "start": 25.293333333333333,
+    "end": 25.6,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "gu",
+    "start": 25.6,
+    "end": 26.253333333333334,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": "ha",
+    "start": 26.253333333333334,
+    "end": 26.906666666666666,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": "Maa",
+    "start": 26.906666666666666,
+    "end": 27.56,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 29.240000000000002,
+    "end": 29.706666666666667,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": "the",
+    "start": 29.706666666666667,
+    "end": 30.173333333333336,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": ".",
+    "start": 30.173333333333336,
+    "end": 30.64,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": ".",
+    "start": 30.64,
+    "end": 31.32,
+    "whisper_word": "\u0935\u0926\u0928"
+  },
+  {
+    "text": ".",
+    "start": 31.32,
+    "end": 32.0,
+    "whisper_word": "\u0935\u0926\u0928"
+  },
+  {
+    "text": "ma",
+    "start": 32.0,
+    "end": 32.57,
+    "whisper_word": "\u0917\u0941\u0916\u093e"
+  },
+  {
+    "text": "la",
+    "start": 32.57,
+    "end": 33.14,
+    "whisper_word": "\u0917\u0941\u0916\u093e"
+  },
+  {
+    "text": "ya",
+    "start": 33.14,
+    "end": 33.8,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 33.8,
+    "end": 34.46,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 34.46,
+    "end": 35.650000000000006,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": "dhwa",
+    "start": 35.650000000000006,
+    "end": 36.84,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": ".",
+    "start": 36.84,
+    "end": 37.38,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "ja",
+    "start": 37.38,
+    "end": 37.92,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": ".",
+    "start": 37.92,
+    "end": 38.46,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "paan",
+    "start": 38.46,
+    "end": 38.79333333333334,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": ".",
+    "start": 38.79333333333334,
+    "end": 39.126666666666665,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": ".",
+    "start": 39.126666666666665,
+    "end": 39.46,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": ".",
+    "start": 39.46,
+    "end": 40.053333333333335,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 40.053333333333335,
+    "end": 40.64666666666667,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": "dya",
+    "start": 40.64666666666667,
+    "end": 41.24,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": "sam",
+    "start": 42.940000000000005,
+    "end": 43.40666666666667,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": "jaa",
+    "start": 43.40666666666667,
+    "end": 43.873333333333335,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": ".",
+    "start": 43.873333333333335,
+    "end": 44.34,
+    "whisper_word": "\u092e\u093e\u0924\u0902\u0917"
+  },
+  {
+    "text": ".",
+    "start": 44.34,
+    "end": 45.010000000000005,
+    "whisper_word": "\u0935\u0926\u0928"
+  },
+  {
+    "text": ".",
+    "start": 45.010000000000005,
+    "end": 45.68,
+    "whisper_word": "\u0935\u0926\u0928"
+  },
+  {
+    "text": "the",
+    "start": 45.68,
+    "end": 46.260000000000005,
+    "whisper_word": "\u0917\u0941\u0916\u093e"
+  },
+  {
+    "text": ".",
+    "start": 46.260000000000005,
+    "end": 46.84,
+    "whisper_word": "\u0917\u0941\u0916\u093e"
+  },
+  {
+    "text": "maa",
+    "start": 46.84,
+    "end": 47.45,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 47.45,
+    "end": 48.06,
+    "whisper_word": "\u092e\u093e\u0924\u0947"
+  },
+  {
+    "text": "tham",
+    "start": 48.06,
+    "end": 49.21,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": ".",
+    "start": 49.21,
+    "end": 50.36,
+    "whisper_word": "\u092e\u0932\u093e\u092f"
+  },
+  {
+    "text": "ga",
+    "start": 50.36,
+    "end": 50.913333333333334,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "va",
+    "start": 50.913333333333334,
+    "end": 51.46666666666667,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": ".",
+    "start": 51.46666666666667,
+    "end": 52.02,
+    "whisper_word": "\u0927\u094d\u0935\u091c\u093e"
+  },
+  {
+    "text": "da",
+    "start": 52.02,
+    "end": 52.43333333333334,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "na",
+    "start": 52.43333333333334,
+    "end": 52.846666666666664,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "gu",
+    "start": 52.846666666666664,
+    "end": 53.26,
+    "whisper_word": "\u092a\u093e\u0902\u0921\u094d\u092f"
+  },
+  {
+    "text": "ha",
+    "start": 53.26,
+    "end": 54.08,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  },
+  {
+    "text": ".",
+    "start": 54.08,
+    "end": 54.9,
+    "whisper_word": "\u0938\u0902\u091c\u093e\u0924\u0947"
+  }
+]
