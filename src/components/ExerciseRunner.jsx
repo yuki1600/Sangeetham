@@ -355,7 +355,7 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
                         <Music className="w-5 h-5 text-white" />
                     </div>
                     <div className="flex flex-col">
-                        <span className="text-sm font-bold tracking-tight text-[var(--text-primary)]">Sangeetha</span>
+                        <span className="text-sm font-bold tracking-tight text-[var(--text-primary)]">Sangeetham</span>
                         <span className="text-[9px] uppercase tracking-widest text-[var(--text-muted)] font-black">Practice Mode</span>
                     </div>
                 </div>

@@ -10,9 +10,9 @@ export default function Header({ theme, onToggleTheme }) {
                 </div>
                 <div>
                     <h1 className="text-xl font-bold tracking-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">
-                        Sangeetha
+                        Sangeetham
                     </h1>
-                    <p className="text-xs text-[var(--text-secondary)] -mt-0.5">Carnatic Voice Trainer</p>
+                    <p className="text-xs text-[var(--text-secondary)] -mt-0.5">Carnatic Music Trainer</p>
                 </div>
             </div>
             <div className="flex items-center gap-2">
