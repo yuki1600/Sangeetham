@@ -1,4 +1,4 @@
-# Sangeetham — Carnatic Voice Trainer
+# Sangeetham — Carnatic Music Trainer
 
 > A web app for learning and practicing Carnatic music with real-time pitch detection, guided swara exercises, tanpura drone, and a library of 100+ compositions.
 
