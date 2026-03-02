@@ -5,23 +5,33 @@
         "tala": "Rupakam",
         "composer": "Purandaradasa",
         "arohana": "S R1 M1 P D1 S'",
-        "avarohana": "S' D1 P M1 G1 R1 S"
+        "avarohana": "S' D1 P M1 G1 R1 S",
+        "startOffset": 5.6,
+        "endOffset": 108.0
     },
     "composition": [
         {
             "section": "Pallavi",
             "content": [
                 {
-                    "swaram": "m p d S | S d p p | d p m p | m r s , ||",
-                    "sahityam": "Sri Ga na na | tha Sin dhu ra | Var na Ka ru | na Sa ga ra ||"
+                    "swaram": "M P | D S S R || R S | D P M P ||",
+                    "sahityam": "Sre - | Ga Na Na Tha || Sin Dhu | - Ra Var Na ||"
                 },
                 {
-                    "swaram": "m r s , | s r m , | p m p , | m r s , ||",
-                    "sahityam": "Ka ri Va da | na Lam bo dha | ra la ku mi | ka ra am ||"
+                    "swaram": "R M | P D M P || D P | M G R S ||",
+                    "sahityam": "Ka Ru | Na Sa Ga Ra || Ka Ri | Va Da Na - ||"
                 },
                 {
-                    "swaram": "p d S , | d p m , | p m r , | s r m , ||",
-                    "sahityam": "baa su ta a | ma ra vi nu | tha . . . | . . . . ||"
+                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "sahityam": "Lam - |Bo - Ra Da || La Ku | Mi Ka Ra - ||"
+                },
+                {
+                    "swaram": "R M | P D M P || D P | M G R S ||",
+                    "sahityam": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
+                },
+                {
+                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "sahityam": "Lam - |Bo - Ra Da || La Ku | Mi Ka Ra - ||"
                 }
             ]
         },
@@ -29,12 +39,24 @@
             "section": "Charanam 1",
             "content": [
                 {
-                    "swaram": "p m p , | m r s , | r s r m | g r s , ||",
-                    "sahityam": "Sid dha cha ra | na ga na se | vi tha sid dhi | vi na ya ka ||"
+                    "swaram": "M P | D S S R || R S | D P M P ||",
+                    "sahityam": "Sid Dha | Cha Ra Na || Ga Na | Se Vi Ta ||"
                 },
                 {
-                    "swaram": "r s r m | g r s , ||",
-                    "sahityam": "Te Na mo Na | mo . . . ||"
+                    "swaram": "R M | P D M P || D P | M G R S ||",
+                    "sahityam": "Sid Dhi | Vi Na Ya Ka || Te Na | Mo Na Mo ||"
+                },
+                {
+                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
+                },
+                {
+                    "swaram": "R M | P D M P || D P | M G R S ||",
+                    "sahityam": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
+                },
+                {
+                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
         },
@@ -42,12 +64,24 @@
             "section": "Charanam 2",
             "content": [
                 {
-                    "swaram": "p m p , | m r s , | r s r m | g r s , ||",
-                    "sahityam": "Sa ka la Vi | dhya di Pu ji | ta Sar vot ta | ma . . . ||"
+                    "swaram": "M P | D S S R || R S | D P M P ||",
+                    "sahityam": "Sa Ka | La Vi Dya - || Aa Di |Pu - Ji Ta ||"
                 },
                 {
-                    "swaram": "r s r m | g r s , ||",
-                    "sahityam": "Te Na mo Na | mo . . . ||"
+                    "swaram": "R M | P D M P || D P | M G R S ||",
+                    "sahityam": "Sar - | Vo - Ta Ma || Te - | Na Mo Na Mo ||"
+                },
+                {
+                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
+                },
+                {
+                    "swaram": "R M | P D M P || D P | M G R S ||",
+                    "sahityam": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
+                },
+                {
+                    "swaram": "S R | M G R S || R M | P D M P ||",
+                    "sahityam": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
         }
