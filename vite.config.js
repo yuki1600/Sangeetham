@@ -5,6 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    allowedHosts: ['buck-monte-dispatch-berkeley.trycloudflare.com']
+    allowedHosts: ['buck-monte-dispatch-berkeley.trycloudflare.com'],
+    proxy: {
+      '/api': { target: 'http://localhost:3001', changeOrigin: true }
+    }
   }
 })

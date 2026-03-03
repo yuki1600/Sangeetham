@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Song editor uploads (user data, not source code)
+server/songs/*/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

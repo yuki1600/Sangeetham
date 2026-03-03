@@ -1,87 +1,15 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { ArrowLeft, Play, Pause, Music, ChevronLeft, ChevronRight, RotateCcw, Repeat } from 'lucide-react';
 import CompactPitchBar from './CompactPitchBar';
+import LaneLabel from './LaneLabel';
+import NotationLane from './NotationLane';
+import { buildAavartanas } from '../utils/songParser';
 
 /** Duration of one aavartana in seconds */
 const AAVARTANA_SEC = 3.3;
 
 /** Pixel width of one aavartana column in the scrolling grid */
 const AAVARTANA_PX = 320;
-
-/**
- * Parse a swara/sahityam string into an array of tokens.
- * Each token: { text, beats, isSeparator, octave }
- * Separators: '|' (half-bar) and '||' (full bar).
- * Octaves: '.' prefix for lower, '.' suffix for higher.
- */
-function parseNotation(str) {
-    if (!str) return [];
-    // Normalise double-bar first
-    const raw = str.replace(/\|\|/g, ' DBLBAR ').replace(/\|/g, ' BAR ');
-    return raw.split(/\s+/).filter(Boolean).map(tok => {
-        if (tok === 'DBLBAR') return { text: '||', isSeparator: true, isDouble: true };
-        if (tok === 'BAR') return { text: '|', isSeparator: true, isDouble: false };
-
-        let text = tok;
-        let octave = null;
-        if (text.startsWith('.')) {
-            octave = 'lower';
-            text = text.substring(1);
-        } else if (text.endsWith('.')) {
-            octave = 'higher';
-            text = text.substring(0, text.length - 1);
-        }
-
-        return { text, isSeparator: false, octave };
-    });
-}
-
-/**
- * Given the entire JSON composition, build a flat list of aavartana rows.
- * Each entry in 'content' might contain multiple aavartanas separated by '||'.
- * We split them so each 'row' in our list is exactly ONE aavartana (3.3s).
- */
-function buildAavartanas(composition) {
-    const rows = [];
-    if (!composition) return rows;
-
-    for (const section of composition) {
-        for (const entry of section.content) {
-            // Split by double bar '||' to get individual aavartanas
-            const swaraParts = entry.swaram.split('||').map(s => s.trim()).filter(Boolean);
-            const sahityaParts = entry.sahityam.split('||').map(s => s.trim()).filter(Boolean);
-
-            // They should ideally match in count, but we iterate safari-style
-            const count = Math.max(swaraParts.length, sahityaParts.length);
-
-            for (let i = 0; i < count; i++) {
-                rows.push({
-                    section: section.section,
-                    swara: parseNotation(swaraParts[i] + (swaraParts[i] ? ' ||' : '')),
-                    sahitya: parseNotation(sahityaParts[i] + (sahityaParts[i] ? ' ||' : '')),
-                });
-            }
-        }
-    }
-    return rows;
-}
-
-/** Colour map for swara tokens */
-const SWARA_COLORS = {
-    S: '#34d399', // emerald
-    R: '#60a5fa', // blue
-    G: '#a78bfa', // purple
-    M: '#fbbf24', // amber
-    P: '#f87171', // red
-    D: '#fb923c', // orange
-    N: '#e879f9', // pink
-};
-
-function swaraColor(text, theme) {
-    if (theme === 'light') return '#000000';
-    const first = text[0]?.toUpperCase();
-    return SWARA_COLORS[first] || '#e8e8f0';
-}
 
 // ─── WaveformCanvas ───────────────────────────────────────────────────────────
 
@@ -186,161 +114,6 @@ function WaveformCanvas({ audioUrl, currentTime, totalDuration, playheadFraction
     return (
         <div className="w-full h-full block">
             <canvas ref={canvasRef} className="w-full h-full block" />
-        </div>
-    );
-}
-
-// ─── NotationLane ─────────────────────────────────────────────────────────────
-
-function NotationLane({ aavartanas, currentTime, totalDuration, playheadFraction = 0.25, type = 'swara', theme }) {
-    const containerRef = useRef(null);
-    const animRef = useRef(null);
-    const currentTimeRef = useRef(currentTime);
-    useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
-
-    // Animate scroll
-    useEffect(() => {
-        const animate = () => {
-            const el = containerRef.current;
-            if (el) {
-                const t = currentTimeRef.current;
-                const offset = (t / AAVARTANA_SEC) * AAVARTANA_PX;
-                el.style.transform = `translateX(-${offset}px)`;
-            }
-            animRef.current = requestAnimationFrame(animate);
-        };
-        animRef.current = requestAnimationFrame(animate);
-        return () => cancelAnimationFrame(animRef.current);
-    }, []);
-
-    const isSwara = type === 'swara';
-    const isDark = theme !== 'light';
-
-    return (
-        <div className="relative w-full h-full overflow-hidden no-scrollbar">
-            {/* Scrolling content */}
-            <div
-                ref={containerRef}
-                className="absolute top-0 flex h-full items-center"
-                style={{
-                    left: `${playheadFraction * 100}%`,
-                    willChange: 'transform',
-                    paddingRight: '60vw',
-                }}
-            >
-                {aavartanas.map((av, avIdx) => {
-                    const tokens = isSwara ? av.swara : av.sahitya;
-                    // Count non-separator tokens to distribute width
-                    const noteTokens = tokens.filter(t => !t.isSeparator);
-                    const noteCount = noteTokens.length || 1;
-                    const noteWidth = AAVARTANA_PX / (noteCount + tokens.filter(t => t.isSeparator).length * 0.3);
-
-                    return (
-                        <div
-                            key={avIdx}
-                            className="relative flex items-center h-full flex-shrink-0"
-                            style={{
-                                width: AAVARTANA_PX,
-                                // Removed borderRight thin line
-                            }}
-                        >
-                            {/* Section label above first token of each section change */}
-                            {(avIdx === 0 || aavartanas[avIdx - 1]?.section !== av.section) && (
-                                <div
-                                    className="absolute top-2 left-4 px-2 py-0.5 rounded bg-cyan-500/20 text-[11px] font-black tracking-widest uppercase"
-                                    style={{
-                                        color: isDark ? '#a5f3fc' : '#155e75',
-                                        border: `1px solid ${isDark ? 'rgba(165,243,252,0.2)' : 'rgba(21,94,117,0.2)'}`
-                                    }}
-                                >
-                                    {av.section}
-                                </div>
-                            )}
-
-                            {/* Tokens */}
-                            {tokens.map((tok, tIdx) => {
-                                if (tok.isSeparator) {
-                                    return (
-                                        <div
-                                            key={tIdx}
-                                            className="flex-shrink-0 flex items-center justify-center h-full"
-                                            style={{ width: noteWidth * 0.25 }}
-                                        >
-                                            <span
-                                                className="font-bold opacity-30 px-2"
-                                                style={{ fontSize: '1.4rem', color: theme === 'light' ? '#000' : '#fff' }}
-                                            >
-                                                {tok.text}
-                                            </span>
-                                        </div>
-                                    );
-                                }
-
-                                const color = isSwara ? swaraColor(tok.text, theme) : (theme === 'light' ? '#000000' : '#fcd34d');
-
-                                return (
-                                    <div
-                                        key={tIdx}
-                                        className="flex-shrink-0 flex items-center justify-center h-full"
-                                        style={{ width: noteWidth, minWidth: 20 }}
-                                    >
-                                        <div className="relative flex flex-col items-center">
-                                            {isSwara && tok.octave === 'higher' && (
-                                                <div
-                                                    className="absolute -top-2 w-1.5 h-1.5 rounded-full"
-                                                    style={{ backgroundColor: color }}
-                                                />
-                                            )}
-                                            <span
-                                                className="font-bold select-none leading-none text-center px-1"
-                                                style={{
-                                                    fontSize: isSwara ? '1.5rem' : '1.2rem',
-                                                    fontFamily: "'Outfit', sans-serif",
-                                                    color,
-                                                    textShadow: isSwara && isDark
-                                                        ? `0 0 12px ${color}66`
-                                                        : 'none',
-                                                    letterSpacing: isSwara ? '0.08em' : '0.02em',
-                                                    whiteSpace: 'nowrap'
-                                                }}
-                                            >
-                                                {tok.text === '-' ? (
-                                                    <span style={{ opacity: 0.3 }}>—</span>
-                                                ) : tok.text}
-                                            </span>
-                                            {isSwara && tok.octave === 'lower' && (
-                                                <div
-                                                    className="absolute -bottom-2 w-1.5 h-1.5 rounded-full"
-                                                    style={{ backgroundColor: color }}
-                                                />
-                                            )}
-                                        </div>
-                                    </div>
-                                );
-                            })}
-
-                        </div>
-                    );
-                })}
-            </div>
-
-            {/* Left fade overlay (past) */}
-            <div
-                className="absolute inset-y-0 left-0 pointer-events-none z-10"
-                style={{
-                    width: `${playheadFraction * 100}%`,
-                    background: `linear-gradient(to right, ${isDark ? '#0a0a0f' : '#f8fafc'}, transparent)`,
-                }}
-            />
-
-            {/* Right fade overlay */}
-            <div
-                className="absolute inset-y-0 right-0 pointer-events-none z-10"
-                style={{
-                    width: '15%',
-                    background: `linear-gradient(to left, ${isDark ? '#0a0a0f' : '#f8fafc'}, transparent)`,
-                }}
-            />
         </div>
     );
 }
@@ -484,6 +257,18 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
             setIsPlaying(true);
         }
     }, [isPlaying]);
+
+    // Spacebar play/pause
+    useEffect(() => {
+        const onKey = (e) => {
+            if (e.code !== 'Space') return;
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+            e.preventDefault();
+            togglePlay();
+        };
+        window.addEventListener('keydown', onKey);
+        return () => window.removeEventListener('keydown', onKey);
+    }, [togglePlay]);
 
     const restartAudio = useCallback(() => {
         if (!audioRef.current) return;
@@ -893,20 +678,4 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
     );
 }
 
-function LaneLabel({ label, isDark }) {
-    return (
-        <div
-            className="absolute top-3 left-4 z-30 text-[11px] font-black uppercase tracking-[0.2em] px-3.5 py-2 rounded-xl"
-            style={{
-                color: isDark ? '#fff' : '#000',
-                background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
-                border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
-                backdropFilter: 'blur(12px)',
-                boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
-            }}
-        >
-            {label}
-        </div>
-    );
-}
 

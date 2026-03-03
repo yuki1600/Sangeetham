@@ -9,21 +9,41 @@ import ExerciseRunner from './components/ExerciseRunner';
 import FeedbackSummary from './components/FeedbackSummary';
 import SongSection from './components/SongSection';
 import SongsPanel from './components/SongsPanel';
+import SongEditor from './components/editor/SongEditor';
+import EditorSongView from './components/editor/EditorSongView';
 import { TONIC_PRESETS } from './utils/swaraUtils';
 import { EXERCISES } from './utils/exercises';
 import { ChevronRight, Music2 } from 'lucide-react';
+
+/** Parse the URL hash into initial view state (supports refresh-to-restore). */
+function parseHash() {
+  const hash = window.location.hash.slice(1);
+  if (hash === 'editor') return { view: 'editor' };
+  if (hash.startsWith('editor-song/')) {
+    const id = hash.slice('editor-song/'.length);
+    if (id) return { view: 'editor-song', editorSongId: id };
+    return { view: 'editor' };
+  }
+  if (hash.startsWith('song-browser/')) {
+    const groupId = hash.slice('song-browser/'.length);
+    if (groupId) return { view: 'song-browser', groupId };
+  }
+  return { view: 'home' };
+}
 
 /**
  * Main application — routes between home, song-browser, practicing, and feedback views.
  */
 export default function App() {
-  const [view, setView] = useState('home'); // home | song-browser | practicing | feedback | song-view
+  const _initial = parseHash();
+  const [view, setView] = useState(_initial.view);
   const [tonicHz, setTonicHz] = useState(TONIC_PRESETS[0].hz);
   const [selectedExercise, setSelectedExercise] = useState(null);
   const [exerciseResults, setExerciseResults] = useState(null);
   const [theme, setTheme] = useState('light');
-  const [browsedGroupId, setBrowsedGroupId] = useState(null);
+  const [browsedGroupId, setBrowsedGroupId] = useState(_initial.groupId || null);
   const [selectedSong, setSelectedSong] = useState(null);
+  const [selectedEditorSongId, setSelectedEditorSongId] = useState(_initial.editorSongId || null);
 
   useEffect(() => {
     if (theme === 'light') {
@@ -32,6 +52,16 @@ export default function App() {
       document.body.classList.remove('light-theme');
     }
   }, [theme]);
+
+  // Sync current view to URL hash so page refresh restores the same view
+  useEffect(() => {
+    let hash = '';
+    if (view === 'editor') hash = 'editor';
+    else if (view === 'editor-song' && selectedEditorSongId) hash = `editor-song/${selectedEditorSongId}`;
+    else if (view === 'song-browser' && browsedGroupId) hash = `song-browser/${browsedGroupId}`;
+    // practicing / feedback / song-view are transient — refresh sends to home
+    history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname);
+  }, [view, selectedEditorSongId, browsedGroupId]);
 
   // Start exercise directly (from Free Sandbox or Basic Practices)
   const handleStartExercise = useCallback((exercise) => {
@@ -82,6 +112,7 @@ export default function App() {
     setExerciseResults(null);
     setBrowsedGroupId(null);
     setSelectedSong(null);
+    setSelectedEditorSongId(null);
     setView('home');
   }, []);
 
@@ -95,6 +126,33 @@ export default function App() {
     }
   }, [browsedGroupId]);
 
+  // Editor views
+  if (view === 'editor') {
+    return (
+      <div className="h-full bg-[var(--bg-primary)]">
+        <SongEditor
+          theme={theme}
+          onEditSong={(id) => { setSelectedEditorSongId(id); setView('editor-song'); }}
+          onBack={handleHome}
+        />
+      </div>
+    );
+  }
+
+  if (view === 'editor-song' && selectedEditorSongId) {
+    return (
+      <div className="h-full bg-[var(--bg-primary)]">
+        <EditorSongView
+          songId={selectedEditorSongId}
+          theme={theme}
+          tonicHz={tonicHz}
+          onTonicChange={setTonicHz}
+          onBack={() => setView('editor')}
+        />
+      </div>
+    );
+  }
+
   // Home view
   if (view === 'home') {
     return (
@@ -102,6 +160,7 @@ export default function App() {
         <Header
           theme={theme}
           onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onEditor={() => setView('editor')}
         />
 
         <main className="flex-1 px-6 pb-8 max-w-2xl mx-auto w-full">

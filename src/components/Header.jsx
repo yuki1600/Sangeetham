@@ -1,7 +1,7 @@
 import React from 'react';
-import { Music, Sun, Moon } from 'lucide-react';
+import { Music, Sun, Moon, FilePen } from 'lucide-react';
 
-export default function Header({ theme, onToggleTheme }) {
+export default function Header({ theme, onToggleTheme, onEditor }) {
     return (
         <header className="flex items-center justify-between px-6 py-4">
             <div className="flex items-center gap-3">
@@ -16,6 +16,15 @@ export default function Header({ theme, onToggleTheme }) {
                 </div>
             </div>
             <div className="flex items-center gap-2">
+                {onEditor && (
+                    <button
+                        onClick={onEditor}
+                        className="btn-icon text-sm"
+                        title="Song Editor"
+                    >
+                        <FilePen className="w-5 h-5" />
+                    </button>
+                )}
                 <button
                     onClick={onToggleTheme}
                     className="btn-icon text-sm"
