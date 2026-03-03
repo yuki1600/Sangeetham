@@ -1,0 +1,211 @@
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { Volume2, VolumeX } from 'lucide-react';
+import { startMic, stopMic, getAudioBuffer } from '../utils/audioEngine';
+import { initPitchDetector, detectPitch } from '../utils/pitchDetection';
+import { hzToSwara, TONIC_PRESETS } from '../utils/swaraUtils';
+import { startDrone, stopDrone, isDronePlaying, setDroneVolume, getDroneVolume } from '../utils/droneEngine';
+
+export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
+    const [currentSwara, setCurrentSwara] = useState(null);
+    const [droneActive, setDroneActive] = useState(isDronePlaying());
+    const [droneVolume, setDroneVolumeState] = useState(getDroneVolume());
+    const [micReady, setMicReady] = useState(false);
+
+    const lastProcessTimeRef = useRef(0);
+    const rafRef = useRef(null);
+
+    const toggleDrone = useCallback(async () => {
+        if (droneActive) {
+            stopDrone();
+            setDroneActive(false);
+        } else {
+            await startDrone(tonicHz);
+            setDroneActive(true);
+        }
+    }, [droneActive, tonicHz]);
+
+    const handleVolumeChange = (e) => {
+        const val = parseFloat(e.target.value);
+        setDroneVolumeState(val);
+        setDroneVolume(val);
+    };
+
+    // Auto-update drone when tonic changes
+    useEffect(() => {
+        if (droneActive) {
+            startDrone(tonicHz);
+        }
+    }, [tonicHz, droneActive]);
+
+    useEffect(() => {
+        let cancelled = false;
+        const setup = async () => {
+            try {
+                const { sampleRate } = await startMic();
+                initPitchDetector(sampleRate);
+                if (!cancelled) setMicReady(true);
+            } catch (err) {
+                console.error('Mic setup failed:', err);
+            }
+        };
+        setup();
+        return () => {
+            cancelled = true;
+            stopMic();
+            if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        };
+    }, []);
+
+    useEffect(() => {
+        if (!micReady) return;
+
+        let smoothHz = null;
+        const hzHistory = [];
+
+        const loop = () => {
+            const buffer = getAudioBuffer();
+            if (buffer) {
+                const rawHz = detectPitch(buffer);
+                const now = performance.now();
+
+                if (now - lastProcessTimeRef.current >= 100) {
+                    lastProcessTimeRef.current = now;
+
+                    if (rawHz) {
+                        hzHistory.push(rawHz);
+                        if (hzHistory.length > 3) hzHistory.shift();
+                        const sorted = [...hzHistory].sort((a, b) => a - b);
+                        const median = sorted[Math.floor(sorted.length / 2)];
+
+                        if (smoothHz === null || Math.abs(smoothHz - median) > 30) {
+                            smoothHz = median;
+                        } else {
+                            smoothHz = smoothHz * 0.8 + median * 0.2;
+                        }
+                    } else {
+                        hzHistory.push(null);
+                        if (hzHistory.length > 3) hzHistory.shift();
+                        if (hzHistory.every(h => h === null)) smoothHz = null;
+                    }
+
+                    if (smoothHz) {
+                        const swaraInfo = hzToSwara(smoothHz, tonicHz);
+                        if (swaraInfo) {
+                            setCurrentSwara({
+                                ...swaraInfo,
+                                hz: smoothHz,
+                                deviation: Math.round(swaraInfo.deviation)
+                            });
+                        } else {
+                            setCurrentSwara(null);
+                        }
+                    } else {
+                        setCurrentSwara(null);
+                    }
+                }
+            }
+            rafRef.current = requestAnimationFrame(loop);
+        };
+
+        rafRef.current = requestAnimationFrame(loop);
+        return () => {
+            if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        };
+    }, [micReady, tonicHz]);
+
+    const isDark = theme !== 'light';
+
+    return (
+        <div className="flex items-center justify-center gap-6 py-2 w-full">
+            {/* Pitch Display */}
+            <div className={`flex items-center gap-4 px-6 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
+                }`} style={{ height: '56px', minWidth: '200px' }}>
+                {currentSwara ? (
+                    <>
+                        <div className="flex items-center justify-center w-16">
+                            <div className={`text-4xl font-black transition-all duration-300 ${Math.abs(currentSwara.deviation) <= 15 ? 'text-emerald-400' :
+                                Math.abs(currentSwara.deviation) <= 35 ? 'text-yellow-400' :
+                                    isDark ? 'text-white' : 'text-slate-900'
+                                }`}>
+                                {currentSwara.swara}
+                            </div>
+                        </div>
+                        <div className={`w-px h-10 ${isDark ? 'bg-white/10' : 'bg-black/10'}`} />
+                        <div className="flex flex-col leading-tight">
+                            <div className={`text-xl font-bold tabular-nums ${isDark ? 'text-white' : 'text-slate-900'}`}>
+                                {currentSwara.hz.toFixed(1)} <span className="text-xs opacity-60 font-black tracking-widest ml-1">HZ</span>
+                            </div>
+                            <div className={`text-xs font-black tracking-[0.2em] uppercase ${Math.abs(currentSwara.deviation) <= 15 ? 'text-emerald-400' :
+                                Math.abs(currentSwara.deviation) <= 35 ? 'text-yellow-400' :
+                                    'opacity-60'
+                                }`}>
+                                {currentSwara.deviation > 0 ? '+' : ''}{currentSwara.deviation}¢
+                            </div>
+                        </div>
+                    </>
+                ) : (
+                    <div className="flex items-center gap-3 opacity-40 px-4">
+                        <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_10px_rgba(52,211,153,0.5)]" />
+                        <span className="text-xs font-black tracking-[0.2em] uppercase">Listening</span>
+                    </div>
+                )}
+            </div>
+
+            {/* Scale Selector */}
+            <div className={`flex items-center p-1 rounded-full border ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
+                }`} style={{ height: '56px' }}>
+                {TONIC_PRESETS.map((t) => {
+                    const isSelected = t.hz === tonicHz;
+                    return (
+                        <button
+                            key={t.name}
+                            onClick={() => onTonicChange(t.hz)}
+                            className={`
+                                w-9 h-9 rounded-full text-xs font-black transition-all duration-200
+                                ${isSelected
+                                    ? 'bg-emerald-500 text-white shadow-xl scale-110 z-10'
+                                    : `hover:bg-white/10 ${isDark ? 'text-white/60' : 'text-black/60'}`
+                                }
+                            `}
+                        >
+                            {t.name}
+                        </button>
+                    );
+                })}
+            </div>
+
+            {/* Drone Controls */}
+            <div className={`flex items-center px-3 gap-3 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
+                }`} style={{ height: '56px' }}>
+                <button
+                    onClick={toggleDrone}
+                    className={`w-11 h-11 flex items-center justify-center rounded-full transition-all duration-300 ${droneActive
+                        ? 'text-emerald-400'
+                        : `hover:text-white ${isDark ? 'text-white/40' : 'text-black/40'}`
+                        }`}
+                    title="Toggle Drone"
+                >
+                    {droneActive ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
+                </button>
+
+                {droneActive && (
+                    <div className="flex items-center gap-2 pr-2 animate-in fade-in slide-in-from-right-2 duration-300">
+                        <input
+                            type="range"
+                            min="-40"
+                            max="0"
+                            step="1"
+                            value={droneVolume}
+                            onChange={handleVolumeChange}
+                            className={`w-24 h-1 rounded-lg appearance-none cursor-pointer accent-emerald-500 ${isDark ? 'bg-white/10' : 'bg-black/10'}`}
+                            style={{
+                                WebkitAppearance: 'none',
+                                outline: 'none'
+                            }}
+                        />
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+}

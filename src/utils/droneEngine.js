@@ -12,6 +12,8 @@ let droneNodes = null;
 let isPlaying = false;
 let strumLoop = null;
 let generationId = 0;
+let droneVolume = -10; // Master volume in dB
+let masterGainNode = null;
 
 /**
  * Create a single plucked-string voice with rich harmonics.
@@ -89,8 +91,13 @@ export async function startDrone(tonicHz) {
     await Tone.start();
 
     // --- Effects chain ---
+    // Master gain for drone volume control
+    if (!masterGainNode) {
+        masterGainNode = new Tone.Volume(droneVolume).toDestination();
+    }
+
     // Warm reverb for resonance
-    const reverb = new Tone.Reverb({ decay: 6, wet: 0.35 }).toDestination();
+    const reverb = new Tone.Reverb({ decay: 6, wet: 0.35 }).connect(masterGainNode);
     await reverb.generate();
 
     // If a stop or another start happened while we were generating reverb, abort
@@ -127,7 +134,7 @@ export async function startDrone(tonicHz) {
 
     const voiceOptions = {
         harmonics: tanpuraHarmonics,
-        volume: -24,
+        volume: -14, // Increased from -24
         attackTime: 0.015,
         decayTime: 4,
         sustainLevel: 0.1,
@@ -136,22 +143,22 @@ export async function startDrone(tonicHz) {
 
     const paVoice = createStringVoice(paFreq, filter, {
         ...voiceOptions,
-        volume: -40, // Pa is slightly softer
+        volume: -30, // Increased from -40
     });
 
     const saHigh1 = createStringVoice(saHighFreq, filter, {
         ...voiceOptions,
-        volume: -38,
+        volume: -28, // Increased from -38
     });
 
     const saHigh2 = createStringVoice(saHighFreq, filter, {
         ...voiceOptions,
-        volume: -39, // Slightly different volume for natural feel
+        volume: -29, // Increased from -39
     });
 
     const saLow = createStringVoice(saFreq, filter, {
         ...voiceOptions,
-        volume: -37,
+        volume: -27, // Increased from -37
         decayTime: 5, // Bass string rings longer
         sustainLevel: 0.12,
     });
@@ -177,6 +184,7 @@ export async function startDrone(tonicHz) {
         reverb,
         chorus,
         filter,
+        masterGainNode,
     };
     isPlaying = true;
 }
@@ -217,4 +225,22 @@ export function stopDrone() {
  */
 export function isDronePlaying() {
     return isPlaying;
+}
+
+/**
+ * Set the master volume of the drone in dB.
+ * @param {number} db - volume in decibels
+ */
+export function setDroneVolume(db) {
+    droneVolume = db;
+    if (masterGainNode) {
+        masterGainNode.volume.value = db;
+    }
+}
+
+/**
+ * Get the current drone volume in dB.
+ */
+export function getDroneVolume() {
+    return droneVolume;
 }

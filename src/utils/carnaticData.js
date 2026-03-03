@@ -35,7 +35,7 @@ export const BASIC_PRACTICES = [
 
 // ─── Geethams ────────────────────────────────────────────────────────────────
 export const GEETHAMS = [
-    { id: 'g-lambodara', title: 'Lambodara Lakumikara', compositionType: 'Geetham', raga: 'Malahari', tala: 'Rupakam', composer: 'Purandaradasa', exerciseId: 'lambodhara' },
+    { id: 'g-lambodara', title: 'Lambodara Lakumikara', compositionType: 'Geetham', raga: 'Malahari', tala: 'Rupakam', composer: 'Purandaradasa', exerciseId: 'lambodhara', songViewId: 'lambodhara' },
     { id: 'g-keraya', title: 'Keraya Neeranu', compositionType: 'Geetham', raga: 'Malahari', tala: 'Triputa', composer: 'Purandaradasa', exerciseId: null },
     { id: 'g-kunda', title: 'Kunda Goura', compositionType: 'Geetham', raga: 'Malahari', tala: 'Rupakam', composer: 'Purandaradasa', exerciseId: null },
     { id: 'g-paduma', title: 'Padumanabha', compositionType: 'Geetham', raga: 'Malahari', tala: 'Triputa', composer: 'Purandaradasa', exerciseId: null },

@@ -7,6 +7,8 @@ import LessonsPanel from './components/LessonsPanel';
 import SongBrowser from './components/SongBrowser';
 import ExerciseRunner from './components/ExerciseRunner';
 import FeedbackSummary from './components/FeedbackSummary';
+import SongSection from './components/SongSection';
+import SongsPanel from './components/SongsPanel';
 import { TONIC_PRESETS } from './utils/swaraUtils';
 import { EXERCISES } from './utils/exercises';
 import { ChevronRight, Music2 } from 'lucide-react';
@@ -15,12 +17,13 @@ import { ChevronRight, Music2 } from 'lucide-react';
  * Main application — routes between home, song-browser, practicing, and feedback views.
  */
 export default function App() {
-  const [view, setView] = useState('home'); // home | song-browser | practicing | feedback
+  const [view, setView] = useState('home'); // home | song-browser | practicing | feedback | song-view
   const [tonicHz, setTonicHz] = useState(TONIC_PRESETS[0].hz);
   const [selectedExercise, setSelectedExercise] = useState(null);
   const [exerciseResults, setExerciseResults] = useState(null);
   const [theme, setTheme] = useState('light');
   const [browsedGroupId, setBrowsedGroupId] = useState(null);
+  const [selectedSong, setSelectedSong] = useState(null);
 
   useEffect(() => {
     if (theme === 'light') {
@@ -45,8 +48,14 @@ export default function App() {
     setView('song-browser');
   }, []);
 
-  // Song selected from browser — find linked exercise or launch sandbox
+  // Song selected from browser — open SongSection if songViewId, else exercise
   const handleSelectSong = useCallback((song) => {
+    // Songs with a dedicated song view → open SongSection
+    if (song.songViewId) {
+      setSelectedSong(song);
+      setView('song-view');
+      return;
+    }
     if (song.exerciseId) {
       const exercise = EXERCISES.find(e => e.id === song.exerciseId);
       if (exercise) {
@@ -72,8 +81,19 @@ export default function App() {
     setSelectedExercise(null);
     setExerciseResults(null);
     setBrowsedGroupId(null);
+    setSelectedSong(null);
     setView('home');
   }, []);
+
+  const handleBackFromSong = useCallback(() => {
+    setSelectedSong(null);
+    // Go back to song browser if we came from there
+    if (browsedGroupId) {
+      setView('song-browser');
+    } else {
+      setView('home');
+    }
+  }, [browsedGroupId]);
 
   // Home view
   if (view === 'home') {
@@ -93,6 +113,7 @@ export default function App() {
               </div>
               <LivePitchMonitor tonicHz={tonicHz} theme={theme} />
             </div>
+            <SongsPanel onSelectSong={handleSelectSong} />
             <LessonsPanel
               onStartExercise={handleStartExercise}
               onBrowse={handleBrowseGroup}
@@ -147,6 +168,21 @@ export default function App() {
           theme={theme}
           onRetry={handleRetry}
           onHome={handleHome}
+        />
+      </div>
+    );
+  }
+
+  // Song view
+  if (view === 'song-view' && selectedSong) {
+    return (
+      <div className="h-full bg-[var(--bg-primary)]">
+        <SongSection
+          song={selectedSong}
+          theme={theme}
+          tonicHz={tonicHz}
+          onTonicChange={setTonicHz}
+          onBack={handleBackFromSong}
         />
       </div>
     );
