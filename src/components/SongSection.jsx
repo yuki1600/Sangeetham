@@ -10,11 +10,9 @@ const AAVARTANA_PX = 320;
 
 /**
  * Parse a swara/sahityam string into an array of tokens.
- * Each token: { text, beats, isSeparator }
+ * Each token: { text, beats, isSeparator, octave }
  * Separators: '|' (half-bar) and '||' (full bar).
- *
- * Example: "M P | D S S R || R S | D P M P ||"
- * → [{text:'M'}, {text:'P'}, {sep:'|'}, {text:'D'}, ...]
+ * Octaves: '.' prefix for lower, '.' suffix for higher.
  */
 function parseNotation(str) {
     if (!str) return [];
@@ -23,7 +21,18 @@ function parseNotation(str) {
     return raw.split(/\s+/).filter(Boolean).map(tok => {
         if (tok === 'DBLBAR') return { text: '||', isSeparator: true, isDouble: true };
         if (tok === 'BAR') return { text: '|', isSeparator: true, isDouble: false };
-        return { text: tok, isSeparator: false };
+
+        let text = tok;
+        let octave = null;
+        if (text.startsWith('.')) {
+            octave = 'lower';
+            text = text.substring(1);
+        } else if (text.endsWith('.')) {
+            octave = 'higher';
+            text = text.substring(0, text.length - 1);
+        }
+
+        return { text, isSeparator: false, octave };
     });
 }
 
@@ -70,7 +79,7 @@ const SWARA_COLORS = {
 
 function swaraColor(text, theme) {
     if (theme === 'light') return '#000000';
-    const first = text[0].toUpperCase();
+    const first = text[0]?.toUpperCase();
     return SWARA_COLORS[first] || '#e8e8f0';
 }
 
@@ -275,23 +284,37 @@ function NotationLane({ aavartanas, currentTime, totalDuration, playheadFraction
                                         className="flex-shrink-0 flex items-center justify-center h-full"
                                         style={{ width: noteWidth, minWidth: 20 }}
                                     >
-                                        <span
-                                            className="font-bold select-none leading-none text-center px-1"
-                                            style={{
-                                                fontSize: isSwara ? '1.5rem' : '1.2rem',
-                                                fontFamily: "'Outfit', sans-serif",
-                                                color,
-                                                textShadow: isSwara && isDark
-                                                    ? `0 0 12px ${color}66`
-                                                    : 'none',
-                                                letterSpacing: isSwara ? '0.08em' : '0.02em',
-                                                whiteSpace: 'nowrap'
-                                            }}
-                                        >
-                                            {tok.text === '-' ? (
-                                                <span style={{ opacity: 0.3 }}>—</span>
-                                            ) : tok.text}
-                                        </span>
+                                        <div className="relative flex flex-col items-center">
+                                            {isSwara && tok.octave === 'higher' && (
+                                                <div
+                                                    className="absolute -top-2 w-1.5 h-1.5 rounded-full"
+                                                    style={{ backgroundColor: color }}
+                                                />
+                                            )}
+                                            <span
+                                                className="font-bold select-none leading-none text-center px-1"
+                                                style={{
+                                                    fontSize: isSwara ? '1.5rem' : '1.2rem',
+                                                    fontFamily: "'Outfit', sans-serif",
+                                                    color,
+                                                    textShadow: isSwara && isDark
+                                                        ? `0 0 12px ${color}66`
+                                                        : 'none',
+                                                    letterSpacing: isSwara ? '0.08em' : '0.02em',
+                                                    whiteSpace: 'nowrap'
+                                                }}
+                                            >
+                                                {tok.text === '-' ? (
+                                                    <span style={{ opacity: 0.3 }}>—</span>
+                                                ) : tok.text}
+                                            </span>
+                                            {isSwara && tok.octave === 'lower' && (
+                                                <div
+                                                    className="absolute -bottom-2 w-1.5 h-1.5 rounded-full"
+                                                    style={{ backgroundColor: color }}
+                                                />
+                                            )}
+                                        </div>
                                     </div>
                                 );
                             })}
@@ -886,3 +909,4 @@ function LaneLabel({ label, isDark }) {
         </div>
     );
 }
+
