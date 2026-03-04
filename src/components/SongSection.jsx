@@ -163,6 +163,17 @@ function Playhead({ fraction }) {
 
 // ─── Main SongSection ─────────────────────────────────────────────────────────
 
+/**
+ * Map songViewId → { jsonUrl, audioUrl }
+ * Add entries here when new songs are added to public/.
+ */
+const SONG_ASSET_MAP = {
+    lambodhara: {
+        jsonUrl: '/lambodhara.json',
+        audioUrl: '/Sree Gananatha_trimmed.mp3',
+    },
+};
+
 export default function SongSection({ song, onBack, theme, tonicHz, onTonicChange }) {
     const [composition, setComposition] = useState(null);
     const [songDetails, setSongDetails] = useState(null);
@@ -183,20 +194,27 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
 
     const PLAYHEAD = 0.25;
 
-    // Load lambodhara.json
+    // Resolve asset URLs from the song prop
+    const songAssets = SONG_ASSET_MAP[song?.songViewId] || {};
+    const jsonUrl = song?.jsonUrl || songAssets.jsonUrl || `/${song?.songViewId}.json`;
+    const audioUrl = song?.audioUrl || songAssets.audioUrl || `/${song?.songViewId}.mp3`;
+
+    // Load composition JSON
     useEffect(() => {
-        fetch('/lambodhara.json')
+        if (!jsonUrl) return;
+        fetch(jsonUrl)
             .then(r => r.json())
             .then(data => {
                 setComposition(data.composition);
                 setSongDetails(data.song_details);
             })
-            .catch(e => console.error('Failed to load lambodhara.json', e));
-    }, []);
+            .catch(e => console.error('Failed to load composition JSON:', e));
+    }, [jsonUrl]);
 
     // Set up audio element
     useEffect(() => {
-        const audio = new Audio('/Sree Gananatha_trimmed.mp3');
+        if (!audioUrl) return;
+        const audio = new Audio(audioUrl);
         audio.preload = 'auto';
         audioRef.current = audio;
 
@@ -212,7 +230,7 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
             audio.src = '';
             audioRef.current = null;
         };
-    }, []);
+    }, [audioUrl]);
 
     // RAF sync loop
     useEffect(() => {
@@ -579,7 +597,7 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                 >
                     <LaneLabel label="Audio" isDark={isDark} />
                     <WaveformCanvas
-                        audioUrl="/Sree Gananatha_trimmed.mp3"
+                        audioUrl={audioUrl}
                         currentTime={currentTime}
                         totalDuration={totalDuration}
                         playheadFraction={PLAYHEAD}
