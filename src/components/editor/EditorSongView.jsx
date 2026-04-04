@@ -60,8 +60,13 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isPublished, setIsPublished] = useState(false);
     const [isPublishing, setIsPublishing] = useState(false);
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
-    const [showDownloadMenu, setShowDownloadMenu] = useState(false);
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
+
+    // Track unsaved changes
+    const [savedDataStr, setSavedDataStr] = useState('');
+    const [showUnsavedWarning, setShowUnsavedWarning] = useState(false);
+    const currentDataStr = JSON.stringify({ composition, editOps, sectionTimings, customAavartanaSec });
+    const hasUnsavedChanges = savedDataStr && currentDataStr !== savedDataStr;
     const [isDownloadingAudio, setIsDownloadingAudio] = useState(false);
     const [previewBanner, setPreviewBanner] = useState(null); // { composition, editOps }
 
@@ -76,6 +81,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isSwapping, setIsSwapping] = useState(false);
     const audioSwapRef = useRef(null);
     const jsonSwapRef = useRef(null);
+    const [showDownloadMenu, setShowDownloadMenu] = useState(false);
 
     const isDark = theme !== 'light';
     const borderColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.07)';
@@ -158,10 +164,16 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             setSongData(cached);
             setComposition(cached.composition);
             const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = cached.editOps || {};
-            setEditOps({ trimStart: 0, trimEnd: null, cuts: [], ...ops });
-            setSectionTimings(st || {});
-            setCustomAavartanaSec(savedCalib ?? null);
+            const cleanOps = { trimStart: 0, trimEnd: null, cuts: [], ...ops };
+            const cleanSec = st || {};
+            const cleanCalib = savedCalib ?? null;
+            
+            setEditOps(cleanOps);
+            setSectionTimings(cleanSec);
+            setCustomAavartanaSec(cleanCalib);
             setIsPublished(!!cached.meta?.isPublished);
+            setSavedDataStr(JSON.stringify({ composition: cached.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib }));
+            
             // Default to sahitya if swara is missing
             if (cached.meta && !cached.meta.hasSwara && cached.meta.hasSahitya) {
                 setActiveAudioType('sahitya');
@@ -176,10 +188,16 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 setSongData(data);
                 setComposition(data.composition);
                 const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = data.editOps || {};
-                setEditOps({ trimStart: 0, trimEnd: null, cuts: [], ...ops });
-                setSectionTimings(st || {});
-                setCustomAavartanaSec(savedCalib ?? null);
+                const cleanOps = { trimStart: 0, trimEnd: null, cuts: [], ...ops };
+                const cleanSec = st || {};
+                const cleanCalib = savedCalib ?? null;
+
+                setEditOps(cleanOps);
+                setSectionTimings(cleanSec);
+                setCustomAavartanaSec(cleanCalib);
                 setIsPublished(!!data.meta?.isPublished);
+                setSavedDataStr(JSON.stringify({ composition: data.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib }));
+                
                 // Default to sahitya if swara is missing
                 if (data.meta && !data.meta.hasSwara && data.meta.hasSahitya) {
                     setActiveAudioType('sahitya');
@@ -482,6 +500,15 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setCustomAavartanaSec(null);
     }, []);
 
+    // ── Back Button Intercept ──────────────────────────────────────────────────
+    const handleBackAttempt = () => {
+        if (hasUnsavedChanges && !readOnly) {
+            setShowUnsavedWarning(true);
+        } else {
+            onBack();
+        }
+    };
+
     // ── Keyboard shortcuts ────────────────────────────────────────────────────
     useEffect(() => {
         const onKeyDown = (e) => {
@@ -582,6 +609,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             });
             if (!res.ok) throw new Error('Save failed');
             setSaveStatus('ok');
+            setSavedDataStr(currentDataStr); // Update base snapshot to clear unsaved changes
             setTimeout(() => setSaveStatus(null), 2500);
         } catch (e) {
             setSaveStatus('error');
@@ -1169,25 +1197,27 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             </button>
 
                             {/* Status / hint — absolute right so it doesn't shift the centred buttons */}
-                            <div className="absolute right-5 flex items-center gap-2">
-                                {isProcessing && (
-                                    <div className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
-                                        <div className="w-3 h-3 border border-current border-t-transparent rounded-full animate-spin" />
-                                        Processing...
-                                    </div>
-                                )}
-                                <span className="text-[10px] opacity-40">
-                                    {editorMode === 'calibrate' && activeSelection
-                                        ? `Selected: ${Math.abs((activeSelection.endTime ?? activeSelection.startTime) - activeSelection.startTime).toFixed(2)}s — Enter to apply · Esc to cancel`
-                                        : editorMode === 'calibrate'
-                                        ? 'Drag on waveform to select 1 āvartana'
-                                        : editorMode === 'trim' && activeSelection
-                                        ? 'Del to remove · Esc to cancel'
-                                        : editorMode === 'trim'
-                                        ? 'Drag waveform to select'
-                                        : 'Use Lyrics to edit notation'}
-                                </span>
-                            </div>
+                            {!showHistory && (
+                                <div className="absolute right-5 flex items-center gap-2">
+                                    {isProcessing && (
+                                        <div className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
+                                            <div className="w-3 h-3 border border-current border-t-transparent rounded-full animate-spin" />
+                                            Processing...
+                                        </div>
+                                    )}
+                                    <span className="text-[10px] opacity-40 hidden md:inline">
+                                        {editorMode === 'calibrate' && activeSelection
+                                            ? `Selected: ${Math.abs((activeSelection.endTime ?? activeSelection.startTime) - activeSelection.startTime).toFixed(2)}s — Enter to apply · Esc to cancel`
+                                            : editorMode === 'calibrate'
+                                            ? 'Drag on waveform to select 1 āvartana'
+                                            : editorMode === 'trim' && activeSelection
+                                            ? 'Del to remove · Esc to cancel'
+                                            : editorMode === 'trim'
+                                            ? 'Drag waveform to select'
+                                            : 'Use Lyrics to edit notation'}
+                                    </span>
+                                </div>
+                            )}
                         </div>
 
                         {/* ── Section Timings Panel ────────────────────────────────────── */}
@@ -1526,6 +1556,42 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         >
                             Cancel
                         </button>
+                    </div>
+                </div>
+            )}
+
+            {/* ── Unsaved Changes Warning Modal ──────────────────────────────────── */}
+            {showUnsavedWarning && (
+                <div 
+                    className="fixed inset-0 z-[60] flex items-center justify-center p-4"
+                    style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }}
+                >
+                    <div className="w-full max-w-sm rounded-3xl p-6 border shadow-2xl" style={{ background: isDark ? '#141420' : '#fff', borderColor }}>
+                        <div className="flex items-center justify-between mb-4">
+                            <h2 className="text-lg font-bold text-red-500" style={{ fontFamily: "'Outfit', sans-serif" }}>Unsaved Changes</h2>
+                            <button onClick={() => setShowUnsavedWarning(false)} className="opacity-60 hover:opacity-100">
+                                <X className="w-4 h-4" />
+                            </button>
+                        </div>
+                        <p className="text-sm opacity-80 mb-6 leading-relaxed">
+                            You have unsaved changes to this song. Are you sure you want to go back? All your recent edits will be lost.
+                        </p>
+                        
+                        <div className="flex flex-col gap-3">
+                            <button
+                                onClick={() => { setShowUnsavedWarning(false); onBack(); }}
+                                className="w-full py-3 rounded-xl font-bold bg-red-500 text-white hover:bg-red-600 transition-colors"
+                            >
+                                Discard Changes
+                            </button>
+                            <button 
+                                onClick={() => setShowUnsavedWarning(false)}
+                                className="w-full py-3 rounded-xl border text-sm font-bold opacity-80 hover:opacity-100 transition-opacity"
+                                style={{ borderColor }}
+                            >
+                                Keep Editing
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}
