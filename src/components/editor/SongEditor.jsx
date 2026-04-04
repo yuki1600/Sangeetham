@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout } from 'lucide-react';
+import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 
 export default function SongEditor({ theme, onEditSong, onBack }) {
     const [songs, setSongs] = useState([]);
@@ -7,6 +8,9 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const [error, setError] = useState(null);
     const [showUpload, setShowUpload] = useState(false);
     const [uploadState, setUploadState] = useState({ audioFile: null, jsonFile: null, uploading: false, error: null });
+    const [uploadMode, setUploadMode] = useState('file'); // 'file' | 'manual'
+    const [manualTala, setManualTala] = useState('Adi');
+    const [manualSections, setManualSections] = useState(['Pallavi', 'Anupallavi', 'Charanam']);
     const [renamingId, setRenamingId] = useState(null);
     const [renameValue, setRenameValue] = useState('');
     const renameInputRef = useRef(null);
@@ -83,15 +87,31 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
     const handleUploadSubmit = async () => {
         const { audioFile, jsonFile } = uploadState;
-        if (!audioFile || !jsonFile) {
-            setUploadState(s => ({ ...s, error: 'Please select both an audio file and a JSON file.' }));
+        if (!audioFile) {
+            setUploadState(s => ({ ...s, error: 'Please select an audio file.' }));
             return;
         }
+
+        let finalJsonFile = jsonFile;
+
+        if (uploadMode === 'manual') {
+            if (manualSections.length === 0) {
+                setUploadState(s => ({ ...s, error: 'Please select at least one section.' }));
+                return;
+            }
+            const title = audioFile.name.replace(/\.[^.]+$/, '');
+            const templateObj = generateCompositionTemplate(title, manualTala, manualSections);
+            finalJsonFile = new File([JSON.stringify(templateObj)], `${title}.json`, { type: 'application/json' });
+        } else if (!jsonFile) {
+            setUploadState(s => ({ ...s, error: 'Please select a JSON composition file.' }));
+            return;
+        }
+
         setUploadState(s => ({ ...s, uploading: true, error: null }));
         try {
             const form = new FormData();
             form.append('audio', audioFile);
-            form.append('json', jsonFile);
+            form.append('json', finalJsonFile);
             const res = await fetch('/api/songs/upload', { method: 'POST', body: form });
             if (!res.ok) {
                 const data = await res.json().catch(() => ({}));
@@ -101,6 +121,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             setSongs(prev => [newSong, ...prev]);
             setShowUpload(false);
             setUploadState({ audioFile: null, jsonFile: null, uploading: false, error: null });
+            setUploadMode('file');
         } catch (e) {
             setUploadState(s => ({ ...s, uploading: false, error: e.message }));
         }
@@ -314,27 +335,48 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                     >
                         <div className="flex items-center justify-between mb-5">
                             <h2 className="text-lg font-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>Add New Song</h2>
-                            <button onClick={() => setShowUpload(false)}
+                            <button onClick={() => { setShowUpload(false); setUploadMode('file'); }}
                                 className="w-8 h-8 flex items-center justify-center rounded-xl opacity-60 hover:opacity-100 transition-opacity">
                                 <X className="w-4 h-4" />
                             </button>
                         </div>
 
+                        {/* Mode Toggle */}
+                        <div className="flex p-1 rounded-2xl mb-6" style={{ background: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }}>
+                            <button
+                                onClick={() => setUploadMode('file')}
+                                className={`flex-1 py-2 text-xs font-bold rounded-xl transition-all ${uploadMode === 'file' ? 'bg-emerald-500 text-white shadow-lg' : 'text-[var(--text-muted)]'}`}
+                            >
+                                Upload JSON
+                            </button>
+                            <button
+                                onClick={() => setUploadMode('manual')}
+                                className={`flex-1 py-2 text-xs font-bold rounded-xl transition-all ${uploadMode === 'manual' ? 'bg-emerald-500 text-white shadow-lg' : 'text-[var(--text-muted)]'}`}
+                            >
+                                Manual Setup
+                            </button>
+                        </div>
+
                         {/* Audio file */}
-                        <div className="mb-4">
-                            <label className="block text-xs font-black uppercase tracking-widest mb-2 opacity-60">Audio File (.mp3)</label>
+                        <div className="mb-6">
+                            <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">1. Audio File (.mp3)</label>
                             <button
                                 onClick={() => audioInputRef.current?.click()}
-                                className="w-full flex items-center gap-3 px-4 py-3 rounded-xl border-2 border-dashed transition-all"
+                                className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-dashed transition-all group"
                                 style={{
-                                    borderColor: uploadState.audioFile ? '#10b981' : (isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.15)'),
-                                    background: uploadState.audioFile ? 'rgba(16,185,129,0.08)' : 'transparent',
+                                    borderColor: uploadState.audioFile ? 'rgba(16,185,129,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
+                                    background: uploadState.audioFile ? 'rgba(16,185,129,0.05)' : 'transparent',
                                 }}
                             >
-                                <FileAudio className="w-5 h-5" style={{ color: uploadState.audioFile ? '#10b981' : 'var(--text-muted)' }} />
-                                <span className="text-sm truncate" style={{ color: uploadState.audioFile ? '#10b981' : 'var(--text-muted)' }}>
-                                    {uploadState.audioFile ? uploadState.audioFile.name : 'Click to select audio file'}
-                                </span>
+                                <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${uploadState.audioFile ? 'bg-emerald-500/20 text-emerald-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
+                                    <FileAudio className="w-5 h-5" />
+                                </div>
+                                <div className="text-left min-w-0 flex-1">
+                                    <div className={`text-sm font-bold truncate ${uploadState.audioFile ? 'text-emerald-500' : 'text-[var(--text-primary)]'}`}>
+                                        {uploadState.audioFile ? uploadState.audioFile.name : 'Select MP3 Song'}
+                                    </div>
+                                    <div className="text-[10px] opacity-40 uppercase tracking-tight">Original audio sample</div>
+                                </div>
                             </button>
                             <input
                                 ref={audioInputRef}
@@ -345,30 +387,78 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                             />
                         </div>
 
-                        {/* JSON file */}
-                        <div className="mb-5">
-                            <label className="block text-xs font-black uppercase tracking-widest mb-2 opacity-60">Composition JSON (.json)</label>
-                            <button
-                                onClick={() => jsonInputRef.current?.click()}
-                                className="w-full flex items-center gap-3 px-4 py-3 rounded-xl border-2 border-dashed transition-all"
-                                style={{
-                                    borderColor: uploadState.jsonFile ? '#10b981' : (isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.15)'),
-                                    background: uploadState.jsonFile ? 'rgba(16,185,129,0.08)' : 'transparent',
-                                }}
-                            >
-                                <FileJson className="w-5 h-5" style={{ color: uploadState.jsonFile ? '#10b981' : 'var(--text-muted)' }} />
-                                <span className="text-sm truncate" style={{ color: uploadState.jsonFile ? '#10b981' : 'var(--text-muted)' }}>
-                                    {uploadState.jsonFile ? uploadState.jsonFile.name : 'Click to select JSON file'}
-                                </span>
-                            </button>
-                            <input
-                                ref={jsonInputRef}
-                                type="file"
-                                accept=".json,application/json"
-                                className="hidden"
-                                onChange={(e) => setUploadState(s => ({ ...s, jsonFile: e.target.files[0] || null, error: null }))}
-                            />
-                        </div>
+                        {uploadMode === 'file' ? (
+                            /* JSON file upload */
+                            <div className="mb-6">
+                                <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">2. Composition JSON</label>
+                                <button
+                                    onClick={() => jsonInputRef.current?.click()}
+                                    className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-dashed transition-all group"
+                                    style={{
+                                        borderColor: uploadState.jsonFile ? 'rgba(16,185,129,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
+                                        background: uploadState.jsonFile ? 'rgba(16,185,129,0.05)' : 'transparent',
+                                    }}
+                                >
+                                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${uploadState.jsonFile ? 'bg-emerald-500/20 text-emerald-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
+                                        <FileJson className="w-5 h-5" />
+                                    </div>
+                                    <div className="text-left min-w-0 flex-1">
+                                        <div className={`text-sm font-bold truncate ${uploadState.jsonFile ? 'text-emerald-500' : 'text-[var(--text-primary)]'}`}>
+                                            {uploadState.jsonFile ? uploadState.jsonFile.name : 'Select JSON File'}
+                                        </div>
+                                        <div className="text-[10px] opacity-40 uppercase tracking-tight">Full track notation</div>
+                                    </div>
+                                </button>
+                                <input
+                                    ref={jsonInputRef}
+                                    type="file"
+                                    accept=".json,application/json"
+                                    className="hidden"
+                                    onChange={(e) => setUploadState(s => ({ ...s, jsonFile: e.target.files[0] || null, error: null }))}
+                                />
+                            </div>
+                        ) : (
+                            /* Manual Setup */
+                            <div className="space-y-6 mb-8">
+                                <div>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-3 opacity-50">2. Select Talam</label>
+                                    <div className="grid grid-cols-2 gap-2">
+                                        {Object.keys(TALA_TEMPLATES).map(t => (
+                                            <button
+                                                key={t}
+                                                onClick={() => setManualTala(t)}
+                                                className={`px-3 py-2.5 rounded-xl border text-xs font-bold transition-all ${manualTala === t ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500' : 'text-[var(--text-muted)] hover:border-emerald-500/30'}`}
+                                                style={{ borderColor: manualTala === t ? undefined : borderColor }}
+                                            >
+                                                {t}
+                                            </button>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-3 opacity-50">3. Select Sections</label>
+                                    <div className="flex flex-wrap gap-2">
+                                        {STANDARD_SECTIONS.map(s => {
+                                            const active = manualSections.includes(s);
+                                            return (
+                                                <button
+                                                    key={s}
+                                                    onClick={() => setManualSections(prev => 
+                                                        active ? prev.filter(x => x !== s) : [...prev, s]
+                                                    )}
+                                                    className={`px-3 py-1.5 rounded-lg border text-[11px] font-bold transition-all ${active ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500' : 'text-[var(--text-muted)] hover:border-emerald-500/30'}`}
+                                                    style={{ borderColor: active ? undefined : borderColor }}
+                                                >
+                                                    {s}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    }
 
                         {uploadState.error && (
                             <p className="text-red-400 text-xs mb-4 px-1">{uploadState.error}</p>

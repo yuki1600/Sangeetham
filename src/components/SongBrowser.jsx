@@ -1,13 +1,13 @@
 import React, { useState, useMemo } from 'react';
 import * as LucideIcons from 'lucide-react';
-import { ArrowLeft, Search, X, Music, ChevronRight, Filter } from 'lucide-react';
+import { ArrowLeft, Search, X, Music, ChevronRight, Filter, Pencil } from 'lucide-react';
 import { LESSON_GROUPS } from '../utils/carnaticData';
 
 /**
  * SongBrowser — song list for a given lesson group.
  * Portrait-friendly scrollable layout matching the home page column width.
  */
-export default function SongBrowser({ groupId, onBack, onSelectSong }) {
+export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong }) {
     const group = LESSON_GROUPS.find(g => g.id === groupId);
     const songs = group?.songs ?? [];
 
@@ -191,7 +191,7 @@ export default function SongBrowser({ groupId, onBack, onSelectSong }) {
                     </div>
                 ) : (
                     filtered.map(song => (
-                        <SongCard key={song.id} song={song} group={group} onSelect={onSelectSong} />
+                        <SongCard key={song.id} song={song} group={group} onSelect={onSelectSong} onEditSong={onEditSong} />
                     ))
                 )}
             </div>
@@ -199,7 +199,7 @@ export default function SongBrowser({ groupId, onBack, onSelectSong }) {
     );
 }
 
-function SongCard({ song, group, onSelect }) {
+function SongCard({ song, group, onSelect, onEditSong }) {
     const hasExercise = !!song.exerciseId;
     return (
         <button
@@ -227,12 +227,19 @@ function SongCard({ song, group, onSelect }) {
                     </div>
                 </div>
 
-                <div className="flex items-center gap-2 flex-shrink-0">
+                <div className="flex items-center gap-1.5 flex-shrink-0">
                     {hasExercise && (
                         <span className="text-[9px] font-bold tracking-wider uppercase bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded border border-emerald-500/20">
                             Practice
                         </span>
                     )}
+                    <button
+                        onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
+                        className="p-2 rounded-lg bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
+                        title="Edit Song"
+                    >
+                        <Pencil className="w-3.5 h-3.5" />
+                    </button>
                     <ChevronRight className="w-4 h-4 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
                 </div>
             </div>

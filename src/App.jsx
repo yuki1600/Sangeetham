@@ -44,6 +44,7 @@ export default function App() {
   const [browsedGroupId, setBrowsedGroupId] = useState(_initial.groupId || null);
   const [selectedSong, setSelectedSong] = useState(null);
   const [selectedEditorSongId, setSelectedEditorSongId] = useState(_initial.editorSongId || null);
+  const [editorBackTarget, setEditorBackTarget] = useState('editor'); // Where to go back from editor-song view
 
   useEffect(() => {
     if (theme === 'light') {
@@ -126,13 +127,19 @@ export default function App() {
     }
   }, [browsedGroupId]);
 
+  const handleEditSong = useCallback((id, backTarget = 'editor') => {
+    setSelectedEditorSongId(id);
+    setEditorBackTarget(backTarget);
+    setView('editor-song');
+  }, []);
+
   // Editor views
   if (view === 'editor') {
     return (
       <div className="h-full bg-[var(--bg-primary)]">
         <SongEditor
           theme={theme}
-          onEditSong={(id) => { setSelectedEditorSongId(id); setView('editor-song'); }}
+          onEditSong={(id) => handleEditSong(id, 'editor')}
           onBack={handleHome}
         />
       </div>
@@ -147,7 +154,7 @@ export default function App() {
           theme={theme}
           tonicHz={tonicHz}
           onTonicChange={setTonicHz}
-          onBack={() => setView('editor')}
+          onBack={() => setView(editorBackTarget)}
         />
       </div>
     );
@@ -172,7 +179,10 @@ export default function App() {
               </div>
               <LivePitchMonitor tonicHz={tonicHz} theme={theme} />
             </div>
-            <SongsPanel onSelectSong={handleSelectSong} />
+            <SongsPanel 
+              onSelectSong={handleSelectSong} 
+              onEditSong={(id) => handleEditSong(id, 'home')}
+            />
             <LessonsPanel
               onStartExercise={handleStartExercise}
               onBrowse={handleBrowseGroup}
@@ -196,6 +206,7 @@ export default function App() {
             groupId={browsedGroupId}
             onBack={handleHome}
             onSelectSong={handleSelectSong}
+            onEditSong={(id) => handleEditSong(id, 'song-browser')}
           />
         </main>
       </div>

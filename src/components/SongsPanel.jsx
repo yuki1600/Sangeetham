@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronRight, Music2, Globe, Disc3 } from 'lucide-react';
+import { ChevronRight, Music2, Globe, Disc3, Pencil } from 'lucide-react';
 
 /**
  * SongsPanel — shows published community songs dynamically from the backend.
  */
-export default function SongsPanel({ onSelectSong }) {
+export default function SongsPanel({ onSelectSong, onEditSong }) {
     const [publishedSongs, setPublishedSongs] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -65,7 +65,17 @@ export default function SongsPanel({ onSelectSong }) {
                                     </p>
                                 </div>
                             </div>
-                            <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-1 transition-all flex-shrink-0" />
+                            
+                            <div className="flex items-center gap-2 flex-shrink-0">
+                                <button
+                                    onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
+                                    className="p-2.5 rounded-xl bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
+                                    title="Edit Song"
+                                >
+                                    <Pencil className="w-4 h-4" />
+                                </button>
+                                <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+                            </div>
                         </div>
                     </button>
                 ))}
