@@ -25,9 +25,10 @@ function parseHash() {
     if (id) return { view: 'editor-song', editorSongId: id };
     return { view: 'editor' };
   }
-  if (hash.startsWith('song-browser/')) {
-    const groupId = hash.slice('song-browser/'.length);
-    if (groupId) return { view: 'song-browser', groupId };
+  if (hash.startsWith('song-view/')) {
+    const id = hash.slice('song-view/'.length);
+    if (id) return { view: 'song-view', songId: id };
+    return { view: 'home' };
   }
   return { view: 'home' };
 }
@@ -43,8 +44,7 @@ export default function App() {
   const [exerciseResults, setExerciseResults] = useState(null);
   const [theme, setTheme] = useState('light');
   const [browsedGroupId, setBrowsedGroupId] = useState(_initial.groupId || null);
-  const [selectedSong, setSelectedSong] = useState(null);
-  const [selectedEditorSongId, setSelectedEditorSongId] = useState(_initial.editorSongId || null);
+  const [selectedSongId, setSelectedSongId] = useState(_initial.songId || _initial.editorSongId || null);
   const [editorBackTarget, setEditorBackTarget] = useState('editor'); // Where to go back from editor-song view
   const [showInfo, setShowInfo] = useState(false);
 
@@ -60,11 +60,12 @@ export default function App() {
   useEffect(() => {
     let hash = '';
     if (view === 'editor') hash = 'editor';
-    else if (view === 'editor-song' && selectedEditorSongId) hash = `editor-song/${selectedEditorSongId}`;
+    else if (view === 'editor-song' && selectedSongId) hash = `editor-song/${selectedSongId}`;
+    else if (view === 'song-view' && selectedSongId) hash = `song-view/${selectedSongId}`;
     else if (view === 'song-browser' && browsedGroupId) hash = `song-browser/${browsedGroupId}`;
-    // practicing / feedback / song-view are transient — refresh sends to home
+    // practicing / feedback are transient — refresh sends to home
     history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname);
-  }, [view, selectedEditorSongId, browsedGroupId]);
+  }, [view, selectedSongId, browsedGroupId]);
 
   // Start exercise directly (from Free Sandbox or Basic Practices)
   const handleStartExercise = useCallback((exercise) => {
@@ -83,9 +84,8 @@ export default function App() {
 
   // Song selected from browser — open SongSection if songViewId, else exercise
   const handleSelectSong = useCallback((song) => {
-    // Songs with a dedicated song view → open SongSection
-    if (song.songViewId) {
-      setSelectedSong(song);
+    if (song.songViewId || song.id) {
+      setSelectedSongId(song.songViewId || song.id);
       setView('song-view');
       return;
     }
@@ -114,13 +114,12 @@ export default function App() {
     setSelectedExercise(null);
     setExerciseResults(null);
     setBrowsedGroupId(null);
-    setSelectedSong(null);
-    setSelectedEditorSongId(null);
+    setSelectedSongId(null);
     setView('home');
   }, []);
 
   const handleBackFromSong = useCallback(() => {
-    setSelectedSong(null);
+    setSelectedSongId(null);
     // Go back to song browser if we came from there
     if (browsedGroupId) {
       setView('song-browser');
@@ -130,7 +129,7 @@ export default function App() {
   }, [browsedGroupId]);
 
   const handleEditSong = useCallback((id, backTarget = 'editor') => {
-    setSelectedEditorSongId(id);
+    setSelectedSongId(id);
     setEditorBackTarget(backTarget);
     setView('editor-song');
   }, []);
@@ -148,11 +147,11 @@ export default function App() {
     );
   }
 
-  if (view === 'editor-song' && selectedEditorSongId) {
+  if (view === 'editor-song' && selectedSongId) {
     return (
       <div className="h-full bg-[var(--bg-primary)]">
         <EditorSongView
-          songId={selectedEditorSongId}
+          songId={selectedSongId}
           theme={theme}
           tonicHz={tonicHz}
           onTonicChange={setTonicHz}
@@ -251,11 +250,11 @@ export default function App() {
   }
 
   // Song view
-  if (view === 'song-view' && selectedSong) {
+  if (view === 'song-view' && selectedSongId) {
     return (
       <div className="h-full bg-[var(--bg-primary)]">
         <EditorSongView
-          songId={selectedSong.id || selectedSong.songViewId}
+          songId={selectedSongId}
           readOnly={true}
           theme={theme}
           tonicHz={tonicHz}

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import {
     ArrowLeft, Play, Pause, RotateCcw, Save, Download,
     History, Undo2, RefreshCw, ChevronDown,
-    Check, AlertCircle, Scissors, FileText,
+    Check, AlertCircle, Scissors, FileText, X,
     FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid,
     Repeat
 } from 'lucide-react';
@@ -13,6 +13,12 @@ import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
 import CompactPitchBar from '../CompactPitchBar';
 import { buildAavartanas, applyTokenEdit } from '../../utils/songParser';
+
+// ── Session Cache ─────────────────────────────────────────────────────────────
+// Stores decoded AudioBuffer objects to make navigation "seamless"
+const audioCache = new Map(); // key: `${songId}-${type}`
+// Stores song metadata and composition data
+const songDataCache = new Map(); // key: `${songId}`
 import { applyEditOps, getEditedDuration } from '../../utils/audioEditor';
 import { audioBufferToWav } from '../../utils/wavEncoder';
 
@@ -29,6 +35,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [rawBuffer, setRawBuffer] = useState(null);       // original decoded
     const [editedBuffer, setEditedBuffer] = useState(null); // after applyEditOps
     const [editedBlobUrl, setEditedBlobUrl] = useState(null);
+    const [activeAudioType, setActiveAudioType] = useState('swara'); // 'swara' | 'sahitya'
+    const [showMissingAudioUpload, setShowMissingAudioUpload] = useState(false);
     const blobUrlRef = useRef(null);
 
     // Playback
@@ -144,9 +152,27 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // ── Load song data ────────────────────────────────────────────────────────
     useEffect(() => {
         if (!songId) return;
+
+        const cached = songDataCache.get(songId);
+        if (cached) {
+            setSongData(cached);
+            setComposition(cached.composition);
+            const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = cached.editOps || {};
+            setEditOps({ trimStart: 0, trimEnd: null, cuts: [], ...ops });
+            setSectionTimings(st || {});
+            setCustomAavartanaSec(savedCalib ?? null);
+            setIsPublished(!!cached.meta?.isPublished);
+            // Default to sahitya if swara is missing
+            if (cached.meta && !cached.meta.hasSwara && cached.meta.hasSahitya) {
+                setActiveAudioType('sahitya');
+            }
+            return;
+        }
+
         fetch(`/api/songs/${songId}`)
             .then(r => r.json())
             .then(data => {
+                songDataCache.set(songId, data);
                 setSongData(data);
                 setComposition(data.composition);
                 const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = data.editOps || {};
@@ -154,6 +180,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 setSectionTimings(st || {});
                 setCustomAavartanaSec(savedCalib ?? null);
                 setIsPublished(!!data.meta?.isPublished);
+                // Default to sahitya if swara is missing
+                if (data.meta && !data.meta.hasSwara && data.meta.hasSahitya) {
+                    setActiveAudioType('sahitya');
+                }
             })
             .catch(e => console.error('Failed to load song:', e));
     }, [songId]);
@@ -161,29 +191,67 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // ── Decode original audio ─────────────────────────────────────────────────
     useEffect(() => {
         if (!songId) return;
+        
+        // Re-check if the audio actually exists in meta before trying to fetch
+        if (songData?.meta) {
+            const hasRequested = activeAudioType === 'sahitya' ? songData.meta.hasSahitya : songData.meta.hasSwara;
+            if (!hasRequested) {
+                setRawBuffer(null);
+                setEditedBuffer(null);
+                setTotalDuration(0);
+                setCurrentTime(0);
+                return;
+            }
+        }
+
+        const cacheKey = `${songId}-${activeAudioType}`;
+        const cached = audioCache.get(cacheKey);
+        if (cached) {
+            setRawBuffer(cached);
+            return;
+        }
+
         let cancelled = false;
         (async () => {
             try {
-                const res = await fetch(`/api/songs/${songId}/audio`);
+                setRawBuffer(null); // Clear while switching if not cached
+                const res = await fetch(`/api/songs/${songId}/audio?type=${activeAudioType}`);
+                if (!res.ok) throw new Error('Audio not found');
                 const arrayBuf = await res.arrayBuffer();
                 const ctx = new AudioContext();
                 const decoded = await ctx.decodeAudioData(arrayBuf);
                 ctx.close();
-                if (!cancelled) setRawBuffer(decoded);
+                if (!cancelled) {
+                    audioCache.set(cacheKey, decoded);
+                    setRawBuffer(decoded);
+                }
             } catch (e) {
                 console.error('Audio decode error:', e);
             }
         })();
         return () => { cancelled = true; };
-    }, [songId]);
+    }, [songId, activeAudioType, songData?.meta]);
 
     // ── Apply edit ops whenever rawBuffer or editOps changes ─────────────────
     useEffect(() => {
-        if (!rawBuffer) return;
+        if (!rawBuffer) {
+            setEditedBuffer(null);
+            setTotalDuration(0);
+            return;
+        }
         let cancelled = false;
         let timeout = null;
-        setIsProcessing(true);
 
+        const isDefault = editOps.trimStart === 0 && (editOps.trimEnd === null || editOps.trimEnd === undefined) && (!editOps.cuts || editOps.cuts.length === 0);
+
+        if (isDefault) {
+            // Instant load for default/cached
+            setEditedBuffer(rawBuffer);
+            setIsProcessing(false);
+            return;
+        }
+
+        setIsProcessing(true);
         timeout = setTimeout(async () => {
             try {
                 const edited = await applyEditOps(rawBuffer, editOps);
@@ -594,7 +662,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
 
-    const handleAudioSwap = async (e) => {
+    const handleAudioSwap = async (e, type = activeAudioType) => {
         const file = e.target.files?.[0];
         if (!file || !songId) return;
 
@@ -603,21 +671,28 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         try {
             const formData = new FormData();
             formData.append('audio', file);
-            const res = await fetch(`/api/songs/${songId}/swap-audio`, {
+            const res = await fetch(`/api/songs/${songId}/swap-audio?type=${type}`, {
                 method: 'POST',
                 body: formData
             });
             if (!res.ok) throw new Error('Failed to swap audio');
+            const data = await res.json();
             
-            // Reload audio
-            setRawBuffer(null);
-            const audioRes = await fetch(`/api/songs/${songId}/audio?t=${Date.now()}`);
-            const arrayBuf = await audioRes.arrayBuffer();
-            const ctx = new AudioContext();
-            const decoded = await ctx.decodeAudioData(arrayBuf);
-            ctx.close();
-            setRawBuffer(decoded);
+            // Update local meta to reflect the new file
+            setSongData(prev => ({ ...prev, meta: data.meta }));
+            
+            // If we just uploaded the active type, reload it
+            if (type === activeAudioType) {
+                setRawBuffer(null);
+                const audioRes = await fetch(`/api/songs/${songId}/audio?type=${type}&t=${Date.now()}`);
+                const arrayBuf = await audioRes.arrayBuffer();
+                const ctx = new AudioContext();
+                const decoded = await ctx.decodeAudioData(arrayBuf);
+                ctx.close();
+                setRawBuffer(decoded);
+            }
             setSaveStatus('ok');
+            setShowMissingAudioUpload(false);
             setTimeout(() => setSaveStatus(null), 2000);
         } catch (err) {
             console.error(err);
@@ -738,10 +813,26 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                             onMouseLeave={() => setShowDownloadMenu(false)}
                                         >
                                             <div className="px-3 py-2 bg-emerald-500/5 border-b" style={{ borderColor }}>
-                                                <div className="text-[10px] uppercase tracking-widest opacity-40 font-black mb-1">Active File</div>
-                                                <div className="text-[11px] font-bold truncate flex items-center gap-2">
-                                                    <Music className="w-3 h-3 text-emerald-500" />
-                                                    {songData.meta?.audioFilename || 'Unknown File'}
+                                                <div className="text-[10px] uppercase tracking-widest opacity-40 font-black mb-1">Active Track</div>
+                                                <div className="flex flex-col gap-2">
+                                                    <div className={`p-2 rounded-lg border flex items-center justify-between ${activeAudioType === 'swara' ? 'border-emerald-500/40 bg-emerald-500/10' : 'border-transparent opacity-60'}`}>
+                                                        <div className="flex flex-col min-w-0">
+                                                            <div className="text-[10px] font-bold uppercase tracking-wider">Swara</div>
+                                                            <div className="text-[10px] truncate opacity-60">
+                                                                {songData.meta?.hasSwara ? (songData.meta.swaraFilename || 'Swara.mp3') : 'Not Uploaded'}
+                                                            </div>
+                                                        </div>
+                                                        {songData.meta?.hasSwara && activeAudioType === 'swara' && <Check className="w-3 h-3 text-emerald-500" />}
+                                                    </div>
+                                                    <div className={`p-2 rounded-lg border flex items-center justify-between ${activeAudioType === 'sahitya' ? 'border-cyan-500/40 bg-cyan-500/10' : 'border-transparent opacity-60'}`}>
+                                                        <div className="flex flex-col min-w-0">
+                                                            <div className="text-[10px] font-bold uppercase tracking-wider">Sahitya</div>
+                                                            <div className="text-[10px] truncate opacity-60">
+                                                                {songData.meta?.hasSahitya ? (songData.meta.sahityaFilename || 'Sahitya.mp3') : 'Not Uploaded'}
+                                                            </div>
+                                                        </div>
+                                                        {songData.meta?.hasSahitya && activeAudioType === 'sahitya' && <Check className="w-3 h-3 text-cyan-500" />}
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -776,11 +867,30 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                     <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
                                                     
                                                     <button
-                                                        onClick={() => { audioSwapRef.current?.click(); setShowDownloadMenu(false); }}
+                                                        onClick={() => { 
+                                                            if (audioSwapRef.current) {
+                                                                audioSwapRef.current.dataset.type = 'swara';
+                                                                audioSwapRef.current.click();
+                                                            }
+                                                            setShowDownloadMenu(false); 
+                                                        }}
                                                         className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
                                                     >
                                                         <Upload className="w-3.5 h-3.5" />
-                                                        Swap Audio File
+                                                        Swap Swara Audio
+                                                    </button>
+                                                    <button
+                                                        onClick={() => { 
+                                                            if (audioSwapRef.current) {
+                                                                audioSwapRef.current.dataset.type = 'sahitya';
+                                                                audioSwapRef.current.click();
+                                                            }
+                                                            setShowDownloadMenu(false); 
+                                                        }}
+                                                        className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                                                    >
+                                                        <Upload className="w-3.5 h-3.5" />
+                                                        Swap Sahitya Audio
                                                     </button>
                                                     <button
                                                         onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
@@ -803,7 +913,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                             ref={audioSwapRef} 
                                             className="hidden" 
                                             accept="audio/*,.mp3" 
-                                            onChange={handleAudioSwap}
+                                            onChange={(e) => handleAudioSwap(e, audioSwapRef.current.dataset.type)}
                                         />
                                         <input 
                                             type="file" 
@@ -855,6 +965,28 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 >
                                     <RotateCcw className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
                                 </button>
+
+                                {/* Swara/Sahitya Toggle */}
+                                <div className="flex p-0.5 rounded-xl ml-2" style={{ background: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)', border: `1px solid ${borderColor}` }}>
+                                    <button
+                                        onClick={() => {
+                                            setActiveAudioType('swara');
+                                            if (!songData?.meta?.hasSwara) setShowMissingAudioUpload(true);
+                                        }}
+                                        className={`px-3 py-1.5 text-[10px] font-black uppercase tracking-widest rounded-lg transition-all ${activeAudioType === 'swara' ? 'bg-emerald-500 text-white shadow-lg' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'}`}
+                                    >
+                                        Swara
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            setActiveAudioType('sahitya');
+                                            if (!songData?.meta?.hasSahitya) setShowMissingAudioUpload(true);
+                                        }}
+                                        className={`px-3 py-1.5 text-[10px] font-black uppercase tracking-widest rounded-lg transition-all ${activeAudioType === 'sahitya' ? 'bg-cyan-500 text-white shadow-lg' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'}`}
+                                    >
+                                        Sahitya
+                                    </button>
+                                </div>
 
                                 <button
                                     onClick={togglePlay}
@@ -1033,7 +1165,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 ) : (
                                     <Save className="w-4 h-4" />
                                 )}
-                                {saveStatus === 'ok' ? 'Saved' : saveStatus === 'error' ? 'Failed' : 'Save Changes'}
+                                {saveStatus === 'ok' ? 'Saved' : saveStatus === 'error' ? 'Failed' : 'Save'}
                             </button>
 
                             {/* Status / hint — absolute right so it doesn't shift the centred buttons */}
@@ -1232,6 +1364,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         <WaveformEditor
                             audioBuffer={editedBuffer}
                             currentTime={currentTime}
+                            timeRef={currentTimeRef}
                             originalDuration={totalDuration}
                             editorMode={editorMode}
                             selection={activeSelection}
@@ -1251,6 +1384,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 aavartanas={aavartanas}
                                 aavartanaTimings={aavartanaTimings}
                                 currentTime={currentTime}
+                                timeRef={currentTimeRef}
                                 totalDuration={totalDuration}
                                 playheadFraction={PLAYHEAD}
                                 aavartanaSec={effectiveAavartanaSec}
@@ -1270,6 +1404,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 aavartanas={aavartanas}
                                 aavartanaTimings={aavartanaTimings}
                                 currentTime={currentTime}
+                                timeRef={currentTimeRef}
                                 totalDuration={totalDuration}
                                 playheadFraction={PLAYHEAD}
                                 aavartanaSec={effectiveAavartanaSec}
@@ -1351,6 +1486,48 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     onClose={() => setShowHistory(false)}
                     onRestore={handleRestore}
                 />
+            )}
+
+            {/* ── Missing Audio Upload Modal ─────────────────────────────────── */}
+            {showMissingAudioUpload && (
+                <div 
+                    className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                    style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }}
+                >
+                    <div className="w-full max-w-sm rounded-3xl p-6 border shadow-2xl" style={{ background: isDark ? '#141420' : '#fff', borderColor }}>
+                        <div className="flex items-center justify-between mb-4">
+                            <h2 className="text-lg font-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>Missing Audio</h2>
+                            <button onClick={() => { setShowMissingAudioUpload(false); setActiveAudioType(activeAudioType === 'swara' ? 'sahitya' : 'swara'); }} className="opacity-60">
+                                <X className="w-4 h-4" />
+                            </button>
+                        </div>
+                        <p className="text-sm opacity-60 mb-6">
+                            The {activeAudioType} track has not been uploaded for this song. Please select a file to continue.
+                        </p>
+                        
+                        <button
+                            onClick={() => { audioSwapRef.current.dataset.type = activeAudioType; audioSwapRef.current?.click(); }}
+                            className="w-full flex items-center gap-3 px-4 py-4 rounded-2xl border-2 border-dashed transition-all hover:bg-emerald-500/5 mb-6"
+                            style={{ borderColor: 'rgba(16,185,129,0.3)' }}
+                        >
+                            <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-500 flex items-center justify-center">
+                                <Upload className="w-5 h-5" />
+                            </div>
+                            <div className="text-left">
+                                <div className="text-sm font-bold text-emerald-500">Upload {activeAudioType}</div>
+                                <div className="text-[10px] uppercase tracking-tight opacity-40">Select .mp3 file</div>
+                            </div>
+                        </button>
+                        
+                        <button 
+                            onClick={() => { setShowMissingAudioUpload(false); setActiveAudioType(activeAudioType === 'swara' ? 'sahitya' : 'swara'); }}
+                            className="w-full py-3 rounded-xl border text-sm font-bold opacity-60 hover:opacity-100 transition-opacity"
+                            style={{ borderColor }}
+                        >
+                            Cancel
+                        </button>
+                    </div>
+                </div>
             )}
 
             {/* ── Lyrics Editor Modal ───────────────────────────────────────────── */}

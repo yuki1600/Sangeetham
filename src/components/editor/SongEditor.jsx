@@ -7,14 +7,21 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [showUpload, setShowUpload] = useState(false);
-    const [uploadState, setUploadState] = useState({ audioFile: null, jsonFile: null, uploading: false, error: null });
+    const [uploadState, setUploadState] = useState({ 
+        swaraAudio: null, 
+        sahityaAudio: null, 
+        jsonFile: null, 
+        uploading: false, 
+        error: null 
+    });
     const [uploadMode, setUploadMode] = useState('file'); // 'file' | 'manual'
     const [manualTala, setManualTala] = useState('Adi');
     const [manualSections, setManualSections] = useState(['Pallavi', 'Anupallavi', 'Charanam']);
     const [renamingId, setRenamingId] = useState(null);
     const [renameValue, setRenameValue] = useState('');
     const renameInputRef = useRef(null);
-    const audioInputRef = useRef(null);
+    const swaraInputRef = useRef(null);
+    const sahityaInputRef = useRef(null);
     const jsonInputRef = useRef(null);
 
     const isDark = theme !== 'light';
@@ -86,9 +93,9 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     };
 
     const handleUploadSubmit = async () => {
-        const { audioFile, jsonFile } = uploadState;
-        if (!audioFile) {
-            setUploadState(s => ({ ...s, error: 'Please select an audio file.' }));
+        const { swaraAudio, sahityaAudio, jsonFile } = uploadState;
+        if (!swaraAudio && !sahityaAudio) {
+            setUploadState(s => ({ ...s, error: 'Please select at least one audio file (Swara or Sahitya).' }));
             return;
         }
 
@@ -99,7 +106,8 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                 setUploadState(s => ({ ...s, error: 'Please select at least one section.' }));
                 return;
             }
-            const title = audioFile.name.replace(/\.[^.]+$/, '');
+            const baseFileName = swaraAudio?.name || sahityaAudio?.name || 'Untitled';
+            const title = baseFileName.replace(/\.[^.]+$/, '');
             const templateObj = generateCompositionTemplate(title, manualTala, manualSections);
             finalJsonFile = new File([JSON.stringify(templateObj)], `${title}.json`, { type: 'application/json' });
         } else if (!jsonFile) {
@@ -110,7 +118,8 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         setUploadState(s => ({ ...s, uploading: true, error: null }));
         try {
             const form = new FormData();
-            form.append('audio', audioFile);
+            if (swaraAudio) form.append('swaraAudio', swaraAudio);
+            if (sahityaAudio) form.append('sahityaAudio', sahityaAudio);
             form.append('json', finalJsonFile);
             const res = await fetch('/api/songs/upload', { method: 'POST', body: form });
             if (!res.ok) {
@@ -120,7 +129,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             const newSong = await res.json();
             setSongs(prev => [newSong, ...prev]);
             setShowUpload(false);
-            setUploadState({ audioFile: null, jsonFile: null, uploading: false, error: null });
+            setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, uploading: false, error: null });
             setUploadMode('file');
         } catch (e) {
             setUploadState(s => ({ ...s, uploading: false, error: e.message }));
@@ -347,7 +356,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                 onClick={() => setUploadMode('file')}
                                 className={`flex-1 py-2 text-xs font-bold rounded-xl transition-all ${uploadMode === 'file' ? 'bg-emerald-500 text-white shadow-lg' : 'text-[var(--text-muted)]'}`}
                             >
-                                Upload JSON
+                                Auto Setup
                             </button>
                             <button
                                 onClick={() => setUploadMode('manual')}
@@ -357,34 +366,62 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                             </button>
                         </div>
 
-                        {/* Audio file */}
-                        <div className="mb-6">
-                            <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">1. Audio File (.mp3)</label>
-                            <button
-                                onClick={() => audioInputRef.current?.click()}
-                                className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-dashed transition-all group"
-                                style={{
-                                    borderColor: uploadState.audioFile ? 'rgba(16,185,129,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
-                                    background: uploadState.audioFile ? 'rgba(16,185,129,0.05)' : 'transparent',
-                                }}
-                            >
-                                <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${uploadState.audioFile ? 'bg-emerald-500/20 text-emerald-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
-                                    <FileAudio className="w-5 h-5" />
-                                </div>
-                                <div className="text-left min-w-0 flex-1">
-                                    <div className={`text-sm font-bold truncate ${uploadState.audioFile ? 'text-emerald-500' : 'text-[var(--text-primary)]'}`}>
-                                        {uploadState.audioFile ? uploadState.audioFile.name : 'Select MP3 Song'}
+                        {/* Audio files */}
+                        <div className="grid grid-cols-2 gap-4 mb-6">
+                            <div>
+                                <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">1a. Swara Audio</label>
+                                <button
+                                    onClick={() => swaraInputRef.current?.click()}
+                                    className="w-full flex flex-col items-center gap-2 p-3 rounded-2xl border-2 border-dashed transition-all group"
+                                    style={{
+                                        borderColor: uploadState.swaraAudio ? 'rgba(16,185,129,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
+                                        background: uploadState.swaraAudio ? 'rgba(16,185,129,0.05)' : 'transparent',
+                                    }}
+                                >
+                                    <div className={`w-8 h-8 rounded-xl flex items-center justify-center transition-colors ${uploadState.swaraAudio ? 'bg-emerald-500/20 text-emerald-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
+                                        <Music className="w-4 h-4" />
                                     </div>
-                                    <div className="text-[10px] opacity-40 uppercase tracking-tight">Original audio sample</div>
-                                </div>
-                            </button>
-                            <input
-                                ref={audioInputRef}
-                                type="file"
-                                accept="audio/*,.mp3"
-                                className="hidden"
-                                onChange={(e) => setUploadState(s => ({ ...s, audioFile: e.target.files[0] || null, error: null }))}
-                            />
+                                    <div className="text-center min-w-0 w-full">
+                                        <div className={`text-[11px] font-bold truncate ${uploadState.swaraAudio ? 'text-emerald-500' : 'text-[var(--text-primary)]'}`}>
+                                            {uploadState.swaraAudio ? uploadState.swaraAudio.name : 'Select Swara'}
+                                        </div>
+                                    </div>
+                                </button>
+                                <input
+                                    ref={swaraInputRef}
+                                    type="file"
+                                    accept="audio/*,.mp3"
+                                    className="hidden"
+                                    onChange={(e) => setUploadState(s => ({ ...s, swaraAudio: e.target.files[0] || null, error: null }))}
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">1b. Sahitya Audio</label>
+                                <button
+                                    onClick={() => sahityaInputRef.current?.click()}
+                                    className="w-full flex flex-col items-center gap-2 p-3 rounded-2xl border-2 border-dashed transition-all group"
+                                    style={{
+                                        borderColor: uploadState.sahityaAudio ? 'rgba(6,182,212,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
+                                        background: uploadState.sahityaAudio ? 'rgba(6,182,212,0.05)' : 'transparent',
+                                    }}
+                                >
+                                    <div className={`w-8 h-8 rounded-xl flex items-center justify-center transition-colors ${uploadState.sahityaAudio ? 'bg-cyan-500/20 text-cyan-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
+                                        <Music className="w-4 h-4" />
+                                    </div>
+                                    <div className="text-center min-w-0 w-full">
+                                        <div className={`text-[11px] font-bold truncate ${uploadState.sahityaAudio ? 'text-cyan-500' : 'text-[var(--text-primary)]'}`}>
+                                            {uploadState.sahityaAudio ? uploadState.sahityaAudio.name : 'Select Sahitya'}
+                                        </div>
+                                    </div>
+                                </button>
+                                <input
+                                    ref={sahityaInputRef}
+                                    type="file"
+                                    accept="audio/*,.mp3"
+                                    className="hidden"
+                                    onChange={(e) => setUploadState(s => ({ ...s, sahityaAudio: e.target.files[0] || null, error: null }))}
+                                />
+                            </div>
                         </div>
 
                         {uploadMode === 'file' ? (
@@ -466,7 +503,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
                         <div className="flex gap-3">
                             <button
-                                onClick={() => { setShowUpload(false); setUploadState({ audioFile: null, jsonFile: null, uploading: false, error: null }); }}
+                                onClick={() => { setShowUpload(false); setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, uploading: false, error: null }); }}
                                 className="flex-1 py-3 rounded-xl border font-bold text-sm transition-all"
                                 style={{ borderColor, color: 'var(--text-muted)' }}
                             >

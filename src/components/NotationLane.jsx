@@ -34,6 +34,7 @@ function swaraColor(text, theme) {
  *                      reaches the playhead at its marked time
  *   editMode         - boolean: enables click-to-edit on tokens
  *   onTokenEdit      - (avIdx, tokIdx, field, newText) => void
+ *   timeRef          - optional ref for high-frequency time updates
  */
 export default function NotationLane({
     aavartanas,
