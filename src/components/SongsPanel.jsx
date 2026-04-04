@@ -1,54 +1,75 @@
-import React from 'react';
-import { ChevronRight, Music2 } from 'lucide-react';
-import { GEETHAMS } from '../utils/carnaticData';
+import React, { useState, useEffect } from 'react';
+import { ChevronRight, Music2, Globe, Disc3 } from 'lucide-react';
 
 /**
- * SongsPanel — shows a direct link to featured songs.
- * This appears on the landing page above the Lessons section.
+ * SongsPanel — shows published community songs dynamically from the backend.
  */
 export default function SongsPanel({ onSelectSong }) {
-    const lambodhara = GEETHAMS.find(s => s.songViewId === 'lambodhara');
+    const [publishedSongs, setPublishedSongs] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-    if (!lambodhara) return null;
+    useEffect(() => {
+        setIsLoading(true);
+        fetch('/api/songs')
+            .then(r => r.json())
+            .then(data => {
+                if (Array.isArray(data)) {
+                    setPublishedSongs(data.filter(s => s.isPublished));
+                }
+            })
+            .catch(e => console.error('Failed fetching published songs:', e))
+            .finally(() => setIsLoading(false));
+    }, []);
+
+    if (isLoading) return null;
+    if (publishedSongs.length === 0) return null;
 
     return (
         <div className="fade-in mb-8">
-            {/* Section label */}
-            <h3 className="text-sm font-semibold text-[var(--text-secondary)] uppercase tracking-wider mb-3 px-1">
-                Songs
-            </h3>
+            <div className="flex items-center gap-2 mb-3 px-1">
+                <Globe className="w-4 h-4 text-emerald-500" />
+                <h3 className="text-sm font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                    Songs
+                </h3>
+            </div>
 
-            {/* Featured Song Card */}
-            <button
-                onClick={() => onSelectSong(lambodhara)}
-                className="w-full group relative overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-gradient-to-br from-[var(--bg-card)] to-[var(--bg-card-hover)] p-5 text-left transition-all duration-400 hover:border-emerald-500/30 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.35)]"
-                style={{ background: 'var(--glass-bg)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)' }}
-            >
-                {/* Background accent */}
-                <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/8 via-teal-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 pointer-events-none" />
+            <div className="grid gap-4 sm:grid-cols-2">
+                {publishedSongs.map(song => (
+                    <button
+                        key={song.id}
+                        onClick={() => onSelectSong({ 
+                            ...song, 
+                            songViewId: song.id, 
+                            jsonUrl: `/api/songs/${song.id}`,
+                            audioUrl: `/api/songs/${song.id}/audio`,
+                            isDynamic: true 
+                        })}
+                        className="w-full group relative overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-gradient-to-br from-[var(--bg-card)] to-[var(--bg-card-hover)] p-4 text-left transition-all duration-400 hover:border-emerald-500/30 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.25)]"
+                        style={{ background: 'var(--glass-bg)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)' }}
+                    >
+                        <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/8 via-teal-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 pointer-events-none" />
 
-                <div className="relative z-10 flex items-center justify-between">
-                    <div className="flex-1 min-w-0 flex items-center gap-4">
-                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                            <Music2 className="w-6 h-6 text-white" />
-                        </div>
-                        <div className="min-w-0">
-                            <div className="flex items-center gap-2">
-                                <h4 className="text-lg font-bold text-[var(--text-primary)] truncate">
-                                    {lambodhara.title}
-                                </h4>
-                                <span className="text-[10px] font-bold tracking-wider uppercase bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded-md border border-emerald-500/20 flex-shrink-0">
-                                    Interactive
-                                </span>
+                        <div className="relative z-10 flex items-center justify-between gap-4">
+                            <div className="flex-1 min-w-0 flex items-center gap-3.5">
+                                <div className="w-11 h-11 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-600/20 border border-emerald-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-500 transition-colors duration-300">
+                                    <Disc3 className="w-5 h-5 text-emerald-500 group-hover:text-white transition-colors" />
+                                </div>
+                                <div className="min-w-0">
+                                    <div className="flex items-center gap-2">
+                                        <h4 className="text-base font-bold text-[var(--text-primary)] truncate">
+                                            {song.title}
+                                        </h4>
+                                    </div>
+                                    <p className="text-[10px] text-[var(--text-secondary)] mt-0.5 uppercase tracking-widest font-black opacity-60 truncate">
+                                        {song.raga || 'Ragamalika'} · {song.tala || 'Adi'}
+                                    </p>
+                                </div>
                             </div>
-                            <p className="text-[11px] text-[var(--text-secondary)] mt-0.5 uppercase tracking-widest font-black opacity-60">
-                                {lambodhara.raga} · {lambodhara.tala}
-                            </p>
+                            <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-1 transition-all flex-shrink-0" />
                         </div>
-                    </div>
-                    <ChevronRight className="w-6 h-6 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-1 transition-all flex-shrink-0" />
-                </div>
-            </button>
+                    </button>
+                ))}
+            </div>
         </div>
     );
 }

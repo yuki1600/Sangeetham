@@ -236,8 +236,9 @@ export default function App() {
   if (view === 'song-view' && selectedSong) {
     return (
       <div className="h-full bg-[var(--bg-primary)]">
-        <SongSection
-          song={selectedSong}
+        <EditorSongView
+          songId={selectedSong.id || selectedSong.songViewId}
+          readOnly={true}
           theme={theme}
           tonicHz={tonicHz}
           onTonicChange={setTonicHz}

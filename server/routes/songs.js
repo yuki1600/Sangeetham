@@ -77,7 +77,7 @@ router.get('/', (req, res) => {
         const versionCount = fs.existsSync(versionsDir)
           ? fs.readdirSync(versionsDir).filter(f => f.endsWith('.json')).length
           : 0;
-        return { ...meta, versionCount };
+        return { ...meta, versionCount, isPublished: meta.isPublished || false };
       })
       .filter(Boolean)
       .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
@@ -125,6 +125,7 @@ router.post('/upload', upload.fields([{ name: 'audio', maxCount: 1 }, { name: 'j
       raga: song_details.raga || '',
       tala: song_details.tala || '',
       composer: song_details.composer || '',
+      audioFilename: audioFile.originalname,
       createdAt: now,
       updatedAt: now,
     };
@@ -181,6 +182,22 @@ router.get('/:id/audio', (req, res) => {
   const audioPath = path.resolve(songDir(req.params.id), 'audio.mp3');
   if (!fs.existsSync(audioPath)) return res.status(404).json({ error: 'Audio not found' });
   res.sendFile(audioPath); // Express handles range requests automatically
+});
+
+// POST /api/songs/:id/publish — toggle published status
+router.post('/:id/publish', (req, res) => {
+  try {
+    const dir = songDir(req.params.id);
+    if (!fs.existsSync(dir)) return res.status(404).json({ error: 'Song not found' });
+    const meta = readJson(path.join(dir, 'meta.json')) || {};
+    // Toggle state or explicitly set via body. For the button it's easier to toggle if no body is provided.
+    meta.isPublished = req.body.isPublished !== undefined ? req.body.isPublished : !meta.isPublished;
+    meta.updatedAt = new Date().toISOString();
+    writeJson(path.join(dir, 'meta.json'), meta);
+    res.json({ ok: true, isPublished: meta.isPublished });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 // PUT /api/songs/:id — save composition + editOps (creates version)
@@ -282,6 +299,83 @@ router.post('/:id/restore/:vid', (req, res) => {
     writeJson(path.join(dir, 'meta.json'), meta);
 
     res.json({ ok: true, composition: v.composition, editOps: v.editOps });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/songs/:id/swap-audio — replace audio file
+router.post('/:id/swap-audio', upload.single('audio'), (req, res) => {
+  try {
+    const dir = songDir(req.params.id);
+    if (!fs.existsSync(dir)) return res.status(404).json({ error: 'Song not found' });
+
+    const audioFile = req.file;
+    if (!audioFile) return res.status(400).json({ error: 'Audio file required' });
+
+    // Backup old if exists? No, just overwrite for simplicity as requested "swap out"
+    fs.writeFileSync(path.join(dir, 'audio.mp3'), audioFile.buffer);
+
+    // Update meta
+    const meta = readJson(path.join(dir, 'meta.json')) || {};
+    meta.audioFilename = audioFile.originalname;
+    meta.updatedAt = new Date().toISOString();
+    writeJson(path.join(dir, 'meta.json'), meta);
+
+    res.json({ ok: true });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/songs/:id/swap-json — replace composition JSON
+router.post('/:id/swap-json', upload.single('json'), (req, res) => {
+  try {
+    const dir = songDir(req.params.id);
+    if (!fs.existsSync(dir)) return res.status(404).json({ error: 'Song not found' });
+
+    const jsonFile = req.file;
+    if (!jsonFile) return res.status(400).json({ error: 'JSON file required' });
+
+    let compositionData;
+    try {
+      compositionData = JSON.parse(jsonFile.buffer.toString('utf8'));
+    } catch {
+      return res.status(400).json({ error: 'Invalid JSON file' });
+    }
+
+    if (!compositionData.composition || !Array.isArray(compositionData.composition)) {
+      return res.status(400).json({ error: 'JSON must have a composition array' });
+    }
+
+    // Save version snapshot of current before swap? Yes, for safety.
+    const versionsDir = path.join(dir, 'versions');
+    if (!fs.existsSync(versionsDir)) fs.mkdirSync(versionsDir);
+    const versionId = `pre-swap-${Date.now()}`;
+    const currentComp = readJson(path.join(dir, 'composition.json'));
+    const currentOps = readJson(path.join(dir, 'editOps.json'));
+    writeJson(path.join(versionsDir, `${versionId}.json`), {
+      id: versionId,
+      timestamp: new Date().toISOString(),
+      label: 'Before JSON swap',
+      composition: currentComp?.composition || [],
+      editOps: currentOps || { trimStart: 0, trimEnd: null, cuts: [] },
+    });
+
+    // Replace composition.json
+    writeJson(path.join(dir, 'composition.json'), compositionData);
+
+    // Update meta based on new JSON
+    const meta = readJson(path.join(dir, 'meta.json')) || {};
+    const song_details = compositionData.song_details || {};
+    if (song_details.title) meta.title = song_details.title;
+    if (song_details.raga) meta.raga = song_details.raga;
+    if (song_details.tala) meta.tala = song_details.tala;
+    if (song_details.composer) meta.composer = song_details.composer;
+    meta.updatedAt = new Date().toISOString();
+    writeJson(path.join(dir, 'meta.json'), meta);
+
+    res.json({ ok: true, meta, composition: compositionData.composition });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

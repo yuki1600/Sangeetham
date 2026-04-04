@@ -46,6 +46,7 @@ export default function NotationLane({
     aavartanaTimings,
     editMode = false,
     onTokenEdit,
+    timeRef
 }) {
     const containerRef = useRef(null);
     const animRef = useRef(null);
@@ -66,7 +67,7 @@ export default function NotationLane({
         const animate = () => {
             const el = containerRef.current;
             if (el) {
-                const t = currentTimeRef.current;
+                const t = timeRef ? timeRef.current : currentTimeRef.current;
                 const offset = (t / aavartanaSecRef.current) * AAVARTANA_PX;
                 el.style.transform = `translateX(-${offset}px)`;
             }
@@ -97,13 +98,8 @@ export default function NotationLane({
             >
                 {aavartanas.map((av, avIdx) => {
                     const tokens = isSwara ? av.swara : av.sahitya;
-                    // '||' (double bar) = aavartana-end marker; already implicit in the
-                    // column boundary — exclude from layout so it doesn't clutter the
-                    // right edge of every column and collide with the next section badge.
                     const noteCount = tokens.filter(t => !t.isSeparator).length || 1;
-                    const sepCount = tokens.filter(t => t.isSeparator && t.text !== '||').length;
-                    const SEP_W = 14; // fixed px per separator — prevents overflow
-                    const noteWidth = Math.max(16, (AAVARTANA_PX - sepCount * SEP_W) / noteCount);
+                    const noteWidth = AAVARTANA_PX / noteCount;
                     // Scale font to fit the allocated note width; cap at design maxima
                     const noteFontSize = `${Math.min(isSwara ? 1.5 : 1.2, noteWidth / 16)}rem`;
 
@@ -137,18 +133,15 @@ export default function NotationLane({
                             {/* Tokens */}
                             {tokens.map((tok, tIdx) => {
                                 if (tok.isSeparator) {
-                                    // '||' is the aavartana-end marker — skip rendering,
-                                    // already represented by the column boundary.
-                                    if (tok.text === '||') return null;
                                     return (
                                         <div
                                             key={tIdx}
-                                            className="flex-shrink-0 flex items-center justify-center h-full"
-                                            style={{ width: SEP_W }}
+                                            className="flex-shrink-0 flex items-center justify-center relative h-full z-20"
+                                            style={{ width: 0 }}
                                         >
                                             <span
-                                                className="font-bold opacity-30"
-                                                style={{ fontSize: '1rem', color: theme === 'light' ? '#000' : '#fff' }}
+                                                className="absolute font-bold opacity-40 ml-1"
+                                                style={{ fontSize: '1.2rem', color: isDark ? '#fff' : '#000' }}
                                             >
                                                 {tok.text}
                                             </span>

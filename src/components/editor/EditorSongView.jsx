@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import {
     ArrowLeft, Play, Pause, RotateCcw, Save, Download,
     History, Undo2, RefreshCw, ChevronDown,
-    Check, AlertCircle, Scissors, FileText
+    Check, AlertCircle, Scissors, FileText,
+    FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe
 } from 'lucide-react';
 import LaneLabel from '../LaneLabel';
 import NotationLane from '../NotationLane';
@@ -17,7 +18,7 @@ import { audioBufferToWav } from '../../utils/wavEncoder';
 const AAVARTANA_PX = 320;
 const PLAYHEAD = 0.25;
 
-export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack }) {
+export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack, readOnly = false }) {
     // Song data from server
     const [songData, setSongData] = useState(null);
     const [composition, setComposition] = useState(null);
@@ -38,15 +39,17 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const currentTimeRef = useRef(0);
 
     // Editor state
-    const [editorMode, setEditorMode] = useState('view'); // 'view' | 'trim'
+    const [editorMode, setEditorMode] = useState('view'); // 'view' | 'trim' | 'calibrate'
+    const [customAavartanaSec, setCustomAavartanaSec] = useState(null); // null = auto, number = user-calibrated
     const [activeSelection, setActiveSelection] = useState(null); // { startTime, endTime }
     const [editOpsHistory, setEditOpsHistory] = useState([]); // undo stack
     const [showHistory, setShowHistory] = useState(false);
     const [showLyrics, setShowLyrics] = useState(false);
-    const [talam, setTalam] = useState('adi');
     const [showSections, setShowSections] = useState(false);
     const [sectionTimings, setSectionTimings] = useState({}); // { "Pallavi": 0, "Anupallavi": 45.2, ... }
     const [isSaving, setIsSaving] = useState(false);
+    const [isPublished, setIsPublished] = useState(false);
+    const [isPublishing, setIsPublishing] = useState(false);
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
     const [showDownloadMenu, setShowDownloadMenu] = useState(false);
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
@@ -56,14 +59,20 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isDragging, setIsDragging] = useState(false);
     const dragData = useRef({ startX: 0, startTime: 0 });
 
+    // File swapping
+    const [isSwapping, setIsSwapping] = useState(false);
+    const audioSwapRef = useRef(null);
+    const jsonSwapRef = useRef(null);
+
     const isDark = theme !== 'light';
     const borderColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.07)';
 
     // Build aavartanas from composition
     const aavartanas = useMemo(() => composition ? buildAavartanas(composition) : [], [composition]);
-    const effectiveAavartanaSec = totalDuration > 0 && aavartanas.length > 0
+    const autoAavartanaSec = totalDuration > 0 && aavartanas.length > 0
         ? totalDuration / aavartanas.length
         : 3.3;
+    const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
 
     // Unique sections in order
     const uniqueSections = useMemo(
@@ -135,9 +144,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             .then(data => {
                 setSongData(data);
                 setComposition(data.composition);
-                const { sectionTimings: st, ...ops } = data.editOps || {};
+                const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = data.editOps || {};
                 setEditOps({ trimStart: 0, trimEnd: null, cuts: [], ...ops });
                 setSectionTimings(st || {});
+                setCustomAavartanaSec(savedCalib ?? null);
+                setIsPublished(!!data.meta?.isPublished);
             })
             .catch(e => console.error('Failed to load song:', e));
     }, [songId]);
@@ -223,12 +234,36 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     }, []);
 
     // ── RAF sync loop ─────────────────────────────────────────────────────────
+    const smoothTimeRef = useRef(0);
+    const lastSyncRef = useRef({ hw: 0, perf: 0 });
+    const lastReactTimeRef = useRef(-1);
+
     useEffect(() => {
-        const tick = () => {
+        const tick = (now) => {
             if (audioRef.current) {
-                const t = audioRef.current.currentTime;
-                currentTimeRef.current = t;
-                setCurrentTime(t);
+                const hw = audioRef.current.currentTime;
+                const isPlaying = !audioRef.current.paused && audioRef.current.readyState > 0;
+                
+                if (hw !== lastSyncRef.current.hw) {
+                    lastSyncRef.current = { hw, perf: now };
+                }
+
+                if (isPlaying) {
+                    const elapsed = (now - lastSyncRef.current.perf) / 1000;
+                    let interp = hw + elapsed;
+                    if (audioRef.current.duration) interp = Math.min(interp, audioRef.current.duration);
+                    smoothTimeRef.current = interp;
+                } else {
+                    smoothTimeRef.current = hw;
+                }
+
+                currentTimeRef.current = smoothTimeRef.current;
+
+                // Throttle React state updates to ~10Hz to prevent render blocking
+                if (Math.abs(smoothTimeRef.current - lastReactTimeRef.current) > 0.1) {
+                    lastReactTimeRef.current = smoothTimeRef.current;
+                    setCurrentTime(smoothTimeRef.current);
+                }
             }
             animRef.current = requestAnimationFrame(tick);
         };
@@ -312,6 +347,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setEditOpsHistory([]);
         setEditOps({ trimStart: 0, trimEnd: null, cuts: [] });
         setSectionTimings({});
+        setCustomAavartanaSec(null);
     }, []);
 
     // ── Keyboard shortcuts ────────────────────────────────────────────────────
@@ -328,25 +364,31 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             }
 
             // T: toggle trim mode
-            if (e.key === 't' || e.key === 'T') {
+            if ((e.key === 't' || e.key === 'T') && !readOnly) {
                 setEditorMode(m => m === 'trim' ? 'view' : 'trim');
                 return;
             }
 
+            // C: toggle calibrate mode
+            if ((e.key === 'c' || e.key === 'C') && !readOnly) {
+                setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate');
+                return;
+            }
+
             // Ctrl+Z / Cmd+Z: undo
-            if ((e.ctrlKey || e.metaKey) && (e.key === 'z' || e.key === 'Z')) {
+            if ((e.ctrlKey || e.metaKey) && (e.key === 'z' || e.key === 'Z') && !readOnly) {
                 e.preventDefault();
                 handleUndoLastCut();
                 return;
             }
 
             // R: reset all edits
-            if (e.key === 'r' || e.key === 'R') {
+            if ((e.key === 'r' || e.key === 'R') && !readOnly) {
                 handleResetAllEdits();
                 return;
             }
 
-            if (editorMode !== 'trim') return;
+            if (readOnly || (editorMode !== 'trim' && editorMode !== 'calibrate')) return;
 
             if (e.key === 'Escape') {
                 setActiveSelection(null);
@@ -357,26 +399,43 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 const end = Math.max(activeSelection.startTime, activeSelection.endTime);
                 if (end - start < 0.1) return;
                 e.preventDefault();
-                setEditOpsHistory(prev => [...prev, editOps]);
-                setEditOps(ops => ({ ...ops, cuts: [...(ops.cuts || []), { start, end }] }));
+                if (editorMode === 'calibrate') {
+                    // In calibrate mode, Enter/Delete applies calibration
+                    setCustomAavartanaSec(end - start);
+                    setActiveSelection(null);
+                    setEditorMode('view');
+                } else {
+                    setEditOpsHistory(prev => [...prev, editOps]);
+                    setEditOps(ops => ({ ...ops, cuts: [...(ops.cuts || []), { start, end }] }));
+                    setActiveSelection(null);
+                }
+            }
+            // Enter: apply calibration in calibrate mode
+            if (e.key === 'Enter' && editorMode === 'calibrate' && activeSelection?.endTime != null) {
+                const start = Math.min(activeSelection.startTime, activeSelection.endTime);
+                const end = Math.max(activeSelection.startTime, activeSelection.endTime);
+                if (end - start < 0.1) return;
+                e.preventDefault();
+                setCustomAavartanaSec(end - start);
                 setActiveSelection(null);
+                setEditorMode('view');
             }
         };
         window.addEventListener('keydown', onKeyDown);
         return () => window.removeEventListener('keydown', onKeyDown);
     }, [editorMode, activeSelection, editOps, togglePlay, handleUndoLastCut, handleResetAllEdits]);
 
-    // Clear selection when leaving trim mode
+    // Clear selection when leaving trim/calibrate mode
     useEffect(() => {
-        if (editorMode !== 'trim') setActiveSelection(null);
+        if (editorMode !== 'trim' && editorMode !== 'calibrate') setActiveSelection(null);
     }, [editorMode]);
 
     // ── Token editing ─────────────────────────────────────────────────────────
     const handleTokenEdit = useCallback((avIdx, tokIdx, field, newText) => {
-        if (!composition || !aavartanas[avIdx]) return;
+        if (readOnly || !composition || !aavartanas[avIdx]) return;
         const newComp = applyTokenEdit(composition, aavartanas, avIdx, tokIdx, field, newText);
         setComposition(newComp);
-    }, [composition, aavartanas]);
+    }, [composition, aavartanas, readOnly]);
 
     // ── Save ──────────────────────────────────────────────────────────────────
     const handleSave = async () => {
@@ -387,7 +446,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             const res = await fetch(`/api/songs/${songId}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ composition, editOps: { ...editOps, sectionTimings } }),
+                body: JSON.stringify({ composition, editOps: { ...editOps, sectionTimings, customAavartanaSec } }),
             });
             if (!res.ok) throw new Error('Save failed');
             setSaveStatus('ok');
@@ -402,12 +461,13 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     // ── Version history restore ───────────────────────────────────────────────
     const handleRestore = useCallback((data, permanent) => {
-        const { sectionTimings: st, ...ops } = data.editOps || {};
+        const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = data.editOps || {};
         const restoreOps = { trimStart: 0, trimEnd: null, cuts: [], ...ops };
         if (permanent) {
             setComposition(data.composition);
             setEditOps(restoreOps);
             setSectionTimings(st || {});
+            setCustomAavartanaSec(savedCalib ?? null);
             setPreviewBanner(null);
             setShowHistory(false);
         } else {
@@ -415,6 +475,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             setComposition(data.composition);
             setEditOps(restoreOps);
             setSectionTimings(st || {});
+            setCustomAavartanaSec(savedCalib ?? null);
         }
     }, []);
 
@@ -442,6 +503,81 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         a.href = url; a.download = filename; a.click();
         setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
+
+    const handleAudioSwap = async (e) => {
+        const file = e.target.files?.[0];
+        if (!file || !songId) return;
+
+        setIsSwapping(true);
+        setSaveStatus(null);
+        try {
+            const formData = new FormData();
+            formData.append('audio', file);
+            const res = await fetch(`/api/songs/${songId}/swap-audio`, {
+                method: 'POST',
+                body: formData
+            });
+            if (!res.ok) throw new Error('Failed to swap audio');
+            
+            // Reload audio
+            setRawBuffer(null);
+            const audioRes = await fetch(`/api/songs/${songId}/audio?t=${Date.now()}`);
+            const arrayBuf = await audioRes.arrayBuffer();
+            const ctx = new AudioContext();
+            const decoded = await ctx.decodeAudioData(arrayBuf);
+            ctx.close();
+            setRawBuffer(decoded);
+            setSaveStatus('ok');
+            setTimeout(() => setSaveStatus(null), 2000);
+        } catch (err) {
+            console.error(err);
+            setSaveStatus('error');
+            setTimeout(() => setSaveStatus(null), 3000);
+        } finally {
+            setIsSwapping(false);
+            if (e.target) e.target.value = '';
+        }
+    };
+
+    const handleJsonSwap = async (e) => {
+        const file = e.target.files?.[0];
+        if (!file || !songId) return;
+
+        setIsSwapping(true);
+        setSaveStatus(null);
+        try {
+            const formData = new FormData();
+            formData.append('json', file);
+            const res = await fetch(`/api/songs/${songId}/swap-json`, {
+                method: 'POST',
+                body: formData
+            });
+            if (!res.ok) throw new Error('Failed to swap JSON');
+            
+            const data = await res.json();
+            setComposition(data.composition);
+            setSongData(prev => ({ 
+                ...prev, 
+                meta: data.meta, 
+                song_details: {
+                    ...prev.song_details,
+                    title: data.meta.title,
+                    raga: data.meta.raga,
+                    tala: data.meta.tala,
+                    composer: data.meta.composer
+                }
+            }));
+            setSaveStatus('ok');
+            setTimeout(() => setSaveStatus(null), 2000);
+        } catch (err) {
+            console.error(err);
+            setSaveStatus('error');
+            setTimeout(() => setSaveStatus(null), 3000);
+        } finally {
+            setIsSwapping(false);
+            if (e.target) e.target.value = '';
+        }
+    };
 
     const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
     const progress = totalDuration > 0 ? currentTime / totalDuration : 0;
@@ -482,8 +618,17 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
                                     {songData.meta?.title || 'Untitled'}
                                 </div>
-                                <div className="text-[9px] uppercase tracking-widest opacity-50">
-                                    {songData.song_details?.raga} · {songData.song_details?.tala}
+                                <div className="text-[9px] uppercase tracking-widest opacity-50 flex items-center gap-2">
+                                    <span>{songData.song_details?.raga} · {songData.song_details?.tala}</span>
+                                    {songData.meta?.audioFilename && (
+                                        <>
+                                            <span className="opacity-30">|</span>
+                                            <span className="flex items-center gap-1">
+                                                <Music className="w-2.5 h-2.5" />
+                                                {songData.meta.audioFilename}
+                                            </span>
+                                        </>
+                                    )}
                                 </div>
                             </div>
                         </div>
@@ -493,73 +638,90 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
                         </div>
 
-                        {/* Action buttons */}
-                        <div className="flex items-center gap-2 flex-shrink-0">
-                            <button
-                                onClick={() => setShowHistory(s => !s)}
-                                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${showHistory ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
-                                style={{ borderColor: showHistory ? undefined : borderColor, color: showHistory ? undefined : 'var(--text-muted)' }}
-                            >
-                                <History className="w-3.5 h-3.5" />
-                                History
-                            </button>
-
-                            <button
-                                onClick={handleSave}
-                                disabled={isSaving}
-                                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all disabled:opacity-50"
-                                style={{
-                                    background: saveStatus === 'ok' ? 'rgba(16,185,129,0.15)' : saveStatus === 'error' ? 'rgba(239,68,68,0.15)' : 'linear-gradient(135deg,#10b981,#059669)',
-                                    color: saveStatus ? (saveStatus === 'ok' ? '#10b981' : '#ef4444') : '#fff',
-                                }}
-                            >
-                                {isSaving ? (
-                                    <div className="w-3 h-3 border border-white border-t-transparent rounded-full animate-spin" />
-                                ) : saveStatus === 'ok' ? (
-                                    <Check className="w-3.5 h-3.5" />
-                                ) : saveStatus === 'error' ? (
-                                    <AlertCircle className="w-3.5 h-3.5" />
-                                ) : (
-                                    <Save className="w-3.5 h-3.5" />
-                                )}
-                                {saveStatus === 'ok' ? 'Saved' : saveStatus === 'error' ? 'Failed' : 'Save'}
-                            </button>
-
-                            {/* Download dropdown */}
-                            <div className="relative">
+                        {/* Action buttons (Hidden in read-only mode) */}
+                        {!readOnly && (
+                            <div className="flex items-center gap-2 flex-shrink-0">
                                 <button
-                                    onClick={() => setShowDownloadMenu(s => !s)}
-                                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all"
-                                    style={{ borderColor, color: 'var(--text-muted)' }}
+                                    onClick={() => setShowHistory(s => !s)}
+                                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${showHistory ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
+                                    style={{ borderColor: showHistory ? undefined : borderColor, color: showHistory ? undefined : 'var(--text-muted)' }}
                                 >
-                                    <Download className="w-3.5 h-3.5" />
-                                    Download
-                                    <ChevronDown className="w-3 h-3" />
+                                    <History className="w-3.5 h-3.5" />
+                                    History
                                 </button>
-                                {showDownloadMenu && (
-                                    <div
-                                        className="absolute right-0 top-full mt-1 rounded-xl border overflow-hidden z-50"
-                                        style={{ background: isDark ? '#141420' : '#fff', borderColor, minWidth: 180 }}
-                                        onMouseLeave={() => setShowDownloadMenu(false)}
+
+                                {/* Manage Files dropdown */}
+                                <div className="relative">
+                                    <button
+                                        onClick={() => setShowDownloadMenu(s => !s)}
+                                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${showDownloadMenu ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
+                                        style={{ borderColor: showDownloadMenu ? undefined : borderColor, color: showDownloadMenu ? undefined : 'var(--text-muted)' }}
                                     >
-                                        {[
-                                            { label: 'Composition JSON', action: handleDownloadJSON },
-                                            { label: 'Original Audio (.mp3)', action: handleDownloadOriginalAudio },
-                                            { label: 'Edited Audio (.wav)', action: handleDownloadEditedAudio, disabled: !editedBuffer },
-                                        ].map(item => (
+                                        <Layers className="w-3.5 h-3.5" />
+                                        Manage Files
+                                        <ChevronDown className="w-3 h-3" />
+                                    </button>
+                                    {showDownloadMenu && (
+                                        <div
+                                            className="absolute right-0 top-full mt-1 rounded-xl border overflow-hidden z-50 shadow-2xl"
+                                            style={{ background: isDark ? '#141420' : '#fff', borderColor, minWidth: 200 }}
+                                            onMouseLeave={() => setShowDownloadMenu(false)}
+                                        >
+                                            <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Downloads</div>
+                                            {[
+                                                { label: 'Composition JSON', icon: FileJson, action: handleDownloadJSON },
+                                                { label: 'Original Audio (.mp3)', icon: FileAudio, action: handleDownloadOriginalAudio },
+                                                { label: 'Edited Audio (.wav)', icon: FileAudio, action: handleDownloadEditedAudio, disabled: !editedBuffer },
+                                            ].map(item => (
+                                                <button
+                                                    key={item.label}
+                                                    onClick={() => { item.action(); setShowDownloadMenu(false); }}
+                                                    disabled={item.disabled}
+                                                    className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-emerald-500/10 disabled:opacity-40 flex items-center gap-2"
+                                                >
+                                                    <item.icon className="w-3.5 h-3.5 opacity-60" />
+                                                    {item.label}
+                                                </button>
+                                            ))}
+                                            
+                                            <div className="h-px w-full" style={{ background: borderColor }} />
+                                            <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
+                                            
                                             <button
-                                                key={item.label}
-                                                onClick={() => { item.action(); setShowDownloadMenu(false); }}
-                                                disabled={item.disabled}
-                                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-emerald-500/10 disabled:opacity-40"
+                                                onClick={() => { audioSwapRef.current?.click(); setShowDownloadMenu(false); }}
+                                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
                                             >
-                                                {item.label}
+                                                <Upload className="w-3.5 h-3.5" />
+                                                Swap Audio File
                                             </button>
-                                        ))}
-                                    </div>
-                                )}
+                                            <button
+                                                onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
+                                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                                            >
+                                                <Upload className="w-3.5 h-3.5" />
+                                                Swap JSON Composition
+                                            </button>
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Hidden swap inputs */}
+                                <input 
+                                    type="file" 
+                                    ref={audioSwapRef} 
+                                    className="hidden" 
+                                    accept="audio/*,.mp3" 
+                                    onChange={handleAudioSwap}
+                                />
+                                <input 
+                                    type="file" 
+                                    ref={jsonSwapRef} 
+                                    className="hidden" 
+                                    accept=".json,application/json" 
+                                    onChange={handleJsonSwap}
+                                />
                             </div>
-                        </div>
+                        )}
                     </div>
 
                     {/* Row 2: Playback controls */}
@@ -640,180 +802,268 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     </div>
                 )}
 
-                {/* ── Edit Toolbar ─────────────────────────────────────────────── */}
-                <div
-                    className="relative flex items-center justify-center gap-3 px-5 py-3 flex-shrink-0"
-                    style={{ borderBottom: `1px solid ${showSections ? 'transparent' : borderColor}`, background: isDark ? 'rgba(255,255,255,0.01)' : 'rgba(0,0,0,0.01)' }}
-                >
-                    {/* Sections button — absolute left */}
-                    <button
-                        onClick={() => setShowSections(s => !s)}
-                        className="absolute left-5 flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold border transition-all"
-                        style={{
-                            borderColor: showSections ? 'rgba(251,191,36,0.5)' : borderColor,
-                            background: showSections ? 'rgba(251,191,36,0.1)' : 'transparent',
-                            color: showSections ? '#fbbf24' : 'var(--text-muted)',
-                        }}
-                        title="Set section start times"
-                    >
-                        Sections
-                        <span className="text-[10px] opacity-60 tabular-nums ml-0.5">
-                            {Object.keys(sectionTimings).length > 0 ? Object.keys(sectionTimings).length : ''}
-                        </span>
-                    </button>
-
-                    {/* Centred button group */}
-                    <button
-                        onClick={() => setEditorMode(m => m === 'trim' ? 'view' : 'trim')}
-                        className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
-                        style={{
-                            borderColor: editorMode === 'trim' ? 'rgba(239,68,68,0.4)' : borderColor,
-                            background: editorMode === 'trim' ? 'rgba(239,68,68,0.1)' : 'transparent',
-                            color: editorMode === 'trim' ? '#ef4444' : 'var(--text-muted)',
-                        }}
-                        title="Toggle trim mode (T)"
-                    >
-                        <Scissors className="w-4 h-4" />
-                        Trim
-                        <kbd className="text-[9px] opacity-50 font-mono ml-0.5">T</kbd>
-                    </button>
-
-                    <div className="w-px h-6" style={{ background: borderColor }} />
-
-                    <button
-                        onClick={handleUndoLastCut}
-                        disabled={editOpsHistory.length === 0}
-                        className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all disabled:opacity-30"
-                        style={{ borderColor, color: 'var(--text-muted)' }}
-                        title="Undo (Ctrl+Z)"
-                    >
-                        <Undo2 className="w-4 h-4" />
-                        Undo
-                        <kbd className="text-[9px] opacity-50 font-mono ml-0.5">⌘Z</kbd>
-                    </button>
-
-                    <button
-                        onClick={() => setShowLyrics(true)}
-                        className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
-                        style={{
-                            borderColor: showLyrics ? 'rgba(167,139,250,0.45)' : borderColor,
-                            background: showLyrics ? 'rgba(167,139,250,0.1)' : 'transparent',
-                            color: showLyrics ? '#a78bfa' : 'var(--text-muted)',
-                        }}
-                        title="Open lyrics & notation editor"
-                    >
-                        <FileText className="w-4 h-4" />
-                        Lyrics
-                    </button>
-
-                    <button
-                        onClick={handleResetAllEdits}
-                        className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
-                        style={{ borderColor, color: 'var(--text-muted)' }}
-                        title="Reset all edits (R)"
-                    >
-                        <RefreshCw className="w-4 h-4" />
-                        Reset
-                        <kbd className="text-[9px] opacity-50 font-mono ml-0.5">R</kbd>
-                    </button>
-
-                    {/* Status / hint — absolute right so it doesn't shift the centred buttons */}
-                    <div className="absolute right-5 flex items-center gap-2">
-                        {isProcessing && (
-                            <div className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
-                                <div className="w-3 h-3 border border-current border-t-transparent rounded-full animate-spin" />
-                                Processing...
-                            </div>
-                        )}
-                        <span className="text-[10px] opacity-40">
-                            {editorMode === 'trim' && activeSelection
-                                ? 'Del to remove · Esc to cancel'
-                                : editorMode === 'trim'
-                                ? 'Drag waveform to select'
-                                : 'Use Lyrics to edit notation'}
-                        </span>
-                    </div>
-                </div>
-
-                {/* ── Section Timings Panel ────────────────────────────────────── */}
-                {showSections && (() => {
-                    const TALA_BEATS = { adi: 8, rupaka: 6, misra_chapu: 7, khanda_chapu: 5, khanda_triputa: 9, tisra_triputa: 7, chatusra_eka: 4, tisra_eka: 3, sankeerna_eka: 9 };
-                    const TALA_LABELS = { adi: 'Adi', rupaka: 'Rupaka', misra_chapu: 'Misra Chapu', khanda_chapu: 'Khanda Chapu', khanda_triputa: 'Khanda Triputa', tisra_triputa: 'Tisra Triputa', chatusra_eka: 'Chatusra Eka', tisra_eka: 'Tisra Eka', sankeerna_eka: 'Sankeerna Eka' };
-                    const beats = TALA_BEATS[talam] ?? 8;
-                    const bpm = Math.round((beats / effectiveAavartanaSec) * 60);
-                    const beatsPerSec = (beats / effectiveAavartanaSec).toFixed(2);
-                    return (
-                    <div style={{ borderBottom: `1px solid ${borderColor}`, background: isDark ? 'rgba(251,191,36,0.04)' : 'rgba(180,130,0,0.05)' }}>
-                        {/* Tempo row */}
-                        <div className="flex items-center gap-3 px-5 pt-2.5 pb-1.5 flex-shrink-0">
-                            <span className="text-[10px] uppercase tracking-widest opacity-40 flex-shrink-0">Talam</span>
-                            <select
-                                value={talam}
-                                onChange={e => setTalam(e.target.value)}
-                                className="text-[11px] font-semibold rounded-lg px-2 py-0.5 outline-none cursor-pointer"
-                                style={{ background: isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.06)', border: `1px solid ${borderColor}`, color: 'var(--text-primary)' }}
+                {/* ── Edit Toolbar (Hidden in read-only mode) ──────────────────── */}
+                {!readOnly && (
+                    <>
+                        <div
+                            className="relative flex items-center justify-center gap-3 px-5 py-3 flex-shrink-0"
+                            style={{ borderBottom: `1px solid ${showSections ? 'transparent' : borderColor}`, background: isDark ? 'rgba(255,255,255,0.01)' : 'rgba(0,0,0,0.01)' }}
+                        >
+                            {/* Sections button — absolute left */}
+                            <button
+                                onClick={() => setShowSections(s => !s)}
+                                className="absolute left-5 flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold border transition-all"
+                                style={{
+                                    borderColor: showSections ? 'rgba(251,191,36,0.5)' : borderColor,
+                                    background: showSections ? 'rgba(251,191,36,0.1)' : 'transparent',
+                                    color: showSections ? '#fbbf24' : 'var(--text-muted)',
+                                }}
+                                title="Set section start times"
                             >
-                                {Object.entries(TALA_LABELS).map(([id, label]) => (
-                                    <option key={id} value={id}>{label} ({TALA_BEATS[id]} beats)</option>
-                                ))}
-                            </select>
-                            <div className="flex items-center gap-1.5 text-[11px]" style={{ color: 'var(--text-muted)' }}>
-                                <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{effectiveAavartanaSec.toFixed(2)}s</span>
-                                <span className="opacity-50">/ āvartana</span>
-                                <span className="opacity-30 mx-1">·</span>
-                                <span className="tabular-nums font-mono font-bold" style={{ color: '#a78bfa' }}>{beatsPerSec}</span>
-                                <span className="opacity-50">beats/s</span>
-                                <span className="opacity-30 mx-1">·</span>
-                                <span className="tabular-nums font-mono font-bold" style={{ color: '#fbbf24' }}>{bpm}</span>
-                                <span className="opacity-50">BPM</span>
+                                Sections
+                                <span className="text-[10px] opacity-60 tabular-nums ml-0.5">
+                                    {Object.keys(sectionTimings).length > 0 ? Object.keys(sectionTimings).length : ''}
+                                </span>
+                            </button>
+
+                            {/* Centred button group */}
+                            <button
+                                onClick={() => setEditorMode(m => m === 'trim' ? 'view' : 'trim')}
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
+                                style={{
+                                    borderColor: editorMode === 'trim' ? 'rgba(239,68,68,0.4)' : borderColor,
+                                    background: editorMode === 'trim' ? 'rgba(239,68,68,0.1)' : 'transparent',
+                                    color: editorMode === 'trim' ? '#ef4444' : 'var(--text-muted)',
+                                }}
+                                title="Toggle trim mode (T)"
+                            >
+                                <Scissors className="w-4 h-4" />
+                                Trim
+                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">T</kbd>
+                            </button>
+
+                            <button
+                                onClick={() => setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate')}
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
+                                style={{
+                                    borderColor: editorMode === 'calibrate' ? 'rgba(59,130,246,0.4)' : customAavartanaSec ? 'rgba(59,130,246,0.25)' : borderColor,
+                                    background: editorMode === 'calibrate' ? 'rgba(59,130,246,0.1)' : customAavartanaSec ? 'rgba(59,130,246,0.06)' : 'transparent',
+                                    color: editorMode === 'calibrate' ? '#3b82f6' : customAavartanaSec ? '#60a5fa' : 'var(--text-muted)',
+                                }}
+                                title="Calibrate āvartana speed — select 1 āvartana on waveform (C)"
+                            >
+                                <Gauge className="w-4 h-4" />
+                                {customAavartanaSec ? `${customAavartanaSec.toFixed(2)}s` : 'Calibrate'}
+                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">C</kbd>
+                            </button>
+
+                            <div className="w-px h-6" style={{ background: borderColor }} />
+
+                            <button
+                                onClick={handleUndoLastCut}
+                                disabled={editOpsHistory.length === 0}
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all disabled:opacity-30"
+                                style={{ borderColor, color: 'var(--text-muted)' }}
+                                title="Undo (Ctrl+Z)"
+                            >
+                                <Undo2 className="w-4 h-4" />
+                                Undo
+                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">⌘Z</kbd>
+                            </button>
+
+                            <button
+                                onClick={() => setShowLyrics(true)}
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
+                                style={{
+                                    borderColor: showLyrics ? 'rgba(167,139,250,0.45)' : borderColor,
+                                    background: showLyrics ? 'rgba(167,139,250,0.1)' : 'transparent',
+                                    color: showLyrics ? '#a78bfa' : 'var(--text-muted)',
+                                }}
+                                title="Open lyrics & notation editor"
+                            >
+                                <FileText className="w-4 h-4" />
+                                Lyrics
+                            </button>
+
+                            <button
+                                onClick={handleResetAllEdits}
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
+                                style={{ borderColor, color: 'var(--text-muted)' }}
+                                title="Reset all edits (R)"
+                            >
+                                <RefreshCw className="w-4 h-4" />
+                                Reset
+                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">R</kbd>
+                            </button>
+
+                            <button
+                                onClick={handleSave}
+                                disabled={isSaving}
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all disabled:opacity-50"
+                                style={{
+                                    background: saveStatus === 'ok' ? 'rgba(16,185,129,0.15)' : saveStatus === 'error' ? 'rgba(239,68,68,0.15)' : 'linear-gradient(135deg,#10b981,#059669)',
+                                    color: saveStatus ? (saveStatus === 'ok' ? '#10b981' : '#ef4444') : '#fff',
+                                }}
+                            >
+                                {isSaving ? (
+                                    <div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin" />
+                                ) : saveStatus === 'ok' ? (
+                                    <Check className="w-4 h-4" />
+                                ) : saveStatus === 'error' ? (
+                                    <AlertCircle className="w-4 h-4" />
+                                ) : (
+                                    <Save className="w-4 h-4" />
+                                )}
+                                {saveStatus === 'ok' ? 'Saved' : saveStatus === 'error' ? 'Failed' : 'Save Changes'}
+                            </button>
+
+                            {/* Status / hint — absolute right so it doesn't shift the centred buttons */}
+                            <div className="absolute right-5 flex items-center gap-2">
+                                {isProcessing && (
+                                    <div className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
+                                        <div className="w-3 h-3 border border-current border-t-transparent rounded-full animate-spin" />
+                                        Processing...
+                                    </div>
+                                )}
+                                <span className="text-[10px] opacity-40">
+                                    {editorMode === 'calibrate' && activeSelection
+                                        ? `Selected: ${Math.abs((activeSelection.endTime ?? activeSelection.startTime) - activeSelection.startTime).toFixed(2)}s — Enter to apply · Esc to cancel`
+                                        : editorMode === 'calibrate'
+                                        ? 'Drag on waveform to select 1 āvartana'
+                                        : editorMode === 'trim' && activeSelection
+                                        ? 'Del to remove · Esc to cancel'
+                                        : editorMode === 'trim'
+                                        ? 'Drag waveform to select'
+                                        : 'Use Lyrics to edit notation'}
+                                </span>
                             </div>
                         </div>
-                        {/* Section cues row */}
-                        <div className="flex items-center gap-1 px-5 pb-2.5 overflow-x-auto">
-                        <span className="text-[10px] uppercase tracking-widest opacity-40 mr-3 flex-shrink-0">Section cues</span>
-                        {uniqueSections.map((section, si) => {
-                            const t = sectionTimings[section];
-                            const isCurrent = currentSection === section;
+
+                        {/* ── Section Timings Panel ────────────────────────────────────── */}
+                        {showSections && (() => {
+                            const talamRaw = songData?.song_details?.tala || songData?.tala || 'Adi';
+                            const talamNorm = talamRaw.toLowerCase().replace(/[^a-z0-9]/g, '');
+                            let beats = 8;
+                            if (talamNorm.includes('rupaka')) beats = 6;
+                            else if (talamNorm.includes('misrachapu')) beats = 7;
+                            else if (talamNorm.includes('khandachapu')) beats = 5;
+                            else if (talamNorm.includes('khandatriputa')) beats = 9;
+                            else if (talamNorm.includes('tisratriputa')) beats = 7;
+                            else if (talamNorm.includes('chatusraeka')) beats = 4;
+                            else if (talamNorm.includes('tisraeka')) beats = 3;
+                            else if (talamNorm.includes('sankeernaeka')) beats = 9;
+
+                            const bpm = Math.round((beats / effectiveAavartanaSec) * 60);
+                            const beatsPerSec = (beats / effectiveAavartanaSec).toFixed(2);
+                            const autoSec = autoAavartanaSec.toFixed(2);
                             return (
-                                <div key={section} className="flex items-center gap-1.5 flex-shrink-0">
-                                    {si > 0 && <div className="w-px h-4 mx-1 opacity-20" style={{ background: 'currentColor' }} />}
-                                    <span
-                                        className="text-[11px] font-black uppercase tracking-widest"
-                                        style={{ color: isCurrent ? '#fbbf24' : 'var(--text-primary)', minWidth: 70 }}
-                                    >
-                                        {section}
-                                    </span>
-                                    <span
-                                        className="text-xs font-mono tabular-nums"
-                                        style={{ color: t != null ? '#10b981' : 'var(--text-muted)', opacity: t != null ? 1 : 0.35, minWidth: 36 }}
-                                    >
-                                        {t != null ? fmt(t) : '--:--'}
-                                    </span>
-                                    <button
-                                        onClick={() => setSectionTimings(prev => ({ ...prev, [section]: currentTime }))}
-                                        className="flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all hover:opacity-100"
-                                        style={{ background: isCurrent ? 'rgba(16,185,129,0.2)' : 'rgba(16,185,129,0.1)', color: '#10b981', border: '1px solid rgba(16,185,129,0.4)' }}
-                                        title={`Set ${section} start to current time (${fmt(currentTime)})`}
-                                    >
-                                        {isCurrent ? '● Set' : 'Set'}
-                                    </button>
-                                    {t != null && (
-                                        <button
-                                            onClick={() => setSectionTimings(prev => { const n = { ...prev }; delete n[section]; return n; })}
-                                            className="text-[10px] opacity-30 hover:opacity-70 px-1"
-                                            title="Clear this cue"
-                                        >✕</button>
-                                    )}
+                            <div style={{ borderBottom: `1px solid ${borderColor}`, background: isDark ? 'rgba(251,191,36,0.04)' : 'rgba(180,130,0,0.05)' }}>
+                                {/* Calibration row */}
+                                <div className="flex items-center gap-3 px-5 pt-2.5 pb-1.5 flex-shrink-0">
+                                    <span className="text-[10px] uppercase tracking-widest opacity-40 flex-shrink-0">Speed</span>
+                                    <div className="flex items-center gap-2 text-[11px]" style={{ color: 'var(--text-muted)' }}>
+                                        {customAavartanaSec ? (
+                                            <>
+                                                <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg" style={{ background: 'rgba(59,130,246,0.12)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.25)' }}>
+                                                    <Gauge className="w-3 h-3" />
+                                                    <span className="font-mono font-bold tabular-nums">{customAavartanaSec.toFixed(2)}s</span>
+                                                    <span className="opacity-60">/ āvartana</span>
+                                                    <span className="opacity-40 font-normal">(calibrated)</span>
+                                                </span>
+                                                <span className="opacity-30">was {autoSec}s auto</span>
+                                                <button
+                                                    onClick={() => setCustomAavartanaSec(null)}
+                                                    className="text-[10px] opacity-40 hover:opacity-100 px-1 transition-opacity"
+                                                    title="Reset to auto-calculated speed"
+                                                >✕ Reset</button>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <span className="font-mono font-bold tabular-nums" style={{ color: '#10b981' }}>{autoSec}s</span>
+                                                <span className="opacity-50">/ āvartana (auto)</span>
+                                                <span className="opacity-30 mx-1">·</span>
+                                                <button
+                                                    onClick={() => setEditorMode('calibrate')}
+                                                    className="flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-lg transition-all hover:opacity-100"
+                                                    style={{ background: 'rgba(59,130,246,0.1)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.2)' }}
+                                                >
+                                                    <Gauge className="w-3 h-3" />
+                                                    Calibrate
+                                                </button>
+                                            </>
+                                        )}
+                                    </div>
                                 </div>
+                                {/* Tempo row */}
+                                <div className="flex items-center gap-3 px-5 pt-2.5 pb-1.5 flex-shrink-0">
+                                    <span className="text-[10px] uppercase tracking-widest opacity-40 flex-shrink-0">Talam</span>
+                                    <span 
+                                        className="text-[12px] font-bold px-2 py-0.5 rounded-lg"
+                                        style={{ background: isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.06)', color: 'var(--text-primary)' }}
+                                    >
+                                        {talamRaw} ({beats} beats)
+                                    </span>
+                                    <div className="flex items-center gap-1.5 text-[11px]" style={{ color: 'var(--text-muted)' }}>
+                                        <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{effectiveAavartanaSec.toFixed(2)}s</span>
+                                        <span className="opacity-50">/ āvartana</span>
+                                        <span className="opacity-30 mx-1">·</span>
+                                        <span className="tabular-nums font-mono font-bold" style={{ color: '#a78bfa' }}>{beatsPerSec}</span>
+                                        <span className="opacity-50">beats/s</span>
+                                        <span className="opacity-30 mx-1">·</span>
+                                        <span className="tabular-nums font-mono font-bold" style={{ color: '#fbbf24' }}>{bpm}</span>
+                                        <span className="opacity-50">BPM</span>
+                                    </div>
+                                </div>
+                                {/* Section cues row */}
+                                <div className="flex items-center gap-1 px-5 pb-2.5 overflow-x-auto custom-scrollbar">
+                                <span className="text-[10px] uppercase tracking-widest opacity-40 mr-3 flex-shrink-0">Section cues</span>
+                                {uniqueSections.map((section, si) => {
+                                    const t = sectionTimings[section];
+                                    const isCurrent = currentSection === section;
+                                    return (
+                                        <div key={section} className="flex items-center gap-1.5 flex-shrink-0">
+                                            {si > 0 && <div className="w-px h-4 mx-1 opacity-20" style={{ background: 'currentColor' }} />}
+                                            <span
+                                                className="text-[11px] font-black uppercase tracking-widest"
+                                                style={{ color: isCurrent ? '#fbbf24' : 'var(--text-primary)', minWidth: 70 }}
+                                            >
+                                                {section}
+                                            </span>
+                                            <span
+                                                className="text-xs font-mono tabular-nums"
+                                                style={{ color: t != null ? '#10b981' : 'var(--text-muted)', opacity: t != null ? 1 : 0.35, minWidth: 36 }}
+                                            >
+                                                {t != null ? fmt(t) : '--:--'}
+                                            </span>
+                                            <button
+                                                onClick={() => setSectionTimings(prev => ({ ...prev, [section]: currentTime }))}
+                                                className="flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all hover:opacity-100"
+                                                style={{ background: isCurrent ? 'rgba(16,185,129,0.2)' : 'rgba(16,185,129,0.1)', color: '#10b981', border: '1px solid rgba(16,185,129,0.4)' }}
+                                                title={`Set ${section} start to current time (${fmt(currentTime)})`}
+                                            >
+                                                {isCurrent ? '● Set' : 'Set'}
+                                            </button>
+                                            {t != null && (
+                                                <button
+                                                    onClick={() => setSectionTimings(prev => { const n = { ...prev }; delete n[section]; return n; })}
+                                                    className="text-[10px] opacity-30 hover:opacity-70 px-1"
+                                                    title="Clear this cue"
+                                                >✕</button>
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                                <span className="text-[9px] opacity-30 ml-auto flex-shrink-0">
+                                    Play to the section start, then click Set
+                                </span>
+                                </div>{/* end section cues row */}
+                            </div>
                             );
-                        })}
-                        <span className="text-[9px] opacity-30 ml-auto flex-shrink-0">
-                            Play to the section start, then click Set
-                        </span>
-                        </div>{/* end section cues row */}
-                    </div>
-                    );
-                })()}
+                        })()}
+                    </>
+                )}
+
+
 
                 {/* ── Three Lanes ───────────────────────────────────────────────── */}
                 <main
@@ -840,6 +1090,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         <WaveformEditor
                             audioBuffer={editedBuffer ?? rawBuffer}
                             currentTime={currentTime}
+                            timeRef={smoothTimeRef}
                             originalDuration={totalDuration || originalDuration}
                             editorMode={editorMode}
                             selection={activeSelection}
@@ -858,6 +1109,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             <NotationLane
                                 aavartanas={aavartanas}
                                 currentTime={currentTime}
+                                timeRef={smoothTimeRef}
                                 totalDuration={totalDuration}
                                 playheadFraction={PLAYHEAD}
                                 type="swara"
@@ -876,6 +1128,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             <NotationLane
                                 aavartanas={aavartanas}
                                 currentTime={currentTime}
+                                timeRef={smoothTimeRef}
                                 totalDuration={totalDuration}
                                 playheadFraction={PLAYHEAD}
                                 type="sahitya"

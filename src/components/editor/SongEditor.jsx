@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe } from 'lucide-react';
 
 export default function SongEditor({ theme, onEditSong, onBack }) {
     const [songs, setSongs] = useState([]);
@@ -52,6 +52,21 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             alert('Rename failed: ' + e.message);
         } finally {
             setRenamingId(null);
+        }
+    };
+
+    const togglePublish = async (id, currentPublished) => {
+        try {
+            const res = await fetch(`/api/songs/${id}/publish`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ isPublished: !currentPublished }) 
+            });
+            if (!res.ok) throw new Error('Toggle publish failed');
+            const data = await res.json();
+            setSongs(prev => prev.map(s => s.id === id ? { ...s, isPublished: data.isPublished } : s));
+        } catch (e) {
+            alert('Publish toggle failed: ' + e.message);
         }
     };
 
@@ -249,6 +264,14 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
                                 {/* Actions */}
                                 <div className="flex items-center gap-2">
+                                    <button
+                                        onClick={() => togglePublish(song.id, song.isPublished)}
+                                        className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-xl text-sm font-bold transition-all border ${song.isPublished ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500/20' : 'border-transparent bg-black/5 text-[var(--text-muted)] hover:bg-black/10 hover:text-[var(--text-primary)]'} ${isDark && !song.isPublished ? 'bg-white/5 hover:bg-white/10' : ''}`}
+                                        title={song.isPublished ? "Unpublish from Home Page" : "Publish to Home Page"}
+                                    >
+                                        <Globe className="w-3.5 h-3.5" />
+                                        {song.isPublished ? 'Published' : 'Publish'}
+                                    </button>
                                     <button
                                         onClick={() => onEditSong(song.id)}
                                         className="flex-1 flex items-center justify-center gap-2 py-2 rounded-xl text-sm font-bold transition-all hover:scale-105"

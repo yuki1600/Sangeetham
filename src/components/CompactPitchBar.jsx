@@ -119,7 +119,7 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
         <div className="flex items-center justify-center gap-6 py-2 w-full">
             {/* Pitch Display */}
             <div className={`flex items-center gap-4 px-6 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
-                }`} style={{ height: '56px', minWidth: '200px' }}>
+                }`} style={{ height: '56px', minWidth: '220px' }}>
                 {currentSwara ? (
                     <>
                         <div className="flex items-center justify-center w-16">
@@ -132,8 +132,9 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
                         </div>
                         <div className={`w-px h-10 ${isDark ? 'bg-white/10' : 'bg-black/10'}`} />
                         <div className="flex flex-col leading-tight">
-                            <div className={`text-xl font-bold tabular-nums ${isDark ? 'text-white' : 'text-slate-900'}`}>
-                                {currentSwara.hz.toFixed(1)} <span className="text-xs opacity-60 font-black tracking-widest ml-1">HZ</span>
+                            <div className={`text-xl font-bold tabular-nums whitespace-nowrap flex items-baseline gap-1.5 ${isDark ? 'text-white' : 'text-slate-900'}`}>
+                                {currentSwara.hz.toFixed(1)}
+                                <span className="text-xs opacity-60 font-black tracking-widest">Hz</span>
                             </div>
                             <div className={`text-xs font-black tracking-[0.2em] uppercase ${Math.abs(currentSwara.deviation) <= 15 ? 'text-emerald-400' :
                                 Math.abs(currentSwara.deviation) <= 35 ? 'text-yellow-400' :
@@ -175,7 +176,7 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
             </div>
 
             {/* Drone Controls */}
-            <div className={`flex items-center px-3 gap-3 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
+            <div className={`relative flex items-center px-2 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
                 }`} style={{ height: '56px' }}>
                 <button
                     onClick={toggleDrone}
@@ -189,20 +190,26 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
                 </button>
 
                 {droneActive && (
-                    <div className="flex items-center gap-2 pr-2 animate-in fade-in slide-in-from-right-2 duration-300">
-                        <input
-                            type="range"
-                            min="-40"
-                            max="0"
-                            step="1"
-                            value={droneVolume}
-                            onChange={handleVolumeChange}
-                            className={`w-24 h-1 rounded-lg appearance-none cursor-pointer accent-emerald-500 ${isDark ? 'bg-white/10' : 'bg-black/10'}`}
-                            style={{
-                                WebkitAppearance: 'none',
-                                outline: 'none'
-                            }}
-                        />
+                    <div 
+                        className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 p-4 rounded-2xl border shadow-2xl z-50 animate-in fade-in slide-in-from-top-2 duration-200 ${isDark ? 'bg-[#141420] border-white/10' : 'bg-white border-black/5'}`}
+                        style={{ minWidth: "120px" }}
+                    >
+                        <div className="text-[10px] uppercase font-black tracking-widest opacity-40 text-center mb-3">Volume</div>
+                        <div className="flex justify-center">
+                            <input
+                                type="range"
+                                min="-40"
+                                max="0"
+                                step="1"
+                                value={droneVolume}
+                                onChange={handleVolumeChange}
+                                className={`w-24 h-1.5 rounded-lg appearance-none cursor-pointer accent-emerald-500 ${isDark ? 'bg-white/10' : 'bg-black/10'}`}
+                                style={{
+                                    WebkitAppearance: 'none',
+                                    outline: 'none'
+                                }}
+                            />
+                        </div>
                     </div>
                 )}
             </div>

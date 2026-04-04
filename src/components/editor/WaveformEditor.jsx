@@ -24,6 +24,7 @@ export default function WaveformEditor({
     theme,
     playheadFraction = 0.25,
     aavartanaSec = 3.3,
+    timeRef
 }) {
     const canvasRef = useRef(null);
     const samplesRef = useRef(null);
@@ -35,12 +36,14 @@ export default function WaveformEditor({
     const sectionMarkersRef = useRef(sectionMarkers);
     const isDraggingRef = useRef(false);
     const containerRef = useRef(null);
+    const editorModeRef = useRef(editorMode);
 
     useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
     useEffect(() => { originalDurationRef.current = originalDuration; }, [originalDuration]);
     useEffect(() => { selectionRef.current = selection; }, [selection]);
     useEffect(() => { sectionMarkersRef.current = sectionMarkers; }, [sectionMarkers]);
+    useEffect(() => { editorModeRef.current = editorMode; }, [editorMode]);
 
     const isDark = theme !== 'light';
 
@@ -80,7 +83,7 @@ export default function WaveformEditor({
             ctx.clearRect(0, 0, W, H);
 
             const data = samplesRef.current;
-            const t = currentTimeRef.current;
+            const t = timeRef ? timeRef.current : currentTimeRef.current;
             const avSec = aavartanaSecRef.current;
             const playheadX = W * playheadFraction;
             const visibleSec = W / (AAVARTANA_PX / avSec);
@@ -135,7 +138,7 @@ export default function WaveformEditor({
                 }
             }
 
-            // Red overlay: active trim selection
+            // Overlay: active selection (red for trim, blue for calibrate)
             const sel = selectionRef.current;
             if (sel && sel.endTime !== null) {
                 const ds = Math.min(sel.startTime, sel.endTime);
@@ -143,11 +146,26 @@ export default function WaveformEditor({
                 const dx1 = timeToX(ds);
                 const dx2 = timeToX(de);
                 if (dx2 > 0 && dx1 < W) {
-                    ctx.fillStyle = 'rgba(239,68,68,0.25)';
+                    const isCal = editorModeRef.current === 'calibrate';
+                    ctx.fillStyle = isCal ? 'rgba(59,130,246,0.2)' : 'rgba(239,68,68,0.25)';
                     ctx.fillRect(dx1, 0, dx2 - dx1, H);
-                    ctx.strokeStyle = 'rgba(239,68,68,0.8)';
+                    ctx.strokeStyle = isCal ? 'rgba(59,130,246,0.8)' : 'rgba(239,68,68,0.8)';
                     ctx.lineWidth = 1.5;
                     ctx.strokeRect(dx1, 0, dx2 - dx1, H);
+                    // Duration label on the selection
+                    if (isCal) {
+                        const durLabel = `${(de - ds).toFixed(2)}s`;
+                        ctx.font = 'bold 11px system-ui,sans-serif';
+                        ctx.textAlign = 'center';
+                        const cx = (dx1 + dx2) / 2;
+                        const tw = ctx.measureText(durLabel).width;
+                        ctx.fillStyle = 'rgba(59,130,246,0.9)';
+                        ctx.beginPath();
+                        ctx.roundRect(cx - tw / 2 - 6, H / 2 - 10, tw + 12, 20, 4);
+                        ctx.fill();
+                        ctx.fillStyle = '#fff';
+                        ctx.fillText(durLabel, cx, H / 2 + 4);
+                    }
                 }
             }
 
@@ -171,7 +189,7 @@ export default function WaveformEditor({
     };
 
     const handleMouseDown = (e) => {
-        if (editorMode !== 'trim') return;
+        if (editorMode !== 'trim' && editorMode !== 'calibrate') return;
         e.stopPropagation();
         isDraggingRef.current = true;
         const t = containerXToTime(e.clientX);
@@ -179,13 +197,13 @@ export default function WaveformEditor({
     };
 
     const handleMouseMove = (e) => {
-        if (editorMode !== 'trim' || !isDraggingRef.current) return;
+        if ((editorMode !== 'trim' && editorMode !== 'calibrate') || !isDraggingRef.current) return;
         const t = containerXToTime(e.clientX);
         onSelectionChange(prev => prev ? { ...prev, endTime: t } : null);
     };
 
     const handleMouseUp = (e) => {
-        if (editorMode !== 'trim') return;
+        if (editorMode !== 'trim' && editorMode !== 'calibrate') return;
         e.stopPropagation();
         isDraggingRef.current = false;
         const sel = selectionRef.current;
@@ -198,7 +216,7 @@ export default function WaveformEditor({
         <div
             ref={containerRef}
             className="relative w-full h-full"
-            style={{ userSelect: 'none', cursor: editorMode === 'trim' ? 'crosshair' : 'default' }}
+            style={{ userSelect: 'none', cursor: (editorMode === 'trim' || editorMode === 'calibrate') ? 'crosshair' : 'default' }}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
