@@ -3,6 +3,8 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
+const { exec } = require('child_process');
+const os = require('os');
 
 const router = express.Router();
 const SONGS_DIR = path.resolve(__dirname, '../songs');
@@ -377,6 +379,41 @@ router.post('/:id/swap-json', upload.single('json'), (req, res) => {
 
     res.json({ ok: true, meta, composition: compositionData.composition });
   } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/songs/convert-to-mp3 — convert WAV to MP3 using system ffmpeg
+router.post('/convert-to-mp3', upload.single('wav'), (req, res) => {
+  if (!req.file) return res.status(400).json({ error: 'WAV file required' });
+
+  const tempWav = path.join(os.tmpdir(), `sangeetha-${uuidv4()}.wav`);
+  const tempMp3 = path.join(os.tmpdir(), `sangeetha-${uuidv4()}.mp3`);
+
+  try {
+    fs.writeFileSync(tempWav, req.file.buffer);
+
+    // Run ffmpeg: -i input -codec:a libmp3lame -qscale:a 2 output
+    const cmd = `ffmpeg -i "${tempWav}" -codec:a libmp3lame -qscale:a 2 "${tempMp3}"`;
+    
+    exec(cmd, (error, stdout, stderr) => {
+      // Clean up WAV immediately
+      if (fs.existsSync(tempWav)) fs.unlinkSync(tempWav);
+
+      if (error) {
+        console.error('ffmpeg error:', stderr);
+        if (fs.existsSync(tempMp3)) fs.unlinkSync(tempMp3);
+        return res.status(500).json({ error: 'Conversion failed' });
+      }
+
+      // Stream MP3 back and clean up
+      res.download(tempMp3, 'edited.mp3', (downloadError) => {
+        if (fs.existsSync(tempMp3)) fs.unlinkSync(tempMp3);
+      });
+    });
+  } catch (err) {
+    if (fs.existsSync(tempWav)) fs.unlinkSync(tempWav);
+    if (fs.existsSync(tempMp3)) fs.unlinkSync(tempMp3);
     res.status(500).json({ error: err.message });
   }
 });

@@ -145,6 +145,25 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
         }));
     };
 
+    const handleKeyDown = (e, field) => {
+        if (e.key === 'Tab') {
+            const selector = `input[data-nav-field="${field}"]`;
+            const inputs = Array.from(document.querySelectorAll(selector));
+            const currIdx = inputs.indexOf(e.target);
+            
+            if (currIdx === -1) return;
+            
+            const nextIdx = e.shiftKey ? currIdx - 1 : currIdx + 1;
+            
+            if (nextIdx >= 0 && nextIdx < inputs.length) {
+                e.preventDefault();
+                inputs[nextIdx].focus();
+                // Select all text to make overwriting easy
+                setTimeout(() => inputs[nextIdx].select(), 0);
+            }
+        }
+    };
+
     /**
      * Serializes the beat grid back into the standard JSON string format.
      * Inserts | and || based on the Tala's structure.
@@ -301,6 +320,8 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                                                                                 <input 
                                                                                     value={beat.swara}
                                                                                     onChange={e => handleBeatChange(sIdx, avIdx, actualIdx, 'swara', e.target.value)}
+                                                                                    onKeyDown={e => handleKeyDown(e, 'swara')}
+                                                                                    data-nav-field="swara"
                                                                                     spellCheck={false}
                                                                                     className="w-full bg-transparent outline-none text-center font-mono text-base font-black tracking-widest text-blue-400"
                                                                                     placeholder="-"
@@ -311,6 +332,8 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                                                                                 <input 
                                                                                     value={beat.sahitya}
                                                                                     onChange={e => handleBeatChange(sIdx, avIdx, actualIdx, 'sahitya', e.target.value)}
+                                                                                    onKeyDown={e => handleKeyDown(e, 'sahitya')}
+                                                                                    data-nav-field="sahitya"
                                                                                     className="w-full bg-transparent outline-none text-center text-base font-bold"
                                                                                     style={{ color: textMuted }}
                                                                                     placeholder="..."

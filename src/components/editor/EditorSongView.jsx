@@ -53,6 +53,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
     const [showDownloadMenu, setShowDownloadMenu] = useState(false);
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
+    const [isDownloadingAudio, setIsDownloadingAudio] = useState(false);
     const [previewBanner, setPreviewBanner] = useState(null); // { composition, editOps }
 
     // Drag/seek (same pattern as SongSection)
@@ -480,21 +481,47 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     }, []);
 
     // ── Downloads ─────────────────────────────────────────────────────────────
-    const handleDownloadJSON = () => {
+    const handleDownloadJSON = (isEdited = true) => {
         if (!composition || !songData) return;
-        const blob = new Blob([JSON.stringify({ song_details: songData.song_details, composition }, null, 2)], { type: 'application/json' });
-        triggerDownload(blob, `${songData.meta?.title || 'song'}.json`);
+        const dataToSave = isEdited ? composition : songData.composition;
+        const blob = new Blob([JSON.stringify({ song_details: songData.song_details, composition: dataToSave }, null, 2)], { type: 'application/json' });
+        triggerDownload(blob, `${songData.meta?.title || 'song'}${isEdited ? '-edited' : ''}.json`);
     };
 
-    const handleDownloadOriginalAudio = () => {
+    const handleDownloadOriginalAudio = async () => {
         if (!songId) return;
-        window.open(`/api/songs/${songId}/audio`);
+        try {
+            const res = await fetch(`/api/songs/${songId}/audio`);
+            const blob = await res.blob();
+            triggerDownload(blob, songData.meta?.audioFilename || 'original.mp3');
+        } catch (e) {
+            console.error('Download failed:', e);
+        }
     };
 
-    const handleDownloadEditedAudio = () => {
+    const handleDownloadEditedMP3 = async () => {
         if (!editedBuffer) return;
-        const wav = audioBufferToWav(editedBuffer);
-        triggerDownload(wav, `${songData?.meta?.title || 'song'}-edited.wav`);
+        setIsDownloadingAudio(true);
+        try {
+            const wavBlob = audioBufferToWav(editedBuffer);
+            const formData = new FormData();
+            formData.append('wav', wavBlob, 'edited.wav');
+
+            const res = await fetch('/api/songs/convert-to-mp3', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (!res.ok) throw new Error('Conversion failed');
+            
+            const mp3Blob = await res.blob();
+            triggerDownload(mp3Blob, `${songData?.meta?.title || 'song'}-edited.mp3`);
+        } catch (e) {
+            console.error('MP3 Download failed:', e);
+            alert('Failed to convert to MP3. Please check server logs.');
+        } finally {
+            setIsDownloadingAudio(false);
+        }
     };
 
     function triggerDownload(blob, filename) {
@@ -657,17 +684,25 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
                                             <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Downloads</div>
                                             {[
-                                                { label: 'Composition JSON', icon: FileJson, action: handleDownloadJSON },
+                                                { label: 'Original JSON', icon: FileJson, action: () => handleDownloadJSON(false) },
+                                                { label: 'Edited JSON (Current)', icon: Check, action: () => handleDownloadJSON(true), color: '#10b981' },
                                                 { label: 'Original Audio (.mp3)', icon: FileAudio, action: handleDownloadOriginalAudio },
-                                                { label: 'Edited Audio (.wav)', icon: FileAudio, action: handleDownloadEditedAudio, disabled: !editedBuffer },
+                                                { 
+                                                    label: isDownloadingAudio ? 'Converting...' : 'Edited Audio (.mp3)', 
+                                                    icon: isDownloadingAudio ? RefreshCw : FileAudio, 
+                                                    action: handleDownloadEditedMP3, 
+                                                    disabled: !editedBuffer || isDownloadingAudio,
+                                                    color: '#10b981' 
+                                                },
                                             ].map(item => (
                                                 <button
                                                     key={item.label}
-                                                    onClick={() => { item.action(); setShowDownloadMenu(false); }}
+                                                    onClick={(e) => { e.stopPropagation(); item.action(); setShowDownloadMenu(false); }}
                                                     disabled={item.disabled}
                                                     className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-emerald-500/10 disabled:opacity-40 flex items-center gap-2"
+                                                    style={{ color: item.color }}
                                                 >
-                                                    <item.icon className="w-3.5 h-3.5 opacity-60" />
+                                                    <item.icon className={`w-3.5 h-3.5 ${item.icon === RefreshCw ? 'animate-spin' : 'opacity-60'}`} />
                                                     {item.label}
                                                 </button>
                                             ))}
@@ -961,70 +996,75 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             const autoSec = autoAavartanaSec.toFixed(2);
                             return (
                             <div style={{ borderBottom: `1px solid ${borderColor}`, background: isDark ? 'rgba(251,191,36,0.04)' : 'rgba(180,130,0,0.05)' }}>
-                                {/* Calibration row */}
-                                <div className="flex items-center gap-3 px-5 pt-2.5 pb-1.5 flex-shrink-0">
-                                    <span className="text-[10px] uppercase tracking-widest opacity-40 flex-shrink-0">Speed</span>
-                                    <div className="flex items-center gap-2 text-[11px]" style={{ color: 'var(--text-muted)' }}>
-                                        {customAavartanaSec ? (
-                                            <>
-                                                <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg" style={{ background: 'rgba(59,130,246,0.12)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.25)' }}>
-                                                    <Gauge className="w-3 h-3" />
-                                                    <span className="font-mono font-bold tabular-nums">{customAavartanaSec.toFixed(2)}s</span>
-                                                    <span className="opacity-60">/ āvartana</span>
-                                                    <span className="opacity-40 font-normal">(calibrated)</span>
-                                                </span>
-                                                <span className="opacity-30">was {autoSec}s auto</span>
-                                                <button
-                                                    onClick={() => setCustomAavartanaSec(null)}
-                                                    className="text-[10px] opacity-40 hover:opacity-100 px-1 transition-opacity"
-                                                    title="Reset to auto-calculated speed"
-                                                >✕ Reset</button>
-                                            </>
-                                        ) : (
-                                            <>
-                                                <span className="font-mono font-bold tabular-nums" style={{ color: '#10b981' }}>{autoSec}s</span>
-                                                <span className="opacity-50">/ āvartana (auto)</span>
-                                                <span className="opacity-30 mx-1">·</span>
-                                                <button
-                                                    onClick={() => setEditorMode('calibrate')}
-                                                    className="flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-lg transition-all hover:opacity-100"
-                                                    style={{ background: 'rgba(59,130,246,0.1)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.2)' }}
-                                                >
-                                                    <Gauge className="w-3 h-3" />
-                                                    Calibrate
-                                                </button>
-                                            </>
-                                        )}
+                                {/* Calibration & Tempo Row */}
+                                <div className="flex flex-wrap items-center gap-x-10 px-5 pt-3 pb-2.5 flex-shrink-0">
+                                    {/* Speed Section */}
+                                    <div className="flex items-center gap-3">
+                                        <span className="text-[10px] uppercase font-black tracking-widest flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Speed</span>
+                                        <div className="flex items-center gap-2 text-[11px]" style={{ color: 'var(--text-muted)' }}>
+                                            {customAavartanaSec ? (
+                                                <>
+                                                    <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg" style={{ background: 'rgba(59,130,246,0.12)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.25)' }}>
+                                                        <Gauge className="w-3 h-3" />
+                                                        <span className="font-mono font-bold tabular-nums">{customAavartanaSec.toFixed(2)}s</span>
+                                                        <span className="opacity-60">/ āvartana</span>
+                                                        <span className="opacity-40 font-normal">(calibrated)</span>
+                                                    </span>
+                                                    <span className="opacity-30">was {autoSec}s auto</span>
+                                                    <button
+                                                        onClick={() => setCustomAavartanaSec(null)}
+                                                        className="text-[10px] opacity-40 hover:opacity-100 px-1 transition-opacity"
+                                                        title="Reset to auto-calculated speed"
+                                                    >✕ Reset</button>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <span className="font-mono font-bold tabular-nums" style={{ color: '#10b981' }}>{autoSec}s</span>
+                                                    <span className="opacity-50">/ āvartana (auto)</span>
+                                                    <span className="opacity-30 mx-1">·</span>
+                                                    <button
+                                                        onClick={() => setEditorMode('calibrate')}
+                                                        className="flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-lg transition-all hover:opacity-100"
+                                                        style={{ background: 'rgba(59,130,246,0.1)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.2)' }}
+                                                    >
+                                                        <Gauge className="w-3 h-3" />
+                                                        Calibrate
+                                                    </button>
+                                                </>
+                                            )}
+                                        </div>
+                                    </div>
+
+                                    {/* Talam Section */}
+                                    <div className="flex items-center gap-3">
+                                        <span className="text-[10px] uppercase font-black tracking-widest flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Talam</span>
+                                        <span 
+                                            className="text-[12px] font-black px-2 py-0.5 rounded-lg"
+                                            style={{ background: isDark ? 'rgba(16,185,129,0.12)' : 'rgba(16,185,129,0.08)', color: '#10b981' }}
+                                        >
+                                            {talamRaw} ({beats} beats)
+                                        </span>
+                                        <div className="flex items-center gap-1.5 text-[11px]" style={{ color: 'var(--text-muted)' }}>
+                                            <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{effectiveAavartanaSec.toFixed(2)}s</span>
+                                            <span className="opacity-50">/ āvartana</span>
+                                            <span className="opacity-30 mx-1">·</span>
+                                            <span className="tabular-nums font-mono font-bold" style={{ color: '#a78bfa' }}>{beatsPerSec}</span>
+                                            <span className="opacity-50">beats/s</span>
+                                            <span className="opacity-30 mx-1">·</span>
+                                            <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{bpm}</span>
+                                            <span className="opacity-50">BPM</span>
+                                        </div>
                                     </div>
                                 </div>
-                                {/* Tempo row */}
-                                <div className="flex items-center gap-3 px-5 pt-2.5 pb-1.5 flex-shrink-0">
-                                    <span className="text-[10px] uppercase tracking-widest opacity-40 flex-shrink-0">Talam</span>
-                                    <span 
-                                        className="text-[12px] font-bold px-2 py-0.5 rounded-lg"
-                                        style={{ background: isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.06)', color: 'var(--text-primary)' }}
-                                    >
-                                        {talamRaw} ({beats} beats)
-                                    </span>
-                                    <div className="flex items-center gap-1.5 text-[11px]" style={{ color: 'var(--text-muted)' }}>
-                                        <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{effectiveAavartanaSec.toFixed(2)}s</span>
-                                        <span className="opacity-50">/ āvartana</span>
-                                        <span className="opacity-30 mx-1">·</span>
-                                        <span className="tabular-nums font-mono font-bold" style={{ color: '#a78bfa' }}>{beatsPerSec}</span>
-                                        <span className="opacity-50">beats/s</span>
-                                        <span className="opacity-30 mx-1">·</span>
-                                        <span className="tabular-nums font-mono font-bold" style={{ color: '#fbbf24' }}>{bpm}</span>
-                                        <span className="opacity-50">BPM</span>
-                                    </div>
-                                </div>
-                                {/* Section cues row */}
-                                <div className="flex items-center gap-1 px-5 pb-2.5 overflow-x-auto custom-scrollbar">
-                                <span className="text-[10px] uppercase tracking-widest opacity-40 mr-3 flex-shrink-0">Section cues</span>
+
+                                {/* Section Cues Row */}
+                                <div className="flex items-center gap-1 px-5 pb-3 overflow-x-auto custom-scrollbar">
+                                <span className="text-[10px] uppercase font-black tracking-widest mr-4 flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Section cues</span>
                                 {uniqueSections.map((section, si) => {
                                     const t = sectionTimings[section];
                                     const isCurrent = currentSection === section;
                                     return (
-                                        <div key={section} className="flex items-center gap-1.5 flex-shrink-0">
+                                        <div key={section} className="flex items-center gap-2 flex-shrink-0">
                                             {si > 0 && <div className="w-px h-4 mx-1 opacity-20" style={{ background: 'currentColor' }} />}
                                             <span
                                                 className="text-[11px] font-black uppercase tracking-widest"
@@ -1059,7 +1099,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 <span className="text-[9px] opacity-30 ml-auto flex-shrink-0">
                                     Play to the section start, then click Set
                                 </span>
-                                </div>{/* end section cues row */}
+                                </div>
                             </div>
                             );
                         })()}

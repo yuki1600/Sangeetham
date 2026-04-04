@@ -11,6 +11,7 @@ import SongSection from './components/SongSection';
 import SongsPanel from './components/SongsPanel';
 import SongEditor from './components/editor/SongEditor';
 import EditorSongView from './components/editor/EditorSongView';
+import InfoModal from './components/InfoModal';
 import { TONIC_PRESETS } from './utils/swaraUtils';
 import { EXERCISES } from './utils/exercises';
 import { ChevronRight, Music2 } from 'lucide-react';
@@ -45,6 +46,7 @@ export default function App() {
   const [selectedSong, setSelectedSong] = useState(null);
   const [selectedEditorSongId, setSelectedEditorSongId] = useState(_initial.editorSongId || null);
   const [editorBackTarget, setEditorBackTarget] = useState('editor'); // Where to go back from editor-song view
+  const [showInfo, setShowInfo] = useState(false);
 
   useEffect(() => {
     if (theme === 'light') {
@@ -168,7 +170,10 @@ export default function App() {
           theme={theme}
           onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
           onEditor={() => setView('editor')}
+          onInfo={() => setShowInfo(true)}
         />
+
+        {showInfo && <InfoModal onClose={() => setShowInfo(false)} theme={theme} />}
 
         <main className="flex-1 px-6 pb-8 max-w-2xl mx-auto w-full">
           <div className="grid gap-5 fade-in">
@@ -200,7 +205,9 @@ export default function App() {
         <Header
           theme={theme}
           onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onInfo={() => setShowInfo(true)}
         />
+        {showInfo && <InfoModal onClose={() => setShowInfo(false)} theme={theme} />}
         <main className="flex-1 px-6 pb-8 max-w-2xl mx-auto w-full">
           <SongBrowser
             groupId={browsedGroupId}
