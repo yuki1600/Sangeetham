@@ -571,13 +571,14 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                 {/* Selection Overlay */}
                 {loopRange && (
                     <div
-                        className="absolute inset-y-0 z-10 pointer-events-none"
+                        className="absolute inset-y-0 z-10 pointer-events-none transition-none"
                         style={{
                             left: `calc(${PLAYHEAD * 100}% + ${(loopRange.start - currentTime) / AAVARTANA_SEC * AAVARTANA_PX}px)`,
                             width: `${(loopRange.end - loopRange.start) / AAVARTANA_SEC * AAVARTANA_PX}px`,
                             background: 'rgba(16,185,129,0.15)',
                             borderLeft: '1px solid rgba(16,185,129,0.5)',
                             borderRight: '1px solid rgba(16,185,129,0.5)',
+                            willChange: 'left, width'
                         }}
                     >
                         {/* Label */}

@@ -3,7 +3,8 @@ import {
     ArrowLeft, Play, Pause, RotateCcw, Save, Download,
     History, Undo2, RefreshCw, ChevronDown,
     Check, AlertCircle, Scissors, FileText,
-    FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid
+    FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid,
+    Repeat
 } from 'lucide-react';
 import LaneLabel from '../LaneLabel';
 import NotationLane from '../NotationLane';
@@ -58,7 +59,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     // Drag/seek (same pattern as SongSection)
     const [isDragging, setIsDragging] = useState(false);
-    const dragData = useRef({ startX: 0, startTime: 0 });
+    const [isLoopEnabled, setIsLoopEnabled] = useState(false);
+    const [loopRange, setLoopRange] = useState(null); // { start, end } in seconds
+    const [preLoopTime, setPreLoopTime] = useState(null);
+    const dragData = useRef({ startX: 0, startTime: 0, isSelecting: false, selectionStart: 0 });
 
     // File swapping
     const [isSwapping, setIsSwapping] = useState(false);
@@ -242,8 +246,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     useEffect(() => {
         const tick = (now) => {
             if (audioRef.current) {
-                const hw = audioRef.current.currentTime;
+                let hw = audioRef.current.currentTime;
                 const isPlaying = !audioRef.current.paused && audioRef.current.readyState > 0;
+
+                // Looping logic
+                if (isPlaying && isLoopEnabled && loopRange && hw >= loopRange.end) {
+                    audioRef.current.currentTime = loopRange.start;
+                    hw = loopRange.start;
+                }
                 
                 if (hw !== lastSyncRef.current.hw) {
                     lastSyncRef.current = { hw, perf: now };
@@ -259,18 +269,13 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 }
 
                 currentTimeRef.current = smoothTimeRef.current;
-
-                // Throttle React state updates to ~10Hz to prevent render blocking
-                if (Math.abs(smoothTimeRef.current - lastReactTimeRef.current) > 0.1) {
-                    lastReactTimeRef.current = smoothTimeRef.current;
-                    setCurrentTime(smoothTimeRef.current);
-                }
+                setCurrentTime(smoothTimeRef.current);
             }
             animRef.current = requestAnimationFrame(tick);
         };
         animRef.current = requestAnimationFrame(tick);
         return () => cancelAnimationFrame(animRef.current);
-    }, []);
+    }, [isLoopEnabled, loopRange]);
 
     // ── Playback controls ─────────────────────────────────────────────────────
     const togglePlay = useCallback(() => {
@@ -286,42 +291,100 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     const restartAudio = useCallback(() => {
         if (!audioRef.current) return;
-        audioRef.current.currentTime = 0;
-        setCurrentTime(0);
+        const targetTime = (isLoopEnabled && loopRange) ? loopRange.start : 0;
+        audioRef.current.currentTime = targetTime;
+        setCurrentTime(targetTime);
         if (isPlaying) { audioRef.current.pause(); setIsPlaying(false); }
-    }, [isPlaying]);
+    }, [isPlaying, isLoopEnabled, loopRange]);
 
     // ── Drag to seek ──────────────────────────────────────────────────────────
     const handleDragStart = useCallback((e) => {
         setIsDragging(true);
-        const x = e.clientX ?? e.touches?.[0]?.clientX;
-        dragData.current = { startX: x, startTime: currentTimeRef.current };
-    }, []);
+        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
+        const rect = e.currentTarget.getBoundingClientRect();
+        const clickX = x - rect.left;
+        const playheadX = rect.width * PLAYHEAD;
+        
+        const isSelecting = isLoopEnabled;
+        const startTime = currentTimeRef.current + ((clickX - playheadX) / AAVARTANA_PX * effectiveAavartanaSec);
+
+        dragData.current = {
+            startX: x,
+            startTime: currentTimeRef.current,
+            selectionStart: startTime,
+            isSelecting
+        };
+
+        if (isSelecting) {
+            if (loopRange === null) {
+                setPreLoopTime(currentTimeRef.current);
+            }
+            setLoopRange({ start: startTime, end: startTime });
+        }
+    }, [isLoopEnabled, loopRange, effectiveAavartanaSec]);
 
     const handleDragMove = useCallback((e) => {
         if (!isDragging) return;
-        const x = e.clientX ?? e.touches?.[0]?.clientX;
-        const deltaX = x - dragData.current.startX;
-        const deltaT = -(deltaX / AAVARTANA_PX) * effectiveAavartanaSec;
-        let newTime = Math.max(0, Math.min(dragData.current.startTime + deltaT, totalDuration));
-        if (audioRef.current) audioRef.current.currentTime = newTime;
-        setCurrentTime(newTime);
+        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
+        const rect = e.currentTarget.getBoundingClientRect();
+        const clickX = x - rect.left;
+        const playheadX = rect.width * PLAYHEAD;
+
+        if (dragData.current.isSelecting) {
+            const currentT = currentTimeRef.current + ((clickX - playheadX) / AAVARTANA_PX * effectiveAavartanaSec);
+            const start = Math.min(dragData.current.selectionStart, currentT);
+            const end = Math.max(dragData.current.selectionStart, currentT);
+            setLoopRange({
+                start: Math.max(0, start),
+                end: Math.min(totalDuration, end)
+            });
+        } else {
+            const deltaX = x - dragData.current.startX;
+            const deltaT = -(deltaX / AAVARTANA_PX) * effectiveAavartanaSec;
+            let newTime = Math.max(0, Math.min(dragData.current.startTime + deltaT, totalDuration));
+            if (audioRef.current) audioRef.current.currentTime = newTime;
+            setCurrentTime(newTime);
+        }
     }, [isDragging, totalDuration, effectiveAavartanaSec]);
 
-    const handleDragEnd = useCallback(() => setIsDragging(false), []);
+    const handleDragEnd = useCallback(() => {
+        setIsDragging(false);
+        if (dragData.current.isSelecting && loopRange) {
+            if (audioRef.current) {
+                audioRef.current.currentTime = loopRange.start;
+            }
+            setCurrentTime(loopRange.start);
+        }
+    }, [loopRange]);
 
     const handleClickSeek = useCallback((e) => {
-        const deltaX = Math.abs((e.clientX ?? 0) - dragData.current.startX);
+        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
+        const deltaX = Math.abs(x - dragData.current.startX);
         if (deltaX < 5) {
+            // If a loop exists and we click (not drag), revert to pre-loop position
+            if (isLoopEnabled && loopRange) {
+                if (preLoopTime !== null) {
+                    if (audioRef.current) {
+                        audioRef.current.currentTime = preLoopTime;
+                    }
+                    setCurrentTime(preLoopTime);
+                }
+                setLoopRange(null);
+                setPreLoopTime(null);
+                return;
+            }
+
+            if (isLoopEnabled) return;
+
             const rect = e.currentTarget.getBoundingClientRect();
-            const clickX = (e.clientX ?? 0) - rect.left;
+            const clickX = x - rect.left;
             const playheadX = rect.width * PLAYHEAD;
             const deltaT = (clickX - playheadX) / AAVARTANA_PX * effectiveAavartanaSec;
             let newTime = Math.max(0, Math.min(currentTimeRef.current + deltaT, totalDuration));
             if (audioRef.current) audioRef.current.currentTime = newTime;
             setCurrentTime(newTime);
         }
-    }, [totalDuration, effectiveAavartanaSec]);
+    }, [totalDuration, effectiveAavartanaSec, isLoopEnabled, loopRange, preLoopTime]);
 
     const handleSeek = useCallback((e) => {
         if (!audioRef.current || totalDuration === 0) return;
@@ -768,6 +831,24 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
                             <div className="flex items-center gap-3">
                                 <button
+                                    onClick={() => {
+                                        const targetState = !isLoopEnabled;
+                                        setIsLoopEnabled(targetState);
+                                        if (!targetState) {
+                                            setLoopRange(null);
+                                            setPreLoopTime(null);
+                                        }
+                                    }}
+                                    className={`w-9 h-9 flex items-center justify-center rounded-xl transition-all duration-200 border ${isLoopEnabled
+                                        ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40 shadow-[0_0_15px_rgba(16,185,129,0.2)]'
+                                        : `border-transparent opacity-40 hover:opacity-100 ${isDark ? 'text-white' : 'text-black'}`
+                                        }`}
+                                    title="Loop Mode"
+                                >
+                                    <Repeat className="w-4 h-4" />
+                                </button>
+
+                                <button
                                     onClick={restartAudio}
                                     className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:scale-105"
                                     style={{ background: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.04)', borderColor }}
@@ -1106,8 +1187,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     </>
                 )}
 
-
-
                 {/* ── Three Lanes ───────────────────────────────────────────────── */}
                 <main
                     className={`flex-1 flex flex-col relative overflow-hidden select-none ${editorMode === 'view' && isDragging ? 'cursor-grabbing' : editorMode === 'view' ? 'cursor-grab' : 'cursor-default'}`}
@@ -1120,21 +1199,40 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     onTouchEnd={editorMode === 'view' ? handleDragEnd : undefined}
                     onClick={editorMode === 'view' ? handleClickSeek : undefined}
                 >
-                    {/* Playhead */}
+                    {/* Visual playhead */}
                     <div className="absolute inset-y-0 z-20 pointer-events-none" style={{ left: `${PLAYHEAD * 100}%` }}>
                         <div className="absolute inset-y-0" style={{ width: 24, left: -12, background: 'linear-gradient(to right, transparent, rgba(16,185,129,0.18), transparent)' }} />
                         <div className="absolute inset-y-0 w-1" style={{ left: -0.5, background: '#10b981', boxShadow: '0 0 12px rgba(16,185,129,0.4)' }} />
                         <div className="absolute" style={{ top: 0, left: -5, width: 10, height: 10, background: '#10b981', clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)', boxShadow: '0 0 8px rgba(16,185,129,0.8)' }} />
                     </div>
 
+                    {/* Selection Overlay */}
+                    {loopRange && (
+                        <div
+                            className="absolute inset-y-0 z-10 pointer-events-none transition-none"
+                            style={{
+                                left: `calc(${PLAYHEAD * 100}% + ${(loopRange.start - currentTime) / effectiveAavartanaSec * AAVARTANA_PX}px)`,
+                                width: `${(loopRange.end - loopRange.start) / effectiveAavartanaSec * AAVARTANA_PX}px`,
+                                background: 'rgba(16,185,129,0.15)',
+                                borderLeft: '1px solid rgba(16,185,129,0.5)',
+                                borderRight: '1px solid rgba(16,185,129,0.5)',
+                                willChange: 'left, width'
+                            }}
+                        >
+                            {/* Label */}
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-20">
+                                <Repeat className="w-12 h-12 text-emerald-400" />
+                            </div>
+                        </div>
+                    )}
+
                     {/* Lane 1: Waveform Editor */}
                     <div className="relative flex-shrink-0" style={{ height: '24%', borderBottom: `1px solid ${borderColor}` }}>
                         <LaneLabel label="Audio" isDark={isDark} />
                         <WaveformEditor
-                            audioBuffer={editedBuffer ?? rawBuffer}
+                            audioBuffer={editedBuffer}
                             currentTime={currentTime}
-                            timeRef={smoothTimeRef}
-                            originalDuration={totalDuration || originalDuration}
+                            originalDuration={totalDuration}
                             editorMode={editorMode}
                             selection={activeSelection}
                             onSelectionChange={setActiveSelection}
@@ -1151,15 +1249,15 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         {aavartanas.length > 0 && (
                             <NotationLane
                                 aavartanas={aavartanas}
+                                aavartanaTimings={aavartanaTimings}
                                 currentTime={currentTime}
-                                timeRef={smoothTimeRef}
                                 totalDuration={totalDuration}
                                 playheadFraction={PLAYHEAD}
+                                aavartanaSec={effectiveAavartanaSec}
                                 type="swara"
                                 theme={theme}
-                                aavartanaSec={effectiveAavartanaSec}
-                                aavartanaTimings={aavartanaTimings}
-                                editMode={false}
+                                onTokenEdit={handleTokenEdit}
+                                readOnly={readOnly}
                             />
                         )}
                     </div>
@@ -1170,15 +1268,15 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         {aavartanas.length > 0 && (
                             <NotationLane
                                 aavartanas={aavartanas}
+                                aavartanaTimings={aavartanaTimings}
                                 currentTime={currentTime}
-                                timeRef={smoothTimeRef}
                                 totalDuration={totalDuration}
                                 playheadFraction={PLAYHEAD}
+                                aavartanaSec={effectiveAavartanaSec}
                                 type="sahitya"
                                 theme={theme}
-                                aavartanaSec={effectiveAavartanaSec}
-                                aavartanaTimings={aavartanaTimings}
-                                editMode={false}
+                                onTokenEdit={handleTokenEdit}
+                                readOnly={readOnly}
                             />
                         )}
                     </div>
