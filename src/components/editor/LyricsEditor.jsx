@@ -1,366 +1,307 @@
-import React, { useState, useMemo } from 'react';
-import { X, Plus } from 'lucide-react';
+import React, { useState } from 'react';
+import { X, FileText, Check, Music, Plus, Copy, Trash2, ChevronDown } from 'lucide-react';
 
-// ── Tala definitions ────────────────────────────────────────────────────────
-const TALAS = [
-    { id: 'adi',           label: 'Adi Tala',          beats: 8, angas: [4, 2, 2] },
-    { id: 'rupaka',        label: 'Rupaka Tala',        beats: 6, angas: [2, 2, 2] },
-    { id: 'misra_chapu',   label: 'Misra Chapu',        beats: 7, angas: [3, 2, 2] },
-    { id: 'khanda_chapu',  label: 'Khanda Chapu',       beats: 5, angas: [2, 3]   },
-    { id: 'khanda_triputa',label: 'Khanda Triputa',     beats: 9, angas: [5, 2, 2] },
-    { id: 'tisra_triputa', label: 'Tisra Triputa',      beats: 7, angas: [3, 2, 2] },
-    { id: 'chatusra_eka',  label: 'Chatusra Eka',       beats: 4, angas: [4]       },
-    { id: 'tisra_eka',     label: 'Tisra Eka',          beats: 3, angas: [3]       },
-    { id: 'sankeerna_eka', label: 'Sankeerna Eka',      beats: 9, angas: [9]       },
-];
-
-// ── Swara colours (matches NotationLane) ─────────────────────────────────────
-const SWARA_COLORS = {
-    S: '#34d399', R: '#60a5fa', G: '#a78bfa',
-    M: '#fbbf24', P: '#f87171', D: '#fb923c', N: '#e879f9',
+/**
+ * Common Tala Metadata
+ * Defines beat count and anga (section) boundaries for visual dividers.
+ */
+const TALAS = {
+    adi: { name: 'Adi', beats: 8, angas: [4, 6] },
+    rupakam: { name: 'Rupakam', beats: 6, angas: [2] },
+    rupaka: { name: 'Rupakam', beats: 6, angas: [2] }, // variant name
+    triputa: { name: 'Triputa', beats: 7, angas: [3, 5] },
+    jhampa: { name: 'Jhampa', beats: 10, angas: [7, 8] },
+    matya: { name: 'Matya', beats: 10, angas: [4, 6] },
+    dhruva: { name: 'Dhruva', beats: 14, angas: [4, 6, 10] },
+    ata: { name: 'Ata', beats: 14, angas: [5, 10, 12] },
+    eaka: { name: 'Eaka', beats: 4, angas: [] },
 };
-function swaraColor(text) {
-    return SWARA_COLORS[text?.trim()?.[0]?.toUpperCase()] || '#10b981';
-}
 
-// ── Beat-group parsing ───────────────────────────────────────────────────────
-// Each content entry = one aavartana. Beats are separated by |; || marks aavartana end.
-function parseBeatGroups(str) {
-    if (!str?.trim()) return [''];
-    const groups = str
-        .replace(/\|\|/g, '')       // strip aavartana-end marker (implicit in data structure)
-        .split('|')
-        .map(g => g.trim());
-    // Drop trailing empty entry left by a trailing |
-    while (groups.length > 1 && groups[groups.length - 1] === '') groups.pop();
-    return groups.length ? groups : [''];
-}
-
-function joinBeatGroups(groups) {
-    return groups.filter(g => g !== undefined).join(' | ');
-}
-
-// ── LyricsEditor ─────────────────────────────────────────────────────────────
-export default function LyricsEditor({ composition, onSave, onClose, theme, initialTalam = 'adi' }) {
-    const [talam, setTalam] = useState(initialTalam);
-    const [localComp, setLocalComp] = useState(() => structuredClone(composition));
-
+/**
+ * LyricsEditor
+ * A domain-accurate grid system for Carnatic notation.
+ * Swara and Sahitya are aligned in "beat cells" across rows.
+ */
+export default function LyricsEditor({ composition, initialTalam = 'adi', onSave, onClose, theme }) {
     const isDark = theme !== 'light';
-    const selectedTala = TALAS.find(t => t.id === talam) || TALAS[0];
+    const normalizedTalam = initialTalam.toLowerCase().replace(/[\s-]/g, '');
+    const tala = TALAS[normalizedTalam] || TALAS.adi;
 
-    // 0-based beat indices BEFORE which we insert an anga separator
-    const angaBreaks = useMemo(() => {
-        const breaks = new Set();
-        let sum = 0;
-        for (const a of selectedTala.angas.slice(0, -1)) {
-            sum += a;
-            breaks.add(sum);
-        }
-        return breaks;
-    }, [talam]);
+    /**
+     * Parse the JSON composition into a structured grid.
+     * Beats are separated by spaces. Angas by |. Aavartanas by ||.
+     */
+    const [sections, setSections] = useState(() => {
+        if (!Array.isArray(composition)) return [];
+        return composition.map(s => {
+            const rows = (s.content || []).map(entry => {
+                // Split multi-aavartana strings by ||
+                const swaraAvs = (entry.swaram || '').split('||').map(v => v.trim()).filter(Boolean);
+                const sahityaAvs = (entry.sahityam || '').split('||').map(v => v.trim()).filter(Boolean);
+                const count = Math.max(swaraAvs.length, sahityaAvs.length, 1);
 
-    // ── Edit handlers ──────────────────────────────────────────────────────
-    function handleChange(si, ci, field, bi, value) {
-        setLocalComp(prev => {
-            const next = structuredClone(prev);
-            const entry = next[si].content[ci];
-            const groups = parseBeatGroups(entry[field]);
-            while (groups.length <= bi) groups.push('');
-            groups[bi] = value;
-            entry[field] = joinBeatGroups(groups);
+                const aavartanas = [];
+                for (let i = 0; i < count; i++) {
+                    const sStr = swaraAvs[i] || '';
+                    const lStr = sahityaAvs[i] || '';
+
+                    // Split into raw tokens via spaces
+                    // We treat everything that ISN'T a pipe as a beat
+                    // Strip all pipes (anga/avartana markers) and split into beat tokens
+                    const sTokens = sStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
+                    const lTokens = lStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
+
+                    const beats = [];
+                    for (let j = 0; j < tala.beats; j++) {
+                        beats.push({
+                            swara: sTokens[j] || '',
+                            sahitya: lTokens[j] || ''
+                        });
+                    }
+                    aavartanas.push(beats);
+                }
+                return aavartanas;
+            }).flat();
+
+            return {
+                name: s.section,
+                aavartanas: rows.length > 0 ? rows : [Array.from({ length: tala.beats }, () => ({ swara: '', sahitya: '' }))]
+            };
+        });
+    });
+
+    const handleBeatChange = (secIdx, avIdx, beatIdx, field, value) => {
+        setSections(prev => {
+            const next = [...prev];
+            const newAvs = [...next[secIdx].aavartanas];
+            const newBeats = [...newAvs[avIdx]];
+            newBeats[beatIdx] = { ...newBeats[beatIdx], [field]: value };
+            newAvs[avIdx] = newBeats;
+            next[secIdx] = { ...next[secIdx], aavartanas: newAvs };
             return next;
         });
-    }
+    };
 
-    function handleAddBeat(si, ci) {
-        setLocalComp(prev => {
-            const next = structuredClone(prev);
-            const entry = next[si].content[ci];
-            const sg = parseBeatGroups(entry.swaram);
-            const lg = parseBeatGroups(entry.sahityam ?? '');
-            sg.push('');
-            lg.push('');
-            entry.swaram   = joinBeatGroups(sg);
-            entry.sahityam = joinBeatGroups(lg);
-            return next;
+    const addAavartana = (secIdx) => {
+        setSections(prev => prev.map((s, idx) => 
+            idx === secIdx 
+                ? { ...s, aavartanas: [...s.aavartanas, Array.from({ length: tala.beats }, () => ({ swara: '', sahitya: '' }))] }
+                : s
+        ));
+    };
+
+    const duplicateAv = (secIdx, avIdx) => {
+        setSections(prev => prev.map((s, idx) => {
+            if (idx !== secIdx) return s;
+            const newAvs = [...s.aavartanas];
+            const copy = JSON.parse(JSON.stringify(newAvs[avIdx]));
+            newAvs.splice(avIdx + 1, 0, copy);
+            return { ...s, aavartanas: newAvs };
+        }));
+    };
+
+    const removeAv = (secIdx, avIdx) => {
+        setSections(prev => prev.map((s, idx) => {
+            if (idx !== secIdx) return s;
+            if (s.aavartanas.length <= 1) return s;
+            return { ...s, aavartanas: s.aavartanas.filter((_, i) => i !== avIdx) };
+        }));
+    };
+
+    /**
+     * Serializes the beat grid back into the standard JSON string format.
+     * Inserts | and || based on the Tala's structure.
+     */
+    const handleSave = () => {
+        const newComposition = sections.map(s => {
+            const content = s.aavartanas.map(av => {
+                let sParts = [];
+                let lParts = [];
+                
+                av.forEach((beat, idx) => {
+                    const beatNum = idx + 1;
+                    sParts.push(beat.swara || '-');
+                    lParts.push(beat.sahitya || '-');
+
+                    if (tala.angas.includes(beatNum)) {
+                        sParts.push('|');
+                        lParts.push('|');
+                    }
+                });
+
+                return {
+                    swaram: sParts.join(' ') + ' ||',
+                    sahityam: lParts.join(' ') + ' ||'
+                };
+            });
+            return { section: s.name, content };
         });
-    }
+        onSave(newComposition);
+        onClose();
+    };
 
-    // ── Theme tokens ──────────────────────────────────────────────────────
-    const bg          = isDark ? '#0d0d18' : '#f8fafc';
-    const surfaceBg   = isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.025)';
-    const border      = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.08)';
-    const borderStrong= isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.18)';
+    // Theme tokens
+    const bg = isDark ? '#0a0a0f' : '#ffffff';
+    const borderColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.1)';
     const textPrimary = isDark ? '#f0f0fa' : '#0f172a';
-    const textMuted   = isDark ? 'rgba(240,240,250,0.4)' : 'rgba(15,23,42,0.4)';
+    const textMuted = isDark ? 'rgba(240,240,250,0.4)' : 'rgba(15,23,42,0.5)';
 
     return (
-        <div
-            className="fixed inset-0 z-50 flex items-center justify-center p-4"
-            style={{ background: 'rgba(0,0,0,0.72)', backdropFilter: 'blur(10px)' }}
+        <div 
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-10 bg-black/85 backdrop-blur-md"
             onClick={onClose}
         >
-            <div
-                className="w-full flex flex-col rounded-2xl shadow-2xl overflow-hidden"
-                style={{ maxWidth: '95vw', height: '92vh', background: bg, border: `1px solid ${borderStrong}` }}
+            <div 
+                className="w-fit max-w-[95vw] min-w-[600px] flex flex-col rounded-[2.5rem] shadow-2xl overflow-hidden border"
+                style={{ height: '85vh', background: bg, borderColor: borderColor }}
                 onClick={e => e.stopPropagation()}
             >
-                {/* ── Header ───────────────────────────────────────────────── */}
-                <div
-                    className="flex items-center gap-4 px-6 py-4 flex-shrink-0"
-                    style={{ borderBottom: `1px solid ${border}` }}
-                >
-                    <div className="flex-1">
-                        <h2 className="text-base font-bold" style={{ color: textPrimary }}>Lyrics Editor</h2>
-                        <p className="text-[11px] mt-0.5" style={{ color: textMuted }}>
-                            Edit swara &amp; sahitya at beat level — each column is one beat group
-                        </p>
+                {/* Header */}
+                <div className="px-8 py-5 flex items-center justify-between border-b" style={{ borderColor }}>
+                    <div className="flex items-center gap-6">
+                        <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center">
+                            <Music className="w-6 h-6 text-blue-500" />
+                        </div>
+                        <div>
+                            <h2 className="text-xl font-black tracking-tight" style={{ color: textPrimary }}>Lyrics Editor</h2>
+                            <p className="text-[10px] opacity-40 mt-1 uppercase tracking-widest font-bold">
+                                {tala.name} Tala Mode — Direct Grid Entry
+                            </p>
+                        </div>
                     </div>
-
-                    {/* Talam picker */}
-                    <div className="flex items-center gap-2.5">
-                        <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: textMuted }}>
-                            Talam
-                        </span>
-                        <select
-                            value={talam}
-                            onChange={e => setTalam(e.target.value)}
-                            className="text-sm font-semibold rounded-xl px-3 py-2 outline-none cursor-pointer"
-                            style={{
-                                background: isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.05)',
-                                border: `1px solid ${borderStrong}`,
-                                color: textPrimary,
-                            }}
-                        >
-                            {TALAS.map(t => (
-                                <option key={t.id} value={t.id}>{t.label} — {t.beats} beats</option>
-                            ))}
-                        </select>
-                    </div>
-
-                    <button
+                    <button 
                         onClick={onClose}
-                        className="w-8 h-8 flex items-center justify-center rounded-lg transition-opacity hover:opacity-70"
-                        style={{ background: isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.06)', color: textMuted }}
+                        className="w-10 h-10 rounded-2xl flex items-center justify-center opacity-40 hover:opacity-100 hover:bg-white/5 transition-all"
+                        style={{ color: textPrimary }}
                     >
-                        <X className="w-4 h-4" />
+                        <X className="w-5 h-5" />
                     </button>
                 </div>
 
-                {/* ── Content ──────────────────────────────────────────────── */}
-                <div className="flex-1 overflow-y-auto px-6 py-5 space-y-10">
-                    {localComp.map((section, si) => (
-                        <div key={si}>
-                            {/* Section heading */}
-                            <div className="flex items-center gap-3 mb-5">
-                                <span
-                                    className="text-[11px] font-black uppercase tracking-[0.18em] px-3 py-1 rounded-lg flex-shrink-0"
-                                    style={{
-                                        background: 'rgba(251,191,36,0.13)',
-                                        color: '#fbbf24',
-                                        border: '1px solid rgba(251,191,36,0.28)',
-                                    }}
-                                >
-                                    {section.section}
+                {/* Grid Content */}
+                <div className="flex-1 overflow-y-auto px-10 py-8 space-y-12 custom-scrollbar">
+                    {sections.map((section, sIdx) => (
+                        <div key={sIdx} className="space-y-6">
+                            {/* Section Header - Centered */}
+                            <div className="flex flex-col items-center gap-2">
+                                <span className="text-[10px] font-black uppercase tracking-[0.4em] text-amber-500 bg-amber-500/5 px-4 py-1.5 rounded-full border border-amber-500/10">
+                                    {section.name}
                                 </span>
-                                <div className="flex-1 h-px" style={{ background: border }} />
-                                <span className="text-[10px] flex-shrink-0" style={{ color: textMuted }}>
-                                    {section.content.length} āvartana{section.content.length !== 1 ? 's' : ''}
-                                </span>
+                                <div className="w-16 h-px bg-gradient-to-r from-transparent via-amber-500/20 to-transparent" />
                             </div>
 
-                            {/* Beat-number legend for this talam (shown once per section) */}
-                            <BeatLegend tala={selectedTala} angaBreaks={angaBreaks} isDark={isDark} border={border} textMuted={textMuted} />
+                            <div className="space-y-4">
+                                {section.aavartanas.map((av, avIdx) => (
+                                    <div key={avIdx} className="group flex items-start">
 
-                            {/* Aavartana rows */}
-                            <div className="space-y-3 mt-2">
-                                {section.content.map((entry, ci) => {
-                                    const sg = parseBeatGroups(entry.swaram);
-                                    const lg = parseBeatGroups(entry.sahityam ?? '');
-                                    const beatCount = Math.max(sg.length, lg.length, 1);
+                                        {/* Container for Grid + Toolbar */}
+                                        <div className="flex-1 flex flex-col min-w-0">
+                                            {/* Scrollable Grid Row Wrapper */}
+                                            <div className="overflow-x-auto overflow-y-hidden pb-2 -mb-2 scrollbar-none">
+                                                {/* Grid Row - Grouped by Angas */}
+                                                <div className="flex items-start gap-5 w-fit pr-10">
+                                                    {(() => {
+                                                        // Create Groups based on Tala's Angas
+                                                        const groups = [];
+                                                        let currentGroup = [];
+                                                        av.forEach((beat, bIdx) => {
+                                                            const beatNum = bIdx + 1;
+                                                            currentGroup.push(beat);
+                                                            if (tala.angas.includes(beatNum) || beatNum === tala.beats) {
+                                                                groups.push(currentGroup);
+                                                                currentGroup = [];
+                                                            }
+                                                        });
 
-                                    return (
-                                        <div key={ci} className="flex items-stretch gap-3">
-                                            {/* Āvartana label */}
-                                            <div
-                                                className="flex-shrink-0 flex items-center justify-end"
-                                                style={{ width: 40 }}
-                                            >
-                                                <span
-                                                    className="text-[9px] font-mono font-bold rotate-0"
-                                                    style={{ color: textMuted }}
-                                                >
-                                                    Āv{ci + 1}
-                                                </span>
+                                                        return groups.map((group, gIdx) => (
+                                                            <div key={gIdx} className="flex rounded-xl border bg-white/5 overflow-hidden shadow-sm" style={{ borderColor }}>
+                                                                {group.map((beat, bIdx) => {
+                                                                    const actualIdx = av.indexOf(beat);
+                                                                    return (
+                                                                        <div 
+                                                                            key={bIdx} 
+                                                                            className="w-22 sm:w-26 flex flex-col border-r last:border-r-0"
+                                                                            style={{ borderColor }}
+                                                                        >
+                                                                            {/* Swara Cell - Large Mono */}
+                                                                            <div className="h-12 border-b flex items-center px-1" style={{ borderColor }}>
+                                                                                <input 
+                                                                                    value={beat.swara}
+                                                                                    onChange={e => handleBeatChange(sIdx, avIdx, actualIdx, 'swara', e.target.value)}
+                                                                                    spellCheck={false}
+                                                                                    className="w-full bg-transparent outline-none text-center font-mono text-base font-black tracking-widest text-blue-400"
+                                                                                    placeholder="-"
+                                                                                />
+                                                                            </div>
+                                                                            {/* Sahitya Cell - Large Bold */}
+                                                                            <div className="h-11 flex items-center px-1">
+                                                                                <input 
+                                                                                    value={beat.sahitya}
+                                                                                    onChange={e => handleBeatChange(sIdx, avIdx, actualIdx, 'sahitya', e.target.value)}
+                                                                                    className="w-full bg-transparent outline-none text-center text-base font-bold"
+                                                                                    style={{ color: textMuted }}
+                                                                                    placeholder="..."
+                                                                                />
+                                                                            </div>
+                                                                        </div>
+                                                                    );
+                                                                })}
+                                                            </div>
+                                                        ));
+                                                    })()}
+                                                </div>
                                             </div>
 
-                                            {/* Beat cells */}
-                                            <div className="flex flex-wrap items-stretch gap-1">
-                                                {Array.from({ length: beatCount }, (_, bi) => {
-                                                    const beatNum = (bi % selectedTala.beats) + 1;
-                                                    const isAngaBreak = angaBreaks.has(bi);
-
-                                                    return (
-                                                        <React.Fragment key={bi}>
-                                                            {/* Anga divider */}
-                                                            {isAngaBreak && (
-                                                                <div
-                                                                    className="self-stretch flex items-center"
-                                                                    style={{ width: 10 }}
-                                                                >
-                                                                    <div
-                                                                        className="w-px h-full mx-auto"
-                                                                        style={{ background: borderStrong }}
-                                                                    />
-                                                                </div>
-                                                            )}
-
-                                                            {/* Beat cell */}
-                                                            <BeatCell
-                                                                beatNum={beatNum}
-                                                                isFirst={beatNum === 1}
-                                                                swaraText={sg[bi] ?? ''}
-                                                                sahText={lg[bi] ?? ''}
-                                                                onSwaraChange={v => handleChange(si, ci, 'swaram', bi, v)}
-                                                                onSahChange={v => handleChange(si, ci, 'sahityam', bi, v)}
-                                                                isDark={isDark}
-                                                                border={border}
-                                                                textMuted={textMuted}
-                                                            />
-                                                        </React.Fragment>
-                                                    );
-                                                })}
-
-                                                {/* Add beat */}
-                                                <button
-                                                    onClick={() => handleAddBeat(si, ci)}
-                                                    className="self-stretch flex items-center justify-center rounded-lg transition-all hover:opacity-90"
-                                                    style={{
-                                                        width: 28,
-                                                        background: isDark ? 'rgba(16,185,129,0.06)' : 'rgba(16,185,129,0.06)',
-                                                        border: '1px dashed rgba(16,185,129,0.35)',
-                                                        color: '#10b981',
-                                                    }}
-                                                    title="Add beat group"
-                                                >
-                                                    <Plus className="w-3 h-3" />
+                                            {/* Row Hover Toolbar */}
+                                            <div className="flex items-center gap-4 mt-2 px-2 opacity-0 group-hover:opacity-100 transition-all">
+                                                <button onClick={() => duplicateAv(sIdx, avIdx)} className="flex items-center gap-1 text-[8px] font-black uppercase text-blue-400/60 hover:text-blue-400">
+                                                    <Copy className="w-3 h-3" /> Duplicate
+                                                </button>
+                                                <button onClick={() => removeAv(sIdx, avIdx)} className="flex items-center gap-1 text-[8px] font-black uppercase text-red-500/40 hover:text-red-500">
+                                                    <Trash2 className="w-3 h-3" /> Remove
                                                 </button>
                                             </div>
                                         </div>
-                                    );
-                                })}
+                                    </div>
+                                ))}
+
+                                <button 
+                                    onClick={() => addAavartana(sIdx)}
+                                    className="w-full py-4 rounded-2xl border border-dashed flex items-center justify-center gap-3 opacity-20 hover:opacity-100 transition-all hover:bg-white/5"
+                                    style={{ borderColor }}
+                                >
+                                    <Plus className="w-4 h-4" />
+                                    <span className="text-[10px] font-black uppercase tracking-[0.2em]">Add {tala.name} Āvartana</span>
+                                </button>
                             </div>
                         </div>
                     ))}
                 </div>
 
-                {/* ── Footer ───────────────────────────────────────────────── */}
-                <div
-                    className="flex items-center justify-between px-6 py-4 flex-shrink-0"
-                    style={{ borderTop: `1px solid ${border}` }}
-                >
-                    <div className="flex items-center gap-2 text-xs" style={{ color: textMuted }}>
-                        <div className="w-2 h-2 rounded-full bg-emerald-500" />
-                        <span>
-                            <strong style={{ color: textPrimary }}>{selectedTala.label}</strong>
-                            {' · '}{selectedTala.beats} beats
-                            {' · '}Angas: {selectedTala.angas.join(' + ')}
-                        </span>
+                {/* Footer */}
+                <div className="px-8 py-5 border-t flex items-center justify-between" style={{ borderColor }}>
+                    <div className="flex items-center gap-4 text-[10px] font-black uppercase tracking-widest opacity-30">
+                        <Music className="w-4 h-4" />
+                        <span>Each box = One Beat (Parsed by Spaces)</span>
                     </div>
-                    <div className="flex items-center gap-3">
-                        <button
+                    <div className="flex items-center gap-4">
+                        <button 
                             onClick={onClose}
-                            className="px-4 py-2 rounded-xl text-sm font-semibold transition-all hover:opacity-80"
-                            style={{ background: surfaceBg, border: `1px solid ${border}`, color: textMuted }}
+                            className="px-8 py-3 text-sm font-black uppercase tracking-[0.2em] opacity-40 hover:opacity-100 transition-all"
+                            style={{ color: textPrimary }}
                         >
                             Cancel
                         </button>
-                        <button
-                            onClick={() => { onSave(localComp); onClose(); }}
-                            className="px-5 py-2 rounded-xl text-sm font-bold transition-all hover:opacity-90"
-                            style={{ background: 'linear-gradient(135deg,#10b981,#059669)', color: '#fff' }}
+                        <button 
+                            onClick={handleSave}
+                            className="flex items-center gap-3 px-10 py-4 rounded-[1.5rem] text-sm font-black uppercase tracking-[0.2em] bg-emerald-500 text-white shadow-xl shadow-emerald-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
                         >
-                            Save Changes
+                            <Check className="w-5 h-5" />
+                            Apply Changes
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
-    );
-}
-
-// ── Beat legend row (shown once at section top) ───────────────────────────────
-function BeatLegend({ tala, angaBreaks, isDark, border, textMuted }) {
-    return (
-        <div className="flex items-center gap-1 mb-1 pl-[52px]">
-            {Array.from({ length: tala.beats }, (_, bi) => (
-                <React.Fragment key={bi}>
-                    {angaBreaks.has(bi) && <div style={{ width: 10 }} />}
-                    <div
-                        className="flex items-center justify-center rounded text-[9px] font-bold"
-                        style={{
-                            width: 76,
-                            height: 18,
-                            background: bi === 0
-                                ? (isDark ? 'rgba(16,185,129,0.15)' : 'rgba(16,185,129,0.1)')
-                                : (isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.03)'),
-                            border: `1px solid ${bi === 0 ? 'rgba(16,185,129,0.3)' : border}`,
-                            color: bi === 0 ? '#10b981' : textMuted,
-                        }}
-                    >
-                        {bi + 1}
-                    </div>
-                </React.Fragment>
-            ))}
-            {/* spacer for + button */}
-            <div style={{ width: 28 }} />
-        </div>
-    );
-}
-
-// ── Individual beat cell ───────────────────────────────────────────────────────
-function BeatCell({ beatNum, isFirst, swaraText, sahText, onSwaraChange, onSahChange, isDark, border, textMuted }) {
-    const color  = swaraText ? swaraColor(swaraText) : (isDark ? 'rgba(255,255,255,0.13)' : 'rgba(0,0,0,0.13)');
-    const sahCol = sahText   ? (isDark ? '#fcd34d' : '#92400e') : (isDark ? 'rgba(255,255,255,0.13)' : 'rgba(0,0,0,0.13)');
-
-    return (
-        <div
-            className="flex flex-col rounded-xl overflow-hidden flex-shrink-0"
-            style={{
-                width: 76,
-                background: isDark ? 'rgba(255,255,255,0.025)' : 'rgba(0,0,0,0.025)',
-                border: `1px solid ${isFirst ? 'rgba(16,185,129,0.25)' : border}`,
-            }}
-        >
-            {/* Swara */}
-            <input
-                value={swaraText}
-                onChange={e => onSwaraChange(e.target.value)}
-                placeholder="—"
-                spellCheck={false}
-                className="w-full text-center bg-transparent outline-none font-bold"
-                style={{
-                    padding: '7px 4px 5px',
-                    fontSize: '0.95rem',
-                    fontFamily: "'Outfit', sans-serif",
-                    color,
-                    borderBottom: `1px solid ${border}`,
-                }}
-            />
-            {/* Sahitya */}
-            <input
-                value={sahText}
-                onChange={e => onSahChange(e.target.value)}
-                placeholder="—"
-                spellCheck={false}
-                className="w-full text-center bg-transparent outline-none"
-                style={{
-                    padding: '5px 4px 7px',
-                    fontSize: '0.82rem',
-                    fontFamily: "'Outfit', sans-serif",
-                    color: sahCol,
-                }}
-            />
         </div>
     );
 }

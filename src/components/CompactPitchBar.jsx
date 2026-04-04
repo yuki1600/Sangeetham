@@ -176,26 +176,38 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
             </div>
 
             {/* Drone Controls */}
-            <div className={`relative flex items-center px-2 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
-                }`} style={{ height: '56px' }}>
-                <button
-                    onClick={toggleDrone}
-                    className={`w-11 h-11 flex items-center justify-center rounded-full transition-all duration-300 ${droneActive
-                        ? 'text-emerald-400'
-                        : `hover:text-white ${isDark ? 'text-white/40' : 'text-black/40'}`
-                        }`}
-                    title="Toggle Drone"
+            <div className="relative" style={{ height: '56px', width: '56px' }}>
+                <div 
+                    className={`absolute left-0 top-0 flex items-center px-2 rounded-full border transition-all duration-500 ease-in-out overflow-hidden shadow-xl ${
+                        isDark ? 'bg-[#141420]/90 border-white/10' : 'bg-white/90 border-black/10'
+                    }`} 
+                    style={{ 
+                        height: '56px', 
+                        width: droneActive ? '210px' : '56px',
+                        backdropFilter: 'blur(10px)',
+                        zIndex: 40
+                    }}
                 >
-                    {droneActive ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
-                </button>
-
-                {droneActive && (
-                    <div 
-                        className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 p-4 rounded-2xl border shadow-2xl z-50 animate-in fade-in slide-in-from-top-2 duration-200 ${isDark ? 'bg-[#141420] border-white/10' : 'bg-white border-black/5'}`}
-                        style={{ minWidth: "120px" }}
+                    <button
+                        onClick={toggleDrone}
+                        className={`w-11 h-11 flex-shrink-0 flex items-center justify-center rounded-full transition-all duration-300 ${droneActive
+                            ? 'text-emerald-400'
+                            : `hover:text-white ${isDark ? 'text-white/40' : 'text-black/40'}`
+                            }`}
+                        title={droneActive ? "Turn Drone Off" : "Turn Drone On"}
                     >
-                        <div className="text-[10px] uppercase font-black tracking-widest opacity-40 text-center mb-3">Volume</div>
-                        <div className="flex justify-center">
+                        {droneActive ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
+                    </button>
+
+                    <div className="flex items-center transition-all duration-500 ease-in-out h-full overflow-hidden"
+                        style={{ 
+                            width: droneActive ? '150px' : '0px', 
+                            opacity: droneActive ? 1 : 0,
+                            marginLeft: droneActive ? '4px' : '0px'
+                        }}>
+                        <div className={`w-px h-6 flex-shrink-0 ${isDark ? 'bg-white/10' : 'bg-black/10'}`} />
+                        <div className="flex flex-col gap-1 ml-4 flex-1">
+                            <div className="text-[9px] uppercase font-black tracking-widest opacity-40 leading-none">Drone</div>
                             <input
                                 type="range"
                                 min="-40"
@@ -203,7 +215,7 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
                                 step="1"
                                 value={droneVolume}
                                 onChange={handleVolumeChange}
-                                className={`w-24 h-1.5 rounded-lg appearance-none cursor-pointer accent-emerald-500 ${isDark ? 'bg-white/10' : 'bg-black/10'}`}
+                                className={`w-full h-1.5 rounded-lg appearance-none cursor-pointer accent-emerald-500 ${isDark ? 'bg-white/10' : 'bg-black/10'}`}
                                 style={{
                                     WebkitAppearance: 'none',
                                     outline: 'none'
@@ -211,7 +223,7 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
                             />
                         </div>
                     </div>
-                )}
+                </div>
             </div>
         </div>
     );

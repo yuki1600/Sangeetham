@@ -3,7 +3,7 @@ import {
     ArrowLeft, Play, Pause, RotateCcw, Save, Download,
     History, Undo2, RefreshCw, ChevronDown,
     Check, AlertCircle, Scissors, FileText,
-    FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe
+    FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid
 } from 'lucide-react';
 import LaneLabel from '../LaneLabel';
 import NotationLane from '../NotationLane';
@@ -605,7 +605,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     }}
                 >
                     {/* Row 1: nav + title + actions */}
-                    <div className="flex items-center justify-between px-5 pt-4 pb-2 gap-3">
+                    <div className="grid grid-cols-[1fr_auto_1fr] items-center px-5 pt-4 pb-2 gap-3">
                         <div className="flex items-center gap-3 min-w-0">
                             <button
                                 onClick={onBack}
@@ -620,38 +620,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 </div>
                                 <div className="text-[9px] uppercase tracking-widest opacity-50 flex items-center gap-2">
                                     <span>{songData.song_details?.raga} · {songData.song_details?.tala}</span>
-                                    {songData.meta?.audioFilename && (
-                                        <>
-                                            <span className="opacity-30">|</span>
-                                            <span className="flex items-center gap-1">
-                                                <Music className="w-2.5 h-2.5" />
-                                                {songData.meta.audioFilename}
-                                            </span>
-                                        </>
-                                    )}
                                 </div>
                             </div>
                         </div>
 
                         {/* Centered pitch bar */}
-                        <div className="flex-1 flex justify-center">
+                        <div className="flex justify-center">
                             <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
                         </div>
 
-                        {/* Action buttons (Hidden in read-only mode) */}
-                        {!readOnly && (
-                            <div className="flex items-center gap-2 flex-shrink-0">
-                                <button
-                                    onClick={() => setShowHistory(s => !s)}
-                                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${showHistory ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
-                                    style={{ borderColor: showHistory ? undefined : borderColor, color: showHistory ? undefined : 'var(--text-muted)' }}
-                                >
-                                    <History className="w-3.5 h-3.5" />
-                                    History
-                                </button>
-
-                                {/* Manage Files dropdown */}
-                                <div className="relative">
+                        <div className="flex items-center justify-end gap-2 min-w-0">
+                            {/* Manage Files dropdown */}
+                            <div className="relative">
                                     <button
                                         onClick={() => setShowDownloadMenu(s => !s)}
                                         className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${showDownloadMenu ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
@@ -664,9 +644,17 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     {showDownloadMenu && (
                                         <div
                                             className="absolute right-0 top-full mt-1 rounded-xl border overflow-hidden z-50 shadow-2xl"
-                                            style={{ background: isDark ? '#141420' : '#fff', borderColor, minWidth: 200 }}
+                                            style={{ background: isDark ? '#141420' : '#fff', borderColor, minWidth: 220 }}
                                             onMouseLeave={() => setShowDownloadMenu(false)}
                                         >
+                                            <div className="px-3 py-2 bg-emerald-500/5 border-b" style={{ borderColor }}>
+                                                <div className="text-[10px] uppercase tracking-widest opacity-40 font-black mb-1">Active File</div>
+                                                <div className="text-[11px] font-bold truncate flex items-center gap-2">
+                                                    <Music className="w-3 h-3 text-emerald-500" />
+                                                    {songData.meta?.audioFilename || 'Unknown File'}
+                                                </div>
+                                            </div>
+
                                             <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Downloads</div>
                                             {[
                                                 { label: 'Composition JSON', icon: FileJson, action: handleDownloadJSON },
@@ -684,44 +672,51 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                 </button>
                                             ))}
                                             
-                                            <div className="h-px w-full" style={{ background: borderColor }} />
-                                            <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
-                                            
-                                            <button
-                                                onClick={() => { audioSwapRef.current?.click(); setShowDownloadMenu(false); }}
-                                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                                            >
-                                                <Upload className="w-3.5 h-3.5" />
-                                                Swap Audio File
-                                            </button>
-                                            <button
-                                                onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
-                                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                                            >
-                                                <Upload className="w-3.5 h-3.5" />
-                                                Swap JSON Composition
-                                            </button>
+                                            {!readOnly && (
+                                                <>
+                                                    <div className="h-px w-full" style={{ background: borderColor }} />
+                                                    <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
+                                                    
+                                                    <button
+                                                        onClick={() => { audioSwapRef.current?.click(); setShowDownloadMenu(false); }}
+                                                        className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                                                    >
+                                                        <Upload className="w-3.5 h-3.5" />
+                                                        Swap Audio File
+                                                    </button>
+                                                    <button
+                                                        onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
+                                                        className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                                                    >
+                                                        <Upload className="w-3.5 h-3.5" />
+                                                        Swap JSON Composition
+                                                    </button>
+                                                </>
+                                            )}
                                         </div>
                                     )}
                                 </div>
 
-                                {/* Hidden swap inputs */}
-                                <input 
-                                    type="file" 
-                                    ref={audioSwapRef} 
-                                    className="hidden" 
-                                    accept="audio/*,.mp3" 
-                                    onChange={handleAudioSwap}
-                                />
-                                <input 
-                                    type="file" 
-                                    ref={jsonSwapRef} 
-                                    className="hidden" 
-                                    accept=".json,application/json" 
-                                    onChange={handleJsonSwap}
-                                />
-                            </div>
-                        )}
+                                {/* Hidden swap inputs (Only needed in edit mode) */}
+                                {!readOnly && (
+                                    <>
+                                        <input 
+                                            type="file" 
+                                            ref={audioSwapRef} 
+                                            className="hidden" 
+                                            accept="audio/*,.mp3" 
+                                            onChange={handleAudioSwap}
+                                        />
+                                        <input 
+                                            type="file" 
+                                            ref={jsonSwapRef} 
+                                            className="hidden" 
+                                            accept=".json,application/json" 
+                                            onChange={handleJsonSwap}
+                                        />
+                                    </>
+                                )}
+                        </div>
                     </div>
 
                     {/* Row 2: Playback controls */}
@@ -809,10 +804,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             className="relative flex items-center justify-center gap-3 px-5 py-3 flex-shrink-0"
                             style={{ borderBottom: `1px solid ${showSections ? 'transparent' : borderColor}`, background: isDark ? 'rgba(255,255,255,0.01)' : 'rgba(0,0,0,0.01)' }}
                         >
-                            {/* Sections button — absolute left */}
+                            {/* Center aligned button group */}
                             <button
                                 onClick={() => setShowSections(s => !s)}
-                                className="absolute left-5 flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold border transition-all"
+                                className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold border transition-all"
                                 style={{
                                     borderColor: showSections ? 'rgba(251,191,36,0.5)' : borderColor,
                                     background: showSections ? 'rgba(251,191,36,0.1)' : 'transparent',
@@ -820,16 +815,16 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 }}
                                 title="Set section start times"
                             >
+                                <LayoutGrid className="w-4 h-4" />
                                 Sections
                                 <span className="text-[10px] opacity-60 tabular-nums ml-0.5">
                                     {Object.keys(sectionTimings).length > 0 ? Object.keys(sectionTimings).length : ''}
                                 </span>
                             </button>
 
-                            {/* Centred button group */}
                             <button
                                 onClick={() => setEditorMode(m => m === 'trim' ? 'view' : 'trim')}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
+                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all ml-2"
                                 style={{
                                     borderColor: editorMode === 'trim' ? 'rgba(239,68,68,0.4)' : borderColor,
                                     background: editorMode === 'trim' ? 'rgba(239,68,68,0.1)' : 'transparent',
@@ -839,7 +834,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 <Scissors className="w-4 h-4" />
                                 Trim
-                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">T</kbd>
                             </button>
 
                             <button
@@ -854,10 +848,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 <Gauge className="w-4 h-4" />
                                 {customAavartanaSec ? `${customAavartanaSec.toFixed(2)}s` : 'Calibrate'}
-                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">C</kbd>
                             </button>
 
-                            <div className="w-px h-6" style={{ background: borderColor }} />
+                            <div className="w-px h-6 mx-1" style={{ background: borderColor }} />
 
                             <button
                                 onClick={handleUndoLastCut}
@@ -868,7 +861,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 <Undo2 className="w-4 h-4" />
                                 Undo
-                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">⌘Z</kbd>
                             </button>
 
                             <button
@@ -893,7 +885,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 <RefreshCw className="w-4 h-4" />
                                 Reset
-                                <kbd className="text-[9px] opacity-50 font-mono ml-0.5">R</kbd>
+                            </button>
+
+                            <div className="w-px h-6 mx-1" style={{ background: borderColor }} />
+
+                            <button
+                                onClick={() => setShowHistory(s => !s)}
+                                className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all ${showHistory ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
+                                style={{ borderColor: showHistory ? undefined : borderColor, color: showHistory ? undefined : 'var(--text-muted)' }}
+                                title="View Edit History"
+                            >
+                                <History className="w-4 h-4" />
+                                History
                             </button>
 
                             <button
@@ -1217,7 +1220,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 <LyricsEditor
                     composition={composition}
                     theme={theme}
-                    initialTalam={talam}
+                    initialTalam={songData?.song_details?.tala || 'adi'}
                     onSave={(newComp) => setComposition(newComp)}
                     onClose={() => setShowLyrics(false)}
                 />
