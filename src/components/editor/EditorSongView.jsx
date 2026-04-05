@@ -127,6 +127,36 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         : 3.3;
     const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
 
+    // Pad composition with empty avartanas when calibration leaves notation short
+    useEffect(() => {
+        if (!composition || !customAavartanaSec || customAavartanaSec <= 0 || totalDuration <= 0 || readOnly) return;
+        const currentCount = aavartanas.length;
+        const needed = Math.ceil(totalDuration / customAavartanaSec);
+        if (currentCount >= needed) return;
+
+        const tala = songData?.meta?.tala || '';
+        const template = TALA_TEMPLATES[tala] || '_ _ _ _ ||';
+        const toAdd = needed - currentCount;
+
+        // Distribute extra avartanas evenly across sections
+        const sections = [...new Set(composition.map(s => s.section))];
+        const perSection = Math.floor(toAdd / sections.length);
+        let remainder = toAdd - perSection * sections.length;
+
+        const newComp = structuredClone(composition);
+        for (const sec of newComp) {
+            const extra = perSection + (remainder > 0 ? 1 : 0);
+            if (remainder > 0) remainder--;
+            if (extra <= 0) continue;
+            // Append empty avartanas as new content entries in this section
+            const emptyPattern = template.replace(/\|\|$/, '').trim();
+            for (let i = 0; i < extra; i++) {
+                sec.content.push({ swaram: emptyPattern + ' ||', sahityam: emptyPattern + ' ||' });
+            }
+        }
+        setComposition(newComp);
+    }, [customAavartanaSec, totalDuration, aavartanas.length, readOnly]);
+
     // Unique sections in order
     const uniqueSections = useMemo(
         () => [...new Set(aavartanas.map(av => av.section))],
