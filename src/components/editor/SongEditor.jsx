@@ -233,6 +233,21 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             }
         }
 
+        // Check for duplicate song (same title + raga + tala)
+        const trimTitle = uploadTitle.trim().toLowerCase();
+        const trimRaga = (uploadMode === 'manual' ? manualRaga.trim() : '').toLowerCase();
+        const trimTala = (uploadMode === 'manual' ? manualTala.trim() : '').toLowerCase();
+        const duplicate = songs.find(s => {
+            if (s.title?.toLowerCase() !== trimTitle) return false;
+            if (uploadMode !== 'manual') return true; // same title is enough when raga/tala come from JSON
+            return (s.raga?.toLowerCase() || '') === trimRaga
+                && (s.tala?.toLowerCase() || '') === trimTala;
+        });
+        if (duplicate) {
+            setUploadState(s => ({ ...s, error: `A song titled "${duplicate.title}" with the same raga and tala already exists. Please pick a different name.` }));
+            return;
+        }
+
         let finalJsonFile = jsonFile;
 
         if (uploadMode === 'manual') {

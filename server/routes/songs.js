@@ -232,8 +232,15 @@ router.post('/upload', upload.fields([
     if (tala) song_details.tala = tala;
     compositionData.song_details = song_details;
 
-    const rawTitle = (req.body.title || '').trim() || song_details.title || (swaraFile || sahityaFile).originalname.replace(/\.[^.]+$/, '');
-    const title = uniqueTitle(rawTitle);
+    const title = (req.body.title || '').trim() || song_details.title || (swaraFile || sahityaFile).originalname.replace(/\.[^.]+$/, '');
+
+    // Reject if a song with the same title, raga and tala already exists
+    const dup = db.prepare(
+      'SELECT id FROM songs WHERE LOWER(title) = LOWER(?) AND LOWER(raga) = LOWER(?) AND LOWER(tala) = LOWER(?)'
+    ).get(title, raga, tala);
+    if (dup) {
+      return res.status(409).json({ error: `A song titled "${title}" with raga "${raga}" and tala "${tala}" already exists. Please pick a different name.` });
+    }
     const id = uuidv4();
     const now = new Date().toISOString();
 
