@@ -7,6 +7,9 @@ if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 
 const db = new Database(path.join(DATA_DIR, 'sangeetha.db'));
 
+// Enable foreign keys (required for ON DELETE CASCADE)
+db.pragma('foreign_keys = ON');
+
 // Initialize schema
 db.exec(`
   CREATE TABLE IF NOT EXISTS songs (

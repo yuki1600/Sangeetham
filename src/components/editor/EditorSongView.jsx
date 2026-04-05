@@ -1642,7 +1642,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     {/* Lane 1: Waveform Editor */}
                     <div className="relative flex-shrink-0" style={{ height: 120, borderBottom: `1px solid ${borderColor}` }}>
                         <div
-                            className="absolute left-4 z-30 text-[11px] font-black uppercase tracking-[0.2em] px-3.5 py-1.5 rounded-xl"
+                            className="absolute left-4 z-30 text-[11px] font-black uppercase tracking-[0.2em] px-3.5 py-1.5 rounded-xl pointer-events-none"
                             style={{
                                 top: 28,
                                 color: isDark ? '#fff' : '#000',
