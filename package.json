@@ -13,9 +13,13 @@
     "preview": "vite preview"
   },
   "nodemonConfig": {
-    "watch": ["server"],
+    "watch": [
+      "server"
+    ],
     "ext": "js,json",
-    "ignore": ["server/data/*"],
+    "ignore": [
+      "server/data/*"
+    ],
     "delay": 500
   },
   "dependencies": {

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, Music2, Globe, Disc3, Pencil } from 'lucide-react';
+import { getRagaScale } from '../utils/ragaScales';
+import SwaraScale from './SwaraScale';
 
 /**
  * SongsPanel — shows published community songs dynamically from the backend.
@@ -63,6 +65,28 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
                                     <p className="text-[10px] text-[var(--text-secondary)] mt-0.5 uppercase tracking-widest font-black opacity-60 truncate">
                                         {song.raga || 'Ragamalika'} · {song.tala || 'Adi'}
                                     </p>
+                                    {(() => {
+                                        const scale = getRagaScale(song.raga);
+                                        const aro = song.arohana || (scale ? scale.arohana.join(' ') : null);
+                                        const avaro = song.avarohana || (scale ? scale.avarohana.join(' ') : null);
+                                        if (!aro && !avaro) return null;
+                                        return (
+                                            <>
+                                                {aro && (
+                                                    <div className="flex items-center gap-1 mt-0.5 text-[9px] font-bold">
+                                                        <span className="opacity-30 uppercase">Aro: </span>
+                                                        <SwaraScale swaras={aro} color="#a855f7" className="text-[9px] font-bold" />
+                                                    </div>
+                                                )}
+                                                {avaro && (
+                                                    <div className="flex items-center gap-1 text-[9px] font-bold">
+                                                        <span className="opacity-30 uppercase">Avaro: </span>
+                                                        <SwaraScale swaras={avaro} color="#a855f7" className="text-[9px] font-bold" />
+                                                    </div>
+                                                )}
+                                            </>
+                                        );
+                                    })()}
                                 </div>
                             </div>
                             

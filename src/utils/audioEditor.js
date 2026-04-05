@@ -69,6 +69,27 @@ function buildSegments(trimStart, trimEnd, cuts) {
 }
 
 /**
+ * Maps a time position in the edited (post-trim/cut) timeline back to its
+ * corresponding position in the original audio timeline.
+ */
+export function editedTimeToOriginal(editedTime, originalDuration, editOps) {
+  const { trimStart = 0, trimEnd = null, cuts = [] } = editOps || {};
+  const end = (trimEnd != null && trimEnd > 0) ? trimEnd : originalDuration;
+  const segments = buildSegments(Math.max(0, trimStart), Math.min(end, originalDuration), cuts);
+
+  let accumulated = 0;
+  for (const seg of segments) {
+    const segDur = seg.end - seg.start;
+    if (accumulated + segDur >= editedTime) {
+      return seg.start + (editedTime - accumulated);
+    }
+    accumulated += segDur;
+  }
+  // Past the end — clamp to last segment end
+  return segments.length > 0 ? segments[segments.length - 1].end : trimStart;
+}
+
+/**
  * Returns the total output duration after applying edit ops (without actually rendering).
  */
 export function getEditedDuration(originalDuration, editOps) {

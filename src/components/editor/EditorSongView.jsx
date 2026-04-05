@@ -4,7 +4,7 @@ import {
     History, Undo2, RefreshCw, ChevronDown,
     Check, AlertCircle, Scissors, FileText, X,
     FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid,
-    Repeat
+    Repeat, Pencil, ZoomIn, ZoomOut, Plus, Minus
 } from 'lucide-react';
 import LaneLabel from '../LaneLabel';
 import NotationLane from '../NotationLane';
@@ -19,7 +19,11 @@ import { buildAavartanas, applyTokenEdit } from '../../utils/songParser';
 const audioCache = new Map(); // key: `${songId}-${type}`
 // Stores song metadata and composition data
 const songDataCache = new Map(); // key: `${songId}`
-import { applyEditOps, getEditedDuration } from '../../utils/audioEditor';
+import { applyEditOps, getEditedDuration, editedTimeToOriginal } from '../../utils/audioEditor';
+import { TALA_TEMPLATES } from '../../utils/talaTemplates';
+import { ALL_SONGS } from '../../utils/carnaticData';
+import { getRagaScale } from '../../utils/ragaScales';
+import SwaraScale from '../SwaraScale';
 import { audioBufferToWav } from '../../utils/wavEncoder';
 
 const AAVARTANA_PX = 320;
@@ -82,6 +86,34 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const audioSwapRef = useRef(null);
     const jsonSwapRef = useRef(null);
     const [showDownloadMenu, setShowDownloadMenu] = useState(false);
+    const [waveZoom, setWaveZoom] = useState(1);
+
+    // Edit Info modal
+    const [showEditInfo, setShowEditInfo] = useState(false);
+    const [editInfoRaga, setEditInfoRaga] = useState('');
+    const [editInfoTala, setEditInfoTala] = useState('');
+    const [editInfoComposer, setEditInfoComposer] = useState('');
+    const [editInfoArohana, setEditInfoArohana] = useState([]);
+    const [editInfoAvarohana, setEditInfoAvarohana] = useState([]);
+    const [editInfoSaving, setEditInfoSaving] = useState(false);
+
+    const EXPANDED_RAGAM_LIST = [
+        'Abhogi', 'Anandabhairavi', 'Arabhi', 'Asaveri', 'Atana', 'Bhairavi', 'Bilahari', 'Bowli',
+        'Brindavani', 'Chakravakam', 'Chalanaata', 'Charukesi', 'Darbar', 'Dhanyasi', 'Dharmavati',
+        'Gaurimanohari', 'Gowlai', 'Hamsadhwani', 'Hamsanadam', 'Hari Kambodhi', 'Hindolam',
+        'Kalyani', 'Kambodhi', 'Kamas', 'Kanada', 'Kapi', 'Kedaragowla', 'Keeravani', 'Kharaharapriya',
+        'Latangi', 'Madhyamavati', 'Malahari', 'Mayamalavagowlai', 'Mohanam', 'Mukhari', 'Nalinakanthi',
+        'Nattai', 'Navaroj', 'Pantuvarali', 'Poorvikalyani', 'Punnagavarali', 'Reethigowlai', 'Revathi',
+        'Saaranga', 'Sahana', 'Sama', 'Saveri', 'Shankarabharanam', 'Shanmukhapriya', 'Simhendramadhyamam',
+        'Sindhu Bhairavi', 'Sri', 'Sri Ranjani', 'Subhapantuvarali', 'Suddha Dhanyasi', 'Suddha Saveri',
+        'Surutti', 'Thodi', 'Vachaspati', 'Varali', 'Vasanta', 'Yadukula Kambodhi'
+    ];
+    const allRagas = useMemo(() => [...new Set([...EXPANDED_RAGAM_LIST, ...ALL_SONGS.map(s => s.raga).filter(r => r && r !== 'All Ragas')])].sort(), []);
+    const allTalas = useMemo(() => [...new Set([...Object.keys(TALA_TEMPLATES), ...ALL_SONGS.map(s => s.tala).filter(Boolean)])].sort(), []);
+    const allComposers = useMemo(() => {
+        const list = [...new Set(ALL_SONGS.map(s => s.composer).filter(Boolean))].sort();
+        return list.includes('Unknown') ? ['Unknown', ...list.filter(c => c !== 'Unknown')] : list;
+    }, []);
 
     const isDark = theme !== 'light';
     const borderColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.07)';
@@ -280,7 +312,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             } finally {
                 if (!cancelled) setIsProcessing(false);
             }
-        }, 300);
+        }, 50);
 
         return () => { cancelled = true; clearTimeout(timeout); };
     }, [rawBuffer, editOps]);
@@ -493,6 +525,19 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setEditOps(prev);
     }, [editOpsHistory]);
 
+    const handleDeleteSelection = useCallback(() => {
+        if (!activeSelection?.endTime || !rawBuffer) return;
+        const editedStart = Math.min(activeSelection.startTime, activeSelection.endTime);
+        const editedEnd = Math.max(activeSelection.startTime, activeSelection.endTime);
+        if (editedEnd - editedStart < 0.1) return;
+        // Map edited-timeline selection back to original-timeline coordinates
+        const origStart = editedTimeToOriginal(editedStart, rawBuffer.duration, editOps);
+        const origEnd = editedTimeToOriginal(editedEnd, rawBuffer.duration, editOps);
+        setEditOpsHistory(prev => [...prev, editOps]);
+        setEditOps(ops => ({ ...ops, cuts: [...(ops.cuts || []), { start: origStart, end: origEnd }] }));
+        setActiveSelection(null);
+    }, [activeSelection, editOps, rawBuffer]);
+
     const handleResetAllEdits = useCallback(() => {
         setEditOpsHistory([]);
         setEditOps({ trimStart: 0, trimEnd: null, cuts: [] });
@@ -559,14 +604,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 if (end - start < 0.1) return;
                 e.preventDefault();
                 if (editorMode === 'calibrate') {
-                    // In calibrate mode, Enter/Delete applies calibration
                     setCustomAavartanaSec(end - start);
                     setActiveSelection(null);
                     setEditorMode('view');
                 } else {
-                    setEditOpsHistory(prev => [...prev, editOps]);
-                    setEditOps(ops => ({ ...ops, cuts: [...(ops.cuts || []), { start, end }] }));
-                    setActiveSelection(null);
+                    handleDeleteSelection();
                 }
             }
             // Enter: apply calibration in calibrate mode
@@ -772,6 +814,60 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         }
     };
 
+    const openEditInfo = () => {
+        const raga = songData?.meta?.raga || '';
+        setEditInfoRaga(raga);
+        setEditInfoTala(songData?.meta?.tala || '');
+        setEditInfoComposer(songData?.meta?.composer || '');
+        // Load arohana/avarohana from song_details, or fall back to raga database
+        const sd = songData?.song_details || {};
+        const scale = getRagaScale(raga);
+        const aro = sd.arohana
+            ? (typeof sd.arohana === 'string' ? sd.arohana.split(/\s+/).filter(Boolean) : sd.arohana)
+            : (scale?.arohana || []);
+        const avaro = sd.avarohana
+            ? (typeof sd.avarohana === 'string' ? sd.avarohana.split(/\s+/).filter(Boolean) : sd.avarohana)
+            : (scale?.avarohana || []);
+        setEditInfoArohana([...aro]);
+        setEditInfoAvarohana([...avaro]);
+        setShowEditInfo(true);
+    };
+
+    const saveEditInfo = async () => {
+        if (!editInfoRaga.trim() || !editInfoTala.trim()) return;
+        setEditInfoSaving(true);
+        const aroStr = editInfoArohana.filter(s => s.trim()).join(' ');
+        const avaroStr = editInfoAvarohana.filter(s => s.trim()).join(' ');
+        try {
+            const res = await fetch(`/api/songs/${songId}/metadata`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    raga: editInfoRaga.trim(),
+                    tala: editInfoTala.trim(),
+                    composer: editInfoComposer.trim(),
+                    arohana: aroStr,
+                    avarohana: avaroStr,
+                }),
+            });
+            if (!res.ok) throw new Error('Update failed');
+            const data = await res.json();
+            setSongData(prev => ({
+                ...prev,
+                meta: { ...prev.meta, raga: data.raga, tala: data.tala, composer: data.composer },
+                song_details: { ...prev.song_details, raga: data.raga, tala: data.tala, composer: data.composer, arohana: aroStr, avarohana: avaroStr }
+            }));
+            if (data.talaChanged && data.composition) {
+                setComposition(data.composition);
+            }
+            setShowEditInfo(false);
+        } catch (err) {
+            alert('Failed to update: ' + err.message);
+        } finally {
+            setEditInfoSaving(false);
+        }
+    };
+
     const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
     const progress = totalDuration > 0 ? currentTime / totalDuration : 0;
     const originalDuration = rawBuffer?.duration ?? 0;
@@ -797,51 +893,89 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         borderBottom: `1px solid ${borderColor}`,
                     }}
                 >
-                    {/* Row 1: nav + title + actions */}
-                    <div className="grid grid-cols-[1fr_auto_1fr] items-center px-5 pt-4 pb-2 gap-3">
-                        <div className="flex items-center gap-3 min-w-0">
+                    {/* Header content: song info left, controls right */}
+                    <div className="flex px-5 pt-2 pb-1 gap-4">
+                        {/* Left: back + song info */}
+                        <div className="flex items-start gap-3 min-w-0 flex-shrink-0" style={{ maxWidth: '30%' }}>
                             <button
                                 onClick={onBack}
-                                className="w-8 h-8 flex items-center justify-center rounded-xl border flex-shrink-0"
+                                className="w-8 h-8 flex items-center justify-center rounded-xl border flex-shrink-0 mt-0.5"
                                 style={{ background: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.04)', borderColor }}
                             >
                                 <ArrowLeft className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
                             </button>
-                                <div className="min-w-0">
-                                    <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                                        {songData.meta?.title || 'Untitled'}
-                                    </div>
-                                    <div className="flex flex-col gap-0.5 mt-0.5">
-                                        <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
-                                            {songData.meta?.raga && (
-                                                <span>
-                                                    <span className="opacity-40">Raga: </span>
-                                                    <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
-                                                </span>
+                            <div className="min-w-0">
+                                <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                                    {songData.meta?.title || 'Untitled'}
+                                </div>
+                                <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
+                                    {songData.meta?.raga && (
+                                        <span>
+                                            <span className="opacity-40">Raga: </span>
+                                            <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
+                                        </span>
+                                    )}
+                                    {songData.meta?.tala && (
+                                        <span>
+                                            <span className="opacity-40">Tala: </span>
+                                            <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
+                                        </span>
+                                    )}
+                                    {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
+                                        <span>
+                                            <span className="opacity-40">Composer: </span>
+                                            <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
+                                        </span>
+                                    )}
+                                </div>
+                                {(() => {
+                                    const sd = songData?.song_details || {};
+                                    const ragaName = songData?.meta?.raga || sd.raga || '';
+                                    const scale = getRagaScale(ragaName);
+                                    const aro = sd.arohana
+                                        ? (typeof sd.arohana === 'string' ? sd.arohana : sd.arohana.join(' '))
+                                        : (scale ? scale.arohana.join(' ') : null);
+                                    const avaro = sd.avarohana
+                                        ? (typeof sd.avarohana === 'string' ? sd.avarohana : sd.avarohana.join(' '))
+                                        : (scale ? scale.avarohana.join(' ') : null);
+                                    if (!aro && !avaro) return null;
+                                    return (
+                                        <div className="flex flex-col gap-1 mt-1.5">
+                                            {aro && (
+                                                <div className="flex items-center gap-2">
+                                                    <span className="opacity-40 uppercase text-[10px] font-bold">Aro: </span>
+                                                    <SwaraScale swaras={aro} color="#a855f7" className="text-sm font-bold" />
+                                                </div>
                                             )}
-                                            {songData.meta?.tala && (
-                                                <span>
-                                                    <span className="opacity-40">Tala: </span>
-                                                    <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
-                                                </span>
+                                            {avaro && (
+                                                <div className="flex items-center gap-2">
+                                                    <span className="opacity-40 uppercase text-[10px] font-bold">Avaro: </span>
+                                                    <SwaraScale swaras={avaro} color="#a855f7" className="text-sm font-bold" />
+                                                </div>
                                             )}
                                         </div>
-                                        {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
-                                            <div className="text-[10px] font-bold uppercase tracking-widest">
-                                                <span className="opacity-40">Composer: </span>
-                                                <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
-                                            </div>
-                                        )}
-                                    </div>
-                                </div>
+                                    );
+                                })()}
+                                {!readOnly && (
+                                    <button
+                                        onClick={openEditInfo}
+                                        className="flex items-center gap-1.5 mt-2 px-3 py-1.5 rounded-lg border text-[10px] font-bold uppercase tracking-widest transition-all hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400"
+                                        style={{ color: 'var(--text-muted)', borderColor }}
+                                    >
+                                        <Pencil className="w-3 h-3" />
+                                        Edit Info
+                                    </button>
+                                )}
+                            </div>
                         </div>
 
-                        {/* Centered pitch bar */}
-                        <div className="flex justify-center">
-                            <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
-                        </div>
-
-                        <div className="flex items-center justify-end gap-2 min-w-0">
+                        {/* Right: pitch bar, playback, manage files stacked */}
+                        <div className="flex-1 flex flex-col items-center gap-1 min-w-0">
+                            {/* Pitch bar + manage files row */}
+                            <div className="flex items-center justify-between w-full">
+                                <div />
+                                <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
+                                <div className="flex items-center gap-2">
                             {/* Manage Files dropdown */}
                             <div className="relative">
                                     <button
@@ -971,13 +1105,12 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                         />
                                     </>
                                 )}
-                        </div>
-                    </div>
-
-                    {/* Row 2: Playback controls */}
-                    <div className="flex items-center justify-center gap-8 pb-4">
+                                </div>
+                            </div>
+                            {/* Playback controls */}
+                            <div className="flex items-center justify-center gap-8 py-1">
                         <div
-                            className="flex items-center gap-6 px-8 py-2 rounded-3xl"
+                            className="flex items-center gap-6 px-8 py-1.5 rounded-3xl"
                             style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', border: `1px solid ${borderColor}` }}
                         >
                             {/* Section badge */}
@@ -1065,6 +1198,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             </div>
                         </div>
                     </div>
+                    </div>
+                    </div>
                 </header>
 
                 {/* ── Preview banner ───────────────────────────────────────────── */}
@@ -1131,6 +1266,49 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 Trim
                             </button>
 
+                            {/* Zoom controls */}
+                            <div className="flex items-center gap-1 ml-1 px-2 py-1 rounded-xl border" style={{ borderColor }}>
+                                <button
+                                    onClick={() => setWaveZoom(z => Math.max(0.5, z / 1.5))}
+                                    className="w-6 h-6 flex items-center justify-center rounded-lg transition-all hover:bg-white/10"
+                                    style={{ color: 'var(--text-muted)' }}
+                                    title="Zoom out"
+                                >
+                                    <ZoomOut className="w-3.5 h-3.5" />
+                                </button>
+                                {[1, 2, 5, 10].map(z => (
+                                    <button
+                                        key={z}
+                                        onClick={() => setWaveZoom(z)}
+                                        className="px-1.5 py-0.5 rounded-md text-[10px] font-bold transition-all"
+                                        style={{
+                                            background: Math.abs(waveZoom - z) < 0.05 ? 'rgba(16,185,129,0.8)' : 'transparent',
+                                            color: Math.abs(waveZoom - z) < 0.05 ? '#fff' : 'var(--text-muted)',
+                                        }}
+                                    >
+                                        {z}x
+                                    </button>
+                                ))}
+                                <button
+                                    onClick={() => setWaveZoom(z => Math.min(10, z * 1.5))}
+                                    className="w-6 h-6 flex items-center justify-center rounded-lg transition-all hover:bg-white/10"
+                                    style={{ color: 'var(--text-muted)' }}
+                                    title="Zoom in"
+                                >
+                                    <ZoomIn className="w-3.5 h-3.5" />
+                                </button>
+                                <input
+                                    type="range"
+                                    min={Math.log(0.5)}
+                                    max={Math.log(10)}
+                                    step={0.01}
+                                    value={Math.log(waveZoom)}
+                                    onChange={e => setWaveZoom(Math.exp(Number(e.target.value)))}
+                                    className="w-20 h-1 accent-emerald-500 ml-1"
+                                    style={{ cursor: 'pointer' }}
+                                />
+                            </div>
+
                             <button
                                 onClick={() => setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate')}
                                 className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
@@ -1142,8 +1320,27 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 title="Calibrate āvartana speed — select 1 āvartana on waveform (C)"
                             >
                                 <Gauge className="w-4 h-4" />
-                                {customAavartanaSec ? `${customAavartanaSec.toFixed(2)}s` : 'Calibrate'}
+                                Calibrate
                             </button>
+                            <input
+                                type="number"
+                                step="0.01"
+                                min="0.5"
+                                placeholder={autoAavartanaSec.toFixed(2)}
+                                value={customAavartanaSec ?? ''}
+                                onChange={e => {
+                                    const v = parseFloat(e.target.value);
+                                    setCustomAavartanaSec(v > 0 ? v : null);
+                                }}
+                                className="w-16 text-center px-1 py-1.5 rounded-lg border text-xs font-bold tabular-nums focus:outline-none focus:border-blue-500/50"
+                                style={{
+                                    background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)',
+                                    borderColor: customAavartanaSec ? 'rgba(59,130,246,0.4)' : borderColor,
+                                    color: customAavartanaSec ? '#60a5fa' : 'var(--text-muted)',
+                                }}
+                                title="Āvartana duration in seconds (leave empty for auto)"
+                            />
+                            <span className="text-[10px] opacity-40 -ml-1">s</span>
 
                             <div className="w-px h-6 mx-1" style={{ background: borderColor }} />
 
@@ -1422,7 +1619,44 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             theme={theme}
                             playheadFraction={PLAYHEAD}
                             aavartanaSec={effectiveAavartanaSec}
+                            zoom={waveZoom}
+                            onZoomChange={setWaveZoom}
+                            onSeek={(t) => {
+                                if (audioRef.current) audioRef.current.currentTime = t;
+                                currentTimeRef.current = t;
+                                setCurrentTime(t);
+                            }}
                         />
+                        {/* Delete selection popup */}
+                        {editorMode === 'trim' && activeSelection && activeSelection.endTime != null &&
+                            Math.abs(activeSelection.endTime - activeSelection.startTime) >= 0.1 && (
+                            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 px-4 py-2 rounded-xl shadow-xl border"
+                                style={{
+                                    background: isDark ? 'rgba(20,20,32,0.95)' : 'rgba(255,255,255,0.95)',
+                                    backdropFilter: 'blur(8px)',
+                                    borderColor: 'rgba(239,68,68,0.3)',
+                                }}
+                            >
+                                <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>
+                                    {Math.abs(activeSelection.endTime - activeSelection.startTime).toFixed(2)}s selected
+                                </span>
+                                <button
+                                    onClick={handleDeleteSelection}
+                                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all hover:scale-105"
+                                    style={{ background: 'rgba(239,68,68,0.9)', color: '#fff' }}
+                                >
+                                    <Scissors className="w-3.5 h-3.5" />
+                                    Delete
+                                </button>
+                                <button
+                                    onClick={() => setActiveSelection(null)}
+                                    className="w-7 h-7 flex items-center justify-center rounded-lg transition-all opacity-50 hover:opacity-100"
+                                    style={{ color: 'var(--text-muted)' }}
+                                >
+                                    <X className="w-3.5 h-3.5" />
+                                </button>
+                            </div>
+                        )}
                     </div>
 
                     {/* Lane 2: Swara */}
@@ -1625,6 +1859,162 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     onClose={() => setShowLyrics(false)}
                 />
             )}
+
+            {/* Edit Info Modal */}
+            {showEditInfo && (() => {
+                const scaleBoxRow = (label, items, setItems, resetScale) => (
+                    <div>
+                        <div className="flex items-center justify-between mb-2">
+                            <label className="text-[10px] font-black uppercase tracking-widest opacity-50">{label}</label>
+                            {resetScale && (
+                                <button
+                                    onClick={() => setItems([...resetScale])}
+                                    className="text-[9px] font-bold uppercase px-2 py-0.5 rounded-md transition-all hover:bg-purple-500/20"
+                                    style={{ color: '#a855f7' }}
+                                >
+                                    Reset from Raga
+                                </button>
+                            )}
+                        </div>
+                        <div className="flex items-center gap-0 pt-2">
+                            <div className="flex rounded-2xl border" style={{ borderColor }}>
+                                {items.map((swara, i) => (
+                                    <div key={i} className="relative group/box flex flex-col"
+                                        style={{ borderRight: i < items.length - 1 ? `1px solid ${borderColor}` : 'none' }}>
+                                        <input
+                                            type="text"
+                                            value={swara}
+                                            onChange={e => {
+                                                const next = [...items];
+                                                next[i] = e.target.value;
+                                                setItems(next);
+                                            }}
+                                            className="w-14 text-center py-2.5 text-sm font-bold bg-transparent focus:outline-none"
+                                            style={{ color: '#a855f7' }}
+                                        />
+                                        {items.length > 1 && (
+                                            <button
+                                                onClick={() => setItems(prev => prev.filter((_, j) => j !== i))}
+                                                className="absolute -top-2.5 -right-2.5 w-5 h-5 rounded-full flex items-center justify-center opacity-0 group-hover/box:opacity-100 transition-opacity z-10 shadow-sm"
+                                                style={{ background: '#ef4444', color: '#fff' }}
+                                            >
+                                                <X className="w-3 h-3" />
+                                            </button>
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
+                            <button
+                                onClick={() => setItems(prev => [...prev, ''])}
+                                className="w-10 h-10 flex items-center justify-center rounded-xl border-2 border-dashed ml-2 transition-all hover:border-purple-500/40 hover:bg-purple-500/10"
+                                style={{ borderColor, color: 'var(--text-muted)' }}
+                                title="Add swara"
+                            >
+                                <Plus className="w-4 h-4" />
+                            </button>
+                        </div>
+                    </div>
+                );
+                const scale = getRagaScale(editInfoRaga);
+                return (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                    style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }}
+                    onClick={(e) => { if (e.target === e.currentTarget) setShowEditInfo(false); }}
+                >
+                    <div
+                        className="w-full max-w-2xl rounded-3xl p-6 border overflow-y-auto"
+                        style={{ background: isDark ? '#141420' : '#fff', borderColor, maxHeight: '85vh' }}
+                    >
+                        <div className="flex items-center justify-between mb-5">
+                            <h2 className="text-lg font-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>Edit Info</h2>
+                            <button onClick={() => setShowEditInfo(false)}
+                                className="w-8 h-8 flex items-center justify-center rounded-xl opacity-60 hover:opacity-100 transition-opacity">
+                                <X className="w-4 h-4" />
+                            </button>
+                        </div>
+                        <div className="space-y-5 mb-6">
+                            <div className="grid grid-cols-3 gap-4">
+                                <div>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Ragam *</label>
+                                    <input
+                                        type="text"
+                                        value={editInfoRaga}
+                                        onChange={e => {
+                                            setEditInfoRaga(e.target.value);
+                                            const s = getRagaScale(e.target.value);
+                                            if (s && editInfoArohana.length === 0) setEditInfoArohana([...s.arohana]);
+                                            if (s && editInfoAvarohana.length === 0) setEditInfoAvarohana([...s.avarohana]);
+                                        }}
+                                        list="edit-info-ragas"
+                                        placeholder="Select ragam..."
+                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
+                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
+                                    />
+                                    <datalist id="edit-info-ragas">
+                                        {allRagas.map(r => <option key={r} value={r} />)}
+                                    </datalist>
+                                </div>
+                                <div>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Talam *</label>
+                                    <input
+                                        type="text"
+                                        value={editInfoTala}
+                                        onChange={e => setEditInfoTala(e.target.value)}
+                                        list="edit-info-talas"
+                                        placeholder="Select talam..."
+                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
+                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
+                                    />
+                                    <datalist id="edit-info-talas">
+                                        {allTalas.map(t => <option key={t} value={t} />)}
+                                    </datalist>
+                                </div>
+                                <div>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Composer</label>
+                                    <input
+                                        type="text"
+                                        value={editInfoComposer}
+                                        onChange={e => setEditInfoComposer(e.target.value)}
+                                        list="edit-info-composers"
+                                        placeholder="Composer..."
+                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
+                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
+                                    />
+                                    <datalist id="edit-info-composers">
+                                        {allComposers.map(c => <option key={c} value={c} />)}
+                                    </datalist>
+                                </div>
+                            </div>
+
+                            {scaleBoxRow('Arohana', editInfoArohana, setEditInfoArohana, scale?.arohana)}
+                            {scaleBoxRow('Avarohana', editInfoAvarohana, setEditInfoAvarohana, scale?.avarohana)}
+                        </div>
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => setShowEditInfo(false)}
+                                className="flex-1 py-3 rounded-xl border font-bold text-sm transition-all"
+                                style={{ borderColor, color: 'var(--text-muted)' }}
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                onClick={saveEditInfo}
+                                disabled={editInfoSaving || !editInfoRaga.trim() || !editInfoTala.trim()}
+                                className="flex-1 py-3 rounded-xl font-bold text-sm transition-all disabled:opacity-50 flex items-center justify-center gap-2"
+                                style={{ background: 'linear-gradient(135deg, #10b981, #059669)', color: '#fff' }}
+                            >
+                                {editInfoSaving ? (
+                                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                                ) : (
+                                    <><Check className="w-4 h-4" /> Save</>
+                                )}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                );
+            })()}
         </div>
     );
 }

@@ -1,6 +1,11 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 
-const AAVARTANA_PX = 320;
+const BASE_PX = 320; // base pixels per aavartana (no zoom)
+const MIN_ZOOM = 0.5;
+const MAX_ZOOM = 10;
+const RULER_H = 22; // height of time ruler in CSS px
+const SCROLL_EDGE = 60; // px from edge to start auto-scrolling
+const SCROLL_SPEED = 3; // seconds per second of auto-scroll at edge
 
 /**
  * Props:
@@ -24,7 +29,10 @@ export default function WaveformEditor({
     theme,
     playheadFraction = 0.25,
     aavartanaSec = 3.3,
-    timeRef
+    timeRef,
+    onSeek,         // (newTime) => void — called during drag auto-scroll
+    zoom = 1,
+    onZoomChange    // (newZoom) => void
 }) {
     const canvasRef = useRef(null);
     const samplesRef = useRef(null);
@@ -38,20 +46,25 @@ export default function WaveformEditor({
     const containerRef = useRef(null);
     const editorModeRef = useRef(editorMode);
 
+    const zoomRef = useRef(zoom);
+
     useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
     useEffect(() => { originalDurationRef.current = originalDuration; }, [originalDuration]);
     useEffect(() => { selectionRef.current = selection; }, [selection]);
     useEffect(() => { sectionMarkersRef.current = sectionMarkers; }, [sectionMarkers]);
     useEffect(() => { editorModeRef.current = editorMode; }, [editorMode]);
+    useEffect(() => { zoomRef.current = zoom; }, [zoom]);
 
     const isDark = theme !== 'light';
+    const onZoomChangeRef = useRef(onZoomChange);
+    useEffect(() => { onZoomChangeRef.current = onZoomChange; }, [onZoomChange]);
 
     // Decode audioBuffer to downsampled waveform samples
     useEffect(() => {
         if (!audioBuffer) return;
         const raw = audioBuffer.getChannelData(0);
-        const TARGET = 2000;
+        const TARGET = 4000; // higher resolution for zoom
         const step = Math.max(1, Math.floor(raw.length / TARGET));
         const samples = new Float32Array(TARGET);
         for (let i = 0; i < TARGET; i++) {
@@ -64,6 +77,42 @@ export default function WaveformEditor({
         }
         samplesRef.current = { samples, duration: audioBuffer.duration };
     }, [audioBuffer]);
+
+    // Scroll-to-zoom handler
+    const handleWheel = useCallback((e) => {
+        e.preventDefault();
+        const delta = -e.deltaY;
+        const factor = delta > 0 ? 1.15 : 1 / 1.15;
+        const next = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoomRef.current * factor));
+        if (onZoomChangeRef.current) onZoomChangeRef.current(next);
+    }, []);
+
+    useEffect(() => {
+        const el = containerRef.current;
+        if (!el) return;
+        el.addEventListener('wheel', handleWheel, { passive: false });
+        return () => el.removeEventListener('wheel', handleWheel);
+    }, [handleWheel]);
+
+    /**
+     * Choose a nice ruler tick interval for the current zoom level.
+     * Returns seconds between major ticks.
+     */
+    function pickTickInterval(pxPerSec) {
+        const candidates = [0.1, 0.25, 0.5, 1, 2, 5, 10, 15, 30, 60];
+        const minPxBetweenTicks = 60;
+        for (const s of candidates) {
+            if (s * pxPerSec >= minPxBetweenTicks) return s;
+        }
+        return 60;
+    }
+
+    function formatTime(sec) {
+        const m = Math.floor(sec / 60);
+        const s = sec % 60;
+        if (m === 0) return s < 10 ? s.toFixed(1) + 's' : Math.floor(s) + 's';
+        return `${m}:${String(Math.floor(s)).padStart(2, '0')}`;
+    }
 
     // Canvas draw loop
     useEffect(() => {
@@ -85,29 +134,77 @@ export default function WaveformEditor({
             const data = samplesRef.current;
             const t = timeRef ? timeRef.current : currentTimeRef.current;
             const avSec = aavartanaSecRef.current;
+            const z = zoomRef.current;
             const playheadX = W * playheadFraction;
-            const visibleSec = W / (AAVARTANA_PX / avSec);
-            const timeToX = (origT) => playheadX + (origT - t) / visibleSec * W;
+            const pxPerSec = (BASE_PX * z) / avSec;
+            const visibleSec = W / pxPerSec;
+            const timeToX = (origT) => playheadX + (origT - t) * pxPerSec;
 
+            // ── Time ruler ──────────────────────────────────────────────
+            const rulerH = RULER_H;
+            const waveTop = rulerH;
+            const waveH = H - rulerH;
+
+            // Ruler background
+            ctx.fillStyle = isDark ? 'rgba(0,0,0,0.4)' : 'rgba(240,240,240,0.6)';
+            ctx.fillRect(0, 0, W, rulerH);
+            // Ruler bottom border
+            ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)';
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(0, rulerH); ctx.lineTo(W, rulerH); ctx.stroke();
+
+            const tickInterval = pickTickInterval(pxPerSec);
+            const viewStartTime = t - playheadX / pxPerSec;
+            const viewEndTime = viewStartTime + visibleSec;
+            const firstTick = Math.floor(viewStartTime / tickInterval) * tickInterval;
+
+            ctx.font = '10px system-ui, sans-serif';
+            ctx.textAlign = 'center';
+
+            for (let tick = firstTick; tick <= viewEndTime + tickInterval; tick += tickInterval) {
+                if (tick < 0) continue;
+                const x = timeToX(tick);
+                if (x < -20 || x > W + 20) continue;
+
+                // Major tick line
+                ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.2)';
+                ctx.lineWidth = 1;
+                ctx.beginPath(); ctx.moveTo(x, rulerH - 8); ctx.lineTo(x, rulerH); ctx.stroke();
+
+                // Label
+                ctx.fillStyle = isDark ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.5)';
+                ctx.fillText(formatTime(tick), x, rulerH - 10);
+
+                // Minor ticks (subdivide into 4)
+                const minor = tickInterval / 4;
+                for (let m = 1; m < 4; m++) {
+                    const mx = timeToX(tick + m * minor);
+                    if (mx < 0 || mx > W) continue;
+                    ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)';
+                    ctx.beginPath(); ctx.moveTo(mx, rulerH - 4); ctx.lineTo(mx, rulerH); ctx.stroke();
+                }
+            }
+
+            // ── Waveform ────────────────────────────────────────────────
             if (!data || data.duration === 0) {
                 ctx.fillStyle = 'rgba(16,185,129,0.2)';
                 for (let i = 0; i < 60; i++) {
-                    const h = H * 0.2 + Math.random() * H * 0.4;
-                    ctx.fillRect(i * (W / 60), (H - h) / 2, W / 60 - 1, h);
+                    const h = waveH * 0.2 + Math.random() * waveH * 0.4;
+                    ctx.fillRect(i * (W / 60), waveTop + (waveH - h) / 2, W / 60 - 1, h);
                 }
                 animRef.current = requestAnimationFrame(draw);
                 return;
             }
 
-            // Waveform bars — from the edited buffer, gaps are already gone
+            // Waveform bars
             for (let i = 0; i < data.samples.length; i++) {
                 const sampleTime = (i / data.samples.length) * data.duration;
                 const x = timeToX(sampleTime);
                 if (x < -2 || x > W + 2) continue;
                 const amp = data.samples[i];
-                const barH = Math.max(2, amp * H * 0.85);
+                const barH = Math.max(2, amp * waveH * 0.85);
                 ctx.fillStyle = `rgba(16,185,129,${x < playheadX ? 0.35 : 0.75})`;
-                ctx.fillRect(x - 1, (H - barH) / 2, 2, barH);
+                ctx.fillRect(x - 1, waveTop + (waveH - barH) / 2, 2, barH);
             }
 
             // Section marker lines
@@ -115,12 +212,11 @@ export default function WaveformEditor({
                 const mx = timeToX(time);
                 if (mx >= -1 && mx <= W + 1) {
                     ctx.save();
-                    // Glow behind the line
                     ctx.shadowColor = '#fbbf24';
                     ctx.shadowBlur = 6;
                     ctx.strokeStyle = '#fbbf24';
                     ctx.lineWidth = 2.5;
-                    ctx.beginPath(); ctx.moveTo(mx, 0); ctx.lineTo(mx, H); ctx.stroke();
+                    ctx.beginPath(); ctx.moveTo(mx, waveTop); ctx.lineTo(mx, H); ctx.stroke();
                     ctx.shadowBlur = 0;
                     // Label pill
                     ctx.font = 'bold 10px system-ui,sans-serif';
@@ -130,15 +226,15 @@ export default function WaveformEditor({
                     const tw = ctx.measureText(labelText).width;
                     ctx.fillStyle = '#fbbf24';
                     ctx.beginPath();
-                    ctx.roundRect(labelX, 3, tw + 12, 16, 3);
+                    ctx.roundRect(labelX, waveTop + 3, tw + 12, 16, 3);
                     ctx.fill();
                     ctx.fillStyle = '#000';
-                    ctx.fillText(labelText, labelX + 6, 15);
+                    ctx.fillText(labelText, labelX + 6, waveTop + 15);
                     ctx.restore();
                 }
             }
 
-            // Overlay: active selection (red for trim, blue for calibrate)
+            // Overlay: active selection
             const sel = selectionRef.current;
             if (sel && sel.endTime !== null) {
                 const ds = Math.min(sel.startTime, sel.endTime);
@@ -148,11 +244,10 @@ export default function WaveformEditor({
                 if (dx2 > 0 && dx1 < W) {
                     const isCal = editorModeRef.current === 'calibrate';
                     ctx.fillStyle = isCal ? 'rgba(59,130,246,0.2)' : 'rgba(239,68,68,0.25)';
-                    ctx.fillRect(dx1, 0, dx2 - dx1, H);
+                    ctx.fillRect(dx1, waveTop, dx2 - dx1, waveH);
                     ctx.strokeStyle = isCal ? 'rgba(59,130,246,0.8)' : 'rgba(239,68,68,0.8)';
                     ctx.lineWidth = 1.5;
-                    ctx.strokeRect(dx1, 0, dx2 - dx1, H);
-                    // Duration label on the selection
+                    ctx.strokeRect(dx1, waveTop, dx2 - dx1, waveH);
                     if (isCal) {
                         const durLabel = `${(de - ds).toFixed(2)}s`;
                         ctx.font = 'bold 11px system-ui,sans-serif';
@@ -161,19 +256,51 @@ export default function WaveformEditor({
                         const tw = ctx.measureText(durLabel).width;
                         ctx.fillStyle = 'rgba(59,130,246,0.9)';
                         ctx.beginPath();
-                        ctx.roundRect(cx - tw / 2 - 6, H / 2 - 10, tw + 12, 20, 4);
+                        ctx.roundRect(cx - tw / 2 - 6, waveTop + waveH / 2 - 10, tw + 12, 20, 4);
                         ctx.fill();
                         ctx.fillStyle = '#fff';
-                        ctx.fillText(durLabel, cx, H / 2 + 4);
+                        ctx.fillText(durLabel, cx, waveTop + waveH / 2 + 4);
                     }
                 }
+            }
+
+            // ── Playhead line (full height including ruler) ─────────────
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 1.5;
+            ctx.beginPath(); ctx.moveTo(playheadX, 0); ctx.lineTo(playheadX, H); ctx.stroke();
+
+            // ── Zoom level indicator (bottom-right) ─────────────────────
+            if (z !== 1) {
+                const label = `${z.toFixed(1)}x`;
+                ctx.font = 'bold 10px system-ui,sans-serif';
+                ctx.textAlign = 'right';
+                const tw = ctx.measureText(label).width;
+                ctx.fillStyle = isDark ? 'rgba(0,0,0,0.5)' : 'rgba(255,255,255,0.7)';
+                ctx.beginPath();
+                ctx.roundRect(W - tw - 16, H - 22, tw + 12, 18, 4);
+                ctx.fill();
+                ctx.fillStyle = isDark ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.6)';
+                ctx.fillText(label, W - 10, H - 8);
             }
 
             animRef.current = requestAnimationFrame(draw);
         };
         draw();
         return () => cancelAnimationFrame(animRef.current);
-    }, [playheadFraction]);
+    }, [playheadFraction, isDark]);
+
+    // ── Auto-scroll during drag ──────────────────────────────────────────────
+    const autoScrollRef = useRef(null);    // interval id
+    const lastClientXRef = useRef(0);      // last known mouse X
+    const onSeekRef = useRef(onSeek);
+    useEffect(() => { onSeekRef.current = onSeek; }, [onSeek]);
+
+    const stopAutoScroll = useCallback(() => {
+        if (autoScrollRef.current) {
+            clearInterval(autoScrollRef.current);
+            autoScrollRef.current = null;
+        }
+    }, []);
 
     const containerXToTime = (clientX) => {
         const container = containerRef.current;
@@ -182,22 +309,64 @@ export default function WaveformEditor({
         const x = clientX - rect.left;
         const W = rect.width;
         const avSec = aavartanaSecRef.current;
+        const z = zoomRef.current;
         const playheadX = W * playheadFraction;
-        const visibleSec = W / (AAVARTANA_PX / avSec);
+        const pxPerSec = (BASE_PX * z) / avSec;
         const dur = originalDurationRef.current || 1;
-        return Math.max(0, Math.min(dur, currentTimeRef.current + (x - playheadX) / W * visibleSec));
+        return Math.max(0, Math.min(dur, currentTimeRef.current + (x - playheadX) / pxPerSec));
     };
+
+    const startAutoScroll = useCallback(() => {
+        stopAutoScroll();
+        const INTERVAL_MS = 30;
+        autoScrollRef.current = setInterval(() => {
+            const container = containerRef.current;
+            if (!container || !isDraggingRef.current) { stopAutoScroll(); return; }
+
+            const rect = container.getBoundingClientRect();
+            const x = lastClientXRef.current - rect.left;
+            const W = rect.width;
+            const dur = originalDurationRef.current || 1;
+
+            let scrollDir = 0;
+            let intensity = 0;
+            if (x > W - SCROLL_EDGE) {
+                scrollDir = 1;
+                intensity = Math.min(1, (x - (W - SCROLL_EDGE)) / SCROLL_EDGE);
+            } else if (x < SCROLL_EDGE) {
+                scrollDir = -1;
+                intensity = Math.min(1, (SCROLL_EDGE - x) / SCROLL_EDGE);
+            }
+
+            if (scrollDir === 0) return;
+
+            const delta = scrollDir * intensity * SCROLL_SPEED * (INTERVAL_MS / 1000);
+            const newTime = Math.max(0, Math.min(dur, currentTimeRef.current + delta));
+            if (newTime !== currentTimeRef.current && onSeekRef.current) {
+                onSeekRef.current(newTime);
+                // Also update selection endpoint to follow the scroll
+                const endTime = containerXToTime(lastClientXRef.current);
+                onSelectionChange(prev => prev ? { ...prev, endTime } : null);
+            }
+        }, INTERVAL_MS);
+    }, [stopAutoScroll, onSelectionChange, playheadFraction]);
+
+    // Cleanup auto-scroll on unmount
+    useEffect(() => () => stopAutoScroll(), [stopAutoScroll]);
 
     const handleMouseDown = (e) => {
         if (editorMode !== 'trim' && editorMode !== 'calibrate') return;
         e.stopPropagation();
         isDraggingRef.current = true;
+        lastClientXRef.current = e.clientX;
         const t = containerXToTime(e.clientX);
         onSelectionChange({ startTime: t, endTime: t });
+        startAutoScroll();
     };
 
     const handleMouseMove = (e) => {
         if ((editorMode !== 'trim' && editorMode !== 'calibrate') || !isDraggingRef.current) return;
+        lastClientXRef.current = e.clientX;
         const t = containerXToTime(e.clientX);
         onSelectionChange(prev => prev ? { ...prev, endTime: t } : null);
     };
@@ -206,6 +375,7 @@ export default function WaveformEditor({
         if (editorMode !== 'trim' && editorMode !== 'calibrate') return;
         e.stopPropagation();
         isDraggingRef.current = false;
+        stopAutoScroll();
         const sel = selectionRef.current;
         if (!sel || Math.abs((sel.endTime ?? sel.startTime) - sel.startTime) < 0.1) {
             onSelectionChange(null);

@@ -1,21 +1,29 @@
 import React, { useState } from 'react';
 import { X, FileText, Check, Music, Plus, Copy, Trash2, ChevronDown, GripVertical, Section } from 'lucide-react';
+import { TALA_TEMPLATES } from '../../utils/talaTemplates';
 
 /**
- * Common Tala Metadata
- * Defines beat count and anga (section) boundaries for visual dividers.
+ * Derive tala metadata (beat count + anga boundaries) from TALA_TEMPLATES.
+ * The template string uses | for anga boundaries and || for aavartana end.
+ * e.g. "_ _ _ _ | _ _ | _ _ ||" → beats=8, angas=[4, 6]
  */
-const TALAS = {
-    adi: { name: 'Adi', beats: 8, angas: [4, 6] },
-    rupakam: { name: 'Rupakam', beats: 6, angas: [2] },
-    rupaka: { name: 'Rupakam', beats: 6, angas: [2] }, // variant name
-    triputa: { name: 'Triputa', beats: 7, angas: [3, 5] },
-    jhampa: { name: 'Jhampa', beats: 10, angas: [7, 8] },
-    matya: { name: 'Matya', beats: 10, angas: [4, 6] },
-    dhruva: { name: 'Dhruva', beats: 14, angas: [4, 6, 10] },
-    ata: { name: 'Ata', beats: 14, angas: [5, 10, 12] },
-    eaka: { name: 'Eaka', beats: 4, angas: [] },
-};
+function buildTalaMap() {
+    const map = {};
+    for (const [name, template] of Object.entries(TALA_TEMPLATES)) {
+        let beatCount = 0;
+        const angas = [];
+        for (const tok of template.split(/\s+/)) {
+            if (tok === '_') beatCount++;
+            else if (tok === '|') angas.push(beatCount);
+            // || is aavartana end, no anga marker needed
+        }
+        const key = name.toLowerCase().replace(/[\s-]/g, '');
+        map[key] = { name, beats: beatCount, angas };
+    }
+    return map;
+}
+
+const TALAS = buildTalaMap();
 
 /**
  * LyricsEditor
@@ -33,7 +41,7 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
      */
     const [sections, setSections] = useState(() => {
         if (!Array.isArray(composition)) return [];
-        return composition.map(s => {
+        return composition.filter(s => s.section !== 'Aro/Avaro').map(s => {
             const rows = (s.content || []).map(entry => {
                 const swaraAvs = (entry.swaram || '').split('||').map(v => v.trim()).filter(Boolean);
                 const sahityaAvs = (entry.sahityam || '').split('||').map(v => v.trim()).filter(Boolean);
@@ -192,6 +200,7 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
             });
             return { section: s.name, content };
         });
+
         onSave(newComposition);
         onClose();
     };
@@ -236,6 +245,7 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
 
                 {/* Grid Content */}
                 <div className="flex-1 overflow-y-auto px-10 py-8 space-y-12 custom-scrollbar">
+
                     {sections.map((section, sIdx) => (
                         <div key={sIdx} className="space-y-6">
                             {/* Section Header - Centered */}

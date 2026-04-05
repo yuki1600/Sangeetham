@@ -29,4 +29,17 @@ db.exec(`
   )
 `);
 
+// Version history table
+db.exec(`
+  CREATE TABLE IF NOT EXISTS versions (
+    id TEXT PRIMARY KEY,
+    songId TEXT NOT NULL,
+    composition TEXT,
+    editOps TEXT,
+    label TEXT,
+    timestamp TEXT,
+    FOREIGN KEY (songId) REFERENCES songs(id) ON DELETE CASCADE
+  )
+`);
+
 module.exports = db;

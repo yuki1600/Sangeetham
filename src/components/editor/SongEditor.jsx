@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 
@@ -79,7 +79,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         uploading: false, 
         error: null 
     });
-    const [uploadMode, setUploadMode] = useState('file'); // 'file' | 'manual'
+    const [uploadMode, setUploadMode] = useState('manual'); // 'file' | 'manual'
     const [manualRaga, setManualRaga] = useState('');
     const [manualTala, setManualTala] = useState('Adi');
     const [manualComposer, setManualComposer] = useState('');
@@ -106,6 +106,11 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         ? ['Unknown', ...processedComposers.filter(c => c !== 'Unknown')] 
         : processedComposers;
         
+    const [editingMetaId, setEditingMetaId] = useState(null);
+    const [editRaga, setEditRaga] = useState('');
+    const [editTala, setEditTala] = useState('');
+    const [editComposer, setEditComposer] = useState('');
+
     const [renamingId, setRenamingId] = useState(null);
     const [renameValue, setRenameValue] = useState('');
     const renameInputRef = useRef(null);
@@ -155,6 +160,31 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         }
     };
 
+    const startMetaEdit = (song) => {
+        setEditingMetaId(song.id);
+        setEditRaga(song.raga || '');
+        setEditTala(song.tala || '');
+        setEditComposer(song.composer || '');
+    };
+
+    const commitMetaEdit = async (id) => {
+        if (!editRaga.trim() || !editTala.trim()) return;
+        try {
+            const res = await fetch(`/api/songs/${id}/metadata`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ raga: editRaga.trim(), tala: editTala.trim(), composer: editComposer.trim() }),
+            });
+            if (!res.ok) throw new Error('Update failed');
+            const data = await res.json();
+            setSongs(prev => prev.map(s => s.id === id ? { ...s, raga: data.raga, tala: data.tala, composer: data.composer } : s));
+        } catch (e) {
+            alert('Update failed: ' + e.message);
+        } finally {
+            setEditingMetaId(null);
+        }
+    };
+
     const togglePublish = async (id, currentPublished) => {
         try {
             const res = await fetch(`/api/songs/${id}/publish`, {
@@ -187,6 +217,16 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             setUploadState(s => ({ ...s, error: 'Please select at least one audio file (Swara or Sahitya).' }));
             return;
         }
+        if (uploadMode === 'manual') {
+            if (!manualRaga.trim()) {
+                setUploadState(s => ({ ...s, error: 'Ragam is required.' }));
+                return;
+            }
+            if (!manualTala.trim()) {
+                setUploadState(s => ({ ...s, error: 'Talam is required.' }));
+                return;
+            }
+        }
 
         let finalJsonFile = jsonFile;
 
@@ -210,6 +250,11 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             if (swaraAudio) form.append('swaraAudio', swaraAudio);
             if (sahityaAudio) form.append('sahityaAudio', sahityaAudio);
             form.append('json', finalJsonFile);
+            if (uploadMode === 'manual') {
+                form.append('raga', manualRaga.trim());
+                form.append('tala', manualTala.trim());
+                if (manualComposer.trim()) form.append('composer', manualComposer.trim());
+            }
             const res = await fetch('/api/songs/upload', { method: 'POST', body: form });
             if (!res.ok) {
                 const data = await res.json().catch(() => ({}));
@@ -350,28 +395,76 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                                 </button>
                                             </div>
                                         )}
-                                        <div className="flex flex-col gap-0.5 mt-1">
-                                            <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
-                                                {song.raga && (
-                                                    <span>
-                                                        <span className="opacity-40">Raga: </span>
-                                                        <span style={{ color: '#10b981' }}>{song.raga}</span>
-                                                    </span>
-                                                )}
-                                                {song.tala && (
-                                                    <span>
-                                                        <span className="opacity-40">Tala: </span>
-                                                        <span style={{ color: '#60a5fa' }}>{song.tala}</span>
-                                                    </span>
+                                        {editingMetaId === song.id ? (
+                                            <div className="mt-2 space-y-2">
+                                                <div className="grid grid-cols-2 gap-2">
+                                                    <SearchableSelect
+                                                        label="Ragam *"
+                                                        value={editRaga}
+                                                        onChange={setEditRaga}
+                                                        options={allRagas}
+                                                        isDark={isDark}
+                                                        borderColor={borderColor}
+                                                    />
+                                                    <SearchableSelect
+                                                        label="Talam *"
+                                                        value={editTala}
+                                                        onChange={setEditTala}
+                                                        options={allTalas}
+                                                        isDark={isDark}
+                                                        borderColor={borderColor}
+                                                    />
+                                                </div>
+                                                <SearchableSelect
+                                                    label="Composer"
+                                                    value={editComposer}
+                                                    onChange={setEditComposer}
+                                                    options={allComposers}
+                                                    isDark={isDark}
+                                                    borderColor={borderColor}
+                                                />
+                                                <div className="flex items-center gap-2 pt-1">
+                                                    <button
+                                                        onClick={() => commitMetaEdit(song.id)}
+                                                        disabled={!editRaga.trim() || !editTala.trim()}
+                                                        className="flex items-center gap-1 px-3 py-1 rounded-lg text-[11px] font-bold transition-all disabled:opacity-30"
+                                                        style={{ background: 'rgba(16,185,129,0.15)', color: '#10b981' }}
+                                                    >
+                                                        <Check className="w-3 h-3" /> Save
+                                                    </button>
+                                                    <button
+                                                        onClick={() => setEditingMetaId(null)}
+                                                        className="px-3 py-1 rounded-lg text-[11px] font-bold transition-all"
+                                                        style={{ color: 'var(--text-muted)' }}
+                                                    >
+                                                        Cancel
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        ) : (
+                                            <div className="flex flex-col gap-0.5 mt-1">
+                                                <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
+                                                    {song.raga && (
+                                                        <span>
+                                                            <span className="opacity-40">Raga: </span>
+                                                            <span style={{ color: '#10b981' }}>{song.raga}</span>
+                                                        </span>
+                                                    )}
+                                                    {song.tala && (
+                                                        <span>
+                                                            <span className="opacity-40">Tala: </span>
+                                                            <span style={{ color: '#60a5fa' }}>{song.tala}</span>
+                                                        </span>
+                                                    )}
+                                                </div>
+                                                {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
+                                                    <div className="text-[10px] font-bold uppercase tracking-widest">
+                                                        <span className="opacity-40">Composer: </span>
+                                                        <span style={{ color: '#fbbf24' }}>{song.composer}</span>
+                                                    </div>
                                                 )}
                                             </div>
-                                            {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
-                                                <div className="text-[10px] font-bold uppercase tracking-widest">
-                                                    <span className="opacity-40">Composer: </span>
-                                                    <span style={{ color: '#fbbf24' }}>{song.composer}</span>
-                                                </div>
-                                            )}
-                                        </div>
+                                        )}
                                     </div>
                                 </div>
 
@@ -391,6 +484,14 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
                                 {/* Actions */}
                                 <div className="flex items-center gap-2">
+                                    <button
+                                        onClick={() => startMetaEdit(song)}
+                                        className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:border-blue-500/40 hover:bg-blue-500/10"
+                                        style={{ borderColor }}
+                                        title="Edit Info"
+                                    >
+                                        <Settings className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
+                                    </button>
                                     <button
                                         onClick={() => togglePublish(song.id, song.isPublished)}
                                         className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-xl text-sm font-bold transition-all border ${song.isPublished ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500/20' : 'border-transparent bg-black/5 text-[var(--text-muted)] hover:bg-black/10 hover:text-[var(--text-primary)]'} ${isDark && !song.isPublished ? 'bg-white/5 hover:bg-white/10' : ''}`}
@@ -524,7 +625,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                         {uploadMode === 'file' ? (
                             /* JSON file upload */
                             <div className="mb-6">
-                                <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">2. Composition JSON</label>
+                                <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">Composition JSON</label>
                                 <button
                                     onClick={() => jsonInputRef.current?.click()}
                                     className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-dashed transition-all group"
@@ -555,21 +656,21 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                             /* Manual Setup */
                             <div className="space-y-6 mb-8">
                                 <div className="grid grid-cols-2 gap-4">
-                                    <SearchableSelect 
-                                        label="Ragam" 
-                                        value={manualRaga} 
-                                        onChange={setManualRaga} 
-                                        options={allRagas} 
-                                        isDark={isDark} 
-                                        borderColor={borderColor} 
+                                    <SearchableSelect
+                                        label="Ragam *"
+                                        value={manualRaga}
+                                        onChange={setManualRaga}
+                                        options={allRagas}
+                                        isDark={isDark}
+                                        borderColor={borderColor}
                                     />
-                                    <SearchableSelect 
-                                        label="Talam" 
-                                        value={manualTala} 
-                                        onChange={setManualTala} 
-                                        options={allTalas} 
-                                        isDark={isDark} 
-                                        borderColor={borderColor} 
+                                    <SearchableSelect
+                                        label="Talam *"
+                                        value={manualTala}
+                                        onChange={setManualTala}
+                                        options={allTalas}
+                                        isDark={isDark}
+                                        borderColor={borderColor}
                                         formatOption={(t) => {
                                             const template = TALA_TEMPLATES[t];
                                             if (template) {
@@ -580,15 +681,14 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                         }}
                                     />
                                 </div>
-                                <SearchableSelect 
-                                    label="Composer" 
-                                    value={manualComposer} 
-                                    onChange={setManualComposer} 
-                                    options={allComposers} 
-                                    isDark={isDark} 
-                                    borderColor={borderColor} 
+                                <SearchableSelect
+                                    label="Composer"
+                                    value={manualComposer}
+                                    onChange={setManualComposer}
+                                    options={allComposers}
+                                    isDark={isDark}
+                                    borderColor={borderColor}
                                 />
-
                                 <div>
                                     <label className="block text-[10px] font-black uppercase tracking-widest mb-3 opacity-50">Sections to Generate</label>
                                     <div className="flex flex-wrap gap-2">
@@ -597,7 +697,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                             return (
                                                 <button
                                                     key={s}
-                                                    onClick={() => setManualSections(prev => 
+                                                    onClick={() => setManualSections(prev =>
                                                         active ? prev.filter(x => x !== s) : [...prev, s]
                                                     )}
                                                     className={`px-3 py-1.5 rounded-lg border text-[11px] font-bold transition-all ${active ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500' : 'text-[var(--text-muted)] hover:border-emerald-500/30'}`}
