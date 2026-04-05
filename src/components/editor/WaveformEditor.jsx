@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 
 const BASE_PX = 320; // base pixels per aavartana (no zoom)
-const MIN_ZOOM = 0.5;
+const MIN_ZOOM = 0.1;
 const MAX_ZOOM = 10;
 const RULER_H = 22; // height of time ruler in CSS px
 const SCROLL_EDGE = 60; // px from edge to start auto-scrolling

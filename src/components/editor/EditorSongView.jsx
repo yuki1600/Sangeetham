@@ -1352,7 +1352,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 </button>
                                 <input
                                     type="range"
-                                    min={Math.log(0.5)}
+                                    min={Math.log(0.1)}
                                     max={Math.log(10)}
                                     step={0.01}
                                     value={Math.log(waveZoom)}
