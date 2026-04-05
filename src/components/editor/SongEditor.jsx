@@ -80,6 +80,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         error: null 
     });
     const [uploadMode, setUploadMode] = useState('manual'); // 'file' | 'manual'
+    const [uploadTitle, setUploadTitle] = useState('');
     const [manualRaga, setManualRaga] = useState('');
     const [manualTala, setManualTala] = useState('Adi');
     const [manualComposer, setManualComposer] = useState('');
@@ -213,6 +214,10 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
     const handleUploadSubmit = async () => {
         const { swaraAudio, sahityaAudio, jsonFile } = uploadState;
+        if (!uploadTitle.trim()) {
+            setUploadState(s => ({ ...s, error: 'Please enter a song title.' }));
+            return;
+        }
         if (!swaraAudio && !sahityaAudio) {
             setUploadState(s => ({ ...s, error: 'Please select at least one audio file (Swara or Sahitya).' }));
             return;
@@ -235,8 +240,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                 setUploadState(s => ({ ...s, error: 'Please select at least one section.' }));
                 return;
             }
-            const baseFileName = swaraAudio?.name || sahityaAudio?.name || 'Untitled';
-            const title = baseFileName.replace(/\.[^.]+$/, '');
+            const title = uploadTitle.trim();
             const templateObj = generateCompositionTemplate(title, manualTala, manualSections, manualRaga, manualComposer);
             finalJsonFile = new File([JSON.stringify(templateObj)], `${title}.json`, { type: 'application/json' });
         } else if (!jsonFile) {
@@ -247,6 +251,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         setUploadState(s => ({ ...s, uploading: true, error: null }));
         try {
             const form = new FormData();
+            form.append('title', uploadTitle.trim());
             if (swaraAudio) form.append('swaraAudio', swaraAudio);
             if (sahityaAudio) form.append('sahityaAudio', sahityaAudio);
             form.append('json', finalJsonFile);
@@ -264,6 +269,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             setSongs(prev => [newSong, ...prev]);
             setShowUpload(false);
             setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, uploading: false, error: null });
+            setUploadTitle('');
             setUploadMode('file');
         } catch (e) {
             setUploadState(s => ({ ...s, uploading: false, error: e.message }));
@@ -562,6 +568,23 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                             >
                                 Manual Setup
                             </button>
+                        </div>
+
+                        {/* Song Title */}
+                        <div className="mb-5">
+                            <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">Song Title</label>
+                            <input
+                                type="text"
+                                value={uploadTitle}
+                                onChange={(e) => { setUploadTitle(e.target.value); setUploadState(s => ({ ...s, error: null })); }}
+                                placeholder="Enter song name..."
+                                className="w-full px-4 py-2.5 rounded-xl border text-sm font-medium outline-none transition-all focus:ring-2 focus:ring-emerald-500/30"
+                                style={{
+                                    background: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.03)',
+                                    borderColor: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)',
+                                    color: 'var(--text-primary)',
+                                }}
+                            />
                         </div>
 
                         {/* Audio files */}

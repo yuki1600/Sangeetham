@@ -232,7 +232,8 @@ router.post('/upload', upload.fields([
     if (tala) song_details.tala = tala;
     compositionData.song_details = song_details;
 
-    const rawTitle = song_details.title || (swaraFile || sahityaFile).originalname.replace(/\.[^.]+$/, '');
+    const rawTitle = (req.body.title || '').trim() || song_details.title || (swaraFile || sahityaFile).originalname.replace(/\.[^.]+$/, '');
+    const title = uniqueTitle(rawTitle);
     const id = uuidv4();
     const now = new Date().toISOString();
 
