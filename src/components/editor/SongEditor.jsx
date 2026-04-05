@@ -240,8 +240,22 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                 setUploadState(s => ({ ...s, error: 'Please select at least one section.' }));
                 return;
             }
+            // Decode the audio to get its duration for avartana distribution
+            let audioDuration = 0;
+            const audioFile = swaraAudio || sahityaAudio;
+            if (audioFile) {
+                try {
+                    const arrayBuf = await audioFile.arrayBuffer();
+                    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                    const decoded = await audioCtx.decodeAudioData(arrayBuf.slice(0));
+                    audioDuration = decoded.duration;
+                    audioCtx.close();
+                } catch (e) {
+                    console.warn('Could not decode audio for duration:', e);
+                }
+            }
             const title = uploadTitle.trim();
-            const templateObj = generateCompositionTemplate(title, manualTala, manualSections, manualRaga, manualComposer);
+            const templateObj = generateCompositionTemplate(title, manualTala, manualSections, manualRaga, manualComposer, audioDuration);
             finalJsonFile = new File([JSON.stringify(templateObj)], `${title}.json`, { type: 'application/json' });
         } else if (!jsonFile) {
             setUploadState(s => ({ ...s, error: 'Please select a JSON composition file.' }));
