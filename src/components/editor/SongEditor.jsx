@@ -350,24 +350,26 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                                 </button>
                                             </div>
                                         )}
-                                        <div className="flex items-center gap-2 mt-1 flex-wrap">
-                                            {song.raga && (
-                                                <span className="text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
-                                                    style={{ background: 'rgba(16,185,129,0.12)', color: '#10b981' }}>
-                                                    {song.raga}
-                                                </span>
-                                            )}
-                                            {song.tala && (
-                                                <span className="text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
-                                                    style={{ background: 'rgba(96,165,250,0.12)', color: '#60a5fa' }}>
-                                                    {song.tala}
-                                                </span>
-                                            )}
+                                        <div className="flex flex-col gap-0.5 mt-1">
+                                            <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
+                                                {song.raga && (
+                                                    <span>
+                                                        <span className="opacity-40">Raga: </span>
+                                                        <span style={{ color: '#10b981' }}>{song.raga}</span>
+                                                    </span>
+                                                )}
+                                                {song.tala && (
+                                                    <span>
+                                                        <span className="opacity-40">Tala: </span>
+                                                        <span style={{ color: '#60a5fa' }}>{song.tala}</span>
+                                                    </span>
+                                                )}
+                                            </div>
                                             {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
-                                                <span className="text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
-                                                    style={{ background: 'rgba(251,191,36,0.12)', color: '#fbbf24' }}>
-                                                    {song.composer}
-                                                </span>
+                                                <div className="text-[10px] font-bold uppercase tracking-widest">
+                                                    <span className="opacity-40">Composer: </span>
+                                                    <span style={{ color: '#fbbf24' }}>{song.composer}</span>
+                                                </div>
                                             )}
                                         </div>
                                     </div>

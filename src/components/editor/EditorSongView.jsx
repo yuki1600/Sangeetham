@@ -807,28 +807,33 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 <ArrowLeft className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
                             </button>
-                            <div className="min-w-0">
-                                <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                                    {songData.meta?.title || 'Untitled'}
+                                <div className="min-w-0">
+                                    <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                                        {songData.meta?.title || 'Untitled'}
+                                    </div>
+                                    <div className="flex flex-col gap-0.5 mt-0.5">
+                                        <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
+                                            {songData.meta?.raga && (
+                                                <span>
+                                                    <span className="opacity-40">Raga: </span>
+                                                    <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
+                                                </span>
+                                            )}
+                                            {songData.meta?.tala && (
+                                                <span>
+                                                    <span className="opacity-40">Tala: </span>
+                                                    <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
+                                                </span>
+                                            )}
+                                        </div>
+                                        {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
+                                            <div className="text-[10px] font-bold uppercase tracking-widest">
+                                                <span className="opacity-40">Composer: </span>
+                                                <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
-                                <div className="text-[10px] uppercase font-black tracking-widest opacity-60 flex items-center gap-2 mt-1">
-                                    {songData.meta?.raga && (
-                                        <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
-                                    )}
-                                    {songData.meta?.tala && (
-                                        <>
-                                            <span className="opacity-30">·</span>
-                                            <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
-                                        </>
-                                    )}
-                                    {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
-                                        <>
-                                            <span className="opacity-30">|</span>
-                                            <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
-                                        </>
-                                    )}
-                                </div>
-                            </div>
                         </div>
 
                         {/* Centered pitch bar */}
