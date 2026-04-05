@@ -362,25 +362,35 @@ export default function WaveformEditor({
         const t = containerXToTime(e.clientX);
         onSelectionChange({ startTime: t, endTime: t });
         startAutoScroll();
+        // Listen on window so drag works even when mouse leaves the container
+        window.addEventListener('mousemove', handleWindowMouseMove);
+        window.addEventListener('mouseup', handleWindowMouseUp);
     };
 
-    const handleMouseMove = (e) => {
-        if ((editorMode !== 'trim' && editorMode !== 'calibrate') || !isDraggingRef.current) return;
+    const handleWindowMouseMove = useCallback((e) => {
+        if (!isDraggingRef.current) return;
         lastClientXRef.current = e.clientX;
         const t = containerXToTime(e.clientX);
         onSelectionChange(prev => prev ? { ...prev, endTime: t } : null);
-    };
+    }, [onSelectionChange, playheadFraction]);
 
-    const handleMouseUp = (e) => {
-        if (editorMode !== 'trim' && editorMode !== 'calibrate') return;
-        e.stopPropagation();
+    const handleWindowMouseUp = useCallback((e) => {
+        if (!isDraggingRef.current) return;
         isDraggingRef.current = false;
         stopAutoScroll();
+        window.removeEventListener('mousemove', handleWindowMouseMove);
+        window.removeEventListener('mouseup', handleWindowMouseUp);
         const sel = selectionRef.current;
         if (!sel || Math.abs((sel.endTime ?? sel.startTime) - sel.startTime) < 0.1) {
             onSelectionChange(null);
         }
-    };
+    }, [stopAutoScroll, onSelectionChange, handleWindowMouseMove]);
+
+    // Cleanup global listeners on unmount
+    useEffect(() => () => {
+        window.removeEventListener('mousemove', handleWindowMouseMove);
+        window.removeEventListener('mouseup', handleWindowMouseUp);
+    }, [handleWindowMouseMove, handleWindowMouseUp]);
 
     return (
         <div
@@ -388,8 +398,6 @@ export default function WaveformEditor({
             className="relative w-full h-full"
             style={{ userSelect: 'none', cursor: (editorMode === 'trim' || editorMode === 'calibrate') ? 'crosshair' : 'default' }}
             onMouseDown={handleMouseDown}
-            onMouseMove={handleMouseMove}
-            onMouseUp={handleMouseUp}
         >
             <canvas ref={canvasRef} className="w-full h-full block" />
         </div>
