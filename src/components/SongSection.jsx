@@ -594,7 +594,7 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                 <div
                     className="relative flex-shrink-0 pointer-events-none"
                     style={{
-                        height: '24%',
+                        height: 120,
                         borderBottom: `1px solid ${borderColor}`,
                     }}
                 >
@@ -611,7 +611,7 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                 <div
                     className="relative flex-shrink-0 transition-all duration-200"
                     style={{
-                        height: sahityaCollapsed ? '28px' : '32%',
+                        height: sahityaCollapsed ? 28 : 140,
                         borderBottom: `1px solid ${borderColor}`,
                         overflow: 'hidden',
                     }}
@@ -652,7 +652,8 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                 <div
                     className="relative transition-all duration-200"
                     style={{
-                        flex: swaraCollapsed ? '0 0 28px' : '1 1 0%',
+                        flexShrink: 0,
+                        height: swaraCollapsed ? 28 : 140,
                         overflow: 'hidden',
                     }}
                 >

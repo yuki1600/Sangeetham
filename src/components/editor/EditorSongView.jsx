@@ -1640,7 +1640,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     )}
 
                     {/* Lane 1: Waveform Editor */}
-                    <div className="relative flex-shrink-0" style={{ height: '24%', borderBottom: `1px solid ${borderColor}` }}>
+                    <div className="relative flex-shrink-0" style={{ height: 120, borderBottom: `1px solid ${borderColor}` }}>
                         <LaneLabel label="Audio" isDark={isDark} />
                         <WaveformEditor
                             audioBuffer={editedBuffer}
@@ -1697,7 +1697,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     {/* Lane 2: Sahitya */}
                     <div className="relative transition-all duration-200" style={{
                         flexShrink: 0,
-                        height: sahityaCollapsed ? '28px' : '32%',
+                        height: sahityaCollapsed ? 28 : 140,
                         borderBottom: `1px solid ${borderColor}`,
                         overflow: 'hidden',
                     }}>
@@ -1740,7 +1740,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
                     {/* Lane 3: Swara */}
                     <div className="relative transition-all duration-200" style={{
-                        flex: swaraCollapsed ? '0 0 28px' : '1 1 0%',
+                        flexShrink: 0,
+                        height: swaraCollapsed ? 28 : 140,
                         overflow: 'hidden',
                     }}>
                         <div
