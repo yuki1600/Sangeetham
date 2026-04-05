@@ -1697,13 +1697,13 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     {/* Lane 2: Sahitya */}
                     <div className="relative transition-all duration-200" style={{
                         flexShrink: 0,
-                        height: sahityaCollapsed ? 28 : 140,
+                        height: sahityaCollapsed ? 36 : 140,
                         borderBottom: `1px solid ${borderColor}`,
                         overflow: 'hidden',
                     }}>
                         <div
-                            className="absolute top-0 left-0 right-0 z-30 flex items-center cursor-pointer select-none"
-                            style={{ height: '28px' }}
+                            className="absolute left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                            style={{ top: 6, height: '28px' }}
                             onClick={() => setSahityaCollapsed(c => !c)}
                         >
                             <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
@@ -1741,12 +1741,12 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     {/* Lane 3: Swara */}
                     <div className="relative transition-all duration-200" style={{
                         flexShrink: 0,
-                        height: swaraCollapsed ? 28 : 140,
+                        height: swaraCollapsed ? 36 : 140,
                         overflow: 'hidden',
                     }}>
                         <div
-                            className="absolute top-0 left-0 right-0 z-30 flex items-center cursor-pointer select-none"
-                            style={{ height: '28px' }}
+                            className="absolute left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                            style={{ top: 6, height: '28px' }}
                             onClick={() => setSwaraCollapsed(c => !c)}
                         >
                             <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
