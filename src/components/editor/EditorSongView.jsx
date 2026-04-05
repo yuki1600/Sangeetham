@@ -1493,14 +1493,31 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     <div className="flex items-center gap-3">
                                         <span className="text-[10px] uppercase font-black tracking-widest flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Speed</span>
                                         <div className="flex items-center gap-2 text-[11px]" style={{ color: 'var(--text-muted)' }}>
+                                            <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg" style={{
+                                                background: customAavartanaSec ? 'rgba(59,130,246,0.12)' : 'rgba(16,185,129,0.08)',
+                                                color: customAavartanaSec ? '#60a5fa' : '#10b981',
+                                                border: `1px solid ${customAavartanaSec ? 'rgba(59,130,246,0.25)' : 'rgba(16,185,129,0.2)'}`,
+                                            }}>
+                                                <Gauge className="w-3 h-3" />
+                                                <input
+                                                    type="number"
+                                                    step="0.01"
+                                                    min="0.5"
+                                                    placeholder={autoSec}
+                                                    value={customAavartanaSec ?? ''}
+                                                    onChange={e => {
+                                                        const v = parseFloat(e.target.value);
+                                                        setCustomAavartanaSec(v > 0 ? v : null);
+                                                    }}
+                                                    className="w-12 text-center font-mono font-bold tabular-nums bg-transparent border-none outline-none focus:ring-0"
+                                                    style={{ color: 'inherit' }}
+                                                    title="Type āvartana duration in seconds"
+                                                />
+                                                <span className="opacity-60">s / āvartana</span>
+                                                {customAavartanaSec && <span className="opacity-40 font-normal">(calibrated)</span>}
+                                            </span>
                                             {customAavartanaSec ? (
                                                 <>
-                                                    <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg" style={{ background: 'rgba(59,130,246,0.12)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.25)' }}>
-                                                        <Gauge className="w-3 h-3" />
-                                                        <span className="font-mono font-bold tabular-nums">{customAavartanaSec.toFixed(2)}s</span>
-                                                        <span className="opacity-60">/ āvartana</span>
-                                                        <span className="opacity-40 font-normal">(calibrated)</span>
-                                                    </span>
                                                     <span className="opacity-30">was {autoSec}s auto</span>
                                                     <button
                                                         onClick={() => setCustomAavartanaSec(null)}
@@ -1509,19 +1526,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                     >✕ Reset</button>
                                                 </>
                                             ) : (
-                                                <>
-                                                    <span className="font-mono font-bold tabular-nums" style={{ color: '#10b981' }}>{autoSec}s</span>
-                                                    <span className="opacity-50">/ āvartana (auto)</span>
-                                                    <span className="opacity-30 mx-1">·</span>
-                                                    <button
-                                                        onClick={() => setEditorMode('calibrate')}
-                                                        className="flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-lg transition-all hover:opacity-100"
-                                                        style={{ background: 'rgba(59,130,246,0.1)', color: '#60a5fa', border: '1px solid rgba(59,130,246,0.2)' }}
-                                                    >
-                                                        <Gauge className="w-3 h-3" />
-                                                        Calibrate
-                                                    </button>
-                                                </>
+                                                <span className="opacity-40">(auto)</span>
                                             )}
                                         </div>
                                     </div>
