@@ -127,31 +127,52 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         : 3.3;
     const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
 
-    // Pad composition with empty avartanas when calibration leaves notation short
+    // Pad or trim empty avartanas so notation matches audio duration after calibration
     useEffect(() => {
         if (!composition || !customAavartanaSec || customAavartanaSec <= 0 || totalDuration <= 0 || readOnly) return;
         const currentCount = aavartanas.length;
         const needed = Math.ceil(totalDuration / customAavartanaSec);
-        if (currentCount >= needed) return;
+        if (currentCount === needed) return;
 
-        const tala = songData?.meta?.tala || '';
-        const template = TALA_TEMPLATES[tala] || '_ _ _ _ ||';
-        const toAdd = needed - currentCount;
-
-        // Distribute extra avartanas evenly across sections
-        const sections = [...new Set(composition.map(s => s.section))];
-        const perSection = Math.floor(toAdd / sections.length);
-        let remainder = toAdd - perSection * sections.length;
+        const isEmptyContent = (entry) => {
+            const s = (entry.swaram || '').replace(/[_|;\s.,]/g, '');
+            return s.length === 0;
+        };
 
         const newComp = structuredClone(composition);
-        for (const sec of newComp) {
-            const extra = perSection + (remainder > 0 ? 1 : 0);
-            if (remainder > 0) remainder--;
-            if (extra <= 0) continue;
-            // Append empty avartanas as new content entries in this section
+
+        if (currentCount < needed) {
+            // Pad: add empty avartanas distributed evenly
+            const tala = songData?.meta?.tala || '';
+            const template = TALA_TEMPLATES[tala] || '_ _ _ _ ||';
             const emptyPattern = template.replace(/\|\|$/, '').trim();
-            for (let i = 0; i < extra; i++) {
-                sec.content.push({ swaram: emptyPattern + ' ||', sahityam: emptyPattern + ' ||' });
+            const toAdd = needed - currentCount;
+            const sections = newComp.map(s => s.section);
+            const uniqueSecs = [...new Set(sections)];
+            const perSection = Math.floor(toAdd / uniqueSecs.length);
+            let remainder = toAdd - perSection * uniqueSecs.length;
+
+            for (const sec of newComp) {
+                const extra = perSection + (remainder > 0 ? 1 : 0);
+                if (remainder > 0) remainder--;
+                for (let i = 0; i < extra; i++) {
+                    sec.content.push({ swaram: emptyPattern + ' ||', sahityam: emptyPattern + ' ||' });
+                }
+            }
+        } else {
+            // Trim: remove excess empty avartanas from the end of sections
+            let toRemove = currentCount - needed;
+            // Work backwards through sections to remove trailing empty entries
+            for (let si = newComp.length - 1; si >= 0 && toRemove > 0; si--) {
+                const sec = newComp[si];
+                for (let ci = sec.content.length - 1; ci >= 0 && toRemove > 0; ci--) {
+                    if (isEmptyContent(sec.content[ci]) && sec.content.length > 1) {
+                        sec.content.splice(ci, 1);
+                        toRemove--;
+                    } else {
+                        break; // stop at first non-empty entry in this section
+                    }
+                }
             }
         }
         setComposition(newComp);
