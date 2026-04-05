@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import {
     ArrowLeft, Play, Pause, RotateCcw, Save, Download,
-    History, Undo2, RefreshCw, ChevronDown,
+    History, Undo2, RefreshCw, ChevronDown, ChevronUp,
     Check, AlertCircle, Scissors, FileText, X,
     FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid,
     Repeat, Pencil, ZoomIn, ZoomOut, Plus, Minus
@@ -65,6 +65,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isPublishing, setIsPublishing] = useState(false);
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
+    const [sahityaCollapsed, setSahityaCollapsed] = useState(false);
+    const [swaraCollapsed, setSwaraCollapsed] = useState(false);
 
     // Track unsaved changes
     const [savedDataStr, setSavedDataStr] = useState('');
@@ -1659,43 +1661,89 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         )}
                     </div>
 
-                    {/* Lane 2: Swara */}
-                    <div className="relative flex-shrink-0" style={{ height: '32%', borderBottom: `1px solid ${borderColor}` }}>
-                        <LaneLabel label="Swara" isDark={isDark} />
-                        {aavartanas.length > 0 && (
-                            <NotationLane
-                                aavartanas={aavartanas}
-                                aavartanaTimings={aavartanaTimings}
-                                currentTime={currentTime}
-                                timeRef={currentTimeRef}
-                                totalDuration={totalDuration}
-                                playheadFraction={PLAYHEAD}
-                                aavartanaSec={effectiveAavartanaSec}
-                                type="swara"
-                                theme={theme}
-                                onTokenEdit={handleTokenEdit}
-                                readOnly={readOnly}
-                            />
+                    {/* Lane 2: Sahitya */}
+                    <div className="relative transition-all duration-200" style={{
+                        flexShrink: 0,
+                        height: sahityaCollapsed ? '28px' : '32%',
+                        borderBottom: `1px solid ${borderColor}`,
+                        overflow: 'hidden',
+                    }}>
+                        <div
+                            className="absolute top-0 left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                            style={{ height: '28px' }}
+                            onClick={() => setSahityaCollapsed(c => !c)}
+                        >
+                            <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
+                                style={{
+                                    color: isDark ? '#fff' : '#000',
+                                    background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
+                                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
+                                    backdropFilter: 'blur(12px)',
+                                    boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
+                                }}
+                            >
+                                {sahityaCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
+                                Sahitya
+                            </div>
+                        </div>
+                        {!sahityaCollapsed && aavartanas.length > 0 && (
+                            <div className="absolute inset-0" style={{ top: '0px' }}>
+                                <NotationLane
+                                    aavartanas={aavartanas}
+                                    aavartanaTimings={aavartanaTimings}
+                                    currentTime={currentTime}
+                                    timeRef={currentTimeRef}
+                                    totalDuration={totalDuration}
+                                    playheadFraction={PLAYHEAD}
+                                    aavartanaSec={effectiveAavartanaSec}
+                                    type="sahitya"
+                                    theme={theme}
+                                    onTokenEdit={handleTokenEdit}
+                                    readOnly={readOnly}
+                                />
+                            </div>
                         )}
                     </div>
 
-                    {/* Lane 3: Sahitya */}
-                    <div className="relative flex-1">
-                        <LaneLabel label="Sahitya" isDark={isDark} />
-                        {aavartanas.length > 0 && (
-                            <NotationLane
-                                aavartanas={aavartanas}
-                                aavartanaTimings={aavartanaTimings}
-                                currentTime={currentTime}
-                                timeRef={currentTimeRef}
-                                totalDuration={totalDuration}
-                                playheadFraction={PLAYHEAD}
-                                aavartanaSec={effectiveAavartanaSec}
-                                type="sahitya"
-                                theme={theme}
-                                onTokenEdit={handleTokenEdit}
-                                readOnly={readOnly}
-                            />
+                    {/* Lane 3: Swara */}
+                    <div className="relative transition-all duration-200" style={{
+                        flex: swaraCollapsed ? '0 0 28px' : '1 1 0%',
+                        overflow: 'hidden',
+                    }}>
+                        <div
+                            className="absolute top-0 left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                            style={{ height: '28px' }}
+                            onClick={() => setSwaraCollapsed(c => !c)}
+                        >
+                            <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
+                                style={{
+                                    color: isDark ? '#fff' : '#000',
+                                    background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
+                                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
+                                    backdropFilter: 'blur(12px)',
+                                    boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
+                                }}
+                            >
+                                {swaraCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
+                                Swara
+                            </div>
+                        </div>
+                        {!swaraCollapsed && aavartanas.length > 0 && (
+                            <div className="absolute inset-0" style={{ top: '0px' }}>
+                                <NotationLane
+                                    aavartanas={aavartanas}
+                                    aavartanaTimings={aavartanaTimings}
+                                    currentTime={currentTime}
+                                    timeRef={currentTimeRef}
+                                    totalDuration={totalDuration}
+                                    playheadFraction={PLAYHEAD}
+                                    aavartanaSec={effectiveAavartanaSec}
+                                    type="swara"
+                                    theme={theme}
+                                    onTokenEdit={handleTokenEdit}
+                                    readOnly={readOnly}
+                                />
+                            </div>
                         )}
                     </div>
                 </main>

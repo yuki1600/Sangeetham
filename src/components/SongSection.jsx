@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { ArrowLeft, Play, Pause, Music, ChevronLeft, ChevronRight, RotateCcw, Repeat } from 'lucide-react';
+import { ArrowLeft, Play, Pause, Music, ChevronLeft, ChevronRight, ChevronDown, ChevronUp, RotateCcw, Repeat } from 'lucide-react';
 import CompactPitchBar from './CompactPitchBar';
 import LaneLabel from './LaneLabel';
 import NotationLane from './NotationLane';
@@ -186,6 +186,8 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
     const [isLoopEnabled, setIsLoopEnabled] = useState(false);
     const [loopRange, setLoopRange] = useState(null); // { start, end } in seconds
     const [preLoopTime, setPreLoopTime] = useState(null);
+    const [sahityaCollapsed, setSahityaCollapsed] = useState(false);
+    const [swaraCollapsed, setSwaraCollapsed] = useState(false);
     const dragData = useRef({ startX: 0, startTime: 0, isSelecting: false, selectionStart: 0 });
 
     const audioRef = useRef(null);
@@ -605,41 +607,84 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                     />
                 </div>
 
-                {/* Lane 2: Swara */}
+                {/* Lane 2: Sahitya */}
                 <div
-                    className="relative flex-shrink-0 pointer-events-none"
+                    className="relative flex-shrink-0 transition-all duration-200"
                     style={{
-                        height: '32%',
+                        height: sahityaCollapsed ? '28px' : '32%',
                         borderBottom: `1px solid ${borderColor}`,
+                        overflow: 'hidden',
                     }}
                 >
-                    <LaneLabel label="Swara" isDark={isDark} />
-                    {aavartanas.length > 0 && (
-                        <NotationLane
-                            aavartanas={aavartanas}
-                            currentTime={currentTime}
-                            totalDuration={totalDuration}
-                            playheadFraction={PLAYHEAD}
-                            type="swara"
-                            theme={theme}
-                        />
+                    <div
+                        className="absolute top-0 left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                        style={{ height: '28px', pointerEvents: 'auto' }}
+                        onClick={() => setSahityaCollapsed(c => !c)}
+                    >
+                        <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
+                            style={{
+                                color: isDark ? '#fff' : '#000',
+                                background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
+                                border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
+                                backdropFilter: 'blur(12px)',
+                                boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
+                            }}
+                        >
+                            {sahityaCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
+                            Sahitya
+                        </div>
+                    </div>
+                    {!sahityaCollapsed && aavartanas.length > 0 && (
+                        <div className="absolute inset-0 pointer-events-none">
+                            <NotationLane
+                                aavartanas={aavartanas}
+                                currentTime={currentTime}
+                                totalDuration={totalDuration}
+                                playheadFraction={PLAYHEAD}
+                                type="sahitya"
+                                theme={theme}
+                            />
+                        </div>
                     )}
                 </div>
 
-                {/* Lane 3: Sahitya */}
+                {/* Lane 3: Swara */}
                 <div
-                    className="relative flex-1 pointer-events-none"
+                    className="relative transition-all duration-200"
+                    style={{
+                        flex: swaraCollapsed ? '0 0 28px' : '1 1 0%',
+                        overflow: 'hidden',
+                    }}
                 >
-                    <LaneLabel label="Sahitya" isDark={isDark} />
-                    {aavartanas.length > 0 && (
-                        <NotationLane
-                            aavartanas={aavartanas}
-                            currentTime={currentTime}
-                            totalDuration={totalDuration}
-                            playheadFraction={PLAYHEAD}
-                            type="sahitya"
-                            theme={theme}
-                        />
+                    <div
+                        className="absolute top-0 left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                        style={{ height: '28px', pointerEvents: 'auto' }}
+                        onClick={() => setSwaraCollapsed(c => !c)}
+                    >
+                        <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
+                            style={{
+                                color: isDark ? '#fff' : '#000',
+                                background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
+                                border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
+                                backdropFilter: 'blur(12px)',
+                                boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
+                            }}
+                        >
+                            {swaraCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
+                            Swara
+                        </div>
+                    </div>
+                    {!swaraCollapsed && aavartanas.length > 0 && (
+                        <div className="absolute inset-0 pointer-events-none">
+                            <NotationLane
+                                aavartanas={aavartanas}
+                                currentTime={currentTime}
+                                totalDuration={totalDuration}
+                                playheadFraction={PLAYHEAD}
+                                type="swara"
+                                theme={theme}
+                            />
+                        </div>
                     )}
                 </div>
             </main>
