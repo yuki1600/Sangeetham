@@ -398,15 +398,47 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
         }
     }, [currentTime, totalDuration, isLoopEnabled, loopRange, preLoopTime, PLAYHEAD]);
 
-    // Progress bar seek
-    const handleSeek = useCallback((e) => {
-        if (!audioRef.current || totalDuration === 0) return;
-        const rect = e.currentTarget.getBoundingClientRect();
-        const frac = (e.clientX - rect.left) / rect.width;
+    // Seek slider drag
+    const seekBarRef = useRef(null);
+    const isDraggingSeek = useRef(false);
+
+    const seekToFrac = useCallback((clientX) => {
+        if (!audioRef.current || totalDuration === 0 || !seekBarRef.current) return;
+        const rect = seekBarRef.current.getBoundingClientRect();
+        const frac = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
         const t = frac * totalDuration;
         audioRef.current.currentTime = t;
         setCurrentTime(t);
     }, [totalDuration]);
+
+    const handleSeekMouseDown = useCallback((e) => {
+        isDraggingSeek.current = true;
+        seekToFrac(e.clientX);
+        e.preventDefault();
+    }, [seekToFrac]);
+
+    const handleSeekTouchStart = useCallback((e) => {
+        isDraggingSeek.current = true;
+        seekToFrac(e.touches[0].clientX);
+    }, [seekToFrac]);
+
+    useEffect(() => {
+        const onMove = (e) => {
+            if (!isDraggingSeek.current) return;
+            seekToFrac(e.clientX ?? e.touches?.[0]?.clientX);
+        };
+        const onUp = () => { isDraggingSeek.current = false; };
+        window.addEventListener('mousemove', onMove);
+        window.addEventListener('mouseup', onUp);
+        window.addEventListener('touchmove', onMove);
+        window.addEventListener('touchend', onUp);
+        return () => {
+            window.removeEventListener('mousemove', onMove);
+            window.removeEventListener('mouseup', onUp);
+            window.removeEventListener('touchmove', onMove);
+            window.removeEventListener('touchend', onUp);
+        };
+    }, [seekToFrac]);
 
     // Format mm:ss
     const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
@@ -690,54 +722,81 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                 </div>
             </main>
 
-            {/* ── Progress Bar ───────────────────────────────────────────────── */}
+            {/* ── Seek Bar ───────────────────────────────────────────────── */}
             <div
-                className="flex-shrink-0 px-5 py-3 flex items-center gap-3 z-30"
+                className="flex-shrink-0 flex justify-center"
                 style={{
-                    background: isDark ? 'rgba(10,10,15,0.85)' : 'rgba(248,250,252,0.9)',
+                    padding: '20px 32px 24px',
+                    background: isDark ? 'rgba(10,10,15,0.95)' : 'rgba(248,250,252,0.95)',
                     backdropFilter: 'blur(20px)',
                     WebkitBackdropFilter: 'blur(20px)',
                     borderTop: `1px solid ${borderColor}`,
+                    zIndex: 40,
+                    position: 'relative',
                 }}
             >
-                <span className="text-[10px] tabular-nums font-mono" style={{ color: 'var(--text-muted)', minWidth: 36 }}>
-                    {fmt(currentTime)}
-                </span>
+                <div className="flex items-center gap-5 w-full" style={{ maxWidth: 700 }}>
+                    <span className="text-sm tabular-nums font-mono font-bold" style={{ color: '#10b981', minWidth: 44 }}>
+                        {fmt(currentTime)}
+                    </span>
 
-                {/* Track */}
-                <div
-                    className="flex-1 h-1.5 rounded-full overflow-hidden cursor-pointer relative"
-                    style={{ background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
-                    onClick={handleSeek}
-                >
-                    {/* Fill */}
+                    {/* Seek Slider */}
                     <div
-                        className="absolute inset-y-0 left-0 rounded-full transition-none"
+                        ref={seekBarRef}
+                        onMouseDown={handleSeekMouseDown}
+                        onTouchStart={handleSeekTouchStart}
                         style={{
+                            flex: 1,
+                            position: 'relative',
+                            height: 52,
+                            cursor: 'pointer',
+                            userSelect: 'none',
+                        }}
+                    >
+                        {/* Track bg */}
+                        <div style={{
+                            position: 'absolute',
+                            left: 0,
+                            right: 0,
+                            top: '50%',
+                            transform: 'translateY(-50%)',
+                            height: 6,
+                            borderRadius: 3,
+                            background: isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.15)',
+                        }} />
+                        {/* Fill */}
+                        <div style={{
+                            position: 'absolute',
+                            left: 0,
+                            top: '50%',
+                            transform: 'translateY(-50%)',
+                            height: 6,
+                            borderRadius: 3,
                             width: `${progress * 100}%`,
                             background: 'linear-gradient(to right, #10b981, #34d399)',
-                        }}
-                    />
-                    {/* Aavartana tick marks */}
-                    {aavartanas.map((_, i) => {
-                        const frac = (i * AAVARTANA_SEC) / (totalDuration || 1);
-                        if (frac >= 1) return null;
-                        return (
-                            <div
-                                key={i}
-                                className="absolute top-0 bottom-0 w-px opacity-30"
-                                style={{
-                                    left: `${frac * 100}%`,
-                                    background: isDark ? '#fff' : '#000',
-                                }}
-                            />
-                        );
-                    })}
-                </div>
+                            boxShadow: '0 0 10px rgba(16,185,129,0.4)',
+                        }} />
+                        {/* Thumb / Playhead */}
+                        <div style={{
+                            position: 'absolute',
+                            top: '50%',
+                            left: `${progress * 100}%`,
+                            transform: 'translate(-50%, -50%)',
+                            width: 20,
+                            height: 20,
+                            borderRadius: '50%',
+                            background: '#10b981',
+                            border: '3px solid #fff',
+                            boxShadow: '0 0 0 3px rgba(16,185,129,0.3), 0 2px 10px rgba(0,0,0,0.4)',
+                            pointerEvents: 'none',
+                            zIndex: 2,
+                        }} />
+                    </div>
 
-                <span className="text-[10px] tabular-nums font-mono" style={{ color: 'var(--text-muted)', minWidth: 36, textAlign: 'right' }}>
-                    {fmt(totalDuration)}
-                </span>
+                    <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)', minWidth: 44, textAlign: 'right' }}>
+                        {fmt(totalDuration)}
+                    </span>
+                </div>
             </div>
         </div>
     );

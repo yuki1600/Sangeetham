@@ -565,6 +565,48 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setCurrentTime(t);
     }, [totalDuration]);
 
+    // ── Seek slider drag support ─────────────────────────────────────────────
+    const seekBarRef = useRef(null);
+    const isDraggingSeek = useRef(false);
+
+    const seekToFrac = useCallback((clientX) => {
+        if (!audioRef.current || totalDuration === 0 || !seekBarRef.current) return;
+        const rect = seekBarRef.current.getBoundingClientRect();
+        const frac = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+        const t = frac * totalDuration;
+        audioRef.current.currentTime = t;
+        setCurrentTime(t);
+    }, [totalDuration]);
+
+    const handleSeekMouseDown = useCallback((e) => {
+        isDraggingSeek.current = true;
+        seekToFrac(e.clientX);
+        e.preventDefault();
+    }, [seekToFrac]);
+
+    const handleSeekTouchStart = useCallback((e) => {
+        isDraggingSeek.current = true;
+        seekToFrac(e.touches[0].clientX);
+    }, [seekToFrac]);
+
+    useEffect(() => {
+        const onMove = (e) => {
+            if (!isDraggingSeek.current) return;
+            seekToFrac(e.clientX ?? e.touches?.[0]?.clientX);
+        };
+        const onUp = () => { isDraggingSeek.current = false; };
+        window.addEventListener('mousemove', onMove);
+        window.addEventListener('mouseup', onUp);
+        window.addEventListener('touchmove', onMove);
+        window.addEventListener('touchend', onUp);
+        return () => {
+            window.removeEventListener('mousemove', onMove);
+            window.removeEventListener('mouseup', onUp);
+            window.removeEventListener('touchmove', onMove);
+            window.removeEventListener('touchend', onUp);
+        };
+    }, [seekToFrac]);
+
     // ── Edit ops change (with undo stack) ────────────────────────────────────
     const handleEditOpsChange = useCallback((newOps) => {
         setEditOpsHistory(prev => [...prev, editOps]);
@@ -1815,64 +1857,141 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     </div>
                 </main>
 
-                {/* ── Progress Bar ──────────────────────────────────────────────── */}
+                {/* ── Seek Slider ──────────────────────────────────────────────── */}
                 <div
-                    className="flex-shrink-0 px-5 py-3 flex items-center gap-3 z-30"
+                    className="flex-shrink-0 flex justify-center"
                     style={{
-                        background: isDark ? 'rgba(10,10,15,0.85)' : 'rgba(248,250,252,0.9)',
+                        padding: '12px 24px 16px',
+                        background: isDark ? 'rgba(10,10,15,0.9)' : 'rgba(248,250,252,0.95)',
                         backdropFilter: 'blur(20px)',
                         borderTop: `1px solid ${borderColor}`,
+                        zIndex: 30,
+                        position: 'relative',
                     }}
                 >
-                    <span className="text-[10px] tabular-nums font-mono" style={{ color: 'var(--text-muted)', minWidth: 36 }}>{fmt(currentTime)}</span>
+                    <div className="flex items-center gap-4 w-full" style={{ maxWidth: 800 }}>
+                        <span className="text-sm tabular-nums font-mono font-bold" style={{ color: '#10b981', minWidth: 44 }}>
+                            {fmt(currentTime)}
+                        </span>
 
-                    {/* Wrapper gives room above the bar for section labels */}
-                    <div className="flex-1 relative" style={{ paddingTop: 22 }}>
-                        {/* Section marker pins */}
-                        {uniqueSections.map(section => {
-                            const t = sectionTimings[section];
-                            if (t == null) return null;
-                            const frac = Math.min(1, t / (totalDuration || 1));
-                            // Clamp so label never bleeds outside the track
-                            const labelShift = frac < 0.08 ? 'translateX(0)' : frac > 0.92 ? 'translateX(-100%)' : 'translateX(-50%)';
-                            return (
-                                <div
-                                    key={section}
-                                    className="absolute bottom-0 flex flex-col cursor-pointer"
-                                    style={{ left: `${frac * 100}%`, transform: labelShift, zIndex: 10, alignItems: frac < 0.08 ? 'flex-start' : frac > 0.92 ? 'flex-end' : 'center' }}
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        if (audioRef.current) audioRef.current.currentTime = t;
-                                    }}
-                                    title={`${section} — ${fmt(t)}`}
-                                >
-                                    <span
-                                        className="text-[11px] font-medium uppercase tracking-wide whitespace-nowrap px-1.5 py-0.5 rounded mb-0.5"
-                                        style={{ background: '#fbbf24', color: '#000', lineHeight: 1.4 }}
-                                    >
-                                        {section}
-                                    </span>
-                                    <div className="w-px h-2" style={{ background: '#fbbf24' }} />
-                                </div>
-                            );
-                        })}
-
-                        {/* Track bar */}
+                        {/* Track wrapper: labels + slider positioned relative to track */}
                         <div
-                            className="h-1.5 rounded-full overflow-hidden cursor-pointer relative"
-                            style={{ background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)' }}
-                            onClick={handleSeek}
+                            ref={seekBarRef}
+                            onMouseDown={handleSeekMouseDown}
+                            onTouchStart={handleSeekTouchStart}
+                            style={{
+                                flex: 1,
+                                position: 'relative',
+                                paddingTop: 24,
+                                cursor: 'pointer',
+                                userSelect: 'none',
+                            }}
                         >
-                            <div className="absolute inset-y-0 left-0 rounded-full" style={{ width: `${progress * 100}%`, background: 'linear-gradient(to right,#10b981,#34d399)' }} />
-                            {aavartanas.map((_, i) => {
-                                const frac = (i * effectiveAavartanaSec) / (totalDuration || 1);
-                                if (frac >= 1) return null;
-                                return <div key={i} className="absolute top-0 bottom-0 w-px opacity-30" style={{ left: `${frac * 100}%`, background: isDark ? '#fff' : '#000' }} />;
+                            {/* Section markers: vertical line + label to the right */}
+                            {uniqueSections.map(section => {
+                                const t = sectionTimings[section];
+                                if (t == null) return null;
+                                const frac = Math.min(1, t / (totalDuration || 1));
+                                return (
+                                    <div
+                                        key={section}
+                                        className="absolute"
+                                        style={{
+                                            left: `${frac * 100}%`,
+                                            top: 0,
+                                            bottom: 0,
+                                            zIndex: 5,
+                                            pointerEvents: 'none',
+                                        }}
+                                    >
+                                        {/* Vertical drop line — anchored exactly at frac position */}
+                                        <div style={{
+                                            position: 'absolute',
+                                            left: 0,
+                                            top: 0,
+                                            bottom: 0,
+                                            width: 1,
+                                            background: '#fbbf24',
+                                            opacity: 0.6,
+                                        }} />
+                                        {/* Label — to the right of the line */}
+                                        <span
+                                            className="text-[10px] font-semibold uppercase tracking-wide whitespace-nowrap px-1.5 py-0.5 rounded cursor-pointer"
+                                            style={{
+                                                position: 'absolute',
+                                                top: 0,
+                                                left: 4,
+                                                background: '#fbbf24',
+                                                color: '#000',
+                                                lineHeight: 1.3,
+                                                pointerEvents: 'auto',
+                                            }}
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                if (audioRef.current) audioRef.current.currentTime = t;
+                                            }}
+                                            title={`${section} — ${fmt(t)}`}
+                                        >
+                                            {section}
+                                        </span>
+                                    </div>
+                                );
                             })}
-                        </div>
-                    </div>
 
-                    <span className="text-[10px] tabular-nums font-mono" style={{ color: 'var(--text-muted)', minWidth: 36, textAlign: 'right' }}>{fmt(totalDuration)}</span>
+                            {/* Actual slider track area */}
+                            <div style={{ position: 'relative', height: 44 }}>
+                                {/* Track background */}
+                                <div style={{
+                                    position: 'absolute',
+                                    left: 0,
+                                    right: 0,
+                                    top: '50%',
+                                    transform: 'translateY(-50%)',
+                                    height: 6,
+                                    borderRadius: 3,
+                                    background: isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.12)',
+                                }}>
+                                    {/* Aavartana tick marks */}
+                                    {aavartanas.map((_, i) => {
+                                        const frac = (i * effectiveAavartanaSec) / (totalDuration || 1);
+                                        if (frac >= 1 || i === 0) return null;
+                                        return <div key={i} className="absolute top-0 bottom-0 w-px opacity-30" style={{ left: `${frac * 100}%`, background: isDark ? '#fff' : '#000' }} />;
+                                    })}
+                                </div>
+                                {/* Filled portion */}
+                                <div style={{
+                                    position: 'absolute',
+                                    left: 0,
+                                    top: '50%',
+                                    transform: 'translateY(-50%)',
+                                    height: 6,
+                                    borderRadius: 3,
+                                    width: `${progress * 100}%`,
+                                    background: 'linear-gradient(to right, #10b981, #34d399)',
+                                    boxShadow: '0 0 8px rgba(16,185,129,0.3)',
+                                }} />
+                                {/* Thumb */}
+                                <div style={{
+                                    position: 'absolute',
+                                    top: '50%',
+                                    left: `${progress * 100}%`,
+                                    transform: 'translate(-50%, -50%)',
+                                    width: 18,
+                                    height: 18,
+                                    borderRadius: '50%',
+                                    background: '#10b981',
+                                    border: '3px solid #fff',
+                                    boxShadow: '0 0 0 3px rgba(16,185,129,0.25), 0 2px 8px rgba(0,0,0,0.3)',
+                                    pointerEvents: 'none',
+                                    zIndex: 2,
+                                }} />
+                            </div>
+                        </div>
+
+                        <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)', minWidth: 44, textAlign: 'right' }}>
+                            {fmt(totalDuration)}
+                        </span>
+                    </div>
                 </div>
             </div>
 
