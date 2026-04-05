@@ -1358,8 +1358,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 type="number"
                                 step="0.01"
                                 min="0.5"
-                                placeholder={autoAavartanaSec.toFixed(2)}
-                                value={customAavartanaSec ?? ''}
+                                value={parseFloat((customAavartanaSec ?? autoAavartanaSec).toFixed(2))}
                                 onChange={e => {
                                     const v = parseFloat(e.target.value);
                                     setCustomAavartanaSec(v > 0 ? v : null);
@@ -1368,9 +1367,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 style={{
                                     background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)',
                                     borderColor: customAavartanaSec ? 'rgba(59,130,246,0.4)' : borderColor,
-                                    color: customAavartanaSec ? '#60a5fa' : 'var(--text-muted)',
+                                    color: customAavartanaSec ? '#60a5fa' : 'var(--text-primary)',
                                 }}
-                                title="Āvartana duration in seconds (leave empty for auto)"
+                                title="Āvartana duration in seconds — edit directly to calibrate"
                             />
                             <span className="text-[10px] opacity-40 -ml-1">s</span>
 
@@ -1503,15 +1502,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                     type="number"
                                                     step="0.01"
                                                     min="0.5"
-                                                    placeholder={autoSec}
-                                                    value={customAavartanaSec ?? ''}
+                                                    value={parseFloat((customAavartanaSec ?? autoAavartanaSec).toFixed(2))}
                                                     onChange={e => {
                                                         const v = parseFloat(e.target.value);
                                                         setCustomAavartanaSec(v > 0 ? v : null);
                                                     }}
                                                     className="w-12 text-center font-mono font-bold tabular-nums bg-transparent border-none outline-none focus:ring-0"
                                                     style={{ color: 'inherit' }}
-                                                    title="Type āvartana duration in seconds"
+                                                    title="Edit āvartana duration in seconds"
                                                 />
                                                 <span className="opacity-60">s / āvartana</span>
                                                 {customAavartanaSec && <span className="opacity-40 font-normal">(calibrated)</span>}
