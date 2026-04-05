@@ -221,7 +221,7 @@ function SongCard({ song, group, onSelect, onEditSong }) {
                         {song.tala && (
                             <MetaTag label={song.tala} color="tala" />
                         )}
-                        {song.composer && song.composer !== 'Traditional' && (
+                        {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
                             <MetaTag label={song.composer} color="composer" />
                         )}
                     </div>

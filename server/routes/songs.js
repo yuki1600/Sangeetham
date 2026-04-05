@@ -39,7 +39,7 @@ function uniqueTitle(baseTitle) {
 }
 
 function getSongMeta(id) {
-  const row = db.prepare('SELECT id, title, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt, editOps FROM songs WHERE id = ?').get(id);
+  const row = db.prepare('SELECT id, title, raga, tala, composer, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt, editOps FROM songs WHERE id = ?').get(id);
   if (!row) return null;
   return {
     ...row,
@@ -53,7 +53,7 @@ function getSongMeta(id) {
 /** List all songs metadata. */
 router.get('/', (req, res) => {
   try {
-    const rows = db.prepare('SELECT id, title, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
+    const rows = db.prepare('SELECT id, title, raga, tala, composer, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
     const songs = rows.map(s => ({
       ...s,
       hasSwara: !!s.hasSwara,
@@ -95,17 +95,20 @@ router.post('/upload', upload.fields([
     const { song_details = {} } = compositionData;
     const rawTitle = song_details.title || (swaraFile || sahityaFile).originalname.replace(/\.[^.]+$/, '');
     const title = uniqueTitle(rawTitle);
+    const raga = song_details.raga || '';
+    const tala = song_details.tala || song_details.talam || '';
+    const composer = song_details.composer || '';
     const id = uuidv4();
     const now = new Date().toISOString();
 
     db.prepare(`
         INSERT INTO songs (
-            id, title, composition, editOps, swaraAudio, sahityaAudio, 
+            id, title, raga, tala, composer, composition, editOps, swaraAudio, sahityaAudio, 
             hasSwara, hasSahitya, swaraFilename, sahityaFilename, 
             isPublished, createdAt, updatedAt
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?)
     `).run(
-        id, title, JSON.stringify(compositionData), JSON.stringify({ trimStart: 0, trimEnd: null, cuts: [] }),
+        id, title, raga, tala, composer, JSON.stringify(compositionData), JSON.stringify({ trimStart: 0, trimEnd: null, cuts: [] }),
         swaraFile ? swaraFile.buffer : null, sahityaFile ? sahityaFile.buffer : null,
         swaraFile ? 1 : 0, sahityaFile ? 1 : 0,
         swaraFile ? swaraFile.originalname : '', sahityaFile ? sahityaFile.originalname : '',
@@ -122,7 +125,7 @@ router.post('/upload', upload.fields([
 /** Get full song data. */
 router.get('/:id', (req, res) => {
   try {
-    const row = db.prepare('SELECT id, title, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
+    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
     if (!row) return res.status(404).json({ error: 'Song not found' });
 
     const compositionData = JSON.parse(row.composition || '{}');
@@ -132,6 +135,9 @@ router.get('/:id', (req, res) => {
       meta: {
         id: row.id,
         title: row.title,
+        raga: row.raga,
+        tala: row.tala,
+        composer: row.composer,
         hasSwara: !!row.hasSwara,
         hasSahitya: !!row.hasSahitya,
         swaraFilename: row.swaraFilename,
@@ -175,9 +181,15 @@ router.put('/:id', (req, res) => {
 
     const compositionData = JSON.parse(song.composition || '{}');
     compositionData.composition = composition;
+    
+    // Check if details were mutated in editor somehow, update DB columns if they change
+    const songDetails = compositionData.song_details || {};
+    const raga = songDetails.raga || '';
+    const tala = songDetails.tala || songDetails.talam || '';
+    const composer = songDetails.composer || '';
 
-    db.prepare('UPDATE songs SET composition = ?, editOps = ?, updatedAt = ? WHERE id = ?')
-      .run(JSON.stringify(compositionData), JSON.stringify(editOps || {}), now, req.params.id);
+    db.prepare('UPDATE songs SET composition = ?, editOps = ?, raga = ?, tala = ?, composer = ?, updatedAt = ? WHERE id = ?')
+      .run(JSON.stringify(compositionData), JSON.stringify(editOps || {}), raga, tala, composer, now, req.params.id);
 
     res.json({ ok: true });
   } catch (err) {
@@ -257,10 +269,14 @@ router.post('/:id/swap-json', upload.single('json'), (req, res) => {
     }
 
     const { song_details = {} } = compositionData;
+    const raga = song_details.raga || '';
+    const tala = song_details.tala || song_details.talam || '';
+    const composer = song_details.composer || '';
+    const title = song_details.title || 'Untitled';
     const now = new Date().toISOString();
 
-    const result = db.prepare(`UPDATE songs SET composition = ?, title = ?, updatedAt = ? WHERE id = ?`)
-      .run(JSON.stringify(compositionData), song_details.title || 'Untitled', now, req.params.id);
+    const result = db.prepare(`UPDATE songs SET composition = ?, title = ?, raga = ?, tala = ?, composer = ?, updatedAt = ? WHERE id = ?`)
+      .run(JSON.stringify(compositionData), title, raga, tala, composer, now, req.params.id);
 
     if (result.changes === 0) return res.status(404).json({ error: 'Song not found' });
     res.json({ ok: true, meta: getSongMeta(req.params.id) });

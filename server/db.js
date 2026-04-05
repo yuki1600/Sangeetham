@@ -21,6 +21,9 @@ db.exec(`
     swaraFilename TEXT,
     sahityaFilename TEXT,
     isPublished INTEGER DEFAULT 0,
+    raga TEXT,               -- Song raga metadata
+    tala TEXT,               -- Song tala metadata
+    composer TEXT,           -- Song composer metadata
     createdAt TEXT,          -- ISO string
     updatedAt TEXT           -- ISO string
   )

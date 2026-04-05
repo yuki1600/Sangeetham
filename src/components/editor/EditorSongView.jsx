@@ -811,8 +811,22 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
                                     {songData.meta?.title || 'Untitled'}
                                 </div>
-                                <div className="text-[9px] uppercase tracking-widest opacity-50 flex items-center gap-2">
-                                    <span>{songData.song_details?.raga} · {songData.song_details?.tala}</span>
+                                <div className="text-[10px] uppercase font-black tracking-widest opacity-60 flex items-center gap-2 mt-1">
+                                    {songData.meta?.raga && (
+                                        <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
+                                    )}
+                                    {songData.meta?.tala && (
+                                        <>
+                                            <span className="opacity-30">·</span>
+                                            <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
+                                        </>
+                                    )}
+                                    {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
+                                        <>
+                                            <span className="opacity-30">|</span>
+                                            <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
+                                        </>
+                                    )}
                                 </div>
                             </div>
                         </div>

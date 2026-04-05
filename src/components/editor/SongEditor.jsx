@@ -1,6 +1,71 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
+import { ALL_SONGS } from '../../utils/carnaticData';
+
+function SearchableSelect({ label, value, onChange, options, isDark, borderColor, formatOption }) {
+    const [open, setOpen] = useState(false);
+    const [query, setQuery] = useState('');
+    const wrapperRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false);
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
+
+    // If query is exactly the selected value, the user hasn't typed anything new,
+    // so don't filter the list at all. Let them see all options.
+    const isPristine = (query === value);
+    const searchStr = open && !isPristine ? query : '';
+    const filtered = options.filter(o => o.toLowerCase().includes(searchStr.toLowerCase()));
+
+    return (
+        <div className="relative" ref={wrapperRef}>
+            <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">{label}</label>
+            <div className="relative">
+                <input
+                    type="text"
+                    value={open ? query : value}
+                    onChange={e => {
+                        setQuery(e.target.value);
+                        onChange(e.target.value); 
+                        if (!open) setOpen(true);
+                    }}
+                    onFocus={() => { setOpen(true); setQuery(value); }}
+                    placeholder={`Select or type ${label.toLowerCase()}...`}
+                    className="w-full pl-3 pr-8 py-2.5 rounded-xl border text-sm transition-all focus:outline-none"
+                    style={{ 
+                        background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', 
+                        borderColor: open ? 'var(--text-muted)' : borderColor,
+                        color: 'var(--text-primary)'
+                    }}
+                />
+                <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 opacity-40 pointer-events-none" />
+            </div>
+            {open && (
+                <div 
+                    className="absolute z-10 w-full mt-1 border rounded-xl shadow-2xl max-h-48 overflow-y-auto"
+                    style={{ background: isDark ? '#1a1a24' : '#fff', borderColor }}
+                >
+                    {filtered.length > 0 ? filtered.map(opt => (
+                        <button
+                            key={opt}
+                            className="block w-full text-left px-3 py-2 text-sm hover:bg-emerald-500/10 hover:text-emerald-500 transition-colors"
+                            onClick={(e) => { e.preventDefault(); onChange(opt); setOpen(false); setQuery(''); }}
+                        >
+                            {formatOption ? formatOption(opt) : opt}
+                        </button>
+                    )) : (
+                        <div className="px-3 py-2 text-xs italic opacity-50">Press enter or click outside to use custom value</div>
+                    )}
+                </div>
+            )}
+        </div>
+    );
+}
 
 export default function SongEditor({ theme, onEditSong, onBack }) {
     const [songs, setSongs] = useState([]);
@@ -15,8 +80,32 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         error: null 
     });
     const [uploadMode, setUploadMode] = useState('file'); // 'file' | 'manual'
+    const [manualRaga, setManualRaga] = useState('');
     const [manualTala, setManualTala] = useState('Adi');
+    const [manualComposer, setManualComposer] = useState('');
     const [manualSections, setManualSections] = useState(['Pallavi', 'Anupallavi', 'Charanam']);
+
+    const EXPANDED_RAGAM_LIST = [
+        'Abhogi', 'Anandabhairavi', 'Arabhi', 'Asaveri', 'Atana', 'Bhairavi', 'Bilahari', 'Bowli', 
+        'Brindavani', 'Chakravakam', 'Chalanaata', 'Charukesi', 'Darbar', 'Dhanyasi', 'Dharmavati', 
+        'Gaurimanohari', 'Gowlai', 'Hamsadhwani', 'Hamsanadam', 'Hari Kambodhi', 'Hindolam', 
+        'Kalyani', 'Kambodhi', 'Kamas', 'Kanada', 'Kapi', 'Kedaragowla', 'Keeravani', 'Kharaharapriya', 
+        'Latangi', 'Madhyamavati', 'Malahari', 'Mayamalavagowlai', 'Mohanam', 'Mukhari', 'Nalinakanthi', 
+        'Nattai', 'Navaroj', 'Pantuvarali', 'Poorvikalyani', 'Punnagavarali', 'Reethigowlai', 'Revathi', 
+        'Saaranga', 'Sahana', 'Sama', 'Saveri', 'Shankarabharanam', 'Shanmukhapriya', 'Simhendramadhyamam', 
+        'Sindhu Bhairavi', 'Sri', 'Sri Ranjani', 'Subhapantuvarali', 'Suddha Dhanyasi', 'Suddha Saveri', 
+        'Surutti', 'Thodi', 'Vachaspati', 'Varali', 'Vasanta', 'Yadukula Kambodhi'
+    ];
+
+    const allRagas = [...new Set([...EXPANDED_RAGAM_LIST, ...ALL_SONGS.map(s => s.raga).filter(r => r && r !== 'All Ragas')])].sort();
+    const allTalas = [...new Set([...Object.keys(TALA_TEMPLATES), ...ALL_SONGS.map(s => s.tala).filter(Boolean)])].sort();
+    
+    // Process composers: alphabetize all, but pull 'Unknown' to the top
+    const processedComposers = [...new Set(ALL_SONGS.map(s => s.composer).filter(Boolean))].sort();
+    const allComposers = processedComposers.includes('Unknown') 
+        ? ['Unknown', ...processedComposers.filter(c => c !== 'Unknown')] 
+        : processedComposers;
+        
     const [renamingId, setRenamingId] = useState(null);
     const [renameValue, setRenameValue] = useState('');
     const renameInputRef = useRef(null);
@@ -108,7 +197,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             }
             const baseFileName = swaraAudio?.name || sahityaAudio?.name || 'Untitled';
             const title = baseFileName.replace(/\.[^.]+$/, '');
-            const templateObj = generateCompositionTemplate(title, manualTala, manualSections);
+            const templateObj = generateCompositionTemplate(title, manualTala, manualSections, manualRaga, manualComposer);
             finalJsonFile = new File([JSON.stringify(templateObj)], `${title}.json`, { type: 'application/json' });
         } else if (!jsonFile) {
             setUploadState(s => ({ ...s, error: 'Please select a JSON composition file.' }));
@@ -272,6 +361,12 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                                 <span className="text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
                                                     style={{ background: 'rgba(96,165,250,0.12)', color: '#60a5fa' }}>
                                                     {song.tala}
+                                                </span>
+                                            )}
+                                            {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
+                                                <span className="text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full"
+                                                    style={{ background: 'rgba(251,191,36,0.12)', color: '#fbbf24' }}>
+                                                    {song.composer}
                                                 </span>
                                             )}
                                         </div>
@@ -457,24 +552,43 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                         ) : (
                             /* Manual Setup */
                             <div className="space-y-6 mb-8">
-                                <div>
-                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-3 opacity-50">2. Select Talam</label>
-                                    <div className="grid grid-cols-2 gap-2">
-                                        {Object.keys(TALA_TEMPLATES).map(t => (
-                                            <button
-                                                key={t}
-                                                onClick={() => setManualTala(t)}
-                                                className={`px-3 py-2.5 rounded-xl border text-xs font-bold transition-all ${manualTala === t ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500' : 'text-[var(--text-muted)] hover:border-emerald-500/30'}`}
-                                                style={{ borderColor: manualTala === t ? undefined : borderColor }}
-                                            >
-                                                {t}
-                                            </button>
-                                        ))}
-                                    </div>
+                                <div className="grid grid-cols-2 gap-4">
+                                    <SearchableSelect 
+                                        label="Ragam" 
+                                        value={manualRaga} 
+                                        onChange={setManualRaga} 
+                                        options={allRagas} 
+                                        isDark={isDark} 
+                                        borderColor={borderColor} 
+                                    />
+                                    <SearchableSelect 
+                                        label="Talam" 
+                                        value={manualTala} 
+                                        onChange={setManualTala} 
+                                        options={allTalas} 
+                                        isDark={isDark} 
+                                        borderColor={borderColor} 
+                                        formatOption={(t) => {
+                                            const template = TALA_TEMPLATES[t];
+                                            if (template) {
+                                                const beats = template.split('_').length - 1;
+                                                return `${t} (${beats})`;
+                                            }
+                                            return t;
+                                        }}
+                                    />
                                 </div>
+                                <SearchableSelect 
+                                    label="Composer" 
+                                    value={manualComposer} 
+                                    onChange={setManualComposer} 
+                                    options={allComposers} 
+                                    isDark={isDark} 
+                                    borderColor={borderColor} 
+                                />
 
                                 <div>
-                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-3 opacity-50">3. Select Sections</label>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-3 opacity-50">Sections to Generate</label>
                                     <div className="flex flex-wrap gap-2">
                                         {STANDARD_SECTIONS.map(s => {
                                             const active = manualSections.includes(s);
