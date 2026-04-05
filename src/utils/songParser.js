@@ -77,6 +77,30 @@ export function buildAavartanas(composition) {
 }
 
 /**
+ * Build a flat list of content rows (one per composition content entry).
+ * Unlike buildAavartanas which splits on ||, this keeps the full text intact.
+ * Used for text-mode display where each row scrolls as a unit.
+ */
+export function buildContentRows(composition) {
+    const rows = [];
+    if (!composition) return rows;
+    for (let sectionIdx = 0; sectionIdx < composition.length; sectionIdx++) {
+        const section = composition[sectionIdx];
+        for (let contentIdx = 0; contentIdx < (section.content || []).length; contentIdx++) {
+            const entry = section.content[contentIdx];
+            rows.push({
+                section: section.section,
+                swaram: entry.swaram || '',
+                sahityam: entry.sahityam || '',
+                sectionIdx,
+                contentIdx,
+            });
+        }
+    }
+    return rows;
+}
+
+/**
  * Given updated token text for one aavartana row, rebuild the full composition.
  * @param {Array} composition - current composition array
  * @param {Array} aavartanas - current flat aavartana rows (with source tracking)

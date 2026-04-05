@@ -12,7 +12,7 @@ import WaveformEditor from './WaveformEditor';
 import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
 import CompactPitchBar from '../CompactPitchBar';
-import { buildAavartanas, applyTokenEdit } from '../../utils/songParser';
+import { buildAavartanas, buildContentRows, applyTokenEdit } from '../../utils/songParser';
 
 // ── Session Cache ─────────────────────────────────────────────────────────────
 // Stores decoded AudioBuffer objects to make navigation "seamless"
@@ -67,6 +67,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
     const [sahityaCollapsed, setSahityaCollapsed] = useState(false);
     const [swaraCollapsed, setSwaraCollapsed] = useState(false);
+    const [avPerRow, setAvPerRow] = useState(1);
 
     // Track unsaved changes
     const [savedDataStr, setSavedDataStr] = useState('');
@@ -120,10 +121,16 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const isDark = theme !== 'light';
     const borderColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.07)';
 
-    // Build aavartanas from composition
+    // Build aavartanas from composition (still used for calibration/waveform)
     const aavartanas = useMemo(() => composition ? buildAavartanas(composition) : [], [composition]);
-    const autoAavartanaSec = totalDuration > 0 && aavartanas.length > 0
-        ? totalDuration / aavartanas.length
+    // Build content rows for text mode display
+    const contentRows = useMemo(() => composition ? buildContentRows(composition) : [], [composition]);
+    const textModeAvCount = contentRows.length * avPerRow;
+    // Use actual rendered avartana count (from || splits) for scroll speed.
+    // Falls back to textModeAvCount for songs without || markers.
+    const renderedAvCount = aavartanas.length > 0 ? aavartanas.length : textModeAvCount;
+    const autoAavartanaSec = totalDuration > 0 && renderedAvCount > 0
+        ? totalDuration / renderedAvCount
         : 3.3;
     const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
 
@@ -1794,7 +1801,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 Sahitya
                             </div>
                         </div>
-                        {!sahityaCollapsed && aavartanas.length > 0 && (
+                        {!sahityaCollapsed && contentRows.length > 0 && (
                             <div className="absolute inset-0" style={{ top: '0px' }}>
                                 <NotationLane
                                     aavartanas={aavartanas}
@@ -2088,8 +2095,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 <LyricsEditor
                     composition={composition}
                     theme={theme}
-                    initialTalam={songData?.song_details?.tala || 'adi'}
-                    onSave={(newComp) => setComposition(newComp)}
+                    initialAvPerRow={avPerRow}
+                    onSave={(newComp, newAvPerRow) => {
+                        setComposition(newComp);
+                        if (newAvPerRow) setAvPerRow(newAvPerRow);
+                    }}
                     onClose={() => setShowLyrics(false)}
                 />
             )}

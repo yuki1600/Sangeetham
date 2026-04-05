@@ -1,92 +1,55 @@
 import React, { useState } from 'react';
-import { X, FileText, Check, Music, Plus, Copy, Trash2, ChevronDown, GripVertical, Section } from 'lucide-react';
-import { TALA_TEMPLATES } from '../../utils/talaTemplates';
-
-/**
- * Derive tala metadata (beat count + anga boundaries) from TALA_TEMPLATES.
- * The template string uses | for anga boundaries and || for aavartana end.
- * e.g. "_ _ _ _ | _ _ | _ _ ||" → beats=8, angas=[4, 6]
- */
-function buildTalaMap() {
-    const map = {};
-    for (const [name, template] of Object.entries(TALA_TEMPLATES)) {
-        let beatCount = 0;
-        const angas = [];
-        for (const tok of template.split(/\s+/)) {
-            if (tok === '_') beatCount++;
-            else if (tok === '|') angas.push(beatCount);
-            // || is aavartana end, no anga marker needed
-        }
-        const key = name.toLowerCase().replace(/[\s-]/g, '');
-        map[key] = { name, beats: beatCount, angas };
-    }
-    return map;
-}
-
-const TALAS = buildTalaMap();
+import { X, Check, Music, Plus, Trash2, GripVertical, Section, Copy } from 'lucide-react';
 
 /**
  * LyricsEditor
- * A domain-accurate grid system for Carnatic notation.
- * Swara and Sahitya are aligned in "beat cells" across rows.
+ * Text-box based notation editor for Carnatic compositions.
+ * Each row = 1 or 2 aavartanas (user toggleable), with free-form swara/sahitya text.
+ * The avartana grouping determines scroll speed calculation in the player.
  */
-export default function LyricsEditor({ composition, initialTalam = 'adi', onSave, onClose, theme }) {
+export default function LyricsEditor({ composition, initialAvPerRow = 1, onSave, onClose, theme }) {
     const isDark = theme !== 'light';
-    const normalizedTalam = initialTalam.toLowerCase().replace(/[\s-]/g, '');
-    const tala = TALAS[normalizedTalam] || TALAS.adi;
+
+    // Toggle: how many avartanas per row (affects scroll speed calc)
+    const [avPerRow, setAvPerRow] = useState(initialAvPerRow);
+
+    // Detect template-generated placeholder strings (only _ | || and whitespace)
+    const isTemplatePlaceholder = (str) => /^[\s_|]*$/.test(str);
 
     /**
-     * Parse the JSON composition into a structured grid.
-     * Beats are separated by spaces. Angas by |. Aavartanas by ||.
+     * Parse the JSON composition into sections with text rows.
+     * Each content entry becomes one row with its full swaram/sahityam text.
+     * Template placeholders (e.g. "_ _ _ | _ _ | _ _ ||") are treated as empty.
      */
     const [sections, setSections] = useState(() => {
         if (!Array.isArray(composition)) return [];
-        return composition.filter(s => s.section !== 'Aro/Avaro').map(s => {
-            const rows = (s.content || []).map(entry => {
-                const swaraAvs = (entry.swaram || '').split('||').map(v => v.trim()).filter(Boolean);
-                const sahityaAvs = (entry.sahityam || '').split('||').map(v => v.trim()).filter(Boolean);
-                const count = Math.max(swaraAvs.length, sahityaAvs.length, 1);
-                const aavartanas = [];
-                for (let i = 0; i < count; i++) {
-                    const sStr = swaraAvs[i] || '';
-                    const lStr = sahityaAvs[i] || '';
-                    const sTokens = sStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
-                    const lTokens = lStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
-                    const beats = Array.from({ length: tala.beats }, (_, j) => ({
-                        swara: sTokens[j] || '',
-                        sahitya: lTokens[j] || ''
-                    }));
-                    aavartanas.push(beats);
-                }
-                return aavartanas;
-            }).flat();
-            return {
-                name: s.section,
-                aavartanas: rows.length > 0 ? rows : [Array.from({ length: tala.beats }, () => ({ swara: '', sahitya: '' }))]
-            };
-        });
+        return composition.filter(s => s.section !== 'Aro/Avaro').map(s => ({
+            name: s.section,
+            rows: (s.content || []).map(entry => ({
+                swaram: isTemplatePlaceholder(entry.swaram || '') ? '' : (entry.swaram || ''),
+                sahityam: isTemplatePlaceholder(entry.sahityam || '') ? '' : (entry.sahityam || '')
+            }))
+        }));
     });
 
-    const [dragged, setDragged] = useState(null); // { sIdx, avIdx }
+    const [dragged, setDragged] = useState(null);
     const [pendingDeleteIdx, setPendingDeleteIdx] = useState(null);
     const [skipDeleteConfirm, setSkipDeleteConfirm] = useState(false);
 
-    const handleBeatChange = (secIdx, avIdx, beatIdx, field, value) => {
+    const updateRow = (secIdx, rowIdx, field, value) => {
         setSections(prev => {
             const next = [...prev];
-            const newAvs = [...next[secIdx].aavartanas];
-            const newBeats = [...newAvs[avIdx]];
-            newBeats[beatIdx] = { ...newBeats[beatIdx], [field]: value };
-            newAvs[avIdx] = newBeats;
-            next[secIdx] = { ...next[secIdx], aavartanas: newAvs };
+            const newRows = [...next[secIdx].rows];
+            newRows[rowIdx] = { ...newRows[rowIdx], [field]: value };
+            next[secIdx] = { ...next[secIdx], rows: newRows };
             return next;
         });
     };
 
-    const addAavartana = (secIdx) => {
-        setSections(prev => prev.map((s, idx) => 
-            idx === secIdx 
-                ? { ...s, aavartanas: [...s.aavartanas, Array.from({ length: tala.beats }, () => ({ swara: '', sahitya: '' }))] }
+    const addRow = (secIdx) => {
+        setSections(prev => prev.map((s, idx) =>
+            idx === secIdx
+                ? { ...s, rows: [...s.rows, { swaram: '', sahityam: '' }] }
                 : s
         ));
     };
@@ -96,7 +59,7 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
             const next = [...prev];
             const newSection = {
                 name: '',
-                aavartanas: [Array.from({ length: tala.beats }, () => ({ swara: '', sahitya: '' }))]
+                rows: [{ swaram: '', sahityam: '' }]
             };
             if (typeof afterIdx === 'number') {
                 next.splice(afterIdx + 1, 0, newSection);
@@ -126,82 +89,46 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
         setSections(prev => prev.map((s, idx) => idx === secIdx ? { ...s, name: newName } : s));
     };
 
-    const moveAv = (fromSec, fromAvIdx, toSec, toAvIdx) => {
+    const moveRow = (fromSec, fromIdx, toSec, toIdx) => {
         setSections(prev => {
             const next = JSON.parse(JSON.stringify(prev));
-            const item = next[fromSec].aavartanas.splice(fromAvIdx, 1)[0];
-            next[toSec].aavartanas.splice(toAvIdx, 0, item);
+            const item = next[fromSec].rows.splice(fromIdx, 1)[0];
+            next[toSec].rows.splice(toIdx, 0, item);
             return next;
         });
     };
 
-    const duplicateAv = (secIdx, avIdx) => {
+    const duplicateRow = (secIdx, rowIdx) => {
         setSections(prev => prev.map((s, idx) => {
             if (idx !== secIdx) return s;
-            const newAvs = [...s.aavartanas];
-            const copy = JSON.parse(JSON.stringify(newAvs[avIdx]));
-            newAvs.splice(avIdx + 1, 0, copy);
-            return { ...s, aavartanas: newAvs };
+            const newRows = [...s.rows];
+            const copy = JSON.parse(JSON.stringify(newRows[rowIdx]));
+            newRows.splice(rowIdx + 1, 0, copy);
+            return { ...s, rows: newRows };
         }));
     };
 
-    const removeAv = (secIdx, avIdx) => {
+    const removeRow = (secIdx, rowIdx) => {
         setSections(prev => prev.map((s, idx) => {
             if (idx !== secIdx) return s;
-            if (s.aavartanas.length <= 1) return s;
-            return { ...s, aavartanas: s.aavartanas.filter((_, i) => i !== avIdx) };
+            if (s.rows.length <= 1) return s;
+            return { ...s, rows: s.rows.filter((_, i) => i !== rowIdx) };
         }));
-    };
-
-    const handleKeyDown = (e, field) => {
-        if (e.key === 'Tab') {
-            const selector = `input[data-nav-field="${field}"]`;
-            const inputs = Array.from(document.querySelectorAll(selector));
-            const currIdx = inputs.indexOf(e.target);
-            
-            if (currIdx === -1) return;
-            
-            const nextIdx = e.shiftKey ? currIdx - 1 : currIdx + 1;
-            
-            if (nextIdx >= 0 && nextIdx < inputs.length) {
-                e.preventDefault();
-                inputs[nextIdx].focus();
-                // Select all text to make overwriting easy
-                setTimeout(() => inputs[nextIdx].select(), 0);
-            }
-        }
     };
 
     /**
-     * Serializes the beat grid back into the standard JSON string format.
-     * Inserts | and || based on the Tala's structure.
+     * Serialize back to composition JSON.
+     * Each text row becomes one content entry with swaram/sahityam strings.
      */
     const handleSave = () => {
-        const newComposition = sections.map(s => {
-            const content = s.aavartanas.map(av => {
-                let sParts = [];
-                let lParts = [];
-                
-                av.forEach((beat, idx) => {
-                    const beatNum = idx + 1;
-                    sParts.push(beat.swara || '-');
-                    lParts.push(beat.sahitya || '-');
-
-                    if (tala.angas.includes(beatNum)) {
-                        sParts.push('|');
-                        lParts.push('|');
-                    }
-                });
-
-                return {
-                    swaram: sParts.join(' ') + ' ||',
-                    sahityam: lParts.join(' ') + ' ||'
-                };
-            });
-            return { section: s.name, content };
-        });
-
-        onSave(newComposition);
+        const newComposition = sections.map(s => ({
+            section: s.name,
+            content: s.rows.map(row => ({
+                swaram: row.swaram.trim(),
+                sahityam: row.sahityam.trim()
+            }))
+        }));
+        onSave(newComposition, avPerRow);
         onClose();
     };
 
@@ -212,13 +139,13 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
     const textMuted = isDark ? 'rgba(240,240,250,0.4)' : 'rgba(15,23,42,0.5)';
 
     return (
-        <div 
+        <div
             className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-10 bg-black/85 backdrop-blur-md"
             onClick={onClose}
         >
-            <div 
-                className="w-fit max-w-[95vw] min-w-[600px] flex flex-col rounded-[2.5rem] shadow-2xl overflow-hidden border"
-                style={{ height: '85vh', background: bg, borderColor: borderColor }}
+            <div
+                className="w-full max-w-[900px] flex flex-col rounded-[2.5rem] shadow-2xl overflow-hidden border"
+                style={{ height: '85vh', background: bg, borderColor }}
                 onClick={e => e.stopPropagation()}
             >
                 {/* Header */}
@@ -230,29 +157,46 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                         <div>
                             <h2 className="text-xl font-black tracking-tight" style={{ color: textPrimary }}>Lyrics Editor</h2>
                             <p className="text-[10px] opacity-40 mt-1 uppercase tracking-widest font-bold">
-                                {tala.name} Tala Mode — Direct Grid Entry
+                                Free-form text entry
                             </p>
                         </div>
                     </div>
-                    <button 
-                        onClick={onClose}
-                        className="w-10 h-10 rounded-2xl flex items-center justify-center opacity-40 hover:opacity-100 hover:bg-white/5 transition-all"
-                        style={{ color: textPrimary }}
-                    >
-                        <X className="w-5 h-5" />
-                    </button>
+                    <div className="flex items-center gap-4">
+                        {/* Avartana per row toggle */}
+                        <div className="flex items-center rounded-2xl border overflow-hidden" style={{ borderColor }}>
+                            {[1, 2].map(n => (
+                                <button
+                                    key={n}
+                                    onClick={() => setAvPerRow(n)}
+                                    className={`px-4 py-2 text-[10px] font-black uppercase tracking-widest transition-all ${
+                                        avPerRow === n
+                                            ? 'bg-blue-500 text-white'
+                                            : `hover:bg-white/5`
+                                    }`}
+                                    style={avPerRow !== n ? { color: textMuted } : {}}
+                                >
+                                    {n} Av/Row
+                                </button>
+                            ))}
+                        </div>
+                        <button
+                            onClick={onClose}
+                            className="w-10 h-10 rounded-2xl flex items-center justify-center opacity-40 hover:opacity-100 hover:bg-white/5 transition-all"
+                            style={{ color: textPrimary }}
+                        >
+                            <X className="w-5 h-5" />
+                        </button>
+                    </div>
                 </div>
 
-                {/* Grid Content */}
+                {/* Content */}
                 <div className="flex-1 overflow-y-auto px-10 py-8 space-y-12 custom-scrollbar">
-
                     {sections.map((section, sIdx) => (
-                        <div key={sIdx} className="space-y-6">
-                            {/* Section Header - Centered */}
+                        <div key={sIdx} className="space-y-5">
+                            {/* Section Header */}
                             <div className="flex flex-col items-center gap-3 group/header">
                                 <div className="flex items-center gap-4 w-full justify-center">
                                     <div className="relative flex items-center justify-center max-w-[80%]">
-                                        {/* Invisible mirror span to drive width */}
                                         <span className="invisible whitespace-pre px-10 py-3.5 text-xs font-black uppercase tracking-[0.4em]">
                                             {section.name || 'SECTION NAME'}
                                         </span>
@@ -274,113 +218,86 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                                 </div>
                             </div>
 
-                            <div className="space-y-4">
-                                {section.aavartanas.map((av, avIdx) => (
-                                    <div 
-                                        key={avIdx} 
-                                        className={`group flex items-start -ml-8 transition-all ${dragged?.sIdx === sIdx && dragged?.avIdx === avIdx ? 'opacity-20' : ''}`}
-                                        onDragOver={e => e.preventDefault()}
-                                        onDrop={() => {
-                                            if (!dragged) return;
-                                            moveAv(dragged.sIdx, dragged.avIdx, sIdx, avIdx);
-                                            setDragged(null);
-                                        }}
-                                    >
-                                        {/* Drag Handle */}
-                                        <div 
-                                            draggable
-                                            onDragStart={() => setDragged({ sIdx, avIdx })}
-                                            onDragEnd={() => setDragged(null)}
-                                            className="w-8 h-24 flex items-center justify-center cursor-grab active:cursor-grabbing text-[var(--text-muted)] opacity-0 group-hover:opacity-40 hover:!opacity-100 transition-all"
+                            {/* Rows */}
+                            <div className="space-y-3">
+                                {section.rows.map((row, rowIdx) => (
+                                        <div
+                                            key={rowIdx}
+                                            className={`group flex items-start -ml-8 transition-all ${dragged?.sIdx === sIdx && dragged?.rowIdx === rowIdx ? 'opacity-20' : ''}`}
+                                            onDragOver={e => e.preventDefault()}
+                                            onDrop={() => {
+                                                if (!dragged) return;
+                                                moveRow(dragged.sIdx, dragged.rowIdx, sIdx, rowIdx);
+                                                setDragged(null);
+                                            }}
                                         >
-                                            <GripVertical className="w-4 h-4" />
-                                        </div>
+                                            {/* Drag Handle */}
+                                            <div
+                                                draggable
+                                                onDragStart={() => setDragged({ sIdx, rowIdx })}
+                                                onDragEnd={() => setDragged(null)}
+                                                className="w-8 mt-6 flex items-center justify-center cursor-grab active:cursor-grabbing text-[var(--text-muted)] opacity-0 group-hover:opacity-40 hover:!opacity-100 transition-all"
+                                            >
+                                                <GripVertical className="w-4 h-4" />
+                                            </div>
 
-                                        {/* Container for Grid + Toolbar */}
-                                        <div className="flex-1 flex flex-col min-w-0">
-                                            {/* Scrollable Grid Row Wrapper */}
-                                            <div className="overflow-x-auto overflow-y-hidden pb-2 -mb-2 scrollbar-none">
-                                                {/* Grid Row - Grouped by Angas */}
-                                                <div className="flex items-start gap-5 w-fit pr-10">
-                                                    {(() => {
-                                                        // Create Groups based on Tala's Angas
-                                                        const groups = [];
-                                                        let currentGroup = [];
-                                                        av.forEach((beat, bIdx) => {
-                                                            const beatNum = bIdx + 1;
-                                                            currentGroup.push(beat);
-                                                            if (tala.angas.includes(beatNum) || beatNum === tala.beats) {
-                                                                groups.push(currentGroup);
-                                                                currentGroup = [];
-                                                            }
-                                                        });
+                                            <div className="flex-1 flex flex-col min-w-0">
+                                                {/* Text box card */}
+                                                <div
+                                                    className="rounded-2xl border overflow-hidden transition-all hover:border-blue-500/20"
+                                                    style={{ borderColor }}
+                                                >
+                                                    {/* Swaram text area */}
+                                                    <div className="px-4 py-3 border-b" style={{ borderColor }}>
+                                                        <div className="text-[9px] font-black uppercase tracking-widest mb-1.5 text-blue-400/60">Swaram</div>
+                                                        <textarea
+                                                            value={row.swaram}
+                                                            onChange={e => updateRow(sIdx, rowIdx, 'swaram', e.target.value)}
+                                                            spellCheck={false}
+                                                            rows={Math.max(2, Math.ceil(row.swaram.length / 70))}
+                                                            className="w-full bg-transparent outline-none font-mono text-sm font-bold tracking-wide resize-y leading-relaxed text-blue-400"
+                                                            placeholder="Swaram"
+                                                        />
+                                                    </div>
 
-                                                        return groups.map((group, gIdx) => (
-                                                            <div key={gIdx} className="flex rounded-xl border bg-white/5 overflow-hidden shadow-sm" style={{ borderColor }}>
-                                                                {group.map((beat, bIdx) => {
-                                                                    const actualIdx = av.indexOf(beat);
-                                                                    return (
-                                                                        <div 
-                                                                            key={bIdx} 
-                                                                            className="w-22 sm:w-26 flex flex-col border-r last:border-r-0"
-                                                                            style={{ borderColor }}
-                                                                        >
-                                                                            {/* Swara Cell - Large Mono */}
-                                                                            <div className="h-12 border-b flex items-center px-1" style={{ borderColor }}>
-                                                                                <input 
-                                                                                    value={beat.swara}
-                                                                                    onChange={e => handleBeatChange(sIdx, avIdx, actualIdx, 'swara', e.target.value)}
-                                                                                    onKeyDown={e => handleKeyDown(e, 'swara')}
-                                                                                    data-nav-field="swara"
-                                                                                    spellCheck={false}
-                                                                                    className="w-full bg-transparent outline-none text-center font-mono text-base font-black tracking-widest text-blue-400"
-                                                                                    placeholder="-"
-                                                                                />
-                                                                            </div>
-                                                                            {/* Sahitya Cell - Large Bold */}
-                                                                            <div className="h-11 flex items-center px-1">
-                                                                                <input 
-                                                                                    value={beat.sahitya}
-                                                                                    onChange={e => handleBeatChange(sIdx, avIdx, actualIdx, 'sahitya', e.target.value)}
-                                                                                    onKeyDown={e => handleKeyDown(e, 'sahitya')}
-                                                                                    data-nav-field="sahitya"
-                                                                                    className="w-full bg-transparent outline-none text-center text-base font-bold"
-                                                                                    style={{ color: textMuted }}
-                                                                                    placeholder="..."
-                                                                                />
-                                                                            </div>
-                                                                        </div>
-                                                                    );
-                                                                })}
-                                                            </div>
-                                                        ));
-                                                    })()}
+                                                    {/* Sahityam text area */}
+                                                    <div className="px-4 py-3">
+                                                        <div className="text-[9px] font-black uppercase tracking-widest mb-1.5" style={{ color: textMuted }}>Sahityam</div>
+                                                        <textarea
+                                                            value={row.sahityam}
+                                                            onChange={e => updateRow(sIdx, rowIdx, 'sahityam', e.target.value)}
+                                                            spellCheck={false}
+                                                            rows={Math.max(2, Math.ceil(row.sahityam.length / 70))}
+                                                            className="w-full bg-transparent outline-none text-sm font-semibold tracking-wide resize-y leading-relaxed"
+                                                            style={{ color: isDark ? 'rgba(240,240,250,0.7)' : 'rgba(15,23,42,0.7)' }}
+                                                            placeholder="Sahityam"
+                                                        />
+                                                    </div>
+                                                </div>
+
+                                                {/* Row Hover Toolbar */}
+                                                <div className="flex items-center gap-4 mt-1.5 px-2 opacity-0 group-hover:opacity-100 transition-all">
+                                                    <button onClick={() => duplicateRow(sIdx, rowIdx)} className="flex items-center gap-1 text-[8px] font-black uppercase text-blue-400/60 hover:text-blue-400">
+                                                        <Copy className="w-3 h-3" /> Duplicate
+                                                    </button>
+                                                    <button onClick={() => removeRow(sIdx, rowIdx)} className="flex items-center gap-1 text-[8px] font-black uppercase text-red-500/40 hover:text-red-500">
+                                                        <Trash2 className="w-3 h-3" /> Remove
+                                                    </button>
                                                 </div>
                                             </div>
-
-                                            {/* Row Hover Toolbar */}
-                                            <div className="flex items-center gap-4 mt-2 px-2 opacity-0 group-hover:opacity-100 transition-all">
-                                                <button onClick={() => duplicateAv(sIdx, avIdx)} className="flex items-center gap-1 text-[8px] font-black uppercase text-blue-400/60 hover:text-blue-400">
-                                                    <Copy className="w-3 h-3" /> Duplicate
-                                                </button>
-                                                <button onClick={() => removeAv(sIdx, avIdx)} className="flex items-center gap-1 text-[8px] font-black uppercase text-red-500/40 hover:text-red-500">
-                                                    <Trash2 className="w-3 h-3" /> Remove
-                                                </button>
-                                            </div>
                                         </div>
-                                    </div>
-                                ))}
+                                    ))}
 
                                 <div className="flex gap-4">
-                                    <button 
-                                        onClick={() => addAavartana(sIdx)}
+                                    <button
+                                        onClick={() => addRow(sIdx)}
                                         className="flex-1 py-4 rounded-2xl border border-dashed flex items-center justify-center gap-3 bg-white/5 border-white/10 text-[var(--text-primary)] opacity-50 hover:opacity-100 hover:bg-white/10 hover:border-white/20 transition-all"
                                         style={{ borderColor: isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.15)' }}
                                     >
                                         <Plus className="w-4 h-4" />
-                                        <span className="text-[10px] font-black uppercase tracking-[0.2em]">Add Āvartana</span>
+                                        <span className="text-[10px] font-black uppercase tracking-[0.2em]">Add Row</span>
                                     </button>
-                                    <button 
+                                    <button
                                         onClick={() => addSection(sIdx)}
                                         className="flex-1 py-4 rounded-2xl border border-dashed flex items-center justify-center gap-3 bg-blue-500/10 border-blue-500/20 text-blue-400 opacity-60 hover:opacity-100 hover:bg-blue-500/20 hover:border-blue-500/40 transition-all"
                                     >
@@ -406,17 +323,17 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                 <div className="px-8 py-5 border-t flex items-center justify-between" style={{ borderColor }}>
                     <div className="flex items-center gap-4 text-[10px] font-black uppercase tracking-widest opacity-30">
                         <Music className="w-4 h-4" />
-                        <span>Each box = One Beat (Parsed by Spaces)</span>
+                        <span>Each row = {avPerRow} Avartana{avPerRow > 1 ? 's' : ''} for scroll speed</span>
                     </div>
                     <div className="flex items-center gap-4">
-                        <button 
+                        <button
                             onClick={onClose}
                             className="px-8 py-3 text-sm font-black uppercase tracking-[0.2em] opacity-40 hover:opacity-100 transition-all"
                             style={{ color: textPrimary }}
                         >
                             Cancel
                         </button>
-                        <button 
+                        <button
                             onClick={handleSave}
                             className="flex items-center gap-3 px-10 py-4 rounded-[1.5rem] text-sm font-black uppercase tracking-[0.2em] bg-emerald-500 text-white shadow-xl shadow-emerald-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
                         >
@@ -429,11 +346,11 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
 
             {/* Custom Delete Confirmation Modal */}
             {pendingDeleteIdx !== null && (
-                <div 
+                <div
                     className="fixed inset-0 z-[200] flex items-center justify-center p-6 bg-black/40 backdrop-blur-[2px]"
                     onClick={() => setPendingDeleteIdx(null)}
                 >
-                    <div 
+                    <div
                         className="w-full max-w-sm rounded-[2rem] p-8 shadow-2xl border flex flex-col items-center text-center animate-in zoom-in-95 duration-200"
                         style={{ background: bg, borderColor }}
                         onClick={e => e.stopPropagation()}
@@ -449,8 +366,8 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                         <label className="flex items-center gap-3 mb-8 cursor-pointer group">
                             <div className="relative flex items-center justify-center w-5 h-5 rounded-md border transition-all group-hover:border-blue-500/50"
                                 style={{ borderColor: skipDeleteConfirm ? '#3b82f6' : borderColor, background: skipDeleteConfirm ? '#3b82f6' : 'transparent' }}>
-                                <input 
-                                    type="checkbox" 
+                                <input
+                                    type="checkbox"
                                     className="absolute inset-0 opacity-0 cursor-pointer"
                                     checked={skipDeleteConfirm}
                                     onChange={e => setSkipDeleteConfirm(e.target.checked)}
@@ -463,14 +380,14 @@ export default function LyricsEditor({ composition, initialTalam = 'adi', onSave
                         </label>
 
                         <div className="flex w-full gap-3">
-                            <button 
+                            <button
                                 onClick={() => setPendingDeleteIdx(null)}
                                 className="flex-1 py-4 rounded-2xl text-[10px] font-black uppercase tracking-widest opacity-40 hover:opacity-100 hover:bg-white/5 transition-all text-center"
                                 style={{ color: textPrimary }}
                             >
                                 Back
                             </button>
-                            <button 
+                            <button
                                 onClick={confirmRemoveSection}
                                 className="flex-2 px-8 py-4 rounded-2xl bg-red-500 text-white text-[10px] font-black uppercase tracking-[0.2em] shadow-lg shadow-red-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
                             >
