@@ -7,137 +7,79 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
-                "sahitya": "na- ra-da ga - - - na lo- - - la"
-            },
-            {
-                "line_number": 2,
-                "swara": "rsn p | dn P M Pnp || M P | pmgm P - ||",
-                "sahitya": "na- ra-da ga - - - na lo- - - la"
-            },
-            {
-                "line_number": 3,
-                "swara": "sn P | mr pm R S || rmrm | pm - pn pn sr ||",
-                "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
-                "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
-                "sahitya": "na- ra-da ga - - - na lo- - - la"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- mp | - d P S S || S - | snrs D - ||",
-                "sahitya": "ni- rada sa ma ni - - - - la-"
-            },
-            {
-                "line_number": 2,
-                "swara": "- mp | - d P S S || snrs | nSn D - ||",
-                "sahitya": "ni- rada sa ma ni - - - - la-"
-            },
-            {
-                "line_number": 3,
-                "swara": "sn sr | sr sn D D || pDp | p S n nsrm ||",
-                "sahitya": "ni-ru- pa ma gu Na Si-- - - - la- - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "sn sr | sr sn D D || pdN | dn S nsrm ||",
-                "sahitya": "ni-ru- pa ma gu Na Si-- - - - la- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "sn sr | sr sn D D || dpdn | ndns nsrm ||",
-                "sahitya": "ni-ru- pa ma gu Na Si-- - - - la- - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "rsn p | dn P M Pnp || M P | pmgm P - ||",
-                "sahitya": "na- ra-da ga - - - na lo- - - la"
-            },
-            {
-                "line_number": 7,
-                "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
-                "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
-                "sahitya": "na- ra-da ga - - - na lo- - - la"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- D | D - D - D || Pdn D | N - d n - p M ||",
-                        "sahitya": "ni vu le - ka (y)e - - - tanu vu lu"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- m n | P P pm G || rmP | P- pn dn P ||",
-                        "sahitya": "Nira tamu ga- - na-du cu - - - nu"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- M | P - sn D - P || MpnPN | pm rm R S ||",
-                        "sahitya": "ni vu le- - ka (y)e - - ta- ru- vu lu"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "nsrm | P P n n p m || p d N | - s D n P ||",
-                        "sahitya": "ni- - - kkamu ga- - - mo- lu - cu- nu-"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- M | P - S - S || snrs | nSn D D ||",
-                        "sahitya": "ni vu le - ka (y)e- va-- na lu"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- ns | - r S rm rm || sn R | S - S S ||",
-                        "sahitya": "Ni- - tyamu ga - - ku - - ri - yu nu"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- N | S - G M R || S - | N rs D D ||",
-                        "sahitya": "ni vu le - ka tya- ga ra - ju"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "snsr | sr sn D D || p D p | p S n n s r m ||",
-                        "sahitya": "ni-- gu-na mula n(e)tu- pa-- Du- nu-"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "rsn p | dn P M Pnp || M P | pmgm P - ||",
-                        "sahitya": "na- ra-da ga - - - na lo- - - la"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
-                        "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
-                        "sahitya": "na- ra-da ga - - - na lo- - - la"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Narada_Gana_Lola.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
+                    "sahitya": "na- ra-da ga - - - na lo- - - la"
+                },
+                {
+                    "swara": "rsn p | dn P M Pnp || M P | pmgm P - ||",
+                    "sahitya": "na- ra-da ga - - - na lo- - - la"
+                },
+                {
+                    "swara": "sn P | mr pm R S || rmrm | pm - pn pn sr ||",
+                    "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
+                },
+                {
+                    "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
+                    "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
+                },
+                {
+                    "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
+                    "sahitya": "na- ra-da ga - - - na lo- - - la"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- mp | - d P S S || S - | snrs D - ||",
+                    "sahitya": "ni- rada sa ma ni - - - - la-"
+                },
+                {
+                    "swara": "- mp | - d P S S || snrs | nSn D - ||",
+                    "sahitya": "ni- rada sa ma ni - - - - la-"
+                },
+                {
+                    "swara": "sn sr | sr sn D D || pDp | p S n nsrm ||",
+                    "sahitya": "ni-ru- pa ma gu Na Si-- - - - la- - -"
+                },
+                {
+                    "swara": "sn sr | sr sn D D || pdN | dn S nsrm ||",
+                    "sahitya": "ni-ru- pa ma gu Na Si-- - - - la- - -"
+                },
+                {
+                    "swara": "sn sr | sr sn D D || dpdn | ndns nsrm ||",
+                    "sahitya": "ni-ru- pa ma gu Na Si-- - - - la- - -"
+                },
+                {
+                    "swara": "rsn p | dn P M Pnp || M P | pmgm P - ||",
+                    "sahitya": "na- ra-da ga - - - na lo- - - la"
+                },
+                {
+                    "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
+                    "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
+                },
+                {
+                    "swara": "sn P | nn P M Pnp || M P | pmgm P - ||",
+                    "sahitya": "na- ra-da ga - - - na lo- - - la"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Narada_Gana_Lola.pdf",
+    "avartanasPerRow": 2
 }

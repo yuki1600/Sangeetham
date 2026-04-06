@@ -7,72 +7,55 @@
         "tala": "Khanda Chapu",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - | p p m g M || gm N | D - D || d P d | N S - || sn dp | mg M - ||",
-                "sahitya": "Shree Swa - - mi naa - thaa ya Na- ma- sthe Na- ma- -- - - sthe"
-            },
-            {
-                "line_number": 2,
-                "swara": "P sn | d p m g M || gm N | D - D || n s g r | m g rs S - || pd nr | s s nd pm ||",
-                "sahitya": "Shree Swa - - mi naa - thaa ya Na- ma- - - sthe Na- ma- - - sthe - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "M - | D P - D || N S | S - S ||",
-                "sahitya": "Shas wa tha Shi va Su thaa ya"
-            },
-            {
-                "line_number": 2,
-                "swara": "M - | D P - D || N S | S - S || S - n | N D - || N S | S - S ||",
-                "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
-            },
-            {
-                "line_number": 3,
-                "swara": "M - | D P - D || N S | S - S || N - | N S - || R N | r s n d P ||",
-                "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
-            },
-            {
-                "line_number": 4,
-                "swara": "s n d p | m g M - P || dp d n | S - S || N - | N S - || R N | r s n d P ||",
-                "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
-            },
-            {
-                "line_number": 5,
-                "swara": "g m n d | n p d n S || n s g r | m g r s S - || s n r s | n d P - P || M P | d p d n s n ||",
-                "sahitya": "Swaa - - - - mi - - Sai - - - - - la - - Sthi thaa- - ya Va ra daa - - ya ---"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "M P | - m M - || D P | D - D || S N | R S - N || R S | s s n d P ||",
-                        "sahitya": "Ga jaa - mba Ra ma naa ya Ga na pa thy Soo - da raa - - ya"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "M G | G rs S - || s n r s | s s n d D || m m g r | S - r s n d || s n d p | m p d n S - ||",
-                        "sahitya": "Gu na thra yaa thee- - - thaa - - ya Gu - --- hya aa- - - - - kaa - - - raa-- - ya"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "m G m | d p d d n s || S s s | s s g r s s ||",
-                        "sahitya": "A jen dra Poo- ji thaa- ya Aa sri tha Pha la daa- - ya"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "s r n s | d n d - d n s || s n d p | g M P d ||",
-                        "sahitya": "Va ra si ki Vaa- ha naa- ya Gu ru gu ha Swa roo paa ya"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sri_Swaminaathaaya_Khamas.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P - | p p m g M || gm N | D - D || d P d | N S - || sn dp | mg M - ||",
+                    "sahitya": "Shree Swa - - mi naa - thaa ya Na- ma- sthe Na- ma- -- - - sthe"
+                },
+                {
+                    "swara": "P sn | d p m g M || gm N | D - D || n s g r | m g rs S - || pd nr | s s nd pm ||",
+                    "sahitya": "Shree Swa - - mi naa - thaa ya Na- ma- - - sthe Na- ma- - - sthe - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "M - | D P - D || N S | S - S ||",
+                    "sahitya": "Shas wa tha Shi va Su thaa ya"
+                },
+                {
+                    "swara": "M - | D P - D || N S | S - S || S - n | N D - || N S | S - S ||",
+                    "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
+                },
+                {
+                    "swara": "M - | D P - D || N S | S - S || N - | N S - || R N | r s n d P ||",
+                    "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
+                },
+                {
+                    "swara": "s n d p | m g M - P || dp d n | S - S || N - | N S - || R N | r s n d P ||",
+                    "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
+                },
+                {
+                    "swara": "g m n d | n p d n S || n s g r | m g r s S - || s n r s | n d P - P || M P | d p d n s n ||",
+                    "sahitya": "Swaa - - - - mi - - Sai - - - - - la - - Sthi thaa- - ya Va ra daa - - ya ---"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sri_Swaminaathaaya_Khamas.pdf",
+    "avartanasPerRow": 2
 }

@@ -7,146 +7,62 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - - - || - - - - - r m ||",
-                "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - - - - - - - -amba"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - DP || P - M - mg r -s r m ||",
-                "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
-            },
-            {
-                "line_number": 3,
-                "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - -dP || P - M - mg r -s r m ||",
-                "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
-            },
-            {
-                "line_number": 4,
-                "swara": "P -r pm - dp mgR",
-                "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
-            },
-            {
-                "line_number": 5,
-                "swara": "P -r pm - dp mgR - R || S - Srg- rsnd - - rs || R - - - sdP || P - dp - mg R - ||",
-                "sahitya": "shri sa ra- - - sva ti na - mo- - stu- te - - - para de va te - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "S s d m g R pm - g r || mp- d r rdS - - || - - - - - - ||",
-                "sahitya": "shripati gau- ri pati guru guha vinu te- - - - - - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
-                "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
-            },
-            {
-                "line_number": 8,
-                "swara": "P dSn",
-                "sahitya": "shri sa ra- - - sva ti na - mo- - st u- te - - - para de va te - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
-                "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
-            },
-            {
-                "line_number": 10,
-                "swara": "P dSn",
-                "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "R - S - sn D - S || S- R R mg R R || S R R mg rs rm || P P P ds PD ||",
-                        "sahitya": "va sa na- - tra ya vi var- - ji ta vara muni- bha-- vita mu-- rtte-"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "P - - - - - ||",
-                        "sahitya": "- - - - - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "R - S - sn D - S || S- R rpmg R R || S R R mg rs rm || P P P ds pDp ||",
-                        "sahitya": "va sa na- - tra ya vi var- - ji ta vara muni- bha-- vita mu-- rtte-"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "R - S - sn D - S || S- R rpmg R R || S R R mg rs rm || P P P ds PD ||",
-                        "sahitya": "va sa na- - tra ya vi var- - ji ta vara muni- bha-- vita mu-- rtte-"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "snD D - S - - R || - - - - - - || dr D S - - - || - - - - - - ||",
-                        "sahitya": "va-- sa va - di - - - - - - - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "snD D - S - - R || - r R mg - R S sn || sn dr S- sn D P || M P ppmm R - ||",
-                        "sahitya": "va-- sa va - dya akhi la- nir ja ra va-ra vi ta- rana bahu kir- - - tte"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "drsn",
-                        "sahitya": "va-- sa va - dya akhi- la- nir ja ra va-ra vi ta- rana bahu kir- - - tte dara"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "S - S -S S - S || S nd dM- G R - || P - P M M D || D P D R sdS - ||",
-                        "sahitya": "ha sa yu ta mu kham bu - ru he ad bhuta cara Nam- buru he-"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "R - R M G - R || - sn D- dr sr -s || D R sn- D - P || - pp mm - rs R- g r ||",
-                        "sahitya": "Sam sa- ra bhi -tya - pa- he- saka la- man -tra ksa ra- gu- he dara"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "S - S -S S - S || S nd dM-",
-                        "sahitya": "ha sa yu ta mu kham bu - ru he ad bhuta cara Nam- buru he-"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "R - R pm G - R || - sn D- dr s R sd",
-                        "sahitya": "Sam sa- ra bhi -tya - pa- he- - saka la- man -tra ksa ra- gu- he dara"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "S s- s s - s S m g R || P p m d d P d r S ||",
-                        "sahitya": "hasa yu ta mu kham bu ru he adbhuta caranam- buruhe"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "R rm g - R n d- d R || d r s - d - P - m g -r r m ||",
-                        "sahitya": "samsa ra bhitya - pahe sakala man- traksa ra guhe - [finish"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "P - M - mg R - R || S - Srg - rsnd - - rs || R - - - sdP || P - dp - mg R - ||",
-                        "sahitya": "shri sa ra- - sva ti na - mo- - stu- te - - - para de va te - - -"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
-                        "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "P dSn",
-                        "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sri_Saraswati_Arabhi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - - - || - - - - - r m ||",
+                    "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - - - - - - - -amba"
+                },
+                {
+                    "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - DP || P - M - mg r -s r m ||",
+                    "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
+                },
+                {
+                    "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - -dP || P - M - mg r -s r m ||",
+                    "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
+                },
+                {
+                    "swara": "P -r pm - dp mgR",
+                    "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
+                },
+                {
+                    "swara": "P -r pm - dp mgR - R || S - Srg- rsnd - - rs || R - - - sdP || P - dp - mg R - ||",
+                    "sahitya": "shri sa ra- - - sva ti na - mo- - stu- te - - - para de va te - - -"
+                },
+                {
+                    "swara": "S s d m g R pm - g r || mp- d r rdS - - || - - - - - - ||",
+                    "sahitya": "shripati gau- ri pati guru guha vinu te- - - - - - - - -"
+                },
+                {
+                    "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
+                    "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
+                },
+                {
+                    "swara": "P dSn",
+                    "sahitya": "shri sa ra- - - sva ti na - mo- - st u- te - - - para de va te - - -"
+                },
+                {
+                    "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
+                    "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
+                },
+                {
+                    "swara": "P dSn",
+                    "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sri_Saraswati_Arabhi.pdf",
+    "avartanasPerRow": 2
 }

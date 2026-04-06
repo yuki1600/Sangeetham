@@ -7,112 +7,98 @@
         "tala": "Adi",
         "composer": "Maha Vaidyanatha Sivan"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. P - - M mmR R - | R S R G - - gm pm R ||",
-                "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - - - - - - S | S - RS R - G M ||",
-                "sahitya": "ri - - - - - - Kru paa- kari Shan ka ri"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. P - - md pmR R - | R S R G - - gm pm R ||",
-                "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - - - - - - R | S D Pmd pmR G M ||",
-                "sahitya": "ri - - - - - - Kru paa- kari Shan-- ka ri"
-            },
-            {
-                "line_number": 5,
-                "swara": "3. P - - md pmR R - | R S R G - - gm pm R ||",
-                "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - - - - - - dr | ssdp mpmr nsrs sr gm ||",
-                "sahitya": "ri - - - - - - Kru paa- kari Shan-- ka ri"
-            },
-            {
-                "line_number": 7,
-                "swara": "4. P - - md pmR R - | R S R G - - gm pm R ||",
-                "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
-            },
-            {
-                "line_number": 8,
-                "swara": "nsrs mpdp mpdp nsrs | rgmr ssdp ddpm rs r gm ||",
-                "sahitya": "ri - Kru-- paa- - ka-- ri Shan-- ka -- ri ----"
-            },
-            {
-                "line_number": 9,
-                "swara": "5. P - - md pmR R - | R S R G - - gm pmM R ||",
-                "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
-            },
-            {
-                "line_number": 10,
-                "swara": "S - - - - - - - | - - - - - - - - ||",
-                "sahitya": "ri - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- P - P mpdp D - | - D P S sn R S - ||",
-                "sahitya": "E -hi Su--- kham - De - hi Div- ya"
-            },
-            {
-                "line_number": 2,
-                "swara": "- P - P mpdp D - | - D P S sn R S - ||",
-                "sahitya": "E -hi Su--- kham - De - hi Div- ya"
-            },
-            {
-                "line_number": 3,
-                "swara": "S R G M R - s - D | D P pm R r S r G M ||",
-                "sahitya": "vaa- hi ni Da ya - Pra vaa- hi- ni Mo-- hi ni"
-            },
-            {
-                "line_number": 4,
-                "swara": "P dp mpdp Ns - p nsrs | rgmr S sd pmR srgm ||",
-                "sahitya": "Charanam:"
-            },
-            {
-                "line_number": 5,
-                "swara": "D - P - D - M P - | P mp md - pm R - M R S ||",
-                "sahitya": "Bhan da Chan - da Mun da Khan- - da- ni Ma hi sha"
-            },
-            {
-                "line_number": 6,
-                "swara": "rS - S R G M P - d | pm R G - m - P P - ||",
-                "sahitya": "Bhan- ja ni Ja na Ran- ja - ni Ni-ran - ja ni -"
-            },
-            {
-                "line_number": 7,
-                "swara": "D - P - D - M P - | P mp pd - pm R - M R S ||",
-                "sahitya": "Bhan da Chan - da Mun da Khan- - da- ni Ma hi sha"
-            },
-            {
-                "line_number": 8,
-                "swara": "rS - S R G M P - d | pm R G - m - P P - ||",
-                "sahitya": "Bhan- ja ni Ja na Ran- ja - ni Ni-ran - ja ni -"
-            },
-            {
-                "line_number": 9,
-                "swara": "pr - G M P - M P | D - P - P N S R - S ||",
-                "sahitya": "Pan- ditha Shri Guha daa- sa Po - sha ni -su"
-            },
-            {
-                "line_number": 10,
-                "swara": "S R G M R S S D | P mp pm R S R G M ||",
-                "sahitya": "bhaa- shini Ripu Bhee- sh ani- Va- ra Bhu- shani"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Pahimaam_Sri_RajaRajeshwari_Janaranjani.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1. P - - M mmR R - | R S R G - - gm pm R ||",
+                    "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
+                },
+                {
+                    "swara": "S - - - - - - S | S - RS R - G M ||",
+                    "sahitya": "ri - - - - - - Kru paa- kari Shan ka ri"
+                },
+                {
+                    "swara": "2. P - - md pmR R - | R S R G - - gm pm R ||",
+                    "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
+                },
+                {
+                    "swara": "S - - - - - - R | S D Pmd pmR G M ||",
+                    "sahitya": "ri - - - - - - Kru paa- kari Shan-- ka ri"
+                },
+                {
+                    "swara": "3. P - - md pmR R - | R S R G - - gm pm R ||",
+                    "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
+                },
+                {
+                    "swara": "S - - - - - - dr | ssdp mpmr nsrs sr gm ||",
+                    "sahitya": "ri - - - - - - Kru paa- kari Shan-- ka ri"
+                },
+                {
+                    "swara": "4. P - - md pmR R - | R S R G - - gm pm R ||",
+                    "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
+                },
+                {
+                    "swara": "nsrs mpdp mpdp nsrs | rgmr ssdp ddpm rs r gm ||",
+                    "sahitya": "ri - Kru-- paa- - ka-- ri Shan-- ka -- ri ----"
+                },
+                {
+                    "swara": "5. P - - md pmR R - | R S R G - - gm pmM R ||",
+                    "sahitya": "Paa - hi maam- Shri- Ra - ja Raa - je- - - shwa"
+                },
+                {
+                    "swara": "S - - - - - - - | - - - - - - - - ||",
+                    "sahitya": "ri - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- P - P mpdp D - | - D P S sn R S - ||",
+                    "sahitya": "E -hi Su--- kham - De - hi Div- ya"
+                },
+                {
+                    "swara": "- P - P mpdp D - | - D P S sn R S - ||",
+                    "sahitya": "E -hi Su--- kham - De - hi Div- ya"
+                },
+                {
+                    "swara": "S R G M R - s - D | D P pm R r S r G M ||",
+                    "sahitya": "vaa- hi ni Da ya - Pra vaa- hi- ni Mo-- hi ni"
+                },
+                {
+                    "swara": "P dp mpdp Ns - p nsrs | rgmr S sd pmR srgm ||",
+                    "sahitya": "Charanam:"
+                },
+                {
+                    "swara": "D - P - D - M P - | P mp md - pm R - M R S ||",
+                    "sahitya": "Bhan da Chan - da Mun da Khan- - da- ni Ma hi sha"
+                },
+                {
+                    "swara": "rS - S R G M P - d | pm R G - m - P P - ||",
+                    "sahitya": "Bhan- ja ni Ja na Ran- ja - ni Ni-ran - ja ni -"
+                },
+                {
+                    "swara": "D - P - D - M P - | P mp pd - pm R - M R S ||",
+                    "sahitya": "Bhan da Chan - da Mun da Khan- - da- ni Ma hi sha"
+                },
+                {
+                    "swara": "rS - S R G M P - d | pm R G - m - P P - ||",
+                    "sahitya": "Bhan- ja ni Ja na Ran- ja - ni Ni-ran - ja ni -"
+                },
+                {
+                    "swara": "pr - G M P - M P | D - P - P N S R - S ||",
+                    "sahitya": "Pan- ditha Shri Guha daa- sa Po - sha ni -su"
+                },
+                {
+                    "swara": "S R G M R S S D | P mp pm R S R G M ||",
+                    "sahitya": "bhaa- shini Ripu Bhee- sh ani- Va- ra Bhu- shani"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Pahimaam_Sri_RajaRajeshwari_Janaranjani.pdf",
+    "avartanasPerRow": 1
 }

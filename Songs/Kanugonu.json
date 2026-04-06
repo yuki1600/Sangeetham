@@ -7,197 +7,103 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- rm - p D D - | - - D N D - D | P - pm - d P D - | N dpmr R G R R ||",
-                "sahitya": "Kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-            },
-            {
-                "line_number": 2,
-                "swara": "S- rm - p D D - | - - D N D - D | P - pm - d P D - | N dpmr R G R R ||",
-                "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-            },
-            {
-                "line_number": 3,
-                "swara": "S- rm - p D rsD | rs D D N D - D | P - pm - d P rsD | N dpmr R G R R ||",
-                "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-            },
-            {
-                "line_number": 4,
-                "swara": "S- rm - p D dpmr | mpd - p dNd --D | P - pm - d P rsD | N dpmr R G R R ||",
-                "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-            },
-            {
-                "line_number": 5,
-                "swara": "S- rm - p D dpM | - - - - D - | P - - - - - | - - - - - - ||",
-                "sahitya": "na-kanu gonu sau - - - - khya mu - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- pd - p - S - N || R R - - - - || - - - - - - ||",
-                "sahitya": "Danu ja vai - ri yagu - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- pd - p - S - S || R R - - - - || - R R G R - - r ||",
-                "sahitya": "Danu ja vai - ri yagu - - - - - ra - - - mu"
-            },
-            {
-                "line_number": 3,
-                "swara": "S- pd - p - S - S || R R R - G- r- r ||",
-                "sahitya": "nidanu ja vai - ri yagu ra - - mu"
-            },
-            {
-                "line_number": 4,
-                "swara": "S- pd - p - S - S || R R srgr rgr - r ||",
-                "sahitya": "ni Danu ja vai - ri yagu ra-- --- mu"
-            },
-            {
-                "line_number": 5,
-                "swara": "S- pd - p - S - S || R R R - gR - r ||",
-                "sahitya": "ni Danu ja vai - ri yagu ra-- -- mu"
-            },
-            {
-                "line_number": 6,
-                "swara": "S- pd - p - S - S || R R srgr rgr - r ||",
-                "sahitya": "ni Danu ja vai - ri yagu ra-- -- mu"
-            },
-            {
-                "line_number": 7,
-                "swara": "S- pd - p - S - S || R rp mr R -gr - r ||",
-                "sahitya": "ni Danu ja vai - ri yagu ra-- -- mu"
-            },
-            {
-                "line_number": 8,
-                "swara": "S- N R - N - D || P rs D -n dpmr R-g ||",
-                "sahitya": "ni da ya kal - gi na(y)a ta-- ni vi na"
-            },
-            {
-                "line_number": 9,
-                "swara": "rs- pd - p - S - S || R rp mr R -gr - r ||",
-                "sahitya": "-- Danu ja vai - ri yagu ra-- -- mu"
-            },
-            {
-                "line_number": 10,
-                "swara": "S- N R - N - D || P rs dN -dp mr R- -g ||",
-                "sahitya": "ni da ya kal - gi na(y)a ta-- ni vi na"
-            },
-            {
-                "line_number": 11,
-                "swara": "rs- pd - p - S - S || R R srgr rgr - r ||",
-                "sahitya": "-- Danu ja vai - ri yagu ra-- -- mu"
-            },
-            {
-                "line_number": 12,
-                "swara": "S- N R - N - dp || D rs dN -dp mr R- -g ||",
-                "sahitya": "ni da ya kal - gi na(y)a ta-- ni vi na"
-            },
-            {
-                "line_number": 13,
-                "swara": "S- rm - p D dpmr | mpd - p dNd --D | P - pm - d P rsD | N dpmr R G R R ||",
-                "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-            },
-            {
-                "line_number": 14,
-                "swara": "S- rm - p D dpM | - - - - D - | P - - - - - | - - - - - - ||",
-                "sahitya": "na-kanu gonu sau - - - - khya mu - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- p p - p P P - | mpdp mr- R g R - r ||",
-                        "sahitya": "Tanu v(o)ka co ma-na- s(o)- ka - - co"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S- p p - p P pmP | rmR Mpm dpmr Rgr ||",
-                        "sahitya": "Tanu v(o)ka co ma- na- s(o)- ka -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "rs- p p - p P P - | rmR Mpm dpmr Rgr ||",
-                        "sahitya": "co Tanu v(o)ka co ma- na- s(o)- ka -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "rs - n r - s - D N D | - r m - -P - pm P ||",
-                        "sahitya": "co tagi na ve - sha - m(o)ka co n(i)- Di"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- - p p - p P P - | mp dp mr- R g R - r ||",
-                        "sahitya": "Tanu v(o)ka co ma- na- s(o)- ka - - co"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "S - n r - s - D N D | - r m - -P d N- D ||",
-                        "sahitya": "tagi na ve - sha - m(o)ka co - n(i)"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "P - p d - p - P S sn || R S - R g - r S ||",
-                        "sahitya": "Di janu - la n(e) - - - cu - va - ri ki"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "- - p d - p - P S S || R R R - G r- r ||",
-                        "sahitya": "janu - la n(e) - - - cu - va - - ri"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "S- p d - p - P S S || R R srgr rgr- r ||",
-                        "sahitya": "ki janu - la n(e) - - - cu va - - ri"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "S- p d - p - P S S || R rp mr R rgr- r ||",
-                        "sahitya": "ki janu - la n(e) - - - cu va - - ri"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "S- p d - p - P S S || R rp mr - rg r- r S ||",
-                        "sahitya": "ki janu - la n(e) - - - cu va - ri ki"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "(sd dn)",
-                        "sahitya": "Ja ya mau - ne - - tya- - ga-ra- - - - ju"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "S- p d - p - P S- S || R rp mr - rg r- r S ||",
-                        "sahitya": "janu - la n(e) - - - cu va - ri ki"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "N R - dN d - dp - || rs D -n - dpmr R-g r - r ||",
-                        "sahitya": "Ja ya mau - - ne - tya- - ga-ra- - - - ju"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "S- rm - p D rsD | rs D pdnd N - D | P - pm - d P rsD | N dpmr R G R R ||",
-                        "sahitya": "-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "S- rm - p D dpmr | mpd - p dNd --D | P - pm - d P D - | N dpmr R G R R ||",
-                        "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
-                    },
-                    {
-                        "line_number": 17,
-                        "swara": "S- rm - p D dpM | - - - - D - | P - - - - - | - - - - - - ||",
-                        "sahitya": "na-kanu gonu sau - - - - khya mu - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Kanugonu_NAyaki.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- rm - p D D - | - - D N D - D | P - pm - d P D - | N dpmr R G R R ||",
+                    "sahitya": "Kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
+                },
+                {
+                    "swara": "S- rm - p D D - | - - D N D - D | P - pm - d P D - | N dpmr R G R R ||",
+                    "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
+                },
+                {
+                    "swara": "S- rm - p D rsD | rs D D N D - D | P - pm - d P rsD | N dpmr R G R R ||",
+                    "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
+                },
+                {
+                    "swara": "S- rm - p D dpmr | mpd - p dNd --D | P - pm - d P rsD | N dpmr R G R R ||",
+                    "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
+                },
+                {
+                    "swara": "S- rm - p D dpM | - - - - D - | P - - - - - | - - - - - - ||",
+                    "sahitya": "na-kanu gonu sau - - - - khya mu - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- pd - p - S - N || R R - - - - || - - - - - - ||",
+                    "sahitya": "Danu ja vai - ri yagu - - - - - - - - - -"
+                },
+                {
+                    "swara": "- pd - p - S - S || R R - - - - || - R R G R - - r ||",
+                    "sahitya": "Danu ja vai - ri yagu - - - - - ra - - - mu"
+                },
+                {
+                    "swara": "S- pd - p - S - S || R R R - G- r- r ||",
+                    "sahitya": "nidanu ja vai - ri yagu ra - - mu"
+                },
+                {
+                    "swara": "S- pd - p - S - S || R R srgr rgr - r ||",
+                    "sahitya": "ni Danu ja vai - ri yagu ra-- --- mu"
+                },
+                {
+                    "swara": "S- pd - p - S - S || R R R - gR - r ||",
+                    "sahitya": "ni Danu ja vai - ri yagu ra-- -- mu"
+                },
+                {
+                    "swara": "S- pd - p - S - S || R R srgr rgr - r ||",
+                    "sahitya": "ni Danu ja vai - ri yagu ra-- -- mu"
+                },
+                {
+                    "swara": "S- pd - p - S - S || R rp mr R -gr - r ||",
+                    "sahitya": "ni Danu ja vai - ri yagu ra-- -- mu"
+                },
+                {
+                    "swara": "S- N R - N - D || P rs D -n dpmr R-g ||",
+                    "sahitya": "ni da ya kal - gi na(y)a ta-- ni vi na"
+                },
+                {
+                    "swara": "rs- pd - p - S - S || R rp mr R -gr - r ||",
+                    "sahitya": "-- Danu ja vai - ri yagu ra-- -- mu"
+                },
+                {
+                    "swara": "S- N R - N - D || P rs dN -dp mr R- -g ||",
+                    "sahitya": "ni da ya kal - gi na(y)a ta-- ni vi na"
+                },
+                {
+                    "swara": "rs- pd - p - S - S || R R srgr rgr - r ||",
+                    "sahitya": "-- Danu ja vai - ri yagu ra-- -- mu"
+                },
+                {
+                    "swara": "S- N R - N - dp || D rs dN -dp mr R- -g ||",
+                    "sahitya": "ni da ya kal - gi na(y)a ta-- ni vi na"
+                },
+                {
+                    "swara": "S- rm - p D dpmr | mpd - p dNd --D | P - pm - d P rsD | N dpmr R G R R ||",
+                    "sahitya": "na-kanu gonu sau - - - - - khya mu kama laju k(ai) - na - - kal - gu"
+                },
+                {
+                    "swara": "S- rm - p D dpM | - - - - D - | P - - - - - | - - - - - - ||",
+                    "sahitya": "na-kanu gonu sau - - - - khya mu - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Kanugonu_NAyaki.pdf",
+    "avartanasPerRow": 2
 }

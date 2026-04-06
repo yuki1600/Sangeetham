@@ -125,8 +125,8 @@ function retemplateComposition(composition, newTala) {
     ...section,
     content: section.content.map(entry => ({
       ...entry,
-      swaram: retemplateNotation(entry.swaram, pattern),
-      sahityam: entry.sahityam ? retemplateNotation(entry.sahityam, pattern) : entry.sahityam
+      swara: retemplateNotation(entry.swara, pattern),
+      sahitya: entry.sahitya ? retemplateNotation(entry.sahitya, pattern) : entry.sahitya
     }))
   }));
 }
@@ -161,7 +161,7 @@ function uniqueTitle(baseTitle) {
 }
 
 function getSongMeta(id) {
-  const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, createdAt, updatedAt FROM songs WHERE id = ?').get(id);
+  const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, avartanasPerRow, createdAt, updatedAt FROM songs WHERE id = ?').get(id);
   if (!row) return null;
   return {
     ...row,
@@ -177,7 +177,7 @@ function getSongMeta(id) {
 /** List all songs metadata. */
 router.get('/', (req, res) => {
   try {
-    const rows = db.prepare('SELECT id, title, raga, tala, composer, composition, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
+    const rows = db.prepare('SELECT id, title, raga, tala, composer, composition, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, avartanasPerRow, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
     const songs = rows.map(s => {
       const comp = JSON.parse(s.composition || '{}');
       const sd = comp.song_details || {};
@@ -252,13 +252,14 @@ router.post('/upload', upload.fields([
         INSERT INTO songs (
             id, title, raga, tala, composer, composition, editOps, swaraAudio, sahityaAudio, 
             hasSwara, hasSahitya, swaraFilename, sahityaFilename, 
-            isPublished, createdAt, updatedAt
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?)
+            isPublished, avartanasPerRow, createdAt, updatedAt
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?, ?)
     `).run(
         id, title, raga, tala, composer, JSON.stringify(compositionData), JSON.stringify({ trimStart: 0, trimEnd: null, cuts: [] }),
         swaraFile ? swaraFile.buffer : null, sahityaFile ? sahityaFile.buffer : null,
         swaraFile ? 1 : 0, sahityaFile ? 1 : 0,
         swaraFile ? swaraFile.originalname : '', sahityaFile ? sahityaFile.originalname : '',
+        compositionData.avartanasPerRow || 1,
         now, now
     );
 
@@ -272,7 +273,7 @@ router.post('/upload', upload.fields([
 /** Get full song data. */
 router.get('/:id', (req, res) => {
   try {
-    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
+    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, avartanasPerRow, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
     if (!row) return res.status(404).json({ error: 'Song not found' });
 
     const compositionData = JSON.parse(row.composition || '{}');
@@ -297,7 +298,8 @@ router.get('/:id', (req, res) => {
       },
       song_details: compositionData.song_details || {},
       composition: compositionData.composition || [],
-      editOps
+      editOps,
+      avartanasPerRow: row.avartanasPerRow || 1
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -321,7 +323,7 @@ router.get('/:id/audio', (req, res) => {
 /** Save composition + editOps (creates a version snapshot). */
 router.put('/:id', (req, res) => {
   try {
-    const { composition, editOps } = req.body;
+    const { composition, editOps, avartanasPerRow } = req.body;
     if (!composition) return res.status(400).json({ error: 'composition required' });
 
     const now = new Date().toISOString();
@@ -336,8 +338,8 @@ router.put('/:id', (req, res) => {
     const tala = songDetails.tala || songDetails.talam || '';
     const composer = songDetails.composer || '';
 
-    db.prepare('UPDATE songs SET composition = ?, editOps = ?, raga = ?, tala = ?, composer = ?, updatedAt = ? WHERE id = ?')
-      .run(JSON.stringify(compositionData), JSON.stringify(editOps || {}), raga, tala, composer, now, req.params.id);
+    db.prepare('UPDATE songs SET composition = ?, editOps = ?, raga = ?, tala = ?, composer = ?, avartanasPerRow = ?, updatedAt = ? WHERE id = ?')
+      .run(JSON.stringify(compositionData), JSON.stringify(editOps || {}), raga, tala, composer, avartanasPerRow || 1, now, req.params.id);
 
     // Create version snapshot
     const versionId = uuidv4();

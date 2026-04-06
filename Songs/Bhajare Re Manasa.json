@@ -7,192 +7,162 @@
         "tala": "Adi",
         "composer": "Mysore Vasudevacharya"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - S S M - - - pmmgG - gm P -M P - | - - - M - psn N- ND DP PM -MG ||",
-                "sahitya": "bhaja re re - - ma - na sa shri - ra—ghu vi - - - - - ram -"
-            },
-            {
-                "line_number": 2,
-                "swara": "RS- S S M - - - pmmgG - gm P -M P - | - - - M - psn N- ND DP PM -MG ||",
-                "sahitya": "bhaja re re - - ma - na sa shri - ra—ghu vi - - - - - ram -"
-            },
-            {
-                "line_number": 3,
-                "swara": "grsn - N S M - - - pmmgG - gm P -M mnP | - - - nd pm- P sn S- SN ND ndpm -gmnp ||",
-                "sahitya": "bhaja re re - - ma - na sa shri - - raghu vi - - - - - ram -"
-            },
-            {
-                "line_number": 4,
-                "swara": "mgrs - N S M - - - pmmgG - gm P -M mnP | - - - nd pm- ps sm - mggr rssn nddp -gmnp ||",
-                "sahitya": "bhaja re re - - ma - na sa shri - - ra-ghu- vi - - - - - -- ram -"
-            },
-            {
-                "line_number": 5,
-                "swara": "mgrs-- S - S -snN - - ND P - P N | S - - - G - M mnP",
-                "sahitya": "bhu kti mu- - - khti- - pra- dam- va - su de- - - - - vam - ha rim - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "grrs S- S - S -snN - - -ND P - P N | S - - - G - M mnP",
-                "sahitya": "bhu kti mu- - - khti- - pra- dam- va - su de- - - - - vam - ha rim - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "grrs S- S - S -nsmg grrs -ndsn nddp- P N | S - - - G - M- pnS - -g -gmnd pm - G- gg mg ||",
-                "sahitya": "bhu kti mu- - - - - khti- - - pra- dam- va - su de- - - - - vam - - ha rim - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "grrs S- S - S -nsmg grrs -ndsn nddp- P N | S - - - G - M- pnS - -g -gmnd pm - G- gg mg ||",
-                "sahitya": "bhu kti mu- - - - - khti- - - pra- dam- va - su de- - - - - vam - - ha rim - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "grrs S- ss -M- - - pmmgG - gm P -M mnP",
-                "sahitya": "- bhaja re re - - ma - na sa ma - na sa ma - - na sa"
-            },
-            {
-                "line_number": 10,
-                "swara": "sndp - -",
-                "sahitya": "- - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - - - P P nn M - P pnS-- - - - S - | - - - - - - - - - - - - - - - - - ||",
-                "sahitya": "vri ji na- - vi du-- - - - ram"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - - - P P nn M - P pnS-- - - - S - | - - - rs sn N- S - mg GR - sR- -S- S - ||",
-                "sahitya": "vri ji na- - vi du-- - - - ram vi - - - shva-- dha - - - -- ram"
-            },
-            {
-                "line_number": 3,
-                "swara": "- - - - P P nn M - P pggs - snN - ns- S - | - - - rs sn N- S - mg gmpm mggr sRs- - S ||",
-                "sahitya": "vri ji na- - vi du-- - - - - - ram vi - - - shva-- dha - - - -- - ram"
-            },
-            {
-                "line_number": 4,
-                "swara": "- - - - P S S S - sngs snN - - ndsn | nddp P- G - M mnP",
-                "sahitya": "su jana man da- - - - ram- - - -- - sun - da ra- - - ka- - - ram"
-            },
-            {
-                "line_number": 5,
-                "swara": "- - - - P S S S - nsmg grrs snN -ndsn | nddp P- G - M gmpn sgmg snrs ndsn- ndpm ||",
-                "sahitya": "su jana man da- - - - - ram- - - -- - sun - da ra- - - - ka- - - ram"
-            },
-            {
-                "line_number": 6,
-                "swara": "grsn -- P S S S - nsmg grrs snN -ndsn | nddp P- G - M gmpn sgmg snrs ndsn- ndpm ||",
-                "sahitya": "su jana man da- - - - - ram- - - -- - sun - da ra- - - - ka- - - ram"
-            },
-            {
-                "line_number": 7,
-                "swara": "grsn SS M- - - pmmgG - gm P -M mnP",
-                "sahitya": "bhaja re - re - - ma - na sa ma - na sa ma - - na sa"
-            },
-            {
-                "line_number": 8,
-                "swara": "sndp - -",
-                "sahitya": "- - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "- - - - P - P P - pmpm Psn ND DP | pmP",
-                "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "SGM- P - P P - pmpm Psn ND DP | pmP",
-                "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
-            },
-            {
-                "line_number": 11,
-                "swara": "SGM- P - P P - pmps snN ndsn nddp | P- - - mg - R S - snsg gsgm mgmp - pmpn ||",
-                "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
-            },
-            {
-                "line_number": 12,
-                "swara": "snnd pm- P - P P - pmps snN ndsn nddp | P- - - mg - R S - G - G M P - - - ||",
-                "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
-            },
-            {
-                "line_number": 13,
-                "swara": "- - - G G- R rs - S N ND pdP P - | - - - -N S- G - M P - gmpn sn- D P P ||",
-                "sahitya": "ra vi shashi na - ya- nam - - ra vi ja- ti ma- - - - - - da- nam"
-            },
-            {
-                "line_number": 14,
-                "swara": "- - - P P nn M P - nS - - - S S - | - - - - - - - - - - - - - - - - ||",
-                "sahitya": "- - -ra vi ja- - di - va- - - nara - - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 15,
-                "swara": "- - - P P nn M P nS - - - - S S - | - - pg gs N -S G- GR SR S- S S - ||",
-                "sahitya": "- - -ra vi ja- - di va- - - nara - pa- ri- - vr tam na- ra- - varam"
-            },
-            {
-                "line_number": 16,
-                "swara": "- - - P P nn M P pggs snN -s- S S - | - - pg gs sn -S G- gmpm mggr R- S S - ||",
-                "sahitya": "- - -ra vi ja- - di va- - - - nara - pa- ri- - vr tam na- - ra- - - varam"
-            },
-            {
-                "line_number": 17,
-                "swara": "- - - P - S S - sngs snN - N ndsn | nddp P- G - M mnP - mgG - R -s- - S S- ||",
-                "sahitya": "ra tna ha ra -- - - - pa ri - - - - - - sho -bhi ta - - kan- - - - - da ram"
-            },
-            {
-                "line_number": 18,
-                "swara": "- - - - P - S S - nsmg grrs snN -ndsn | nddp P- G - M mnP",
-                "sahitya": "ra -tna ha ra -- - - - pa ri - - - - - - sho -bhi ta - - kan- - - - - da ram"
-            },
-            {
-                "line_number": 19,
-                "swara": "M G R S N P N S N S M - M- P pmG | G M P M P -ND P pmpm P N S - - - ||",
-                "sahitya": "ravi shashi kuja budha guru shu- kra sha ni- - scara ra- hu ke- tu ne- tta- ram - -"
-            },
-            {
-                "line_number": 20,
-                "swara": "N - S G g r S S - - - ndsn ndP - - | nmP R S - S - -gM NP - mp mgG",
-                "sahitya": "ra jaku ma--ram - - ra- mam -- pa-va naja -ptam ava nija ma- no- - haram"
-            },
-            {
-                "line_number": 21,
-                "swara": "N - S G g R s S - - - nsrs nd - pd -p - | nmP R S - S - -gM NP - mp mgG",
-                "sahitya": "ra jaku ma--ram - - ra- mam -- pa-va naja -ptam ava nija ma- no- - haram"
-            },
-            {
-                "line_number": 22,
-                "swara": "N - S G gr sRs S - - nsrs nd - pd -p - | nmP R S - S - -gM NP - mp mgG",
-                "sahitya": "ra jaku ma--ram - - ra- mam -- pa-va naja -ptam ava nija ma- no- - ha ram-"
-            },
-            {
-                "line_number": 23,
-                "swara": "grrs - N S M - - - pmmgG - gm P -M mnP | - - - nd pm- ps sm - mggr rssn nddp -gmnp ||",
-                "sahitya": "bhaja re re - - ma - na sa shri - - ra-ghu- vi - - - - - -- ram -"
-            },
-            {
-                "line_number": 24,
-                "swara": "mgrs S- S - S-nsmg grrs -ndsn nddp- P N | S - - - G - M- pnS - -g -gmnd pm - G- gg mg ||",
-                "sahitya": "bhu kti mu- - - - - khti- - - pra- dam- va - su de- - - - - vam - - ha rim - -"
-            },
-            {
-                "line_number": 25,
-                "swara": "mgrs SS M- - - pmmgG - gm P -M mnP",
-                "sahitya": "bhaja re - re - - ma - na sa ma - na sa ma - - na sa"
-            },
-            {
-                "line_number": 26,
-                "swara": "sndp - -",
-                "sahitya": "- - - -"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Bhajare_Re_Manasa_Abheri_Karnataka_Devagandhari.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- - S S M - - - pmmgG - gm P -M P - | - - - M - psn N- ND DP PM -MG ||",
+                    "sahitya": "bhaja re re - - ma - na sa shri - ra—ghu vi - - - - - ram -"
+                },
+                {
+                    "swara": "RS- S S M - - - pmmgG - gm P -M P - | - - - M - psn N- ND DP PM -MG ||",
+                    "sahitya": "bhaja re re - - ma - na sa shri - ra—ghu vi - - - - - ram -"
+                },
+                {
+                    "swara": "grsn - N S M - - - pmmgG - gm P -M mnP | - - - nd pm- P sn S- SN ND ndpm -gmnp ||",
+                    "sahitya": "bhaja re re - - ma - na sa shri - - raghu vi - - - - - ram -"
+                },
+                {
+                    "swara": "mgrs - N S M - - - pmmgG - gm P -M mnP | - - - nd pm- ps sm - mggr rssn nddp -gmnp ||",
+                    "sahitya": "bhaja re re - - ma - na sa shri - - ra-ghu- vi - - - - - -- ram -"
+                },
+                {
+                    "swara": "mgrs-- S - S -snN - - ND P - P N | S - - - G - M mnP",
+                    "sahitya": "bhu kti mu- - - khti- - pra- dam- va - su de- - - - - vam - ha rim - -"
+                },
+                {
+                    "swara": "grrs S- S - S -snN - - -ND P - P N | S - - - G - M mnP",
+                    "sahitya": "bhu kti mu- - - khti- - pra- dam- va - su de- - - - - vam - ha rim - -"
+                },
+                {
+                    "swara": "grrs S- S - S -nsmg grrs -ndsn nddp- P N | S - - - G - M- pnS - -g -gmnd pm - G- gg mg ||",
+                    "sahitya": "bhu kti mu- - - - - khti- - - pra- dam- va - su de- - - - - vam - - ha rim - -"
+                },
+                {
+                    "swara": "grrs S- S - S -nsmg grrs -ndsn nddp- P N | S - - - G - M- pnS - -g -gmnd pm - G- gg mg ||",
+                    "sahitya": "bhu kti mu- - - - - khti- - - pra- dam- va - su de- - - - - vam - - ha rim - -"
+                },
+                {
+                    "swara": "grrs S- ss -M- - - pmmgG - gm P -M mnP",
+                    "sahitya": "- bhaja re re - - ma - na sa ma - na sa ma - - na sa"
+                },
+                {
+                    "swara": "sndp - -",
+                    "sahitya": "- - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - - - P P nn M - P pnS-- - - - S - | - - - - - - - - - - - - - - - - - ||",
+                    "sahitya": "vri ji na- - vi du-- - - - ram"
+                },
+                {
+                    "swara": "- - - - P P nn M - P pnS-- - - - S - | - - - rs sn N- S - mg GR - sR- -S- S - ||",
+                    "sahitya": "vri ji na- - vi du-- - - - ram vi - - - shva-- dha - - - -- ram"
+                },
+                {
+                    "swara": "- - - - P P nn M - P pggs - snN - ns- S - | - - - rs sn N- S - mg gmpm mggr sRs- - S ||",
+                    "sahitya": "vri ji na- - vi du-- - - - - - ram vi - - - shva-- dha - - - -- - ram"
+                },
+                {
+                    "swara": "- - - - P S S S - sngs snN - - ndsn | nddp P- G - M mnP",
+                    "sahitya": "su jana man da- - - - ram- - - -- - sun - da ra- - - ka- - - ram"
+                },
+                {
+                    "swara": "- - - - P S S S - nsmg grrs snN -ndsn | nddp P- G - M gmpn sgmg snrs ndsn- ndpm ||",
+                    "sahitya": "su jana man da- - - - - ram- - - -- - sun - da ra- - - - ka- - - ram"
+                },
+                {
+                    "swara": "grsn -- P S S S - nsmg grrs snN -ndsn | nddp P- G - M gmpn sgmg snrs ndsn- ndpm ||",
+                    "sahitya": "su jana man da- - - - - ram- - - -- - sun - da ra- - - - ka- - - ram"
+                },
+                {
+                    "swara": "grsn SS M- - - pmmgG - gm P -M mnP",
+                    "sahitya": "bhaja re - re - - ma - na sa ma - na sa ma - - na sa"
+                },
+                {
+                    "swara": "sndp - -",
+                    "sahitya": "- - - -"
+                },
+                {
+                    "swara": "- - - - P - P P - pmpm Psn ND DP | pmP",
+                    "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
+                },
+                {
+                    "swara": "SGM- P - P P - pmpm Psn ND DP | pmP",
+                    "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
+                },
+                {
+                    "swara": "SGM- P - P P - pmps snN ndsn nddp | P- - - mg - R S - snsg gsgm mgmp - pmpn ||",
+                    "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
+                },
+                {
+                    "swara": "snnd pm- P - P P - pmps snN ndsn nddp | P- - - mg - R S - G - G M P - - - ||",
+                    "sahitya": "ra vana mar-- da-- nam - - - - - - - rak - Shita - bhu- va - nam - -"
+                },
+                {
+                    "swara": "- - - G G- R rs - S N ND pdP P - | - - - -N S- G - M P - gmpn sn- D P P ||",
+                    "sahitya": "ra vi shashi na - ya- nam - - ra vi ja- ti ma- - - - - - da- nam"
+                },
+                {
+                    "swara": "- - - P P nn M P - nS - - - S S - | - - - - - - - - - - - - - - - - ||",
+                    "sahitya": "- - -ra vi ja- - di - va- - - nara - - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "- - - P P nn M P nS - - - - S S - | - - pg gs N -S G- GR SR S- S S - ||",
+                    "sahitya": "- - -ra vi ja- - di va- - - nara - pa- ri- - vr tam na- ra- - varam"
+                },
+                {
+                    "swara": "- - - P P nn M P pggs snN -s- S S - | - - pg gs sn -S G- gmpm mggr R- S S - ||",
+                    "sahitya": "- - -ra vi ja- - di va- - - - nara - pa- ri- - vr tam na- - ra- - - varam"
+                },
+                {
+                    "swara": "- - - P - S S - sngs snN - N ndsn | nddp P- G - M mnP - mgG - R -s- - S S- ||",
+                    "sahitya": "ra tna ha ra -- - - - pa ri - - - - - - sho -bhi ta - - kan- - - - - da ram"
+                },
+                {
+                    "swara": "- - - - P - S S - nsmg grrs snN -ndsn | nddp P- G - M mnP",
+                    "sahitya": "ra -tna ha ra -- - - - pa ri - - - - - - sho -bhi ta - - kan- - - - - da ram"
+                },
+                {
+                    "swara": "M G R S N P N S N S M - M- P pmG | G M P M P -ND P pmpm P N S - - - ||",
+                    "sahitya": "ravi shashi kuja budha guru shu- kra sha ni- - scara ra- hu ke- tu ne- tta- ram - -"
+                },
+                {
+                    "swara": "N - S G g r S S - - - ndsn ndP - - | nmP R S - S - -gM NP - mp mgG",
+                    "sahitya": "ra jaku ma--ram - - ra- mam -- pa-va naja -ptam ava nija ma- no- - haram"
+                },
+                {
+                    "swara": "N - S G g R s S - - - nsrs nd - pd -p - | nmP R S - S - -gM NP - mp mgG",
+                    "sahitya": "ra jaku ma--ram - - ra- mam -- pa-va naja -ptam ava nija ma- no- - haram"
+                },
+                {
+                    "swara": "N - S G gr sRs S - - nsrs nd - pd -p - | nmP R S - S - -gM NP - mp mgG",
+                    "sahitya": "ra jaku ma--ram - - ra- mam -- pa-va naja -ptam ava nija ma- no- - ha ram-"
+                },
+                {
+                    "swara": "grrs - N S M - - - pmmgG - gm P -M mnP | - - - nd pm- ps sm - mggr rssn nddp -gmnp ||",
+                    "sahitya": "bhaja re re - - ma - na sa shri - - ra-ghu- vi - - - - - -- ram -"
+                },
+                {
+                    "swara": "mgrs S- S - S-nsmg grrs -ndsn nddp- P N | S - - - G - M- pnS - -g -gmnd pm - G- gg mg ||",
+                    "sahitya": "bhu kti mu- - - - - khti- - - pra- dam- va - su de- - - - - vam - - ha rim - -"
+                },
+                {
+                    "swara": "mgrs SS M- - - pmmgG - gm P -M mnP",
+                    "sahitya": "bhaja re - re - - ma - na sa ma - na sa ma - - na sa"
+                },
+                {
+                    "swara": "sndp - -",
+                    "sahitya": "- - - -"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Bhajare_Re_Manasa_Abheri_Karnataka_Devagandhari.pdf",
+    "avartanasPerRow": 1
 }

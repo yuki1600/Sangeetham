@@ -7,97 +7,59 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "s m r s N - r s n p - dn - - P - | - m n p m G | M P m pn P - n ||",
-                "sahitya": "E - - - - - - - - laa- - Nee - Da - ya- - - raa- - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "d N p - - - - - R | S - nsr S - r | s n P d N p ||",
-                "sahitya": "du - - - - - - - Pa raa - ku - - - - Je - - se- -"
-            },
-            {
-                "line_number": 3,
-                "swara": "p n n p M - pn Srs SD D - P | Mpn P-n pmG | g m P m p n P - n ||",
-                "sahitya": "- - - - - - Ve- la - - - - Sa ma - - - ya- - mu- - Gaa- - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "pm rm rm - sr - s - S - - | - - - - | - - - - ||",
-                "sahitya": "du - - - - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "N P P - np np - n n p m P | S - S - R | S S n s R ||",
-                "sahitya": "Baa- la Ka- na- ka- ma- ya Che- la Su ja na Pa- ri"
-            },
-            {
-                "line_number": 2,
-                "swara": "r r s n S - R S - S - rm rs S | r s n d D- D | D d s d p D ||",
-                "sahitya": "paa- - la Shree - Ra - - - maa lo- - - la Vi dhru ta- Sha- ra"
-            },
-            {
-                "line_number": 3,
-                "swara": "r s N S - R S R m m R | n s Rmr S- mr | s n D R S ||",
-                "sahitya": "jaa- - la Shu bada Ka- ru naa- - - la vaa- - - la Gha na"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - sr sn - pd snN- P- n r s n | p d snN P - mn | pm - gm P R ||",
-                "sahitya": "nee - - la- Na - - - vya Va-na- Maa- - - li kaa- - - Bha ra na (ela)"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - - D D - - D | D - d N p | P - n d N p ||",
-                        "sahitya": "- - - Raa raa- - De vaa- di- - - De- - vaa!- -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "p n n p M- P S - S - | s m r s n r s n | n P n d N p ||",
-                        "sahitya": "- - - - - Raa raa- Ma haa- - nu - - - bhaa- va - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "p n n p M- P s n D P - | Mpn P-n p m G | g m P Mpn P-n ||",
-                        "sahitya": "- - - - - Raa raa- - Raa- jee- - - - va - - - Ne- - - - - - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "d N p P - - - - p R | S - s n d n | n d N - S - ||",
-                        "sahitya": "traa- - - - - - - Ra ghu va- ra - - - Pu- - - traa-"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "N P P - np np - n n p m P | S - S - R | S S n s R ||",
-                        "sahitya": "Saa- ra ta- ra- Su- dhaa- - Pu- ra Hru daya Pa- ri"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "r r s n S - R S - S - rm rs S | r s n d D- D | D d s d p D ||",
-                        "sahitya": "vaa- - ra Ja la dhi - - - Gam- bhee-- ra Da nu ja- Sam- -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "r s N S - R S R m m R | n s Rmr S- mr | s n -D R S ||",
-                        "sahitya": "haa- ra Ma dana Su - ku maa- - - ra Bu- dha Ja na vi"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "S - sr sn - pd snN- P- n r s n | p d N P - mn | pm - gm P R ||",
-                        "sahitya": "haa-- ra- Sa- ka-- la Shru-ti - saa- - ra Naa- - - du- pai- (ela)"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Ela_Nee_Daya_Raadu_Atana.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "s m r s N - r s n p - dn - - P - | - m n p m G | M P m pn P - n ||",
+                    "sahitya": "E - - - - - - - - laa- - Nee - Da - ya- - - raa- - - - - - - -"
+                },
+                {
+                    "swara": "d N p - - - - - R | S - nsr S - r | s n P d N p ||",
+                    "sahitya": "du - - - - - - - Pa raa - ku - - - - Je - - se- -"
+                },
+                {
+                    "swara": "p n n p M - pn Srs SD D - P | Mpn P-n pmG | g m P m p n P - n ||",
+                    "sahitya": "- - - - - - Ve- la - - - - Sa ma - - - ya- - mu- - Gaa- - - - -"
+                },
+                {
+                    "swara": "pm rm rm - sr - s - S - - | - - - - | - - - - ||",
+                    "sahitya": "du - - - - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "N P P - np np - n n p m P | S - S - R | S S n s R ||",
+                    "sahitya": "Baa- la Ka- na- ka- ma- ya Che- la Su ja na Pa- ri"
+                },
+                {
+                    "swara": "r r s n S - R S - S - rm rs S | r s n d D- D | D d s d p D ||",
+                    "sahitya": "paa- - la Shree - Ra - - - maa lo- - - la Vi dhru ta- Sha- ra"
+                },
+                {
+                    "swara": "r s N S - R S R m m R | n s Rmr S- mr | s n D R S ||",
+                    "sahitya": "jaa- - la Shu bada Ka- ru naa- - - la vaa- - - la Gha na"
+                },
+                {
+                    "swara": "S - sr sn - pd snN- P- n r s n | p d snN P - mn | pm - gm P R ||",
+                    "sahitya": "nee - - la- Na - - - vya Va-na- Maa- - - li kaa- - - Bha ra na (ela)"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Ela_Nee_Daya_Raadu_Atana.pdf",
+    "avartanasPerRow": 1
 }

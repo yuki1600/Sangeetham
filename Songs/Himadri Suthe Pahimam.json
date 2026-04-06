@@ -7,162 +7,138 @@
         "tala": "Rupakam",
         "composer": "Syama Sastri"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - | R S - N || R R - - G - M ||",
-                "sahitya": "- - hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - | - - pdpm || G - r gd pm G - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
-            },
-            {
-                "line_number": 3,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "vate hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 4,
-                "swara": "gmP | mpD pdpm || G - r gd pm G - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
-            },
-            {
-                "line_number": 5,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "vate hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 6,
-                "swara": "gmpd | N - ndpm || G - r gd pd pmG ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
-            },
-            {
-                "line_number": 7,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "vate hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 8,
-                "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
-            },
-            {
-                "line_number": 9,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "vate hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 10,
-                "swara": "P - | - - - - ||",
-                "sahitya": "mam"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - | S S - N || dsn- dpm - G - - P D N ||",
-                "sahitya": "- - su me- ru ma- dhya-- - va - si"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - | - - - - ||",
-                "sahitya": "ni"
-            },
-            {
-                "line_number": 3,
-                "swara": "mpdn | srg - r S N || dsn- dpm - G - - P D gr ||",
-                "sahitya": "am-ba su- me - ru ma- dhya-- - va - si"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - | - - - - ||",
-                "sahitya": "ni"
-            },
-            {
-                "line_number": 5,
-                "swara": "mpdn | srg - r S N || dsn- dpm - G - - P D gr ||",
-                "sahitya": "am-ba su- me - ru ma- dhya-- - va - si"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - | - - dpmg - || S r - s n d- P - pmg ||",
-                "sahitya": "Sahityam: him(a)dri sute pahi mam varade para devate"
-            },
-            {
-                "line_number": 7,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "Kshi hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 8,
-                "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
-            },
-            {
-                "line_number": 9,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "vate hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 10,
-                "swara": "P - | - - - - ||",
-                "sahitya": "mam"
-            },
-            {
-                "line_number": 11,
-                "swara": "- S N - dpP - P || pmG | gmR - g M ||",
-                "sahitya": "Sya ma kr- - shna so-- da- ri gau-"
-            },
-            {
-                "line_number": 12,
-                "swara": "P - D D D - || dn P | - d N sndp ||",
-                "sahitya": "Ri- pa ra m(e)- Sva-ri giri ja"
-            },
-            {
-                "line_number": 13,
-                "swara": "dn- S N - dpP - P || pmG | gmR - g M ||",
-                "sahitya": "Sya ma kr- - shna so-- da- ri gau-"
-            },
-            {
-                "line_number": 14,
-                "swara": "P - D D D - || dn P | - d N S - ||",
-                "sahitya": "Ri- pa ra m(e)- Sva-ri giri ja"
-            },
-            {
-                "line_number": 15,
-                "swara": "snd - g rg- S - N || d d r -s - n - P - M ||",
-                "sahitya": "A la - me la ve—ni - - ki - ra"
-            },
-            {
-                "line_number": 16,
-                "swara": "ggd- p - d - pm G gr ||",
-                "sahitya": "va- Ni - - Sri- - la-"
-            },
-            {
-                "line_number": 17,
-                "swara": "gr sr | R S - N || R R - - G - M ||",
-                "sahitya": "li- te hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 18,
-                "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
-            },
-            {
-                "line_number": 19,
-                "swara": "R S | R S - N || R R - - G - M ||",
-                "sahitya": "vate hi m(a) - dri su te - pa - hi"
-            },
-            {
-                "line_number": 20,
-                "swara": "P - | - - - - ||",
-                "sahitya": "mam"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Himadri_Suthe_PAhimAm_Kalyani.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- - | R S - N || R R - - G - M ||",
+                    "sahitya": "- - hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "P - | - - pdpm || G - r gd pm G - ||",
+                    "sahitya": "mam - - va-ra- de -- pa- ra- de -"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "vate hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "gmP | mpD pdpm || G - r gd pm G - ||",
+                    "sahitya": "mam - - va-ra- de -- pa- ra- de -"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "vate hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "gmpd | N - ndpm || G - r gd pd pmG ||",
+                    "sahitya": "mam - - va-ra- de -- pa- ra- de -"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "vate hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
+                    "sahitya": "mam - - va-ra- de -- pa- ra- de -"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "vate hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "P - | - - - - ||",
+                    "sahitya": "mam"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - | S S - N || dsn- dpm - G - - P D N ||",
+                    "sahitya": "- - su me- ru ma- dhya-- - va - si"
+                },
+                {
+                    "swara": "S - | - - - - ||",
+                    "sahitya": "ni"
+                },
+                {
+                    "swara": "mpdn | srg - r S N || dsn- dpm - G - - P D gr ||",
+                    "sahitya": "am-ba su- me - ru ma- dhya-- - va - si"
+                },
+                {
+                    "swara": "S - | - - - - ||",
+                    "sahitya": "ni"
+                },
+                {
+                    "swara": "mpdn | srg - r S N || dsn- dpm - G - - P D gr ||",
+                    "sahitya": "am-ba su- me - ru ma- dhya-- - va - si"
+                },
+                {
+                    "swara": "S - | - - dpmg - || S r - s n d- P - pmg ||",
+                    "sahitya": "Sahityam: him(a)dri sute pahi mam varade para devate"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "Kshi hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
+                    "sahitya": "mam - - va-ra- de -- pa- ra- de -"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "vate hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "P - | - - - - ||",
+                    "sahitya": "mam"
+                },
+                {
+                    "swara": "- S N - dpP - P || pmG | gmR - g M ||",
+                    "sahitya": "Sya ma kr- - shna so-- da- ri gau-"
+                },
+                {
+                    "swara": "P - D D D - || dn P | - d N sndp ||",
+                    "sahitya": "Ri- pa ra m(e)- Sva-ri giri ja"
+                },
+                {
+                    "swara": "dn- S N - dpP - P || pmG | gmR - g M ||",
+                    "sahitya": "Sya ma kr- - shna so-- da- ri gau-"
+                },
+                {
+                    "swara": "P - D D D - || dn P | - d N S - ||",
+                    "sahitya": "Ri- pa ra m(e)- Sva-ri giri ja"
+                },
+                {
+                    "swara": "snd - g rg- S - N || d d r -s - n - P - M ||",
+                    "sahitya": "A la - me la ve—ni - - ki - ra"
+                },
+                {
+                    "swara": "ggd- p - d - pm G gr ||",
+                    "sahitya": "va- Ni - - Sri- - la-"
+                },
+                {
+                    "swara": "gr sr | R S - N || R R - - G - M ||",
+                    "sahitya": "li- te hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
+                    "sahitya": "mam - - va-ra- de -- pa- ra- de -"
+                },
+                {
+                    "swara": "R S | R S - N || R R - - G - M ||",
+                    "sahitya": "vate hi m(a) - dri su te - pa - hi"
+                },
+                {
+                    "swara": "P - | - - - - ||",
+                    "sahitya": "mam"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Himadri_Suthe_PAhimAm_Kalyani.pdf",
+    "avartanasPerRow": 2
 }

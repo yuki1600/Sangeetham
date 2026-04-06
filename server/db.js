@@ -28,6 +28,7 @@ db.exec(`
     tala TEXT,               -- Song tala metadata
     composer TEXT,           -- Song composer metadata
     isFavorite INTEGER DEFAULT 0,
+    avartanasPerRow INTEGER DEFAULT 1,
     createdAt TEXT,          -- ISO string
     updatedAt TEXT           -- ISO string
   )

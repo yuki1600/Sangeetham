@@ -7,127 +7,91 @@
         "tala": "Adi",
         "composer": "Papanasam Sivan"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "snD DN S - - - | - - - - - - - p D ||",
-                "sahitya": "De- - - vi - - - - - - - - - Amba"
-            },
-            {
-                "line_number": 2,
-                "swara": "snD DN S - - - | dS- s nd- P M - P D ||",
-                "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - Amba"
-            },
-            {
-                "line_number": 3,
-                "swara": "NS DN S - - - | d n r - s nd- P M - - - ||",
-                "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "mdpm GR G - M - | P - d m- dp - dn - dn - ||",
-                "sahitya": "Then- - Madu rai vaal Mee na- Lo- cha- ni - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "srgr sndn S - - - | d n r - s nd- P M - - - ||",
-                "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "gm pd pm -gR G - M - | P - d m- dp - dn N - ||",
-                "sahitya": "Then- - Madu rai vaal Mee na- Lo- cha- ni - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "srgr sndn snsr - s - | d n r- Srs nD-- P M - - - ||",
-                "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "gm pd pm -gR Mpm G M - | sndp d m- dp - dn N - ||",
-                "sahitya": "Then- - Madu rai - vaal Mee na- Lo- cha- ni - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "(“srsnD-”)",
-                "sahitya": "De- - - vi - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "S g rs N - S R - r - - | - - - - rsS - - ||",
-                "sahitya": "De- vaa- di De van Sun - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "S g rs N - S R - r - S | - r G gr R rs S - - ||",
-                "sahitya": "De- vaa- di De van Sun - - da re-- san- - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "n srG rs N - S R - r - G | - G gr R rs S - - ||",
-                "sahitya": "De- vaa- - di De van Sun - - da re-- san- - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "n srG rs N - S R - r - G | - gp mg R R - gs - ||",
-                "sahitya": "De- vaa- - di De van Sun - - da re-- san- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "S - r G - R snD - D N R | - sn D - D DM - n S ||",
-                "sahitya": "Chi- tham Ka var- Bhu vana - Sun - da ri - Amba"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - sr G - R snD - D N R | - sn D - D DM - n S ||",
-                "sahitya": "Chi- tham Ka var- Bhu vana - Sun - da ri - Amba"
-            },
-            {
-                "line_number": 7,
-                "swara": "srs- r G - R snD - D N R | sr sn D - D DM - n S ||",
-                "sahitya": "Chi- tham Ka var- Bhu vana Sun - da ri - Amba"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "d P - m - P M - pdpd | N D mP - - - g - rg m ||",
-                        "sahitya": "Mala ya Dwa jan Ma-- dhava me - - - - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "d P - m - P M - pdpd | N D mP - mdpm G rg ||",
-                        "sahitya": "Mala ya Dwa jan Ma-- dhava me - Kaa—n cha na-"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "M- M- - d P - P - dp | D - drsn D - P - - ||",
-                        "sahitya": "Maa lai Mu thal vi Ma ha- ra - - gni - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- ns - d N S S S S | - r r - S n rgrg R - ||",
-                        "sahitya": "Alai magal Kalai maghal Pani Kee- rvaa- ni"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- n rsS - d N S S rg rs S | - pd nsrg - rs S rgrg R - ||",
-                        "sahitya": "Alai magal Kalai maghal Pani Kee- rvaa- ni"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- sr - g R snD - D N R | - D - n D M -p D N ||",
-                        "sahitya": "Amu dana ya-- I niye - Mu thamizh - Va lartthai"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Devi_Neeye_Thunai_Keeravani.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "snD DN S - - - | - - - - - - - p D ||",
+                    "sahitya": "De- - - vi - - - - - - - - - Amba"
+                },
+                {
+                    "swara": "snD DN S - - - | dS- s nd- P M - P D ||",
+                    "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - Amba"
+                },
+                {
+                    "swara": "NS DN S - - - | d n r - s nd- P M - - - ||",
+                    "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
+                },
+                {
+                    "swara": "mdpm GR G - M - | P - d m- dp - dn - dn - ||",
+                    "sahitya": "Then- - Madu rai vaal Mee na- Lo- cha- ni - -"
+                },
+                {
+                    "swara": "srgr sndn S - - - | d n r - s nd- P M - - - ||",
+                    "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
+                },
+                {
+                    "swara": "gm pd pm -gR G - M - | P - d m- dp - dn N - ||",
+                    "sahitya": "Then- - Madu rai vaal Mee na- Lo- cha- ni - -"
+                },
+                {
+                    "swara": "srgr sndn snsr - s - | d n r- Srs nD-- P M - - - ||",
+                    "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
+                },
+                {
+                    "swara": "gm pd pm -gR Mpm G M - | sndp d m- dp - dn N - ||",
+                    "sahitya": "Then- - Madu rai - vaal Mee na- Lo- cha- ni - -"
+                },
+                {
+                    "swara": "(“srsnD-”)",
+                    "sahitya": "De- - - vi - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "S g rs N - S R - r - - | - - - - rsS - - ||",
+                    "sahitya": "De- vaa- di De van Sun - - - - - - - - -"
+                },
+                {
+                    "swara": "S g rs N - S R - r - S | - r G gr R rs S - - ||",
+                    "sahitya": "De- vaa- di De van Sun - - da re-- san- - -"
+                },
+                {
+                    "swara": "n srG rs N - S R - r - G | - G gr R rs S - - ||",
+                    "sahitya": "De- vaa- - di De van Sun - - da re-- san- - -"
+                },
+                {
+                    "swara": "n srG rs N - S R - r - G | - gp mg R R - gs - ||",
+                    "sahitya": "De- vaa- - di De van Sun - - da re-- san- - -"
+                },
+                {
+                    "swara": "S - r G - R snD - D N R | - sn D - D DM - n S ||",
+                    "sahitya": "Chi- tham Ka var- Bhu vana - Sun - da ri - Amba"
+                },
+                {
+                    "swara": "S - sr G - R snD - D N R | - sn D - D DM - n S ||",
+                    "sahitya": "Chi- tham Ka var- Bhu vana - Sun - da ri - Amba"
+                },
+                {
+                    "swara": "srs- r G - R snD - D N R | sr sn D - D DM - n S ||",
+                    "sahitya": "Chi- tham Ka var- Bhu vana Sun - da ri - Amba"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Devi_Neeye_Thunai_Keeravani.pdf",
+    "avartanasPerRow": 1
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings, FileText, Heart } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';
@@ -164,6 +164,67 @@ function SearchableSelect({ label, value, onChange, options, isDark, borderColor
     );
 }
 
+function SortDropdown({ value, onChange, isDark, borderColor }) {
+    const [open, setOpen] = useState(false);
+    const wrapperRef = useRef(null);
+
+    const options = [
+        { id: 'date-desc', label: 'Newest Added', icon: Calendar },
+        { id: 'date-asc', label: 'Oldest Added', icon: Calendar },
+        { id: 'title-asc', label: 'Alphabetical (A-Z)', icon: SortAsc },
+        { id: 'title-desc', label: 'Alphabetical (Z-A)', icon: SortAsc },
+        { id: 'updated-desc', label: 'Last Modified', icon: Edit3 },
+    ];
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false);
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
+
+    const selected = options.find(o => o.id === value) || options[0];
+
+    return (
+        <div className="relative" ref={wrapperRef}>
+            <button 
+                onClick={() => setOpen(!open)}
+                className="flex items-center gap-2 px-3 py-2.5 rounded-xl border text-[11px] font-black uppercase tracking-wider transition-all hover:border-emerald-500/50"
+                style={{ 
+                    background: isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)', 
+                    borderColor,
+                    color: 'var(--text-primary)'
+                }}
+            >
+                <ArrowUpDown className="w-3.5 h-3.5 opacity-40" />
+                <span className="hidden sm:inline opacity-50">Sort:</span>
+                <span className="text-emerald-500">{selected.label}</span>
+                <ChevronDown className={`w-3 h-3 opacity-40 transition-transform ${open ? 'rotate-180' : ''}`} />
+            </button>
+
+            {open && (
+                <div 
+                    className="absolute right-0 z-20 mt-1 w-56 border rounded-xl shadow-2xl overflow-hidden py-1 animate-in fade-in slide-in-from-top-1 duration-200"
+                    style={{ background: isDark ? '#1a1a24' : '#fff', borderColor }}
+                >
+                    {options.map(opt => (
+                        <button
+                            key={opt.id}
+                            onClick={() => { onChange(opt.id); setOpen(false); }}
+                            className={`flex items-center gap-3 w-full px-4 py-2 text-xs font-medium transition-colors hover:bg-emerald-500/10 ${value === opt.id ? 'text-emerald-500 bg-emerald-500/5' : 'text-var(--text-muted)'}`}
+                        >
+                            <opt.icon className="w-3.5 h-3.5 opacity-40" />
+                            {opt.label}
+                            {value === opt.id && <Check className="w-3.5 h-3.5 ml-auto" />}
+                        </button>
+                    ))}
+                </div>
+            )}
+        </div>
+    );
+}
+
 export default function SongEditor({ theme, onEditSong, onBack }) {
     const [songs, setSongs] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -205,6 +266,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const [filterRagas, setFilterRagas] = useState([]);
     const [filterTalas, setFilterTalas] = useState([]);
     const [filterComposers, setFilterComposers] = useState([]);
+    const [sortBy, setSortBy] = useState('date-desc');
     const [bulkPublishing, setBulkPublishing] = useState(false);
 
     const [renamingId, setRenamingId] = useState(null);
@@ -418,6 +480,17 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         return matchesTitle && matchesRaga && matchesTala && matchesComposer;
     });
 
+    const sortedSongs = [...filteredSongs].sort((a, b) => {
+        switch (sortBy) {
+            case 'date-desc': return new Date(b.createdAt) - new Date(a.createdAt);
+            case 'date-asc': return new Date(a.createdAt) - new Date(b.createdAt);
+            case 'title-asc': return (a.title || '').localeCompare(b.title || '');
+            case 'title-desc': return (b.title || '').localeCompare(a.title || '');
+            case 'updated-desc': return new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0);
+            default: return 0;
+        }
+    });
+
     const handleToggleFavorite = async (song) => {
         const newFav = !song.isFavorite;
         try {
@@ -568,24 +641,30 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                     )}
                 </div>
 
-                {/* Bulk Actions */}
-                <div className="flex items-center gap-2 flex-shrink-0">
-                    <button
-                        onClick={() => handleBulkPublish(true)}
-                        disabled={bulkPublishing || filteredSongs.length === 0}
-                        className="px-3 py-2 rounded-lg border text-[11px] font-black uppercase tracking-wider transition-all hover:bg-emerald-500 hover:text-white hover:border-emerald-500 disabled:opacity-30"
-                        style={{ borderColor, color: 'var(--text-muted)' }}
-                    >
-                        Publish All
-                    </button>
-                    <button
-                        onClick={() => handleBulkPublish(false)}
-                        disabled={bulkPublishing || filteredSongs.length === 0}
-                        className="px-3 py-2 rounded-lg border text-[11px] font-black uppercase tracking-wider transition-all hover:bg-red-500 hover:text-white hover:border-red-500 disabled:opacity-30"
-                        style={{ borderColor, color: 'var(--text-muted)' }}
-                    >
-                        Unpublish All
-                    </button>
+                {/* Bulk Actions & Sort */}
+                <div className="flex items-center gap-3 flex-shrink-0">
+                    <SortDropdown value={sortBy} onChange={setSortBy} isDark={isDark} borderColor={borderColor} />
+
+                    <div className="flex items-center gap-1.5 ml-2 border-l pl-4" style={{ borderColor }}>
+                        <button
+                            onClick={() => handleBulkPublish(true)}
+                            disabled={bulkPublishing || filteredSongs.length === 0}
+                            className="px-3 py-2.5 rounded-xl border text-[10px] font-black uppercase tracking-widest transition-all hover:bg-emerald-500 hover:text-white hover:border-emerald-500 disabled:opacity-30 flex items-center gap-2 shadow-sm"
+                            style={{ borderColor, color: 'var(--text-muted)', background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)' }}
+                        >
+                            <Globe className="w-3 h-3" />
+                            Publish
+                        </button>
+                        <button
+                            onClick={() => handleBulkPublish(false)}
+                            disabled={bulkPublishing || filteredSongs.length === 0}
+                            className="px-3 py-2.5 rounded-xl border text-[10px] font-black uppercase tracking-widest transition-all hover:bg-red-500 hover:text-white hover:border-red-500 disabled:opacity-30 flex items-center gap-2 shadow-sm"
+                            style={{ borderColor, color: 'var(--text-muted)', background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)' }}
+                        >
+                            <X className="w-3 h-3" />
+                            Unpublish
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -608,7 +687,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {filteredSongs.map(song => (
+                        {sortedSongs.map(song => (
                             <div
                                 key={song.id}
                                 className="group relative rounded-2xl p-5 border transition-all hover:scale-[1.01]"

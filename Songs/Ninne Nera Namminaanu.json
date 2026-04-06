@@ -7,112 +7,75 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S sn D P M || G - M - G - R || S - - - gr s n || sr G - gm p d N ||",
-                "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa -raa- may- ya"
-            },
-            {
-                "line_number": 2,
-                "swara": "- S sn dn nd pm || gnnd pm - G - R || S - - - gr s n || sr G - gm p d N ||",
-                "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa -raa- may- ya"
-            },
-            {
-                "line_number": 3,
-                "swara": "- S sn dn nd pm || gnnd pm- G - R || S - - - S -n || pd ns r s N d s n d ||",
-                "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa - - - Ra-may-"
-            },
-            {
-                "line_number": 4,
-                "swara": "pm- S sn dn nd pm || gnnd pm- G - R || S - - - S -n || pd ns r s N - d n d ||",
-                "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa - - - Ra-may-"
-            },
-            {
-                "line_number": 5,
-                "swara": "pm- S sn gr nd pm || gnnd pm - gm pm g r || S - - - g r s n || d ns r gr s n d- sn d ||",
-                "sahitya": "-ya Ni nne-- Ne ra Nam mi naa - - - -nu raa -- O - - Ra-maa - - - - Ramay-"
-            },
-            {
-                "line_number": 6,
-                "swara": "pm- S sn gr nd pm || gnnd pm - gm pm g r || G - - - R - || - - S - - - ||",
-                "sahitya": "-ya Ni nne-- Ne ra Nam mi naa - - - -nu raa -- - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- G M - p - D - || rsnd N S - S || - - s - r S - S || sn D D N rs nd ||",
-                "sahitya": "A nni Kal la la- - - nu chu Aa di Paa - di Ve- - - - di - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "pm- G M - p - D - || sn rs nd -N - S || - - s - r S - S || sn D D N rs nd ||",
-                "sahitya": "-- A nni Kal la la- - - - nu chu Aa di Paa - di Ve- - - - di - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "pm- G M - p - D - || sn rs nd -N - S || - - s g rr S - S-r || sn D D N Srs S ||",
-                "sahitya": "-- A nni Kal la la- - - - nu chu Aa - di Paa - di Ve- - - - di - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "- S S S g r S || sn D D dn - S || D S sr - sn D P || pm nd pm- gr gm pd ||",
-                "sahitya": "Pan na ga sha- ya na -- - Ne- - - Chin- na- Ta- namu Naa- - - - de- - - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "ns- S S S g r S || sn D D dn - S || D S sr - sn D P || pm nd pm- gr gm pd ||",
-                "sahitya": "-- Pan na ga sha- ya na -- - Ne- - - Chin- na- Ta- namu Naa- - - - de- - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "ns - (ninne nera)",
-                "sahitya": "--"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- G M -P - D || - r - sn D - N - S || - - - - - - || - - - - - - sn d ||",
-                        "sahitya": "Ve da Shaa - stra - Pu raa- - - - na - - - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "pm- G M -P - D || - r - sn D - N - S || - - s - r S S - || dn sr s n - ds n d - n d ||",
-                        "sahitya": "-- Ve da Shaa - stra - Pu raa- - - - na - -vi -dyala che - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "pm- G M - - p - D || - r - sn D - N - S || - - s - r S S - || dn sr s n - ds n -s n d ||",
-                        "sahitya": "-- Ve da - Shaa - stra - Pu raa- - - - na - -vi -dyala che - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "pm- G M - - p - D || - r - sn D - N - S || - - s - r S S - || sn D D N Sr s S ||",
-                        "sahitya": "-- Ve da - Shaa - stra - Pu raa- - - - na - -vi -dyala che Bhe-- - - da - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- S S sn g r S || sn D D - D N S || - S S - sn D P || pm nd pm- gr gm pd ||",
-                        "sahitya": "Vaa da mu - - lu Dee- - ra - ka Bhrama yu - Vaa ra- la - lu - - - Ju- chi-"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "ns- S S sn g r S || sn D D - D N S || - S S - sn D P || pm nd pm- gr gm pd ||",
-                        "sahitya": "-- Vaa da mu - - lu Dee- - ra - ka Bhrama yu - Vaa ra- la - lu - Ju- chi- -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "ns (ninne nera)",
-                        "sahitya": "--"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Ninne_Nera_Namminaanu_Panthuvarali.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- S sn D P M || G - M - G - R || S - - - gr s n || sr G - gm p d N ||",
+                    "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa -raa- may- ya"
+                },
+                {
+                    "swara": "- S sn dn nd pm || gnnd pm - G - R || S - - - gr s n || sr G - gm p d N ||",
+                    "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa -raa- may- ya"
+                },
+                {
+                    "swara": "- S sn dn nd pm || gnnd pm- G - R || S - - - S -n || pd ns r s N d s n d ||",
+                    "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa - - - Ra-may-"
+                },
+                {
+                    "swara": "pm- S sn dn nd pm || gnnd pm- G - R || S - - - S -n || pd ns r s N - d n d ||",
+                    "sahitya": "Ni nne-- Ne ra Nam mi naa - nu raa -- O - - Ra-maa - - - Ra-may-"
+                },
+                {
+                    "swara": "pm- S sn gr nd pm || gnnd pm - gm pm g r || S - - - g r s n || d ns r gr s n d- sn d ||",
+                    "sahitya": "-ya Ni nne-- Ne ra Nam mi naa - - - -nu raa -- O - - Ra-maa - - - - Ramay-"
+                },
+                {
+                    "swara": "pm- S sn gr nd pm || gnnd pm - gm pm g r || G - - - R - || - - S - - - ||",
+                    "sahitya": "-ya Ni nne-- Ne ra Nam mi naa - - - -nu raa -- - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- G M - p - D - || rsnd N S - S || - - s - r S - S || sn D D N rs nd ||",
+                    "sahitya": "A nni Kal la la- - - nu chu Aa di Paa - di Ve- - - - di - - -"
+                },
+                {
+                    "swara": "pm- G M - p - D - || sn rs nd -N - S || - - s - r S - S || sn D D N rs nd ||",
+                    "sahitya": "-- A nni Kal la la- - - - nu chu Aa di Paa - di Ve- - - - di - - -"
+                },
+                {
+                    "swara": "pm- G M - p - D - || sn rs nd -N - S || - - s g rr S - S-r || sn D D N Srs S ||",
+                    "sahitya": "-- A nni Kal la la- - - - nu chu Aa - di Paa - di Ve- - - - di - - -"
+                },
+                {
+                    "swara": "- S S S g r S || sn D D dn - S || D S sr - sn D P || pm nd pm- gr gm pd ||",
+                    "sahitya": "Pan na ga sha- ya na -- - Ne- - - Chin- na- Ta- namu Naa- - - - de- - - - -"
+                },
+                {
+                    "swara": "ns- S S S g r S || sn D D dn - S || D S sr - sn D P || pm nd pm- gr gm pd ||",
+                    "sahitya": "-- Pan na ga sha- ya na -- - Ne- - - Chin- na- Ta- namu Naa- - - - de- - - - -"
+                },
+                {
+                    "swara": "ns - (ninne nera)",
+                    "sahitya": "--"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Ninne_Nera_Namminaanu_Panthuvarali.pdf",
+    "avartanasPerRow": 2
 }

@@ -7,367 +7,167 @@
         "tala": "Adi",
         "composer": "Papanasam Sivan"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "N - - np pd - - dm | pmP - - - - - - ||",
-                "sahitya": "ja - na ki - - pa te - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "N - - np pd - - dm | pmP - - - - P - d ||",
-                "sahitya": "ja - na ki - - pa te - - - - - Sri-"
-            },
-            {
-                "line_number": 3,
-                "swara": "N - - np pd - - dm | pmP - - - - - pd ||",
-                "sahitya": "ja - na ki - - pa te - - - - - - Sri-"
-            },
-            {
-                "line_number": 4,
-                "swara": "nsnn - np dndd - dm | pmP - - - - - pd ||",
-                "sahitya": "ja - na ki - - pa te - - - - - - Sri-"
-            },
-            {
-                "line_number": 5,
-                "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
-                "sahitya": "ja - na ki - - pa te - - - - - - jaya"
-            },
-            {
-                "line_number": 6,
-                "swara": "MG G- G R - gm - - n D | P - - - - - - p D ||",
-                "sahitya": "ka- - run - Nya- - ja la dhe - - - - - jaya"
-            },
-            {
-                "line_number": 7,
-                "swara": "N - - np pd - - dm | p D - P - - -m - md",
-                "sahitya": "ja - na ki - - pa te - - - - - - ja- ya"
-            },
-            {
-                "line_number": 8,
-                "swara": "MG - G R - gm - - n D | P - - - - - - pd ||",
-                "sahitya": "ka- - run - Nya- - ja la dhe - - - - - Sri"
-            },
-            {
-                "line_number": 9,
-                "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
-                "sahitya": "ja - na ki - - pa te - - - - - - jaya"
-            },
-            {
-                "line_number": 10,
-                "swara": "mpD P- mG-",
-                "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
-            },
-            {
-                "line_number": 11,
-                "swara": "M - G - G R - G G- R | - n - S - - gr",
-                "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
-            },
-            {
-                "line_number": 12,
-                "swara": "- r n - d M P - - dp | mgR",
-                "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - ma--"
-            },
-            {
-                "line_number": 13,
-                "swara": "N - - np pd - - dm | p D - P - - -m - md",
-                "sahitya": "ja - na ki - - pa te - - - - - - ja- ya"
-            },
-            {
-                "line_number": 14,
-                "swara": "mpD P- mG-",
-                "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
-            },
-            {
-                "line_number": 15,
-                "swara": "pm G - G R - G G- R | - n - S - - gr - G M - ||",
-                "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
-            },
-            {
-                "line_number": 16,
-                "swara": "- r n - d M P - - dp | mgR",
-                "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - - ma--"
-            },
-            {
-                "line_number": 17,
-                "swara": "N - - np pd - - - m | p D - P - - - - - ||",
-                "sahitya": "ja - na ki - - - pa te - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - dp - d- N ns - S S | - - - - - - - - ||",
-                "sahitya": "- - di - na ja na- vana - - - - -- - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- d- N ns - S S | sd P D N ns - S S ||",
-                "sahitya": "- - di - na ja na- vana di - na ja na- vana"
-            },
-            {
-                "line_number": 3,
-                "swara": "sd P - d- N ns - S S | drss",
-                "sahitya": "di - - - na ja na- vana di - na ja na- vana"
-            },
-            {
-                "line_number": 4,
-                "swara": "- d- N ns - S S | - n g - r S sn rs snN pd ||",
-                "sahitya": "- - di - na ja na- vana - dr dha - ka ra kan-- ka-- na-"
-            },
-            {
-                "line_number": 5,
-                "swara": "- d- N ns - S S | - n g - r S sn rs snN pd ||",
-                "sahitya": "- - di - na ja na- vana - dr dha - ka ra kan-- ka-- na-"
-            },
-            {
-                "line_number": 6,
-                "swara": "- d- N ns rg - R | S- n g - r S ns r- ns - N ||",
-                "sahitya": "- - di - na ja na- - va na dr dha - ka ra kan-- - - - ka--"
-            },
-            {
-                "line_number": 7,
-                "swara": "- d- N ns rg - R | S- n g - r S ns rgR s- n D ||",
-                "sahitya": "na- di - na ja na- - va na dr dha - ka ra kan-- - - - kana"
-            },
-            {
-                "line_number": 8,
-                "swara": "- d n - d P mg- pm mG- R | - - - - - - - S ||",
-                "sahitya": "- dasha - ratha ta- na- ya- - - - - - - - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "- d n - d P mg- pmmg",
-                "sahitya": "- dasha - ratha ta- na- - - ya- - - - - - - - - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "N- d sn",
-                "sahitya": "- dasha - ratha ta- na- - - ya- - - - - - - - - - - -"
-            },
-            {
-                "line_number": 11,
-                "swara": "S- d sn - d P sp - nn dp - mG- | R - r g - m -M P - P P - ||",
-                "sahitya": "- dasha - ratha ta- na- - - ya- - - kani -da gu Na ga Na"
-            },
-            {
-                "line_number": 12,
-                "swara": "D- d sn",
-                "sahitya": "- dasha - ratha ta- na- - - ya- - - kani -da gu Na ga Na"
-            },
-            {
-                "line_number": 13,
-                "swara": "pd- d sn - d P mp - D - p - mG- | R - r g - m -M P - P ndpd || [ finish]",
-                "sahitya": "- - dasha - ratha ta- na- - - ya- - - kani -da gu Na ga Na- -"
-            },
-            {
-                "line_number": 14,
-                "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
-                "sahitya": "ja - na ki - - pa te - - - - - - jaya"
-            },
-            {
-                "line_number": 15,
-                "swara": "mpD P- mG- R - gm - - n D | P - - - - - - p P ||",
-                "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
-            },
-            {
-                "line_number": 16,
-                "swara": "M - G - G R - G G- R | - n - S - - gr - G M - ||",
-                "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
-            },
-            {
-                "line_number": 17,
-                "swara": "- r n - d M P - - dp | mgR",
-                "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - ma--"
-            },
-            {
-                "line_number": 18,
-                "swara": "N - - np pd - - - m | p D - P - - - - - ||",
-                "sahitya": "ja - na ki - - - pa te - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- mp - d- pmM",
-                        "sahitya": "guha - ja Ta-- - yu - - - - - - - - --"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- nd pm pd - p - - - | - - - - - - - - ||",
-                        "sahitya": "- - - - - - - - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- mp - d- pmM",
-                        "sahitya": "guha - ja Ta-- - yu -shaba ri - -- - - - - - - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "pm- mp - d- pmM",
-                        "sahitya": "- - guha - ja Ta-- - yu -shaba ri - -- - pra mukha ni- ja"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- - - r - g - m g S -- r - G | - - n - D P - - - ||",
-                        "sahitya": "- - bha -ktha ja- na- mu - kti- - - da - ya ka- - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "pm- mp - d- pmM",
-                        "sahitya": "- - guha - ja Ta-- - yu -shaba ri - -- - pra mukha ni- ja"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- - - r - g - m g S -- r - G | - - n - D nd P - - ||",
-                        "sahitya": "- - bha -ktha ja- na- mu - kti- - - da - ya ka-- - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "pm- mp - d- pmM",
-                        "sahitya": "- - guha - ja Ta-- - yu -shaba ri - -- - pra mukha ni- ja"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- - - r - g - m g S -- r - gr | rgmp dn D pDp - p D ||",
-                        "sahitya": "- - bha -ktha ja- na- mu - kti- da-- - - ya ka-- - jaga"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "N - ns n- d P D - P- - d | P - P - P M -g G rg ||",
-                        "sahitya": "da- hi - ta vi ra- Ta - ka ban- da Ni sha- cha ra"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- r g - m M mpM mg R S | rgmp dn D pDp - p D ||",
-                        "sahitya": "nika - ra ni shi- - - da na sa- - - - ya ka-- - jaga"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "N- ns n- d P D - P- - d | P - P - P mdP",
-                        "sahitya": "da- hi - ta vi ra- Ta - ka ban- da ni sha- - - cha ra"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "- r g - m M mpM",
-                        "sahitya": "nika - ra ni shi- - - da na sa- - - - ya ka-- - jaga"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "ns- ns n- d P dn dn d - p -M | pd pd p- m G mdP",
-                        "sahitya": "da- hi - ta vi ra- - Ta ka ba n- - da ni sha- - - cha ra"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "- r g - m M mpM",
-                        "sahitya": "nika - ra ni shi- - - dana sa- - - - ya ka-- saro"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "- d N n S - - - | - - - - - - - S ||",
-                        "sahitya": "- ruha - chara Na-- - - - - - - - - - sa"
-                    },
-                    {
-                        "line_number": 17,
-                        "swara": "S - n rs",
-                        "sahitya": "ro ruha - chara Na-- - - - - - - - - - sa"
-                    },
-                    {
-                        "line_number": 18,
-                        "swara": "S - n rs",
-                        "sahitya": "ro ruha - chara Na-- - - - - - - - - saro"
-                    },
-                    {
-                        "line_number": 19,
-                        "swara": "- d N n S - - - | - - - - - - nmg - g ||",
-                        "sahitya": "- ruha - chara Na-- - - - - - - - - sa- - ro"
-                    },
-                    {
-                        "line_number": 20,
-                        "swara": "rs - n rs",
-                        "sahitya": "- ruha - chara Na-- - - - - - - - - sa- - ro"
-                    },
-                    {
-                        "line_number": 21,
-                        "swara": "rs - g r - sd",
-                        "sahitya": "- ruha - cha ra Na ni kida va- li da shava dana"
-                    },
-                    {
-                        "line_number": 22,
-                        "swara": "- ng - r G sgr- sn",
-                        "sahitya": "sura -muni sa-- jja- - na pa- - - - - la ka sa- - ro"
-                    },
-                    {
-                        "line_number": 23,
-                        "swara": "rs - n rs",
-                        "sahitya": "- ruha - cha ra Na ni kida va- li da shava dana"
-                    },
-                    {
-                        "line_number": 24,
-                        "swara": "- ng - r G sgr- sn",
-                        "sahitya": "sura -muni sa-- jja- - na pa- - - - - la ka-- sa- - ro"
-                    },
-                    {
-                        "line_number": 25,
-                        "swara": "rs - g r - d N S -- s S N | G - R - S R mg G R ||",
-                        "sahitya": "- ruha - cha ra Na ni kida va- li da shava dana"
-                    },
-                    {
-                        "line_number": 26,
-                        "swara": "- ng - r G sgr- sn",
-                        "sahitya": "sura -muni sa-- jja- - na pa- - - - - la ka- sa ka la"
-                    },
-                    {
-                        "line_number": 27,
-                        "swara": "mm gG-",
-                        "sahitya": "ma- hi- - de- ndra ni - la- ma- Ni - - ni- bha sha- ri- - - ra"
-                    },
-                    {
-                        "line_number": 28,
-                        "swara": "dP - pm- D - N - S | pd ns rmG R S - - r R G ||",
-                        "sahitya": "pa- Hi- sa - ke - ta na- - - - - ya ka - sa ka la"
-                    },
-                    {
-                        "line_number": 29,
-                        "swara": "mm gG-",
-                        "sahitya": "ma- hi- - de- ndra ni - la- ma-ni- - ni- bha sha- ri- - - ra"
-                    },
-                    {
-                        "line_number": 30,
-                        "swara": "dP - pm- D - N - S | pd ns rmG",
-                        "sahitya": "pa- Hi- sa - ke - ta na- - - - - ya ka - shri--"
-                    },
-                    {
-                        "line_number": 31,
-                        "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
-                        "sahitya": "ja - na ki - - pa te - - - - - - jaya"
-                    },
-                    {
-                        "line_number": 32,
-                        "swara": "mpD P- mG-",
-                        "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
-                    },
-                    {
-                        "line_number": 33,
-                        "swara": "M - G - G R - G G- R | - n - S - - gr",
-                        "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
-                    },
-                    {
-                        "line_number": 34,
-                        "swara": "- r n - d M P - - dp | mgR",
-                        "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - ma--"
-                    },
-                    {
-                        "line_number": 35,
-                        "swara": "N - - np pd - - - m | p D - P - - - - - ||",
-                        "sahitya": "ja - na ki - - - pa te - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Jaanaki_Pathe_Kharaharapriya.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "N - - np pd - - dm | pmP - - - - - - ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - - -"
+                },
+                {
+                    "swara": "N - - np pd - - dm | pmP - - - - P - d ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - Sri-"
+                },
+                {
+                    "swara": "N - - np pd - - dm | pmP - - - - - pd ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - - Sri-"
+                },
+                {
+                    "swara": "nsnn - np dndd - dm | pmP - - - - - pd ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - - Sri-"
+                },
+                {
+                    "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - - jaya"
+                },
+                {
+                    "swara": "MG G- G R - gm - - n D | P - - - - - - p D ||",
+                    "sahitya": "ka- - run - Nya- - ja la dhe - - - - - jaya"
+                },
+                {
+                    "swara": "N - - np pd - - dm | p D - P - - -m - md",
+                    "sahitya": "ja - na ki - - pa te - - - - - - ja- ya"
+                },
+                {
+                    "swara": "MG - G R - gm - - n D | P - - - - - - pd ||",
+                    "sahitya": "ka- - run - Nya- - ja la dhe - - - - - Sri"
+                },
+                {
+                    "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - - jaya"
+                },
+                {
+                    "swara": "mpD P- mG-",
+                    "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
+                },
+                {
+                    "swara": "M - G - G R - G G- R | - n - S - - gr",
+                    "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
+                },
+                {
+                    "swara": "- r n - d M P - - dp | mgR",
+                    "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - ma--"
+                },
+                {
+                    "swara": "N - - np pd - - dm | p D - P - - -m - md",
+                    "sahitya": "ja - na ki - - pa te - - - - - - ja- ya"
+                },
+                {
+                    "swara": "mpD P- mG-",
+                    "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
+                },
+                {
+                    "swara": "pm G - G R - G G- R | - n - S - - gr - G M - ||",
+                    "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
+                },
+                {
+                    "swara": "- r n - d M P - - dp | mgR",
+                    "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - - ma--"
+                },
+                {
+                    "swara": "N - - np pd - - - m | p D - P - - - - - ||",
+                    "sahitya": "ja - na ki - - - pa te - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - dp - d- N ns - S S | - - - - - - - - ||",
+                    "sahitya": "- - di - na ja na- vana - - - - -- - -"
+                },
+                {
+                    "swara": "- d- N ns - S S | sd P D N ns - S S ||",
+                    "sahitya": "- - di - na ja na- vana di - na ja na- vana"
+                },
+                {
+                    "swara": "sd P - d- N ns - S S | drss",
+                    "sahitya": "di - - - na ja na- vana di - na ja na- vana"
+                },
+                {
+                    "swara": "- d- N ns - S S | - n g - r S sn rs snN pd ||",
+                    "sahitya": "- - di - na ja na- vana - dr dha - ka ra kan-- ka-- na-"
+                },
+                {
+                    "swara": "- d- N ns - S S | - n g - r S sn rs snN pd ||",
+                    "sahitya": "- - di - na ja na- vana - dr dha - ka ra kan-- ka-- na-"
+                },
+                {
+                    "swara": "- d- N ns rg - R | S- n g - r S ns r- ns - N ||",
+                    "sahitya": "- - di - na ja na- - va na dr dha - ka ra kan-- - - - ka--"
+                },
+                {
+                    "swara": "- d- N ns rg - R | S- n g - r S ns rgR s- n D ||",
+                    "sahitya": "na- di - na ja na- - va na dr dha - ka ra kan-- - - - kana"
+                },
+                {
+                    "swara": "- d n - d P mg- pm mG- R | - - - - - - - S ||",
+                    "sahitya": "- dasha - ratha ta- na- ya- - - - - - - - - -"
+                },
+                {
+                    "swara": "- d n - d P mg- pmmg",
+                    "sahitya": "- dasha - ratha ta- na- - - ya- - - - - - - - - -"
+                },
+                {
+                    "swara": "N- d sn",
+                    "sahitya": "- dasha - ratha ta- na- - - ya- - - - - - - - - - - -"
+                },
+                {
+                    "swara": "S- d sn - d P sp - nn dp - mG- | R - r g - m -M P - P P - ||",
+                    "sahitya": "- dasha - ratha ta- na- - - ya- - - kani -da gu Na ga Na"
+                },
+                {
+                    "swara": "D- d sn",
+                    "sahitya": "- dasha - ratha ta- na- - - ya- - - kani -da gu Na ga Na"
+                },
+                {
+                    "swara": "pd- d sn - d P mp - D - p - mG- | R - r g - m -M P - P ndpd || [ finish]",
+                    "sahitya": "- - dasha - ratha ta- na- - - ya- - - kani -da gu Na ga Na- -"
+                },
+                {
+                    "swara": "nsnn - np dndd - dm | p D - P - - -m - d P ||",
+                    "sahitya": "ja - na ki - - pa te - - - - - - jaya"
+                },
+                {
+                    "swara": "mpD P- mG- R - gm - - n D | P - - - - - - p P ||",
+                    "sahitya": "ka- - run - ya- - ja la dhe - - - - ja ya"
+                },
+                {
+                    "swara": "M - G - G R - G G- R | - n - S - - gr - G M - ||",
+                    "sahitya": "kau - shal - ya - nan - - da - - va - rdha na -"
+                },
+                {
+                    "swara": "- r n - d M P - - dp | mgR",
+                    "sahitya": "jaga - dabhi ra- - ma- pa- - Tta - bhi - ra - ma--"
+                },
+                {
+                    "swara": "N - - np pd - - - m | p D - P - - - - - ||",
+                    "sahitya": "ja - na ki - - - pa te - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Jaanaki_Pathe_Kharaharapriya.pdf",
+    "avartanasPerRow": 1
 }

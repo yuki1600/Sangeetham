@@ -7,142 +7,87 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "R - G R S - || S - - S N P || N - S - - R || rrsn - S R - ||",
-                "sahitya": "Sri Vara lak shmi -na ma- Stu bhyam - Va su-- - pra de-"
-            },
-            {
-                "line_number": 2,
-                "swara": "R - pm R gr S || ns Rgr S- nr sn P || N - S - - R || rrsn - S R - ||",
-                "sahitya": "Sri Vara lak shmi -- - Na- ma- Stu bhyam - Va su-- - pra de-"
-            },
-            {
-                "line_number": 3,
-                "swara": "rmpn pm R Rgr S || ns Rgr S- nr sn P || N - S - - R || rrsn - S R - ||",
-                "sahitya": "Sri Vara lak shmi -- - Na- ma- Stu bhyam - Va su-- - pra de-"
-            },
-            {
-                "line_number": 4,
-                "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || Prs N S - - R || rrsn - S R - ||",
-                "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - pra de-"
-            },
-            {
-                "line_number": 5,
-                "swara": "R- n S - R M || P N - - P S N || S - -nr sn P - || mP- p mr - rg - grs ||",
-                "sahitya": "Sri- Saa ra sa pa de - Ra sa pa de- Sa pa de- Pa- de -- Pa- - de--"
-            },
-            {
-                "line_number": 6,
-                "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || N - S - - R || rs n s - n- S R - ||",
-                "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - -- pra de-"
-            },
-            {
-                "line_number": 7,
-                "swara": "r n S r m p n - - p s n || S- s n P - p m r - g r s ||",
-                "sahitya": "Sri- Saa ra sa pa de - Rasapa de Sa pa de Pa de - Pade-"
-            },
-            {
-                "line_number": 8,
-                "swara": "R - G R S - || N - - ns grsnP- || N - S - - - || - - - - - - ||",
-                "sahitya": "Sri Vara lak shmi -na ma-- - Stu bhyam - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - N P M P || pm R - gr R S || sn P N S - - R || r s n s R - R - ||",
-                "sahitya": "Bha vaja Jana ka -- - Pra - na Val-- la bhe - Su var-- - na - bhe-"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - sn N nm P || pm R - gr R S || rsnp - N S - - R || r s n s R - R - ||",
-                "sahitya": "Bha va-ja Ja-na ka -- - Pra - na Val-- la bhe - Su var-- - na - bhe-"
-            },
-            {
-                "line_number": 3,
-                "swara": "R G R - S - N || n P - n M - P - rm || m P - - P S-n N || P N S - - - ||",
-                "sahitya": "Bhaa- nu ko - ti Sa - ma - na - Pra- bhe-- - Bha - - kta Sula bhe- - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "R g r s n- P n s R || s r - n s pn - mp r m P || r m p n s r - G r s n p || P d n P pm r g r s ||",
-                "sahitya": "Sevaka jana Pa lin-yai Srita Pan kaja Ma- lin- yai- Ke- vala guna Sha lin-yai- Kesavahrtkhe-lin-yai-"
-            },
-            {
-                "line_number": 5,
-                "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || N - S - - R || rs n s - n- S R - ||",
-                "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - -- pra de-"
-            },
-            {
-                "line_number": 6,
-                "swara": "r n S r m p n - - p s n || S- s n P - p m r - g r s ||",
-                "sahitya": "Sri- Saa ra sa pa de - Rasapa de Sa pa de Pa de - Pade-"
-            },
-            {
-                "line_number": 7,
-                "swara": "R - G R S - || N - - ns grsnP- || N - S - - - || - - - - - - ||",
-                "sahitya": "Sri Vara lak shmi -na ma-- - Stu bhyam - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "S - N N P - n || P M - mp - m R || gr R S - sn sn P || P N S - - - ||",
-                        "sahitya": "Sra vana Paur-- nami - Pu- - - r va- - stha Su - - kra va - re"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S - N N P - n || P M - mp - m R || gr R S - sn r s np || Prs N S - - - ||",
-                        "sahitya": "Sra vana Paur-- nami - Pu- - - r va- - stha Su - - kra va - - re"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- sn S - R R - || - G R - r r S S || R - M - R M - || P - m P - - - ||",
-                        "sahitya": "Cha- ru ma ti - - Pra bhr ti- bhi hi Pu- - ji ta kaa- - re - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- sn S - R R - || - G R - r r S S || R - M - R M - || np - N -pm P - ||",
-                        "sahitya": "Cha- ru ma ti - - Pra bhr ti- bhi hi Pu- - ji ta kaa- - - re - - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- np P N S - G || R - R S - S r s N || G R n r s n P M || P N S - - - ||",
-                        "sahitya": "-de- vaa- di Gu ru Gu ha Sa mar- - pita ma-ni- maya Ha- re - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "R - - G R S || s n P P N P M || R M P - s n P - M || R G g r R S - ||",
-                        "sahitya": "Di- - na jana Sam-- ra - ksha na Ni pu na Ka- na ka Dhaa- - - - re-"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "P m r - g r s r p M || P n p - - P p s n S || R G r- s n p p p R || S n p n P - m r g r s ||",
-                        "sahitya": "Bhavanaa- Bhe-da Chature Bharati - San nu tavare Kaivalyavitara naparekankshita Phalapradakare-"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || N - S - - R || rs n s - n- S R - ||",
-                        "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - -- pra de-"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "r n S r m p n - - p s n || S- s n P - p m r - g r s ||",
-                        "sahitya": "Sri- Saa ra sa pa de - Rasapa de Sa pa de Pa de - Pade-"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "R - G R S - || N - - ns grsnP- || N - S - - - || - - - - - - ||",
-                        "sahitya": "Sri Vara lak shmi -na ma-- - Stu bhyam - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Kamakshi_Sri_Varalakshmi_Bilahari.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "R - G R S - || S - - S N P || N - S - - R || rrsn - S R - ||",
+                    "sahitya": "Sri Vara lak shmi -na ma- Stu bhyam - Va su-- - pra de-"
+                },
+                {
+                    "swara": "R - pm R gr S || ns Rgr S- nr sn P || N - S - - R || rrsn - S R - ||",
+                    "sahitya": "Sri Vara lak shmi -- - Na- ma- Stu bhyam - Va su-- - pra de-"
+                },
+                {
+                    "swara": "rmpn pm R Rgr S || ns Rgr S- nr sn P || N - S - - R || rrsn - S R - ||",
+                    "sahitya": "Sri Vara lak shmi -- - Na- ma- Stu bhyam - Va su-- - pra de-"
+                },
+                {
+                    "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || Prs N S - - R || rrsn - S R - ||",
+                    "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - pra de-"
+                },
+                {
+                    "swara": "R- n S - R M || P N - - P S N || S - -nr sn P - || mP- p mr - rg - grs ||",
+                    "sahitya": "Sri- Saa ra sa pa de - Ra sa pa de- Sa pa de- Pa- de -- Pa- - de--"
+                },
+                {
+                    "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || N - S - - R || rs n s - n- S R - ||",
+                    "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - -- pra de-"
+                },
+                {
+                    "swara": "r n S r m p n - - p s n || S- s n P - p m r - g r s ||",
+                    "sahitya": "Sri- Saa ra sa pa de - Rasapa de Sa pa de Pa de - Pade-"
+                },
+                {
+                    "swara": "R - G R S - || N - - ns grsnP- || N - S - - - || - - - - - - ||",
+                    "sahitya": "Sri Vara lak shmi -na ma-- - Stu bhyam - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P - N P M P || pm R - gr R S || sn P N S - - R || r s n s R - R - ||",
+                    "sahitya": "Bha vaja Jana ka -- - Pra - na Val-- la bhe - Su var-- - na - bhe-"
+                },
+                {
+                    "swara": "P - sn N nm P || pm R - gr R S || rsnp - N S - - R || r s n s R - R - ||",
+                    "sahitya": "Bha va-ja Ja-na ka -- - Pra - na Val-- la bhe - Su var-- - na - bhe-"
+                },
+                {
+                    "swara": "R G R - S - N || n P - n M - P - rm || m P - - P S-n N || P N S - - - ||",
+                    "sahitya": "Bhaa- nu ko - ti Sa - ma - na - Pra- bhe-- - Bha - - kta Sula bhe- - -"
+                },
+                {
+                    "swara": "R g r s n- P n s R || s r - n s pn - mp r m P || r m p n s r - G r s n p || P d n P pm r g r s ||",
+                    "sahitya": "Sevaka jana Pa lin-yai Srita Pan kaja Ma- lin- yai- Ke- vala guna Sha lin-yai- Kesavahrtkhe-lin-yai-"
+                },
+                {
+                    "swara": "rmpn s n pm r - g r s || ns Rgr S- nr sn P || N - S - - R || rs n s - n- S R - ||",
+                    "sahitya": "Sri Va- ra- - lak- - shmi -- - Na- ma- Stu-- bhyam - Va su-- - -- pra de-"
+                },
+                {
+                    "swara": "r n S r m p n - - p s n || S- s n P - p m r - g r s ||",
+                    "sahitya": "Sri- Saa ra sa pa de - Rasapa de Sa pa de Pa de - Pade-"
+                },
+                {
+                    "swara": "R - G R S - || N - - ns grsnP- || N - S - - - || - - - - - - ||",
+                    "sahitya": "Sri Vara lak shmi -na ma-- - Stu bhyam - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Kamakshi_Sri_Varalakshmi_Bilahari.pdf",
+    "avartanasPerRow": 2
 }

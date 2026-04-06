@@ -32,8 +32,8 @@ function parseToTextSections(composition) {
     return composition.filter(s => s.section !== 'Aro/Avaro').map(s => ({
         name: s.section,
         rows: (s.content || []).map(entry => ({
-            swaram: isTemplatePlaceholder(entry.swaram || '') ? '' : (entry.swaram || ''),
-            sahityam: isTemplatePlaceholder(entry.sahityam || '') ? '' : (entry.sahityam || '')
+            swara: isTemplatePlaceholder(entry.swara || '') ? '' : (entry.swara || ''),
+            sahitya: isTemplatePlaceholder(entry.sahitya || '') ? '' : (entry.sahitya || '')
         }))
     }));
 }
@@ -45,8 +45,8 @@ function parseToGridSections(composition, tala) {
     if (!Array.isArray(composition)) return [];
     return composition.filter(s => s.section !== 'Aro/Avaro').map(s => {
         const rows = (s.content || []).map(entry => {
-            const swaraAvs = (entry.swaram || '').split('||').map(v => v.trim()).filter(Boolean);
-            const sahityaAvs = (entry.sahityam || '').split('||').map(v => v.trim()).filter(Boolean);
+            const swaraAvs = (entry.swara || '').split('||').map(v => v.trim()).filter(Boolean);
+            const sahityaAvs = (entry.sahitya || '').split('||').map(v => v.trim()).filter(Boolean);
             const count = Math.max(swaraAvs.length, sahityaAvs.length, 1);
             const aavartanas = [];
             for (let i = 0; i < count; i++) {
@@ -224,14 +224,14 @@ function TextEditor({ composition, initialAvPerRow, onSave, onClose, isDark, bg,
 
     const addRow = (secIdx) => {
         setSections(prev => prev.map((s, idx) =>
-            idx === secIdx ? { ...s, rows: [...s.rows, { swaram: '', sahityam: '' }] } : s
+            idx === secIdx ? { ...s, rows: [...s.rows, { swara: '', sahitya: '' }] } : s
         ));
     };
 
     const addSection = (afterIdx) => {
         setSections(prev => {
             const next = [...prev];
-            const newSection = { name: '', rows: [{ swaram: '', sahityam: '' }] };
+            const newSection = { name: '', rows: [{ swara: '', sahitya: '' }] };
             if (typeof afterIdx === 'number') next.splice(afterIdx + 1, 0, newSection);
             else next.push(newSection);
             return next;
@@ -282,7 +282,7 @@ function TextEditor({ composition, initialAvPerRow, onSave, onClose, isDark, bg,
     const handleSave = () => {
         const newComposition = sections.map(s => ({
             section: s.name,
-            content: s.rows.map(row => ({ swaram: row.swaram.trim(), sahityam: row.sahityam.trim() }))
+            content: s.rows.map(row => ({ swara: row.swara.trim(), sahitya: row.sahitya.trim() }))
         }));
         onSave(newComposition, avPerRow);
         onClose();
@@ -338,26 +338,26 @@ function TextEditor({ composition, initialAvPerRow, onSave, onClose, isDark, bg,
                                     <div className="flex-1 flex flex-col min-w-0">
                                         <div className="rounded-2xl border overflow-hidden transition-all hover:border-blue-500/20" style={{ borderColor }}>
                                             <div className="px-4 py-3 border-b" style={{ borderColor }}>
-                                                <div className="text-[9px] font-black uppercase tracking-widest mb-1.5 text-blue-400/60">Swaram</div>
+                                                <div className="text-[9px] font-black uppercase tracking-widest mb-1.5 text-blue-400/60">Swara</div>
                                                 <textarea
-                                                    value={row.swaram}
-                                                    onChange={e => updateRow(sIdx, rowIdx, 'swaram', e.target.value)}
+                                                    value={row.swara}
+                                                    onChange={e => updateRow(sIdx, rowIdx, 'swara', e.target.value)}
                                                     spellCheck={false}
-                                                    rows={Math.max(2, Math.ceil(row.swaram.length / 70))}
+                                                    rows={Math.max(2, Math.ceil(row.swara.length / 70))}
                                                     className="w-full bg-transparent outline-none font-mono text-sm font-bold tracking-wide resize-y leading-relaxed text-blue-400"
-                                                    placeholder="Swaram"
+                                                    placeholder="Swara"
                                                 />
                                             </div>
                                             <div className="px-4 py-3">
-                                                <div className="text-[9px] font-black uppercase tracking-widest mb-1.5" style={{ color: textMuted }}>Sahityam</div>
+                                                <div className="text-[9px] font-black uppercase tracking-widest mb-1.5" style={{ color: textMuted }}>Sahitya</div>
                                                 <textarea
-                                                    value={row.sahityam}
-                                                    onChange={e => updateRow(sIdx, rowIdx, 'sahityam', e.target.value)}
+                                                    value={row.sahitya}
+                                                    onChange={e => updateRow(sIdx, rowIdx, 'sahitya', e.target.value)}
                                                     spellCheck={false}
-                                                    rows={Math.max(2, Math.ceil(row.sahityam.length / 70))}
+                                                    rows={Math.max(2, Math.ceil(row.sahitya.length / 70))}
                                                     className="w-full bg-transparent outline-none text-sm font-semibold tracking-wide resize-y leading-relaxed"
                                                     style={{ color: isDark ? 'rgba(240,240,250,0.7)' : 'rgba(15,23,42,0.7)' }}
-                                                    placeholder="Sahityam"
+                                                    placeholder="Sahitya"
                                                 />
                                             </div>
                                         </div>
@@ -536,7 +536,7 @@ function GridEditor({ composition, initialTalam, onSave, onClose, isDark, bg, bo
                     lParts.push(beat.sahitya || '-');
                     if (tala.angas.includes(beatNum)) { sParts.push('|'); lParts.push('|'); }
                 });
-                return { swaram: sParts.join(' ') + ' ||', sahityam: lParts.join(' ') + ' ||' };
+                return { swara: sParts.join(' ') + ' ||', sahitya: lParts.join(' ') + ' ||' };
             });
             return { section: s.name, content };
         });

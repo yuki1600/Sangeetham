@@ -7,192 +7,107 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S-r G -r G mg GR Srg RS S - sn P | PD - - S - - - | - - - - - - - - ||",
-                "sahitya": "O ----- - - - - - - - - - - Ran ga--- sha a- yi! - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "S-r G -r G mg GR Srg RS S rg rsnp | PD - - S - - - | - - - - S R- - ||",
-                "sahitya": "O ----- - - - - - - - - - - Ran ga--- s haa- yi! - - - - - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "G - m mGm R- g g Rg Srg RS S rg snP | PD - - S - - - | S- r G - M - P - ||",
-                "sahitya": "O ----- - - - - - - - - - - Ran ga-- - shaa- yi! - - Pi - li chi the"
-            },
-            {
-                "line_number": 4,
-                "swara": "ND DP pmgp mgR Srg RS S - snP | PD - - S - - - | S- r G - M - P - ||",
-                "sahitya": "O ----- - - - - - - - - - - Ran ga- sh aa- yi! - - Pi - li chi the"
-            },
-            {
-                "line_number": 5,
-                "swara": "D - - - - - pdpd N - D - P-d n D- | M - p d P P dn D - | dP- - - pd M G R ||",
-                "sahitya": "O ---- - -ya-- nu chu Ra --- - - - - - - Raa--- - - - daa? ----"
-            },
-            {
-                "line_number": 6,
-                "swara": "Srg Rgm gpmg rmgr Srg RS S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
-                "sahitya": "O ----- - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
-            },
-            {
-                "line_number": 7,
-                "swara": "D rsS D D N D pdpd drS N D - P-d S - | P-d S - S- - - | srN DP pd M G R ||",
-                "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - daa? ----"
-            },
-            {
-                "line_number": 8,
-                "swara": "srgm pdsr gmgr sndm pd ndp mg rgmg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
-                "sahitya": "O ----- - - - - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
-            },
-            {
-                "line_number": 9,
-                "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
-                "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
-            },
-            {
-                "line_number": 10,
-                "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
-                "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - Pi - - li chi-- the"
-            },
-            {
-                "line_number": 11,
-                "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
-                "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
-            },
-            {
-                "line_number": 12,
-                "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | - - - - - - - - ||",
-                "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "MP Dnd P - N D DP pmM - mGm P - | P - MP D - ndpm | P - - - - - - - ||",
-                "sahitya": "Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - - - - chi"
-            },
-            {
-                "line_number": 2,
-                "swara": "MP Dnd P - pdnd D- p pmM - mGm P - | P - MP D - D- | P -d n D- DN D M ||",
-                "sahitya": "Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - chi Kai- - - laa- - sha"
-            },
-            {
-                "line_number": 3,
-                "swara": "MP dsnd P - dsnd Pnd pmM - dp mGm P - | P - MP mpD D- | P -d d S d DN D M ||",
-                "sahitya": "Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - - chi Kai- - - laa- - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "GM Pdn DM Mpd P - pmG - dp mGm P - | P - MP m pD D- | P - D - S - R - ||",
-                "sahitya": "sa - Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - - chi Kai- - - laa- - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "Gmg Rgr Srg rsnd DP D - G R S - | sn D dPd S - M - | Pds DP dpmg pmgr ||",
-                "sahitya": "sha -- - - dhi--- - - pu--du Gaa- - le- - - - - - - - - - - - - da ? - - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "srgm pdsr gmgr sndm pd ndp mg rgmg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
-                "sahitya": "O ----- - - - - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
-            },
-            {
-                "line_number": 7,
-                "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
-                "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
-            },
-            {
-                "line_number": 8,
-                "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | - - - - - - - - ||",
-                "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "M - - - - - g M g m P - P - MP Dnd | P - D - - - D - | Dnd Dnd Dnd nddp ||",
-                        "sahitya": "Bhu- - - - lo- - - - ka Vai- - - - - - kun- - - ta Mi—thi- - ya-- ni---"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "pmM - - - - - g M g m P - P - MP Dnd | dpP D - - - D - | N D N P DM pdnd ||",
-                        "sahitya": "Bhu- - - - lo- - - - ka Vai- - - - - - kun- - - ta Mi—thi- - ya-- ni ---"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "pmM - - - - - g M g m P - P - MP Dnd | dpP D - - - D - | PD DrssD- DN dpmg ||",
-                        "sahitya": "Bhu- - - - lo- - - - ka Vai- - - - - - kun- - - ta Mi—thi- - ya-- ni---"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "S R G M Pdp D N D - pd pmG mpD Dnd | nddp P D - - - D - | PD DrssD- DN D - ||",
-                        "sahitya": "Bhu- - - - lo- - - - -- ka -- Vai- - - - - - - - kun- - - ta Mi—thi- - ya-- ni---"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "MND - D N P P - nddp pmM - GM PD | DN D - d P- D - | DrssD- DN nd D D - ||",
-                        "sahitya": "Ni- - - - - lo- - - - na- - Ni- - - ve- - Yu- - ppon-- - - gi - - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "P- d d S d N D- P- d n D - D N D P - MP | D nd P - M- p d P - | ppmg M - M G M P ||",
-                        "sahitya": "Sri- - - - - - - lo - - - lu- dai- Yun- - - - - - - - - - - - --- - te Maa - - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "D- n d P d pmG mg R G R S - sn P S - r | Gmg R - R - p mg - pm | gR s - - - - - - ||",
-                        "sahitya": "Chin- - - - ta -- Di- - - - - re- - den- - - - - - naa- - - do ? - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "MG GR S - - N D D P - pmM - mGm P- | P - MP D - D - | DP DN nd D - - ||",
-                        "sahitya": "Me- - - - - lo - - r va - - - le- - - - ni Ja- nu- la- lo- - - Ne- -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- dr sn D P - Pnd DM P - - - ppmg | GM - - P - P D | DrssD- ND D P - - ||",
-                        "sahitya": "Mi-gu-la No- gi- - li!- Di- - - vya- - Ru- - - pa - mu- nu- - - - - Mu- - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "dPd S - snD SR RS - SR G S - S R | Gm g G R S - S - | snP PD S - - DP ||",
-                        "sahitya": "thya- la Sa- - ru- la- Yu- ra - mu- nu -- - gaa- na Va - - cchi- ti! Mu-"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "dPd S - rsnd SR RS - SR G S - S R | Gmp mg R S - S rg | rsnp PD S - - - ||",
-                        "sahitya": "thya- la Sa- - ru- la- Yu- ra - mu- nu -- - gaa- na Va - - cchi- ti! - -"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "MG GR Srg rsnd DP D - G R S - | sn D dPd S - M - | Pds DP dpmg pmgr ||",
-                        "sahitya": "Thya- - - ga- - - - raa-ja - Hru- - - t bhu- - - - - - sha- - - - - - na!- - - - -"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "srgm pdsr gmgr sndm pd ndp mg rgmg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
-                        "sahitya": "O ----- - - - - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
-                        "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | - - - - - - - - ||",
-                        "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/O_Rangashayi_Kambodhi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S-r G -r G mg GR Srg RS S - sn P | PD - - S - - - | - - - - - - - - ||",
+                    "sahitya": "O ----- - - - - - - - - - - Ran ga--- sha a- yi! - - - - - - - - -"
+                },
+                {
+                    "swara": "S-r G -r G mg GR Srg RS S rg rsnp | PD - - S - - - | - - - - S R- - ||",
+                    "sahitya": "O ----- - - - - - - - - - - Ran ga--- s haa- yi! - - - - - - - - -"
+                },
+                {
+                    "swara": "G - m mGm R- g g Rg Srg RS S rg snP | PD - - S - - - | S- r G - M - P - ||",
+                    "sahitya": "O ----- - - - - - - - - - - Ran ga-- - shaa- yi! - - Pi - li chi the"
+                },
+                {
+                    "swara": "ND DP pmgp mgR Srg RS S - snP | PD - - S - - - | S- r G - M - P - ||",
+                    "sahitya": "O ----- - - - - - - - - - - Ran ga- sh aa- yi! - - Pi - li chi the"
+                },
+                {
+                    "swara": "D - - - - - pdpd N - D - P-d n D- | M - p d P P dn D - | dP- - - pd M G R ||",
+                    "sahitya": "O ---- - -ya-- nu chu Ra --- - - - - - - Raa--- - - - daa? ----"
+                },
+                {
+                    "swara": "Srg Rgm gpmg rmgr Srg RS S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
+                    "sahitya": "O ----- - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
+                },
+                {
+                    "swara": "D rsS D D N D pdpd drS N D - P-d S - | P-d S - S- - - | srN DP pd M G R ||",
+                    "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - daa? ----"
+                },
+                {
+                    "swara": "srgm pdsr gmgr sndm pd ndp mg rgmg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
+                    "sahitya": "O ----- - - - - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
+                },
+                {
+                    "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
+                    "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
+                },
+                {
+                    "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
+                    "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - Pi - - li chi-- the"
+                },
+                {
+                    "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
+                    "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
+                },
+                {
+                    "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | - - - - - - - - ||",
+                    "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "MP Dnd P - N D DP pmM - mGm P - | P - MP D - ndpm | P - - - - - - - ||",
+                    "sahitya": "Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - - - - chi"
+                },
+                {
+                    "swara": "MP Dnd P - pdnd D- p pmM - mGm P - | P - MP D - D- | P -d n D- DN D M ||",
+                    "sahitya": "Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - chi Kai- - - laa- - sha"
+                },
+                {
+                    "swara": "MP dsnd P - dsnd Pnd pmM - dp mGm P - | P - MP mpD D- | P -d d S d DN D M ||",
+                    "sahitya": "Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - - chi Kai- - - laa- - - -"
+                },
+                {
+                    "swara": "GM Pdn DM Mpd P - pmG - dp mGm P - | P - MP m pD D- | P - D - S - R - ||",
+                    "sahitya": "sa - Saa- - - - ran- - - ga- - Dha- - ru du Ju - - - - chi Kai- - - laa- - - -"
+                },
+                {
+                    "swara": "Gmg Rgr Srg rsnd DP D - G R S - | sn D dPd S - M - | Pds DP dpmg pmgr ||",
+                    "sahitya": "sha -- - - dhi--- - - pu--du Gaa- - le- - - - - - - - - - - - - da ? - - - - -"
+                },
+                {
+                    "swara": "srgm pdsr gmgr sndm pd ndp mg rgmg S - rsnp | PD - - S - - - | mggs - r G - dpM P - ||",
+                    "sahitya": "O ----- - - - - - - - - - - - - - Ran ga--- shaa- yi! - - Pi - - li chi-- the"
+                },
+                {
+                    "swara": "D rsS D D N D pdpd drS N D - P-d S - | PD Srg RS ND | pdrs nd -pd dpmg pmgr ||",
+                    "sahitya": "O ---- - - - - Ya-- nu--- chu Ra --- - - - - - - Raa--- - - - - - - - - - daa? -"
+                },
+                {
+                    "swara": "srgm pdsr mmgr snd- r snd - d pmg - rg S - rsnp | PD - - S - - - | - - - - - - - - ||",
+                    "sahitya": "O ----- - - - - - - - - - - - - - -- Ran ga--- shaa- yi! - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/O_Rangashayi_Kambodhi.pdf",
+    "avartanasPerRow": 1
 }

@@ -7,162 +7,138 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - S - N D P M | G M pmgr | - gm - D - ||",
-                "sahitya": "va De ra - - - dei - va-mu- mana sa -"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - S - N D P M | G M pmgr | - gm - D n ||",
-                "sahitya": "va De ra - - - dei - va-mu- mana sa -"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - S - N D P M | pgdp pmgr | - gm - D n ||",
-                "sahitya": "va De ra - - - dei - - va-mu- mana sa -"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - S - snrs ndpm | pgnd pmgr | G M D - ||",
-                "sahitya": "va De ra - - - dei - - va-mu- mana sa -"
-            },
-            {
-                "line_number": 5,
-                "swara": "S - S - dn Srs ndpm | pgnd pmgr | - gm - D n ||",
-                "sahitya": "va De ra - - - - dei - - va-mu- mana sa -"
-            },
-            {
-                "line_number": 6,
-                "swara": "dSn dn - ndD - - dpmp | - - - - | - - - - ||",
-                "sahitya": "va - - De - - ra - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - dm - m D S - n R S | - - - - | - - - - ||",
-                "sahitya": "A- Dina ma-- Ta lu - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - dm - m D S - n R S | - - - - | - - nsrs - ||",
-                "sahitya": "A- Dina ma-- Ta lu - - - - - - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "Rn- dm - m D S - n R S | - - - - | - ns r g r s ||",
-                "sahitya": "- - A- Dina ma-- Ta lu - - - - - - - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "- n- dn - m D S - n R S | - - s - s S | S N r s n d ||",
-                "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nucu nu- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "p M- dn - m D nsrg - r S | - - s - s S | S N r s n d ||",
-                "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nucu nu- - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "p M- dn - m D nsrg - r S | - - s - s S | N- dn r s n d ||",
-                "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nu cu nu- - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "p M- dn - m D nsrg - r S | - - s - s S | nd N - dp ||",
-                "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nu- cu - nu- - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "p m- dn - S- sn D S S | S -ds n -d p m | - g m - p D ||",
-                "sahitya": "- - A- can drar-- kamu ga gir- - ti- - gali - gina"
-            },
-            {
-                "line_number": 9,
-                "swara": "- - dn - S- sn D S S | S- rs n -d n d | pm- g m - p D ||",
-                "sahitya": "- - A- can drar-- kamu ga gir- - ti- - - - gali - gina"
-            },
-            {
-                "line_number": 10,
-                "swara": "- - dn - S- sn D S S | srg- r s n -d s | n - d pm- g M p ||",
-                "sahitya": "- - A- can drar-- kamu ga- gir- - - ti- - - - - - gali - gi"
-            },
-            {
-                "line_number": 11,
-                "swara": "D - dn - S - sn D S S | srg- r s n -d s | n - d pm- g M p ||",
-                "sahitya": "na- A- can drar-- kamu ga- gir- - - ti- - - - - - gali - gi"
-            },
-            {
-                "line_number": 12,
-                "swara": "D- S - S - dn Srs ndpm | pgnd pmgr | - gm - D n ||",
-                "sahitya": "Na va De ra - - - - dei - - va-mu- mana sa -"
-            },
-            {
-                "line_number": 13,
-                "swara": "dSn dn - ndD dpmp - - | - - - - | - - - - ||",
-                "sahitya": "va - - De ra - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 14,
-                "swara": "- - p - p- P D N sn D | N- S - S | d s n- d n d p m ||",
-                "sahitya": "- - dha -tru vi nu tu Dai- - na tya - ga ra- - ju - ni - -"
-            },
-            {
-                "line_number": 15,
-                "swara": "P -g M P D N sn D | N- S - S | d n s- s n d p m ||",
-                "sahitya": "dha- tru vi nu tu Dai- - na tya - ga ra- - ju - ni - -"
-            },
-            {
-                "line_number": 16,
-                "swara": "pmD P - pm G R S - | S- G - M | P dn dp P ||",
-                "sahitya": "ce- - ta pu- - ja lan- - di ba - gu ga - - pra - -"
-            },
-            {
-                "line_number": 17,
-                "swara": "- dm - D N - R S | - n s - r - S | sn D N nsrs ||",
-                "sahitya": "dyo- - ta nan vaya - muna - nu ja nin- - ci pra"
-            },
-            {
-                "line_number": 18,
-                "swara": "-n- dm - D N - R S | - n s - r - S | sn D N S ||",
-                "sahitya": "- dyo- - ta nan vaya - muna - nu ja nin- - ci -"
-            },
-            {
-                "line_number": 19,
-                "swara": "- S - S - sn D S S | - dn - d pm | - gm - p D ||",
-                "sahitya": "- si -ta- pa-ti a ni - pe- - ru - - -gali - gina"
-            },
-            {
-                "line_number": 20,
-                "swara": "- S - S - sn D S S | - dn - d n d | pm- gm - p D ||",
-                "sahitya": "- si -ta- pa-ti a ni - pe- - ru - - -- gali - gina"
-            },
-            {
-                "line_number": 21,
-                "swara": "- S nsrs - n- n D S S | srg- r s n -d s | n - d pm- g M -p ||",
-                "sahitya": "- si ta- - pa-ti a ni pe- ru - - ga - li - - gi - na"
-            },
-            {
-                "line_number": 22,
-                "swara": "D- S nsrs - n- n D S S | srg- r s n -d s | n - d pm- g m pd ||",
-                "sahitya": "- si ta- - pa-ti a ni pe- ru - - ga - li - - gi - na - [vadera]"
-            },
-            {
-                "line_number": 23,
-                "swara": "S - S - dn Srs ndpm | pgnd pmgr | - gm - D n ||",
-                "sahitya": "va De ra - - - - dei - - va-mu- mana sa -"
-            },
-            {
-                "line_number": 24,
-                "swara": "dSn dn - ndD dpmp - - | - - - - | - - - - ||",
-                "sahitya": "va - - De ra - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Vaadera_Daivamu_Panthuvarali.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S - S - N D P M | G M pmgr | - gm - D - ||",
+                    "sahitya": "va De ra - - - dei - va-mu- mana sa -"
+                },
+                {
+                    "swara": "S - S - N D P M | G M pmgr | - gm - D n ||",
+                    "sahitya": "va De ra - - - dei - va-mu- mana sa -"
+                },
+                {
+                    "swara": "S - S - N D P M | pgdp pmgr | - gm - D n ||",
+                    "sahitya": "va De ra - - - dei - - va-mu- mana sa -"
+                },
+                {
+                    "swara": "S - S - snrs ndpm | pgnd pmgr | G M D - ||",
+                    "sahitya": "va De ra - - - dei - - va-mu- mana sa -"
+                },
+                {
+                    "swara": "S - S - dn Srs ndpm | pgnd pmgr | - gm - D n ||",
+                    "sahitya": "va De ra - - - - dei - - va-mu- mana sa -"
+                },
+                {
+                    "swara": "dSn dn - ndD - - dpmp | - - - - | - - - - ||",
+                    "sahitya": "va - - De - - ra - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - dm - m D S - n R S | - - - - | - - - - ||",
+                    "sahitya": "A- Dina ma-- Ta lu - - - - - - - -"
+                },
+                {
+                    "swara": "- - dm - m D S - n R S | - - - - | - - nsrs - ||",
+                    "sahitya": "A- Dina ma-- Ta lu - - - - - - - - - -"
+                },
+                {
+                    "swara": "Rn- dm - m D S - n R S | - - - - | - ns r g r s ||",
+                    "sahitya": "- - A- Dina ma-- Ta lu - - - - - - - - - -"
+                },
+                {
+                    "swara": "- n- dn - m D S - n R S | - - s - s S | S N r s n d ||",
+                    "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nucu nu- - -"
+                },
+                {
+                    "swara": "p M- dn - m D nsrg - r S | - - s - s S | S N r s n d ||",
+                    "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nucu nu- - -"
+                },
+                {
+                    "swara": "p M- dn - m D nsrg - r S | - - s - s S | N- dn r s n d ||",
+                    "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nu cu nu- - -"
+                },
+                {
+                    "swara": "p M- dn - m D nsrg - r S | - - s - s S | nd N - dp ||",
+                    "sahitya": "- - A- Dina ma-- Ta lu - - tap pada nu- cu - nu- - -"
+                },
+                {
+                    "swara": "p m- dn - S- sn D S S | S -ds n -d p m | - g m - p D ||",
+                    "sahitya": "- - A- can drar-- kamu ga gir- - ti- - gali - gina"
+                },
+                {
+                    "swara": "- - dn - S- sn D S S | S- rs n -d n d | pm- g m - p D ||",
+                    "sahitya": "- - A- can drar-- kamu ga gir- - ti- - - - gali - gina"
+                },
+                {
+                    "swara": "- - dn - S- sn D S S | srg- r s n -d s | n - d pm- g M p ||",
+                    "sahitya": "- - A- can drar-- kamu ga- gir- - - ti- - - - - - gali - gi"
+                },
+                {
+                    "swara": "D - dn - S - sn D S S | srg- r s n -d s | n - d pm- g M p ||",
+                    "sahitya": "na- A- can drar-- kamu ga- gir- - - ti- - - - - - gali - gi"
+                },
+                {
+                    "swara": "D- S - S - dn Srs ndpm | pgnd pmgr | - gm - D n ||",
+                    "sahitya": "Na va De ra - - - - dei - - va-mu- mana sa -"
+                },
+                {
+                    "swara": "dSn dn - ndD dpmp - - | - - - - | - - - - ||",
+                    "sahitya": "va - - De ra - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "- - p - p- P D N sn D | N- S - S | d s n- d n d p m ||",
+                    "sahitya": "- - dha -tru vi nu tu Dai- - na tya - ga ra- - ju - ni - -"
+                },
+                {
+                    "swara": "P -g M P D N sn D | N- S - S | d n s- s n d p m ||",
+                    "sahitya": "dha- tru vi nu tu Dai- - na tya - ga ra- - ju - ni - -"
+                },
+                {
+                    "swara": "pmD P - pm G R S - | S- G - M | P dn dp P ||",
+                    "sahitya": "ce- - ta pu- - ja lan- - di ba - gu ga - - pra - -"
+                },
+                {
+                    "swara": "- dm - D N - R S | - n s - r - S | sn D N nsrs ||",
+                    "sahitya": "dyo- - ta nan vaya - muna - nu ja nin- - ci pra"
+                },
+                {
+                    "swara": "-n- dm - D N - R S | - n s - r - S | sn D N S ||",
+                    "sahitya": "- dyo- - ta nan vaya - muna - nu ja nin- - ci -"
+                },
+                {
+                    "swara": "- S - S - sn D S S | - dn - d pm | - gm - p D ||",
+                    "sahitya": "- si -ta- pa-ti a ni - pe- - ru - - -gali - gina"
+                },
+                {
+                    "swara": "- S - S - sn D S S | - dn - d n d | pm- gm - p D ||",
+                    "sahitya": "- si -ta- pa-ti a ni - pe- - ru - - -- gali - gina"
+                },
+                {
+                    "swara": "- S nsrs - n- n D S S | srg- r s n -d s | n - d pm- g M -p ||",
+                    "sahitya": "- si ta- - pa-ti a ni pe- ru - - ga - li - - gi - na"
+                },
+                {
+                    "swara": "D- S nsrs - n- n D S S | srg- r s n -d s | n - d pm- g m pd ||",
+                    "sahitya": "- si ta- - pa-ti a ni pe- ru - - ga - li - - gi - na - [vadera]"
+                },
+                {
+                    "swara": "S - S - dn Srs ndpm | pgnd pmgr | - gm - D n ||",
+                    "sahitya": "va De ra - - - - dei - - va-mu- mana sa -"
+                },
+                {
+                    "swara": "dSn dn - ndD dpmp - - | - - - - | - - - - ||",
+                    "sahitya": "va - - De ra - - - - - - - - - - - -"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Vaadera_Daivamu_Panthuvarali.pdf",
+    "avartanasPerRow": 1
 }

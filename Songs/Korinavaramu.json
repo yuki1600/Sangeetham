@@ -7,162 +7,95 @@
         "tala": "Rupakam",
         "composer": "Patnam Subramanya Iyer"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. P - pm gm G R || S S S - rs nd N ||",
-                "sahitya": "Ko ri-na- Vara Mosa gu mai- - - yya"
-            },
-            {
-                "line_number": 2,
-                "swara": "sr G R - gm P - M || P - - pm gr gm ||",
-                "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. pdnd pm gm G R || S S S - rs nd N ||",
-                "sahitya": "Ko ri-na- Vara Mosa gu mai- - - yya"
-            },
-            {
-                "line_number": 4,
-                "swara": "sr gr G - mp dp D || pdnd N - N - d pm ||",
-                "sahitya": "Ko- - dan- - da paa- - - - ni - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "3. pdnd pm gd pm gr || sd pm gr - rs nd N ||",
-                "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
-            },
-            {
-                "line_number": 6,
-                "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
-                "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "4. P - pm gm dmG - r S || S S S - rs nd N ||",
-                "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
-            },
-            {
-                "line_number": 8,
-                "swara": "sr G R - gm N - D || P - - P - - ||",
-                "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - n - d P - M || - p d - n S - - ||",
-                "sahitya": "Va ri ja - sthra - Ja na ka Sri - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- pd rs nd P - M || - p d - n ns rs R ||",
-                "sahitya": "Va ra ri ja - sthra - Ja na ka Sri - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "G - rgrs nd N || rsnd sn dp ndpm ||",
-                "sahitya": "Vat san-- - - ga Ni- - shta-ran- -- ga-"
-            },
-            {
-                "line_number": 4,
-                "swara": "p d rs nd P dn dpM || - p d - n ns rs R ||",
-                "sahitya": "Va-ra- ri- ja - - sthra - Ja na ka Sri - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "G - rgrs nd N || rsnd sn dp ndpm ||",
-                "sahitya": "Vat san-- - - ga Ni- - shta-ran- -- ga-"
-            },
-            {
-                "line_number": 6,
-                "swara": "pdnd pm gd pm gr || sd pm gr - rs nd N ||",
-                "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
-            },
-            {
-                "line_number": 7,
-                "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
-                "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "P - pm gm dmG- r S || S S S - rs nd N ||",
-                "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
-            },
-            {
-                "line_number": 9,
-                "swara": "sr G R - gm N - D || P - - P - - ||",
-                "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- gm - P - - P || mp D D - pd nd N ||",
-                        "sahitya": "Sari vaa - ri lo- - na Na- - - nnu"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "dn S S - r s nd P || pd pm gr - S - r s r || gm",
-                        "sahitya": "Chou- ka Se- - - ya Va- la- du- Nee - du - - - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- d n S - ss nd N || D P N D N S ||",
-                        "sahitya": "Maru pu Jo - chi Yun- - naa- nu -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- s r - g M pm gr || gm P mp D P pp ||",
-                        "sahitya": "Ma- na mu tho - - - Kaa-- paa- - - dunu"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- p d - n D P - || P D dn S - S ||",
-                        "sahitya": "Pari chara Vaa nara Sa mu - ha"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "s r g r sn - rs nd N || sr G R - rm - g G ||",
-                        "sahitya": "Pa- - - pa- ha- ra- na Va- - ri va- - - ha"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- gm - G - R S || S S S - rs nd N ||",
-                        "sahitya": "Kari - Ra kshaka Va ra da Ven- - - ka"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "dn S N - r s nd N || rs nd sndp nd pm ||",
-                        "sahitya": "te- - shwa ra- - - - nu- - - ra-- - Ni-nnu-"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "pdnd pm gd pm gr || sd pm gr - rs nd N ||",
-                        "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
-                        "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "P - pm gm dmG- r S || S S S - rs nd N ||",
-                        "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "sr G R - gm N - D || P - - P - - ||",
-                        "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Korinavaramu_Ramapriya.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1. P - pm gm G R || S S S - rs nd N ||",
+                    "sahitya": "Ko ri-na- Vara Mosa gu mai- - - yya"
+                },
+                {
+                    "swara": "sr G R - gm P - M || P - - pm gr gm ||",
+                    "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
+                },
+                {
+                    "swara": "2. pdnd pm gm G R || S S S - rs nd N ||",
+                    "sahitya": "Ko ri-na- Vara Mosa gu mai- - - yya"
+                },
+                {
+                    "swara": "sr gr G - mp dp D || pdnd N - N - d pm ||",
+                    "sahitya": "Ko- - dan- - da paa- - - - ni - -"
+                },
+                {
+                    "swara": "3. pdnd pm gd pm gr || sd pm gr - rs nd N ||",
+                    "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
+                },
+                {
+                    "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
+                    "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
+                },
+                {
+                    "swara": "4. P - pm gm dmG - r S || S S S - rs nd N ||",
+                    "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
+                },
+                {
+                    "swara": "sr G R - gm N - D || P - - P - - ||",
+                    "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - n - d P - M || - p d - n S - - ||",
+                    "sahitya": "Va ri ja - sthra - Ja na ka Sri - -"
+                },
+                {
+                    "swara": "- pd rs nd P - M || - p d - n ns rs R ||",
+                    "sahitya": "Va ra ri ja - sthra - Ja na ka Sri - -"
+                },
+                {
+                    "swara": "G - rgrs nd N || rsnd sn dp ndpm ||",
+                    "sahitya": "Vat san-- - - ga Ni- - shta-ran- -- ga-"
+                },
+                {
+                    "swara": "p d rs nd P dn dpM || - p d - n ns rs R ||",
+                    "sahitya": "Va-ra- ri- ja - - sthra - Ja na ka Sri - -"
+                },
+                {
+                    "swara": "G - rgrs nd N || rsnd sn dp ndpm ||",
+                    "sahitya": "Vat san-- - - ga Ni- - shta-ran- -- ga-"
+                },
+                {
+                    "swara": "pdnd pm gd pm gr || sd pm gr - rs nd N ||",
+                    "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
+                },
+                {
+                    "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
+                    "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
+                },
+                {
+                    "swara": "P - pm gm dmG- r S || S S S - rs nd N ||",
+                    "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
+                },
+                {
+                    "swara": "sr G R - gm N - D || P - - P - - ||",
+                    "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Korinavaramu_Ramapriya.pdf",
+    "avartanasPerRow": 2
 }

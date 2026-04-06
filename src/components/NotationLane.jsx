@@ -95,7 +95,7 @@ export default function NotationLane({
         // Distribute total scroll width proportionally by text length.
         // Total width = contentRows.length * rowPx (preserves scroll speed).
         const totalScrollPx = contentRows.length * rowPx;
-        const textField = isSwara ? 'swaram' : 'sahityam';
+        const textField = isSwara ? 'swara' : 'sahitya';
         const lengths = contentRows.map(r => (r[textField] || ' ').length);
         const totalLen = lengths.reduce((a, b) => a + b, 0) || 1;
         const rowWidths = lengths.map(len => Math.max(rowPx * 0.3, (len / totalLen) * totalScrollPx));
@@ -112,7 +112,7 @@ export default function NotationLane({
                     }}
                 >
                     {contentRows.map((row, idx) => {
-                        const text = isSwara ? row.swaram : row.sahityam;
+                        const text = isSwara ? row.swara : row.sahitya;
                         const isFirstInSection = idx === 0 || contentRows[idx - 1]?.section !== row.section;
                         const w = rowWidths[idx];
 

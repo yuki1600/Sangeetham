@@ -7,142 +7,87 @@
         "tala": "Adi",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S sn D dNd P- pmP -m - mgR rs- - rg rM- | GM mgR - - - - - | - - - - - - - - ||",
-                "sahitya": "ksi ti- - ja- - - ra-- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - S - | sndn dP- - mgR rm P ||",
-                "sahitya": "ksi ti- - ja- - - ra-- ma Nam- - - cin- ta- ye - - - - - - - shri ra- - mam bha-va ta-ra"
-            },
-            {
-                "line_number": 3,
-                "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - S - | sndn dP- - mgR mp dd ||",
-                "sahitya": "Nam ksi ti- - ja- - - ra-- ma Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
-            },
-            {
-                "line_number": 4,
-                "swara": "ns R- S sn D -dNd P mpds dpmg R - -R rM | GM mgR - R - S - | sndn dP- - mgR D P ||",
-                "sahitya": "Nam ksi ti- - ja- - - ra- ma -- Nam- - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
-            },
-            {
-                "line_number": 5,
-                "swara": "ns R- S sn D -dNd P mpds dpmg R - -R rM | GM mgR - R - S -r | sndn dP- - mgR m p D ||",
-                "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
-            },
-            {
-                "line_number": 6,
-                "swara": "nsrg R--s- sn D -dNd P mpds dpmg R - -R rM | GM mgR - R - S -r | sndn dP- - mgR D P ||",
-                "sahitya": "Nam - ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
-            },
-            {
-                "line_number": 7,
-                "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - - - | - - - - - - - - ||",
-                "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - M mg R - P M - D P D P - d P D - | - - - D S - S S - - D - S - nd- D N - d ||",
-                "sahitya": "ksi ti- - pa ti na - ta - caranam - - se- - vita -vibhi - -sa-nam"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - - pp mg R - P M - D P D P - d P D - | - - - D S - S S - D -r- S - nd- D N - d ||",
-                "sahitya": "ksi- ti- - pa ti na - ta - caranam - - se- - vita vi - bhi - - Sa-nam"
-            },
-            {
-                "line_number": 3,
-                "swara": "P - - sM- mg R - P M - D P D P - d P D - | - - - D S - S S - dS- - - S nd - - rs R - ||",
-                "sahitya": "ksi- ti- - pa ti na - ta - caranam - - se- - vita vi - bhi - Sa-nam"
-            },
-            {
-                "line_number": 4,
-                "swara": "- - - sM- mg R - P M - D P D P - d P D - | - - - D S - S S - D S - S nd - - rs R - ||",
-                "sahitya": "ksi- ti- - pa ti na - ta - caranam - - se- - vita vi - bhi - Sa-nam"
-            },
-            {
-                "line_number": 5,
-                "swara": "- - - R - r - R R G gM - mgR S rg rs S | - - - sn D dNd P - P M mg R rm P D - ||",
-                "sahitya": "ksi ti - bhara - Nam- - - - shri- ta- - cin- - ta- - - - mani ma-gha ha-ranam"
-            },
-            {
-                "line_number": 6,
-                "swara": "- - - R - r - R R M gM - mgR S rg rs S | - - - sn D dNd P - P M mg R D P D - ||",
-                "sahitya": "ksi ti - bhara - Nam- - - - shri- ta- - cin- - ta- - - - mani ma-gha ha ranam"
-            },
-            {
-                "line_number": 7,
-                "swara": "nsR- S sn D -dNd P mp ds dpmg R - -R rM | GM mgR - R - S -r | sndn dP- - mgR D P ||",
-                "sahitya": "- - - ksi ti- - ja- - - ra-ma- Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
-            },
-            {
-                "line_number": 8,
-                "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - - - | - - - - - - - - ||",
-                "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "D D D - P P - P M P P mP- mg R RS- R rm | gMg R - S -rg rsS - snD M G R - - - ||",
-                        "sahitya": "sakala su ra ma hi ta sa ra- si- ja pada yuga- Lam- - - sha--ntam a- ti kusha lam- -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "D D D - P P - P M P d - p mP- mg R RS- R rm | gMg R - S -rg rsS - snD M G R - - - ||",
-                        "sahitya": "sakala su ra ma hi ta - sa ra- si- ja pada yuga- Lam- - - sha--ntam a- ti kusha lam- -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "S R M P D D D - P D P - P mg R S - - r- rm | gMg R - - - sD- - | P - ppmg- R rm M mP- - ||",
-                        "sahitya": "Vika si ta va da na ka mala matu- li tam a ma- lam- - - - - vi- - ra nu-ta- bhu ja ba- lam -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "S R M P D D D - P D P - P mg R S - - r- rm | gMg R - - - sD- - | pp-mgR R - rm M mP- - ||",
-                        "sahitya": "Vika si ta va da na ka mala matu- li tam a ma- lam- - - - - vi- - ra nu-t bhu ja ba- lam -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "D D - D sD- P - pp M mg R R- S R rmP - D dr | S - nD- - S - S S | sn D R S R - - - ||",
-                        "sahitya": "shuka sa na ka muni mu- dita guru gu- ha vidi- tam - - - - sho bhana gu-na sahi tam - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "D D - D sD- P - pp mm mg R R- S R rmP - D dr | S - nD- - S - S S | sn D R S SR - - ||",
-                        "sahitya": "shuka sa na ka mu ni- mu- dita guru gu- ha vidi- tam - - - - sho bhana gu-na sahi tam - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "R M M G mg - R - R S rg rsS - dNd PM | D R S - - rD dNd | P - pp mg R rmP D - ||",
-                        "sahitya": "Praka Tita sa- ro - ja naya- nam- pa- lita bha- ktim bhava pa-- sha ha-ra- Na ni-punam"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "R M M G mg - R - rs S rg rsS - dNd PM | D R S - - rD dNd | P - pp mg R rmP D - ||",
-                        "sahitya": "Praka Tita sa- ro - ja naya- nam- pa- lita bha- ktim bhava pa-- sha ha-ra- Na ni-punam"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "(snD) (snD) (sn -dNd) ( ppmg) (sn) (snD)",
-                        "sahitya": "- - ksi ti- - ja- - - ra-ma- Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - - - | - - - - - - - - ||",
-                        "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Kshitija_Ramanam_Devagandhari.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- S sn D dNd P- pmP -m - mgR rs- - rg rM- | GM mgR - - - - - | - - - - - - - - ||",
+                    "sahitya": "ksi ti- - ja- - - ra-- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "- - S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - S - | sndn dP- - mgR rm P ||",
+                    "sahitya": "ksi ti- - ja- - - ra-- ma Nam- - - cin- ta- ye - - - - - - - shri ra- - mam bha-va ta-ra"
+                },
+                {
+                    "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - S - | sndn dP- - mgR mp dd ||",
+                    "sahitya": "Nam ksi ti- - ja- - - ra-- ma Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
+                },
+                {
+                    "swara": "ns R- S sn D -dNd P mpds dpmg R - -R rM | GM mgR - R - S - | sndn dP- - mgR D P ||",
+                    "sahitya": "Nam ksi ti- - ja- - - ra- ma -- Nam- - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
+                },
+                {
+                    "swara": "ns R- S sn D -dNd P mpds dpmg R - -R rM | GM mgR - R - S -r | sndn dP- - mgR m p D ||",
+                    "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
+                },
+                {
+                    "swara": "nsrg R--s- sn D -dNd P mpds dpmg R - -R rM | GM mgR - R - S -r | sndn dP- - mgR D P ||",
+                    "sahitya": "Nam - ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
+                },
+                {
+                    "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - - - | - - - - - - - - ||",
+                    "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - M mg R - P M - D P D P - d P D - | - - - D S - S S - - D - S - nd- D N - d ||",
+                    "sahitya": "ksi ti- - pa ti na - ta - caranam - - se- - vita -vibhi - -sa-nam"
+                },
+                {
+                    "swara": "P - - pp mg R - P M - D P D P - d P D - | - - - D S - S S - D -r- S - nd- D N - d ||",
+                    "sahitya": "ksi- ti- - pa ti na - ta - caranam - - se- - vita vi - bhi - - Sa-nam"
+                },
+                {
+                    "swara": "P - - sM- mg R - P M - D P D P - d P D - | - - - D S - S S - dS- - - S nd - - rs R - ||",
+                    "sahitya": "ksi- ti- - pa ti na - ta - caranam - - se- - vita vi - bhi - Sa-nam"
+                },
+                {
+                    "swara": "- - - sM- mg R - P M - D P D P - d P D - | - - - D S - S S - D S - S nd - - rs R - ||",
+                    "sahitya": "ksi- ti- - pa ti na - ta - caranam - - se- - vita vi - bhi - Sa-nam"
+                },
+                {
+                    "swara": "- - - R - r - R R G gM - mgR S rg rs S | - - - sn D dNd P - P M mg R rm P D - ||",
+                    "sahitya": "ksi ti - bhara - Nam- - - - shri- ta- - cin- - ta- - - - mani ma-gha ha-ranam"
+                },
+                {
+                    "swara": "- - - R - r - R R M gM - mgR S rg rs S | - - - sn D dNd P - P M mg R D P D - ||",
+                    "sahitya": "ksi ti - bhara - Nam- - - - shri- ta- - cin- - ta- - - - mani ma-gha ha ranam"
+                },
+                {
+                    "swara": "nsR- S sn D -dNd P mp ds dpmg R - -R rM | GM mgR - R - S -r | sndn dP- - mgR D P ||",
+                    "sahitya": "- - - ksi ti- - ja- - - ra-ma- Nam- - - cin- ta- ye - - - - - - shri ra- - mam bha-va ta-ra-"
+                },
+                {
+                    "swara": "ns R- S sn D -dNd P pmP -m - m g R rs - rg rM- | GM mgR - R - - - | - - - - - - - - ||",
+                    "sahitya": "Nam ksi ti- - ja- - - ra- ma Nam- - - cin- ta- ye - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Kshitija_Ramanam_Devagandhari.pdf",
+    "avartanasPerRow": 1
 }

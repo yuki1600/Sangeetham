@@ -7,136 +7,113 @@
         "tala": "Adi",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - s - s R G M - p M | P - M G - pm R - ||",
-                "sahitya": "-- Swaa mi naa - tha - pa ri paa la yaa - su- maam-"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - s - s R G M - p N | pnsn P pmmg - pm R - ||",
-                "sahitya": "-- Swaa mi naa - tha - pa ri paa la yaa - su- maam-"
-            },
-            {
-                "line_number": 3,
-                "swara": "s r g- m rs R G M - p N | pn Srs SP - mg pm - np mm rr ||",
-                "sahitya": "Swaa- mi -- naa - tha - pa ri paa - - - la yaa - - - su- maam---"
-            },
-            {
-                "line_number": 4,
-                "swara": "R S S- sp N -S - sm | R -s snpm gmp - m m - rr s ||",
-                "sahitya": "swa- prakaa - sha - val- lee-sha guruguha de-va se- ne-sa"
-            },
-            {
-                "line_number": 5,
-                "swara": "srmr S- np N -S - gm | P - s snpm gmp - s n - pm r ||",
-                "sahitya": "swa- prakaa - sha - val- lee-sha"
-            },
-            {
-                "line_number": 6,
-                "swara": "srmr S- pn S -S - gm | p ns r snpm gmp - s n - pm r ||",
-                "sahitya": "swa- prakaa - sha - val- lee-sha"
-            },
-            {
-                "line_number": 7,
-                "swara": "- - s - s R G M - p M | P - M G - pm R - ||",
-                "sahitya": "-- Swaa mi naa - tha - pa ri paa la yaa - su- maam-"
-            },
-            {
-                "line_number": 8,
-                "swara": "P - M- mg mr - S S - | pn- S - S - gm - pM ||",
-                "sahitya": "Kaa ma ja - na- ka Bha- ra- thee-sa - se- vi tha"
-            },
-            {
-                "line_number": 9,
-                "swara": "P np M- mg mr - S Srs S- | pn- S - S - gm - pM ||",
-                "sahitya": "Kaa ma ja - na- ka Bha- ra- thee-sa - se- vi tha"
-            },
-            {
-                "line_number": 10,
-                "swara": "gmpn s n p p mm - rr Srs S- | pn- S - S - gm - pM ||",
-                "sahitya": "Kaa ma- ja - na- ka Bha- ra- thee-sa - se- vi tha"
-            },
-            {
-                "line_number": 11,
-                "swara": "gmpn s n p p mm - rr Srs S- | pn- S - S sn R sn S ||",
-                "sahitya": "Kaa ma- ja - na- ka Bha- ra- thee-sa se-- vi tha"
-            },
-            {
-                "line_number": 12,
-                "swara": "- - s - s sr G M mgM | M P - P P N pmP ||",
-                "sahitya": "Kaa -rthike- - ya Naa-- ra daa - di Bhaa- vi- ta"
-            },
-            {
-                "line_number": 13,
-                "swara": "- - m gm P N P pnS | N S - - - - - - ||",
-                "sahitya": "- - Vaa -ma de - va Paa-r vati - - - - - -"
-            },
-            {
-                "line_number": 14,
-                "swara": "- - m gm P N P pnS | N S - S S - s - S ||",
-                "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra"
-            },
-            {
-                "line_number": 15,
-                "swara": "snp- m gm P N P pnS | N S - S S sn rs sn ||",
-                "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra -"
-            },
-            {
-                "line_number": 16,
-                "swara": "N -- g -m P N P pnS | N S - S S ns rs R ||",
-                "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra -"
-            },
-            {
-                "line_number": 17,
-                "swara": "P -- g -m P N P pnS | N S - S S sr G M ||",
-                "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra"
-            },
-            {
-                "line_number": 18,
-                "swara": "mrmr S - sn sn- P mg M | pnsn P - gm pm- np pm rs ||",
-                "sahitya": "vaa-- ri jaa- -- stra sam-- mo-- hi taa- - - kaa- - - ra-"
-            },
-            {
-                "line_number": 19,
-                "swara": "S -- g -m P N P pnS | N S - S S sr G M ||",
-                "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra"
-            },
-            {
-                "line_number": 20,
-                "swara": "mrmr S - sn sn- P mg M | pnsn P - gm pn- p p mm rr ||",
-                "sahitya": "vaa-- ri jaa- -- stra sam-- mo-- hi taa- - - kaa- - - ra-"
-            },
-            {
-                "line_number": 21,
-                "swara": "sr sm gp - mn ps - nr s m R | - sn p r S n pm - gm r S n ||",
-                "sahitya": "Kaamitaartha vitharana nipuna charana kaavya naatakaalankaara bharana"
-            },
-            {
-                "line_number": 22,
-                "swara": "S s- r r s - p m rs - s s n - p N | S - - - - - - - ||",
-                "sahitya": "Kaami taar-tha Vitha rana nipu na chara na - - - - - - -"
-            },
-            {
-                "line_number": 23,
-                "swara": "S s- r r s - p m rs - s s n - p N | S - - gm pn pp mm rr ||",
-                "sahitya": "Kaami taar-tha Vitha rana nipu na chara na - - - - - - -"
-            },
-            {
-                "line_number": 24,
-                "swara": "S s- r r s - p m rs - s s n - p n s | S s - r - s - mg M - P m - p p p ||",
-                "sahitya": "Kaami taar-tha Vitha rana nipu na charana Kaavya Naa - ta kaa- lan kaa ra bharana"
-            },
-            {
-                "line_number": 25,
-                "swara": "m g m- p P n- s - s r r s - r g m | m r s- s n p - g g m - s n p p m r r ||",
-                "sahitya": "Bhu-mi Ja laagni Vaa yu Gagana Kirana Bho-dha ru -pa ni - - thya-nan - da kara"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Swaminatha_Nattai.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- - s - s R G M - p M | P - M G - pm R - ||",
+                    "sahitya": "-- Swaa mi naa - tha - pa ri paa la yaa - su- maam-"
+                },
+                {
+                    "swara": "S - s - s R G M - p N | pnsn P pmmg - pm R - ||",
+                    "sahitya": "-- Swaa mi naa - tha - pa ri paa la yaa - su- maam-"
+                },
+                {
+                    "swara": "s r g- m rs R G M - p N | pn Srs SP - mg pm - np mm rr ||",
+                    "sahitya": "Swaa- mi -- naa - tha - pa ri paa - - - la yaa - - - su- maam---"
+                },
+                {
+                    "swara": "R S S- sp N -S - sm | R -s snpm gmp - m m - rr s ||",
+                    "sahitya": "swa- prakaa - sha - val- lee-sha guruguha de-va se- ne-sa"
+                },
+                {
+                    "swara": "srmr S- np N -S - gm | P - s snpm gmp - s n - pm r ||",
+                    "sahitya": "swa- prakaa - sha - val- lee-sha"
+                },
+                {
+                    "swara": "srmr S- pn S -S - gm | p ns r snpm gmp - s n - pm r ||",
+                    "sahitya": "swa- prakaa - sha - val- lee-sha"
+                },
+                {
+                    "swara": "- - s - s R G M - p M | P - M G - pm R - ||",
+                    "sahitya": "-- Swaa mi naa - tha - pa ri paa la yaa - su- maam-"
+                },
+                {
+                    "swara": "P - M- mg mr - S S - | pn- S - S - gm - pM ||",
+                    "sahitya": "Kaa ma ja - na- ka Bha- ra- thee-sa - se- vi tha"
+                },
+                {
+                    "swara": "P np M- mg mr - S Srs S- | pn- S - S - gm - pM ||",
+                    "sahitya": "Kaa ma ja - na- ka Bha- ra- thee-sa - se- vi tha"
+                },
+                {
+                    "swara": "gmpn s n p p mm - rr Srs S- | pn- S - S - gm - pM ||",
+                    "sahitya": "Kaa ma- ja - na- ka Bha- ra- thee-sa - se- vi tha"
+                },
+                {
+                    "swara": "gmpn s n p p mm - rr Srs S- | pn- S - S sn R sn S ||",
+                    "sahitya": "Kaa ma- ja - na- ka Bha- ra- thee-sa se-- vi tha"
+                },
+                {
+                    "swara": "- - s - s sr G M mgM | M P - P P N pmP ||",
+                    "sahitya": "Kaa -rthike- - ya Naa-- ra daa - di Bhaa- vi- ta"
+                },
+                {
+                    "swara": "- - m gm P N P pnS | N S - - - - - - ||",
+                    "sahitya": "- - Vaa -ma de - va Paa-r vati - - - - - -"
+                },
+                {
+                    "swara": "- - m gm P N P pnS | N S - S S - s - S ||",
+                    "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra"
+                },
+                {
+                    "swara": "snp- m gm P N P pnS | N S - S S sn rs sn ||",
+                    "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra -"
+                },
+                {
+                    "swara": "N -- g -m P N P pnS | N S - S S ns rs R ||",
+                    "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra -"
+                },
+                {
+                    "swara": "P -- g -m P N P pnS | N S - S S sr G M ||",
+                    "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra"
+                },
+                {
+                    "swara": "mrmr S - sn sn- P mg M | pnsn P - gm pm- np pm rs ||",
+                    "sahitya": "vaa-- ri jaa- -- stra sam-- mo-- hi taa- - - kaa- - - ra-"
+                },
+                {
+                    "swara": "S -- g -m P N P pnS | N S - S S sr G M ||",
+                    "sahitya": "- - Vaa -ma de - va Paa-r vati - su ku-maa - ra"
+                },
+                {
+                    "swara": "mrmr S - sn sn- P mg M | pnsn P - gm pn- p p mm rr ||",
+                    "sahitya": "vaa-- ri jaa- -- stra sam-- mo-- hi taa- - - kaa- - - ra-"
+                },
+                {
+                    "swara": "sr sm gp - mn ps - nr s m R | - sn p r S n pm - gm r S n ||",
+                    "sahitya": "Kaamitaartha vitharana nipuna charana kaavya naatakaalankaara bharana"
+                },
+                {
+                    "swara": "S s- r r s - p m rs - s s n - p N | S - - - - - - - ||",
+                    "sahitya": "Kaami taar-tha Vitha rana nipu na chara na - - - - - - -"
+                },
+                {
+                    "swara": "S s- r r s - p m rs - s s n - p N | S - - gm pn pp mm rr ||",
+                    "sahitya": "Kaami taar-tha Vitha rana nipu na chara na - - - - - - -"
+                },
+                {
+                    "swara": "S s- r r s - p m rs - s s n - p n s | S s - r - s - mg M - P m - p p p ||",
+                    "sahitya": "Kaami taar-tha Vitha rana nipu na charana Kaavya Naa - ta kaa- lan kaa ra bharana"
+                },
+                {
+                    "swara": "m g m- p P n- s - s r r s - r g m | m r s- s n p - g g m - s n p p m r r ||",
+                    "sahitya": "Bhu-mi Ja laagni Vaa yu Gagana Kirana Bho-dha ru -pa ni - - thya-nan - da kara"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Swaminatha_Nattai.pdf",
+    "avartanasPerRow": 1
 }

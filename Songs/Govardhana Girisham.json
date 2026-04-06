@@ -7,96 +7,50 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. S - M - M M || G - G M N nd D ||",
-                "sahitya": "Go var dhana Gi ri - - sham -"
-            },
-            {
-                "line_number": 2,
-                "swara": "N S - n S - - || - S N nd D - ||",
-                "sahitya": "Sma raa mi A ni sham --"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. S - M - M M || G - gm dn sn nd D ||",
-                "sahitya": "Go var dhana Gi ri - - sham -"
-            },
-            {
-                "line_number": 4,
-                "swara": "N S - n S - - || - gs sn nd D - ||",
-                "sahitya": "Sma raa mi A ni sham --"
-            },
-            {
-                "line_number": 5,
-                "swara": "3. S - M - M M || G - gm dn sg gs nd D ||",
-                "sahitya": "Go var dhana Gi ri - - -- sham -"
-            },
-            {
-                "line_number": 6,
-                "swara": "- dm dn s g n S - || - - S G sn S ||",
-                "sahitya": "Sma raa mi A ni sham --"
-            },
-            {
-                "line_number": 7,
-                "swara": "smg - n - s- d n - - dM || G d m gs- S m g M ||",
-                "sahitya": "Go-pi kaa di Mano haram Garvitha Kam saa diharam"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "1. dd M - M N nn || D M md - G - M ||",
-                        "sahitya": "Go - vin - da Naa - ma- Saa- ram"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "G - m - D - N - || S S S N sgsn ||",
-                        "sahitya": "Ga jee ndra Ra ksha na Dhi- ram"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "2. dd M - dn sg g s || nd dm - md - dd G M ||",
-                        "sahitya": "Go - vin - da Naa - ma- Saa- ram"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "G - m - D - N - || S S G S S - n ||",
-                        "sahitya": "Ga jee ndra Ra ksha na Dhi- ram"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "G S S N N D || D M D - N - ||",
-                        "sahitya": "Kavi jana Hrn Man daa - ram"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "S N S G S - S || S - mg mg S - - ||",
-                        "sahitya": "Kana kaji ta Su sa ree- -- ram - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "g s n s n d n - g N S || - - - - - - ||",
-                        "sahitya": "Ravisashi Nayana Vi laa sam"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "g s n s n d n - g N S || d n D m - d G M M ||",
-                        "sahitya": "Ravisashi Nayana Vi laa sam Ramanee ya Mukhaa bhaasam"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "m g m - g s - n G N S || S s n n d - m D m g s ||",
-                        "sahitya": "Sivagaa naa - di Vis vaa sam Sri Guruguha Manollaasam"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Govardhana_Girisham_Hindolam.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1. S - M - M M || G - G M N nd D ||",
+                    "sahitya": "Go var dhana Gi ri - - sham -"
+                },
+                {
+                    "swara": "N S - n S - - || - S N nd D - ||",
+                    "sahitya": "Sma raa mi A ni sham --"
+                },
+                {
+                    "swara": "2. S - M - M M || G - gm dn sn nd D ||",
+                    "sahitya": "Go var dhana Gi ri - - sham -"
+                },
+                {
+                    "swara": "N S - n S - - || - gs sn nd D - ||",
+                    "sahitya": "Sma raa mi A ni sham --"
+                },
+                {
+                    "swara": "3. S - M - M M || G - gm dn sg gs nd D ||",
+                    "sahitya": "Go var dhana Gi ri - - -- sham -"
+                },
+                {
+                    "swara": "- dm dn s g n S - || - - S G sn S ||",
+                    "sahitya": "Sma raa mi A ni sham --"
+                },
+                {
+                    "swara": "smg - n - s- d n - - dM || G d m gs- S m g M ||",
+                    "sahitya": "Go-pi kaa di Mano haram Garvitha Kam saa diharam"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Govardhana_Girisham_Hindolam.pdf",
+    "avartanasPerRow": 2
 }

@@ -7,102 +7,75 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- n d P - mg R rs rg | gMg R - - - - - ||",
-                "sahitya": "Kolu vai yun na -- de -- --"
-            },
-            {
-                "line_number": 2,
-                "swara": "- n d P - mg R rs rg | gMg R - R - dd p mp dd ||",
-                "sahitya": "Kolu vai yun na -- de -- -- Ko dan-da pa -"
-            },
-            {
-                "line_number": 3,
-                "swara": "d r- s n nd P mg R rs rg | gMg R - R - dd p mp dd ||",
-                "sahitya": "-ni Kolu vai -- yun na -- de -- -- Ko dan-da pa -"
-            },
-            {
-                "line_number": 4,
-                "swara": "d r- s n Dnd P mg R rs rg | gMg R - D - dd p mp dd ||",
-                "sahitya": "-ni Kolu vai -- yun na -- de -- -- Ko dan-da pa -"
-            },
-            {
-                "line_number": 5,
-                "swara": "d r- s n Dnd P Mpm mg rs rg | gMg R - D - dd p mp dd ||",
-                "sahitya": "-ni Kolu vai -- yun -- na -- de -- -- Ko dan-da pa -"
-            },
-            {
-                "line_number": 6,
-                "swara": "d r- s n Dnd Pdp Mpm mg rs rg | gMg R - D - dd p mp dd ||",
-                "sahitya": "-ni Kolu vai -- yun -- na -- de -- -- Ko dan-da pa -"
-            },
-            {
-                "line_number": 7,
-                "swara": "d r- s n Dnd Pdp Mpm mg rs rg | gMg R - - - - - ||",
-                "sahitya": "-ni Kolu vai -- yun -- na -- de -- -- - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- mg r - p M dd P mp D | - sn d - r S sn d- d dNd ||",
-                "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
-            },
-            {
-                "line_number": 2,
-                "swara": "P- mg r - p M dd P mp mpD | - sn d - r S sn d- d dNd ||",
-                "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
-            },
-            {
-                "line_number": 3,
-                "swara": "P- mg r - p M dd P mp mpD | - sn d - r S sn d- d nsR ||",
-                "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
-            },
-            {
-                "line_number": 4,
-                "swara": "- - sndp - mg R dd P mp mpD | - sn d - r S sn d- d nsR ||",
-                "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
-            },
-            {
-                "line_number": 5,
-                "swara": "- r mg - r R sn D ns mg | gr - sn d - n dp mg R mp dd ||",
-                "sahitya": "Vala- chuchu Ko -- - - - - ri- va- - cchi-- Se-- vim - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "dp mp d- d d p - mg r s - r d d p | D - - - - - - ||",
-                        "sahitya": "Udu ra- ja mu kudu Se- -sha sai- - - ya"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "dp mp d - d d p - mg r s - r d d p | D - - dd p- d P - p p pd ||",
-                        "sahitya": "Udu ra- ja Mu kudu Se- -sha sai- - - ya pai- ni Che lan ga ga - ni"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "s n d- d P p- p M m g - r s r g | g M g R - pm d p dp - pm pd ||",
-                        "sahitya": "Puda mi ku maa ri Su gan dhamu Bu- -- yya -- - Nam mina vaa- rala ke-"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "s n d n - dp mpdp mg r s - r d d p | D - - D d - S s - rr rr ||",
-                        "sahitya": "Kadakan- tanu Ko- - ri na vara mi- - - yya - - Tyaa ga raaju Nena runa"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "r r m g r r g r s s - sn ns r g | g M g R - sn d - n dp - mg R mp dd",
-                        "sahitya": "Yadugadu guku madu pulu nan- di- - - yya - - - Sri- - raa- - mai- - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Koluvaiyunnade_Devagandhari.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- n d P - mg R rs rg | gMg R - - - - - ||",
+                    "sahitya": "Kolu vai yun na -- de -- --"
+                },
+                {
+                    "swara": "- n d P - mg R rs rg | gMg R - R - dd p mp dd ||",
+                    "sahitya": "Kolu vai yun na -- de -- -- Ko dan-da pa -"
+                },
+                {
+                    "swara": "d r- s n nd P mg R rs rg | gMg R - R - dd p mp dd ||",
+                    "sahitya": "-ni Kolu vai -- yun na -- de -- -- Ko dan-da pa -"
+                },
+                {
+                    "swara": "d r- s n Dnd P mg R rs rg | gMg R - D - dd p mp dd ||",
+                    "sahitya": "-ni Kolu vai -- yun na -- de -- -- Ko dan-da pa -"
+                },
+                {
+                    "swara": "d r- s n Dnd P Mpm mg rs rg | gMg R - D - dd p mp dd ||",
+                    "sahitya": "-ni Kolu vai -- yun -- na -- de -- -- Ko dan-da pa -"
+                },
+                {
+                    "swara": "d r- s n Dnd Pdp Mpm mg rs rg | gMg R - D - dd p mp dd ||",
+                    "sahitya": "-ni Kolu vai -- yun -- na -- de -- -- Ko dan-da pa -"
+                },
+                {
+                    "swara": "d r- s n Dnd Pdp Mpm mg rs rg | gMg R - - - - - ||",
+                    "sahitya": "-ni Kolu vai -- yun -- na -- de -- -- - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- mg r - p M dd P mp D | - sn d - r S sn d- d dNd ||",
+                    "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
+                },
+                {
+                    "swara": "P- mg r - p M dd P mp mpD | - sn d - r S sn d- d dNd ||",
+                    "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
+                },
+                {
+                    "swara": "P- mg r - p M dd P mp mpD | - sn d - r S sn d- d nsR ||",
+                    "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
+                },
+                {
+                    "swara": "- - sndp - mg R dd P mp mpD | - sn d - r S sn d- d nsR ||",
+                    "sahitya": "Sa la li tha Ma-thu lai - - Sa - - raku Shee—lu lai--"
+                },
+                {
+                    "swara": "- r mg - r R sn D ns mg | gr - sn d - n dp mg R mp dd ||",
+                    "sahitya": "Vala- chuchu Ko -- - - - - ri- va- - cchi-- Se-- vim - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Koluvaiyunnade_Devagandhari.pdf",
+    "avartanasPerRow": 1
 }

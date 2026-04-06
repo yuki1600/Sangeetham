@@ -7,97 +7,86 @@
         "tala": "Adi, Kalai",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "R- - - G- - - M- P- D - - P | S- - - N - D- N - D- P - - M ||",
-                "sahitya": "Sri Kan thi ma thim Shan ka ra Yu va thim -"
-            },
-            {
-                "line_number": 2,
-                "swara": "R- - - G- - - M- P- D - - P | S- - - N - D- D N D- nddp P - M ||",
-                "sahitya": "Sri Kan thi ma thim Shan ka ra Yu va thim -"
-            },
-            {
-                "line_number": 3,
-                "swara": "PMGR srgr G M P D-n dpM P D - - | PDNS N - D- D N D- nddp P - M ||",
-                "sahitya": "Sri Kan thi—ma- thim Shan ka ra Yu - va thim -"
-            },
-            {
-                "line_number": 4,
-                "swara": "PMGR srgr G M P D-n dpM P D - - | PDNS N - D- Pdp dsnd dpP - - M ||",
-                "sahitya": "Sri Kan thi—ma- thim Shan ka ra Yu va -- thim -"
-            },
-            {
-                "line_number": 5,
-                "swara": "PMGR srgr G M P D-n dpM P D - - | PD nsrg rs N- D- Pdp rsnd nddp - - M ||",
-                "sahitya": "Sri Kan thi—ma- thim Shan- - - ka ra Yu va -- thim -"
-            },
-            {
-                "line_number": 6,
-                "swara": "R- - - G - R - R- S- N R ssnd | N - - - M - - - G - - - GR GS ||",
-                "sahitya": "Shree Gu ru guha Ja- na--- neem -- Van -- de --- ham - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "R- - - srgr G M P D-n dpM P D - - | PD nsrg rs N- D- Pdp rsnd nddp - - M ||",
-                "sahitya": "Sri Kan thi— ma- thim Shan - - - - ka ra Yu va -- thim -"
-            },
-            {
-                "line_number": 8,
-                "swara": "R- - - G - R - R- S- N S Rgr sn - ds | ndsn dn - - PM - - pmG - - pdpmgrgs ||",
-                "sahitya": "Shree Gu ru guha Ja- na--- neem -- Van -- de --- ham - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "P- - - GRGR R - R - - - S - | - - S - - - Sgr snD D N nS- - - ||",
-                "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra-- Va—da - naam --"
-            },
-            {
-                "line_number": 2,
-                "swara": "P- - - GRGR R - R - - - S - | - - S - - - nGr ND- D N nS- - - ||",
-                "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra-- Va—da - naam --"
-            },
-            {
-                "line_number": 3,
-                "swara": "P- - - GRGR R - R - - - S - | - - NS rmgr s - sgr snD- D nr snS - - ||",
-                "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra—va da - - naam --"
-            },
-            {
-                "line_number": 4,
-                "swara": "P- - - GRGR R - R - - - S - | - - grsndnsr gmgr S -Sgr snD- D nr snS - - ||",
-                "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra— Va da - - naam --"
-            },
-            {
-                "line_number": 5,
-                "swara": "N- D- - - N - P - N- D - N- | S- - - R- - - M - G - R - - - ||",
-                "sahitya": "Hi ran ya Ma ni ma ya Sho baa Sa da naam"
-            },
-            {
-                "line_number": 6,
-                "swara": "RSP - G- R- - - S- ND dsnd | D- P- N - D- M - G- R - - - ||",
-                "sahitya": "Paa - - ka Shaa - - sa naa- - - - di De - va Vi nu tham"
-            },
-            {
-                "line_number": 7,
-                "swara": "P- M - G- R- - - S- N- S- | G- R- G- M- P - P - P - - - ||",
-                "sahitya": "Pa ra shu raa -- ma Na tha Hi ma Shai- la Su thaam"
-            },
-            {
-                "line_number": 8,
-                "swara": "D N N - D P- M P D- P -m G R- | S- S- N - D - pm N- D- P pm P D - ||",
-                "sahitya": "Shu ka Shou na kaa di Sa daa raa - dhi thaam Shu ddha Thaam ra par nee Tha ta -- sthi thaam"
-            },
-            {
-                "line_number": 9,
-                "swara": "D M P- D- rs N D P - S- n - D- GR | S - M G - r -R - s - N - d - D - p - md pm G R - ||",
-                "sahitya": "Shan-ka dya shto- tthara Sa ha sra Kala shaa bhi shee - kha -- Mo - - daam- Su- ra- hi thaam"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Sri_Kanthimathim_Hemavathi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "R- - - G- - - M- P- D - - P | S- - - N - D- N - D- P - - M ||",
+                    "sahitya": "Sri Kan thi ma thim Shan ka ra Yu va thim -"
+                },
+                {
+                    "swara": "R- - - G- - - M- P- D - - P | S- - - N - D- D N D- nddp P - M ||",
+                    "sahitya": "Sri Kan thi ma thim Shan ka ra Yu va thim -"
+                },
+                {
+                    "swara": "PMGR srgr G M P D-n dpM P D - - | PDNS N - D- D N D- nddp P - M ||",
+                    "sahitya": "Sri Kan thi—ma- thim Shan ka ra Yu - va thim -"
+                },
+                {
+                    "swara": "PMGR srgr G M P D-n dpM P D - - | PDNS N - D- Pdp dsnd dpP - - M ||",
+                    "sahitya": "Sri Kan thi—ma- thim Shan ka ra Yu va -- thim -"
+                },
+                {
+                    "swara": "PMGR srgr G M P D-n dpM P D - - | PD nsrg rs N- D- Pdp rsnd nddp - - M ||",
+                    "sahitya": "Sri Kan thi—ma- thim Shan- - - ka ra Yu va -- thim -"
+                },
+                {
+                    "swara": "R- - - G - R - R- S- N R ssnd | N - - - M - - - G - - - GR GS ||",
+                    "sahitya": "Shree Gu ru guha Ja- na--- neem -- Van -- de --- ham - - -"
+                },
+                {
+                    "swara": "R- - - srgr G M P D-n dpM P D - - | PD nsrg rs N- D- Pdp rsnd nddp - - M ||",
+                    "sahitya": "Sri Kan thi— ma- thim Shan - - - - ka ra Yu va -- thim -"
+                },
+                {
+                    "swara": "R- - - G - R - R- S- N S Rgr sn - ds | ndsn dn - - PM - - pmG - - pdpmgrgs ||",
+                    "sahitya": "Shree Gu ru guha Ja- na--- neem -- Van -- de --- ham - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P- - - GRGR R - R - - - S - | - - S - - - Sgr snD D N nS- - - ||",
+                    "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra-- Va—da - naam --"
+                },
+                {
+                    "swara": "P- - - GRGR R - R - - - S - | - - S - - - nGr ND- D N nS- - - ||",
+                    "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra-- Va—da - naam --"
+                },
+                {
+                    "swara": "P- - - GRGR R - R - - - S - | - - NS rmgr s - sgr snD- D nr snS - - ||",
+                    "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra—va da - - naam --"
+                },
+                {
+                    "swara": "P- - - GRGR R - R - - - S - | - - grsndnsr gmgr S -Sgr snD- D nr snS - - ||",
+                    "sahitya": "Hreem kaa--- ra Bee -- jaa - - kaa - - ra— Va da - - naam --"
+                },
+                {
+                    "swara": "N- D- - - N - P - N- D - N- | S- - - R- - - M - G - R - - - ||",
+                    "sahitya": "Hi ran ya Ma ni ma ya Sho baa Sa da naam"
+                },
+                {
+                    "swara": "RSP - G- R- - - S- ND dsnd | D- P- N - D- M - G- R - - - ||",
+                    "sahitya": "Paa - - ka Shaa - - sa naa- - - - di De - va Vi nu tham"
+                },
+                {
+                    "swara": "P- M - G- R- - - S- N- S- | G- R- G- M- P - P - P - - - ||",
+                    "sahitya": "Pa ra shu raa -- ma Na tha Hi ma Shai- la Su thaam"
+                },
+                {
+                    "swara": "D N N - D P- M P D- P -m G R- | S- S- N - D - pm N- D- P pm P D - ||",
+                    "sahitya": "Shu ka Shou na kaa di Sa daa raa - dhi thaam Shu ddha Thaam ra par nee Tha ta -- sthi thaam"
+                },
+                {
+                    "swara": "D M P- D- rs N D P - S- n - D- GR | S - M G - r -R - s - N - d - D - p - md pm G R - ||",
+                    "sahitya": "Shan-ka dya shto- tthara Sa ha sra Kala shaa bhi shee - kha -- Mo - - daam- Su- ra- hi thaam"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sri_Kanthimathim_Hemavathi.pdf",
+    "avartanasPerRow": 1
 }

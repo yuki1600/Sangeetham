@@ -7,59 +7,53 @@
         "tala": "Adi",
         "composer": "Patnam Subramania Iyer"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S-r G-P D-S N-D | P-d-p m-g-r-s r-s-n-d S-- ||",
-                "sahitya": "Raa-raa venu gopa baala | raa-jita sad-guna jaya-shee- la- ||"
-            },
-            {
-                "line_number": 2,
-                "swara": "S-r G-P M-g P-D | R-s N-d P-m G-r ||",
-                "sahitya": "Saa-ra saa-ksha ne-ra me-mi | maa-ru baa-ri ko-rva le-raa ||"
-            },
-            {
-                "line_number": 3,
-                "swara": "S-r G-G G-- r-g | P-p P-P P- d-p ||",
-                "sahitya": "Nan-da go-paa laa- -ne | nen-du pojaa laa- -nee- ||"
-            },
-            {
-                "line_number": 4,
-                "swara": "S-s S-S g-r-s-n n-d-P | p-d-p-m g-g-R g-p-m-g r-s-r-g ||",
-                "sahitya": "Vindu raaraa sadamala madi-to | mudamala raganaa keduruga gadiyara ||"
-            },
-            {
-                "line_number": 5,
-                "swara": "p-p-P r-r-R g-p-m-g G- | g-p-m-g m-g-r-s r-g-r-s S- ||",
-                "sahitya": "Palu-maa runugaa ravamuna nin- | pilachina palukavu nalugaku raa- ||"
-            },
-            {
-                "line_number": 6,
-                "swara": "r-s-n-d S- m-g-r-g P- | d-p-d-r S- r-s-n-d p-m-g-r ||",
-                "sahitya": "Karivara da-- marimari naa- | adharamu gro- larakani karamuga ||"
-            },
-            {
-                "line_number": 7,
-                "swara": "P- m-g-r-g D- m-g-r-g | P- m-g-r-g P-P P- ||",
-                "sahitya": "Raa nagadara raa mu-rahara | raa- bhavahara raave raa- ||"
-            },
-            {
-                "line_number": 8,
-                "swara": "G- r-s-n-d R- r-s-n-d | S- r-s-n-d S-S S- ||",
-                "sahitya": "Ee- maguvanu ee lalalanu | ee- sogasini cheko raa ||"
-            },
-            {
-                "line_number": 9,
-                "swara": "G-r-s R-R R- R-s-n | D-D D- P-m-g G-G ||",
-                "sahitya": "Korika lim-pon daa- den-damu | neeyan da- cherenu neechen ||"
-            },
-            {
-                "line_number": 10,
-                "swara": "G- s-r-g-d P- r-s-r-g | S- g-r-s-n d-p-m-g r-s-r-g ||",
-                "sahitya": "Ta- maruvaku raa- karamula-che | marimari ninu shara-nane dara ||"
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Raara_Venugopa.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S-r G-P D-S N-D | P-d-p m-g-r-s r-s-n-d S-- ||",
+                    "sahitya": "Raa-raa venu gopa baala | raa-jita sad-guna jaya-shee- la- ||"
+                },
+                {
+                    "swara": "S-r G-P M-g P-D | R-s N-d P-m G-r ||",
+                    "sahitya": "Saa-ra saa-ksha ne-ra me-mi | maa-ru baa-ri ko-rva le-raa ||"
+                },
+                {
+                    "swara": "S-r G-G G-- r-g | P-p P-P P- d-p ||",
+                    "sahitya": "Nan-da go-paa laa- -ne | nen-du pojaa laa- -nee- ||"
+                },
+                {
+                    "swara": "S-s S-S g-r-s-n n-d-P | p-d-p-m g-g-R g-p-m-g r-s-r-g ||",
+                    "sahitya": "Vindu raaraa sadamala madi-to | mudamala raganaa keduruga gadiyara ||"
+                },
+                {
+                    "swara": "p-p-P r-r-R g-p-m-g G- | g-p-m-g m-g-r-s r-g-r-s S- ||",
+                    "sahitya": "Palu-maa runugaa ravamuna nin- | pilachina palukavu nalugaku raa- ||"
+                },
+                {
+                    "swara": "r-s-n-d S- m-g-r-g P- | d-p-d-r S- r-s-n-d p-m-g-r ||",
+                    "sahitya": "Karivara da-- marimari naa- | adharamu gro- larakani karamuga ||"
+                },
+                {
+                    "swara": "P- m-g-r-g D- m-g-r-g | P- m-g-r-g P-P P- ||",
+                    "sahitya": "Raa nagadara raa mu-rahara | raa- bhavahara raave raa- ||"
+                },
+                {
+                    "swara": "G- r-s-n-d R- r-s-n-d | S- r-s-n-d S-S S- ||",
+                    "sahitya": "Ee- maguvanu ee lalalanu | ee- sogasini cheko raa ||"
+                },
+                {
+                    "swara": "G-r-s R-R R- R-s-n | D-D D- P-m-g G-G ||",
+                    "sahitya": "Korika lim-pon daa- den-damu | neeyan da- cherenu neechen ||"
+                },
+                {
+                    "swara": "G- s-r-g-d P- r-s-r-g | S- g-r-s-n d-p-m-g r-s-r-g ||",
+                    "sahitya": "Ta- maruvaku raa- karamula-che | marimari ninu shara-nane dara ||"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Raara_Venugopa.pdf",
+    "avartanasPerRow": 1
 }

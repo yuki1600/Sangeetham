@@ -7,152 +7,95 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P D P - mg M || P M gMg rs S || S-r G R G - || - - - - - - ||",
-                "sahitya": "tula si da - La mula ce- - san- - to-- Samu ga- - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "P D P - mg M || P M gMg rs S || S-r G R G - || gm Pdp",
-                "sahitya": "tula si da - La mula ce- - san- - to-- Samu ga- pu - - - - jin- -- tu"
-            },
-            {
-                "line_number": 3,
-                "swara": "pdpd P - mg M || P M gMg rs S || S- r G R G - || gm Pdp",
-                "sahitya": "tu-la- si da - La mula ce- - san-- to-- Samu ga- pu - - - - jin- -- tu"
-            },
-            {
-                "line_number": 4,
-                "swara": "P-d P-d",
-                "sahitya": "Tu- La si da - La mu-la- ce- - - s an- to-- Sa-mu ga- pu - - - - jin- -- tu"
-            },
-            {
-                "line_number": 5,
-                "swara": "N D mP-",
-                "sahitya": "Tu- La si da - La mu-la- ce- - - s an- to-- Sa-mu ga- pu - - - - jin- - tu-"
-            },
-            {
-                "line_number": 6,
-                "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd N S - || dn Srs -r - sn D P ||",
-                "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - jin- - tu-"
-            },
-            {
-                "line_number": 7,
-                "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D P ||",
-                "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
-            },
-            {
-                "line_number": 8,
-                "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D pm ||",
-                "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
-            },
-            {
-                "line_number": 9,
-                "swara": "- nd - mP-",
-                "sahitya": "tula si da- La mula ce- - - - san to-- Samu ga- - - - - san -"
-            },
-            {
-                "line_number": 10,
-                "swara": "sn- S r - g S R - || - - - - pmgr || - g r - rs S - ||",
-                "sahitya": "-- to-- Samu ga-"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- sr - S n rs R || - g G rg M mgrg || rs S - - - - || - - - - - - ||",
-                "sahitya": "palu ma- - - ru ci ra ka- - la - - mu-- - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- sr - S n rs R || - g G rg M mg R || S rg rSn rs R || -g G rg M G R ||",
-                "sahitya": "palu ma- - - ru ci ra ka- - la - mu palu ma- -- ru ci ra ka- - la mu"
-            },
-            {
-                "line_number": 3,
-                "swara": "S r g rsS -n",
-                "sahitya": "palu ma- -- ru ci ra ka- - la - mu para ma-- tmuni pa—da mu la nu"
-            },
-            {
-                "line_number": 4,
-                "swara": "- s r - rssn",
-                "sahitya": "palu ma- -- ru ci ra ka- - la - mu para ma-- tmuni pa—da mu la nu"
-            },
-            {
-                "line_number": 5,
-                "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D pm ||",
-                "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
-            },
-            {
-                "line_number": 6,
-                "swara": "- nd - mP-",
-                "sahitya": "tula si da- La mula ce- - - - san to-- Samu ga- - - - - san -"
-            },
-            {
-                "line_number": 7,
-                "swara": "sn- S r - g S R - || - - - - mgpm || gr - g R - rs S ||",
-                "sahitya": "-- to-- Samu ga-"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- pd - P - P pm || gm Pdp",
-                        "sahitya": "sara si ru ha- pun - - - - na- - - ga"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- nd - mP-",
-                        "sahitya": "sara si ru ha- pun - - - - na- - - ga cam-- pa-ka- pa - - Tala kuru vaka"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- gm - P d N D || P mdP p m - mg pmgr || S- s s - r - s d dp M || mgpm mgrg rs S ||",
-                        "sahitya": "kara vi - - ra malli - - - ka - - - - sugan dha ra- ja - - su-ma- mu-- la- -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- pd - p D M P || - m M mpdp D D || - S sn D P D || dnsr sr -sn srsr ||",
-                        "sahitya": "dhara ni vi o ka pa ri ya- - - yamu dhar ma-- tmuni sa- -- ke - --"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "S - - - - - || - - - - - - ||",
-                        "sahitya": "Ta"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- pn - d P pm dp || - m M mpdp D D || - S sn D P D || dnsr sr -sn sr S ||",
-                        "sahitya": "dhara ni vi o - ka- pa ri ya- -- yamu dhar ma-- tmuni sa- -- ke - ta"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- ss rg mg R S || sn D dnsr S sn || S S sn dn S N || dnsr sn -dn dd pm ||",
-                        "sahitya": "pura va- - suni shri- ra- - muni va ra tya-- - ga ra -- ja- nu- tu- ni-"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D pm ||",
-                        "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- nd - mP-",
-                        "sahitya": "tula si da- La mula ce- - - - san to-- Samu ga- - - - - san -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "sn- S r - g S R - || - - - - mgpm || gr - g R - rs S ||",
-                        "sahitya": "-- to-- Samu ga-"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Tulasi_Dalamulache_Mayamalavagowla.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P D P - mg M || P M gMg rs S || S-r G R G - || - - - - - - ||",
+                    "sahitya": "tula si da - La mula ce- - san- - to-- Samu ga- - - - - - -"
+                },
+                {
+                    "swara": "P D P - mg M || P M gMg rs S || S-r G R G - || gm Pdp",
+                    "sahitya": "tula si da - La mula ce- - san- - to-- Samu ga- pu - - - - jin- -- tu"
+                },
+                {
+                    "swara": "pdpd P - mg M || P M gMg rs S || S- r G R G - || gm Pdp",
+                    "sahitya": "tu-la- si da - La mula ce- - san-- to-- Samu ga- pu - - - - jin- -- tu"
+                },
+                {
+                    "swara": "P-d P-d",
+                    "sahitya": "Tu- La si da - La mu-la- ce- - - s an- to-- Sa-mu ga- pu - - - - jin- -- tu"
+                },
+                {
+                    "swara": "N D mP-",
+                    "sahitya": "Tu- La si da - La mu-la- ce- - - s an- to-- Sa-mu ga- pu - - - - jin- - tu-"
+                },
+                {
+                    "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd N S - || dn Srs -r - sn D P ||",
+                    "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - jin- - tu-"
+                },
+                {
+                    "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D P ||",
+                    "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
+                },
+                {
+                    "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D pm ||",
+                    "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
+                },
+                {
+                    "swara": "- nd - mP-",
+                    "sahitya": "tula si da- La mula ce- - - - san to-- Samu ga- - - - - san -"
+                },
+                {
+                    "swara": "sn- S r - g S R - || - - - - pmgr || - g r - rs S - ||",
+                    "sahitya": "-- to-- Samu ga-"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- sr - S n rs R || - g G rg M mgrg || rs S - - - - || - - - - - - ||",
+                    "sahitya": "palu ma- - - ru ci ra ka- - la - - mu-- - - - - - - - - - -"
+                },
+                {
+                    "swara": "- sr - S n rs R || - g G rg M mg R || S rg rSn rs R || -g G rg M G R ||",
+                    "sahitya": "palu ma- - - ru ci ra ka- - la - mu palu ma- -- ru ci ra ka- - la mu"
+                },
+                {
+                    "swara": "S r g rsS -n",
+                    "sahitya": "palu ma- -- ru ci ra ka- - la - mu para ma-- tmuni pa—da mu la nu"
+                },
+                {
+                    "swara": "- s r - rssn",
+                    "sahitya": "palu ma- -- ru ci ra ka- - la - mu para ma-- tmuni pa—da mu la nu"
+                },
+                {
+                    "swara": "n dd sn dp ndpm || dppm mgpm gr - sn || srgm pd ns sngr || sn dn Srs -r -sn D pm ||",
+                    "sahitya": "Tu- La si -- da-la- mu-la- ce- - - san- to-- Sa-mu ga- pu - - - - - jin- - tu-"
+                },
+                {
+                    "swara": "- nd - mP-",
+                    "sahitya": "tula si da- La mula ce- - - - san to-- Samu ga- - - - - san -"
+                },
+                {
+                    "swara": "sn- S r - g S R - || - - - - mgpm || gr - g R - rs S ||",
+                    "sahitya": "-- to-- Samu ga-"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Tulasi_Dalamulache_Mayamalavagowla.pdf",
+    "avartanasPerRow": 2
 }

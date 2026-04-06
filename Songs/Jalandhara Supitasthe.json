@@ -7,137 +7,91 @@
         "tala": "Rupakam",
         "composer": "Muthaiah Bhagavatar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "G - P - D N || S ss n d P n D n || S - ndP",
-                "sahitya": "ja lan dhara supi- - - Tha ste - - ja pa-- - ku suma"
-            },
-            {
-                "line_number": 2,
-                "swara": "ndpg S - gp g- g S || - - - - - - || - - - - - - ||",
-                "sahitya": "bha- - su- - he -"
-            },
-            {
-                "line_number": 3,
-                "swara": "G - P - D N || S ss n d P n D n || S - ndP",
-                "sahitya": "ja lan dhara supi- - - Tha ste - - ja pa-- - ku suma bha- - su- - he -"
-            },
-            {
-                "line_number": 4,
-                "swara": "gdppG-",
-                "sahitya": "ja lan dhara supi- - - Tha ste - - ja pa-- - ku suma bha- - su- - he -"
-            },
-            {
-                "line_number": 5,
-                "swara": "gdppG-",
-                "sahitya": "ja lan dhara supi- - - Tha ste - - ja- pa-- - - ku su- ma bha- - su- - he -"
-            },
-            {
-                "line_number": 6,
-                "swara": "G - - pd sn N || N D - - - - || - - - - - nd || sn dp - - - - ||",
-                "sahitya": "ja - lan - - dha ra"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S - S - S - || s n d p D - N S - || - - - - - - ||",
-                "sahitya": "ba lar- kka ko - - - Ti pra bhe"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - S - S - || s n d p D - N S - ||",
-                "sahitya": "ba lar- kka ko - - - Ti pra bhe"
-            },
-            {
-                "line_number": 3,
-                "swara": "d n S d n S S - || N - - n dp - dn S - ||",
-                "sahitya": "ba -- lar- kka ko - Ti - - pra bhe"
-            },
-            {
-                "line_number": 4,
-                "swara": "d n S d n S S - || N - - n dp - dn sGs ||",
-                "sahitya": "ba -- lar- kka ko - Ti - - pra bhe"
-            },
-            {
-                "line_number": 5,
-                "swara": "d n S gp gp pd",
-                "sahitya": "ba -- lar- - -kka ko - Ti - - pra bhe"
-            },
-            {
-                "line_number": 6,
-                "swara": "sgpg gS- - s S || g s n d p g - nd p - g p s ||",
-                "sahitya": "ba- le pari pa- - li - ni - - sau - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "S - S - S - || nsgs",
-                "sahitya": "ba lar- kka ko - - - Ti pra bhe"
-            },
-            {
-                "line_number": 8,
-                "swara": "sgpg S - S sn || g s n d p g - nd p - g p s ||",
-                "sahitya": "ba- le pari pa- - li - ni - - sau - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "gdppG-",
-                "sahitya": "ja lan dhara supi- - - Tha ste - - ja- pa-- - - ku su- ma bha- - su- - he -"
-            },
-            {
-                "line_number": 10,
-                "swara": "G - - pd sn N || N D - - - - || - - - - - nd || sn dp - - - - ||",
-                "sahitya": "ja - lan - - dha ra"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- n d - P - P- P || D - - N n d D || - P pg - dp g p gs || - sg - sgP",
-                        "sahitya": "bhava ro ga ni va - ri Ni - - bhak ta- ja- na - - - pari pa li ni"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- dn dn",
-                        "sahitya": "bhava ro ga ni va - ri -- Ni - - bhak ta- ja- na - - - pari pa li ni"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- d n - S - S - || sN-",
-                        "sahitya": "nava sha kti sva - ru - - pi- Ni - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- s s - S - S - || sN- - -n d p - dn S - || d n S dn S S - || sN- - -n d p - dn S - ||",
-                        "sahitya": "nava sha kti sva - ru - - pi- Ni na- va sha - kti sva - ru - - pi- Ni"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "d n S g p p d n s- S || nsgs",
-                        "sahitya": "na- va sha - - - kti sva - - ru - pi- Ni - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "sgpg S - S sn || g s n d p g - nd p - pG gS",
-                        "sahitya": "||"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "gdppG-",
-                        "sahitya": "ja lan dhara supi- - - Tha ste - - ja- pa-- - - ku su- ma bha- - su- - he -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "G - - P - S || N D - - - - || - - - - - nd || s - n dp - - - - ||",
-                        "sahitya": "ja - lan - - dha ra"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Jalandhara_Supitasthe_Valaji.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "G - P - D N || S ss n d P n D n || S - ndP",
+                    "sahitya": "ja lan dhara supi- - - Tha ste - - ja pa-- - ku suma"
+                },
+                {
+                    "swara": "ndpg S - gp g- g S || - - - - - - || - - - - - - ||",
+                    "sahitya": "bha- - su- - he -"
+                },
+                {
+                    "swara": "G - P - D N || S ss n d P n D n || S - ndP",
+                    "sahitya": "ja lan dhara supi- - - Tha ste - - ja pa-- - ku suma bha- - su- - he -"
+                },
+                {
+                    "swara": "gdppG-",
+                    "sahitya": "ja lan dhara supi- - - Tha ste - - ja pa-- - ku suma bha- - su- - he -"
+                },
+                {
+                    "swara": "gdppG-",
+                    "sahitya": "ja lan dhara supi- - - Tha ste - - ja- pa-- - - ku su- ma bha- - su- - he -"
+                },
+                {
+                    "swara": "G - - pd sn N || N D - - - - || - - - - - nd || sn dp - - - - ||",
+                    "sahitya": "ja - lan - - dha ra"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- S - S - S - || s n d p D - N S - || - - - - - - ||",
+                    "sahitya": "ba lar- kka ko - - - Ti pra bhe"
+                },
+                {
+                    "swara": "S - S - S - || s n d p D - N S - ||",
+                    "sahitya": "ba lar- kka ko - - - Ti pra bhe"
+                },
+                {
+                    "swara": "d n S d n S S - || N - - n dp - dn S - ||",
+                    "sahitya": "ba -- lar- kka ko - Ti - - pra bhe"
+                },
+                {
+                    "swara": "d n S d n S S - || N - - n dp - dn sGs ||",
+                    "sahitya": "ba -- lar- kka ko - Ti - - pra bhe"
+                },
+                {
+                    "swara": "d n S gp gp pd",
+                    "sahitya": "ba -- lar- - -kka ko - Ti - - pra bhe"
+                },
+                {
+                    "swara": "sgpg gS- - s S || g s n d p g - nd p - g p s ||",
+                    "sahitya": "ba- le pari pa- - li - ni - - sau - -"
+                },
+                {
+                    "swara": "S - S - S - || nsgs",
+                    "sahitya": "ba lar- kka ko - - - Ti pra bhe"
+                },
+                {
+                    "swara": "sgpg S - S sn || g s n d p g - nd p - g p s ||",
+                    "sahitya": "ba- le pari pa- - li - ni - - sau - -"
+                },
+                {
+                    "swara": "gdppG-",
+                    "sahitya": "ja lan dhara supi- - - Tha ste - - ja- pa-- - - ku su- ma bha- - su- - he -"
+                },
+                {
+                    "swara": "G - - pd sn N || N D - - - - || - - - - - nd || sn dp - - - - ||",
+                    "sahitya": "ja - lan - - dha ra"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Jalandhara_Supitasthe_Valaji.pdf",
+    "avartanasPerRow": 2
 }

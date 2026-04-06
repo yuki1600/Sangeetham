@@ -7,192 +7,103 @@
         "tala": "Rupakam",
         "composer": "Muthaiah Bhagavatar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S N - P M - || M gm G- gs S - ||",
-                "sahitya": "sudha ma yi su dha - ni dhi"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - - - - - || - - - - - - ||",
-                "sahitya": "- - - - - - - - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "S N - P M - || G gm G- gs S - ||",
-                "sahitya": "sudha ma yi su dha - ni dhi"
-            },
-            {
-                "line_number": 4,
-                "swara": "- ss S G M P || mpN - sn pmpn ||",
-                "sahitya": "(su)ma care- - ksu ko - - - dan - - De-"
-            },
-            {
-                "line_number": 5,
-                "swara": "S N - P M - || pm gm pm- G S - ||",
-                "sahitya": "sudha ma yi su dha - - ni - dhe --"
-            },
-            {
-                "line_number": 6,
-                "swara": "- ss S G M P || mpN - sn pmpn ||",
-                "sahitya": "(su)ma care- - ksu ko - - - dan - - De-"
-            },
-            {
-                "line_number": 7,
-                "swara": "S N - P M - || pm gm pm- gm gs gm ||",
-                "sahitya": "sudha ma yi su dha - - ni - dhe --"
-            },
-            {
-                "line_number": 8,
-                "swara": "pm gm gs - ns gm P || mp ns mg- sn pm pn ||",
-                "sahitya": "su- ma ca re- - ksu ko - - - - dan - - De-"
-            },
-            {
-                "line_number": 9,
-                "swara": "gmpm G - - S || - - - - - - ||",
-                "sahitya": "- - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "-p P N S - G S || N P P - P N S || - - - - - - ||",
-                "sahitya": "Vi dhi- - ndra nu tha vi ma la sa la hau"
-            },
-            {
-                "line_number": 2,
-                "swara": "-p P N S - G S || sn P P - P N S ||",
-                "sahitya": "Vidhi- - ndra nu tha vi ma la sa la hau"
-            },
-            {
-                "line_number": 3,
-                "swara": "-p P N S - G M || mg gs S - ns gs G ||",
-                "sahitya": "Vidhi- - ndra nu tha vi - ma la sa la hau"
-            },
-            {
-                "line_number": 4,
-                "swara": "ns G S - sn pm pn || sn pm gm gs g m P ||",
-                "sahitya": "ve- da sa- - - re- vi-ja- yam-- bi - ke"
-            },
-            {
-                "line_number": 5,
-                "swara": "-p P N S - G M || mg gs S - ns gs G ||",
-                "sahitya": "Vidhi- - ndra nu tha vi - ma la sa la hau"
-            },
-            {
-                "line_number": 6,
-                "swara": "ns G S - sn pm pn || sn pm gm gs g m pn ||",
-                "sahitya": "ve- da sa- - - re- vi-ja- yam-- bi - ke"
-            },
-            {
-                "line_number": 7,
-                "swara": "sg m - gs np n s g s || - n pm g G - s g m p n ||",
-                "sahitya": "Sahityam: sudhamayi sudhanidhi sumacareksu kodande"
-            },
-            {
-                "line_number": 8,
-                "swara": "S N - P M - || pm gm pm- gm gs gm ||",
-                "sahitya": "sudha ma yi su dha - - ni - dhe --"
-            },
-            {
-                "line_number": 9,
-                "swara": "pm gm gs - ns gm P || mp ns mg- sn pm pn ||",
-                "sahitya": "su- ma ca re- - ksu ko - - - - dan - - De-"
-            },
-            {
-                "line_number": 10,
-                "swara": "gmpm G - - S || - - - - - - ||",
-                "sahitya": "- - - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- ps - n - P - M || mg G pmmg gs - n || - - - - - - ||",
-                        "sahitya": "Sara si ja - ksi ja- gan mo- - hi- - ni - - - - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- ps - n - P - M || mg G pmmg gs - n ||",
-                        "sahitya": "Sara si ja - ksi ja- gan mo- - hi- - ni"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- sp - n S - S || - gm - g S G M ||",
-                        "sahitya": "Sara sa ra - ga mani bhu- Sa Ni"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - p N - S G S || N P - np - N ||",
-                        "sahitya": "Ha ri ke- - sha priya - ka- - mi"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "S - - - - - || - - - - - - ||",
-                        "sahitya": "ni - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- - p N - S G S || N P - pn - S ||",
-                        "sahitya": "Ha ri ke- - sha priya - ka- - mi"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "S - p N - ns G S || N P - pn - S ||",
-                        "sahitya": "ni Ha ri ke- - sha priya - ka- - mi"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "S - p N - S G M || G S n s g s G G ||",
-                        "sahitya": "ni Ha ri ke- - sha priya ka- - mi ni"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- - p N - S G M || G S n s g s G G ||",
-                        "sahitya": "- - Ha ri ke- - sha priya ka- - mi ni"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "ns G S - sn pm pn || sn pm gm gs g m pn ||",
-                        "sahitya": "Aa- - nan da - - - - mr- ta- kar- - - Sa- Ni"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- - p N - S G M || G S n s g s G G ||",
-                        "sahitya": "- - Ha ri ke- - sha priya ka- - mi ni"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "ns G S - sn pm pn || sn pm gm gs g m pn ||",
-                        "sahitya": "Aa- - nan da - - - - mr- ta- kar- - - Sa- Ni"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "S np N pm g s g m || P -np s n p m g m p n ||",
-                        "sahitya": "Sahityam: sudhamayi sudhanidhi sumacareksu kodande"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "S N - P M - || pm gm pm- gm gs gm ||",
-                        "sahitya": "sudha ma yi su dha - - ni - dhe --"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "pm gm gs - ns gm P || mp ns mg- sn pm pn ||",
-                        "sahitya": "su- ma ca re- - ksu ko - - - - dan - - De-"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "gmpm G - - S || - - - - - - ||",
-                        "sahitya": "- - - - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sudhamayi_Amrutavarshini.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S N - P M - || M gm G- gs S - ||",
+                    "sahitya": "sudha ma yi su dha - ni dhi"
+                },
+                {
+                    "swara": "- - - - - - || - - - - - - ||",
+                    "sahitya": "- - - - - - - - - - - -"
+                },
+                {
+                    "swara": "S N - P M - || G gm G- gs S - ||",
+                    "sahitya": "sudha ma yi su dha - ni dhi"
+                },
+                {
+                    "swara": "- ss S G M P || mpN - sn pmpn ||",
+                    "sahitya": "(su)ma care- - ksu ko - - - dan - - De-"
+                },
+                {
+                    "swara": "S N - P M - || pm gm pm- G S - ||",
+                    "sahitya": "sudha ma yi su dha - - ni - dhe --"
+                },
+                {
+                    "swara": "- ss S G M P || mpN - sn pmpn ||",
+                    "sahitya": "(su)ma care- - ksu ko - - - dan - - De-"
+                },
+                {
+                    "swara": "S N - P M - || pm gm pm- gm gs gm ||",
+                    "sahitya": "sudha ma yi su dha - - ni - dhe --"
+                },
+                {
+                    "swara": "pm gm gs - ns gm P || mp ns mg- sn pm pn ||",
+                    "sahitya": "su- ma ca re- - ksu ko - - - - dan - - De-"
+                },
+                {
+                    "swara": "gmpm G - - S || - - - - - - ||",
+                    "sahitya": "- - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "-p P N S - G S || N P P - P N S || - - - - - - ||",
+                    "sahitya": "Vi dhi- - ndra nu tha vi ma la sa la hau"
+                },
+                {
+                    "swara": "-p P N S - G S || sn P P - P N S ||",
+                    "sahitya": "Vidhi- - ndra nu tha vi ma la sa la hau"
+                },
+                {
+                    "swara": "-p P N S - G M || mg gs S - ns gs G ||",
+                    "sahitya": "Vidhi- - ndra nu tha vi - ma la sa la hau"
+                },
+                {
+                    "swara": "ns G S - sn pm pn || sn pm gm gs g m P ||",
+                    "sahitya": "ve- da sa- - - re- vi-ja- yam-- bi - ke"
+                },
+                {
+                    "swara": "-p P N S - G M || mg gs S - ns gs G ||",
+                    "sahitya": "Vidhi- - ndra nu tha vi - ma la sa la hau"
+                },
+                {
+                    "swara": "ns G S - sn pm pn || sn pm gm gs g m pn ||",
+                    "sahitya": "ve- da sa- - - re- vi-ja- yam-- bi - ke"
+                },
+                {
+                    "swara": "sg m - gs np n s g s || - n pm g G - s g m p n ||",
+                    "sahitya": "Sahityam: sudhamayi sudhanidhi sumacareksu kodande"
+                },
+                {
+                    "swara": "S N - P M - || pm gm pm- gm gs gm ||",
+                    "sahitya": "sudha ma yi su dha - - ni - dhe --"
+                },
+                {
+                    "swara": "pm gm gs - ns gm P || mp ns mg- sn pm pn ||",
+                    "sahitya": "su- ma ca re- - ksu ko - - - - dan - - De-"
+                },
+                {
+                    "swara": "gmpm G - - S || - - - - - - ||",
+                    "sahitya": "- - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sudhamayi_Amrutavarshini.pdf",
+    "avartanasPerRow": 2
 }

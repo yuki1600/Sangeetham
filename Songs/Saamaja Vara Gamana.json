@@ -7,112 +7,87 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "M - G S N D N N | S - - S | M G M - ||",
-                "sahitya": "Saa ma ja Vara Gama naa - Saa - dhu Hrut"
-            },
-            {
-                "line_number": 2,
-                "swara": "mggm mg S s s n d - n N | S - - S | M G g m d n ||",
-                "sahitya": "Saa ma ja Va-ra- -gama naa - Saa - dhu Hrut - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - n d M m g S n d N | S - - S | M G M - ||",
-                "sahitya": "Saa ma ja Va-ra- Ga- ma naa - Saa - dhu Hrut - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "G - m D - n S - n d m d n | S - S - n | d n s n d m d n ||",
-                "sahitya": "Saa-ra saa-bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
-            },
-            {
-                "line_number": 5,
-                "swara": "s m g s n d M m g S n d N | S - - S | M G M - ||",
-                "sahitya": "Saa- - - ma- ja Va-ra- Ga- ma naa - Saa - dhu Hrut - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "G mg GM Dnd D N S - n d m d n | S - S - n | d n s n d m d n ||",
-                "sahitya": "Saa-- - ra saa- - bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
-            },
-            {
-                "line_number": 7,
-                "swara": "g s s n n d d m m g g s - d n | S - - sg | M g g M - ||",
-                "sahitya": "Saa- - - ma- ja- Va-ra- Ga- ma naa - Saa - dhu Hrut - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "G mg GM Dnd D N S - n d m d n | S - S - n | d n s n d m d n ||",
-                "sahitya": "Saa-- - ra saa- - bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
-            },
-            {
-                "line_number": 9,
-                "swara": "S g s ndD M g s g s - d N | S - - - | - - - - ||",
-                "sahitya": "Saa- - - ma- -ja Va-ra- Gama naa - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - M - N G M D - N | S - - - | - - n d m g ||",
-                "sahitya": "Saa ma Ni ga ma ja Su dhaa- - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - M - N D N S - N | S - dn S | d n S n d m g ||",
-                "sahitya": "Saa ma Ni ga ma ja Su dhaa- - - - - - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - M - N D N S - N | S - g S N | D N S - G ||",
-                "sahitya": "Saa ma Ni ga ma ja Su dhaa- maya Gaa- na Vi"
-            },
-            {
-                "line_number": 4,
-                "swara": "M - m g S s n D d n s -g | S - n D - n | s n d m g m d n ||",
-                "sahitya": "cha ksha-na Gu- na shee-la Da yaa-la vaa-la Maam - Paa- laya"
-            },
-            {
-                "line_number": 5,
-                "swara": "S - M - N D N S - N | S - g S N | D N S - G ||",
-                "sahitya": "Saa ma Ni ga ma ja Su dhaa- maya Gaa- na Vi"
-            },
-            {
-                "line_number": 6,
-                "swara": "M - m g S s n D d n s -g | g s n d m d n s | s n d m g m d n ||",
-                "sahitya": "cha ksha-na Gu- na shee-la Da yaa-la- vaa-la - Maam - Paa- laya"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "S - M -G M - M - | D N d n s n | D M D N ||",
-                        "sahitya": "Ve da Shi ro - maa truja Sa- - - pta- svara"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S - n d M m g S D N | S - - S | M G M - ||",
-                        "sahitya": "Naa daa- - cha- la Dee- pa- - Svee - kru ta -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "S - M N D N S N | S - - N | D N S - G ||",
-                        "sahitya": "Yaa da va kula Mura li - - Vaa - da na Vi"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "M - G - S - n D d n s g | S - n D - n | sn d m g m d n ||",
-                        "sahitya": "no- da Mo - hana ka- ra- Tyaa-ga raa-ja Van--da nee- - ya"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Saamaja_Vara_Gamana_Hindolam.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "M - G S N D N N | S - - S | M G M - ||",
+                    "sahitya": "Saa ma ja Vara Gama naa - Saa - dhu Hrut"
+                },
+                {
+                    "swara": "mggm mg S s s n d - n N | S - - S | M G g m d n ||",
+                    "sahitya": "Saa ma ja Va-ra- -gama naa - Saa - dhu Hrut - -"
+                },
+                {
+                    "swara": "S - n d M m g S n d N | S - - S | M G M - ||",
+                    "sahitya": "Saa ma ja Va-ra- Ga- ma naa - Saa - dhu Hrut - -"
+                },
+                {
+                    "swara": "G - m D - n S - n d m d n | S - S - n | d n s n d m d n ||",
+                    "sahitya": "Saa-ra saa-bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
+                },
+                {
+                    "swara": "s m g s n d M m g S n d N | S - - S | M G M - ||",
+                    "sahitya": "Saa- - - ma- ja Va-ra- Ga- ma naa - Saa - dhu Hrut - -"
+                },
+                {
+                    "swara": "G mg GM Dnd D N S - n d m d n | S - S - n | d n s n d m d n ||",
+                    "sahitya": "Saa-- - ra saa- - bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
+                },
+                {
+                    "swara": "g s s n n d d m m g g s - d n | S - - sg | M g g M - ||",
+                    "sahitya": "Saa- - - ma- ja- Va-ra- Ga- ma naa - Saa - dhu Hrut - -"
+                },
+                {
+                    "swara": "G mg GM Dnd D N S - n d m d n | S - S - n | d n s n d m d n ||",
+                    "sahitya": "Saa-- - ra saa- - bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
+                },
+                {
+                    "swara": "S g s ndD M g s g s - d N | S - - - | - - - - ||",
+                    "sahitya": "Saa- - - ma- -ja Va-ra- Gama naa - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "S - M - N G M D - N | S - - - | - - n d m g ||",
+                    "sahitya": "Saa ma Ni ga ma ja Su dhaa- - - - - - - - -"
+                },
+                {
+                    "swara": "S - M - N D N S - N | S - dn S | d n S n d m g ||",
+                    "sahitya": "Saa ma Ni ga ma ja Su dhaa- - - - - - - - - -"
+                },
+                {
+                    "swara": "S - M - N D N S - N | S - g S N | D N S - G ||",
+                    "sahitya": "Saa ma Ni ga ma ja Su dhaa- maya Gaa- na Vi"
+                },
+                {
+                    "swara": "M - m g S s n D d n s -g | S - n D - n | s n d m g m d n ||",
+                    "sahitya": "cha ksha-na Gu- na shee-la Da yaa-la vaa-la Maam - Paa- laya"
+                },
+                {
+                    "swara": "S - M - N D N S - N | S - g S N | D N S - G ||",
+                    "sahitya": "Saa ma Ni ga ma ja Su dhaa- maya Gaa- na Vi"
+                },
+                {
+                    "swara": "M - m g S s n D d n s -g | g s n d m d n s | s n d m g m d n ||",
+                    "sahitya": "cha ksha-na Gu- na shee-la Da yaa-la- vaa-la - Maam - Paa- laya"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Saamaja_Vara_Gamana_Hindolam.pdf",
+    "avartanasPerRow": 1
 }

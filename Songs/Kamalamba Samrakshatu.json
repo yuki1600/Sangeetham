@@ -7,187 +7,107 @@
         "tala": "Misra Chapu",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1) N - P- | G - M pm || G - R - | S - N - ||",
-                "sahitya": "Ka ma la - - m ba - Sam -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - S | N S M - || G - R - | G - M - ||",
-                "sahitya": "- - Ra ksha tu maa m Sri - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "2) N - P - | G - mdppm - || G - R - | S - N - ||",
-                "sahitya": "Ka ma la - - -- m ba - Sam -"
-            },
-            {
-                "line_number": 4,
-                "swara": "- - S | N S M - || mg mPmGR | G - M - ||",
-                "sahitya": "Ra ksha tu maa - - - - m Sri - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "3) N - P - | G - mdppm - || G - R - | srgr rn - ||",
-                "sahitya": "Ka ma la - - -- m ba - Sam -"
-            },
-            {
-                "line_number": 6,
-                "swara": "- - S | S P mdpm || G - R - | S - g R n ||",
-                "sahitya": "Ra ksha tu maa m Hru - - th"
-            },
-            {
-                "line_number": 7,
-                "swara": "a) S G R | G - M - || N - P - | G - Mpm ||",
-                "sahitya": "Ka ma laa -- Na ga ra Ni"
-            },
-            {
-                "line_number": 8,
-                "swara": "G - R - | G - pmgr || G - S | - - g R n ||",
-                "sahitya": "Va - si ni -- --- --- Hru -"
-            },
-            {
-                "line_number": 9,
-                "swara": "a) S G - | G - M - || P - dmp | G - mdppm - ||",
-                "sahitya": "Ka ma la - - - - Na ga ra Ni"
-            },
-            {
-                "line_number": 10,
-                "swara": "G - R - | G - pmgr || G - S | - - - - ||",
-                "sahitya": "Va - si ni -- --- --- - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "1) P M P | S - P - || N - P - | M G M - ||",
-                "sahitya": "Su ma na Sa ra dhi tha bja mu khi"
-            },
-            {
-                "line_number": 2,
-                "swara": "mdpm G | R G M - || P N P | S N S - ||",
-                "sahitya": "Sun da ra ma na Pri ya ka ra Sa khi"
-            },
-            {
-                "line_number": 3,
-                "swara": "2) P M P | g r S s n r s || N pn n p | M - G M - ||",
-                "sahitya": "Su ma na Sa ra dhi Tha - - bja mu khi"
-            },
-            {
-                "line_number": 4,
-                "swara": "pd mp G | R G M - || P N P | S N S - ||",
-                "sahitya": "Sun da ra ma na Pri ya ka ra Sa khi"
-            },
-            {
-                "line_number": 5,
-                "swara": "S N S | M - m m g g || g r S - | N - S S - ||",
-                "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
-            },
-            {
-                "line_number": 6,
-                "swara": "- - - | - - S S ||",
-                "sahitya": "- - - - - Amba"
-            },
-            {
-                "line_number": 7,
-                "swara": "S N S | M - m m g g || g r S - | N - r s n d P ||",
-                "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
-            },
-            {
-                "line_number": 8,
-                "swara": "P - S - | s s n d n p p m || G M P | M G r G m ||",
-                "sahitya": "Kan tha - tha -- - - ra - Pan --ja ra Su - khi -"
-            },
-            {
-                "line_number": 9,
-                "swara": "S N S | M - m g Mpm || g r S - | N - nsrs n d P ||",
-                "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
-            },
-            {
-                "line_number": 10,
-                "swara": "P - S - | r s n d P M || G M P | M G r G m ||",
-                "sahitya": "Kan tha - tha -- - - ra - Pan --ja ra Su - khi -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "1) N - P - | G - n p p m || G - R - | S - S rs ||",
-                        "sahitya": "Tri pu ra - - dhi - Cha - kre swa"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "N - - | - - N R || sn S - | - - G M ||",
-                        "sahitya": "ri Am - ba Am ba"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "2) N - P- | G - n p p m || G - R- | S - S rs ||",
-                        "sahitya": "Tri pu ra - - dhi - Cha - kre swa"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "N - - | - - S - || G gr R | G - M - ||",
-                        "sahitya": "ri A ni Ma - di Si"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "P - N | P - G - || mg mPm gr | S - G R ||",
-                        "sahitya": "dhee - shwa ri Ni --- tya - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "N - P- | M - mg mPm || gr S - | G R R N ||",
-                        "sahitya": "(kshi) thi pu ra Thrai- - - lo - - kya -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- s G r | G - M - || P - - | D M M dp ||",
-                        "sahitya": "Mo - - ha na Cha kra Va -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "G R G | - M - - || - - M | P - M - ||",
-                        "sahitya": "- - rdhi - ni Pra ka ta"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "P - P - | S - N - || S - M | G - R mgG ||",
-                        "sahitya": "Ri pu Ma hi sha --- su ra"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "gr - S - | S r s N R || S N S | - - N G ||",
-                        "sahitya": "- - dhi Ma rdhi ni - - Ni ga"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "R S - | S N S - || P - - | - - D P ||",
-                        "sahitya": "ma Pu ra - na - thi"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "G - - | M d p pm g r || S - - | - - S S ||",
-                        "sahitya": "Sam ve thi ni (su ra)"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "s s P P | g r r s s n S || s g r R g | s - N s s - g r ||",
-                        "sahitya": "Tri pu re shi Guru gu ha Jana ni Tripura Bhan ja na Ranja ni Madhu"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "r s N s nd | P m P mg R || s g r G m | P m G r gm ||",
-                        "sahitya": "ri pu Saho da ri Ta lo dha ri Tripura Sunda ri Mahe- shwari"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Kamalamba_Samrakshatu_Ananda_Bhairavi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1) N - P- | G - M pm || G - R - | S - N - ||",
+                    "sahitya": "Ka ma la - - m ba - Sam -"
+                },
+                {
+                    "swara": "- - S | N S M - || G - R - | G - M - ||",
+                    "sahitya": "- - Ra ksha tu maa m Sri - -"
+                },
+                {
+                    "swara": "2) N - P - | G - mdppm - || G - R - | S - N - ||",
+                    "sahitya": "Ka ma la - - -- m ba - Sam -"
+                },
+                {
+                    "swara": "- - S | N S M - || mg mPmGR | G - M - ||",
+                    "sahitya": "Ra ksha tu maa - - - - m Sri - -"
+                },
+                {
+                    "swara": "3) N - P - | G - mdppm - || G - R - | srgr rn - ||",
+                    "sahitya": "Ka ma la - - -- m ba - Sam -"
+                },
+                {
+                    "swara": "- - S | S P mdpm || G - R - | S - g R n ||",
+                    "sahitya": "Ra ksha tu maa m Hru - - th"
+                },
+                {
+                    "swara": "a) S G R | G - M - || N - P - | G - Mpm ||",
+                    "sahitya": "Ka ma laa -- Na ga ra Ni"
+                },
+                {
+                    "swara": "G - R - | G - pmgr || G - S | - - g R n ||",
+                    "sahitya": "Va - si ni -- --- --- Hru -"
+                },
+                {
+                    "swara": "a) S G - | G - M - || P - dmp | G - mdppm - ||",
+                    "sahitya": "Ka ma la - - - - Na ga ra Ni"
+                },
+                {
+                    "swara": "G - R - | G - pmgr || G - S | - - - - ||",
+                    "sahitya": "Va - si ni -- --- --- - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "1) P M P | S - P - || N - P - | M G M - ||",
+                    "sahitya": "Su ma na Sa ra dhi tha bja mu khi"
+                },
+                {
+                    "swara": "mdpm G | R G M - || P N P | S N S - ||",
+                    "sahitya": "Sun da ra ma na Pri ya ka ra Sa khi"
+                },
+                {
+                    "swara": "2) P M P | g r S s n r s || N pn n p | M - G M - ||",
+                    "sahitya": "Su ma na Sa ra dhi Tha - - bja mu khi"
+                },
+                {
+                    "swara": "pd mp G | R G M - || P N P | S N S - ||",
+                    "sahitya": "Sun da ra ma na Pri ya ka ra Sa khi"
+                },
+                {
+                    "swara": "S N S | M - m m g g || g r S - | N - S S - ||",
+                    "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
+                },
+                {
+                    "swara": "- - - | - - S S ||",
+                    "sahitya": "- - - - - Amba"
+                },
+                {
+                    "swara": "S N S | M - m m g g || g r S - | N - r s n d P ||",
+                    "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
+                },
+                {
+                    "swara": "P - S - | s s n d n p p m || G M P | M G r G m ||",
+                    "sahitya": "Kan tha - tha -- - - ra - Pan --ja ra Su - khi -"
+                },
+                {
+                    "swara": "S N S | M - m g Mpm || g r S - | N - nsrs n d P ||",
+                    "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
+                },
+                {
+                    "swara": "P - S - | r s n d P M || G M P | M G r G m ||",
+                    "sahitya": "Kan tha - tha -- - - ra - Pan --ja ra Su - khi -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Kamalamba_Samrakshatu_Ananda_Bhairavi.pdf",
+    "avartanasPerRow": 2
 }

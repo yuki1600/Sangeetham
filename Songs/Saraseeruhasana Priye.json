@@ -7,92 +7,59 @@
         "tala": "Adi",
         "composer": "Puliyur Doraiswamy Ayyar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "|| - P M P - M P - | P p - m - pm R S - m g - s ||",
-                "sahitya": "|| Sa ra si Ru ha sa - na - Pri yee- Am - ba"
-            },
-            {
-                "line_number": 2,
-                "swara": "|| gm - P M P - pm gmpn | SrsS - p - pmM R S - m g s ||",
-                "sahitya": "|| Sa ra si Ru ha sa - na - Pri yee- Am - ba"
-            },
-            {
-                "line_number": 3,
-                "swara": "|| gm - P M P - pm gmpn | SrsS - p - pmM R S - S s ||",
-                "sahitya": "|| Sa ra si Ru ha sa - na - Pri yee- Am - ba"
-            },
-            {
-                "line_number": 4,
-                "swara": "|| - S S - R S - G m -m P | - g R s - R s - g m pn p - m g s || gm",
-                "sahitya": "|| Sa da Vee naa Ga na Priye Sa da - nanda hrudaye- - Mani Sa || daye"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "|| - P M P - mg m P - | - - - - - - - mg s ||",
-                "sahitya": "|| Sha ra naa ga- tham - - - - - - - am- ba"
-            },
-            {
-                "line_number": 2,
-                "swara": "|| gm- P M P - mg m P - | - R r s - sn pm - g m pn - pn ||",
-                "sahitya": "|| -- Sha ra naa ga- tham Maa mava Man- jula Shara niki Thana"
-            },
-            {
-                "line_number": 3,
-                "swara": "|| S - P M P - mg m P - | - R r s - sn pm - g m pn - pn ||",
-                "sahitya": "|| ye- Sha ra naa ga- tham Maa mava Man- jula Shara niki Thana"
-            },
-            {
-                "line_number": 4,
-                "swara": "|| S - S - sn pm- g m pn - p n | S - p s - s - rs R - - mg s || gm",
-                "sahitya": "|| ye Sam mo- ditha Kavi jana Hruda ye Saro ja Nila ye Mani va la ye"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "|| - S S - R - S sr G | G - mg pm - R - S S S ||",
-                        "sahitya": "|| Sa ra si Ru ha- - kshi Yu- ga- le - - Amba ||"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "|| - S S - S r g M - P - | M - G - - pm R - - S ||",
-                        "sahitya": "|| Sha ra na - gatha Dee na Va tsa- le Am"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "|| S- gm P N P - ns - p M | Pnp Mpm R S - r G M - ||",
-                        "sahitya": "|| ba Shara din - du Sun- dara Va-- da --- ne - Vima le ||"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "|| pnP - n - S S - - - | - - n pmgm pn- pn s R s ||",
-                        "sahitya": "||sa -- ra swa thy - - - - -- - - - - - - - ||"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "|| pnP - n - S S - - - | snpm gm pn pN s - S - ||",
-                        "sahitya": "||sa raswa thy Sathithe- Shivaguna Guna ja le ||"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "|| s n P S P S S p S s | S R rr S - - s n P M ||",
-                        "sahitya": "||sathathamvidya lo le Sada Su she le Sam va ra kumbha ||"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "|| p m mr S - s n P - gg m - p S | sn P g m s n p m - R r s - s r || gm",
-                        "sahitya": "|| stana yuga le Dhava le Saka la Saam - raa-jya Prathagana Yutha Pu sthaka Dhaa le"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Saraseeruhasana_Priye_Nattai.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "|| - P M P - M P - | P p - m - pm R S - m g - s ||",
+                    "sahitya": "|| Sa ra si Ru ha sa - na - Pri yee- Am - ba"
+                },
+                {
+                    "swara": "|| gm - P M P - pm gmpn | SrsS - p - pmM R S - m g s ||",
+                    "sahitya": "|| Sa ra si Ru ha sa - na - Pri yee- Am - ba"
+                },
+                {
+                    "swara": "|| gm - P M P - pm gmpn | SrsS - p - pmM R S - S s ||",
+                    "sahitya": "|| Sa ra si Ru ha sa - na - Pri yee- Am - ba"
+                },
+                {
+                    "swara": "|| - S S - R S - G m -m P | - g R s - R s - g m pn p - m g s || gm",
+                    "sahitya": "|| Sa da Vee naa Ga na Priye Sa da - nanda hrudaye- - Mani Sa || daye"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "|| - P M P - mg m P - | - - - - - - - mg s ||",
+                    "sahitya": "|| Sha ra naa ga- tham - - - - - - - am- ba"
+                },
+                {
+                    "swara": "|| gm- P M P - mg m P - | - R r s - sn pm - g m pn - pn ||",
+                    "sahitya": "|| -- Sha ra naa ga- tham Maa mava Man- jula Shara niki Thana"
+                },
+                {
+                    "swara": "|| S - P M P - mg m P - | - R r s - sn pm - g m pn - pn ||",
+                    "sahitya": "|| ye- Sha ra naa ga- tham Maa mava Man- jula Shara niki Thana"
+                },
+                {
+                    "swara": "|| S - S - sn pm- g m pn - p n | S - p s - s - rs R - - mg s || gm",
+                    "sahitya": "|| ye Sam mo- ditha Kavi jana Hruda ye Saro ja Nila ye Mani va la ye"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Saraseeruhasana_Priye_Nattai.pdf",
+    "avartanasPerRow": 2
 }

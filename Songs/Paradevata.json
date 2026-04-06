@@ -7,157 +7,91 @@
         "tala": "Adi",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- P G M P - - - - ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
-                "sahitya": "Pa- ra de - - va- ta-- - - -bru- hat-- -- - Ku- cham--- - - ba - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "Pnp mg M - P - - - - ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
-                "sahitya": "Pa- - - ra de - - va- ta-- - - - Bru- hat-- --ku-cham - - - -- - ba - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "Pnp mg M - P - pn Srs N- ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
-                "sahitya": "Pa- - - ra de - - va- ta-- - - - Bru- hat-- --ku-cham - - - -- - ba - - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "Pnp mg M - gmpn pn Srs N- ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
-                "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- --ku-cham - - - -- - ba - - - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "Pnp mg M - gmpn pn Srs N- nr s ndP - - - pn | SG grS - P - - pn S rs sn N pn s - nsrs D P ||",
-                "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- -- - - Ku- cham - - - -- - - - - ba -"
-            },
-            {
-                "line_number": 6,
-                "swara": "P -g M - P -n Srs nd P - M mpnp - pMg grS | Srs Srn - G - M - P - Pnp pn Srs ndpm ||",
-                "sahitya": "Sam - - ra - - - - - - - ksha tu - - - Maam - - Sri- - Ja ga dam - - ba - - - - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "Pnp mg M - P - - - - ns nd P - - - - | - - - - - - - - - - - - - - - - ||",
-                "sahitya": "Pa- - - ra de - - - - va- ta-- - - - - - - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "MP pmG M - P - - - - N - sr nS - | - - - - - - - - - - - - - - - - ||",
-                "sahitya": "Sha- - - - ra- daa - - -- - Ra maa- - - - - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "nmP pmG M - P - - - N- - sr nS p | P-n S- n --D P- - G - M - P - P N ||",
-                "sahitya": "Sha- - - - ra- daa - - -- - Ra maa- San - - - nuta - Sa ka le - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "Mnp pmG M - P - - - N- - sr nS p | P-n srss N --P-d dpM - G - M - P - P N ||",
-                "sahitya": "Sha- - - - ra- daa - - -- - Ra maa- San - - - nu- ta -- - Sa ka le - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "Mnp pmG M - P np pn srss N - Nrs nd P- | P-n srss N -- D P- - G - M - P - P N ||",
-                "sahitya": "Sha- - - - ra- daa - - -- - - - Ra maa- San - - - nu- ta - Sa ka le - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "P-n S - - - S - S mg gr R S - S - p | PN Srs nd P P-n dpM - G - M - P - P N ||",
-                "sahitya": "Sha- ra - - - ccha am- - be- - - - ya Pu- shpa - - - Pa- da- - yu- ga - le -"
-            },
-            {
-                "line_number": 6,
-                "swara": "S R N S N D - D P-d pmG - R S -g rs rn | M G P M P -n S - pn S - S pn Srs nd P ||",
-                "sahitya": "Vara guru guha Ja na - ni -- - Chin maa- li-ni- Sthiratara Sam pat Pradaana Dha ni- ni- -"
-            },
-            {
-                "line_number": 7,
-                "swara": "Pnp mg M - gmpn pn Srs N- nr s ndP - - - pn | SG grS - P - pn S rs sn N pn s - nsrs D P ||",
-                "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- -- Ku- cham - - - -- - - - - ba -"
-            },
-            {
-                "line_number": 8,
-                "swara": "P -g M - P -n Srs nd P - M mpnp - pMg grS | Srs Srn - G - M - P - Pnp pn Srs ndpm ||",
-                "sahitya": "Sam - - ra - - - - - - - ksha tu - - - Maam - - Sri- - Ja ga dam - - ba - - - - - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "Pnp mg M - P - - - - ns nd P - - - - | - - - - - - - - - - - - - - - - ||",
-                "sahitya": "Pa- - - ra de - - - - va- ta-- - - - - - - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "G N P - - - np - M Pnp Mpg M - P - | GM pn S rs nd P- mgmg mpnp - pMg gr S ||",
-                        "sahitya": "Cha-raa - - Cha raa - - - - - - tma ka Pra- pan - - - - -cha Ja- na- - - ni--- - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "Srs Srn S - - MP pmG M - GM P - | N P PN - - - S S - n grR S N S - - ||",
-                        "sahitya": "Chaa- - ru Chan- - - - dra haa- - - si - ni- Su vaa- - - - si - ni- -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "R - S - - - S gr S rn S - - N S - | Smg gr R S - P- pn S rs nd P -gm pn - ||",
-                        "sahitya": "Chi daa - - nan- - - - - da- - Ma haa -- - lin-- ga - - Mo- - - - - - - - hi- ni- -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "Srs Srn nSp - - p dpd m P- pp mm - GM | P - - P ppmm G - - pmG R - R S- - - ||",
-                        "sahitya": "Chi-- - - tdru- - pi- - - ni - Bha- -- - - kta Vi swa - - - - - - - - - - - si ni"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "Srs Srn nSp - - p dpd m P- pp mm - GM | P - - M ppmm G - - mg pm- dp pm - G R S- ||",
-                        "sahitya": "Chi-- - - tdru- - pi- - - ni - Bha- -- - - kta Vi swa - - - - - - - - - - - - - - si ni"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- s p ppmg - R S - - P pgM P N srsn D P | -m G P-m D P - PN sr S - N G R S - - ||",
-                        "sahitya": "Karu naa-- - rasa Pra vaa-- hini Kau- li ni Ka li kal- masha Naa shi-ni Ham- si ni"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- d pd ppmg - R S - - P pgM P N srsn D P | M G P-m D P - PN R S - P G R S - - ||",
-                        "sahitya": "Karu naa-- - rasa Pra vaa-- hini Kau- li ni Ka li kal- masha Naa shi-ni Ham- si ni"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "- P g- M - P - ns nd P -P -n S - r n S - | PG R- S - rn S -n r sn D P - M P G - M - ||",
-                        "sahitya": "Ka- laa- - maa li-ni- - Kaa- tyaa - ya- ni Kan-cha lo cha-ni Bhava Paa- sha Mo - cha ni"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "P g- M - P - ns nd P - Nsn pn S - r n S - | PG R- S - rn S -n r sn D P - m Pdp m -Pg M ||",
-                        "sahitya": "Ka- laa- - maa li-ni- - Kaa- -- tyaa - ya- ni Kan-cha lo cha-ni Bhava Paa-sha Mo - - cha- ni"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "Pnp mg M - gmpn pn Srs N- nr s ndP - - - pn | SG grS - P - pn S rs sn N pn s - nsrs D P ||",
-                        "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- -- Ku- cham - - - -- - - - - ba -"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "P -g M - P -n Srs nd P - M mpnp - pMg grS | Srs Srn - G - M - P - Pnp pn Srs ndpm ||",
-                        "sahitya": "Sam - - ra - - - - - - - ksha tu - - - Maam - - Sri- - Ja ga dam - - ba - - - - - - -"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "Pnp mg M - P - - - - ns nd P - - - - | - - - - - - - - - - - - - - - - ||",
-                        "sahitya": "Pa- - - ra de - - - - va- ta-- - - - - - - - - - - - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Paradevata_Dhanyasi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- P G M P - - - - ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
+                    "sahitya": "Pa- ra de - - va- ta-- - - -bru- hat-- -- - Ku- cham--- - - ba - - - - -"
+                },
+                {
+                    "swara": "Pnp mg M - P - - - - ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
+                    "sahitya": "Pa- - - ra de - - va- ta-- - - - Bru- hat-- --ku-cham - - - -- - ba - - - - -"
+                },
+                {
+                    "swara": "Pnp mg M - P - pn Srs N- ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
+                    "sahitya": "Pa- - - ra de - - va- ta-- - - - Bru- hat-- --ku-cham - - - -- - ba - - - - -"
+                },
+                {
+                    "swara": "Pnp mg M - gmpn pn Srs N- ns ndP - - - pn | Srs Srn - ns snD P - - - M Pnp mp ||",
+                    "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- --ku-cham - - - -- - ba - - - - -"
+                },
+                {
+                    "swara": "Pnp mg M - gmpn pn Srs N- nr s ndP - - - pn | SG grS - P - - pn S rs sn N pn s - nsrs D P ||",
+                    "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- -- - - Ku- cham - - - -- - - - - ba -"
+                },
+                {
+                    "swara": "P -g M - P -n Srs nd P - M mpnp - pMg grS | Srs Srn - G - M - P - Pnp pn Srs ndpm ||",
+                    "sahitya": "Sam - - ra - - - - - - - ksha tu - - - Maam - - Sri- - Ja ga dam - - ba - - - - - - -"
+                },
+                {
+                    "swara": "Pnp mg M - P - - - - ns nd P - - - - | - - - - - - - - - - - - - - - - ||",
+                    "sahitya": "Pa- - - ra de - - - - va- ta-- - - - - - - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "MP pmG M - P - - - - N - sr nS - | - - - - - - - - - - - - - - - - ||",
+                    "sahitya": "Sha- - - - ra- daa - - -- - Ra maa- - - - - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "nmP pmG M - P - - - N- - sr nS p | P-n S- n --D P- - G - M - P - P N ||",
+                    "sahitya": "Sha- - - - ra- daa - - -- - Ra maa- San - - - nuta - Sa ka le - -"
+                },
+                {
+                    "swara": "Mnp pmG M - P - - - N- - sr nS p | P-n srss N --P-d dpM - G - M - P - P N ||",
+                    "sahitya": "Sha- - - - ra- daa - - -- - Ra maa- San - - - nu- ta -- - Sa ka le - -"
+                },
+                {
+                    "swara": "Mnp pmG M - P np pn srss N - Nrs nd P- | P-n srss N -- D P- - G - M - P - P N ||",
+                    "sahitya": "Sha- - - - ra- daa - - -- - - - Ra maa- San - - - nu- ta - Sa ka le - -"
+                },
+                {
+                    "swara": "P-n S - - - S - S mg gr R S - S - p | PN Srs nd P P-n dpM - G - M - P - P N ||",
+                    "sahitya": "Sha- ra - - - ccha am- - be- - - - ya Pu- shpa - - - Pa- da- - yu- ga - le -"
+                },
+                {
+                    "swara": "S R N S N D - D P-d pmG - R S -g rs rn | M G P M P -n S - pn S - S pn Srs nd P ||",
+                    "sahitya": "Vara guru guha Ja na - ni -- - Chin maa- li-ni- Sthiratara Sam pat Pradaana Dha ni- ni- -"
+                },
+                {
+                    "swara": "Pnp mg M - gmpn pn Srs N- nr s ndP - - - pn | SG grS - P - pn S rs sn N pn s - nsrs D P ||",
+                    "sahitya": "Pa- - - ra de - - - - - - - - - va- ta-- - - - Bru- hat-- -- Ku- cham - - - -- - - - - ba -"
+                },
+                {
+                    "swara": "P -g M - P -n Srs nd P - M mpnp - pMg grS | Srs Srn - G - M - P - Pnp pn Srs ndpm ||",
+                    "sahitya": "Sam - - ra - - - - - - - ksha tu - - - Maam - - Sri- - Ja ga dam - - ba - - - - - - -"
+                },
+                {
+                    "swara": "Pnp mg M - P - - - - ns nd P - - - - | - - - - - - - - - - - - - - - - ||",
+                    "sahitya": "Pa- - - ra de - - - - va- ta-- - - - - - - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Paradevata_Dhanyasi.pdf",
+    "avartanasPerRow": 1
 }

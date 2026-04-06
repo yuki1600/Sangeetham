@@ -100,7 +100,7 @@ export function generateCompositionTemplate(title, tala, sections, raga = '', co
         if (remainder > 0) remainder--;
         const content = [];
         for (let i = 0; i < count; i++) {
-            content.push({ swaram: template, sahityam: template });
+            content.push({ swara: template, sahitya: template });
         }
         return { section: sectionName, content };
     });

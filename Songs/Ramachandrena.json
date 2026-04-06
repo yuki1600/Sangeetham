@@ -7,182 +7,83 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S N || S - - - - - ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S N || S - - rg m - g r s ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
-            },
-            {
-                "line_number": 3,
-                "swara": "R - R - R - - || gmP M- P dn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
-            },
-            {
-                "line_number": 4,
-                "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
-            },
-            {
-                "line_number": 5,
-                "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S -n || S - - - - - ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "S S - S - S || S - n N D D P || - - - - - - || - - - - - - ||",
-                "sahitya": "rama - bha - ra ti - - gau- ri - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - s - S - S || S - n N D D P || sns- s - S - S || S - n N D D P ||",
-                "sahitya": "ra-ma - bha - ra ti - - gau- ri - ra-ma - bha - ra ti - - gau- ri -"
-            },
-            {
-                "line_number": 3,
-                "swara": "P P -d - ns R - S || S - n N D D P || P P D - ns R - S || S - n N D D P ||",
-                "sahitya": "ra-ma - bha - ra ti - - gau- ri - ra ma - bha - ra ti - - gau- ri -"
-            },
-            {
-                "line_number": 4,
-                "swara": "S N ns P P-d- pm || P - mg pm G g r r s ||",
-                "sahitya": "rama Na - sva- ru- - pe - - - Na Sri - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - - - - ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "S S - S - S || S - n N D D P || P P -d - ns R - S || S - n N D D P ||",
-                "sahitya": "rama - bha - ra ti - - gau- ri - ra-ma - bha - ra ti - - gau- ri -"
-            },
-            {
-                "line_number": 7,
-                "swara": "S N ns P P-d- pm || P - mg pm G g r r s ||",
-                "sahitya": "rama Na - sva- ru- - pe - - - Na Sri - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
-            },
-            {
-                "line_number": 9,
-                "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S -n || S - - - - - ||",
-                "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "G - M - P - M || G - pm - G R S || - - - - - - || - - - - - - ||",
-                        "sahitya": "ka ma ko - Ti sun da- re - Na - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "G - M - P - M || G - pm - G R S || - n S R - - G || M -g P M - M ||",
-                        "sahitya": "ka ma ko - Ti sun da- re - Na kama ni - - ya kan- dare - Na"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "G - M - P - pm || gmpd pm - G R S || r n S R - - G || M -g P - m - M ||",
-                        "sahitya": "ka ma ko - Ti sun da- re - Na ka-ma ni - - ya kan- da - re - Na"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "G - M - P - pm || gmpd pm - G R S || r n S R - - G || M -g P pm - M ||",
-                        "sahitya": "ka ma ko - Ti sun da- re - Na ka-ma ni - - ya kan- da re - Na"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "G - M - P - pm || G pm mg rm g - g S || - n S R - - G || M -g P pm - M ||",
-                        "sahitya": "ka ma ko - Ti sun da- re - Na- kama ni - - ya kan- dare - Na"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "G - M - P - pm || G pm G rm g - g S || r n S R - - G || M -g P pm - M ||",
-                        "sahitya": "ka ma ko - Ti sun da- re - Na- kama ni - - ya kan- dare - Na"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "P - D N S R || S - n N D D P || - - - - - - || - - - - - - ||",
-                        "sahitya": "ko mala ghana shya- me- na - - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "P - D N S R || S - n N D D P || P - D N S R || S - n N D P M ||",
-                        "sahitya": "ko mala ghana shya- me- na - ko mala ghana shya- me- - na"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "S N S - P D P || mg - pm- G R S ||",
-                        "sahitya": "ko - - da - Nda ra - - - me - Na"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "P - D N S R || S - n N D P M || S N S - P D P || mg - pm- G R S ||",
-                        "sahitya": "ko mala ghana shya- me- - na ko - - da - Nda ra - - - me - Na"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "S s s r g M g R s || - - - - - - ||",
-                        "sahitya": "mamaka hrdaya sthitena - - - - - -"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "S s s r g M g R s || S s s N D g R s ||",
-                        "sahitya": "mamaka hrdaya sthitena maruti gi ta mrtena"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "S s s r g pm g R s || S s s N D g R s ||",
-                        "sahitya": "mamaka hrdaya sthitena maruti gi ta mrtena"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "S n s - r s r s n d p || M - p n d p - m g m - g r s ||",
-                        "sahitya": "ma-nji - ramani man-dita mad guru guha ma- ni te- na"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S -n || S - - - - - ||",
-                        "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "S s s r g pm g R s || S s s N D g R s ||",
-                        "sahitya": "mamaka hrdaya sthitena maruti gi ta mrtena"
-                    },
-                    {
-                        "line_number": 17,
-                        "swara": "S n s - r s r s n d p || M - p n d p - m g m - g r s ||",
-                        "sahitya": "ma-nji - ramani man-dita mad guru guha ma- ni te- na"
-                    },
-                    {
-                        "line_number": 18,
-                        "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
-                        "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
-                    },
-                    {
-                        "line_number": 19,
-                        "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S -n || S - - - - - ||",
-                        "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Ramachandrena_Manji.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S N || S - - - - - ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S N || S - - rg m - g r s ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P dn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S -n || S - - - - - ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "S S - S - S || S - n N D D P || - - - - - - || - - - - - - ||",
+                    "sahitya": "rama - bha - ra ti - - gau- ri - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "S - s - S - S || S - n N D D P || sns- s - S - S || S - n N D D P ||",
+                    "sahitya": "ra-ma - bha - ra ti - - gau- ri - ra-ma - bha - ra ti - - gau- ri -"
+                },
+                {
+                    "swara": "P P -d - ns R - S || S - n N D D P || P P D - ns R - S || S - n N D D P ||",
+                    "sahitya": "ra-ma - bha - ra ti - - gau- ri - ra ma - bha - ra ti - - gau- ri -"
+                },
+                {
+                    "swara": "S N ns P P-d- pm || P - mg pm G g r r s ||",
+                    "sahitya": "rama Na - sva- ru- - pe - - - Na Sri - -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - - - - ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
+                },
+                {
+                    "swara": "S S - S - S || S - n N D D P || P P -d - ns R - S || S - n N D D P ||",
+                    "sahitya": "rama - bha - ra ti - - gau- ri - ra-ma - bha - ra ti - - gau- ri -"
+                },
+                {
+                    "swara": "S N ns P P-d- pm || P - mg pm G g r r s ||",
+                    "sahitya": "rama Na - sva- ru- - pe - - - Na Sri - -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P nn dp || G - pm- dp mGr || Rgs - rg m - g r s ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - si - - ta -"
+                },
+                {
+                    "swara": "R - R - R - - || gmP M- P - dp || G - pm- gr S -n || S - - - - - ||",
+                    "sahitya": "ra ma can - - dre-- Na sam - - - ra- ksi- to - - ham - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Ramachandrena_Manji.pdf",
+    "avartanasPerRow": 2
 }

@@ -54,9 +54,9 @@ export function buildAavartanas(composition) {
         const section = composition[sectionIdx];
         for (let contentIdx = 0; contentIdx < section.content.length; contentIdx++) {
             const entry = section.content[contentIdx];
-            const sahityam = entry.sahityam ?? '';
-            const swaraParts = entry.swaram.split('||').map(s => s.trim()).filter(Boolean);
-            const sahityaParts = sahityam.split('||').map(s => s.trim()).filter(Boolean);
+            const sahitya = entry.sahitya ?? '';
+            const swaraParts = entry.swara.split('||').map(s => s.trim()).filter(Boolean);
+            const sahityaParts = sahitya.split('||').map(s => s.trim()).filter(Boolean);
             const count = Math.max(swaraParts.length, sahityaParts.length);
 
             for (let splitIdx = 0; splitIdx < count; splitIdx++) {
@@ -90,8 +90,8 @@ export function buildContentRows(composition) {
             const entry = section.content[contentIdx];
             rows.push({
                 section: section.section,
-                swaram: entry.swaram || '',
-                sahityam: entry.sahityam || '',
+                swara: entry.swara || '',
+                sahitya: entry.sahitya || '',
                 sectionIdx,
                 contentIdx,
             });
@@ -113,7 +113,7 @@ export function buildContentRows(composition) {
 export function applyTokenEdit(composition, aavartanas, avIdx, tokIdx, field, newText) {
     const row = aavartanas[avIdx];
     const { sectionIdx, contentIdx, splitIdx } = row;
-    const key = field === 'swara' ? 'swaram' : 'sahityam';
+    const key = field === 'swara' ? 'swara' : 'sahitya';
 
     const newComp = structuredClone(composition);
     const entry = newComp[sectionIdx].content[contentIdx];

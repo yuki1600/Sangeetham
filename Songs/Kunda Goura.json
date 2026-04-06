@@ -7,49 +7,45 @@
         "tala": "Rupakam",
         "composer": "Purandaradasa"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "D P | M G R S || R M | P D M P ||",
-                "sahitya": "Kun da | Gou - - ra || Gou - | Ri - va ra ||"
-            },
-            {
-                "line_number": 2,
-                "swara": "D R | R S D P || D P | M G R S ||",
-                "sahitya": "Man di | - ra - ya || ma - | na ma ku ta ||"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - | R - R - || D P | M G R S ||",
-                "sahitya": "Man - | da - ra - || ku su | ma - ka ra ||"
-            },
-            {
-                "line_number": 4,
-                "swara": "S R | M - G R || S R | G R S - ||",
-                "sahitya": "Ma ka | ran - dam - || va - | si thu va - ||"
-            },
-            {
-                "line_number": 5,
-                "swara": "D P | M G R S || R M | P D M P ||",
-                "sahitya": "He ma | ku - - ta || sim - | ha - sa na ||"
-            },
-            {
-                "line_number": 6,
-                "swara": "D R | R S D P || D P | M G R S ||",
-                "sahitya": "Vi ru | pa ra - ksha || ka ru | na - ka ra ||"
-            },
-            {
-                "line_number": 7,
-                "swara": "D P | M G R S || R M | P D M P ||",
-                "sahitya": "Chan da | ma - - ma || man - | da - gi ni ||"
-            },
-            {
-                "line_number": 8,
-                "swara": "D R | R S D P || D P | M G R S ||",
-                "sahitya": "Man - | di ra - ya || ma - | na ma ku ta ||"
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Kunda_Goura.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "D P | M G R S || R M | P D M P ||",
+                    "sahitya": "Kun da | Gou - - ra || Gou - | Ri - va ra ||"
+                },
+                {
+                    "swara": "D R | R S D P || D P | M G R S ||",
+                    "sahitya": "Man di | - ra - ya || ma - | na ma ku ta ||"
+                },
+                {
+                    "swara": "S - | R - R - || D P | M G R S ||",
+                    "sahitya": "Man - | da - ra - || ku su | ma - ka ra ||"
+                },
+                {
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Ma ka | ran - dam - || va - | si thu va - ||"
+                },
+                {
+                    "swara": "D P | M G R S || R M | P D M P ||",
+                    "sahitya": "He ma | ku - - ta || sim - | ha - sa na ||"
+                },
+                {
+                    "swara": "D R | R S D P || D P | M G R S ||",
+                    "sahitya": "Vi ru | pa ra - ksha || ka ru | na - ka ra ||"
+                },
+                {
+                    "swara": "D P | M G R S || R M | P D M P ||",
+                    "sahitya": "Chan da | ma - - ma || man - | da - gi ni ||"
+                },
+                {
+                    "swara": "D R | R S D P || D P | M G R S ||",
+                    "sahitya": "Man - | di ra - ya || ma - | na ma ku ta ||"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Kunda_Goura.pdf",
+    "avartanasPerRow": 2
 }

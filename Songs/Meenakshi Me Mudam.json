@@ -7,152 +7,95 @@
         "tala": "Adi",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - - - Srs Srd S - r G - pmR G M | P - - - M - D M | G R- G - gmpm g R - ||",
-                "sahitya": "mi - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - - - pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
-                "sahitya": "mi - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - - -d pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
-                "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - - -d pmgr grsd S - r G - pmR G M | gmds - - ND P M | G R- G - gdpm g R - ||",
-                "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "S - - - - rg rs S Srs DN PD P - | S-r G - G - r G - | - - gmpm g R - S - ||",
-                "sahitya": "me- - - -- ca- - ka- -- Hngi - - ra- - - ja-- ma- - - tahn-- gi - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - - - dsrg rs S Srs DN - - PD | P - - S-r G - - G - r | G - - - gmpm g R - ||",
-                "sahitya": "me- - - --- ca- - ka- -- - - Hngi - - - - ra- - - ja-- ma - - - tahn-- gi - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "S - - -d pmgr grsd S - r G - pmR G M | gmds - - ND P M | M G - G R S - - - ||",
-                "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- de- - - hi - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - - - P-m- DM G R - G -r G - -G - | gmpm- gR - S - - Srd | S- r G M P - - - ||",
-                "sahitya": "ma- - na-- ma- - - tru- - - me- - - - - ye -- - - - -- ma-- - ye - --"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - - - P-m- DM G R - G -r G - -G - | gmpm- gR - S - - rsnd - | S- r G M P - - - ||",
-                "sahitya": "ma- - na-- ma- - - tru- - - me- - - - - ye -- - - - -- ma-- - ye - --"
-            },
-            {
-                "line_number": 3,
-                "swara": "- - G - m - P- MP mpD - - D - D sn | PD P - - D dpP - | S - dsR rs S - - ||",
-                "sahitya": "- - ma ra - ka ta- - - - - - cha- - -- ye- - - - shiva- - - ja- - - - ye -- - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "- - G - m - P- MP mpD - - D - D sn | PD P - - D dP- - | S - dsrg rs S - - ||",
-                "sahitya": "- - ma ra - ka ta- - - - - - cha- - -- ye- - - - shiva- - - ja- - - - ye -- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "- - G - m - P- MP mpD - - D - dr sn | PD P - - dn dpP - | S - dsrg rs S - - ||",
-                "sahitya": "- - ma ra - ka ta- - - - - - cha- - -- ye- - - - shiva- - - ja- - - - ye -- - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "DS R - S - R - S - snD N- P D - P P - | G M - R G - - G N D | M G - G md m- gR S S ||",
-                "sahitya": "mi-na lo - ca ni - pa—sha mo - cani - ma- ni ni - ka dam- - ba va na- - va- sini"
-            },
-            {
-                "line_number": 7,
-                "swara": "DS R - S - R - S - snD N- P D - P P - | ndpm -R G - - G N D | M G - G md m- gR S S ||",
-                "sahitya": "mi-na lo - ca ni - pa—sha mo - cani - ma- ni ni - ka dam- - ba va na- - va- sini"
-            },
-            {
-                "line_number": 8,
-                "swara": "DS R - sr G- R - S - snD D- md N - D dpP - | ndpm -R G - - G N D | M G - G md m- gR S S ||",
-                "sahitya": "mi-na lo - ca ni - pa—sha mo - ca ni - ma- ni ni - ka dam- - ba va na- - va- sini"
-            },
-            {
-                "line_number": 9,
-                "swara": "S - - -d pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
-                "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "S - - - - rg rs S Srs DN PD P - | S-r G - G - r G - | - - gmpm g R - S - ||",
-                "sahitya": "me- - - -- ca- - ka- -- Hngi - - ra- - - ja-- ma- - - tahn-- gi - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - gdpm R- S - - - - rg rsnd -- S - R - | G - - - - - - - M | P - - - - - G M - R ||",
-                        "sahitya": "- - ma-dhu- ra- - - - - pu-ri- - - -ni- la - ye- - - - - - ma Ni - - - - va la -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "GM- gd pm R- S - - -d -pmgr sd - S - R - | G-r G - - - - - D | dpP - - - - - G M - R ||",
-                        "sahitya": "- ye ma-dhu- ra- - - - - pu-ri- -- -ni- la - ye- - - - - - ma Ni - - - - va la -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "GM- P P P - - -m N D D P P - - - | P-m- DM G R - G R | G - - G - gmpm- R - ||",
-                        "sahitya": "- ye mala ya - - - dhva-ja - pa- - Ndya ra- - - ja - - - ta- na- - - ye -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "S - - G - m - D mdS - - - R S R- R Srg | rsnd - - s S S - Srd | - - S - r - G - - ||",
-                        "sahitya": "- - vi- dhu - vi Dam-- - - - - - ba na - - - - -vada ne-- - - - - - vi- ja - ye - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- - - G - m - D mdS - - - R S R- R Srg | rsnd - - s S S rg rsnd - | - - S - r - G - - ||",
-                        "sahitya": "- - vi- dhu - vi Dam-- - - - - - ba na - - - - -vada ne-- - - - - - vi- ja - ye - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "gR - - - S - - - snD N D P - - - | G M R G G N D M | g R - - pm gR - S - ||",
-                        "sahitya": "vi- - - Na- - ga-- - - na - - - da - sha- ga- ma - ka - - - kri- ye - - --"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "gd pm G R S - S D S R G - pmgr G - | P P - -P D P - S - | R - S - sn D- R S - ||",
-                        "sahitya": "ma-dhu-mada mo di ta hrda ye sa-da-ye maha de - va sun dare- sha- - priye-"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "S R G- R S S - S - S R- sn D dSn- MD | G R S- sn N D - P P | -m- gr G - gmdm G R ||",
-                        "sahitya": "Madhumura ripu so- da ri sha-- to-- da ri vi dhi guru guha vashahn- ka- ri- shahn-kari"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "S - - -d pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
-                        "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "S - - - - rg rs S Srs DN PD P - | S-r G - G - r G - | - - gmpm g R - S - ||",
-                        "sahitya": "me- - - -- ca- - ka- -- Hngi - - ra- - - ja-- ma- - - tahn-- gi - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Meenakshi_Me_Mudam_Purvi_Kalyani.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S - - - Srs Srd S - r G - pmR G M | P - - - M - D M | G R- G - gmpm g R - ||",
+                    "sahitya": "mi - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
+                },
+                {
+                    "swara": "S - - - pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
+                    "sahitya": "mi - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
+                },
+                {
+                    "swara": "S - - -d pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
+                    "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
+                },
+                {
+                    "swara": "S - - -d pmgr grsd S - r G - pmR G M | gmds - - ND P M | G R- G - gdpm g R - ||",
+                    "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
+                },
+                {
+                    "swara": "S - - - - rg rs S Srs DN PD P - | S-r G - G - r G - | - - gmpm g R - S - ||",
+                    "sahitya": "me- - - -- ca- - ka- -- Hngi - - ra- - - ja-- ma- - - tahn-- gi - - - -"
+                },
+                {
+                    "swara": "S - - - dsrg rs S Srs DN - - PD | P - - S-r G - - G - r | G - - - gmpm g R - ||",
+                    "sahitya": "me- - - --- ca- - ka- -- - - Hngi - - - - ra- - - ja-- ma - - - tahn-- gi - -"
+                },
+                {
+                    "swara": "S - - -d pmgr grsd S - r G - pmR G M | gmds - - ND P M | M G - G R S - - - ||",
+                    "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- de- - - hi - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P - - - P-m- DM G R - G -r G - -G - | gmpm- gR - S - - Srd | S- r G M P - - - ||",
+                    "sahitya": "ma- - na-- ma- - - tru- - - me- - - - - ye -- - - - -- ma-- - ye - --"
+                },
+                {
+                    "swara": "P - - - P-m- DM G R - G -r G - -G - | gmpm- gR - S - - rsnd - | S- r G M P - - - ||",
+                    "sahitya": "ma- - na-- ma- - - tru- - - me- - - - - ye -- - - - -- ma-- - ye - --"
+                },
+                {
+                    "swara": "- - G - m - P- MP mpD - - D - D sn | PD P - - D dpP - | S - dsR rs S - - ||",
+                    "sahitya": "- - ma ra - ka ta- - - - - - cha- - -- ye- - - - shiva- - - ja- - - - ye -- - -"
+                },
+                {
+                    "swara": "- - G - m - P- MP mpD - - D - D sn | PD P - - D dP- - | S - dsrg rs S - - ||",
+                    "sahitya": "- - ma ra - ka ta- - - - - - cha- - -- ye- - - - shiva- - - ja- - - - ye -- - -"
+                },
+                {
+                    "swara": "- - G - m - P- MP mpD - - D - dr sn | PD P - - dn dpP - | S - dsrg rs S - - ||",
+                    "sahitya": "- - ma ra - ka ta- - - - - - cha- - -- ye- - - - shiva- - - ja- - - - ye -- - -"
+                },
+                {
+                    "swara": "DS R - S - R - S - snD N- P D - P P - | G M - R G - - G N D | M G - G md m- gR S S ||",
+                    "sahitya": "mi-na lo - ca ni - pa—sha mo - cani - ma- ni ni - ka dam- - ba va na- - va- sini"
+                },
+                {
+                    "swara": "DS R - S - R - S - snD N- P D - P P - | ndpm -R G - - G N D | M G - G md m- gR S S ||",
+                    "sahitya": "mi-na lo - ca ni - pa—sha mo - cani - ma- ni ni - ka dam- - ba va na- - va- sini"
+                },
+                {
+                    "swara": "DS R - sr G- R - S - snD D- md N - D dpP - | ndpm -R G - - G N D | M G - G md m- gR S S ||",
+                    "sahitya": "mi-na lo - ca ni - pa—sha mo - ca ni - ma- ni ni - ka dam- - ba va na- - va- sini"
+                },
+                {
+                    "swara": "S - - -d pmgr grsd S - r G - pmR G nd | dpP - - M - D M | G R- G - gmpm g R - ||",
+                    "sahitya": "mi - - - - - - - - - na-- - - ksi- - - - me - - mu dam- - - de- - - - - hi - -"
+                },
+                {
+                    "swara": "S - - - - rg rs S Srs DN PD P - | S-r G - G - r G - | - - gmpm g R - S - ||",
+                    "sahitya": "me- - - -- ca- - ka- -- Hngi - - ra- - - ja-- ma- - - tahn-- gi - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Meenakshi_Me_Mudam_Purvi_Kalyani.pdf",
+    "avartanasPerRow": 1
 }

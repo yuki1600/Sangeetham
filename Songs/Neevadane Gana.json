@@ -7,197 +7,166 @@
         "tala": "Khanda Chapu",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- P P - P || pPm P - P ||",
-                "sahitya": "Nee va-da ne- - Gaa-na"
-            },
-            {
-                "line_number": 2,
-                "swara": "P- n dpP - P || pmR gm P P ||",
-                "sahitya": "Nee va- - da ne- - Gaa- na"
-            },
-            {
-                "line_number": 3,
-                "swara": "P- n dp P P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - da ne- - Gaa- na"
-            },
-            {
-                "line_number": 4,
-                "swara": "dnS sn D P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - da ne- - Gaa- na"
-            },
-            {
-                "line_number": 5,
-                "swara": "dnrs sn nd P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - da ne- - Gaa- na"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - sn nd P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - da ne- - Gaa- na"
-            },
-            {
-                "line_number": 7,
-                "swara": "S - sn nd P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - - - - da- ne- - Gaa- na"
-            },
-            {
-                "line_number": 8,
-                "swara": "P P nd dp P || pd pm rg M R ||",
-                "sahitya": "Nikhi la- Lo-- ka- ni- daa- - na"
-            },
-            {
-                "line_number": 9,
-                "swara": "S S S - rg mp || pd pm pd pm rg ||",
-                "sahitya": "Nimi sha mor- - va-ga- Ka-la- - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "G M - R S || rsns rg mp dn ||",
-                "sahitya": "naa- - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S S - S || S - S S - ||",
-                "sahitya": "De vaa-di De- va! Bhu-"
-            },
-            {
-                "line_number": 2,
-                "swara": "- sn g r r s S || sn D N dpP - ||",
-                "sahitya": "- de- va!- Va ra pa- - ksha! Raa- -"
-            },
-            {
-                "line_number": 3,
-                "swara": "- P D N S || sn D P - D N || S - N D P || nd pm - P P ||",
-                "sahitya": "jee va - ksha! Saa-- dhu ja- na Jee vana! Sa naa- - - tana!"
-            },
-            {
-                "line_number": 4,
-                "swara": "P P D N S || sn D P - dn S || sgrs nr sn ds || nd pm - P P ||",
-                "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - tana!"
-            },
-            {
-                "line_number": 5,
-                "swara": "P P D N S || sn D P - dn S || grsn rs nd ds || nd pm - P P ||",
-                "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - tana!"
-            },
-            {
-                "line_number": 6,
-                "swara": "P P D N S || sn D P - dn S || pdns rg mp pd || nd pm - P P ||",
-                "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - tana!"
-            },
-            {
-                "line_number": 7,
-                "swara": "P P D N S || sn D P - nd pm || rmgr S S pm || nd pm sn gr sn ||",
-                "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - ta- na!- -"
-            },
-            {
-                "line_number": 8,
-                "swara": "dn Srs Nsn Dnd P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - - - - da- ne- - Gaa- na"
-            },
-            {
-                "line_number": 9,
-                "swara": "P P nd dp P || pd pm rg M R ||",
-                "sahitya": "Nikhi la- Lo-- ka- ni- daa- - na"
-            },
-            {
-                "line_number": 10,
-                "swara": "S S S - rg mp || pd pm pd pm rg ||",
-                "sahitya": "Nimi sha mor- - va-ga- Ka-la- - -"
-            },
-            {
-                "line_number": 11,
-                "swara": "G M - R S || rsns rg mp dn ||",
-                "sahitya": "naa- - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 12,
-                "swara": "- P - P - P || pPg M - P || - P - P - P || pmR g m P P ||",
-                "sahitya": "Sa tyam bu Ni-- tyam bu Sa tyam bu Ni-- tyam-- bu"
-            },
-            {
-                "line_number": 13,
-                "swara": "- P - P - P || pmR g m P P || - p p - d P P || pd pm rg M R ||",
-                "sahitya": "- Sa tyam bu Ni-- tyam-- bu Sama -ra mu na Sau--- ryam- bu"
-            },
-            {
-                "line_number": 14,
-                "swara": "S - S R S S || pm M P - P || - pp - d P G || M P - - - ||",
-                "sahitya": "- A tyan- ta Ru- - pam bu Ami - ta Ba la - mu - - -"
-            },
-            {
-                "line_number": 15,
-                "swara": "- S S - S || S - S S S || - sn g r S S || sn D D P P ||",
-                "sahitya": "Nit yo- tsa vam bu ga la Nee- ku- Nija daa-- su da-- ni"
-            },
-            {
-                "line_number": 16,
-                "swara": "- S S - S || S - S S S || - S g r S S || sn D dnsnDP P ||",
-                "sahitya": "Nit yo- tsa vam bu ga la Nee- ku- Nija daa-- su - - da ni"
-            },
-            {
-                "line_number": 17,
-                "swara": "- S S - S || S - S S S || - sn g r S S || sn D N D P ||",
-                "sahitya": "Nit yo- tsa vam bu ga la Nee- ku- Nija daa-- su da- ni"
-            },
-            {
-                "line_number": 18,
-                "swara": "- P D N S || sn D P - D N || S - - - - || - - - - - ||",
-                "sahitya": "Ta thyam- bu Bal- ku Sri - - - - - - - - - - -"
-            },
-            {
-                "line_number": 19,
-                "swara": "- P D N S || sn D P - D N || S - N D P || nd pp - g P P ||",
-                "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga raa- jaa - - - - rchi ta!"
-            },
-            {
-                "line_number": 20,
-                "swara": "- P D N S || sn D P - DN || sgrs nr sn ds || nd pm - P P ||",
-                "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga- raa- - - jaa - - - -rchi ta!"
-            },
-            {
-                "line_number": 21,
-                "swara": "- P D N S || sn D P - dnsr || grsn rs nd ds || nd pm - P P ||",
-                "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga- raa- - - jaa - - - -rchi ta!"
-            },
-            {
-                "line_number": 22,
-                "swara": "- P D N S || sn D P - dn sr || pdns R rg mp || nd pm - P P ||",
-                "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga raa- - - jaa - - - -rchi ta!"
-            },
-            {
-                "line_number": 23,
-                "swara": "- P D N S || sn D P - md pm || rmgr S rg m p || nd pm sn gr sn ||",
-                "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga raa- - - jaa - - - rchi- ta!- - -"
-            },
-            {
-                "line_number": 24,
-                "swara": "dn Srs Nsn Dnd P-d || pmR gm P P ||",
-                "sahitya": "Nee va- - - - - da- ne- - Gaa- na"
-            },
-            {
-                "line_number": 25,
-                "swara": "P P nd dp P || pd pm rg M R ||",
-                "sahitya": "Nikhi la- Lo-- ka- ni- daa- - na"
-            },
-            {
-                "line_number": 26,
-                "swara": "S S S - rg mp || pd pm pd pm rg ||",
-                "sahitya": "Nimi sha mor- - va-ga- Ka-la- - -"
-            },
-            {
-                "line_number": 27,
-                "swara": "G M - R S || rsns rg mp dn ||",
-                "sahitya": "naa- - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Neevadane_Gana_Saaranga.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- P P - P || pPm P - P ||",
+                    "sahitya": "Nee va-da ne- - Gaa-na"
+                },
+                {
+                    "swara": "P- n dpP - P || pmR gm P P ||",
+                    "sahitya": "Nee va- - da ne- - Gaa- na"
+                },
+                {
+                    "swara": "P- n dp P P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - da ne- - Gaa- na"
+                },
+                {
+                    "swara": "dnS sn D P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - da ne- - Gaa- na"
+                },
+                {
+                    "swara": "dnrs sn nd P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - da ne- - Gaa- na"
+                },
+                {
+                    "swara": "S - sn nd P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - da ne- - Gaa- na"
+                },
+                {
+                    "swara": "S - sn nd P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - - - - da- ne- - Gaa- na"
+                },
+                {
+                    "swara": "P P nd dp P || pd pm rg M R ||",
+                    "sahitya": "Nikhi la- Lo-- ka- ni- daa- - na"
+                },
+                {
+                    "swara": "S S S - rg mp || pd pm pd pm rg ||",
+                    "sahitya": "Nimi sha mor- - va-ga- Ka-la- - -"
+                },
+                {
+                    "swara": "G M - R S || rsns rg mp dn ||",
+                    "sahitya": "naa- - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- S S - S || S - S S - ||",
+                    "sahitya": "De vaa-di De- va! Bhu-"
+                },
+                {
+                    "swara": "- sn g r r s S || sn D N dpP - ||",
+                    "sahitya": "- de- va!- Va ra pa- - ksha! Raa- -"
+                },
+                {
+                    "swara": "- P D N S || sn D P - D N || S - N D P || nd pm - P P ||",
+                    "sahitya": "jee va - ksha! Saa-- dhu ja- na Jee vana! Sa naa- - - tana!"
+                },
+                {
+                    "swara": "P P D N S || sn D P - dn S || sgrs nr sn ds || nd pm - P P ||",
+                    "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - tana!"
+                },
+                {
+                    "swara": "P P D N S || sn D P - dn S || grsn rs nd ds || nd pm - P P ||",
+                    "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - tana!"
+                },
+                {
+                    "swara": "P P D N S || sn D P - dn S || pdns rg mp pd || nd pm - P P ||",
+                    "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - tana!"
+                },
+                {
+                    "swara": "P P D N S || sn D P - nd pm || rmgr S S pm || nd pm sn gr sn ||",
+                    "sahitya": "Ra jee va - ksha! Saa-- dhu ja- na Jee va-na! Sa naa- - - ta- na!- -"
+                },
+                {
+                    "swara": "dn Srs Nsn Dnd P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - - - - da- ne- - Gaa- na"
+                },
+                {
+                    "swara": "P P nd dp P || pd pm rg M R ||",
+                    "sahitya": "Nikhi la- Lo-- ka- ni- daa- - na"
+                },
+                {
+                    "swara": "S S S - rg mp || pd pm pd pm rg ||",
+                    "sahitya": "Nimi sha mor- - va-ga- Ka-la- - -"
+                },
+                {
+                    "swara": "G M - R S || rsns rg mp dn ||",
+                    "sahitya": "naa- - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "- P - P - P || pPg M - P || - P - P - P || pmR g m P P ||",
+                    "sahitya": "Sa tyam bu Ni-- tyam bu Sa tyam bu Ni-- tyam-- bu"
+                },
+                {
+                    "swara": "- P - P - P || pmR g m P P || - p p - d P P || pd pm rg M R ||",
+                    "sahitya": "- Sa tyam bu Ni-- tyam-- bu Sama -ra mu na Sau--- ryam- bu"
+                },
+                {
+                    "swara": "S - S R S S || pm M P - P || - pp - d P G || M P - - - ||",
+                    "sahitya": "- A tyan- ta Ru- - pam bu Ami - ta Ba la - mu - - -"
+                },
+                {
+                    "swara": "- S S - S || S - S S S || - sn g r S S || sn D D P P ||",
+                    "sahitya": "Nit yo- tsa vam bu ga la Nee- ku- Nija daa-- su da-- ni"
+                },
+                {
+                    "swara": "- S S - S || S - S S S || - S g r S S || sn D dnsnDP P ||",
+                    "sahitya": "Nit yo- tsa vam bu ga la Nee- ku- Nija daa-- su - - da ni"
+                },
+                {
+                    "swara": "- S S - S || S - S S S || - sn g r S S || sn D N D P ||",
+                    "sahitya": "Nit yo- tsa vam bu ga la Nee- ku- Nija daa-- su da- ni"
+                },
+                {
+                    "swara": "- P D N S || sn D P - D N || S - - - - || - - - - - ||",
+                    "sahitya": "Ta thyam- bu Bal- ku Sri - - - - - - - - - - -"
+                },
+                {
+                    "swara": "- P D N S || sn D P - D N || S - N D P || nd pp - g P P ||",
+                    "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga raa- jaa - - - - rchi ta!"
+                },
+                {
+                    "swara": "- P D N S || sn D P - DN || sgrs nr sn ds || nd pm - P P ||",
+                    "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga- raa- - - jaa - - - -rchi ta!"
+                },
+                {
+                    "swara": "- P D N S || sn D P - dnsr || grsn rs nd ds || nd pm - P P ||",
+                    "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga- raa- - - jaa - - - -rchi ta!"
+                },
+                {
+                    "swara": "- P D N S || sn D P - dn sr || pdns R rg mp || nd pm - P P ||",
+                    "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga raa- - - jaa - - - -rchi ta!"
+                },
+                {
+                    "swara": "- P D N S || sn D P - md pm || rmgr S rg m p || nd pm sn gr sn ||",
+                    "sahitya": "Ta thyam- bu Bal- ku Sri - Tyaa ga raa- - - jaa - - - rchi- ta!- - -"
+                },
+                {
+                    "swara": "dn Srs Nsn Dnd P-d || pmR gm P P ||",
+                    "sahitya": "Nee va- - - - - da- ne- - Gaa- na"
+                },
+                {
+                    "swara": "P P nd dp P || pd pm rg M R ||",
+                    "sahitya": "Nikhi la- Lo-- ka- ni- daa- - na"
+                },
+                {
+                    "swara": "S S S - rg mp || pd pm pd pm rg ||",
+                    "sahitya": "Nimi sha mor- - va-ga- Ka-la- - -"
+                },
+                {
+                    "swara": "G M - R S || rsns rg mp dn ||",
+                    "sahitya": "naa- - - - - - - - - - - - -"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Neevadane_Gana_Saaranga.pdf",
+    "avartanasPerRow": 2
 }

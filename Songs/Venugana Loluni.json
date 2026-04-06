@@ -7,167 +7,91 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - r - m P - M || P - M G R mg ||",
-                "sahitya": "Ve - nugaa - na Lo- lu ni Gana-"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - n R - R rm || MP - dp mg R ||",
-                "sahitya": "Ve-yi Kan-- nu lu Gaa- - va- le- ne-"
-            },
-            {
-                "line_number": 3,
-                "swara": "- - r - m P - M || pDp M G R mg ||",
-                "sahitya": "Ve - nugaa - na Lo- lu ni Gana-"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - n S - R R || P - N - dp pm mg ||",
-                "sahitya": "Ve-yi Kan-- nu lu Gaa- - va- le- ne-"
-            },
-            {
-                "line_number": 5,
-                "swara": "R - r - m P - M || mp Dnd dp mg - -r mg ||",
-                "sahitya": "- - Ve - nugaa - na Lo- - - - - - luni - Gana-"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - n S - R R || P S -n rs n dp - m ||",
-                "sahitya": "Ve-yi Kan-- nu lu Gaa- - -va- le-- ne"
-            },
-            {
-                "line_number": 7,
-                "swara": "g R- r - m P - M || mp D nd mpdp mg - -g rs ||",
-                "sahitya": "- - Ve - nugaa - na Lo- - - - - --- luni - Gana-"
-            },
-            {
-                "line_number": 8,
-                "swara": "ns rm r mpn mpns || Rgr Srs nd - pd d P- m || gr",
-                "sahitya": "Ve--yi Kan-- nu lu Gaa- - --- va- le-- ne"
-            },
-            {
-                "line_number": 9,
-                "swara": "gR- r - m P - pm || pDp M G R mg ||",
-                "sahitya": "- Ve - nugaa - na Lo- lu ni Gana-"
-            },
-            {
-                "line_number": 10,
-                "swara": "S - n S - R R || MP --dp mg R ||",
-                "sahitya": "Ve-yi Kan-- nu lu Gaa- - va- le- ne-"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - n - s- R - R || rmgr R - rg R sn || S- - - - s R ||",
-                "sahitya": "Ve -nu lel - la Dri-- shti Chu- - tti- - - - - - Ali"
-            },
-            {
-                "line_number": 2,
-                "swara": "N - S- R - R || rmgr R - G R S ||",
-                "sahitya": "Ve nu lel - la Dri-- shti Chu- - tti-"
-            },
-            {
-                "line_number": 3,
-                "swara": "rsN S- R - rp || ppmg R - rm gr S ||",
-                "sahitya": "Ve-- nu lel - la Dri-- shti Chu- - tti-"
-            },
-            {
-                "line_number": 4,
-                "swara": "srgr ns rs gr rs || n d P nd dp mg G ||",
-                "sahitya": "Ve-- yu-chu- Mro-- kku-chu Raa- - - - ga"
-            },
-            {
-                "line_number": 5,
-                "swara": "R - n - s- R - rp || ppmg R - rm gr S ||",
-                "sahitya": "- Ve-- nu lel - la Dri-- shti Chu- - tti-"
-            },
-            {
-                "line_number": 6,
-                "swara": "srgr ns rs Rgr Srs || n d P Dnd Pdp mg G ||",
-                "sahitya": "Ve-- yu-chu- Mro-- kku-chu Raa- - - - ga"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- ps - n D P - || pm dp M G R R ||",
-                        "sahitya": "Vika sita Pan ka- ja- Va da nalu"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- s r - s- N D P || pn S N - S - - ||",
-                        "sahitya": "Vivi dha Ga tula Naa-- da ka - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- ps - n D P - || mp d ndp - m G R R ||",
-                        "sahitya": "Vika sita Pan ka- ja- Va da nalu"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- s r - s- ss nd P || pn S N - S - - ||",
-                        "sahitya": "Vivi dha Ga tu-la Naa-- da ka - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- rm - p - rs nd P || pm pd - p - mg R R ||",
-                        "sahitya": "Noka -ri Ko- ka- ru Ka- ra- - - muna nidi"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- ns rgrs- - n D P || pn S N S - - ||",
-                        "sahitya": "Yo ra- - Ka nula Ju- - da ga --"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- r p - m G S R || - s r - m P P P ||",
-                        "sahitya": "Su kha - Rava mulu - Gala - Ta ru nulu"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "- pm P - P sn P || pn S N S - - ||",
-                        "sahitya": "Soga su gaa - nu Baa-- daga - -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- sn S - R R R || rmgr R - rg R sn || S - - - - - ||",
-                        "sahitya": "Saka la Su rulu Tyaa-- ga raa- - - ja - - - - - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "- sn S - R R R || rpmg R - rg R S ||",
-                        "sahitya": "Saka la Su rulu Tyaa-- ga raa- - - ja"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- sn S - R R P || ppmg R - rm gr S ||",
-                        "sahitya": "Saka la Su rulu Tyaa-- ga raa- - - ja"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "s r gr ns rs gr rs || n d P nd dp mg R ||",
-                        "sahitya": "Sa-khu- ni - - Ve- - da - ga Va- - - - - cche"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "- pn S - R R P || ppmg R - rm gr S ||",
-                        "sahitya": "Saka la Su rulu Tyaa-- ga raa- - - ja"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "srgr ns rs Rgr Srs || n d P Dnd Pdp mg R ||",
-                        "sahitya": "Sa-khu- ni - - Ve- - da - ga Va- - - - - cche-- (venu)"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Venugana_Loluni_Kedaragowlai.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- - r - m P - M || P - M G R mg ||",
+                    "sahitya": "Ve - nugaa - na Lo- lu ni Gana-"
+                },
+                {
+                    "swara": "S - n R - R rm || MP - dp mg R ||",
+                    "sahitya": "Ve-yi Kan-- nu lu Gaa- - va- le- ne-"
+                },
+                {
+                    "swara": "- - r - m P - M || pDp M G R mg ||",
+                    "sahitya": "Ve - nugaa - na Lo- lu ni Gana-"
+                },
+                {
+                    "swara": "S - n S - R R || P - N - dp pm mg ||",
+                    "sahitya": "Ve-yi Kan-- nu lu Gaa- - va- le- ne-"
+                },
+                {
+                    "swara": "R - r - m P - M || mp Dnd dp mg - -r mg ||",
+                    "sahitya": "- - Ve - nugaa - na Lo- - - - - - luni - Gana-"
+                },
+                {
+                    "swara": "S - n S - R R || P S -n rs n dp - m ||",
+                    "sahitya": "Ve-yi Kan-- nu lu Gaa- - -va- le-- ne"
+                },
+                {
+                    "swara": "g R- r - m P - M || mp D nd mpdp mg - -g rs ||",
+                    "sahitya": "- - Ve - nugaa - na Lo- - - - - --- luni - Gana-"
+                },
+                {
+                    "swara": "ns rm r mpn mpns || Rgr Srs nd - pd d P- m || gr",
+                    "sahitya": "Ve--yi Kan-- nu lu Gaa- - --- va- le-- ne"
+                },
+                {
+                    "swara": "gR- r - m P - pm || pDp M G R mg ||",
+                    "sahitya": "- Ve - nugaa - na Lo- lu ni Gana-"
+                },
+                {
+                    "swara": "S - n S - R R || MP --dp mg R ||",
+                    "sahitya": "Ve-yi Kan-- nu lu Gaa- - va- le- ne-"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - n - s- R - R || rmgr R - rg R sn || S- - - - s R ||",
+                    "sahitya": "Ve -nu lel - la Dri-- shti Chu- - tti- - - - - - Ali"
+                },
+                {
+                    "swara": "N - S- R - R || rmgr R - G R S ||",
+                    "sahitya": "Ve nu lel - la Dri-- shti Chu- - tti-"
+                },
+                {
+                    "swara": "rsN S- R - rp || ppmg R - rm gr S ||",
+                    "sahitya": "Ve-- nu lel - la Dri-- shti Chu- - tti-"
+                },
+                {
+                    "swara": "srgr ns rs gr rs || n d P nd dp mg G ||",
+                    "sahitya": "Ve-- yu-chu- Mro-- kku-chu Raa- - - - ga"
+                },
+                {
+                    "swara": "R - n - s- R - rp || ppmg R - rm gr S ||",
+                    "sahitya": "- Ve-- nu lel - la Dri-- shti Chu- - tti-"
+                },
+                {
+                    "swara": "srgr ns rs Rgr Srs || n d P Dnd Pdp mg G ||",
+                    "sahitya": "Ve-- yu-chu- Mro-- kku-chu Raa- - - - ga"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Venugana_Loluni_Kedaragowlai.pdf",
+    "avartanasPerRow": 2
 }

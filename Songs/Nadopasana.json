@@ -7,251 +7,90 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. M P M - P D P S N | D P - R S - - - ||",
-                "sahitya": "Ve- - dho - - ddha- - - - ru lu- - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "2. M P M - P D P S N | D P - R S - - - ||",
-                "sahitya": "Ve- - dho - - ddha- - - - ru lu- - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "N S N - S R S rs N | N - n - D P - d N - ||",
-                "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "3. dp mp - m - P D P S N | D P - R S - - - ||",
-                "sahitya": "Ve- - - dho - - ddha- - - - ru lu- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "N S N - S R S rs N | N - n - D P - d N - ||",
-                "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "4. dp mp - m - P D P S N | D P - R S - - - ||",
-                "sahitya": "Ve- - - dho - - ddha- - - - ru lu- - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "N S N - S R S rs N | N - n - D P - - - ||",
-                "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "- M M - mg R RP | P - - - - - - - ||",
-                "sahitya": "-vish wa - mel- - - - la - - - - - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "- M M - mg R RP | P - P -m N D P - ||",
-                "sahitya": "-vish wa - mel- - - - la - Nin-- - - di-"
-            },
-            {
-                "line_number": 10,
-                "swara": "S N D P S - - -d | sN -d N- D - P - - - ||",
-                "sahitya": "yun- - - de - - - - Vaa- - - ra - lu - - -"
-            },
-            {
-                "line_number": 11,
-                "swara": "M - M - mg R RP | P - P -m N D P - ||",
-                "sahitya": "Vish wa - mel- - - - la - Nin-- - - di-"
-            },
-            {
-                "line_number": 12,
-                "swara": "S N D P S - - - | Mg -g M- R S rs N - ||",
-                "sahitya": "yun- - - de - - - - Vaa- - - ra lu -- - -"
-            },
-            {
-                "line_number": 13,
-                "swara": ". dpM - - mg G - GM | P - - D P - - - ||",
-                "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-            },
-            {
-                "line_number": 14,
-                "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
-                "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
-            },
-            {
-                "line_number": 15,
-                "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
-                "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
-            },
-            {
-                "line_number": 16,
-                "swara": "- - - - NS M G | M P D P S N DP ||",
-                "sahitya": "- - - - Vela si ri O - Mana saa!- - -"
-            },
-            {
-                "line_number": 17,
-                "swara": "dpM - - mg G - GM | P - - D P - - - ||",
-                "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "commands. .",
-                        "sahitya": "Pallavi"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "1. M - - mg G - GM | P - - dn dp - - - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "2. pmM - - mg G - GM | P - - dn dp - - - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "3. pmM - - mg G - GM | P - - D P -d P -d ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "4. pmM - - mg G - GM | P - - D P -d N - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "5. dpM - - mg G - GM | P - - D P - - - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
-                        "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
-                        "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- - - - NS M G | M P D P S N DP ||",
-                        "sahitya": "- - - - Vela si ri O - Mana saa!- - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "dpM - - mg G - GM | P - - D P - - - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 1,
-                        "swara": "- -P P - - - D P | M - pdP - - nd pmM - - - ||",
-                        "sahitya": "- Man traa- - - tmu- lu - - - - - Yan- tra- - - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "M P M - G R S G - r | G - m P - M P - - - ||",
-                        "sahitya": "Tan- - traa - - tmu- lu - - - Ma- ri - - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- G -m - P D P - S N | D P - M P mg R - S -r ||",
-                        "sahitya": "Man- -- van - - tra - mu - Len - - - - no -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "sn D P -S - - G-r | gM- d pm- R - S - - ||",
-                        "sahitya": "Ga- - la vaa - - ra - - - - - - lu - - - - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "a) MP M - P D P SN | P D P - R S - - - ||",
-                        "sahitya": "Tan- - tri - - la - ya - - Swa ra - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "N S N - S R -S rsnd | N - n - - D P - - - ||",
-                        "sahitya": "Gaa- - na - Vi loo-- - - - - lu ru- - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "b) dp mp - m - P D P S N | P D P - R S - - - ||",
-                        "sahitya": "Tan- - - tri - - la - ya - - Swa ra - - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "N S N - S R S rs nd | N - n - D P - d N - ||",
-                        "sahitya": "Gaa- - na - Vi loo-- - - - - lu ru- - -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "c) dp mp - m - P D P S N | P D P - R S - - - ||",
-                        "sahitya": "Tan- - - tri - - la - ya - - Swa ra - - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "N S N - S R S rs nd | N - n - D P - - - ||",
-                        "sahitya": "Gaa- - na - Vi loo-- - - - - lu ru- - -"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- M M - mg R RP | P - - - - - - - ||",
-                        "sahitya": "Tyaa ga - raa- - - - ja - - - - - - -"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "- M M - mg R RP | P - P -m N D P - ||",
-                        "sahitya": "Tyaa ga - raa- - - - ja - Van- dyu- lu -"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "S N D P S - - -d | dN -d N- D - P - - - ||",
-                        "sahitya": "- - - - Swa - - - tan- - - tru - lu- - -"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "- M M - mg R RP | P - P -m N D P - ||",
-                        "sahitya": "Tyaa ga - raa- - - - ja - Van- dyu- lu -"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "S N D P S - - - | Mg -g M- R S rs N - ||",
-                        "sahitya": "- - - - Swa - - - tan- - - tru lu- - - -"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": ". dpM - - mg G - GM | P - - D P - - - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    },
-                    {
-                        "line_number": 17,
-                        "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
-                        "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
-                    },
-                    {
-                        "line_number": 18,
-                        "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
-                        "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
-                    },
-                    {
-                        "line_number": 19,
-                        "swara": "- - - - NS M G | M P D P S N DP ||",
-                        "sahitya": "- - - - Vela si ri O - Mana saa!- - -"
-                    },
-                    {
-                        "line_number": 20,
-                        "swara": "dpM - - mg G - GM | P - - D P - - - ||",
-                        "sahitya": "Naa - do- - - paa- - - - sa na- - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Nadopasana_Begada.pdf"
+    "composition": [
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "1. M P M - P D P S N | D P - R S - - - ||",
+                    "sahitya": "Ve- - dho - - ddha- - - - ru lu- - -"
+                },
+                {
+                    "swara": "2. M P M - P D P S N | D P - R S - - - ||",
+                    "sahitya": "Ve- - dho - - ddha- - - - ru lu- - -"
+                },
+                {
+                    "swara": "N S N - S R S rs N | N - n - D P - d N - ||",
+                    "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
+                },
+                {
+                    "swara": "3. dp mp - m - P D P S N | D P - R S - - - ||",
+                    "sahitya": "Ve- - - dho - - ddha- - - - ru lu- - -"
+                },
+                {
+                    "swara": "N S N - S R S rs N | N - n - D P - d N - ||",
+                    "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
+                },
+                {
+                    "swara": "4. dp mp - m - P D P S N | D P - R S - - - ||",
+                    "sahitya": "Ve- - - dho - - ddha- - - - ru lu- - -"
+                },
+                {
+                    "swara": "N S N - S R S rs N | N - n - D P - - - ||",
+                    "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
+                },
+                {
+                    "swara": "- M M - mg R RP | P - - - - - - - ||",
+                    "sahitya": "-vish wa - mel- - - - la - - - - - - -"
+                },
+                {
+                    "swara": "- M M - mg R RP | P - P -m N D P - ||",
+                    "sahitya": "-vish wa - mel- - - - la - Nin-- - - di-"
+                },
+                {
+                    "swara": "S N D P S - - -d | sN -d N- D - P - - - ||",
+                    "sahitya": "yun- - - de - - - - Vaa- - - ra - lu - - -"
+                },
+                {
+                    "swara": "M - M - mg R RP | P - P -m N D P - ||",
+                    "sahitya": "Vish wa - mel- - - - la - Nin-- - - di-"
+                },
+                {
+                    "swara": "S N D P S - - - | Mg -g M- R S rs N - ||",
+                    "sahitya": "yun- - - de - - - - Vaa- - - ra lu -- - -"
+                },
+                {
+                    "swara": ". dpM - - mg G - GM | P - - D P - - - ||",
+                    "sahitya": "Naa - do- - - paa- - - - sa na- - -"
+                },
+                {
+                    "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
+                    "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
+                },
+                {
+                    "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
+                    "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
+                },
+                {
+                    "swara": "- - - - NS M G | M P D P S N DP ||",
+                    "sahitya": "- - - - Vela si ri O - Mana saa!- - -"
+                },
+                {
+                    "swara": "dpM - - mg G - GM | P - - D P - - - ||",
+                    "sahitya": "Naa - do- - - paa- - - - sa na- - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Nadopasana_Begada.pdf",
+    "avartanasPerRow": 1
 }

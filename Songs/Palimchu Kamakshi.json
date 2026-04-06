@@ -7,147 +7,87 @@
         "tala": "Adi",
         "composer": "Syama Sastri"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "snP - P N - S- r M - - r - R M P - P - pm | R - - -S - - - - | - - - - - - - - ||",
-                "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa-va- ni - - - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "snP - N - S- r M - - r - R M P N- P - pm | R - - -S - - S - | - R -S rm rs N- N R ||",
-                "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- va- ni - - - - - pa - pa shama-ni- - Amba"
-            },
-            {
-                "line_number": 3,
-                "swara": "snP - N - S- rmpm rs - rmP - mp N- pnsn - pm | R - - -S - - S - | - R -S rm rs N- N R ||",
-                "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- - va- ni - - - - - pa - pa shama-ni- - Amba"
-            },
-            {
-                "line_number": 4,
-                "swara": "snP - N - S- rmpm rs - rmP - mp N- pnsn - pm | R - - -S - - S - | - sn P - sn pm R - pm rs ||",
-                "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- - va- ni - - - - - pa - pa - sha-ma-ni-am-ba"
-            },
-            {
-                "line_number": 5,
-                "swara": "snP - rs N -S rmpm rs - rmP - mp N- pnsn - pm | R - - -S - - S - | -r - sn P - sn pm R - pm rs ||",
-                "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- - va- ni - - - - - pa - pa - sha-ma-ni-am-ba"
-            },
-            {
-                "line_number": 6,
-                "swara": "snSrs np - rs N -S rmpm rs- rmpn sr mr - snP - pm | R - - -S - - nsrm | R - sn pr - sn pm R - pm rs ||",
-                "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - pa - pa - sha-ma-ni-am-ba"
-            },
-            {
-                "line_number": 7,
-                "swara": "snSrs np - rs N -S r M - - r - R M P N- P - pm | R - - -S - - - - | - - - - - - - - ||",
-                "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - -s- N - - P N S N P - pm R - pm R S | S rm rs N- S - R rm P pN pR - P - P - N ||",
-                "sahitya": "ca -- la - - bahu vidhamu ga - - - - ninu sa - da - ve Du ko-na Di- na- en de la"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - rs- N - - P N S N P - pm R - pm R S | S rm rs N- S - R rm P pN pR - P - P -n S ||",
-                "sahitya": "ca -- la - - bahu vidhamu ga - - - - ninu sa - da - ve Du ko-na Di- na- en de - la"
-            },
-            {
-                "line_number": 3,
-                "swara": "pn Srs N- N - - P R S sn P - pm rm - Pnp m - r S | S rm rs N- S - R rm P pN pR - P - P -n S ||",
-                "sahitya": "ca -- - la - - bahu vidha mu ga - - - - - - ninu sa - da - ve Du ko-na Di- na- en de - la"
-            },
-            {
-                "line_number": 4,
-                "swara": "R - -m - S R S- S - - - - sn P - N M P | P R S- R N - - r sn P pm - R - pm- R - S ||",
-                "sahitya": "I - - La - gu je - - - - se - vu ve ta harin- ca ve - -ve - ga- me - - - na - nu"
-            },
-            {
-                "line_number": 5,
-                "swara": "nsrm rm -rm R S- S - - S - sn P - N M P | P R S- R ns rmRS - r- sn P pm - rm Pnp pm- R - S ||",
-                "sahitya": "I - - - La - gu je - - - - se - vu ve ta harin- ca ve - -- - ve - ga- me - - - - na - nu"
-            },
-            {
-                "line_number": 6,
-                "swara": "N S R P M R S - N S R M - R S - N S R | S - - - - R S N P - - M P N S R ||",
-                "sahitya": "O kamakshi! Please protect me (nannu). O Sanctifier! O Destroyer of sins! O amba!"
-            },
-            {
-                "line_number": 7,
-                "swara": "snSrs np - rs N -S rmpm rs- rmpn sr mr - snP - pm | R - - -S - - nsrm | R - sn pr - sn pm R - pm rs ||",
-                "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - pa - pa - sha- ma-ni-am-ba"
-            },
-            {
-                "line_number": 8,
-                "swara": "snSrs np - rs N -S r M - - r - R M P N- P - pm | R - - -S - - - - | - - - - - - - - ||",
-                "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "P - - - P M P - M pnP M P- R -m mrR -m - pn | sn P - pm R R pm- R - S- sn Srs np - P N S ||",
-                        "sahitya": "svan tam - bu lo - - - na nin- - - ne - da- la-ce - su- janu la- kel - la E -- - - ve - La"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "R -m R - R M P- N S R - S- nr sn- P - M | P R S - sn P - N R -sn P - P M -R - pm R-s ||",
-                        "sahitya": "San -- to - Sa mu lo sa- ge-va- ni ni - vu mano- ra- tha phala da- - ya ni ni - va- ni-"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "nP- N S S S - nPn NM P nP- - ns N S | - - - - - - - - | - - - - - - - - ||",
-                        "sahitya": "ka- - nta magu pe- - ru - - pon - di ti vi - - - - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "nP- N S S S - nPn NM P nP- - ns S S | rs N - R S Rm r S | - nr snP - - P nm P ||",
-                        "sahitya": "ka- - nta magu pe- - ru - - pon - di ti vi ka- - run - ya -mur- ti -vai- - ja ga-mu"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "R - M - P -n S- rM- s RS - Srm rsN - ns - -rM | S - - - - nr S -n | P M - R - p M - R - S ||",
-                        "sahitya": "ka- - pa -- Di na- tal - li ga - da- - ne - nu- ni- - - du bi-- Ttanu la- - lin -ci"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "nP- N S S S - nPn NM P nP- - ns S S | rs N - R S Rm r S | - nr snP - - P nm P ||",
-                        "sahitya": "ka- - nta magu pe- - ru - - pon - di ti vi ka- - run - ya -mur- ti -vai- - ja ga-mu"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "R - M - P -n S- rM- s RS - Srm rsN - ns - -rM | S - - - - nr S -n | P M - rm Pnp pm- R - S ||",
-                        "sahitya": "ka- - pa -- Di na- tal - li ga - da- - ne - nu- ni- - - du bi-- Ttanu la- -- - - lin -ci"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "N S R- P M - R S N S R M - R S - N S R | S - - - - R S N P - - M P -N S R ||",
-                        "sahitya": "kanaka gi ri sadana la li ta ni nu bhajana san- - - - tatamu ko- - ri na janu la"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "P M P - S R S -M P M - N P - S N R S - M | R - - S N P - R - s - N - pnp- mpm R - S ||",
-                        "sahitya": "Vinumu ni khila bhuva na jana vi ni i pu Du ma- - du ri ta mu dir cci va ra li cci"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "snSrs np - rs N -S rm Mpm rs- RMrmP MP mpN PNpnsn pm | R - - -S - - nsrm | R - sn pr - sn pm R - pm rs ||",
-                        "sahitya": "pa- - -- lin - cu ka- - - - - ma- -- ksi - - - - pa- - - - va- ni - - - - pa - pa - sha- ma-niam-ba"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "snSrs np - rs N -S r M - - r - R M P N- P - pm | R - - -S - - - - | - - - - - - - - ||",
-                        "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Palimchu_Kamakshi_Madhyamavathi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "snP - P N - S- r M - - r - R M P - P - pm | R - - -S - - - - | - - - - - - - - ||",
+                    "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa-va- ni - - - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "snP - N - S- r M - - r - R M P N- P - pm | R - - -S - - S - | - R -S rm rs N- N R ||",
+                    "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- va- ni - - - - - pa - pa shama-ni- - Amba"
+                },
+                {
+                    "swara": "snP - N - S- rmpm rs - rmP - mp N- pnsn - pm | R - - -S - - S - | - R -S rm rs N- N R ||",
+                    "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- - va- ni - - - - - pa - pa shama-ni- - Amba"
+                },
+                {
+                    "swara": "snP - N - S- rmpm rs - rmP - mp N- pnsn - pm | R - - -S - - S - | - sn P - sn pm R - pm rs ||",
+                    "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- - va- ni - - - - - pa - pa - sha-ma-ni-am-ba"
+                },
+                {
+                    "swara": "snP - rs N -S rmpm rs - rmP - mp N- pnsn - pm | R - - -S - - S - | -r - sn P - sn pm R - pm rs ||",
+                    "sahitya": "pa- - lin - cu ka- - - - ma- ksi - pa- - va- ni - - - - - pa - pa - sha-ma-ni-am-ba"
+                },
+                {
+                    "swara": "snSrs np - rs N -S rmpm rs- rmpn sr mr - snP - pm | R - - -S - - nsrm | R - sn pr - sn pm R - pm rs ||",
+                    "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - pa - pa - sha-ma-ni-am-ba"
+                },
+                {
+                    "swara": "snSrs np - rs N -S r M - - r - R M P N- P - pm | R - - -S - - - - | - - - - - - - - ||",
+                    "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P - -s- N - - P N S N P - pm R - pm R S | S rm rs N- S - R rm P pN pR - P - P - N ||",
+                    "sahitya": "ca -- la - - bahu vidhamu ga - - - - ninu sa - da - ve Du ko-na Di- na- en de la"
+                },
+                {
+                    "swara": "P - rs- N - - P N S N P - pm R - pm R S | S rm rs N- S - R rm P pN pR - P - P -n S ||",
+                    "sahitya": "ca -- la - - bahu vidhamu ga - - - - ninu sa - da - ve Du ko-na Di- na- en de - la"
+                },
+                {
+                    "swara": "pn Srs N- N - - P R S sn P - pm rm - Pnp m - r S | S rm rs N- S - R rm P pN pR - P - P -n S ||",
+                    "sahitya": "ca -- - la - - bahu vidha mu ga - - - - - - ninu sa - da - ve Du ko-na Di- na- en de - la"
+                },
+                {
+                    "swara": "R - -m - S R S- S - - - - sn P - N M P | P R S- R N - - r sn P pm - R - pm- R - S ||",
+                    "sahitya": "I - - La - gu je - - - - se - vu ve ta harin- ca ve - -ve - ga- me - - - na - nu"
+                },
+                {
+                    "swara": "nsrm rm -rm R S- S - - S - sn P - N M P | P R S- R ns rmRS - r- sn P pm - rm Pnp pm- R - S ||",
+                    "sahitya": "I - - - La - gu je - - - - se - vu ve ta harin- ca ve - -- - ve - ga- me - - - - na - nu"
+                },
+                {
+                    "swara": "N S R P M R S - N S R M - R S - N S R | S - - - - R S N P - - M P N S R ||",
+                    "sahitya": "O kamakshi! Please protect me (nannu). O Sanctifier! O Destroyer of sins! O amba!"
+                },
+                {
+                    "swara": "snSrs np - rs N -S rmpm rs- rmpn sr mr - snP - pm | R - - -S - - nsrm | R - sn pr - sn pm R - pm rs ||",
+                    "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - pa - pa - sha- ma-ni-am-ba"
+                },
+                {
+                    "swara": "snSrs np - rs N -S r M - - r - R M P N- P - pm | R - - -S - - - - | - - - - - - - - ||",
+                    "sahitya": "pa- - -- lin - cu ka- - - - ma- -ksi - pa- - va- ni - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Palimchu_Kamakshi_Madhyamavathi.pdf",
+    "avartanasPerRow": 1
 }

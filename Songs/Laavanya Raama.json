@@ -7,172 +7,107 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. S - - sn P M | R G - gr R - gr ||",
-                "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-            },
-            {
-                "line_number": 2,
-                "swara": "rs N S - rg M - G | M - - - - - ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. S - - sn P M | R G - gr R - gr ||",
-                "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-            },
-            {
-                "line_number": 4,
-                "swara": "rs N S - rg M - G | M - - - - n N ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A ti"
-            },
-            {
-                "line_number": 5,
-                "swara": "3. S - - r- sn P M | R G - gr R - gr ||",
-                "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-            },
-            {
-                "line_number": 6,
-                "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A- ti- -"
-            },
-            {
-                "line_number": 7,
-                "swara": "4. S - r g r- sn P M | R G - gr R - gr ||",
-                "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-            },
-            {
-                "line_number": 8,
-                "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-            },
-            {
-                "line_number": 9,
-                "swara": "5. sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
-                "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-            },
-            {
-                "line_number": 11,
-                "swara": "6. sn S r g R- sn P M | R G - gr R - gr ||",
-                "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-            },
-            {
-                "line_number": 12,
-                "swara": "rs N S - rg M - G | M - - - - g R ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "1.- G G G G - || rg M G - g r R - rs || (sr Mgr || rs ns )",
-                "sahitya": "Sri vani thaa Chi-- ttha Ku- mu da"
-            },
-            {
-                "line_number": 2,
-                "swara": "N S - - - nsrg ||",
-                "sahitya": "- - - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. rs N - G G G G - || rg M G - g r R - S ||",
-                "sahitya": "- - - Sri vani thaa Chi-- ttha Ku- mu da"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - N P M - G || g r R pmgr gm nn ||",
-                "sahitya": "Shee tha ka ra! Sha tha-- nan-- nya- ja-"
-            },
-            {
-                "line_number": 5,
-                "swara": "sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
-                "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-            },
-            {
-                "line_number": 7,
-                "swara": "S - r g r- sn P M | R G - gr R - gr ||",
-                "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-            },
-            {
-                "line_number": 8,
-                "swara": "rs N S - rg M - G | M - - - - g R ||",
-                "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "1. N - - S N P || M - - R G R ||",
-                        "sahitya": "Nee ma na su ni So gasu"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "sr G - rm gr S || sn S rg M G M ||",
-                        "sahitya": "ni -- Di- nu-su Ve-- re -- rama"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "2. N - - gr sn pm || gm N - sn pmgr ||",
-                        "sahitya": "Nee ma na su ni So gasu"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "sr G - rm gr S || sn S rg M G M ||",
-                        "sahitya": "ni -- Di- nu-su Ve-- re -- rama"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- G G G G G || rg M G - g r R - rs || (sr Mgr || rs ns )",
-                        "sahitya": "Ta masa Matha Dei - va me- - la"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "N S - - - nsrg ||",
-                        "sahitya": "- - - - - - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "rs N - G G G G G || rg M G - g r R - S ||",
-                        "sahitya": "Ta masa Matha Dei - va me- - la"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
-                        "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
-                        "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "S - r g r- sn P M | R G - gr R - gr ||",
-                        "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "rs N S - rg M - G | M - - - - g R ||",
-                        "sahitya": "laa-- ra Ju- - da re ! - - A - ti-"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Laavanya_Raama_Rudrapriya.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1. S - - sn P M | R G - gr R - gr ||",
+                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                },
+                {
+                    "swara": "rs N S - rg M - G | M - - - - - ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - - -"
+                },
+                {
+                    "swara": "2. S - - sn P M | R G - gr R - gr ||",
+                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                },
+                {
+                    "swara": "rs N S - rg M - G | M - - - - n N ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A ti"
+                },
+                {
+                    "swara": "3. S - - r- sn P M | R G - gr R - gr ||",
+                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                },
+                {
+                    "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A- ti- -"
+                },
+                {
+                    "swara": "4. S - r g r- sn P M | R G - gr R - gr ||",
+                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                },
+                {
+                    "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                },
+                {
+                    "swara": "5. sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
+                    "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
+                },
+                {
+                    "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                },
+                {
+                    "swara": "6. sn S r g R- sn P M | R G - gr R - gr ||",
+                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                },
+                {
+                    "swara": "rs N S - rg M - G | M - - - - g R ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "1.- G G G G - || rg M G - g r R - rs || (sr Mgr || rs ns )",
+                    "sahitya": "Sri vani thaa Chi-- ttha Ku- mu da"
+                },
+                {
+                    "swara": "N S - - - nsrg ||",
+                    "sahitya": "- - - - - - -"
+                },
+                {
+                    "swara": "2. rs N - G G G G - || rg M G - g r R - S ||",
+                    "sahitya": "- - - Sri vani thaa Chi-- ttha Ku- mu da"
+                },
+                {
+                    "swara": "S - N P M - G || g r R pmgr gm nn ||",
+                    "sahitya": "Shee tha ka ra! Sha tha-- nan-- nya- ja-"
+                },
+                {
+                    "swara": "sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
+                    "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
+                },
+                {
+                    "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                },
+                {
+                    "swara": "S - r g r- sn P M | R G - gr R - gr ||",
+                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                },
+                {
+                    "swara": "rs N S - rg M - G | M - - - - g R ||",
+                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Laavanya_Raama_Rudrapriya.pdf",
+    "avartanasPerRow": 2
 }

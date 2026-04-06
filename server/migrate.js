@@ -56,8 +56,8 @@ function migrate() {
                     composition.push({
                         name: sectionName.charAt(0).toUpperCase() + sectionName.slice(1),
                         content: entries.map(e => ({
-                            swaram: e.swara || '',
-                            sahityam: e.sahitya || ''
+                            swara: e.swara || '',
+                            sahitya: e.sahitya || ''
                         }))
                     });
                 }

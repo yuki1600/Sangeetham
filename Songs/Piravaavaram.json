@@ -7,112 +7,75 @@
         "tala": "Adi, Kalai",
         "composer": "Papanasam Sivan"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1.- ss - sn d P M gr gm | P - - D D - ddN ||",
-                "sahitya": "Pira - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
-            },
-            {
-                "line_number": 2,
-                "swara": "2. - srsr",
-                "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
-            },
-            {
-                "line_number": 3,
-                "swara": "3. - srsr",
-                "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
-            },
-            {
-                "line_number": 4,
-                "swara": "4. -r- srsr",
-                "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
-            },
-            {
-                "line_number": 5,
-                "swara": "5. rg- rs S",
-                "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- s s - sn d d N - s - s - | - - - - - - - - ||",
-                "sahitya": "Pira vaa-- Varam Thaa rum- - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- s s - sn d d N - s - s - | - ss - r - - sr - S - ||",
-                "sahitya": "Pira vaa-- Varam Thaa rum- - irai va- - maru - ba"
-            },
-            {
-                "line_number": 3,
-                "swara": "S s s - sn d d N - s - s - | - ss - r G R- sr - S - ||",
-                "sahitya": "di Pira vaa-- Varam Thaa rum- - irai va- - maru - ba"
-            },
-            {
-                "line_number": 4,
-                "swara": "S srsr",
-                "sahitya": "di Pira vaa-- Varam Thaa rum- - Piran dhaal - Un Thiru va"
-            },
-            {
-                "line_number": 5,
-                "swara": "S n r - sn d p dm",
-                "sahitya": "Di Mara - vaa-- Varam Thaa - - rum Maa- nila Me di- nil-"
-            },
-            {
-                "line_number": 6,
-                "swara": "M- srsr",
-                "sahitya": "- Pira vaa-- Varam Thaa rum- - Piran dhaal - Un Thiru va"
-            },
-            {
-                "line_number": 7,
-                "swara": "S n r - sn d p dm",
-                "sahitya": "Di Mara - vaa-- Varam Thaa - - rum Maa- nila Me- - di- nil- - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - p - d P P - dn dpP",
-                        "sahitya": "Paar vathi Ne- - - yaa - - - Bha ktha Sa- haa- - - yaa-"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "pM- p - d P P dn dn dpP",
-                        "sahitya": "- Paar vathi Ne- - - yaa - - - Bha ktha Sa- haa- - - yaa-"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "pM- p - p pm gr pm g r S | - - p - g M Pdn dn dpP",
-                        "sahitya": "||"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - s - d N S - s - S | - ns R - s R rs S S - ||",
-                        "sahitya": "Mun -dhai Vi nai Ko - ra Chin thaa kulam Thee- ra-"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- - s - d N S - R -s S | - ns R G s R rs S",
-                        "sahitya": "Mun -dhai Vi nai Ko -- ra Chin thaa- kulam Thee- ra-"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "D P dm p d rs n | - dn rn D P p mp dn dp P- ||",
-                        "sahitya": "En dhaa yun Paa-- dhaa- - ra - Vin- -dham Thu nai Se- - - ra - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "D P dm p d rs n | - dn rn D P Pdm pd ns || Rgr",
-                        "sahitya": "En dhaa yun Paa-- dhaa- - ra - Vin- -dham Thu nai Se- ra - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Piravaavaram_Lathangi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1.- ss - sn d P M gr gm | P - - D D - ddN ||",
+                    "sahitya": "Pira - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
+                },
+                {
+                    "swara": "2. - srsr",
+                    "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
+                },
+                {
+                    "swara": "3. - srsr",
+                    "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
+                },
+                {
+                    "swara": "4. -r- srsr",
+                    "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - Pem maa- ne-"
+                },
+                {
+                    "swara": "5. rg- rs S",
+                    "sahitya": "Pi-ra - vaa-- Varam Thaa--- rum- - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- s s - sn d d N - s - s - | - - - - - - - - ||",
+                    "sahitya": "Pira vaa-- Varam Thaa rum- - - - - - - - -"
+                },
+                {
+                    "swara": "- s s - sn d d N - s - s - | - ss - r - - sr - S - ||",
+                    "sahitya": "Pira vaa-- Varam Thaa rum- - irai va- - maru - ba"
+                },
+                {
+                    "swara": "S s s - sn d d N - s - s - | - ss - r G R- sr - S - ||",
+                    "sahitya": "di Pira vaa-- Varam Thaa rum- - irai va- - maru - ba"
+                },
+                {
+                    "swara": "S srsr",
+                    "sahitya": "di Pira vaa-- Varam Thaa rum- - Piran dhaal - Un Thiru va"
+                },
+                {
+                    "swara": "S n r - sn d p dm",
+                    "sahitya": "Di Mara - vaa-- Varam Thaa - - rum Maa- nila Me di- nil-"
+                },
+                {
+                    "swara": "M- srsr",
+                    "sahitya": "- Pira vaa-- Varam Thaa rum- - Piran dhaal - Un Thiru va"
+                },
+                {
+                    "swara": "S n r - sn d p dm",
+                    "sahitya": "Di Mara - vaa-- Varam Thaa - - rum Maa- nila Me- - di- nil- - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Piravaavaram_Lathangi.pdf",
+    "avartanasPerRow": 1
 }

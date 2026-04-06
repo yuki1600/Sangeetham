@@ -7,177 +7,107 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. - G R - S - sn D D - - D || S - - - - - - - - - - - ||",
-                "sahitya": "Ka ri Ka la- - bha- -mu kham-- - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "2. G S R - S rg rsnd - D - - D || S - - - P D rsnp D - - D ||",
-                "sahitya": "Ka - ri - Ka la- - bha- -mu kham-- Dhun- - - dhi-- Ga"
-            },
-            {
-                "line_number": 3,
-                "swara": "Pdn Pdm DP D - N D M P ||",
-                "sahitya": "ne- - - - - sham - - - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "3. D- G R - dsrg rsnp D - - D || S -r GR Srg rsnp D - - D ||",
-                "sahitya": "- Kari - Ka-- la- - bha- -mu kham-- Dhun- - - dhi-- Ga"
-            },
-            {
-                "line_number": 5,
-                "swara": "pdnd ndpm DP D - - mpd- dpm || Gmg GR R - - dd pm - d P -D - ||",
-                "sahitya": "ne- - - - - - sham - - -bha- ja- - Re - - Re --- - - - Chi- tta-"
-            },
-            {
-                "line_number": 6,
-                "swara": "D R S - snD dsn - d M- D S - || S - R M P - pmn- d pm - d P - D - ||",
-                "sahitya": "Ka- ve- ri -- Tha- ta - - sthi tham Sa ve - ri - Raa- ga - - nu- tham-"
-            },
-            {
-                "line_number": 7,
-                "swara": "4. dggs R - dsrg rsnp - PD - D || S -r pmMGR Srg rsnp - D - - D ||",
-                "sahitya": "Ka-- ri - Ka-- la- - bha- -mu kham-- - - - Dhun- - - dhi-- Ga"
-            },
-            {
-                "line_number": 8,
-                "swara": "pdnd ndpm DP D - - mp dS n- dpM - || R - - - R - - dd pm - d P -D - ||",
-                "sahitya": "ne- - - - - - sham - - -bha- - - ja- - Re - - Re --- - - - Chi- tta-"
-            },
-            {
-                "line_number": 9,
-                "swara": "D R S -r snD drsn --d M- D S - || S - R M P - p dn- d pm - d P - D - ||",
-                "sahitya": "Ka- ve- ri -- Tha- - ta - - sthi tham Sa ve - ri - Raa-- ga - - nu- tham-"
-            },
-            {
-                "line_number": 10,
-                "swara": "5. dggs R - dsrg rsnp - PD - D || S rg rpmmGR Srg rsnp - D - - D ||",
-                "sahitya": "Ka-- ri - Ka-- la- - bha- -mu kham-- - - - Dhun- - - dhi-- Ga"
-            },
-            {
-                "line_number": 11,
-                "swara": "pdnd ndpm DP D - - mp dS n- dpM - || R - - - R - S dd pm - d P -D - ||",
-                "sahitya": "ne- - - - - - sham - - -bha- - - ja- - Re - - Re --- - - - Chi- tta-"
-            },
-            {
-                "line_number": 12,
-                "swara": "D R S -r snD drsn --d M- D S - || S - R M P - p dn- d pm - d P - D - ||",
-                "sahitya": "Ka- ve- ri -- Tha- - ta - - sthi tham Sa ve - ri - Raa-- ga - - nu- tham-"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S R - - pm P - - - P - || - P P - dn Pdm P - m mpdp D - ||",
-                "sahitya": "Hari- - ha- yaa- - - di- - Saka- - la- - de- - - - - - - va -"
-            },
-            {
-                "line_number": 2,
-                "swara": "pmps R - - pm P - - - P - || - P P - dn Pdm P - m mpdp D - ||",
-                "sahitya": "Ha- - ri- - ha- yaa- - - di- - Saka- - la- - de- - - - - - - va -"
-            },
-            {
-                "line_number": 3,
-                "swara": "pmM S R - - pm P - - - P - || - P P dn Pdm P - m mpdp D - ||",
-                "sahitya": "Ha- - - ri- - ha- yaa- - - di- - Sa ka- - la- - de- - - - - - - va -"
-            },
-            {
-                "line_number": 4,
-                "swara": "DS - - snrs nD - D - P - || D - P - D - dsrs S R - - ||",
-                "sahitya": "Aa- - raa- - - - dhi- ta - Pa- daam - - bu- - jam- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "S - R - - pm P - - - P - || - P P dn Pdm P - m mpdp D - ||",
-                "sahitya": "Ha- ri- - ha- yaa- - - di- - Sa ka- - la- - de- - - - - - - va -"
-            },
-            {
-                "line_number": 6,
-                "swara": "dmD S - - snrs nD - D - P - || D - P - D - dsrs S R - - ||",
-                "sahitya": "Aa- - - - - raa- - - - dhi- ta - Pa- daam - - bu- - jam- - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "G R S - N P D - dr sn D - M || P D S - - - - - - - - - ||",
-                "sahitya": "Giri jaa Tanujam- Vi-ji-tha Ma nasi jam - - - - - - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "G R S - N P D - dr sn D - M || P D S - rp pm dP- d - drs- R - ||",
-                "sahitya": "Giri jaa Tanujam- Vi-ji-tha Ma nasi jam Gu-ru- gu- haa- gra- jam (kari Kalabha)"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - M - M - P - mpD P - || Pdn Pdm mpdp D - P-d N D ||",
-                        "sahitya": "Moo- laa- dhaa - - - ra - Cha-tur- - dda- - la - Pan - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "P-d dpdm - d M D - S - - - ||",
-                        "sahitya": "ka- ja - - - Ma- dhya stham--"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "P - - -m mpdp D - - D - g R || rs S - pd S - Srg rsnp - pmpm ||",
-                        "sahitya": "Mo- - da- - - ka - - ha- - - stham-mu- ni- ja- - na- - - Hrut - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "Pdn DM mgR G R S - - - ||",
-                        "sahitya": "Ka- ma-- la- - - - stham--"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "M - M - mpD dpM G - R - S-d || dpM G - - R- G R GR S - ||",
-                        "sahitya": "Phaa la - chan- - - - dram- Su- mu- -kham - - Ka- ru- naa"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- rg rsnp D gr rsS - - - - ||",
-                        "sahitya": "[he carries (“dharam”) Paasha and Ankusha -- two weapons. He has lotus-like (“padma”) hands"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- - pdpd S - - -m D - P - || mpdp D - dPd N D P - Pdn ||",
-                        "sahitya": "- - Paa- shaan- ku- - sha Dha- - ram- Pa- - - dma ka--"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "ram- - Sun- - - - da- - ram- - -",
-                        "sahitya": "[he is the beautiful son (“kumaaram”) of Neelakantha (“neelagriva”)- he has a radiance"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "sn P D - G R S - N dMd S - || - - - - - - - - - - - - ||",
-                        "sahitya": "Nee- la - gri- va Ku maa- ram - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "sn P D - G R S - N dMd S - || D R S N - D M mgR G R S - ||",
-                        "sahitya": "Nee- la - gri- va Ku maa- ram Nee-radha Sho- baa-- haa-ram-"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "S-r P M P dn dP- dM- mpdp D - - d || S - S rg rsnp - D- dsrs R - ||",
-                        "sahitya": "Paa-litha Bha--ktham-- Dhee- ram- a paa-ram- Vaa-- ram Vaa- ram"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "S-r P M P dn dP- dM- mpdp D - - d || GR R - S rg rsnp - dsrs R - ||",
-                        "sahitya": "Paa-litha Bha--ktham-- Dhee- ram- a paa-ram- Vaa-- ram - Vaa- ram (kari Kalabha)"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Karikalabha_Mukham_Saveri.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1. - G R - S - sn D D - - D || S - - - - - - - - - - - ||",
+                    "sahitya": "Ka ri Ka la- - bha- -mu kham-- - - - - - - - -"
+                },
+                {
+                    "swara": "2. G S R - S rg rsnd - D - - D || S - - - P D rsnp D - - D ||",
+                    "sahitya": "Ka - ri - Ka la- - bha- -mu kham-- Dhun- - - dhi-- Ga"
+                },
+                {
+                    "swara": "Pdn Pdm DP D - N D M P ||",
+                    "sahitya": "ne- - - - - sham - - - - - -"
+                },
+                {
+                    "swara": "3. D- G R - dsrg rsnp D - - D || S -r GR Srg rsnp D - - D ||",
+                    "sahitya": "- Kari - Ka-- la- - bha- -mu kham-- Dhun- - - dhi-- Ga"
+                },
+                {
+                    "swara": "pdnd ndpm DP D - - mpd- dpm || Gmg GR R - - dd pm - d P -D - ||",
+                    "sahitya": "ne- - - - - - sham - - -bha- ja- - Re - - Re --- - - - Chi- tta-"
+                },
+                {
+                    "swara": "D R S - snD dsn - d M- D S - || S - R M P - pmn- d pm - d P - D - ||",
+                    "sahitya": "Ka- ve- ri -- Tha- ta - - sthi tham Sa ve - ri - Raa- ga - - nu- tham-"
+                },
+                {
+                    "swara": "4. dggs R - dsrg rsnp - PD - D || S -r pmMGR Srg rsnp - D - - D ||",
+                    "sahitya": "Ka-- ri - Ka-- la- - bha- -mu kham-- - - - Dhun- - - dhi-- Ga"
+                },
+                {
+                    "swara": "pdnd ndpm DP D - - mp dS n- dpM - || R - - - R - - dd pm - d P -D - ||",
+                    "sahitya": "ne- - - - - - sham - - -bha- - - ja- - Re - - Re --- - - - Chi- tta-"
+                },
+                {
+                    "swara": "D R S -r snD drsn --d M- D S - || S - R M P - p dn- d pm - d P - D - ||",
+                    "sahitya": "Ka- ve- ri -- Tha- - ta - - sthi tham Sa ve - ri - Raa-- ga - - nu- tham-"
+                },
+                {
+                    "swara": "5. dggs R - dsrg rsnp - PD - D || S rg rpmmGR Srg rsnp - D - - D ||",
+                    "sahitya": "Ka-- ri - Ka-- la- - bha- -mu kham-- - - - Dhun- - - dhi-- Ga"
+                },
+                {
+                    "swara": "pdnd ndpm DP D - - mp dS n- dpM - || R - - - R - S dd pm - d P -D - ||",
+                    "sahitya": "ne- - - - - - sham - - -bha- - - ja- - Re - - Re --- - - - Chi- tta-"
+                },
+                {
+                    "swara": "D R S -r snD drsn --d M- D S - || S - R M P - p dn- d pm - d P - D - ||",
+                    "sahitya": "Ka- ve- ri -- Tha- - ta - - sthi tham Sa ve - ri - Raa-- ga - - nu- tham-"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- S R - - pm P - - - P - || - P P - dn Pdm P - m mpdp D - ||",
+                    "sahitya": "Hari- - ha- yaa- - - di- - Saka- - la- - de- - - - - - - va -"
+                },
+                {
+                    "swara": "pmps R - - pm P - - - P - || - P P - dn Pdm P - m mpdp D - ||",
+                    "sahitya": "Ha- - ri- - ha- yaa- - - di- - Saka- - la- - de- - - - - - - va -"
+                },
+                {
+                    "swara": "pmM S R - - pm P - - - P - || - P P dn Pdm P - m mpdp D - ||",
+                    "sahitya": "Ha- - - ri- - ha- yaa- - - di- - Sa ka- - la- - de- - - - - - - va -"
+                },
+                {
+                    "swara": "DS - - snrs nD - D - P - || D - P - D - dsrs S R - - ||",
+                    "sahitya": "Aa- - raa- - - - dhi- ta - Pa- daam - - bu- - jam- - -"
+                },
+                {
+                    "swara": "S - R - - pm P - - - P - || - P P dn Pdm P - m mpdp D - ||",
+                    "sahitya": "Ha- ri- - ha- yaa- - - di- - Sa ka- - la- - de- - - - - - - va -"
+                },
+                {
+                    "swara": "dmD S - - snrs nD - D - P - || D - P - D - dsrs S R - - ||",
+                    "sahitya": "Aa- - - - - raa- - - - dhi- ta - Pa- daam - - bu- - jam- - -"
+                },
+                {
+                    "swara": "G R S - N P D - dr sn D - M || P D S - - - - - - - - - ||",
+                    "sahitya": "Giri jaa Tanujam- Vi-ji-tha Ma nasi jam - - - - - - - -"
+                },
+                {
+                    "swara": "G R S - N P D - dr sn D - M || P D S - rp pm dP- d - drs- R - ||",
+                    "sahitya": "Giri jaa Tanujam- Vi-ji-tha Ma nasi jam Gu-ru- gu- haa- gra- jam (kari Kalabha)"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Karikalabha_Mukham_Saveri.pdf",
+    "avartanasPerRow": 2
 }

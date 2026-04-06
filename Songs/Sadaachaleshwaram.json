@@ -7,132 +7,79 @@
         "tala": "Adi",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S D - S P - dp G | - - gp G - R S - - - ||",
-                "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
-            },
-            {
-                "line_number": 2,
-                "swara": "S D - S P - dp G | - - gp G - R S - dspd ||",
-                "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- ham--"
-            },
-            {
-                "line_number": 3,
-                "swara": "S D - S P - dp G | - - gp G - R S - - - ||",
-                "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
-            },
-            {
-                "line_number": 4,
-                "swara": "S S - sr G G dp G | G R S - g p g p pd p d ||",
-                "sahitya": "Cha ma - tkaa - ra Pu- ra ge- ham Girijaa- Mo-ham-"
-            },
-            {
-                "line_number": 5,
-                "swara": "srs - d -- sr s- P - pdp - g | - - gp G - R S - - - ||",
-                "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
-            },
-            {
-                "line_number": 6,
-                "swara": "S S - sr G G dp G | G R S - g p g p pd p d ||",
-                "sahitya": "Cha ma - tkaa - ra Pu- ra ge- ham Girijaa- Mo-ham-"
-            },
-            {
-                "line_number": 7,
-                "swara": "SrsS - d -- Sr sS - P - PdpP - g | - - gp G R gd - - - ||",
-                "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va - ye- - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "- - dssd - P - - | - - - - - - - - ||",
-                "sahitya": "- - - - - - - - - - - - - - - --"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "S D - G R - -s - R | G - P - G gP - P - ||",
-                "sahitya": "Sadaa - shri ta Kal - pa vru- ksha Sa moo ham"
-            },
-            {
-                "line_number": 2,
-                "swara": "- d P G - G R - S - | R G - P gp dp D - ||",
-                "sahitya": "Shara naa- ga ta De va taa - Sa moo-- ham"
-            },
-            {
-                "line_number": 3,
-                "swara": "p P- d p g- P d - S d S S | - - - - - - - - ||",
-                "sahitya": "Udaajya kru ta Naa ma dheya vaaham - - - - - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "p P- d p g- P d - S d S S | r S - d - P - d p g P D ||",
-                "sahitya": "Udaajya kru ta Naa ma dheya vaaham Chidaanan - daa - mrutapra vaaham"
-            },
-            {
-                "line_number": 5,
-                "swara": "p P- d p g- P d - S d S S | r S - d - P - d p g P d r ||",
-                "sahitya": "Udaajya kru ta Naa ma dheya vaaham Chidaanan - daa - mrutapra vaa ham"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "G R - S - R G - | P - - G - R - R ||",
-                        "sahitya": "Chamat - kaa - ra Bhoo paa- - laa - di - Pra"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S - D G R S P D | S- R G - pgP G - ||",
-                        "sahitya": "saa- da- ka ra na Nipu na Ma haa- lin- gam"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "G - - P - D D P | G - - dpgg - gr - r S ||",
-                        "sahitya": "Chaa - yaa - ra hi ta Dee- - pa- - - Pra - kaa-"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "s d- G - R - - - r G | P - - D dppg - P - ||",
-                        "sahitya": "sha- Gar - bha - - - Gruha maa - dhya ran- - - gam-"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "G P - P G - dp D | P - gdpg - G gr R S - ||",
-                        "sahitya": "Sa ma - sta Du kkhaa- di He- - - tu bhoo- ta -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "S - - S - R S -r | pg G P P D - S - ||",
-                        "sahitya": "Sam - saa - ra Saa- ga- ra Bha ya bhan- gam"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "D P G - P - P - G - | D - D- dpP - D - R ||",
-                        "sahitya": "Shama da mo - Pra -vru- tyaa- di Sam- - yu - kta"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "S - rs - sd dp - pg g r S | S rg - r S D - S - ||",
-                        "sahitya": "Saa- dhu ja- na Hru da-ya Sa ra-- - si ja bhrun gam"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "g d p- g s r- s r g r p - g P P | d p pg d p - s d - - r s - g R S ||",
-                        "sahitya": "Kamala Vi ja ya kara Vidhruta ku rangam Karu naa rasa Sudhaar nava Ta rangam"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "r g g r s - s d p - g p g - p g r s r | r g r - p g p - g d p D - r s r s r ||",
-                        "sahitya": "Kamale - sha Vinuta Vrushabha Tu ran- gam Kamala va dana Guru Guhaa nta ran-gam-"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sadaachaleshwaram_Bhupalam.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S D - S P - dp G | - - gp G - R S - - - ||",
+                    "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
+                },
+                {
+                    "swara": "S D - S P - dp G | - - gp G - R S - dspd ||",
+                    "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- ham--"
+                },
+                {
+                    "swara": "S D - S P - dp G | - - gp G - R S - - - ||",
+                    "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
+                },
+                {
+                    "swara": "S S - sr G G dp G | G R S - g p g p pd p d ||",
+                    "sahitya": "Cha ma - tkaa - ra Pu- ra ge- ham Girijaa- Mo-ham-"
+                },
+                {
+                    "swara": "srs - d -- sr s- P - pdp - g | - - gp G - R S - - - ||",
+                    "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
+                },
+                {
+                    "swara": "S S - sr G G dp G | G R S - g p g p pd p d ||",
+                    "sahitya": "Cha ma - tkaa - ra Pu- ra ge- ham Girijaa- Mo-ham-"
+                },
+                {
+                    "swara": "SrsS - d -- Sr sS - P - PdpP - g | - - gp G R gd - - - ||",
+                    "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va - ye- - -"
+                },
+                {
+                    "swara": "- - dssd - P - - | - - - - - - - - ||",
+                    "sahitya": "- - - - - - - - - - - - - - - --"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "S D - G R - -s - R | G - P - G gP - P - ||",
+                    "sahitya": "Sadaa - shri ta Kal - pa vru- ksha Sa moo ham"
+                },
+                {
+                    "swara": "- d P G - G R - S - | R G - P gp dp D - ||",
+                    "sahitya": "Shara naa- ga ta De va taa - Sa moo-- ham"
+                },
+                {
+                    "swara": "p P- d p g- P d - S d S S | - - - - - - - - ||",
+                    "sahitya": "Udaajya kru ta Naa ma dheya vaaham - - - - - - - -"
+                },
+                {
+                    "swara": "p P- d p g- P d - S d S S | r S - d - P - d p g P D ||",
+                    "sahitya": "Udaajya kru ta Naa ma dheya vaaham Chidaanan - daa - mrutapra vaaham"
+                },
+                {
+                    "swara": "p P- d p g- P d - S d S S | r S - d - P - d p g P d r ||",
+                    "sahitya": "Udaajya kru ta Naa ma dheya vaaham Chidaanan - daa - mrutapra vaa ham"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sadaachaleshwaram_Bhupalam.pdf",
+    "avartanasPerRow": 1
 }

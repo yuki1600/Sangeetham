@@ -7,172 +7,95 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "sn P - ns R - S R - - - - -pm R - S - | sn P - ns R - S R - | - - - -pm R - S - ||",
-                "sahitya": "ra- - ma- - ka tha - - - su- dha - - ra- - ma- - ka tha - - - su- dha - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "sn P - ns R - S R M rmP N pn pm R - RS | snrs np - ns R - S R M | rmP N pn pm R - RS ||",
-                "sahitya": "ra- - ma- - ka tha - - - su- dha - - ra- - - ma- - ka tha - - - - su- dha - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "sn Srs np ns R - S rmpn srmr srsn- pnpm rmrs | - p N- n S - - n S n | P - mpnp pmR R S ||",
-                "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "sn rs np- ns R - S R M rmP mpN pnsn pmR | R - RS - - rm rm | pn - pmR rs - - - - ||",
-                "sahitya": "ra- - - jya - mu ce - - - - - - - su - - ne - - - - - - - - - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "sn Srs np ns R - S rmpn srmr srsn - pnpm rmrs | - p N - n S - - n S n | P - mpnp pmR R S ||",
-                "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "sn rs np- ns R - S R M rmP mpN pnsn pmR | R - S - mrpm nppm | R - S - rmpm rmrs ||",
-                "sahitya": "ra- - - jya - mu ce - - - - - - - su - - ne - - - - - - - - - - - - - - - - - - - - - - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "sn Srs np ns R - S rmpn srmr srsn - pnpm rmrs | - p R - n S - - n S n | P - mpnp pmR R S ||",
-                "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "sn rs np- ns R - S R M rmP mpN pnsn pmR | R - S - - - - - | - rppm R R - S - ||",
-                "sahitya": "ra- - - jya - mu ce - - - - - - - su - - ne - - - - - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - rs - N - - N - n P n S - S - - - S | r s -ns - n - S R S - S rs | N - S - S - - - ||",
-                "sahitya": "bha - - ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "rsnp rs - N - - N - n P n S - S - - - sr | r s -ns - n - S R S - S rs | N - S - R - - - ||",
-                "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "- rsnp rs -N - - N - n P n S - S - - - sr | r s -ns - n - S R S - S rs | N - S - R - - -m ||",
-                "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "rsnp - rs -N - - N - n P n S - S - - - R | r s -ns - n - S R S - S rs | N - S - nsrm srM ||",
-                "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "rsnp - rs -N - - N - n P n S - S - - - R | r s -ns - n - S R S - S rs | N - S - R - - - ||",
-                "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "M - R - R - mr - R S N - - S rm R S - N S | R S - R N S P N M | P - P np M pm R S ||",
-                "sahitya": "bha ra ta - - - du - la - to-- - - - - bhu- mi - ve- la - yu - - - - - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "M - R - rppm R - - R S N - - S rm R S - N S | R S - R N S P N M | P - P np M pm R S ||",
-                "sahitya": "bha ra ta - - - du - la - to-- - - - - bhu- mi - ve- la - yu si- - - - - ta-"
-            },
-            {
-                "line_number": 8,
-                "swara": "sn Srs np ns R - S rmpn srmr srsn- pnpm rmrs | - p R - n S - - N - r | snP - mpnp pmR R S ||",
-                "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "sn rs np- ns R - S rmpn srmr sr sn pnpm R - | R S - - - rppm R | R - S - - - - - ||",
-                "sahitya": "ra- - - jya - mu ce - - - - -- su - ne - - - - - - - - - - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "P - - m- M R S - R M P N - PM R M R S | n S n - S R S - - R | P M R - S - - - ||",
-                        "sahitya": "Dhar - ma - - dya - khi- la - pha - - la na- - me - - ma na - sa - - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "P - - m- M R S - R M P N - PM R M R S | n S n - S R S - - R | rppm R - R - S - - ||",
-                        "sahitya": "Dhar - ma - - dya - khi- la - pha - - la na- - me - - -ma na - - sa - - - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "R M R - M P - - P - SN P M R M R S | r M - -mr - M - P P - | nnM - mp N P - - ||",
-                        "sahitya": "dhai-- rya - - nan - - da - sau - - - khya ni- ke - - ta na- - - me- - - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "R M R - M P - - M - N - P M R M R S | r M - -mr - M - P P - | nnM - P - - - - ||",
-                        "sahitya": "dhai-- rya - - nan - - da - sau - - - khya ni- ke - - ta na- - - me- - - - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "P - rs -N - - N - n P n S - S - - - S | r s -ns - n - S R S - S rs | N - - S S - - - ||",
-                        "sahitya": "Ka- - rma - - ban- dha - - - jva - - la na- - - - - - - bdhi na- - - ma me - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "P - rs -N - - N - n P n S - S - - - S | r s -ns - n - S R S - S rs | N - S - S - - - ||",
-                        "sahitya": "Ka- - rma - - ban- dha - - - jva - - la na- - - - - - - bdhi na- - - ma- me - - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "rsnp rs - N - - N - n P n S - S - - - sr | r s -ns - n - S R S - S rs | N - S - R - - - ||",
-                        "sahitya": "Ka- - - rma - - ban- dha - - - jva - - la na- - - - - - - bdhi na- - - ma- me - - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "- rsnp rs -N - - N - n P n S - S - - - sr | r s -ns - n - S R S - S rs | N - S - nsrm - - ||",
-                        "sahitya": "Ka- - - - rma - - ban- dha - - - jva - - la na- - - - - - - bdhi na- - - ma- me - - -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "rsnp - rs -N - - N -r sn P n S - S - - - R | r s -ns - n - S R S - S rs | N - S - nsrm srM ||",
-                        "sahitya": "Ka- - - - rma - - ban- dha - - - jva - - la na- - - - - - - bdhi na- - - ma- me - - -"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "rsnp - rs -N - - N - n P n S - S - - - R | r s -ns - n - S R S - S rs | N - S - R - - - ||",
-                        "sahitya": "Ka- - -- rma - - ban- dha - - - jva - - la na- - - - - - - bdhi na- - - ma- me - - -"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "M - R - R - mr - R S N - - S rm R S - N S | R S - R N S P N M | P - P np M pm R S ||",
-                        "sahitya": "Ka li ha - - - ra - me- tya-- - - ga - ra- ja - vi - nu - tu - - - - - - - -"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "M - R - rppm R - - R S N - - S rm R S - N S | R S - R N S P N M | P - P np M pm R S ||",
-                        "sahitya": "Ka li ha - - - ra - me- tya-- - - ga - ra- ja - vi - nu - tu - Da- - gu - - - -"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "sn Srs np ns R - S rmpn srmr srsn - pnpm rmrs | - p R - n S - - N - r | snP - mpnp pmR R S ||",
-                        "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "sn P - - ns R - S R M rmpm R -s - pm R - | - - - - - - - - | - - - - - - - - ||",
-                        "sahitya": "ra- - jya - muce - - - - - - - - su - ne - - - - - - - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Rama_Katha_Sudha_Madhyamavathi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "sn P - ns R - S R - - - - -pm R - S - | sn P - ns R - S R - | - - - -pm R - S - ||",
+                    "sahitya": "ra- - ma- - ka tha - - - su- dha - - ra- - ma- - ka tha - - - su- dha - -"
+                },
+                {
+                    "swara": "sn P - ns R - S R M rmP N pn pm R - RS | snrs np - ns R - S R M | rmP N pn pm R - RS ||",
+                    "sahitya": "ra- - ma- - ka tha - - - su- dha - - ra- - - ma- - ka tha - - - - su- dha - -"
+                },
+                {
+                    "swara": "sn Srs np ns R - S rmpn srmr srsn- pnpm rmrs | - p N- n S - - n S n | P - mpnp pmR R S ||",
+                    "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
+                },
+                {
+                    "swara": "sn rs np- ns R - S R M rmP mpN pnsn pmR | R - RS - - rm rm | pn - pmR rs - - - - ||",
+                    "sahitya": "ra- - - jya - mu ce - - - - - - - su - - ne - - - - - - - - - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "sn Srs np ns R - S rmpn srmr srsn - pnpm rmrs | - p N - n S - - n S n | P - mpnp pmR R S ||",
+                    "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
+                },
+                {
+                    "swara": "sn rs np- ns R - S R M rmP mpN pnsn pmR | R - S - mrpm nppm | R - S - rmpm rmrs ||",
+                    "sahitya": "ra- - - jya - mu ce - - - - - - - su - - ne - - - - - - - - - - - - - - - - - - - - - - - - -"
+                },
+                {
+                    "swara": "sn Srs np ns R - S rmpn srmr srsn - pnpm rmrs | - p R - n S - - n S n | P - mpnp pmR R S ||",
+                    "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
+                },
+                {
+                    "swara": "sn rs np- ns R - S R M rmP mpN pnsn pmR | R - S - - - - - | - rppm R R - S - ||",
+                    "sahitya": "ra- - - jya - mu ce - - - - - - - su - - ne - - - - - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P - rs - N - - N - n P n S - S - - - S | r s -ns - n - S R S - S rs | N - S - S - - - ||",
+                    "sahitya": "bha - - ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
+                },
+                {
+                    "swara": "rsnp rs - N - - N - n P n S - S - - - sr | r s -ns - n - S R S - S rs | N - S - R - - - ||",
+                    "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
+                },
+                {
+                    "swara": "- rsnp rs -N - - N - n P n S - S - - - sr | r s -ns - n - S R S - S rs | N - S - R - - -m ||",
+                    "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
+                },
+                {
+                    "swara": "rsnp - rs -N - - N - n P n S - S - - - R | r s -ns - n - S R S - S rs | N - S - nsrm srM ||",
+                    "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
+                },
+                {
+                    "swara": "rsnp - rs -N - - N - n P n S - S - - - R | r s -ns - n - S R S - S rs | N - S - R - - - ||",
+                    "sahitya": "bha - -- ma - - ma- Ni - - - - ja- - na ki - - - - - sau - - mi- - - - - - tri - - -"
+                },
+                {
+                    "swara": "M - R - R - mr - R S N - - S rm R S - N S | R S - R N S P N M | P - P np M pm R S ||",
+                    "sahitya": "bha ra ta - - - du - la - to-- - - - - bhu- mi - ve- la - yu - - - - - - - -"
+                },
+                {
+                    "swara": "M - R - rppm R - - R S N - - S rm R S - N S | R S - R N S P N M | P - P np M pm R S ||",
+                    "sahitya": "bha ra ta - - - du - la - to-- - - - - bhu- mi - ve- la - yu si- - - - - ta-"
+                },
+                {
+                    "swara": "sn Srs np ns R - S rmpn srmr srsn- pnpm rmrs | - p R - n S - - N - r | snP - mpnp pmR R S ||",
+                    "sahitya": "ra- - ma- - ka tha - - - su- dha - - - - ra sa pa- - - nam - - o - - - ka - - - -"
+                },
+                {
+                    "swara": "sn rs np- ns R - S rmpn srmr sr sn pnpm R - | R S - - - rppm R | R - S - - - - - ||",
+                    "sahitya": "ra- - - jya - mu ce - - - - -- su - ne - - - - - - - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Rama_Katha_Sudha_Madhyamavathi.pdf",
+    "avartanasPerRow": 1
 }

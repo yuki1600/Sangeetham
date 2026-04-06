@@ -7,107 +7,71 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - R - mg G P - - - - - - D - dgr | S - - - SN ND D P - - ppmg RG ||",
-                "sahitya": "Do ra ku-- - na- - - - - - I - - tu-- Van- - - - ti - - Se - - - va - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "gr S R - mg G P - - - dpmg R- D - dgr | S rg RS SN ND Pdn D P ppmg RG ||",
-                "sahitya": "Do ra ku-- - na- - - - - - - - I - - tu-- Van- - - - ti - - Se - - - va - - - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "gr S R - mg G pd S snnd dppm gr- G pd S | sn D R - sr G rs nd pd S snnd dp - dpmg rg ||",
-                "sahitya": "Do ra ku-- - na- - - - - - - - I - tu-- - Van- - ti - - - - - Se - - - - - va - - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "gr S R - mg G pd S sndp pmgr rg P- mgpd | Snd grgr sn- ds gr -sn d - sns- dn -pn dp - dp mgrg ||",
-                "sahitya": "Do ra ku-- - na- - - - - - - I - - tu-- - - - - Van- - - - - - - - ti - - Se - - - - - - va - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "gr S grR mg G dpP nd D - S sn D - R R - | srgp mg- rm gr - sgrs nd pd gr rs sn nd dp - mgrg ||",
-                "sahitya": "Do ra ku-- - na- - - - - - - - I tu-- - Van- - - - - - - ti - - - - Se - - - - - - va - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "gr S R - mg G P - - - dpmg R- D - dgr | S - - - - - S - snrs sn nd D - S - - ||",
-                "sahitya": "Do ra ku-- - na- - - - - - - - I - - tu-- Van- - - - ti - Se - - - - va - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "D - D - D - drsn P - dp pm gr - G - P - | - D - S - - S S - snrs sn nd D - S S - ||",
-                "sahitya": "Do- ra - ku- - - - na- - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
-            },
-            {
-                "line_number": 2,
-                "swara": "sn D D - D - drsn P - dp pm gr - G - P - | - D - S - - S S - snrs sn nd D - S S - ||",
-                "sahitya": "Do- ra - ku- - - - na- - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
-            },
-            {
-                "line_number": 3,
-                "swara": "dSn dSn dp - drsn dp- pn dp pm gr - G - P - | - D - S - - S S - snrs sn nd D - R R S ||",
-                "sahitya": "Do- ra - ku- - - - - - na- - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
-            },
-            {
-                "line_number": 4,
-                "swara": "grsn rsnd sndp pd gr sn -ds nd pm gr - G - P - | - D - S - - S S - snrs sn nd D - R R S ||",
-                "sahitya": "Do- ra - ku- - na- - - - - - - - - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
-            },
-            {
-                "line_number": 5,
-                "swara": "R - rgmg - R- S - SN ND DP - DR | sRs sndn dP - - Dnd Pdp ppmg gr S R G ||",
-                "sahitya": "Bhu- - - su- ra Va- ru- la- kai- - - - - - - na- Su - - ra- la- - - kai - na -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "S- RG P P - - p D P - P dp G R - R R S - | - S r G- rs - S sn D - S r G - rg P - P P - ||",
-                        "sahitya": "Ta masa Guna Rahi ta Munu laku Poga da -taramu Gaa - ka ne -- - Bramasi yun- daga"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S- RG P P - - p D P - dp dp G R - R R S - | S R G- rs - S sn D - S r G - rg P - P P - ||",
-                        "sahitya": "Ta masa Guna Rahi ta Munu laku Poga da -taramu Gaa - ka ne -- - Bramasi yun- daga"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "dpmg P D dr sn D P Pds D P Pdp mg R - | - g p m- mgr S S S D S- r G G P - - - ||",
-                        "sahitya": "Sree-- math- Ka-na- ka pu Tho- - tla Pai-- - - ni Chelu- vun-- daga Kolu vun- - da ga - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "Dnd dp dp P M mg gr G P D - drsn dp D | S - S S S S - S snrs sn nd D - D S - ||",
-                        "sahitya": "Kaa- mi tha Phala daa- - yaki yau See- tha- - Kan thuni Gani - Yup pon- - - - - - da ga"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "sn D D - G - R - S R G - rs S - - gr sn dp D - | D - D - dr s R s sn dp Pdn D P dpmg R - ||",
-                        "sahitya": "Ra- - ma Bhram - ha Tana yu dau-- Tyaa - - - ga- raa- ju Ta- paa- - du-chu Nun- - cha ga - - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "d p m g r s r g * d p m g r s n d * s r g g r g P * m g p d - S s |",
-                        "sahitya": "Ra-muni Jagado- Dhaa- muni Sura Ripu Bhee- muni Thriguna Athee- thu ni Poo rna"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "D d g R r r * R s n D d d * R s s d p D * p - d d p m g r g ||",
-                        "sahitya": "Kaa muni Chin maya Roopuni Sad guna Dhaamuni Kanu laa ra Madini Kanuguna"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Dorakuna_Ituvanti_Bilahari.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S - R - mg G P - - - - - - D - dgr | S - - - SN ND D P - - ppmg RG ||",
+                    "sahitya": "Do ra ku-- - na- - - - - - I - - tu-- Van- - - - ti - - Se - - - va - - - - -"
+                },
+                {
+                    "swara": "gr S R - mg G P - - - dpmg R- D - dgr | S rg RS SN ND Pdn D P ppmg RG ||",
+                    "sahitya": "Do ra ku-- - na- - - - - - - - I - - tu-- Van- - - - ti - - Se - - - va - - - - -"
+                },
+                {
+                    "swara": "gr S R - mg G pd S snnd dppm gr- G pd S | sn D R - sr G rs nd pd S snnd dp - dpmg rg ||",
+                    "sahitya": "Do ra ku-- - na- - - - - - - - I - tu-- - Van- - ti - - - - - Se - - - - - va - - - - -"
+                },
+                {
+                    "swara": "gr S R - mg G pd S sndp pmgr rg P- mgpd | Snd grgr sn- ds gr -sn d - sns- dn -pn dp - dp mgrg ||",
+                    "sahitya": "Do ra ku-- - na- - - - - - - I - - tu-- - - - - Van- - - - - - - - ti - - Se - - - - - - va - - -"
+                },
+                {
+                    "swara": "gr S grR mg G dpP nd D - S sn D - R R - | srgp mg- rm gr - sgrs nd pd gr rs sn nd dp - mgrg ||",
+                    "sahitya": "Do ra ku-- - na- - - - - - - - I tu-- - Van- - - - - - - ti - - - - Se - - - - - - va - - -"
+                },
+                {
+                    "swara": "gr S R - mg G P - - - dpmg R- D - dgr | S - - - - - S - snrs sn nd D - S - - ||",
+                    "sahitya": "Do ra ku-- - na- - - - - - - - I - - tu-- Van- - - - ti - Se - - - - va - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "D - D - D - drsn P - dp pm gr - G - P - | - D - S - - S S - snrs sn nd D - S S - ||",
+                    "sahitya": "Do- ra - ku- - - - na- - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
+                },
+                {
+                    "swara": "sn D D - D - drsn P - dp pm gr - G - P - | - D - S - - S S - snrs sn nd D - S S - ||",
+                    "sahitya": "Do- ra - ku- - - - na- - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
+                },
+                {
+                    "swara": "dSn dSn dp - drsn dp- pn dp pm gr - G - P - | - D - S - - S S - snrs sn nd D - R R S ||",
+                    "sahitya": "Do- ra - ku- - - - - - na- - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
+                },
+                {
+                    "swara": "grsn rsnd sndp pd gr sn -ds nd pm gr - G - P - | - D - S - - S S - snrs sn nd D - R R S ||",
+                    "sahitya": "Do- ra - ku- - na- - - - - - - - - - - - - - Al - pa - Ta pa - Mo na rin-- - - - - - chi na"
+                },
+                {
+                    "swara": "R - rgmg - R- S - SN ND DP - DR | sRs sndn dP - - Dnd Pdp ppmg gr S R G ||",
+                    "sahitya": "Bhu- - - su- ra Va- ru- la- kai- - - - - - - na- Su - - ra- la- - - kai - na -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Dorakuna_Ituvanti_Bilahari.pdf",
+    "avartanasPerRow": 1
 }

@@ -7,117 +7,91 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "G - M G - G || gr S R G - - ||",
-                "sahitya": "Ra ma Na nnu Bro- va raa"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - M G - G || gr S R G - - ||",
-                "sahitya": "Ra ma Na nnu Bro- va raa"
-            },
-            {
-                "line_number": 3,
-                "swara": "gm P M - G pm- G || gr S R G - - ||",
-                "sahitya": "Ra ma Na - nnu Bro- va raa"
-            },
-            {
-                "line_number": 4,
-                "swara": "gm P dp - pp mm- G || gg rs R G - - ||",
-                "sahitya": "Ra ma Na - nnu Bro- va raa"
-            },
-            {
-                "line_number": 5,
-                "swara": "gm Pdp mp - pp mm- G || gg rs R G - - ||",
-                "sahitya": "Ra ma Na - nnu Bro- va raa"
-            },
-            {
-                "line_number": 6,
-                "swara": "rgmg M - rg mg M || pd N nddp pmgr ||",
-                "sahitya": "Ve - - ma ko -- - Lo -- ka - - bhi - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "gm Pdp mp - pp mm- G || rgmg rs R G - - ||",
-                "sahitya": "Ra ma Na - nnu Bro- va raa"
-            },
-            {
-                "line_number": 8,
-                "swara": "rgmg M - rg mg M || pd ns rs - nd p - mgr ||",
-                "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "rgmg M - rg mpdn || sr Gmg rs - nd p - mgr ||",
-                "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "gmgr S - ns nd P || gm gr S - nd p - mgr ||",
-                "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - p - d- r s n d n p || - dn S N S - ||",
-                "sahitya": "Ci ma lo - - - - - Bram - ha lo"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - g - m - p d n s n d || n p - dn S N S - ||",
-                "sahitya": "Ci ma lo - - - - - - - Bram - ha lo"
-            },
-            {
-                "line_number": 3,
-                "swara": "- d n S - d n s- s n d || n p - dn S N S - ||",
-                "sahitya": "Ci ma lo - - - - - - - Bram - ha lo"
-            },
-            {
-                "line_number": 4,
-                "swara": "S S sr Gmg gr S || S n r s- n D P - ||",
-                "sahitya": "Siva ke -- sa va - du la lo"
-            },
-            {
-                "line_number": 5,
-                "swara": "- G G gm P- D || D N S - sn S - || (Srg)",
-                "sahitya": "Pre ma Mi - ra Me la gu cun te"
-            },
-            {
-                "line_number": 6,
-                "swara": "mg R gr S rs N || nd P dp M mg R ||",
-                "sahitya": "Bi ru du va hin cina Si ta"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- P P P dn S || - N D P - D ||",
-                        "sahitya": "Me ppu la kai kan na ta vu"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "M P M G R S || rg mg M - g m P P || (p - nd dpm)",
-                        "sahitya": "Na - ppu Ba da ga Vi - - rra Vi - - gi"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- - d - n S D - dn || P - - d - n sn S - || (Sr g)",
-                        "sahitya": "Ta ppu pa nu lu - Le ka yun de"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "mg R gr S sn D || nd P dp M mg R ||",
-                        "sahitya": "Tya ga ra ja vi nu ta Si ta"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Rama_Nannu_Brovara_Hari_Kambodhi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "G - M G - G || gr S R G - - ||",
+                    "sahitya": "Ra ma Na nnu Bro- va raa"
+                },
+                {
+                    "swara": "P - M G - G || gr S R G - - ||",
+                    "sahitya": "Ra ma Na nnu Bro- va raa"
+                },
+                {
+                    "swara": "gm P M - G pm- G || gr S R G - - ||",
+                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                },
+                {
+                    "swara": "gm P dp - pp mm- G || gg rs R G - - ||",
+                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                },
+                {
+                    "swara": "gm Pdp mp - pp mm- G || gg rs R G - - ||",
+                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                },
+                {
+                    "swara": "rgmg M - rg mg M || pd N nddp pmgr ||",
+                    "sahitya": "Ve - - ma ko -- - Lo -- ka - - bhi - -"
+                },
+                {
+                    "swara": "gm Pdp mp - pp mm- G || rgmg rs R G - - ||",
+                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                },
+                {
+                    "swara": "rgmg M - rg mg M || pd ns rs - nd p - mgr ||",
+                    "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
+                },
+                {
+                    "swara": "rgmg M - rg mpdn || sr Gmg rs - nd p - mgr ||",
+                    "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
+                },
+                {
+                    "swara": "gmgr S - ns nd P || gm gr S - nd p - mgr ||",
+                    "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - p - d- r s n d n p || - dn S N S - ||",
+                    "sahitya": "Ci ma lo - - - - - Bram - ha lo"
+                },
+                {
+                    "swara": "- - g - m - p d n s n d || n p - dn S N S - ||",
+                    "sahitya": "Ci ma lo - - - - - - - Bram - ha lo"
+                },
+                {
+                    "swara": "- d n S - d n s- s n d || n p - dn S N S - ||",
+                    "sahitya": "Ci ma lo - - - - - - - Bram - ha lo"
+                },
+                {
+                    "swara": "S S sr Gmg gr S || S n r s- n D P - ||",
+                    "sahitya": "Siva ke -- sa va - du la lo"
+                },
+                {
+                    "swara": "- G G gm P- D || D N S - sn S - || (Srg)",
+                    "sahitya": "Pre ma Mi - ra Me la gu cun te"
+                },
+                {
+                    "swara": "mg R gr S rs N || nd P dp M mg R ||",
+                    "sahitya": "Bi ru du va hin cina Si ta"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Rama_Nannu_Brovara_Hari_Kambodhi.pdf",
+    "avartanasPerRow": 2
 }

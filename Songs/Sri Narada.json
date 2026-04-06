@@ -7,142 +7,87 @@
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "R - S - S S || snN - D - - - ||",
-                "sahitya": "Shree Naa rada ! Naa da"
-            },
-            {
-                "line_number": 2,
-                "swara": "R - s nS n snrs || ssnn D - - ns ||",
-                "sahitya": "Shree Naa rada ! Naa da - sara"
-            },
-            {
-                "line_number": 3,
-                "swara": "R - R R - sr || G - mg - gm rs np ||",
-                "sahitya": "see ruha Brun-- ga - - Shu- bhan- ga!"
-            },
-            {
-                "line_number": 4,
-                "swara": "R - s nS n snrs || ssnn D - - ns ||",
-                "sahitya": "Shree Naa rada ! Naa da - sara"
-            },
-            {
-                "line_number": 5,
-                "swara": "R - G G M nd || pm gm rg Mpm gmrs ||",
-                "sahitya": "see ruha Brun-- ga -shu-bhan-- -- ga!"
-            },
-            {
-                "line_number": 6,
-                "swara": "rGr rsS - snrs || ssnn D - - ns ||",
-                "sahitya": "Shree Naa rada ! Naa da - sara"
-            },
-            {
-                "line_number": 7,
-                "swara": "R - G G mdnr || sn pm rg Mpm gmrs ||",
-                "sahitya": "see ruha Brun-- ga -shu-bhan-- -- ga!"
-            },
-            {
-                "line_number": 8,
-                "swara": "rGr rsS - snrs || ssnn D - - ns ||",
-                "sahitya": "Shree Naa rada ! Naa da - sara"
-            },
-            {
-                "line_number": 9,
-                "swara": "r pm gm dnsr pmgm || rs np ndpm gmrs ||",
-                "sahitya": "see ru-ha Brun-- ga Shu- bhan-- -- ga!"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - n - p M - P || pmgm D - D - ||",
-                "sahitya": "Di na Maa - na ra---- - ksha ka!"
-            },
-            {
-                "line_number": 2,
-                "swara": "N- P Pdp M P || pmgm D - D - ||",
-                "sahitya": "Di na Maa - na ra---- - ksha ka!"
-            },
-            {
-                "line_number": 3,
-                "swara": "nsnn P Pdp M P || pmgm D D dnS ||",
-                "sahitya": "Di na Maa - na ra---- - kshaka! Ja-ga"
-            },
-            {
-                "line_number": 4,
-                "swara": "NR S - P - P || pm G pmgm s R s ||",
-                "sahitya": "dee- sha! Bhe- sha San- - kaa- - sha - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "nsnn P Pdp M P || pmgm D N S R ||",
-                "sahitya": "Di na Maa - na ra---- - kshaka! Ja-ga"
-            },
-            {
-                "line_number": 6,
-                "swara": "GM R - Srs N S || npnn pmgm rsns ||",
-                "sahitya": "dee- sha! Bhe- - sha San- - kaa- - sha - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - n - p M P P || mp Dnd pm G M - ||",
-                        "sahitya": "Ve da Ja ni tha Va- ra-- Vee-- na"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "rg Mpm G M R S || S - N R S - ||",
-                        "sahitya": "Vaa-- - - da na Ta tva- jna!"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- rn S R R - R || G - M - D N sr ||",
-                        "sahitya": "Khe- da ha ra Tri thaa pa ra hi ta-"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "sn P G G pmgm || s R s - - - - ||",
-                        "sahitya": "Khe-- shara Vi-nu- tha! - - - - - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- rp - m P rg mp || Mpm G pmM R S - ||",
-                        "sahitya": "Ya- dava Ku-la- ja-- - ptha—sa daa"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- rn S R G M || D D pdn dsn N P - ||",
-                        "sahitya": "Mo- da Hru da ya! Muni va-- - - - rya!"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "ndN P Pdp M P || pmG M D N sr ||",
-                        "sahitya": "Sri-- da ! Tya - ga ra-- ja Vi nu tha-!"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "snP P Pdp M P || pmG M D N sr ||",
-                        "sahitya": "Sri-- da ! Tya - ga ra-- ja Vi nu tha-!"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "rsnp P Pdp M P || pmG M D N sr ||",
-                        "sahitya": "Sri-- da ! Tya - ga ra-- ja Vi nu tha-!"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "GM RS snrs || npnn pmgm rsns ||",
-                        "sahitya": "Sri- kara ! Maam- Paa--- --- - - la-ya-"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sri_Narada_Kanada.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "R - S - S S || snN - D - - - ||",
+                    "sahitya": "Shree Naa rada ! Naa da"
+                },
+                {
+                    "swara": "R - s nS n snrs || ssnn D - - ns ||",
+                    "sahitya": "Shree Naa rada ! Naa da - sara"
+                },
+                {
+                    "swara": "R - R R - sr || G - mg - gm rs np ||",
+                    "sahitya": "see ruha Brun-- ga - - Shu- bhan- ga!"
+                },
+                {
+                    "swara": "R - s nS n snrs || ssnn D - - ns ||",
+                    "sahitya": "Shree Naa rada ! Naa da - sara"
+                },
+                {
+                    "swara": "R - G G M nd || pm gm rg Mpm gmrs ||",
+                    "sahitya": "see ruha Brun-- ga -shu-bhan-- -- ga!"
+                },
+                {
+                    "swara": "rGr rsS - snrs || ssnn D - - ns ||",
+                    "sahitya": "Shree Naa rada ! Naa da - sara"
+                },
+                {
+                    "swara": "R - G G mdnr || sn pm rg Mpm gmrs ||",
+                    "sahitya": "see ruha Brun-- ga -shu-bhan-- -- ga!"
+                },
+                {
+                    "swara": "rGr rsS - snrs || ssnn D - - ns ||",
+                    "sahitya": "Shree Naa rada ! Naa da - sara"
+                },
+                {
+                    "swara": "r pm gm dnsr pmgm || rs np ndpm gmrs ||",
+                    "sahitya": "see ru-ha Brun-- ga Shu- bhan-- -- ga!"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - n - p M - P || pmgm D - D - ||",
+                    "sahitya": "Di na Maa - na ra---- - ksha ka!"
+                },
+                {
+                    "swara": "N- P Pdp M P || pmgm D - D - ||",
+                    "sahitya": "Di na Maa - na ra---- - ksha ka!"
+                },
+                {
+                    "swara": "nsnn P Pdp M P || pmgm D D dnS ||",
+                    "sahitya": "Di na Maa - na ra---- - kshaka! Ja-ga"
+                },
+                {
+                    "swara": "NR S - P - P || pm G pmgm s R s ||",
+                    "sahitya": "dee- sha! Bhe- sha San- - kaa- - sha - -"
+                },
+                {
+                    "swara": "nsnn P Pdp M P || pmgm D N S R ||",
+                    "sahitya": "Di na Maa - na ra---- - kshaka! Ja-ga"
+                },
+                {
+                    "swara": "GM R - Srs N S || npnn pmgm rsns ||",
+                    "sahitya": "dee- sha! Bhe- - sha San- - kaa- - sha - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sri_Narada_Kanada.pdf",
+    "avartanasPerRow": 2
 }

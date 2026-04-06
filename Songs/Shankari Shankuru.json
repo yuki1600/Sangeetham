@@ -7,112 +7,79 @@
         "tala": "Adi",
         "composer": "Syama Sastri"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "snD R S - rp M D P - dp M pd S | sn D D - S S | sn D - P M G R ||",
-                "sahitya": "Shan ka ri Sam- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
-            },
-            {
-                "line_number": 2,
-                "swara": "Srs nd R S- rp M D P - dp M pd S | sn D D - S S | sn D - P M P D ||",
-                "sahitya": "Shan ka ri Sam- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - - - - dsrg rsnd P M P D | dsrs R - sr G | rs nd - P M P D ||",
-                "sahitya": "Shri A- khi- laan dee - shwa ri Shri A- khi-laan dee - shwa ri"
-            },
-            {
-                "line_number": 4,
-                "swara": "D R S sn D - P D N D P M | mpd- dpm G r r D | dpm G r gr gr S ||",
-                "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- di- - te- Gow - - ri - - - - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "D gr S sn D - G R N D P M | mpdSn- dpm G r r D | dpm G r gr gr S ||",
-                "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- di- - te- Gow - - ri - - - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "snD R S - rp M D P - dp M pd S | sn D D - - - | - - - - - - ||",
-                "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "P D N D P - - dn dpM - P D | R S - N D dd | M D - S - - ||",
-                "sahitya": "San-ka ta Haa -ri ni - - - Ri pu Vi dhaa ri ni Kal - yaa- ni - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "pd S - - R S s r M G - R S | d r S- r sn D D D | m P dpm G R S ||",
-                "sahitya": "Sa- daa - na tha Pha la Daa - ya ki Ha- ra -naa - ya ki Ja - gath- Ja na ni"
-            },
-            {
-                "line_number": 3,
-                "swara": "pd S - - R S s r pm G - R S | d r S- r sn D D D | mpd Sn dpm G R S ||",
-                "sahitya": "Sa- daa - na tha Pha la Daa - ya ki Ha- ra -naa - ya ki Ja - - - gath- Ja na ni"
-            },
-            {
-                "line_number": 4,
-                "swara": "rsr M g rs- rmpd - pmpDp - pmpd sr | gR grs n d - pmpd | r S rsn dp mgrs ||",
-                "sahitya": "O Sankari! Please give us welfare. O Moon Faced Mother akhilandesvari! O Sambhavi! O Mother worshipped"
-            },
-            {
-                "line_number": 5,
-                "swara": "Srs nd R S- rp M D P - dp M pd S | sn D D - S S | sn D - P M P D ||",
-                "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
-            },
-            {
-                "line_number": 6,
-                "swara": "D gr S sn D - G R N D P M | mpdSn- dpm G r r D | dpm G r gr gr S ||",
-                "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- - di- - te- -- Gow - - ri - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "snD R S - rp M D P - dp M pd S | sn D D - - - | - - - - - - ||",
-                "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "S S sn D pm dp - d- S s n D D - | P - dr sn D P | - dpm -G R R - ||",
-                        "sahitya": "Shya ma kri - - shna So- - - dha ri- - - Shya ma le - - Sha -tho - dha - ri"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S - R M - M P - dpm D - P - | pd S - N - P d n | D M m g R gr S ||",
-                        "sahitya": "Saa ma Gaa na Lo le - - Baa le Sa- daa rthi Bhan- ja na Shee- - le - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "S - R M - M P - dpm mpdp D | pd S - N - P d n | D M m g R gr S ||",
-                        "sahitya": "Saa ma Gaa na Lo le - - Baa le Sa- daa rthi Bhan- ja na Shee- - le - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "Srs nd R S- rp M D P - dp M pd S | sn D D - S S | sn D - P M P D ||",
-                        "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "D gr S sn D - G R N D P M | mpdSn- dpm G r r D | dpm G r gr gr S ||",
-                        "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- di- - te- - - Gow - - ri -- - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "snD R S - rp M D P - dp M pd S | sn D D - - - | - - - - - - ||",
-                        "sahitya": "Shan ka ri Sam - ku ru Chan - dra mu khi - - - - - - - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Shankari_Shankuru_Saveri.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "snD R S - rp M D P - dp M pd S | sn D D - S S | sn D - P M G R ||",
+                    "sahitya": "Shan ka ri Sam- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
+                },
+                {
+                    "swara": "Srs nd R S- rp M D P - dp M pd S | sn D D - S S | sn D - P M P D ||",
+                    "sahitya": "Shan ka ri Sam- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
+                },
+                {
+                    "swara": "S - - - - dsrg rsnd P M P D | dsrs R - sr G | rs nd - P M P D ||",
+                    "sahitya": "Shri A- khi- laan dee - shwa ri Shri A- khi-laan dee - shwa ri"
+                },
+                {
+                    "swara": "D R S sn D - P D N D P M | mpd- dpm G r r D | dpm G r gr gr S ||",
+                    "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- di- - te- Gow - - ri - - - - - -"
+                },
+                {
+                    "swara": "D gr S sn D - G R N D P M | mpdSn- dpm G r r D | dpm G r gr gr S ||",
+                    "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- di- - te- Gow - - ri - - - - - -"
+                },
+                {
+                    "swara": "snD R S - rp M D P - dp M pd S | sn D D - - - | - - - - - - ||",
+                    "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P D N D P - - dn dpM - P D | R S - N D dd | M D - S - - ||",
+                    "sahitya": "San-ka ta Haa -ri ni - - - Ri pu Vi dhaa ri ni Kal - yaa- ni - -"
+                },
+                {
+                    "swara": "pd S - - R S s r M G - R S | d r S- r sn D D D | m P dpm G R S ||",
+                    "sahitya": "Sa- daa - na tha Pha la Daa - ya ki Ha- ra -naa - ya ki Ja - gath- Ja na ni"
+                },
+                {
+                    "swara": "pd S - - R S s r pm G - R S | d r S- r sn D D D | mpd Sn dpm G R S ||",
+                    "sahitya": "Sa- daa - na tha Pha la Daa - ya ki Ha- ra -naa - ya ki Ja - - - gath- Ja na ni"
+                },
+                {
+                    "swara": "rsr M g rs- rmpd - pmpDp - pmpd sr | gR grs n d - pmpd | r S rsn dp mgrs ||",
+                    "sahitya": "O Sankari! Please give us welfare. O Moon Faced Mother akhilandesvari! O Sambhavi! O Mother worshipped"
+                },
+                {
+                    "swara": "Srs nd R S- rp M D P - dp M pd S | sn D D - S S | sn D - P M P D ||",
+                    "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - A khi laan - dee - shwa ri"
+                },
+                {
+                    "swara": "D gr S sn D - G R N D P M | mpdSn- dpm G r r D | dpm G r gr gr S ||",
+                    "sahitya": "Shaam bha vi - - Sa ra si ja Bha va Van- - di- - te- -- Gow - - ri - - - -"
+                },
+                {
+                    "swara": "snD R S - rp M D P - dp M pd S | sn D D - - - | - - - - - - ||",
+                    "sahitya": "Shan ka ri Shan- ku ru Chan - dra mu khi - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Shankari_Shankuru_Saveri.pdf",
+    "avartanasPerRow": 1
 }

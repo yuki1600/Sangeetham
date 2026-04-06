@@ -7,112 +7,71 @@
         "tala": "Jhampa",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - - - - rg rs S S - r G - R -pm G - | - M ppmg | M - mg M P - - - ||",
-                "sahitya": "Kshee ra saa - ga- ra sha ya -- - na va - ksha"
-            },
-            {
-                "line_number": 2,
-                "swara": "[rg mpmm rs S]",
-                "sahitya": "stha-- la ni- vaa ---- - - - - si - neem -- - pra na maa - - - - - - - - - - mim"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - P - ppmg M - PM P - P - ppmm | - - mpdp | D - - - P D N S ||",
-                "sahitya": "Sma ra ja - - na neem- ma no - n nma - neem pa - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "sngr rs S N S sn D - S S - - - sr N | D P - mg pm | M - - mg p - m M g - rg rs S ||",
-                "sahitya": "pa - Vi - mo- - - - cha neem Lo - - - ka - ja- na- neem Ni - - ran - - ja- neem"
-            },
-            {
-                "line_number": 5,
-                "swara": "[ r s n - d p m - g m g - r s n ]",
-                "sahitya": "Ni ran ja neem"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "D - - - Pdn dp mm mpG M - DP D - | - - SN | D N S - S R - - - ||",
-                "sahitya": "Kshi tyaa - - - - - - - di - Shi vaa nan - - - da Shat -"
-            },
-            {
-                "line_number": 2,
-                "swara": "Srg rs S S N D - S N D P P M - GM | P -d N - | D - n S N S - - - ||",
-                "sahitya": "trim -- - Shat - - tat- - - va- Swa- roo - - - - - - pi neem"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - r G - RG mpmp G - R rg rs S - - | - - P D | nsrs - - - R - d S ||",
-                "sahitya": "Shi va mo - - - - -- dhi - neem Ma - ya- - ma -"
-            },
-            {
-                "line_number": 4,
-                "swara": "N d - P - G - D P D M - G M - R S N | S P - pp mm | - - G M P - - - ||",
-                "sahitya": "- la va gow - - - - - - la - - Swa- roo - - pi - neem"
-            },
-            {
-                "line_number": 5,
-                "swara": "M - G - R S - N R S R G M - M G | M - P - D | - M P - D P D - S",
-                "sahitya": "Kshi pra prasaa da Daa - -yi ni Vi - pra Vi shwa si ni Swa-pra kaa"
-            },
-            {
-                "line_number": 6,
-                "swara": "- S - S G R S - R S D N S - S - N D | - P - D P | G M - mm mg - rm gr s n ||",
-                "sahitya": "sha The- ja - Prakaa - shini Chit pra kaa sha Daa- yi ni Maa -- ni - - neem -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "M - - - M - M - mgpm M - G R R S | - - S R | G R G - G - M - ||",
-                        "sahitya": "Kan ka na Ma -- ni ma - yaa- - - bha- ra - na Yu tha"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "P - - - D - P - D P P M mgmg D P | P M mgmg | mpmp mg R G - - - ||",
-                        "sahitya": "Maa than - - gi - - - Me - - - - cha- kan - - - - - - - ngi"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "M - G M P - P - P M D P D - d P d | N - n D n | S - S - R S R - ||",
-                        "sahitya": "An - - ku sha Chaa - - pa Ba - - - -- nee -- kshu Ha- stha"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - s n r s n D - D N S - - - S - N D | P M D P | P M G M P - - - ||",
-                        "sahitya": "Mo- -- -- -- hi - ni - - - Shai - - la - nan- - - di - ni"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "D - P - M dp - P M - mg mg mp mp M - G - r g | r s n - S - r | G - - mg D - P - pm ||",
-                        "sahitya": "Kum bha sam - bhava Lo - - - pa - - mu dra rcha na Tho shi ni Ka an chi pu"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "d p M - G M - - - P - d N D P - M D P | D - - - D | P D - N D N - S - - ||",
-                        "sahitya": "ra - vaa si ni Kan ja da laa ya ta - kshi Kaa - - maa - - kshi"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "S N D - N S R - S R G - M - r g r s S - | S G R S | S - S - D S N - D ||",
-                        "sahitya": "An tha ran - ga Poo - ja To shi ni taam- brah- maa khyaa kaa-sha Ta"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "P M - D P D N - - gr rs S - R S N - D | P M - G M | md P M - mm gr r m g r s n ||",
-                        "sahitya": "- tva shaa- li nim Am baa - Sri - - vi - - dhya- ra- saa- swaa -- dhi - ni--"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Ksheerasagara_Mayamalavagowlai.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S - - - - rg rs S S - r G - R -pm G - | - M ppmg | M - mg M P - - - ||",
+                    "sahitya": "Kshee ra saa - ga- ra sha ya -- - na va - ksha"
+                },
+                {
+                    "swara": "[rg mpmm rs S]",
+                    "sahitya": "stha-- la ni- vaa ---- - - - - si - neem -- - pra na maa - - - - - - - - - - mim"
+                },
+                {
+                    "swara": "S - P - ppmg M - PM P - P - ppmm | - - mpdp | D - - - P D N S ||",
+                    "sahitya": "Sma ra ja - - na neem- ma no - n nma - neem pa - - -"
+                },
+                {
+                    "swara": "sngr rs S N S sn D - S S - - - sr N | D P - mg pm | M - - mg p - m M g - rg rs S ||",
+                    "sahitya": "pa - Vi - mo- - - - cha neem Lo - - - ka - ja- na- neem Ni - - ran - - ja- neem"
+                },
+                {
+                    "swara": "[ r s n - d p m - g m g - r s n ]",
+                    "sahitya": "Ni ran ja neem"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "D - - - Pdn dp mm mpG M - DP D - | - - SN | D N S - S R - - - ||",
+                    "sahitya": "Kshi tyaa - - - - - - - di - Shi vaa nan - - - da Shat -"
+                },
+                {
+                    "swara": "Srg rs S S N D - S N D P P M - GM | P -d N - | D - n S N S - - - ||",
+                    "sahitya": "trim -- - Shat - - tat- - - va- Swa- roo - - - - - - pi neem"
+                },
+                {
+                    "swara": "S - r G - RG mpmp G - R rg rs S - - | - - P D | nsrs - - - R - d S ||",
+                    "sahitya": "Shi va mo - - - - -- dhi - neem Ma - ya- - ma -"
+                },
+                {
+                    "swara": "N d - P - G - D P D M - G M - R S N | S P - pp mm | - - G M P - - - ||",
+                    "sahitya": "- la va gow - - - - - - la - - Swa- roo - - pi - neem"
+                },
+                {
+                    "swara": "M - G - R S - N R S R G M - M G | M - P - D | - M P - D P D - S",
+                    "sahitya": "Kshi pra prasaa da Daa - -yi ni Vi - pra Vi shwa si ni Swa-pra kaa"
+                },
+                {
+                    "swara": "- S - S G R S - R S D N S - S - N D | - P - D P | G M - mm mg - rm gr s n ||",
+                    "sahitya": "sha The- ja - Prakaa - shini Chit pra kaa sha Daa- yi ni Maa -- ni - - neem -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Ksheerasagara_Mayamalavagowlai.pdf",
+    "avartanasPerRow": 1
 }

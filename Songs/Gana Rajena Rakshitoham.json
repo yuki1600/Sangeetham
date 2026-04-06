@@ -7,171 +7,141 @@
         "tala": "Misra Chapu",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P ds dp - | - pp mg R || mgrs R | R pm pm P ||",
-                "sahitya": "gana- ra- - je- - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 2,
-                "swara": "P ds dp - | - pp mg R || mgrs R | mpdp D - ||",
-                "sahitya": "gana- ra- - je- - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 3,
-                "swara": "P ds dp - | - mpdp mg R || mgrs R | mpdp D - ||",
-                "sahitya": "gana- ra- - je- - - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 4,
-                "swara": "P ds dp - | - Pdp mg R || mgrs R | mpdp D - ||",
-                "sahitya": "gana- ra- - je- - - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 5,
-                "swara": "mp dr sn | dp- mpdp mg R || mgrs R | mpdp D - ||",
-                "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 6,
-                "swara": "d r s n d p | mg r s s R m ||",
-                "sahitya": "guni jana nuta pal- lava pa de na"
-            },
-            {
-                "line_number": 7,
-                "swara": "P dr sn | dp- Pdp mg R || mgrs R | mpdp D - ||",
-                "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 8,
-                "swara": "m g r r s n | d p m g r - s r m ||",
-                "sahitya": "guni ja na nuta pal- lava pa de- na"
-            },
-            {
-                "line_number": 9,
-                "swara": "P rm Pdp | mg - R - S || sn D S | - sr - rpmg || R - - | S - - - ||",
-                "sahitya": "ga- Na- ra- - - je- - na ra- - kshi to - - - - - (a)ham - - - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "(mrpmP)",
-                "sahitya": "A Ni ma- - - dya- shta- si - ddhi pra- de - na"
-            },
-            {
-                "line_number": 11,
-                "swara": "D P - mg | R - mg R S || R pm P | d s- P D P ||",
-                "sahitya": "A Ni ma- - - dya- - shta si - ddhi pra- de - na"
-            },
-            {
-                "line_number": 12,
-                "swara": "D P - mg | R - mg R S || mrpm P | d s- P D P ||",
-                "sahitya": "A Ni ma- - - dya- - shta si - - ddhi pra- de - na"
-            },
-            {
-                "line_number": 13,
-                "swara": "pp mg R | M P - M P || D - S | sn d- s - S ||",
-                "sahitya": "ma- - Ni - kya maku Ta- di dha- re - Na"
-            },
-            {
-                "line_number": 14,
-                "swara": "D P - mg | R - mg R S || mrpm P | d s- P D P ||",
-                "sahitya": "A Ni ma- - - dya- - shta si - - ddhi pra- de - na"
-            },
-            {
-                "line_number": 15,
-                "swara": "R - mg | R - - - || - - - | - - - - ||",
-                "sahitya": "Man tri- Ni"
-            },
-            {
-                "line_number": 16,
-                "swara": "R - mg | R - D - || R S - sn | D- d d s s R ||",
-                "sahitya": "Man tri- Ni pu - ji ta su- mu khe- - - na"
-            },
-            {
-                "line_number": 17,
-                "swara": "R - mg | R - D R || S N - sn | D- d d s s R ||",
-                "sahitya": "Man tri- Ni pu - ji ta su- mu khe- - - na"
-            },
-            {
-                "line_number": 18,
-                "swara": "mg R - sn | D - dr sn - D || P - mp ds | dp mg rs R ||",
-                "sahitya": "ma- ni- ta gu- ru- gu ha van- -- di- te- - - na"
-            },
-            {
-                "line_number": 19,
-                "swara": "R - mg | R - D R || S N - sn | D- d d s s R ||",
-                "sahitya": "Man tri- Ni pu - ji ta su- mu khe- - - na"
-            },
-            {
-                "line_number": 20,
-                "swara": "mg R - sn | D - dr sn - D || P - mp ds | dp mg rs R ||",
-                "sahitya": "ma- ni- ta gu- ru- gu ha van- -- di- te- - - na"
-            },
-            {
-                "line_number": 21,
-                "swara": "dp m g r r | S - m r - d d p ||",
-                "sahitya": "dina-kara ko Ti praka - Se- na"
-            },
-            {
-                "line_number": 22,
-                "swara": "m g r m p d | d r s n d - S s ||",
-                "sahitya": "vi na ta- Srita man- da- - rena"
-            },
-            {
-                "line_number": 23,
-                "swara": "dp m g r r | S - m r - d d p || m g r m p d | d r s n d - S s ||",
-                "sahitya": "dina-kara ko Ti praka - Se- na vi na ta- Srita man- da- - rena"
-            },
-            {
-                "line_number": 24,
-                "swara": "r r m g r r | s r s n d s s r ||",
-                "sahitya": "manu pu- ji ta pa- Sa- nku Se- na"
-            },
-            {
-                "line_number": 25,
-                "swara": "d r s n d p | d p m r - s r m ||",
-                "sahitya": "ka-nana sthita brah- ma car - ye- Na"
-            },
-            {
-                "line_number": 26,
-                "swara": "r r m g r r | s r s n d s s r || d r s n d p | d p m r - s r m ||",
-                "sahitya": "manu pu- ji ta pa- Sa- nku Se- na ka-nana sthita brah- ma car - ye- Na"
-            },
-            {
-                "line_number": 27,
-                "swara": "P dr sn | dp- Pdp mg R || mgrs R | R pm P - ||",
-                "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 28,
-                "swara": "dp m g r r | S - m r - d d p || m g r m p d | d r s n d - S s ||",
-                "sahitya": "dina-kara ko Ti praka - Se- na vi na ta- Srita man- da- - rena"
-            },
-            {
-                "line_number": 29,
-                "swara": "r r m g r r | s r s n d s s r || d r s n d p | d p m r - s r m ||",
-                "sahitya": "manu pu- ji ta pa- Sa- nku Se- na ka-nana sthita brah- ma car - ye- Na"
-            },
-            {
-                "line_number": 30,
-                "swara": "P dr sn | dp- Pdp mg R || mgrs R | mpdp D - ||",
-                "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
-            },
-            {
-                "line_number": 31,
-                "swara": "m g r r s n | d p m g r - s r m ||",
-                "sahitya": "guni ja na nuta pal- lava pa de- na"
-            },
-            {
-                "line_number": 32,
-                "swara": "P rm Pdp | mg - R - S || sn D S | - sr - rpmg || R - - | S - - - ||",
-                "sahitya": "ga- Na- ra- - - je- - na ra- - kshi to - - - - - (a)ham - - - -"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Gana_RajEna_RakshitOham_Arabhi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P ds dp - | - pp mg R || mgrs R | R pm pm P ||",
+                    "sahitya": "gana- ra- - je- - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "P ds dp - | - pp mg R || mgrs R | mpdp D - ||",
+                    "sahitya": "gana- ra- - je- - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "P ds dp - | - mpdp mg R || mgrs R | mpdp D - ||",
+                    "sahitya": "gana- ra- - je- - - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "P ds dp - | - Pdp mg R || mgrs R | mpdp D - ||",
+                    "sahitya": "gana- ra- - je- - - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "mp dr sn | dp- mpdp mg R || mgrs R | mpdp D - ||",
+                    "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "d r s n d p | mg r s s R m ||",
+                    "sahitya": "guni jana nuta pal- lava pa de na"
+                },
+                {
+                    "swara": "P dr sn | dp- Pdp mg R || mgrs R | mpdp D - ||",
+                    "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "m g r r s n | d p m g r - s r m ||",
+                    "sahitya": "guni ja na nuta pal- lava pa de- na"
+                },
+                {
+                    "swara": "P rm Pdp | mg - R - S || sn D S | - sr - rpmg || R - - | S - - - ||",
+                    "sahitya": "ga- Na- ra- - - je- - na ra- - kshi to - - - - - (a)ham - - - -"
+                },
+                {
+                    "swara": "(mrpmP)",
+                    "sahitya": "A Ni ma- - - dya- shta- si - ddhi pra- de - na"
+                },
+                {
+                    "swara": "D P - mg | R - mg R S || R pm P | d s- P D P ||",
+                    "sahitya": "A Ni ma- - - dya- - shta si - ddhi pra- de - na"
+                },
+                {
+                    "swara": "D P - mg | R - mg R S || mrpm P | d s- P D P ||",
+                    "sahitya": "A Ni ma- - - dya- - shta si - - ddhi pra- de - na"
+                },
+                {
+                    "swara": "pp mg R | M P - M P || D - S | sn d- s - S ||",
+                    "sahitya": "ma- - Ni - kya maku Ta- di dha- re - Na"
+                },
+                {
+                    "swara": "D P - mg | R - mg R S || mrpm P | d s- P D P ||",
+                    "sahitya": "A Ni ma- - - dya- - shta si - - ddhi pra- de - na"
+                },
+                {
+                    "swara": "R - mg | R - - - || - - - | - - - - ||",
+                    "sahitya": "Man tri- Ni"
+                },
+                {
+                    "swara": "R - mg | R - D - || R S - sn | D- d d s s R ||",
+                    "sahitya": "Man tri- Ni pu - ji ta su- mu khe- - - na"
+                },
+                {
+                    "swara": "R - mg | R - D R || S N - sn | D- d d s s R ||",
+                    "sahitya": "Man tri- Ni pu - ji ta su- mu khe- - - na"
+                },
+                {
+                    "swara": "mg R - sn | D - dr sn - D || P - mp ds | dp mg rs R ||",
+                    "sahitya": "ma- ni- ta gu- ru- gu ha van- -- di- te- - - na"
+                },
+                {
+                    "swara": "R - mg | R - D R || S N - sn | D- d d s s R ||",
+                    "sahitya": "Man tri- Ni pu - ji ta su- mu khe- - - na"
+                },
+                {
+                    "swara": "mg R - sn | D - dr sn - D || P - mp ds | dp mg rs R ||",
+                    "sahitya": "ma- ni- ta gu- ru- gu ha van- -- di- te- - - na"
+                },
+                {
+                    "swara": "dp m g r r | S - m r - d d p ||",
+                    "sahitya": "dina-kara ko Ti praka - Se- na"
+                },
+                {
+                    "swara": "m g r m p d | d r s n d - S s ||",
+                    "sahitya": "vi na ta- Srita man- da- - rena"
+                },
+                {
+                    "swara": "dp m g r r | S - m r - d d p || m g r m p d | d r s n d - S s ||",
+                    "sahitya": "dina-kara ko Ti praka - Se- na vi na ta- Srita man- da- - rena"
+                },
+                {
+                    "swara": "r r m g r r | s r s n d s s r ||",
+                    "sahitya": "manu pu- ji ta pa- Sa- nku Se- na"
+                },
+                {
+                    "swara": "d r s n d p | d p m r - s r m ||",
+                    "sahitya": "ka-nana sthita brah- ma car - ye- Na"
+                },
+                {
+                    "swara": "r r m g r r | s r s n d s s r || d r s n d p | d p m r - s r m ||",
+                    "sahitya": "manu pu- ji ta pa- Sa- nku Se- na ka-nana sthita brah- ma car - ye- Na"
+                },
+                {
+                    "swara": "P dr sn | dp- Pdp mg R || mgrs R | R pm P - ||",
+                    "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "dp m g r r | S - m r - d d p || m g r m p d | d r s n d - S s ||",
+                    "sahitya": "dina-kara ko Ti praka - Se- na vi na ta- Srita man- da- - rena"
+                },
+                {
+                    "swara": "r r m g r r | s r s n d s s r || d r s n d p | d p m r - s r m ||",
+                    "sahitya": "manu pu- ji ta pa- Sa- nku Se- na ka-nana sthita brah- ma car - ye- Na"
+                },
+                {
+                    "swara": "P dr sn | dp- Pdp mg R || mgrs R | mpdp D - ||",
+                    "sahitya": "ga- Na- ra- - - je- - - na ra- - kshi to -- (a)ham"
+                },
+                {
+                    "swara": "m g r r s n | d p m g r - s r m ||",
+                    "sahitya": "guni ja na nuta pal- lava pa de- na"
+                },
+                {
+                    "swara": "P rm Pdp | mg - R - S || sn D S | - sr - rpmg || R - - | S - - - ||",
+                    "sahitya": "ga- Na- ra- - - je- - na ra- - kshi to - - - - - (a)ham - - - -"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Gana_RajEna_RakshitOham_Arabhi.pdf",
+    "avartanasPerRow": 2
 }

@@ -7,197 +7,107 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - n d P - - || ppmg R rm g -r S || sn s r - s- S nd - nd ||",
-                "sahitya": "Nee la- kan - - ttam - - - bha - - jee- ham-- - - sa tha- tham-"
-            },
-            {
-                "line_number": 2,
-                "swara": "P -N S rm gs R || M - P- N ns rm ||",
-                "sahitya": "- Nee ra jaa- - - sa naa di- nu tham--- (nee)"
-            },
-            {
-                "line_number": 3,
-                "swara": "S - n d P - dp || ppmg R rm g -r S || sn s r - s- S nd - nd ||",
-                "sahitya": "Nee la- kan - - ttam - - - bha - - jee- ham-- - - sa tha- tham-"
-            },
-            {
-                "line_number": 4,
-                "swara": "P -N S rm gs R || M - P- N ns rpmm ||",
-                "sahitya": "- Nee ra jaa- - - sa naa di- nu tham--- (nee)"
-            },
-            {
-                "line_number": 5,
-                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- S nd - nd ||",
-                "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa tha- tham-"
-            },
-            {
-                "line_number": 6,
-                "swara": "P -N S rm gs R || r P m P- N S rm ||",
-                "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
-            },
-            {
-                "line_number": 7,
-                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
-                "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
-            },
-            {
-                "line_number": 8,
-                "swara": "P -N S rm gs R || r dpM- P- N ns rpmm ||",
-                "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
-            },
-            {
-                "line_number": 9,
-                "swara": "S - nd - mp S - || S N S - - - ||",
-                "sahitya": "Nee la- kan - - ttam - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "pmP D P ppmg || M S r - m M P - ||",
-                "sahitya": "Ba - la Ku chaam mbaa - - Sa hi tham"
-            },
-            {
-                "line_number": 2,
-                "swara": "M P S- ss nd - P || mp - pn S - R - S - ||",
-                "sahitya": "Baa la chan -- dra See - - - vi - tham"
-            },
-            {
-                "line_number": 3,
-                "swara": "pmP D P mgrm || M S r - m M P - ||",
-                "sahitya": "Ba - la Ku chaam mbaa - - Sa hi tham"
-            },
-            {
-                "line_number": 4,
-                "swara": "M P S- ss nd - P || mp - pn S - R - S - ||",
-                "sahitya": "Baa la chan -- dra See - - - vi - tham"
-            },
-            {
-                "line_number": 5,
-                "swara": "P N S - rp mgmr || rp mg S- rs nd P ||",
-                "sahitya": "See- la Gu- ru- - - gu- ha- Poo-- ji- tham"
-            },
-            {
-                "line_number": 6,
-                "swara": "mp gr S Srs nd P || mp Dnd Pdp mg rm pr ||",
-                "sahitya": "Sree - Ka dam - - ba Va- na- naa - - - tham (nee)"
-            },
-            {
-                "line_number": 7,
-                "swara": "P N S - rp mgmr || rp mg s R s nd P ||",
-                "sahitya": "See- la Gu- ru- - - gu- ha- Poo-- ji- tham"
-            },
-            {
-                "line_number": 8,
-                "swara": "mp gr S Srs nd P || mp Dnd Pdp mg rm pr ||",
-                "sahitya": "Sree - Ka dam - - ba Va- na- naa - - - tham (nee)"
-            },
-            {
-                "line_number": 9,
-                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
-                "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
-            },
-            {
-                "line_number": 10,
-                "swara": "P -N S rm gs R || r dpM- P- N ns rpmm ||",
-                "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
-            },
-            {
-                "line_number": 11,
-                "swara": "S - nd - mp S - || S N S - - - ||",
-                "sahitya": "Nee la- kan - - ttam - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "P - D P Pdp mg || R - R mg gr S ||",
-                        "sahitya": "A - kshaya Roo -paa - - A khan - - - da"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "nS R gr s- Srs n d P || s n s r G -gs R - ||",
-                        "sahitya": "Kaa ve - - - ri - - - - - - Thee ro - - ttha ra"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- r g - - r S - - || - s r - g- S R - ||",
-                        "sahitya": "a bhi - mukham - - - Pan- - cha Mu kham"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "pn S s s nd P - || D P P M mg G ||",
-                        "sahitya": "Ra - kshi ta- bha ktha- pra mu kham--"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "R- S P - mg G R || M - p - D - P - ||",
-                        "sahitya": "- Na ksha thre - - - sha She - kha - ram"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "p n S Srs nd P - || nd dp P M mg G ||",
-                        "sahitya": "Ra - kshi ta- bha ktha- - pramu kham--"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "R- S P - mg G R || M - p - D - P- ||",
-                        "sahitya": "- Na ksha thre - - sha She kha ram"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "P N S Srs nd P || pm N - S R R ||",
-                        "sahitya": "Na- ma Roo - - pa Vi chi - thra tha ra"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "rgmg R - gmG - r S || ns R S - Srs nd - P ||",
-                        "sahitya": "dha - ksha tha - - ram mee - swa ram - - - Ke"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "R S N- nd P - || Pdp mg R rm mg S ||",
-                        "sahitya": "Da - ra gow - -- la - - - - pri ya ka ram"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "S p m m g s- r m m P || P m p n s d p s n S ||",
-                        "sahitya": "Da kshina Kaa - shi - puram Danditha Kaa-ma- thripuram"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "S p m m g r- p s nd P || P m p n s d p s n S ||",
-                        "sahitya": "Da kshina Kaa - shi - pu-ram Danditha Kaa-ma- thripuram"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "P S r r- n s - nd P || n S nd P m g r m P ||",
-                        "sahitya": "Dhaksha thraya va ram -ha ram Da yaa Ka ram Ka ma la ka ram (nee)"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
-                        "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "P -N S rm gs R || r dpM- P- N ns rpmm ||",
-                        "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "S - nd - mp S - || S N S - - - ||",
-                        "sahitya": "Nee la- kan - - ttam - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Neelakantam_Kedaragowlai.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "S - n d P - - || ppmg R rm g -r S || sn s r - s- S nd - nd ||",
+                    "sahitya": "Nee la- kan - - ttam - - - bha - - jee- ham-- - - sa tha- tham-"
+                },
+                {
+                    "swara": "P -N S rm gs R || M - P- N ns rm ||",
+                    "sahitya": "- Nee ra jaa- - - sa naa di- nu tham--- (nee)"
+                },
+                {
+                    "swara": "S - n d P - dp || ppmg R rm g -r S || sn s r - s- S nd - nd ||",
+                    "sahitya": "Nee la- kan - - ttam - - - bha - - jee- ham-- - - sa tha- tham-"
+                },
+                {
+                    "swara": "P -N S rm gs R || M - P- N ns rpmm ||",
+                    "sahitya": "- Nee ra jaa- - - sa naa di- nu tham--- (nee)"
+                },
+                {
+                    "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- S nd - nd ||",
+                    "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa tha- tham-"
+                },
+                {
+                    "swara": "P -N S rm gs R || r P m P- N S rm ||",
+                    "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
+                },
+                {
+                    "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
+                    "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
+                },
+                {
+                    "swara": "P -N S rm gs R || r dpM- P- N ns rpmm ||",
+                    "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
+                },
+                {
+                    "swara": "S - nd - mp S - || S N S - - - ||",
+                    "sahitya": "Nee la- kan - - ttam - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "pmP D P ppmg || M S r - m M P - ||",
+                    "sahitya": "Ba - la Ku chaam mbaa - - Sa hi tham"
+                },
+                {
+                    "swara": "M P S- ss nd - P || mp - pn S - R - S - ||",
+                    "sahitya": "Baa la chan -- dra See - - - vi - tham"
+                },
+                {
+                    "swara": "pmP D P mgrm || M S r - m M P - ||",
+                    "sahitya": "Ba - la Ku chaam mbaa - - Sa hi tham"
+                },
+                {
+                    "swara": "M P S- ss nd - P || mp - pn S - R - S - ||",
+                    "sahitya": "Baa la chan -- dra See - - - vi - tham"
+                },
+                {
+                    "swara": "P N S - rp mgmr || rp mg S- rs nd P ||",
+                    "sahitya": "See- la Gu- ru- - - gu- ha- Poo-- ji- tham"
+                },
+                {
+                    "swara": "mp gr S Srs nd P || mp Dnd Pdp mg rm pr ||",
+                    "sahitya": "Sree - Ka dam - - ba Va- na- naa - - - tham (nee)"
+                },
+                {
+                    "swara": "P N S - rp mgmr || rp mg s R s nd P ||",
+                    "sahitya": "See- la Gu- ru- - - gu- ha- Poo-- ji- tham"
+                },
+                {
+                    "swara": "mp gr S Srs nd P || mp Dnd Pdp mg rm pr ||",
+                    "sahitya": "Sree - Ka dam - - ba Va- na- naa - - - tham (nee)"
+                },
+                {
+                    "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
+                    "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
+                },
+                {
+                    "swara": "P -N S rm gs R || r dpM- P- N ns rpmm ||",
+                    "sahitya": "- Nee ra jaa- - - sa naa - di nu tham--- (nee)"
+                },
+                {
+                    "swara": "S - nd - mp S - || S N S - - - ||",
+                    "sahitya": "Nee la- kan - - ttam - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Neelakantam_Kedaragowlai.pdf",
+    "avartanasPerRow": 2
 }

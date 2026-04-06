@@ -7,197 +7,111 @@
         "tala": "Adi",
         "composer": "Syama Sastri"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "M - - mm G gs rg mg | M - - - - - - s r g ||",
-                "sahitya": "ma yam- - - - - - - ma - - - - - A-mba"
-            },
-            {
-                "line_number": 2,
-                "swara": "M - -d- mm G gs rg mg | M - - sr g- m g s - s r g ||",
-                "sahitya": "ma -- yam- - - - - - - ma - na nnu bro-va - A-mba"
-            },
-            {
-                "line_number": 3,
-                "swara": "mgmp mg s - m gs nd- n s rg | M - - g m p- g r s n- s r g ||",
-                "sahitya": "ma - - - yam- - - - - - - ma - nannu - bro-va - A-mba"
-            },
-            {
-                "line_number": 4,
-                "swara": "mgmp mg -s m gs nd- n s rg | M - - g m p- g r s n- s r g ||",
-                "sahitya": "ma - - yam- - - - - - - - - ma - na - nnu bro-va - A-mba"
-            },
-            {
-                "line_number": 5,
-                "swara": "mN - n dm- mg s nd - n s rgmg-",
-                "sahitya": "ma - - yam- - - - - - - ma - nannu - bro-va - A-mba"
-            },
-            {
-                "line_number": 6,
-                "swara": "mN - n dm- mg s nd - n s rgmg-",
-                "sahitya": "ma - - yam- - - - - - - ma - nannu - bro-va - A-mba"
-            },
-            {
-                "line_number": 7,
-                "swara": "mS - s nd- mg s nd - n s rgmg-",
-                "sahitya": "ma - - yam- - - - - - - ma - na - nnu bro-va - A-mba"
-            },
-            {
-                "line_number": 8,
-                "swara": "gsn - s nd- mg s nd - n s rgmg-",
-                "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
-            },
-            {
-                "line_number": 9,
-                "swara": "mgmn D - n d n p nd N | S - - ns n d m - m g s r g ||",
-                "sahitya": "ma-- - ha- ma- - - - - - ya u - - - - ma - - - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "gsn - s nd- mg s nd - n s rgmg-",
-                "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
-            },
-            {
-                "line_number": 11,
-                "swara": "mgmn D - s n d n p nd N | sn sR-",
-                "sahitya": "ma-- - ha- ma - - - - - - - ya u - - - - ma - - - -"
-            },
-            {
-                "line_number": 12,
-                "swara": "gsn - s nd- mg s nd - n s rgmg-",
-                "sahitya": "ma-- - - yam- - - - - - - ma - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S S - n d n p d n S | d n s - s n d n p n d N S - ||",
-                "sahitya": "sa tya nan- - - - - da s A- - nan - - - - - - - da"
-            },
-            {
-                "line_number": 2,
-                "swara": "- S S - n d n p d n S | d n s - s n d n p D N S - ||",
-                "sahitya": "sa tya nan- - - - - da s A- - nan - - - - - - - da"
-            },
-            {
-                "line_number": 3,
-                "swara": "- ns S S - n d n p - d n | S -d n s - s n d n p - D N -S ||",
-                "sahitya": "sa - - tya nan- - - - - - - da sa- - nan- - - - - - da"
-            },
-            {
-                "line_number": 4,
-                "swara": "- ns rg mg s s n d n p D | d n s - s n d - p d n - d m - m g s r g ||",
-                "sahitya": "ni- tya - - nan - - - - da A - - nan - - - - - - - da - - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "- gg S S - n d n p - d n | S -d n s - s n d n p - D N -S ||",
-                "sahitya": "sa - - tya nan- - - - - - - da sa- - nan- - - - - - da"
-            },
-            {
-                "line_number": 6,
-                "swara": "- ns rg mg s s n d n p D | d n s - s n d - p d n - d m - m g s r g ||",
-                "sahitya": "ni- tya - - nan - - - - da A - - nan - - - - - - - da - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "gsn - s nd- mg s nd - n s rgmg-",
-                "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
-            },
-            {
-                "line_number": 8,
-                "swara": "mgmn D - s n d n p nd N | sn sR-",
-                "sahitya": "ma-- - ha- ma - - - - - - - ya u - - - - ma - - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "m S - s nd- mg s nd - n s rgmg-",
-                "sahitya": "ma-- - - yam- - - - - - - ma - - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- m g S - S - S - S | - n s n d n p D N S - ||",
-                        "sahitya": "shya - ma - kr - Sna - ja- gat - - - jana ni"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- m g S - S S - - S | - n s n d n p D N S - ||",
-                        "sahitya": "shya - ma kr Sna - ja- gat - - - jana ni"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- n s r g m p gR s - S | - n s n d n p D N S - ||",
-                        "sahitya": "shya - ma- kr - -sna - ja- gat - - - jana ni"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - s - m M n d n p d n -ns | - s s n d m g r g m p m g S ||",
-                        "sahitya": "ta - masa me - - - - - le - ra- - - ve- de - - - - - vi"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- - s - m M n d n p d n S | - s s n d m g r g m p m g S ||",
-                        "sahitya": "ta - masa me - - - le - - - ra- - - ve- de - - - - - vi"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- - s - n D - D ns D | n p - dn S - N S - - - ||",
-                        "sahitya": "shya male ni -- - - - lo- - tpa le - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- - s - n D - dn s - sn d | n p -dn S - N sRs S - ||",
-                        "sahitya": "shya male ni -- - - - lo- - tpa le - -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "ns rg m g - g s n d n p D - | d n s - s n d - p d n - d m -m g- s r g ||",
-                        "sahitya": "hi- ma - - ca- la - su - te - su - - pha - - le - - - - shi - ve - -"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "M m - g - s - n d n- s r g M m- m | gm- nd n p d - n s d p g m p g r ||",
-                        "sahitya": "madhava - di vinu ta sarasi ja ksi kan - ci ka- ma- ksi ta - masa mu se - yaka"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "S s - m g s n d n -s n d m g s- g | s n d -n - S - g s n d - s n d m d ||",
-                        "sahitya": "ramma ma ra ka tan- gi maha- tripura sun - dari ni - nne hr dayamu pa - Ttukoni"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "gsn - s nd- mg s nd - n s rgmg-",
-                        "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "mgmn D - s n d n p nd N | sn sR-",
-                        "sahitya": "ma-- - ha- ma - - - - - - - ya u - - - - ma - - - -"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "m S - s nd- mg s nd - n s rgmg-",
-                        "sahitya": "ma-- - - yam- - - - - - - ma - - - - - -am-ba"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "mgmp mg -s m gs nd- n s rg | M - - - - - - s r g ||",
-                        "sahitya": "ma - - yam- - - - - - - - - ma - - - - - -am-ba"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "M - - mm G gs rg mg | M - - - - - - - ||",
-                        "sahitya": "ma yam- - - - - - - ma - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Maayamma_Nannu_Nata_Kuranji.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "M - - mm G gs rg mg | M - - - - - - s r g ||",
+                    "sahitya": "ma yam- - - - - - - ma - - - - - A-mba"
+                },
+                {
+                    "swara": "M - -d- mm G gs rg mg | M - - sr g- m g s - s r g ||",
+                    "sahitya": "ma -- yam- - - - - - - ma - na nnu bro-va - A-mba"
+                },
+                {
+                    "swara": "mgmp mg s - m gs nd- n s rg | M - - g m p- g r s n- s r g ||",
+                    "sahitya": "ma - - - yam- - - - - - - ma - nannu - bro-va - A-mba"
+                },
+                {
+                    "swara": "mgmp mg -s m gs nd- n s rg | M - - g m p- g r s n- s r g ||",
+                    "sahitya": "ma - - yam- - - - - - - - - ma - na - nnu bro-va - A-mba"
+                },
+                {
+                    "swara": "mN - n dm- mg s nd - n s rgmg-",
+                    "sahitya": "ma - - yam- - - - - - - ma - nannu - bro-va - A-mba"
+                },
+                {
+                    "swara": "mN - n dm- mg s nd - n s rgmg-",
+                    "sahitya": "ma - - yam- - - - - - - ma - nannu - bro-va - A-mba"
+                },
+                {
+                    "swara": "mS - s nd- mg s nd - n s rgmg-",
+                    "sahitya": "ma - - yam- - - - - - - ma - na - nnu bro-va - A-mba"
+                },
+                {
+                    "swara": "gsn - s nd- mg s nd - n s rgmg-",
+                    "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
+                },
+                {
+                    "swara": "mgmn D - n d n p nd N | S - - ns n d m - m g s r g ||",
+                    "sahitya": "ma-- - ha- ma- - - - - - ya u - - - - ma - - - -"
+                },
+                {
+                    "swara": "gsn - s nd- mg s nd - n s rgmg-",
+                    "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
+                },
+                {
+                    "swara": "mgmn D - s n d n p nd N | sn sR-",
+                    "sahitya": "ma-- - ha- ma - - - - - - - ya u - - - - ma - - - -"
+                },
+                {
+                    "swara": "gsn - s nd- mg s nd - n s rgmg-",
+                    "sahitya": "ma-- - - yam- - - - - - - ma - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- S S - n d n p d n S | d n s - s n d n p n d N S - ||",
+                    "sahitya": "sa tya nan- - - - - da s A- - nan - - - - - - - da"
+                },
+                {
+                    "swara": "- S S - n d n p d n S | d n s - s n d n p D N S - ||",
+                    "sahitya": "sa tya nan- - - - - da s A- - nan - - - - - - - da"
+                },
+                {
+                    "swara": "- ns S S - n d n p - d n | S -d n s - s n d n p - D N -S ||",
+                    "sahitya": "sa - - tya nan- - - - - - - da sa- - nan- - - - - - da"
+                },
+                {
+                    "swara": "- ns rg mg s s n d n p D | d n s - s n d - p d n - d m - m g s r g ||",
+                    "sahitya": "ni- tya - - nan - - - - da A - - nan - - - - - - - da - - - -"
+                },
+                {
+                    "swara": "- gg S S - n d n p - d n | S -d n s - s n d n p - D N -S ||",
+                    "sahitya": "sa - - tya nan- - - - - - - da sa- - nan- - - - - - da"
+                },
+                {
+                    "swara": "- ns rg mg s s n d n p D | d n s - s n d - p d n - d m - m g s r g ||",
+                    "sahitya": "ni- tya - - nan - - - - da A - - nan - - - - - - - da - - - -"
+                },
+                {
+                    "swara": "gsn - s nd- mg s nd - n s rgmg-",
+                    "sahitya": "ma-- - - yam- - - - - - - ma - nan- nu bro-va - A-mba"
+                },
+                {
+                    "swara": "mgmn D - s n d n p nd N | sn sR-",
+                    "sahitya": "ma-- - ha- ma - - - - - - - ya u - - - - ma - - - -"
+                },
+                {
+                    "swara": "m S - s nd- mg s nd - n s rgmg-",
+                    "sahitya": "ma-- - - yam- - - - - - - ma - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Maayamma_Nannu_Nata_Kuranji.pdf",
+    "avartanasPerRow": 1
 }

@@ -7,102 +7,71 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - S - - S - R GRG - - - - M | G R S - - sr N R | G R M G PM ddpm ||",
-                "sahitya": "Me ru Sa maa -- - - na - - - Me ru - Sa ma - - - - - na - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "grsn Srg R rs N sr gmpd nSn dpmd ppmg | M - M pdP mg M - D | - P P dndp M md ppmg ||",
-                "sahitya": "- - - Me- - -ru - - Sa ma - -- -- - -- - - na - - - - - Dhee - - - ra Va ra da - - - - Ra ghu - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "M - M Pdp mg M - - D - N - sn D - - - N | S - - - - sn D D | P dp M pm G - mg pm ||",
-                "sahitya": "- - Vee - - - - ra - Ju - - - thaa - mu Raa - - ra -- Ma ha - - - -- - - - - - -- - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "grsn Srg R rs N sr gmpdnSn dpmd pp mmG | M - M pdP mg M - md | pmpm P dndp M md pp mmG ||",
-                "sahitya": "- - - Me- - -ru - - Sa ma - -- -- - -- - - na - - - - - Dhee - - - ra Va ra da - - - - Ra ghu - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "M - M Pdp mg M - - D - N - sn D - - - N | S - - - - sn D D | P Pdp M Mpm G - mg pm ||",
-                "sahitya": "- - Vee - - - - ra - Ju - - - thaa - mu Raa - - ra -- Ma ha - - - -- - - - - - -- - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "- - S - - R N R GRG - - - - M | - dpM P - - - - | - - - - - - - - ||",
-                "sahitya": "Me ru Sa maa -- - - na - - - - - - - - -- - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - D - p - M - M dp ppmg R G M - - | M pd P mg M P - - D | P - - D P - - G ||",
-                "sahitya": "Saa ra saa - - - ra - - - - - Oy yaa - - - -- ra pu Na da la nu - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "MG D - p - M - M dp ppmg R dp ppm M - | M pd P mg M - dm P - P | D N D - N S N D ||",
-                "sahitya": "Saa ra saa - - - ra - - - - - Oy yaa - - - -- ra - pu Na da la nu - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "PM D - p - M - M dp ppmg R dp ppm M - | M pd P mg M - dm P - D | N D - - - N S - ||",
-                "sahitya": "Saa ra saa - - - ra - - - - - Oy yaa - - - -- ra - pu Na da la nu - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "- - - P - d N S - N S sn D P D nsrs | R - S - - sn D D | Pdp Mpm G - mgpm ||",
-                "sahitya": "Nee - ra dha Kaan - - thi - ni - - - Ni - - ti - - vi ni - - - - - Ma ha - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "grsnS P - d N S - nsrs sn D P D nsrs | R - dn S - r sn D D | Pdp Mpm G - mgpm ||",
-                "sahitya": "Nee - ra dha Kaan - - thi - ni - - - Ni - - ti - - vi ni - - - - - Ma ha - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - D - p - P - M - M G R G - M M - | - - - S S S sr N | S R pmgr - G M - g ||",
-                        "sahitya": "A la ka la Mu - - - - ddhu nu - - - - Thi la ka pu - Thee- - -- ru nu - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "P- m D - p - P dndp M gm Pdp pmgr - G M - | - - - S S S sr N | S R pmgr - G M - g ||",
-                        "sahitya": "A la ka la Mu - - - - ddhu nu - - - - Thi la ka pu - Thee- - -- ru nu - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- - - G M P P - P - d d P m GMGR | - - - S R mg R - G | M pdP pmgr - G M - ||",
-                        "sahitya": "Tha llu ku Je kku - la - - che - - - - - - Dha naru - - Nem mo - - - - - - mu na"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - D - p - P - M - M G RG - M M - | G M gm P mpD pd N | sn D - N S N D P ||",
-                        "sahitya": "Ga la mu na Sho - - - bil lu Ka na ka-- Bhu - sha - - na - mu la - - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "M - D - p - P - M - M G RG - M M - | G M gm P mpD pd N | sn D - N S - - - ||",
-                        "sahitya": "Ga la mu na Sho - - - bil lu Ka na ka-- Bhu - sha - - na - mu la - - -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "- - - P D N S - N S sn D PD nsrs | R - S - - sn D D | Pdp Mpm G - mgpm || grsn",
-                        "sahitya": "- - Da li tha Dur maa- - - na - va- - - Tyaa- ga - ra jaa- - - - rchi ta - - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Meru_Samaana.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- - S - - S - R GRG - - - - M | G R S - - sr N R | G R M G PM ddpm ||",
+                    "sahitya": "Me ru Sa maa -- - - na - - - Me ru - Sa ma - - - - - na - -"
+                },
+                {
+                    "swara": "grsn Srg R rs N sr gmpd nSn dpmd ppmg | M - M pdP mg M - D | - P P dndp M md ppmg ||",
+                    "sahitya": "- - - Me- - -ru - - Sa ma - -- -- - -- - - na - - - - - Dhee - - - ra Va ra da - - - - Ra ghu - - -"
+                },
+                {
+                    "swara": "M - M Pdp mg M - - D - N - sn D - - - N | S - - - - sn D D | P dp M pm G - mg pm ||",
+                    "sahitya": "- - Vee - - - - ra - Ju - - - thaa - mu Raa - - ra -- Ma ha - - - -- - - - - - -- - - -"
+                },
+                {
+                    "swara": "grsn Srg R rs N sr gmpdnSn dpmd pp mmG | M - M pdP mg M - md | pmpm P dndp M md pp mmG ||",
+                    "sahitya": "- - - Me- - -ru - - Sa ma - -- -- - -- - - na - - - - - Dhee - - - ra Va ra da - - - - Ra ghu - - -"
+                },
+                {
+                    "swara": "M - M Pdp mg M - - D - N - sn D - - - N | S - - - - sn D D | P Pdp M Mpm G - mg pm ||",
+                    "sahitya": "- - Vee - - - - ra - Ju - - - thaa - mu Raa - - ra -- Ma ha - - - -- - - - - - -- - - -"
+                },
+                {
+                    "swara": "- - S - - R N R GRG - - - - M | - dpM P - - - - | - - - - - - - - ||",
+                    "sahitya": "Me ru Sa maa -- - - na - - - - - - - - -- - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - D - p - M - M dp ppmg R G M - - | M pd P mg M P - - D | P - - D P - - G ||",
+                    "sahitya": "Saa ra saa - - - ra - - - - - Oy yaa - - - -- ra pu Na da la nu - - -"
+                },
+                {
+                    "swara": "MG D - p - M - M dp ppmg R dp ppm M - | M pd P mg M - dm P - P | D N D - N S N D ||",
+                    "sahitya": "Saa ra saa - - - ra - - - - - Oy yaa - - - -- ra - pu Na da la nu - - -"
+                },
+                {
+                    "swara": "PM D - p - M - M dp ppmg R dp ppm M - | M pd P mg M - dm P - D | N D - - - N S - ||",
+                    "sahitya": "Saa ra saa - - - ra - - - - - Oy yaa - - - -- ra - pu Na da la nu - - -"
+                },
+                {
+                    "swara": "- - - P - d N S - N S sn D P D nsrs | R - S - - sn D D | Pdp Mpm G - mgpm ||",
+                    "sahitya": "Nee - ra dha Kaan - - thi - ni - - - Ni - - ti - - vi ni - - - - - Ma ha - - -"
+                },
+                {
+                    "swara": "grsnS P - d N S - nsrs sn D P D nsrs | R - dn S - r sn D D | Pdp Mpm G - mgpm ||",
+                    "sahitya": "Nee - ra dha Kaan - - thi - ni - - - Ni - - ti - - vi ni - - - - - Ma ha - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Meru_Samaana.pdf",
+    "avartanasPerRow": 1
 }

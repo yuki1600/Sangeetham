@@ -7,177 +7,99 @@
         "tala": "Rupakam",
         "composer": "Chengalvaraaya Shastri"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- S r G - G - || G - G gm mpmg ||",
-                "sahitya": "La li the Maam Pa hi Da yaa --"
-            },
-            {
-                "line_number": 2,
-                "swara": "- G r G - mpmg || R - rgmg S - ||",
-                "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
-            },
-            {
-                "line_number": 3,
-                "swara": "nd - s p mpmg g S - || r G - G gm mpmg ||",
-                "sahitya": "Lali the -- Maam Pa - hi Da yaa --"
-            },
-            {
-                "line_number": 4,
-                "swara": "- G r G - mpmg || R - rgmg S - ||",
-                "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
-            },
-            {
-                "line_number": 5,
-                "swara": "nd - s p pmPdpmg g S - || r G - G gm Pdp mp ||",
-                "sahitya": "Lali the -- -- Maam Pa - hi Da yaa --"
-            },
-            {
-                "line_number": 6,
-                "swara": "mg- G r G - mpmg || R - rgmg S - ||",
-                "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
-            },
-            {
-                "line_number": 7,
-                "swara": "nd - S r g S S R || rs D S - r - g S ||",
-                "sahitya": "Laa -li tha Sa ka la Ka laa- va sa"
-            },
-            {
-                "line_number": 8,
-                "swara": "R - - - - s R || mpds - dp M mG r ||",
-                "sahitya": "the - Sru tha Kal- - pa la the --"
-            },
-            {
-                "line_number": 9,
-                "swara": "- rg rs - - - ||",
-                "sahitya": "- - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- p m - P - d S d || S - - S - S ||",
-                "sahitya": "Ku la Shai - la su the Ka ma"
-            },
-            {
-                "line_number": 2,
-                "swara": "- S S ds - n D || D - nd P P - ||",
-                "sahitya": "ko ti Pee - ta Ma dhya ga the"
-            },
-            {
-                "line_number": 3,
-                "swara": "- m g - P - d S d || S - - S rg S ||",
-                "sahitya": "Ku la Shai - la su the Ka -- ma"
-            },
-            {
-                "line_number": 4,
-                "swara": "- S S ds - n D || D - nd P pm pd ||",
-                "sahitya": "ko ti Pee - ta Ma dhya ga the"
-            },
-            {
-                "line_number": 5,
-                "swara": "-p- pm m g G P d S d || S - - S rg S ||",
-                "sahitya": "Ku- la - - Shai - la su the Ka -- ma"
-            },
-            {
-                "line_number": 6,
-                "swara": "- S S ds - n D || D - nd P P - ||",
-                "sahitya": "ko ti Pee - ta Ma dhya ga the"
-            },
-            {
-                "line_number": 7,
-                "swara": "- mp M - M M || gm P P M p D p ||",
-                "sahitya": "Jala daa yi tha Daa - na ra the - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "- M M Pds P P || mdpm G - G m G r ||",
-                "sahitya": "Cha pa laa yi tha Kaa - - ya la the --"
-            },
-            {
-                "line_number": 9,
-                "swara": "- s r ppmm M M || gm P P M p D p ||",
-                "sahitya": "Jala daa yi tha Daa - na ra the - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- s r G - G G || - g r G - mpmg ||",
-                        "sahitya": "Gha na Sho bha na Gu na jaa le - - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- g r - g M mdpm || G- G mG - - r- rg ||",
-                        "sahitya": "Ka ra dru tha Bram-- ha Ka paa- - le -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "rs - s p mPm G G || - r- s r G - md pmG ||",
-                        "sahitya": "-- Gha na Sho bha na - Gu na jaa le - - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- g r - g M mdpm || mg- G mG - - r- rg ||",
-                        "sahitya": "Ka ra dru tha Bram-- ha- Ka paa- - le -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- s r G - S rg rs || sn r- s S - sn d - R s ||",
-                        "sahitya": "Ga ma na Vi ji- tha- Ma -- tha - Ma- - raa -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "R - - s r mpds || dp pm mGr rgrs ||",
-                        "sahitya": "le - Na va Kam - - bu- ga- le -- - - -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "- p m - p D S - || S D S - S - ||",
-                        "sahitya": "Mu ni jana Maa na sa Lo le"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "- pm m g G p d S - || sd sd S rg S - ||",
-                        "sahitya": "Mu ni - - ja na Maa na sa Lo - - le"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "- ds d Sn D D || D - n D p P - ||",
-                        "sahitya": "Mo haam- bu dha Var thu - le"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "- pm m g G p d S - || sd sd Srg rg S - ||",
-                        "sahitya": "Mu ni - - ja na Maa na sa Lo - - le"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- ds drsd S - n D D || D - n D p mpds || dp",
-                        "sahitya": "Mo haam- bu dha Var thu - le"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "[ p m p D p ]",
-                        "sahitya": "Ka na ka ma ya She - - - - - - le"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "- s r P- Pdp mg M || gm P pm p D p D - ||",
-                        "sahitya": "Ka na ka ma - - - ya She - - - - - - le"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "- pm P D rs S dp - || - M - M G - m G r || rs",
-                        "sahitya": "Chen gal - va - - raa - ya Nu tha Baa - le"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sri_Lalithe_Bhairavi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- S r G - G - || G - G gm mpmg ||",
+                    "sahitya": "La li the Maam Pa hi Da yaa --"
+                },
+                {
+                    "swara": "- G r G - mpmg || R - rgmg S - ||",
+                    "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
+                },
+                {
+                    "swara": "nd - s p mpmg g S - || r G - G gm mpmg ||",
+                    "sahitya": "Lali the -- Maam Pa - hi Da yaa --"
+                },
+                {
+                    "swara": "- G r G - mpmg || R - rgmg S - ||",
+                    "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
+                },
+                {
+                    "swara": "nd - s p pmPdpmg g S - || r G - G gm Pdp mp ||",
+                    "sahitya": "Lali the -- -- Maam Pa - hi Da yaa --"
+                },
+                {
+                    "swara": "mg- G r G - mpmg || R - rgmg S - ||",
+                    "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
+                },
+                {
+                    "swara": "nd - S r g S S R || rs D S - r - g S ||",
+                    "sahitya": "Laa -li tha Sa ka la Ka laa- va sa"
+                },
+                {
+                    "swara": "R - - - - s R || mpds - dp M mG r ||",
+                    "sahitya": "the - Sru tha Kal- - pa la the --"
+                },
+                {
+                    "swara": "- rg rs - - - ||",
+                    "sahitya": "- - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- p m - P - d S d || S - - S - S ||",
+                    "sahitya": "Ku la Shai - la su the Ka ma"
+                },
+                {
+                    "swara": "- S S ds - n D || D - nd P P - ||",
+                    "sahitya": "ko ti Pee - ta Ma dhya ga the"
+                },
+                {
+                    "swara": "- m g - P - d S d || S - - S rg S ||",
+                    "sahitya": "Ku la Shai - la su the Ka -- ma"
+                },
+                {
+                    "swara": "- S S ds - n D || D - nd P pm pd ||",
+                    "sahitya": "ko ti Pee - ta Ma dhya ga the"
+                },
+                {
+                    "swara": "-p- pm m g G P d S d || S - - S rg S ||",
+                    "sahitya": "Ku- la - - Shai - la su the Ka -- ma"
+                },
+                {
+                    "swara": "- S S ds - n D || D - nd P P - ||",
+                    "sahitya": "ko ti Pee - ta Ma dhya ga the"
+                },
+                {
+                    "swara": "- mp M - M M || gm P P M p D p ||",
+                    "sahitya": "Jala daa yi tha Daa - na ra the - -"
+                },
+                {
+                    "swara": "- M M Pds P P || mdpm G - G m G r ||",
+                    "sahitya": "Cha pa laa yi tha Kaa - - ya la the --"
+                },
+                {
+                    "swara": "- s r ppmm M M || gm P P M p D p ||",
+                    "sahitya": "Jala daa yi tha Daa - na ra the - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sri_Lalithe_Bhairavi.pdf",
+    "avartanasPerRow": 2
 }

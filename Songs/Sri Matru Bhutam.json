@@ -7,172 +7,103 @@
         "tala": "Misra Chapu",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - - - || - - - | - - - - ||",
-                "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - R G ||",
-                "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham hrdi"
-            },
-            {
-                "line_number": 3,
-                "swara": "- - mg | M - P - || - - gs | mgmg M - || D - N | dsD P - || mD P- | G pmM R S ||",
-                "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun ta La- mba sa- me tam - - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
-                "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
-            },
-            {
-                "line_number": 5,
-                "swara": "- - mg | M - D P || - - gs | mgmg M - || D - N | dsD P - || mD P- | G pmM R S ||",
-                "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun ta La- mba sa- me tam - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
-                "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
-            },
-            {
-                "line_number": 7,
-                "swara": "- - mg | M - D P || - - gs | mgmg D - || dn sg gm | rsns dnrs || ns - dp gm | dp gp mm rs ||",
-                "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun—ta- La- mba sa- me -- tam - - - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - - - || - - - | - - - - ||",
-                "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - D | D - - D || D S D | P - d pmM - || - - d N | - S S - || D - n S | dsD P - ||",
-                "sahitya": "so ma sa kham- na- - ta - - - - - Suka - sa na - kam - - na-- La-"
-            },
-            {
-                "line_number": 2,
-                "swara": "--m- D | D - D - || D S D | P - d pmM - || - - d N | - S S - || D - n S | dsD P - ||",
-                "sahitya": "so ma sa kham- na- - ta - - - - - Suka - sa na - kam - - na-- La-"
-            },
-            {
-                "line_number": 3,
-                "swara": "--m- D | D - D - || dn Srs ns | dP - d pmM - || - - d N | S - S - || D - n S | dsD P - ||",
-                "sahitya": "so ma sa kham- - - na- - ta - - - - - Suka sa na - kam - - na-- La-"
-            },
-            {
-                "line_number": 4,
-                "swara": "- -m - mg | M - D P || G pmM - | R - S - || - - s S | G - - - || M - - | gpmm - - ||",
-                "sahitya": "- ka- ma- - di vi - - - - ja - ya- kama ni - - - yan - gam - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "M M - mg | M - D P || G pmM - | R - S - || - - s S | G - - - || M - - | gpmm - - ||",
-                "sahitya": "Na la ka- ma- - di vi - - - - ja - ya- kama ni - - - yan - gam - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "- - D | D - - D || D S D | P - d pmM - || - D N | S - D N || S - - | S - - - ||",
-                "sahitya": "so mam - Si ro- - dhr - ta - - - su - - - rya- gan - - gam - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "- - D | D - - D || D S D | P - d pmM - || - D N | S - D N || S - - | S - - - ||",
-                "sahitya": "so mam - Si ro- - dhr - ta - - - su - - - rya- gan - - gam - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "S N S | S R G M || R S - nr | sSd - S - || D N -S | ds D - P || gm dpP | gpmm R S ||",
-                "sahitya": "ko - - mala ka ra dhrta ku- ran- gam guru gu ha- - nta ran- ga- lin - - gam-"
-            },
-            {
-                "line_number": 9,
-                "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
-                "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
-            },
-            {
-                "line_number": 10,
-                "swara": "- - mg | M - D P || - - gs | mgmg D - || dn sg gm | rsns dnrs || ns - dp gm | dp gp mm rs ||",
-                "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun—ta- La- mba sa- me -- tam - - - - -"
-            },
-            {
-                "line_number": 11,
-                "swara": "G - - | M - D - || P - - | P - - - ||",
-                "sahitya": "Sri - ma tr bhu- tam - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - G | M D P - || G p m M | R - S - || - - nr | sS - S - || snr s S | D - P - ||",
-                        "sahitya": "va sa - va - - - di - de- va van di -- ta ca—ra- Nam - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- - S | S - G - || - G - | gpmm R G || - - M | - - P - || P m D - | P M P - ||",
-                        "sahitya": "Vai Sya ja- ti stri - - - - - - ve - - sha - dha- ra Nam- - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- - D | D - D N || S - sd - | P - P - m || P - - | P -m D P || pmM - G - | M - - - ||",
-                        "sahitya": "va su - de- - va- ma hi - tam - - bha- va- ta - - ra- Nam - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - D | - N D - || - P - | P - P - m || D P - | pg - gdpp || G -p mm | R - S S ||",
-                        "sahitya": "va - sa na- - di - ra hi - - ta- an- - tah- - ka - ra- Nam - da ra"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "D - - | ds D P M || P - pp | M G M - || D - N | S - S R || G p mmr | S dn S - ||",
-                        "sahitya": "ha - - sa- - tri-pu ra- di- ha ra Nam va su ki pramu kha- - - bhara- Nam"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "D N S | ds D P - G || M D P | gp M R S || S D S | S S - S || G - M | mdpp m g m - s ||",
-                        "sahitya": "bha-sa ma-- na na va - - va-ra - Nam- da- sa ja na - san to- sha ka-ra- Nam- su"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "G g m - r s | mGm P p - m || D D - d d | d s D p m P || - - - | - - - - s ||",
-                        "sahitya": "va si ta nava javanti pushpa vi ka sa priya hrdayam sada yam su"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "G g m - r s | mGm P p - m || D D - d d | d s D p m P ||",
-                        "sahitya": "va si ta nava javanti pushpa vi ka sa priya hrdayam sada yam"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "m gm D n | S S r g m r || S - s D - p | M - r(p) g m - r S ||",
-                        "sahitya": "ma-sa varsha paksho tsava Vibha vam sada Si vam pa ra ma Sivam"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
-                        "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- - mg | M - D P || - - gs | mgmg D - || dn sg gm | rsns dnrs || ns - dp gm | dp gp mm rs ||",
-                        "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun—ta- La- mba sa- me -- tam - - - - -"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - - - || - - - | - - - - ||",
-                        "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Sri_mAtru_BhUtam_Kannada.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - - - || - - - | - - - - ||",
+                    "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham - -"
+                },
+                {
+                    "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - R G ||",
+                    "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham hrdi"
+                },
+                {
+                    "swara": "- - mg | M - P - || - - gs | mgmg M - || D - N | dsD P - || mD P- | G pmM R S ||",
+                    "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun ta La- mba sa- me tam - - - -"
+                },
+                {
+                    "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
+                    "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
+                },
+                {
+                    "swara": "- - mg | M - D P || - - gs | mgmg M - || D - N | dsD P - || mD P- | G pmM R S ||",
+                    "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun ta La- mba sa- me tam - - - -"
+                },
+                {
+                    "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
+                    "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
+                },
+                {
+                    "swara": "- - mg | M - D P || - - gs | mgmg D - || dn sg gm | rsns dnrs || ns - dp gm | dp gp mm rs ||",
+                    "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun—ta- La- mba sa- me -- tam - - - - -"
+                },
+                {
+                    "swara": "G - - | M - D - || P - - | G- -m R || nrss - | D - D N || S - - | G - - - || - - - | - - - - ||",
+                    "sahitya": "Sri - ma tr bhu- tam - tri Si-ra- gi - ri - na - tham - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - D | D - - D || D S D | P - d pmM - || - - d N | - S S - || D - n S | dsD P - ||",
+                    "sahitya": "so ma sa kham- na- - ta - - - - - Suka - sa na - kam - - na-- La-"
+                },
+                {
+                    "swara": "--m- D | D - D - || D S D | P - d pmM - || - - d N | - S S - || D - n S | dsD P - ||",
+                    "sahitya": "so ma sa kham- na- - ta - - - - - Suka - sa na - kam - - na-- La-"
+                },
+                {
+                    "swara": "--m- D | D - D - || dn Srs ns | dP - d pmM - || - - d N | S - S - || D - n S | dsD P - ||",
+                    "sahitya": "so ma sa kham- - - na- - ta - - - - - Suka sa na - kam - - na-- La-"
+                },
+                {
+                    "swara": "- -m - mg | M - D P || G pmM - | R - S - || - - s S | G - - - || M - - | gpmm - - ||",
+                    "sahitya": "- ka- ma- - di vi - - - - ja - ya- kama ni - - - yan - gam - - -"
+                },
+                {
+                    "swara": "M M - mg | M - D P || G pmM - | R - S - || - - s S | G - - - || M - - | gpmm - - ||",
+                    "sahitya": "Na la ka- ma- - di vi - - - - ja - ya- kama ni - - - yan - gam - - -"
+                },
+                {
+                    "swara": "- - D | D - - D || D S D | P - d pmM - || - D N | S - D N || S - - | S - - - ||",
+                    "sahitya": "so mam - Si ro- - dhr - ta - - - su - - - rya- gan - - gam - -"
+                },
+                {
+                    "swara": "- - D | D - - D || D S D | P - d pmM - || - D N | S - D N || S - - | S - - - ||",
+                    "sahitya": "so mam - Si ro- - dhr - ta - - - su - - - rya- gan - - gam - -"
+                },
+                {
+                    "swara": "S N S | S R G M || R S - nr | sSd - S - || D N -S | ds D - P || gm dpP | gpmm R S ||",
+                    "sahitya": "ko - - mala ka ra dhrta ku- ran- gam guru gu ha- - nta ran- ga- lin - - gam-"
+                },
+                {
+                    "swara": "G - - | gmdn Srs ns || D - P - | gm dpP gm- R || nrss - | D - D N || S - - | G - R G ||",
+                    "sahitya": "Sri - ma tr - - bhu- tam - - - tri Si-ra- gi - ri - na - tham hrdi"
+                },
+                {
+                    "swara": "- - mg | M - D P || - - gs | mgmg D - || dn sg gm | rsns dnrs || ns - dp gm | dp gp mm rs ||",
+                    "sahitya": "Cin- ta - ye - - su- gan-- dhi- kun—ta- La- mba sa- me -- tam - - - - -"
+                },
+                {
+                    "swara": "G - - | M - D - || P - - | P - - - ||",
+                    "sahitya": "Sri - ma tr bhu- tam - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Sri_mAtru_BhUtam_Kannada.pdf",
+    "avartanasPerRow": 2
 }

@@ -7,186 +7,153 @@
         "tala": "Khanda Chapu",
         "composer": "Purandara Dasa"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - g - M P || - - - - - || - - - - - ||",
-                "sahitya": "na ra yana - - - - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - g - M P || - pn S S ns || g -n s s P -m -gm || pm -S-g nS- - - ||",
-                "sahitya": "na ra yana ni- - nna na- - - - ma da -- sma- ra- Ne- ya - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "npnp - g - M P || - pn S S ns || mgG -n S s P -m -gm || nnpm -S-g nS- - - ||",
-                "sahitya": "na ra yana - ni- - nna na- - - - - ma da -- sma- ra- Ne- ya - - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "npnp - g - M P || - pn S S ns || mgG -n S s P -m -gm || nnpm -S-g nS- - - ||",
-                "sahitya": "na ra yana - ni- - nna na- - - - - ma da -- sma- ra- Ne- ya - - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "sg mpmg - M P || P pn S S- ns || g -n ss - pn mp gm || gs - gm pn sg n s ||",
-                "sahitya": "sa ra- - - mr ta vu en- - na na-- - - -li ge- ge- ba- ra- li - - - - - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "P - g - M P || - - - - - || - - - - - ||",
-                "sahitya": "na ra yana - - - - - - - - - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "- - g - m gs - - || G N S - S || gm P P mggs - || gm pn mp - - ||",
-                "sahitya": "Ka Stadal- - li ra li - ut kr- - - Sta dal- - - li- ra- li - - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "- gm nPm - - gs - - || G N S - S || gm pn P mggs - || gm pn mp - - ||",
-                "sahitya": "Ka Sta- dal- - li ra li - ut kr- - - Sta dal- - - li- ra- li - - -"
-            },
-            {
-                "line_number": 9,
-                "swara": "- gm p N - N || N - n S S S || ns mg snP - mp - ||",
-                "sahitya": "es- Ta- da re ma ti kettu i- ra- li - - - - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "mg- gm nPm - - gs - - || G N S - S || gm pn P mggs - || gm pn mp - - ||",
-                "sahitya": "Ka Sta- dal- - li ra li - ut kr- - - Sta dal- - - li- ra- li - - -"
-            },
-            {
-                "line_number": 11,
-                "swara": "- gm p N - N || N - n S S S || ns mg snP - mp - ||",
-                "sahitya": "es- Ta- da re ma ti kettu i- ra- li - - - - -"
-            },
-            {
-                "line_number": 12,
-                "swara": "Kr Sna kr- SNa - - - - - - - - -",
-                "sahitya": "Kr Sna kr- Sna en- du - - shi Sya ru pe- - - Lu- va"
-            },
-            {
-                "line_number": 13,
-                "swara": "nP- n - n- S - || S - - S g - snN || - - p - n - S - || ggsns mg snN S - ||",
-                "sahitya": "Kr Sna kr- Sna - en- du - - shi Sya ru pe- - - Lu- va"
-            },
-            {
-                "line_number": 14,
-                "swara": "- N S mg S || S -n gsS P - || p n s g ns pn mp || gm gs- gm pn sg ||",
-                "sahitya": "A Sta- ksa ra ma -- ha man- - tra-da- na - - ma- va - - - - - - -"
-            },
-            {
-                "line_number": 15,
-                "swara": "ns - P - g - M || P - - - - ||",
-                "sahitya": "- na ra ya Na"
-            },
-            {
-                "line_number": 16,
-                "swara": "- -- n - n- S - || S - - S g - snN || - - p - n - S - || ggsns mg snN S - ||",
-                "sahitya": "Kr Sna kr- Sna - en- du - - shi Sya ru pe- - - Lu- va"
-            },
-            {
-                "line_number": 17,
-                "swara": "- N S mg S || S -n gsS P - || p n s g ns pn mp || gm gs- gm pn sg ||",
-                "sahitya": "A Sta- ksa ra ma -- ha man- - tra-da- na - - ma- va - - - - -"
-            },
-            {
-                "line_number": 18,
-                "swara": "ns - P - g - M || P - pn S S ns || g -n s s P -m -gm || pm -S-g nS- - - ||",
-                "sahitya": "- na ra ya Na ni- - nna na- - - - ma da -- sma- ra- Ne- ya - - -"
-            },
-            {
-                "line_number": 19,
-                "swara": "sg mpmg - M P || P pn S S- ns || g -n ss - pn mp gm || gs - gm pn sg n s ||",
-                "sahitya": "sa ra- - - mr ta vu en- - na na-- - - -li ge- ge- ba- ra- li - - - - - -"
-            },
-            {
-                "line_number": 20,
-                "swara": "P - g - M P || - - - - - || - - - - - ||",
-                "sahitya": "na ra yana - - - - - - - - - -"
-            },
-            {
-                "line_number": 21,
-                "swara": "- - g - m gs - - || sg N S - S || gm P P mggs - || gm pn mp P - ||",
-                "sahitya": "San ta ta - - - ha ri nin na sa- - si ra - -da na- - - ma va"
-            },
-            {
-                "line_number": 22,
-                "swara": "- gm nPm - - gs - - || sg N S - S || gm pn P mggs - || gm pn mp - - ||",
-                "sahitya": "San ta - - ta - - ha ri nin na sa- - si ra - -da na- - - ma va"
-            },
-            {
-                "line_number": 23,
-                "swara": "- - g m P N - || N - p n S - N ng || S -- snN pn pm || gg",
-                "sahitya": "An taran- - ga - dal- li - Iri- - si- - - - - - -"
-            },
-            {
-                "line_number": 24,
-                "swara": "gg- gm nPm - - gs - - || sg N S - S || gm pn P mggs - || gm pn mp - - ||",
-                "sahitya": "San ta - - ta - - ha ri nin na sa- - si ra - -da na- - - ma va"
-            },
-            {
-                "line_number": 25,
-                "swara": "- - g m P N - || N - p n S - N ng || S -- snN pn P ||",
-                "sahitya": "An taran- - ga - dal- li - Iri- si- - - - - - -"
-            },
-            {
-                "line_number": 26,
-                "swara": "- N S - S || S - S - S || - - - - - ||",
-                "sahitya": "En to pu ran da ra"
-            },
-            {
-                "line_number": 27,
-                "swara": "- N S - S || S - S - snN || - -p - n S - || ns mgG snN S - ||",
-                "sahitya": "En to pu ran da ra -- - vi Thala - ra- - - ya- na"
-            },
-            {
-                "line_number": 28,
-                "swara": "np- N S - S || S - S - snN || - -p - n S - || ggsns mg snN S - ||",
-                "sahitya": "En to pu ran da ra -- - vi Thala - ra- - - ya- na"
-            },
-            {
-                "line_number": 29,
-                "swara": "- ns M gS - || sn- ngss nP- - || - P - s - nPm || gm gs- gm pn sg ||",
-                "sahitya": "An tya ka- la- da-- lli - - cin ti so- - ha- - ge - - - -"
-            },
-            {
-                "line_number": 30,
-                "swara": "ns - P - g - M || P - - - - ||",
-                "sahitya": "- na ra ya Na"
-            },
-            {
-                "line_number": 31,
-                "swara": "- - N S - S || S - gSg snN || - -p - n S - || ggsns mg snN S - ||",
-                "sahitya": "En to pu ran da ra -- - vi Thala - ra- - - ya- na"
-            },
-            {
-                "line_number": 32,
-                "swara": "- ns M gS - || sn- ngss nP- - || - P - s - nPm || gm gs- gm pn sg ||",
-                "sahitya": "An tya ka- la- da-- lli - - cin ti so- - ha- - ge - - - -"
-            },
-            {
-                "line_number": 33,
-                "swara": "ns - P - g - M || P - - - - ||",
-                "sahitya": "- na ra ya Na"
-            },
-            {
-                "line_number": 34,
-                "swara": "ns - gm - P - N || pnsn N - - ||",
-                "sahitya": "- na ra ya Na - - - - -"
-            },
-            {
-                "line_number": 35,
-                "swara": "ns - snnp n- S - N || sgmg G - - || S -",
-                "sahitya": "- na - ra ya Na - - - - -"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Narayana_Ninna_Namada_Shuddha_Dhanyasi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P - g - M P || - - - - - || - - - - - ||",
+                    "sahitya": "na ra yana - - - - - - - - - -"
+                },
+                {
+                    "swara": "P - g - M P || - pn S S ns || g -n s s P -m -gm || pm -S-g nS- - - ||",
+                    "sahitya": "na ra yana ni- - nna na- - - - ma da -- sma- ra- Ne- ya - - -"
+                },
+                {
+                    "swara": "npnp - g - M P || - pn S S ns || mgG -n S s P -m -gm || nnpm -S-g nS- - - ||",
+                    "sahitya": "na ra yana - ni- - nna na- - - - - ma da -- sma- ra- Ne- ya - - -"
+                },
+                {
+                    "swara": "npnp - g - M P || - pn S S ns || mgG -n S s P -m -gm || nnpm -S-g nS- - - ||",
+                    "sahitya": "na ra yana - ni- - nna na- - - - - ma da -- sma- ra- Ne- ya - - -"
+                },
+                {
+                    "swara": "sg mpmg - M P || P pn S S- ns || g -n ss - pn mp gm || gs - gm pn sg n s ||",
+                    "sahitya": "sa ra- - - mr ta vu en- - na na-- - - -li ge- ge- ba- ra- li - - - - - -"
+                },
+                {
+                    "swara": "P - g - M P || - - - - - || - - - - - ||",
+                    "sahitya": "na ra yana - - - - - - - - - -"
+                },
+                {
+                    "swara": "- - g - m gs - - || G N S - S || gm P P mggs - || gm pn mp - - ||",
+                    "sahitya": "Ka Stadal- - li ra li - ut kr- - - Sta dal- - - li- ra- li - - -"
+                },
+                {
+                    "swara": "- gm nPm - - gs - - || G N S - S || gm pn P mggs - || gm pn mp - - ||",
+                    "sahitya": "Ka Sta- dal- - li ra li - ut kr- - - Sta dal- - - li- ra- li - - -"
+                },
+                {
+                    "swara": "- gm p N - N || N - n S S S || ns mg snP - mp - ||",
+                    "sahitya": "es- Ta- da re ma ti kettu i- ra- li - - - - -"
+                },
+                {
+                    "swara": "mg- gm nPm - - gs - - || G N S - S || gm pn P mggs - || gm pn mp - - ||",
+                    "sahitya": "Ka Sta- dal- - li ra li - ut kr- - - Sta dal- - - li- ra- li - - -"
+                },
+                {
+                    "swara": "- gm p N - N || N - n S S S || ns mg snP - mp - ||",
+                    "sahitya": "es- Ta- da re ma ti kettu i- ra- li - - - - -"
+                },
+                {
+                    "swara": "Kr Sna kr- SNa - - - - - - - - -",
+                    "sahitya": "Kr Sna kr- Sna en- du - - shi Sya ru pe- - - Lu- va"
+                },
+                {
+                    "swara": "nP- n - n- S - || S - - S g - snN || - - p - n - S - || ggsns mg snN S - ||",
+                    "sahitya": "Kr Sna kr- Sna - en- du - - shi Sya ru pe- - - Lu- va"
+                },
+                {
+                    "swara": "- N S mg S || S -n gsS P - || p n s g ns pn mp || gm gs- gm pn sg ||",
+                    "sahitya": "A Sta- ksa ra ma -- ha man- - tra-da- na - - ma- va - - - - - - -"
+                },
+                {
+                    "swara": "ns - P - g - M || P - - - - ||",
+                    "sahitya": "- na ra ya Na"
+                },
+                {
+                    "swara": "- -- n - n- S - || S - - S g - snN || - - p - n - S - || ggsns mg snN S - ||",
+                    "sahitya": "Kr Sna kr- Sna - en- du - - shi Sya ru pe- - - Lu- va"
+                },
+                {
+                    "swara": "- N S mg S || S -n gsS P - || p n s g ns pn mp || gm gs- gm pn sg ||",
+                    "sahitya": "A Sta- ksa ra ma -- ha man- - tra-da- na - - ma- va - - - - -"
+                },
+                {
+                    "swara": "ns - P - g - M || P - pn S S ns || g -n s s P -m -gm || pm -S-g nS- - - ||",
+                    "sahitya": "- na ra ya Na ni- - nna na- - - - ma da -- sma- ra- Ne- ya - - -"
+                },
+                {
+                    "swara": "sg mpmg - M P || P pn S S- ns || g -n ss - pn mp gm || gs - gm pn sg n s ||",
+                    "sahitya": "sa ra- - - mr ta vu en- - na na-- - - -li ge- ge- ba- ra- li - - - - - -"
+                },
+                {
+                    "swara": "P - g - M P || - - - - - || - - - - - ||",
+                    "sahitya": "na ra yana - - - - - - - - - -"
+                },
+                {
+                    "swara": "- - g - m gs - - || sg N S - S || gm P P mggs - || gm pn mp P - ||",
+                    "sahitya": "San ta ta - - - ha ri nin na sa- - si ra - -da na- - - ma va"
+                },
+                {
+                    "swara": "- gm nPm - - gs - - || sg N S - S || gm pn P mggs - || gm pn mp - - ||",
+                    "sahitya": "San ta - - ta - - ha ri nin na sa- - si ra - -da na- - - ma va"
+                },
+                {
+                    "swara": "- - g m P N - || N - p n S - N ng || S -- snN pn pm || gg",
+                    "sahitya": "An taran- - ga - dal- li - Iri- - si- - - - - - -"
+                },
+                {
+                    "swara": "gg- gm nPm - - gs - - || sg N S - S || gm pn P mggs - || gm pn mp - - ||",
+                    "sahitya": "San ta - - ta - - ha ri nin na sa- - si ra - -da na- - - ma va"
+                },
+                {
+                    "swara": "- - g m P N - || N - p n S - N ng || S -- snN pn P ||",
+                    "sahitya": "An taran- - ga - dal- li - Iri- si- - - - - - -"
+                },
+                {
+                    "swara": "- N S - S || S - S - S || - - - - - ||",
+                    "sahitya": "En to pu ran da ra"
+                },
+                {
+                    "swara": "- N S - S || S - S - snN || - -p - n S - || ns mgG snN S - ||",
+                    "sahitya": "En to pu ran da ra -- - vi Thala - ra- - - ya- na"
+                },
+                {
+                    "swara": "np- N S - S || S - S - snN || - -p - n S - || ggsns mg snN S - ||",
+                    "sahitya": "En to pu ran da ra -- - vi Thala - ra- - - ya- na"
+                },
+                {
+                    "swara": "- ns M gS - || sn- ngss nP- - || - P - s - nPm || gm gs- gm pn sg ||",
+                    "sahitya": "An tya ka- la- da-- lli - - cin ti so- - ha- - ge - - - -"
+                },
+                {
+                    "swara": "ns - P - g - M || P - - - - ||",
+                    "sahitya": "- na ra ya Na"
+                },
+                {
+                    "swara": "- - N S - S || S - gSg snN || - -p - n S - || ggsns mg snN S - ||",
+                    "sahitya": "En to pu ran da ra -- - vi Thala - ra- - - ya- na"
+                },
+                {
+                    "swara": "- ns M gS - || sn- ngss nP- - || - P - s - nPm || gm gs- gm pn sg ||",
+                    "sahitya": "An tya ka- la- da-- lli - - cin ti so- - ha- - ge - - - -"
+                },
+                {
+                    "swara": "ns - P - g - M || P - - - - ||",
+                    "sahitya": "- na ra ya Na"
+                },
+                {
+                    "swara": "ns - gm - P - N || pnsn N - - ||",
+                    "sahitya": "- na ra ya Na - - - - -"
+                },
+                {
+                    "swara": "ns - snnp n- S - N || sgmg G - - || S -",
+                    "sahitya": "- na - ra ya Na - - - - -"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Narayana_Ninna_Namada_Shuddha_Dhanyasi.pdf",
+    "avartanasPerRow": 2
 }

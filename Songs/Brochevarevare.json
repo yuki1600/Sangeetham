@@ -7,56 +7,49 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "M - R - G - RR | S - - N S R G - ||",
-                "sahitya": "Bro che va reva re - Ra ghupa te!"
-            },
-            {
-                "line_number": 2,
-                "swara": "M - R - G - gr R | S - - R G M D-m ||",
-                "sahitya": "Bro che va re-va re - Ni nnuvi naa!--"
-            },
-            {
-                "line_number": 3,
-                "swara": "M - R - rgmg gr R | S - - R G M n d n d ||",
-                "sahitya": "Bro che va re-va re - Sri raama Ne na ru na!"
-            },
-            {
-                "line_number": 4,
-                "swara": "dnD M mdM G rgmg gr R | S - - r g m- D d n s n d ||",
-                "sahitya": "Bro che va re-va re - Sa ka la Loka Naa-yaka!"
-            },
-            {
-                "line_number": 5,
-                "swara": "rssn ndM rgmg gr R | S - - d n s n - d n r s - n d ||",
-                "sahitya": "Bro-- che-- va- - - re-va re - Nara vara Nee- - - sari!"
-            },
-            {
-                "line_number": 6,
-                "swara": "M R G r g M - r g m - D d | s n d n S - s - n N n - d D ||",
-                "sahitya": "Deven draadulu Me cchuta ku Lanka Dayato- Daa- na Mosan gi Sa daa!"
-            },
-            {
-                "line_number": 7,
-                "swara": "m m - g r - g - M r - G r n s r g | M D N s r g R s s s n d ||",
-                "sahitya": "Mu ni Sa va -mbu Ju da Ven ta Janikala Maari chaadula Ha tambu Je- - si"
-            },
-            {
-                "line_number": 8,
-                "swara": "M g - r - g - M d N s r g - M | r g - M g r S g r r s s n n d ||",
-                "sahitya": "Vaali No - kka Ko la ne si Ravi Baa luni Raa juni ga Vin- -chi Ju- - chi!"
-            },
-            {
-                "line_number": 9,
-                "swara": "d n S - r r G M g r G g r | S - n G g r s S n r s n d ||",
-                "sahitya": "Bhavaa bdi Taruno Paa yamu Lerani Tyaaga raajuni Karam - bi - di!-"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Brochevarevare_Sri_Ranjani.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "M - R - G - RR | S - - N S R G - ||",
+                    "sahitya": "Bro che va reva re - Ra ghupa te!"
+                },
+                {
+                    "swara": "M - R - G - gr R | S - - R G M D-m ||",
+                    "sahitya": "Bro che va re-va re - Ni nnuvi naa!--"
+                },
+                {
+                    "swara": "M - R - rgmg gr R | S - - R G M n d n d ||",
+                    "sahitya": "Bro che va re-va re - Sri raama Ne na ru na!"
+                },
+                {
+                    "swara": "dnD M mdM G rgmg gr R | S - - r g m- D d n s n d ||",
+                    "sahitya": "Bro che va re-va re - Sa ka la Loka Naa-yaka!"
+                },
+                {
+                    "swara": "rssn ndM rgmg gr R | S - - d n s n - d n r s - n d ||",
+                    "sahitya": "Bro-- che-- va- - - re-va re - Nara vara Nee- - - sari!"
+                },
+                {
+                    "swara": "M R G r g M - r g m - D d | s n d n S - s - n N n - d D ||",
+                    "sahitya": "Deven draadulu Me cchuta ku Lanka Dayato- Daa- na Mosan gi Sa daa!"
+                },
+                {
+                    "swara": "m m - g r - g - M r - G r n s r g | M D N s r g R s s s n d ||",
+                    "sahitya": "Mu ni Sa va -mbu Ju da Ven ta Janikala Maari chaadula Ha tambu Je- - si"
+                },
+                {
+                    "swara": "M g - r - g - M d N s r g - M | r g - M g r S g r r s s n n d ||",
+                    "sahitya": "Vaali No - kka Ko la ne si Ravi Baa luni Raa juni ga Vin- -chi Ju- - chi!"
+                },
+                {
+                    "swara": "d n S - r r G M g r G g r | S - n G g r s S n r s n d ||",
+                    "sahitya": "Bhavaa bdi Taruno Paa yamu Lerani Tyaaga raajuni Karam - bi - di!-"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Brochevarevare_Sri_Ranjani.pdf",
+    "avartanasPerRow": 1
 }

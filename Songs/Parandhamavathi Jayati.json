@@ -7,121 +7,74 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P M - D - pm || G R S S R - ||",
-                "sahitya": "Paran - dha - ma- vati jaya ti -"
-            },
-            {
-                "line_number": 2,
-                "swara": "P M - mD-",
-                "sahitya": "Paran - dha - ma- vati jaya ti -"
-            },
-            {
-                "line_number": 3,
-                "swara": "grS R gM-",
-                "sahitya": "par- va ti - - para me- sha yu- va- ti -"
-            },
-            {
-                "line_number": 4,
-                "swara": "P M - mD-",
-                "sahitya": "Paran - dha - ma- vati jaya ti -"
-            },
-            {
-                "line_number": 5,
-                "swara": "grS R gM-",
-                "sahitya": "par- va ti - - para me- sha yu- va- ti -"
-            },
-            {
-                "line_number": 6,
-                "swara": "P dn S sn nd pm || G R N S R - ||",
-                "sahitya": "Paran - dha - ma- vati jaya ti -"
-            },
-            {
-                "line_number": 7,
-                "swara": "gr R gm P - d N || S - S -sn nd p m ||",
-                "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
-            },
-            {
-                "line_number": 8,
-                "swara": "P dn S sn nd pdpp",
-                "sahitya": "Paran - dha - ma- va ti jaya ti -"
-            },
-            {
-                "line_number": 9,
-                "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
-                "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
-            },
-            {
-                "line_number": 10,
-                "swara": "P dn S sn nd pdpp",
-                "sahitya": "Paran - dha - ma- va ti jaya ti -"
-            },
-            {
-                "line_number": 11,
-                "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
-                "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
-            },
-            {
-                "line_number": 12,
-                "swara": "P M - mD-",
-                "sahitya": "Paran - dha - ma- vati - ja ya ti - - - - - - - ja ya"
-            },
-            {
-                "line_number": 13,
-                "swara": "S - - - - - ||",
-                "sahitya": "ti -"
-            }
-        ],
-        "anupallavi": [],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- pM D - sn D || pm -dn S -N S - || - - - - - - || - - - - - - ||",
-                        "sahitya": "param jyo - ti - - vi- ka - - s i ni"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "P M D - sn D || P - dn S -N S - || s r G g r R S - || nr s- s nd - pd dN-",
-                        "sahitya": "param jyo - ti - - vi- ka - - si ni para- ma-- tma pra—ka -- shi- ni- -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "P M D - r sn D || P - dn S -N S - || s r G g r R S - || nr s- s nd - p d dN-",
-                        "sahitya": "param jyo - ti - - vi- ka - - si ni para- ma-- tma pra—ka -- shi- ni- -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "nR - g R - s r s n - d n || D - dp M g- r - g M ||",
-                        "sahitya": "niran ta ram guru guha jana ni brha di- sha ran - ja ni"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "nR - g R - n r s n - d n || D - dp M g- r - g M ||",
-                        "sahitya": "niran ta ram guru guha jana ni brha di- sha ran - ja ni"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "P dn S sn nd pdpp",
-                        "sahitya": "Paran - dha - ma- va ti jaya ti -"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
-                        "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "P M - mD-",
-                        "sahitya": "Paran - dha - ma- vati - ja ya ti - - ja ya ti - - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Parandhamavathi_Jayati_Dharmavathi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P M - D - pm || G R S S R - ||",
+                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                },
+                {
+                    "swara": "P M - mD-",
+                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                },
+                {
+                    "swara": "grS R gM-",
+                    "sahitya": "par- va ti - - para me- sha yu- va- ti -"
+                },
+                {
+                    "swara": "P M - mD-",
+                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                },
+                {
+                    "swara": "grS R gM-",
+                    "sahitya": "par- va ti - - para me- sha yu- va- ti -"
+                },
+                {
+                    "swara": "P dn S sn nd pm || G R N S R - ||",
+                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                },
+                {
+                    "swara": "gr R gm P - d N || S - S -sn nd p m ||",
+                    "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
+                },
+                {
+                    "swara": "P dn S sn nd pdpp",
+                    "sahitya": "Paran - dha - ma- va ti jaya ti -"
+                },
+                {
+                    "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
+                    "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
+                },
+                {
+                    "swara": "P dn S sn nd pdpp",
+                    "sahitya": "Paran - dha - ma- va ti jaya ti -"
+                },
+                {
+                    "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
+                    "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
+                },
+                {
+                    "swara": "P M - mD-",
+                    "sahitya": "Paran - dha - ma- vati - ja ya ti - - - - - - - ja ya"
+                },
+                {
+                    "swara": "S - - - - - ||",
+                    "sahitya": "ti -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Parandhamavathi_Jayati_Dharmavathi.pdf",
+    "avartanasPerRow": 2
 }

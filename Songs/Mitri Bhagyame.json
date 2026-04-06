@@ -7,207 +7,95 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "rns- n - d - P - mp dnD pmmg | - - - r P - mgG R - - - ||",
-                "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - - - - - - - | - - - r N S - - - ||",
-                "sahitya": "Mana sa"
-            },
-            {
-                "line_number": 3,
-                "swara": "psn- n d m - pd N - dn S S | pdns rmgr - S - gr snN D ||",
-                "sahitya": "Ci tra - - ra- - tna- maya Se - -- sha tal pa- m(a)n du"
-            },
-            {
-                "line_number": 4,
-                "swara": "dN - n S - gr rn S - sr | G - pm gr S | - - pdns ||",
-                "sahitya": "si- ta - pa- ti- ni - uni ci (y)u- - - cu sau- - (mitri)"
-            },
-            {
-                "line_number": 5,
-                "swara": "grs- n - d - P - mp dnD pmmg | - - - r P - mgG R - - gR ||",
-                "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu Mana"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - - - ggrs rgmp | dnsr gmgr sndn pdns ||",
-                "sahitya": "sa - - - - - - - - - - - - - - - - - - - sau- - (mitri)"
-            },
-            {
-                "line_number": 7,
-                "swara": "grs- n - d - P - mp dnD pmmg | - - - r P - mgG R - - gR ||",
-                "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu Mana"
-            },
-            {
-                "line_number": 8,
-                "swara": "S - - - ggrs rgmp | dnsr gmgr sndn pdns ||",
-                "sahitya": "sa - - - - - - - - - - - - - - - - - - - sau- - (mitri)"
-            },
-            {
-                "line_number": 9,
-                "swara": "grs- n - d - P - sp psN ndP | mm G - - r P - mgG R - ||",
-                "sahitya": "mi tri bha gya- - - me - - - - - - bha - gya-- mu"
-            },
-            {
-                "line_number": 10,
-                "swara": "- - - gR S - - - | - - - - - - - - ||",
-                "sahitya": "Mana sa"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- - p - m - pd N - dn S - n | S - - - - - - - ||",
-                "sahitya": "Ci tra ra- - tna- ma - ya"
-            },
-            {
-                "line_number": 2,
-                "swara": "- - p - m - pd N - dn S S | N G R - S - gr snN D ||",
-                "sahitya": "Ci tra ra- - tna- maya Se - sha tal pa- m(a)ndu"
-            },
-            {
-                "line_number": 3,
-                "swara": "nP- p - m - pd N - dn S S | pdns rmgr - S - gr snN D ||",
-                "sahitya": "Ci tra ra- - tna- maya Se - -- sha tal pa- m(a)ndu"
-            },
-            {
-                "line_number": 4,
-                "swara": "psn- n d m - pd N - dn S S | pdns rm gr - S - gr snN D ||",
-                "sahitya": "Ci tra - - ra- - tna- maya Se - -- sha tal pa- m(a)n du"
-            },
-            {
-                "line_number": 5,
-                "swara": "dN - n S - gr rn S - sr | G - pm gr S | - - - - ||",
-                "sahitya": "si- ta - pa- ti- ni - uni ci (y)u- - - cu"
-            },
-            {
-                "line_number": 6,
-                "swara": "psn- n d m - pd N - dn S S | pdns rm gr - S - gr snN D ||",
-                "sahitya": "Ci tra - - ra- - tna- maya Se - -- sha tal pa- m(a)n du"
-            },
-            {
-                "line_number": 7,
-                "swara": "dN - n S - gr rn sn - sr | G - pm gr S | - - pdns ||",
-                "sahitya": "si- ta - pa- ti- ni - uni ci (y)u- - - cu sau- - (mitri)"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- - d s - n D P - Dnd pmmg | - - rp G R - - - - ||",
-                        "sahitya": "ba -guga vin ta -- ra- - - -ga- mula"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- - d s - n D P - Dnd pmmg | - - rp G R - gr n- S - ||",
-                        "sahitya": "ba -guga vin ta -- ra- - - -ga- mula n(a) - la"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "r g M P - P P pnD - m | P - - p D N rsnd P P ||",
-                        "sahitya": "pa-mu se yaga me- - - nu pu la ka rin- - caga"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- - pd p - dsnd - P - Dnd pmmg | - - rp G R gs- gr n- S - ||",
-                        "sahitya": "ba - gu-ga vin ta -- ra- - - -ga- mula n(a) - la"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "r g M P - P P pnD - m | P - - p D N rsnd p - nd p ||",
-                        "sahitya": "pa-mu se yaga me- - - nu pu la ka rin- - - ca-ga"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "dm - pd p - dsnd - P - Dnd pmmg | - - rp G R gs- gr n- S - ||",
-                        "sahitya": "ba - gu-ga vin ta -- ra- - - - ga- mula n(a) - la"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "r g M p ds nd P P pnD - m | P - - p D N rsnd P P ||",
-                        "sahitya": "pa-mu se -- yaga me- - - nu pu la ka rin- - ca-ga"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "- - p - m - pd N -dn S rs | gmgr S - - sn rs - N ||",
-                        "sahitya": "tya ga ra- - ja- nutu Da-gu- Sri ra- - mu"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "D - p - m - pd N -dn S rs | gmgr S - s N - r s- n D ||",
-                        "sahitya": "ni tya ga ra- - ja- nutu Da-gu- Sri ra- - mu ni"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "- - p - m - pd N -dn S rs | gmgr S - ns Rgr s - n D ||",
-                        "sahitya": "tya ga ra- - ja- nutu Da-gu- Sri ra- - mu ni"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "- - p - m - pd N -dn S rs | gmgr S - sn rs - - n D ||",
-                        "sahitya": "tya ga ra- - ja- nutu Da-gu- Sri ra- - mu ni"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "pdN dnS gr - rn s N- s | R G pmgr S - - - ||",
-                        "sahitya": "ta - - tv(a)- rtha- mu- nu - po ga Di ju- - - cu - - -"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "psn- n dm - pd N -dn S rs | gmgr S - ns Rgr s - n D ||",
-                        "sahitya": "tya ga -- ra- - ja- nu tu Da-gu- Sri ra- - mu ni"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "pdN dnS gr - rn s N- s | R G pmgr S - pdns ||",
-                        "sahitya": "ta - - tv(a)- rtha- mu- nu - po ga Di ju- - - cu - sau- - (mitri)"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "grs- n - d - P - mp dnD pmmg | - - - - - - - - ||",
-                        "sahitya": "mi tri bha gya- me - - - - - - - - - - - -"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "psn- n dm - pd N -dn S rs | gmgr S - ns rmgg rs - n D ||",
-                        "sahitya": "tya ga -- ra- - ja- nu tu Da-gu- Sri ra- - - mu ni"
-                    },
-                    {
-                        "line_number": 17,
-                        "swara": "pdN dnS gr - rn s N - s | R G pmgr S - pdns ||",
-                        "sahitya": "ta - - tv(a)- rtha- mu- nu - po ga Di ju- - - cu - sau- - (mitri)"
-                    },
-                    {
-                        "line_number": 18,
-                        "swara": "rns- n - d - P - mp dnD pmmg | - - - r P - mgG R - - gR ||",
-                        "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu Mana"
-                    },
-                    {
-                        "line_number": 19,
-                        "swara": "S - - - ggrs rgmp | dnsr gmgr sndn pdns ||",
-                        "sahitya": "sa - - - - - - - - - - - - - - - - - - - sau- - (mitri)"
-                    },
-                    {
-                        "line_number": 20,
-                        "swara": "grs- n - d - P - sp psN ndP | mm G - - r P - mgG R - ||",
-                        "sahitya": "mi tri bha gya- - - - me - - - - - - bha - gya-- mu"
-                    },
-                    {
-                        "line_number": 21,
-                        "swara": "- - - gR S - - - | - - - - - - - - ||",
-                        "sahitya": "Mana sa"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Mitri_BhagyamE_Kharaharapriya.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "rns- n - d - P - mp dnD pmmg | - - - r P - mgG R - - - ||",
+                    "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu - -"
+                },
+                {
+                    "swara": "- - - - - - - - | - - - r N S - - - ||",
+                    "sahitya": "Mana sa"
+                },
+                {
+                    "swara": "psn- n d m - pd N - dn S S | pdns rmgr - S - gr snN D ||",
+                    "sahitya": "Ci tra - - ra- - tna- maya Se - -- sha tal pa- m(a)n du"
+                },
+                {
+                    "swara": "dN - n S - gr rn S - sr | G - pm gr S | - - pdns ||",
+                    "sahitya": "si- ta - pa- ti- ni - uni ci (y)u- - - cu sau- - (mitri)"
+                },
+                {
+                    "swara": "grs- n - d - P - mp dnD pmmg | - - - r P - mgG R - - gR ||",
+                    "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu Mana"
+                },
+                {
+                    "swara": "S - - - ggrs rgmp | dnsr gmgr sndn pdns ||",
+                    "sahitya": "sa - - - - - - - - - - - - - - - - - - - sau- - (mitri)"
+                },
+                {
+                    "swara": "grs- n - d - P - mp dnD pmmg | - - - r P - mgG R - - gR ||",
+                    "sahitya": "mi tri bha gya- me - - - - - - bha - gya-- mu Mana"
+                },
+                {
+                    "swara": "S - - - ggrs rgmp | dnsr gmgr sndn pdns ||",
+                    "sahitya": "sa - - - - - - - - - - - - - - - - - - - sau- - (mitri)"
+                },
+                {
+                    "swara": "grs- n - d - P - sp psN ndP | mm G - - r P - mgG R - ||",
+                    "sahitya": "mi tri bha gya- - - me - - - - - - bha - gya-- mu"
+                },
+                {
+                    "swara": "- - - gR S - - - | - - - - - - - - ||",
+                    "sahitya": "Mana sa"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- - p - m - pd N - dn S - n | S - - - - - - - ||",
+                    "sahitya": "Ci tra ra- - tna- ma - ya"
+                },
+                {
+                    "swara": "- - p - m - pd N - dn S S | N G R - S - gr snN D ||",
+                    "sahitya": "Ci tra ra- - tna- maya Se - sha tal pa- m(a)ndu"
+                },
+                {
+                    "swara": "nP- p - m - pd N - dn S S | pdns rmgr - S - gr snN D ||",
+                    "sahitya": "Ci tra ra- - tna- maya Se - -- sha tal pa- m(a)ndu"
+                },
+                {
+                    "swara": "psn- n d m - pd N - dn S S | pdns rm gr - S - gr snN D ||",
+                    "sahitya": "Ci tra - - ra- - tna- maya Se - -- sha tal pa- m(a)n du"
+                },
+                {
+                    "swara": "dN - n S - gr rn S - sr | G - pm gr S | - - - - ||",
+                    "sahitya": "si- ta - pa- ti- ni - uni ci (y)u- - - cu"
+                },
+                {
+                    "swara": "psn- n d m - pd N - dn S S | pdns rm gr - S - gr snN D ||",
+                    "sahitya": "Ci tra - - ra- - tna- maya Se - -- sha tal pa- m(a)n du"
+                },
+                {
+                    "swara": "dN - n S - gr rn sn - sr | G - pm gr S | - - pdns ||",
+                    "sahitya": "si- ta - pa- ti- ni - uni ci (y)u- - - cu sau- - (mitri)"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Mitri_BhagyamE_Kharaharapriya.pdf",
+    "avartanasPerRow": 1
 }

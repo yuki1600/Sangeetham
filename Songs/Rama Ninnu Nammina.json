@@ -7,152 +7,130 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "G p - g R - S SD",
-                "sahitya": "ra ma - ni nnu nam - mi na - - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "gP - g R - S SD",
-                "sahitya": "ra ma - ni nnu nam - mi na - - - va - - ra-mu-"
-            },
-            {
-                "line_number": 3,
-                "swara": "gdpP- - g R - S srD - S - R | Grg - - | pgdp gr sr ||",
-                "sahitya": "ra - ma - ni nnu nam - mi na - - - va - - ra-mu-"
-            },
-            {
-                "line_number": 4,
-                "swara": "gdpP-",
-                "sahitya": "ra - ma - ni nnu nam - mi na - - va - - - - - ra-mu-"
-            },
-            {
-                "line_number": 5,
-                "swara": "gdpP-",
-                "sahitya": "ra - ma - ni nnu nam - mi na - - - va - - - - - ra-mu-"
-            },
-            {
-                "line_number": 6,
-                "swara": "gP- p - - D P D dPd | S - D P | pgdp gr sr ||",
-                "sahitya": "ga- ma - sa ka la lo- - - - - - ka- - a- bhi"
-            },
-            {
-                "line_number": 7,
-                "swara": "g P - g R-s",
-                "sahitya": "ra - ma - ni nnu nam - mi na - - - va - - - - - ra-mu-"
-            },
-            {
-                "line_number": 8,
-                "swara": "gP- p - - D P D dPd | S- sd rs dp | pgdp gr sr ||",
-                "sahitya": "ga- ma - sa ka la lo- - - ka - - - - -- - a- bhi"
-            },
-            {
-                "line_number": 9,
-                "swara": "gdp - g R-s",
-                "sahitya": "ra - ma - - ni nnu nam - mi na - - - va - - - - - ra-mu-"
-            },
-            {
-                "line_number": 10,
-                "swara": "gP- p - - D P D grgr | sd- ds rs dp | pgdp gr sr ||",
-                "sahitya": "ga- ma - sa ka la lo- - - ka - - - - -- - a- bhi"
-            },
-            {
-                "line_number": 11,
-                "swara": "gpdS-",
-                "sahitya": "ra - - ma - - ni nnu nam - mi na - - - - - - - -"
-            },
-            {
-                "line_number": 12,
-                "swara": "- - - nam - mi na - - -- - - nam mi",
-                "sahitya": "na - - - - - - - - - - - - - - -"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- gr G P P dPd | S - - - | - - - - ||",
-                "sahitya": "- pa- - ma ra ja na du-- ra- - - - - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- gr G P P D P-d | S - - - | - - rs - sd ||",
-                "sahitya": "- pa- - ma ra ja na du-- ra- - - - - - - --"
-            },
-            {
-                "line_number": 3,
-                "swara": "pg- Pds",
-                "sahitya": "- - pa- - ma ra ja na du-- ra- - - - - - - --"
-            },
-            {
-                "line_number": 4,
-                "swara": "pg- Pds",
-                "sahitya": "- - pa- - ma ra ja na du-- ra- - vara - guna ghr-na"
-            },
-            {
-                "line_number": 5,
-                "swara": "D- Pds",
-                "sahitya": "- - pa- - ma ra ja na du-- ra- - vara - guna ghr-na"
-            },
-            {
-                "line_number": 6,
-                "swara": "- - Srg - rs S sdrs dp D | - d s - d P | pg dp gr sr ||",
-                "sahitya": "pa-- - nga shu ba-- -- nga -muni - hrda Ab-ja- bhrn ga-"
-            },
-            {
-                "line_number": 7,
-                "swara": "D- Pds",
-                "sahitya": "- - pa- - ma ra ja na du-- ra- - vara - guna ghr-na"
-            },
-            {
-                "line_number": 8,
-                "swara": "- rs S sdrs dp D | - d s - d P | pg dp gr sr ||",
-                "sahitya": "pa-- - nga shu ba-- -- nga -muni - hrda Ab-ja- bhrn ga-"
-            },
-            {
-                "line_number": 9,
-                "swara": "- R S sdrs dp D | g r sd rs dp | pg dp gr sr ||",
-                "sahitya": "pa-- - nga shu ba-- -- nga mu-ni- hr-da Ab-ja- bhrn ga-"
-            },
-            {
-                "line_number": 10,
-                "swara": "P P d p - pg dp- gp g r- G | gd p- g r s - s r | d- s g r G - ||",
-                "sahitya": "va la yamu ga- -nu ra- - nu ja ge-la su guna shri - dashara tha -"
-            },
-            {
-                "line_number": 11,
-                "swara": "P P d p - pg dp- gp g r- G | gd p- g r s - s r | d- s g r pG-",
-                "sahitya": "va la yamu ga- -nu ra- - nu ja ge-la su guna shri - dashara tha - nru"
-            },
-            {
-                "line_number": 12,
-                "swara": "g g pp d p - pg dp- gp g r s r | sd s - r s r - g dp",
-                "sahitya": "pa- -la hrda ya- - - nan- -da kara lo - la pa - la vela- - yu - - - - nru"
-            },
-            {
-                "line_number": 13,
-                "swara": "g g pp d p - pg dp- gp g r s r | rsD",
-                "sahitya": "pa- -la hrda ya- - - nan- -da kara lo- la pa - la vela- - yu - - mika"
-            },
-            {
-                "line_number": 14,
-                "swara": "R g- p - p - P d s - dp d - S - | d g r - s s D p | g p d p D - p p ||",
-                "sahitya": "phala lo - ca na hrda ya- la ya- A- pta ja napa la kana kama ya mika"
-            },
-            {
-                "line_number": 15,
-                "swara": "R g- p - p - P d s - dp d - S - | d g r - s s D p | g p d p D - ||",
-                "sahitya": "phala lo - ca na hrda ya- la ya- A-pta ja napa la kana kama ya -"
-            },
-            {
-                "line_number": 16,
-                "swara": "G r - s r -g R srG",
-                "sahitya": "cela i ka pa ra ke- la i pudu mam- me-la ni -du mana se- - la ra- - du"
-            }
-        ],
-        "charanams": []
-    },
-    "pdfPath": "PDFs/Rama_Ninnu_Nammina_Mohanam.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "G p - g R - S SD",
+                    "sahitya": "ra ma - ni nnu nam - mi na - - - - - - -"
+                },
+                {
+                    "swara": "gP - g R - S SD",
+                    "sahitya": "ra ma - ni nnu nam - mi na - - - va - - ra-mu-"
+                },
+                {
+                    "swara": "gdpP- - g R - S srD - S - R | Grg - - | pgdp gr sr ||",
+                    "sahitya": "ra - ma - ni nnu nam - mi na - - - va - - ra-mu-"
+                },
+                {
+                    "swara": "gdpP-",
+                    "sahitya": "ra - ma - ni nnu nam - mi na - - va - - - - - ra-mu-"
+                },
+                {
+                    "swara": "gdpP-",
+                    "sahitya": "ra - ma - ni nnu nam - mi na - - - va - - - - - ra-mu-"
+                },
+                {
+                    "swara": "gP- p - - D P D dPd | S - D P | pgdp gr sr ||",
+                    "sahitya": "ga- ma - sa ka la lo- - - - - - ka- - a- bhi"
+                },
+                {
+                    "swara": "g P - g R-s",
+                    "sahitya": "ra - ma - ni nnu nam - mi na - - - va - - - - - ra-mu-"
+                },
+                {
+                    "swara": "gP- p - - D P D dPd | S- sd rs dp | pgdp gr sr ||",
+                    "sahitya": "ga- ma - sa ka la lo- - - ka - - - - -- - a- bhi"
+                },
+                {
+                    "swara": "gdp - g R-s",
+                    "sahitya": "ra - ma - - ni nnu nam - mi na - - - va - - - - - ra-mu-"
+                },
+                {
+                    "swara": "gP- p - - D P D grgr | sd- ds rs dp | pgdp gr sr ||",
+                    "sahitya": "ga- ma - sa ka la lo- - - ka - - - - -- - a- bhi"
+                },
+                {
+                    "swara": "gpdS-",
+                    "sahitya": "ra - - ma - - ni nnu nam - mi na - - - - - - - -"
+                },
+                {
+                    "swara": "- - - nam - mi na - - -- - - nam mi",
+                    "sahitya": "na - - - - - - - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- gr G P P dPd | S - - - | - - - - ||",
+                    "sahitya": "- pa- - ma ra ja na du-- ra- - - - - - -"
+                },
+                {
+                    "swara": "- gr G P P D P-d | S - - - | - - rs - sd ||",
+                    "sahitya": "- pa- - ma ra ja na du-- ra- - - - - - - --"
+                },
+                {
+                    "swara": "pg- Pds",
+                    "sahitya": "- - pa- - ma ra ja na du-- ra- - - - - - - --"
+                },
+                {
+                    "swara": "pg- Pds",
+                    "sahitya": "- - pa- - ma ra ja na du-- ra- - vara - guna ghr-na"
+                },
+                {
+                    "swara": "D- Pds",
+                    "sahitya": "- - pa- - ma ra ja na du-- ra- - vara - guna ghr-na"
+                },
+                {
+                    "swara": "- - Srg - rs S sdrs dp D | - d s - d P | pg dp gr sr ||",
+                    "sahitya": "pa-- - nga shu ba-- -- nga -muni - hrda Ab-ja- bhrn ga-"
+                },
+                {
+                    "swara": "D- Pds",
+                    "sahitya": "- - pa- - ma ra ja na du-- ra- - vara - guna ghr-na"
+                },
+                {
+                    "swara": "- rs S sdrs dp D | - d s - d P | pg dp gr sr ||",
+                    "sahitya": "pa-- - nga shu ba-- -- nga -muni - hrda Ab-ja- bhrn ga-"
+                },
+                {
+                    "swara": "- R S sdrs dp D | g r sd rs dp | pg dp gr sr ||",
+                    "sahitya": "pa-- - nga shu ba-- -- nga mu-ni- hr-da Ab-ja- bhrn ga-"
+                },
+                {
+                    "swara": "P P d p - pg dp- gp g r- G | gd p- g r s - s r | d- s g r G - ||",
+                    "sahitya": "va la yamu ga- -nu ra- - nu ja ge-la su guna shri - dashara tha -"
+                },
+                {
+                    "swara": "P P d p - pg dp- gp g r- G | gd p- g r s - s r | d- s g r pG-",
+                    "sahitya": "va la yamu ga- -nu ra- - nu ja ge-la su guna shri - dashara tha - nru"
+                },
+                {
+                    "swara": "g g pp d p - pg dp- gp g r s r | sd s - r s r - g dp",
+                    "sahitya": "pa- -la hrda ya- - - nan- -da kara lo - la pa - la vela- - yu - - - - nru"
+                },
+                {
+                    "swara": "g g pp d p - pg dp- gp g r s r | rsD",
+                    "sahitya": "pa- -la hrda ya- - - nan- -da kara lo- la pa - la vela- - yu - - mika"
+                },
+                {
+                    "swara": "R g- p - p - P d s - dp d - S - | d g r - s s D p | g p d p D - p p ||",
+                    "sahitya": "phala lo - ca na hrda ya- la ya- A- pta ja napa la kana kama ya mika"
+                },
+                {
+                    "swara": "R g- p - p - P d s - dp d - S - | d g r - s s D p | g p d p D - ||",
+                    "sahitya": "phala lo - ca na hrda ya- la ya- A-pta ja napa la kana kama ya -"
+                },
+                {
+                    "swara": "G r - s r -g R srG",
+                    "sahitya": "cela i ka pa ra ke- la i pudu mam- me-la ni -du mana se- - la ra- - du"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Rama_Ninnu_Nammina_Mohanam.pdf",
+    "avartanasPerRow": 1
 }

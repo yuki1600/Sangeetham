@@ -7,142 +7,91 @@
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. S - R G R - || R - G M P - ||",
-                "sahitya": "Shree Gana naa tham Bhaja re"
-            },
-            {
-                "line_number": 2,
-                "swara": "pd N D - P M - || G - R S N - ||",
-                "sahitya": "Chi- tta Pa raa sha kthi yu tham"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. S - R G R - || R - G M P - ||",
-                "sahitya": "Shree Gana naa tham Bhaja re"
-            },
-            {
-                "line_number": 4,
-                "swara": "pd N D - P M - || G - R R g r s n ||",
-                "sahitya": "Chi- tta Pa raa sha kthi yu tham"
-            },
-            {
-                "line_number": 5,
-                "swara": "3. S - R G R - || R - G M P - ||",
-                "sahitya": "Shree Gana naa tham Bhaja re"
-            },
-            {
-                "line_number": 6,
-                "swara": "pd ns dn pd M - || gm pd nd pm g r s n ||",
-                "sahitya": "Chi- tta Pa raa sha kthi yu tham"
-            },
-            {
-                "line_number": 7,
-                "swara": "4. S - R G R - || R - N D P - ||",
-                "sahitya": "Shree Gana naa tham Bhaja re"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "1. G - G- M - M || P - S N S - ||",
-                "sahitya": "Naa ga Ya gnya Su thradha ram"
-            },
-            {
-                "line_number": 2,
-                "swara": "S - N - D P - || M - G R S - ||",
-                "sahitya": "Na da La yaa anam daka ram"
-            },
-            {
-                "line_number": 3,
-                "swara": "2. mg G G- pm M- M || dp P S N S - ||",
-                "sahitya": "Naa-- ga Ya - gnya Su- - thradha ram"
-            },
-            {
-                "line_number": 4,
-                "swara": "S - r N - D P - || G - R pm g r s n ||",
-                "sahitya": "Na da La yaa anam da ka- ram- - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "3. mg G G- pm M- M || dp P S N S - ||",
-                "sahitya": "Naa-- ga Ya - gnya Su- - thradha ram"
-            },
-            {
-                "line_number": 6,
-                "swara": "S - r N - D P - || g m pd n d pm g r s n ||",
-                "sahitya": "Na da La yaa anam da - ka- ram- - -"
-            },
-            {
-                "line_number": 7,
-                "swara": "S - R G R - || R - G M P - ||",
-                "sahitya": "Shree Gana naa tham Bhaja re"
-            },
-            {
-                "line_number": 8,
-                "swara": "pd ns dn pd M - || gm pd nd pm g r s n ||",
-                "sahitya": "Chi- tta Pa raa sha kthi yu tham"
-            },
-            {
-                "line_number": 9,
-                "swara": "S - R G R - || R - N D P - ||",
-                "sahitya": "Shree Gana naa tham Bhaja re"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "R - G M - R || G - S R - - ||",
-                        "sahitya": "Aa gamaa - di San nutham - -"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S N D - P - G || R - N S - - ||",
-                        "sahitya": "Akhi la De - va Pu - jitham - -"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "S - G R - M || G - P M - - ||",
-                        "sahitya": "Yo gishaa - li Bhaa vitham - -"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "P - G M - R || G - M P - - ||",
-                        "sahitya": "Bho gishaa - yi Se - vitham - -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "S S N D n - d pm || g m P d - p d n s n S ||",
-                        "sahitya": "Raaga dweshaa di Rahita Ramanee ya Hrudaya Viditham"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "R g m r g - S n d P || N N d - p m g - r s n ||",
-                        "sahitya": "Sri Guru Guha San nuditham Chinmoo la Kamalaa - sthitham-"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "S - R G R - || R - G M P - ||",
-                        "sahitya": "Shree Gana naa tham Bhaja re"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "pd ns dn pd M - || gm pd nd pm g r s n ||",
-                        "sahitya": "Chi- tta Pa raa sha kthi yu tham"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "S - R G R - || R - N D P - ||",
-                        "sahitya": "Shree Gana naa tham Bhaja re"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Shree_Gananaatham_Bhajare_Eesha_Manohari.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "1. S - R G R - || R - G M P - ||",
+                    "sahitya": "Shree Gana naa tham Bhaja re"
+                },
+                {
+                    "swara": "pd N D - P M - || G - R S N - ||",
+                    "sahitya": "Chi- tta Pa raa sha kthi yu tham"
+                },
+                {
+                    "swara": "2. S - R G R - || R - G M P - ||",
+                    "sahitya": "Shree Gana naa tham Bhaja re"
+                },
+                {
+                    "swara": "pd N D - P M - || G - R R g r s n ||",
+                    "sahitya": "Chi- tta Pa raa sha kthi yu tham"
+                },
+                {
+                    "swara": "3. S - R G R - || R - G M P - ||",
+                    "sahitya": "Shree Gana naa tham Bhaja re"
+                },
+                {
+                    "swara": "pd ns dn pd M - || gm pd nd pm g r s n ||",
+                    "sahitya": "Chi- tta Pa raa sha kthi yu tham"
+                },
+                {
+                    "swara": "4. S - R G R - || R - N D P - ||",
+                    "sahitya": "Shree Gana naa tham Bhaja re"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "1. G - G- M - M || P - S N S - ||",
+                    "sahitya": "Naa ga Ya gnya Su thradha ram"
+                },
+                {
+                    "swara": "S - N - D P - || M - G R S - ||",
+                    "sahitya": "Na da La yaa anam daka ram"
+                },
+                {
+                    "swara": "2. mg G G- pm M- M || dp P S N S - ||",
+                    "sahitya": "Naa-- ga Ya - gnya Su- - thradha ram"
+                },
+                {
+                    "swara": "S - r N - D P - || G - R pm g r s n ||",
+                    "sahitya": "Na da La yaa anam da ka- ram- - -"
+                },
+                {
+                    "swara": "3. mg G G- pm M- M || dp P S N S - ||",
+                    "sahitya": "Naa-- ga Ya - gnya Su- - thradha ram"
+                },
+                {
+                    "swara": "S - r N - D P - || g m pd n d pm g r s n ||",
+                    "sahitya": "Na da La yaa anam da - ka- ram- - -"
+                },
+                {
+                    "swara": "S - R G R - || R - G M P - ||",
+                    "sahitya": "Shree Gana naa tham Bhaja re"
+                },
+                {
+                    "swara": "pd ns dn pd M - || gm pd nd pm g r s n ||",
+                    "sahitya": "Chi- tta Pa raa sha kthi yu tham"
+                },
+                {
+                    "swara": "S - R G R - || R - N D P - ||",
+                    "sahitya": "Shree Gana naa tham Bhaja re"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Shree_Gananaatham_Bhajare_Eesha_Manohari.pdf",
+    "avartanasPerRow": 2
 }

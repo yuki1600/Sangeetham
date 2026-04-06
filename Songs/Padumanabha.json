@@ -7,79 +7,69 @@
         "tala": "Triputa",
         "composer": "Purandaradasa"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "R S d | S - | S - || M G R | M M | P - ||",
-                "sahitya": "Pa du ma | na - | bha - || pa ra ma | pu ru | sha - ||"
-            },
-            {
-                "line_number": 2,
-                "swara": "S D D | D P | M P || D D P | M G | R S ||",
-                "sahitya": "Pa ram - | jo - | - thi || swa ru - | pa - | - - ||"
-            },
-            {
-                "line_number": 3,
-                "swara": "R S d | S - | S - || M G R | M M | P - ||",
-                "sahitya": "Vi du ra | van - | dhia - || vi ma la | cha ri | tha - ||"
-            },
-            {
-                "line_number": 4,
-                "swara": "S D D | D P | M P || D D P | M G | R S ||",
-                "sahitya": "Vi hang - | ga - | - di || ro - ha | na - | - - ||"
-            },
-            {
-                "line_number": 5,
-                "swara": "P M P | D S | D S || R S D | D S | D P ||",
-                "sahitya": "U dha dhi | ni va | - sa || u ra ga | sa ya | - na ||"
-            },
-            {
-                "line_number": 6,
-                "swara": "D D P | P - | P M || R M M | P - | P - ||",
-                "sahitya": "U - nna | tho - | nna tha || ma hi - | ma - | - - ||"
-            },
-            {
-                "line_number": 7,
-                "swara": "D D P | P - | P M || R - M | M G | R S ||",
-                "sahitya": "Ya du ku | lo - | ttha ma || ye - gna | ra - | kshaka ||"
-            },
-            {
-                "line_number": 8,
-                "swara": "S - S | D D | D P || P - P | M G | R S ||",
-                "sahitya": "A - gna | si - | ksha ka || ra - ma | na - | - ma ||"
-            },
-            {
-                "line_number": 9,
-                "swara": "D S - | D P | M P || D D P | M G | R S ||",
-                "sahitya": "Vi bhee - | sha na | pa - || la ka - | na mo | na mo ||"
-            },
-            {
-                "line_number": 10,
-                "swara": "D S - | D P | M P || D D P | M G | R S ||",
-                "sahitya": "I bha - | va ra | da - || ya ka - | na mo | na mo ||"
-            },
-            {
-                "line_number": 11,
-                "swara": "P M P | D S | D S || R S D | D S | D P ||",
-                "sahitya": "Su bha - | Pra da | Su ma || no - ra | da - | - Su ||"
-            },
-            {
-                "line_number": 12,
-                "swara": "D D P | P - | P M || R - M | P - | - - ||",
-                "sahitya": "Re - ndra | Ma - | no - || ran - ja | na - | - - ||"
-            },
-            {
-                "line_number": 13,
-                "swara": "D D P | P - | P M || R - M | M G | R S ||",
-                "sahitya": "A bhi - | na - | va pu || ran - da | ra - | - vi ||"
-            },
-            {
-                "line_number": 14,
-                "swara": "S - S | D D | D P || P - P | M G | R S ||",
-                "sahitya": "tal - la | bhal - | la re || ra - ma | na - | - ma ||"
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Padumanabha.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "R S d | S - | S - || M G R | M M | P - ||",
+                    "sahitya": "Pa du ma | na - | bha - || pa ra ma | pu ru | sha - ||"
+                },
+                {
+                    "swara": "S D D | D P | M P || D D P | M G | R S ||",
+                    "sahitya": "Pa ram - | jo - | - thi || swa ru - | pa - | - - ||"
+                },
+                {
+                    "swara": "R S d | S - | S - || M G R | M M | P - ||",
+                    "sahitya": "Vi du ra | van - | dhia - || vi ma la | cha ri | tha - ||"
+                },
+                {
+                    "swara": "S D D | D P | M P || D D P | M G | R S ||",
+                    "sahitya": "Vi hang - | ga - | - di || ro - ha | na - | - - ||"
+                },
+                {
+                    "swara": "P M P | D S | D S || R S D | D S | D P ||",
+                    "sahitya": "U dha dhi | ni va | - sa || u ra ga | sa ya | - na ||"
+                },
+                {
+                    "swara": "D D P | P - | P M || R M M | P - | P - ||",
+                    "sahitya": "U - nna | tho - | nna tha || ma hi - | ma - | - - ||"
+                },
+                {
+                    "swara": "D D P | P - | P M || R - M | M G | R S ||",
+                    "sahitya": "Ya du ku | lo - | ttha ma || ye - gna | ra - | kshaka ||"
+                },
+                {
+                    "swara": "S - S | D D | D P || P - P | M G | R S ||",
+                    "sahitya": "A - gna | si - | ksha ka || ra - ma | na - | - ma ||"
+                },
+                {
+                    "swara": "D S - | D P | M P || D D P | M G | R S ||",
+                    "sahitya": "Vi bhee - | sha na | pa - || la ka - | na mo | na mo ||"
+                },
+                {
+                    "swara": "D S - | D P | M P || D D P | M G | R S ||",
+                    "sahitya": "I bha - | va ra | da - || ya ka - | na mo | na mo ||"
+                },
+                {
+                    "swara": "P M P | D S | D S || R S D | D S | D P ||",
+                    "sahitya": "Su bha - | Pra da | Su ma || no - ra | da - | - Su ||"
+                },
+                {
+                    "swara": "D D P | P - | P M || R - M | P - | - - ||",
+                    "sahitya": "Re - ndra | Ma - | no - || ran - ja | na - | - - ||"
+                },
+                {
+                    "swara": "D D P | P - | P M || R - M | M G | R S ||",
+                    "sahitya": "A bhi - | na - | va pu || ran - da | ra - | - vi ||"
+                },
+                {
+                    "swara": "S - S | D D | D P || P - P | M G | R S ||",
+                    "sahitya": "tal - la | bhal - | la re || ra - ma | na - | - ma ||"
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Padumanabha.pdf",
+    "avartanasPerRow": 2
 }

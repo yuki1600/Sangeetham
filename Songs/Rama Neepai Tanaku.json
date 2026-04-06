@@ -7,132 +7,87 @@
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "- P - S - R - G - r | s R s S - | s n r s s n N ||",
-                "sahitya": "Raa maa ! Ni - - - - - - pai - Ta- na- ku - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "- P - S - R - g m p m | m G r s R s | s n r s s n N ||",
-                "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "- P - S - s m gm P - m | G - r s R s | s n r s s n N ||",
-                "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
-            },
-            {
-                "line_number": 4,
-                "swara": "- P - S - s m gm p n s n | p m g r s R s | s n r s s n N ||",
-                "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
-            },
-            {
-                "line_number": 5,
-                "swara": "- P - S - s m gm p r s n | p m g r s R s | s n r s s n N ||",
-                "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
-            },
-            {
-                "line_number": 6,
-                "swara": "g m p n P - m G - r s R s | S - - g m | pm- p m g r - g r ||",
-                "sahitya": "Pre- - - ma -- Po-- - - - du- - O - - - See- - - thaa-"
-            },
-            {
-                "line_number": 7,
-                "swara": "sn- P - S - s m gm p r s n | p m g r s R s | s n r s s n N ||",
-                "sahitya": "- - Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
-            },
-            {
-                "line_number": 8,
-                "swara": "g m p n P - m G - r s R s | S - - s n | pm- p m g r - g r ||",
-                "sahitya": "Pre- - - ma -- Po-- - - - du- - O - - - See- - - thaa-"
-            },
-            {
-                "line_number": 9,
-                "swara": "sn- P - S - s m gm p r s n | p m g r s R s | s n r s s n N ||",
-                "sahitya": "- - Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
-            },
-            {
-                "line_number": 10,
-                "swara": "g m p n P - m G - r s R s | S - - g r | s n - p m g r - g r ||",
-                "sahitya": "Pre- - - ma -- Po-- - - - du- - O - - - See- - - thaa-"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "- P m- m g r s R s S - | - g m - P - | S N S - ||",
-                "sahitya": "Taa - ma- - ra- - sa- - - da- - la- Naya na !"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - m G - r s R s S - | - g m - P - | S N S - ||",
-                "sahitya": "Taa ma- - ra- - sa- - - da- - la- Naya na !"
-            },
-            {
-                "line_number": 3,
-                "swara": "np M G - r s R s S - | - g m - P - | S N S - ||",
-                "sahitya": "Taa ma- - ra- - sa- - - da- - la- Naya na !"
-            },
-            {
-                "line_number": 4,
-                "swara": "g m p n P - m G - r s R s | - g m - P - | S N S - ||",
-                "sahitya": "Taa ma- - ra- - sa- - - da- - la- Naya na !"
-            },
-            {
-                "line_number": 5,
-                "swara": "p n S m g g r s R s S - | s r s n P - m | p n p m g r g r || s n",
-                "sahitya": "Ni- - De- - - mo-- Maa- ya- - - Gaa- ni - - - - - - - - -"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "- G m - G r s R s S S | - P S - s n | N S - S - ||",
-                        "sahitya": "Bho - gaa- - - - la nu - bha va mu- - lan - du"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "- G m - P m m G r S S | - P S - s n | N S - S - ||",
-                        "sahitya": "Bho - gaa- - - - la nu - bha va mu- - lan - du"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "- G m - pnP m m G r S S | - P S - s n | N S - S - ||",
-                        "sahitya": "Bho - gaa- - - - - la nu - bha va mu- - lan - du"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "- P - S - S - S - | m g g r s R s | - S - S - ||",
-                        "sahitya": "Ba gu ga Bu ddhi - - Ni- - yan - du -"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "- P m- m g r s R s S S | - g m - P - | S N S - ||",
-                        "sahitya": "Tya - ga - - ra - - juni -hruda - ya- man- du-"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "P - m G - r s R s S S | - g m - P - | S N S - ||",
-                        "sahitya": "Tya ga - - ra - - juni -hruda - ya- man- du-"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "g m p n P - m G - r s R s | - g m - P - | S N S - ||",
-                        "sahitya": "Tya-- ga - - ra - - juni -hruda - ya- man- du-"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "p n S m g g r s R s S - | s r s n P - m | p n p m g r g r || s n",
-                        "sahitya": "Va- - gi- - - - shaa-- A- - nan- - - da- - man- - - du- - - - -"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/Rama_Neepai_Tanaku_Kedaram.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "- P - S - R - G - r | s R s S - | s n r s s n N ||",
+                    "sahitya": "Raa maa ! Ni - - - - - - pai - Ta- na- ku - -"
+                },
+                {
+                    "swara": "- P - S - R - g m p m | m G r s R s | s n r s s n N ||",
+                    "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
+                },
+                {
+                    "swara": "- P - S - s m gm P - m | G - r s R s | s n r s s n N ||",
+                    "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
+                },
+                {
+                    "swara": "- P - S - s m gm p n s n | p m g r s R s | s n r s s n N ||",
+                    "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
+                },
+                {
+                    "swara": "- P - S - s m gm p r s n | p m g r s R s | s n r s s n N ||",
+                    "sahitya": "Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
+                },
+                {
+                    "swara": "g m p n P - m G - r s R s | S - - g m | pm- p m g r - g r ||",
+                    "sahitya": "Pre- - - ma -- Po-- - - - du- - O - - - See- - - thaa-"
+                },
+                {
+                    "swara": "sn- P - S - s m gm p r s n | p m g r s R s | s n r s s n N ||",
+                    "sahitya": "- - Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
+                },
+                {
+                    "swara": "g m p n P - m G - r s R s | S - - s n | pm- p m g r - g r ||",
+                    "sahitya": "Pre- - - ma -- Po-- - - - du- - O - - - See- - - thaa-"
+                },
+                {
+                    "swara": "sn- P - S - s m gm p r s n | p m g r s R s | s n r s s n N ||",
+                    "sahitya": "- - Raa maa ! Ni - - - pai - - - - Ta- na- ku - -"
+                },
+                {
+                    "swara": "g m p n P - m G - r s R s | S - - g r | s n - p m g r - g r ||",
+                    "sahitya": "Pre- - - ma -- Po-- - - - du- - O - - - See- - - thaa-"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "- P m- m g r s R s S - | - g m - P - | S N S - ||",
+                    "sahitya": "Taa - ma- - ra- - sa- - - da- - la- Naya na !"
+                },
+                {
+                    "swara": "P - m G - r s R s S - | - g m - P - | S N S - ||",
+                    "sahitya": "Taa ma- - ra- - sa- - - da- - la- Naya na !"
+                },
+                {
+                    "swara": "np M G - r s R s S - | - g m - P - | S N S - ||",
+                    "sahitya": "Taa ma- - ra- - sa- - - da- - la- Naya na !"
+                },
+                {
+                    "swara": "g m p n P - m G - r s R s | - g m - P - | S N S - ||",
+                    "sahitya": "Taa ma- - ra- - sa- - - da- - la- Naya na !"
+                },
+                {
+                    "swara": "p n S m g g r s R s S - | s r s n P - m | p n p m g r g r || s n",
+                    "sahitya": "Ni- - De- - - mo-- Maa- ya- - - Gaa- ni - - - - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/Rama_Neepai_Tanaku_Kedaram.pdf",
+    "avartanasPerRow": 1
 }

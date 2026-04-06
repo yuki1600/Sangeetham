@@ -7,217 +7,75 @@
         "tala": "Adi",
         "composer": "Syama Sastri"
     },
-    "sections": {
-        "pallavi": [
-            {
-                "line_number": 1,
-                "swara": "P - - - - - mpnp P - n P - - m- M g M - | P - G M P - M Pnp | M - mp G R - G - M - ||",
-                "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - nu - Am ba"
-            },
-            {
-                "line_number": 2,
-                "swara": "P - - - S - mpnp P - n P - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
-                "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-            },
-            {
-                "line_number": 3,
-                "swara": "P - - - S - mpnp P nn P - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
-                "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-            },
-            {
-                "line_number": 4,
-                "swara": "P N P P S - ssnd - MP - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
-                "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-            },
-            {
-                "line_number": 5,
-                "swara": "pmgr- Srm gg r S - - S - g rGg S - - S snsn | S - Spm Mdp mGm R - | G M GR - G - M - ||",
-                "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
-            },
-            {
-                "line_number": 6,
-                "swara": "P N P P S - ns Rgr nsrsndP -np - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
-                "sahitya": "O - - - - - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-            },
-            {
-                "line_number": 7,
-                "swara": "pmgr- Srm gg r S - - S - g rGg S - - S snsn | S - sppm Mdp mGm R - | G M GR - G - M - ||",
-                "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
-            }
-        ],
-        "anupallavi": [
-            {
-                "line_number": 1,
-                "swara": "S - - G R N - s S P -m G M G R - GM | P - - - N P M - M - n P mg G P - M g M - ||",
-                "sahitya": "I - - Ja ga ti Gati yai- - Janu laku Mari te - - ja muna Raa- ja Vi- nu ta - yau - - -"
-            },
-            {
-                "line_number": 2,
-                "swara": "mgms - - sg gr N - s S Pmp -m G P G R - GM | P - - - N P M - M - n P mg G P - M g M - ||",
-                "sahitya": "I - - - Ja ga ti Gati yai- - - Janu laku Mari te - - ja muna Raa- ja Vi- nu ta - yau - - -"
-            },
-            {
-                "line_number": 3,
-                "swara": "pnnp mnpm G R - S S - S- S mg rn- S mg rn | S - - - - - - N - p - - M mnP - mG R- G - M - ||",
-                "sahitya": "Raa- - - ja- mukhi Saro - ja Naya- na Sugu-na- Raa - - - - ja - Raa- ji ta - - Kaa- - maakshi"
-            },
-            {
-                "line_number": 4,
-                "swara": "D P Mpm G R - G M pnp - m pm G R S - S - | - N D P P - - - M G R - S - - M G M ||",
-                "sahitya": "O - - - - - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-            },
-            {
-                "line_number": 5,
-                "swara": "pmgr- Srm gg r S - - S - g rGg S - - sn snsn | S - sppm Mdp mGm R - | G M GR - G - M - ||",
-                "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
-            }
-        ],
-        "charanams": [
-            {
-                "lines": [
-                    {
-                        "line_number": 1,
-                        "swara": "S - S - P - P- MN P- M - n P G R G M | P - n P - n P - n P M G M P M G R S - ||",
-                        "sahitya": "Kan na Tal - li Naa- du Chen- ta nen- ta - Kan- - - - - - nada Tsalupaga Tagunaa"
-                    },
-                    {
-                        "line_number": 2,
-                        "swara": "S - s g rsN - S G R G - M- P - N P M | - M - - - M-p mGm R G M P-n pMp G R G - ||",
-                        "sahitya": "Ninnu Ne- - Nam-mi yun na Va - du gadaa Nan - - no- ka- - ni Bro- chu-ta - Karudaa?"
-                    },
-                    {
-                        "line_number": 3,
-                        "swara": "S - s g rsN - Spm mGm R G - M- P - N P M | - M - - - M-p mGm R G M P-n pMp G R G M ||",
-                        "sahitya": "Ninnu Ne- - Nam- - mi yun na Va - du gadaa Nan - - no- ka- - ni Bro- chu- ta - Karudaa?"
-                    },
-                    {
-                        "line_number": 4,
-                        "swara": "pnnp mn - pm G R S - S G Rgr S N - S - S | S G R - gm P P - P N P - M N P M M M-g M ||",
-                        "sahitya": "An-- - - ni- Bhuvanam- bulu Gaa-- che-vu Pra san-na Mur- - rthi An- na pu - rna Vara daa- - !"
-                    },
-                    {
-                        "line_number": 5,
-                        "swara": "pn np M - P S S - S - sg Rgr S rs N S S | - - - - - - - - - - - - - - P - ||",
-                        "sahitya": "Vin-na- pam - bu Vin na- Vin- chi San- nidhi - - - - - - - - - - - - - - Naa -"
-                    },
-                    {
-                        "line_number": 6,
-                        "swara": "pn np M - P S S - S - sg Rgr S rs N S S | P G S - S N P - pm np - P mnP - m gr -G - M ||",
-                        "sahitya": "Vin-na- pam - bu Vin na- Vin- chi San- nidhi Vipan- na Bhaya Vi- mo- cha na- Dhau- re- ya"
-                    },
-                    {
-                        "line_number": 7,
-                        "swara": "pn np M - P S S - S - pm rmmGr S rs N S S | P G S - S N P - pm np - P mnP - m gr -G - M ||",
-                        "sahitya": "Vin-na- pam - bu Vin na- Vin- - -chi San- nidhi Vipan- na Bhaya Vi- mo- cha na- Dhau- re- ya"
-                    },
-                    {
-                        "line_number": 8,
-                        "swara": "P N P P S - ssnd - MP - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
-                        "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-                    },
-                    {
-                        "line_number": 9,
-                        "swara": "S - S - P - P- MN P- M - n P ppmm GM | P - n P - n P - n P M G M P -M G R S - ||",
-                        "sahitya": "ja - la me - la shai- la ba - la ta- - - La ja- - - - - - lanu jana ni nin nuvina"
-                    },
-                    {
-                        "line_number": 10,
-                        "swara": "S - sp - mP- - P- MN P- M - n P ppmmG- - M | P - n P - n P - n P M G M P -pm G R S - ||",
-                        "sahitya": "ja - la me - la shai- la ba - la ta- - - La ja- - - - - - lanu jana ni nin nuvina"
-                    },
-                    {
-                        "line_number": 11,
-                        "swara": "S - s g rsN - S G R G - M- P - P N P | M - - - - M-p mGm R G M Pnp pmG R G - ||",
-                        "sahitya": "pa la-na- - rtthamuga ve- re dai - vamula lo- - - - la - ma - - ti yai - nam- mitina-"
-                    },
-                    {
-                        "line_number": 12,
-                        "swara": "S - s g rsN - S G R G - M- P - N P M | M - - - - M-p mGm R G M Pnp M-pGR G - ||",
-                        "sahitya": "pa la-na- - rtthamuga ve- re dai - vamula lo- - - - la - ma - - ti yai - nam- mitina-"
-                    },
-                    {
-                        "line_number": 13,
-                        "swara": "pnnp mn - pm G R S - S S S - rs N S S | S G R - gm P P - P -n P - M N P M M M - ||",
-                        "sahitya": "ni- - - - la - nuta shi lamu ne ne- - ccata nai-na ga- - na ga- na lo- la hrdaya-"
-                    },
-                    {
-                        "line_number": 14,
-                        "swara": "pn np M - P S S - S - sg Rgr S - - - - | pn np M - P S S - S - sg Rgr S rsN S S ||",
-                        "sahitya": "ni- la- - kan - Ta ra- Ni- - - - - - - - ni- la- - kan - Ta ra- Ni- nin- nu nam-miti"
-                    },
-                    {
-                        "line_number": 15,
-                        "swara": "pn np M - P S S - S - sg Rgr S rsN S S | P G S - ss nd - pm N - p - mp G - r - -G - M ||",
-                        "sahitya": "ni- la- - kan - Ta ra- Ni- nin- nu nam-miti nijam- bu ga- ba- li ke- di- da-ya - ce- si"
-                    },
-                    {
-                        "line_number": 16,
-                        "swara": "P - - - - - pmgr sn - - - g M P - - g M | P - - - - - - - - - - - - - - - ||",
-                        "sahitya": "O - - - - - - - - - - - Ja ga dam - - ba - - -"
-                    },
-                    {
-                        "line_number": 17,
-                        "swara": "S - S - P - P- MN P- M - n P ppmm GM | P - n P - n P - n P M G M P -M G R S - ||",
-                        "sahitya": "Chanca la -tmude- nu ye- - mi pu- - - rva san - - - - - - - ci ta mula sa li pitino"
-                    },
-                    {
-                        "line_number": 18,
-                        "swara": "S - s g rsN - S G R G - M- P - P - g M | P - - N P M - - gM P - M G R G - M - ||",
-                        "sahitya": "Kan ci-ka- - ma- ksi ne- nu nin - nu poda gah-nci ti ni shara Nu sharanu - - - -"
-                    },
-                    {
-                        "line_number": 19,
-                        "swara": "S - s g rsN - S G R G - M- P - P - g M | P - - N P M - G M P - M G R G - M - ||",
-                        "sahitya": "Kan ci-ka- - ma- ksi ne- nu nin - nu poda gah-nci ti ni shara Nu sharanu - - ni -"
-                    },
-                    {
-                        "line_number": 20,
-                        "swara": "pnnp mn - pm G R S - S S N N S G - R | G - M- P - P - P -n P - M N P M M M - ||",
-                        "sahitya": "vin- - - cu- ka- chan cala gati na de sa nun ca vam- ma shya ma kr-sna vinuta"
-                    },
-                    {
-                        "line_number": 21,
-                        "swara": "pN np m - P S S - - S S sg gr S - rs N S | S - - - - - - - - - - - - - - - ||",
-                        "sahitya": "man-ci -- ki - rtti - ni ccu -- na-tti de- - - - vi"
-                    },
-                    {
-                        "line_number": 22,
-                        "swara": "pN np m - P S S - - S S sg gr S S -n S- P | P G S - ss nd - pm N - p - mp G R S -G - M ||",
-                        "sahitya": "man-ci -- ki - rtti - ni ccu -- na-tti de- vi man ninci - na - - da- pa- ra - dhamula sahihnci"
-                    },
-                    {
-                        "line_number": 23,
-                        "swara": "pN np m - P S S - - S S sg gr S rsN S- P | G S - ss nd P - pm N - p - mp G R S -G - M ||",
-                        "sahitya": "man-ci -- ki - rtti - ni ccu -- na-tti de- vi man nin- ci- na - - da- pa- ra - dhamula sahihnci"
-                    },
-                    {
-                        "line_number": 24,
-                        "swara": "P M G R S N - S M G R - S N - S G R N | S G - - G - M - P D P M - G M P mp - - ||",
-                        "sahitya": "Varasita gi ri Nila yuni Priya Pranayini Paraa sha - kti Mana vini Vinu maa- - -"
-                    },
-                    {
-                        "line_number": 25,
-                        "swara": "P-n pMp mGm R S N - S pm G R -S N - S G R N | S G - - pmG - M - P D P M - G M P - - - ||",
-                        "sahitya": "Va-ra- si - - ta gi ri Nila- yuni Priya Pranayini Paraa sha - kti Mana vini Vinu maa- - -"
-                    },
-                    {
-                        "line_number": 26,
-                        "swara": "D P Mpm G R - G M pnp - m pm G R S - sG s | - N D P NP - - pm G R - S - - Mpm G M ||",
-                        "sahitya": "Mari yaa- dale ruga ni - Du-sh pra bhula Ko - ri Vinu tim- - pa ga Va ran- - bo - sagu"
-                    },
-                    {
-                        "line_number": 27,
-                        "swara": "P N P pg rS -- ns Rgr nsrsndP -np - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
-                        "sahitya": "O - - - - - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
-                    },
-                    {
-                        "line_number": 28,
-                        "swara": "pmgr- Srm gg r S - - S - g rGg S - - sn snsn | S - sppm Mdp mGm R - | G M GR - G - M - ||",
-                        "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
-                    }
-                ]
-            }
-        ]
-    },
-    "pdfPath": "PDFs/O_Jagadamba_Ananda_Bhairavi.pdf"
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "swara": "P - - - - - mpnp P - n P - - m- M g M - | P - G M P - M Pnp | M - mp G R - G - M - ||",
+                    "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - nu - Am ba"
+                },
+                {
+                    "swara": "P - - - S - mpnp P - n P - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
+                    "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
+                },
+                {
+                    "swara": "P - - - S - mpnp P nn P - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
+                    "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
+                },
+                {
+                    "swara": "P N P P S - ssnd - MP - - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
+                    "sahitya": "O - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
+                },
+                {
+                    "swara": "pmgr- Srm gg r S - - S - g rGg S - - S snsn | S - Spm Mdp mGm R - | G M GR - G - M - ||",
+                    "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
+                },
+                {
+                    "swara": "P N P P S - ns Rgr nsrsndP -np - m- M g M - | P - G M Pnp - M Pnp | M-MnpmGm R - G - M - ||",
+                    "sahitya": "O - - - - - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
+                },
+                {
+                    "swara": "pmgr- Srm gg r S - - S - g rGg S - - S snsn | S - sppm Mdp mGm R - | G M GR - G - M - ||",
+                    "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "S - - G R N - s S P -m G M G R - GM | P - - - N P M - M - n P mg G P - M g M - ||",
+                    "sahitya": "I - - Ja ga ti Gati yai- - Janu laku Mari te - - ja muna Raa- ja Vi- nu ta - yau - - -"
+                },
+                {
+                    "swara": "mgms - - sg gr N - s S Pmp -m G P G R - GM | P - - - N P M - M - n P mg G P - M g M - ||",
+                    "sahitya": "I - - - Ja ga ti Gati yai- - - Janu laku Mari te - - ja muna Raa- ja Vi- nu ta - yau - - -"
+                },
+                {
+                    "swara": "pnnp mnpm G R - S S - S- S mg rn- S mg rn | S - - - - - - N - p - - M mnP - mG R- G - M - ||",
+                    "sahitya": "Raa- - - ja- mukhi Saro - ja Naya- na Sugu-na- Raa - - - - ja - Raa- ji ta - - Kaa- - maakshi"
+                },
+                {
+                    "swara": "D P Mpm G R - G M pnp - m pm G R S - S - | - N D P P - - - M G R - S - - M G M ||",
+                    "sahitya": "O - - - - - - - - - - - - - - - Ja - ga dam - - - - ba - - - Nan- - - - nu - Am ba"
+                },
+                {
+                    "swara": "pmgr- Srm gg r S - - S - g rGg S - - sn snsn | S - sppm Mdp mGm R - | G M GR - G - M - ||",
+                    "sahitya": "Nee- - - - - - - - vu - - - - - - Ja-va - - mu na - Bro- - - - - - vu - - - Am ba"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "",
+                    "sahitya": ""
+                }
+            ]
+        }
+    ],
+    "pdfPath": "PDFs/O_Jagadamba_Ananda_Bhairavi.pdf",
+    "avartanasPerRow": 1
 }

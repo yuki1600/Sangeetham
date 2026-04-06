@@ -72,7 +72,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // Track unsaved changes
     const [savedDataStr, setSavedDataStr] = useState('');
     const [showUnsavedWarning, setShowUnsavedWarning] = useState(false);
-    const currentDataStr = JSON.stringify({ composition, editOps, sectionTimings, customAavartanaSec });
+    const currentDataStr = JSON.stringify({ composition, editOps, sectionTimings, customAavartanaSec, avartanasPerRow: avPerRow });
     const hasUnsavedChanges = savedDataStr && currentDataStr !== savedDataStr;
     const [isDownloadingAudio, setIsDownloadingAudio] = useState(false);
     const [previewBanner, setPreviewBanner] = useState(null); // { composition, editOps }
@@ -140,7 +140,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         if (currentCount === needed) return;
 
         const isEmptyContent = (entry) => {
-            const s = (entry.swaram || '').replace(/[_|;\s.,]/g, '');
+            const s = (entry.swara || '').replace(/[_|;\s.,]/g, '');
             return s.length === 0;
         };
 
@@ -161,7 +161,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 const extra = perSection + (remainder > 0 ? 1 : 0);
                 if (remainder > 0) remainder--;
                 for (let i = 0; i < extra; i++) {
-                    sec.content.push({ swaram: emptyPattern + ' ||', sahityam: emptyPattern + ' ||' });
+                    sec.content.push({ swara: emptyPattern + ' ||', sahitya: emptyPattern + ' ||' });
                 }
             }
         } else {
@@ -262,7 +262,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             setSectionTimings(cleanSec);
             setCustomAavartanaSec(cleanCalib);
             setIsPublished(!!cached.meta?.isPublished);
-            setSavedDataStr(JSON.stringify({ composition: cached.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib }));
+            setAvPerRow(cached.avartanasPerRow || 1);
+            setSavedDataStr(JSON.stringify({ composition: cached.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib, avartanasPerRow: cached.avartanasPerRow || 1 }));
             
             // Default to sahitya if swara is missing
             if (cached.meta && !cached.meta.hasSwara && cached.meta.hasSahitya) {
@@ -286,7 +287,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 setSectionTimings(cleanSec);
                 setCustomAavartanaSec(cleanCalib);
                 setIsPublished(!!data.meta?.isPublished);
-                setSavedDataStr(JSON.stringify({ composition: data.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib }));
+                setAvPerRow(data.avartanasPerRow || 1);
+                setSavedDataStr(JSON.stringify({ composition: data.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib, avartanasPerRow: data.avartanasPerRow || 1 }));
                 
                 // Default to sahitya if swara is missing
                 if (data.meta && !data.meta.hasSwara && data.meta.hasSahitya) {
@@ -298,18 +300,15 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     // ── Decode original audio ─────────────────────────────────────────────────
     useEffect(() => {
-        if (!songId) return;
+        if (!songId || !songData?.meta) return;
         
-        // Re-check if the audio actually exists in meta before trying to fetch
-        if (songData?.meta) {
-            const hasRequested = activeAudioType === 'sahitya' ? songData.meta.hasSahitya : songData.meta.hasSwara;
-            if (!hasRequested) {
-                setRawBuffer(null);
-                setEditedBuffer(null);
-                setTotalDuration(0);
-                setCurrentTime(0);
-                return;
-            }
+        const hasRequested = activeAudioType === 'sahitya' ? songData.meta.hasSahitya : songData.meta.hasSwara;
+        if (!hasRequested) {
+            setRawBuffer(null);
+            setEditedBuffer(null);
+            setTotalDuration(0);
+            setCurrentTime(0);
+            return;
         }
 
         const cacheKey = `${songId}-${activeAudioType}`;
@@ -747,7 +746,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             const res = await fetch(`/api/songs/${songId}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ composition, editOps: { ...editOps, sectionTimings, customAavartanaSec } }),
+                body: JSON.stringify({ composition, editOps: { ...editOps, sectionTimings, customAavartanaSec }, avartanasPerRow: avPerRow }),
             });
             if (!res.ok) throw new Error('Save failed');
             setSaveStatus('ok');

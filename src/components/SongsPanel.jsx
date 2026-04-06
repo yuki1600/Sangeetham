@@ -269,10 +269,14 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                                 console.error('Failed toggling favorite:', err);
                             }
                         }}
-                        className={`p-1.5 rounded-lg border transition-all ${song.isFavorite ? 'bg-rose-500/10 border-rose-500/30 text-rose-500' : 'bg-white/5 border-white/10 text-white/40 hover:text-rose-400'}`}
+                        className={`p-1.5 rounded-lg border transition-all ${
+                            song.isFavorite 
+                                ? 'bg-rose-500/10 border-rose-500/30 text-rose-500' 
+                                : 'bg-white/5 border-white/10 text-rose-500/40 hover:text-rose-500 hover:bg-rose-500/5 hover:border-rose-500/20'
+                        }`}
                         title={song.isFavorite ? "Remove from Favorites" : "Add to Favorites"}
                     >
-                        <Heart className={`w-4 h-4 ${song.isFavorite ? 'fill-rose-500' : ''}`} />
+                        <Heart className={`w-4 h-4 transition-all ${song.isFavorite ? 'fill-rose-500' : 'fill-transparent'}`} />
                     </button>
                     <button
                         onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
