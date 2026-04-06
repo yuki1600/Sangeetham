@@ -2,6 +2,103 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
+import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';
+
+function MultiSelectSearchableDropdown({ label, selected, onChange, options, isDark, borderColor, icon: Icon }) {
+    const [open, setOpen] = useState(false);
+    const [query, setQuery] = useState('');
+    const wrapperRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false);
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
+
+    const filtered = options.filter(o => o.toLowerCase().includes(query.toLowerCase()));
+    const toggleOption = (opt) => {
+        if (selected.includes(opt)) {
+            onChange(selected.filter(s => s !== opt));
+        } else {
+            onChange([...selected, opt]);
+        }
+    };
+
+    return (
+        <div className="relative flex-1 min-w-[140px]" ref={wrapperRef}>
+            <div 
+                onClick={() => setOpen(!open)}
+                className="group flex items-center gap-2 px-3 py-2.5 rounded-xl border text-sm transition-all cursor-pointer hover:border-emerald-500/50"
+                style={{ 
+                    background: isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)', 
+                    borderColor: open ? 'var(--text-muted)' : borderColor,
+                    color: 'var(--text-primary)'
+                }}
+            >
+                {Icon && <Icon className="w-3.5 h-3.5 opacity-40" />}
+                <div className="flex-1 truncate">
+                    {selected.length === 0 ? (
+                        <span className="opacity-40">{label}</span>
+                    ) : (
+                        <span className="font-bold text-emerald-500">{label} ({selected.length})</span>
+                    )}
+                </div>
+                <ChevronDown className={`w-3.5 h-3.5 opacity-40 transition-transform ${open ? 'rotate-180' : ''}`} />
+            </div>
+
+            {open && (
+                <div 
+                    className="absolute z-20 w-full mt-1 border rounded-xl shadow-2xl max-h-64 overflow-hidden flex flex-col"
+                    style={{ background: isDark ? '#1a1a24' : '#fff', borderColor }}
+                >
+                    <div className="p-2 border-b" style={{ borderColor }}>
+                        <div className="relative">
+                            <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3 h-3 opacity-30" />
+                            <input
+                                autoFocus
+                                type="text"
+                                value={query}
+                                onChange={e => setQuery(e.target.value)}
+                                placeholder="Search..."
+                                className="w-full pl-8 pr-3 py-1.5 bg-black/5 dark:bg-white/5 rounded-lg text-xs outline-none focus:ring-1 focus:ring-emerald-500/30"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex-1 overflow-y-auto py-1">
+                        {filtered.length > 0 ? filtered.map(opt => (
+                            <label
+                                key={opt}
+                                className="flex items-center gap-2 px-3 py-1.5 text-xs hover:bg-emerald-500/10 cursor-pointer transition-colors"
+                            >
+                                <input
+                                    type="checkbox"
+                                    checked={selected.includes(opt)}
+                                    onChange={() => toggleOption(opt)}
+                                    className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500 w-3.5 h-3.5"
+                                />
+                                <span className="truncate">{opt}</span>
+                            </label>
+                        )) : (
+                            <div className="px-3 py-2 text-xs italic opacity-40 text-center">No matches</div>
+                        )}
+                    </div>
+                    {selected.length > 0 && (
+                        <div className="p-2 border-t" style={{ borderColor }}>
+                            <button 
+                                onClick={() => onChange([])}
+                                className="w-full py-1 text-[10px] font-bold uppercase tracking-wider text-red-400 hover:text-red-300 transition-colors"
+                            >
+                                Clear Selected
+                            </button>
+                        </div>
+                    )}
+                </div>
+            )}
+        </div>
+    );
+}
 
 function SearchableSelect({ label, value, onChange, options, isDark, borderColor, formatOption }) {
     const [open, setOpen] = useState(false);
@@ -86,31 +183,29 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const [manualComposer, setManualComposer] = useState('');
     const [manualSections, setManualSections] = useState(['Pallavi', 'Anupallavi', 'Charanam']);
 
-    const EXPANDED_RAGAM_LIST = [
-        'Abhogi', 'Anandabhairavi', 'Arabhi', 'Asaveri', 'Atana', 'Bhairavi', 'Bilahari', 'Bowli', 
-        'Brindavani', 'Chakravakam', 'Chalanaata', 'Charukesi', 'Darbar', 'Dhanyasi', 'Dharmavati', 
-        'Gaurimanohari', 'Gowlai', 'Hamsadhwani', 'Hamsanadam', 'Hari Kambodhi', 'Hindolam', 
-        'Kalyani', 'Kambodhi', 'Kamas', 'Kanada', 'Kapi', 'Kedaragowla', 'Keeravani', 'Kharaharapriya', 
-        'Latangi', 'Madhyamavati', 'Malahari', 'Mayamalavagowlai', 'Mohanam', 'Mukhari', 'Nalinakanthi', 
-        'Nattai', 'Navaroj', 'Pantuvarali', 'Poorvikalyani', 'Punnagavarali', 'Reethigowlai', 'Revathi', 
-        'Saaranga', 'Sahana', 'Sama', 'Saveri', 'Shankarabharanam', 'Shanmukhapriya', 'Simhendramadhyamam', 
-        'Sindhu Bhairavi', 'Sri', 'Sri Ranjani', 'Subhapantuvarali', 'Suddha Dhanyasi', 'Suddha Saveri', 
-        'Surutti', 'Thodi', 'Vachaspati', 'Varali', 'Vasanta', 'Yadukula Kambodhi'
-    ];
+    const EXPANDED_RAGAM_LIST = ALL_SONG_METADATA.ragas;
 
-    const allRagas = [...new Set([...EXPANDED_RAGAM_LIST, ...ALL_SONGS.map(s => s.raga).filter(r => r && r !== 'All Ragas')])].sort();
-    const allTalas = [...new Set([...Object.keys(TALA_TEMPLATES), ...ALL_SONGS.map(s => s.tala).filter(Boolean)])].sort();
-    
-    // Process composers: alphabetize all, but pull 'Unknown' to the top
-    const processedComposers = [...new Set(ALL_SONGS.map(s => s.composer).filter(Boolean))].sort();
-    const allComposers = processedComposers.includes('Unknown') 
-        ? ['Unknown', ...processedComposers.filter(c => c !== 'Unknown')] 
-        : processedComposers;
+    const baseRagas = ALL_SONG_METADATA.ragas;
+    const baseTalas = ALL_SONG_METADATA.talas;
+    const baseComposers = ALL_SONG_METADATA.composers;
+
+    // Normalize and merge dynamic songs from DB
+    const allRagas = [...new Set([...baseRagas, ...songs.map(s => s.raga).filter(Boolean)])].sort();
+    const allTalas = [...new Set([...baseTalas, ...songs.map(s => s.tala).filter(Boolean)])].sort();
+    const allComposers = [...new Set([...baseComposers, ...songs.map(s => s.composer).filter(Boolean)])].sort();
+
         
     const [editingMetaId, setEditingMetaId] = useState(null);
     const [editRaga, setEditRaga] = useState('');
     const [editTala, setEditTala] = useState('');
     const [editComposer, setEditComposer] = useState('');
+
+    // Filter states
+    const [filterTitle, setFilterTitle] = useState('');
+    const [filterRagas, setFilterRagas] = useState([]);
+    const [filterTalas, setFilterTalas] = useState([]);
+    const [filterComposers, setFilterComposers] = useState([]);
+    const [bulkPublishing, setBulkPublishing] = useState(false);
 
     const [renamingId, setRenamingId] = useState(null);
     const [renameValue, setRenameValue] = useState('');
@@ -314,6 +409,35 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         }
     };
 
+    // Computed filtered songs
+    const filteredSongs = songs.filter(s => {
+        const matchesTitle = !filterTitle || s.title.toLowerCase().includes(filterTitle.toLowerCase());
+        const matchesRaga = filterRagas.length === 0 || filterRagas.includes(s.raga);
+        const matchesTala = filterTalas.length === 0 || filterTalas.includes(s.tala);
+        const matchesComposer = filterComposers.length === 0 || filterComposers.includes(s.composer || 'Unknown');
+        return matchesTitle && matchesRaga && matchesTala && matchesComposer;
+    });
+
+    const handleBulkPublish = async (active) => {
+        if (!window.confirm(`${active ? 'Publish' : 'Unpublish' } all ${filteredSongs.length} filtered songs?`)) return;
+        setBulkPublishing(true);
+        try {
+            for (const song of filteredSongs) {
+                if (song.isPublished === active) continue;
+                await fetch(`/api/songs/${song.id}/publish`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ isPublished: active }) 
+                });
+            }
+            fetchSongs();
+        } catch (e) {
+            alert('Bulk update failed: ' + e.message);
+        } finally {
+            setBulkPublishing(false);
+        }
+    };
+
     return (
         <div className="flex flex-col h-full" style={{ background: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
             {/* Header */}
@@ -352,6 +476,98 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                 </button>
             </header>
 
+            {/* Filter Bar */}
+            <div 
+                className="px-6 py-4 border-b flex flex-col md:flex-row items-center gap-4 sticky top-0 z-10"
+                style={{ 
+                    background: isDark ? 'rgba(10,10,15,0.6)' : 'rgba(255,255,255,0.8)',
+                    backdropFilter: 'blur(10px)',
+                    borderColor 
+                }}
+            >
+                {/* Search Title */}
+                <div className="relative w-full md:w-64">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 opacity-40" />
+                    <input
+                        type="text"
+                        value={filterTitle}
+                        onChange={e => setFilterTitle(e.target.value)}
+                        placeholder="Search songs..."
+                        className="w-full pl-10 pr-4 py-2.5 rounded-xl border text-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
+                        style={{ 
+                            background: isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)', 
+                            borderColor,
+                            color: 'var(--text-primary)'
+                        }}
+                    />
+                </div>
+
+                {/* Multi-Selects */}
+                <div className="flex flex-1 items-center gap-2 w-full md:w-auto overflow-visible">
+                    <MultiSelectSearchableDropdown
+                        label="Raga"
+                        selected={filterRagas}
+                        onChange={setFilterRagas}
+                        options={allRagas}
+                        isDark={isDark}
+                        borderColor={borderColor}
+                        icon={Music}
+                    />
+                    <MultiSelectSearchableDropdown
+                        label="Tala"
+                        selected={filterTalas}
+                        onChange={setFilterTalas}
+                        options={allTalas}
+                        isDark={isDark}
+                        borderColor={borderColor}
+                        icon={Layout}
+                    />
+                    <MultiSelectSearchableDropdown
+                        label="Composer"
+                        selected={filterComposers}
+                        onChange={setFilterComposers}
+                        options={allComposers}
+                        isDark={isDark}
+                        borderColor={borderColor}
+                        icon={Pencil}
+                    />
+                    
+                    {(filterTitle || filterRagas.length > 0 || filterTalas.length > 0 || filterComposers.length > 0) && (
+                        <button
+                            onClick={() => {
+                                setFilterTitle('');
+                                setFilterRagas([]);
+                                setFilterTalas([]);
+                                setFilterComposers([]);
+                            }}
+                            className="px-3 py-2 text-xs font-bold text-red-400 hover:text-red-500 transition-colors whitespace-nowrap"
+                        >
+                            Clear All
+                        </button>
+                    )}
+                </div>
+
+                {/* Bulk Actions */}
+                <div className="flex items-center gap-2 flex-shrink-0">
+                    <button
+                        onClick={() => handleBulkPublish(true)}
+                        disabled={bulkPublishing || filteredSongs.length === 0}
+                        className="px-3 py-2 rounded-lg border text-[11px] font-black uppercase tracking-wider transition-all hover:bg-emerald-500 hover:text-white hover:border-emerald-500 disabled:opacity-30"
+                        style={{ borderColor, color: 'var(--text-muted)' }}
+                    >
+                        Publish All
+                    </button>
+                    <button
+                        onClick={() => handleBulkPublish(false)}
+                        disabled={bulkPublishing || filteredSongs.length === 0}
+                        className="px-3 py-2 rounded-lg border text-[11px] font-black uppercase tracking-wider transition-all hover:bg-red-500 hover:text-white hover:border-red-500 disabled:opacity-30"
+                        style={{ borderColor, color: 'var(--text-muted)' }}
+                    >
+                        Unpublish All
+                    </button>
+                </div>
+            </div>
+
             {/* Content */}
             <div className="flex-1 overflow-y-auto px-6 py-6">
                 {loading ? (
@@ -371,7 +587,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {songs.map(song => (
+                        {filteredSongs.map(song => (
                             <div
                                 key={song.id}
                                 className="group relative rounded-2xl p-5 border transition-all hover:scale-[1.01]"
