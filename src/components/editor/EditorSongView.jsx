@@ -992,11 +992,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     style={{
                         background: isDark ? 'rgba(10,10,15,0.9)' : 'rgba(248,250,252,0.95)',
                         backdropFilter: 'blur(20px)',
-                        borderBottom: `1px solid ${borderColor}`,
+                        borderBottom: 'none',
                     }}
                 >
                     {/* Header content: song info left, controls right */}
-                    <div className="flex px-5 pt-2 pb-1 gap-4">
+                    <div className="flex px-5 pt-4 pb-1 gap-4">
                         {/* Left: back + song info */}
                         <div className="flex items-start gap-3 min-w-0 flex-shrink-0" style={{ maxWidth: '30%' }}>
                             <button
@@ -1116,21 +1116,22 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         </div>
 
                         {/* Right: pitch bar, playback, manage files stacked */}
-                        <div className="flex-1 flex flex-col items-center gap-1 min-w-0">
+                        <div className="flex-1 flex flex-col items-start gap-1 min-w-0">
                             {/* Pitch bar + manage files row */}
                             <div className="flex items-center justify-between w-full">
-                                <div />
-                                <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
+                                <div className="flex items-center pl-16">
+                                    <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
+                                </div>
                                 <div className="flex items-center gap-2">
                             {/* Manage Files dropdown */}
                             <div className="relative">
                                     <button
                                         onClick={() => setShowDownloadMenu(s => !s)}
-                                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${showDownloadMenu ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
-                                        style={{ borderColor: showDownloadMenu ? undefined : borderColor, color: showDownloadMenu ? undefined : 'var(--text-muted)' }}
+                                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm font-black border transition-all ${showDownloadMenu ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
+                                        style={{ borderColor: showDownloadMenu ? undefined : borderColor, color: showDownloadMenu ? undefined : (isDark ? '#fff' : '#000') }}
                                     >
                                         <Layers className="w-3.5 h-3.5" />
-                                        Manage Files
+                                        Files
                                         <ChevronDown className="w-3 h-3" />
                                     </button>
                                     {showDownloadMenu && (
@@ -1254,7 +1255,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 </div>
                             </div>
                             {/* Playback controls */}
-                            <div className="flex items-center justify-center gap-8 py-1">
+                            <div className="flex items-center justify-start w-full gap-8 py-1 pl-16">
                         <div
                             className="flex items-center gap-6 px-8 py-1.5 rounded-3xl"
                             style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', border: `1px solid ${borderColor}` }}
@@ -1377,8 +1378,12 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 {!readOnly && (
                     <>
                         <div
-                            className="relative flex items-center justify-center gap-3 px-5 py-3 flex-shrink-0"
-                            style={{ borderBottom: `1px solid ${showSections ? 'transparent' : borderColor}`, background: isDark ? 'rgba(255,255,255,0.01)' : 'rgba(0,0,0,0.01)' }}
+                            className="relative flex items-center justify-center gap-3 px-5 py-3 flex-shrink-0 mt-4"
+                            style={{ 
+                                borderTop: `1px solid ${borderColor}`,
+                                borderBottom: `1px solid ${showSections ? 'transparent' : borderColor}`, 
+                                background: isDark ? 'rgba(255,255,255,0.01)' : 'rgba(0,0,0,0.01)' 
+                            }}
                         >
                             {/* Center aligned button group */}
                             <button
@@ -1557,28 +1562,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 {saveStatus === 'ok' ? 'Saved' : saveStatus === 'error' ? 'Failed' : 'Save'}
                             </button>
 
-                            {/* Status / hint — absolute right so it doesn't shift the centred buttons */}
-                            {!showHistory && (
-                                <div className="absolute right-5 flex items-center gap-2">
-                                    {isProcessing && (
-                                        <div className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--text-muted)' }}>
-                                            <div className="w-3 h-3 border border-current border-t-transparent rounded-full animate-spin" />
-                                            Processing...
-                                        </div>
-                                    )}
-                                    <span className="text-[10px] opacity-40 hidden md:inline">
-                                        {editorMode === 'calibrate' && activeSelection
-                                            ? `Selected: ${Math.abs((activeSelection.endTime ?? activeSelection.startTime) - activeSelection.startTime).toFixed(2)}s — Enter to apply · Esc to cancel`
-                                            : editorMode === 'calibrate'
-                                            ? 'Drag on waveform to select 1 āvartana'
-                                            : editorMode === 'trim' && activeSelection
-                                            ? 'Del to remove · Esc to cancel'
-                                            : editorMode === 'trim'
-                                            ? 'Drag waveform to select'
-                                            : 'Use Lyrics to edit notation'}
-                                    </span>
-                                </div>
-                            )}
+
                         </div>
 
                         {/* ── Section Timings Panel ────────────────────────────────────── */}

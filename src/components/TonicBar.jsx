@@ -283,7 +283,7 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                             <input 
                                 type="range"
                                 min="-40"
-                                max="0"
+                                max="10"
                                 step="1"
                                 value={volume}
                                 onChange={handleVolumeChange}

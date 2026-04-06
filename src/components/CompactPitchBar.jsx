@@ -116,10 +116,10 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
     const isDark = theme !== 'light';
 
     return (
-        <div className="flex items-center justify-center gap-6 py-2 w-full">
+        <div className="flex items-center justify-start gap-6 py-2">
             {/* Pitch Display */}
             <div className={`flex items-center gap-4 px-6 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
-                }`} style={{ height: '56px', minWidth: '220px' }}>
+                }`} style={{ height: '56px', minWidth: '240px' }}>
                 {currentSwara ? (
                     <>
                         <div className="flex items-center justify-center w-16">

@@ -134,7 +134,7 @@ export async function startDrone(tonicHz) {
 
     const voiceOptions = {
         harmonics: tanpuraHarmonics,
-        volume: -14, // Increased from -24
+        volume: -10, // Increased from -14
         attackTime: 0.015,
         decayTime: 4,
         sustainLevel: 0.1,
@@ -143,22 +143,22 @@ export async function startDrone(tonicHz) {
 
     const paVoice = createStringVoice(paFreq, filter, {
         ...voiceOptions,
-        volume: -30, // Increased from -40
+        volume: -24, // Increased from -30
     });
 
     const saHigh1 = createStringVoice(saHighFreq, filter, {
         ...voiceOptions,
-        volume: -28, // Increased from -38
+        volume: -22, // Increased from -28
     });
 
     const saHigh2 = createStringVoice(saHighFreq, filter, {
         ...voiceOptions,
-        volume: -29, // Increased from -39
+        volume: -23, // Increased from -29
     });
 
     const saLow = createStringVoice(saFreq, filter, {
         ...voiceOptions,
-        volume: -27, // Increased from -37
+        volume: -20, // Increased from -27
         decayTime: 5, // Bass string rings longer
         sustainLevel: 0.12,
     });
