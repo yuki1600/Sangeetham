@@ -1,0 +1,79 @@
+{
+  "song_details": {
+    "name": "Samba Shivayanave",
+    "raga": "Khamas",
+    "arohanam": "S M1 G3 M1 P D2 N2 S ||",
+    "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
+    "tala": "Adi",
+    "composer": "Chinni Krishna Dasa"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "S - S N D P - m G | M - - G M P D N ||",
+        "sahitya": "Sa - mba shi va –yana ve- - ra ji ta gi ri"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - r N - s D - n P - d | M - p M - g M - p D - n ||",
+        "sahitya": "Sa mba vi ma no-ha ra pa ra- tpa ra – kr pa- ka ra-shri"
+      },
+      {
+        "line_number": 3,
+        "swara": "S R sn - N S – n d D -N | dp- P D - mg s M -g mp dn ||",
+        "sahitya": "Nive guru dai vam bani ye ve lanu se vim pucu sada mi dini shiva"
+      },
+      {
+        "line_number": 4,
+        "swara": "s r s n S - n s- n d N - | d n d p D - p d p m P - ||",
+        "sahitya": "Parama da ya- nidhi vanu cu - maruvaka na - hrdayamu na"
+      },
+      {
+        "line_number": 5,
+        "swara": "s s s s m m m m P p p D d d | n s n s N d p d p m g m p d n ||",
+        "sahitya": "Mahadeva mahaprabho sundara nayaka suravara dayaka bhavabhaya harashiva"
+      },
+      {
+        "line_number": 6,
+        "swara": "d s n d p m g m P - p d n d | p m- g g M - p n d n d -p d n ||",
+        "sahitya": "Sthira madu rapuramu na varamulo sagu haru ni niratamu nu dalaci"
+      },
+      {
+        "line_number": 7,
+        "swara": "S - - s n n d – d p p m m g | M - - p d nd m-g m p d n ||",
+        "sahitya": "Shri shubha kara shashi makutadha ra jaya vijaya tri purahara"
+      },
+      {
+        "line_number": 8,
+        "swara": "s m g s S S s r s s N N | n s n d D D p d p m P P ||",
+        "sahitya": "Shrtajana lola dbhuta guna shi la krtanuta pala patituni lola-"
+      },
+      {
+        "line_number": 9,
+        "swara": "s M m g P p m D d p N n | d R r n S s n s n d P - ||",
+        "sahitya": "Mudamba la ranga padabja mulandu padambu lujercu pashupati ni"
+      },
+      {
+        "line_number": 10,
+        "swara": "M p m P d p D n d N s n | S r s R s n s r S n d p m ||",
+        "sahitya": "Gnyaanamu dhyaanamu snaanamu paanamu daanamu maanamu abhimaa namanucu"
+      },
+      {
+        "line_number": 11,
+        "swara": "g m p d n s n r S - s r n s | d n p d M - d p m – g m p d n ||",
+        "sahitya": "Kanikara munacara nam bulukanu konushrutu lan - nutula sha rananucu (saamba)"
+      },
+      {
+        "line_number": 12,
+        "swara": "S r S N d N S n D P - - | P d N D p M P m G M - - ||",
+        "sahitya": "Saresa regu ni nama man tram korina nu ni pa dabja man tram"
+      },
+      {
+        "line_number": 13,
+        "swara": "M g M P m P D p D N d N | S r S N d N S n D M p D ||",
+        "sahitya": "Dasudau cinni krs nu niki dikkuni veyani shokkana thuni nam mukoni"
+      }
+    ]
+  }
+}

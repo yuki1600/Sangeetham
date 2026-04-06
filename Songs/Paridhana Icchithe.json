@@ -1,0 +1,137 @@
+{
+  "song_details": {
+    "name": "Paridhana Icchithe",
+    "raga": "Bilahari",
+    "arohanam": "S R2 G3 P D2 S ||",
+    "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
+    "tala": "Khanda Chapu",
+    "composer": "Patnam Subramanya Iyer"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P M m g g r S || S - S - sn D || S - R - G || P - m g r s r g ||",
+        "sahitya": "Pari daa- - - na mi- cchi the-- Paa- lin- tu ve- mo- - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "P M m g g r S || s r g r S - sn D || s r G r g p m g d || P - m g r s r g ||",
+        "sahitya": "Pari daa- - - na mi- - cchi the-- Paa-- lin- - - tu - ve- mo- - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "P M m g g r S || s r g r S - sn D || s r g p - d s n s d n || p n d p - m g r s r g ||",
+        "sahitya": "Pari daa- - - na mi- - cchi the-- Paa-- lin- - - tu - ve- - - mo- - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "P M g r p m g r || d d P s n d p d r || S - - s n d p - dn || P - - m g r s r g ||",
+        "sahitya": "Pari daa- - - na mi- - cchi - - the-- Paa-- lin- - - tu - ve- - - mo- - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "P M g r p m g r || d d P s n d p m g || r g p d - s r G - R || D R - s n d p d r ||",
+        "sahitya": "Pari daa- - - na mi- - cchi - - the-- Paa-- - lin- - - tu - ve- - - mo- - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "S ds d P, m g || g r g r S - s n D || S - R - G || P - - - - - ||",
+        "sahitya": "Pari daa- - - na mi- - cchi the-- Paa-- - lin- - tu - ve- - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "P P m g- r g P || d d P m g g r S || s r G - r g p m G || d d P m g p d S ||",
+        "sahitya": "Para ma- Pu- ru shaa-- Shree-- - pa- ti Naa- - - pai-- Nee- - - ku"
+      },
+      {
+        "line_number": 2,
+        "swara": "D P m g- r g P || n d d p m g g r S || s r G - r g p m G || d d P m g p d S ||",
+        "sahitya": "Para ma- Pu- ru shaa-- Shree-- - pa- ti Naa- - - pai-- Nee- - - ku"
+      },
+      {
+        "line_number": 3,
+        "swara": "p d s r G - g r g m || g r S - g r s n D || S - - - - || sn dp m g p d S ||",
+        "sahitya": "Ka-ru- na Gal- - - ga-ga Yu- - - nna A - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "p d s r G - g r g m || g r S - g r s n D || S - s n d p d n || P - m g r s r g ||",
+        "sahitya": "Ka-ru- na Gal- - - ga-ga Yu- - - nna Kaa ra- na- me- mai yyaa- - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "p d s r G - g r p m || g r S - g r s n D || g r g s r n s d n p || d r s n dp mg r g ||",
+        "sahitya": "Ka-ru- na Gal- - - ga-ga Yu- - - nna Kaa-- - ra- na- me- mai - - yyaa- - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "p d s r G - g r p m || g r S - g r s n D || g r s n - r s n d - s n || d p- d p mg - r s r g ||",
+        "sahitya": "Ka-ru- na Gal- - - ga-ga Yu- - - nna Kaa-- - ra- na- me- - - mai - - yyaa- - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "P -m g r - s r g s r || S - n d P - d s r g || p m g d P - m g r s || r g - p d s n - d r S ||",
+        "sahitya": "(paridhaana)"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "S - R G - || D P pm - m G r || s r G rsS - S || s n D S - S ||",
+            "sahitya": "Ro kka mi- cchuta ku- ne - - Mu- - kkan- ti Che-li kaa nu"
+          },
+          {
+            "line_number": 2,
+            "swara": "sr - sr g - r g p -gp || d s n s d n - p d s n || p n d p - m g g r S || s n D S - S ||",
+            "sahitya": "Ro - kka- mi- cchuta- ku- ne - - Mu- - kkan- - ti Che-li kaa nu"
+          },
+          {
+            "line_number": 3,
+            "swara": "D - D - p d n d || g p d p - m g r g P || d s r g P- m g r g || d d P m g g r S ||",
+            "sahitya": "Cha kka ni - - - Che-li - no - sa- ga Ja - na- ka Raa- -- ju- - gaa- - - nu"
+          },
+          {
+            "line_number": 4,
+            "swara": "P - P - m g- r g || d d P - m g g r S || s r G - r g p m G || d d P m g p d S ||",
+            "sahitya": "Mi kki ni - Sain- yaa- - Mi- - - vva Mar-- ka- ten- - dru-du Gaa- - - nu"
+          },
+          {
+            "line_number": 5,
+            "swara": "D P P - m g- r g || nd d p - m g g r S || s r G - r g p m G || d d P m g p d S ||",
+            "sahitya": "Mi- kki ni - Sain- yaa- - Mi- - - vva Mar-- ka- ten- - dru-du Gaa- - - nu"
+          },
+          {
+            "line_number": 6,
+            "swara": "p d s r G - g r g m || g r S - g r s n D || S - - - - || sn dp m g p d S ||",
+            "sahitya": "A - - - gga di- ga- me-du Gal- - gu A - - - - - - - - - - - - - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "p d s r G - g r g m || g r S - g r s n D || S - s n- d p d n || P - m g - r s r g ||",
+            "sahitya": "A - - - gga di- ga- me-du Gal- - gu A - di - Ven-ka- te- shaa- Nee-ku-"
+          },
+          {
+            "line_number": 8,
+            "swara": "p d s r G - g r -p m || g r S - g r s n D || g r g -s r- n s -d n p || d r s n d p - mg r g ||",
+            "sahitya": "A - - - gga di- ga- me-du Gal- - gu A - - di - Ven- ka- te- - - shaa- Nee-ku-"
+          },
+          {
+            "line_number": 9,
+            "swara": "p d s r G - g r p m || g r S - g r s n D || g r s n - r s n d - s n || d p d p - mg - r s r g ||",
+            "sahitya": "A - - - gga di- ga- me-du Gal- - gu A - - di- Ven- ka- te- - - shaa- Nee-ku-"
+          },
+          {
+            "line_number": 10,
+            "swara": "P -m g r - s r g s r || S - n d P - d s r g || p m g d P - m g r s || r g - p d s n - d r S ||",
+            "sahitya": "(paridhaana)"
+          }
+        ]
+      }
+    ]
+  }
+}

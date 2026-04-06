@@ -1,0 +1,217 @@
+{
+  "song_details": {
+    "name": "Budhamashrayami",
+    "raga": "Nata Kuranji",
+    "arohanam": "S R G M N D N P D N S || AVA: S N D M G M P G R S ||",
+    "avarohanam": "S R G M N D N P D N S || AVA: S N D M G M P G R S ||",
+    "tala": "Jhampa",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "M - G - M - - - P - gmP G R | S - | - D N - ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - mi- - Sa ta -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - - - - - - - - - - - - | - - | - - - - ||",
+        "sahitya": "tam - - - - - - - - - - -- - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "M - G - M - - - P - gmP G R | S - | - D N - ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - mi- - Sa ta -"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - - - N N S rg rS , D N S - dn | P- N | - - S R G ||",
+        "sahitya": "tam - - Sura Vinu tham Chan-dra Taa - raa - Su tham-"
+      },
+      {
+        "line_number": 5,
+        "swara": "M - mgG M - - - P - gmP G R | S - | - D N - ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - mi- - Sa ta -"
+      },
+      {
+        "line_number": 6,
+        "swara": "S - - - N N S rg rS , D N S - dn | P- N | - - S R G ||",
+        "sahitya": "tam - - Sura Vinu tham Chan-dra Taa - raa - Su tham-"
+      },
+      {
+        "line_number": 7,
+        "swara": "M - mgG M - - - P - gmP G R | S - | - D N - ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - mi- - Sa ta -"
+      },
+      {
+        "line_number": 8,
+        "swara": "S R S - N N M G S - D N S - dn | P- N | - - S R G ||",
+        "sahitya": "tam - - Sura Vinu tham Chan-dra Taa - raa - Su tham-"
+      },
+      {
+        "line_number": 9,
+        "swara": "M - mgG M - - - gmdn Srs nd mpgr | S mg | sn- D , N , ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - - mi- - Sa - ta -"
+      },
+      {
+        "line_number": 10,
+        "swara": "S R S - N N M G S - D N S - dn | P- N | - - S R G ||",
+        "sahitya": "tam - - Sura Vinu tham Chan-dra Taa - raa - Su tham-"
+      },
+      {
+        "line_number": 11,
+        "swara": "M - mgG M - - - gmdn Srs nd mpgr | S mg | sn- D , N , ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - - mi- - Sa - ta -"
+      },
+      {
+        "line_number": 12,
+        "swara": "srgm mGs N N M Gmp mg S D N Srg - sndp | - - N | - - S R G ||",
+        "sahitya": "tam - - Sura Vi nu-- tham Chan-dra-- Taa -- - raa - Su tham-"
+      },
+      {
+        "line_number": 13,
+        "swara": "M - mg G M - - - P - gmP G R | S - | - D N - ||",
+        "sahitya": "Bu- dha maa - - shra yaa-- - - mi- - Sa ta -"
+      },
+      {
+        "line_number": 14,
+        "swara": "S R S - - - - - - - - - - - | - - | - - - - ||",
+        "sahitya": "tam - - - - - - - - - - -- - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "mg S - S S N S - - - nDn S - | sd N | nd D - ,m ||",
+        "sahitya": "Bu- - - dha ja- nair - - Ve- - - - di- - tham - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "Mnd N - N D Dns Dnp nDn S - | N - | S - - - ||",
+        "sahitya": "Bhu- - - su - rai- - - r Mo-- - - di - tham - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "sn S - S S N S - - - nDn S - | sd N | nd D - ,m ||",
+        "sahitya": "Bu- - - dha ja- nair - - Ve- - - - di- - tham - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "Mnd N - N D Dns Dnp nDn S - | N - | S - - - ||",
+        "sahitya": "Bhu- - - su - rai- - - r Mo-- - - di - tham - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "sn S - S S N S - - - gmdn S rsS | D- N | nd D - ,m ||",
+        "sahitya": "Bu- - - dha ja- nair - - Ve- - - - - di- tham - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "Mnd N - N D Dns Dnp nDn S - | N - | S R S - ||",
+        "sahitya": "Bhu- - - su - rai- - - r Mo-- - - di - tham - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "sn rs ndsn dmnd mgmp gr S gmdn S rsS | D- N | nd D - ,m ||",
+        "sahitya": "Bu- - dha-- ja- -- nair - - - - Ve- - - - - di tham - - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "Mnd N - N D dn Srs ndnp nDn S - | N - | srgm mg S ||",
+        "sahitya": "Bhu- - - su - rai- - - - - -r Mo-- - - di - tham - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "s n s n N- S rg rS, - ss nDn S dn S ssnd | M mm | gs- S R G ||",
+        "sahitya": "Ma-dhu- ra Ka vi-taa- - pra- dam- - Ma-ha nee-- ya Am- - - pa dam-"
+      },
+      {
+        "line_number": 10,
+        "swara": "s n s n N- M G S - ss nDn S dnsr nsrs nd | M mm | gs- S R G ||",
+        "sahitya": "Ma-dhu- ra Ka vi-taa- - pra- dam- - Ma-ha nee-- ya Am- - - pa dam-"
+      },
+      {
+        "line_number": 11,
+        "swara": "s n s n N- M Gmp mgS - ss nDn S dnsr nsrs nd | M mm | gs- S R G ||",
+        "sahitya": "Ma-dhu- ra Ka vi-- taa- - pra- dam- - Ma-ha nee-- ya Am- - - pa dam- (budhamashrayami)"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "S - - R - G M - M - mPg mgmr | G R | S N S - ||",
+            "sahitya": "Kun - - - ku ma sa - - - - ma- - - - Dyu- thim"
+          },
+          {
+            "line_number": 2,
+            "swara": "- S S - S,n Dns Dnp N D NS | - sn | S R S - ||",
+            "sahitya": "Gu ru- gu- ha-- Mu- daa- - - - kri- thim- - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "S - S ,n S - - - rgM mGs - - | - M | M - - M ||",
+            "sahitya": "Ku ja-- Vai- - - ri -- nam- - - - Ma ni - - ma"
+          },
+          {
+            "line_number": 4,
+            "swara": "MN D - Dnd Mdm Gmg GR S - | S,n | D,n S - ||",
+            "sahitya": "ku- ta- Haa-- ra--- Ke-- - - - - yu- - - ram"
+          },
+          {
+            "line_number": 5,
+            "swara": "S - - - SN S - - - mndn ndnp | nDn | S N S - ||",
+            "sahitya": "Kan - - ka- naa- - - di-- - Dha- - ra- - nam- - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "NR S - S - srN D - Dns ndN | P - nd | , N , S - ||",
+            "sahitya": "Ka- ma- nee- - - ya- ta- - ra - - - Mi thu nam"
+          },
+          {
+            "line_number": 7,
+            "swara": "S N S - SN S - - - mndn ndnp | nDn | S N S - ||",
+            "sahitya": "Kan - - ka- naa- - - di-- - Dha- - ra- - nam- - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "NR S - NS srN D - dn Srs ndN | P - nd | , N , S - ||",
+            "sahitya": "Ka- ma- nee- - - ya- ta- - - - ra - - - Mi thu nam"
+          },
+          {
+            "line_number": 9,
+            "swara": "NS srgm mgS - - ss nn D - Dns | Dnp | nDn S - ||",
+            "sahitya": "Kan yaa-- - - - - - -- dhi- pam Pu-- - sta- ka- - - -"
+          },
+          {
+            "line_number": 10,
+            "swara": "NS N D M - nd M - mg S ,s nDn | S,n | rgM mGs ||",
+            "sahitya": "Ka- - - ram- - - - - Na- pum- - - - sa-- kam- - -"
+          },
+          {
+            "line_number": 11,
+            "swara": "S - ss nd ns nDNp dsnn D - nDn S- ss | nd N | S rg r S , ||",
+            "sahitya": "Kin ka-ra- Ja- na- - - Ma-hi- tham Kil-- bi shaa-- di Rahi- tam-"
+          },
+          {
+            "line_number": 12,
+            "swara": "nrss S ss nd ns nDNp dsnn D - nDn S- nsrs | nd N | S rg r S , ||",
+            "sahitya": "Kin - ka-ra- Ja- na- - - Ma-hi- tham Kil-- bi shaa-- di Rahi- tam-"
+          },
+          {
+            "line_number": 13,
+            "swara": "N S S mg S - s s n d N - dn S - ss | nd M | , mg S R G ||",
+            "sahitya": "Shan kara- Bha- ktha Hi- tam Sa-daa - nan -- da -sa- hi tam-"
+          },
+          {
+            "line_number": 14,
+            "swara": "N S rgmp mg S s s n d N - dn sr nsrs ss | nd M | , mg S R G ||",
+            "sahitya": "Shan kara- Bha- ktha Hi- tam Sa-daa - -- nan -- da -sa- hi tam- (budhamashrayami)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "song_details": {
+    "name": "Mayateeta Swaroopini",
+    "raga": "Mayamalavagowla",
+    "arohanam": "S R1 G3 M1 P D1 N3 S ||",
+    "avarohanam": "S N3 D1 P M1 G3 R1 S ||",
+    "tala": "Rupakam",
+    "composer": "Ponnaiah Pillai"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "S - R - G - || M - P- pp mg M || P - - - - - ||",
+        "sahitya": "Ma yaa Athee tha Swaroo- - - pi ni - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - R - G - || M - P- pp mg M || P - - - P D || P - ,m - gm g - rs n ||",
+        "sahitya": "Ma yaa Athee tha Swaroo- - - pi ni - - - Nannu bro -- va- - ve—"
+      },
+      {
+        "line_number": 3,
+        "swara": "S rs R gr G mg || M pm -dp- pp mg- M || P - - - P D || P - ,m - gm g - rs n ||",
+        "sahitya": "Ma yaa Athee tha - Swa roo- - - pi ni - - - Nannu bro -- va- - ve—"
+      },
+      {
+        "line_number": 4,
+        "swara": "S rs R gr G mg || M pm -dp- pp mg- M || P - - - gm pd || nsn - d pm - gm g - rs n ||",
+        "sahitya": "Ma yaa Athee tha - Swa roo- - - pi ni - - - Nan-nu bro -- va- - ve—"
+      },
+      {
+        "line_number": 5,
+        "swara": "sr ss rg rr gm gg || mpmm -dp- pp mg- M || P - - - gm pd || nsn - d pm - gm g - rs n ||",
+        "sahitya": "Ma yaa Athee tha - Swa roo- - - pi ni - - - Nan-nu bro -- va- - ve—"
+      },
+      {
+        "line_number": 6,
+        "swara": "sr ss rg rr gm gg || mpmm -dp- pp mg- M || P - - - gm pd || SrsS - d pm - Mpm G -rs n ||",
+        "sahitya": "Ma yaa Athee tha - Swa roo- - - pi ni - - - Nan-nu bro -- va- - ve—"
+      },
+      {
+        "line_number": 7,
+        "swara": "S sn D – dn dd P || gmdd pm- gm gr – pm || R - - sr gm -pd || nsn - d pm- gm g - rsn ||",
+        "sahitya": "Maha - Thri- pu-ra Sun-- - - - - - - da- ri - - San- - - - - - - - ka - - ri - - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "Sgr rs Rmg gr Gpm mg || Mdp pm -dp- pp mg- M || P - - - gm pd || SrsS - d pm - Mpm G -rs n ||",
+        "sahitya": "Ma yaa Athee -- tha - - Swa roo- - - pi ni - - - Nan- nu bro -- - va- - ve—"
+      },
+      {
+        "line_number": 9,
+        "swara": "S sn D – pn dd P || gmdd pm- gm gr – pm || R - - sr gm -pd || nsn - d pm- gm g - rsn ||",
+        "sahitya": "Maha - Thri- pu-ra Sun-- - - - - - - da- ri - - San- - - - - - - - ka - - ri - - - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "S - - R - G || - M ,d- pp mg M || pdpd dm - P - ||",
+        "sahitya": "Ma yaa Athee tha Swaroo- - - pi ni - - - - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "- D , P , mP,- n || dP, M gMg rg - rs || S – sr , g- M P - || - - - - pmg - r ||",
+        "sahitya": "Ma ya ma - - la-- va gow- - - la- - de- - sha mu na Am—ba"
+      },
+      {
+        "line_number": 12,
+        "swara": "gm- P , dm P mP,- n || dP, M gMg R- S || - – sr , g- M P - || - - - pm gr- sr ||",
+        "sahitya": "Ma ya ma - - la-- va gow- - - la- - de- - sha mu na Am— - -"
+      },
+      {
+        "line_number": 13,
+        "swara": "gm- P , dm P mP,- n || dP, M gMg rg - rs || rn – sr , g- M P - || - - - pm gr- sr ||",
+        "sahitya": "ba Ma ya ma - - la-- va gow- - - la- - de- - sha mu na Am— - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "gm- P , dm P mP,- n || dP, M gMg rg - rs || rn – sr , g- M P - ||",
+        "sahitya": "ba Ma ya ma - - la-- va gow- - - la- - de- - sha mu na"
+      },
+      {
+        "line_number": 15,
+        "swara": "- ps , s N pdpd || pd ns d p pm G - || gm dd pm - gm gr- pm || gr - - R S - ||",
+        "sahitya": "Mahi maga la - - do-ra- lar- - - chin- chu-mu- - - ni- -- swa- ri - - - - - -"
+      },
+      {
+        "line_number": 16,
+        "swara": "M g r s- P m g R s || s r g m p m – g m , p D || N S - - - - ||",
+        "sahitya": "Kayaju ni vairi ki prana kaan-thaa- Braha dhee- swa- ri - - - - -"
+      },
+      {
+        "line_number": 17,
+        "swara": "M g r s- P m g R s || s r g m p m – g m p d n s || S n - d n d -P g m p d ||",
+        "sahitya": "Kayaju ni vairi ki prana kaan-thaa- Braha dhee- swari Kripa seya va lenu maa Guru guha"
+      },
+      {
+        "line_number": 18,
+        "swara": "S n d p m – g m g – g r s ||",
+        "sahitya": "swamiki ne - da - su dai-thi"
+      },
+      {
+        "line_number": 19,
+        "swara": "S - R - G - || M - P- pp mg M || P - - - - - ||",
+        "sahitya": "Ma yaa Athee tha Swaroo- - - pi ni - - - - -"
+      },
+      {
+        "line_number": 20,
+        "swara": "M g r s- P m g R s || s r g m p m – g m p d n s || S n - d n d -P g m p d ||",
+        "sahitya": "Kayaju ni vairi ki prana kaan-thaa- Braha dhee- swari Kripa seya va lenu maa Guru guha"
+      },
+      {
+        "line_number": 21,
+        "swara": "S n d p m – g m g – g r s ||",
+        "sahitya": "swamiki ne - da - su dai-thi"
+      },
+      {
+        "line_number": 22,
+        "swara": "sr ss rg rr gm gg || mpmm -dp- pp mg- M || P - - - gm pd || SrsS - d pm - Mpm G -rs n ||",
+        "sahitya": "Ma yaa Athee tha - Swa roo- - - pi ni - - - Nan-nu bro -- va- - ve—"
+      },
+      {
+        "line_number": 23,
+        "swara": "S sn D – pn dd P || gmdd pm- gm gr – pm || R - - sr gm -pd || nsn - d pm- gm g - rsn ||",
+        "sahitya": "Maha - Thri- pu-ra Sun-- - - - - - - da- ri - - San- - - - - - - - ka - - ri - - - -"
+      },
+      {
+        "line_number": 24,
+        "swara": "S - - R - G || - M ,d- pp mg M || ndpd dm - P - ||",
+        "sahitya": "Ma yaa Athee tha Swaroo- - - pi ni - - - - -"
+      }
+    ],
+    "anupallavi": [],
+    "charanams": []
+  }
+}

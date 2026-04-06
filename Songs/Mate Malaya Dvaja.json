@@ -1,0 +1,187 @@
+{
+  "song_details": {
+    "name": "Mate Malaya Dvaja",
+    "raga": "Khamas",
+    "arohanam": "S M1 G3 M1 P D2 N2 S ||",
+    "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
+    "tala": "Adi",
+    "composer": "Mysore Vasudevacharya"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "nDn NS - - - N R S ,n N D P,m P - nd | M G - M - - - - M,m mmN D – N rs nd – P P ||",
+        "sahitya": "ma- te- - - mala ya- dvaja pan-dya sam(n) ja- te - - - ma- tan - ga va da-na- guha"
+      },
+      {
+        "line_number": 2,
+        "swara": "nDn NS - - - N R S ,n N D P,m P - D | pM, G - M - - - - M- M N D – N rs nd – P P ||",
+        "sahitya": "ma- te- - - mala ya- dvaja pan-dya sam(n) ja- te - - - ma- tan - ga va da-na- guha"
+      },
+      {
+        "line_number": 3,
+        "swara": "nDn srns - - - N R S ,n N D P,m P - rr | sn dpmg- M- - - - M- gm N D – sn rs nd – P P ||",
+        "sahitya": "ma- te- - - mala ya- dvaja pan-dya sam(n)- ja- - te - - - ma- tan - ga va da-na- guha"
+      },
+      {
+        "line_number": 4,
+        "swara": "nDn srgm gr S - - ,dN sRnS , , nD P,m P - gmpd | nrsn dpmg- M- - - - M- gm N D – sn rs nd – P P ||",
+        "sahitya": "ma- te- - - - - mala ya- - dvajapan-dy san- - - - ja- - te - - ma- tan - ga va da-na- guha"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "D,n sndp G M D,n S S - - - - - - | - - - - - - - - - - - - - - - - ||",
+        "sahitya": "sha to-- da- ri shan- kari"
+      },
+      {
+        "line_number": 2,
+        "swara": "D,n sndp G M D,n S S -D N S R – M G | R S – NS R - sn rs nd dnS- dn Srs nd- P nd M ||",
+        "sahitya": "sha to-- da- ri shan- kari ca- mun- De- shvari can- dra ka-la- -- dha-ri ta- - ye gau- ri"
+      },
+      {
+        "line_number": 3,
+        "swara": "D,n rs ndp mgM D,n rsS S -D N S R – M G | R S – NS R - sn rs nd dnS- dn Srs nd- P nd M ||",
+        "sahitya": "sha to-- da- ri shan- kari ca- mun- De- shvari can- dra ka-la- -- dha-ri ta- - ye gau- ri"
+      },
+      {
+        "line_number": 4,
+        "swara": "D,n md nrrsS dp mgM D,n rsS S -DN SR –pmmg G | RS –NS R - sn rs nd dnS- dn Srs nd- P nd M ||",
+        "sahitya": "sha to-- - - -- da-ri shan ka- ri ca-mun- De- - shvari can-draka-la- -- dha-ri ta- - ye gau- ri"
+      },
+      {
+        "line_number": 5,
+        "swara": "D - D- R S N dsN D - D - M D N – M snN | D - D- nr ss - P D N D - D -M G R S sN, ||",
+        "sahitya": "1 2 3 4 5 6 7 8"
+      },
+      {
+        "line_number": 6,
+        "swara": "D D - nddn d - dnd - dnpm D D - nrs - n s dns dpmm | D D ngr - n rs – nd pndm DD mgmp mpdd - dndm ||",
+        "sahitya": "1 2 3 4 5 6 7 8"
+      },
+      {
+        "line_number": 7,
+        "swara": "D - D - N D – DN D - DND DNPM | mD, - D - N R S- N S D N S D P mpmm ||",
+        "sahitya": "Thamthamtaka Janu ta Dimita Tari ki ta Jam Jam Kukunta ri Tajanuta D P M M"
+      },
+      {
+        "line_number": 8,
+        "swara": "D - D - N G R – N R S– ND P N nd M | D,p nDm M G M- P MP D D D N DM ||",
+        "sahitya": "Thamtham Ngr N R S Thimi Tari ki ta Jam Jam Takita- Ta Kukuntari Nam-tari"
+      },
+      {
+        "line_number": 9,
+        "swara": "D - D- R S N dsN D - D - M D N – M snN | D - D- nr ss - P D N D - D -M G R S sN, ||",
+        "sahitya": "D - D- Ninki na ta ri Je ku M D N M ka Jam ta S S Thimita Tomtadhimi ta ki ta"
+      },
+      {
+        "line_number": 10,
+        "swara": "D - D - P D - D- N D - D –S D - - R D | - M G R S N – D - N- S N -N D D P M ||",
+        "sahitya": "D - D - P D - D -ta re ku S D - R Jam - M G R S N D - N Taka Ta din gi na tom"
+      },
+      {
+        "line_number": 11,
+        "swara": "D D- nddn d - dnd - dnpm D D- nrs n -s - dns dpmm | D D ngr - n rs – nd pndm DD mgm - p mpdd - dndm ||",
+        "sahitya": "Tamtamtakajanu ta Dimita Tari ki ta Jam Jam Kukuntari Tajanuta d p m m Thamtham ngr n rs Thimi Tarikita Jamjam Takita- Ta Kukuntari Nam-tari"
+      },
+      {
+        "line_number": 12,
+        "swara": "Dd - rsndn Dd - mdnmn Dd - sspdn Dd - mgrsn | Dd - pDd - n Dd - sD - rd | , mgrsn - D n - snn d dpm ||",
+        "sahitya": "D d- Ninkina tari Je ku m d n m ka Jam ta ss Thimita Tomtadhimi takita D d - p D d - Ta re ku sd r Jam - m g r s n D n Takatadin gi natom"
+      },
+      {
+        "line_number": 13,
+        "swara": "D - D - N D – DN D-- D N D NPM | mD, - D - N R S- N S - D N S D P mpmm ||",
+        "sahitya": "da- ta- sa ka la ka la – nipu Na catura da- ta vividha ma da samaya sama ra sa"
+      },
+      {
+        "line_number": 14,
+        "swara": "D - D - N G R – N R S– ND P- N nd M | D,p nDm M G M- P MP D D D N DM ||",
+        "sahitya": "da ta su labha hr daya madhura vaca na da- ta- sa ra sa ru ci ra tara svara laya"
+      },
+      {
+        "line_number": 15,
+        "swara": "D - D- R S N dsN D - D - M D N – M snN | D - D- nr ss - P D N D - D -M G R S sN, ||",
+        "sahitya": "gi- ta su khada nija bha va ra si ka va ra- da- ta ma-hi-shu-ra na-da nal- vati shri"
+      },
+      {
+        "line_number": 16,
+        "swara": "D - D - P D - D- N D - D –S D - - R D | - M G R S N – D - N- S N N D- D P M ||",
+        "sahitya": "Kr Sna rajen-dra ra ta- ye sa da (p)ore maha te hari ke- sha manoha re sadaye"
+      },
+      {
+        "line_number": 17,
+        "swara": "D D - ndd - n D - dnd- dpm D D - nrs- n s dns dpmm | D D ngr- n rs – snd - pdm DD mgm - p mpdd - dndm ||",
+        "sahitya": "da ta sakala ka la nipuna catura data Vividhamada Samayasamarasa data Sulabhahrdaya Madhuravacana data Sarasaru cira tara Svaralaya"
+      },
+      {
+        "line_number": 18,
+        "swara": "Dd - rsndn Dd - mdnmn Dd - sspdn Dd - mgrs - n | Dd- pDd- n Dd - sD - rd | , mgrsn - D n sn nd dpm ||",
+        "sahitya": "gita Sukhadanija bhavarasikavara data Mahishu-ra nadanal-vatishri Krsna rajendra Ra taye sada ore Mahate-hari ke shamanohare Sadaye"
+      },
+      {
+        "line_number": 19,
+        "swara": "nDn srgm gr S - - ,dN sRnS , , nD P,m P - gmpd | nrsn dpmg- M- - - - M- gm N D – sn rs nd – P P ||",
+        "sahitya": "ma- te- - - - - mala ya- - dvajapan-dy san- - - - ja- - te - - ma- tan - ga va da-na- guha"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "M , G , M - - - P S S – N D M P S N D | M G -- M - - - P D N S N D P M P D ||",
+            "sahitya": "shya- me - - saka la bhuvana sa—rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 2,
+            "swara": "M , G , mp GM- P S S –ns nd M P S N D | M G -- M - - - P D N S N D P M P D ||",
+            "sahitya": "shya- me - - saka la bhuvana sa—rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 3,
+            "swara": "M , G , mp GM- P S S –ns nd M PrsS N D | M ,G ,- M - - - P D nsr - nsn D P M P sn ||",
+            "sahitya": "shya- me - - saka la bhuvana sa— - rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 4,
+            "swara": "dpmg - M - -- P R S –ns nd M gmpd nrss | dpmg- M - - - - P D N S N D P M P D ||",
+            "sahitya": "shya- - me -- saka la bhuvana sa— - rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 5,
+            "swara": "M , G , M - - - PN D - DP - P M- GMP | mmdppmG- M - -ND M - - S N D P D ||",
+            "sahitya": "shya- - me -- saka la bhuvana sa— - rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 6,
+            "swara": "ND ND D P P M P - P - N D P M | G P M - ND M - S N D P M - N D ||",
+            "sahitya": "Alt (expanded gamakas for underlying notes)"
+          },
+          {
+            "line_number": 7,
+            "swara": "ND ND D P P M D P P - N D P M | G P pmM - ND dppmM- S N D P mpmm nsnd ||",
+            "sahitya": "shya- - me -- saka la bhuvana sa— - rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 8,
+            "swara": "D D N – P P D N - M P D N – S M G M P | D N S – M G M G R S N D –N D G M D ||",
+            "sahitya": "shya- - me -- saka la bhuvana sa— - rva bhau- me - - shashi man-dala ma- dyage"
+          },
+          {
+            "line_number": 9,
+            "swara": "N - - - M G - M - D - N – - - S M N | G , M , S N - M - ND – G - - - N G ||",
+            "sahitya": "(high S, low M) (sn)"
+          },
+          {
+            "line_number": 10,
+            "swara": "dpmg - M - -- P R S –ns nd M P N D P | M , G , - M - - - - P D N S N D P M P D ||",
+            "sahitya": "shya- - me -- saka la bhuvana sa— - rva bhau- me - - shashi man-dala ma- dyage"
+          }
+        ]
+      }
+    ]
+  }
+}

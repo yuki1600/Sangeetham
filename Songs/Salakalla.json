@@ -1,0 +1,207 @@
+{
+  "song_details": {
+    "name": "Salakalla",
+    "raga": "Arabhi",
+    "arohanam": "S R₂ M₁ P D₂ Ṡ ||",
+    "avarohanam": "Ṡ N₃ D₂ P M₁ G₃ R₂ S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P - - mg R – mg R – R | S - - sn D – S - rm ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 2,
+        "swara": "P rm P- mg rr – mg R – R | S - - sn D – S - rm ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 3,
+        "swara": "rm pd , p mg R – mg R – R | rsS - - sn D – S - R ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 4,
+        "swara": "rm pd sn d d pp - mg R – R | rsS - - sn D – S - R ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 5,
+        "swara": "rm pd sn d d pp – mp mg r r | sr ss - sn D – S - R ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 6,
+        "swara": "rr mm pp dd ss – r r mg R | r sn d dp –pmM , g – rm rm P ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - - du- - - - Kon - na-"
+      },
+      {
+        "line_number": 7,
+        "swara": "D P - pmM , g- rs R R | ddpm g r – s s , s - rm rm pd ||",
+        "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "P - - pmG R – mg R – R | S - - sn D – S - rm ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 9,
+        "swara": "S R - pmM , g- rs R R | S - - - - - - - ||",
+        "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "D - - D P – pd d d p m | P – D P D S S S S ||",
+        "sahitya": "Kaa- - la - mu - Po- - - nu Maa- ta Ni lu chu nu"
+      },
+      {
+        "line_number": 2,
+        "swara": "dp mp dp – pd sd – pd d d p m | P – D P D S S S S ||",
+        "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- ta Ni lu chu nu"
+      },
+      {
+        "line_number": 3,
+        "swara": "dp mp dp – R mg – R R d d | pd– dd pm pd sd sd S S ||",
+        "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- - - ta Ni lu chu nu"
+      },
+      {
+        "line_number": 4,
+        "swara": "rsnd - - – pmgr - R rsS - | S – ss rr mm pp dd ss rr ||",
+        "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- - - ta Ni lu chu nu"
+      },
+      {
+        "line_number": 5,
+        "swara": "mg rr ss- dd pp mg rr ss | S – ss rr mm pp dd ss rr ||",
+        "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- - - ta Ni lu chu nu"
+      },
+      {
+        "line_number": 6,
+        "swara": "s R – r s s – ds D – P mg R , m | mp - - - - - - - ||",
+        "sahitya": "Kal- - - - yaa- - na raa- - - - ma! - - - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "s R – r s s – ds D – P mg R | rm P - - mpD mpdr ||",
+        "sahitya": "Kal- - - - yaa- - na raa- - - - ma! - - - Naa-- to - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "S , d dp – pp m- m g r r - sr d | S , s r mp d p – rm p d – m p d ||",
+        "sahitya": "Sahityam: cala kallalu-adukonna saukhyamu-emira"
+      },
+      {
+        "line_number": 9,
+        "swara": "P - - pmG R – mg R – R | S - - sn D – S - rm ||",
+        "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+      },
+      {
+        "line_number": 10,
+        "swara": "S R - pmM , g- rs R R | S - - - - - - - ||",
+        "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "P - P – P - - mpdn DP | - dnD P - pmM ,g rs rm ||",
+            "sahitya": "Tal li Tan - - dri- - - - - - Ne- - - nun - - da - - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "D P P – P - - mp d r | sn – dr , r s n d p m g r s rm ||",
+            "sahitya": "Tal li Tan - - dri- - - - - - Ne- - - nun - - da - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "D P P – P - - mp d s | r d s – p d s – m p d – m p m g r r m ||",
+            "sahitya": "Tal li Tan - - dri- - - - - - - Ne - - nun - - - - - - - da - - -"
+          },
+          {
+            "line_number": 4,
+            "swara": "P - - mg R R s r p m | g r – R S – sn D S R - ||",
+            "sahitya": "Ta- - kki- - na Bha- ya- - - me la raa - ya ni"
+          },
+          {
+            "line_number": 5,
+            "swara": "rm rm P – mp D – mp dr s s | D - P – mpdp mg R - S ||",
+            "sahitya": "Pa lu- - maa- - - ru- - - - - Che - - ya - - - no - - - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "sn D - sd R R rmpd | ppmg R - S - S - ||",
+            "sahitya": "Baa- - - sa- - lu Che- - - - - - - - - - - si"
+          },
+          {
+            "line_number": 7,
+            "swara": "D D D - P - - - | - - - - - - pm pm ||",
+            "sahitya": "I la lo - - - - - - - - - - - - - - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "p d S D - P - - pm | pdsd P - ppmg rs rm ||",
+            "sahitya": "I la- lo - - - - Sa- ri- - - vaa- ra- la - lo- - -"
+          },
+          {
+            "line_number": 9,
+            "swara": "pd rsS D - P - - pm | pdsd pdpp mpmg rs rm ||",
+            "sahitya": "I la- lo - - - - Sa- ri- - - vaa- ra- la - lo- - -"
+          },
+          {
+            "line_number": 10,
+            "swara": "pd rsS D - P - - pd | sr sn dd pp mpmg rs rm ||",
+            "sahitya": "I la- lo - - - - Sa- ri- vaa- - - - ra- la - lo- - -"
+          },
+          {
+            "line_number": 11,
+            "swara": "pmgr - - R - R rm P | P mp D - mp dr S - ||",
+            "sahitya": "En- - - - En - to Bro- chi chu- - - nti - - - Pe"
+          },
+          {
+            "line_number": 12,
+            "swara": "sn D R S R S srm g | R S - - snD D R ||",
+            "sahitya": "dda- la to - - - Ba-l- - ka che - - se- - - ti"
+          },
+          {
+            "line_number": 13,
+            "swara": "S - - - - - - - | - - - - - - S - ||",
+            "sahitya": "vi - - - - - - - - - - - - Ped"
+          },
+          {
+            "line_number": 14,
+            "swara": "sn D R S R S srm g | R S - - snD D R ||",
+            "sahitya": "dda- la to - - - Ba-l- - ka che - - se- - - ti"
+          },
+          {
+            "line_number": 15,
+            "swara": "s R – r s s – ds D – P mp mm | , g – rm P - mpD mpdr ||",
+            "sahitya": "Tyaa- - - - - - - - - ga- raa - - - - ja- - - vi- - nu - - ta"
+          },
+          {
+            "line_number": 16,
+            "swara": "S , d dp – pp m- m g r r - sr d | S , s r mp d p – rm p d – m p d ||",
+            "sahitya": "Sahityam: cala kallalu-adukonna saukhyamu-emira"
+          },
+          {
+            "line_number": 17,
+            "swara": "P - dp pmG R – mg R – R | S - - sn D – S - rm ||",
+            "sahitya": "Chaa - - la - - Kal- - la laa - du- - Kon - na-"
+          },
+          {
+            "line_number": 18,
+            "swara": "S R - pmM , g- rs R R | S - - - - - - - ||",
+            "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

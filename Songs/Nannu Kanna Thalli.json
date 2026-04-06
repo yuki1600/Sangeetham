@@ -1,0 +1,87 @@
+{
+  "song_details": {
+    "name": "Nannu Kanna Thalli",
+    "raga": "Kesari",
+    "arohanam": "S M1 G3 M1 R2 G3 M1 P D2 P S",
+    "avarohanam": "S N2 D2 N2 P M1 G3 R2 S (28th mela janya)",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. - - - S M G - - M | R, g - gm P pm G M ||",
+        "sahitya": "nannu kan………na tal li na bha…….gya"
+      },
+      {
+        "line_number": 2,
+        "swara": "2. R - - S M G - - M | R, g - gm pdpd",
+        "sahitya": "-ma nannu kan………na tal li na bha….gya"
+      },
+      {
+        "line_number": 3,
+        "swara": "A. R - - sr sr sn D N | N P - S M G - R ||",
+        "sahitya": "ma na……….ra………ya……………ni dha…….rma..m bi"
+      },
+      {
+        "line_number": 4,
+        "swara": "pm mg gr Repeat 2",
+        "sahitya": "ke"
+      },
+      {
+        "line_number": 5,
+        "swara": "B. R - - sr sr sn D N | S - - S M M - M ||",
+        "sahitya": "ma na……….ra………ya……………ni dha…….rma..m bi"
+      },
+      {
+        "line_number": 6,
+        "swara": "pm mg gr",
+        "sahitya": "ke"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. - - - D P , s - S | sM g - M G rg M G ||",
+        "sahitya": "ka…….na..ka….ngi ra…ma…pa……ti so………da"
+      },
+      {
+        "line_number": 2,
+        "swara": "2. R - - - D P , s - S | sM g - M G rg mp mg ||",
+        "sahitya": "ri ka….na..ka….ngi ra…ma… pa… ti so……… da"
+      },
+      {
+        "line_number": 3,
+        "swara": "A. R - - S - sn D N | P, s - sn dn P - M ||",
+        "sahitya": "ri ka…….va……….ve na nu ka……tya……..ya"
+      },
+      {
+        "line_number": 4,
+        "swara": "B. pmmg G S , r sn D N | P, s - sn dn P - M ||",
+        "sahitya": "ni ka…….va……. ve na nu ka……tya……..ya"
+      },
+      {
+        "line_number": 5,
+        "swara": "pmmg gr",
+        "sahitya": "ni"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "1. - - - P P P - P | dP s - sn dn P - mg ||",
+            "sahitya": "ka……vu ka…..vu……………..mani ne mo……ra.bet….ta"
+          },
+          {
+            "line_number": 2,
+            "swara": "2. M - - pp , s sn D N | P pm gr s s , mG M P ||",
+            "sahitya": "ga kara….ga.de…….mi ma thi kama la lo ca ni"
+          }
+        ]
+      }
+    ]
+  }
+}

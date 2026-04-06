@@ -1,0 +1,207 @@
+{
+  "song_details": {
+    "name": "Dharma Samvarddhani",
+    "raga": "Madhyamavati",
+    "arohanam": "S R2 M1 P N2 S ||",
+    "avarohanam": "S N2 P M1 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. R - R- R - S || R - pm - R - S ||",
+        "sahitya": "Dhar ma Sam - - var ddha- ni - -"
+      },
+      {
+        "line_number": 2,
+        "swara": ", r S R - S - nr || sn P r s R - - ||",
+        "sahitya": "Da nu ja Sam - - - Ma- rdda ni- - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. R - R- R - S || R - rpM - R - S ||",
+        "sahitya": "Dhar ma Sam - - var ddha- ni - -"
+      },
+      {
+        "line_number": 4,
+        "swara": ", r S R- sn sn -nr || sn P r s R - - ||",
+        "sahitya": "Da nu ja Sam - - - Ma- rdda ni- - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. R - R- R - S || rm pn - sn pm R - ||",
+        "sahitya": "Dhar ma Sam - - var ddha- ni - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "s- r S R- sn sn - nsrm || rsnp P r s R - - ||",
+        "sahitya": "- Da nu ja Sam - - - Ma- rdda ni- - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "R , m R -M P - || P , n P - N S - ||",
+        "sahitya": "Dharaa - dha ra tma je - A je -"
+      },
+      {
+        "line_number": 8,
+        "swara": "R S sn sn- P , m || rm pn pn- pm R S ||",
+        "sahitya": "Da ya ya- -- Mam - - Pa- - hi- Pa- - hi"
+      },
+      {
+        "line_number": 9,
+        "swara": "4. R - R- R - S || rm pn - sn pm R - ||",
+        "sahitya": "Dhar ma Sam - - var ddha- ni - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "s- r S R- sn sn nr || sn P r s R - - ||",
+        "sahitya": "- Da nu ja Sam - - - Ma- rdda ni- - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "R , m R -M P - || P , n P - N S - ||",
+        "sahitya": "Dha raa dha ra tma je - A je -"
+      },
+      {
+        "line_number": 12,
+        "swara": "R S sn sn- pn sr || m r r s sn - n p p m rs ||",
+        "sahitya": "Da ya ya- -- Mam - - Pa- - hi- Pa- - hi"
+      },
+      {
+        "line_number": 13,
+        "swara": "5. R - R- R - S || rm pn - sn pm R - ||",
+        "sahitya": "Dhar ma Sam - - var ddha- ni - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "s- r S R- sn sn nr || rsnp - r s R - - ||",
+        "sahitya": "- Da nu ja Sam - - - Ma- rdda ni- - -"
+      },
+      {
+        "line_number": 15,
+        "swara": "rm mppm R M P - || pn nsnn P -N S - ||",
+        "sahitya": "Dha raa - dha ra tma je - - A je -"
+      },
+      {
+        "line_number": 16,
+        "swara": "R S sn sn- pn sr || m r r s sn - n p p m R ||",
+        "sahitya": "Da ya ya- -- Mam - - Pa- - hi- Pa- - hi"
+      },
+      {
+        "line_number": 17,
+        "swara": "R - R- R - S || R - pm - R - - ||",
+        "sahitya": "Dhar ma Sam - - var ddha- ni - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- , - r , m M , r M || P -M mn P - P || P - - - - - ||",
+        "sahitya": "- - Nir - ma la Hruda ya Ni va- -- - si ni - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- , - r , m M , r M || P -M mn P P P ||",
+        "sahitya": "- - Nir - ma la Hr uda ya Ni va- -- sini"
+      },
+      {
+        "line_number": 3,
+        "swara": "- , p P - npM - || P - N S - S S ||",
+        "sahitya": "- -ni tya- nan- - da Vi laa- sini"
+      },
+      {
+        "line_number": 4,
+        "swara": "- N N - S r m || R - S sn P N S ||",
+        "sahitya": "Kar ma Jna- - na- Vi dha- yi ni"
+      },
+      {
+        "line_number": 5,
+        "swara": "N R S - sn P - P || N P pm R R S ||",
+        "sahitya": "Kan- kshi ta- - rttha - Pra daa- - yi ni"
+      },
+      {
+        "line_number": 6,
+        "swara": "- S N - n s r m || R - s r r sn p ns R ||",
+        "sahitya": "Kar ma Jna- - na- Vi dha- yi ni"
+      },
+      {
+        "line_number": 7,
+        "swara": "sr ns pn - mp rm - pn || sr - sn pn pm r m r s ||",
+        "sahitya": "Kan- kshi ta- -- rttha -- Pra daa- - yi - ni-"
+      },
+      {
+        "line_number": 8,
+        "swara": "- , r , r R R M || P M R M R S ||",
+        "sahitya": "- Ma -dhava So - da ri Sun- da ri"
+      },
+      {
+        "line_number": 9,
+        "swara": "- S R S - S || sn P n s r s R R ||",
+        "sahitya": "Ma dhyamaa - va ti- - Shan-- ka ri"
+      },
+      {
+        "line_number": 10,
+        "swara": "- R R R R M || P M R M R S ||",
+        "sahitya": "- Ma dha va So - da ri Sun- da ri"
+      },
+      {
+        "line_number": 11,
+        "swara": "- S rm sr ,s- S || sn P n s r s R R ||",
+        "sahitya": "Ma dhya- maa - va ti- - Shan-- ka ri"
+      },
+      {
+        "line_number": 12,
+        "swara": "- rm , R , M - P || - P n p n n - pm P ||",
+        "sahitya": "Ma- - dhur ya Vag - vi jrum- - - -bhi- ni"
+      },
+      {
+        "line_number": 13,
+        "swara": "R S - sn P- pm || rm pn pmR pm R - ||",
+        "sahitya": "Mahaa - de- - va- Ku- tum- - - bi- ni-"
+      },
+      {
+        "line_number": 14,
+        "swara": "- rmR M- R M - P || - P np n n pm P ||",
+        "sahitya": "Sa dhu ja na Chit - ta ran- - ja- ni"
+      },
+      {
+        "line_number": 15,
+        "swara": "- P , p P P P || pn- M , p N S - ||",
+        "sahitya": "Sa shvata Guru gu- ha- -ja na ni"
+      },
+      {
+        "line_number": 16,
+        "swara": "- N N - S - rm - R || S - s r s n P N S ||",
+        "sahitya": "Bo dha ru -- - pi ni Ni- ran-- ja ni"
+      },
+      {
+        "line_number": 17,
+        "swara": "R S s n P pn - sn || P - pm R M R S ||",
+        "sahitya": "Bhuva ne- - sha- Du- ri ta - Bhan- ja ni"
+      },
+      {
+        "line_number": 18,
+        "swara": "- N N - n s r m - R || S - s r r s n p n s R ||",
+        "sahitya": "Bo dha ru -- - pi ni Ni- ran-- ja - ni"
+      },
+      {
+        "line_number": 19,
+        "swara": "s r ns pn - mp rm - pn || s r sn pn pm r m r s ||",
+        "sahitya": "Bhu-va- ne- - - - sha- Du- ri- ta - Bhan- - ja - ni"
+      },
+      {
+        "line_number": 20,
+        "swara": "R m r M p - m P p p || P p - n M - P s n s s ||",
+        "sahitya": "Padaja Vishwa Vi laa sini Pancha na di Sol laa- sini"
+      },
+      {
+        "line_number": 21,
+        "swara": "sn s - r m r - S n p n s || r s - n p n P - m r m r s ||",
+        "sahitya": "Veda Shaa- stra Vish va - sini Vidhi Hari haya Pra kaa- shi ni"
+      }
+    ],
+    "charanams": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "song_details": {
+    "name": "Gunijanadinuta",
+    "raga": "Gurjjari",
+    "arohanam": "S R1 G3 D1 P M1 P D1 N3 S ||",
+    "avarohanam": "S N3 D1 P M1 G3 R1 S ||",
+    "tala": "Adi",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "S R G P - P P G | R S D S | - R G - ||",
+        "sahitya": "guni jana - di nu ta guru g uho da ye"
+      },
+      {
+        "line_number": 2,
+        "swara": "S R G D - P P G | R S D S | - R G - ||",
+        "sahitya": "guni jana - di nu ta guru g uho da ye"
+      },
+      {
+        "line_number": 3,
+        "swara": "S R G dd pg - pd rs D | ,p G R- S | - R G - ||",
+        "sahitya": "guni ja na - - di nu ta guru gu ho da ye"
+      },
+      {
+        "line_number": 4,
+        "swara": "S R G dd pg - pd rs D | ,p G R- S | - R G - ||",
+        "sahitya": "guni jana - - di- nu ta guru g u ho da ye"
+      },
+      {
+        "line_number": 5,
+        "swara": "P - dp – pmgr - G - G | pm G - gs | S – R rs S ||",
+        "sahitya": "Gur ja- ri - - ra ga pri- ye - va ra shi ve—"
+      },
+      {
+        "line_number": 6,
+        "swara": "S R G dd pg - pd rs nd | ,p G R- S | - R G - ||",
+        "sahitya": "guni jana- -- di nu ta guru gu ho da ye"
+      },
+      {
+        "line_number": 7,
+        "swara": "P - dp – pmgr - G - G | pm G - gr | S – R rs S ||",
+        "sahitya": "Gur ja- ri - - - ra ga pri- ye - va ra shi ve—"
+      },
+      {
+        "line_number": 8,
+        "swara": "gr sr dd pg nd pd rs nd | , p G R- S | - R G - ||",
+        "sahitya": "guni ja-na- - - di- nu- ta- guru gu ho da ye"
+      },
+      {
+        "line_number": 9,
+        "swara": "P - dp – pmgr - G - G | sn dp nd - pg | dp– gr gr S ||",
+        "sahitya": "Gur ja- ri - - - ra ga pri- ye - - va- ra –shi- ve—"
+      },
+      {
+        "line_number": 10,
+        "swara": "gr sr G D - P P G | R S D S | - R G - ||",
+        "sahitya": "gu-ni- jana - di nu ta guru g uho da ye"
+      },
+      {
+        "line_number": 11,
+        "swara": "- - - - - rg pg R | S - - - | - - - - ||",
+        "sahitya": "- - - - - - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- mg , d P MP M G | - - - - | - - - - ||",
+            "sahitya": "mani maya bhu- Sani - - - - - - - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "gMg P - - - - - | - R gp – R | S - - - ||",
+            "sahitya": "- - - - - - - - - - - - - - - - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "- mg , d P MP M G | - rm g - r S | S , r G G ||",
+            "sahitya": "mani maya bhu- Shi Ni ma - na-va po-- Sani"
+          },
+          {
+            "line_number": 4,
+            "swara": "- pm , d P MP M G | - rg p - g r s | S , r G G ||",
+            "sahitya": "mani maya bhu- Shi Ni ma - na-va po-- Sani"
+          },
+          {
+            "line_number": 5,
+            "swara": "- , d mGm P D N S | - - - - | - - - - ||",
+            "sahitya": "ma dhu- ra bha- Sini"
+          },
+          {
+            "line_number": 6,
+            "swara": "- , d mGm P D N S | - dn , d M | rgpg g r S ||",
+            "sahitya": "ma dhu- ra bha- Sini ma- na sa to-- Si- Ni"
+          },
+          {
+            "line_number": 7,
+            "swara": "gr s r d d p g n d p - d r s R | - - - - | - - - - ||",
+            "sahitya": "ganapati phanipati shayana vi dhinute"
+          },
+          {
+            "line_number": 8,
+            "swara": "gr s r d d p g n d p - d r s R | s r – n s d n p -d | p g d p g r S ||",
+            "sahitya": "ganapati phanipati shayana vi dhinute gaja ratha turaga pa dayute- lalite"
+          },
+          {
+            "line_number": 9,
+            "swara": "m g r s d d p g m g r - s r s R | s r – n s d n p -d | p g d p g r S ||",
+            "sahitya": "ganapati phanipati shayana vi dhinute gaja ratha turaga pa dayute- lalite"
+          },
+          {
+            "line_number": 10,
+            "swara": "p d n s p d r s d r s s g r s s | m g r s , n d p | m G –p g r s n ||",
+            "sahitya": "guni ja-na- - - di- nu- ta- guru gu ho da ye"
+          },
+          {
+            "line_number": 11,
+            "swara": "P - dp – pmgr - G - G | sn dp nd - pg | dp– gr gr S ||",
+            "sahitya": "Gur ja- ri - - - ra ga pri- ye - - va- ra –shi- ve—"
+          },
+          {
+            "line_number": 12,
+            "swara": "gr sr G D - P P G | R S D S | - R G - ||",
+            "sahitya": "gu-ni- jana - di nu ta guru g uho da ye"
+          },
+          {
+            "line_number": 13,
+            "swara": "- - - - - rg pg R | S - - - | - - - - ||",
+            "sahitya": "- - - - - - - - - - - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

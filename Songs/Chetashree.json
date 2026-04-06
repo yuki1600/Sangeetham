@@ -1,0 +1,187 @@
+{
+  "song_details": {
+    "name": "Chetashree",
+    "raga": "Dwijavanti A.k.a. Jujavanthi",
+    "arohanam": "S R2 , G3 M1 P D2 (P) S ||",
+    "avarohanam": "S N2 D2 P M1 G3 M1 R2 G2 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "R - R - R - || gmpm g pmM g R - ||",
+        "sahitya": "Che tha Shree Baa- la kri shnam"
+      },
+      {
+        "line_number": 2,
+        "swara": "R - r r g r S n d || n r sn S - sn d p ||",
+        "sahitya": "-- - - - - Bha ja- - - re - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "R - R - R - || G ,m dp M g pmM g R - ||",
+        "sahitya": "Che tha Shree Baa- - - la kri - - - shnam"
+      },
+      {
+        "line_number": 4,
+        "swara": "R - r r g r S n d || n r sn S - sn d p ||",
+        "sahitya": "-- - - - - Bha ja- - - re - - - - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "R - R - R - || M dp pm M g M g R - ||",
+        "sahitya": "Che tha Shree Baa- - - - -- -- la kri"
+      },
+      {
+        "line_number": 6,
+        "swara": "R - r r g r S n d || dn n r s n S S - ||",
+        "sahitya": "shnam - - - - Bha ja- re - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "- M M g m P md || pm P - m p D S ||",
+        "sahitya": "Chin thi thar - - - - tha - - Pra da Cha ra"
+      },
+      {
+        "line_number": 8,
+        "swara": "s s n d P - P - - M || - - mg mr – r r mg gs ||",
+        "sahitya": "naa - - ra vin dam - Mu - - kun dam --"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- g s , s S S - || S S , n s r S S rg ||",
+        "sahitya": "Nu - tha na Nee ra da Sadru- sha Sha"
+      },
+      {
+        "line_number": 2,
+        "swara": "rs sn - ns D D nd P || P dp M gm md pm P ||",
+        "sahitya": "ree ram Nan - da - - ki sho - - ram -"
+      },
+      {
+        "line_number": 3,
+        "swara": "- g m pd S N D || D , p - P - d p ||",
+        "sahitya": "Pee tha Va sa na Dha ram Kam bu"
+      },
+      {
+        "line_number": 4,
+        "swara": "pm pd P – P mdpm G || G R G S - - ||",
+        "sahitya": "Kan - - - dha ram - Gi ri dha ram - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "(R – G gs - )",
+        "sahitya": "Sahithyam: putanadi samharam purushottamavataram"
+      },
+      {
+        "line_number": 6,
+        "swara": "G s- s , s – S S S || n r S r - D n D P ||",
+        "sahitya": "Pu tha naa di Sam haa ram Pu ru sho ttha ma va thaa ram"
+      },
+      {
+        "line_number": 7,
+        "swara": "P d s d n d – p d p P || p d s- d p m g r m g s ||",
+        "sahitya": "See tha la Hru da ya Vi haa- ram Sree-- Ru- kmini Daa- ram-"
+      },
+      {
+        "line_number": 8,
+        "swara": "R - R - R - || M dp pm M g M g R - ||",
+        "sahitya": "Che tha Shree Baa- - - - -- -- la kri"
+      },
+      {
+        "line_number": 9,
+        "swara": "R - r r g r S n d || dn n r s n S S - ||",
+        "sahitya": "shnam - - - - Bha ja- re - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- D P pm P pm || m g m r – g r r r mg gs ||",
+            "sahitya": "Na va nee - - tha Gan- -- dha Vaa - - - - ha -"
+          },
+          {
+            "line_number": 2,
+            "swara": "R N S - s n d p || , g G R - R - ||",
+            "sahitya": "Va da nam Mru- du- Ga da nam - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "- r g , m – P - M || gm gm R r r r g R ||",
+            "sahitya": "Na li na Pa thra Na ya nam"
+          },
+          {
+            "line_number": 4,
+            "swara": "- g r S - d n D || - n r s n S - - ||",
+            "sahitya": "Vata Pat thra Shaya nam"
+          },
+          {
+            "line_number": 5,
+            "swara": "- r g , m – P dp M || gm gm R gmpm G R ||",
+            "sahitya": "Na li na Pa thra Na ya nam"
+          },
+          {
+            "line_number": 6,
+            "swara": "- g r S - d n D || - n r s n S - - ||",
+            "sahitya": "Vata Pat thra shaya nam"
+          },
+          {
+            "line_number": 7,
+            "swara": "- p p r s R R R || R gm G – mg mr – mg ||",
+            "sahitya": "Nava Cham- paka Naa - - si kam - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "g s- g r S - G R || S s s n d N , r s n S ||",
+            "sahitya": "A tha see Su ma Bhaa- - - sa - - kam -"
+          },
+          {
+            "line_number": 9,
+            "swara": "R S - s s n d P || P - D dp - m g ||",
+            "sahitya": "Na theen draa- - - di Lo ka Paa la"
+          },
+          {
+            "line_number": 10,
+            "swara": "r g m p n d d p p m G m r || S rn S - - - ||",
+            "sahitya": "kam -- Mru ga- ma- da Thi la- kam"
+          },
+          {
+            "line_number": 11,
+            "swara": "r g m p D n d d p m g || R r - g , r – s n S S ||",
+            "sahitya": "Na va thu la see Va na maa lam Naa ra daa di Mu ni jaa lam"
+          },
+          {
+            "line_number": 12,
+            "swara": "p s s s , n - d p R N || r s n d d p – m d p m g r ||",
+            "sahitya": "Ku va layaa di Pa ri paa lam Gu ru gu ha nu tha Go - paa- - lam"
+          },
+          {
+            "line_number": 13,
+            "swara": "R - R - R - || M dp pm M g M g R - ||",
+            "sahitya": "Che tha Shree Baa- - - - -- -- la kri"
+          },
+          {
+            "line_number": 14,
+            "swara": "R - r r g r S n d || dn n r s n S S - ||",
+            "sahitya": "shnam - - - - Bha ja- re - - - - -"
+          },
+          {
+            "line_number": 15,
+            "swara": "- M M g m P md || pm P - m p D S ||",
+            "sahitya": "Chin thi thar - - - - tha - - Pra da Cha ra"
+          },
+          {
+            "line_number": 16,
+            "swara": "s s n d P - P - - M || - - mg mr – r r mg gs ||",
+            "sahitya": "naa - - ra vin dam - Mu - - kun dam --"
+          }
+        ]
+      }
+    ]
+  }
+}

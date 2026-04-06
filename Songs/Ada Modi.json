@@ -1,0 +1,142 @@
+{
+  "song_details": {
+    "name": "Ada Modi",
+    "raga": "Charukesi",
+    "arohanam": "S R2 G3 M1 P D1 N2 S ||",
+    "avarohanam": "S N2 D1 P M1 G3 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P - D- P - M G R | G- gr S – R G , – m P M ||",
+        "sahitya": "A da mo - di Gala de Ra- - may yya Maa - ta"
+      },
+      {
+        "line_number": 2,
+        "swara": "pdnd D- P - M G R | G- gr S – R G , – m P M ||",
+        "sahitya": "A da mo - di Gala de Ra- - may yya Maa - ta"
+      },
+      {
+        "line_number": 3,
+        "swara": "pdns D- P - M G R | G- gr S – R G , – m P M ||",
+        "sahitya": "A da mo - di Gala de Ra- - may yya Maa - ta"
+      },
+      {
+        "line_number": 4,
+        "swara": "pdns rg- rs nd pm G R | G- gr S – R G , – m P M ||",
+        "sahitya": "A da mo - - di Gala de Ra- - may yya Maa - ta"
+      },
+      {
+        "line_number": 5,
+        "swara": "pdns rg- mg rs- nd pm gr | G- gr S – R G , – m P M ||",
+        "sahitya": "A da mo - - di Ga-la- de Ra- - may yya Maa - ta"
+      },
+      {
+        "line_number": 6,
+        "swara": "P - D- P - M G R | pmmg G - - - - - ||",
+        "sahitya": "Laa da mo - di Gala de - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "P , d N D D , n S - | - - - - - - - - ||",
+        "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "P , d N D D , n S - | - - - - dnsn dp dm ||",
+        "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "P , d N D D , n S - | dn S , - pd n S , - s n d p m ||",
+        "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "P , d N D D , n S - | rgmg grrs snnd dpdm ||",
+        "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "P , d N D D , n S - | - rg , m -G rmgr S - ||",
+        "sahitya": "Tho du nida Ni - ve - - Yanu – chu Bhak ti - - to -"
+      },
+      {
+        "line_number": 6,
+        "swara": "sr G R S sn D N S | d P d N S S N PM ||",
+        "sahitya": "Yun- di Nee Paa-- da mu Ba-- tti na Naato Maata"
+      },
+      {
+        "line_number": 7,
+        "swara": "pdns rg- mg rs- nd pm gr | G- gr S – R G , – m P M ||",
+        "sahitya": "A da mo - - di Ga-la- de Ra- - may yya Maa - ta"
+      },
+      {
+        "line_number": 8,
+        "swara": "P - D- P - M G R | pmmg G - - - - - ||",
+        "sahitya": "Laa da mo - di Gala de - - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "P P D – P - M gpmm | G – R M G g r sr G M ||",
+            "sahitya": "Cha du vu lan - ni De-li- si Shan- ka raan-- tshu- Dai-"
+          },
+          {
+            "line_number": 2,
+            "swara": "pn dp D – pm dp M gpmm | G – R M G g r sr G M ||",
+            "sahitya": "Cha du vu lan - - ni De-li- si Shan- ka raan-- tshu- Dai-"
+          },
+          {
+            "line_number": 3,
+            "swara": "- s s , s- s n D – N S - | - sr , g M P - M P ||",
+            "sahitya": "- Sada - yu Daa- - su ga- - Sam- bhavu du- Mro kka"
+          },
+          {
+            "line_number": 4,
+            "swara": "- p d N – D - N S - | - - - - - - - - ||",
+            "sahitya": "Kada lu Tam – mu ni - - - - - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "- p d N – D - N S - | - dn S , - p d n S , - s n d ||",
+            "sahitya": "Kada lu Tam – mu ni - - - - - - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "pm- p d N – D - N S - | - rg mg- gr rs –sn nd - dp ||",
+            "sahitya": "- - Kada lu Tam – mu ni - - - - - - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "dm- p d N – D - N S - | - rg , m G rgmg R s S , ||",
+            "sahitya": "- - Kada lu Tam – mu ni Bal- - ka Je si- - - - ti vi –"
+          },
+          {
+            "line_number": 8,
+            "swara": "sr G R S s n D N S | d P d N - S S N P M ||",
+            "sahitya": "Gaa-- kanu Tyaa - - ga raa- - ju Paa ti na Maata"
+          },
+          {
+            "line_number": 9,
+            "swara": "pdns rg- mg rs- nd pm gr | G- gr S – R G , – m P M ||",
+            "sahitya": "A da mo - - di Ga-la- de Ra- - may yya Maa - ta"
+          },
+          {
+            "line_number": 10,
+            "swara": "P - D- P - M G R | pmmg G - - - - - ||",
+            "sahitya": "Laa da mo - di Gala de - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

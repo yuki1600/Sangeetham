@@ -1,0 +1,217 @@
+{
+  "song_details": {
+    "name": "Aparadhamula Norva Samayamu",
+    "raga": "Rasali",
+    "arohanam": "S R2 M1 P D1 N2 S ||",
+    "avarohanam": "S N2 P M1 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P D D - ns – sD, , p M | R - M - | - - - - ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "P D D - ns – sD, , p M | R - M - | - rm , p M ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva sama yamu"
+      },
+      {
+        "line_number": 3,
+        "swara": "pd N D - ns – sD, , p M | R - M - | - rm , p M ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva sama yamu"
+      },
+      {
+        "line_number": 4,
+        "swara": "pd N dn Srs ns – sD, , p M | R - M - | - rm , p M ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva sama yamu"
+      },
+      {
+        "line_number": 5,
+        "swara": "R S D - N S - R | rmpm rs r - m | - pd ndpm ||",
+        "sahitya": "kr pa ju Du mu - gha na - - mai- na - na - - - (aparadha)"
+      },
+      {
+        "line_number": 6,
+        "swara": "pd N dn Srs ns – sD, , p M | R - M - | - rm , p M ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva sama yamu"
+      },
+      {
+        "line_number": 7,
+        "swara": "R S D - N S - R | rmpm rs r - m | - pd ndpm ||",
+        "sahitya": "kr pa ju Du mu - gha na - - mai- na - na - - - (aparadha)"
+      },
+      {
+        "line_number": 8,
+        "swara": "pd N dn Srs ns – sD, , p M | R - M - | - rm mp , dp pm , ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva sa ma ya mu"
+      },
+      {
+        "line_number": 9,
+        "swara": "R S D - N S - R | rmpm rs r - m | - pd ndpm ||",
+        "sahitya": "kr pa ju Du mu - gha na - - mai- na - na - - - (aparadha)"
+      },
+      {
+        "line_number": 10,
+        "swara": "P D D - ns – sD, , p M | R - M - | - - - - ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- p d , n- S - R rs S | - - - - | - - n s n d ||",
+        "sahitya": "Capa la cit - tu Dai-- - - - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "pm- p d , n- S - R rs N | S - - - | - - d s n d ||",
+        "sahitya": "Capa la cit - tu Dai-- - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "pm- p d , n- S - R rs N | S - - - | dn S n s n d ||",
+        "sahitya": "Capa la cit - tu Dai-- - - - - - - - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "pm- p d , n- S - R rs S | - rm , s R | S - sr rs S ||",
+        "sahitya": "Capa la cit - tu Dai-- mana s(e)ru ga ka- ne –"
+      },
+      {
+        "line_number": 5,
+        "swara": ",p - p d , n- S - R rs S | - rm , s R | S - sr rs S ||",
+        "sahitya": "Capa la cit - tu Dai-- mana s(e)ru ga ka- ne –"
+      },
+      {
+        "line_number": 6,
+        "swara": ",p - p d , n- S - R S ,r | M- rm , s R | S - sr rs S ||",
+        "sahitya": "Capa la cit - tu Dai-- mana s(e)ru ga ka- ne –"
+      },
+      {
+        "line_number": 7,
+        "swara": ",p - p d , n- S - R srmr | M- rm , s R | S - sr rs S ||",
+        "sahitya": "Capa la cit - tu Dai-- mana s(e)ru ga ka- ne –"
+      },
+      {
+        "line_number": 8,
+        "swara": "rsrs D – sd sd P - dp dp | M – pm pm R | sr M P M ||",
+        "sahitya": "ja- - li pe- - - Ttu ko- - - ni mo- - - ra la n(i) Di na"
+      },
+      {
+        "line_number": 9,
+        "swara": "- - p d , n- S - R srmr | M- rm , s R | S - sr rs S ||",
+        "sahitya": "Capa la cit - tu Dai-- mana s(e)ru ga ka- ne –"
+      },
+      {
+        "line_number": 10,
+        "swara": "rsrs D – sd sd P - dp dp | M – pm pm R | sr M P M ||",
+        "sahitya": "ja- - li pe- - - Ttu ko- - - ni mo- - - ra la n(i) Di na"
+      },
+      {
+        "line_number": 11,
+        "swara": "pd ns r m – R , s r s D - p m | p d n r S , - d | n r s – s d d p m ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva sa ma ya mu"
+      },
+      {
+        "line_number": 12,
+        "swara": "R S D - N S - R | rmpm rs r - m | - pd ndpm ||",
+        "sahitya": "kr pa ju Du mu - gha na - - mai- na - na - - - (aparadha)"
+      },
+      {
+        "line_number": 13,
+        "swara": "P D D - ns – sD, , p M | R - M - | - - - - ||",
+        "sahitya": "A pa ra - - - dha mula n(o) rva - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- P P pm D - P P | mpdp pm R | S R rs S ||",
+            "sahitya": "Sa ka la- lo - ku la pha-la- mu-la ne ri gi- -"
+          },
+          {
+            "line_number": 2,
+            "swara": "rs rs D – S D N S - | sr M rm P | mp D dp M ||",
+            "sahitya": "sam-- - ra - - kshin cu cu n(u)-n Da- ga - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "- P P pm D - P P | mpdp pm R | S R rs S ||",
+            "sahitya": "Sa ka la- lo - ku la pha-la- mu-la ne ri gi- -"
+          },
+          {
+            "line_number": 4,
+            "swara": "rs rs D – S D N S - | sr M rm P | mp D dp M ||",
+            "sahitya": "sam-- - ra - - kshin cu cu n(u)-n Da- ga nan -"
+          },
+          {
+            "line_number": 5,
+            "swara": "- p d , n- S - R rs S | - - - - | - - n s n d ||",
+            "sahitya": "(o)ka - ni bro - - va- - - - - - - - nan - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "pm- p d , n- S - R rs S | - - - - | - - d s n d ||",
+            "sahitya": "(o)ka - ni bro - - va- - - - - - - - nan - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "pm- p d , n- S - R rs S | - - - - | dn S n s n d ||",
+            "sahitya": "(o)ka - ni bro - - va- - - - - - - - nan - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "pm- p d , n- S - R s R m | - rm , s R | S S S- ns ||",
+            "sahitya": "(o)ka - ni bro - va- te li ya - ki- - rta na sha ta ka nann"
+          },
+          {
+            "line_number": 9,
+            "swara": "- - p d , n- S - R s R m | - rm , s R | S rs rs- ns ||",
+            "sahitya": "(o)ka - ni bro - va- te li ya - ki- - rta na sha ta ka nann"
+          },
+          {
+            "line_number": 10,
+            "swara": "- - p d , n- S - R s r m r | M- rm , s R | S rs rs- S ||",
+            "sahitya": "(o)ka - ni bro - va- te li ya - - ki- - rta na sha ta ka -"
+          },
+          {
+            "line_number": 11,
+            "swara": "rsrs D – sd sd P - dp dp | M – pm pm R | sr M P M ||",
+            "sahitya": "m(o)- na rcu - - - tya- - ga ra- - - ja nu- ta na -"
+          },
+          {
+            "line_number": 12,
+            "swara": "- - p d , n- S - R s r m r | M- rm , s R | S rs rs- S ||",
+            "sahitya": "(o)ka - ni bro - va- te li ya - - ki- - rta na sha ta ka -"
+          },
+          {
+            "line_number": 13,
+            "swara": "rsrs D – sd sd P - dp dp | M – pm pm R | sr M P M ||",
+            "sahitya": "m(o)- na rcu - - - tya- - ga ra- - - ja nu- ta na -"
+          },
+          {
+            "line_number": 14,
+            "swara": "pd ns r m – R , s r s D - p m | p d n r S , - d | n r s – s d d p m ||",
+            "sahitya": "A pa ra - - - dha mula n(o) rva sa ma ya mu"
+          },
+          {
+            "line_number": 15,
+            "swara": "R S D - N S - R | rmpm rs r - m | - pd ndpm ||",
+            "sahitya": "kr pa ju Du mu - gha na - - mai- na - na - - - (aparadha)"
+          },
+          {
+            "line_number": 16,
+            "swara": "P D D - ns – sD, , p M | R - M - | - - - - ||",
+            "sahitya": "A pa ra - - - dha mula n(o) rva - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

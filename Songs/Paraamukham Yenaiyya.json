@@ -1,0 +1,137 @@
+{
+  "song_details": {
+    "name": "Paraamukham Yenaiyya",
+    "raga": "Kharaharapriya",
+    "arohanam": "S R2 G2 M1 P D2 N2 S ||",
+    "avarohanam": "S N2 D2 P M1 G2 R2 S ||",
+    "tala": "Adi",
+    "composer": "Papanasam Sivan"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P dN, - dp mG - p M- G | R - - gr rg- M P M ||",
+        "sahitya": "Paraa - mu kham E - nay yaa- - A- di- mai yi dam"
+      },
+      {
+        "line_number": 2,
+        "swara": "pS- dN, , dp mG - p M- G | R - - gr rg- M P M ||",
+        "sahitya": "Paraa - mu kham E - nay yaa- - A- di- mai yi dam"
+      },
+      {
+        "line_number": 3,
+        "swara": "pS- dN, , dp mG - p M- G | R - - gr rg- M dp pm ||",
+        "sahitya": "Paraa - mu kham E - nay yaa- - A- di- mai yi dam"
+      },
+      {
+        "line_number": 4,
+        "swara": "p d ns rs - dp pmG ,- p M- G | R - - gr mg- pm dp pm ||",
+        "sahitya": "Paraa - - mu kham E - nay yaa- - A- di- mai yi dam"
+      },
+      {
+        "line_number": 5,
+        "swara": "p d ns rs - dp pmG ,- rp M- G | R - - - - - - gr || srM gr S -",
+        "sahitya": "Paraa - - mu kham E - nay yaa- - - - - - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "P dN, - dn S , - s N S | - - - - - - - - ||",
+        "sahitya": "Araa- - va- nai Tu yi lum - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - - - - - - - | - - - - D N dp M ||",
+        "sahitya": "- - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "P dN, - dn S , s N S | - - - rs sn nd dp M ||",
+        "sahitya": "Araa- - va- nai Tu yi lum - - - - - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "P dN, ,d- dn S , s N S | N G - R S S S - ||",
+        "sahitya": "Araa- - va- nai Tu yi lum Mu raa - ri Pa ni yum"
+      },
+      {
+        "line_number": 5,
+        "swara": "nrS , -n - - dn S , s N S | N G - R gm gr S - ||",
+        "sahitya": "A-- raa- va- nai Tu yi lum Mu raa - ri Pa ni yum"
+      },
+      {
+        "line_number": 6,
+        "swara": "rS, gg rs- nDn S , s N S | N G - R gm gr S - ||",
+        "sahitya": "A-- raa- va- nai Tu yi lum Mu raa - ri Pa ni yum"
+      },
+      {
+        "line_number": 7,
+        "swara": "nrS , -n - - dn S , s N S | N G - R S S - d n ||",
+        "sahitya": "A-- raa- va- nai Tu yi lum Mu raa - ri Pa ni - Tiru"
+      },
+      {
+        "line_number": 8,
+        "swara": "sr s- n sn - nd dP, - pd n s | dnd- p dp - pm mmgr g m P ||",
+        "sahitya": "pu-- raa-- ri- ye - A- rul- Tha- raa -- mal- in- - - num --"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- , - p , p P P - , p D | N - n d dp pm mg g r R ||",
+            "sahitya": "Dhaa - ra ni yil- Pi ra vaa Va-ra- ma- ru- lum--"
+          },
+          {
+            "line_number": 2,
+            "swara": "g M - p , p P P - , p S | N - n d dp pm mg g r R ||",
+            "sahitya": "- - Dhaa ra ni yil- Pi ra vaa Va-ra- ma- ru- lum--"
+          },
+          {
+            "line_number": 3,
+            "swara": "g M - p , p P P - , p S | N - n d dp pm mg g r R ||",
+            "sahitya": "- - Dhaa ra ni yil- Pi ra vaa Va-ra- ma- ru- lum--"
+          },
+          {
+            "line_number": 4,
+            "swara": "g m - pd p - dsnd , P - , p S | N - n d dp pm mg g r R ||",
+            "sahitya": "- - Dhaa -ra- ni- yil- Pi ra vaa Va-ra- ma- ru- lum--"
+          },
+          {
+            "line_number": 5,
+            "swara": "- , - rp , m M M mp g- g R, , | S- S G R - rP, , - M , ||",
+            "sahitya": "Kaa-- ra na Vi raat-- puru- - - sha na du - Moo laa -"
+          },
+          {
+            "line_number": 6,
+            "swara": "- pd , n D - , s , s - N | S - - - - dn , dp M ||",
+            "sahitya": "thaa - ra - - - Kshe -tra men num - - -moo - laa -"
+          },
+          {
+            "line_number": 7,
+            "swara": "- pd , n D - , s , s - N | S - - - - dn - dp ||",
+            "sahitya": "thaa - ra - - - Kshe -tra men num - - -moo - laa -"
+          },
+          {
+            "line_number": 8,
+            "swara": "M- pd , n D - dn , g R | S - - - rs sn nd dp ||",
+            "sahitya": "- thaa - ra - - Kshe -tra men num - - Moo-- - - laa -"
+          },
+          {
+            "line_number": 9,
+            "swara": "M- pd , n D - dn , g R | S - - - - dn , d N ||",
+            "sahitya": "- thaa - ra - - Kshe -tra men num - - Tiru - vaa-"
+          },
+          {
+            "line_number": 10,
+            "swara": "rs rs N D pd ns ndn - d | pd - pm pm -mm g R - g M P ||",
+            "sahitya": "roo-- ra ne Raa-- ma-- daa - - san- - - Pa - ni - ha ra ne"
+          }
+        ]
+      }
+    ]
+  }
+}

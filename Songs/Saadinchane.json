@@ -1,0 +1,202 @@
+{
+  "song_details": {
+    "name": "Saadinchane",
+    "raga": "Arabhi",
+    "arohanam": "S R2 M1 P D2 S ||",
+    "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P - pp mg r r S N D | S - - - sd R – mg rs r m ||",
+        "sahitya": "Sa - - - - din- - - cha ne O- - Mana sa -- -"
+      },
+      {
+        "line_number": 2,
+        "swara": "P , r r pmM g r r S N D | S - - - sd rr – mg rs r m ||",
+        "sahitya": "Sa - - - - din- - - cha ne O- - Mana sa -- -"
+      },
+      {
+        "line_number": 3,
+        "swara": "P - mpdp mg r r S N D | S - - - dd P– m p d s dsR ||",
+        "sahitya": "Sa -- - - - - din- - - cha ne O- - Mana sa -- -"
+      },
+      {
+        "line_number": 4,
+        "swara": "s S – s d p – mg r r s s N D | S - - - dd P– m p d s dsR ||",
+        "sahitya": "Sa -- - - - - din- - - cha ne O- - Mana sa -- -"
+      },
+      {
+        "line_number": 5,
+        "swara": "s S – s d p – mg r r s s N D | sr s rM rm rmP mpdp mg r s r m ||",
+        "sahitya": "Sa -- - - - - din- - - cha ne O- - Ma- - na- sa -- -"
+      },
+      {
+        "line_number": 6,
+        "swara": "P - r pmM g r r S N D | S R - - S - - - ||",
+        "sahitya": "Sa - - - - din- - - cha ne - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "dd P pp mg R R S - | mg R d d - P mp D , s S ||",
+        "sahitya": "Bo-- din- - - china San Ma - - rga- va cha- na mula"
+      },
+      {
+        "line_number": 2,
+        "swara": "dd P pp mg R R Srs S | mg R d d - P mp D , s S ||",
+        "sahitya": "Bo-- din- - - china San Ma - - rga- va cha- na mula"
+      },
+      {
+        "line_number": 3,
+        "swara": "ddpm Pds dp mg R Srs S | mg R d d - P mp D , s S ||",
+        "sahitya": "Bo-- din- - - china San Ma - - rga- va cha- na mula"
+      },
+      {
+        "line_number": 4,
+        "swara": "ndpm Pds dp mg R Srs S | mg R d d - P mp D , s R ||",
+        "sahitya": "Bo-- din- - - china San Ma - - rga- va cha- na mula"
+      },
+      {
+        "line_number": 5,
+        "swara": "R –mg R – S rs S - sn Dnd P | Pdp mg R R mp D mp d r ||",
+        "sahitya": "Bon - - gu je- - - si- tha - - ba - - - - ttina pa- - ttu - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "1. P P P - P P M Pdp | M - P - - P pp mg rs rm ||",
+            "sahitya": "Sa ma ya niki thagu - ma ta la - - de-ne-"
+          },
+          {
+            "line_number": 2,
+            "swara": "P M P - P P M Pdp | M - P - - dp pmM , g rs rm ||",
+            "sahitya": "Sa ma ya niki thagu - ma ta la - - de-ne-"
+          },
+          {
+            "line_number": 3,
+            "swara": "P ds P dp P P M Pdp | M - P - - P pp mg rs rm ||",
+            "sahitya": "Sa ma ya niki thagu - ma ta la - - de-ne-"
+          },
+          {
+            "line_number": 4,
+            "swara": "p d rsS P dp P P rm mp | pd – ds dd - P mpdp- mg rs rm ||",
+            "sahitya": "Sa ma ya niki thagu - ma ta la - - de-ne-"
+          },
+          {
+            "line_number": 5,
+            "swara": "P ds P dp P P mp ds | sr – s n P pmM , g rs rm ||",
+            "sahitya": "Sa ma ya niki thagu - ma ta la - - de-ne-"
+          },
+          {
+            "line_number": 6,
+            "swara": "2. P - - P mgrr - mgrr | s S s - nd P - - ds , s r m ||",
+            "sahitya": "De va ki -- Va-su- de- - vula ne -gin chi na tu"
+          },
+          {
+            "line_number": 7,
+            "swara": "3. P P m g R - R mg - r r s s | D D , s - S , r R , s r m ||",
+            "sahitya": "Range shudu sath Gan ga- jana kudu Sangee tha Sam prada ya ku du"
+          },
+          {
+            "line_number": 8,
+            "swara": "4. D D - pd - p p , dp m - M p – m | g r R R m m P P S r m ||",
+            "sahitya": "Gopee Jana Mano rathamo Sanga le - kane geli yu jese Va- du"
+          },
+          {
+            "line_number": 9,
+            "swara": "6. dp mp d S- d d p P m g r- r | , r – S S – d d P – m g r r S ||",
+            "sahitya": "Vanithala sada So - kka je yu chunu mro - kka je se Para math muda diyuga"
+          },
+          {
+            "line_number": 10,
+            "swara": "S – s d , p – m p d S s d R r | s r - D s- P d M p – m g r - r m ||",
+            "sahitya": "ka Yaso tha thana yudanchu Mudambu Nanu Mudhu petta Navvu chun-du Hari"
+          },
+          {
+            "line_number": 11,
+            "swara": "7. r m p- d , p – m p d d p – m p d P | P – mg R – D D p – m g r R ||",
+            "sahitya": "Parama bha ktha va - thsaludu su guna pa ra va- run da jan ma ma nagudee"
+          },
+          {
+            "line_number": 12,
+            "swara": "d d P s n D r S s m g R | r S s d d p – p , p – m g r – s r m ||",
+            "sahitya": "kaliba dhalathee rchu vada nu chune hruda mbu jamuna ju chu chun- - - daga"
+          },
+          {
+            "line_number": 13,
+            "swara": "8. s P – m , p - mg R m g r R r | s r s – s , s – P p m g r d d P ||",
+            "sahitya": "Hare Ra ma chan- dra Raghu kulesa mrudusu bha sha se sha sayana paranaa"
+          },
+          {
+            "line_number": 14,
+            "swara": "dd P d S s d R r s r m – m | g r – P m g r – d P – s d , r r s ||",
+            "sahitya": "ree- so da raja viraja thuraga ra -ja raa janutha ni ra maya paghana"
+          },
+          {
+            "line_number": 15,
+            "swara": "mg R s r s s , s – d d p P p | m g r r , r - S - P , d p m ||",
+            "sahitya": "sarasee ruhadala ksha yanu chu vedu kon- na na nu tha bro vakanu"
+          },
+          {
+            "line_number": 16,
+            "swara": "9. P d d p – P p m g r r , r – p m | P – r s R – s d S , - s s – d R ||",
+            "sahitya": "Sree Ven- ka tesa su- prakaa sa sa - rvo nnatha saj jana maa na sa ni ke"
+          },
+          {
+            "line_number": 17,
+            "swara": "r r – s r M g r m p d p , p s s | D – r r s S – m g r R s r s s ||",
+            "sahitya": "thana kana kaambara dhara lasan makuta kun dala vira ji tha hare yanuchune"
+          },
+          {
+            "line_number": 18,
+            "swara": ", d d p P – m g r – R r S s d | S d – r , s – m g r – P p m g r m ||",
+            "sahitya": "pogada ga Thya- ga raaja keeyu lu maana vee ndru dai- na Rama chan-drudu"
+          },
+          {
+            "line_number": 19,
+            "swara": "10. d d P p p m g R R s r s s | D – R S R | r p m g R - ||",
+            "sahitya": "Sa - - thbha- - kthula na-ta- tha li - - - tla- ne- ne"
+          },
+          {
+            "line_number": 20,
+            "swara": "- rm , p D Dnp P mp mpD | P - Pdp mg R S rg r s S ||",
+            "sahitya": "Ama rika ga - - na - - - - - pu- - - - ja kone- ne - -"
+          },
+          {
+            "line_number": 21,
+            "swara": "- sn D – R S R r p m g | R - - - | S rg rs S ||",
+            "sahitya": "Alu ga va - - dda- ne - ne - - - - - - -"
+          },
+          {
+            "line_number": 22,
+            "swara": "dd P mg R mpmg R – mg | R – s r mg – R S rg rs S ||",
+            "sahitya": "Vi-mu ku- la tho- - - nu che- ra po- - - gu mane- ne - -"
+          },
+          {
+            "line_number": 23,
+            "swara": "- n d , r S R R - mg r s | R – mg rs rm P M P - ||",
+            "sahitya": "vetha gal - gi na tha- - - llu kom- - - - - ma ne ne"
+          },
+          {
+            "line_number": 24,
+            "swara": "d d p p m g – rm P P r m P | m p D - mp D s n D r s R ||",
+            "sahitya": "Da-ma- sa- ma- - di su- ka da - - ga – ku da-ku sree -"
+          },
+          {
+            "line_number": 25,
+            "swara": "R m g R – Srs S S d d P | P – Pdp mg R mp D mp dr ||",
+            "sahitya": "Thia- - ga ra- - - ja nu- thu du chen-- -- tha ra - - ga- ne-"
+          }
+        ]
+      }
+    ]
+  }
+}

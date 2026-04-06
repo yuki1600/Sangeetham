@@ -1,0 +1,267 @@
+{
+  "song_details": {
+    "name": "Thiagarajaya Namaste",
+    "raga": "Begada",
+    "arohanam": "S G3 R2 G3 M1 P D2 N2 D2 P S ||",
+    "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. pd N D – P - - || ppmg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 2,
+        "swara": "G - - - g m , d pm || R S - - gm pm ||",
+        "sahitya": "Ste - Na- ma - - ste - sri - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. pd N D – P mp D || ppmg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 4,
+        "swara": "SpmmgG - - g m , d pm || R S - - gm pm ||",
+        "sahitya": "Ste - Na- ma - - ste - sri - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. pd N D – P mp D || Pdp mg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 6,
+        "swara": "SpmmgG - - g m , d pm || R S - - gm pd ||",
+        "sahitya": "Ste - Na- ma - - ste - sri - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "4. rsns D – P mp D || Pdp mg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 8,
+        "swara": "SpmmgG - - gm pdN dpM || R S - - - S ||",
+        "sahitya": "Ste - Na- ma - - ste - - Ka"
+      },
+      {
+        "line_number": 9,
+        "swara": "a) ppmg R – gm P – pm || p D p - P D P ||",
+        "sahitya": "thia ---ya ni - - pa- the - - Pa shu pa"
+      },
+      {
+        "line_number": 10,
+        "swara": "S - rsns D P || mdpm gpmg mr- gm ||",
+        "sahitya": "the Sim-- haa - sa –na- pa-the- - - Ka -"
+      },
+      {
+        "line_number": 11,
+        "swara": "b) Pdp mg R – gm P – pm || p D p - P D P ||",
+        "sahitya": "thia --- ya ni - - pa- the - - Pa shu pa"
+      },
+      {
+        "line_number": 12,
+        "swara": "S gr rsns dp – sn || rs – nn dp pm gm pd ||",
+        "sahitya": "the Sim-- haa - -- sa –na- pa- the- - -"
+      },
+      {
+        "line_number": 13,
+        "swara": ". rsns D – P mp D || Pdp mg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 14,
+        "swara": "SpmmgG - - gm pdN dpM || R S - - - - ||",
+        "sahitya": "Ste - Na- ma - - ste - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. pd N D - P - || P M dp – gr S S ||",
+        "sahitya": "Va -- ghee shaa Dyaki la- De- - va"
+      },
+      {
+        "line_number": 2,
+        "swara": "- S P M Gmr || gm P M – p d , p P ||",
+        "sahitya": "Van di ta Pada- Pan – ka jaa - - ya"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. rsns p D p P - || gm pdN dpM – gr S S ||",
+        "sahitya": "Va -- ghee shaa Dya-ki-- la-- De- - va"
+      },
+      {
+        "line_number": 4,
+        "swara": "- S P M Gmr || gm P dpM – p d , p P ||",
+        "sahitya": "Van di ta Pada- Pan – ka jaa - - ya"
+      },
+      {
+        "line_number": 5,
+        "swara": "a) Pdp mg gm P D P || sr sn dp – N R S ||",
+        "sahitya": "Yo- - - gi - - shwa ra Maa-- - - na - sa"
+      },
+      {
+        "line_number": 6,
+        "swara": "b) gMg P , m D P || sr sn dp – N R S ||",
+        "sahitya": "Yo- - - gi - - shwa ra Maa-- - - na sa Sam"
+      },
+      {
+        "line_number": 7,
+        "swara": "ns mg rs – rs ns dp || pmdp pm – g pm M r G ||",
+        "sahitya": "yu -- - ktha Va- da-na- Vaa- -- ri- jaa - - - - - ya"
+      },
+      {
+        "line_number": 8,
+        "swara": "P d – m , p - G m – R s || gm P – d p – D p - S s ||",
+        "sahitya": "Bhoga mo ksha Daa na Vaama Bhaa-ga sthita Saila jaaya"
+      },
+      {
+        "line_number": 9,
+        "swara": "G r – s r s – D p – S r || N N d P m m P d ||",
+        "sahitya": "Yoga Gurugu haatma jaaya Tyaaga dhwajaaya A jaa ya"
+      },
+      {
+        "line_number": 10,
+        "swara": "pdN D – P mp D || Pdp mg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 11,
+        "swara": "SpmmgG - - gm , dpm || R S - - - S ||",
+        "sahitya": "Ste - Na- ma - - ste - - Ka"
+      },
+      {
+        "line_number": 12,
+        "swara": "ppmg R – gm P – pm || p D p - P D P ||",
+        "sahitya": "thia ---ya ni - - pa- the - - Pa shu pa"
+      },
+      {
+        "line_number": 13,
+        "swara": "S gr rsns dp – sn || rs – nn dp pm gm pd ||",
+        "sahitya": "the Sim-- haa - -- sa –na- pa- the- - -"
+      },
+      {
+        "line_number": 14,
+        "swara": ". rsns D – P mp D || Pdp mg R – S G , r ||",
+        "sahitya": "Thia- ga raa ja --- ya Na ma -"
+      },
+      {
+        "line_number": 15,
+        "swara": "SpmmgG - - gm pdN dpM || R S - - - - ||",
+        "sahitya": "Ste - Na- ma - - ste - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "D P - mp D P || M M G R S - ||",
+            "sahitya": "Mukun daa- - di Pu - jitha So"
+          },
+          {
+            "line_number": 2,
+            "swara": "- S - P ppmg || mr– gm P – pm pD p ||",
+            "sahitya": "maa - s skan-- da Mu- - rtha- ye - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "D P - mp D P || pd N dpmp gr S ||",
+            "sahitya": "Mukun daa- - di Pu - jitha So"
+          },
+          {
+            "line_number": 4,
+            "swara": "- S - P ppmg || M – gm P – pm pD p ||",
+            "sahitya": "maa - s skan-- da Mu- - rtha- ye - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "- g m pd N D P || P – P m – dp p - gr s s ||",
+            "sahitya": "Muchu kun-- daa- di Bha - ktha-- ja-- na"
+          },
+          {
+            "line_number": 6,
+            "swara": "s r s n dp – S gr G || M , - d p p – g r S S ||",
+            "sahitya": "Ma-no- - - ra tha - Sphu rttha- - ye - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "- n n , D p - , m || gm pd nn dp mp mg || (nndp m – dp m || gr)",
+            "sahitya": "Muku ra Bim - - ba -- - Pra-ti- bim - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "mr – gm , p dp - - || s r sn d p – N R S ||",
+            "sahitya": "-- bita Mukha- - Sphu- - - - - rtta ye"
+          },
+          {
+            "line_number": 9,
+            "swara": "N S mg R gr S || nn dp m P – d P - S ||",
+            "sahitya": "Muni Pa -- kshi-- Mru-ga- Kee- daa- dhi"
+          },
+          {
+            "line_number": 10,
+            "swara": "R , - s - - N , d P || mpd n , - d pm R S ||",
+            "sahitya": "Mu kthi Pra da- Kee- - - rtha- - ye –"
+          },
+          {
+            "line_number": 11,
+            "swara": "s s M mg – P m - D p || n n d p M p – g , r G ||",
+            "sahitya": "Sakalaa gama Man tra Tantra Saa-ra- jnanu Ra kthaye"
+          },
+          {
+            "line_number": 12,
+            "swara": "gm D P – m m p – g r s || sp p g mr – p m , d P ||",
+            "sahitya": "Akataa di Triree - kha-tma Kaa- daa- ra- Pravru- ttaye"
+          },
+          {
+            "line_number": 13,
+            "swara": "p d p- s , n S n R s || gmrs r s – p d p – r S ||",
+            "sahitya": "Sakala Nish-kala Svarupa Sa-cchit- Sukha Vya- - ptaye"
+          },
+          {
+            "line_number": 14,
+            "swara": "r N n d p m – g , r G || m P m D p – s n r S , r ||",
+            "sahitya": "Vikalpa Bhe-da yu kthaye Vitanka Rupa Sha- ktha ye"
+          },
+          {
+            "line_number": 15,
+            "swara": "pdN D – P mp D || Pdp mg R – S G , r ||",
+            "sahitya": "Thia- ga raa ja --- ya Na ma -"
+          },
+          {
+            "line_number": 16,
+            "swara": "SpmmgG - - gm , dpm || R S - - - S ||",
+            "sahitya": "Ste - Na- ma - - ste - - Ka"
+          },
+          {
+            "line_number": 17,
+            "swara": "ppmg R – gm P – pm || p D p - P D P ||",
+            "sahitya": "thia ---ya ni - - pa- the - - Pa shu pa"
+          },
+          {
+            "line_number": 18,
+            "swara": "S gr rsns dp – sn || rs – nn dp pm gm pd ||",
+            "sahitya": "the Sim-- haa - -- sa –na- pa- the- - -"
+          },
+          {
+            "line_number": 19,
+            "swara": ". rsns D – P mp D || Pdp mg R – S G , r ||",
+            "sahitya": "Thia- ga raa ja --- ya Na ma -"
+          },
+          {
+            "line_number": 20,
+            "swara": "SpmmgG - - gm pdN dpM || R S - - - - ||",
+            "sahitya": "Ste - Na- ma - - ste - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "song_details": {
+    "name": "Nambi Kettavar",
+    "raga": "Hindolam",
+    "arohanam": "S G2 M1 D1 N2 S ||",
+    "avarohanam": "S N2 D1 M1 G2 S ||",
+    "tala": "Adi",
+    "composer": "Papanasam Sivan"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "N - S - M - M M | MG D M gs - - - ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S N S - M - M M | M G D M gs - S N ||",
+        "sahitya": "nam- bik- ket Ta var e va rai- ya - umai"
+      },
+      {
+        "line_number": 3,
+        "swara": "S - S - M - M M | M G D M gs - G N ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya umai"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - S - M - M M | G G gD, - mmgs - G N ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya- - - umai"
+      },
+      {
+        "line_number": 5,
+        "swara": "S - S - M - M M | G M D N S - D N ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya umai"
+      },
+      {
+        "line_number": 6,
+        "swara": "S - N D N sn dM,",
+        "sahitya": "na yaka nait- ti- - ru mayil ai yin I rai va nai"
+      },
+      {
+        "line_number": 7,
+        "swara": "S - S - M - M M | G M D N S - D N ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya umai"
+      },
+      {
+        "line_number": 8,
+        "swara": "S gs N D N sn dM,",
+        "sahitya": "na-- yaka nait-- ti- ru mayil aiyin I rai- va nai"
+      },
+      {
+        "line_number": 9,
+        "swara": "S - S - M - M M | G M D N S - D N ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya umai"
+      },
+      {
+        "line_number": 10,
+        "swara": "G S N D N sn dM,",
+        "sahitya": "na-- yaka nait-- ti- ru mayil aiyin I rai- va nai"
+      },
+      {
+        "line_number": 11,
+        "swara": "S - S - M - M M | G M D N S - D N ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya umai"
+      },
+      {
+        "line_number": 12,
+        "swara": "ns gg N gs ndD M D | N D M md G dm gs gn ||",
+        "sahitya": "na-- yaka nait-- ti- ru mayil aiyin I rai- va nai"
+      },
+      {
+        "line_number": 13,
+        "swara": "S - S - M - M M | G G D - mgG - - ||",
+        "sahitya": "nam bik- ket Tavar e va rai- ya - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "- - - - gmd - g ddM | gs",
+        "sahitya": "- - - - ai - - - - - ya- - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "S N D M mG , M - M | nD, N - N S - - N ||",
+        "sahitya": "am- bu li gan- gai a Nin- da ja Ta- - dha"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - - - - - - | - - - - - - - - ||",
+        "sahitya": "ran - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "sn sn D M G - M - M | nD, N - N S - S S ||",
+        "sahitya": "am- bu li gan- gai a Nin- da ja Ta- dha ran"
+      },
+      {
+        "line_number": 4,
+        "swara": "sn sn D M g M g D - M | dNd N - N S - S S ||",
+        "sahitya": "am- bu li gan- gai a Nin- da ja Ta- dha ran"
+      },
+      {
+        "line_number": 5,
+        "swara": "sn sn D M g M g D - M | dNd N - N g S , S S ||",
+        "sahitya": "am- bu li gan- gai a Nin- da ja Ta- dha ran"
+      },
+      {
+        "line_number": 6,
+        "swara": "sn sn D M gdmmG-",
+        "sahitya": "am- bu li gan- gai a Nin- da ja Ta- dha ran"
+      },
+      {
+        "line_number": 7,
+        "swara": "G mg gs -N S g s nD,",
+        "sahitya": "an- - bar ma nam-- va- Lar sham-- bhu ka pa- - li- yai"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- - M G - M N | D - - S N - N - N ||",
+            "sahitya": "on- - ru me payan il - - lai en- ru u"
+          },
+          {
+            "line_number": 2,
+            "swara": "S - - N D nd dM,",
+            "sahitya": "Nar - nda pin- - ba - var un Den bar- - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "- - M G - M N | D - - S N - N - N ||",
+            "sahitya": "on- - ru me payan il - - lai en- ru u"
+          },
+          {
+            "line_number": 4,
+            "swara": "S - - N D nd dM,",
+            "sahitya": "Nar - nda pin- - ba - var un Den bar- - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "- - dmM G - M N | D - - gsS N - N - N ||",
+            "sahitya": "on- - ru me payan il - - lai en- ru u"
+          },
+          {
+            "line_number": 6,
+            "swara": "G S - N D nd dM,",
+            "sahitya": "Nar - nda pin- - ba - var un Den bar- - -- -"
+          },
+          {
+            "line_number": 7,
+            "swara": "- - dmM G - M N | D - - gsS N - N - N ||",
+            "sahitya": "on- - ru me payan il - - lai en- ru u"
+          },
+          {
+            "line_number": 8,
+            "swara": "G S - N D nd dM,",
+            "sahitya": "Nar - nda pin- - ba - var un Den bar- - -"
+          },
+          {
+            "line_number": 9,
+            "swara": "S - N D N sn D M | - mn , D , DM mG,",
+            "sahitya": "ov- voru mani- danum - oru - nal in- ni - - lai"
+          },
+          {
+            "line_number": 10,
+            "swara": "G , d M D G dm gS,",
+            "sahitya": "ei - du va du ru- di - I- dai- maran dar - -"
+          },
+          {
+            "line_number": 11,
+            "swara": "S - N D N sn D M | - mn , D , DM mG, G ||",
+            "sahitya": "ov- voru mani- danum - oru - nal in- ni - - lai"
+          },
+          {
+            "line_number": 12,
+            "swara": "G , d M ndD",
+            "sahitya": "ei - du va du ru- di - I- dai- maran dar - -"
+          },
+          {
+            "line_number": 13,
+            "swara": "S - N - D N - D M - | G G M M D D N - ||",
+            "sahitya": "an- ru she yal a zhin da la maru pozhu du"
+          },
+          {
+            "line_number": 14,
+            "swara": "- - - - - - - - | G , n - S - - - - ||",
+            "sahitya": "- - - - - - - - - - -- - - - - - -"
+          },
+          {
+            "line_number": 15,
+            "swara": "S - N - D N - D M - | G G M M D D D N ||",
+            "sahitya": "an- ru she yal a zhin da la maru pozhu du"
+          },
+          {
+            "line_number": 16,
+            "swara": "- - - D - - - G | N S - - - - s n dn ||",
+            "sahitya": "- - - - - - - - - - -- - - - - - - - -"
+          },
+          {
+            "line_number": 17,
+            "swara": "- N - D sn - nd M - | G G M M D D N - N ||",
+            "sahitya": "an- ru she yal a- zhin da la maru pozhu du A (or \"shiv-van\")"
+          },
+          {
+            "line_number": 18,
+            "swara": "S - sn sn nd nd dM,",
+            "sahitya": "van peyar na- vil - va- ra - de - - - -"
+          },
+          {
+            "line_number": 19,
+            "swara": "- N - D sn - nd M - | mg mg md dm dn nd N - N ||",
+            "sahitya": "an- ru she yal a- zhin da la ma ru po-zhu du A (or \"shiv-van\")"
+          },
+          {
+            "line_number": 20,
+            "swara": "G S sn sn nd nd dM,",
+            "sahitya": "van peyar na- vil - va- ra - de - - - -"
+          },
+          {
+            "line_number": 21,
+            "swara": "- N - gs ns - sn dm dm | gm gg md mm dn dd D - N ||",
+            "sahitya": "an- ru she yal a- zhin da la ma ru po-zhu du A (or \"shiv-van\")"
+          },
+          {
+            "line_number": 22,
+            "swara": "G S sn sn nd nd dM,",
+            "sahitya": "van peyar na- vil - va- ra - - de - - - -"
+          },
+          {
+            "line_number": 23,
+            "swara": "D N S M G - , s G | S - - - - - - - ||",
+            "sahitya": "A - dali nal mana me - - - - - -"
+          },
+          {
+            "line_number": 24,
+            "swara": "D N S M G - , g dm | gS , - - - - - - ||",
+            "sahitya": "A - dali nal mana me - - - - - -"
+          },
+          {
+            "line_number": 25,
+            "swara": "D N S dmmg G S , gs mg | gS , N,g snN - D N ||",
+            "sahitya": "A - da li- - - nal ma- na me in - re - - shiva"
+          },
+          {
+            "line_number": 26,
+            "swara": "S - N - nd nd M N D | N - - - - - - - ||",
+            "sahitya": "na mam sho - - lli pazha ghu - - - - - -"
+          },
+          {
+            "line_number": 27,
+            "swara": "D N S dmmg",
+            "sahitya": "A - da li- - - nal ma- na me in - re - - shiva"
+          },
+          {
+            "line_number": 28,
+            "swara": "S - N - nd nd M N D | N - - - - ds nnD ||",
+            "sahitya": "na mam sho - - lli pazha ghu - - - - - -"
+          },
+          {
+            "line_number": 29,
+            "swara": "D N S dmmg",
+            "sahitya": "A - da li- - - nal ma- na me in - re - - shiva"
+          },
+          {
+            "line_number": 30,
+            "swara": "S g - n , s- nd nd M N D | N - - D M G S S ||",
+            "sahitya": "na mam sho - - lli pazha ghu - - an - budan"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "song_details": {
+    "name": "Gajavadana",
+    "raga": "Todi",
+    "arohanam": "S R1 G2 M1 P D1 N2 S ||",
+    "avarohanam": "S N2 D1 P M1 G2 R1 S ||",
+    "tala": "Adi",
+    "composer": "Kumara Ettendra"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - G , d pm- R S - S N S - rsnd N D | - - - D - N S N S - - - - - - - ||",
+        "sahitya": "- - Ga- ja - - vada- na - - - Sam- - - - - - mo -di ta - Vee-- - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- R G , d pm- R S - S N N R snD N D | - - - D - N S N S - - - - - - - ||",
+        "sahitya": "- ra Ga- ja - - vada- na - - - Sam- - - - - - mo -di ta - Vee-- - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "- R G , d pm- R S - S N N R rsnd N D | - - - D - N S R R - G - MG M- ||",
+        "sahitya": "- ra Ga- ja - - vada- na - - - Sam- - - - - - mo -di ta - Vee-- ra - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "- - GM P - D - DN rsnd D- D , N , | srsr S - - - Gmg Mdm Pdn dppm - mgpm ||",
+        "sahitya": "- - Gaja val- -- li - - - - - Ra-ma na - -- - - - Maa- - - - ma- - - - - - va- - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "grsr G , d pm- R S - S N N R rsnd N D | - - - D - N R S, r R - G - MG M- ||",
+        "sahitya": "---- Ga- ja - - vada- na - - - Sam- - - - - - mo -di ta - Vee-- ra - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "- - GM P - D - DN rsnd D- D , N , | srsr S - - - Gmg Mdm Pdn dppm - mgpm ||",
+        "sahitya": "- - Gaja val-- li - - - - - Ra-ma na - -- - - - Maa- - - - ma- - - - - - va- - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - S , d N - dp M - P ,g M - mdP- P M | mgM P D N D - DN D- D N - snds N D ||",
+        "sahitya": "- - Vi ja - yo - - lla-- sa - Val- li - - - - Ka - taa- ksha- - Paa- - tra- - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "PD- Sn- d N - dp M - P ,g M - mdP- P M | mgM P D N D - DN D- D N - snds N D ||",
+        "sahitya": "- - Vi- ja - yo - - lla-- sa - Val- li - - - - Ka - taa- ksha- - Paa- - tra- - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "PD- pdns rs -dp M - P ,g M - mdP- P M | mgM P D N D - DN D- D N - snds N D ||",
+        "sahitya": "- - Vi- ja - yo - - lla-- sa - Val- li - - - - Ka - taa- ksha- - Paa- - tra- - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "PD - - P G R - S - - - rs nd - D N - | S - - - - - - - - - - - - - - - ||",
+        "sahitya": "- - - Vi ji ta Kal - - - - - - pa ka - Pa - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "- - - P ,g - R - S - - - rs nd - D N - | S - - - snsn dppm G - gmdp pmG R S ||",
+        "sahitya": "- - Vi ji - ta Kal - - - - - - pa ka - Pa - - lla- - va- - - Cha ra- - - na-- - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "- - - P ,g - R - S - - - rs nd - D N - | S - - - snsn dppm G - gmdp pmG gr S ||",
+        "sahitya": "- - Vi ji - ta Kal - - - - - - pa ka - Pa - - lla- - va- - - Cha ra- - - na-- - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- - - S R G -M - M - Mdp pmmg G - | G - G G M - P D D sn D M mgmd G R ||",
+            "sahitya": "- - - A sura Ku- la - Ni- - bi- - - dha- - - Timi ra - Bha- ra - - no - - - - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "Srn S , r - G -M - M - gmpd pmmg G - | G - G G M - PD dnsn D M mgmd G R ||",
+            "sahitya": "- - - A su - ra Ku- la - Ni- - bi- - - dha- - - Timi ra - Bha- ra - - no - - - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "SN S - R ,g M - G R R S - S - ,n | S - - R,g M - pdpd - m P, - - d mp - ||",
+            "sahitya": "- - Am- bo-- - - ru - ha - - Jaa- - ta- Stho- - - tra- - - -naa- - - tha-"
+          },
+          {
+            "line_number": 4,
+            "swara": "- - S - R ,g M - G R R S S- - N | - - - R,g M - pdpd - m P, - - d mp - ||",
+            "sahitya": "- - Am- bo-- - - ru - ha - Jaa- ta- - - Stho- - - tra- - - -naa- - - tha-"
+          },
+          {
+            "line_number": 5,
+            "swara": "- - - N ,- d N - dp - M P ,g M - mdP- P M | G M P - D N - N - - - D N - snds N D ||",
+            "sahitya": "- - Va- su - taa - ta pu-- ra - Sam- - - - - ra - - kshana - - De - - va- - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "PD- N ,- d N - dp - M P ,g M - mdP- md ppM | G M P D - N - N - - - D N - snds N D ||",
+            "sahitya": "- - Va- su - taa - ta pu-- ra - Sam- - - - - - - ra - - kshana - - De - - va- - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "PD- pd ns rs - dp - M P ,g M - M Pdp- P M | G M P D - N - N - - - D N - snds N D ||",
+            "sahitya": "- - Va- su -- taa - ta pu-- ra - Sam- - - - - - - ra - - kshana - - De - - va- - - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "PD - - P G R - S - - - S N S - - - | S - - - - - - - - - - - - - - - ||",
+            "sahitya": "- - - Vaa - gvi laa- - - sa- - - - - - - - - - - - - - - - - - -- -"
+          },
+          {
+            "line_number": 9,
+            "swara": "- - - P ,g - R - S - - - rs nd - D N - | S - - - snsn dppm G - gmdp pmG R S ||",
+            "sahitya": "- - Vaa - - gvi laa- - - sa- - -kaarti- ke- - - - - ya- - - Gu- ha- - - va- - ra -"
+          },
+          {
+            "line_number": 10,
+            "swara": "- - - P ,g - R - S - - - srgr snD - D N - | S - - - dnsn dppm G - gmdp pmG gr S ||",
+            "sahitya": "- - Vaa - - gvi laa- - - sa- - - -kaarti- ke- - - - - ya- - - Gu- ha- - - va- - ra -"
+          }
+        ]
+      }
+    ]
+  }
+}

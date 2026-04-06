@@ -1,0 +1,152 @@
+{
+  "song_details": {
+    "name": "Maal Maruga",
+    "raga": "Vasantha",
+    "arohanam": "S G3 M1 D2 N3 S ||",
+    "avarohanam": "S N3 D2 M1 G3 R1 S ||",
+    "tala": "Adi",
+    "composer": "Papanasam Sivan"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- , m , m M dndm , d N | S - - - - - - - ||",
+        "sahitya": "mal - maru ga - - San mu kha - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- ,- m , m M dndm , d N | S - - s n dndm gmg – r ||",
+        "sahitya": "mal - maru ga - - San mu kha - muru ga - - gu-- ha"
+      },
+      {
+        "line_number": 3,
+        "swara": "sns- m , m M dndm , d N | S - - s n dndm gmg – r ||",
+        "sahitya": "mal - maru ga - - San mu kha - muru ga - - gu-- ha"
+      },
+      {
+        "line_number": 4,
+        "swara": "sS- m , m M dndm , d N | sngr sn - d r sndm gmg – r ||",
+        "sahitya": "mal - maru ga - - San mu kha - -muru ga - - gu-- ha"
+      },
+      {
+        "line_number": 5,
+        "swara": "s S- m , m M dndm , d N | sngr sn - d r sndm mdmM,",
+        "sahitya": "mal - maru ga - - San mu kha - -muru ga - - gu-- ha"
+      },
+      {
+        "line_number": 6,
+        "swara": "s S- m , m , M , dnd m- d gr | S - - - - - - - ||",
+        "sahitya": "mal - ma-ru - ga - - San mu kha - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- ,-n , mD S , s - R | S - S S snrs sn - ds ||",
+        "sahitya": "nan marai sa- ra - Om ka ra sva ru-- pa --"
+      },
+      {
+        "line_number": 2,
+        "swara": "nD - n , mD S , s - sm | mgR S S nsrSn-",
+        "sahitya": "nan marai sa- ra - Om ka ra sva ru-- pa --"
+      },
+      {
+        "line_number": 3,
+        "swara": "mdn- n , mD S , s - sm | mgR S S nsrSn-",
+        "sahitya": "nan marai sa- ra - Om ka ra sva ru-- pa --"
+      },
+      {
+        "line_number": 4,
+        "swara": "- , - s g - r S nr",
+        "sahitya": "ma -mayil va- - ha- ne sva mi pra ta - - pa"
+      },
+      {
+        "line_number": 5,
+        "swara": "- , - s g - r S nrsS-n",
+        "sahitya": "ma -mayil va- - ha- ne sva mi pra ta - - pa"
+      },
+      {
+        "line_number": 6,
+        "swara": "- , - s g - r S nrsS-n",
+        "sahitya": "ma -mayil va- - ha- ne sva- mi - - pra - ta - pa- - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "grs- m , m M dndm , d N | sngr sn - d r sndm mdmM,",
+        "sahitya": "mal - maru ga - - San mu kha - -muru ga - - gu-- ha"
+      },
+      {
+        "line_number": 8,
+        "swara": "s S- m , m , M , dnd m- d gr | S - - - - - - - ||",
+        "sahitya": "mal - ma-ru - ga - - San mu kha - - - - - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "- ,-m , m M,g",
+        "sahitya": "vel Li ma- lai- na - than"
+      },
+      {
+        "line_number": 10,
+        "swara": "- ,-m , m M,g",
+        "sahitya": "vel Li ma- lai- na - than gau- ri - ba- - la-"
+      },
+      {
+        "line_number": 11,
+        "swara": "- ,-m , m M,g",
+        "sahitya": "vel Li ma- lai- na - than gau- ri - ba- - la-"
+      },
+      {
+        "line_number": 12,
+        "swara": "- ,-m , g R S , –sg",
+        "sahitya": "ve -ru tu Nai ka- Nen- van denai A - - Laai- -"
+      },
+      {
+        "line_number": 13,
+        "swara": "- ,-n , m - D S , s - R | S - S - - - - - ||",
+        "sahitya": "val Li dei va-nai - ma Na- La - - - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "- ,-n , m - D S , s - R | S - S- S snrs sn - ds ||",
+        "sahitya": "val Li dei va-nai - ma Na- La da ya- - La - -"
+      },
+      {
+        "line_number": 15,
+        "swara": "nD - n , m- D S , s - sm | mgR S - S nsrSn-",
+        "sahitya": "val Li dei va-nai - ma Na- La da ya- - La - -"
+      },
+      {
+        "line_number": 16,
+        "swara": "- , - s g r - S - N dm D | - mn ,d- M mgdm G - ||",
+        "sahitya": "va Nangum ra - ma da-san -talai ya Ni ta- - - La"
+      },
+      {
+        "line_number": 17,
+        "swara": "- , - s g r nrsS-n",
+        "sahitya": "va Nangum ra - ma da-san -talai ya Ni ta- - - La"
+      },
+      {
+        "line_number": 18,
+        "swara": "- , - s gr nrsS-n",
+        "sahitya": "va Nangum ra - ma da-san ta - lai -- ya - - Ni - ta- -"
+      },
+      {
+        "line_number": 19,
+        "swara": "grs- m , m M dndm , d N | sngr sn - d r sndm mdmM,",
+        "sahitya": "La- mal maru ga - - San mu kha - -muru ga - - gu-- ha"
+      },
+      {
+        "line_number": 20,
+        "swara": "s S- m , m M , dnd m- d N | S , -m , m M , dnd m- d N ||",
+        "sahitya": "mal - ma-ru - ga - - San mu kha mal -maru - ga - - San mu"
+      },
+      {
+        "line_number": 21,
+        "swara": "S ,- m , m M , dnd m- d R | - rs S - - - - - ||",
+        "sahitya": "mal - ma-ru - ga - - San mu - kha - - - - - -"
+      }
+    ],
+    "charanams": []
+  }
+}

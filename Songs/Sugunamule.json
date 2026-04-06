@@ -1,0 +1,77 @@
+{
+  "song_details": {
+    "name": "Sugunamule",
+    "raga": "Chakravaham",
+    "arohanam": "S R1 G3 M1 P D2 N2 S ||",
+    "avarohanam": "S N2 D2 P M1 G3 R1 S ||",
+    "tala": "Rupakam",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- p d , n D P - || - M M mg R S || - S s R , G R || G - - M - - ||",
+        "sahitya": "Sugu na mu le Che pu kon - ti Sun dara Raghu ra ma"
+      },
+      {
+        "line_number": 2,
+        "swara": "- pd , n D pm pd || ,p- M M mg R S || - S sR , G R || G - - pmgr sr ||",
+        "sahitya": "Sugu na mu le - - -- Che pukon - ti Sun dara Raghu ra ma - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "gm - p d , n D mp Dnd || P - M M mg R S || sndn srgm Pdn || S - N- d n , dpM- ||",
+        "sahitya": "- - Sugu namu le - - - - Che pu kon – ti Sun- - da-ra- Raghu ra- - - - - - ma –"
+      },
+      {
+        "line_number": 4,
+        "swara": "p d N dn Srs nd Pdn || dp- M M mg R S || sndn srgm p d n s || rmgr S dn , dpM- ||",
+        "sahitya": "Su- gu na-mu- - - le - - - - Che pu kon- - ti Sun- - da-ra- Ra-ghu ra- - - - - - - - ma –"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- nd , n S - N || R - R - N S || - n d , n S - N || R - r m g r R S ||",
+        "sahitya": "Vaga lerun - ga Le ka I- tu Vaga -la run ga Le- ka - - - I tu"
+      },
+      {
+        "line_number": 2,
+        "swara": "- nd , n S - N || M - pmgr R S || s r g m g r- s s nn D || mpdn S- d n , dpm ||",
+        "sahitya": "Vaga lerun - ga Le ka - - I tu Va- - - du- Va- nu-chu Du-ra- sa che - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- M , M , M M || G - p m g r R S ||",
+            "sahitya": "Sna na di Su kar mam - - bu lu"
+          },
+          {
+            "line_number": 2,
+            "swara": "- md p M , M M || g m p d ndpm g r S ||",
+            "sahitya": "Sna- - na di Su kar –- - mam - - bu-lu"
+          },
+          {
+            "line_number": 3,
+            "swara": "- n r s s nd N N || d n S N R S S ||",
+            "sahitya": "Ve- da- - dhya ya na- - mu Le ruga"
+          },
+          {
+            "line_number": 4,
+            "swara": "- nr ssnd N N || N R S rn S S || - nr ssnd N N || R R r m g r R S ||",
+            "sahitya": "Sri- na-- yaka ! Kshami yin-- chumu Sri- na-- yaka !kshami yin-- chumu"
+          },
+          {
+            "line_number": 5,
+            "swara": "- nr Srs nd N N || M M pmgr R S || s r g m g r- s s nn D || mpdn S- d n , dpm ||",
+            "sahitya": "Sri- na-- -- yaka ! Kshami yin-- chumu Sri - - Thya- - ga- ra ja - - - - nu - ta !- -"
+          }
+        ]
+      }
+    ]
+  }
+}

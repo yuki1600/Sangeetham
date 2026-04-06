@@ -1,0 +1,152 @@
+{
+  "song_details": {
+    "name": "Manasuloni",
+    "raga": "Varamu",
+    "arohanam": "S R2 G2 M1 D2 N3 S ||",
+    "avarohanam": "S N3 D2 M1 G2 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - m g , s M - G | M - - m n , d N D N ||",
+        "sahitya": "- - - Mana - su lo - ni Mar - mamu - lu De lu su"
+      },
+      {
+        "line_number": 2,
+        "swara": "nd D - m g , s M - G | M - - d n S ss nn D ||",
+        "sahitya": "ko -- - Mana - su lo - ni Mar - mamu - lu De lu su"
+      },
+      {
+        "line_number": 3,
+        "swara": "snnd D- m g , s M - G | M - - d n sg ss nn D ||",
+        "sahitya": "ko -- - Mana - su lo - ni Mar - mamu - lu De lu su"
+      },
+      {
+        "line_number": 4,
+        "swara": "sn dsnn ,d- m g S- sn D N | S - - m g , m D - N ||",
+        "sahitya": "ko -- - Maa- na Ra- - ksha ka! - Mara - ka taan - ga"
+      },
+      {
+        "line_number": 5,
+        "swara": "snnd D- m g S- ss nd N | S - - m g , m D - N ||",
+        "sahitya": "Naa- - - Maa- na Ra- - ksha ka! - Mara - ka taan - ga"
+      },
+      {
+        "line_number": 6,
+        "swara": "gssn nd -",
+        "sahitya": "Na - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - dd , m D - N | nd D - - nd , n S - N ||",
+        "sahitya": "- - - I na ku laa - pta! Ni- - - ve- - - Gaa - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - dd , m D - N | nd D - - nd , n S - N ||",
+        "sahitya": "ni - - I na ku laa - pta! Ni- - - ve- - - Gaa - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "dnsn dn- nd , m D - N | nd D - - ns nd - md mg S ||",
+        "sahitya": "ni - - - I na ku laa - pta! Ni- - - ve- - - Gaa - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "Mg m - nd , m D - N | nd D - - nd , n S - N ||",
+        "sahitya": "ni - - - I na ku laa - pta! Ni- - - ve- - - Gaa - ni"
+      },
+      {
+        "line_number": 5,
+        "swara": "S , m - - gm , g S - N | N - - - dn S - N s n D ||",
+        "sahitya": "Ve- - - rava - ru le - ru Aa - - nan- - da Hru-da"
+      },
+      {
+        "line_number": 6,
+        "swara": "snnd D- m g , s M - G | M - - d n sg ss nn D ||",
+        "sahitya": "ya -- - Mana - su lo - ni Mar - mamu - lu De lu su"
+      },
+      {
+        "line_number": 7,
+        "swara": "sn dsnn ,d- m g S- sn D N | S - - m g , m D - N ||",
+        "sahitya": "ko -- - Maa- na Ra- - ksha ka! - Mara - ka taan - ga"
+      },
+      {
+        "line_number": 8,
+        "swara": "snnd D- m g S- ss nd N | S - - m g , m D - N ||",
+        "sahitya": "Naa- - - Maa- na Ra- - ksha ka! - Mara - ka taan - ga"
+      },
+      {
+        "line_number": 9,
+        "swara": "gssn nd -",
+        "sahitya": "Na - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- - - m m , m M - M | G , g - - mg M D - N ||",
+            "sahitya": "- - - Munu -pu Pre - ma ga la - Do- ra vai - Sa"
+          },
+          {
+            "line_number": 2,
+            "swara": "nd D - m g , s sn D N | S , s - - N S g -s nd N ||",
+            "sahitya": "daa- - - Chanu - vu Ne- - li na di - Go ppa-gaa - - Day"
+          },
+          {
+            "line_number": 3,
+            "swara": "S- - nd , m D - N | nd D - - nd , n S - N ||",
+            "sahitya": "yaa - Kani - ka ram - mu to- - - Ni- - - ve - la"
+          },
+          {
+            "line_number": 4,
+            "swara": "S - - nd , m D - N | nd D - - nd , n S - N ||",
+            "sahitya": "Naa - Kani - ka ram - mu to- - - Ni- - - ve - la"
+          },
+          {
+            "line_number": 5,
+            "swara": "dnsn dn- nd , m D - N | nd D - - ns nd - md mg sg ||",
+            "sahitya": "Naa - - Kani - ka ram - mu to- - - Ni- - - ve - - la-"
+          },
+          {
+            "line_number": 6,
+            "swara": "Mg m - nd , m D - N | nd D - - nd , n S - N ||",
+            "sahitya": "Naa - - Kani - ka ram - mu to- - - Ni- - - ve - la"
+          },
+          {
+            "line_number": 7,
+            "swara": "S , m - - gm , g S - N | N , n - - dn S - N s n D ||",
+            "sahitya": "Naa - - Kara -mu Ba - ttu Tyaaga - raa- - ja Vi- nu"
+          },
+          {
+            "line_number": 8,
+            "swara": "snnd D- m g , s M - G | M - - d n sg ss nn D ||",
+            "sahitya": "ta! -- - Mana - su lo - ni Mar - mamu - lu De lu su"
+          },
+          {
+            "line_number": 9,
+            "swara": "sn dsnn ,d- m g S- sn D N | S - - m g , m D - N ||",
+            "sahitya": "ko -- - Maa- na Ra- - ksha ka! - Mara - ka taan - ga"
+          },
+          {
+            "line_number": 10,
+            "swara": "snnd D- m g S- ss nd N | S - - m g , m D - N ||",
+            "sahitya": "Naa- - - Maa- na Ra- - ksha ka! - Mara - ka taan - ga"
+          },
+          {
+            "line_number": 11,
+            "swara": "gssn nd -",
+            "sahitya": "Na - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

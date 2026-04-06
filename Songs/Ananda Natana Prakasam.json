@@ -1,0 +1,217 @@
+{
+  "song_details": {
+    "name": "Ananda Natana Prakasam",
+    "raga": "Kedaram",
+    "arohanam": "S M1 G3 M1 P N2 S ||",
+    "avarohanam": "S N2 P M1 G3 R2 S ||",
+    "tala": "Misra Chapu",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "sn P - | S - S - || M G - | G ,r R S || S - , r | r G , S - || - - - | - - - - ||",
+        "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - - - -- - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "sn P - | S - S - || M G - | G ,r R S || S - , r | r G s - -S || - R S | snrs sn N ||",
+        "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - ci - - tsa bhe-- sham –"
+      },
+      {
+        "line_number": 3,
+        "swara": "sn P - | S - S - || gm P , m | mGr R S || S - , r | r G , S -S || - R S | snrs sn N ||",
+        "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - ci - - tsa bhe-- sham –"
+      },
+      {
+        "line_number": 4,
+        "swara": "sn P - | S - S - || gm pnsn | pmgr R S || S - , r | r G , S -S || - R S | snrs sn N ||",
+        "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - ci - - tsa bhe-- sham –"
+      },
+      {
+        "line_number": 5,
+        "swara": "- - S | P - PM || G – R S | S rg rs S || sn P - | S - - M || gmG",
+        "sahitya": "- - A shra ya- - mi - shi-- va- - ka- - ma - val li- - - -- sham- - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "sn P - | S - S - || gm pnsn | pmgr R S || S - , r | r G , S -S || - R S | snrs sn N ||",
+        "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - ci - - tsa bhe-- sham –"
+      },
+      {
+        "line_number": 7,
+        "swara": "- - S | P - PM || G – R S | S rg rs S || sn P - | S - - M || gmG",
+        "sahitya": "- - A shra ya- - mi - shi-- va- - ka- - ma - val li- - - -- sham- - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "- - S | - - - - ||",
+        "sahitya": "- - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - G | , M , P - || - P - | - - - - || - - - | - - - - ||",
+        "sahitya": "-- bha - nu - ko- - Ti- - - - - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - G | , M , P - || - P - | P - - S || S - - | sn N - - || S - , n | S rg rs S ||",
+        "sahitya": "-- bha - nu - ko- - Ti- ko- - - Ti - - san- - - - ka- - - - - - sham-"
+      },
+      {
+        "line_number": 3,
+        "swara": "snN- nG,",
+        "sahitya": "-- - bha - nu - ko- - Ti- ko- - - Ti - - san- - - - ka- - - - - - sham-"
+      },
+      {
+        "line_number": 4,
+        "swara": "- - S | S - S - || - sn P | P , m M - || - - gm | P - nnM || m G - r | S R S - ||",
+        "sahitya": "- - bhu kti mu- - kti- - pra-- da - - - da- ha- ra- - ka- - - sham- - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "G - M | P N S - || r g R – S | S- S sn P || pS,",
+        "sahitya": "di- na jana sam ra- - ksa Na ca Nam-- - - - - - -- - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "G - M | P N S - || r g R – S | S- S sn P || pS,",
+        "sahitya": "di- na jana sam ra- - ksa Na ca Nam-- - - - - - -- - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "G - M | P N S - || r g R – S | S- S sn P ||",
+        "sahitya": "di- na jana sam ra- - ksa Na ca Nam--"
+      },
+      {
+        "line_number": 8,
+        "swara": "S s- p S | s s- G m- P p || P p n -P | m – G r s r S ||",
+        "sahitya": "divya patan jali vyaghra pada darshita kun ji tabja ca ranam"
+      },
+      {
+        "line_number": 9,
+        "swara": "sn P - | S - S - || gm pnsn | pmgr R S || S - , r | r G , S -S || - R S | snrs sn N ||",
+        "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - ci - - tsa bhe-- sham –"
+      },
+      {
+        "line_number": 10,
+        "swara": "- - S | P - PM || G – R S | S rg rs S || sn P - | S - - M || gmG",
+        "sahitya": "- - A shra ya- - mi - shi-- va- - ka- - ma - val li- - - -- sham- - - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "- - S | - - - - ||",
+        "sahitya": "- - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "P - - | P , m M- G || R - - | G ,m mg gr || S - - | - - sn P || S S - | r G r – R - ||",
+            "sahitya": "shi- - ta- - - mshu gan- - ga-- dha- - ram - - - ni- - la kan- dha- - ram - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "- - gm | P - sn M || m G - r | S rg – rs S || sn P - | S - - sm || m G - r | S R S - ||",
+            "sahitya": "- - shri ke- - - - - da- - ra-- di- - kse - - tra- - a - dha- - - ram - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "P - - | P , m M- G || R - - | G ,m mg gr || S - - | - - sn P || S S - | r G r – R - ||",
+            "sahitya": "shi- - ta- - - mshu gan- - ga-- dha- - ram - - - ni- - la kan- dha- - ram - -"
+          },
+          {
+            "line_number": 4,
+            "swara": "- - gm | P - sn M || m G - r | S , r – r s S || sn P - | S - P , m || m G - r | S R S - ||",
+            "sahitya": "- - shri ke- - - - - da- - ra-- di- - kse - - tra- A - - dha- - - ram - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "G - - | M - P - || - - - | - - - - ||",
+            "sahitya": "bhu- - te - sham - - - - - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "mG - , | M - P - || P ,m –p s | - S S - || S ,n – sr | s R , - S || S - S | sn N - - ||",
+            "sahitya": "bhu- - te - sham shar- ddu - - la car mam ba- ram - - ci dam-ba ram- - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "nG - , | M - P - || P ,m –p s | - S S - || S ,n – sr | s R , - S || S - S | sn N - - ||",
+            "sahitya": "bhu- - te - sham shar- ddu - - la car mam ba- ram - - ci dam-ba ram- - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "S - M | G - R – R || S - N | np N - n m || P - - | - - G - || mg G – R | S - - - ||",
+            "sahitya": "bhu-su ra- tri- sa has- ra mu-ni - shva- ram - - - - vish- ve- - shva ram - -"
+          },
+          {
+            "line_number": 9,
+            "swara": "S - M | G - R – R || S - N | np N - n m || P - - | - - G - || mg G – R | S - S S ||",
+            "sahitya": "bhu-su ra- tri- sa has- ra mu-ni - shva- ram - - - - vish- ve- - shva ram nava"
+          },
+          {
+            "line_number": 10,
+            "swara": "S - M | G R S - || S M G | gm P N M || P - N | nn M P - || G - R | sRs S - ||",
+            "sahitya": "ni - ta hr da yam sa da ya gu- ru guh a tha- tha ma- - dyam ve – da ve-- dyam"
+          },
+          {
+            "line_number": 11,
+            "swara": "S - S | M - GM || P - N | pmM",
+            "sahitya": "vi – ta ra- ginam a -para me- - - ya- Dhvai- ta- pra ti pa- - dyam- - -"
+          },
+          {
+            "line_number": 12,
+            "swara": "S - S | M - GM || P - N | pmM",
+            "sahitya": "vi – ta ra- ginam a -para me- - - ya- Dhvai- ta- pra ti pa- - dyam- - san"
+          },
+          {
+            "line_number": 13,
+            "swara": "S - S | S - S – S || rg R –S | S - N P || P - pg | - gm , p N || nP , M | gmG - R",
+            "sahitya": "gi- ta va- dya vi no- - da tan Dava ja- ta- bahu tara bhe- da co- - - dyam san"
+          },
+          {
+            "line_number": 14,
+            "swara": "S - S | S - S – S || mg R –S | S - N P || P - pg | - gm , p N || nP , M | gmG - R",
+            "sahitya": "gi- ta va- dya vi no- - da tan Dava ja- ta- bahu tara bhe- da co- - - dyam"
+          },
+          {
+            "line_number": 15,
+            "swara": "P - N | N S M G || G R R | S N N - || S - M | G R S M || G – M P | - N M G ||",
+            "sahitya": "P - N N S tha ka ja nu tha S N N - Jam tha ri tha S M G – M P - N M G"
+          },
+          {
+            "line_number": 16,
+            "swara": "R S R | S S M G || M M P | S N N - || S – S - | N P P,m n P,",
+            "sahitya": "Tha ja nu tha ka M G M M P S N N - tha jam tha ri P - M G tha thi gi nathom"
+          },
+          {
+            "line_number": 17,
+            "swara": "P nns – m | g g r r s n N || S m g r– s | m g m p , n m g ||",
+            "sahitya": "P nns thakajanutha s n N Jamtharitha s m g m p , n m g"
+          },
+          {
+            "line_number": 18,
+            "swara": "r s r s s – m | g m m p s n N || s S – n p – p | , m g – r s r s s ||",
+            "sahitya": "Thajanu thaka m g m m p s n N tha jam tha ri p , m g thathi ginathom"
+          },
+          {
+            "line_number": 19,
+            "swara": "s S – n p – p | , m g – r s r s s || s S – n p – p | , m g – r s r s s ||",
+            "sahitya": "tha jam tha ri p , m g thathi ginathom tha jam tha ri p , m g thathi ginathom"
+          },
+          {
+            "line_number": 20,
+            "swara": "sn P - | S - S - || gm pnsn | pmgr R S || S - , r | r G , S -S || - R S | snrs sn N ||",
+            "sahitya": "A- - - nan da- nata - na- - pr a- ka- - - sham-- - ci - - tsa bhe-- sham –"
+          }
+        ]
+      }
+    ]
+  }
+}

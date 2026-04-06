@@ -10,6 +10,28 @@ let sourceNode = null;
 let dataBuffer = null;
 
 /**
+ * Resume AudioContext if suspended.
+ * @returns {Promise<void>}
+ */
+export async function resumeAudioContext() {
+    if (audioContext && audioContext.state === 'suspended') {
+        try {
+            await audioContext.resume();
+        } catch (err) {
+            console.error('Failed to resume AudioContext:', err);
+        }
+    }
+}
+
+/**
+ * Get current state of the AudioContext.
+ * @returns {string} 'running', 'suspended', 'closed', or 'none'
+ */
+export function getAudioContextState() {
+    return audioContext?.state ?? 'none';
+}
+
+/**
  * Start microphone capture and set up analyser.
  * @returns {Promise<{ sampleRate: number }>}
  */
@@ -29,10 +51,8 @@ export async function startMic() {
             audioContext = new (window.AudioContext || window.webkitAudioContext)();
         }
 
-        // Always try to resume context (crucial for auto-start after gesture)
-        if (audioContext.state === 'suspended') {
-            await audioContext.resume();
-        }
+        // Always try to resume context
+        await resumeAudioContext();
 
         if (!analyserNode) {
             analyserNode = audioContext.createAnalyser();

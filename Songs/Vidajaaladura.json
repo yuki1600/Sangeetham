@@ -1,0 +1,202 @@
+{
+  "song_details": {
+    "name": "Vidajaaladura",
+    "raga": "Janaranjani",
+    "arohanam": "S R2 G3 M1 P D2 P N3 S ||",
+    "avarohanam": "S D2 P M1 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "D P N - - - SD | P - - pm R - G M P ||",
+        "sahitya": "Vida jaa- - - ladu raa- - Naa- - Ma na su"
+      },
+      {
+        "line_number": 2,
+        "swara": "D P pnsr - - SD | P - - pm R - G M P ||",
+        "sahitya": "Vida jaa- - - ladu raa- - Naa- - Ma na su"
+      },
+      {
+        "line_number": 3,
+        "swara": "D P mpdp N - SD | P - - pm R - G M P ||",
+        "sahitya": "Vida jaa- - - ladu raa- - Naa- - Ma na su"
+      },
+      {
+        "line_number": 4,
+        "swara": "D P PN - - srgm | R - sd pm R - G M P ||",
+        "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+      },
+      {
+        "line_number": 5,
+        "swara": "D P mpdp PN srgm | R - sd pm R - G M P ||",
+        "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+      },
+      {
+        "line_number": 6,
+        "swara": "D P mpdp nsrs srgm | R - sd pm R - G M P ||",
+        "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+      },
+      {
+        "line_number": 7,
+        "swara": "mdP pm R - - S - - | - - - R - - G M P ||",
+        "sahitya": "Vi-na- raa- - - - - - -naa- - Ma na s u"
+      },
+      {
+        "line_number": 8,
+        "swara": "mdP pm R - - S - - | - - - pm R - G M P ||",
+        "sahitya": "Vi-na- raa- - - - - - -naa- - Ma na s u"
+      },
+      {
+        "line_number": 9,
+        "swara": "D P PN - - srgm | R - sd pm R - G M P ||",
+        "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+      },
+      {
+        "line_number": 10,
+        "swara": "mdP pm R - - S - - | srgm pm R S - rgmp ||",
+        "sahitya": "Vi-na- raa- - - - - - - - - - - - - -- - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "D P mpdp nsrs srgm | R - sd pm R - G M P ||",
+        "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+      },
+      {
+        "line_number": 12,
+        "swara": "mdP pm R - - S - - | srgm pm R S - rgmp ||",
+        "sahitya": "Vi-na- raa- - - - - - - - - - - - - -- - -"
+      },
+      {
+        "line_number": 13,
+        "swara": "mdP pm R - - S - - | - - mdpm R - G M P ||",
+        "sahitya": "Vi-na- raa- - - - - - - - Naa- - - Ma na su"
+      },
+      {
+        "line_number": 14,
+        "swara": "mdP pm R - - S - - | - - sdpm R - G M P ||",
+        "sahitya": "Vi-na- raa- - - - - - - - Naa- - - Ma na su"
+      },
+      {
+        "line_number": 15,
+        "swara": "mdP pm R - - S - - | - - - - - - - - ||",
+        "sahitya": "Vi-na- raa- - - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "S R G - - - M R | S - - - - - - - ||",
+        "sahitya": "Adi yaa- - - sala che - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S R G - - - M R | S - - D P M P N ||",
+        "sahitya": "Adi yaa- - - sala che - Da gi li Ne-"
+      },
+      {
+        "line_number": 3,
+        "swara": "S R G - sr G M R | S - - D P M P N ||",
+        "sahitya": "Adi yaa- - - sala che - Da gi li Ne-"
+      },
+      {
+        "line_number": 4,
+        "swara": "S R G - srgm pm R | S - - D P M P N ||",
+        "sahitya": "Adi yaa- - - sa- la che - Da gi li Ne-"
+      },
+      {
+        "line_number": 5,
+        "swara": "D P - pr S D D P | - md pmR - G M P ||",
+        "sahitya": "Naa- -rthi- Badi Naa- - Pa- dam-- - bu la nu"
+      },
+      {
+        "line_number": 6,
+        "swara": "D P - pr S D D P | MD pmR - G M P ||",
+        "sahitya": "Naa- -rthi- Badi Naa- Pa dam-- - bu la nu"
+      },
+      {
+        "line_number": 7,
+        "swara": "D P mpdp nsrs srgm | R - sd pm R - G M P ||",
+        "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+      },
+      {
+        "line_number": 8,
+        "swara": "mdP pm R - - S - - | - - sdpm R - G M P ||",
+        "sahitya": "Vi-na- raa- - - - - - - - Naa- - - Ma na su"
+      },
+      {
+        "line_number": 9,
+        "swara": "mdP pm R - - S - - | - - - - - - - - ||",
+        "sahitya": "Vi-na- raa- - - - - - - - - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "P P P - - - pm R | G M dppm R - , s S ||",
+            "sahitya": "Tanu Ve- - - Pa- nu la ku Cha-ni- na- Mar i"
+          },
+          {
+            "line_number": 2,
+            "swara": "S R G - - - , m R | - s r , g M P - - - ||",
+            "sahitya": "Kana raa- - - - nidi Kanu - koni na- - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "P P P - - - pm R | G M dppm R - , s S ||",
+            "sahitya": "Tanu Ve- - - Pa- nu la ku Cha-ni- na- Mar i"
+          },
+          {
+            "line_number": 4,
+            "swara": "S R G - - - , m R | - s r , g M P - srgm ||",
+            "sahitya": "Kana raa- - - - nidi Kanu - koni na- - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "S R G - - M , R , | S - - - - - - - ||",
+            "sahitya": "Ninnu gaa - Bhaa - vin chi- - - - - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "S R G - - M , R , | S - - D P M P N ||",
+            "sahitya": "Ninnu gaa - Bhaa - vin chi- - San ta sil li ti"
+          },
+          {
+            "line_number": 7,
+            "swara": "S R G - srgm pm R | S - - D P M P N ||",
+            "sahitya": "Ninnu gaa Bhaa- vin- - chi- - San ta sil li ti"
+          },
+          {
+            "line_number": 8,
+            "swara": "D P - pr S D D P | - md pmR - G M P ||",
+            "sahitya": "Sri- - Tyaa - - ga- - raa- - - - - ja nu t a"
+          },
+          {
+            "line_number": 9,
+            "swara": "D P - R S D D P | - md pmR - G M P ||",
+            "sahitya": "Sri- - Tyaa - - ga- - raa- ja - - - vi nu ta"
+          },
+          {
+            "line_number": 10,
+            "swara": "D P mpdp nsrs srgm | R - sd pm R - G M P ||",
+            "sahitya": "Vida jaa- - - la-du- raa- Naa- - - Ma na su"
+          },
+          {
+            "line_number": 11,
+            "swara": "mdP pm R - - S - - | - - sdpm R - G M P ||",
+            "sahitya": "Vi-na- raa- - - - - - - - Naa- - - Ma na su"
+          },
+          {
+            "line_number": 12,
+            "swara": "mdP pm R - - S - - | - - - - - - - - ||",
+            "sahitya": "Vi-na- raa- - - - - - - - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

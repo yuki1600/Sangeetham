@@ -1,0 +1,137 @@
+{
+  "song_details": {
+    "name": "Alakalladaga",
+    "raga": "Madhyamavati",
+    "arohanam": "S R2 M1 P N2 S ||",
+    "avarohanam": "S N2 P M1 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "P M | R r r s n P || n s R | R R r s R ||",
+        "sahitya": "A la kal lla- - - - la - - Daga ga-ni"
+      },
+      {
+        "line_number": 2,
+        "swara": "P M | R p m r s n p || n s R | R R r s R ||",
+        "sahitya": "A la kal lla- - - - - la - - Daga ga-ni"
+      },
+      {
+        "line_number": 3,
+        "swara": "s r m r | r m p m P P || n n P | p m p m r s r m ||",
+        "sahitya": "A - - ra - - - Nmuni ye- Tu pon- - - ge- no-"
+      },
+      {
+        "line_number": 4,
+        "swara": "P M | R p m r s n p || n s R | R R r s R ||",
+        "sahitya": "A la kal lla- - - - - la - - Daga ga-ni"
+      },
+      {
+        "line_number": 5,
+        "swara": "s r m r | r m p m P P || p n s r | s n s n p m p n ||",
+        "sahitya": "ya - - ra - - - Nmuni ye- Tu pon- - - ge- no-"
+      },
+      {
+        "line_number": 6,
+        "swara": "s n p m | R p m r s n p || n s R | R R r s R ||",
+        "sahitya": "A- la- kal lla- - - - - la - - Daga ga-ni"
+      },
+      {
+        "line_number": 7,
+        "swara": "r m r m | p m p n p n s r || s n s r | s n s n p m p n ||",
+        "sahitya": "A - - - ra - - - Nmu-ni- ye- Tu pon- - - ge- no-"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- r r | R- R - R || s r r m | s R s s n s n ||",
+        "sahitya": "celu vu mi - ra ga- nu- ma- - ri- - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S S | - - - - || n s r s | s n n p m p n s ||",
+        "sahitya": "cuni - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "- r r | R- R - R || s r r m | s R s s n s n ||",
+        "sahitya": "celu vu mi - ra ga- nu- ma- - ri- - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "S S | - - - - || m p n s | r m r s n p n s ||",
+        "sahitya": "cuni - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "- r r | R- R - R || s r r m | s R s S - ||",
+        "sahitya": "celu vu mi - ra ga- nu- ma- - ri -"
+      },
+      {
+        "line_number": 6,
+        "swara": "s R s | n S n p m p n || p n Srs | n r s n p m p n ||",
+        "sahitya": "cu-ni ma-da ma- na- cu - - - ve - - - - - la -"
+      },
+      {
+        "line_number": 7,
+        "swara": "s n p m | R p m r s n p || n s R | R R r s R ||",
+        "sahitya": "A- la- kal lla- - - - - la - - Daga ga-ni"
+      },
+      {
+        "line_number": 8,
+        "swara": "r m r m | p m p n p n s r || s n s r | s n s n p m p n ||",
+        "sahitya": "A - - - ra - - - Nmu-ni- ye- Tu pon- - - ge- no-"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "P M | P R M R || r m- p m | n n p m r m p m ||",
+            "sahitya": "muni kanu sai- ga - de- li - si - shi- va-"
+          },
+          {
+            "line_number": 2,
+            "swara": "P - | - - - - || m p n p | s n p m r s r m ||",
+            "sahitya": "- - - - - - - - - - - - - - - - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "P M | P R M R || r m- p m | n n p m r m p m ||",
+            "sahitya": "muni kanu sai- ga - de- li - si - shi- va-"
+          },
+          {
+            "line_number": 4,
+            "swara": "n n P | n n M P R || r m p n | pm – P N S ||",
+            "sahitya": "dha-nu vu-nu vi ri ce- - - di- sa ma ya"
+          },
+          {
+            "line_number": 5,
+            "swara": "R R | R - - R || s r r m | s R s S S ||",
+            "sahitya": "mu na tya - - ga ra - - - ju - - vinu"
+          },
+          {
+            "line_number": 6,
+            "swara": "s R s | n S n p m p n || p n Srs | n r s n p m p n ||",
+            "sahitya": "tu- ni mo- - mu - na- ran- - - - - jil- - - lu-"
+          },
+          {
+            "line_number": 7,
+            "swara": "s n p m | R p m r s n p || n s R | R R r s R ||",
+            "sahitya": "A- la- kal lla- - - - - la - - Daga ga-ni"
+          },
+          {
+            "line_number": 8,
+            "swara": "r m r m | p m p n p n s r || s n s r | s n s n p m p n ||",
+            "sahitya": "A - - - ra - - - Nmu-ni- ye- Tu pon- - - ge- no-"
+          }
+        ]
+      }
+    ]
+  }
+}

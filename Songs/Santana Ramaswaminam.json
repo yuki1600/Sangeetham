@@ -1,0 +1,202 @@
+{
+  "song_details": {
+    "name": "Santana Ramaswaminam",
+    "raga": "Hindolavasanta",
+    "arohanam": "S G2 M1 P D1 S ||",
+    "avarohanam": "S N2 D1 M1 G2 R2 G2 S ||",
+    "tala": "Adi",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "S - - P - P pd N | nddm - M m g | R – G M - ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - P - P pd gs | nddm - M m g | R – G M - ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+      },
+      {
+        "line_number": 3,
+        "swara": "G R G – M - P D M | S M - d m | g r – m g s – g s n ||",
+        "sahitya": "sagu Na nir - gu Na - svaru - pam- - - bha- - ja - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - - P - P pd gs | nddm - M m g | R – G mDm ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+      },
+      {
+        "line_number": 5,
+        "swara": "G R G – M - P D M | S M - d m | g r – m g s – g s n ||",
+        "sahitya": "sagu Na nir - gu Na - svaru - pam- - - bha- - ja - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "S - - P - P pd gs | nddm - M , g | R – G gmpd ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+      },
+      {
+        "line_number": 7,
+        "swara": "M - - - - gm gg - | - - ggmg | S - - - ||",
+        "sahitya": "- - - - -- - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "G R G - G - - , g G | M - P - | D M G S ||",
+        "sahitya": "San- ta tam - - - yamu na- mba pu ri niva"
+      },
+      {
+        "line_number": 2,
+        "swara": "G G M - - - - - | - - - - | - - - - ||",
+        "sahitya": "San- tam- - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "G R G - G - - , g G | M - P - | D M G S ||",
+        "sahitya": "San- ta tam - - - yamu na- mba pu ri niva"
+      },
+      {
+        "line_number": 4,
+        "swara": "G G M - - - , g G | M - pd sn | D M G S ||",
+        "sahitya": "San- tam- - - - yamu na- mba- pu ri niva"
+      },
+      {
+        "line_number": 5,
+        "swara": "G G M - , p D S ,n | S - N - | nd M G S ||",
+        "sahitya": "San- tam- nata san- tam- hin- do – Lava"
+      },
+      {
+        "line_number": 6,
+        "swara": "R g- m , g S - - - - | - - - - | - - - - ||",
+        "sahitya": "santama –dhavam - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "G R G - G - - , g G | M - pd sn | D M G S ||",
+        "sahitya": "San- ta tam - - - yamu na- mba pu ri niva"
+      },
+      {
+        "line_number": 8,
+        "swara": "G G M - , p D S ,n | NgssN, N ,d | D M G S ||",
+        "sahitya": "San- tam- nata san- tam- hin- do – Lava"
+      },
+      {
+        "line_number": 9,
+        "swara": "R g- m , g S N g r , g M | S s – p , ds s | N dm , m g s ||",
+        "sahitya": "santama –dhavam janaki - dhavam saccida na n-da vaibhavam- shivam-"
+      },
+      {
+        "line_number": 10,
+        "swara": "S - - P - P pd gs | nddm - M m g | R – G M , g ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam va"
+      },
+      {
+        "line_number": 11,
+        "swara": "R g- m , g S N g r , g M | S s – p , dg s | N dm , m g s ||",
+        "sahitya": "santama –dhavam janaki - dhavam saccida na n-da vaibhavam- shivam-"
+      },
+      {
+        "line_number": 12,
+        "swara": "S - - P - P pd gs | nddm - M m g | R – G M - ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+      },
+      {
+        "line_number": 13,
+        "swara": "G R G – M - P D M | S , m - d m | g r – m g s – g s n ||",
+        "sahitya": "sagu Na nir - gu Na - svaru - pam- - - bha- - ja - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "S - - P - P pd N | nddm - M , g | R – G M - ||",
+        "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "S - - G - G gS , | M - M – M | P D d M, ||",
+            "sahitya": "San - ta - na sau- bha gya vi tara Nam-"
+          },
+          {
+            "line_number": 2,
+            "swara": "S - N – D M – mg G S | , s S G G | M M P - ||",
+            "sahitya": "sa- dhu ja na hr- daya sara si ja ca ra Nam"
+          },
+          {
+            "line_number": 3,
+            "swara": "S - S ,n DsnnD, D M | G M N D | , P d S - ||",
+            "sahitya": "Cin ta- man - - ya - lan- kr ta ga-- tram"
+          },
+          {
+            "line_number": 4,
+            "swara": "- - - - - - - - | - - - - | - - - - ||",
+            "sahitya": "- - - - - - - - - - - - - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "S - NgssN, DsnnD, D mm | G M N D | P ,d S - ||",
+            "sahitya": "Cin ta- man - - ya -a lan- kr ta ga-- tram"
+          },
+          {
+            "line_number": 6,
+            "swara": "S - M - g S , S - | S – N D M | G M g S , ||",
+            "sahitya": "Cin ma- tram su- rya can - dra ne - tram"
+          },
+          {
+            "line_number": 7,
+            "swara": "S - NgssN, DsnnD, D mm | G M N D | P ,d S - ||",
+            "sahitya": "Cin ta- man - - ya -a lan- kr ta ga-- tram"
+          },
+          {
+            "line_number": 8,
+            "swara": "S - gmgg S - S - | S – sn D M | G M g S , ||",
+            "sahitya": "Cin ma- tram su- rya can - dra ne - tram"
+          },
+          {
+            "line_number": 9,
+            "swara": "S s- g , m- p n d m – g m p d S | - - - - - - - - ||",
+            "sahitya": "Antaran - ga guru guha sam- ve-dyam - - - - - - - -"
+          },
+          {
+            "line_number": 10,
+            "swara": "S s- g , m- p n d m – g m p d S | m g s - n s – N d m n d – m g m g s ||",
+            "sahitya": "Antaran - ga guru guha sam- ve-dyam an r ta ja Da duhkha rahita ma na- dyam-"
+          },
+          {
+            "line_number": 11,
+            "swara": "S - - P - P pd N | nddm - M m g | R – G M - ||",
+            "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+          },
+          {
+            "line_number": 12,
+            "swara": "S s- g , m- p n d m – g m p d S | m g s - n s – N d m n d – m g m g s ||",
+            "sahitya": "Antaran - ga guru guha sam- ve-dyam an r ta ja Da duhkha rahita ma na- dyam-"
+          },
+          {
+            "line_number": 13,
+            "swara": "S - - P - P pd gs | nddm - M m g | R – G M - ||",
+            "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+          },
+          {
+            "line_number": 14,
+            "swara": "G R G – M - P D M | S M - d m | g r – m g s – g s n ||",
+            "sahitya": "sagu Na nir - gu Na - svaru - pam- - - bha- - ja - -"
+          },
+          {
+            "line_number": 15,
+            "swara": "S - - P - P pd N | nddm - M , g | R – G M - ||",
+            "sahitya": "San - ta - na ra- - ma- - - sva - - - mi nam"
+          }
+        ]
+      }
+    ]
+  }
+}

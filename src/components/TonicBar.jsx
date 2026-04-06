@@ -1,0 +1,321 @@
+import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { Volume2, VolumeX, Play, Square, Activity } from 'lucide-react';
+import { TONIC_PRESETS, hzToSwara } from '../utils/swaraUtils';
+import { startDrone, stopDrone, isDronePlaying, setDroneVolume, getDroneVolume } from '../utils/droneEngine';
+import { startMic, stopMic, getAudioBuffer, resumeAudioContext, getAudioContextState } from '../utils/audioEngine';
+import { initPitchDetector, detectPitch } from '../utils/pitchDetection';
+
+/**
+ * TonicBar — Unified control bar for Tonic selection, Drone playback, and Live Pitch Monitoring.
+ * Refined with a stable layout and centered live pitch detection.
+ */
+export default function TonicBar({ tonicHz, onTonicChange, theme }) {
+    const [isDroneActive, setIsDroneActive] = useState(isDronePlaying());
+    const [volume, setVolume] = useState(getDroneVolume());
+    
+    // Pitch Monitoring State (Auto-starts on interaction)
+    const [isMicActive, setIsMicActive] = useState(true);
+    const [pitchData, setPitchData] = useState(null); // { hz, swara, deviation, color }
+    const [signalLevel, setSignalLevel] = useState(0);
+    
+    const rafRef = useRef(null);
+    const micActiveRef = useRef(false);
+    const lastProcessTimeRef = useRef(0);
+    const lastLoopTimeRef = useRef(performance.now());
+
+    // --- Drone Logic ---
+    useEffect(() => {
+        const timer = setInterval(() => {
+            const playing = isDronePlaying();
+            if (playing !== isDroneActive) setIsDroneActive(playing);
+        }, 500);
+        return () => clearInterval(timer);
+    }, [isDroneActive]);
+
+    useEffect(() => {
+        if (isDroneActive) {
+            startDrone(tonicHz);
+        }
+    }, [tonicHz, isDroneActive]);
+
+    const toggleDrone = useCallback(async () => {
+        if (isDroneActive) {
+            stopDrone();
+            setIsDroneActive(false);
+        } else {
+            await startDrone(tonicHz);
+            setIsDroneActive(true);
+        }
+    }, [isDroneActive, tonicHz]);
+
+    const handleVolumeChange = (e) => {
+        const val = parseFloat(e.target.value);
+        setVolume(val);
+        setDroneVolume(val);
+    };
+
+    // --- Pitch Monitoring Logic ---
+    const startMonitoring = useCallback(async () => {
+        try {
+            const { sampleRate } = await startMic();
+            initPitchDetector(sampleRate);
+            micActiveRef.current = true;
+            setIsMicActive(true);
+        } catch (err) {
+            console.error('Mic access failed:', err);
+            // Don't disable isMicActive completely, allow retry on next interaction
+        }
+    }, []);
+
+    const stopMonitoring = useCallback(() => {
+        micActiveRef.current = false;
+        setIsMicActive(false);
+        stopMic();
+        setPitchData(null);
+        setSignalLevel(0);
+    }, []);
+
+    // Watchdog and Persistence
+    useEffect(() => {
+        const watchdog = setInterval(() => {
+            if (isMicActive && micActiveRef.current) {
+                const now = performance.now();
+                const diff = now - lastLoopTimeRef.current;
+                
+                // If loop hasn't run for > 1s, restart it
+                if (diff > 1000) {
+                    console.warn('Pitch Monitor watchdog: Loop stalled. Restarting...');
+                    if (rafRef.current) cancelAnimationFrame(rafRef.current);
+                }
+
+                // Check AudioContext state
+                if (getAudioContextState() === 'suspended') {
+                    resumeAudioContext();
+                }
+            }
+        }, 2000);
+        return () => clearInterval(watchdog);
+    }, [isMicActive]);
+
+    useEffect(() => {
+        let smoothHz = null;
+        const hzHistory = [];
+
+        function loop() {
+            lastLoopTimeRef.current = performance.now();
+
+            if (!micActiveRef.current) {
+                rafRef.current = requestAnimationFrame(loop);
+                return;
+            }
+
+            try {
+                const buffer = getAudioBuffer();
+                if (buffer) {
+                    let rms = 0;
+                    for (let i = 0; i < buffer.length; i++) rms += buffer[i] * buffer[i];
+                    rms = Math.sqrt(rms / buffer.length);
+                    setSignalLevel(prev => prev * 0.7 + Math.min(1, rms * 15) * 0.3);
+
+                    const hz = detectPitch(buffer);
+                    const now = performance.now();
+
+                    if (now - lastProcessTimeRef.current >= 80) { // ~12fps for bar monitor
+                        lastProcessTimeRef.current = now;
+
+                        if (hz) {
+                            hzHistory.push(hz);
+                            if (hzHistory.length > 3) hzHistory.shift();
+                            const sorted = [...hzHistory].sort((a, b) => a - b);
+                            const median = sorted[Math.floor(sorted.length / 2)];
+                            
+                            if (smoothHz === null || Math.abs(smoothHz - median) > 30) {
+                                smoothHz = median;
+                            } else {
+                                smoothHz = smoothHz * 0.8 + median * 0.2;
+                            }
+                        } else {
+                            hzHistory.push(null);
+                            if (hzHistory.length > 3) hzHistory.shift();
+                            if (hzHistory.every(h => h === null)) smoothHz = null;
+                        }
+
+                        if (smoothHz) {
+                            const info = hzToSwara(smoothHz, tonicHz);
+                            if (info) {
+                                setPitchData({
+                                    hz: Math.round(smoothHz * 10) / 10,
+                                    swara: info.swara,
+                                    deviation: Math.round(info.deviation),
+                                    color: info.color,
+                                });
+                            }
+                        } else {
+                            setPitchData(null);
+                        }
+                    }
+                }
+            } catch (err) {
+                console.error('Pitch Monitor loop error:', err);
+            }
+            
+            rafRef.current = requestAnimationFrame(loop);
+        }
+
+        rafRef.current = requestAnimationFrame(loop);
+        return () => {
+            if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        };
+    }, [tonicHz]);
+
+    useEffect(() => {
+        const tryStart = () => {
+            if (isMicActive) {
+                if (!micActiveRef.current) {
+                    startMonitoring();
+                } else {
+                    resumeAudioContext();
+                }
+            }
+        };
+
+        const events = ['click', 'mousedown', 'pointerdown', 'touchstart', 'keydown', 'scroll'];
+        events.forEach(e => window.addEventListener(e, tryStart, { passive: true }));
+        
+        // Initial attempt (may fail due to browser policy, but handled by the listeners)
+        tryStart();
+
+        return () => {
+            events.forEach(e => window.removeEventListener(e, tryStart));
+            if (micActiveRef.current) stopMic();
+        };
+    }, [isMicActive, startMonitoring]);
+
+    return (
+        <div className="w-full mb-8 sticky top-0 z-30 fade-in">
+            <div 
+                className="relative overflow-hidden rounded-3xl border border-[var(--glass-border)] transition-all duration-500 shadow-[0_8px_32px_rgba(0,0,0,0.12)]"
+                style={{ 
+                    background: 'var(--glass-bg)', 
+                    backdropFilter: 'blur(24px)', 
+                    WebkitBackdropFilter: 'blur(24px)' 
+                }}
+            >
+                {/* Visualizer Background Accent */}
+                <div 
+                    className="absolute inset-0 transition-opacity duration-700 pointer-events-none" 
+                    style={{ 
+                        background: pitchData ? `radial-gradient(circle at center, ${pitchData.color}15 0%, transparent 70%)` : 'none',
+                        opacity: pitchData ? 1 : 0
+                    }}
+                />
+                
+                <div className="relative z-10 px-6 py-4 flex flex-col lg:flex-row items-center gap-6 lg:gap-0 h-auto lg:h-[84px]">
+                    
+                    {/* Left: Drone Controls */}
+                    <div className="flex items-center gap-4 lg:border-r border-[var(--glass-border)] lg:pr-8 flex-shrink-0 min-w-[160px]">
+                        <button
+                            onClick={toggleDrone}
+                            className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${
+                                isDroneActive 
+                                ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/20 scale-105' 
+                                : 'bg-white/5 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10'
+                            }`}
+                        >
+                            {isDroneActive ? <Square className="w-5 h-5 fill-current" /> : <Play className="w-5 h-5 fill-current ml-0.5" />}
+                        </button>
+                        
+                        <div className="flex flex-col">
+                            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-500/60 leading-none mb-1">Shruti</span>
+                            <div className="flex items-baseline gap-1.5">
+                                <span className="text-xl font-bold text-[var(--text-primary)]">
+                                    {TONIC_PRESETS.find(p => p.hz === tonicHz)?.name || 'Custom'}
+                                </span>
+                                <span className="text-[10px] font-medium text-[var(--text-muted)]">
+                                    {Math.round(tonicHz)}Hz
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Center: Live Pitch Monitor (Stable Width, No Internal Borders) */}
+                    <div className="flex-1 flex items-center justify-center pl-4 lg:pl-8 pr-4 lg:pr-8">
+                        <div className="min-w-[280px] flex items-center justify-center transition-all duration-300">
+                            {pitchData ? (
+                                <div className="flex items-center gap-8 slide-up">
+                                    <div 
+                                        className="text-4xl font-black transition-colors duration-200"
+                                        style={{ color: pitchData.color, textShadow: `0 0 15px ${pitchData.color}40` }}
+                                    >
+                                        {pitchData.swara}
+                                    </div>
+                                    <div className="w-[1px] h-8 bg-[var(--glass-border)]/50" />
+                                    <div className="flex flex-row items-center gap-3">
+                                        <div className="text-base font-bold text-[var(--text-primary)] tracking-tight">
+                                            {pitchData.hz} <span className="text-[10px] font-normal text-[var(--text-muted)] uppercase">Hz</span>
+                                        </div>
+                                        <div 
+                                            className="text-[11px] font-black tracking-wider px-2 py-0.5 rounded-md bg-white/5 border border-white/5"
+                                            style={{ color: pitchData.color }}
+                                        >
+                                            {pitchData.deviation > 0 ? '+' : ''}{pitchData.deviation}¢
+                                        </div>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="flex items-center gap-3 opacity-30">
+                                    <Activity className="w-4 h-4 text-[var(--text-muted)]" />
+                                    <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                                        {isMicActive ? (signalLevel > 0.05 ? 'Detecting...' : 'Listening') : 'Monitor Off'}
+                                    </span>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+
+                    {/* Right: Note Select & Volume */}
+                    <div className="flex items-center gap-6 lg:border-l border-[var(--glass-border)] lg:pl-8 flex-shrink-0">
+                        {/* Compact Volume */}
+                        <div className="flex items-center gap-3 mr-2">
+                            <div className="p-2 rounded-lg bg-white/5 text-[var(--text-muted)]">
+                                {volume <= -40 ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+                            </div>
+                            <input 
+                                type="range"
+                                min="-40"
+                                max="0"
+                                step="1"
+                                value={volume}
+                                onChange={handleVolumeChange}
+                                className="w-20 md:w-28 accent-emerald-500 h-1 rounded-full bg-emerald-500/20 cursor-pointer appearance-none border border-white/5 hover:bg-emerald-500/30 transition-all"
+                            />
+                        </div>
+
+                        {/* Tonic Selector */}
+                        <div className="hidden sm:flex items-center gap-1.5 overflow-x-auto no-scrollbar max-w-[180px] md:max-w-none">
+                            {TONIC_PRESETS.map((preset) => {
+                                const isSelected = preset.hz === tonicHz;
+                                return (
+                                    <button
+                                        key={preset.name}
+                                        onClick={() => onTonicChange(preset.hz)}
+                                        className={`
+                                            flex-shrink-0 min-w-[34px] h-8 rounded-lg text-[10px] font-black transition-all duration-300 border text-black
+                                            ${isSelected
+                                                ? 'bg-emerald-500 border-emerald-400 shadow-md shadow-emerald-500/20'
+                                                : 'bg-white/5 border-transparent hover:text-black hover:bg-white/10'
+                                            }
+                                        `}
+                                    >
+                                        {preset.name}
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    );
+}

@@ -1,0 +1,192 @@
+{
+  "song_details": {
+    "name": "Enduku Peddala",
+    "raga": "Sankarabharanam",
+    "arohanam": "S R2 G3 M1 P D2 N3 S ||",
+    "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "SR - G MmpM- RG R S NS - - | SR - G MmpMG RG R S S - - - ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - En- - du ku - - - - Pe- - dda la- - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "SR - G Mmp gMr grpmgrS S- - - | SR - G gmpdppmg grpmgrS S- - - ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - En- - du ku - - - - Pe- - dda la- - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "SR - G gmpmGR R G R S S- - N | M , g - rsS - - rr ss N S D N S - - - ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va le Bu- - - - ddhi- - - - I ya vu ?"
+      },
+      {
+        "line_number": 4,
+        "swara": "SR - G gmpdppmg grpmgr - S S - - N | S , n - R - - M G G R – R pm G R S N ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va le Bu- - - ddhi- - - - I ya vu ?"
+      },
+      {
+        "line_number": 5,
+        "swara": "SR - G gmpmGmr grpmgr S S - - N | S , n - R - - M G G R – R pm G R S N ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va le Bu- - - ddhi- - - - I ya vu ?"
+      },
+      {
+        "line_number": 6,
+        "swara": "DRsnP D - N - S - grR mgG pm M | P - - - P - - - PMMG G R S N ||",
+        "sahitya": "En-du- Po- - - du- nai - - - - - - - yya! Raa- - - mai- - - yyaa! - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "SR - G gmpmGmr grpmgr S S - - N | P d - p mg M p - mgr M G G R – R pm G R S N ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va le -- Bu- - - ddhi- - - - I ya vu ?"
+      },
+      {
+        "line_number": 8,
+        "swara": "DRsnP D - N - S - grR mgG pm M | P - - - P - - - gmP MG G R S N ||",
+        "sahitya": "En-du- Po- - - du- nai - - - - - - - yya! Raa- - - mai- - - yyaa! - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "SR - G gmpmGmr grpmgr S S rsS N | md pp mg- gp mgmr- M G G R – R pm G R S N ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va -- le Bu- - - ddhi- - - - I ya - - vu ?"
+      },
+      {
+        "line_number": 10,
+        "swara": "DRsnP D - N - S - grR mgG pm M | P - - - S - - ,r NDPM G R S N ||",
+        "sahitya": "En-du- Po- - - du- nai - - - - - - - yya! Raa- - - mai- - - yyaa! - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "SR - G gmpdppmg grpmgr - S S - - N | md pp mg- gp mgmr- M G G R – R pm G R S N ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va le- - - Bu- - - ddhi- - - - I ya - vu ?"
+      },
+      {
+        "line_number": 12,
+        "swara": "DRsnP D - N - S - grR mgG pm M | P - - - mgmpdnsr gmgrsndp mdp - mgrsn ||",
+        "sahitya": "En-du- Po- - - du- nai - - - - - - - yya! Raa- - - -- - - - - - - mai- yyaa! - -"
+      },
+      {
+        "line_number": 13,
+        "swara": "SR - G MmpM- RG R S NS - - | S, N , sn s R s - - - - - - - - - - ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va - le - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "P- - pmM , G , M- dPm GM gm P PM | P - - - - - - - - - - - - - - - ||",
+        "sahitya": "An- da-- ri va le- - Daa- - - - ti - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "P- - pmM , G , M- dPm GM gm P PM | P - - - - - - - PMG - S - R GM ||",
+        "sahitya": "An- da-- ri va le- - Daa- - - - ti - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "P- - pmM , G , M- dPm GM gm P P- | RGMP P- DN | S - S- ND PM ||",
+        "sahitya": "An- da-- ri va le- - Daa- - - - ti - Da - - - ti Va- da – ri - ti - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "pmdpP- pmM , G , M- dPm GM gm P PM | RGMP P- DN | S - S- ND PM ||",
+        "sahitya": "An- - - da-- ri va le- - Daa- - - - ti - Da - - - ti Va- da – ri - ti - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "P rs S – D , P , M- dPm GM gm P PM | RGMP P- DN | S - SN S - - - ||",
+        "sahitya": "An- - - da-- ri va le- - Daa- - - - ti - Da - - - ti Va- da – ri - ti - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "An- da- raa- - ni - - - - - - - - - - - - - - - - - - - -",
+        "sahitya": "An- da- raa- - ni – Pan - - - daa - ye Ga- da- raa- - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "sgR R S sr Gmg rsS S N S rs SD D N | S - - - S ,r ND | PM GR GR SN ||",
+        "sahitya": "An- da- raa- - ni – Pan - - - daa - ye Ga- da- raa- - - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "SR - G gmpdppmg grpmgr S S rsS N | md pp mg- gp mgmr- M G G R – R pm G R S N ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va le- - - Bu- - - ddhi- - - - I ya - - vu ?"
+      },
+      {
+        "line_number": 9,
+        "swara": "DRsnP D - N - S - grR mgG pm M | P - - - mgmpdnsr gmgrsndp mdp - mgrsn ||",
+        "sahitya": "En-du- Po- - - du- nai - - - - - - - yya! Raa- - - -- - - - - - - mai- yyaa! - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "SR - G MmpM- RG R S NS - - | S, N , sn s R s - - - - - - - - - - ||",
+        "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va - le - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "M - G - RGrgM M - RG rgM - - | mGm P M G - R - Gmg R- S N R G ||",
+            "sahitya": "Ve da Sha---- stra Ta- - - - - - tvaa- - rttha mu lu De- - li- si - - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "M , d P - M G -- - grpmgr - gr , pM G - | - G ,m P pmM - G - Gmp mgR S N R G ||",
+            "sahitya": "Ve - - da Sha---- stra Ta- - - - - tvaa- - - - rttha mu lu De- - li- si - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "Mpg Gmr GR SN S- rgmg grrs S ,n | S n -s R S S- NS S - SN SN RG ||",
+            "sahitya": "Bhe—da-- ra- hi- ta Ve- - - - - - - dan - - - ta mu lu- De li- si - - - -"
+          },
+          {
+            "line_number": 4,
+            "swara": "Mpg Gmr rgmg gr S S- rgmg grrs S ,n | S n -s R S S- NS S D DN S - - - ||",
+            "sahitya": "Bhe—da-- ra- hi- - ta Ve- - - - - - - dan - - - ta mu lu- De li- si - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "P - - M G ,m P ,m PM P - - - - - | - - - - - - - - - - - - - - - - ||",
+            "sahitya": "Naa da Vi - - - dyaa- - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "P - - M G ,m P - P - GM gmP PM | R, G, M P - DN S - S ,r N D P M || (finish w/ S---)",
+            "sahitya": "Naa da Vi - - - dyaa- Ma- - - - - r mam- bu la nu- De- li - si - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "sgR R S Srs S - S N Srs SD DN | S - S - S ,r ND PM GR GR SN ||",
+            "sahitya": "Naa tha!- Tya - - ga - raa- - - - - jaa nu - tha- Ni- ja- mu- ga- - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "sgR R S rgmg rsS S N NR sSd DN | S - S - GR ND PM GR GR SN ||",
+            "sahitya": "Naa tha!- Tya - - ga - raa- - - - - jaa nu - tha- Ni- ja- mu- ga- - -"
+          },
+          {
+            "line_number": 9,
+            "swara": "SR - G gmpmGmr grpmgr S S rsS N | md pp mg- gp mgmr- M G G R – R pm G R S N ||",
+            "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va -- le Bu- - - ddhi- - - - I ya - - vu ?"
+          },
+          {
+            "line_number": 10,
+            "swara": "DRsnP D - N - S - grR mgG pm M | P - - - mgmpdnsr gmgrsndp mdp - mgrsn ||",
+            "sahitya": "En-du- Po- - - du- nai - - - - - - - yya! Raa- - - -- - - - - - - mai- yyaa! - -"
+          },
+          {
+            "line_number": 11,
+            "swara": "SR - G MmpM- RG R S NS - - | S, N , sn s R s - - - - - - - - - - ||",
+            "sahitya": "En- - du ku - - - - Pe- - dda la- - - Va - le - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

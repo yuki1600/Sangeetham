@@ -1,0 +1,152 @@
+{
+  "song_details": {
+    "name": "Shobillu Saptaswara",
+    "raga": "Jaganmohini",
+    "arohanam": "S G M P N S || AVA: S N P M G R S ||",
+    "avarohanam": "S G M P N S || AVA: S N P M G R S ||",
+    "tala": "Rupakam",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "G - - R S N || S - G - M M ||",
+        "sahitya": "Sho - bil - lu Sa pta swara"
+      },
+      {
+        "line_number": 2,
+        "swara": "G - - pm g - r s n || S - G - M M ||",
+        "sahitya": "Sho - bil - lu -- Sa pta swara"
+      },
+      {
+        "line_number": 3,
+        "swara": "gmpm G pm g - r s n || S - G - M M ||",
+        "sahitya": "Sho - bil - lu -- Sa pta swara"
+      },
+      {
+        "line_number": 4,
+        "swara": "gmpn pm- pm g - r s n || S - G - M M ||",
+        "sahitya": "Sho - - bil - lu -- Sa pta swara"
+      },
+      {
+        "line_number": 5,
+        "swara": "gmpn pm- pm g - r s n || sgM gmP mp N ||",
+        "sahitya": "Sho - - bil - lu -- Sa pta swa-ra"
+      },
+      {
+        "line_number": 6,
+        "swara": "snmp G- pm g - r s n || sgM gmP mp N ||",
+        "sahitya": "Sho - - bil - lu -- Sa pta swa-ra"
+      },
+      {
+        "line_number": 7,
+        "swara": "S - s r s n P - M || gmpn sn pm g m p n ||",
+        "sahitya": "Sun da-ru- la Bha jim-- pa-ve- Manasa-!"
+      },
+      {
+        "line_number": 8,
+        "swara": "snp -n pm- pm g - r s n || sgm - g mp - mp n - p n s ||",
+        "sahitya": "Sho - - bil - lu -- Sa-- pta -- swa- - ra - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "S - - G R S || , r s n p n pm g m p n ||",
+        "sahitya": "Sun da- ru-la Bhajim-- pa-ve- Manasa-!"
+      },
+      {
+        "line_number": 10,
+        "swara": "Srs -Nsn Pnp Mpm g - r s n || sgm - g mp - mp n - p n s ||",
+        "sahitya": "Sho - - - - bil - lu -- Sa-- pta -- swa- - ra - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "S - - G R S || , r s n p n pm g m p n ||",
+        "sahitya": "Sun da- ru-la Bhajim-- pa-ve- Manasa-!"
+      },
+      {
+        "line_number": 12,
+        "swara": "Srs -Nsn Pnp Mpm g - r s n || S - G - pmM - || G -",
+        "sahitya": "Sho - - - - bil - lu -- Sa-- pta -- swa- - ra -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- mp N - - R || S - S - S R rs ||",
+        "sahitya": "Naa- bhi- - Hrut Kan ta Ra sa na-"
+      },
+      {
+        "line_number": 2,
+        "swara": "S- mp N - - R || S - S - sn g r- rs ||",
+        "sahitya": "- Naa- bhi- - Hrut Kan ta Ra- sa- na-"
+      },
+      {
+        "line_number": 3,
+        "swara": "S- mp N - - R || S - N - S G G ||",
+        "sahitya": "- Naa- bhi- - Hrut Kan ta Ra- sa- na-"
+      },
+      {
+        "line_number": 4,
+        "swara": "mp N pn S n s G || pmg r sn - S G G ||",
+        "sahitya": "Naa- bhi- Hrut-- Kan -ta- -- Ra sa- na-"
+      },
+      {
+        "line_number": 5,
+        "swara": "mgrs N - sn pm G || pm gr sn - gm , p N ||",
+        "sahitya": "Naa-- - saa - - - dhu--- la- Yan- du -"
+      },
+      {
+        "line_number": 6,
+        "swara": "P - n s R - sg R - sm || G r s n p n s g R s ||",
+        "sahitya": "Charanam:"
+      },
+      {
+        "line_number": 7,
+        "swara": "- p p , P , mp N || P - m g pm G - ||",
+        "sahitya": "Dhara - Rig Saa-- maa- du - la- lo -"
+      },
+      {
+        "line_number": 8,
+        "swara": "- p p , P , mp N || p n sn P M G - ||",
+        "sahitya": "Dhara - Rig Saa-- maa- du - la- lo -"
+      },
+      {
+        "line_number": 9,
+        "swara": "M M pm gr R S || - g m , p M P - ||",
+        "sahitya": "Va ra- Gaa-- yathri - Hruda yamu na"
+      },
+      {
+        "line_number": 10,
+        "swara": "- n p N - S S || S - S - S R rs ||",
+        "sahitya": "Sura Bhu sura Maa na sa mu na-"
+      },
+      {
+        "line_number": 11,
+        "swara": "- mp N - S S || S - S - S R rs ||",
+        "sahitya": "Sura Bhu sura Maa na sa mu na-"
+      },
+      {
+        "line_number": 12,
+        "swara": "S- mp N - S S || S - S - sn g r- rs ||",
+        "sahitya": "Sura Bhu sura Maa na sa mu na-"
+      },
+      {
+        "line_number": 13,
+        "swara": "S- mp N - S S || S - S - S G G ||",
+        "sahitya": "Sura Bhu sura Maa na sa mu na-"
+      },
+      {
+        "line_number": 14,
+        "swara": "mp N pn S n s G || pmgr sn - S G G ||",
+        "sahitya": "Su-ra Bhu su- ra Maa-- na- sa mu na-"
+      },
+      {
+        "line_number": 15,
+        "swara": "mgrs N- sn pm G || pm g r sn - gm , p N ||",
+        "sahitya": "Shu-- bha Tya - - ga ra- -ju - - ni- Yeda"
+      }
+    ],
+    "charanams": []
+  }
+}

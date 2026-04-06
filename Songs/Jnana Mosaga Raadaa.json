@@ -1,0 +1,142 @@
+{
+  "song_details": {
+    "name": "Jnana Mosaga Raadaa",
+    "raga": "Purvi Kalyani",
+    "arohanam": "S R1 G3 M2 P D2 P S ||",
+    "avarohanam": "S N3 D2 P M2 G3 R1 S ||",
+    "tala": "Rupakam",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- D | , s - R G p m || g R , | S - - g r ||",
+        "sahitya": "Jnaa -na Mo sa ga- Raa- - daa- - Su-"
+      },
+      {
+        "line_number": 2,
+        "swara": "sn- D | , s - R G p m || g r g r | S - pm g r ||",
+        "sahitya": "-- Jnaa -na Mo sa ga- Raa- - daa- Su- - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "sn- D | , s - R G p m || g r g r | S - - - ||",
+        "sahitya": "-- Jnaa -na Mo sa ga- Raa- - daa- - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "- g m | , p - P P P || g r g m | pm – g m g r - g r ||",
+        "sahitya": "- Garu - da Ga ma na Vaa- - - - - daa- - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "sn- D | , s - R G p m || g r g r | S - - - ||",
+        "sahitya": "-- Jnaa -na Mo sa ga- Raa- - daa- - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "- g m | , d - S S S || n d s n | d p – n d p m - g r ||",
+        "sahitya": "- Garu - da Ga ma na Vaa- - - - - daa- - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "s n - D | , s - R G s n || dpP g r | S - - - ||",
+        "sahitya": "-- Jnaa -na Mo sa ga- Raa- - daa- - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "g r g r | s n - d s n d p m || gm d r | s n D – p m g r ||",
+        "sahitya": "Ga- ru- da - Ga- ma- na- Vaa- - - - - - daa- - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "s n - D | , s - R G s n || dpP g r | G - - - ||",
+        "sahitya": "-- Jnaa -na Mo sa ga- Raa- - daa- - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- g m | P - D P || S - | S - R S ||",
+        "sahitya": "- Nee- Naa- mamu che- Naa- Ma di"
+      },
+      {
+        "line_number": 2,
+        "swara": "- g m | p D p S S || S - | S - R G r s S ||",
+        "sahitya": "- Nee- Naa- mamu che- Naa- Ma di"
+      },
+      {
+        "line_number": 3,
+        "swara": "- g m | d N m d S , S || S - | S - R G r s S ||",
+        "sahitya": "- Nee- Naa- - ma- mu che- Naa- Ma di"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - | s n d s n d p m || g r g m | p m – g m g r S ||",
+        "sahitya": "Nir ma- la- mai- - - na - - - - - di - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "- g m | d N m d S , S || S R | g m p m g r S ||",
+        "sahitya": "- Nee- Naa- - ma- mu che- Naa- - - Ma- di"
+      },
+      {
+        "line_number": 6,
+        "swara": "S - | s n - d s n d p m || g m d r | s n D – p m g r || s n",
+        "sahitya": "Nir ma- la- mai- - - na - - - - - - di - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- p p | , P , P M || G R | g m p m g r G ||",
+            "sahitya": "Pa ra - maa- tmu du Jee- vaa- - - tmu- du"
+          },
+          {
+            "line_number": 2,
+            "swara": "- p d | , P , P M || G R | g m p m g r G ||",
+            "sahitya": "Pa ra - maa- tmu du Jee- vaa- - - tmu- du"
+          },
+          {
+            "line_number": 3,
+            "swara": "- g m | , g R S S || s r g m | p m – g m g r S ||",
+            "sahitya": "Pa di - naa- lu gu Lo- - - ka - mu- - - lu"
+          },
+          {
+            "line_number": 4,
+            "swara": "- p p | , d P - S S || S - | R - s r g r G ||",
+            "sahitya": "Na ra - Kim- na ra Kim- - pu- ru- sha"
+          },
+          {
+            "line_number": 5,
+            "swara": "- P | P P - M || g r g m | p m – g m g r S ||",
+            "sahitya": "Naa ra daa - di Mu- nu- - - lu - - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "- g m | P - D - P || S - | S S RG rs S ||",
+            "sahitya": "Pa ri poo- - rna Nish ka lan - - ka- -"
+          },
+          {
+            "line_number": 7,
+            "swara": "- s r | , g R S S || s n D | s n – P D P ||",
+            "sahitya": "Nira - vadhi Su kha Daa- - ya- ka - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "S S | S r g R S || s n D | s n D D D ||",
+            "sahitya": "Vara Tyaa- - - ga raa- - jaa - - rchi ta"
+          },
+          {
+            "line_number": 9,
+            "swara": "M D | N – d p P - M || g r g m | p m – g m g r - g r || s n",
+            "sahitya": "Vaa- ra mu - Taa na- - - - - - ne - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

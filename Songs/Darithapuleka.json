@@ -1,0 +1,127 @@
+{
+  "song_details": {
+    "name": "Darithapuleka",
+    "raga": "Saveri",
+    "arohanam": "S R1 M1 P D1 S ||",
+    "avarohanam": "S N3 D1 P M1 G3 R1 S ||",
+    "tala": "Deshadi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - dr S- sn D - pm | G - R - rs S - S ,r mp ||",
+        "sahitya": "Da- ri thaa- - pu- Le - - ka- - Ve -- di--"
+      },
+      {
+        "line_number": 2,
+        "swara": "D - - dr sr- sn d - d pm | G - R - rs S - S ,r mp ||",
+        "sahitya": "The- - Da- ri thaa- - pu- - Le - - ka- - Ve -- di--"
+      },
+      {
+        "line_number": 3,
+        "swara": "D - - dr sr- sn d - d pm | gr G R - S - - S ,r mp ||",
+        "sahitya": "The- - Da- ri thaa- - pu- - Le - - ka- - Ve -- di--"
+      },
+      {
+        "line_number": 4,
+        "swara": "D - - dg gr- sn d - d pm | gr pmgr - - rsS - - S ,r mp ||",
+        "sahitya": "The- - Da- ri thaa- - pu- - Le - - ka- - Ve -- di--"
+      },
+      {
+        "line_number": 5,
+        "swara": "D - - D P - pd nd pm | G - R - S R - mp dp - dr ||",
+        "sahitya": "The - - Da ya raa- - - - - de - - mo? - Sri- - - Raa-"
+      },
+      {
+        "line_number": 6,
+        "swara": "sn D D",
+        "sahitya": "ma- - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - D P- pd nd pm | dp D - M D S - rg ||",
+        "sahitya": "- - - Ka ri Dha- - - - - na- - - mu lu Gal - gi"
+      },
+      {
+        "line_number": 2,
+        "swara": "rsS - - D P- pd nd pm | dp D - M D S - sn ||",
+        "sahitya": "te - - - Ka ri Dha- - - - - na- - - mu lu Gal - gi"
+      },
+      {
+        "line_number": 3,
+        "swara": "d- sn d pm D P- pd nd pm | mpdp D -M D S - rg ||",
+        "sahitya": "- te - - - Ka ri Dha- - - - - na- - - mu lu Gal - gi"
+      },
+      {
+        "line_number": 4,
+        "swara": "rsS - - R sr - sn d - dpm | pd S - S R - mp dp - dr ||",
+        "sahitya": "Te - - Ka ru- nim- -chi- - Bro- - - tu - ve- - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "sn D - dr sr - sn d - dpm | pd sr G - rm gr - sn D - md ||",
+        "sahitya": "mo!- - Ka ru- nim- -chi- - Bro- - - tu - ve- - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "rsn - d pm-",
+        "sahitya": "mo!- - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "- - - R R R - R | rs S - S R -mp , dp m ||",
+        "sahitya": "- - - A la naa - du Ni- - - rja ra Vai- - ri- -"
+      },
+      {
+        "line_number": 8,
+        "swara": "G - R - S r G -s R S | rsnd - S R M pd pd ||",
+        "sahitya": "Baa- - lu ni- Ju - chi Bro- - chi ti vi Gaa- -"
+      },
+      {
+        "line_number": 9,
+        "swara": "P - - dd pm g r sr - mp | dm - gr sd - rs gr - m p , d pm ||",
+        "sahitya": "ni - - A- la- naa - - du- - - Ni- - - rja- ra Vai- - ri- - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "G - R - S r G -s R S | rsnd - S R M pd pd ||",
+        "sahitya": "Baa- - lu ni- Ju - chi Bro- - chi ti vi Gaa- -"
+      },
+      {
+        "line_number": 11,
+        "swara": "P - - D P- pd n - d pm | mpdp D - M D S - rg ||",
+        "sahitya": "ni - - Va la chi- - Pa- - da- - - - mu la Nam - mi-"
+      },
+      {
+        "line_number": 12,
+        "swara": "rsS - - D P- pd n- d pm | mpdp D -M D S - sn ||",
+        "sahitya": "te - - - Va la chi- - Pa- - da- - - - mu la Nam - mi-"
+      },
+      {
+        "line_number": 13,
+        "swara": "d- sn d pm D P- pd n- d pm | mpdp D -M D S - rg ||",
+        "sahitya": "te - - -- Va la chi- - Pa- - da- - - - mu la Nam - mi-"
+      },
+      {
+        "line_number": 14,
+        "swara": "rsS - - dr sr - sn d - dpM , | dP-d -s - - S R - mp dp - dr ||",
+        "sahitya": "te - - -- Va- ra- mi- - Do- - chu- naa?- Tyaa- ga- - - raa-"
+      },
+      {
+        "line_number": 15,
+        "swara": "sn D - dr sr - sn d - d pm | pd sr G - rm gr - sn dp - md ||",
+        "sahitya": "ju- - - Va- ra- mi- - Do- - chu- naa?- Tyaa- - - ga- - - raa-"
+      },
+      {
+        "line_number": 16,
+        "swara": "rsn - d pm-",
+        "sahitya": "- - - ju- --"
+      }
+    ],
+    "charanams": []
+  }
+}

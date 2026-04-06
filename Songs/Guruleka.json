@@ -1,0 +1,132 @@
+{
+  "song_details": {
+    "name": "Guruleka",
+    "raga": "Gowrimanohari",
+    "arohanam": "S R2 G2 M1 P D2 N3 S ||",
+    "avarohanam": "S N3 D2 P M1 G2 R2 S ||",
+    "tala": "Khanda Chapu",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "D D P - P || G G G - R || S N S - - || - - - - - ||",
+        "sahitya": "Guru le - ka E tu van ti Gu ni ki"
+      },
+      {
+        "line_number": 2,
+        "swara": "D D P - P || G G mgG R || S N S - - || - - - - - ||",
+        "sahitya": "Guru le - ka E tu van ti Gu ni ki"
+      },
+      {
+        "line_number": 3,
+        "swara": "D D P - P || G P mgG R || gr sn S - RG || MM P - D ||",
+        "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+      },
+      {
+        "line_number": 4,
+        "swara": "N D P - P || mp mp mgG R || gr sn S - RG || MP D - N ||",
+        "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+      },
+      {
+        "line_number": 5,
+        "swara": "S N snnd P || mp mp mgG R || gr sn S - RG || MP dnsr sr ||",
+        "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+      },
+      {
+        "line_number": 6,
+        "swara": "dnsr snnd P || gm pd ppmg R || gr sn S - RG || MP dnsr sr ||",
+        "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+      },
+      {
+        "line_number": 7,
+        "swara": "dn srS Nsn Dnd P || gm Pdp Mpm mg R || gr sn S - RG || MP dnsr sr ||",
+        "sahitya": "Guru le - - - ka E tu van - - ti Gu ni ki Te li ya ga Bo du"
+      },
+      {
+        "line_number": 8,
+        "swara": "dn srS Nsn Dnd P || gm Pdp Mpm mg R || gr sn S - RG || MP P - P ||",
+        "sahitya": "Guru le - - - ka E tu van - - ti Gu ni ki Te li ya ga Bo du"
+      },
+      {
+        "line_number": 9,
+        "swara": "- - - - - || , pmg rs – R G || M P P - P ||",
+        "sahitya": "- - - - - - - - - - Te li ya ga Bo du"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- d n , S , S || sn D nsrg R || S - - - - || - - , sn ndp ||",
+        "sahitya": "Karu kai na Hr - - dro-- ga - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "D N S - S || sn D nsrg R || N N N D N || D P D N - ||",
+        "sahitya": "Karu kai na Hr - - dro-- ga Ga ha na muna Go- tta nu"
+      },
+      {
+        "line_number": 3,
+        "swara": "- d n , S , S || rsnd nsr G r || N N N D N || D P D N S ||",
+        "sahitya": "Karu kai na Hr - - dro-- ga Ga ha na muna Go- tta nu Sad- (guru)"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- p p , p P P || G P - mgG R || R ,g mgpm gr || rgmg gr sn S ||",
+            "sahitya": "Ta nu vu Su ta Dha na Daa-- ra Da - yaa - -di Baan-- dha vu- lu"
+          },
+          {
+            "line_number": 2,
+            "swara": "- p p , d N dp || G P - mgG R || R G mgpm gr || rgmg gr sn S ||",
+            "sahitya": "Ta nu vu Su ta Dha na Daa-- ra Da - yaa - -di Baan-- dha vu- lu"
+          },
+          {
+            "line_number": 3,
+            "swara": "- r g , m P P || D N sn dp - || G G rg pm gr || rs S - - - ||",
+            "sahitya": "Jani yin- chi Che da ru jaa Li ni Ka-ru-na- to - - - - -"
+          },
+          {
+            "line_number": 4,
+            "swara": "- p p , p ppmg || G R – gr sn S || - r g , m M P || - - - - - ||",
+            "sahitya": "Mana su nan- - taka Che- - yu Man danuchu"
+          },
+          {
+            "line_number": 5,
+            "swara": "- mp , nd ppmg - || G R – gr sn S || - r g , m M P ||",
+            "sahitya": "Mana su nan- - taka Che- - yu Man danuchu"
+          },
+          {
+            "line_number": 6,
+            "swara": "D - N D P || D N S - S || - - - - - ||",
+            "sahitya": "Ta tva Bo- dhana Je si"
+          },
+          {
+            "line_number": 7,
+            "swara": "S , d N D P || D N S - S || snD nsrg R || S - - - - || - - , sn nd p ||",
+            "sahitya": "Ta tva Bo- dhana Je si Kaa- paa-- du - - - - - - - - - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "D R sn D P || D N S - S || snD nsrg R || S - - - - || - - , sn nd p ||",
+            "sahitya": "Ta tva Bo- dhana Je si Kaa- paa-- du - - - - - - - - - -"
+          },
+          {
+            "line_number": 9,
+            "swara": "D R sn D P || D N S - S || snD nsrg R || S - S N - || D P dn S S ||",
+            "sahitya": "Ta tva Bo- dhana Je si Kaa- paa-- du Tyaa ga raa - jaa - pthu dagu"
+          },
+          {
+            "line_number": 10,
+            "swara": "dnrs sn D P || D N S - S || rsnd nsr G r || S - S N - || D P dn S S ||",
+            "sahitya": "Ta tva Bo- dhana Je si Kaa- paa-- du Tyaa ga raa - jaa - pthu dagu"
+          }
+        ]
+      }
+    ]
+  }
+}

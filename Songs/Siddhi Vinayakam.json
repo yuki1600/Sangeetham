@@ -1,0 +1,172 @@
+{
+  "song_details": {
+    "name": "Siddhi Vinayakam",
+    "raga": "Shanmukhapriya",
+    "arohanam": "S R2 G2 M2 P D1 N2 S ||",
+    "avarohanam": "S N2 D1 P M2 G2 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. P - M – G R - || R S - - D N ||",
+        "sahitya": "Si ddhi Vi na yakam A ni"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - R - G || gr R - gr srgm ||",
+        "sahitya": "sam Chin ta yaam- ya- ham ---"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. pmnd pm – gp pm G || R S - gr s -d N ||",
+        "sahitya": "Si ddhi Vi na yakam -- - A ni"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - - R - G || gr R - gr srgm ||",
+        "sahitya": "sam Chin ta yaam- ya- ham ---"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. pmnd pm – gp pm G || R S - gr s -d N ||",
+        "sahitya": "Si ddhi Vi na yakam -- - A ni"
+      },
+      {
+        "line_number": 6,
+        "swara": "S - - rg M G || gr R - gr srg - r ||",
+        "sahitya": "sam Chin - ta yaam- ya- ham --- Pra"
+      },
+      {
+        "line_number": 7,
+        "swara": "N d- p m – G r S - r s || , G r dn d p , dp m ||",
+        "sahitya": "siddha Ga na naaya kam Vishi shtaa rtha Daa- yakam Varam –"
+      },
+      {
+        "line_number": 8,
+        "swara": "4. rsn- d pm – gp pm G || R S - gr s -d N ||",
+        "sahitya": "Si – ddhi--- Vi- na yakam -- - A ni"
+      },
+      {
+        "line_number": 9,
+        "swara": "S - - rg M G || gr R - gr srg - r ||",
+        "sahitya": "sam Chin - ta yaam- ya- ham --- Pra"
+      },
+      {
+        "line_number": 10,
+        "swara": "N d- p m – G r S - r s || , G r dn d p , dp m ||",
+        "sahitya": "siddha Ga na naaya kam Vishi shtaa rtha Daa- yakam Varam –"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. S - S – S - S || R - G – gr R S ||",
+        "sahitya": "Si ddha Ya ksha Kin na raa- - di"
+      },
+      {
+        "line_number": 2,
+        "swara": "D - N – S - - || - - - - - - ||",
+        "sahitya": "Se vi tam"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. S - S – S - S || R - G – gr R S ||",
+        "sahitya": "Si ddha Ya ksha Kin na raa- - di"
+      },
+      {
+        "line_number": 4,
+        "swara": "rs D - N – S – N || S N R S - gr ||",
+        "sahitya": "Se vi tam a- khila jagat Pra"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. nd pd N – S - S || R - G – gr R S ||",
+        "sahitya": "Si ddha Ya ksha Kin na raa- - di"
+      },
+      {
+        "line_number": 6,
+        "swara": "grsd - N – S – N || S N R S - gr ||",
+        "sahitya": "Se vi tam a- khila jagat Pra-"
+      },
+      {
+        "line_number": 7,
+        "swara": "R - G – M - M || G - R – S S - ||",
+        "sahitya": "Si ddha Mu la Pan ka ja ma"
+      },
+      {
+        "line_number": 8,
+        "swara": "S R N S R G || R S snrs n – d pm ||",
+        "sahitya": "Dhya- stham- Mo- daka Ha-- - stam--"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "P - M – pd pd – pm || G R - G R - S ||",
+            "sahitya": "Bha dra pa- da- maa- - sa Cathur tthyaam"
+          },
+          {
+            "line_number": 2,
+            "swara": "- gr sd N S - || R – gm pm – G R - ||",
+            "sahitya": "Brah - ma naa di Pu- - - ji tam"
+          },
+          {
+            "line_number": 3,
+            "swara": "P - pm G G R || N S - N - D ||",
+            "sahitya": "Paa saan -- kusha Dharam Cha tra"
+          },
+          {
+            "line_number": 4,
+            "swara": "P - dn dpP MG || G - N S - - ||",
+            "sahitya": "Chaa ma-ra- Pari vi jitham -- -"
+          },
+          {
+            "line_number": 5,
+            "swara": "R - G – gp - M || pd pd pm - P , d ||",
+            "sahitya": "Rau dra bhaa- va Ra-hi- tam- Daa--"
+          },
+          {
+            "line_number": 6,
+            "swara": "rs – D D – P dn dp || p D – n , d – N S - ||",
+            "sahitya": "sa- Ja na hru da- ya- Vi - raa - ji tam"
+          },
+          {
+            "line_number": 7,
+            "swara": "a) R - - G gr R || S - nr s – n D – N ||",
+            "sahitya": "Rau hi nee-- ya nu- - jaar- cchi"
+          },
+          {
+            "line_number": 8,
+            "swara": "S - - - - - || - - - - - - ||",
+            "sahitya": "tam"
+          },
+          {
+            "line_number": 9,
+            "swara": "b) R - - G gr R || S - nr s – n D – N ||",
+            "sahitya": "Rau hi nee-- ya nu- - jaar- cchi"
+          },
+          {
+            "line_number": 10,
+            "swara": "S - N R S S || - nd pd – rs n – dp m ||",
+            "sahitya": "tam I - hanaa Var - ji - - tam—"
+          },
+          {
+            "line_number": 11,
+            "swara": "G r – s , r- r p , m P || p M p p d p – g , m P ||",
+            "sahitya": "Adri Raa ja Sutaa tmajam a nan ta gu rugu haa grajam"
+          },
+          {
+            "line_number": 12,
+            "swara": "S R g r s – n d – d P || R s – d , p – r s n – d p m ||",
+            "sahitya": "Bhadra pada Padaam- bu jam Bhaa sa maa na Chatur- bhujam-"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "song_details": {
+    "name": "Ramanatham",
+    "raga": "Panthuvarali",
+    "arohanam": "S R1 G3 M2 P D1 N3 S",
+    "avarohanam": "S N3 D1 P M2 G3 R1 S",
+    "tala": "Rupakam",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. GMGR GM P - - - P - || D - P - dn – dpP - ,m D P D N ||",
+        "sahitya": "Ra - - - ma- naa- - - tham - - Bha - - je- - - - ham - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - N D P , m – G M G R G - || G, m pm - mg - gr - rs S - - ||",
+        "sahitya": "Ra- - - ma - - chan- - - dra Poo - - - - ji - - tham - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. gdpm gmgr G M pmnd dpP- P D || - - d N r s n- dpP - ,m D P D N ||",
+        "sahitya": "Ra - - - - - - ma- naa- -- - - - tham - - Bha - - je- - - - ham - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "srgr sn -dn S -N – dsnd pm gr G - || gmpd nsrg rs nd – rs nd pm – gm g r s r ||",
+        "sahitya": "Ra- - - - ma chan- - - - - dra- Poo - - - - - - - - ji - - - - tham - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. GMGR GM – - gm dn sn nd D || - - - - - dn D P - - - - ||",
+        "sahitya": "Ra - - - ma- - naa- - - - - - - - - - - - - tham- - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. G M G R G M P - - P dn dpM || - D D N S D N - S - - - ||",
+        "sahitya": "Kaa - - - mi - tha- - Pha- la- - Pra da- De- - - vam - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "SN G R S - snsn Srg rs S || ns rs - sn D pd – nsrs - R - - ||",
+        "sahitya": "Ko- - - ti - Teer- - - tha - Pra- - - bhaa - - - - vam- - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. dsnd pmgr G M P - - ds n – sn d || pm- D , N n snD N - S - - - ||",
+        "sahitya": "Kaa - - - mi - tha- - Pha-- la- - - - Pra da- De- - - vam - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "SN G R S - snsn Srg rs S || ns rs - sn D pd – nsrs R - - - ||",
+        "sahitya": "Ko- - - ti - Teer- - - tha - Pra- - - bhaa - - - - vam- - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "S S - N G R S N D N S - || S S sn dn dp P P – G M P D N ||",
+        "sahitya": "Kumaara Guruguha Mahitham Kapi Brun- daa di San - nu tham-"
+      },
+      {
+        "line_number": 6,
+        "swara": "R S - N , g R S N , d N S - || S S sn dn dp P P – G M P D N ||",
+        "sahitya": "Kumaara Guruguha Mahitham Kapi Brun- daa di San - nu tham-"
+      },
+      {
+        "line_number": 7,
+        "swara": "R S - N , g R S N , d N S - || S S sn dn dp P P – G - M pm R ||",
+        "sahitya": "Kumaara Guruguha Mahitham Kapi Brun- daa di San - nu tham-"
+      },
+      {
+        "line_number": 8,
+        "swara": "gdpm gmgr G M pmnd dpP- P D || - - d N r s n- dpP - ,m D P D N ||",
+        "sahitya": "Ra - - - - - - ma- naa- -- - - - tham - - Bha - - je- - - - ham - - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "srgr sn -dn S -N – dsnd pm gr G - || gmpd nsrg rs nd – rs nd pm – gm g r s r ||",
+        "sahitya": "Ra- - - - ma chan- - - - - dra- Poo - - - - - - - - ji - - - - tham - - - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "GMGR GM – - gm dn sn nd D || - - - - - dn D P - - - - ||",
+        "sahitya": "Ra - - - ma- - naa- - - - - - - - - - - - - tham- - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "S - - - D - dp P - - P M || dpmg - - - D - P - - - D - ||",
+            "sahitya": "Se- - - thu ma- - - - dhya- Gan- - - - - dha maa - - da- -"
+          },
+          {
+            "line_number": 2,
+            "swara": "P - dpM - - - D - P - - N || S D N - S - - - - - - - ||",
+            "sahitya": "na Par- - - - - va - ta –- Vi haa- - - - ram - - - - - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "S - D - - - P - - - D M || pmG G R S R - S R G - M - ||",
+            "sahitya": "Sa daa - - Par - - - - va- - - ta- - Va - ra - ddha- na - - -"
+          },
+          {
+            "line_number": 4,
+            "swara": "P M Pdn dp P – PD N D N - || S - sn gr rs S - - - - - - ||",
+            "sahitya": "Ma- no-- - - - llaa- - - - - sa- ka- - - ram - - - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "S S - N D P – G R G M P - ||",
+            "sahitya": "Has taa ma laka Gan- dhavaram"
+          },
+          {
+            "line_number": 6,
+            "swara": "pd M GR S N – S R G M P - ||",
+            "sahitya": "Ha- taka maya Che- ladharam"
+          },
+          {
+            "line_number": 7,
+            "swara": "D M D - N – S - N G R S - ||",
+            "sahitya": "Ha- tyaa di paa - - paharam"
+          },
+          {
+            "line_number": 8,
+            "swara": "S - sn D Pdn dp P GM pm R ||",
+            "sahitya": "Ham sa- - so- - haa- - kaa- ram- -"
+          },
+          {
+            "line_number": 9,
+            "swara": "gdpm gmgr G M pmnd dpP- P D || - - d N r s n- dpP - ,m D P D N ||",
+            "sahitya": "Ra - - - - - - ma- naa- -- - - - tham - - Bha - - je- - - - ham - - -"
+          },
+          {
+            "line_number": 10,
+            "swara": "srgr sn -dn S -N – dsnd pm gr G - || gmpd nsrg rs nd – rs nd pm – gm g r s r ||",
+            "sahitya": "Ra- - - - ma chan- - - - - dra- Poo - - - - - - - - ji - - - - tham - - - -"
+          },
+          {
+            "line_number": 11,
+            "swara": "GMGR GM – - gm dn sn nd D || - - - - - dn D P - - - - ||",
+            "sahitya": "Ra - - - ma- - naa- - - - - - - - - - - - - tham- - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

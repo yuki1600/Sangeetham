@@ -1,0 +1,342 @@
+{
+  "song_details": {
+    "name": "Nagumomu",
+    "raga": "Abheri",
+    "arohanam": "S G2 M1 P N2 S ||",
+    "avarohanam": "S N2 D2 P M1 G2 R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. P P P - P sn N D | D P M - - - M - ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - - ni –"
+      },
+      {
+        "line_number": 2,
+        "swara": "mgG - R - R N S - | N S g r S sg M gm P ||",
+        "sahitya": "Naa jaa- - - li - Deli si - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. P P D P pn S S - | N D snnd dp M M - ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - - ni –"
+      },
+      {
+        "line_number": 4,
+        "swara": "dppm mgG gr R S - | N S g r S sg M gm P ||",
+        "sahitya": "Naa jaa- - - li - Deli si - - - - - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. P P D P pn S ns G | S mg grrs snnd dp pm ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - - ni –"
+      },
+      {
+        "line_number": 6,
+        "swara": "rssn dppm pmmg grrs | N S g r S sg M gm P ||",
+        "sahitya": "Naa jaa- - - li - Deli si - - - - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "a) P P D P pn S nd P | M - G R N S pmgr ||",
+        "sahitya": "Na nnu Bro- - - - - - va Raa - - - Raa- - - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "S - - - - - PM | G R N S gg S sg M ||",
+        "sahitya": "daa ? - - - - Sri- Raghu vara! Ni- - - - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "b) P P D P pn Srs nd P | P M G R ns gr pmgr ||",
+        "sahitya": "Na nnu Bro- - - - - - va Raa - - - Raa- - - - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "S - - - - - PM | G R N S gg S sg M ||",
+        "sahitya": "daa ? - - - - Sri- Raghu vara! Ni- - - - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "3. P P D P pn S ns G | S mg grrs snnd dp pm ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - - ni –"
+      },
+      {
+        "line_number": 12,
+        "swara": "rssn dppm pmmg grrs | N S g r S sg M gm P ||",
+        "sahitya": "Naa jaa- - - li - Deli si - - - - - - - -"
+      },
+      {
+        "line_number": 13,
+        "swara": "c) P P D P pn Srs nd P | P M G R S R pmgr ||",
+        "sahitya": "Na nnu Bro- - - - - - va Raa - - - Raa- - - - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "S - - - gr sn dp - rs | ndpm - dp mg rs – ns g – s gm ||",
+        "sahitya": "daa ? - - Sri- - - Ra- ghu- - va- ra!- - Ni- - - - - -"
+      },
+      {
+        "line_number": 15,
+        "swara": "P , p - pn sn N - N | D , p - pmM - M - mpdp ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - ni –"
+      },
+      {
+        "line_number": 16,
+        "swara": "mgG - ggR sr gr sr , s S | - - - - - - - - ||",
+        "sahitya": "Na- - jaa li - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "a) P , p - n s - - S - | - - - - - - - - ||",
+        "sahitya": "Na ga - raa- - - ja - - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "b) P , p - n s - - S - | S , s - M - - M - ||",
+        "sahitya": "Na ga - raa- - - ja - dha ra! –ni - - du –"
+      },
+      {
+        "line_number": 3,
+        "swara": "G R G S SG G - | GM G R S - - - ||",
+        "sahitya": "Pari vaa- - - ru- lel- - - la - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "c) P P n s - - - S - | S S M - - - M - ||",
+        "sahitya": "Na ga raa- - - ja - dha ra! Ni - - - - du –"
+      },
+      {
+        "line_number": 5,
+        "swara": "G R G S SG G - | GM G R S - - - ||",
+        "sahitya": "Pari vaa- - - ru- lel- - - la - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "d) P P n s - pnS S - | S S M - sgM M - ||",
+        "sahitya": "Na ga raa- - - ja - dha ra! Ni - - - - du –"
+      },
+      {
+        "line_number": 7,
+        "swara": "G R G S SG G - | mgpm G R S - - - ||",
+        "sahitya": "Pari vaa- - - ru- lel- - - la - - - -"
+      },
+      {
+        "line_number": 8,
+        "swara": "e) P P n s - pnS S - | S S M - sgM M - ||",
+        "sahitya": "Na ga raa- - - ja - dha ra! Ni - - - - du –"
+      },
+      {
+        "line_number": 9,
+        "swara": "G R G S srgr G - | G M,p mG, R S - srsn ||",
+        "sahitya": "Pari vaa- - - ru- lel- - - la - - - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "f) pnpn srsn pnsr snS | srsr mpmg sgmp mgM ||",
+        "sahitya": "Na ga raa- - - ja - dha ra! Ni - - - - du –"
+      },
+      {
+        "line_number": 11,
+        "swara": "G G G rn NS GM | gm dpM G R S - - - ||",
+        "sahitya": "Pari vaa- - - ru- lel- - - la - - - -"
+      },
+      {
+        "line_number": 12,
+        "swara": "G R R - R S S - | DN n N d D, p M - ||",
+        "sahitya": "Ogi Bo dhana Je se - - - - - vaa- ru"
+      },
+      {
+        "line_number": 13,
+        "swara": "- P , N s - - - - | - - - - - - - - ||",
+        "sahitya": "Ga - re - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "G R R - R S S - | DN N D DP - M ||",
+        "sahitya": "Ogi Bo dhana Je se - - - - - vaa- - ru"
+      },
+      {
+        "line_number": 15,
+        "swara": "P , n N S - - N D | P M G R N S G M ||",
+        "sahitya": "Ga - re - - - Ya tu lun - da du raa - Ni -"
+      },
+      {
+        "line_number": 16,
+        "swara": "P P D P pn S ns G | S mg grrs snnd dp pm ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - - ni –"
+      },
+      {
+        "line_number": 17,
+        "swara": "rssn dppm pmmg grrs | N S g r S sg M gm P ||",
+        "sahitya": "Naa jaa- - - li - Deli si - - - - - - - -"
+      },
+      {
+        "line_number": 18,
+        "swara": "P P D P pn Srs nd P | P M G R S R pmgr ||",
+        "sahitya": "Na nnu Bro- - - - - - va Raa - - - Raa- - - - -"
+      },
+      {
+        "line_number": 19,
+        "swara": "S - - - gr sn dp - rs | ndpm - dp mg rs – ns g – s gm ||",
+        "sahitya": "daa ? - - Sri- - - Ra- ghu- - va- ra!- - Ni- - - - - -"
+      },
+      {
+        "line_number": 20,
+        "swara": "P , p - pn sn N - N | D , p - pmM - M - mpdp ||",
+        "sahitya": "Nagu mo- - - - mu - Gana le - - ni –"
+      },
+      {
+        "line_number": 21,
+        "swara": "mgG - ggR sr gr sr , s S | - - - - - - - - ||",
+        "sahitya": "Na- - jaa li - - - - - - - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "1. P P P - - - P - | M G M - - - mppm ||",
+            "sahitya": "Khaga raa- - - ju - Ni - yaa - - na- ti-"
+          },
+          {
+            "line_number": 2,
+            "swara": "G R G S G - G - | G pm G R S - ns gm ||",
+            "sahitya": "vini Ve- - - ga - Cha na le - do ? - - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "2. P P dpP - dpP - dpP - | M G pmM - pmM - mppm ||",
+            "sahitya": "Khaga raa- - - ju - Ni - yaa - - na- ti-"
+          },
+          {
+            "line_number": 4,
+            "swara": "G R G S G - G - | mg pm mgG ,r S - ns gm ||",
+            "sahitya": "vini Ve- - - ga - Cha na le - do ? - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "3. P P dpP - snN - S - | S mg grrs snnd dppm ||",
+            "sahitya": "Khaga raa- - - ju - Ni - yaa - - na- ti-"
+          },
+          {
+            "line_number": 6,
+            "swara": "pnsg gs - ndpm mggr | sr gr pmgr S - ns gm || ( S - )",
+            "sahitya": "vini Ve- - - ga - Cha na le - do ? - - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "N N S - - - - - | - - - - - - - - ||",
+            "sahitya": "Gaga naa - - - - - - - - - - - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "N P ns - - - S- | S S G - - - R S ||",
+            "sahitya": "Gaga naa - - ni kila gu - - - Bahu"
+          },
+          {
+            "line_number": 9,
+            "swara": "S - mgM - - M G | G M gm pn pm P - - ||",
+            "sahitya": "Du ram- - - bani Naa- - - - - - do- - - -"
+          },
+          {
+            "line_number": 10,
+            "swara": "mG- m P – mgG , S , S - | S S sgmg G - G S ||",
+            "sahitya": "Gaga - naa - - ni kila gu - - - Bahu"
+          },
+          {
+            "line_number": 11,
+            "swara": "S - mgM - - M G | G M gm pn pm P - - ||",
+            "sahitya": "Du ram- - - bani Naa- - - - - - do- - - -"
+          },
+          {
+            "line_number": 12,
+            "swara": "P N NS - - S - | - - - - - - - - ||",
+            "sahitya": "Jaga me- - - le - - - - - - - - -"
+          },
+          {
+            "line_number": 13,
+            "swara": "b) P N NS - - S - | S G M - - - M - ||",
+            "sahitya": "Jaga me- - - le - Pa ra maa- - - tma!"
+          },
+          {
+            "line_number": 14,
+            "swara": "G R G S SG G - | mg pm G R S - - - ||",
+            "sahitya": "E va ri - - to Mo-ra- li du du- - -"
+          },
+          {
+            "line_number": 15,
+            "swara": "c) P , n P – ns - - S - | S G M - - - M - ||",
+            "sahitya": "Ja ga - me- - - le - Pa ra maa- - - tma!"
+          },
+          {
+            "line_number": 16,
+            "swara": "G R G S srgr G - | mg pm G R S , g sgsn ||",
+            "sahitya": "E va ri - - to Mo-ra- li du du- - -"
+          },
+          {
+            "line_number": 17,
+            "swara": "f) pnpn srsn pnsr snS | srsr mpmg sgmp mgM ||",
+            "sahitya": "Ja ga me- - - le - Pa ra maa- - - tma!"
+          },
+          {
+            "line_number": 18,
+            "swara": "G G G rn NS GM | gm dpM G R S - - - ||",
+            "sahitya": "E va ri - - to Mo-ra- li du du- - -"
+          },
+          {
+            "line_number": 19,
+            "swara": "G G G rn NS GM | P M gm dpM gr S - - ||",
+            "sahitya": "E va ri - - to Mo-ra- li - - - du - -"
+          },
+          {
+            "line_number": 20,
+            "swara": "G R R - R S S - | DN N D DP - M ||",
+            "sahitya": "Vaga ju - pagu Taa- lanu Nan- ne- - lu"
+          },
+          {
+            "line_number": 21,
+            "swara": "P , n N S - - N D | P M G R N S G M ||",
+            "sahitya": "ko - - ra - - - Tya- ga ra - ja nu ta ni -"
+          },
+          {
+            "line_number": 22,
+            "swara": "P P D P pn S ns G | S mg grrs snnd dp pm ||",
+            "sahitya": "Nagu mo- - - - mu - Gana le - - - ni –"
+          },
+          {
+            "line_number": 23,
+            "swara": "rssn dppm pmmg grrs | N S g r S sg M gm P ||",
+            "sahitya": "Naa jaa- - - li - Deli si - - - - - - - -"
+          },
+          {
+            "line_number": 24,
+            "swara": "P P D P pn Srs nd P | P M G R S R pmgr ||",
+            "sahitya": "Na nnu Bro- - - - - - va Raa - - - Raa- - - - -"
+          },
+          {
+            "line_number": 25,
+            "swara": "S - - - gr sn dp - rs | ndpm - dp mg rs – ns g – s gm ||",
+            "sahitya": "daa ? - - Sri- - - Ra- ghu- - va- ra!- - Ni- - - - - -"
+          },
+          {
+            "line_number": 26,
+            "swara": "P , p - pn sn N - N | D , p - pmM - M - mpdp ||",
+            "sahitya": "Nagu mo- - - - mu - Gana le - - ni –"
+          },
+          {
+            "line_number": 27,
+            "swara": "mgG - ggR sr gr sr , s S | - - - - - - - - ||",
+            "sahitya": "Na- - jaa li - - - - - - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

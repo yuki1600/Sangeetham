@@ -1,0 +1,162 @@
+{
+  "song_details": {
+    "name": "Aragimpave",
+    "raga": "Todi",
+    "arohanam": "S R1 G2 M1 P D1 N2 Ṡ ||",
+    "avarohanam": "Ṡ N₂ D1 P M₁ G₂ R1 S ||",
+    "tala": "Rupakam",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- sr gm- G - R || S - - - nd N ||",
+        "sahitya": "Ara - - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- sr gm- G - R || S - - - rsnd ||",
+        "sahitya": "lara - - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 3,
+        "swara": "N- sr gm- G - R || S - - - drS nd ||",
+        "sahitya": "lara - - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 4,
+        "swara": "N- S R , g - M || P - - - pmgr ||",
+        "sahitya": "la ra - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 5,
+        "swara": "N- sr pm- G - R || S - - - rs nd ||",
+        "sahitya": "lara - - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 6,
+        "swara": "N- S R , g - M || pdN DM G R ||",
+        "sahitya": "la ra - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 7,
+        "swara": "N- sd dppm- G - R || S - - - rs nd ||",
+        "sahitya": "la- ra - -gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 8,
+        "swara": "N- S R , g - M || pdns ,n - dp mgrs ||",
+        "sahitya": "la ra - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 9,
+        "swara": "rn- sd dppm- G - R || S - - - nsrs nd ||",
+        "sahitya": "la- ra - -gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 10,
+        "swara": "N- S R , pm G M || pdns ,n - dp mgrs ||",
+        "sahitya": "la ra - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 11,
+        "swara": "rn- sd dpm - p mg - rs || G - - - - - ||",
+        "sahitya": "la- ra gim – pa ve- - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - - - rs || D - D – D D D || dnsr G R S - S ||",
+        "sahitya": "Raghu vi ra ja na ka ja- - - ka ra pa"
+      },
+      {
+        "line_number": 2,
+        "swara": "S ,r sn dp G - || - mp dp- mg rs – gr ||",
+        "sahitya": "Vi - tri-ta- mau - ven- na- pa - - l(a)"
+      },
+      {
+        "line_number": 3,
+        "swara": "rn- sd dpm - p mg - rs || S - - - - rs ||",
+        "sahitya": "la- ra gim – pa ve- - - - Raghu"
+      },
+      {
+        "line_number": 4,
+        "swara": "D - D – D D D || dnsr G R S - S ||",
+        "sahitya": "vi ra ja na ka ja- - - ka ra pa"
+      },
+      {
+        "line_number": 5,
+        "swara": "S ,r sn dp G - || - mp dp- mg rs – gr ||",
+        "sahitya": "Vi - tri-ta- mau - ven- na- pa - - l(a)"
+      },
+      {
+        "line_number": 6,
+        "swara": "rn- sd dppm- G - R || S - - - nsrs nd ||",
+        "sahitya": "la- ra - -gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 7,
+        "swara": "N- S R , pm G M || pdns ,n - dp mgrs ||",
+        "sahitya": "la ra - gim – pa ve- - - pa- -"
+      },
+      {
+        "line_number": 8,
+        "swara": "rn- sd dpm - p mg - rs || G - - - - - ||",
+        "sahitya": "la- ra gim – pa ve- - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- P , d- P - P || pd N DM GM ||",
+            "sahitya": "sa ra mai - na di - - vy(a)- nnamu"
+          },
+          {
+            "line_number": 2,
+            "swara": "- P ,d – P M M || g M - d pm- pm gr – sr ||",
+            "sahitya": "shad -ra sa yu ta bha- ksha - - Na- -mu lu-"
+          },
+          {
+            "line_number": 3,
+            "swara": "gm- P , d- P - P || gmpd N DM GM ||",
+            "sahitya": "- sa ra mai - na di - - - vy(a)- nnamu"
+          },
+          {
+            "line_number": 4,
+            "swara": "- P ,d – P M M || g M - d pm- pm gr – S ||",
+            "sahitya": "shad -ra sa yu ta bha- ksha - - Na- -mu lu-"
+          },
+          {
+            "line_number": 5,
+            "swara": "- nr , s – D , m D || dnsr G R S S ||",
+            "sahitya": "da- ra so - -da r(a) - - - du la to"
+          },
+          {
+            "line_number": 6,
+            "swara": "S - sr- sn dp – dn || Srs n d pm - dp m – gr s ||",
+            "sahitya": "tya ga- ra- - - ja vi- nu - ta - pa - - - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "rn- sd dppm- G - R || S - - - nsrs nd ||",
+            "sahitya": "la- ra - -gim – pa ve- - - pa- -"
+          },
+          {
+            "line_number": 8,
+            "swara": "N- S R , pm G M || pdns ,n - dp mgrs ||",
+            "sahitya": "la ra - gim – pa ve- - - pa- -"
+          },
+          {
+            "line_number": 9,
+            "swara": "rn- sd dpm - p mg - rs || G - - - - - ||",
+            "sahitya": "la- ra gim – pa ve- - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

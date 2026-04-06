@@ -1,0 +1,237 @@
+{
+  "song_details": {
+    "name": "Nidhi Chala Sukhama",
+    "raga": "Kalyani",
+    "arohanam": "S R₂ G₃ M₂ P D₂ N₃ Ṡ ||",
+    "avarohanam": "Ṡ N₃ D₂ P M₂ G₃ R₂ S ||",
+    "tala": "Misra Chapu",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- G D | P - pmG || G - R | R S sn R || rs S - | - - G - ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - ra –"
+      },
+      {
+        "line_number": 2,
+        "swara": "M P - | M P D N || S S - | sn D dSn || dp P - | gdpm G G R ||",
+        "sahitya": "Muni san - - - nidhi se - - - - - va- - - su - - - kha –"
+      },
+      {
+        "line_number": 3,
+        "swara": "R - - | N D P M || gmpd nd | pm G G M ||",
+        "sahitya": "ma - - nija muga pal - - ku- ma-na sa –"
+      },
+      {
+        "line_number": 4,
+        "swara": "R- G D | P - pmG || G - R | R S sn gr || rs S - | - - gdpmG- ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - ra –"
+      },
+      {
+        "line_number": 5,
+        "swara": "M P - | dpmp D N || S S - | pdnd dnsn || dp P - | gdpm G G R ||",
+        "sahitya": "Muni san - - - nidhi se - - - - - va- - - su - - - kha –"
+      },
+      {
+        "line_number": 6,
+        "swara": "R - - | MD NR || snD pm | gmpd ndpm ||",
+        "sahitya": "ma - - nija muga pal - - ku- ma-na sa –"
+      },
+      {
+        "line_number": 7,
+        "swara": "gr- G sn | dpP-- dpmG-, || G - R | R S sn gr || rs S - | - - gdpmG- ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - ra –"
+      },
+      {
+        "line_number": 8,
+        "swara": "M P - | dpmp D N || S S - | pdnd dnsn || dp P - | gdpm G G R ||",
+        "sahitya": "Muni san - - - nidhi se - - - - - va- - - su - - - kha –"
+      },
+      {
+        "line_number": 9,
+        "swara": "R - - | DN R G || grnd pm | gmpd ndpm ||",
+        "sahitya": "ma - - nija muga pal - - ku- ma-na sa –"
+      },
+      {
+        "line_number": 10,
+        "swara": "gr- G sn | dpP-- dpmG-, || G - R | R S sn gr || rs S - | - - gdpmG- ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - ra –"
+      },
+      {
+        "line_number": 11,
+        "swara": "M P - | dpmp D N || S S - | pdnd dnsn || dp P - | gdpm G G R ||",
+        "sahitya": "Muni san - - - nidhi se - - - - - va- - - su - - - kha –"
+      },
+      {
+        "line_number": 12,
+        "swara": "R - - | GR ND || mdnr nd | pm - nd pmG ||",
+        "sahitya": "ma - - nija muga pal - - ku- ma-na sa –"
+      },
+      {
+        "line_number": 13,
+        "swara": "mr- G D | P - pmG || G - R | R S sn gr || R - - | - pm gr S ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - - –"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- S S | S - sn D || P , d N | dp P dpmg - ||",
+        "sahitya": "dadhi na va- - ni - - - ta - - kshi"
+      },
+      {
+        "line_number": 2,
+        "swara": "- G M | P D D P || D , N , | S - P D ||",
+        "sahitya": "ra mu lu - - - ru ci yo - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "N- sn rs | snnd pmD || mdnr N | dp P ndpm ||",
+        "sahitya": "Da-dhi na va- - ni - - - ta - - kshi"
+      },
+      {
+        "line_number": 4,
+        "swara": "gr- G M | P D D P || D , N , | srgr sndp ||",
+        "sahitya": "ra mu lu - - - ru ci yo - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "dn- sr gr | nsrs dnsn || Pdn dnrsN | dp P ndpm ||",
+        "sahitya": "Da-dhi na --va- ni - - - ta - - kshi"
+      },
+      {
+        "line_number": 6,
+        "swara": "gr- G M | P D D P || N , S , | S - R - ||",
+        "sahitya": "ra mu lu - - - ru ci yo da"
+      },
+      {
+        "line_number": 7,
+        "swara": "G , R , | S rg rs S || nr s S n | P D N – R ||",
+        "sahitya": "Sa ra thi- - dhya- na - - - bhaja na su"
+      },
+      {
+        "line_number": 8,
+        "swara": "S - - | sn D P - || G , M , | P - - R - ||",
+        "sahitya": "dha ra-sa mu - ru ci yo da"
+      },
+      {
+        "line_number": 9,
+        "swara": "G , R , | srgr nsrs || nr s S n | P D N – R ||",
+        "sahitya": "Sa ra thi- - dhya- na - - - bhaja na su"
+      },
+      {
+        "line_number": 10,
+        "swara": "S - - | sn D P - || pm g R , | gmpd ndpm ||",
+        "sahitya": "dha ra-sa mu - ru ci yo - - -"
+      },
+      {
+        "line_number": 11,
+        "swara": "gr- G sn | dpP-- dpmG-, || G - R | R S sn gr || rs S - | - - gdpmG- ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - ra –"
+      },
+      {
+        "line_number": 12,
+        "swara": "M P - | dpmp D N || S S - | pdnd dnsn || dp P - | gdpm G G R ||",
+        "sahitya": "Muni san - - - nidhi se - - - - - va- - - su - - - kha –"
+      },
+      {
+        "line_number": 13,
+        "swara": "R - - | GR ND || mdnr nd | pm - nd pmG ||",
+        "sahitya": "ma - - nija muga pal - - ku- ma-na sa –"
+      },
+      {
+        "line_number": 14,
+        "swara": "mr- G D | P - pmG || G - R | R S sn gr || R - - | - pm gr S ||",
+        "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - - –"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- gd pd | pmG G R || rS rG | rs S S - || - - G | M - P - ||",
+            "sahitya": "Da-ma- Sa- - ma- m(a) nu gan- ga - - sna na - mu"
+          },
+          {
+            "line_number": 2,
+            "swara": "P D P | D N S - ||",
+            "sahitya": "Sukha- ma- kar"
+          },
+          {
+            "line_number": 3,
+            "swara": "S , S , | sn D P - || mdpm G R | S R R - ||",
+            "sahitya": "da ma dur- vi sha- - ya- ku - pa"
+          },
+          {
+            "line_number": 4,
+            "swara": "(or RG R - )",
+            "sahitya": "sna- na - mu su-kha- - - ma- - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "- S S | ssnd pm - D || snr - s S | D - dpmg - ||",
+            "sahitya": "Mama ta - - - - ban dha—na - yu - ta - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "- G M | P D D P || D , N , | S - P D ||",
+            "sahitya": "Na ra stu - ti - su kha ma - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "N- sn rs | ssnd pm - D || snr - s n d | P - ndpm ||",
+            "sahitya": "Ma ma ta - - - - ban dha—na - yu - ta - - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "gr- G M | P D D P || D , N , | S - R - ||",
+            "sahitya": "Na ra stu - ti - su kha ma su"
+          },
+          {
+            "line_number": 9,
+            "swara": "G , R , | S rg rsS - || S - - | N – P D N ||",
+            "sahitya": "ma ti tya-- ga- - ra- - ja nu tu ni"
+          },
+          {
+            "line_number": 10,
+            "swara": "gr S - | sndn dpP - || G , M , | P - R - ||",
+            "sahitya": "ki - - rta-- na - - su kha ma su"
+          },
+          {
+            "line_number": 11,
+            "swara": "G , R , | S rg rsS - || S - - | N – P D N ||",
+            "sahitya": "ma ti tya-- ga- - ra- - ja nu tu ni"
+          },
+          {
+            "line_number": 12,
+            "swara": "sn R - | sn D P - || pm g R , | gmpd ndpm ||",
+            "sahitya": "ki - - rta-- na - - su kha ma - - -"
+          },
+          {
+            "line_number": 13,
+            "swara": "gr- G sn | dpP-- dpmG-, || G - R | R S sn gr || rs S - | - - gdpmG- ||",
+            "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - ra –"
+          },
+          {
+            "line_number": 14,
+            "swara": "M P - | dpmp D N || S S - | pdnd dnsn || dp P - | gdpm G G R ||",
+            "sahitya": "Muni san - - - nidhi se - - - - - va- - - su - - - kha –"
+          },
+          {
+            "line_number": 15,
+            "swara": "R - - | GR ND || mdnr nd | pm - nd pmG ||",
+            "sahitya": "ma - - nija muga pal - - ku- ma-na sa –"
+          },
+          {
+            "line_number": 16,
+            "swara": "mr- G D | P - pmG || G - R | R S sn gr || R - - | - pm gr S ||",
+            "sahitya": "nidhi ca - - - la - - su - kha- ma- - - - - –"
+          }
+        ]
+      }
+    ]
+  }
+}

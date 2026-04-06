@@ -1,0 +1,76 @@
+{
+  "song_details": {
+    "name": "Sri Guru Guha",
+    "raga": "Shuddha Saveri",
+    "arohanam": "S R1 M1 P D2 Ṡ ||",
+    "avarohanam": "Ṡ D2 P M1 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "S - D P M D || P - M – R - S || R - - sr m p d r ||",
+        "sahitya": "Sri guru gu ha ta ra ya Su mam – Sara vana bhava"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - D P M D || pdsd pm – rm pm rs || R - - sr m p d r ||",
+        "sahitya": "Sri guru gu ha ta ra ya - - Su mam – Sara vana bhava"
+      },
+      {
+        "line_number": 3,
+        "swara": "S - D P M D || pdsd pm – rm pm rs || R - - - s s d r ||",
+        "sahitya": "Sri guru gu ha ta ra ya - - Su mam – - sura pati"
+      },
+      {
+        "line_number": 4,
+        "swara": "S m r d d p d s d r s || m r s r s d - s d p m p d ||",
+        "sahitya": "Sri pati rati pati vak-pati kshiti pati pasu pati se - vita (sri )"
+      },
+      {
+        "line_number": 5,
+        "swara": "D - D - P - D || M P R M P - D || M - R S R S ||",
+        "sahitya": "ra ga di ra hi ta hrda ya vi bha vita sura"
+      },
+      {
+        "line_number": 6,
+        "swara": "R M P D M P ||",
+        "sahitya": "muni pu- ji ta"
+      },
+      {
+        "line_number": 7,
+        "swara": "D - R - sr- S || - S s d d s p D p ||",
+        "sahitya": "tya ga dhi- ra ja ku- - - ma-ra"
+      },
+      {
+        "line_number": 8,
+        "swara": "S - P - P D || M P M - R - S ||",
+        "sahitya": "ta pa traya ha ra ku ma - ra"
+      },
+      {
+        "line_number": 9,
+        "swara": "S d – r , s- m r m – P d || M P D – s d , - R s ||",
+        "sahitya": "bhogi ra - ja vinu ta pada bhu de va kriya - moda"
+      },
+      {
+        "line_number": 10,
+        "swara": "R m – r , r - S s - D d || M r - s D – s r m P d ||",
+        "sahitya": "yogi ra - ja yo ga bheda yukta ma no laya vinoda"
+      },
+      {
+        "line_number": 11,
+        "swara": "S - D P M D || pdsd pm – rm pm rs || R - - - s s d r ||",
+        "sahitya": "Sri guru gu ha ta ra ya - - Su mam – - sura pati"
+      },
+      {
+        "line_number": 12,
+        "swara": "S m r d d p d s d r s || m r s r s d - s d p m p d ||",
+        "sahitya": "Sri pati rati pati vak-pati kshiti pati pasu pati se - vita (sri )"
+      }
+    ],
+    "anupallavi": [],
+    "charanams": []
+  }
+}

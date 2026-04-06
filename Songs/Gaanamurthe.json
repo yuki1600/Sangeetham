@@ -1,0 +1,187 @@
+{
+  "song_details": {
+    "name": "Gaanamurthe",
+    "raga": "Deshadi",
+    "arohanam": "",
+    "avarohanam": "",
+    "tala": "Deshadi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - G - G grR",
+        "sahitya": "- - - Gaa - na mur-- the!"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - ,r- G - G grR",
+        "sahitya": "Ve nu Gaa - na mur-- the! Sri- - Kri - shna!"
+      },
+      {
+        "line_number": 3,
+        "swara": "P , d pm- gpmg",
+        "sahitya": "Ve nu- Gaa - - na mur-- the! Sri- - Kri - shn a!"
+      },
+      {
+        "line_number": 4,
+        "swara": "P , d pm- pmG",
+        "sahitya": "Ve nu- Gaa - - na mur-- the! Sri- - Kri - shn a!"
+      },
+      {
+        "line_number": 5,
+        "swara": "P , d p md",
+        "sahitya": "Ve nu- Gaa - - na mur-- the! Sri- - - Kri - shna!"
+      },
+      {
+        "line_number": 6,
+        "swara": "P , d p md",
+        "sahitya": "Ve nu- Gaa - - na lo - - - - - - - la -"
+      },
+      {
+        "line_number": 7,
+        "swara": "P - P - pmG",
+        "sahitya": "Ve nu- Gaa - na lo - la - Tribhu-vana Pa a-la! - Paa-"
+      },
+      {
+        "line_number": 8,
+        "swara": "pD- d pm- G - G grR",
+        "sahitya": "- - hi - - Gaa - - na mur-- the! Sri- - - K ri - shna!"
+      },
+      {
+        "line_number": 9,
+        "swara": "dp M ,d - pmG , g P , P, | - md , p M dp D - dn ||",
+        "sahitya": "Ve - - nu- - - Gaa - - na lo - la - Tribhu -vana Paa-la! - Paa-"
+      },
+      {
+        "line_number": 10,
+        "swara": "sn dn dp M , d",
+        "sahitya": "- - - - hi - - - - Gaa - - na mur-- - - - - - the! - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - , p ,d- sn D N | S - - - - - - - ||",
+        "sahitya": "- - - -maa -ni ni- - ma ni - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - - P D- sn D N | S - - R - R - R ||",
+        "sahitya": "- - - Maa ni ni- - ma ni - - Sri - Ru - kmi"
+      },
+      {
+        "line_number": 3,
+        "swara": "S - - P D- sn D N | S - - R - R - R ||",
+        "sahitya": "ni - - Maa ni ni- - ma ni - - Sri - Ru - kmi"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - - P D- sn D N | S - - G - R - R ||",
+        "sahitya": "ni - - Maa ni ni- - ma ni - - Sri - Ru - kmi"
+      },
+      {
+        "line_number": 5,
+        "swara": "grrs S- P D- rs nd- N | S - ns rpmmG",
+        "sahitya": "ni - - Maa ni ni- - - ma ni - Sri - - - - - Ru - kmi"
+      },
+      {
+        "line_number": 6,
+        "swara": "grR rs- P ,d- P - - pm | d p D - - - - - S, n",
+        "sahitya": "||"
+      },
+      {
+        "line_number": 7,
+        "swara": "dn dpM",
+        "sahitya": "mi ni - - Maa na saa - pa- haa-ra! - Maa - ra ja na ka--"
+      },
+      {
+        "line_number": 8,
+        "swara": ", m P- P ,d- P - - pm | d p D - sn dp - nd pm - P,d ||",
+        "sahitya": "Div- - ya - Maa na saa - pa- haa-ra! - Maa ra- ja- na- ka--"
+      },
+      {
+        "line_number": 9,
+        "swara": "- G g r R | rsS - rr s S - g - M ||",
+        "sahitya": "-- - - Gaa - - na mur-- the! Sri- - - Kri - shna!"
+      },
+      {
+        "line_number": 10,
+        "swara": "dp M ,d - pmG , g P , P, | - md , p M dp D - dn ||",
+        "sahitya": "Ve - - nu- - - Gaa - - na lo - la - Tribhu -vana Paa-la! - Paa-"
+      },
+      {
+        "line_number": 11,
+        "swara": "sn dn dp M , d - G - G ddpm | G - gr R S - - - ||",
+        "sahitya": "- - - - hi - - - - Gaa - - na mur-- - - - - - the! - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- - - M M M - M | gG - m , - - - - - ||",
+            "sahitya": "- - -na vanee - tha Cho-ra !- - - - - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "- - - dp M M - M | gG - m , - - - - rg ||",
+            "sahitya": "- - -na vanee - tha Cho-ra !- - - - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "rgM ,g -rg M M - M | rgrg",
+            "sahitya": "- - -- Na- vanee - tha Cho-- ra !-nan- da Sat - ki"
+          },
+          {
+            "line_number": 4,
+            "swara": ", -s - -D M M - M | rgrg - M- mp ,d -dp M G ||",
+            "sahitya": "sho- - ra! - Na- vanee - tha Cho-- ra !-nan- da Sat - ki"
+          },
+          {
+            "line_number": 5,
+            "swara": ", -s - S S sn D - N | S , s - ,m P dn S N ||",
+            "sahitya": "sho- - ra! - Na rami- - tra! Dhi-ra! - Na ra sim - ha!"
+          },
+          {
+            "line_number": 6,
+            "swara": "pdpd",
+            "sahitya": "Su-- - ra!- Na vame- - kha Te-ja - - - - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "- P D sn D N | S , s - G mg - M pm - P ||",
+            "sahitya": "- - - Na vame- - kha Te-ja - - - - - -"
+          },
+          {
+            "line_number": 8,
+            "swara": "dp D - N P D sn D N | S , s - R R R - R ||",
+            "sahitya": "- - - - Na vame- - kha Te-ja - Na ga jaa - Sa"
+          },
+          {
+            "line_number": 9,
+            "swara": "S , s - P D rs nd N | S , s - S G G - R ||",
+            "sahitya": "ha ja! - Na vame- - kha Te-ja - Na ga jaa - Sa"
+          },
+          {
+            "line_number": 10,
+            "swara": "S , s - P D rs nd N | S , s - sr gpmm",
+            "sahitya": "ha ja! - Na vame- - kha Te-ja - Na ga - - jaa - Sa"
+          },
+          {
+            "line_number": 11,
+            "swara": "grR--rs S-",
+            "sahitya": "ha-- ja! - - Na rakaan - ta- kaa- ja! - Na- ta- Tya- - - ga"
+          },
+          {
+            "line_number": 12,
+            "swara": ", m P- P D P - P,m | d P- d - sn dp- nd pm -P || pmG , m pd-",
+            "sahitya": "raa- - ja! - Na rakaan - ta- kaa- ja! - Na- ta- Tya- - - ga Div- - ya - (gaanamur the)"
+          }
+        ]
+      }
+    ]
+  }
+}

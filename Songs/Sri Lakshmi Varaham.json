@@ -1,0 +1,127 @@
+{
+  "song_details": {
+    "name": "Sri Lakshmi Varaham",
+    "raga": "Abhogi",
+    "arohanam": "S R2 G2 M1 D2 S ||",
+    "avarohanam": "S D2 M1 G2 R2 S ||",
+    "tala": "Adi",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. S - D , m - G gr R | S - - rg M - D - ||",
+        "sahitya": "Shree Lak shmi Va raa-- ham- - Bha- je - ham-"
+      },
+      {
+        "line_number": 2,
+        "swara": "2. rsdm - s dm – d mg -G gr R | S - - rg M - D - ||",
+        "sahitya": "Shree Lak- shmi -- Va raa-- ham- - Bha- je - ham-"
+      },
+      {
+        "line_number": 3,
+        "swara": "3. rsdm - s dm - d mg -G gr R | S - - gr srgm dmds ||",
+        "sahitya": "Shree Lak- shmi -- Va raa-- ham- - Bha- je - ham-"
+      },
+      {
+        "line_number": 4,
+        "swara": "4. grsd - rsd -s dm - m g -gr R | S - - rg rs D S - ||",
+        "sahitya": "Shree Lak- shmi -- Va- - raa-- ham- - Bha- je - ham-"
+      },
+      {
+        "line_number": 5,
+        "swara": "R - G - M - M D | S - - rs d m - g m , -m D ||",
+        "sahitya": "Shree Lak shmi Sahi- tam - - Sritha jana Shubha Pra dam"
+      },
+      {
+        "line_number": 6,
+        "swara": "5. rsdm - s dm - d mg -G gr R | R - - rg rs D S - ||",
+        "sahitya": "Shree Lak- shmi -- Va- - raa-- ham- - Bha- je - ham-"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. DM D - S - S D S | R - R G gr R S - ||",
+        "sahitya": "Nee- la Me gha Ghana Shya mala Gaa-- thram"
+      },
+      {
+        "line_number": 2,
+        "swara": "2. DM D - S - S D S | rgmg rmgg gr sd S - ||",
+        "sahitya": "Nee- la Me gha Ghana Shya mala Gaa-- thram"
+      },
+      {
+        "line_number": 3,
+        "swara": "3. rsdm D - S - S D S | rgmg rmgg gr sd S - ||",
+        "sahitya": "Nee- la Me gha Ghana Shya mala Gaa-- thram (finish with 1)"
+      },
+      {
+        "line_number": 4,
+        "swara": "a) R- g M g G R S - | sd sd d m G gr R S - ||",
+        "sahitya": "Nee la - - Bhu- de- vi- - - Sthu-thi Paa-- thram"
+      },
+      {
+        "line_number": 5,
+        "swara": "b) R G rg M mg R gr S | rs D s d M dm G g r S ||",
+        "sahitya": "Nee la - - Bhu- de- vi- - - Sthu-thi Paa-- thram"
+      },
+      {
+        "line_number": 6,
+        "swara": "R m - g , r - s d rs gr - mg M | d r s - s d m - d s - s D m gm D ||",
+        "sahitya": "Neela kan ta Shiva Guruguha Mithram Nikhila Bhaktha Jana Bhayaarthi Daathram"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "1. M - M - M D - M D - | D S D D M- G gr R ||",
+            "sahitya": "Man ga laa - la yaa Abho- gi nu tha Pa dam--"
+          },
+          {
+            "line_number": 2,
+            "swara": "2. M - M - gm D - M D - | md rs sd dm mg - G gr R ||",
+            "sahitya": "Man ga laa - la yaa Abho- gi nu tha Pa dam--"
+          },
+          {
+            "line_number": 3,
+            "swara": "- gr sd S R G MM | D S - D - M D S ||",
+            "sahitya": "Pun- ga-va Budha jana Natham Ve da nutham"
+          },
+          {
+            "line_number": 4,
+            "swara": "- , d , s S R R GR | S - rm gr S gr - rs D s s ||",
+            "sahitya": "San kara Priya karam Ku be- -- ra Pra thi- - sti tham"
+          },
+          {
+            "line_number": 5,
+            "swara": "- r s d - s S R R GR | S - rm gr S gr - rs D s s ||",
+            "sahitya": "San - kara Priya karam Ku be- -- ra Pra thi- - sti tham"
+          },
+          {
+            "line_number": 6,
+            "swara": "- , r , s - D - M D S | - sd dm - - G - gr R ||",
+            "sahitya": "Shan ka Cha - kra Dharam Kru- paa- ka- ram --"
+          },
+          {
+            "line_number": 7,
+            "swara": "grrs D - rs D - M D S | s dm - d m g - G gr R - - ||",
+            "sahitya": "Shan ka Cha - kra Dharam Kru- paa- ka- ram --"
+          },
+          {
+            "line_number": 8,
+            "swara": "R m - g , r -S - r s r - s , d S | R gm gm - D m D - s , d S ||",
+            "sahitya": "Pankajaasana Pramukha Sevitham Pankaja Mukha Bhaargavee Bhaavitham"
+          },
+          {
+            "line_number": 9,
+            "swara": "R g - r g - S r - D s - m , D s | R g r s d - s d , M m g m d s ||",
+            "sahitya": "Bhanga Ha ra Thaamra parnee Thee rastham Sankata hara Sadaananda Sahi tham-"
+          }
+        ]
+      }
+    ]
+  }
+}

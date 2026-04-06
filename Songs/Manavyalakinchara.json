@@ -1,0 +1,232 @@
+{
+  "song_details": {
+    "name": "Manavyalakinchara",
+    "raga": "Nalinakanti",
+    "arohanam": "S G3 R2 M1 P N3 S ||",
+    "avarohanam": "S N3 P M1 G3 R2 S ||",
+    "tala": "Deshadi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - M M – mg R S | G - - -rs | G - - rs ||",
+        "sahitya": "Ma na vya - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 2,
+        "swara": "G - ,r- M M – mg R S | G - - -rs | G - - rs ||",
+        "sahitya": "te -- Ma na vya - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 3,
+        "swara": "G - ,r- P M – mg gr S | G - - -gr | M - - gr ||",
+        "sahitya": "te -- Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 4,
+        "swara": "M - - - P M – mg gr S | G - - -gr | M - - R ||",
+        "sahitya": "te -- Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 5,
+        "swara": "- P - - P M – mg gr S | G - - -gr | pmM - rm ||",
+        "sahitya": "- te -- Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 6,
+        "swara": "pn rs np- P M – mg R S | S - - -S | mgr - m - P ||",
+        "sahitya": "te - - - - mar ma mel- - la tel - - pe- da-- ne - ma"
+      },
+      {
+        "line_number": 7,
+        "swara": "s n p - n - - P M – mg gr S | G - - - gr | M - - rm ||",
+        "sahitya": "na- - sa - Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 8,
+        "swara": "pn rs np- P M – mg R S | - S - -S | mgr - m - P ||",
+        "sahitya": "te - - - - mar ma mel- - la - t el - pe- da-- ne - ma"
+      },
+      {
+        "line_number": 9,
+        "swara": "s n p - s ,n- P M – mg gr S | G ns G -gr | M gr M- S ||",
+        "sahitya": "na- - sa - Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 10,
+        "swara": "P gr P- P M – mg R S | - S - -rm | rm pn pn- sg ||",
+        "sahitya": "te - - - - mar ma mel- - la - t el - pe- da-ne- -- ma"
+      },
+      {
+        "line_number": 11,
+        "swara": "r m g r s s- P M – mg gr S | G - - -R | M - - - ||",
+        "sahitya": "na- sa- - - Ma na vya - - /uni1e37a kin - ca- ra- - -"
+      },
+      {
+        "line_number": 12,
+        "swara": "- R - - - - P - | - - - - | - - - - ||",
+        "sahitya": "da- - - - - te - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - nP, N , s - S | - S - - | - - - - ||",
+        "sahitya": "- - - gha nu- /uni1e0dai - na - shri - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - - nP, N , s - S | - S - S | G gr R- M ||",
+        "sahitya": "- - - gha nu- /uni1e0dai - na - shri - ra ma can - dru"
+      },
+      {
+        "line_number": 3,
+        "swara": "G - - sn p - N- s - sn | - S - S | G gr R- M ||",
+        "sahitya": "ni - - gha - nu /uni1e0dai - na - shri - ra ma can - - dru"
+      },
+      {
+        "line_number": 4,
+        "swara": "G - - sn p - N- s - sn | pnrs S - S | G gr R- M ||",
+        "sahitya": "ni - - gha - nu /uni1e0dai - na shri-- - ra ma ca n - - dru"
+      },
+      {
+        "line_number": 5,
+        "swara": "G - - sn p - N- s - sn | pnrs S - S | G gr R- pm ||",
+        "sahitya": "ni - - gha - nu /uni1e0dai - na shri-- - ra ma ca n - - dru"
+      },
+      {
+        "line_number": 6,
+        "swara": "Mg - g - sn p - N- s - sn | pnrs S- S | G gr nr- pm ||",
+        "sahitya": "- - ni - gha - nu /uni1e0dai - na shri-- - ra ma ca n - - dru"
+      },
+      {
+        "line_number": 7,
+        "swara": "Mg - g - R M , mg - R | R , -r - - mg | r R - s - S ||",
+        "sahitya": "- - ni - ka ru – /uni1e47an – ta ra /uni1e45 ga - mu- teli si - na"
+      },
+      {
+        "line_number": 8,
+        "swara": "pn gr sn- snnp P- N- s - S | pnrs S- S | G gr R- pm ||",
+        "sahitya": "na -- - - gha - nu /uni1e0dai - na shri-- - ra ma can - - dru"
+      },
+      {
+        "line_number": 9,
+        "swara": "- G - - R M , mg - R | R , -r - - m g | r R - s - sn ||",
+        "sahitya": "- ni - ka ru – /uni1e47an – ta ra /uni1e45 ga - mu- teli si - na"
+      },
+      {
+        "line_number": 10,
+        "swara": "pn rs np- mP- nP- – mg gr S | G - - -gr | M - - rm ||",
+        "sahitya": "na -- Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+      },
+      {
+        "line_number": 11,
+        "swara": "pn rs np- P M – mg R S | - S - - rm | rm pn pn- sg ||",
+        "sahitya": "te - - - - mar ma mel- - la - t el - pe- da- ne -- ma-"
+      },
+      {
+        "line_number": 12,
+        "swara": "r m g r s s- P M – mg gr S | G - - -R | M - - - ||",
+        "sahitya": "na- sa- - - Ma na vya - - /uni1e37a kin - ca- ra- - -"
+      },
+      {
+        "line_number": 13,
+        "swara": "- R - - P - - - | - - - - | - - - - ||",
+        "sahitya": "da- - - te- - - - - - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- - - P P ,- p - pn | pmM , - m - - R | M - P - ps ||",
+            "sahitya": "- - - kar ma ka /uni1e47 - /uni1e0da- ma- - - ta - k/uni1e5b /uni1e63/uni1e6d u lai - bha-"
+          },
+          {
+            "line_number": 2,
+            "swara": "snP - P P ,- p - pn | pmM , - m - - R | M - P - pr ||",
+            "sahitya": "va - - kar ma ka /uni1e47 - /uni1e0da- ma- - - ta - k/uni1e5b /uni1e63/uni1e6d u lai - bha-"
+          },
+          {
+            "line_number": 3,
+            "swara": "snP - P P ,- p - pn | mnpp mM, , m - pmmr | , m - P - mp ||",
+            "sahitya": "va - - kar ma ka /uni1e47 - /uni1e0da- ma- - - - - ta k/uni1e5b - /uni1e63/uni1e6d u lai - bha-"
+          },
+          {
+            "line_number": 4,
+            "swara": "R - sn P- P P ,- p - pn | mnpp mM, , m - pmmr | , m - P - mp ||",
+            "sahitya": "- va - - kar ma ka /uni1e47 - /uni1e0da- ma- - - - - ta k/uni1e5b - /uni1e63/uni1e6d u lai - bha-"
+          },
+          {
+            "line_number": 5,
+            "swara": "R - sn P -r r , m - mg G – R | S - - - S | r M - p - pn ||",
+            "sahitya": "- va - - gaha -na ca- - ru lai - - ga si - jen - da-"
+          },
+          {
+            "line_number": 6,
+            "swara": "s n P - - P N , s - N | S - - - | - - - - ||",
+            "sahitya": "ga - - - ka ni ma - na va- - - - - - -"
+          },
+          {
+            "line_number": 7,
+            "swara": "- - - sn p - N- s - N | S - - S | G gr R- M ||",
+            "sahitya": "- - - ka - ni ma - na va- - a va ta- - ru"
+          },
+          {
+            "line_number": 8,
+            "swara": "G - ,r- sn p - N- s - N | S - - S | G gr R- M ||",
+            "sahitya": "/uni1e0dai - -- ka - ni ma - na va- - a va ta- - ru"
+          },
+          {
+            "line_number": 9,
+            "swara": "G - ,r- sn p - N- s - N | pnrs S - S | G gr R- pm ||",
+            "sahitya": "/uni1e0dai - -- ka - ni ma - na va- - a va ta- - ru"
+          },
+          {
+            "line_number": 10,
+            "swara": "M - G ,r- sn p - N- s - N | pnrs S - S | G gr R- M ||",
+            "sahitya": "- /uni1e0dai - -- ka - ni ma - na va- - a va ta- - ru"
+          },
+          {
+            "line_number": 11,
+            "swara": "- G - - R M , g - R | R , -r - - m g | R ,-s - S ||",
+            "sahitya": "dai - ka ni piñ - ci na- /uni1e0de - na/uni1e0da ta – tya - ga"
+          },
+          {
+            "line_number": 12,
+            "swara": "pn gr sn- snnp P- N- s - S | pnrs S- S | G gr R- pm ||",
+            "sahitya": "ra- ju- - - ka - ni ma - na va - - a va ta- - ru"
+          },
+          {
+            "line_number": 13,
+            "swara": "- G - - R M , g - R | R , -r - - m g | R ,-s - S ||",
+            "sahitya": "dai - ka ni piñ - ci na- /uni1e0de - na/uni1e0da na – tya - ga"
+          },
+          {
+            "line_number": 14,
+            "swara": "pn rs np- M M – mg gr S | G - - -gr | M - - rm ||",
+            "sahitya": "ra- ju- -- Ma na vya - - /uni1e37a kin - ca- ra- - da-"
+          },
+          {
+            "line_number": 15,
+            "swara": "pn rs np- P M – mg R S | - S - - rm | rm pn pn- sg ||",
+            "sahitya": "te - - - - mar ma mel- - la - t el - pe- da- ne -- ma-"
+          },
+          {
+            "line_number": 16,
+            "swara": "r m g r s s- P M – mg gr S | G - - -R | M - - - ||",
+            "sahitya": "na- sa- - - Ma na vya - - /uni1e37a kin - ca- ra- - -"
+          },
+          {
+            "line_number": 17,
+            "swara": "- R - - P - - - | - - - - | - - - - ||",
+            "sahitya": "da- - - te- - - - - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "song_details": {
+    "name": "Guruvayurappane",
+    "raga": "Reethigowlai",
+    "arohanam": "S G2 R2 G2 M1 N2 D2 M1 N2 N2 S ||",
+    "avarohanam": "S N2 D2 M1 G2 M1 P M1 G2 R2 S ||",
+    "tala": "Adi",
+    "composer": "Ambujam Krishna"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "g M -p - M mgG , - r S - sg | gGg S - - - - - ||",
+        "sahitya": "Guru vaa - yur Ap - - pa ne Ap- pan-- - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "g M -p - M mgG , - r S - sg | gGg S - n S - g G M ||",
+        "sahitya": "Guru vaa - yur Ap - - pa ne Ap- pan-- - - Sri- Kri - shnan"
+      },
+      {
+        "line_number": 3,
+        "swara": "n D -m - gm pm -G r S - sg | gm gG r S - n S - g G M ||",
+        "sahitya": "Guru vaa- yur - - Appa ne Ap- pan- - - - - Sri- Kri - shnan"
+      },
+      {
+        "line_number": 4,
+        "swara": "n D -m - gm pm -G r S - sg | gm gG r S - nn s S- g G M ||",
+        "sahitya": "Guru vaa- yur - - Appa ne Ap- pan- - - - Sri- - - Kri - shnan"
+      },
+      {
+        "line_number": 5,
+        "swara": "dN r S -nd M - - dp pm - -G r S - sg | gGg S - rs ndM- G r - Gm ||",
+        "sahitya": "Gu-ru vaa- - - yur - - - Appa ne Ap- pan- - - Sri- - - Kri - shnan"
+      },
+      {
+        "line_number": 6,
+        "swara": "gm nn S - ndM , G r S - sg | gGg S - rs ndM- g g , - M , ||",
+        "sahitya": "Gu-ru vaa- yur - Appa ne Ap- pan- - - Sri- - - Kri - shnan"
+      },
+      {
+        "line_number": 7,
+        "swara": "g M - r , S - nd M - G r S - sg | gGg S - rs ndM- g g , - M , ||",
+        "sahitya": "Gu-ru vaa- yur - - Appa ne Ap- pan- - - Sri- - - Kri - shnan"
+      },
+      {
+        "line_number": 8,
+        "swara": "g M - r , S - nd M - G r snnp - | - S gm gGr S - - - ||",
+        "sahitya": "Gu-ru vaa- yur - - Appa ne - - - Ap- pan- - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "n S - nd M - mp Mpm gG, G M | - - - - - - - - ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena - - - - - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "n S - nd M - mp Mpm gG, G M | g M - n - N s N- s - S ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena Naa- vaa - ra Azhai ppor -rkku"
+      },
+      {
+        "line_number": 3,
+        "swara": "n rs - nd M - mp G , r G M | g M - n - N n S- s - S ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena Naa- vaa - ra Azhai ppor -rkku"
+      },
+      {
+        "line_number": 4,
+        "swara": "nsrs , - nd M - mp G , r G M | g M - n - N n S- s - S ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena Naa- vaa - ra Azhai ppor -rkku"
+      },
+      {
+        "line_number": 5,
+        "swara": "nsrs , - nd M - mp G r n s- g M | g M - n - N n S- n S S ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena Naa- vaa - ra Azhai ppor -rkku"
+      },
+      {
+        "line_number": 6,
+        "swara": "nsrs , - nd M - mp G r n s- g M | g M - n - N n S- g G M ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena Naa- vaa - ra Azhai ppor -rkku"
+      },
+      {
+        "line_number": 7,
+        "swara": "grS , - nd M - mp G r n s- g M | g M - n - N n S- g G M ||",
+        "sahitya": "Naa- raa - ya- naa- - - Yena Naa- vaa - ra Azhai ppor -rkku"
+      },
+      {
+        "line_number": 8,
+        "swara": "- g m , g R sn rs n N -d | - pdN , - d M M p- mg R G ||",
+        "sahitya": "Varum I dar Ta-vi- - - rttu - Vaan- chaiyu dan- Kaa - kkum"
+      },
+      {
+        "line_number": 9,
+        "swara": "- g m , g R sn rs n N -d | - gm , - pDpD pmM--mg R G ||",
+        "sahitya": "Varum I dar Ta-vi- - - rttu - Vaan- chai-yu- dan- Kaa - kkum"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- , g g - M m M , m - M | - , g m - p M mgG - S S ||",
+            "sahitya": "Vi zhi kat ka mu Du - ttum - - E zhil Tiru me - - - ni"
+          },
+          {
+            "line_number": 2,
+            "swara": "- , g g - M m M - ns gg M | - dN rS - nd M pmgG, , S S ||",
+            "sahitya": "Vi zhi kat ka mu Du - -ttum - - E zhil Ti- ru me - - - ni"
+          },
+          {
+            "line_number": 3,
+            "swara": "- , n s - g R sgsg n p , N , | - , n s g- G M - m g , M, ||",
+            "sahitya": "A zha ga Ma nam- Tuddi - kkum - -baa-la Ti ru vu ru - vam"
+          },
+          {
+            "line_number": 4,
+            "swara": "- , ds nn d M G G r- g M | - , g m - n N S N S - ||",
+            "sahitya": "- - Mu zhu madi Mukham - Tighaz - - A rul Vizhi cchudar gal"
+          },
+          {
+            "line_number": 5,
+            "swara": "- , dn rs nd M G G r- g M | - , g m - n N S N S - ||",
+            "sahitya": "- - Mu zhu madi Mukham - Tighaz - - A rul Vizhi cchudar gal"
+          },
+          {
+            "line_number": 6,
+            "swara": "- , sg gs nd M G G r- g M | - , g m - n N sn gg s- S , ||",
+            "sahitya": "- - Mu zhu madi Mukham - Tighaz - - A rul Vizhi cchudar- - gal"
+          },
+          {
+            "line_number": 7,
+            "swara": "- n s , G - gs sn rs nn D | - n s , nd M Mpm gG, gg S ||",
+            "sahitya": "Azhai -kkum An bar ga- ru-lum A di ma lar I - - nai- yum--"
+          },
+          {
+            "line_number": 8,
+            "swara": "- n s , G - gs sn rs nn D | gmnn s- nd M Mpm gG, gg S ||",
+            "sahitya": "Azhai -kkum An bar ga- ru-lum A di-- ma lar I - - nai- yum--"
+          },
+          {
+            "line_number": 9,
+            "swara": "N n n S , s n s g g , M g | M - - - - - - - ||",
+            "sahitya": "Munnam Ya sho-dai Main-danaai -vanda van- - - - - - -"
+          },
+          {
+            "line_number": 10,
+            "swara": "N n n S , s n s g g , M g | M - - - nsgm gg sgS ||",
+            "sahitya": "Munnam Ya sho-dai Main-danaai -vanda van- - - - - - - - -"
+          },
+          {
+            "line_number": 11,
+            "swara": "N n n S , s n s g g M g m | g g s - g m g m m n s s - n s n s s ||",
+            "sahitya": "Munnam Ya sho-dai Main-danaai Vandavan In- ru Na ma kkirangi In - gu E zhun daruli"
+          },
+          {
+            "line_number": 12,
+            "swara": "N n n s n s s n s g g , m g m | g g s - g m g m m n s s - n s n s s ||",
+            "sahitya": "Munnam Ya sho--dai Main-danaai -vandavan In- ru Na ma kkirangi In - gu E zhun daruli"
+          },
+          {
+            "line_number": 13,
+            "swara": "n s n p n n S n s g g M m m | g m g r n rs n d m - m p m g r g m ||",
+            "sahitya": "Ba-lanai Yuva naai Paa- likkum Dei vamaai Pa ra vasha Nilai Kaa- ttum Parama Purushan-"
+          }
+        ]
+      }
+    ]
+  }
+}

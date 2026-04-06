@@ -1,0 +1,157 @@
+{
+  "song_details": {
+    "name": "Nee Bhajana Gana",
+    "raga": "Nayaki",
+    "arohanam": "S R2 M1 P D2 N2 D2 P S ||",
+    "avarohanam": "S N2 , D2 P M1 R2 G2 , R2 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "N - - - - - D D | P – D - P mpdp mpdp ||",
+        "sahitya": "Nee - - - - Bhaja na Gaa - na Ra-si- ku-la-"
+      },
+      {
+        "line_number": 2,
+        "swara": "D N dpmr rmpd N - dd | P – Dnd D- P mpdp mpdp ||",
+        "sahitya": "Nee - - - - - - - Bhaja na Gaa - na Ra-si- ku-la-"
+      },
+      {
+        "line_number": 3,
+        "swara": "D rs D N dpmp ,m - dd | P – Dnd D- P mpdp mpdp ||",
+        "sahitya": "Nee - - - - - - - Bhaja na Gaa - na Ra-si- ku-la-"
+      },
+      {
+        "line_number": 4,
+        "swara": "D rs D N dpmp ,m - dd | P – Dnd D- P - mp , d P,d ||",
+        "sahitya": "Nee - - - - - - - Bhaja na Gaa - na Rasi- ku-la-"
+      },
+      {
+        "line_number": 5,
+        "swara": "dpmr R G rs R - r p | mr – R G- R S - r m p d ||",
+        "sahitya": "ne- - - - - - - - Nen du- gaa - na raa- Raa-maa!-"
+      },
+      {
+        "line_number": 6,
+        "swara": "N N dpmr rmpd N - dd | P – Dnd D- P - mp , d N ||",
+        "sahitya": "Nee - - - - - - - Bhaja na Gaa - na Rasi- ku la-"
+      },
+      {
+        "line_number": 7,
+        "swara": "dpmr R G rs R - r p | mr – R G- R S - r m p d ||",
+        "sahitya": "ne- - - - - - - - Nen du- gaa - na raa- Raa-- maa!"
+      },
+      {
+        "line_number": 8,
+        "swara": "N - - - - - dp D | P - - - - - - - ||",
+        "sahitya": "Nee - - - - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "S - - S S - sg rs ns | ,n – R S R R G R -S ||",
+        "sahitya": "Sri - bha va Sa ro - - jaa - sa naa- di Saa"
+      },
+      {
+        "line_number": 2,
+        "swara": "R - - - - P p D p | S N R - S - - - ||",
+        "sahitya": "Chi- - - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "S - - S S - sg rs ns | ,n – R S R R G R -S ||",
+        "sahitya": "Sri - bha va Sa ro - - jaa - sa naa- di Saa"
+      },
+      {
+        "line_number": 4,
+        "swara": "R - - - R gg rs D | D nn dpmr Rgg rs R ||",
+        "sahitya": "Chi- - - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "S - - S S - sg rs ns | ,n – R S rp mg - R -S ||",
+        "sahitya": "Sri - bha va Sa ro - - jaa - sa naa- di Saa"
+      },
+      {
+        "line_number": 6,
+        "swara": "ns R S – P - P R S | - D N -dp rm rm pmpd ||",
+        "sahitya": "chi- Ma no - ra mana - Van- dya- - I - la- lo - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "- s r , s- sd , p - P R S | - mp , d N D P mp dn ||",
+        "sahitya": "Sagu - na Nir - - gu na mu Nija da - bbara la –nu-"
+      },
+      {
+        "line_number": 8,
+        "swara": "dpmr R G R S m R m | P – D - D N N D P ||",
+        "sahitya": "Shan- mata mula Mar- - ma ma - shta Si - ddhula"
+      },
+      {
+        "line_number": 9,
+        "swara": "- s r , s- sd , p - P R S | - mp r- sd N D P mp dn ||",
+        "sahitya": "Sagu - na Nir - - gu na mu Nija - da - bbara la –nu-"
+      },
+      {
+        "line_number": 10,
+        "swara": "dpmr R G R S m R m | P – D - dp pdN N D P ||",
+        "sahitya": "Shan- mata mula Mar- - ma ma - shta Si - - ddhula"
+      },
+      {
+        "line_number": 11,
+        "swara": "- s r , s- sd , p - P R S | - mp r- sd N D P mp dn ||",
+        "sahitya": "Sagu - na Nir - - gu na mu Nija - da - bbara la –nu-"
+      },
+      {
+        "line_number": 12,
+        "swara": "dpmr G G R S m R m | P – D - dr N N D P ||",
+        "sahitya": "Shan- mata mula Mar- - ma ma - shta Si - - ddhula"
+      },
+      {
+        "line_number": 13,
+        "swara": "- p d , p – S - S r r s n | S – R S R R G R – S ||",
+        "sahitya": "Vaga - lu Ju - pa San-- ta Sil - li Gan- ti ni"
+      },
+      {
+        "line_number": 14,
+        "swara": "R - - - - - S - | - - - - - - - - ||",
+        "sahitya": "- - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 15,
+        "swara": "- p d , p – S - S r r s n | S – R S R R G R – S ||",
+        "sahitya": "Vaga - lu Ju - pa San-- ta Sil - li Gan- ti ni"
+      },
+      {
+        "line_number": 16,
+        "swara": "R - - - R gg rs D | D nn dpmr Rgg rs R ||",
+        "sahitya": "- - - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 17,
+        "swara": "S - p d , p – S - sg r r s n | S – R S rp mg- - R – S ||",
+        "sahitya": "Vaga - lu Ju - pa San-- ta Sil - li Gan- ti ni"
+      },
+      {
+        "line_number": 18,
+        "swara": "N R - S P - P R | S - D N -dp rm rm pmpd ||",
+        "sahitya": "Varaa - na na- Tya- ga raa - ja- Vi- nu- ta! - -"
+      },
+      {
+        "line_number": 19,
+        "swara": "--p d , p – S - sg r r s n | S – R S rp mg- - R – S ||",
+        "sahitya": "Vaga - lu Ju - pa San-- ta Sil - li Gan- ti ni"
+      },
+      {
+        "line_number": 20,
+        "swara": "N R - S ns P P R | S - D N -dp rm rm pmpd ||",
+        "sahitya": "Varaa - na na- Tya- ga raa - ja- Vi- nu- ta! - -"
+      }
+    ],
+    "charanams": []
+  }
+}

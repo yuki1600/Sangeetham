@@ -1,0 +1,167 @@
+{
+  "song_details": {
+    "name": "Sogasuga Mridanga Talamu",
+    "raga": "Sri Ranjani",
+    "arohanam": "S R2 G2 M1 D2 N2 S ||",
+    "avarohanam": "S N2 D2 M1 G2 R2 S ||",
+    "tala": "Rupakam",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- dd , n - nd D- M || M,g G - gr R - R || S - - - - - ||",
+        "sahitya": "Soga su gaa- - Mri dan- ga Taa - la mu- - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- dd , n - nd D- M || M,g G - gr R - R || S - - - D N || S - gRg M - ||",
+        "sahitya": "Soga su gaa- - Mri dan- ga Taa - la mu- - - Ja ta Gu - - - rcchi"
+      },
+      {
+        "line_number": 3,
+        "swara": "- dd , n - nd D- M || M,g G - gr R - R || S - sgrs D N || S - R - G M - ||",
+        "sahitya": "Soga su gaa- - Mri dan- ga Taa - la mu- - - Ja ta Gu rcchi Ni nnu"
+      },
+      {
+        "line_number": 4,
+        "swara": "- D N - ns - - N || nd D M - M ,g - G || gr R - - - - || r S r G - gr rm gr ||",
+        "sahitya": "- So kka je- - yu Dhee- ru dev -- va do - - - - Dhee- ru dev -- va-"
+      },
+      {
+        "line_number": 5,
+        "swara": "S - sgrs DN || S - R - G M - ||",
+        "sahitya": "do- - - Ja ta Gu rcchi Ni nnu"
+      },
+      {
+        "line_number": 6,
+        "swara": "- D ns - gr s - n N || snnd - M - M ,g - G || gr R - - - - || ns n - n dm- rG, gr R ||",
+        "sahitya": "- So kka je- - yu Dhee- ru dev -- va do - - - - Dhee- ru -- dev va- -"
+      },
+      {
+        "line_number": 7,
+        "swara": "S - sgR R,s DN || S - R - G M - ||",
+        "sahitya": "do- - - Ja ta Gu rcchi Ni nnu"
+      },
+      {
+        "line_number": 8,
+        "swara": "- D ns - gr s - n N || snnd - M - md ,g - G || gr R - - - - || r S r G - gr rm gr ||",
+        "sahitya": "- So kka je- - yu Dhee- ru dev -- va do - - - - Dhee- ru dev - - va-"
+      },
+      {
+        "line_number": 9,
+        "swara": "rsns S - - - ||",
+        "sahitya": "do- - - - -"
+      },
+      {
+        "line_number": 10,
+        "swara": "- - - - - G || R - G R - G || M - - - - M ||",
+        "sahitya": "- - - - Mri dan- ga Taa - la mu- - - - Mri"
+      },
+      {
+        "line_number": 11,
+        "swara": "M,g G -gr R- R || S - - - - G ||",
+        "sahitya": "dan- ga Taa - la mu- -mri"
+      },
+      {
+        "line_number": 12,
+        "swara": "Rg - r ,g -S R- G || M - - - - Dsn ||",
+        "sahitya": "dan- ga Taa - la mu- -mri"
+      },
+      {
+        "line_number": 13,
+        "swara": "nndm G -gr R R || S - - - - - ||",
+        "sahitya": "dan- ga Taa - la mu- -- -"
+      },
+      {
+        "line_number": 14,
+        "swara": "- dd , n - nd D- M || M,g G - gr R - R || S - - - - - ||",
+        "sahitya": "Soga su gaa- - Mri dan- ga Taa - la mu- - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- n d , n S S - || - d n , S , sn S || S - - - - - || - - - - nsnd ||",
+        "sahitya": "Niga mashi ro- -rtthamu Gal- gi- na - - - - - - - - - - Ra ---"
+      },
+      {
+        "line_number": 2,
+        "swara": "M- n d , n S S - || - d n , S , sn S || nrsn S - - - || - - - - nsR ||",
+        "sahitya": "maniga mashi ro- -rtthamu Gal- gi- na - - - - - - - - - - ---"
+      },
+      {
+        "line_number": 3,
+        "swara": "S- n d , n S S gr || S- d n , S , S S || nrsn S - - - || - - - ns Rgr Sgr ||",
+        "sahitya": "maniga mashi ro- -rtthamu Gal- gi na - - - - - - - - - -- --- - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "S- n d , n S s - g gr || S- d n , S , sn S || RG GM - R || G R R G - - ||",
+        "sahitya": "maniga mashi ro- -rtthamu Gal- gi na Nija Vaa- - - kkula to - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "G R N N S R || G R S - sgr - g ||",
+        "sahitya": "Svara Shu- - - ddhamu to- Ra-- ma"
+      },
+      {
+        "line_number": 6,
+        "swara": "rs- n d , n S ns rmgg || rs -- d n , S , sn S || RG G M,r rgM || G R R G sr gr G ||",
+        "sahitya": "-- Niga mashi ro- - - rtthamu Gal- gi na Nija Vaa- - - kkula to - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "G R grsn S R || G R S - nsn- n || dm",
+        "sahitya": "Svara Shu- - - ddhamu to- Ra-- ma - - (sogasuga)"
+      },
+      {
+        "line_number": 8,
+        "swara": "R G M - G R || G M nD, M G - R || sgrg rrsn S - || - ns , n S R G ||",
+        "sahitya": "Yati Vish- srama Sa d bha- kti Vi ra-ti- Draa- kshaa rasa -nava ra sa"
+      },
+      {
+        "line_number": 9,
+        "swara": "- dm gRg M, G R || gm D nD, M G - R || sgrg rrsn S - || - ss , n S R G ||",
+        "sahitya": "Ya- ti-- Vish- srama Sa d bha- kti Vi ra-ti- Draa- kshaa rasa -nava ra sa"
+      },
+      {
+        "line_number": 10,
+        "swara": "- nd , n S S - || - dn S ,n S ,n || S - - - - - || - - - - ssnd ||",
+        "sahitya": "Yuta kriti che- Bhaji yin- che - - - - -- -- - - ra- -"
+      },
+      {
+        "line_number": 11,
+        "swara": "M- nd , n S S - || - dn S ,n S ,n || nrsn S - - - || - - - - nsR ||",
+        "sahitya": "sa- Yuta kriti che- Bhaji yin- che - - - - -- -- - - - - -"
+      },
+      {
+        "line_number": 12,
+        "swara": "S- nd , n S S gr || R,s dn S ,n S - || nrsn S - - - || - - - ns Rgr Sgr ||",
+        "sahitya": "- Yuta kriti che- - - Bhaji yin- che - - - - -- -- - - - - -"
+      },
+      {
+        "line_number": 13,
+        "swara": "S- nd , n S S g g || r s d n S ,n sn S || R G M - - R || G R R G - - ||",
+        "sahitya": "- Yuta kriti che- - - Bhaji yin- che Yukti Tyaa- - - ga - raa- - -"
+      },
+      {
+        "line_number": 14,
+        "swara": "G R N N S R || G R S - sgr - g ||",
+        "sahitya": "ju - ni - - - Tara maa Raa- ma"
+      },
+      {
+        "line_number": 15,
+        "swara": "rs- n d , n S ns rmgg || rs -- d n , S , sn S || RG G M,r rgM || G R R G sr gr G ||",
+        "sahitya": "- Yuta kriti che- - - Bhaji yin- che Yukti Tyaa- - - ga - raa- - -"
+      },
+      {
+        "line_number": 16,
+        "swara": "G R grsn S R || G R S - nsn- n || dm",
+        "sahitya": "ju - ni - - - Tara maa Raa- ma -- (sogasuga)"
+      }
+    ],
+    "charanams": []
+  }
+}

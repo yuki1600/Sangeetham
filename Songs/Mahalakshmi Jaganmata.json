@@ -1,0 +1,152 @@
+{
+  "song_details": {
+    "name": "Mahalakshmi Jaganmata",
+    "raga": "Sankarabharanam",
+    "arohanam": "S R2 G3 M1 P D2 N3 S ||",
+    "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
+    "tala": "Misra Chapu",
+    "composer": "Papanasam Sivan"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "M , G, | M - P - || - - - | - - D N || S - - | snD , m P || sndp pm | mgS sr gm ||",
+        "sahitya": "Ma ha la - ksmi - - - - - jagan ma- - ta - - -manam i –ran-gi va-ra- ma-rul"
+      },
+      {
+        "line_number": 2,
+        "swara": "M ,d pmG , | M - P - || - - - | - - D N || S - ,r | snD , m P || sndp pm | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la - ksmi - - - - - jagan ma- - ta - - -manam i –ran-gi va-ra- ma-rul"
+      },
+      {
+        "line_number": 3,
+        "swara": "mpd pM - G , | M -dp MP || - - - | - - mpdn || S - ,r | snD , m P || sndp pm | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - - - ja- gan ma- - ta - - -manam i –ran-gi va-ra- ma-rul"
+      },
+      {
+        "line_number": 4,
+        "swara": "mpd pM - G , | M - dp M || P - - | - - mpdn || S - rg | rsnd - , m P || sndp pm | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - - - ja- gan ma- - ta - - -manam i –ran-gi va-ra- ma-rul"
+      },
+      {
+        "line_number": 5,
+        "swara": "mpd pM - G , | M - P D,n || dr sn DP | - - mpdn || S - rg | rsnd - , m P || sndp pm | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - ta - - -manam i –ran-gi va-ra- ma-rul"
+      },
+      {
+        "line_number": 6,
+        "swara": "mpd pM - G , | M - P D,n || dr sn DP | - - mpdn || S - gr | sndp , m P || sndp pmG | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - ta - - -manam i-ran-gi -- va-ra- ma-rul"
+      },
+      {
+        "line_number": 7,
+        "swara": "mpdPd pmG , | M - P dn || dnSn Dp | - - D N || S ,r gmgr | sndp , m P || sndp pmG | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - -- ta - - -manam i-ran-gi -- va-ra- ma-rul"
+      },
+      {
+        "line_number": 8,
+        "swara": "M dp M ,G, | M - dp M || P - - | - - - - ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "S P - | dpmg M P || - D , n | S - , Sn || S rg rsS | S S N - dr || sSn dn | S - dr sn DP ||",
+        "sahitya": "maha vi- - - shnuvin -marbe num - mani pi—tha- mada nil a- marn di dum- - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "M dpmg - | M - P P || D - N | S - , Sn || S rg rsS | S S N - S || S,d N | dn S,n DP ||",
+        "sahitya": "maha vi- - - shnuvin mar-be num - mani pi—tha- mada nil a marn di dum- - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "pSn dP, - | dpmg M P || D - N | S - , Sn || S rg rsS | S S N - S || S,d N | dn S,n DP ||",
+        "sahitya": "ma- ha - vi- - - shnuvin mar-be num - mani pi—tha- mada nil a marn di dum- - - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "pSn dP, - | dpmg M P || mpdnSrs S | S - , S n || srgm G | rS, S N - S || S,d N | dn S sndp - ||",
+        "sahitya": "ma- ha - vi- - - shnuvin mar-- - be num mani pi—tha ma danil a marn di dum- - - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "dnsn dP, - | dpmg M P || mpdnSrs S | S - , S n || srgm G | rS, S N - S || S,d N | S - dr sn DP ||",
+        "sahitya": "ma- ha - vi- - - shnuvin mar-- - be num mani pi—tha ma danil a marn di dum- - - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "dnsn dP, - | dpmg M P || mpdnSrs S | S - , S n || srgm G | rS, S N - S || S,d N | S - - - ||",
+        "sahitya": "ma- ha - vi- - - shnuvin mar-- - be num mani pi—tha ma danil a marn di dum- - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "M - P | R S - S ,r || N D P | D N S - || dn S , r | N dn dP , | mdp mgs | S ,r G M ||",
+        "sahitya": "Man ma ta nai In- ra ru Lum tha- ye da- ya- ni dhi- ye-- ma—ha—ma- - ye"
+      },
+      {
+        "line_number": 8,
+        "swara": "M - P | R S - S ,r || N D P | D N S - || mpdn srsr | N dn dP , | mdp mgrS, | S ,r G M ||",
+        "sahitya": "Man ma ta nai In- ra ru Lum tha- ye da- ya- - ni dhi- ye-- ma—ha— ma- - ye"
+      },
+      {
+        "line_number": 9,
+        "swara": "mpdPd pmG , | M - P dn || dnSn Dp | - - D N || S ,r gmgr | sndp , m P || sndp pmG | mgS sr gm ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - -- ta - - -manam i-ran-gi -- va-ra- ma-rul"
+      },
+      {
+        "line_number": 10,
+        "swara": "M dp M ,G, | M - dp M || P - - | - - - - ||",
+        "sahitya": "Ma - ha - - la ksmi- - - - - - - - -"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "MP -N | D P P - pm || pmdp -M | G - - - || gs pm rg | rSr GM || dpmg M | P - - - ||",
+            "sahitya": "par- kka Dal ta rum kr pa- ka ri - - - pa- rin-du van- denai A- - - da ri - - -"
+          },
+          {
+            "line_number": 2,
+            "swara": "MP -N | D P P - pm || M dp -M | G - - - || gs pm rg | rSr GM || dpmg M | P - - - ||",
+            "sahitya": "par- kka Dal ta rum kr pa- ka ri - - - pa- rin-du van- denai A- - - da ri - - -"
+          },
+          {
+            "line_number": 3,
+            "swara": "GS -S | N D P - pm || mpD mP, -M | G - - - || gs pm rg | rSr GM || dpmg M | dpmp - - ||",
+            "sahitya": "par- kka Dal ta rum kr pa- ka ri - - - pa- rin-du van- denai A- - - da ri - - -"
+          },
+          {
+            "line_number": 4,
+            "swara": "S - S | R N S - D || N - P D | nn m – p D N || S - - | - - - - || - - - | - - - - ||",
+            "sahitya": "Pan-ka ja ma lar va Lar an nai ye - - kadaikkan par - - - - - - - - - - -"
+          },
+          {
+            "line_number": 5,
+            "swara": "S - S | R N S - D || N - P D | nm – m P,d N || S - - | - - - - || - - - | - - - - ||",
+            "sahitya": "Pan-ka ja ma lar va Lar an nai ye - - kadaikkan par - - - - - - - - - - -"
+          },
+          {
+            "line_number": 6,
+            "swara": "S - S | R N S - dr || ss - sn dp | pmG – m P,d N || S - - | - - ,mP || ds –dP , | mG, gs R G ||",
+            "sahitya": "Pan-ka ja ma lar va Lar an nai ye - - kadaikkan par - - ra- ma da- san pa Niyum"
+          },
+          {
+            "line_number": 7,
+            "swara": "mpdPd pmG , | M - P dn || dnSn Dp | - - D N || S ,r gmgr | sndp , m P || sndp pmG | mgS sr gm ||",
+            "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - -- ta - - -manam i-ran-gi -- va-ra- ma-rul"
+          },
+          {
+            "line_number": 8,
+            "swara": "M dp M ,G, | M - dp M || P - - | - - - - ||",
+            "sahitya": "Ma - ha - - la ksmi- - - - - - - - -"
+          }
+        ]
+      }
+    ]
+  }
+}

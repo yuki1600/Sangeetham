@@ -1,0 +1,69 @@
+{
+  "song_details": {
+    "name": "Analekara",
+    "raga": "Shuddha Saveri",
+    "arohanam": "S R2 M1 P D2 S ||",
+    "avarohanam": "S D2 P M1 R2 S ||",
+    "tala": "Triputa",
+    "composer": "Purandaradasa"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "R M R | R S | D S || S - S | D P | M P ||",
+        "sahitya": "A - na | le - | ka ra || un - ni | po - | la di ||"
+      },
+      {
+        "line_number": 2,
+        "swara": "D D S | D - | D P || P M R | D D | D P ||",
+        "sahitya": "sa ka la | sha - | sthrapu || ra - na | di - | nam - ||"
+      },
+      {
+        "line_number": 3,
+        "swara": "P - P | D D | D P || P - P | M P | D P ||",
+        "sahitya": "tha - la | di - | nam - || tha - la | pa ri | ga thu ||"
+      },
+      {
+        "line_number": 4,
+        "swara": "P M R | S R | S R || P M P | S R | S R ||",
+        "sahitya": "re - re | a - | - - || a - - | a - | - - ||"
+      },
+      {
+        "line_number": 5,
+        "swara": "P P D | P P | M R || R S R | M - | M - ||",
+        "sahitya": "a - - | a - | - - || se - thu | va - | ha - ||"
+      },
+      {
+        "line_number": 6,
+        "swara": "D P D | S - | S - || R R S | D P | M P ||",
+        "sahitya": "pa ri ga | tham - | nam - || ja ta - | ju - | - ta ||"
+      },
+      {
+        "line_number": 7,
+        "swara": "D D S | D - | D P || P M R | D D | D P ||",
+        "sahitya": "sa ka la | sha - | sthrapu || ra - na | di - | nam - ||"
+      },
+      {
+        "line_number": 8,
+        "swara": "P - P | D D | D P || P - P | M P | D P ||",
+        "sahitya": "Tha - la | di - | nam - || tha - la | pa ri | ga thu ||"
+      },
+      {
+        "line_number": 9,
+        "swara": "P M R | S R | S R || P M P | S R | S R ||",
+        "sahitya": "re - re | a - | - - || a - - | a - | a - ||"
+      },
+      {
+        "line_number": 10,
+        "swara": "P P D | P P | M R || R S R | M - | M - ||",
+        "sahitya": "a - - | a - | - - || se - thu | va - | ha - ||"
+      },
+      {
+        "line_number": 11,
+        "swara": "D P D | S - | S - ||",
+        "sahitya": "pa ri ga | tham - | nam - ||"
+      }
+    ]
+  }
+}

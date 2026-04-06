@@ -1,0 +1,147 @@
+{
+  "song_details": {
+    "name": "Karuna Cheivan Entu",
+    "raga": "Sri",
+    "arohanam": "S R2 M1 P N2 S ||",
+    "avarohanam": "S N2 P D2 N2 P M1 R2 G2 R2 S ||",
+    "tala": "Adi",
+    "composer": "Irayimman Thampi"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - N S R - R - R - - - - G gr R | S - - N S – rG rS - S N P - p n n S , ||",
+        "sahitya": "Karu Na cey- van - - - en du- - - - - taa - ma-sam - - - - Krish Na,"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - rn S R - R - R - - - - G gr R | S - - N S – rG rS - S N P - p n n S , ||",
+        "sahitya": "Karu Na cey- van - - - en du- - - - - taa - ma-sam - - - - Krish Na,"
+      },
+      {
+        "line_number": 3,
+        "swara": "- - N S R - R - R - - - - rm mPm | rgrs - N S – rG rS - S N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - - en du- - - - - taa - ma-sam - - - - Krish Na,"
+      },
+      {
+        "line_number": 4,
+        "swara": "- - N S R - R - MP - M R G gr R | S - - N S – rG rS - S N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - - en du- - - - - taa - ma-sam - - - - Krish Na,"
+      },
+      {
+        "line_number": 5,
+        "swara": "- - N S R - R - rmpn S - Pdn P - mr | ggrs- N S R , g -rS , S , n N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - en - - du- - - - taa - - - ma- sam - - -krish Na,"
+      },
+      {
+        "line_number": 6,
+        "swara": "- - N S R - S - S ,s rsnp - P , P n | R - - - - - - rm mP - - pm R G gR, ||",
+        "sahitya": "Kazha li - ne kai - - - to zhun- nen - - - - Krish Na - - - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "S - N S R - R - rmpn S - Pdn P - mr | ggrs- N S R , g -rS , S , n N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - en - - du- - - - taa - - - ma- sam - - -krish Na,"
+      },
+      {
+        "line_number": 8,
+        "swara": "S - N S R - R - rmpn srgr snpd n - pmr | rgrs- N S R , g -rS , S , n N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - en - - du- - - - taa - - - ma- sam - - -krish Na,"
+      },
+      {
+        "line_number": 9,
+        "swara": "- - N S R,g rS , S ,n rsnp - P , P n | R - - - - - - rm mP - - pm R G gR, ||",
+        "sahitya": "Kazha li - ne kai - - - to zhun- nen - - - - Krish Na - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - P M P - P,r R - rmP pm R - rggr | S - R mr R pm P - P - sn P - p n S - ||",
+        "sahitya": "Sha ra Na ga- than mar- kki- - shta - - - va ra- da-- nam cey tu- - cem- me-"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - P M P - P,r R - rmP pm R - rggr | S - R mr R pm P - P - sn P - p n N S ||",
+        "sahitya": "Sha ra Na ga- than mar- kki- - shta - - - va ra- da-- nam cey tu- - cem- me-"
+      },
+      {
+        "line_number": 3,
+        "swara": "- - P M P - P,r Rmr rmP pm R - rggr | S - R mr R pm P - P - sn P - p n N S ||",
+        "sahitya": "Sha ra Na ga- than mar- kki- - shta - - - va ra- da-- nam cey tu- - cem- me-"
+      },
+      {
+        "line_number": 4,
+        "swara": "- - GR Rgr sR, S - N R snP - pn NS | - - GR rg sR, S - N R N P P ,n NS ||",
+        "sahitya": "Guru va- - - yur pu - ram - tan-nil- Guru va- - - yur pu - ram tan-- nil"
+      },
+      {
+        "line_number": 5,
+        "swara": "R M R – mr P P - P N np – pnsn pm R G grR | - - GR rg sR, S - N R N P P ,n NS ||",
+        "sahitya": "Maruvu ma- khila duri ta- ha-ra-na- bhagawan- Guru va- - - yur pu - ram tan-- nil"
+      },
+      {
+        "line_number": 6,
+        "swara": "R M R – mr P P - P N np – pnsn pm R G grR | - - - gr sn pn NS - - - - - - - - ||",
+        "sahitya": "Maruvu ma- khila duri ta- ha-ra-na- bhagawan- - - - - - - - - - - - - - - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "- - N S R - R - rmpn S - Pdn P - mr | ggrs- N S R , g -rS , S , n N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - en - - du- - - - taa - - - ma- sam - - -krish Na,"
+      },
+      {
+        "line_number": 8,
+        "swara": "- - N S R,g rS , S ,n rsnp - P , P n | R - - - - - - rm mP - - pm R G gR, ||",
+        "sahitya": "Kazha li - ne kai - - - to zhun- nen - - - - Krish Na - - - - - - -"
+      },
+      {
+        "line_number": 9,
+        "swara": "S - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - ||",
+        "sahitya": "Caranams"
+      },
+      {
+        "line_number": 10,
+        "swara": "- - N S R - R - R - R - R- grR | S - – N S R ,g- r S , S ,s N P P ,n N S ||",
+        "sahitya": "Guru ta ra bha va sin dhau - - du ri ta - san- ca- ya - ma- kum,"
+      },
+      {
+        "line_number": 11,
+        "swara": "- - N S R ,g rS, S ,s N P P N N S | - - N S R - R - R,m pmR R G gr R ||",
+        "sahitya": "Ti ra tan nil mu- zhu- kumn- na- - nara ga - thi- kya- va- - lam- bam,-"
+      },
+      {
+        "line_number": 12,
+        "swara": "S - N S R ,g rS, S ,s N P P N N S | - - N S R - R - R,m pmR R G gr R ||",
+        "sahitya": "Ti ra tan nil mu- zhu- kumn- na- - nara ga - thi- kya- va- - lam- bam,-"
+      },
+      {
+        "line_number": 13,
+        "swara": "S - P M P - P,r Rmr rmP pm R - RG | RS- R mr R pm P - P - sn P - p n S - ||",
+        "sahitya": "Mara ka- ta- ma- Ni- - van- Nan**- - ha ri- tan-- ne- en- num- - ta- va,"
+      },
+      {
+        "line_number": 14,
+        "swara": "- - GR gr R S - N R snP - pn NS | - - GR gr R,g S- nsrg rsnp Pnm P - ||",
+        "sahitya": "Cari ta- - varn Na- nan- Na- Lil- - - Cari ta- - varn Na- nan- Na- Lil-"
+      },
+      {
+        "line_number": 15,
+        "swara": "- - GR gr R,g S- nsrg rsnp Pnm P - | R M R – mr P P - P N np – pnsn pm R G grR ||",
+        "sahitya": "- - Cari ta- - varn Na- nan- Na- Lil- Sa ka la mu nikal para va- ta-ri- va- nadh Una."
+      },
+      {
+        "line_number": 16,
+        "swara": "- - N S R - R - rmpn S - Pdn P - mr | ggrs- N S R , g -rS , S , n N P - P n S , ||",
+        "sahitya": "Karu Na cey- van - - en - - du- - - - taa - - - ma- sam - - -krish Na,"
+      },
+      {
+        "line_number": 17,
+        "swara": "- - N S R,g rS , S ,n rsnp - P , P n | R - - - - - - rm mP - - pm R G gR, ||",
+        "sahitya": "Kazha li - ne kai - - - to zhun- nen - - - - Krish Na - - - - - - -"
+      }
+    ],
+    "charanams": []
+  }
+}

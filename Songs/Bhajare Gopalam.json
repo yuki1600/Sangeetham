@@ -1,0 +1,66 @@
+{
+  "song_details": {
+    "name": "Bhajare Gopalam",
+    "raga": "Hindolam",
+    "arohanam": "S G2 M1 D1 N2 S",
+    "avarohanam": "S N2 D1 M1 G2 S (20th mela janya)",
+    "tala": "Adi",
+    "composer": "Sadasiva Brahmendra"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. - n s , M , - gm , gsg | M - - - - G M D ||",
+        "sahitya": "Bha ja re go pa lam maa……na"
+      },
+      {
+        "line_number": 2,
+        "swara": "N s s , nddM,",
+        "sahitya": "sa Bhaja re go pa lam maa na sa"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. gs n s, M , - mdmm",
+        "sahitya": "Bha ja re go pa lam maa…… na"
+      },
+      {
+        "line_number": 4,
+        "swara": "N g s, nddM",
+        "sahitya": "sa Bhaja re go pa lam maa na sa"
+      }
+    ],
+    "anupallavi": [],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "1a. - g m , dN S - - S | - n n , s S S, n gs ndD",
+            "sahitya": "||"
+          },
+          {
+            "line_number": 2,
+            "swara": "1b. - g m , dN S - - S | - n n , s S nsggsn",
+            "sahitya": "Bha ja go pa lam bha ji ta ku che………lam"
+          },
+          {
+            "line_number": 3,
+            "swara": "1c. - g m , ssnn",
+            "sahitya": "Bha ja go pa lam bha ji ta ku che lam"
+          },
+          {
+            "line_number": 4,
+            "swara": "2a. - n s , mgs sngs nd N | - d n , d M M , g dm gs ||",
+            "sahitya": "Tri ja gan moo lam di thi su tha kaa lam"
+          },
+          {
+            "line_number": 5,
+            "swara": "2b. - n s , mgs mgsn D N | - n n , d M gmdnsg",
+            "sahitya": "Tri ja gan moo lam di thi su tha kaa lam"
+          }
+        ]
+      }
+    ]
+  }
+}

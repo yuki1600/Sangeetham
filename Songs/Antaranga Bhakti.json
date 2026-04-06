@@ -1,0 +1,167 @@
+{
+  "song_details": {
+    "name": "Antaranga Bhakti",
+    "raga": "Shadvidhamargini",
+    "arohanam": "S R1 G2 M2 P D2 N2 S ||",
+    "avarohanam": "S N2 D2 P M2 G2 R1 S ||",
+    "tala": "Deshadi",
+    "composer": "Kotishwara Iyer"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - n d pmg- g , r - R | S , - n D- N s R - g - M ||",
+        "sahitya": "- - - Anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 2,
+        "swara": "P - - n d pmg- g , r - R | S , - n D- N s R - g - M ||",
+        "sahitya": "yaa -anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 3,
+        "swara": "pdnd pd- n d pmg- g , r - R | S , - n D- N s R - g - M ||",
+        "sahitya": "yaa -- Anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 4,
+        "swara": "P - - n d P , - d M - P | m P - d - - D d N - d N- N ||",
+        "sahitya": "yaa -a ra she- Nin - Pon na- di - kka di - mai - Naan"
+      },
+      {
+        "line_number": 5,
+        "swara": "dsnd pd- n d pmg- g , r - R | S , - n D- N s R - N - D ||",
+        "sahitya": "Uy - - ya Anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 6,
+        "swara": "P - - n d P d - dp M , - P | m P - d - - N n S -s -- S ||",
+        "sahitya": "yaa -a ra she- Nin - Pon na- di - kka di - mai - Naan"
+      },
+      {
+        "line_number": 7,
+        "swara": "ssnd pd- n d pmg- g , r - R | S , - n D- N s R - N - D ||",
+        "sahitya": "Uy - - ya Anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 8,
+        "swara": "P - - n d P d - dp M , - P | m P - d - - N n G -g R- S ||",
+        "sahitya": "yaa -a ra she- Nin - Pon na- di - kka di - mai - Naan"
+      },
+      {
+        "line_number": 9,
+        "swara": "ssnd pd- n d pmg- g , r - R | S , - n D- N s R - N - D ||",
+        "sahitya": "Uy - - ya Anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 10,
+        "swara": "P - - n d pdnDn - dp M , - P | mpd - p dn - dn s- srg gr s- r ||",
+        "sahitya": "yaa -a ra she- Nin - Pon na- di - kka - di-- mai- Naan"
+      },
+      {
+        "line_number": 11,
+        "swara": "s- s n d pd- n d pmg- g , r - R | S , - n D- N s R - N - D ||",
+        "sahitya": "- Uy - - - ya Anta ran- ga - - Bha kti Tan - den nai Aa - lay"
+      },
+      {
+        "line_number": 12,
+        "swara": "P - - - - - - - | - - - - - - - - ||",
+        "sahitya": "yaa - - - - - - - - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- - - n d P , d M - P | mP - d - N S - - - ||",
+        "sahitya": "- - -sunda raa-nga - Su Gaan- ge - ya Maa- - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "- - - - n d P , d M - P | mP - d - N S - - - ||",
+        "sahitya": "- - -- Sunda raa-nga - Su Gaan- ge - ya Maa- - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "nsnd pd- n d P n d p M - P | mP - d - N srgr rs S ||",
+        "sahitya": "- - -- Sunda raa-nga - Su Gaan- ge - ya Maa- - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "nsnd pd- n d P n d p M - P | mP - d - N srgr rs S ||",
+        "sahitya": "- - -- Sunda raa-nga - Su Gaan- ge - ya Maa- - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "- N D N - G , g R - S | nrs - sn N - D P - - dp ||",
+        "sahitya": "Ma ra ka taan-ga - Ma yu-- ra- - Va ra- - Tu"
+      },
+      {
+        "line_number": 6,
+        "swara": "mP- d - n d P n dp M - P | mP - d - N srgr rs S ||",
+        "sahitya": "ran- ga - Sunda raa-nga - Su Gaan- ge - ya Maa- - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "- snN pD, N - G , g R - S | nsrS, - sn N - D P - - dp ||",
+        "sahitya": "Ma ra - ka taan-ga - Ma yu-- ra- - Va ra- - Tu"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "- - - P pmg - g , r - R | S , n D N S , g - M ||",
+            "sahitya": "- - - Un Mu-- kham-- No kkum Kan- no li A - rul"
+          },
+          {
+            "line_number": 2,
+            "swara": "P - - P pmg - g , r - R | S , n D N S , g - M ||",
+            "sahitya": "Nee - - Un Mu-- kham-- No kkum Kan- no li A - rul"
+          },
+          {
+            "line_number": 3,
+            "swara": "pdnd pd- nd pmg - g , r - R | S , n D N sR - g - M ||",
+            "sahitya": "Nee - - - Un Mu-- kham-- No kkum Kan- no li A - rul"
+          },
+          {
+            "line_number": 4,
+            "swara": "dpmg - - - gr G , m - pm | P , d - p p , dp dNd - D ||",
+            "sahitya": "Nee- - - San- ma ta - Sam- ma ta - Shadvi dhamaa - rgi"
+          },
+          {
+            "line_number": 5,
+            "swara": "dpP - S dN - d N - D | P , - d M - P p P - d - N ||",
+            "sahitya": "ni - Mu kkan nan - A rul- Shan- mu kha Kan - ma"
+          },
+          {
+            "line_number": 6,
+            "swara": "S - - S dN - d N - D | P , - d M - P p P - d - N ||",
+            "sahitya": "ni - Mu kkan nan - A rul- Shan- mu kha Kan - ma"
+          },
+          {
+            "line_number": 7,
+            "swara": "srgr rs- sn G , r - sn | r S - sn N- D pd nd rs nd ||",
+            "sahitya": "ni - - - - Nal- Vannak-- ka- vi - Kun - - ja ra- - - daa-san-"
+          },
+          {
+            "line_number": 8,
+            "swara": "pP - p - S dN - d N - D | P , - d M - P p P - d - N ||",
+            "sahitya": "En- Kan - Mu kkan nan - A rul- Shan- mu kha Kan - ma"
+          },
+          {
+            "line_number": 9,
+            "swara": "S - - - sn G , r - sn | r S - sn N- D pd nd rs nd ||",
+            "sahitya": "ni - - - - Nal- Vannak-- ka- vi - Kun - - ja ra- - - daa-san-"
+          },
+          {
+            "line_number": 10,
+            "swara": "pdm - p ,d-",
+            "sahitya": "En- Kan Nil"
+          }
+        ]
+      }
+    ]
+  }
+}

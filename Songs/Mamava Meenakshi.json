@@ -1,0 +1,151 @@
+{
+  "song_details": {
+    "name": "Mamava Meenakshi",
+    "raga": "Varali",
+    "arohanam": "S G₁ R₁ G₁ M₂ P D₁ N₃ Ṡ ||",
+    "avarohanam": "Ṡ N₃ D₁ P M₂ G₁ R₁ S ||",
+    "tala": "Misra Chapu",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. P - - | Pdn dpM || pmG- r | R S R S ||",
+        "sahitya": "Maa-- ma-- va- - Mee- - naa - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - | - - S ,n || G -gr R | G - M - ||",
+        "sahitya": "Kshi- - - - Raa- ja Maa- - tan gi"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. P - - | pdns ndpm || gm Pdp mg | G R R S ||",
+        "sahitya": "Maa-- ma-- va- - Mee- - - - naa - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "S - - | - - S ,n || G -gr R | G - M - ||",
+        "sahitya": "Kshi- - - - Raa- ja Maa- - tan gi"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. P - - | pdns rg rsN || dn Srs nd | pm - mg grR ||",
+        "sahitya": "Maa-- ma-- - - va- - Mee- - - - - - naa - - -"
+      },
+      {
+        "line_number": 6,
+        "swara": "S - - | - - S ,n || G -gr R | G - M - ||",
+        "sahitya": "Kshi- - - - Raa- ja Maa- - tan gi"
+      },
+      {
+        "line_number": 7,
+        "swara": "P - P | - dn dpM || pm G - | G M P D ||",
+        "sahitya": "Maani - kya- Val- - la- ki Paa- - ni"
+      },
+      {
+        "line_number": 8,
+        "swara": "sn dn dpM | G - R - gg || R - S | sr G - M ||",
+        "sahitya": "Ma-dhu-ra- - vaa- ni Va raa-li Ve- - - ni"
+      },
+      {
+        "line_number": 9,
+        "swara": "P - - | Pdn dpM - || mg gr sr | G R S - ||",
+        "sahitya": "So- - ma- - sun- - da- re- - - - shwa ra"
+      },
+      {
+        "line_number": 10,
+        "swara": "S r s S | S ,n G - || gr R - | R S S S ||",
+        "sahitya": "Su-kha- sphur ti Roo- - - - pini"
+      },
+      {
+        "line_number": 11,
+        "swara": "a) G - - | M - D - || D , N , | S - - - ||",
+        "sahitya": "Shya me Shan ka ri - - - -"
+      },
+      {
+        "line_number": 12,
+        "swara": "b) pmG - | M - D - || D , N , | S - S - ||",
+        "sahitya": "Shya me Shan ka ri Di gvi"
+      },
+      {
+        "line_number": 13,
+        "swara": "S - - | rGr RS || sn s r S | - n S n S ||",
+        "sahitya": "Ja- - ya - Pra- ta- - - - pi - ni -"
+      },
+      {
+        "line_number": 14,
+        "swara": "c) nsG - | - M , D , || D , N , | - S - S ||",
+        "sahitya": "Shya me Shan ka ri - Di -gvi"
+      },
+      {
+        "line_number": 15,
+        "swara": "S - - | rGr RS || sn s r G | R - S sn s rG ||",
+        "sahitya": "Ja- - ya - Pra- ta- - - - pi -ni -"
+      },
+      {
+        "line_number": 16,
+        "swara": "d) rsndpm G , | - M , D , || D , N , | - S - S ||",
+        "sahitya": "Shya me Shan ka ri - Di -gvi"
+      },
+      {
+        "line_number": 17,
+        "swara": "S n s rs | rGr RS || sn s r G | R - S sn s rG ||",
+        "sahitya": "Ja- - ya - Pra- ta- - - - pi ni -"
+      },
+      {
+        "line_number": 18,
+        "swara": "S , n G | g r R S - || N D P | - D , d N ||",
+        "sahitya": "He- ma ra- - tnaa bharana Bhu-shani"
+      },
+      {
+        "line_number": 19,
+        "swara": "S , n D | pm dpM G R || S S , n | G , r R S ||",
+        "sahitya": "Ee-- sha Gu- ru- - guha Hrudaa- gaa- ri ni"
+      },
+      {
+        "line_number": 20,
+        "swara": "S , n G | g r R S - || N D P | D - D N ||",
+        "sahitya": "He- ma ra- - tnaa bharana Bhu-shani"
+      },
+      {
+        "line_number": 21,
+        "swara": "S , n D | pm dpM G R || S S , n | G , r R S ||",
+        "sahitya": "Ee-- sha Gu- ru- - guha Hrudaa- gaa- ri ni"
+      },
+      {
+        "line_number": 22,
+        "swara": "S n G g | p p d p P d n || n d pm G | d p d n S s s ||",
+        "sahitya": "Kaami thartha Vitarana dhorani Kaa- run-yaa mru ta Pari purani"
+      },
+      {
+        "line_number": 23,
+        "swara": "G pm G | r r s - r S s s || n D p M | g r - r S G m ||",
+        "sahitya": "Kaa ma- kro dhaa-di Ni vaa rani Kadambakaanana Vihaa ri ni"
+      },
+      {
+        "line_number": 24,
+        "swara": "P - - | pdns rg rsN || dn Srs nd | pm - mg grrs ||",
+        "sahitya": "Maa-- ma-- - - va- - Mee- - - - - - naa - - -"
+      },
+      {
+        "line_number": 25,
+        "swara": "S - - | - - S ,n || G -gr R | G - M - ||",
+        "sahitya": "Kshi- - - - Raa- ja Maa- - tan gi"
+      },
+      {
+        "line_number": 26,
+        "swara": "P - P | - dn dpM || pm G - | G M P D ||",
+        "sahitya": "Maani - kya- Val- - la- ki Paa- - ni"
+      },
+      {
+        "line_number": 27,
+        "swara": "sn dn dpM | G - R - gg || R - S | sr G - M ||",
+        "sahitya": "Ma-dhu-ra- - vaa- ni Va raa-li Ve- - - ni"
+      }
+    ],
+    "anupallavi": [],
+    "charanams": []
+  }
+}

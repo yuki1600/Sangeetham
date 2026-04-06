@@ -1,8 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import Header from './components/Header';
-import ShrutiSelector from './components/ShrutiSelector';
-import DronePlayer from './components/DronePlayer';
-import LivePitchMonitor from './components/LivePitchMonitor';
+import TonicBar from './components/TonicBar';
 import LessonsPanel from './components/LessonsPanel';
 import SongBrowser from './components/SongBrowser';
 import ExerciseRunner from './components/ExerciseRunner';
@@ -15,6 +13,7 @@ import InfoModal from './components/InfoModal';
 import { TONIC_PRESETS } from './utils/swaraUtils';
 import { EXERCISES } from './utils/exercises';
 import { ChevronRight, Music2 } from 'lucide-react';
+import { resumeAudioContext } from './utils/audioEngine';
 
 /** Parse the URL hash into initial view state (supports refresh-to-restore). */
 function parseHash() {
@@ -47,6 +46,16 @@ export default function App() {
   const [selectedSongId, setSelectedSongId] = useState(_initial.songId || _initial.editorSongId || null);
   const [editorBackTarget, setEditorBackTarget] = useState('editor'); // Where to go back from editor-song view
   const [showInfo, setShowInfo] = useState(false);
+
+  // Global Interaction Listener (ensure audio context is resumed on first touch)
+  useEffect(() => {
+    const handleGesture = () => {
+      resumeAudioContext();
+    };
+    const events = ['click', 'touchstart', 'keydown'];
+    events.forEach(e => window.addEventListener(e, handleGesture, { once: true, passive: true }));
+    return () => events.forEach(e => window.removeEventListener(e, handleGesture));
+  }, []);
 
   useEffect(() => {
     if (theme === 'light') {
@@ -174,23 +183,32 @@ export default function App() {
 
         {showInfo && <InfoModal onClose={() => setShowInfo(false)} theme={theme} />}
 
-        <main className="flex-1 px-6 pb-8 max-w-2xl mx-auto w-full">
-          <div className="grid gap-5 fade-in">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              <div className="flex flex-col gap-5">
-                <ShrutiSelector selectedTonic={tonicHz} onSelect={setTonicHz} />
-                <DronePlayer tonicHz={tonicHz} />
+        <main className="flex-1 px-6 pb-8 max-w-7xl mx-auto w-full">
+          <div className="fade-in">
+            {/* New Horizontal Tonic Bar on Top (Now with Live Pitch Monitor) */}
+            <TonicBar 
+              tonicHz={tonicHz} 
+              onTonicChange={setTonicHz} 
+              theme={theme} 
+            />
+
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+              {/* Sidebar Column: Learning Path */}
+              <div className="md:col-span-4 lg:col-span-3 sticky top-32">
+                <LessonsPanel
+                  onStartExercise={handleStartExercise}
+                  onBrowse={handleBrowseGroup}
+                />
               </div>
-              <LivePitchMonitor tonicHz={tonicHz} theme={theme} />
+
+              {/* Main Column: Songs Gallery */}
+              <div className="md:col-span-8 lg:col-span-9">
+                <SongsPanel 
+                  onSelectSong={handleSelectSong} 
+                  onEditSong={(id) => handleEditSong(id, 'home')}
+                />
+              </div>
             </div>
-            <SongsPanel 
-              onSelectSong={handleSelectSong} 
-              onEditSong={(id) => handleEditSong(id, 'home')}
-            />
-            <LessonsPanel
-              onStartExercise={handleStartExercise}
-              onBrowse={handleBrowseGroup}
-            />
           </div>
         </main>
       </div>
@@ -204,10 +222,11 @@ export default function App() {
         <Header
           theme={theme}
           onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onEditor={() => setView('editor')}
           onInfo={() => setShowInfo(true)}
         />
         {showInfo && <InfoModal onClose={() => setShowInfo(false)} theme={theme} />}
-        <main className="flex-1 px-6 pb-8 max-w-2xl mx-auto w-full">
+        <main className="flex-1 px-6 pb-8 max-w-6xl mx-auto w-full">
           <SongBrowser
             groupId={browsedGroupId}
             onBack={handleHome}

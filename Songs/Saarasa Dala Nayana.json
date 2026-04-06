@@ -1,0 +1,87 @@
+{
+  "song_details": {
+    "name": "Saarasa Dala Nayana",
+    "raga": "Chathusra Jhampa",
+    "arohanam": "S M G M N D N P D N S || AVA : S N D P M G R S ||",
+    "avarohanam": "",
+    "tala": "Jhampa",
+    "composer": "Muthuswami Dikshitar"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "S - - - dnrs ssnd P - pnd M , G - pdp - d N | S - - - || - - - gm - P d p -d n ||",
+        "sahitya": "Saa-- ra-- sa--- - Da-- la - - Na- ya - na- - - - - Ha - re - - - -"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - - dnrs ssnd P - sndp M G - d P - d N | S - - - || - - - gm - P d p -d n ||",
+        "sahitya": "Saa-- ra-- sa--- - Da-- la - - Na- ya - na- - - - - Ha - re - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "S - - - dnrs ssnd P - sndp M G - d P - d N | rrss - - || - - - M - G M - ||",
+        "sahitya": "Saa-- ra-- sa--- - Da-- la - - Na- ya - na- - - - San - ka ta-"
+      },
+      {
+        "line_number": 4,
+        "swara": "Pdp D N nd D - dn S R S - - - dn rs | ssnd P - nd | M , G , M - P dp dn ||",
+        "sahitya": "Ha-- ra - na- - - Ha- re - - - - - Go--- vin-- - - - da - - - Maam- Paa- hi-"
+      },
+      {
+        "line_number": 5,
+        "swara": "snrs S ,n dnrs ssnd P - sndp M G - d P - d N | rrss - - || - - - M - G M - ||",
+        "sahitya": "Saa-- - - ra-- sa--- - Da-- la - - Na- ya - na- - - - San - ka ta-"
+      },
+      {
+        "line_number": 6,
+        "swara": "Pdp D N nd D - dn S Gmg rsS - , n dn rs | ssnd P - S,n | pmM , G , M - P dp dn ||",
+        "sahitya": "Ha-- ra - na- - - Ha- re - - - - - - - Go--- vin-- - - - da - - Maam- Paa- hi-"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "mm nn nd P DN dnS - S S N D N N D | DP mp Dnd | P - D M P Pdp mg M - ||",
+        "sahitya": "Nee - - ra- - ja - - -- - sa naa- - - di - Poo- - - - - - - ji taan- - - - - nga"
+      },
+      {
+        "line_number": 2,
+        "swara": "P , d ndP pmmg - - mns n d n P - -dn S ,n R snN | , D , - dn | S,n mmg g , r rsS - ||",
+        "sahitya": "Shree - - Ra - - - - maa- - - - - - nta- ran- - ga- - - - - Shu- bhaa- - - - - - - nga- -"
+      },
+      {
+        "line_number": 3,
+        "swara": "S S G R , s S S,n D N- S R - N nr S | N D - P D | N D - P, d pmM ns ndnp d n ||",
+        "sahitya": "Murahara Abha ya- Prada Mukun - da Yaa-- dava Kula Bhu- sha- na-- Maa- - - dhava"
+      }
+    ],
+    "charanams": [
+      {
+        "lines": [
+          {
+            "line_number": 1,
+            "swara": "M - - - - - mgG M - - - G R m G , | S- sM g M | psn n d P , - pM d P ||",
+            "sahitya": "Maa- - - - gha- - maa- - so - - - - - - tsa- va - Pra- - - - - - bha-va-"
+          },
+          {
+            "line_number": 2,
+            "swara": "M - - - - - mg g- d P M - - G R m G , | S- sM g M | psn nd P , - m P DnD, ||",
+            "sahitya": "Maa- - - - gha- - maa- - so - - - - - - tsa- va - Pra- - - - - - bha-va-"
+          },
+          {
+            "line_number": 3,
+            "swara": "M - - - - N , D , Dns ndnp - dn S - | D sn nndm | - dn pdns - N S - ||",
+            "sahitya": "Maa- - - ni ta Gu-- ru--- - gu- ha- Van-- - - - - - di- ta--- Pa da-"
+          },
+          {
+            "line_number": 4,
+            "swara": "Sn R S S - dn nndp - nd pmG - M - Pdp mg - M | D P dn S | d N S , S R M , G , ||",
+            "sahitya": "Go-- kula - Janapaa-- -la- Go- - - pi kaa-- - - Ma no- ha-ra Go- var ddha nadha ra"
+          }
+        ]
+      }
+    ]
+  }
+}

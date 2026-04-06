@@ -1,0 +1,127 @@
+{
+  "song_details": {
+    "name": "Ninne Bhajana",
+    "raga": "Nattai",
+    "arohanam": "S R3 G3 M1 P D3 N3 S ||",
+    "avarohanam": "S N3 P M1 R3 S ||",
+    "tala": "Adi",
+    "composer": "Tyagaraja"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "1. G - - - - - mgpm | M - - - mg pm gm , r S ||",
+        "sahitya": "Nin - - - - ne - - - - - - Bhaja"
+      },
+      {
+        "line_number": 2,
+        "swara": "R - - - - - - gm | P - - M mg pm gmrs ||",
+        "sahitya": "Na - - - - - Se yu - vaa - - da-nu-"
+      },
+      {
+        "line_number": 3,
+        "swara": "2. rsnp nsgm G- gmpn | snpm G - nppm R S ||",
+        "sahitya": "Nin ne --- - - - - - - - Bhaja"
+      },
+      {
+        "line_number": 4,
+        "swara": "R - - - - - gmpn | nSn P , m mg pm gmrs ||",
+        "sahitya": "Na - - - - Se yu - vaa - - da-nu-"
+      },
+      {
+        "line_number": 5,
+        "swara": "3. rsnp nsgm G- snpm | gmpn S - gr snpm R S ||",
+        "sahitya": "Nin ne --- - - - - - - - Bhaja"
+      },
+      {
+        "line_number": 6,
+        "swara": "R - - - - - gmpn | srs - n sn- pn p - mpm gmrs ||",
+        "sahitya": "Na - - - - Se - - -yu - vaa - - -- - da-nu-"
+      },
+      {
+        "line_number": 7,
+        "swara": "4. rsnp nsgm G- snpm | gmpn S - gr snpm R S ||",
+        "sahitya": "Nin ne --- - - - - - - - Bhaja"
+      },
+      {
+        "line_number": 8,
+        "swara": "R - - - - - gmpn | srSS - nsNN- pn PP - mpMM gmrs ||",
+        "sahitya": "Na - - - - Se - - -yu - vaa - - -- - da-nu-"
+      },
+      {
+        "line_number": 9,
+        "swara": "5. G - - - - - mgpm | M - - - mg pm gm , r S ||",
+        "sahitya": "Nin - - - - ne - - - - - - Bhaja"
+      },
+      {
+        "line_number": 10,
+        "swara": "R - - - - - - - | - - - - - - - - ||",
+        "sahitya": "Na - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "Pan na- - - - - ga - - - sha - -",
+        "sahitya": "yi"
+      },
+      {
+        "line_number": 2,
+        "swara": "Pan na- - - - - ga - - - sha - -",
+        "sahitya": "Yi Paru la Ve - da le - - - nu - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "Pan na- - - - - ga - - - sha - -",
+        "sahitya": "Yi Paru la Ve - da le - - - nu - - -"
+      },
+      {
+        "line_number": 4,
+        "swara": "nsrs , s gm gm pm , p mp | mpnp , n p n mPm gMr ||",
+        "sahitya": "Charanam"
+      },
+      {
+        "line_number": 5,
+        "swara": "P - - pp mr S – np np | M – P pm gm gmpm mg M ||",
+        "sahitya": "Snaa naa -- di Ja- pa- - Thapa - - - Yo- - - - - ga"
+      },
+      {
+        "line_number": 6,
+        "swara": "P , m – gm pm rs - S – pm gm | rs - S R G M M - - ||",
+        "sahitya": "Dhyaa - - - - - na- Sa- maa- - - dhi- Su kha - pra da"
+      },
+      {
+        "line_number": 7,
+        "swara": "N P - pp mr S – np np | M – P pm gm gmpm mg M ||",
+        "sahitya": "Snaa naa -- di Ja- pa- - Thapa - - - Yo- - - - - ga"
+      },
+      {
+        "line_number": 8,
+        "swara": "P , m – gm pm rs - S – pm gm | rs - S R G M M - pm ||",
+        "sahitya": "Dhyaa - - - - - na- Sa- maa- - - dhi- Su kha - pra da See"
+      },
+      {
+        "line_number": 9,
+        "swara": "PN pnsn pmgm Pnp mg | M Pnp mg M P N P - S ||",
+        "sahitya": "Tha naa-- tha -- ! Sa—ka- la Lo-- -- ka Paa - - la"
+      },
+      {
+        "line_number": 10,
+        "swara": "S - - - - - - - | - - - - - - - pm ||",
+        "sahitya": "ka - - - - - - - - - - - - - See"
+      },
+      {
+        "line_number": 11,
+        "swara": "PN pnsn pmgm Pnp mg | M Pnp mg M P N P - S ||",
+        "sahitya": "Tha naa-- tha -- ! Sa—ka- la Lo-- -- ka Paa - - la"
+      },
+      {
+        "line_number": 12,
+        "swara": "S - - - - - N - | S – ns R S sn pm gm - pm || [finish: gmrs]",
+        "sahitya": "ka - - - - Thia ga ra- - ja nu -- tha – See"
+      }
+    ],
+    "charanams": []
+  }
+}

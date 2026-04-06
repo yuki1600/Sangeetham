@@ -1,0 +1,162 @@
+{
+  "song_details": {
+    "name": "Ranganathude",
+    "raga": "Sowrastram",
+    "arohanam": "S R G M P M D , N S || AVA: S N D N , D P M G R S ||",
+    "avarohanam": "S R G M P M D , N S || AVA: S N D N , D P M G R S ||",
+    "tala": "Rupakam",
+    "composer": "Ponnaiah Pillai"
+  },
+  "sections": {
+    "pallavi": [
+      {
+        "line_number": 1,
+        "swara": "- , m , m mg R R || rs S - - R - ||",
+        "sahitya": "Ran ga naa- - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 2,
+        "swara": "- , m , m mg R R || rs S - - M - ||",
+        "sahitya": "Ran ga naa- - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 3,
+        "swara": "- , m , m mg R R || rs S - - ndpm ||",
+        "sahitya": "Ran ga naa- - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 4,
+        "swara": "mgr- mp nd p- m g r -R || rs S - - sndn ||",
+        "sahitya": "- - - Ran ga- - naa- - - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 5,
+        "swara": "S , - s , s R mg M || P M P - ndpm ||",
+        "sahitya": "- - - Ran ga-naa- - - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 6,
+        "swara": "mgr- m p M D - pm gr , R || rs S - - sndn ||",
+        "sahitya": "- - - Ran ga- - naa- - - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 7,
+        "swara": "S , - s , s R mg M || Dnd P - ndpm ||",
+        "sahitya": "- - - Ran ga-naa- - - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 8,
+        "swara": "mgr- m p M D - pm gr r nd pm || gr rs S - - - ||",
+        "sahitya": "- - - Ran ga- - naa- - - thu de- - - - - - - -"
+      }
+    ],
+    "anupallavi": [
+      {
+        "line_number": 1,
+        "swara": "- D , n S - R || S - S - sr - rs ||",
+        "sahitya": "Man gala - pra dam bu leer- -chu"
+      },
+      {
+        "line_number": 2,
+        "swara": "S - - - - - || - - - - - - ||",
+        "sahitya": "-- - - - - - - - - - -"
+      },
+      {
+        "line_number": 3,
+        "swara": "- D , n S - R || S - S - sr - rs ||",
+        "sahitya": "Man gala - pra dam bu leer- -chu"
+      },
+      {
+        "line_number": 4,
+        "swara": "S- D , n S - R || S - S - sn D- nd ||",
+        "sahitya": "- Man gala - pra dam bu leer- - - -"
+      },
+      {
+        "line_number": 5,
+        "swara": "pmM- D , n S - R || S - sr - mg pm g - r ||",
+        "sahitya": "- - - Man gala - pra dam bu leer- - - - chu"
+      },
+      {
+        "line_number": 6,
+        "swara": "sn- d r , snd P- dr || snD p m - nd pmg r ||",
+        "sahitya": "- - Maha- nee- ya Gu- naa- - thmu-de- - - -"
+      },
+      {
+        "line_number": 7,
+        "swara": "- - D , n S - R || S - sr - mg pm g - r ||",
+        "sahitya": "- Man gala - pra dam bu leer- - - - chu"
+      },
+      {
+        "line_number": 8,
+        "swara": "sn- d r , snd P- dr || snD p m - nd pmg r || gm",
+        "sahitya": "- - Maha- nee- ya Gu- naa- - thmu-de- - - - Sri-"
+      },
+      {
+        "line_number": 9,
+        "swara": "n d p m m g r - m g r S || s n d n r g r s s d s r ||",
+        "sahitya": "1. Sathathamu Vaa-ni Naa - mame San-keer- thanamunu Je - sina"
+      },
+      {
+        "line_number": 10,
+        "swara": "m g r - p m g - d p m - m g r || m g r - r - g m - P ||",
+        "sahitya": "Ja nu la Hri daya kama la Man- du Chala kuchun - na- - de"
+      },
+      {
+        "line_number": 11,
+        "swara": "d d n s , m m g r - s s s || D s - ns rs r d s D - D ||",
+        "sahitya": "Pathitha Paa - va nu da nu Vi rudu Ba tti Yun- - na- de - Sad"
+      },
+      {
+        "line_number": 12,
+        "swara": "s s - S r -S n d p M || d d d - s n d - p m g r S || gm",
+        "sahitya": "ga ti Ic chu Vaadu I thade Garuda Ga mana Dora I thade! Sri- (ranganaathude)"
+      },
+      {
+        "line_number": 13,
+        "swara": "n d P m - m g r - m g r s || S d - s , r - g r , S , ||",
+        "sahitya": "2. Pa di ya ru ve -yla Sthri- laku Praana Naa - du I tha - de-"
+      },
+      {
+        "line_number": 14,
+        "swara": "m g r - p m g - d p m - m g r || m g r - s s r- g m - P ||",
+        "sahitya": "Pa rashu raa- ma Ga - rva Mel - la Bhan-ga Pa rachi naa- - de"
+      },
+      {
+        "line_number": 15,
+        "swara": "d d n s , s p m g r - s s || S s - s , s nsrs r sn d ||",
+        "sahitya": "Mudamumee - ra Paa- na mu la ku Moksha mi - chi naa- - de- -"
+      },
+      {
+        "line_number": 16,
+        "swara": "d n s - g R - s n d p mm || D s n d p- n d p- m g r || gm",
+        "sahitya": "Pa ra ma Da yaa karu de - Sri- Prah laa- - da Vara dhu de - - Sri-"
+      },
+      {
+        "line_number": 17,
+        "swara": "- , m , m mg R R || rs S - - ndpm ||",
+        "sahitya": "Ran ga naa- - thu de- - - - Sri-"
+      },
+      {
+        "line_number": 18,
+        "swara": "mgr- mp nd p- m g r -R || rs S - - - N ||",
+        "sahitya": "- - - Ran ga- - naa- - - thu de- - - - - An"
+      },
+      {
+        "line_number": 19,
+        "swara": "D - pp m- m mg R R || rs S - - N , d ||",
+        "sahitya": "tha Ran - ga naa- - thu de- - - - An- tha"
+      },
+      {
+        "line_number": 20,
+        "swara": "- - pp m- m mg R R || rs S - - N , d ||",
+        "sahitya": "- Ran - ga naa- - thu de- - - - An- tha"
+      },
+      {
+        "line_number": 21,
+        "swara": "ns - dp m- m mg R R || rs S - - - - ||",
+        "sahitya": "- - Ran - ga naa- - thu de- - - - - -"
+      }
+    ],
+    "charanams": []
+  }
+}
