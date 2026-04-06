@@ -35,6 +35,9 @@ function swaraColor(text, theme) {
  *   editMode         - boolean: enables click-to-edit on tokens
  *   onTokenEdit      - (avIdx, tokIdx, field, newText) => void
  *   timeRef          - optional ref for high-frequency time updates
+ *   textMode         - boolean: render full text rows instead of parsed tokens
+ *   contentRows      - flat array from buildContentRows() (used when textMode=true)
+ *   avPerRow         - avartanas per content row (1 or 2), controls width in text mode
  */
 export default function NotationLane({
     aavartanas,
@@ -47,7 +50,10 @@ export default function NotationLane({
     aavartanaTimings,
     editMode = false,
     onTokenEdit,
-    timeRef
+    timeRef,
+    textMode = false,
+    contentRows,
+    avPerRow = 1,
 }) {
     const containerRef = useRef(null);
     const animRef = useRef(null);
@@ -61,7 +67,10 @@ export default function NotationLane({
     // When aavartanaTimings provided, columns are absolutely positioned at
     // timing[i]/avSec * AAVARTANA_PX. The transform scroll is the same formula
     // (t/avSec)*AAVARTANA_PX, so column i aligns with playhead when t=timing[i].
-    const hasTimings = !!(aavartanaTimings && aavartanaTimings.length === aavartanas.length);
+    const hasTimings = !textMode && !!(aavartanaTimings && aavartanaTimings.length === aavartanas?.length);
+
+    // In text mode, each row occupies avPerRow avartanas worth of pixels
+    const rowPx = avPerRow * AAVARTANA_PX;
 
     // Animate scroll
     useEffect(() => {
@@ -81,6 +90,95 @@ export default function NotationLane({
     const isSwara = type === 'swara';
     const isDark = theme !== 'light';
 
+    // ── Text mode: render full text rows ──────────────────────────────────
+    if (textMode && contentRows) {
+        // Distribute total scroll width proportionally by text length.
+        // Total width = contentRows.length * rowPx (preserves scroll speed).
+        const totalScrollPx = contentRows.length * rowPx;
+        const textField = isSwara ? 'swaram' : 'sahityam';
+        const lengths = contentRows.map(r => (r[textField] || ' ').length);
+        const totalLen = lengths.reduce((a, b) => a + b, 0) || 1;
+        const rowWidths = lengths.map(len => Math.max(rowPx * 0.3, (len / totalLen) * totalScrollPx));
+
+        return (
+            <div className="relative w-full h-full overflow-hidden no-scrollbar">
+                <div
+                    ref={containerRef}
+                    className="absolute top-0 h-full flex items-center"
+                    style={{
+                        left: `${playheadFraction * 100}%`,
+                        willChange: 'transform',
+                        paddingRight: '60vw',
+                    }}
+                >
+                    {contentRows.map((row, idx) => {
+                        const text = isSwara ? row.swaram : row.sahityam;
+                        const isFirstInSection = idx === 0 || contentRows[idx - 1]?.section !== row.section;
+                        const w = rowWidths[idx];
+
+                        return (
+                            <div
+                                key={idx}
+                                className="flex-shrink-0 flex items-center h-full relative"
+                                style={{ width: w }}
+                            >
+                                {isFirstInSection && (
+                                    <div
+                                        className="absolute top-2 left-0 px-2 py-0.5 rounded bg-amber-500/15 text-[11px] font-black tracking-widest uppercase z-20"
+                                        style={{
+                                            color: isDark ? '#fbbf24' : '#92400e',
+                                            border: `1px solid ${isDark ? 'rgba(251,191,36,0.35)' : 'rgba(146,64,14,0.25)'}`
+                                        }}
+                                    >
+                                        {row.section}
+                                    </div>
+                                )}
+
+                                <div
+                                    className="w-full px-3"
+                                    style={{
+                                        fontSize: isSwara ? '0.85rem' : '0.8rem',
+                                        fontFamily: "'Outfit', sans-serif",
+                                        fontWeight: isSwara ? 700 : 600,
+                                        letterSpacing: '0.04em',
+                                        color: isSwara
+                                            ? (isDark ? '#60a5fa' : '#1e40af')
+                                            : (isDark ? '#fcd34d' : '#92400e'),
+                                        whiteSpace: 'nowrap',
+                                        textShadow: isSwara && isDark ? '0 0 10px rgba(96,165,250,0.3)' : 'none',
+                                    }}
+                                >
+                                    {text || '\u00A0'}
+                                </div>
+
+                                <div
+                                    className="absolute right-0 top-0 bottom-0 w-px"
+                                    style={{ background: isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)' }}
+                                />
+                            </div>
+                        );
+                    })}
+                </div>
+
+                <div
+                    className="absolute inset-y-0 left-0 pointer-events-none z-10"
+                    style={{
+                        width: `${playheadFraction * 100}%`,
+                        background: `linear-gradient(to right, ${isDark ? '#0a0a0f' : '#f8fafc'}, transparent)`,
+                    }}
+                />
+                <div
+                    className="absolute inset-y-0 right-0 pointer-events-none z-10"
+                    style={{
+                        width: '15%',
+                        background: `linear-gradient(to left, ${isDark ? '#0a0a0f' : '#f8fafc'}, transparent)`,
+                    }}
+                />
+            </div>
+        );
+    }
+
+    // ── Token mode: original per-avartana parsed token rendering ──────────
     return (
         <div className="relative w-full h-full overflow-hidden no-scrollbar">
             {/* Scrolling content */}

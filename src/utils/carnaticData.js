@@ -95,6 +95,7 @@ export const KRITHIS = [
     { id: 'k-chakkani', title: 'Chakkani Raja', compositionType: 'Kriti', raga: 'Kharaharapriya', tala: 'Adi', composer: 'Tyagaraja', exerciseId: null },
     { id: 'k-brochevarevare', title: 'Brochevarevare', compositionType: 'Kriti', raga: 'Sri Ranjani', tala: 'Adi', composer: 'Tyagaraja', exerciseId: null },
     { id: 'k-himadrisu', title: 'Himadri Suthe PAhimAm', compositionType: 'Kriti', raga: 'Kalyani', tala: 'Rupakam', composer: 'Shyama Shastry', exerciseId: null },
+    { id: 'k-marivere', title: 'Mari Vere Gati', compositionType: 'Kriti', raga: 'Ananda Bhairavi', tala: 'Misra Chapu', composer: 'Shyama Shastry', exerciseId: null, songViewId: 'marivere-gati' },
     { id: 'k-devi-neeye', title: 'Devi Neeye Thunai', compositionType: 'Kriti', raga: 'Keeravani', tala: 'Adi', composer: 'Papanasam Sivan', exerciseId: null },
     { id: 'k-ennathavam', title: 'Enna Thavam', compositionType: 'Kriti', raga: 'Kapi', tala: 'Adi', composer: 'Papanasam Sivan', exerciseId: null },
     { id: 'k-abhaya', title: 'Abhayambikaya', compositionType: 'Kriti', raga: 'Kedaragowla', tala: 'Khanda Chapu', composer: 'Muthuswami Dikshitar', exerciseId: null },

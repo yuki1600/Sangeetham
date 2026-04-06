@@ -1,0 +1,201 @@
+{
+    "song_details": {
+        "title": "Mari Vere Gati",
+        "raga": "Ananda Bhairavi",
+        "melakartha": "20th Melakartha Nata Bhairavi Janyam",
+        "tala": "Misra Chapu",
+        "composer": "Shyama Shastry",
+        "version": "Peri Sriramamurthy",
+        "arohana": "S G2 R2 G2 M1 P D2 P S'",
+        "avarohana": "S' N2 D2 P M1 G2 R2 S"
+    },
+    "composition": [
+        {
+            "section": "Pallavi",
+            "content": [
+                {
+                    "label": "mari vErE gati(y)evar(a)mmA - Sangati 1",
+                    "swaram": "P , M , | P ; ; ; || pmpNp | P , n  n P m ||",
+                    "sahityam": "Ma ri vE - | - - - - || - | - - - - rE - - ||"
+                },
+                {
+                    "swaram": "M g M , | P ; M ; || Mdp G R | G ; M ; ||",
+                    "sahityam": "Ga- ti - | (y)ev va - || r(a)m- - | - - - mA ||"
+                },
+                {
+                    "label": "mari vErE gati(y)evar(a)mmA - Sangati 2",
+                    "swaram": "N p P , | P ; ; ; || pn s R s | snrs nd P ||",
+                    "sahityam": "Ma ri vE - | - - - - || - - - - | - - - rE ||"
+                },
+                {
+                    "swaram": "M g M , | mgmp mpnp || Mdp mG, R | G ; M ; ||",
+                    "sahityam": "Ga- ti - (y)ev | - va || - r(a)m- - | - - - mA ||"
+                },
+                {
+                    "label": "mari vErE gati(y)evar(a)mmA - Sangati 3",
+                    "swaram": "N p P m | P ; ; ; || pn s r gr | srgr nsrs nd P ||",
+                    "sahityam": "Ma - ri vE | - - - - || - - - - | - - - - rE ||"
+                },
+                {
+                    "swaram": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
+                    "sahityam": "Ga- ti - (y)ev - | va - - || r(a)m- - - - | - - - mA ||"
+                },
+                {
+                    "label": "mahilO nannu brOcuTaku - Sangati 1",
+                    "swaram": "S , S , | sg R,n S ; || S G R | G ; M ; ||",
+                    "sahityam": "Ma hi lO | - - - || na- brO- cu | Ta- ku - ||"
+                },
+                {
+                    "label": "mahilO nannu brOcuTaku - Sangati 2",
+                    "swaram": "S , S , | sg R,n S ; || S,d dp pm | gr- G , M , ||",
+                    "sahityam": "Ma hi lO - | - - na- brO- || - - - | cu Ta- ku - ||"
+                },
+                {
+                    "label": "Pallavi return",
+                    "swaram": "N p P , | P ; ; ; || P G M | ; P ; ; ||",
+                    "sahityam": "Ma ri vE | - - - || - - - | - - rE ||"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "label": "SaraN(A)gata rakshaki nIvE(y)ani - Sangati 1",
+                    "swaram": "S , S , | S ; S ; || S , S , | S rs N ; ||",
+                    "sahityam": "Sa ra N(A) | a - ga || ta - - | - ra ||"
+                },
+                {
+                    "swaram": "S , M , | mmgr sRm gr || S d N , | S , n s R s ||",
+                    "sahityam": "Ksha ki nI - | - - - - || - - vE - | - - (y)a- ni - - - ||"
+                },
+                {
+                    "label": "SaraN(A)gata rakshaki nIvE(y)ani - Sangati 2",
+                    "swaram": "S , S , | S ; S ; || S , S , | S rs N ; ||",
+                    "sahityam": "Sa ra N(A) | a - ga || ta - - | - ra ||"
+                },
+                {
+                    "swaram": "S , M , | mg Mpm G R || S d N , | S , n s R s ||",
+                    "sahityam": "Ksha ki nI - | - - - - || - - vE - | - - (y)a- ni - - - ||"
+                },
+                {
+                    "label": "sadA nammiti nammitini mIn(A)kshI - Sangati 1",
+                    "swaram": "P , S , | ; ; sn r s || N , D , | P , d n P m ||",
+                    "sahityam": "Sa dA - | - nam- - || mi ti | nam- - - - ||"
+                },
+                {
+                    "swaram": "M g M , | mgmp mpnp || dp mg ; r | G ; M ; ||",
+                    "sahityam": "Mi - ti mI | - - || - - - n(A)- | - - ksham mma - ||"
+                },
+                {
+                    "label": "sadA nammiti nammitini mIn(A)kshI - Sangati 2",
+                    "swaram": "P , G r | S ; ns Rgr || nsrs nd P | P , d n P m ||",
+                    "sahityam": "Sa dA - | - nam- - || mi ti | nam- - - - ||"
+                },
+                {
+                    "swaram": "M g M , | mgmp mpnp || dp mg ; r | G ; M ; ||",
+                    "sahityam": "Mi - ti mI | - - || - - - n(A)- | - - ksham mma - ||"
+                },
+                {
+                    "label": "sadA nammiti nammitini mIn(A)kshI - Sangati 3",
+                    "swaram": "pnsg Mpm | grS ; ns Rgr || nsrs nd P | P , d n P m ||",
+                    "sahityam": "Sa dA - | - nam- - || mi ti | nam- - - - ||"
+                },
+                {
+                    "swaram": "M g M , | mgmp mpnp || dp mg ; r | G ; M ; ||",
+                    "sahityam": "Mi - ti mI | - - || - - - n(A)- | - - ksham mma - ||"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
+                {
+                    "label": "Suka SyAmaLA ghana SyAma kRshNuni sOdarI kaumArI",
+                    "swaram": "; S S | M ; ; ; || G P M | M G G R ||",
+                    "sahityam": "Su ka SyA | - - - - || - - ma | - LA - ||"
+                },
+                {
+                    "swaram": "M g P m | m m g r srM gr || S , S , | S ; N ; ||",
+                    "sahityam": "Gha- na- SyA- | - - - - - || - - ma | kRu shNu ni ||"
+                },
+                {
+                    "swaram": "; S N | S ; ; ; || ; ; ; | ; ; ; gr ||",
+                    "sahityam": "sO - - | - - - - || - - - | - - - - ||"
+                },
+                {
+                    "swaram": "S N S | P np M ; || ; - G R | G ; M ; ||",
+                    "sahityam": "Da - rI | kau- - - || - mA - - | - rI - ||"
+                },
+                {
+                    "label": "akaLanka kalA dharI bimb(A)dharI",
+                    "swaram": "; P P | P ; S ; || S , - S , | N ; ; ; ||",
+                    "sahityam": "A ka | Lan- - - || ka ka lA | - - - ||"
+                },
+                {
+                    "swaram": "S , M , | mm gr srM gr || S ; ; | D N S ; ||",
+                    "sahityam": "Dha rI bim- | - - - || - b(A) - | dha - rI ||"
+                },
+                {
+                    "label": "apAra kRpA nidhi nIvE rakshimpa - Sangati 1",
+                    "swaram": "P S ; | ; ; N R || N , D , | P , d P , m ||",
+                    "sahityam": "A pA- | - - ra || - kR pA | ni - - dhi- - ||"
+                },
+                {
+                    "swaram": "G ; ; | mg mp pm - np | pm G R | G ; M ; ||",
+                    "sahityam": "Vi - - | nI - - - - vE | - - - | ra - kshim pa -"
+                },
+                {
+                    "label": "apAra kRpA nidhi nIvE rakshimpa - Sangati 2",
+                    "swaram": "P R S | ; ; N R || N , D , | P , d n P m ||",
+                    "sahityam": "A pA- | - - ra || - kR pA | ni - - dhi- - ||"
+                },
+                {
+                    "swaram": "G ; ; | mg mp pm - np | pm G R | G ; M ; ||",
+                    "sahityam": "Vi - - | nI - - - - vE | - - - | ra - kshim pa -"
+                }
+            ]
+        },
+        {
+            "section": "Svara Sahityam",
+            "content": [
+                {
+                    "label": "pAda yugamu madilO dalaci kOriti vinumu mada gaja gamanA",
+                    "swaram": "P ; ; | ; D P M || G - P M | G - M G R ||",
+                    "sahityam": "pA - | - da yu || ga mu madi | lO da la ci ||"
+                },
+                {
+                    "swaram": "G ; M | P - G M D || P - M G | R - S G M ||",
+                    "sahityam": "kO- ri | ti vi nu || mu ma da | ga ja gamanA ||"
+                },
+                {
+                    "label": "parula nutimpaganE varam(o)sagu satatamu ninu madi maravakanE",
+                    "swaram": "P M G | M - G ; R || G R - N | S N G R ||",
+                    "sahityam": "Pa rula | nu tim- pa || ganE va | ram(o) sa gu ||"
+                },
+                {
+                    "swaram": "N N - S | S - G G - M || M - P M | G G M ; ||",
+                    "sahityam": "Sa ta ta | mu ni nu ma || di ma ra | va ka nE ||"
+                },
+                {
+                    "label": "madana ripu sati ninu hRdayamulO gati(y)ani dalaci stuti salipitE",
+                    "swaram": "P S - N | D P - N D || P M - D | P D M P ||",
+                    "sahityam": "Mada na ri | pu sa ti || ni nu | hR daya mulO ||"
+                },
+                {
+                    "swaram": "G R - P | M - G R - N || S G- R | G M P ; ||",
+                    "sahityam": "Ga ti (y)a | ni da la ci || stuti sa | li pi tE ||"
+                },
+                {
+                    "label": "mudamutO phalam(o)saguTaku dharalO nat(A)vana kutUhala nIvEgA",
+                    "swaram": "D P S | N - S G R || M G- G | R - N S N ||",
+                    "sahityam": "Muda mu | tO phalam(o) sa gu || Ta ku | dha ra lO ||"
+                },
+                {
+                    "swaram": "R , S , | N D - D , p || ; M G | R - G G M ||",
+                    "sahityam": "Na t(A) vana | ku tU ha la || nI vE | gA - (mari) ||"
+                }
+            ]
+        }
+    ]
+}
