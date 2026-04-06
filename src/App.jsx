@@ -14,6 +14,7 @@ import { TONIC_PRESETS } from './utils/swaraUtils';
 import { EXERCISES } from './utils/exercises';
 import { ChevronRight, Music2 } from 'lucide-react';
 import { resumeAudioContext } from './utils/audioEngine';
+import { ErrorBoundary } from './ErrorBoundary';
 
 /** Parse the URL hash into initial view state (supports refresh-to-restore). */
 function parseHash() {
@@ -35,7 +36,7 @@ function parseHash() {
 /**
  * Main application — routes between home, song-browser, practicing, and feedback views.
  */
-export default function App() {
+function AppContent() {
   const _initial = parseHash();
   const [view, setView] = useState(_initial.view);
   const [tonicHz, setTonicHz] = useState(TONIC_PRESETS[0].hz);
@@ -286,4 +287,12 @@ export default function App() {
   }
 
   return null;
+}
+
+export default function App() {
+  return (
+    <ErrorBoundary>
+      <AppContent />
+    </ErrorBoundary>
+  );
 }

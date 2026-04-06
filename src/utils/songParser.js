@@ -55,7 +55,8 @@ export function buildAavartanas(composition) {
         for (let contentIdx = 0; contentIdx < section.content.length; contentIdx++) {
             const entry = section.content[contentIdx];
             const sahitya = entry.sahitya ?? '';
-            const swaraParts = entry.swara.split('||').map(s => s.trim()).filter(Boolean);
+            const swara = entry.swara ?? '';
+            const swaraParts = swara.split('||').map(s => s.trim()).filter(Boolean);
             const sahityaParts = sahitya.split('||').map(s => s.trim()).filter(Boolean);
             const count = Math.max(swaraParts.length, sahityaParts.length);
 

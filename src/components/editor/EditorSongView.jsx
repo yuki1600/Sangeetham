@@ -13,18 +13,18 @@ import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
 import CompactPitchBar from '../CompactPitchBar';
 import { buildAavartanas, buildContentRows, applyTokenEdit } from '../../utils/songParser';
-
-// ── Session Cache ─────────────────────────────────────────────────────────────
-// Stores decoded AudioBuffer objects to make navigation "seamless"
-const audioCache = new Map(); // key: `${songId}-${type}`
-// Stores song metadata and composition data
-const songDataCache = new Map(); // key: `${songId}`
 import { applyEditOps, getEditedDuration, editedTimeToOriginal } from '../../utils/audioEditor';
 import { TALA_TEMPLATES } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { getRagaScale } from '../../utils/ragaScales';
 import SwaraScale from '../SwaraScale';
 import { audioBufferToWav } from '../../utils/wavEncoder';
+
+// ── Session Cache ─────────────────────────────────────────────────────────────
+// Stores decoded AudioBuffer objects to make navigation "seamless"
+const audioCache = new Map(); // key: `${songId}-${type}`
+// Stores song metadata and composition data
+const songDataCache = new Map(); // key: `${songId}`
 
 const AAVARTANA_PX = 320;
 const PLAYHEAD = 0.25;
