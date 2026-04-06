@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings, FileText, Heart } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';
@@ -418,6 +418,27 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         return matchesTitle && matchesRaga && matchesTala && matchesComposer;
     });
 
+    const handleToggleFavorite = async (song) => {
+        const newFav = !song.isFavorite;
+        try {
+            const res = await fetch(`/api/songs/${song.id}/metadata`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    raga: song.raga, 
+                    tala: song.tala,
+                    isFavorite: newFav 
+                })
+            });
+            const data = await res.json();
+            if (data.ok) {
+                setSongs(prev => prev.map(s => s.id === song.id ? { ...s, isFavorite: newFav } : s));
+            }
+        } catch (e) {
+            console.error('Failed toggling favorite:', e);
+        }
+    };
+
     const handleBulkPublish = async (active) => {
         if (!window.confirm(`${active ? 'Publish' : 'Unpublish' } all ${filteredSongs.length} filtered songs?`)) return;
         setBulkPublishing(true);
@@ -629,22 +650,22 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                             </div>
                                         ) : (
                                             <div className="flex items-center gap-1.5 group/title">
-                                                <h3
-                                                    className="font-bold text-base truncate cursor-text"
-                                                    style={{ fontFamily: "'Outfit', sans-serif" }}
-                                                    title="Click to rename"
-                                                    onClick={() => startRename(song)}
-                                                >
-                                                    {song.title}
-                                                </h3>
-                                                <button
-                                                    onClick={() => startRename(song)}
-                                                    className="opacity-0 group-hover/title:opacity-40 hover:!opacity-100 transition-opacity flex-shrink-0"
-                                                    title="Rename"
-                                                >
-                                                    <Pencil className="w-3 h-3" />
-                                                </button>
-                                            </div>
+                                            <h3
+                                                className="font-bold text-base truncate cursor-text text-[var(--text-primary)] group-hover/title:text-emerald-400 transition-colors"
+                                                style={{ fontFamily: "'Outfit', sans-serif" }}
+                                                title="Click to rename"
+                                                onClick={() => startRename(song)}
+                                            >
+                                                {song.title}
+                                            </h3>
+                                            <button
+                                                onClick={() => startRename(song)}
+                                                className="opacity-0 group-hover/title:opacity-40 hover:!opacity-100 transition-opacity flex-shrink-0"
+                                                title="Rename"
+                                            >
+                                                <Pencil className="w-3 h-3" />
+                                            </button>
+                                        </div>
                                         )}
                                         {editingMetaId === song.id ? (
                                             <div className="mt-2 space-y-2">
@@ -693,30 +714,39 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                                 </div>
                                             </div>
                                         ) : (
-                                            <div className="flex flex-col gap-0.5 mt-1">
-                                                <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
-                                                    {song.raga && (
-                                                        <span>
-                                                            <span className="opacity-40">Raga: </span>
-                                                            <span style={{ color: '#10b981' }}>{song.raga}</span>
-                                                        </span>
-                                                    )}
-                                                    {song.tala && (
-                                                        <span>
-                                                            <span className="opacity-40">Tala: </span>
-                                                            <span style={{ color: '#60a5fa' }}>{song.tala}</span>
-                                                        </span>
-                                                    )}
-                                                </div>
+                                            <div className="flex flex-wrap gap-4 text-[13px] font-bold uppercase tracking-wider mb-1">
+                                                {song.raga && (
+                                                    <span className="flex items-center gap-1.5 grayscale-[0.3]">
+                                                        <span className="opacity-40 font-black">Raga: </span>
+                                                        <span style={{ color: '#10b981' }}>{song.raga}</span>
+                                                    </span>
+                                                )}
+                                                {song.tala && (
+                                                    <span className="flex items-center gap-1.5 grayscale-[0.3]">
+                                                        <span className="opacity-40 font-black">Tala: </span>
+                                                        <span style={{ color: '#60a5fa' }}>{song.tala}</span>
+                                                    </span>
+                                                )}
                                                 {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
-                                                    <div className="text-[10px] font-bold uppercase tracking-widest">
-                                                        <span className="opacity-40">Composer: </span>
+                                                    <div className="text-[13px] font-bold uppercase tracking-wider">
+                                                        <span className="opacity-40 font-black">Composer: </span>
                                                         <span style={{ color: '#fbbf24' }}>{song.composer}</span>
                                                     </div>
                                                 )}
                                             </div>
                                         )}
                                     </div>
+                                </div>
+
+                                {/* Right Actions Box */}
+                                <div className="absolute right-6 top-6 flex flex-col items-end gap-3 pointer-events-none">
+                                    <button 
+                                        onClick={(e) => { e.stopPropagation(); handleToggleFavorite(song); }}
+                                        className={`p-2.5 rounded-xl border transition-all pointer-events-auto shadow-sm ${song.isFavorite ? 'bg-rose-500/10 border-rose-500/40 text-rose-500' : 'bg-black/5 border-white/10 text-[var(--text-muted)] hover:bg-rose-500/5 hover:border-rose-500/30 hover:text-rose-400'}`}
+                                        title={song.isFavorite ? "Remove from Favorites" : "Mark as Favorite"}
+                                    >
+                                        <Heart className={`w-5 h-5 ${song.isFavorite ? 'fill-rose-500' : ''}`} />
+                                    </button>
                                 </div>
 
                                 {/* Meta */}
@@ -730,6 +760,19 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                             <Layers className="w-3 h-3" />
                                             {song.versionCount} version{song.versionCount !== 1 ? 's' : ''}
                                         </span>
+                                    )}
+                                    {song.pdfPath && (
+                                        <a 
+                                            href={`/api/${song.pdfPath}`} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="ml-auto flex items-center gap-2 px-4 py-1.5 rounded-xl border border-orange-500/30 bg-orange-500/10 text-orange-500 hover:bg-orange-500/20 transition-all font-bold text-xs uppercase tracking-wider shadow-sm"
+                                            title="View PDF Notation"
+                                            onClick={(e) => e.stopPropagation()}
+                                        >
+                                            <FileText className="w-4 h-4" />
+                                            PDF
+                                        </a>
                                     )}
                                 </div>
 

@@ -1,49 +1,50 @@
 {
-  "song_details": {
-    "name": "Kamalajaathala",
-    "raga": "Kalyani",
-    "arohanam": "S R2 G3 M2 P D2 N3 S",
-    "avarohanam": "S N3 D2 P M2 G3 R2 S",
-    "tala": "Triputa",
-    "composer": "Purandaradasa"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "2 G3 M2 P D2 N3 S",
-        "sahitya": "Kamalajadala Vimala Su-nayana Kari Varada Karunaambudhe"
-      },
-      {
-        "line_number": 2,
-        "swara": "S S S | N D N S || N D P | D P M P ||",
-        "sahitya": "Ka mala jaa - da la Vi ma la Su- na ya na"
-      },
-      {
-        "line_number": 3,
-        "swara": "G M P | P D D N || D P M | P G R S ||",
-        "sahitya": "Ka ri Va ra da Ka ru naa- mbu dhe - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "D D D | G G G - || M P - | M G R S ||",
-        "sahitya": "Ka ru na Sha ra dhe - Ka ma - laa - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "R - - | S - - - || - - - | - - - - ||",
-        "sahitya": "Kaan- - - thaa - - - - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "G M P | M P D P || N D P | D P M P ||",
-        "sahitya": "Ke - shi Na ra kaa - (a)su ra Vi bhe - da na"
-      },
-      {
-        "line_number": 7,
-        "swara": "G M P | P D D N || D P - M | P G R S ||",
-        "sahitya": "Va ra dha Ve - la a pu ra Su ro - tta ma"
-      }
-    ]
-  }
+    "song_details": {
+        "name": "Kamalajaathala",
+        "raga": "Kalyani",
+        "arohanam": "S R2 G3 M2 P D2 N3 S",
+        "avarohanam": "S N3 D2 P M2 G3 R2 S",
+        "tala": "Triputa",
+        "composer": "Purandaradasa"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "2 G3 M2 P D2 N3 S",
+                "sahitya": "Kamalajadala Vimala Su-nayana Kari Varada Karunaambudhe"
+            },
+            {
+                "line_number": 2,
+                "swara": "S S S | N D N S || N D P | D P M P ||",
+                "sahitya": "Ka mala jaa - da la Vi ma la Su- na ya na"
+            },
+            {
+                "line_number": 3,
+                "swara": "G M P | P D D N || D P M | P G R S ||",
+                "sahitya": "Ka ri Va ra da Ka ru naa- mbu dhe - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "D D D | G G G - || M P - | M G R S ||",
+                "sahitya": "Ka ru na Sha ra dhe - Ka ma - laa - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "R - - | S - - - || - - - | - - - - ||",
+                "sahitya": "Kaan- - - thaa - - - - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "G M P | M P D P || N D P | D P M P ||",
+                "sahitya": "Ke - shi Na ra kaa - (a)su ra Vi bhe - da na"
+            },
+            {
+                "line_number": 7,
+                "swara": "G M P | P D D N || D P - M | P G R S ||",
+                "sahitya": "Va ra dha Ve - la a pu ra Su ro - tta ma"
+            }
+        ]
+    },
+    "pdfPath": "PDFs/Kamalajaathala.pdf"
 }

@@ -1,116 +1,117 @@
 {
-  "song_details": {
-    "name": "Dasharatha Nandana",
-    "raga": "Asaveri",
-    "arohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
-    "avarohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
-    "tala": "Adi",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- rm , r M P - Pdp D | P - mp , d P pp M,g gR - r ||",
-        "sahitya": "Dasha - ratha Nan da-- na - Daa- - nava Ma- - - rda- na"
-      },
-      {
-        "line_number": 2,
-        "swara": "rs- rm , r M pd S nSd D | P - mp , d P pp M,g gR - r ||",
-        "sahitya": "--dasha - ratha Nan da-- na - Daa- - nava Ma- - - rda- na"
-      },
-      {
-        "line_number": 3,
-        "swara": "rs- rm g- gr s sr ns d- p D | S - - P mpdp pmgr ||",
-        "sahitya": "-- Daya - yaa-- Maam- - Paa- hi - - Ha re- - - - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "S- rm , r M P - Pdp D | P - - - - - - - ||",
-        "sahitya": "- Dasha - ratha Nan da-- na - - - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- pd m- p D - dr , S , | - - - - - - nSp ||",
-        "sahitya": "Chaa - lunu - Maa - yaa - - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "- pd m- p D - dr , S , | - rg , r S srsr nSp ||",
-        "sahitya": "Chaa - lunu - Maa - yaa - Jaa -lamu Che-- ya--"
-      },
-      {
-        "line_number": 7,
-        "swara": "- pd m- p D - S sr srgr | - pmG , r S srsr nSp ||",
-        "sahitya": "Chaa - lunu - Maa -- yaa - Jaa -lamu Che-- ya--"
-      },
-      {
-        "line_number": 8,
-        "swara": "- pd , - r S , n S P - D | P - pm pm - d P pp M,g gr - rs ||",
-        "sahitya": "Jaa- - lanu - To - - yaa - jaa - -layaa Raa- - ya- - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "- pd m- p D - S sr srgr | - rpmg , r S srsr nSp ||",
-        "sahitya": "Chaa - lunu - Maa -- yaa - Jaa -lamu Che-- ya--"
-      },
-      {
-        "line_number": 10,
-        "swara": "- pd , - r S n S , P - D | P - rm , d P pp M ,g gr - rs ||",
-        "sahitya": "Jaa- - lanu To- - - yaa - jaa - layaa Raa- - ya- - -"
-      },
-      {
-        "line_number": 11,
-        "swara": "Ne- - Para - de- - si - - - - - - - - - -",
-        "sahitya": "Ne- - Para - de- - si - - Ner - puna Gaa-- si--"
-      },
-      {
-        "line_number": 12,
-        "swara": "- pd m- p D - S sr srgr | - pmG , r S srsr nSp ||",
-        "sahitya": "Ne- - Para - de- - si - - Ner - puna Gaa-- si--"
-      },
-      {
-        "line_number": 13,
-        "swara": "- pd , - r S , n S P - D | P - pm pm - d P pp M,g gr - rs ||",
-        "sahitya": "Baa- - pave - Daa- - si - Paa - - - vanu Je - - - si- - -"
-      },
-      {
-        "line_number": 14,
-        "swara": "- pd m- p D - S sr srgr | - rpmg , r S srsr nSp ||",
-        "sahitya": "Ne- - Para - de- - si - - Ner - puna Gaa-- si--"
-      },
-      {
-        "line_number": 15,
-        "swara": "- pd , - r S n S , P - D | P - rm , d P pp M ,g gr - rs ||",
-        "sahitya": "Baa- - pave - Daa- - si - Paa - vanu Je - - - si- - -"
-      },
-      {
-        "line_number": 16,
-        "swara": "- pd m- p D - s s , S , | - - - - srsr nSp ||",
-        "sahitya": "Saa - gara - Shaya - naa - - - - - - -- -"
-      },
-      {
-        "line_number": 17,
-        "swara": "- pd m- p D - s s , S , | - rg , r S s r s r nSp ||",
-        "sahitya": "Saa - gara - Shaya - naa - Saa - ra sa Na-ya- naa--"
-      },
-      {
-        "line_number": 18,
-        "swara": "- pd m- p D - s s sr srgr | - pmG , r S s r s r nSp ||",
-        "sahitya": "Saa - gara - Shaya naa -- - Saa - ra sa Na-ya- naa--"
-      },
-      {
-        "line_number": 19,
-        "swara": "- pd , - r S , n S P , d | P - pm pm - d P pp M,g gr - rs ||",
-        "sahitya": "Tyaa - garaa - jaa- - va na Taa - - raka Su-gu - naa - -"
-      },
-      {
-        "line_number": 20,
-        "swara": "- pd , - r S n S , P , d | P - rm , d P pp M,g gr - rs ||",
-        "sahitya": "Tyaa - garaa jaa- - va na Taa - raka Su-gu - naa - -"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Dasharatha Nandana",
+        "raga": "Asaveri",
+        "arohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
+        "avarohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
+        "tala": "Adi",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- rm , r M P - Pdp D | P - mp , d P pp M,g gR - r ||",
+                "sahitya": "Dasha - ratha Nan da-- na - Daa- - nava Ma- - - rda- na"
+            },
+            {
+                "line_number": 2,
+                "swara": "rs- rm , r M pd S nSd D | P - mp , d P pp M,g gR - r ||",
+                "sahitya": "--dasha - ratha Nan da-- na - Daa- - nava Ma- - - rda- na"
+            },
+            {
+                "line_number": 3,
+                "swara": "rs- rm g- gr s sr ns d- p D | S - - P mpdp pmgr ||",
+                "sahitya": "-- Daya - yaa-- Maam- - Paa- hi - - Ha re- - - - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "S- rm , r M P - Pdp D | P - - - - - - - ||",
+                "sahitya": "- Dasha - ratha Nan da-- na - - - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- pd m- p D - dr , S , | - - - - - - nSp ||",
+                "sahitya": "Chaa - lunu - Maa - yaa - - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "- pd m- p D - dr , S , | - rg , r S srsr nSp ||",
+                "sahitya": "Chaa - lunu - Maa - yaa - Jaa -lamu Che-- ya--"
+            },
+            {
+                "line_number": 7,
+                "swara": "- pd m- p D - S sr srgr | - pmG , r S srsr nSp ||",
+                "sahitya": "Chaa - lunu - Maa -- yaa - Jaa -lamu Che-- ya--"
+            },
+            {
+                "line_number": 8,
+                "swara": "- pd , - r S , n S P - D | P - pm pm - d P pp M,g gr - rs ||",
+                "sahitya": "Jaa- - lanu - To - - yaa - jaa - -layaa Raa- - ya- - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "- pd m- p D - S sr srgr | - rpmg , r S srsr nSp ||",
+                "sahitya": "Chaa - lunu - Maa -- yaa - Jaa -lamu Che-- ya--"
+            },
+            {
+                "line_number": 10,
+                "swara": "- pd , - r S n S , P - D | P - rm , d P pp M ,g gr - rs ||",
+                "sahitya": "Jaa- - lanu To- - - yaa - jaa - layaa Raa- - ya- - -"
+            },
+            {
+                "line_number": 11,
+                "swara": "Ne- - Para - de- - si - - - - - - - - - -",
+                "sahitya": "Ne- - Para - de- - si - - Ner - puna Gaa-- si--"
+            },
+            {
+                "line_number": 12,
+                "swara": "- pd m- p D - S sr srgr | - pmG , r S srsr nSp ||",
+                "sahitya": "Ne- - Para - de- - si - - Ner - puna Gaa-- si--"
+            },
+            {
+                "line_number": 13,
+                "swara": "- pd , - r S , n S P - D | P - pm pm - d P pp M,g gr - rs ||",
+                "sahitya": "Baa- - pave - Daa- - si - Paa - - - vanu Je - - - si- - -"
+            },
+            {
+                "line_number": 14,
+                "swara": "- pd m- p D - S sr srgr | - rpmg , r S srsr nSp ||",
+                "sahitya": "Ne- - Para - de- - si - - Ner - puna Gaa-- si--"
+            },
+            {
+                "line_number": 15,
+                "swara": "- pd , - r S n S , P - D | P - rm , d P pp M ,g gr - rs ||",
+                "sahitya": "Baa- - pave - Daa- - si - Paa - vanu Je - - - si- - -"
+            },
+            {
+                "line_number": 16,
+                "swara": "- pd m- p D - s s , S , | - - - - srsr nSp ||",
+                "sahitya": "Saa - gara - Shaya - naa - - - - - - -- -"
+            },
+            {
+                "line_number": 17,
+                "swara": "- pd m- p D - s s , S , | - rg , r S s r s r nSp ||",
+                "sahitya": "Saa - gara - Shaya - naa - Saa - ra sa Na-ya- naa--"
+            },
+            {
+                "line_number": 18,
+                "swara": "- pd m- p D - s s sr srgr | - pmG , r S s r s r nSp ||",
+                "sahitya": "Saa - gara - Shaya naa -- - Saa - ra sa Na-ya- naa--"
+            },
+            {
+                "line_number": 19,
+                "swara": "- pd , - r S , n S P , d | P - pm pm - d P pp M,g gr - rs ||",
+                "sahitya": "Tyaa - garaa - jaa- - va na Taa - - raka Su-gu - naa - -"
+            },
+            {
+                "line_number": 20,
+                "swara": "- pd , - r S n S , P , d | P - rm , d P pp M,g gr - rs ||",
+                "sahitya": "Tyaa - garaa jaa- - va na Taa - raka Su-gu - naa - -"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Dasharatha_Nandana_Asaveri.pdf"
 }

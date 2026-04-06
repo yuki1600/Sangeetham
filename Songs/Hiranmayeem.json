@@ -1,147 +1,148 @@
 {
-  "song_details": {
-    "name": "Hiranmayeem",
-    "raga": "Lalitha",
-    "arohanam": "S R1 G3 M1 D1 N3 S ||",
-    "avarohanam": "S N3 D1 M1 G3 R1 S ||",
-    "tala": "Rupakam",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "D M - G R - || S - sn D - S || S - R G - M ||",
-        "sahitya": "Hi ran ma yeem Laksh meem sa daa Bha jaa - mi"
-      },
-      {
-        "line_number": 2,
-        "swara": "D M - G R - || S - sn D - gr || r s S R G - M ||",
-        "sahitya": "Hi ran ma yeem Laksh meem sa daa - Bha jaa - mi"
-      },
-      {
-        "line_number": 3,
-        "swara": "D sn dm gm R - || S - Srs nd - gr || r s S R G - M ||",
-        "sahitya": "Hi ran - ma yeem Laksh meem sa daa - Bha jaa - mi"
-      },
-      {
-        "line_number": 4,
-        "swara": "dn Srs nd gm R - || S - Srs nd - gr || r s S R G - M ||",
-        "sahitya": "Hi ran - ma yeem Laksh meem sa daa - Bha jaa - mi"
-      },
-      {
-        "line_number": 5,
-        "swara": "gm D M mg R S || sn D D dm D gr || rs S S , r s r g m ||",
-        "sahitya": "Hee - na Maa - na va - - shra yam - Thya ja - - mi - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "d n s n d m – gm g r S || sn D D dm D gr || rs S S - - - ||",
-        "sahitya": "Hee - na - Maa - - na va - - shra yam - Thya ja - - mi - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- g M m D M ,d || M ,g M dm – D - ||",
-        "sahitya": "Chi ra thara Sam pat h pra daam -"
-      },
-      {
-        "line_number": 2,
-        "swara": "D sn nd nd dm M || D N S - - - ||",
-        "sahitya": "Kshee raam- bu- dhi Tha na yaam"
-      },
-      {
-        "line_number": 3,
-        "swara": "- g M m D dn srs n || DM M dm – D - ||",
-        "sahitya": "Chi ra thara Sam pat h pra daam -"
-      },
-      {
-        "line_number": 4,
-        "swara": "D sn nd nd dm M || D N S - - - ||",
-        "sahitya": "Kshee raam- bu- dhi Tha na yaam"
-      },
-      {
-        "line_number": 5,
-        "swara": "s s S S n D d M || m d dm m g r n d n S ||",
-        "sahitya": "Hari vak sha stha la la yaam Hari neem Charana Kisalayam"
-      },
-      {
-        "line_number": 6,
-        "swara": "s s s r s – n d – n s r S || m g r s r g r s r g M ||",
-        "sahitya": "Ka ra ka mala drutha ku valayaam Marakatha manimaya valayaam"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "S R S - S - || S S - nr s D - ||",
-            "sahitya": "Swe - tha Dwee pa Vaa si neem –"
-          },
-          {
-            "line_number": 2,
-            "swara": "N - S R S - || R G - G M - ||",
-            "sahitya": "Sree Kama laam bi kaam - Pa raam"
-          },
-          {
-            "line_number": 3,
-            "swara": "S R S - Srs S || S S - nsrs D - ||",
-            "sahitya": "Swe - tha Dwee pa Vaa si neem –"
-          },
-          {
-            "line_number": 4,
-            "swara": "N - S R r s S || R G - G M - ||",
-            "sahitya": "Sree Kama laam bi kaam - Pa raam"
-          },
-          {
-            "line_number": 5,
-            "swara": "D - M M - gr || R S ,n - S nsrs R ||",
-            "sahitya": "Bhoo tha Bha - vya Vi laa - si- neem"
-          },
-          {
-            "line_number": 6,
-            "swara": "s n s n R S sn D || N , S n - g r r s S ||",
-            "sahitya": "Bhoo su ra Poo - ji thaam Va raam"
-          },
-          {
-            "line_number": 7,
-            "swara": "S - R G M - || M – M - dm D - ||",
-            "sahitya": "Maa tha ram a bja maa li neem"
-          },
-          {
-            "line_number": 8,
-            "swara": "D sn n d n d D M || D S N R r s S ||",
-            "sahitya": "Maa- ni- - - kyam bha ra na Dha raam-"
-          },
-          {
-            "line_number": 9,
-            "swara": "s n s n R - S - S || S n - d M - D N - ||",
-            "sahitya": "Gee- - - tha Vaa dya Vi - noo- dhi- neem"
-          },
-          {
-            "line_number": 10,
-            "swara": "n d n d D M M - || m g R R r s S - ||",
-            "sahitya": "Gi- ri - jaam - thaam In - - di raam - [sam geetha ]"
-          },
-          {
-            "line_number": 11,
-            "swara": "S s - g r s - n d d n S || r s r g M - d m d n S ||",
-            "sahitya": "See tha ki ra na ni bha va da naam sri tha chin - thaa ma ni sa da naam"
-          },
-          {
-            "line_number": 12,
-            "swara": ", S s - g r S s n n d || d m m d d m g m g r S ||",
-            "sahitya": "Peetha va sa naam gu ru guha maa- dhula kan- thaam lalithaam"
-          },
-          {
-            "line_number": 13,
-            "swara": "d m D ||",
-            "sahitya": "lalithaam [hiranmayeem]"
-          }
+    "song_details": {
+        "name": "Hiranmayeem",
+        "raga": "Lalitha",
+        "arohanam": "S R1 G3 M1 D1 N3 S ||",
+        "avarohanam": "S N3 D1 M1 G3 R1 S ||",
+        "tala": "Rupakam",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "D M - G R - || S - sn D - S || S - R G - M ||",
+                "sahitya": "Hi ran ma yeem Laksh meem sa daa Bha jaa - mi"
+            },
+            {
+                "line_number": 2,
+                "swara": "D M - G R - || S - sn D - gr || r s S R G - M ||",
+                "sahitya": "Hi ran ma yeem Laksh meem sa daa - Bha jaa - mi"
+            },
+            {
+                "line_number": 3,
+                "swara": "D sn dm gm R - || S - Srs nd - gr || r s S R G - M ||",
+                "sahitya": "Hi ran - ma yeem Laksh meem sa daa - Bha jaa - mi"
+            },
+            {
+                "line_number": 4,
+                "swara": "dn Srs nd gm R - || S - Srs nd - gr || r s S R G - M ||",
+                "sahitya": "Hi ran - ma yeem Laksh meem sa daa - Bha jaa - mi"
+            },
+            {
+                "line_number": 5,
+                "swara": "gm D M mg R S || sn D D dm D gr || rs S S , r s r g m ||",
+                "sahitya": "Hee - na Maa - na va - - shra yam - Thya ja - - mi - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "d n s n d m \u2013 gm g r S || sn D D dm D gr || rs S S - - - ||",
+                "sahitya": "Hee - na - Maa - - na va - - shra yam - Thya ja - - mi - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- g M m D M ,d || M ,g M dm \u2013 D - ||",
+                "sahitya": "Chi ra thara Sam pat h pra daam -"
+            },
+            {
+                "line_number": 2,
+                "swara": "D sn nd nd dm M || D N S - - - ||",
+                "sahitya": "Kshee raam- bu- dhi Tha na yaam"
+            },
+            {
+                "line_number": 3,
+                "swara": "- g M m D dn srs n || DM M dm \u2013 D - ||",
+                "sahitya": "Chi ra thara Sam pat h pra daam -"
+            },
+            {
+                "line_number": 4,
+                "swara": "D sn nd nd dm M || D N S - - - ||",
+                "sahitya": "Kshee raam- bu- dhi Tha na yaam"
+            },
+            {
+                "line_number": 5,
+                "swara": "s s S S n D d M || m d dm m g r n d n S ||",
+                "sahitya": "Hari vak sha stha la la yaam Hari neem Charana Kisalayam"
+            },
+            {
+                "line_number": 6,
+                "swara": "s s s r s \u2013 n d \u2013 n s r S || m g r s r g r s r g M ||",
+                "sahitya": "Ka ra ka mala drutha ku valayaam Marakatha manimaya valayaam"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "S R S - S - || S S - nr s D - ||",
+                        "sahitya": "Swe - tha Dwee pa Vaa si neem \u2013"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "N - S R S - || R G - G M - ||",
+                        "sahitya": "Sree Kama laam bi kaam - Pa raam"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "S R S - Srs S || S S - nsrs D - ||",
+                        "sahitya": "Swe - tha Dwee pa Vaa si neem \u2013"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "N - S R r s S || R G - G M - ||",
+                        "sahitya": "Sree Kama laam bi kaam - Pa raam"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "D - M M - gr || R S ,n - S nsrs R ||",
+                        "sahitya": "Bhoo tha Bha - vya Vi laa - si- neem"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "s n s n R S sn D || N , S n - g r r s S ||",
+                        "sahitya": "Bhoo su ra Poo - ji thaam Va raam"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "S - R G M - || M \u2013 M - dm D - ||",
+                        "sahitya": "Maa tha ram a bja maa li neem"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "D sn n d n d D M || D S N R r s S ||",
+                        "sahitya": "Maa- ni- - - kyam bha ra na Dha raam-"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "s n s n R - S - S || S n - d M - D N - ||",
+                        "sahitya": "Gee- - - tha Vaa dya Vi - noo- dhi- neem"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "n d n d D M M - || m g R R r s S - ||",
+                        "sahitya": "Gi- ri - jaam - thaam In - - di raam - [sam geetha ]"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "S s - g r s - n d d n S || r s r g M - d m d n S ||",
+                        "sahitya": "See tha ki ra na ni bha va da naam sri tha chin - thaa ma ni sa da naam"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": ", S s - g r S s n n d || d m m d d m g m g r S ||",
+                        "sahitya": "Peetha va sa naam gu ru guha maa- dhula kan- thaam lalithaam"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "d m D ||",
+                        "sahitya": "lalithaam [hiranmayeem]"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Hiranmayeem_Lalitha.pdf"
 }

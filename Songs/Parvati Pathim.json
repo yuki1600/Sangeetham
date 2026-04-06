@@ -1,111 +1,112 @@
 {
-  "song_details": {
-    "name": "Parvati Pathim",
-    "raga": "Hamsadhwani",
-    "arohanam": "S R2 G3 P N3 S ||",
-    "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
-    "tala": "Adi",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - G - R - rs R - | S R G - R S R S - ||",
-        "sahitya": "Paar va ti - Pa- tim- Pranau - mi Sata- tam-"
-      },
-      {
-        "line_number": 2,
-        "swara": "P , p G - gR, - S R - | S R G - R S rg rS , ||",
-        "sahitya": "Paar va ti - Pa- tim- Pranau - mi Sata- tam-"
-      },
-      {
-        "line_number": 3,
-        "swara": "pnsn P - G - rs R - | gnp- g - - R S rg rsS ||",
-        "sahitya": "Paar va ti - Pa- tim- Pra-nau - mi Sata- tam-"
-      },
-      {
-        "line_number": 4,
-        "swara": "pnsn P - G - rs R - | g npP- g - - R S rg rsS ||",
-        "sahitya": "Paar va ti - Pa- tim- Pra--- nau - mi Sata- tam-"
-      },
-      {
-        "line_number": 5,
-        "swara": "G R P G N P PS | sn P P N P G R G ||",
-        "sahitya": "Aa- sri ta Jana man daa-- ram- Shashi dharam"
-      },
-      {
-        "line_number": 6,
-        "swara": "pnsn P - G - rs R - | g np - g - - R S rg rsS ||",
-        "sahitya": "Paar va ti - Pa- tim- Pra--- nau - mi Sata- tam-"
-      },
-      {
-        "line_number": 7,
-        "swara": "G R P G N P PS | sn P G R s r s n P G ||",
-        "sahitya": "Aa- sri ta Jana man daa-- ram- Shashi dharam"
-      },
-      {
-        "line_number": 8,
-        "swara": "pnsn P - G - rs R - | g np - g - - R S rg rS , ||",
-        "sahitya": "Paar va ti - Pa- tim- Pra--- nau - mi Sata- tam-"
-      },
-      {
-        "line_number": 9,
-        "swara": "S - N P pgpg R - G | P - np- P S - N S - ||",
-        "sahitya": "Pa rvata Ra- - ja Nu ta Pa daam- - bu jam"
-      },
-      {
-        "line_number": 10,
-        "swara": "- - - - - - - - | - - - - - - - - ||",
-        "sahitya": "- - - - -- -- - - - - - - --"
-      },
-      {
-        "line_number": 11,
-        "swara": "S - N P pgpg R - G | P - np- P S - N S - ||",
-        "sahitya": "Pa rvata Ra- - ja Nu ta Pa daam- - bu jam"
-      },
-      {
-        "line_number": 12,
-        "swara": "srgr N P pgpg R - G | P - np- P S - N S ,r ||",
-        "sahitya": "Pa-- rvata Ra- - ja Nu ta Pa daam- - bu jam-"
-      },
-      {
-        "line_number": 13,
-        "swara": "srgr N P pgpg R - G | P - np- P S - S R - ||",
-        "sahitya": "Pa-- rvata Ra- - ja Nu ta Pa daam- - bu jam-"
-      },
-      {
-        "line_number": 14,
-        "swara": "G - R - s n P P , g | R - s n P G - P - ||",
-        "sahitya": "Bha dra Pra-da Kai-- laa- sha- Vi raa- jam"
-      },
-      {
-        "line_number": 15,
-        "swara": "G - R - s n P ppp g | R - s n P npG - P - ||",
-        "sahitya": "Bha dra Pra-da Kai-- laa- sha- Vi raa- jam"
-      },
-      {
-        "line_number": 16,
-        "swara": "G - R - s n P nsr g | R - s n P G - P - ||",
-        "sahitya": "Bha dra Pra-da Kai-- laa- sha- Vi raa- jam"
-      },
-      {
-        "line_number": 17,
-        "swara": "p g r s s n S s - r g p g P | - - - - - - - - ||",
-        "sahitya": "Gar vita Tripuraa di Hara Chaturam - - - - - - - -"
-      },
-      {
-        "line_number": 18,
-        "swara": "p g r s s n S s - r g p g np | - - - - - - - - ||",
-        "sahitya": "Gar vita Tripuraa di Hara Chaturam - - - - - - - -"
-      },
-      {
-        "line_number": 19,
-        "swara": "p g r s s n S s - r g p g P | g r s n p n s r g r S , n P ||",
-        "sahitya": "Gar vita Tripuraa di Hara Chaturam Guruguha Vandita Siva Shan-karam"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Parvati Pathim",
+        "raga": "Hamsadhwani",
+        "arohanam": "S R2 G3 P N3 S ||",
+        "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
+        "tala": "Adi",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - G - R - rs R - | S R G - R S R S - ||",
+                "sahitya": "Paar va ti - Pa- tim- Pranau - mi Sata- tam-"
+            },
+            {
+                "line_number": 2,
+                "swara": "P , p G - gR, - S R - | S R G - R S rg rS , ||",
+                "sahitya": "Paar va ti - Pa- tim- Pranau - mi Sata- tam-"
+            },
+            {
+                "line_number": 3,
+                "swara": "pnsn P - G - rs R - | gnp- g - - R S rg rsS ||",
+                "sahitya": "Paar va ti - Pa- tim- Pra-nau - mi Sata- tam-"
+            },
+            {
+                "line_number": 4,
+                "swara": "pnsn P - G - rs R - | g npP- g - - R S rg rsS ||",
+                "sahitya": "Paar va ti - Pa- tim- Pra--- nau - mi Sata- tam-"
+            },
+            {
+                "line_number": 5,
+                "swara": "G R P G N P PS | sn P P N P G R G ||",
+                "sahitya": "Aa- sri ta Jana man daa-- ram- Shashi dharam"
+            },
+            {
+                "line_number": 6,
+                "swara": "pnsn P - G - rs R - | g np - g - - R S rg rsS ||",
+                "sahitya": "Paar va ti - Pa- tim- Pra--- nau - mi Sata- tam-"
+            },
+            {
+                "line_number": 7,
+                "swara": "G R P G N P PS | sn P G R s r s n P G ||",
+                "sahitya": "Aa- sri ta Jana man daa-- ram- Shashi dharam"
+            },
+            {
+                "line_number": 8,
+                "swara": "pnsn P - G - rs R - | g np - g - - R S rg rS , ||",
+                "sahitya": "Paar va ti - Pa- tim- Pra--- nau - mi Sata- tam-"
+            },
+            {
+                "line_number": 9,
+                "swara": "S - N P pgpg R - G | P - np- P S - N S - ||",
+                "sahitya": "Pa rvata Ra- - ja Nu ta Pa daam- - bu jam"
+            },
+            {
+                "line_number": 10,
+                "swara": "- - - - - - - - | - - - - - - - - ||",
+                "sahitya": "- - - - -- -- - - - - - - --"
+            },
+            {
+                "line_number": 11,
+                "swara": "S - N P pgpg R - G | P - np- P S - N S - ||",
+                "sahitya": "Pa rvata Ra- - ja Nu ta Pa daam- - bu jam"
+            },
+            {
+                "line_number": 12,
+                "swara": "srgr N P pgpg R - G | P - np- P S - N S ,r ||",
+                "sahitya": "Pa-- rvata Ra- - ja Nu ta Pa daam- - bu jam-"
+            },
+            {
+                "line_number": 13,
+                "swara": "srgr N P pgpg R - G | P - np- P S - S R - ||",
+                "sahitya": "Pa-- rvata Ra- - ja Nu ta Pa daam- - bu jam-"
+            },
+            {
+                "line_number": 14,
+                "swara": "G - R - s n P P , g | R - s n P G - P - ||",
+                "sahitya": "Bha dra Pra-da Kai-- laa- sha- Vi raa- jam"
+            },
+            {
+                "line_number": 15,
+                "swara": "G - R - s n P ppp g | R - s n P npG - P - ||",
+                "sahitya": "Bha dra Pra-da Kai-- laa- sha- Vi raa- jam"
+            },
+            {
+                "line_number": 16,
+                "swara": "G - R - s n P nsr g | R - s n P G - P - ||",
+                "sahitya": "Bha dra Pra-da Kai-- laa- sha- Vi raa- jam"
+            },
+            {
+                "line_number": 17,
+                "swara": "p g r s s n S s - r g p g P | - - - - - - - - ||",
+                "sahitya": "Gar vita Tripuraa di Hara Chaturam - - - - - - - -"
+            },
+            {
+                "line_number": 18,
+                "swara": "p g r s s n S s - r g p g np | - - - - - - - - ||",
+                "sahitya": "Gar vita Tripuraa di Hara Chaturam - - - - - - - -"
+            },
+            {
+                "line_number": 19,
+                "swara": "p g r s s n S s - r g p g P | g r s n p n s r g r S , n P ||",
+                "sahitya": "Gar vita Tripuraa di Hara Chaturam Guruguha Vandita Siva Shan-karam"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Parvati_Pathim_Hamsadhwani.pdf"
 }

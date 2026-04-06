@@ -1,172 +1,173 @@
 {
-  "song_details": {
-    "name": "Cede Buddhi Manura",
-    "raga": "Atana",
-    "arohanam": "S R₂ M₁ P N₃ Ṡ ||",
-    "avarohanam": "Ṡ N₃ D₂ P M₁ P G₃ R₂ S ||",
-    "tala": "Adi",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , r | sn P pdN P – pp mg M | P - - - | - - - , r ||",
-        "sahitya": "Ce De bu-- ddhi ma - - nu ra - - - - - Ce"
-      },
-      {
-        "line_number": 2,
-        "swara": "| sn P pdN P – pp mg M | P - - - | npnp pmp- r ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
-      },
-      {
-        "line_number": 3,
-        "swara": "| sn P pdN P – pp mg M | P - - - | pd N dns- r ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
-      },
-      {
-        "line_number": 4,
-        "swara": "| sn P pdN P – Pdp mg M | P - - - | pm P S , - r ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
-      },
-      {
-        "line_number": 5,
-        "swara": "| sn D dsnn P – Pdp mg M | P - - - | nnpm S , - s ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
-      },
-      {
-        "line_number": 6,
-        "swara": "| D - dsnn P – mpdp mg M | P - - - | mr rm srs - r ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - ma-na sa- - Ce"
-      },
-      {
-        "line_number": 7,
-        "swara": "| D - dsnn P – mpdp mg M | G G rs ns | rm rm pmp - r ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - ma- na - - sa- - Ce"
-      },
-      {
-        "line_number": 8,
-        "swara": "| D - dsnn P – mpdp mg M | P ,d dNp | - - - , r ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - - - - - Ce"
-      },
-      {
-        "line_number": 9,
-        "swara": "| snP pd snN P – mpdp mg M | P ,d dNp | - - - - ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- ,p | dpM P S S – D , N , | S - - - - - - , p ||",
-        "sahitya": "I De-- pa- tram(e) va ro - - - - - - - I"
-      },
-      {
-        "line_number": 2,
-        "swara": "| dpM P S S – D , N , | S - - - - - - , p ||",
-        "sahitya": "(i) De-- pa- tram(e) va ro - - - - - - - I"
-      },
-      {
-        "line_number": 3,
-        "swara": "| dpM P S S – D , N , | ssnd - - - P - , p ||",
-        "sahitya": "(i) De-- pa- tram(e) va ro - - - - - - - I"
-      },
-      {
-        "line_number": 4,
-        "swara": "| dpM P S S – D , N , | S - - sn rs ns D , p ||",
-        "sahitya": "(i) De-- pa- tram(e) va ro - - ju - - Da ra - I"
-      },
-      {
-        "line_number": 5,
-        "swara": "| dpM P gr S – D , N , | S - - ns rs ns D , p ||",
-        "sahitya": "(i) De-- pa- tram(e) va ro - - ju - - Da ra - I"
-      },
-      {
-        "line_number": 6,
-        "swara": "| dpM mp nsrg rsS – D , N , | S - - ns rs ns D , p ||",
-        "sahitya": "(i) De-- pa- - - tram(e) va ro - - ju - - Da ra - I"
-      },
-      {
-        "line_number": 7,
-        "swara": "| dpM mp nsrg rsS – D , N , | S - - rs ns rs D , p ||",
-        "sahitya": "(i) De-- pa- - - tram(e) va ro - - ju Da-- ra - I"
-      },
-      {
-        "line_number": 8,
-        "swara": "| dpM mp nsrg rsS – D , N , | S - ssnd Pnd Dsn nrs – sg ||",
-        "sahitya": "(i) De-- pa- - - tram(e) va ro - ju-- Da- ra - - - ce"
-      },
-      {
-        "line_number": 9,
-        "swara": "| sn P pdN P – Pdp mg M | P ,d dNp | - - - - ||",
-        "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "d n p m p d m p r m r - s n s r m | r m p – n n p – m p S - D - ||",
-            "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na le - da –"
-          },
-          {
-            "line_number": 2,
-            "swara": "d n p m p n d n p d m - p r m r s | r m p – n n p – m p S - D - ||",
-            "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na le - da –"
-          },
-          {
-            "line_number": 3,
-            "swara": "d n p m p n d n p d m - p r m r s | r m p – n n p – p g r- S , D - ||",
-            "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na - le - da –"
-          },
-          {
-            "line_number": 4,
-            "swara": "d n p m p s d n p d m - p r m r s | r m p – n n p – p g r- S , D - ||",
-            "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na - le - da –"
-          },
-          {
-            "line_number": 5,
-            "swara": "d n p m p s d n p d m - p r m r s | r m p – n n p – m p nsrg rsnd - ||",
-            "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na le - da –"
-          },
-          {
-            "line_number": 6,
-            "swara": "m p S s – D , - , s S - | - - - - - - - - ||",
-            "sahitya": "Sri- va su de - vu de"
-          },
-          {
-            "line_number": 7,
-            "swara": "m p S s – s d - s r s – n s r – s r s | - - - sn rs – ns D - ||",
-            "sahitya": "Sri- va su de - vu de sa - rvam(a)nucu"
-          },
-          {
-            "line_number": 8,
-            "swara": "m p S s – s d - s r s – n s r – s r s | d r S s n – P m – ps s r s sr – r ||",
-            "sahitya": "Sri- va su de - vu de sa - rvam(a)nucu cin- tin cara tya ga raja nutuni (ce)"
-          },
-          {
-            "line_number": 9,
-            "swara": "m p S s – s d - s r s – n s r – s r s | d r S s n – N d – S n r s sr – r ||",
-            "sahitya": "Sri- va su de - vu de sa - rvam(a)nucu cin- tin cara tya ga raja nutuni (ce)"
-          },
-          {
-            "line_number": 10,
-            "swara": "| D - dsnn P – mpdp mg M | G G rs ns | rm rm pmp - r ||",
-            "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - ma- na - - sa- - Ce"
-          },
-          {
-            "line_number": 11,
-            "swara": "| D - dsnn P – mpdp mg M | P ,d dNp | - - - , r ||",
-            "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - - - - - Ce"
-          },
-          {
-            "line_number": 12,
-            "swara": "| sn P pdN P – Pdp mg M | P ,d dNp | - - - - ||",
-            "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - - - - -"
-          }
+    "song_details": {
+        "name": "Cede Buddhi Manura",
+        "raga": "Atana",
+        "arohanam": "S R\u2082 M\u2081 P N\u2083 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2081 P G\u2083 R\u2082 S ||",
+        "tala": "Adi",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , r | sn P pdN P \u2013 pp mg M | P - - - | - - - , r ||",
+                "sahitya": "Ce De bu-- ddhi ma - - nu ra - - - - - Ce"
+            },
+            {
+                "line_number": 2,
+                "swara": "| sn P pdN P \u2013 pp mg M | P - - - | npnp pmp- r ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
+            },
+            {
+                "line_number": 3,
+                "swara": "| sn P pdN P \u2013 pp mg M | P - - - | pd N dns- r ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
+            },
+            {
+                "line_number": 4,
+                "swara": "| sn P pdN P \u2013 Pdp mg M | P - - - | pm P S , - r ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
+            },
+            {
+                "line_number": 5,
+                "swara": "| sn D dsnn P \u2013 Pdp mg M | P - - - | nnpm S , - s ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - ma-na sa- - Ce"
+            },
+            {
+                "line_number": 6,
+                "swara": "| D - dsnn P \u2013 mpdp mg M | P - - - | mr rm srs - r ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - ma-na sa- - Ce"
+            },
+            {
+                "line_number": 7,
+                "swara": "| D - dsnn P \u2013 mpdp mg M | G G rs ns | rm rm pmp - r ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - ma- na - - sa- - Ce"
+            },
+            {
+                "line_number": 8,
+                "swara": "| D - dsnn P \u2013 mpdp mg M | P ,d dNp | - - - , r ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - - - - - Ce"
+            },
+            {
+                "line_number": 9,
+                "swara": "| snP pd snN P \u2013 mpdp mg M | P ,d dNp | - - - - ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- ,p | dpM P S S \u2013 D , N , | S - - - - - - , p ||",
+                "sahitya": "I De-- pa- tram(e) va ro - - - - - - - I"
+            },
+            {
+                "line_number": 2,
+                "swara": "| dpM P S S \u2013 D , N , | S - - - - - - , p ||",
+                "sahitya": "(i) De-- pa- tram(e) va ro - - - - - - - I"
+            },
+            {
+                "line_number": 3,
+                "swara": "| dpM P S S \u2013 D , N , | ssnd - - - P - , p ||",
+                "sahitya": "(i) De-- pa- tram(e) va ro - - - - - - - I"
+            },
+            {
+                "line_number": 4,
+                "swara": "| dpM P S S \u2013 D , N , | S - - sn rs ns D , p ||",
+                "sahitya": "(i) De-- pa- tram(e) va ro - - ju - - Da ra - I"
+            },
+            {
+                "line_number": 5,
+                "swara": "| dpM P gr S \u2013 D , N , | S - - ns rs ns D , p ||",
+                "sahitya": "(i) De-- pa- tram(e) va ro - - ju - - Da ra - I"
+            },
+            {
+                "line_number": 6,
+                "swara": "| dpM mp nsrg rsS \u2013 D , N , | S - - ns rs ns D , p ||",
+                "sahitya": "(i) De-- pa- - - tram(e) va ro - - ju - - Da ra - I"
+            },
+            {
+                "line_number": 7,
+                "swara": "| dpM mp nsrg rsS \u2013 D , N , | S - - rs ns rs D , p ||",
+                "sahitya": "(i) De-- pa- - - tram(e) va ro - - ju Da-- ra - I"
+            },
+            {
+                "line_number": 8,
+                "swara": "| dpM mp nsrg rsS \u2013 D , N , | S - ssnd Pnd Dsn nrs \u2013 sg ||",
+                "sahitya": "(i) De-- pa- - - tram(e) va ro - ju-- Da- ra - - - ce"
+            },
+            {
+                "line_number": 9,
+                "swara": "| sn P pdN P \u2013 Pdp mg M | P ,d dNp | - - - - ||",
+                "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "d n p m p d m p r m r - s n s r m | r m p \u2013 n n p \u2013 m p S - D - ||",
+                        "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na le - da \u2013"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "d n p m p n d n p d m - p r m r s | r m p \u2013 n n p \u2013 m p S - D - ||",
+                        "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na le - da \u2013"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "d n p m p n d n p d m - p r m r s | r m p \u2013 n n p \u2013 p g r- S , D - ||",
+                        "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na - le - da \u2013"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "d n p m p s d n p d m - p r m r s | r m p \u2013 n n p \u2013 p g r- S , D - ||",
+                        "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na - le - da \u2013"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "d n p m p s d n p d m - p r m r s | r m p \u2013 n n p \u2013 m p nsrg rsnd - ||",
+                        "sahitya": "bhu-va- si ki ta gu phalamu ka lugu n(a)ni budhulu pal - ka vi na le - da \u2013"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "m p S s \u2013 D , - , s S - | - - - - - - - - ||",
+                        "sahitya": "Sri- va su de - vu de"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "m p S s \u2013 s d - s r s \u2013 n s r \u2013 s r s | - - - sn rs \u2013 ns D - ||",
+                        "sahitya": "Sri- va su de - vu de sa - rvam(a)nucu"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "m p S s \u2013 s d - s r s \u2013 n s r \u2013 s r s | d r S s n \u2013 P m \u2013 ps s r s sr \u2013 r ||",
+                        "sahitya": "Sri- va su de - vu de sa - rvam(a)nucu cin- tin cara tya ga raja nutuni (ce)"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "m p S s \u2013 s d - s r s \u2013 n s r \u2013 s r s | d r S s n \u2013 N d \u2013 S n r s sr \u2013 r ||",
+                        "sahitya": "Sri- va su de - vu de sa - rvam(a)nucu cin- tin cara tya ga raja nutuni (ce)"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "| D - dsnn P \u2013 mpdp mg M | G G rs ns | rm rm pmp - r ||",
+                        "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - ma- na - - sa- - Ce"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "| D - dsnn P \u2013 mpdp mg M | P ,d dNp | - - - , r ||",
+                        "sahitya": "(ce) De bu-- ddhi ma - - - nu ra - - - - - - Ce"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "| sn P pdN P \u2013 Pdp mg M | P ,d dNp | - - - - ||",
+                        "sahitya": "(ce) De bu-- ddhi ma - - nu ra - - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/ceDE_buddhi_mAnurA_Atana.pdf"
 }

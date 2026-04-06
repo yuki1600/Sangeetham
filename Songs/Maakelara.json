@@ -1,107 +1,108 @@
 {
-  "song_details": {
-    "name": "Maakelara",
-    "raga": "Ravichandrika",
-    "arohanam": "S R G M D S || AVA: S N D M G R S ||",
-    "avarohanam": "S R G M D S || AVA: S N D M G R S ||",
-    "tala": "Adi",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - M - G - M | G - - G | R S - R ||",
-        "sahitya": "Maa ke la raa Vi chaa - ra"
-      },
-      {
-        "line_number": 2,
-        "swara": "G - - M - D - M | G - - G | gr S - R ||",
-        "sahitya": "mu Maa ke la raa Vi chaa - ra"
-      },
-      {
-        "line_number": 3,
-        "swara": "G - - M - D - S | ssnn dm - mg | gg rs - R ||",
-        "sahitya": "mu Maa ke la raa Vi chaa ra mu"
-      },
-      {
-        "line_number": 4,
-        "swara": "G - - M - D - S | rgmg rs - nd | mg rs - R ||",
-        "sahitya": "mu Maa ke la raa Vi chaa ra mu"
-      },
-      {
-        "line_number": 5,
-        "swara": "G - - M M , d - S | D - - S | - S ss n d ||",
-        "sahitya": "mu Ma ru gan na Sri Ra - ma chan --"
-      },
-      {
-        "line_number": 6,
-        "swara": "sn n d - M - D - S | rgmg rs - nd | mg rs - R ||",
-        "sahitya": "dra Maa ke la raa Vi chaa ra mu"
-      },
-      {
-        "line_number": 7,
-        "swara": "G - - M M , d - S | nd D - S | - S ss n d ||",
-        "sahitya": "mu Ma ru gan na Sri Ra - ma chan --"
-      },
-      {
-        "line_number": 8,
-        "swara": "rs sn nd -",
-        "sahitya": "dra --"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - S - N - D | S - - rg | - mg R m g ||",
-        "sahitya": "Saa ke ta Raa ja ku maa --"
-      },
-      {
-        "line_number": 2,
-        "swara": "gr S - S - N - D | M , d - S | - N - D ||",
-        "sahitya": "raa - Sad bha ktha Man daa ra Sri ka"
-      },
-      {
-        "line_number": 3,
-        "swara": "rssnnd",
-        "sahitya": "raa"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- - - M M M - M | G - - mg | M - D - S ||",
-            "sahitya": "Ja ta gur chi Naa ta- ka Su thra"
-          },
-          {
-            "line_number": 2,
-            "swara": "n D m - - M M M - M | dmmg G - mg | M - D - S ||",
-            "sahitya": "munu Ja ta gur chi Naa ta- ka Su thra"
-          },
-          {
-            "line_number": 3,
-            "swara": "n D m - - D N nd D - M | mg gr S - mg | M - M D -N ||",
-            "sahitya": "munu Ja ga mel - la Me -cha- ga Ka- ra mu na Ni"
-          },
-          {
-            "line_number": 4,
-            "swara": "nd D - S S , n - D | S - - rg | G- mg R - mg ||",
-            "sahitya": "di Ga thi Tha ppa ka - Din che vu - Su"
-          },
-          {
-            "line_number": 5,
-            "swara": "gr S - S S , n - D | M , d - D | S , n - D ||",
-            "sahitya": "mmi Na tha Tyaa ga raa ja Gi ri sha Vi"
-          },
-          {
-            "line_number": 6,
-            "swara": "rs sn nd",
-            "sahitya": "nu tha ---"
-          }
+    "song_details": {
+        "name": "Maakelara",
+        "raga": "Ravichandrika",
+        "arohanam": "S R G M D S || AVA: S N D M G R S ||",
+        "avarohanam": "S R G M D S || AVA: S N D M G R S ||",
+        "tala": "Adi",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - M - G - M | G - - G | R S - R ||",
+                "sahitya": "Maa ke la raa Vi chaa - ra"
+            },
+            {
+                "line_number": 2,
+                "swara": "G - - M - D - M | G - - G | gr S - R ||",
+                "sahitya": "mu Maa ke la raa Vi chaa - ra"
+            },
+            {
+                "line_number": 3,
+                "swara": "G - - M - D - S | ssnn dm - mg | gg rs - R ||",
+                "sahitya": "mu Maa ke la raa Vi chaa ra mu"
+            },
+            {
+                "line_number": 4,
+                "swara": "G - - M - D - S | rgmg rs - nd | mg rs - R ||",
+                "sahitya": "mu Maa ke la raa Vi chaa ra mu"
+            },
+            {
+                "line_number": 5,
+                "swara": "G - - M M , d - S | D - - S | - S ss n d ||",
+                "sahitya": "mu Ma ru gan na Sri Ra - ma chan --"
+            },
+            {
+                "line_number": 6,
+                "swara": "sn n d - M - D - S | rgmg rs - nd | mg rs - R ||",
+                "sahitya": "dra Maa ke la raa Vi chaa ra mu"
+            },
+            {
+                "line_number": 7,
+                "swara": "G - - M M , d - S | nd D - S | - S ss n d ||",
+                "sahitya": "mu Ma ru gan na Sri Ra - ma chan --"
+            },
+            {
+                "line_number": 8,
+                "swara": "rs sn nd -",
+                "sahitya": "dra --"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - S - N - D | S - - rg | - mg R m g ||",
+                "sahitya": "Saa ke ta Raa ja ku maa --"
+            },
+            {
+                "line_number": 2,
+                "swara": "gr S - S - N - D | M , d - S | - N - D ||",
+                "sahitya": "raa - Sad bha ktha Man daa ra Sri ka"
+            },
+            {
+                "line_number": 3,
+                "swara": "rssnnd",
+                "sahitya": "raa"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- - - M M M - M | G - - mg | M - D - S ||",
+                        "sahitya": "Ja ta gur chi Naa ta- ka Su thra"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "n D m - - M M M - M | dmmg G - mg | M - D - S ||",
+                        "sahitya": "munu Ja ta gur chi Naa ta- ka Su thra"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "n D m - - D N nd D - M | mg gr S - mg | M - M D -N ||",
+                        "sahitya": "munu Ja ga mel - la Me -cha- ga Ka- ra mu na Ni"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "nd D - S S , n - D | S - - rg | G- mg R - mg ||",
+                        "sahitya": "di Ga thi Tha ppa ka - Din che vu - Su"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "gr S - S S , n - D | M , d - D | S , n - D ||",
+                        "sahitya": "mmi Na tha Tyaa ga raa ja Gi ri sha Vi"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "rs sn nd",
+                        "sahitya": "nu tha ---"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Maakelara_Ravichandrika.pdf"
 }

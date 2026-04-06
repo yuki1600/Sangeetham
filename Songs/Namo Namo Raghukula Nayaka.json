@@ -1,136 +1,137 @@
 {
-  "song_details": {
-    "name": "Namo Namo Raghukula Nayaka",
-    "raga": "Nattai",
-    "arohanam": "S R3 G3 M1 P D3 N3 S ||",
-    "avarohanam": "S N3 P M1 G3 M R3 S ||",
-    "tala": "Rupakam",
-    "composer": "Annamacharya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S S - – R S - || sg M P M M ,g || pmM -S R - - - || G G M – S R S ||",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - - - di vi ja van - dya"
-      },
-      {
-        "line_number": 2,
-        "swara": "N S - – R S - || s g M P M M ,g || pmM -S R - - - || G G M – S R S ||",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - - - di vi ja van - dya"
-      },
-      {
-        "line_number": 3,
-        "swara": "N P - – R S - || ns rs ns rs ns rg || pmM",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - di-vi- ja- van- - -dya-"
-      },
-      {
-        "line_number": 4,
-        "swara": "rs rsnp",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
-      },
-      {
-        "line_number": 5,
-        "swara": "sn rsnp",
-        "sahitya": "Na mo - na mo San- kara naga ja - nu- ta - - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "- mg , m – P - P || P - np – pmM - - || - - - - gmpn || P - - - - - ||",
-        "sahitya": "vihi - ta dhar - ma pa- la- ka - - - - - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "- mg , m – P - P || P - np – pmM",
-        "sahitya": "vihi - ta dhar - ma pa- la- ka - - - - vihi - ta dhar -ma pa- la- ka - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "sn pm g M- r - S || pn rsnp - -N S - || - ,r , s – S S S || S- sn rs – sn N - ||",
-        "sahitya": "vi-hi - ta - dhar - ma pa- - - - la ka - vee- ra da Sara dha ra - - ma – - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "sn pm g M- smR",
-        "sahitya": "vi-hi - ta - dhar - ma pa- - - - la ka - vee- ra da Sara dha ra - - - - ma –"
-      },
-      {
-        "line_number": 10,
-        "swara": "- g g , m- R , s N || n S p - M- gm , p N || - g g , m- R , s N || n s n- p M- gm , rs - r ||",
-        "sahitya": "gaga -na va- -sinee ta- Ta ka mar - dana gaga -na va- sinee ta- Ta ka mar dana A"
-      },
-      {
-        "line_number": 11,
-        "swara": "R S S p -m g m r s || m r s- g m P –m P - || m gm –p ,- np n S R || r s n - p , m- mg Mpm",
-        "sahitya": "halya Sapa vi mo-chana asura ku labhanja na saha ja vis wa--mitra savana rak-sha ka - - - -"
-      },
-      {
-        "line_number": 12,
-        "swara": "rs sn P – R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
-      },
-      {
-        "line_number": 13,
-        "swara": "sn rsnp",
-        "sahitya": "Na mo - na mo San- kara naga ja - nu- ta - - - - - - - -"
-      },
-      {
-        "line_number": 14,
-        "swara": "- s s P , - P p – p p || nP - np",
-        "sahitya": "hara ko- danda hara si - tan-ga-na vallabha khara doo- -shana- a ri - - vali gar- vapa ha-"
-      },
-      {
-        "line_number": 15,
-        "swara": "n p n – s S S,n Srs S || n s r s n s r -s R - || - g g m –R s n – P m || g m P n –r s n p p mr ||",
-        "sahitya": "tarani ta nooja - - - taru chara pa-- la ka – Sara dhi langha na krutya sou-mitri same-ta - - -"
-      },
-      {
-        "line_number": 16,
-        "swara": "rs sn P – R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
-      },
-      {
-        "line_number": 17,
-        "swara": "sn rsnp",
-        "sahitya": "Na mo - na mo San- kara naga ja - nu- - ta - - - - - - - -"
-      },
-      {
-        "line_number": 18,
-        "swara": "s s s – s , s s – r S – S || s S- r s n p m g pmM r || - p p m m r – r s- R s ||",
-        "sahitya": "biruda ra - vana Si ro bhe daka vi bhi-shana vara- - da sa- ke - ta pu ra vasa"
-      },
-      {
-        "line_number": 19,
-        "swara": "np n s , - s n p M - || g m – P n p – n n , S , || - - - - - - ||",
-        "sahitya": "raghava- nirupa ma Sri - ven kata nila - ya"
-      },
-      {
-        "line_number": 20,
-        "swara": "s s s – s , s s – r S – S || s S- r s n p m g pmM",
-        "sahitya": "biruda ra - vana Si ro bhe daka vi bhi-shana vara- - da sa- ke - ta pu ra vasa"
-      },
-      {
-        "line_number": 21,
-        "swara": "np n s , - s n p M - || g m – P n p – n n s- s r - s || n p – pm pm- mr m- r S ||",
-        "sahitya": "raghava- nirupa ma Sri - ven kata nila ya nija na gara pura vara viha-ra - -"
-      },
-      {
-        "line_number": 22,
-        "swara": "g m p n , p – m n p - p m r ||",
-        "sahitya": "pun-dari - - ka- - ksha - -"
-      },
-      {
-        "line_number": 23,
-        "swara": "rs sn P – R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
-        "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
-      },
-      {
-        "line_number": 24,
-        "swara": "sn rsnp",
-        "sahitya": "Na mo - na mo San- ka- ra- na-ga- ja - - nu- - ta - - - - - - - -"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Namo Namo Raghukula Nayaka",
+        "raga": "Nattai",
+        "arohanam": "S R3 G3 M1 P D3 N3 S ||",
+        "avarohanam": "S N3 P M1 G3 M R3 S ||",
+        "tala": "Rupakam",
+        "composer": "Annamacharya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S S - \u2013 R S - || sg M P M M ,g || pmM -S R - - - || G G M \u2013 S R S ||",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - - - di vi ja van - dya"
+            },
+            {
+                "line_number": 2,
+                "swara": "N S - \u2013 R S - || s g M P M M ,g || pmM -S R - - - || G G M \u2013 S R S ||",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - - - di vi ja van - dya"
+            },
+            {
+                "line_number": 3,
+                "swara": "N P - \u2013 R S - || ns rs ns rs ns rg || pmM",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - di-vi- ja- van- - -dya-"
+            },
+            {
+                "line_number": 4,
+                "swara": "rs rsnp",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+            },
+            {
+                "line_number": 5,
+                "swara": "sn rsnp",
+                "sahitya": "Na mo - na mo San- kara naga ja - nu- ta - - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "- mg , m \u2013 P - P || P - np \u2013 pmM - - || - - - - gmpn || P - - - - - ||",
+                "sahitya": "vihi - ta dhar - ma pa- la- ka - - - - - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "- mg , m \u2013 P - P || P - np \u2013 pmM",
+                "sahitya": "vihi - ta dhar - ma pa- la- ka - - - - vihi - ta dhar -ma pa- la- ka - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "sn pm g M- r - S || pn rsnp - -N S - || - ,r , s \u2013 S S S || S- sn rs \u2013 sn N - ||",
+                "sahitya": "vi-hi - ta - dhar - ma pa- - - - la ka - vee- ra da Sara dha ra - - ma \u2013 - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "sn pm g M- smR",
+                "sahitya": "vi-hi - ta - dhar - ma pa- - - - la ka - vee- ra da Sara dha ra - - - - ma \u2013"
+            },
+            {
+                "line_number": 10,
+                "swara": "- g g , m- R , s N || n S p - M- gm , p N || - g g , m- R , s N || n s n- p M- gm , rs - r ||",
+                "sahitya": "gaga -na va- -sinee ta- Ta ka mar - dana gaga -na va- sinee ta- Ta ka mar dana A"
+            },
+            {
+                "line_number": 11,
+                "swara": "R S S p -m g m r s || m r s- g m P \u2013m P - || m gm \u2013p ,- np n S R || r s n - p , m- mg Mpm",
+                "sahitya": "halya Sapa vi mo-chana asura ku labhanja na saha ja vis wa--mitra savana rak-sha ka - - - -"
+            },
+            {
+                "line_number": 12,
+                "swara": "rs sn P \u2013 R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+            },
+            {
+                "line_number": 13,
+                "swara": "sn rsnp",
+                "sahitya": "Na mo - na mo San- kara naga ja - nu- ta - - - - - - - -"
+            },
+            {
+                "line_number": 14,
+                "swara": "- s s P , - P p \u2013 p p || nP - np",
+                "sahitya": "hara ko- danda hara si - tan-ga-na vallabha khara doo- -shana- a ri - - vali gar- vapa ha-"
+            },
+            {
+                "line_number": 15,
+                "swara": "n p n \u2013 s S S,n Srs S || n s r s n s r -s R - || - g g m \u2013R s n \u2013 P m || g m P n \u2013r s n p p mr ||",
+                "sahitya": "tarani ta nooja - - - taru chara pa-- la ka \u2013 Sara dhi langha na krutya sou-mitri same-ta - - -"
+            },
+            {
+                "line_number": 16,
+                "swara": "rs sn P \u2013 R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+            },
+            {
+                "line_number": 17,
+                "swara": "sn rsnp",
+                "sahitya": "Na mo - na mo San- kara naga ja - nu- - ta - - - - - - - -"
+            },
+            {
+                "line_number": 18,
+                "swara": "s s s \u2013 s , s s \u2013 r S \u2013 S || s S- r s n p m g pmM r || - p p m m r \u2013 r s- R s ||",
+                "sahitya": "biruda ra - vana Si ro bhe daka vi bhi-shana vara- - da sa- ke - ta pu ra vasa"
+            },
+            {
+                "line_number": 19,
+                "swara": "np n s , - s n p M - || g m \u2013 P n p \u2013 n n , S , || - - - - - - ||",
+                "sahitya": "raghava- nirupa ma Sri - ven kata nila - ya"
+            },
+            {
+                "line_number": 20,
+                "swara": "s s s \u2013 s , s s \u2013 r S \u2013 S || s S- r s n p m g pmM",
+                "sahitya": "biruda ra - vana Si ro bhe daka vi bhi-shana vara- - da sa- ke - ta pu ra vasa"
+            },
+            {
+                "line_number": 21,
+                "swara": "np n s , - s n p M - || g m \u2013 P n p \u2013 n n s- s r - s || n p \u2013 pm pm- mr m- r S ||",
+                "sahitya": "raghava- nirupa ma Sri - ven kata nila ya nija na gara pura vara viha-ra - -"
+            },
+            {
+                "line_number": 22,
+                "swara": "g m p n , p \u2013 m n p - p m r ||",
+                "sahitya": "pun-dari - - ka- - ksha - -"
+            },
+            {
+                "line_number": 23,
+                "swara": "rs sn P \u2013 R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
+                "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+            },
+            {
+                "line_number": 24,
+                "swara": "sn rsnp",
+                "sahitya": "Na mo - na mo San- ka- ra- na-ga- ja - - nu- - ta - - - - - - - -"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Namo_Namo_Raghukula_Nayaka_Nattai.pdf"
 }

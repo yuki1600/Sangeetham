@@ -1,137 +1,138 @@
 {
-  "song_details": {
-    "name": "Krupaya Paalaya",
-    "raga": "Charukesi",
-    "arohanam": "S R2 G3 M1 P D1 N2 S ||",
-    "avarohanam": "S N2 D1 P M1 G3 R2 S ||",
-    "tala": "Triputa",
-    "composer": "Swati Tirunal"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- P M | m g g r S , r || G , M , | p d p d M P ||",
-        "sahitya": "Krupa ya - - - Paa- la - ya- Shau- - re!-"
-      },
-      {
-        "line_number": 2,
-        "swara": "gm- P M | m g g r S , r || G , M , | p d n d p m g r ||",
-        "sahitya": "- - Krupa ya - - - Paa- la - ya- Shau- - re!-"
-      },
-      {
-        "line_number": 3,
-        "swara": "gm- P M | m g g r S , r || G , M , | p d n s n d p m ||",
-        "sahitya": "- - Krupa ya - - - Paa- la - ya- Shau- - re!-"
-      },
-      {
-        "line_number": 4,
-        "swara": "gm- P M | m g g r S , r || G , M , | p d n s r s n d ||",
-        "sahitya": "- - Krupa ya - - - Paa- la - ya- Shau- - re!-"
-      },
-      {
-        "line_number": 5,
-        "swara": "p m - G M | p D p d n S || d n s R s | n s n d p m g r ||",
-        "sahitya": "- - Karu naa-- ra- - - saa- - - - vaa- - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "g m- P M | m g g r S - || n r s D , | N - S - ||",
-        "sahitya": "la!- Ka lu shaa- - rtthi Vi - - - -- raa- ma!"
-      },
-      {
-        "line_number": 7,
-        "swara": "- - - | - , d p m g r || s r g m p d | n s n d p m g r ||",
-        "sahitya": "- - - - - Paa - - - - - hi- - - - - - Shau- - re !- - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- P D | N D D N || S , S , | n s R S - || d n S ,- p | d n S , - s n d ||",
-        "sahitya": "Tapa nee- ya - Ni bha Che- - la! - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "pm- P D | N D D N || S , S , | n s R S - || p d n s R | S , n - r s n d ||",
-        "sahitya": "- - Tapa nee- ya - Ni bha Che- - la! - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || r g m g g r | r s s n - n d d p ||",
-        "sahitya": "- - Tapa nee- ya - Ni bha Che- - la! - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || - G G | r g m g g r S ||",
-        "sahitya": "- - Tapa nee- ya - Ni bha Che- - la! Tu hi naa- - - - - mshu"
-      },
-      {
-        "line_number": 5,
-        "swara": "n r s D , | N - S - || - S R | G - G - || m g R S | n d D n s R ||",
-        "sahitya": "Su-- va- da- na! - Sri- Pa- dma- naa- - - bha!- - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S - n s n r | s n D P , m || p d n s r g | r s n d p m g r || g m",
-        "sahitya": "- Sa-ra- si- - ja- - Lo- - - - - cha- - na!- - - - - (krupayapaalaya)"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- S R | G - M G || m g R S | s n r s n d D ||",
-            "sahitya": "Kuru Me kusha lam - - - Mu- - daa - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "- P D | N D D N || S , S , | s r g m G - ||",
-            "sahitya": "Kuru vin - da - Ni bha dan- - - ta!-"
-          },
-          {
-            "line_number": 3,
-            "swara": "- P M | m g g r S - || S - - | s r Gm g R S ||",
-            "sahitya": "Niru pa- - - ma- Sam - - saa- - - - - ra"
-          },
-          {
-            "line_number": 4,
-            "swara": "- n s n r | s n D D N || s R g M | p d p d M P ||",
-            "sahitya": "Ni- - - ra- - dhi - Va- ra - po - - - ta!"
-          },
-          {
-            "line_number": 5,
-            "swara": "- P D | N D D N || S , S , | n s R S - || d n S ,- p | d n S , - s n d ||",
-            "sahitya": "Naa- rada Mu - - - kha Mu- - ni- - - - - - - - - - - - - -"
-          },
-          {
-            "line_number": 6,
-            "swara": "pm- P D | N D D N || S , S , | n s R S - || p d n s R | S , n - r s n d ||",
-            "sahitya": "Naa- rada Mu - - - kha Mu- - ni- - - - - - - - - - - - - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || r g m g g r | r s s n - n d d p ||",
-            "sahitya": "Naa- ra- - da - - - - Mu kha Mu- - ni- - - - - - - - - - - - - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || - G G | r g m g g r S ||",
-            "sahitya": "Naa- ra- - da - - - - Mu kha Mu- - ni- Ni ka ra - - - - - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "n r s -D , | D N S - || - S R | G - G - || m g R S | n d D n s R ||",
-            "sahitya": "Ge-- ya - Chari ta! Vaa ra ya- Maam A - - - khi- - la - -"
-          },
-          {
-            "line_number": 10,
-            "swara": "S - n s n r | s n D P d m || p d n s r g | r s n d p m g r || g m",
-            "sahitya": "- Paa- - pa- - jaa - tam- - - - - Bha-ga- van!- - - - (krupayapaalaya)"
-          }
+    "song_details": {
+        "name": "Krupaya Paalaya",
+        "raga": "Charukesi",
+        "arohanam": "S R2 G3 M1 P D1 N2 S ||",
+        "avarohanam": "S N2 D1 P M1 G3 R2 S ||",
+        "tala": "Triputa",
+        "composer": "Swati Tirunal"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- P M | m g g r S , r || G , M , | p d p d M P ||",
+                "sahitya": "Krupa ya - - - Paa- la - ya- Shau- - re!-"
+            },
+            {
+                "line_number": 2,
+                "swara": "gm- P M | m g g r S , r || G , M , | p d n d p m g r ||",
+                "sahitya": "- - Krupa ya - - - Paa- la - ya- Shau- - re!-"
+            },
+            {
+                "line_number": 3,
+                "swara": "gm- P M | m g g r S , r || G , M , | p d n s n d p m ||",
+                "sahitya": "- - Krupa ya - - - Paa- la - ya- Shau- - re!-"
+            },
+            {
+                "line_number": 4,
+                "swara": "gm- P M | m g g r S , r || G , M , | p d n s r s n d ||",
+                "sahitya": "- - Krupa ya - - - Paa- la - ya- Shau- - re!-"
+            },
+            {
+                "line_number": 5,
+                "swara": "p m - G M | p D p d n S || d n s R s | n s n d p m g r ||",
+                "sahitya": "- - Karu naa-- ra- - - saa- - - - vaa- - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "g m- P M | m g g r S - || n r s D , | N - S - ||",
+                "sahitya": "la!- Ka lu shaa- - rtthi Vi - - - -- raa- ma!"
+            },
+            {
+                "line_number": 7,
+                "swara": "- - - | - , d p m g r || s r g m p d | n s n d p m g r ||",
+                "sahitya": "- - - - - Paa - - - - - hi- - - - - - Shau- - re !- - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- P D | N D D N || S , S , | n s R S - || d n S ,- p | d n S , - s n d ||",
+                "sahitya": "Tapa nee- ya - Ni bha Che- - la! - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "pm- P D | N D D N || S , S , | n s R S - || p d n s R | S , n - r s n d ||",
+                "sahitya": "- - Tapa nee- ya - Ni bha Che- - la! - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || r g m g g r | r s s n - n d d p ||",
+                "sahitya": "- - Tapa nee- ya - Ni bha Che- - la! - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || - G G | r g m g g r S ||",
+                "sahitya": "- - Tapa nee- ya - Ni bha Che- - la! Tu hi naa- - - - - mshu"
+            },
+            {
+                "line_number": 5,
+                "swara": "n r s D , | N - S - || - S R | G - G - || m g R S | n d D n s R ||",
+                "sahitya": "Su-- va- da- na! - Sri- Pa- dma- naa- - - bha!- - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S - n s n r | s n D P , m || p d n s r g | r s n d p m g r || g m",
+                "sahitya": "- Sa-ra- si- - ja- - Lo- - - - - cha- - na!- - - - - (krupayapaalaya)"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- S R | G - M G || m g R S | s n r s n d D ||",
+                        "sahitya": "Kuru Me kusha lam - - - Mu- - daa - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- P D | N D D N || S , S , | s r g m G - ||",
+                        "sahitya": "Kuru vin - da - Ni bha dan- - - ta!-"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- P M | m g g r S - || S - - | s r Gm g R S ||",
+                        "sahitya": "Niru pa- - - ma- Sam - - saa- - - - - ra"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- n s n r | s n D D N || s R g M | p d p d M P ||",
+                        "sahitya": "Ni- - - ra- - dhi - Va- ra - po - - - ta!"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- P D | N D D N || S , S , | n s R S - || d n S ,- p | d n S , - s n d ||",
+                        "sahitya": "Naa- rada Mu - - - kha Mu- - ni- - - - - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "pm- P D | N D D N || S , S , | n s R S - || p d n s R | S , n - r s n d ||",
+                        "sahitya": "Naa- rada Mu - - - kha Mu- - ni- - - - - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || r g m g g r | r s s n - n d d p ||",
+                        "sahitya": "Naa- ra- - da - - - - Mu kha Mu- - ni- - - - - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "pm- P D | nsR -,g rsnd - ,n || S , S , | n s R S - || - G G | r g m g g r S ||",
+                        "sahitya": "Naa- ra- - da - - - - Mu kha Mu- - ni- Ni ka ra - - - - - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "n r s -D , | D N S - || - S R | G - G - || m g R S | n d D n s R ||",
+                        "sahitya": "Ge-- ya - Chari ta! Vaa ra ya- Maam A - - - khi- - la - -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "S - n s n r | s n D P d m || p d n s r g | r s n d p m g r || g m",
+                        "sahitya": "- Paa- - pa- - jaa - tam- - - - - Bha-ga- van!- - - - (krupayapaalaya)"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Krupaya_Paalaya_Charukesi.pdf"
 }

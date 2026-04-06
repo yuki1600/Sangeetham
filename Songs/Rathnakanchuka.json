@@ -1,157 +1,158 @@
 {
-  "song_details": {
-    "name": "Rathnakanchuka",
-    "raga": "Kambhoji",
-    "arohanam": "S R2 G3 M1 P D2 S ||",
-    "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
-    "tala": "Misra Chapu",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , N d | P - pm G || r G – mg R | S - - - ||",
-        "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- N D | P - pp mg || r G – mg R | S - pd d s ||",
-        "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni - Am-ba-"
-      },
-      {
-        "line_number": 3,
-        "swara": "- , N d | P dp pm G || r G – mg R | S - pd S ||",
-        "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni - Am-ba-"
-      },
-      {
-        "line_number": 4,
-        "swara": "Rs- N d | P dp pm G || R , – mg R | S - pd sr ||",
-        "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni - Am-ba-"
-      },
-      {
-        "line_number": 5,
-        "swara": "Gmg- rs nd | mp dndp , mG || s R – pMmG | rs - pd sr ||",
-        "sahitya": "Ra thna Kan -- chu-ka- Dhaa- ri--- ni - Am-ba-"
-      },
-      {
-        "line_number": 6,
-        "swara": "- , M p | D - S S || r s d N, D | Pdp M- pd sr ||",
-        "sahitya": "Ra thna Saa lu ni Vaa- - - - si ni - Am- ba-"
-      },
-      {
-        "line_number": 7,
-        "swara": "Gmg- rs nd | mp dndp , mG || s R – pMmG | rs - - - ||",
-        "sahitya": "Ra thna Kan -- chu-ka- Dhaa- ri--- ni - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "sn P – D | D S - - || - - - | - S - S ||",
-        "sahitya": "Ra-- thna Thaa- - - - - - - - tan - ka"
-      },
-      {
-        "line_number": 2,
-        "swara": "sn P – D | D S - - || r G – mg r | S - n d P, d ||",
-        "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
-      },
-      {
-        "line_number": 3,
-        "swara": "Srs n p – D | S- - - || r G – mg r | S ,n n d P, d ||",
-        "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
-      },
-      {
-        "line_number": 4,
-        "swara": "Srs n p – D | S- - - || r G – mg r | S ,n ds sr ||",
-        "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
-      },
-      {
-        "line_number": 5,
-        "swara": "rs ndP – D | S- - - || r G – mg r | S ,n ds sr ||",
-        "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
-      },
-      {
-        "line_number": 6,
-        "swara": "rs ndP – D | rsds - - || R , – mg r | S ,n ds sr ||",
-        "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
-      },
-      {
-        "line_number": 7,
-        "swara": "mggr S | ndpm pd – sr || mgrs – nd | pm gr s r gm || Pdp",
-        "sahitya": "Ya-- - thna Ka- - - rya- va- Kai-- ku- di- su- Am-ba-"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- nd P | D D D – pd || rs d N, D | D P - - ||",
-            "sahitya": "Man da ga ma na Ul- la- - - si ni - - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "- nd P | D D D – pd || rs d N, D | D P dp - mp ||",
-            "sahitya": "Man da ga ma na Ul- la- - - si ni - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": ", m- nd P | dR, sN, D – Pdp || rs N - D | D P P - ||",
-            "sahitya": "Man da ga- ma na Ul- la- - - si ni - De-"
-          },
-          {
-            "line_number": 4,
-            "swara": "mp D – Pdp | rs nd dp mg || R,g – mg r | S , r sr gm ||",
-            "sahitya": "ven - dra- nu-tha- mru-dhu- bhaa- shi- - ni - - - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "p m- nd P | dR, sN, D – Pdp || rs N - D | D P P - ||",
-            "sahitya": "Man da ga- ma na Ul- la- - - si ni - De-"
-          },
-          {
-            "line_number": 6,
-            "swara": "mp D – Pdp | rs nd dp mg || R,g – mg r | S - - - ||",
-            "sahitya": "ven - dra- nu-tha- mru-dhu- bhaa- shi- - ni - - - - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "sn P – D | D S S S || - - - | - - - - ||",
-            "sahitya": "In- - du She- ka ra"
-          },
-          {
-            "line_number": 8,
-            "swara": "sn P – D | D S S S || r G – mg r | S ,n n d pd ||",
-            "sahitya": "In- - du She- ka ra Ha- ri- - ke - - - sha -"
-          },
-          {
-            "line_number": 9,
-            "swara": "rsnp – D | D S S S || r G – mg r | S - n d p d ||",
-            "sahitya": "In- - du She- ka ra Ha- ri- - ke - - - sha -"
-          },
-          {
-            "line_number": 10,
-            "swara": "Srs np – D | D S S S || r G – mg r | S ,d d s sr ||",
-            "sahitya": "In- - du She- ka ra Ha- ri- - ke - - - sha -"
-          },
-          {
-            "line_number": 11,
-            "swara": "rs nd P – D | rsds S S || r G – mg r | S ,d d s S r g ||",
-            "sahitya": "In- - - du She- ka ra Ha- ri- - ke - - - sha -"
-          },
-          {
-            "line_number": 12,
-            "swara": "rs nd P – D | rsds S S || r G – mg r | S ,d d s sr ||",
-            "sahitya": "In- - - du She- ka ra Ha- ri- - ke - - - sha -"
-          },
-          {
-            "line_number": 13,
-            "swara": "mggr S | ndpm pd – sr || mgrs – nd | pm gr s r gm || Pdp",
-            "sahitya": "Sun- - da raa- - nga Vi- haa- - ri- ni - - Am- ba- - - -"
-          }
+    "song_details": {
+        "name": "Rathnakanchuka",
+        "raga": "Kambhoji",
+        "arohanam": "S R2 G3 M1 P D2 S ||",
+        "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
+        "tala": "Misra Chapu",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , N d | P - pm G || r G \u2013 mg R | S - - - ||",
+                "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- N D | P - pp mg || r G \u2013 mg R | S - pd d s ||",
+                "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni - Am-ba-"
+            },
+            {
+                "line_number": 3,
+                "swara": "- , N d | P dp pm G || r G \u2013 mg R | S - pd S ||",
+                "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni - Am-ba-"
+            },
+            {
+                "line_number": 4,
+                "swara": "Rs- N d | P dp pm G || R , \u2013 mg R | S - pd sr ||",
+                "sahitya": "Ra thna Kan chu-ka Dhaa- ri--- ni - Am-ba-"
+            },
+            {
+                "line_number": 5,
+                "swara": "Gmg- rs nd | mp dndp , mG || s R \u2013 pMmG | rs - pd sr ||",
+                "sahitya": "Ra thna Kan -- chu-ka- Dhaa- ri--- ni - Am-ba-"
+            },
+            {
+                "line_number": 6,
+                "swara": "- , M p | D - S S || r s d N, D | Pdp M- pd sr ||",
+                "sahitya": "Ra thna Saa lu ni Vaa- - - - si ni - Am- ba-"
+            },
+            {
+                "line_number": 7,
+                "swara": "Gmg- rs nd | mp dndp , mG || s R \u2013 pMmG | rs - - - ||",
+                "sahitya": "Ra thna Kan -- chu-ka- Dhaa- ri--- ni - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "sn P \u2013 D | D S - - || - - - | - S - S ||",
+                "sahitya": "Ra-- thna Thaa- - - - - - - - tan - ka"
+            },
+            {
+                "line_number": 2,
+                "swara": "sn P \u2013 D | D S - - || r G \u2013 mg r | S - n d P, d ||",
+                "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
+            },
+            {
+                "line_number": 3,
+                "swara": "Srs n p \u2013 D | S- - - || r G \u2013 mg r | S ,n n d P, d ||",
+                "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
+            },
+            {
+                "line_number": 4,
+                "swara": "Srs n p \u2013 D | S- - - || r G \u2013 mg r | S ,n ds sr ||",
+                "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
+            },
+            {
+                "line_number": 5,
+                "swara": "rs ndP \u2013 D | S- - - || r G \u2013 mg r | S ,n ds sr ||",
+                "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
+            },
+            {
+                "line_number": 6,
+                "swara": "rs ndP \u2013 D | rsds - - || R , \u2013 mg r | S ,n ds sr ||",
+                "sahitya": "Ra-- thna Thaa- - - tan- ka - - Bhoo sha- ni-"
+            },
+            {
+                "line_number": 7,
+                "swara": "mggr S | ndpm pd \u2013 sr || mgrs \u2013 nd | pm gr s r gm || Pdp",
+                "sahitya": "Ya-- - thna Ka- - - rya- va- Kai-- ku- di- su- Am-ba-"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- nd P | D D D \u2013 pd || rs d N, D | D P - - ||",
+                        "sahitya": "Man da ga ma na Ul- la- - - si ni - - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- nd P | D D D \u2013 pd || rs d N, D | D P dp - mp ||",
+                        "sahitya": "Man da ga ma na Ul- la- - - si ni - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": ", m- nd P | dR, sN, D \u2013 Pdp || rs N - D | D P P - ||",
+                        "sahitya": "Man da ga- ma na Ul- la- - - si ni - De-"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "mp D \u2013 Pdp | rs nd dp mg || R,g \u2013 mg r | S , r sr gm ||",
+                        "sahitya": "ven - dra- nu-tha- mru-dhu- bhaa- shi- - ni - - - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "p m- nd P | dR, sN, D \u2013 Pdp || rs N - D | D P P - ||",
+                        "sahitya": "Man da ga- ma na Ul- la- - - si ni - De-"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "mp D \u2013 Pdp | rs nd dp mg || R,g \u2013 mg r | S - - - ||",
+                        "sahitya": "ven - dra- nu-tha- mru-dhu- bhaa- shi- - ni - - - - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "sn P \u2013 D | D S S S || - - - | - - - - ||",
+                        "sahitya": "In- - du She- ka ra"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "sn P \u2013 D | D S S S || r G \u2013 mg r | S ,n n d pd ||",
+                        "sahitya": "In- - du She- ka ra Ha- ri- - ke - - - sha -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "rsnp \u2013 D | D S S S || r G \u2013 mg r | S - n d p d ||",
+                        "sahitya": "In- - du She- ka ra Ha- ri- - ke - - - sha -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "Srs np \u2013 D | D S S S || r G \u2013 mg r | S ,d d s sr ||",
+                        "sahitya": "In- - du She- ka ra Ha- ri- - ke - - - sha -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "rs nd P \u2013 D | rsds S S || r G \u2013 mg r | S ,d d s S r g ||",
+                        "sahitya": "In- - - du She- ka ra Ha- ri- - ke - - - sha -"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "rs nd P \u2013 D | rsds S S || r G \u2013 mg r | S ,d d s sr ||",
+                        "sahitya": "In- - - du She- ka ra Ha- ri- - ke - - - sha -"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "mggr S | ndpm pd \u2013 sr || mgrs \u2013 nd | pm gr s r gm || Pdp",
+                        "sahitya": "Sun- - da raa- - nga Vi- haa- - ri- ni - - Am- ba- - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Rathnakanchuka_Kambodhi.pdf"
 }

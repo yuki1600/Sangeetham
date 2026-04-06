@@ -1,132 +1,133 @@
 {
-  "song_details": {
-    "name": "Venkataramana",
-    "raga": "Lathangi",
-    "arohanam": "S R2 G3 M2 P D1 N3 S ||",
-    "avarohanam": "S N3 D1 P M2 G3 R2 S ||",
-    "tala": "Rupakam",
-    "composer": "Papanasam Sivan"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "P , m M gr , g M || P - - - - - ||",
-        "sahitya": "Ven- ka-ta- rama na"
-      },
-      {
-        "line_number": 2,
-        "swara": "P , m Mgr , g M || P - - pm gr gm ||",
-        "sahitya": "Ven- ka-ta- rama na - -- - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "P , m Mgr , g M || P - - nd pm gm ||",
-        "sahitya": "Ven- ka-ta- rama na - -- - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "P , m Mgr , g M || P - ndpm D D ||",
-        "sahitya": "Ven- ka-ta- rama na Un --- Thiru"
-      },
-      {
-        "line_number": 5,
-        "swara": ", d R S - sn D || D sn , d pm grgm ||",
-        "sahitya": "vila yaa da-lai Yaar-- A ri - var- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "P , m Mgr , g nd || dP , ndpm pdN ||",
-        "sahitya": "Ven- ka-ta- rama na Un --- Thiru"
-      },
-      {
-        "line_number": 7,
-        "swara": "sr Gmg rsnd - P D || grsn dn Srs n -dpm ||",
-        "sahitya": "vi- la yaa da-lai Yaar-- A ri - - var- - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "pd N pmgr , g nd || D - ndpm pdN ||",
-        "sahitya": "Ven- ka-ta- rama na Un --- Thiru"
-      },
-      {
-        "line_number": 9,
-        "swara": "sr Gmg rsnd - P D || grsn dn Srs n -dpm ||",
-        "sahitya": "vi- la yaa da-lai Yaar-- A ri - - var- - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "sn D dn – S - R || G R S - - - ||",
-        "sahitya": "Shan- ka- Cha - kra Dhaa- ri - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "Srs nd dn – S - R || G R S - srgr ||",
-        "sahitya": "Shan- ka- Cha - kra Dhaa- ri - sri - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "sn D dn – s r , s - R || gmgr S - SRsrgr ||",
-        "sahitya": "Shan- ka- Cha - - kra Dhaa- ri - sri - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "sn D dn – s r , s - R || gmpm gr- S - - ||",
-        "sahitya": "Shan- ka- Cha - - kra Dhaa- ri - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S S snD p d N || rsnd ndpm grgm ||",
-        "sahitya": "Shara na-dai ndhen- Pi-zhai Po-ru- tha-rul-"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- p d , P , P - || P P mdpm gr G ||",
-            "sahitya": "Alar mel Man gaima naa --- laa - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "- pm G R pmgr || sr -gm Pdn dp P ||",
-            "sahitya": "Am- buja na-- - bha- Da- yaa-- laa—"
-          },
-          {
-            "line_number": 3,
-            "swara": "D- p d , P , dn r n || D P mdpm gr G ||",
-            "sahitya": "Alar mel Man gaima naa --- laa - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "- pm G R pmgr || sr -gm Pdn dp P ||",
-            "sahitya": "Am- buja na-- - bha- Da- yaa-- laa—"
-          },
-          {
-            "line_number": 5,
-            "swara": "- nd , N , , r R || , g R Srg rs S ||",
-            "sahitya": "Mana rthaal Maran thiru maa-- the-l"
-          },
-          {
-            "line_number": 6,
-            "swara": "sr snD N - R R || SR gmgr S - ||",
-            "sahitya": "Mana rthaal Maran thiru maa-- the-l"
-          },
-          {
-            "line_number": 7,
-            "swara": "sr sSd N - R R || SR gmgr gr - S ||",
-            "sahitya": "Mana rthaal Maran thiru maa-- -- the-l"
-          },
-          {
-            "line_number": 8,
-            "swara": "S - N D D - || rsn- d pm – g r , g M ||",
-            "sahitya": "Ma nni- thu kon—darul- Tiru- pathi"
-          }
+    "song_details": {
+        "name": "Venkataramana",
+        "raga": "Lathangi",
+        "arohanam": "S R2 G3 M2 P D1 N3 S ||",
+        "avarohanam": "S N3 D1 P M2 G3 R2 S ||",
+        "tala": "Rupakam",
+        "composer": "Papanasam Sivan"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "P , m M gr , g M || P - - - - - ||",
+                "sahitya": "Ven- ka-ta- rama na"
+            },
+            {
+                "line_number": 2,
+                "swara": "P , m Mgr , g M || P - - pm gr gm ||",
+                "sahitya": "Ven- ka-ta- rama na - -- - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "P , m Mgr , g M || P - - nd pm gm ||",
+                "sahitya": "Ven- ka-ta- rama na - -- - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "P , m Mgr , g M || P - ndpm D D ||",
+                "sahitya": "Ven- ka-ta- rama na Un --- Thiru"
+            },
+            {
+                "line_number": 5,
+                "swara": ", d R S - sn D || D sn , d pm grgm ||",
+                "sahitya": "vila yaa da-lai Yaar-- A ri - var- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "P , m Mgr , g nd || dP , ndpm pdN ||",
+                "sahitya": "Ven- ka-ta- rama na Un --- Thiru"
+            },
+            {
+                "line_number": 7,
+                "swara": "sr Gmg rsnd - P D || grsn dn Srs n -dpm ||",
+                "sahitya": "vi- la yaa da-lai Yaar-- A ri - - var- - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "pd N pmgr , g nd || D - ndpm pdN ||",
+                "sahitya": "Ven- ka-ta- rama na Un --- Thiru"
+            },
+            {
+                "line_number": 9,
+                "swara": "sr Gmg rsnd - P D || grsn dn Srs n -dpm ||",
+                "sahitya": "vi- la yaa da-lai Yaar-- A ri - - var- - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "sn D dn \u2013 S - R || G R S - - - ||",
+                "sahitya": "Shan- ka- Cha - kra Dhaa- ri - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "Srs nd dn \u2013 S - R || G R S - srgr ||",
+                "sahitya": "Shan- ka- Cha - kra Dhaa- ri - sri - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "sn D dn \u2013 s r , s - R || gmgr S - SRsrgr ||",
+                "sahitya": "Shan- ka- Cha - - kra Dhaa- ri - sri - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "sn D dn \u2013 s r , s - R || gmpm gr- S - - ||",
+                "sahitya": "Shan- ka- Cha - - kra Dhaa- ri - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S S snD p d N || rsnd ndpm grgm ||",
+                "sahitya": "Shara na-dai ndhen- Pi-zhai Po-ru- tha-rul-"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- p d , P , P - || P P mdpm gr G ||",
+                        "sahitya": "Alar mel Man gaima naa --- laa - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- pm G R pmgr || sr -gm Pdn dp P ||",
+                        "sahitya": "Am- buja na-- - bha- Da- yaa-- laa\u2014"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "D- p d , P , dn r n || D P mdpm gr G ||",
+                        "sahitya": "Alar mel Man gaima naa --- laa - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- pm G R pmgr || sr -gm Pdn dp P ||",
+                        "sahitya": "Am- buja na-- - bha- Da- yaa-- laa\u2014"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- nd , N , , r R || , g R Srg rs S ||",
+                        "sahitya": "Mana rthaal Maran thiru maa-- the-l"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "sr snD N - R R || SR gmgr S - ||",
+                        "sahitya": "Mana rthaal Maran thiru maa-- the-l"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "sr sSd N - R R || SR gmgr gr - S ||",
+                        "sahitya": "Mana rthaal Maran thiru maa-- -- the-l"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "S - N D D - || rsn- d pm \u2013 g r , g M ||",
+                        "sahitya": "Ma nni- thu kon\u2014darul- Tiru- pathi"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Venkataramana_Lathangi.pdf"
 }

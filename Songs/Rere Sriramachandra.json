@@ -1,74 +1,75 @@
 {
-  "song_details": {
-    "name": "Rere Sriramachandra",
-    "raga": "Arabhi",
-    "arohanam": "S R2 M1 P D2 S",
-    "avarohanam": "S N3 D2 P M1 G3 R2 S",
-    "tala": "Triputa",
-    "composer": "Paidala Gurumoorti Shastri"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 2,
-        "swara": "P - P | M M | P - || M G R | S R | M G ||",
-        "sahitya": "Re - re | Shree - | ra - || - - ma | chan - | - - ||"
-      },
-      {
-        "line_number": 3,
-        "swara": "R R S | S D | R S || R - - | R - | S R ||",
-        "sahitya": "- - - | - - | - - || ndra - - | - - | Ra ghu ||"
-      },
-      {
-        "line_number": 4,
-        "swara": "M G R | R S | S - || P M M | P - | P - ||",
-        "sahitya": "Vam - sha | Ti la | ka - || Ra - gha | ven - | dra ||"
-      },
-      {
-        "line_number": 5,
-        "swara": "P M P | M G | R R || M G R | S R | S S ||",
-        "sahitya": ""
-      },
-      {
-        "line_number": 6,
-        "swara": "A - - | - - | - - || a - - | - - | - - ||",
-        "sahitya": "You take care of ('poshakure') ordinary mortals ('srita-jana')!"
-      },
-      {
-        "line_number": 7,
-        "swara": "S d R | S R | S S || d S - | d d | d p ||",
-        "sahitya": "A - - | - - | - - || a - - | Sri tha | ja na ||"
-      },
-      {
-        "line_number": 8,
-        "swara": "p m p | d S | S - || R S R | M G | R R ||",
-        "sahitya": "Po - sha | ku - | re - || See - - | tha - | - Ma ||"
-      },
-      {
-        "line_number": 9,
-        "swara": "M G R | M M | P M || P - P | P - | P - ||",
-        "sahitya": "no - - | ran - | ja nu || Re - re | Dhee - | ra - ||"
-      },
-      {
-        "line_number": 10,
-        "swara": "P M P | D S | S R || M G R | S R | S S ||",
-        "sahitya": "Ra - va | na - | su ra || An - tha | ku - | re - ||"
-      },
-      {
-        "line_number": 11,
-        "swara": "S D R | S R | S S || D S - | D D | D P ||",
-        "sahitya": "A - - | yi ya | yi ya || a - | yi ya | yi ya ||"
-      },
-      {
-        "line_number": 12,
-        "swara": "P M P | D S | S - || S - S | D D | D P ||",
-        "sahitya": "A - - | yi ya | re - || Dhee - na | Ja na | Man - ||"
-      },
-      {
-        "line_number": 13,
-        "swara": "P M P | M G | R R ||",
-        "sahitya": "daa - ru | Maa - | ma va ||"
-      }
-    ]
-  }
+    "song_details": {
+        "name": "Rere Sriramachandra",
+        "raga": "Arabhi",
+        "arohanam": "S R2 M1 P D2 S",
+        "avarohanam": "S N3 D2 P M1 G3 R2 S",
+        "tala": "Triputa",
+        "composer": "Paidala Gurumoorti Shastri"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 2,
+                "swara": "P - P | M M | P - || M G R | S R | M G ||",
+                "sahitya": "Re - re | Shree - | ra - || - - ma | chan - | - - ||"
+            },
+            {
+                "line_number": 3,
+                "swara": "R R S | S D | R S || R - - | R - | S R ||",
+                "sahitya": "- - - | - - | - - || ndra - - | - - | Ra ghu ||"
+            },
+            {
+                "line_number": 4,
+                "swara": "M G R | R S | S - || P M M | P - | P - ||",
+                "sahitya": "Vam - sha | Ti la | ka - || Ra - gha | ven - | dra ||"
+            },
+            {
+                "line_number": 5,
+                "swara": "P M P | M G | R R || M G R | S R | S S ||",
+                "sahitya": ""
+            },
+            {
+                "line_number": 6,
+                "swara": "A - - | - - | - - || a - - | - - | - - ||",
+                "sahitya": "You take care of ('poshakure') ordinary mortals ('srita-jana')!"
+            },
+            {
+                "line_number": 7,
+                "swara": "S d R | S R | S S || d S - | d d | d p ||",
+                "sahitya": "A - - | - - | - - || a - - | Sri tha | ja na ||"
+            },
+            {
+                "line_number": 8,
+                "swara": "p m p | d S | S - || R S R | M G | R R ||",
+                "sahitya": "Po - sha | ku - | re - || See - - | tha - | - Ma ||"
+            },
+            {
+                "line_number": 9,
+                "swara": "M G R | M M | P M || P - P | P - | P - ||",
+                "sahitya": "no - - | ran - | ja nu || Re - re | Dhee - | ra - ||"
+            },
+            {
+                "line_number": 10,
+                "swara": "P M P | D S | S R || M G R | S R | S S ||",
+                "sahitya": "Ra - va | na - | su ra || An - tha | ku - | re - ||"
+            },
+            {
+                "line_number": 11,
+                "swara": "S D R | S R | S S || D S - | D D | D P ||",
+                "sahitya": "A - - | yi ya | yi ya || a - | yi ya | yi ya ||"
+            },
+            {
+                "line_number": 12,
+                "swara": "P M P | D S | S - || S - S | D D | D P ||",
+                "sahitya": "A - - | yi ya | re - || Dhee - na | Ja na | Man - ||"
+            },
+            {
+                "line_number": 13,
+                "swara": "P M P | M G | R R ||",
+                "sahitya": "daa - ru | Maa - | ma va ||"
+            }
+        ]
+    },
+    "pdfPath": "PDFs/Rere_Sriramachandra.pdf"
 }

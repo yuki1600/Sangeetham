@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ChevronRight, Music2, Globe, Disc3, Pencil, Search, SlidersHorizontal } from 'lucide-react';
+import { ChevronRight, Music2, Globe, Disc3, Pencil, Search, SlidersHorizontal, FileText, Heart, Plus } from 'lucide-react';
 
 /**
  * SongsPanel — shows published community songs dynamically from the backend.
@@ -9,7 +9,7 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
     const [allSongs, setAllSongs] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
-    const [displayLimit, setDisplayLimit] = useState(5);
+    const [displayLimit, setDisplayLimit] = useState(7);
 
     useEffect(() => {
         setIsLoading(true);
@@ -17,10 +17,10 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
             .then(r => r.json())
             .then(data => {
                 if (Array.isArray(data)) {
-                    // Filter for published songs and sort by title
-                    const published = data.filter(s => s.isPublished);
-                    published.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
-                    setAllSongs(published);
+                    // Show only favorite songs on the landing page Library
+                    const favorites = data.filter(s => s.isFavorite);
+                    favorites.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+                    setAllSongs(favorites);
                 }
             })
             .catch(e => console.error('Failed fetching published songs:', e))
@@ -51,26 +51,25 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
     return (
         <div className="fade-in mb-8 flex flex-col h-full">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 px-1">
-                <div className="flex items-center gap-2">
-                    <Globe className="w-4 h-4 text-emerald-500" />
-                    <h3 className="text-sm font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
-                        Library ({filteredSongs.length})
-                    </h3>
+                <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-2">
+                        <Globe className="w-4 h-4 text-emerald-500" />
+                        <h3 className="text-sm font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                            Favorites ({filteredSongs.length})
+                        </h3>
+                    </div>
+                    {hasMore && (
+                        <button 
+                            onClick={() => setDisplayLimit(prev => prev + 7)}
+                            className="px-4 py-1.5 rounded-full bg-emerald-500 border border-emerald-600 text-white text-[11px] font-bold hover:bg-emerald-600 hover:scale-105 active:scale-95 transition-all uppercase tracking-widest shadow-lg shadow-emerald-500/25 flex items-center gap-1.5"
+                        >
+                            <Plus className="w-3.5 h-3.5" />
+                            View All Songs
+                        </button>
+                    )}
                 </div>
 
-                <div className="relative group max-w-xs w-full">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)] group-focus-within:text-emerald-500 transition-colors" />
-                    <input 
-                        type="text"
-                        placeholder="Search song, raga, tala..."
-                        value={searchQuery}
-                        onChange={(e) => {
-                            setSearchQuery(e.target.value);
-                            setDisplayLimit(5); // Reset limit on search
-                        }}
-                        className="w-full bg-[var(--bg-card)] border border-[var(--glass-border)] rounded-xl py-2 pl-10 pr-4 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500/50 transition-all shadow-sm"
-                    />
-                </div>
+                {/* Search bar removed for Favorites panel simplicity */}
             </div>
 
             <div className="grid gap-3">
@@ -100,18 +99,18 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
                                             {song.title}
                                         </h4>
                                         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1">
-                                            <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                                                <span className="opacity-40 uppercase tracking-wider font-black text-[8px]">Raga</span>
-                                                <span className="text-[11px] font-bold text-[var(--text-secondary)]">{song.raga || 'Other'}</span>
+                                            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10">
+                                                <span className="opacity-40 uppercase tracking-wider font-black text-[10px]">Raga</span>
+                                                <span className="text-[13px] font-bold text-[var(--text-secondary)]">{song.raga || 'Other'}</span>
                                             </div>
-                                            <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                                                <span className="opacity-40 uppercase tracking-wider font-black text-[8px]">Tala</span>
-                                                <span className="text-[11px] font-bold text-[var(--text-secondary)]">{song.tala || 'Other'}</span>
+                                            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10">
+                                                <span className="opacity-40 uppercase tracking-wider font-black text-[10px]">Tala</span>
+                                                <span className="text-[13px] font-bold text-[var(--text-secondary)]">{song.tala || 'Other'}</span>
                                             </div>
                                             {song.composer && (
-                                                <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                                                    <span className="opacity-40 uppercase tracking-wider font-black text-[8px]">By</span>
-                                                    <span className="text-[11px] font-bold text-[var(--text-secondary)]">{song.composer}</span>
+                                                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10">
+                                                    <span className="opacity-40 uppercase tracking-wider font-black text-[10px]">By</span>
+                                                    <span className="text-[13px] font-bold text-[var(--text-secondary)]">{song.composer}</span>
                                                 </div>
                                             )}
                                         </div>
@@ -120,11 +119,45 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
                                 
                                 <div className="flex items-center gap-2 flex-shrink-0">
                                     <button
+                                        onClick={async (e) => {
+                                            e.stopPropagation();
+                                            try {
+                                                const res = await fetch(`/api/songs/${song.id}/metadata`, {
+                                                    method: 'PATCH',
+                                                    headers: { 'Content-Type': 'application/json' },
+                                                    body: JSON.stringify({ raga: song.raga, tala: song.tala, isFavorite: false })
+                                                });
+                                                const data = await res.json();
+                                                if (data.ok) {
+                                                    setAllSongs(prev => prev.filter(s => s.id !== song.id));
+                                                }
+                                            } catch (err) {
+                                                console.error('Failed to unfavorite:', err);
+                                            }
+                                        }}
+                                        className="p-1.5 rounded-lg bg-rose-500/10 border border-rose-500/30 text-rose-500 hover:bg-rose-500/20 hover:border-rose-500/50 transition-all"
+                                        title="Remove from Favorites"
+                                    >
+                                        <Heart className="w-4 h-4 fill-rose-500" />
+                                    </button>
+                                    {song.pdfPath && (
+                                        <a 
+                                            href={`/api/${song.pdfPath}`} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="p-1.5 rounded-lg bg-orange-500/10 border border-orange-500/30 text-orange-500 hover:bg-orange-500/20 hover:border-orange-500/40 transition-all"
+                                            title="View PDF Notation"
+                                            onClick={(e) => e.stopPropagation()}
+                                        >
+                                            <FileText className="w-4 h-4" />
+                                        </a>
+                                    )}
+                                    <button
                                         onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
-                                        className="p-2 rounded-lg bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all opacity-0 group-hover:opacity-100"
+                                        className="p-2 rounded-lg bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all shadow-sm"
                                         title="Edit Song"
                                     >
-                                        <Pencil className="w-3.5 h-3.5" />
+                                        <Pencil className="w-4 h-4" />
                                     </button>
                                     <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
                                 </div>
@@ -140,12 +173,15 @@ export default function SongsPanel({ onSelectSong, onEditSong }) {
             </div>
 
             {hasMore && (
-                <button 
-                    onClick={() => setDisplayLimit(prev => prev + 10)}
-                    className="mt-6 mx-auto px-6 py-2 rounded-full bg-white/5 border border-white/10 text-xs font-bold text-[var(--text-secondary)] hover:bg-white/10 hover:border-emerald-500/30 hover:text-emerald-400 transition-all uppercase tracking-widest"
-                >
-                    View More ({filteredSongs.length - displayLimit} left)
-                </button>
+                <div className="flex justify-center mt-6">
+                    <button 
+                        onClick={() => setDisplayLimit(prev => prev + 7)}
+                        className="px-6 py-2.5 rounded-2xl bg-emerald-500 border border-emerald-600 text-white text-xs font-bold hover:bg-emerald-600 hover:scale-105 active:scale-95 transition-all uppercase tracking-widest shadow-lg shadow-emerald-500/20 flex items-center gap-2"
+                    >
+                        <Plus className="w-4 h-4" />
+                        View All Songs
+                    </button>
+                </div>
             )}
         </div>
     );

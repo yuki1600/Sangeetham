@@ -1,167 +1,168 @@
 {
-  "song_details": {
-    "name": "Manasa Guru Guha",
-    "raga": "Anandabhairavi",
-    "arohanam": "S G R G M P D P S || AVA: S N D P M G R S ||",
-    "avarohanam": "S G R G M P D P S || AVA: S N D P M G R S ||",
-    "tala": "Rupakam",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "M - G , R , | S - - - | N S G M ||",
-        "sahitya": "- Bha ja re Re -------"
-      },
-      {
-        "line_number": 2,
-        "swara": "- gu ha Ru --- pam - - -",
-        "sahitya": "-- Bha ja re Re - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- gu ha Ru --- pam - - -",
-        "sahitya": "-- Bha ja re Re - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "Gu ha Ru - - - pam - - -",
-        "sahitya": "- ------- Bha ja re - - - Re - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "N - - - | n s G g r R | G - - - ||",
-        "sahitya": "Ma ya- - Ma- - ya- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "Gr , M G | G , m P , m | m d P Pdm ||",
-        "sahitya": "Hru - - - ttha - - - - pam - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "G - M p d P | p m G G r R | mg G pm M || (ma)",
-        "sahitya": "Thya ja - - - re - - - - Re - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - S - | S - N - | - - - - ||",
-        "sahitya": "Ma na va Jan"
-      },
-      {
-        "line_number": 2,
-        "swara": "r s N - - | - p Sn S | - - - - ||",
-        "sahitya": "pthe- - - sa thi - - - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - S - | S - PS | Srs SN - - ||",
-        "sahitya": "Ma na va jan - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "Ma ni - - Sam - - -------- pra",
-        "sahitya": "Pthe - - - Sathi - - - Pa ra"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - - - | N - D - | P - D - ||",
-        "sahitya": "Ma thma ni Ni ra"
-      },
-      {
-        "line_number": 6,
-        "swara": "N - P - | D - N - | P - - - ||",
-        "sahitya": "thi Sha ya Su kham"
-      },
-      {
-        "line_number": 7,
-        "swara": "Md P Pdm | mp G gr R | mg G pm M ||",
-        "sahitya": "Vra - ja- - | re - - - - re - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "S - - - | M - mg G | M - - - ||",
-            "sahitya": "Sa tva Gu - no ||"
-          },
-          {
-            "line_number": 2,
-            "swara": "P - - - | dm - m p G | G - R - ||",
-            "sahitya": "pa - - - dhi - Sa - - hi tha ||"
-          },
-          {
-            "line_number": 3,
-            "swara": "S - - G | - - M - | pm P - - - ||",
-            "sahitya": "Sa - - da - - shi vam - - ||"
-          },
-          {
-            "line_number": 4,
-            "swara": "S - - - | nNn - D - | P - DP ||",
-            "sahitya": "Swa vi--------- dhya - - ||"
-          },
-          {
-            "line_number": 5,
-            "swara": "P dm mp G | G - R - | S - - - ||",
-            "sahitya": "Sa - - me - - - tha jee- - ||"
-          },
-          {
-            "line_number": 6,
-            "swara": "R G r S - | S N S - | - - - - ||",
-            "sahitya": "Vo - - - - tbha - vam - - - - ||"
-          },
-          {
-            "line_number": 7,
-            "swara": "S - - - | S - - - | N - - - ||",
-            "sahitya": "Tha tvam Tha - - - ||"
-          },
-          {
-            "line_number": 8,
-            "swara": "NS mg G R | S - S - | S - rSn ||",
-            "sahitya": "Ma-sa- - - yu tha Vi - - - ||"
-          },
-          {
-            "line_number": 9,
-            "swara": "N - P N | S - S N | S - - - ||",
-            "sahitya": "shwa Vai- - - bha - vam - - - ||"
-          },
-          {
-            "line_number": 10,
-            "swara": "P - PS | - N D snN | N P P M ||",
-            "sahitya": "Tha - - ra Ke - - - - swa - ||"
-          },
-          {
-            "line_number": 11,
-            "swara": "ram - - Aa - - nan - da - ||",
-            "sahitya": "Bhai - - - - - ra - - vam - - ||"
-          },
-          {
-            "line_number": 12,
-            "swara": "S - S - | S - SS | S N S - ||",
-            "sahitya": "Nat va Sri guru Chara nam ||"
-          },
-          {
-            "line_number": 13,
-            "swara": "M - GR | Srm GR | S N S - ||",
-            "sahitya": "Kru thwa Na - ma- sma ra nam ||"
-          },
-          {
-            "line_number": 14,
-            "swara": "P - S N | R S N - | P D P M ||",
-            "sahitya": "Jith wa Mo- ha - va ra nam - ||"
-          },
-          {
-            "line_number": 15,
-            "swara": "G - M - | D , P , M | G R GM ||",
-            "sahitya": "Ma thwa Thva de ka Sha ra nam ||"
-          }
+    "song_details": {
+        "name": "Manasa Guru Guha",
+        "raga": "Anandabhairavi",
+        "arohanam": "S G R G M P D P S || AVA: S N D P M G R S ||",
+        "avarohanam": "S G R G M P D P S || AVA: S N D P M G R S ||",
+        "tala": "Rupakam",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "M - G , R , | S - - - | N S G M ||",
+                "sahitya": "- Bha ja re Re -------"
+            },
+            {
+                "line_number": 2,
+                "swara": "- gu ha Ru --- pam - - -",
+                "sahitya": "-- Bha ja re Re - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- gu ha Ru --- pam - - -",
+                "sahitya": "-- Bha ja re Re - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "Gu ha Ru - - - pam - - -",
+                "sahitya": "- ------- Bha ja re - - - Re - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "N - - - | n s G g r R | G - - - ||",
+                "sahitya": "Ma ya- - Ma- - ya- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "Gr , M G | G , m P , m | m d P Pdm ||",
+                "sahitya": "Hru - - - ttha - - - - pam - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "G - M p d P | p m G G r R | mg G pm M || (ma)",
+                "sahitya": "Thya ja - - - re - - - - Re - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - S - | S - N - | - - - - ||",
+                "sahitya": "Ma na va Jan"
+            },
+            {
+                "line_number": 2,
+                "swara": "r s N - - | - p Sn S | - - - - ||",
+                "sahitya": "pthe- - - sa thi - - - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - S - | S - PS | Srs SN - - ||",
+                "sahitya": "Ma na va jan - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "Ma ni - - Sam - - -------- pra",
+                "sahitya": "Pthe - - - Sathi - - - Pa ra"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - - - | N - D - | P - D - ||",
+                "sahitya": "Ma thma ni Ni ra"
+            },
+            {
+                "line_number": 6,
+                "swara": "N - P - | D - N - | P - - - ||",
+                "sahitya": "thi Sha ya Su kham"
+            },
+            {
+                "line_number": 7,
+                "swara": "Md P Pdm | mp G gr R | mg G pm M ||",
+                "sahitya": "Vra - ja- - | re - - - - re - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "S - - - | M - mg G | M - - - ||",
+                        "sahitya": "Sa tva Gu - no ||"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "P - - - | dm - m p G | G - R - ||",
+                        "sahitya": "pa - - - dhi - Sa - - hi tha ||"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "S - - G | - - M - | pm P - - - ||",
+                        "sahitya": "Sa - - da - - shi vam - - ||"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "S - - - | nNn - D - | P - DP ||",
+                        "sahitya": "Swa vi--------- dhya - - ||"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "P dm mp G | G - R - | S - - - ||",
+                        "sahitya": "Sa - - me - - - tha jee- - ||"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "R G r S - | S N S - | - - - - ||",
+                        "sahitya": "Vo - - - - tbha - vam - - - - ||"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "S - - - | S - - - | N - - - ||",
+                        "sahitya": "Tha tvam Tha - - - ||"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "NS mg G R | S - S - | S - rSn ||",
+                        "sahitya": "Ma-sa- - - yu tha Vi - - - ||"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "N - P N | S - S N | S - - - ||",
+                        "sahitya": "shwa Vai- - - bha - vam - - - ||"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "P - PS | - N D snN | N P P M ||",
+                        "sahitya": "Tha - - ra Ke - - - - swa - ||"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "ram - - Aa - - nan - da - ||",
+                        "sahitya": "Bhai - - - - - ra - - vam - - ||"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "S - S - | S - SS | S N S - ||",
+                        "sahitya": "Nat va Sri guru Chara nam ||"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "M - GR | Srm GR | S N S - ||",
+                        "sahitya": "Kru thwa Na - ma- sma ra nam ||"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "P - S N | R S N - | P D P M ||",
+                        "sahitya": "Jith wa Mo- ha - va ra nam - ||"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "G - M - | D , P , M | G R GM ||",
+                        "sahitya": "Ma thwa Thva de ka Sha ra nam ||"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Manasa_Guru_Guha_Ananda_Bhairavi.pdf"
 }

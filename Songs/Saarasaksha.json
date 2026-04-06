@@ -1,187 +1,188 @@
 {
-  "song_details": {
-    "name": "Saarasaksha",
-    "raga": "Panthuvarali",
-    "arohanam": "S R1 G3 M2 P D1 N3 S ||",
-    "avarohanam": "S N3 D1 P M2 G3 R1 S ||",
-    "tala": "Adi",
-    "composer": "Swati Tirunal"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S- R S - N D N | sn D P M G - MR ||",
-        "sahitya": "Sa ra saa ksha Pari paa-- laya Maa mayi"
-      },
-      {
-        "line_number": 2,
-        "swara": "G - P D - D M D | snD PM P M PD ||",
-        "sahitya": "San thatham – Ka ru na ya-- Jaga dee- - sha"
-      },
-      {
-        "line_number": 3,
-        "swara": "S- rg rs S - N , d N | dn sr n- d P G - MR ||",
-        "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
-      },
-      {
-        "line_number": 4,
-        "swara": "G - P D - D M D | rsnd PM dpm - g m- pdn ||",
-        "sahitya": "San thatham – Ka ru na ya-- Jaga dee- - - sha"
-      },
-      {
-        "line_number": 5,
-        "swara": "srsr rg rs S - N , d N | dn srS n- d P G - MR ||",
-        "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
-      },
-      {
-        "line_number": 6,
-        "swara": "G - P D - D M D | rsnd PM dpm - g m- pdn ||",
-        "sahitya": "San thatham – Ka ru na ya-- Jaga dee- - - - - sha"
-      },
-      {
-        "line_number": 7,
-        "swara": "sngr sn sn rs – sn , d N | dn srS n- d P P - MR ||",
-        "sahitya": "Sa ra saa ksha - Pari paa-- - laya Maa mayi"
-      },
-      {
-        "line_number": 8,
-        "swara": "G - D P - D M D | rsnd PM dpm - g m- pdm || G - - -",
-        "sahitya": "San thatham – Ka ru na ya-- Jaga dee- - - - - - sha"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "dN , D – P - D P D | d N , D N S - R S ||",
-        "sahitya": "Nee ra jaa sthra Jana kaa- - di me chaka"
-      },
-      {
-        "line_number": 2,
-        "swara": "snrs sn – ds n - d pm P D | d N , D N S - R S ||",
-        "sahitya": "Nee ra jaa - sthra Jana kaa- - di me chaka"
-      },
-      {
-        "line_number": 3,
-        "swara": "snrs sn – ds n - d pm P D | d N , D N S - R S ||",
-        "sahitya": "Nee ra jaa -sthra- Jana kaa- - di me chaka"
-      },
-      {
-        "line_number": 4,
-        "swara": "S - R – S - sn , d N | sn D PM G M PD ||",
-        "sahitya": "Nee ra dha - bha Kari naa-- yaka Bhaya hara"
-      },
-      {
-        "line_number": 5,
-        "swara": "snrs sn – ds n - d pm P D | d N , D N S ,r gr G ||",
-        "sahitya": "Nee ra jaa -sthra- Jana kaa- - di me chaka"
-      },
-      {
-        "line_number": 6,
-        "swara": "G pm gr – S , S n , d N | sn D PM dpm- g mp dn ||",
-        "sahitya": "Nee ra dha - bha Kari naa-- yaka Bha- ya - ha -ra"
-      },
-      {
-        "line_number": 7,
-        "swara": "srsr rg rs S - N , d N | dn srS n- d P G - MR ||",
-        "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
-      },
-      {
-        "line_number": 8,
-        "swara": "G - D P - D M D | rsnd PM dpm - g m- pdm || G - - -",
-        "sahitya": "San thatham – Ka ru na ya-- Jaga dee- - - - - - sha"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "P - P – P - D P P | - P d P m G R G M ||",
-            "sahitya": "Bhi ma se vya Thama Man gala- Lee- lamu"
-          },
-          {
-            "line_number": 2,
-            "swara": "P - - - - - - - | - - - - - - - - ||",
-            "sahitya": "dha"
-          },
-          {
-            "line_number": 3,
-            "swara": "P - P – P - D P P | - P d P m gp mr G M ||",
-            "sahitya": "Bhi ma se vya Thama Man gala- Lee- lamu"
-          },
-          {
-            "line_number": 4,
-            "swara": "P - - - - - - - | - - - - mdpm grgm ||",
-            "sahitya": "dha"
-          },
-          {
-            "line_number": 5,
-            "swara": "P - P – P - D dn dp P | - P d P m gp mr G M ||",
-            "sahitya": "Bhi ma se vya Thama Man gala- Lee- lamu"
-          },
-          {
-            "line_number": 6,
-            "swara": "P - - - D - DN | sn D P M G M P D ||",
-            "sahitya": "dha - - Kuru me-- Kusha lam- Bhava"
-          },
-          {
-            "line_number": 7,
-            "swara": "sS , R – ss - N D- N | sn D P M - g m , g R ||",
-            "sahitya": "Bhee thi Naa -sha na Ca naa-- dbhuta Guna ni la"
-          },
-          {
-            "line_number": 8,
-            "swara": "MG - - - - - - | - - - - - - D N ||",
-            "sahitya": "ya - - - - - - - - - - - - - Bhava"
-          },
-          {
-            "line_number": 9,
-            "swara": "d N , D P - D M D | d N , D N S - R S ||",
-            "sahitya": "Bhaa mini Sa muda yaa shaya Mo hana"
-          },
-          {
-            "line_number": 10,
-            "swara": "srsn D P - D M D | d N , D N S - R S ||",
-            "sahitya": "Bhaa mini Sa muda yaa shaya Mo hana"
-          },
-          {
-            "line_number": 11,
-            "swara": "sngr sn - dn - D M D | d N , D N S - R S ||",
-            "sahitya": "Bhaa mi-ni- Sa muda yaa shaya Mo hana"
-          },
-          {
-            "line_number": 12,
-            "swara": "- , s R S - sn , d N | sn D P M G M PD ||",
-            "sahitya": "Pa dmanaa bha- Kama laa- - dhara Nee- vara"
-          },
-          {
-            "line_number": 13,
-            "swara": "S - R S - N D N | sn D P M G M PD ||",
-            "sahitya": "Pa dmanaa bha- Kama laa- - dhara Nee- vara"
-          },
-          {
-            "line_number": 14,
-            "swara": "sngr sn - ds nd- D M D | d N , D N S ,r gr G ||",
-            "sahitya": "Bhaa mi-ni- -- Sa muda yaa shaya Mo hana"
-          },
-          {
-            "line_number": 15,
-            "swara": "G pm gr S - sn , d N | sn D PM dpm- g m – pd n ||",
-            "sahitya": "Pa dmanaa bha- Kama laa- - dhara Nee- va - ra --"
-          },
-          {
-            "line_number": 16,
-            "swara": "srsr rg rs S - N , d N | dn srS n- d P G - MR ||",
-            "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
-          },
-          {
-            "line_number": 17,
-            "swara": "G - D P - D M D | rsnd PM dpm - g m- pdm || G - - -",
-            "sahitya": "San thatham – Ka ru na ya-- Jaga dee- - - - - - sha"
-          }
+    "song_details": {
+        "name": "Saarasaksha",
+        "raga": "Panthuvarali",
+        "arohanam": "S R1 G3 M2 P D1 N3 S ||",
+        "avarohanam": "S N3 D1 P M2 G3 R1 S ||",
+        "tala": "Adi",
+        "composer": "Swati Tirunal"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S- R S - N D N | sn D P M G - MR ||",
+                "sahitya": "Sa ra saa ksha Pari paa-- laya Maa mayi"
+            },
+            {
+                "line_number": 2,
+                "swara": "G - P D - D M D | snD PM P M PD ||",
+                "sahitya": "San thatham \u2013 Ka ru na ya-- Jaga dee- - sha"
+            },
+            {
+                "line_number": 3,
+                "swara": "S- rg rs S - N , d N | dn sr n- d P G - MR ||",
+                "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
+            },
+            {
+                "line_number": 4,
+                "swara": "G - P D - D M D | rsnd PM dpm - g m- pdn ||",
+                "sahitya": "San thatham \u2013 Ka ru na ya-- Jaga dee- - - sha"
+            },
+            {
+                "line_number": 5,
+                "swara": "srsr rg rs S - N , d N | dn srS n- d P G - MR ||",
+                "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
+            },
+            {
+                "line_number": 6,
+                "swara": "G - P D - D M D | rsnd PM dpm - g m- pdn ||",
+                "sahitya": "San thatham \u2013 Ka ru na ya-- Jaga dee- - - - - sha"
+            },
+            {
+                "line_number": 7,
+                "swara": "sngr sn sn rs \u2013 sn , d N | dn srS n- d P P - MR ||",
+                "sahitya": "Sa ra saa ksha - Pari paa-- - laya Maa mayi"
+            },
+            {
+                "line_number": 8,
+                "swara": "G - D P - D M D | rsnd PM dpm - g m- pdm || G - - -",
+                "sahitya": "San thatham \u2013 Ka ru na ya-- Jaga dee- - - - - - sha"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "dN , D \u2013 P - D P D | d N , D N S - R S ||",
+                "sahitya": "Nee ra jaa sthra Jana kaa- - di me chaka"
+            },
+            {
+                "line_number": 2,
+                "swara": "snrs sn \u2013 ds n - d pm P D | d N , D N S - R S ||",
+                "sahitya": "Nee ra jaa - sthra Jana kaa- - di me chaka"
+            },
+            {
+                "line_number": 3,
+                "swara": "snrs sn \u2013 ds n - d pm P D | d N , D N S - R S ||",
+                "sahitya": "Nee ra jaa -sthra- Jana kaa- - di me chaka"
+            },
+            {
+                "line_number": 4,
+                "swara": "S - R \u2013 S - sn , d N | sn D PM G M PD ||",
+                "sahitya": "Nee ra dha - bha Kari naa-- yaka Bhaya hara"
+            },
+            {
+                "line_number": 5,
+                "swara": "snrs sn \u2013 ds n - d pm P D | d N , D N S ,r gr G ||",
+                "sahitya": "Nee ra jaa -sthra- Jana kaa- - di me chaka"
+            },
+            {
+                "line_number": 6,
+                "swara": "G pm gr \u2013 S , S n , d N | sn D PM dpm- g mp dn ||",
+                "sahitya": "Nee ra dha - bha Kari naa-- yaka Bha- ya - ha -ra"
+            },
+            {
+                "line_number": 7,
+                "swara": "srsr rg rs S - N , d N | dn srS n- d P G - MR ||",
+                "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
+            },
+            {
+                "line_number": 8,
+                "swara": "G - D P - D M D | rsnd PM dpm - g m- pdm || G - - -",
+                "sahitya": "San thatham \u2013 Ka ru na ya-- Jaga dee- - - - - - sha"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "P - P \u2013 P - D P P | - P d P m G R G M ||",
+                        "sahitya": "Bhi ma se vya Thama Man gala- Lee- lamu"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "P - - - - - - - | - - - - - - - - ||",
+                        "sahitya": "dha"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "P - P \u2013 P - D P P | - P d P m gp mr G M ||",
+                        "sahitya": "Bhi ma se vya Thama Man gala- Lee- lamu"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "P - - - - - - - | - - - - mdpm grgm ||",
+                        "sahitya": "dha"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "P - P \u2013 P - D dn dp P | - P d P m gp mr G M ||",
+                        "sahitya": "Bhi ma se vya Thama Man gala- Lee- lamu"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "P - - - D - DN | sn D P M G M P D ||",
+                        "sahitya": "dha - - Kuru me-- Kusha lam- Bhava"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "sS , R \u2013 ss - N D- N | sn D P M - g m , g R ||",
+                        "sahitya": "Bhee thi Naa -sha na Ca naa-- dbhuta Guna ni la"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "MG - - - - - - | - - - - - - D N ||",
+                        "sahitya": "ya - - - - - - - - - - - - - Bhava"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "d N , D P - D M D | d N , D N S - R S ||",
+                        "sahitya": "Bhaa mini Sa muda yaa shaya Mo hana"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "srsn D P - D M D | d N , D N S - R S ||",
+                        "sahitya": "Bhaa mini Sa muda yaa shaya Mo hana"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "sngr sn - dn - D M D | d N , D N S - R S ||",
+                        "sahitya": "Bhaa mi-ni- Sa muda yaa shaya Mo hana"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "- , s R S - sn , d N | sn D P M G M PD ||",
+                        "sahitya": "Pa dmanaa bha- Kama laa- - dhara Nee- vara"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "S - R S - N D N | sn D P M G M PD ||",
+                        "sahitya": "Pa dmanaa bha- Kama laa- - dhara Nee- vara"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "sngr sn - ds nd- D M D | d N , D N S ,r gr G ||",
+                        "sahitya": "Bhaa mi-ni- -- Sa muda yaa shaya Mo hana"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "G pm gr S - sn , d N | sn D PM dpm- g m \u2013 pd n ||",
+                        "sahitya": "Pa dmanaa bha- Kama laa- - dhara Nee- va - ra --"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "srsr rg rs S - N , d N | dn srS n- d P G - MR ||",
+                        "sahitya": "Sa ra saa ksha Pari paa-- - laya Maa mayi"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "G - D P - D M D | rsnd PM dpm - g m- pdm || G - - -",
+                        "sahitya": "San thatham \u2013 Ka ru na ya-- Jaga dee- - - - - - sha"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Saarasaksha_Panthuvarali.pdf"
 }

@@ -1,157 +1,158 @@
 {
-  "song_details": {
-    "name": "Vatapi Ganapathim",
-    "raga": "Hamsadhwani",
-    "arohanam": "S R G P N S || AVA: S N P G R S ||",
-    "avarohanam": "S R G P N S || AVA: S N P G R S ||",
-    "tala": "Adi",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "G - - R - S S N | P R - S R - sn sr ||",
-        "sahitya": "Vaa - taa - pi Gana pathim -bha je - ham--"
-      },
-      {
-        "line_number": 2,
-        "swara": "G sr G -R - S S N | P R - S R - sn sr ||",
-        "sahitya": "Vaa - taa - pi Gana pathim -bha je - ham--"
-      },
-      {
-        "line_number": 3,
-        "swara": "gpgg rs- rg rr sn g r sn | P R - S R - sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim -bha je - ham--"
-      },
-      {
-        "line_number": 4,
-        "swara": "G P - - G - R g r sn | np gr R- S R - sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
-      },
-      {
-        "line_number": 5,
-        "swara": "G P - npP G R g r sn | P Rgr R- N Rgr R sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
-      },
-      {
-        "line_number": 6,
-        "swara": "G P N - P G R g r sn | P Rgr R- N Rgr R sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
-      },
-      {
-        "line_number": 7,
-        "swara": "gpns R - sn pg R g r sn | P Rgr R- N Rgr R sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
-      },
-      {
-        "line_number": 8,
-        "swara": "gpns rg - gr sn pg g r sn | P Rgr R- N Rgr R sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
-      },
-      {
-        "line_number": 9,
-        "swara": "gpns rg - pg rs np g r sn | P Rgr R- N Rgr R sn sr ||",
-        "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
-      },
-      {
-        "line_number": 10,
-        "swara": "G R G P - - - - | - - - - - gp g r s r ||",
-        "sahitya": "Vaa ra naa- - - - - - - - - - syam - - - -"
-      },
-      {
-        "line_number": 11,
-        "swara": "G R G P - - S - | S sn P gp R - s n s r ||",
-        "sahitya": "Vaa ra naa- - - syam Va ra- - Pra- dam- Sri- - -"
-      },
-      {
-        "line_number": 12,
-        "swara": "G R G P - - n s R | S sn P gp R - s n s r ||",
-        "sahitya": "Vaa ra naa- - - syam Va ra- - Pra- dam- Sri- - -"
-      },
-      {
-        "line_number": 13,
-        "swara": "G R G sn P - p n s r | g r s - r s n - s n p - g n p g r s r ||",
-        "sahitya": "Vaa ra naa- - - syam Va- - ra- - - Pra- - dam- Sri- - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - - G - R S - | S - gr sn S R G P - ||",
-        "sahitya": "Bhoo - taa - di Sam- se - - vi- tha Chara nam"
-      },
-      {
-        "line_number": 2,
-        "swara": "pgnp - G - R S - | sr gr sn S R G P - ||",
-        "sahitya": "Bhoo - taa - di Sam- se - - vi- tha Chara nam"
-      },
-      {
-        "line_number": 3,
-        "swara": "gp S S - sn R - sr sn P | P G - R S gp R - ||",
-        "sahitya": "Bhoo- ta Bhau - ti - ka- - Prapan - cha Bhara- nam-"
-      },
-      {
-        "line_number": 4,
-        "swara": "G p- g , n P p n s - n , r S | G r - s , n P P g - r , s R ||",
-        "sahitya": "Veetharaa -ginam Vinuta Yo- ginam Vishwakaa - ranam Vigna Vaa - ranam"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "G G - R - S S - | N P S N G R - G ||",
-            "sahitya": "Puraa - Kum - bha Sam bhava Muni va ra - Pra"
-          },
-          {
-            "line_number": 2,
-            "swara": "P - - G R - S S | - N R - G S R - ||",
-            "sahitya": "Poo - ji tam Triko - na Ma dhyaga tam-"
-          },
-          {
-            "line_number": 3,
-            "swara": "P R - - R - gp gr | S - N P - G R - ||",
-            "sahitya": "Muraa - - ri - Pra-mu- khaa- dyupaa - si tam"
-          },
-          {
-            "line_number": 4,
-            "swara": "G - P - np G G R | S - N S ,n R S - ||",
-            "sahitya": "Moo laa dhaa- ra - Kshe - tra - sthi tam"
-          },
-          {
-            "line_number": 5,
-            "swara": "P S - ns R - G - | R - P - G - N P - ||",
-            "sahitya": "Paraa - di- Chat vaa- ri Vaa - gaa - tma kam"
-          },
-          {
-            "line_number": 6,
-            "swara": "S S N - P nn G- P | - P - R S - S - ||",
-            "sahitya": "Prana va - Svaroo - pa - Va - kra tun- dam-"
-          },
-          {
-            "line_number": 7,
-            "swara": "N R - G R - S S | R -sn P - P nsrg R - ||",
-            "sahitya": "Niran - ta ram- Niti la Chan - dra gan-- dam"
-          },
-          {
-            "line_number": 8,
-            "swara": "sr sr snP P G R - N | R G - R sRs S - ||",
-            "sahitya": "Ni-ja- vaa-- maka ra Vi dhrute - kshu Dan-- dam"
-          },
-          {
-            "line_number": 9,
-            "swara": "g G - r s -R s R s n R S | g r p g N P n s R s n S ||",
-            "sahitya": "Karaambujapaasha Beejaapooram Kalushavidooram Bhootaakaaram"
-          },
-          {
-            "line_number": 10,
-            "swara": "p G r s r s n P n s R R | S S s n - P p p - g p g r s r ||",
-            "sahitya": "Haraadi Guruguha Toshita Bimbam Hamsa dhvani Bhoo shita He- ram-bham-"
-          }
+    "song_details": {
+        "name": "Vatapi Ganapathim",
+        "raga": "Hamsadhwani",
+        "arohanam": "S R G P N S || AVA: S N P G R S ||",
+        "avarohanam": "S R G P N S || AVA: S N P G R S ||",
+        "tala": "Adi",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "G - - R - S S N | P R - S R - sn sr ||",
+                "sahitya": "Vaa - taa - pi Gana pathim -bha je - ham--"
+            },
+            {
+                "line_number": 2,
+                "swara": "G sr G -R - S S N | P R - S R - sn sr ||",
+                "sahitya": "Vaa - taa - pi Gana pathim -bha je - ham--"
+            },
+            {
+                "line_number": 3,
+                "swara": "gpgg rs- rg rr sn g r sn | P R - S R - sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim -bha je - ham--"
+            },
+            {
+                "line_number": 4,
+                "swara": "G P - - G - R g r sn | np gr R- S R - sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
+            },
+            {
+                "line_number": 5,
+                "swara": "G P - npP G R g r sn | P Rgr R- N Rgr R sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
+            },
+            {
+                "line_number": 6,
+                "swara": "G P N - P G R g r sn | P Rgr R- N Rgr R sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
+            },
+            {
+                "line_number": 7,
+                "swara": "gpns R - sn pg R g r sn | P Rgr R- N Rgr R sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
+            },
+            {
+                "line_number": 8,
+                "swara": "gpns rg - gr sn pg g r sn | P Rgr R- N Rgr R sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
+            },
+            {
+                "line_number": 9,
+                "swara": "gpns rg - pg rs np g r sn | P Rgr R- N Rgr R sn sr ||",
+                "sahitya": "Vaa - - taa -- pi- Ga-na- pathim - Bha je - ham--"
+            },
+            {
+                "line_number": 10,
+                "swara": "G R G P - - - - | - - - - - gp g r s r ||",
+                "sahitya": "Vaa ra naa- - - - - - - - - - syam - - - -"
+            },
+            {
+                "line_number": 11,
+                "swara": "G R G P - - S - | S sn P gp R - s n s r ||",
+                "sahitya": "Vaa ra naa- - - syam Va ra- - Pra- dam- Sri- - -"
+            },
+            {
+                "line_number": 12,
+                "swara": "G R G P - - n s R | S sn P gp R - s n s r ||",
+                "sahitya": "Vaa ra naa- - - syam Va ra- - Pra- dam- Sri- - -"
+            },
+            {
+                "line_number": 13,
+                "swara": "G R G sn P - p n s r | g r s - r s n - s n p - g n p g r s r ||",
+                "sahitya": "Vaa ra naa- - - syam Va- - ra- - - Pra- - dam- Sri- - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - - G - R S - | S - gr sn S R G P - ||",
+                "sahitya": "Bhoo - taa - di Sam- se - - vi- tha Chara nam"
+            },
+            {
+                "line_number": 2,
+                "swara": "pgnp - G - R S - | sr gr sn S R G P - ||",
+                "sahitya": "Bhoo - taa - di Sam- se - - vi- tha Chara nam"
+            },
+            {
+                "line_number": 3,
+                "swara": "gp S S - sn R - sr sn P | P G - R S gp R - ||",
+                "sahitya": "Bhoo- ta Bhau - ti - ka- - Prapan - cha Bhara- nam-"
+            },
+            {
+                "line_number": 4,
+                "swara": "G p- g , n P p n s - n , r S | G r - s , n P P g - r , s R ||",
+                "sahitya": "Veetharaa -ginam Vinuta Yo- ginam Vishwakaa - ranam Vigna Vaa - ranam"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "G G - R - S S - | N P S N G R - G ||",
+                        "sahitya": "Puraa - Kum - bha Sam bhava Muni va ra - Pra"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "P - - G R - S S | - N R - G S R - ||",
+                        "sahitya": "Poo - ji tam Triko - na Ma dhyaga tam-"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "P R - - R - gp gr | S - N P - G R - ||",
+                        "sahitya": "Muraa - - ri - Pra-mu- khaa- dyupaa - si tam"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "G - P - np G G R | S - N S ,n R S - ||",
+                        "sahitya": "Moo laa dhaa- ra - Kshe - tra - sthi tam"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "P S - ns R - G - | R - P - G - N P - ||",
+                        "sahitya": "Paraa - di- Chat vaa- ri Vaa - gaa - tma kam"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "S S N - P nn G- P | - P - R S - S - ||",
+                        "sahitya": "Prana va - Svaroo - pa - Va - kra tun- dam-"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "N R - G R - S S | R -sn P - P nsrg R - ||",
+                        "sahitya": "Niran - ta ram- Niti la Chan - dra gan-- dam"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "sr sr snP P G R - N | R G - R sRs S - ||",
+                        "sahitya": "Ni-ja- vaa-- maka ra Vi dhrute - kshu Dan-- dam"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "g G - r s -R s R s n R S | g r p g N P n s R s n S ||",
+                        "sahitya": "Karaambujapaasha Beejaapooram Kalushavidooram Bhootaakaaram"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "p G r s r s n P n s R R | S S s n - P p p - g p g r s r ||",
+                        "sahitya": "Haraadi Guruguha Toshita Bimbam Hamsa dhvani Bhoo shita He- ram-bham-"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Vatapi_Ganapathim_Hamsadhwani.pdf"
 }

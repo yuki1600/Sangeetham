@@ -1,66 +1,67 @@
 {
-  "song_details": {
-    "name": "Shree Kamalaambike Shive",
-    "raga": "Sri",
-    "arohanam": "S R2 M1 P N2 S ||",
-    "avarohanam": "S N2 P D2 N2 P M1 R2 G2 R2 S ||",
-    "tala": "Khanda Ekam",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "pSn - - NP PM R - - - G R S R S - - - || S ,g rs N N R - snP - - N - S - - - R M P N ||",
-        "sahitya": "Shree - Ka- ma- laam- - bi - ke- - - - - Shi- ve-- - - Paa- - -- hi- maam Lali the-"
-      },
-      {
-        "line_number": 2,
-        "swara": "N - - - NP nS, npmr - - G R S R S - - - || S ,g rs N N R - snP - - N - S - - - R R S - ||",
-        "sahitya": "Shree - Ka- ma- -laam- - bi - ke- - - - - Shi- ve-- - - Paa- - -- hi- maam Lali the-"
-      },
-      {
-        "line_number": 3,
-        "swara": "R - PM R G R - SN - R S - N S R M PS ||",
-        "sahitya": "Shreepa ti vinu te Si taa si te Shiva Sahi te-"
-      },
-      {
-        "line_number": 4,
-        "swara": "P N - - NP nS, npmr - - G R S R S - - - || S ,g rs N N R - snP - - N - S - - - - - - - ||",
-        "sahitya": "Shree - Ka- ma- -laam- - bi - ke- - - - - Shi- ve-- - - Paa- - -- hi- maam - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "R - - - PM P R R G R S N S R S sR , - - || sN, - - N R snP gr- - - RS S,n S - - - ||",
-        "sahitya": "Raa- - kaa- - - chan- - - dra- mu- khi- - - Ra- - - ksi- ta- - ko- - - la- mu- khi---"
-      },
-      {
-        "line_number": 6,
-        "swara": "R- M - - - P - - - psN - - NM P - - - || R M - - - ,r RN N P - - N - S,n S - - - ||",
-        "sahitya": "Ramaa - - vaa - - ni- - - - sa- khi- - - Raa- - - - - ja- yo- - - ga- Su- khi- - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "R - R - G R - S - S - R S sn sn np pm P,n S R ||",
-        "sahitya": "Shaakam bari Sha to dari Chan-dra-ka - laa- dhari"
-      },
-      {
-        "line_number": 8,
-        "swara": "R - R R,g R S - S S,r R N N R snP pm R R G R S ||",
-        "sahitya": "Shan kari Shan- ka ra Guruguha Bha- kta- Va shan- kari"
-      },
-      {
-        "line_number": 9,
-        "swara": "R ,n S - R G R G R G R S S - S ,r S N PM ||",
-        "sahitya": "E - kaa kshari Bhuva ne- shvari Ee sha- priya kari"
-      },
-      {
-        "line_number": 10,
-        "swara": "P - D N P N P M R G R S - R N S R M P N ||",
-        "sahitya": "Shreekari Sukha kari Shri- Mahaa tri pura Sun- da ri"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Shree Kamalaambike Shive",
+        "raga": "Sri",
+        "arohanam": "S R2 M1 P N2 S ||",
+        "avarohanam": "S N2 P D2 N2 P M1 R2 G2 R2 S ||",
+        "tala": "Khanda Ekam",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "pSn - - NP PM R - - - G R S R S - - - || S ,g rs N N R - snP - - N - S - - - R M P N ||",
+                "sahitya": "Shree - Ka- ma- laam- - bi - ke- - - - - Shi- ve-- - - Paa- - -- hi- maam Lali the-"
+            },
+            {
+                "line_number": 2,
+                "swara": "N - - - NP nS, npmr - - G R S R S - - - || S ,g rs N N R - snP - - N - S - - - R R S - ||",
+                "sahitya": "Shree - Ka- ma- -laam- - bi - ke- - - - - Shi- ve-- - - Paa- - -- hi- maam Lali the-"
+            },
+            {
+                "line_number": 3,
+                "swara": "R - PM R G R - SN - R S - N S R M PS ||",
+                "sahitya": "Shreepa ti vinu te Si taa si te Shiva Sahi te-"
+            },
+            {
+                "line_number": 4,
+                "swara": "P N - - NP nS, npmr - - G R S R S - - - || S ,g rs N N R - snP - - N - S - - - - - - - ||",
+                "sahitya": "Shree - Ka- ma- -laam- - bi - ke- - - - - Shi- ve-- - - Paa- - -- hi- maam - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "R - - - PM P R R G R S N S R S sR , - - || sN, - - N R snP gr- - - RS S,n S - - - ||",
+                "sahitya": "Raa- - kaa- - - chan- - - dra- mu- khi- - - Ra- - - ksi- ta- - ko- - - la- mu- khi---"
+            },
+            {
+                "line_number": 6,
+                "swara": "R- M - - - P - - - psN - - NM P - - - || R M - - - ,r RN N P - - N - S,n S - - - ||",
+                "sahitya": "Ramaa - - vaa - - ni- - - - sa- khi- - - Raa- - - - - ja- yo- - - ga- Su- khi- - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "R - R - G R - S - S - R S sn sn np pm P,n S R ||",
+                "sahitya": "Shaakam bari Sha to dari Chan-dra-ka - laa- dhari"
+            },
+            {
+                "line_number": 8,
+                "swara": "R - R R,g R S - S S,r R N N R snP pm R R G R S ||",
+                "sahitya": "Shan kari Shan- ka ra Guruguha Bha- kta- Va shan- kari"
+            },
+            {
+                "line_number": 9,
+                "swara": "R ,n S - R G R G R G R S S - S ,r S N PM ||",
+                "sahitya": "E - kaa kshari Bhuva ne- shvari Ee sha- priya kari"
+            },
+            {
+                "line_number": 10,
+                "swara": "P - D N P N P M R G R S - R N S R M P N ||",
+                "sahitya": "Shreekari Sukha kari Shri- Mahaa tri pura Sun- da ri"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Shree_Kamalaambike_Shive_Sri_Ragam.pdf"
 }

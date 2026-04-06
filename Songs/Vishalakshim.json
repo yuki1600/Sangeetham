@@ -1,146 +1,147 @@
 {
-  "song_details": {
-    "name": "Vishalakshim",
-    "raga": "Panthuvarali",
-    "arohanam": "S R1 G3 M2 P D1 N3 S ||",
-    "avarohanam": "S N3 D1 P M2 G3 R1 S ||",
-    "tala": "Misra Chapu",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - D | P - D - || dN - , | sn D d N , || S - - | - - - - ||",
-        "sahitya": "-- vi sha la- ksim-- vi-- shve- shim-- - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - D | P ,m D - || dN - , | sn D d N , || S - - | - - - rs ||",
-        "sahitya": "-- vi sha la- ksim-- vi-- shve- shim-- - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "ndpm- P | P ,m D - || dN - , | sn D d N , || S - - | - - - nsrs ||",
-        "sahitya": "-- - - vi sha la- ksim-- vi-- shve- shim-- - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "ndpm- P | P ,m D - || dN - , | sn D d N , || S - S | R S - dn || S rn - ds | nd pm - pm ||",
-        "sahitya": "-- - - vi sha la- ksim-- vi-- shve- shim-bha ja re - re- ma-- na- sa - - - -sa"
-      },
-      {
-        "line_number": 5,
-        "swara": "gr gm- P | P ,m D - || dN - , | sn D d N , || S - G | R S - dn || S rn - ds | ndpm pmgr ||",
-        "sahitya": "da- - vi sha la- ksim-- vi-- shve- shim-bha ja re - re- ma-- na- sa - - - sa - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "sr gm- pd | n - dpm pmgr || gmpdns | srgm grsn || R - ds | nd - nd pm- gm || pd - pmgr | gr S S - nd ||",
-        "sahitya": "da- - vi - sha la- ksim-- vi-- shve- shim-bha ja re -- re- -- ma-- na-sa - sa -"
-      },
-      {
-        "line_number": 7,
-        "swara": "ndpm- pd | n - dpm pmgr || gmpdns | srgm grsn || R - ds | nd - nd pm- gm || pd - pmgr | grS nsrS,-d ||",
-        "sahitya": "da- - vi - sha la- ksim-- vi-- shve- shim-bha ja re - re- ma-- na-sa sa - da"
-      },
-      {
-        "line_number": 8,
-        "swara": "ndpm- P | P ,m D - || N - - | sn D d N , || S - - | - - - - ||",
-        "sahitya": "-- - -vi sha la- ksim-- vi-- shve- shim-- - - - -"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- - P | ,g - M D - || dN , - | S S ,d N || - S - | - - - - || - - - | - - - ,s ||",
-            "sahitya": "ka – shi rajh nim- - ka pa -- li nim-- - - - - - - - -- - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - - | - - - ,s ||",
-            "sahitya": "-- - - ka –shi rajh nim- - ka pa -- li nim-- - - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - - | - - nsrs nsrs ||",
-            "sahitya": "-- - - ka – shi rajh nim- - kapa -- li nim-- - - - - - - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - - | - dn S , s ||",
-            "sahitya": "-- - - ka – shi rajh nim- - kapa -- li nim-- - - - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - sr | G - gr G || - pm gr | - srss , Sd ||",
-            "sahitya": "-- - - ka – shi rajh nim- - kapa -- li nim vi no da- ja li- nim- va -- ri"
-          },
-          {
-            "line_number": 6,
-            "swara": "N - - P | ,g M D - || dN , - | S S ,d N || S - sr | G - gr G || - pm gr | - srss , Sd ||",
-            "sahitya": "Nim ka – shi rajh nim- - kapa -- li nim vi no da- ja li- nim- va -- ri"
-          },
-          {
-            "line_number": 7,
-            "swara": "N - - dn | s- N d P- m g || , r S – mg | pm D g r s n || dp M -",
-            "sahitya": "Nim pa-shamoca nim prasi -ddhinim I - sha-nim guruguha jananim [repeat]"
-          },
-          {
-            "line_number": 8,
-            "swara": "dp M - dd | p- n d p ndpm || gm pd P | - - - , s ||",
-            "sahitya": "jananim Thaiya Thakita ndpm Thimi pd P - - - - s"
-          },
-          {
-            "line_number": 9,
-            "swara": "ndpm - dd | p- n d p ndpm || gm pd P | - , s P , s ||",
-            "sahitya": "ndpm Thaiya Thakita ndpm Thimi pd P s P , s"
-          },
-          {
-            "line_number": 10,
-            "swara": "P , s - dd | p- n d p ndpm || gm pd P | - , s D , s ||",
-            "sahitya": "P, s Thaiya Thakita ndpm Thimi pd P - s D , s"
-          },
-          {
-            "line_number": 11,
-            "swara": "P , s - dd | p- n d p ndpm || gm pd P | - - - , s ||",
-            "sahitya": "P, s Thaiya Thakita ndpm Thimi pd P - - - - s"
-          },
-          {
-            "line_number": 12,
-            "swara": "ndpm - dd | p- n d p ndpm || gm pd ns | g r – g m g R s ||",
-            "sahitya": "ndpm Thaiya Thakita ndpm Thimi pd ns Jam- Thari Thathin gi"
-          },
-          {
-            "line_number": 13,
-            "swara": "nd P dd | p- n d p ndpm || gm pd ns | g r – g m g R s ||",
-            "sahitya": "nathom P Thaiya Thakita ndpm Thimi pd ns Jam- Thari Thathin gi"
-          },
-          {
-            "line_number": 14,
-            "swara": "nd pm - g m | p d p - g m p - mp || d- p d n – d n | s – nr s N , - s ||",
-            "sahitya": "nathom pm Dhimi Thakita g m p-mp d-tajanu d n s – nrtha Jam Tha"
-          },
-          {
-            "line_number": 15,
-            "swara": "nd p m - g m | p d p - g m p - mp || d- p d n – d n | s – nr s N s s || n d p m",
-            "sahitya": "digi na thom Dhimi Thakita g m p-mp d-tajanu d n s – nrtha Jamta Tha di gina thom"
-          },
-          {
-            "line_number": 16,
-            "swara": "ndpm- pd | n - dpm pmgr || gmpdns | srgm grsn || R - ds | nd - nd pm- gm || pd - pmgr | grS",
-            "sahitya": "diginathom vi - sha la- ksim-- vi-- shve- shim-bha ja re - re- - - ma-- na-"
-          },
-          {
-            "line_number": 17,
-            "swara": "ndpm- P | P ,m D - || N - - | sn D d N , || S - - | - - - - ||",
-            "sahitya": "-- - - vi sha la- ksim-- vi-- shve- shim-- - - - -"
-          }
+    "song_details": {
+        "name": "Vishalakshim",
+        "raga": "Panthuvarali",
+        "arohanam": "S R1 G3 M2 P D1 N3 S ||",
+        "avarohanam": "S N3 D1 P M2 G3 R1 S ||",
+        "tala": "Misra Chapu",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - D | P - D - || dN - , | sn D d N , || S - - | - - - - ||",
+                "sahitya": "-- vi sha la- ksim-- vi-- shve- shim-- - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - D | P ,m D - || dN - , | sn D d N , || S - - | - - - rs ||",
+                "sahitya": "-- vi sha la- ksim-- vi-- shve- shim-- - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "ndpm- P | P ,m D - || dN - , | sn D d N , || S - - | - - - nsrs ||",
+                "sahitya": "-- - - vi sha la- ksim-- vi-- shve- shim-- - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "ndpm- P | P ,m D - || dN - , | sn D d N , || S - S | R S - dn || S rn - ds | nd pm - pm ||",
+                "sahitya": "-- - - vi sha la- ksim-- vi-- shve- shim-bha ja re - re- ma-- na- sa - - - -sa"
+            },
+            {
+                "line_number": 5,
+                "swara": "gr gm- P | P ,m D - || dN - , | sn D d N , || S - G | R S - dn || S rn - ds | ndpm pmgr ||",
+                "sahitya": "da- - vi sha la- ksim-- vi-- shve- shim-bha ja re - re- ma-- na- sa - - - sa - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "sr gm- pd | n - dpm pmgr || gmpdns | srgm grsn || R - ds | nd - nd pm- gm || pd - pmgr | gr S S - nd ||",
+                "sahitya": "da- - vi - sha la- ksim-- vi-- shve- shim-bha ja re -- re- -- ma-- na-sa - sa -"
+            },
+            {
+                "line_number": 7,
+                "swara": "ndpm- pd | n - dpm pmgr || gmpdns | srgm grsn || R - ds | nd - nd pm- gm || pd - pmgr | grS nsrS,-d ||",
+                "sahitya": "da- - vi - sha la- ksim-- vi-- shve- shim-bha ja re - re- ma-- na-sa sa - da"
+            },
+            {
+                "line_number": 8,
+                "swara": "ndpm- P | P ,m D - || N - - | sn D d N , || S - - | - - - - ||",
+                "sahitya": "-- - -vi sha la- ksim-- vi-- shve- shim-- - - - -"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- - P | ,g - M D - || dN , - | S S ,d N || - S - | - - - - || - - - | - - - ,s ||",
+                        "sahitya": "ka \u2013 shi rajh nim- - ka pa -- li nim-- - - - - - - - -- - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - - | - - - ,s ||",
+                        "sahitya": "-- - - ka \u2013shi rajh nim- - ka pa -- li nim-- - - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - - | - - nsrs nsrs ||",
+                        "sahitya": "-- - - ka \u2013 shi rajh nim- - kapa -- li nim-- - - - - - - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - - | - dn S , s ||",
+                        "sahitya": "-- - - ka \u2013 shi rajh nim- - kapa -- li nim-- - - - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "ndpm- P | ,g M D - || dN , - | S S ,d N || S - sr | G - gr G || - pm gr | - srss , Sd ||",
+                        "sahitya": "-- - - ka \u2013 shi rajh nim- - kapa -- li nim vi no da- ja li- nim- va -- ri"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "N - - P | ,g M D - || dN , - | S S ,d N || S - sr | G - gr G || - pm gr | - srss , Sd ||",
+                        "sahitya": "Nim ka \u2013 shi rajh nim- - kapa -- li nim vi no da- ja li- nim- va -- ri"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "N - - dn | s- N d P- m g || , r S \u2013 mg | pm D g r s n || dp M -",
+                        "sahitya": "Nim pa-shamoca nim prasi -ddhinim I - sha-nim guruguha jananim [repeat]"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "dp M - dd | p- n d p ndpm || gm pd P | - - - , s ||",
+                        "sahitya": "jananim Thaiya Thakita ndpm Thimi pd P - - - - s"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "ndpm - dd | p- n d p ndpm || gm pd P | - , s P , s ||",
+                        "sahitya": "ndpm Thaiya Thakita ndpm Thimi pd P s P , s"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "P , s - dd | p- n d p ndpm || gm pd P | - , s D , s ||",
+                        "sahitya": "P, s Thaiya Thakita ndpm Thimi pd P - s D , s"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "P , s - dd | p- n d p ndpm || gm pd P | - - - , s ||",
+                        "sahitya": "P, s Thaiya Thakita ndpm Thimi pd P - - - - s"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "ndpm - dd | p- n d p ndpm || gm pd ns | g r \u2013 g m g R s ||",
+                        "sahitya": "ndpm Thaiya Thakita ndpm Thimi pd ns Jam- Thari Thathin gi"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "nd P dd | p- n d p ndpm || gm pd ns | g r \u2013 g m g R s ||",
+                        "sahitya": "nathom P Thaiya Thakita ndpm Thimi pd ns Jam- Thari Thathin gi"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "nd pm - g m | p d p - g m p - mp || d- p d n \u2013 d n | s \u2013 nr s N , - s ||",
+                        "sahitya": "nathom pm Dhimi Thakita g m p-mp d-tajanu d n s \u2013 nrtha Jam Tha"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "nd p m - g m | p d p - g m p - mp || d- p d n \u2013 d n | s \u2013 nr s N s s || n d p m",
+                        "sahitya": "digi na thom Dhimi Thakita g m p-mp d-tajanu d n s \u2013 nrtha Jamta Tha di gina thom"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "ndpm- pd | n - dpm pmgr || gmpdns | srgm grsn || R - ds | nd - nd pm- gm || pd - pmgr | grS",
+                        "sahitya": "diginathom vi - sha la- ksim-- vi-- shve- shim-bha ja re - re- - - ma-- na-"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "ndpm- P | P ,m D - || N - - | sn D d N , || S - - | - - - - ||",
+                        "sahitya": "-- - - vi sha la- ksim-- vi-- shve- shim-- - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Vishalakshim_Panthuvarali.pdf"
 }

@@ -1,212 +1,213 @@
 {
-  "song_details": {
-    "name": "Chandram Bhaja",
-    "raga": "Asaveri",
-    "arohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
-    "avarohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
-    "tala": "Matya",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "RM RM P - - - | Pnn D D P | Ppm - ,g G R S - ||",
-        "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 2,
-        "swara": "RM RM P - - - | Pnn D D P | mpdp pMg G R S - ||",
-        "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 3,
-        "swara": "RM RM P ,m P - | Pnn D D P | mpdp pMg G R S - ||",
-        "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 4,
-        "swara": "rm Pdp mgM P,d S - | Pnn D D P | mpdp pMg G R S - ||",
-        "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 5,
-        "swara": "rm Pdp mgM pdpd S ,p | Pnn D D P | mpdp pMg G R S - ||",
-        "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 6,
-        "swara": "rm Pdp mgM pdpd S - | rGr rS , | rmpd srns pdmp mgrs ||",
-        "sahitya": "Chan - - dram - - Bha-- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 7,
-        "swara": "rm Pdp mgM pdpd S - | pm rGr rS , | rmpd srns pdmp mgrs ||",
-        "sahitya": "Chan - - dram - - Bha-- -- ja - Maa-- - - na - sa -"
-      },
-      {
-        "line_number": 8,
-        "swara": "rm Pdp mgM pdpd S - | pm rGr rS , | rmpd Srs S Pdp mp mgrs ||",
-        "sahitya": "Chan - - dram - - Bha-- -- ja - Maa-- - - - - na - - - sa -"
-      },
-      {
-        "line_number": 9,
-        "swara": "NS P - D - - R | S - R - | rm Pdp pMg G R rr S ||",
-        "sahitya": "Saa- - - dhu- - Hru da - ya - Sa- - - dru- - sham- - - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "- pm , r M PM P - | - P , dpm | pmP - - - - - - ||",
-        "sahitya": "Chan - - dram - - - Bha - - - ja - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "Srs R - Pdp D - | pdpd dm P , | - - pdpd dm P , - - ||",
-        "sahitya": "In-- - - draa- - - di--- Lo- - - ka--- paa- - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "D N D P D R S - | S ,r G R | S ,g rsrn sd S - - ||",
-        "sahitya": "le- - - - di - ta - Taa- - - re-- - - - sham- - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "Srs R - spdp D - | pdpd dm P , | - - pdpd dm P , - - ||",
-        "sahitya": "In-- - - draa- - - di--- Lo- - - ka--- paa- - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "D N D P D R S - | S ,r G R | S rg rsrn sd S - - ||",
-        "sahitya": "le- - - - di - ta - Taa- - - re-- - - - sham- - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S,r G R S - N S | S S rn D | P dm dp P ,d -S S - ||",
-        "sahitya": "In- dum- Sho- dasa Kalaa -- dha ram-- Ni-shaa -- ka ram"
-      },
-      {
-        "line_number": 6,
-        "swara": "DR S - sn D - P pp M ,g | R S - pd | S - rm Pdp mpmg , r S ||",
-        "sahitya": "In- di raa- - Sa ho- - - dharam -su- dhaa- ka-ram- A-ni- sham"
-      },
-      {
-        "line_number": 7,
-        "swara": "S,r G R S - N S | S S rn D | P dm d P- p - sr , nS ||",
-        "sahitya": "In- dum- Sho- dasa Kalaa -- dha ram-- Ni-shaa -- ka ram"
-      },
-      {
-        "line_number": 8,
-        "swara": "DR S - ns , p - md pp M ,g | R S - pd | S - rm Pdp mpmg , r S ||",
-        "sahitya": "In- di raa- - Sa- ho- - - dharam -su- dhaa- ka-ram- A-ni- sham"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "Srs R - D R S - | NS pdpd | P- P - P ,m P - ||",
-            "sahitya": "Shan - - ka - ra- mau- - - - - li- Vi- bhu- - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "P - D N D P M P | - ,m D P | mpdp pMg G R R S ||",
-            "sahitya": "sha- nam- - - See- - - - - tha ki- - - ra- - nam- - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "srsr N S P - - pd | G R R S | S rg rs rn S - - - ||",
-            "sahitya": "Cha-- tur- - - - bhu- jam- - - - Ma-- da- - nam - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "R - - - M - - - | pdpd dm P | - - Pdn dm P - ,m ||",
-            "sahitya": "Cha- - - tram- - - Shaa-- paa- - - - kaa-- ram- - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "P - Pdn dpdm mpdp | D - D - | - pd , S n S - - - ||",
-            "sahitya": "Ven - - - ka-- te- - - - - sha- - Na- ya-- nam - -"
-          },
-          {
-            "line_number": 6,
-            "swara": "- pd S - - - - R | R,g grS | Srg rsrn S - - - ||",
-            "sahitya": "- Vi- raan - - - ma no - - - - Ja-- na-- nam- - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "P - Pdn dpdm mpdp | D - D - | - pd , S n N S - - ||",
-            "sahitya": "Ven - - - ka-- te- - - - - sha- - Na- ya-- nam - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "- pd S - - - - R | rmpm G ,r | Srg rsrn S - - - ||",
-            "sahitya": "- Vi- raan - - - ma no - - - - Ja-- na-- nam- - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "- pd S - - - - R | G - grS | Srg rsrn S - - - ||",
-            "sahitya": "Vi- dhum -- - Ku mu- da-- Mi-- - - - thram - -"
-          },
-          {
-            "line_number": 10,
-            "swara": "- rm P - - P D - | D P P - | mpdp pMg G R R S ||",
-            "sahitya": "Vi- dhi- - Gu ru - gu - ha Va--- - - - ktram- - -"
-          },
-          {
-            "line_number": 11,
-            "swara": "dPd S - - - - R | G - grS | Srg rsrn S - - - ||",
-            "sahitya": "Vi- dhum -- - Ku mu- da-- Mi-- - - - thram - -"
-          },
-          {
-            "line_number": 12,
-            "swara": "- rm P - - P dnD | D P P - | mpdp pMg G R S- sr ||",
-            "sahitya": "Vi- dhi- - Gu ru - gu - ha Va--- - - - ktram- - Sa"
-          },
-          {
-            "line_number": 13,
-            "swara": "G,r S - Rgr R S | s r s r n S , | S P P P dPd S - ||",
-            "sahitya": "shaan kam Gee-- shpa thi Shaa-- paa- - nu- graha Paa-- tram"
-          },
-          {
-            "line_number": 14,
-            "swara": "S , - r - M - M P - | mp dp D - | P dn d P- md D - P - sr ||",
-            "sahitya": "Sha-ra -scchan - dri kaa- Dha-va- la - Pra- kaa- sha- Gaa- tram Sa"
-          },
-          {
-            "line_number": 15,
-            "swara": "G,r S - pmG R S | s r s r n S , | S P P P dPd S - ||",
-            "sahitya": "shaan kam Gee-- shpa thi Shaa-- paa- - nu- graha Paa-- tram"
-          },
-          {
-            "line_number": 16,
-            "swara": "S , - r - M - M P - | mp dp D - | P dn d P- md D - P - ||",
-            "sahitya": "Sha-ra -scchan - dri kaa- Dha-va- la - Pra- kaa- sha- Gaa- tram-"
-          },
-          {
-            "line_number": 17,
-            "swara": "d P m D D D , r S - | sr - G , r -R | R S S - S s r n S, ||",
-            "sahitya": "Kan-- kana Ke- - yu- ra- Haa - - ra Maku taa- di Dha- ram--"
-          },
-          {
-            "line_number": 18,
-            "swara": "p - Pd G R S - S,r ns- ns | sp- D P - | rm pd sn dp p p mg RS ||",
-            "sahitya": "- Pan ka ja Ri pum- -- Ro - - hi nim- Pri-ya- ka-ra- Cha-tu- ram-"
-          },
-          {
-            "line_number": 19,
-            "swara": "d P m D D D , r S - | rpm- g , r -R | , r S S - S s r n S, ||",
-            "sahitya": "Kan-- kana Ke- - yu- ra- Haa - - ra Maku taa- di Dha- ram--"
-          },
-          {
-            "line_number": 20,
-            "swara": "p - Pd G R S - S,r ns- ns | sp- D P - | rm pd sn dp p p mg RS ||",
-            "sahitya": "- Pan ka ja Ri pum- -- Ro - - hi nim- Pri-ya- ka-ra- Cha-tu- ram-"
-          }
+    "song_details": {
+        "name": "Chandram Bhaja",
+        "raga": "Asaveri",
+        "arohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
+        "avarohanam": "S R1 M1 P D1 S || AVA: S N2 S P D1 P M1 R2 G2 R1 S ||",
+        "tala": "Matya",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "RM RM P - - - | Pnn D D P | Ppm - ,g G R S - ||",
+                "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 2,
+                "swara": "RM RM P - - - | Pnn D D P | mpdp pMg G R S - ||",
+                "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 3,
+                "swara": "RM RM P ,m P - | Pnn D D P | mpdp pMg G R S - ||",
+                "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 4,
+                "swara": "rm Pdp mgM P,d S - | Pnn D D P | mpdp pMg G R S - ||",
+                "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 5,
+                "swara": "rm Pdp mgM pdpd S ,p | Pnn D D P | mpdp pMg G R S - ||",
+                "sahitya": "Chan - - dram - - Bha--- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 6,
+                "swara": "rm Pdp mgM pdpd S - | rGr rS , | rmpd srns pdmp mgrs ||",
+                "sahitya": "Chan - - dram - - Bha-- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 7,
+                "swara": "rm Pdp mgM pdpd S - | pm rGr rS , | rmpd srns pdmp mgrs ||",
+                "sahitya": "Chan - - dram - - Bha-- -- ja - Maa-- - - na - sa -"
+            },
+            {
+                "line_number": 8,
+                "swara": "rm Pdp mgM pdpd S - | pm rGr rS , | rmpd Srs S Pdp mp mgrs ||",
+                "sahitya": "Chan - - dram - - Bha-- -- ja - Maa-- - - - - na - - - sa -"
+            },
+            {
+                "line_number": 9,
+                "swara": "NS P - D - - R | S - R - | rm Pdp pMg G R rr S ||",
+                "sahitya": "Saa- - - dhu- - Hru da - ya - Sa- - - dru- - sham- - - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "- pm , r M PM P - | - P , dpm | pmP - - - - - - ||",
+                "sahitya": "Chan - - dram - - - Bha - - - ja - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "Srs R - Pdp D - | pdpd dm P , | - - pdpd dm P , - - ||",
+                "sahitya": "In-- - - draa- - - di--- Lo- - - ka--- paa- - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "D N D P D R S - | S ,r G R | S ,g rsrn sd S - - ||",
+                "sahitya": "le- - - - di - ta - Taa- - - re-- - - - sham- - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "Srs R - spdp D - | pdpd dm P , | - - pdpd dm P , - - ||",
+                "sahitya": "In-- - - draa- - - di--- Lo- - - ka--- paa- - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "D N D P D R S - | S ,r G R | S rg rsrn sd S - - ||",
+                "sahitya": "le- - - - di - ta - Taa- - - re-- - - - sham- - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S,r G R S - N S | S S rn D | P dm dp P ,d -S S - ||",
+                "sahitya": "In- dum- Sho- dasa Kalaa -- dha ram-- Ni-shaa -- ka ram"
+            },
+            {
+                "line_number": 6,
+                "swara": "DR S - sn D - P pp M ,g | R S - pd | S - rm Pdp mpmg , r S ||",
+                "sahitya": "In- di raa- - Sa ho- - - dharam -su- dhaa- ka-ram- A-ni- sham"
+            },
+            {
+                "line_number": 7,
+                "swara": "S,r G R S - N S | S S rn D | P dm d P- p - sr , nS ||",
+                "sahitya": "In- dum- Sho- dasa Kalaa -- dha ram-- Ni-shaa -- ka ram"
+            },
+            {
+                "line_number": 8,
+                "swara": "DR S - ns , p - md pp M ,g | R S - pd | S - rm Pdp mpmg , r S ||",
+                "sahitya": "In- di raa- - Sa- ho- - - dharam -su- dhaa- ka-ram- A-ni- sham"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "Srs R - D R S - | NS pdpd | P- P - P ,m P - ||",
+                        "sahitya": "Shan - - ka - ra- mau- - - - - li- Vi- bhu- - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "P - D N D P M P | - ,m D P | mpdp pMg G R R S ||",
+                        "sahitya": "sha- nam- - - See- - - - - tha ki- - - ra- - nam- - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "srsr N S P - - pd | G R R S | S rg rs rn S - - - ||",
+                        "sahitya": "Cha-- tur- - - - bhu- jam- - - - Ma-- da- - nam - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "R - - - M - - - | pdpd dm P | - - Pdn dm P - ,m ||",
+                        "sahitya": "Cha- - - tram- - - Shaa-- paa- - - - kaa-- ram- - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "P - Pdn dpdm mpdp | D - D - | - pd , S n S - - - ||",
+                        "sahitya": "Ven - - - ka-- te- - - - - sha- - Na- ya-- nam - -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- pd S - - - - R | R,g grS | Srg rsrn S - - - ||",
+                        "sahitya": "- Vi- raan - - - ma no - - - - Ja-- na-- nam- - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "P - Pdn dpdm mpdp | D - D - | - pd , S n N S - - ||",
+                        "sahitya": "Ven - - - ka-- te- - - - - sha- - Na- ya-- nam - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- pd S - - - - R | rmpm G ,r | Srg rsrn S - - - ||",
+                        "sahitya": "- Vi- raan - - - ma no - - - - Ja-- na-- nam- - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- pd S - - - - R | G - grS | Srg rsrn S - - - ||",
+                        "sahitya": "Vi- dhum -- - Ku mu- da-- Mi-- - - - thram - -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "- rm P - - P D - | D P P - | mpdp pMg G R R S ||",
+                        "sahitya": "Vi- dhi- - Gu ru - gu - ha Va--- - - - ktram- - -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "dPd S - - - - R | G - grS | Srg rsrn S - - - ||",
+                        "sahitya": "Vi- dhum -- - Ku mu- da-- Mi-- - - - thram - -"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "- rm P - - P dnD | D P P - | mpdp pMg G R S- sr ||",
+                        "sahitya": "Vi- dhi- - Gu ru - gu - ha Va--- - - - ktram- - Sa"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "G,r S - Rgr R S | s r s r n S , | S P P P dPd S - ||",
+                        "sahitya": "shaan kam Gee-- shpa thi Shaa-- paa- - nu- graha Paa-- tram"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "S , - r - M - M P - | mp dp D - | P dn d P- md D - P - sr ||",
+                        "sahitya": "Sha-ra -scchan - dri kaa- Dha-va- la - Pra- kaa- sha- Gaa- tram Sa"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "G,r S - pmG R S | s r s r n S , | S P P P dPd S - ||",
+                        "sahitya": "shaan kam Gee-- shpa thi Shaa-- paa- - nu- graha Paa-- tram"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "S , - r - M - M P - | mp dp D - | P dn d P- md D - P - ||",
+                        "sahitya": "Sha-ra -scchan - dri kaa- Dha-va- la - Pra- kaa- sha- Gaa- tram-"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "d P m D D D , r S - | sr - G , r -R | R S S - S s r n S, ||",
+                        "sahitya": "Kan-- kana Ke- - yu- ra- Haa - - ra Maku taa- di Dha- ram--"
+                    },
+                    {
+                        "line_number": 18,
+                        "swara": "p - Pd G R S - S,r ns- ns | sp- D P - | rm pd sn dp p p mg RS ||",
+                        "sahitya": "- Pan ka ja Ri pum- -- Ro - - hi nim- Pri-ya- ka-ra- Cha-tu- ram-"
+                    },
+                    {
+                        "line_number": 19,
+                        "swara": "d P m D D D , r S - | rpm- g , r -R | , r S S - S s r n S, ||",
+                        "sahitya": "Kan-- kana Ke- - yu- ra- Haa - - ra Maku taa- di Dha- ram--"
+                    },
+                    {
+                        "line_number": 20,
+                        "swara": "p - Pd G R S - S,r ns- ns | sp- D P - | rm pd sn dp p p mg RS ||",
+                        "sahitya": "- Pan ka ja Ri pum- -- Ro - - hi nim- Pri-ya- ka-ra- Cha-tu- ram-"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Chandram_Bhaja_Navagraha_Krithi_Asaveri.pdf"
 }

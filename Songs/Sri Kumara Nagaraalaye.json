@@ -1,187 +1,188 @@
 {
-  "song_details": {
-    "name": "Sri Kumara Nagaraalaye",
-    "raga": "Atana",
-    "arohanam": "S R2 M1 P N2 S ||",
-    "avarohanam": "S N3 D2 , N2 P M1 P G2 , R2 S ||",
-    "tala": "Adi",
-    "composer": "Swati Tirunal"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - - - - - S D rsnp - - d N , P - | P M P - pm G gm P | - - dn P pmpm P N ||",
-        "sahitya": "Shri- - - -ku- maa- - ra -- - - Na- g a- raa- - a- -- -- la- - ye- - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S - - - - R - NS snD - - d N , P - | P M P - pm G gm P | - - dn P P M P - ||",
-        "sahitya": "Shri- - - - Ku- maa- - ra -- - - N a- ga- raa- - a- -- -- la- - ye- - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "M - P - P S sn nd S - S D rsnd D - | - pr , S g rsnp - - | - pd N D N P DN ||",
-        "sahitya": "Ka- ru- naa- - - - - - la- ye- - - - - Ka- - ma- laa- - -- - -- la - ye- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
-        "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- la- - ye- - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsrm rmpn pmpr ||",
-        "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - Ka- ma- - - laa- - -- - -- - - -- - - - la --- ye- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
-        "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- - la- - ye- - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsr - s rm - rm p - mpr ||",
-        "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - - Ka- ma- - - laa- - -- - -- - - -- - -- - - - la --- ye- -"
-      },
-      {
-        "line_number": 8,
-        "swara": "S - - - - - d N , - ,d -N S - ,n R - | - ,s S - - - - - | - - - - - - - - ||",
-        "sahitya": "Shri- - - - - - - - - - - Ku--- - - maa- - - ra -- - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "S - - - prrs nSn dNd - S - N -R - S | S - - - - - - | - - - - - - - - ||",
-        "sahitya": "Shri- - - - - - - - - - - Ku--- - maa- - ra -- - - - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- P ppmg - M P - P - nnP P M P - | PM P - S - S - | NS snD dNp - P ||",
-        "sahitya": "- Shru ta- - - - ja na- Kal- - - pa- ka - Paa-- - - - - da pe- - - -- - - Aa"
-      },
-      {
-        "line_number": 2,
-        "swara": "- P ppmg - M P - P - nnP pnnm P - | PM P - P mr S - | sn Srs N S- S - - - ||",
-        "sahitya": "- Shru ta- - - - ja na- Kal- - - pa- - ka - Paa-- - - - - da pe- - - -- Shri"
-      },
-      {
-        "line_number": 3,
-        "swara": "Pmr R G rs Rs -sn Srs N S snD - D , D, | P - D - D N -S , g | rsns rs- nr sn -pn pmP ||",
-        "sahitya": "Pa- - - - dma-- naa- - - - bha- Vada- naam- - bu - ja - - Ma- -- dhu - - - pe- - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "Pmr R G rs Rs -sn Srs N S snD - S S P | P - D - D N -S , g | rsns rs- nr sn -pn pmP ||",
-        "sahitya": "Pa- - - - dma-- naa- - - - bha- Vada- naam- - bu - ja - - Ma- -- dhu - - - pe- - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "Pmr pm R,m rs Rs -sn Srs N S snD - S S D | ns Rgr S ,g rsnp P - | pd pdN dnS nsrs np - nn pm P ||",
-        "sahitya": "Pa- - - - - - dma-- naa- - - - bha- Vada-- naam- - - - bu - ja - Ma- --- -- - dhu - - pe- - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "Pmr pm R,m rs Rs -sn Srs N S snD - S S ,d | ns Rgr S ,g rsnp P - | pd pdN dnS nsrs np - nn pm pr ||",
-        "sahitya": "Pa- - - - - - dma-- naa- - - - bha- Vada-- naam- - - - bu - ja - Ma- --- -- - dhu - - pe- - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
-        "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- - la- - ye- - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsr - s rm - rm p - mpr ||",
-        "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - - Ka- ma- - - laa- - -- - -- - - -- - -- - - - la --- ye- -"
-      },
-      {
-        "line_number": 9,
-        "swara": "S - - - - - d N , - ,d -N S - ,n R - | - ,s S - - - - - | - - - - - - - - ||",
-        "sahitya": "Shri- - - - - - - - - - - Ku--- - - maa- - - ra -- - - - - - - - - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "D - D - D D D - D P P - N D Pdp pm P P | pd snN P - M npM P G M | P - pm dp D - - - ||",
-            "sahitya": "Man-da Ga mana Ji ta Vaa - ra ne - - - sura Vrn- - da vai - - - rivi ni vaa-- - ra- ne- - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "D - D - D D D - D dp pdns rs np P nn pmP | pd snN P - M npM P G M | P - pm dp D - - - ||",
-            "sahitya": "Man-da Ga mana Ji ta Vaa - - ra- ne - su-ra Vrn- - da vai - - - rivi ni vaa-- - ra- ne- - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "PD ns D - P M P pm R R rm s R s ,-s S | R M R - rm P P -P nn | pm- pd , n S s n r s n P , ||",
-            "sahitya": "In- di- re - Bhuvana Kaa- - - ra- nee- -kuru vin- da Dan- - ti Kisa- - - laya Mrudu Cha-ra- ne- -"
-          },
-          {
-            "line_number": 4,
-            "swara": "pD Ns D - P M P pm R R rm s R s S S | R M R - rm P P -p D - d | pm- pd , n S s n r s n P , ||",
-            "sahitya": "In- di- re - Bhuvana Kaa- - - ra- nee- -kuru vin- da Dan- - ti Ki- sa- - - laya Mrudu Cha-ra- ne- -"
-          },
-          {
-            "line_number": 5,
-            "swara": "P , pm P - P S S - S S - S , d N S - - - | - - - - - - - - | - D ns R,s N P P P ||",
-            "sahitya": "Man-- da Haa - sa Ruchi Ni - n di te - - - - - - - - - - - - - - - - - - - Am ba"
-          },
-          {
-            "line_number": 6,
-            "swara": "P , pm P - P S S - S S R - S -Srs S - N -D D | D D N - S - S - R sg | rsnp - - D N ,s N P ||",
-            "sahitya": "Man-- da Haa - sa Ruchi Nin di te - - ndu Ka ra Kun- da Vrn - da Maka- ran- - da Bin- du -"
-          },
-          {
-            "line_number": 7,
-            "swara": "pnnm P - P S S - S S R - S -Srs S - N -D D | D D N - S - S - R sg | rsnp - - D N ,s N P ||",
-            "sahitya": "Man-- da Haa - sa Ruchi Nin di te - - ndu Ka ra Kun- da Vrn - da Maka- ran- - da Bin- du -"
-          },
-          {
-            "line_number": 8,
-            "swara": "pnnm P - P S S - S S S mg rS, -Srs ns - S -D D | nddn D- nd ns sd -ns rm | rs N , r - sg rsnp -dNp ||",
-            "sahitya": "Man-- da Haa - sa Ruchi Nin- di - te - - ndu Ka ra Kun- da Vrn - da- Ma-ka- ran- - - da- Bin- du -"
-          },
-          {
-            "line_number": 9,
-            "swara": "P M P - P S S - ns rmR - R S R sn Srs N -S | sn D - D N S R - | - - rrsn S - S S ||",
-            "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye- - - -- - - - - Amba"
-          },
-          {
-            "line_number": 10,
-            "swara": "N M P - P S S - ns rmR - R S R sn Srs N -S | sn D - D N S R - | - ns rmR S rsnp -d Np ||",
-            "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye- - Ja-ga- -du- paa- - sye--"
-          },
-          {
-            "line_number": 11,
-            "swara": "pN M , - P S S - N S mg- R S R sn Srs ns -S | ss N,d D N S R - | - mm rr sn nr sn pm P ||",
-            "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye - Ja-ga- -du- paa- - sye--"
-          },
-          {
-            "line_number": 12,
-            "swara": "pN M , - P S S - N S mg- R S R sn Srs ns -S | ss N,d D N S R - | - mm rr sn nr sn pm pr ||",
-            "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye - Ja-ga- -du- paa- - sye—"
-          },
-          {
-            "line_number": 13,
-            "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
-            "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- - la- - ye- - - - -"
-          },
-          {
-            "line_number": 14,
-            "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsr - s rm - rm p - mpr ||",
-            "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - - Ka- ma- - - laa- - -- - -- - - -- - -- - - - la --- ye- -"
-          },
-          {
-            "line_number": 15,
-            "swara": "S - - - - - d N , - ,d -N S - ,n R - | - ,s S - - - - - | - - - - - - - - ||",
-            "sahitya": "Shri- - - - - - - - - - - Ku--- - - maa- - - ra -- - - - - - - - - - - - -"
-          }
+    "song_details": {
+        "name": "Sri Kumara Nagaraalaye",
+        "raga": "Atana",
+        "arohanam": "S R2 M1 P N2 S ||",
+        "avarohanam": "S N3 D2 , N2 P M1 P G2 , R2 S ||",
+        "tala": "Adi",
+        "composer": "Swati Tirunal"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - - - - - S D rsnp - - d N , P - | P M P - pm G gm P | - - dn P pmpm P N ||",
+                "sahitya": "Shri- - - -ku- maa- - ra -- - - Na- g a- raa- - a- -- -- la- - ye- - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S - - - - R - NS snD - - d N , P - | P M P - pm G gm P | - - dn P P M P - ||",
+                "sahitya": "Shri- - - - Ku- maa- - ra -- - - N a- ga- raa- - a- -- -- la- - ye- - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "M - P - P S sn nd S - S D rsnd D - | - pr , S g rsnp - - | - pd N D N P DN ||",
+                "sahitya": "Ka- ru- naa- - - - - - la- ye- - - - - Ka- - ma- laa- - -- - -- la - ye- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
+                "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- la- - ye- - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsrm rmpn pmpr ||",
+                "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - Ka- ma- - - laa- - -- - -- - - -- - - - la --- ye- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
+                "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- - la- - ye- - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsr - s rm - rm p - mpr ||",
+                "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - - Ka- ma- - - laa- - -- - -- - - -- - -- - - - la --- ye- -"
+            },
+            {
+                "line_number": 8,
+                "swara": "S - - - - - d N , - ,d -N S - ,n R - | - ,s S - - - - - | - - - - - - - - ||",
+                "sahitya": "Shri- - - - - - - - - - - Ku--- - - maa- - - ra -- - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "S - - - prrs nSn dNd - S - N -R - S | S - - - - - - | - - - - - - - - ||",
+                "sahitya": "Shri- - - - - - - - - - - Ku--- - maa- - ra -- - - - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- P ppmg - M P - P - nnP P M P - | PM P - S - S - | NS snD dNp - P ||",
+                "sahitya": "- Shru ta- - - - ja na- Kal- - - pa- ka - Paa-- - - - - da pe- - - -- - - Aa"
+            },
+            {
+                "line_number": 2,
+                "swara": "- P ppmg - M P - P - nnP pnnm P - | PM P - P mr S - | sn Srs N S- S - - - ||",
+                "sahitya": "- Shru ta- - - - ja na- Kal- - - pa- - ka - Paa-- - - - - da pe- - - -- Shri"
+            },
+            {
+                "line_number": 3,
+                "swara": "Pmr R G rs Rs -sn Srs N S snD - D , D, | P - D - D N -S , g | rsns rs- nr sn -pn pmP ||",
+                "sahitya": "Pa- - - - dma-- naa- - - - bha- Vada- naam- - bu - ja - - Ma- -- dhu - - - pe- - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "Pmr R G rs Rs -sn Srs N S snD - S S P | P - D - D N -S , g | rsns rs- nr sn -pn pmP ||",
+                "sahitya": "Pa- - - - dma-- naa- - - - bha- Vada- naam- - bu - ja - - Ma- -- dhu - - - pe- - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "Pmr pm R,m rs Rs -sn Srs N S snD - S S D | ns Rgr S ,g rsnp P - | pd pdN dnS nsrs np - nn pm P ||",
+                "sahitya": "Pa- - - - - - dma-- naa- - - - bha- Vada-- naam- - - - bu - ja - Ma- --- -- - dhu - - pe- - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "Pmr pm R,m rs Rs -sn Srs N S snD - S S ,d | ns Rgr S ,g rsnp P - | pd pdN dnS nsrs np - nn pm pr ||",
+                "sahitya": "Pa- - - - - - dma-- naa- - - - bha- Vada-- naam- - - - bu - ja - Ma- --- -- - dhu - - pe- - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
+                "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- - la- - ye- - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsr - s rm - rm p - mpr ||",
+                "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - - Ka- ma- - - laa- - -- - -- - - -- - -- - - - la --- ye- -"
+            },
+            {
+                "line_number": 9,
+                "swara": "S - - - - - d N , - ,d -N S - ,n R - | - ,s S - - - - - | - - - - - - - - ||",
+                "sahitya": "Shri- - - - - - - - - - - Ku--- - - maa- - - ra -- - - - - - - - - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "D - D - D D D - D P P - N D Pdp pm P P | pd snN P - M npM P G M | P - pm dp D - - - ||",
+                        "sahitya": "Man-da Ga mana Ji ta Vaa - ra ne - - - sura Vrn- - da vai - - - rivi ni vaa-- - ra- ne- - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "D - D - D D D - D dp pdns rs np P nn pmP | pd snN P - M npM P G M | P - pm dp D - - - ||",
+                        "sahitya": "Man-da Ga mana Ji ta Vaa - - ra- ne - su-ra Vrn- - da vai - - - rivi ni vaa-- - ra- ne- - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "PD ns D - P M P pm R R rm s R s ,-s S | R M R - rm P P -P nn | pm- pd , n S s n r s n P , ||",
+                        "sahitya": "In- di- re - Bhuvana Kaa- - - ra- nee- -kuru vin- da Dan- - ti Kisa- - - laya Mrudu Cha-ra- ne- -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "pD Ns D - P M P pm R R rm s R s S S | R M R - rm P P -p D - d | pm- pd , n S s n r s n P , ||",
+                        "sahitya": "In- di- re - Bhuvana Kaa- - - ra- nee- -kuru vin- da Dan- - ti Ki- sa- - - laya Mrudu Cha-ra- ne- -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "P , pm P - P S S - S S - S , d N S - - - | - - - - - - - - | - D ns R,s N P P P ||",
+                        "sahitya": "Man-- da Haa - sa Ruchi Ni - n di te - - - - - - - - - - - - - - - - - - - Am ba"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "P , pm P - P S S - S S R - S -Srs S - N -D D | D D N - S - S - R sg | rsnp - - D N ,s N P ||",
+                        "sahitya": "Man-- da Haa - sa Ruchi Nin di te - - ndu Ka ra Kun- da Vrn - da Maka- ran- - da Bin- du -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "pnnm P - P S S - S S R - S -Srs S - N -D D | D D N - S - S - R sg | rsnp - - D N ,s N P ||",
+                        "sahitya": "Man-- da Haa - sa Ruchi Nin di te - - ndu Ka ra Kun- da Vrn - da Maka- ran- - da Bin- du -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "pnnm P - P S S - S S S mg rS, -Srs ns - S -D D | nddn D- nd ns sd -ns rm | rs N , r - sg rsnp -dNp ||",
+                        "sahitya": "Man-- da Haa - sa Ruchi Nin- di - te - - ndu Ka ra Kun- da Vrn - da- Ma-ka- ran- - - da- Bin- du -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "P M P - P S S - ns rmR - R S R sn Srs N -S | sn D - D N S R - | - - rrsn S - S S ||",
+                        "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye- - - -- - - - - Amba"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "N M P - P S S - ns rmR - R S R sn Srs N -S | sn D - D N S R - | - ns rmR S rsnp -d Np ||",
+                        "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye- - Ja-ga- -du- paa- - sye--"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "pN M , - P S S - N S mg- R S R sn Srs ns -S | ss N,d D N S R - | - mm rr sn nr sn pm P ||",
+                        "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye - Ja-ga- -du- paa- - sye--"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "pN M , - P S S - N S mg- R S R sn Srs ns -S | ss N,d D N S R - | - mm rr sn nr sn pm pr ||",
+                        "sahitya": "San- - do - ha Sam- - - va li ta Sun- - - da raa- - mbu jaa- sye - Ja-ga- -du- paa- - sye\u2014"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "S - - - RS - nsrm rs - ns rs ns D - dNp | - mp , mpnPn pmmg - gm P | - dn P - nnpm P - ||",
+                        "sahitya": "Shri- - - - Ku- - - maa- --- - - ra -- - Na- ga- - - raa- - - a- -- -- - la- - ye- - - - -"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "nnM P - P S sn nd S - ns rmR sg- rsnp - | - mp , mpnPn pm R,m sRs | S - nsr - s rm - rm p - mpr ||",
+                        "sahitya": "Ka- ru- naa- - - - - - la- - - - - - ye- - - - Ka- ma- - - laa- - -- - -- - - -- - -- - - - la --- ye- -"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "S - - - - - d N , - ,d -N S - ,n R - | - ,s S - - - - - | - - - - - - - - ||",
+                        "sahitya": "Shri- - - - - - - - - - - Ku--- - - maa- - - ra -- - - - - - - - - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Sri_Kumara_Nagaraalaye_Atana.pdf"
 }

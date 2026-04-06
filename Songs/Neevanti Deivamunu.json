@@ -1,222 +1,223 @@
 {
-  "song_details": {
-    "name": "Neevanti Deivamunu",
-    "raga": "Todi",
-    "arohanam": "S R1 G2 M1 P D1 N2 S ||",
-    "avarohanam": "S N2 D1 P M1 G2 R1 S ||",
-    "tala": "Adi",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - - sn D D dn S | N D P - M | p p mg – M P ||",
-        "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
-      },
-      {
-        "line_number": 2,
-        "swara": "G - gmpd dP,",
-        "sahitya": "ne nen-- du ga- - - na ra – - - - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - - sn D D dn S | N D P - M | p p mg – M P ||",
-        "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
-      },
-      {
-        "line_number": 4,
-        "swara": "G - gmpd dP,",
-        "sahitya": "ne nen-- du ga- - - na ra – - - - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - - sn D D dn Srs",
-        "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
-      },
-      {
-        "line_number": 6,
-        "swara": "G - gmpd dP,",
-        "sahitya": "ne nen-- du ga- - - na ra – - - - - - - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "S - - sn D D pd n s | rg sr n s - Pdn",
-        "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
-      },
-      {
-        "line_number": 8,
-        "swara": "gmpd nsrs n dpM",
-        "sahitya": "ne nen-- du - - ga- - - na r A – - - - - - - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "S - - rs n d- D - dm | , D , - ns | r S,r",
-        "sahitya": "ni - van- - - Ti dei - va m u - - - - - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "- - - - - - - - | - - - - - - - - ||",
-        "sahitya": "- - - - - - - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "D - - dn S – S N - | nd pm , p D N – dn sr sr ||",
-        "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S N N S - - - - | - - - - - - - - ||",
-        "sahitya": "ni"
-      },
-      {
-        "line_number": 3,
-        "swara": "D - - dn S – S N - | nd pm , p D N – S - S ||",
-        "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - ni"
-      },
-      {
-        "line_number": 4,
-        "swara": "rsnd - dn S – S sn dd | nd pm , p D N – S - S ||",
-        "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - ni"
-      },
-      {
-        "line_number": 5,
-        "swara": "rsnd - dn S – S rsn d | nd pm , p D N – sn S S ||",
-        "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - ni"
-      },
-      {
-        "line_number": 6,
-        "swara": "srgr sn- n r sn – dm dn S | rg rs dp dm gm D , m d n ||",
-        "sahitya": "bra-- hma pu- ri- ni- la-ya gi –ri - ja - - - ta - na - ya - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "N S - sn D D pd n s | rg sr n s - Pdn",
-        "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
-      },
-      {
-        "line_number": 8,
-        "swara": "gmpd nsrs n dpM",
-        "sahitya": "ne nen-- du - - ga- - - na r A – - - - - - - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "S - - N D- D - dm | , D , - N | G sr N S ||",
-        "sahitya": "ni - van- - - Ti dei - va m u - - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "P - D – dp M- md p p mg | Mdp",
-            "sahitya": "ma ra ko- - Tu lan- - - du - kal - - gi na shrn"
-          },
-          {
-            "line_number": 2,
-            "swara": "G - D – pp mg – R - sn | S - - - | - - - - ||",
-            "sahitya": "ga ra mel- - - la - in du - - - - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "P - D – dp M- md p p mg | Mdp",
-            "sahitya": "ma ra ko- - Tu lan- - - du - kal - - gi na shrn"
-          },
-          {
-            "line_number": 4,
-            "swara": "G - D – pp mg – R - sn | S - - S | s r G , m P ||",
-            "sahitya": "ga ra mel- - - la - in du - mu kha- ni kona"
-          },
-          {
-            "line_number": 5,
-            "swara": "M dp mg M D - - dr | sn D - dn | S S R , s ||",
-            "sahitya": "go - - ru- nu bo- - lu- ne- - nee - - du shu bha"
-          },
-          {
-            "line_number": 6,
-            "swara": "- rs N- D P - mg pm G | R S - - | - - - - ||",
-            "sahitya": "ka- - ra mu san- ta- - ta mu"
-          },
-          {
-            "line_number": 7,
-            "swara": "M dp mg M D - - ds | N - - dn | sr S R S ||",
-            "sahitya": "go - - ru- nu bo- - lu- ne- - nee - - du shu bha"
-          },
-          {
-            "line_number": 8,
-            "swara": "- rs n d – P - - mg pm G | R S - - | N S - - ||",
-            "sahitya": "ka- -ra mu - san- ta- - - ta mu"
-          },
-          {
-            "line_number": 9,
-            "swara": "- pd , n D P – dp , g M | - pd , N D | - dn S , n ||",
-            "sahitya": "sa- reku ma di- - - ni nilu pa - ni - - - -"
-          },
-          {
-            "line_number": 10,
-            "swara": "S - - - - - - - | - - - - | - - - - ||",
-            "sahitya": "ve"
-          },
-          {
-            "line_number": 11,
-            "swara": "- pd , n D P – dp , g M | - pd , N D | dn sr S - sn ||",
-            "sahitya": "sa- reku ma di- - - ni nilu va - ni - - du ku"
-          },
-          {
-            "line_number": 12,
-            "swara": "sn D D - D nsrg , r -ss | snrs n – d P | ppmg M P ||",
-            "sahitya": "ma-- ra da ya- - - para ni- - - raja lo- - cana"
-          },
-          {
-            "line_number": 13,
-            "swara": "- pd , n D P – dp , g M | - pd , N D | dn sr S - sn ||",
-            "sahitya": "sa- reku ma di- - - ni nilu va - ni - - du ku"
-          },
-          {
-            "line_number": 14,
-            "swara": "rsnd D - D nsrg , r -ss | snrs n – d P | ppmg M P ||",
-            "sahitya": "ma-- ra da ya- - - para ni- - - raja lo- - cana"
-          },
-          {
-            "line_number": 15,
-            "swara": "- G M – pd n n d p dn - S | n s r g , r S | sn dp dn S ||",
-            "sahitya": "ta ra ka- - - dhi pa- kal A - - - dharau Da-gu- shri—"
-          },
-          {
-            "line_number": 16,
-            "swara": "- D D – dn sr – S S - | sn dn n d P | d p m - g m p d n ||",
-            "sahitya": "tya ga ra- - - ja san- nu-ta- shri – ta hi - - ta - - - -"
-          },
-          {
-            "line_number": 17,
-            "swara": "- G M – pd n n d p dn - S | n s r g , r S | sn d m dn S ||",
-            "sahitya": "ta ra ka- - - dhi pa- kal A - - - dharau Da-gu- shri—"
-          },
-          {
-            "line_number": 18,
-            "swara": "- D D – dn sr – S S - | sn d s n d P | d p m - g m p d n ||",
-            "sahitya": "tya ga ra- - - ja san- nu-ta- shri – ta hi - - ta - - - -"
-          },
-          {
-            "line_number": 19,
-            "swara": "N S - sn D D pd n s | rg sr n s - Pdn",
-            "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
-          },
-          {
-            "line_number": 20,
-            "swara": "gmpd nsrs n dpM",
-            "sahitya": "ne nen-- du - - ga- - - na r A – - - - - - - - -"
-          },
-          {
-            "line_number": 21,
-            "swara": "S - - N D- D - dm | , D , - N | G sr N S ||",
-            "sahitya": "ni - van- - - Ti dei - va m u - - - - - -"
-          }
+    "song_details": {
+        "name": "Neevanti Deivamunu",
+        "raga": "Todi",
+        "arohanam": "S R1 G2 M1 P D1 N2 S ||",
+        "avarohanam": "S N2 D1 P M1 G2 R1 S ||",
+        "tala": "Adi",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - - sn D D dn S | N D P - M | p p mg \u2013 M P ||",
+                "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
+            },
+            {
+                "line_number": 2,
+                "swara": "G - gmpd dP,",
+                "sahitya": "ne nen-- du ga- - - na ra \u2013 - - - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - - sn D D dn S | N D P - M | p p mg \u2013 M P ||",
+                "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
+            },
+            {
+                "line_number": 4,
+                "swara": "G - gmpd dP,",
+                "sahitya": "ne nen-- du ga- - - na ra \u2013 - - - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - - sn D D dn Srs",
+                "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
+            },
+            {
+                "line_number": 6,
+                "swara": "G - gmpd dP,",
+                "sahitya": "ne nen-- du ga- - - na ra \u2013 - - - - - - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "S - - sn D D pd n s | rg sr n s - Pdn",
+                "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
+            },
+            {
+                "line_number": 8,
+                "swara": "gmpd nsrs n dpM",
+                "sahitya": "ne nen-- du - - ga- - - na r A \u2013 - - - - - - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "S - - rs n d- D - dm | , D , - ns | r S,r",
+                "sahitya": "ni - van- - - Ti dei - va m u - - - - - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "- - - - - - - - | - - - - - - - - ||",
+                "sahitya": "- - - - - - - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "D - - dn S \u2013 S N - | nd pm , p D N \u2013 dn sr sr ||",
+                "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S N N S - - - - | - - - - - - - - ||",
+                "sahitya": "ni"
+            },
+            {
+                "line_number": 3,
+                "swara": "D - - dn S \u2013 S N - | nd pm , p D N \u2013 S - S ||",
+                "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - ni"
+            },
+            {
+                "line_number": 4,
+                "swara": "rsnd - dn S \u2013 S sn dd | nd pm , p D N \u2013 S - S ||",
+                "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - ni"
+            },
+            {
+                "line_number": 5,
+                "swara": "rsnd - dn S \u2013 S rsn d | nd pm , p D N \u2013 sn S S ||",
+                "sahitya": "bha vin- - - ci cu -- Da -tara mu ga - ni"
+            },
+            {
+                "line_number": 6,
+                "swara": "srgr sn- n r sn \u2013 dm dn S | rg rs dp dm gm D , m d n ||",
+                "sahitya": "bra-- hma pu- ri- ni- la-ya gi \u2013ri - ja - - - ta - na - ya - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "N S - sn D D pd n s | rg sr n s - Pdn",
+                "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
+            },
+            {
+                "line_number": 8,
+                "swara": "gmpd nsrs n dpM",
+                "sahitya": "ne nen-- du - - ga- - - na r A \u2013 - - - - - - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "S - - N D- D - dm | , D , - N | G sr N S ||",
+                "sahitya": "ni - van- - - Ti dei - va m u - - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "P - D \u2013 dp M- md p p mg | Mdp",
+                        "sahitya": "ma ra ko- - Tu lan- - - du - kal - - gi na shrn"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "G - D \u2013 pp mg \u2013 R - sn | S - - - | - - - - ||",
+                        "sahitya": "ga ra mel- - - la - in du - - - - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "P - D \u2013 dp M- md p p mg | Mdp",
+                        "sahitya": "ma ra ko- - Tu lan- - - du - kal - - gi na shrn"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "G - D \u2013 pp mg \u2013 R - sn | S - - S | s r G , m P ||",
+                        "sahitya": "ga ra mel- - - la - in du - mu kha- ni kona"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "M dp mg M D - - dr | sn D - dn | S S R , s ||",
+                        "sahitya": "go - - ru- nu bo- - lu- ne- - nee - - du shu bha"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- rs N- D P - mg pm G | R S - - | - - - - ||",
+                        "sahitya": "ka- - ra mu san- ta- - ta mu"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "M dp mg M D - - ds | N - - dn | sr S R S ||",
+                        "sahitya": "go - - ru- nu bo- - lu- ne- - nee - - du shu bha"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- rs n d \u2013 P - - mg pm G | R S - - | N S - - ||",
+                        "sahitya": "ka- -ra mu - san- ta- - - ta mu"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- pd , n D P \u2013 dp , g M | - pd , N D | - dn S , n ||",
+                        "sahitya": "sa- reku ma di- - - ni nilu pa - ni - - - -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "S - - - - - - - | - - - - | - - - - ||",
+                        "sahitya": "ve"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "- pd , n D P \u2013 dp , g M | - pd , N D | dn sr S - sn ||",
+                        "sahitya": "sa- reku ma di- - - ni nilu va - ni - - du ku"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "sn D D - D nsrg , r -ss | snrs n \u2013 d P | ppmg M P ||",
+                        "sahitya": "ma-- ra da ya- - - para ni- - - raja lo- - cana"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "- pd , n D P \u2013 dp , g M | - pd , N D | dn sr S - sn ||",
+                        "sahitya": "sa- reku ma di- - - ni nilu va - ni - - du ku"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "rsnd D - D nsrg , r -ss | snrs n \u2013 d P | ppmg M P ||",
+                        "sahitya": "ma-- ra da ya- - - para ni- - - raja lo- - cana"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "- G M \u2013 pd n n d p dn - S | n s r g , r S | sn dp dn S ||",
+                        "sahitya": "ta ra ka- - - dhi pa- kal A - - - dharau Da-gu- shri\u2014"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "- D D \u2013 dn sr \u2013 S S - | sn dn n d P | d p m - g m p d n ||",
+                        "sahitya": "tya ga ra- - - ja san- nu-ta- shri \u2013 ta hi - - ta - - - -"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "- G M \u2013 pd n n d p dn - S | n s r g , r S | sn d m dn S ||",
+                        "sahitya": "ta ra ka- - - dhi pa- kal A - - - dharau Da-gu- shri\u2014"
+                    },
+                    {
+                        "line_number": 18,
+                        "swara": "- D D \u2013 dn sr \u2013 S S - | sn d s n d P | d p m - g m p d n ||",
+                        "sahitya": "tya ga ra- - - ja san- nu-ta- shri \u2013 ta hi - - ta - - - -"
+                    },
+                    {
+                        "line_number": 19,
+                        "swara": "N S - sn D D pd n s | rg sr n s - Pdn",
+                        "sahitya": "ni - van- - Ti dei - va mu nu sha Da- - - na na"
+                    },
+                    {
+                        "line_number": 20,
+                        "swara": "gmpd nsrs n dpM",
+                        "sahitya": "ne nen-- du - - ga- - - na r A \u2013 - - - - - - - -"
+                    },
+                    {
+                        "line_number": 21,
+                        "swara": "S - - N D- D - dm | , D , - N | G sr N S ||",
+                        "sahitya": "ni - van- - - Ti dei - va m u - - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Neevanti_Deivamunu_Thodi.pdf"
 }

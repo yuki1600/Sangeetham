@@ -1,49 +1,50 @@
 {
-  "song_details": {
-    "name": "Sri Ramachandra",
-    "raga": "Bhairavi",
-    "arohanam": "S R2 G2 M1 P D2 N2 S",
-    "avarohanam": "S N2 D1 P M1 G2 R2 S",
-    "tala": "Dhruva Talam",
-    "composer": "Paidala Gurumoorti Shastri"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "G R G M | P - | M G R G | M P M - ||",
-        "sahitya": "Shree - Raa - | ma - | chan - draa - | Sri tha Paa - ||"
-      },
-      {
-        "line_number": 2,
-        "swara": "P D2 N N | D1 P | M N D1 P | M G R S ||",
-        "sahitya": "- ri jaa - | - tha | Sa ma - - | - - - stha ||"
-      },
-      {
-        "line_number": 3,
-        "swara": "S R S P | M P | G R G M | G G R S ||",
-        "sahitya": "Kal - - ya | - na | Gu na - bhi | raa - - ma ||"
-      },
-      {
-        "line_number": 4,
-        "swara": "R R G G | M M | G G R G | M P M M ||",
-        "sahitya": "See - tha - | Mu kha | Am - - - | bo - ru ha ||"
-      },
-      {
-        "line_number": 5,
-        "swara": "P D2 D2 N | N S | P D2 N S | R G R S ||",
-        "sahitya": "San - - - | - cha | ree - - - | - - - ka ||"
-      },
-      {
-        "line_number": 6,
-        "swara": "N R S G | R S | N N D1 M | P D2 N S ||",
-        "sahitya": "Ni ran - tha | ram - | Man - ga la | Ma - - ta ||"
-      },
-      {
-        "line_number": 7,
-        "swara": "P D1 P S | N S | P D1 M P | G - R S ||",
-        "sahitya": "No - - tu | - - | - - - - | - - - - ||"
-      }
-    ]
-  }
+    "song_details": {
+        "name": "Sri Ramachandra",
+        "raga": "Bhairavi",
+        "arohanam": "S R2 G2 M1 P D2 N2 S",
+        "avarohanam": "S N2 D1 P M1 G2 R2 S",
+        "tala": "Dhruva Talam",
+        "composer": "Paidala Gurumoorti Shastri"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "G R G M | P - | M G R G | M P M - ||",
+                "sahitya": "Shree - Raa - | ma - | chan - draa - | Sri tha Paa - ||"
+            },
+            {
+                "line_number": 2,
+                "swara": "P D2 N N | D1 P | M N D1 P | M G R S ||",
+                "sahitya": "- ri jaa - | - tha | Sa ma - - | - - - stha ||"
+            },
+            {
+                "line_number": 3,
+                "swara": "S R S P | M P | G R G M | G G R S ||",
+                "sahitya": "Kal - - ya | - na | Gu na - bhi | raa - - ma ||"
+            },
+            {
+                "line_number": 4,
+                "swara": "R R G G | M M | G G R G | M P M M ||",
+                "sahitya": "See - tha - | Mu kha | Am - - - | bo - ru ha ||"
+            },
+            {
+                "line_number": 5,
+                "swara": "P D2 D2 N | N S | P D2 N S | R G R S ||",
+                "sahitya": "San - - - | - cha | ree - - - | - - - ka ||"
+            },
+            {
+                "line_number": 6,
+                "swara": "N R S G | R S | N N D1 M | P D2 N S ||",
+                "sahitya": "Ni ran - tha | ram - | Man - ga la | Ma - - ta ||"
+            },
+            {
+                "line_number": 7,
+                "swara": "P D1 P S | N S | P D1 M P | G - R S ||",
+                "sahitya": "No - - tu | - - | - - - - | - - - - ||"
+            }
+        ]
+    },
+    "pdfPath": "PDFs/Rere_Sriramachandra.pdf"
 }

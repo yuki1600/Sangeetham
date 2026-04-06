@@ -1,127 +1,128 @@
 {
-  "song_details": {
-    "name": "Muruga Muruga",
-    "raga": "Saveri",
-    "arohanam": "S R1 M1 P D1 S ||",
-    "avarohanam": "S N3 D1 P M1 G3 R1 S ||",
-    "tala": "Misra Chapu",
-    "composer": "Periaswamy Thooran"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , pM | G - R - sr || M , M, | P - P - || - , pD | P - P - || P , dpm | mpdp D - ||",
-        "sahitya": "Muru ga - mu- ru ga en- ral -- uru ga do un-ran-- ul- Lam-"
-      },
-      {
-        "line_number": 2,
-        "swara": "- , p dpM",
-        "sahitya": "Mu ru- ga - mu- ru ga en- ral -- uru ga do un- ran-- ul- Lam-"
-      },
-      {
-        "line_number": 3,
-        "swara": "- , pD | S - - R || S , S r | sn D D - || - , mP | dNp D - || P , dpm | G,r R - ||",
-        "sahitya": "Varu vai - va ru vai en-- ral- - -pari vo- Du- va - - - ra-- yo"
-      },
-      {
-        "line_number": 4,
-        "swara": "- , sd dpM | G - R - sr || M , M, | P - P - || - , pD | P - P - || P , dpm | mpdp D - ||",
-        "sahitya": "Mu ru- ga - mu- ru ga en- ral -- uru ga do un- ran-- ul- Lam-"
-      },
-      {
-        "line_number": 5,
-        "swara": "- M D | S - - R || S , S r | sn D D - || mpr- sR | mpdn , pD || mP -dpm | G,r R - ||",
-        "sahitya": "Varu vai - va ru vai en-- ral- - -- - pari vo- - - Du va - - - ra-- yo"
-      },
-      {
-        "line_number": 6,
-        "swara": "dpM | G - R - sr || M , M, | - - P - ||",
-        "sahitya": "Mu ru- ga - mu- ru ga - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , p dm | P - - D || S , S , | S - S - || - - s r | G ,r R - || S , S r | sn D D - ||",
-        "sahitya": "-- o ru- kal - u rai shei da- lum - - un- pa-- dam ni nain da- - lum"
-      },
-      {
-        "line_number": 2,
-        "swara": "- P dn | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
-        "sahitya": "-- o ru- - kal -- u rai shei da- lum - un- - - pa-- dam ni nain - da- - lum"
-      },
-      {
-        "line_number": 3,
-        "swara": "pm- P dn | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
-        "sahitya": "-- o ru- - kal -- u rai shei da- lum - un- - - pa-- dam ni nain - da- - lum"
-      },
-      {
-        "line_number": 4,
-        "swara": "- , p D | S - - R || S , S r | sn D D - ||",
-        "sahitya": "A ru Le - tan di Dum kan-- da-"
-      },
-      {
-        "line_number": 5,
-        "swara": "- , m D | S - - R || S , S r | sn D D - || - , - mP | d Np D - || mP -dpm | G,r R - ||",
-        "sahitya": "A ru Le - tan di Dum kan-- da- - - al - lum-- pa- gha- - - - lum- nan"
-      },
-      {
-        "line_number": 6,
-        "swara": "- ,m D | S - - R || S , S r | sn D D - || mpr- sR | mpdn , pD || mP -dpm | G,r R - ||",
-        "sahitya": "A ru Le - tan di Dum kan-- da- - - al - lum-- pa- gha- - - - lum- nan"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- , pD | P - - dpM",
-            "sahitya": "A ri ya- - du-- nan- shei-- da - - pizhai yal- ni ve ru- - tta-- yo—"
-          },
-          {
-            "line_number": 2,
-            "swara": "- , pD | P - - dpM",
-            "sahitya": "A ri ya- - du-- nan- shei-- da - - pi-zhai yal-- ni ve ru- - tta-- yo—"
-          },
-          {
-            "line_number": 3,
-            "swara": "- , s R | M - - M || M , dpm | G , r R - || - , s R | M - P- || P , dpm | mpdp D - ||",
-            "sahitya": "A n be - - va Di vam- kon- Da- - - a - zha ni shi-nan - da- - yo-"
-          },
-          {
-            "line_number": 4,
-            "swara": "- , p dm | P - - D || S , S , | S - S - || - , s R | G ,r R - || S , S r | sn D D - ||",
-            "sahitya": "- - shiri- yen - en ku rai yel lam - -poru tte- - - a rul shei-- vai"
-          },
-          {
-            "line_number": 5,
-            "swara": "- , p dm | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
-            "sahitya": "- shi ri- - yen - en ku rai yel lam - po-ru- tte- - - a rul shei-- vai"
-          },
-          {
-            "line_number": 6,
-            "swara": "pm- P dn | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
-            "sahitya": "- - shi ri- - yen - en ku rai yel lam - po-ru- tte- - - a rul shei-- vai"
-          },
-          {
-            "line_number": 7,
-            "swara": "- , p D | S - R - || S , S r | sn D D - ||",
-            "sahitya": "Shen- dil ma na gar- va- - zhum"
-          },
-          {
-            "line_number": 8,
-            "swara": "- , p D | S - R - || S , S r | sn D D - || - , - mP | d Np D - || mP -dpm | G,r R - ||",
-            "sahitya": "Shen- dil ma na gar- va- - zhum -- de- va- - di de - - va-- ne"
-          },
-          {
-            "line_number": 9,
-            "swara": "- , p D | S - R - || S , nsrSr",
-            "sahitya": "Shen- dil ma na gar- - va- zhum - - de- va- - di de - - va-- ne"
-          }
+    "song_details": {
+        "name": "Muruga Muruga",
+        "raga": "Saveri",
+        "arohanam": "S R1 M1 P D1 S ||",
+        "avarohanam": "S N3 D1 P M1 G3 R1 S ||",
+        "tala": "Misra Chapu",
+        "composer": "Periaswamy Thooran"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , pM | G - R - sr || M , M, | P - P - || - , pD | P - P - || P , dpm | mpdp D - ||",
+                "sahitya": "Muru ga - mu- ru ga en- ral -- uru ga do un-ran-- ul- Lam-"
+            },
+            {
+                "line_number": 2,
+                "swara": "- , p dpM",
+                "sahitya": "Mu ru- ga - mu- ru ga en- ral -- uru ga do un- ran-- ul- Lam-"
+            },
+            {
+                "line_number": 3,
+                "swara": "- , pD | S - - R || S , S r | sn D D - || - , mP | dNp D - || P , dpm | G,r R - ||",
+                "sahitya": "Varu vai - va ru vai en-- ral- - -pari vo- Du- va - - - ra-- yo"
+            },
+            {
+                "line_number": 4,
+                "swara": "- , sd dpM | G - R - sr || M , M, | P - P - || - , pD | P - P - || P , dpm | mpdp D - ||",
+                "sahitya": "Mu ru- ga - mu- ru ga en- ral -- uru ga do un- ran-- ul- Lam-"
+            },
+            {
+                "line_number": 5,
+                "swara": "- M D | S - - R || S , S r | sn D D - || mpr- sR | mpdn , pD || mP -dpm | G,r R - ||",
+                "sahitya": "Varu vai - va ru vai en-- ral- - -- - pari vo- - - Du va - - - ra-- yo"
+            },
+            {
+                "line_number": 6,
+                "swara": "dpM | G - R - sr || M , M, | - - P - ||",
+                "sahitya": "Mu ru- ga - mu- ru ga - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , p dm | P - - D || S , S , | S - S - || - - s r | G ,r R - || S , S r | sn D D - ||",
+                "sahitya": "-- o ru- kal - u rai shei da- lum - - un- pa-- dam ni nain da- - lum"
+            },
+            {
+                "line_number": 2,
+                "swara": "- P dn | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
+                "sahitya": "-- o ru- - kal -- u rai shei da- lum - un- - - pa-- dam ni nain - da- - lum"
+            },
+            {
+                "line_number": 3,
+                "swara": "pm- P dn | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
+                "sahitya": "-- o ru- - kal -- u rai shei da- lum - un- - - pa-- dam ni nain - da- - lum"
+            },
+            {
+                "line_number": 4,
+                "swara": "- , p D | S - - R || S , S r | sn D D - ||",
+                "sahitya": "A ru Le - tan di Dum kan-- da-"
+            },
+            {
+                "line_number": 5,
+                "swara": "- , m D | S - - R || S , S r | sn D D - || - , - mP | d Np D - || mP -dpm | G,r R - ||",
+                "sahitya": "A ru Le - tan di Dum kan-- da- - - al - lum-- pa- gha- - - - lum- nan"
+            },
+            {
+                "line_number": 6,
+                "swara": "- ,m D | S - - R || S , S r | sn D D - || mpr- sR | mpdn , pD || mP -dpm | G,r R - ||",
+                "sahitya": "A ru Le - tan di Dum kan-- da- - - al - lum-- pa- gha- - - - lum- nan"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- , pD | P - - dpM",
+                        "sahitya": "A ri ya- - du-- nan- shei-- da - - pizhai yal- ni ve ru- - tta-- yo\u2014"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- , pD | P - - dpM",
+                        "sahitya": "A ri ya- - du-- nan- shei-- da - - pi-zhai yal-- ni ve ru- - tta-- yo\u2014"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- , s R | M - - M || M , dpm | G , r R - || - , s R | M - P- || P , dpm | mpdp D - ||",
+                        "sahitya": "A n be - - va Di vam- kon- Da- - - a - zha ni shi-nan - da- - yo-"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- , p dm | P - - D || S , S , | S - S - || - , s R | G ,r R - || S , S r | sn D D - ||",
+                        "sahitya": "- - shiri- yen - en ku rai yel lam - -poru tte- - - a rul shei-- vai"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- , p dm | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
+                        "sahitya": "- shi ri- - yen - en ku rai yel lam - po-ru- tte- - - a rul shei-- vai"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "pm- P dn | P- P dm- M || D , S , | S - S - || - s r pm | G ,r R - || S , nsrSr",
+                        "sahitya": "- - shi ri- - yen - en ku rai yel lam - po-ru- tte- - - a rul shei-- vai"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- , p D | S - R - || S , S r | sn D D - ||",
+                        "sahitya": "Shen- dil ma na gar- va- - zhum"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- , p D | S - R - || S , S r | sn D D - || - , - mP | d Np D - || mP -dpm | G,r R - ||",
+                        "sahitya": "Shen- dil ma na gar- va- - zhum -- de- va- - di de - - va-- ne"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- , p D | S - R - || S , nsrSr",
+                        "sahitya": "Shen- dil ma na gar- - va- zhum - - de- va- - di de - - va-- ne"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Muruga_Muruga.pdf"
 }

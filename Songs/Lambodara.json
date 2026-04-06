@@ -1,59 +1,60 @@
 {
-  "song_details": {
-    "name": "Lambodara",
-    "raga": "Malahari",
-    "arohanam": "S R1 M1 P D1 S",
-    "avarohanam": "S D1 P M1 G3 R1 S",
-    "tala": "Rupakam",
-    "composer": "Purandaradasa"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "M P | D S S R || R S | D P M P ||",
-        "sahitya": "Sree - | Ga na na tha || sin dhu | - ra var na ||"
-      },
-      {
-        "line_number": 2,
-        "swara": "R M | P D M P || D P | M G R S ||",
-        "sahitya": "Ka ru | na Sa ga ra || ka ri | va dha na - ||"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - | R M G R || S R | G R S - ||",
-        "sahitya": "Lam - | bo - dha ra || la ku | mi ka ra - ||"
-      },
-      {
-        "line_number": 4,
-        "swara": "R M | P D M P || D P | M G R S ||",
-        "sahitya": "Am - | ba - su tha || a ma | ra vi nu tha ||"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - | R M G R || S R | G R S - ||",
-        "sahitya": "Lam - | bo - dha ra || la ku | mi ka ra - ||"
-      },
-      {
-        "line_number": 6,
-        "swara": "M P | D S S R || R S | D P M P ||",
-        "sahitya": "Sid dha | cha - ra na || ga na | se - vi tha ||"
-      },
-      {
-        "line_number": 7,
-        "swara": "R M | P D M P || D P | M G R S ||",
-        "sahitya": "Sid dhi | vi na ya ka || the - | na mo na mo ||"
-      },
-      {
-        "line_number": 8,
-        "swara": "M P | D S S R || R S | D P M P ||",
-        "sahitya": "Sa ka | la vi dya - || - dhi | pu - ji tha ||"
-      },
-      {
-        "line_number": 9,
-        "swara": "R M | P D M P || D P | M G R S ||",
-        "sahitya": "Sa - | rvo - tha ma || the - | na mo na mo ||"
-      }
-    ]
-  }
+    "song_details": {
+        "name": "Lambodara",
+        "raga": "Malahari",
+        "arohanam": "S R1 M1 P D1 S",
+        "avarohanam": "S D1 P M1 G3 R1 S",
+        "tala": "Rupakam",
+        "composer": "Purandaradasa"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "M P | D S S R || R S | D P M P ||",
+                "sahitya": "Sree - | Ga na na tha || sin dhu | - ra var na ||"
+            },
+            {
+                "line_number": 2,
+                "swara": "R M | P D M P || D P | M G R S ||",
+                "sahitya": "Ka ru | na Sa ga ra || ka ri | va dha na - ||"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - | R M G R || S R | G R S - ||",
+                "sahitya": "Lam - | bo - dha ra || la ku | mi ka ra - ||"
+            },
+            {
+                "line_number": 4,
+                "swara": "R M | P D M P || D P | M G R S ||",
+                "sahitya": "Am - | ba - su tha || a ma | ra vi nu tha ||"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - | R M G R || S R | G R S - ||",
+                "sahitya": "Lam - | bo - dha ra || la ku | mi ka ra - ||"
+            },
+            {
+                "line_number": 6,
+                "swara": "M P | D S S R || R S | D P M P ||",
+                "sahitya": "Sid dha | cha - ra na || ga na | se - vi tha ||"
+            },
+            {
+                "line_number": 7,
+                "swara": "R M | P D M P || D P | M G R S ||",
+                "sahitya": "Sid dhi | vi na ya ka || the - | na mo na mo ||"
+            },
+            {
+                "line_number": 8,
+                "swara": "M P | D S S R || R S | D P M P ||",
+                "sahitya": "Sa ka | la vi dya - || - dhi | pu - ji tha ||"
+            },
+            {
+                "line_number": 9,
+                "swara": "R M | P D M P || D P | M G R S ||",
+                "sahitya": "Sa - | rvo - tha ma || the - | na mo na mo ||"
+            }
+        ]
+    },
+    "pdfPath": "PDFs/Lambodara.pdf"
 }

@@ -1,181 +1,182 @@
 {
-  "song_details": {
-    "name": "Nanati Baduku",
-    "raga": "Revathi",
-    "arohanam": "S R₁ M₁ P N₂ Ṡ ||",
-    "avarohanam": "Ṡ N₂ P M₁ R₁ S ||",
-    "tala": "Adi",
-    "composer": "Annamacharya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- rm , m R S , s S – r s | n P – r , r R R - - - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- r mp m- m R S , s S – r rs | n P – r , r R R - - - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- , rm , m M - , mp , p P | - mp n - n N S,n S ,n – pm ||",
-        "sahitya": "ka- - na ka - - kan – na ti kai - valya mu - - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "rs- r mp m- m R S , s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- , rm , m M - , mp , p P | - mp n - n N snnPnS , -n – pm ||",
-        "sahitya": "ka- - na ka - - kan – na ti kai - valya mu - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "rs- r mp m- m R S , s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "- , rm , m M - pmrm mp - p P | - mp n - n N snnPnS , -n – pm ||",
-        "sahitya": "ka- - na ka - - kan – -- na ti kai - valya mu - - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "rs- r mp m- m R S , s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "- - - - - , r , r R | - , m R s - s - - - - ||",
-        "sahitya": "na - Taka - - - - mu"
-      },
-      {
-        "line_number": 10,
-        "swara": "- ns , p N S S S - | - n- r , r r r rmpm mr R ||",
-        "sahitya": "puttu Tayu ni ja mu - - po vutayu ni-ja- mu- -"
-      },
-      {
-        "line_number": 11,
-        "swara": "- ns , p N S rs nsrm | ,-R -nr , r r r rmpm mr R ||",
-        "sahitya": "puttu Tayu ni ja mu - - po vutayu ni-ja- mu- -"
-      },
-      {
-        "line_number": 12,
-        "swara": "- r m , m M m P , , pn npM | - , m p – n N ns - n pm rs ||",
-        "sahitya": "natta nati mi - - - pa-ni- - - - na - Taka mu - - - -"
-      },
-      {
-        "line_number": 13,
-        "swara": "sn- ns , p N S rs nsrm | ,-R- nr , r r r rmpm mr R ||",
-        "sahitya": "puttu Tayu ni ja mu - - po vutayu ni-ja- mu- -"
-      },
-      {
-        "line_number": 14,
-        "swara": "- r m , m M m P , , pn npM | - , m p – n N N - snN n snnp ||",
-        "sahitya": "natta nati mi - - - pa-ni- - - - na - Taka mu - - - -"
-      },
-      {
-        "line_number": 15,
-        "swara": "- n s , p N S , r S– rs | N- N S - - nsrm - R ||",
-        "sahitya": "yetta nedu Ta-ga la di- - pra pan- - - - - - ca"
-      },
-      {
-        "line_number": 16,
-        "swara": "S- n s , p N S , r S– rs | N- N S - rs- nsrm - R ||",
-        "sahitya": "mu-yetta nedu Ta-ga la di- - pra pan- - - - - - ca"
-      },
-      {
-        "line_number": 17,
-        "swara": "S - s r , n S np , N pm , P | - mp ns rs sn n p pm m r ||",
-        "sahitya": "mu katta - gata pa - Ti ti - - - kai- val-- - ya- - - mu- - -"
-      },
-      {
-        "line_number": 18,
-        "swara": "rs - s r , n S np , N pm , P | - mp ns rs sn n p pm m r ||",
-        "sahitya": "- katta - gata pa - Ti ti - - - kai- val-- - ya- - - mu- - -"
-      },
-      {
-        "line_number": 19,
-        "swara": "rs- r mp m- m R S , s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 20,
-        "swara": "- , rm , m M - pmrm mp - p P | - mp n - n N snnPnS , -n – pm ||",
-        "sahitya": "ka- - na ka - - kan – -- na ti kai - valya mu - - - - -"
-      },
-      {
-        "line_number": 21,
-        "swara": "rs- r mp m- m R S , s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 22,
-        "swara": "- - - - - , r , r R | - , m R s - s - - - - ||",
-        "sahitya": "na - Taka - - - - mu"
-      },
-      {
-        "line_number": 23,
-        "swara": "- ns np , ns - S S - | - n- r , r R rmpm mr R ||",
-        "sahitya": "Teka du pa - pa mu- -- ti - radu pun- - ya-mu"
-      },
-      {
-        "line_number": 24,
-        "swara": "rs- ns np , ns - rs nsrm | R n- r , r R rmpm mrR R ||",
-        "sahitya": "Teka du pa - pa mu- - - ti - - radu pun- - ya-- mu"
-      },
-      {
-        "line_number": 25,
-        "swara": "- r m , m M m P , , pn npM | - , m p – n N ns - n pm rs ||",
-        "sahitya": "Naki na ki ka - - - la-mu- - - na - Taka mu - - - - - -"
-      },
-      {
-        "line_number": 26,
-        "swara": "rs- ns np , ns - rs nsrm | R n- r , r R rmpm mrR R ||",
-        "sahitya": "Teka du pa - pa mu- - - ti - - radu pun- - ya-- mu"
-      },
-      {
-        "line_number": 27,
-        "swara": "- r m , m M m P , , pn npM | - , m p – n N NsnN n snnp ||",
-        "sahitya": "Naki na ki ka - - - la-mu- - - na - Taka mu - - - - - -"
-      },
-      {
-        "line_number": 28,
-        "swara": "- n s , p N S - , S s | r s N- , s S rs- nsrm , – r S ||",
-        "sahitya": "Yegu vane Shri - venka Te- - - Shvaru Te - - - - li ka"
-      },
-      {
-        "line_number": 29,
-        "swara": "S - s r , n S pnsn pm , P | - mp ns rs sn n p pm m r ||",
-        "sahitya": "Gakha namu mi - - ti - ti kai- val- - ya- - - mu- - -"
-      },
-      {
-        "line_number": 30,
-        "swara": "rs- r mp m- m R S , s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 31,
-        "swara": "- , rm , m M - pmrm mp - p P | - npmp n - n N snnPnS , -n – pm ||",
-        "sahitya": "ka- - na ka - - kan – -- na ti kai - valya mu - - - - -"
-      },
-      {
-        "line_number": 32,
-        "swara": "rs- rmpn sR,- rrsn pmR- s S – r rs | n P – r , r R pmmr R - ||",
-        "sahitya": "na- - -- na- Ti - ba tu ku- - - na - Taka mu - -"
-      },
-      {
-        "line_number": 33,
-        "swara": "- , r , r R mr S - - | - , r , r R mr S - - ||",
-        "sahitya": "na - Taka - - mu - - - - na - Taka - - mu - -"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Nanati Baduku",
+        "raga": "Revathi",
+        "arohanam": "S R\u2081 M\u2081 P N\u2082 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2082 P M\u2081 R\u2081 S ||",
+        "tala": "Adi",
+        "composer": "Annamacharya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- rm , m R S , s S \u2013 r s | n P \u2013 r , r R R - - - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R R - - - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- , rm , m M - , mp , p P | - mp n - n N S,n S ,n \u2013 pm ||",
+                "sahitya": "ka- - na ka - - kan \u2013 na ti kai - valya mu - - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "rs- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- , rm , m M - , mp , p P | - mp n - n N snnPnS , -n \u2013 pm ||",
+                "sahitya": "ka- - na ka - - kan \u2013 na ti kai - valya mu - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "rs- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "- , rm , m M - pmrm mp - p P | - mp n - n N snnPnS , -n \u2013 pm ||",
+                "sahitya": "ka- - na ka - - kan \u2013 -- na ti kai - valya mu - - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "rs- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "- - - - - , r , r R | - , m R s - s - - - - ||",
+                "sahitya": "na - Taka - - - - mu"
+            },
+            {
+                "line_number": 10,
+                "swara": "- ns , p N S S S - | - n- r , r r r rmpm mr R ||",
+                "sahitya": "puttu Tayu ni ja mu - - po vutayu ni-ja- mu- -"
+            },
+            {
+                "line_number": 11,
+                "swara": "- ns , p N S rs nsrm | ,-R -nr , r r r rmpm mr R ||",
+                "sahitya": "puttu Tayu ni ja mu - - po vutayu ni-ja- mu- -"
+            },
+            {
+                "line_number": 12,
+                "swara": "- r m , m M m P , , pn npM | - , m p \u2013 n N ns - n pm rs ||",
+                "sahitya": "natta nati mi - - - pa-ni- - - - na - Taka mu - - - -"
+            },
+            {
+                "line_number": 13,
+                "swara": "sn- ns , p N S rs nsrm | ,-R- nr , r r r rmpm mr R ||",
+                "sahitya": "puttu Tayu ni ja mu - - po vutayu ni-ja- mu- -"
+            },
+            {
+                "line_number": 14,
+                "swara": "- r m , m M m P , , pn npM | - , m p \u2013 n N N - snN n snnp ||",
+                "sahitya": "natta nati mi - - - pa-ni- - - - na - Taka mu - - - -"
+            },
+            {
+                "line_number": 15,
+                "swara": "- n s , p N S , r S\u2013 rs | N- N S - - nsrm - R ||",
+                "sahitya": "yetta nedu Ta-ga la di- - pra pan- - - - - - ca"
+            },
+            {
+                "line_number": 16,
+                "swara": "S- n s , p N S , r S\u2013 rs | N- N S - rs- nsrm - R ||",
+                "sahitya": "mu-yetta nedu Ta-ga la di- - pra pan- - - - - - ca"
+            },
+            {
+                "line_number": 17,
+                "swara": "S - s r , n S np , N pm , P | - mp ns rs sn n p pm m r ||",
+                "sahitya": "mu katta - gata pa - Ti ti - - - kai- val-- - ya- - - mu- - -"
+            },
+            {
+                "line_number": 18,
+                "swara": "rs - s r , n S np , N pm , P | - mp ns rs sn n p pm m r ||",
+                "sahitya": "- katta - gata pa - Ti ti - - - kai- val-- - ya- - - mu- - -"
+            },
+            {
+                "line_number": 19,
+                "swara": "rs- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 20,
+                "swara": "- , rm , m M - pmrm mp - p P | - mp n - n N snnPnS , -n \u2013 pm ||",
+                "sahitya": "ka- - na ka - - kan \u2013 -- na ti kai - valya mu - - - - -"
+            },
+            {
+                "line_number": 21,
+                "swara": "rs- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 22,
+                "swara": "- - - - - , r , r R | - , m R s - s - - - - ||",
+                "sahitya": "na - Taka - - - - mu"
+            },
+            {
+                "line_number": 23,
+                "swara": "- ns np , ns - S S - | - n- r , r R rmpm mr R ||",
+                "sahitya": "Teka du pa - pa mu- -- ti - radu pun- - ya-mu"
+            },
+            {
+                "line_number": 24,
+                "swara": "rs- ns np , ns - rs nsrm | R n- r , r R rmpm mrR R ||",
+                "sahitya": "Teka du pa - pa mu- - - ti - - radu pun- - ya-- mu"
+            },
+            {
+                "line_number": 25,
+                "swara": "- r m , m M m P , , pn npM | - , m p \u2013 n N ns - n pm rs ||",
+                "sahitya": "Naki na ki ka - - - la-mu- - - na - Taka mu - - - - - -"
+            },
+            {
+                "line_number": 26,
+                "swara": "rs- ns np , ns - rs nsrm | R n- r , r R rmpm mrR R ||",
+                "sahitya": "Teka du pa - pa mu- - - ti - - radu pun- - ya-- mu"
+            },
+            {
+                "line_number": 27,
+                "swara": "- r m , m M m P , , pn npM | - , m p \u2013 n N NsnN n snnp ||",
+                "sahitya": "Naki na ki ka - - - la-mu- - - na - Taka mu - - - - - -"
+            },
+            {
+                "line_number": 28,
+                "swara": "- n s , p N S - , S s | r s N- , s S rs- nsrm , \u2013 r S ||",
+                "sahitya": "Yegu vane Shri - venka Te- - - Shvaru Te - - - - li ka"
+            },
+            {
+                "line_number": 29,
+                "swara": "S - s r , n S pnsn pm , P | - mp ns rs sn n p pm m r ||",
+                "sahitya": "Gakha namu mi - - ti - ti kai- val- - ya- - - mu- - -"
+            },
+            {
+                "line_number": 30,
+                "swara": "rs- r mp m- m R S , s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - na- Ti-ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 31,
+                "swara": "- , rm , m M - pmrm mp - p P | - npmp n - n N snnPnS , -n \u2013 pm ||",
+                "sahitya": "ka- - na ka - - kan \u2013 -- na ti kai - valya mu - - - - -"
+            },
+            {
+                "line_number": 32,
+                "swara": "rs- rmpn sR,- rrsn pmR- s S \u2013 r rs | n P \u2013 r , r R pmmr R - ||",
+                "sahitya": "na- - -- na- Ti - ba tu ku- - - na - Taka mu - -"
+            },
+            {
+                "line_number": 33,
+                "swara": "- , r , r R mr S - - | - , r , r R mr S - - ||",
+                "sahitya": "na - Taka - - mu - - - - na - Taka - - mu - -"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Nanati_Baduku_Revathi.pdf"
 }

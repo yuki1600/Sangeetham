@@ -1,92 +1,93 @@
 {
-  "song_details": {
-    "name": "Kalaharana Melaraa",
-    "raga": "Shuddha Saveri",
-    "arohanam": "S R2 M1 P D2 S",
-    "avarohanam": "S D2 P M1 R2 S",
-    "tala": "Rupakam",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - S D D P || P - M R - pm || R - S - - rm || P - - M P D ||",
-        "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - See- thaa- - Ra mana!"
-      },
-      {
-        "line_number": 2,
-        "swara": "S - S D D P || pmpd pm R - pm || R - S - - S || R , - m - P P D ||",
-        "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - He! See thaa- Ra mana!"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - S D D P || mpmd pm R - pm || R - S - - S || srm - r mp - mp d- p d r ||",
-        "sahitya": "Kaa la ha ra na Me- - la ra - Ha- re- - - - He! See- thaa- Ra- - ma-na!"
-      },
-      {
-        "line_number": 4,
-        "swara": "srmr s d - d r rs dp || pdsd pm- rm pd pm || R - S - - S || srm - r mp - mp d- p d r ||",
-        "sahitya": "Kaa-- la - ha - ra- na- Me- - la - ra- - - Ha- re- - - - He! See- thaa- Ra- - ma-na!"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - S D D P || P - M R - pm || R - S - - - || - - - - - - ||",
-        "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- pm P - D P D || S - D – S S S ||",
-        "sahitya": "- Kaa- la ha ra na Me- la Su gu naa"
-      },
-      {
-        "line_number": 2,
-        "swara": "- pm P - D P D || S - S – s d r s - D ||",
-        "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa"
-      },
-      {
-        "line_number": 3,
-        "swara": "P- pm P - D P D || S - S – s d r s - R ||",
-        "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa"
-      },
-      {
-        "line_number": 4,
-        "swara": "- - pm P - D P D || S - S – s d r s - R || mr mr S – s d s d P || pm pm rs – rm rm pd ||",
-        "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa J aa- - la Ka- - - ru naa- - la- Vaa- - - laa-"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- pd S D P P || pm pd pm – rm P P || - R M - P D D || P D S – D - P ||",
-            "sahitya": "Dina Dina munu Ti- ri- gi- Ti- ri gi - Di kku le - ka Shara nu Jo - cchi"
-          },
-          {
-            "line_number": 2,
-            "swara": "- pm P - D P D || S - D – S - S ||",
-            "sahitya": "Tanu vu Dha namu Nee de yan - ti"
-          },
-          {
-            "line_number": 3,
-            "swara": "- pm P - D P D || S - S – s d r s - D ||",
-            "sahitya": "Tanu vu Dha namu Nee de yan - - - ti"
-          },
-          {
-            "line_number": 4,
-            "swara": "P- pm P - D P D || S - S – s d r s - R ||",
-            "sahitya": "Tanu vu Dha namu Nee de yan - - - ti"
-          },
-          {
-            "line_number": 5,
-            "swara": "- - pm P - D P D || S - S – s d r s - R || mr mr S – s d s d P || pm pm rs – rm rm pd ||",
-            "sahitya": "Tanu vu Dha namu Nee de yan - - - ti Tyaa—ga raa- - - ja Vi- nu- ta! Raa- -- maa!"
-          }
+    "song_details": {
+        "name": "Kalaharana Melaraa",
+        "raga": "Shuddha Saveri",
+        "arohanam": "S R2 M1 P D2 S",
+        "avarohanam": "S D2 P M1 R2 S",
+        "tala": "Rupakam",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - S D D P || P - M R - pm || R - S - - rm || P - - M P D ||",
+                "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - See- thaa- - Ra mana!"
+            },
+            {
+                "line_number": 2,
+                "swara": "S - S D D P || pmpd pm R - pm || R - S - - S || R , - m - P P D ||",
+                "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - He! See thaa- Ra mana!"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - S D D P || mpmd pm R - pm || R - S - - S || srm - r mp - mp d- p d r ||",
+                "sahitya": "Kaa la ha ra na Me- - la ra - Ha- re- - - - He! See- thaa- Ra- - ma-na!"
+            },
+            {
+                "line_number": 4,
+                "swara": "srmr s d - d r rs dp || pdsd pm- rm pd pm || R - S - - S || srm - r mp - mp d- p d r ||",
+                "sahitya": "Kaa-- la - ha - ra- na- Me- - la - ra- - - Ha- re- - - - He! See- thaa- Ra- - ma-na!"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - S D D P || P - M R - pm || R - S - - - || - - - - - - ||",
+                "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- pm P - D P D || S - D \u2013 S S S ||",
+                "sahitya": "- Kaa- la ha ra na Me- la Su gu naa"
+            },
+            {
+                "line_number": 2,
+                "swara": "- pm P - D P D || S - S \u2013 s d r s - D ||",
+                "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa"
+            },
+            {
+                "line_number": 3,
+                "swara": "P- pm P - D P D || S - S \u2013 s d r s - R ||",
+                "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa"
+            },
+            {
+                "line_number": 4,
+                "swara": "- - pm P - D P D || S - S \u2013 s d r s - R || mr mr S \u2013 s d s d P || pm pm rs \u2013 rm rm pd ||",
+                "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa J aa- - la Ka- - - ru naa- - la- Vaa- - - laa-"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- pd S D P P || pm pd pm \u2013 rm P P || - R M - P D D || P D S \u2013 D - P ||",
+                        "sahitya": "Dina Dina munu Ti- ri- gi- Ti- ri gi - Di kku le - ka Shara nu Jo - cchi"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- pm P - D P D || S - D \u2013 S - S ||",
+                        "sahitya": "Tanu vu Dha namu Nee de yan - ti"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- pm P - D P D || S - S \u2013 s d r s - D ||",
+                        "sahitya": "Tanu vu Dha namu Nee de yan - - - ti"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "P- pm P - D P D || S - S \u2013 s d r s - R ||",
+                        "sahitya": "Tanu vu Dha namu Nee de yan - - - ti"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- - pm P - D P D || S - S \u2013 s d r s - R || mr mr S \u2013 s d s d P || pm pm rs \u2013 rm rm pd ||",
+                        "sahitya": "Tanu vu Dha namu Nee de yan - - - ti Tyaa\u2014ga raa- - - ja Vi- nu- ta! Raa- -- maa!"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Kalaharana_Melaraa_Shuddha_Saveri.pdf"
 }

@@ -1,201 +1,202 @@
 {
-  "song_details": {
-    "name": "Brahma Kadigina",
-    "raga": "Mukhari",
-    "arohanam": "S R2 M1 P N2 D2 S ||",
-    "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
-    "tala": "Adi",
-    "composer": "Annamacharya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- S,r N D S R M pd | mp - G - R S - - - ||",
-        "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- S,r N D S R M pd | mp - G - R g R, g S , ||",
-        "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- S,r N D S R M dp | p M,p - pmG , R g R , g S , ||",
-        "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- gr sn D , s R M dp | p M,d - pmG , R g R, g S , ||",
-        "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- , r , m - M P - D P | - pm P – P mpdp pmgr ||",
-        "sahitya": "-- Bra -hma mu Taa- ne nee - Paa- - da mu- - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S- sgR sN , D S R M dp | p md - pmG - R g R , g S , ||",
-        "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "- , r , m - M P - N D | S - - dr sn dp mp - mg ||",
-        "sahitya": "-- Bra -hma mu Taa- ne nee Paa- - da mu- - - - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "S- S,r N D S R M dp | p M,d - pmG , R g R , g S , ||",
-        "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "- , m mm - M M M , m M | M dp G R S ,r M M ||",
-        "sahitya": "Che lagi Va su da Go li chi na- Nee- Paa- da mu"
-      },
-      {
-        "line_number": 10,
-        "swara": "- rm , p D N - N N | r s N - D P - - - ||",
-        "sahitya": "Bali Tala Mo- pi na Paa- - da mu- - -"
-      },
-      {
-        "line_number": 11,
-        "swara": "dp- m m , m - M M M , m M | M dp G R S ,r M M ||",
-        "sahitya": "Chela gi Va su da Go li chi na- Nee- Paa- da mu"
-      },
-      {
-        "line_number": 12,
-        "swara": "- rm , p D N - N N | r s N - D P - mp -nd ||",
-        "sahitya": "Bali Tala Mo- pi na Paa- - da mu- - -"
-      },
-      {
-        "line_number": 13,
-        "swara": "pm- m m , m –M M M , m M | M dp G R S ,r M M ||",
-        "sahitya": "Chela gi Va su da Go li chi na- Nee- Paa- da mu"
-      },
-      {
-        "line_number": 14,
-        "swara": "- rm , p D N - N N | r s N D- D P - - - ||",
-        "sahitya": "Bali Tala Mo- pi na Paa- - da mu- - -"
-      },
-      {
-        "line_number": 15,
-        "swara": "- pm , p D - s s , s S | - s r , g R S - N – nd ||",
-        "sahitya": "Tala -gaka - Gaga -namu Tan- - ni na Paa da mu-"
-      },
-      {
-        "line_number": 16,
-        "swara": "D- pm , p D S S S S | s r pm , g R S - gr – sN, ||",
-        "sahitya": "Tala -gaka Gaga namu Tan- - ni na Paa da mu-"
-      },
-      {
-        "line_number": 17,
-        "swara": "D – ng , r S S rn n d P | - dp , d S sndp mpmg ||",
-        "sahitya": "- Bala ripu Gaa-- chi na Paa - - da mu -- - - - -"
-      },
-      {
-        "line_number": 18,
-        "swara": "rs- pm , p D S S S S | s r pm , g R S - gr – sN, ||",
-        "sahitya": "Tala -gaka Gaga namu Tan- - ni na Paa da mu-"
-      },
-      {
-        "line_number": 19,
-        "swara": "D – ng , r S S rn n d P | - mp dp -sn dp- mp dp - mg || rs",
-        "sahitya": "- Bala ripu Gaa-- chi na Paa - - da - - mu -- - - - - (brahma)"
-      },
-      {
-        "line_number": 20,
-        "swara": "- , m , m - M M - M M | M dp mG, R- r S r M M ||",
-        "sahitya": "Kaa - mi ni Paa- pa mu Ga di- gi - na Paa-- da mu"
-      },
-      {
-        "line_number": 21,
-        "swara": "- , r m p - D N N N N | r s N D D P - mp -nd ||",
-        "sahitya": "Paa - mu Ta la ni di na Paa- - da mu- - -"
-      },
-      {
-        "line_number": 22,
-        "swara": "p M- m , m - M M - M M | M dp mG, R- r S r M M ||",
-        "sahitya": "- Kaa - mi ni Paa- pa mu Ga di- gi - na Paa-- da mu"
-      },
-      {
-        "line_number": 23,
-        "swara": "- , r m p - D N N N N | r s N D D P - - - ||",
-        "sahitya": "Paa - mu Ta la ni di na Paa- - da mu- - -"
-      },
-      {
-        "line_number": 24,
-        "swara": "- pd m- p D - d s ,- s S | - s r , g R S - N – nd ||",
-        "sahitya": "Pre- - mapu -shree- - sa ti - Pi si - ke di Paa da mu-"
-      },
-      {
-        "line_number": 25,
-        "swara": "D- pd m- p D d S , S S | - s r , g R S - gr – sN, ||",
-        "sahitya": "- Pre- - mapu Shree- sa ti - Pi si - ke di Paa da mu-"
-      },
-      {
-        "line_number": 26,
-        "swara": "D- pd m- p D - d s , s S | s r p m , g R S - gr – sN, ||",
-        "sahitya": "- Pre- - mapu Shree- - sa ti Pi- si - - ke di Paa da mu-"
-      },
-      {
-        "line_number": 27,
-        "swara": "D – ng , r S S rn , n dd | - dp , d S sndp mpmg || rs",
-        "sahitya": "- Paa- mi di Tura- - ga pu - Paa- - - da mu- - - - - - -- (brahma)"
-      },
-      {
-        "line_number": 28,
-        "swara": "- m m , m M - dp mG, gr | gs – r m , p P pm – N , d P ||",
-        "sahitya": "Para - ma Yo – gu la - ku -- Pari - Pa ri Vi- dha -mula"
-      },
-      {
-        "line_number": 29,
-        "swara": "- - r m , p D N N N - | r s N D D P - mp nd ||",
-        "sahitya": "- Vara - mosa ge di Nee Paa-- - da mu - -"
-      },
-      {
-        "line_number": 30,
-        "swara": "pm- m m , m sM, - dp mG, gr | gs – r m , p P pm – N ,d P ||",
-        "sahitya": "Para - ma Yo – gu la - ku -- Pari - Pa ri Vi- dha mu la"
-      },
-      {
-        "line_number": 31,
-        "swara": "- - r m , p D N N N - | r s N D D P - - - ||",
-        "sahitya": "- Vara - mosa ge di Nee Paa-- - da mu - -"
-      },
-      {
-        "line_number": 32,
-        "swara": "- pm , p D S S S S | - s r , g R S - N – nd ||",
-        "sahitya": "Tiru -ven- ka ta gi ri - Ti ra - ma ni Coo pi na-"
-      },
-      {
-        "line_number": 33,
-        "swara": "D- pm , p D S S S S | - s r , g R S - gr – sN, ||",
-        "sahitya": "Tiru -ven- ka ta gi ri - Tira - ma ni Coo pi na-"
-      },
-      {
-        "line_number": 34,
-        "swara": "D- pm , p D S S S S | s r Rpm , g R S - Sgr – sN, ||",
-        "sahitya": "Tiru -ven- ka ta gi ri Ti- ra - ma ni Coo pi- na-"
-      },
-      {
-        "line_number": 35,
-        "swara": "D – n g , r - S Srn nD, D P | dm- dp , d S sndp mpmg ||",
-        "sahitya": "- Para -ma Paa - - - da mu Nee - - Paa - - da mu- - - - - -"
-      },
-      {
-        "line_number": 36,
-        "swara": "rs- pm , p D S S S S | s r Rpm , g R S - Sgr – sN, ||",
-        "sahitya": "Tiru -ven- ka ta gi ri Ti- ra - ma ni Coo pi- na-"
-      },
-      {
-        "line_number": 37,
-        "swara": "D – n g , r - S r n- nD, D P | - - mp dp -sn dp- mp dp - mg || rs",
-        "sahitya": "- Para -ma Paa - - - da mu Nee - - Paa - - da - -- mu- - - - - - - (brahma)"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Brahma Kadigina",
+        "raga": "Mukhari",
+        "arohanam": "S R2 M1 P N2 D2 S ||",
+        "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
+        "tala": "Adi",
+        "composer": "Annamacharya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- S,r N D S R M pd | mp - G - R S - - - ||",
+                "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- S,r N D S R M pd | mp - G - R g R, g S , ||",
+                "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- S,r N D S R M dp | p M,p - pmG , R g R , g S , ||",
+                "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- gr sn D , s R M dp | p M,d - pmG , R g R, g S , ||",
+                "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- , r , m - M P - D P | - pm P \u2013 P mpdp pmgr ||",
+                "sahitya": "-- Bra -hma mu Taa- ne nee - Paa- - da mu- - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S- sgR sN , D S R M dp | p md - pmG - R g R , g S , ||",
+                "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "- , r , m - M P - N D | S - - dr sn dp mp - mg ||",
+                "sahitya": "-- Bra -hma mu Taa- ne nee Paa- - da mu- - - - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "S- S,r N D S R M dp | p M,d - pmG , R g R , g S , ||",
+                "sahitya": "Bra - hma Kadi gi na- - - Paa - da mu- - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "- , m mm - M M M , m M | M dp G R S ,r M M ||",
+                "sahitya": "Che lagi Va su da Go li chi na- Nee- Paa- da mu"
+            },
+            {
+                "line_number": 10,
+                "swara": "- rm , p D N - N N | r s N - D P - - - ||",
+                "sahitya": "Bali Tala Mo- pi na Paa- - da mu- - -"
+            },
+            {
+                "line_number": 11,
+                "swara": "dp- m m , m - M M M , m M | M dp G R S ,r M M ||",
+                "sahitya": "Chela gi Va su da Go li chi na- Nee- Paa- da mu"
+            },
+            {
+                "line_number": 12,
+                "swara": "- rm , p D N - N N | r s N - D P - mp -nd ||",
+                "sahitya": "Bali Tala Mo- pi na Paa- - da mu- - -"
+            },
+            {
+                "line_number": 13,
+                "swara": "pm- m m , m \u2013M M M , m M | M dp G R S ,r M M ||",
+                "sahitya": "Chela gi Va su da Go li chi na- Nee- Paa- da mu"
+            },
+            {
+                "line_number": 14,
+                "swara": "- rm , p D N - N N | r s N D- D P - - - ||",
+                "sahitya": "Bali Tala Mo- pi na Paa- - da mu- - -"
+            },
+            {
+                "line_number": 15,
+                "swara": "- pm , p D - s s , s S | - s r , g R S - N \u2013 nd ||",
+                "sahitya": "Tala -gaka - Gaga -namu Tan- - ni na Paa da mu-"
+            },
+            {
+                "line_number": 16,
+                "swara": "D- pm , p D S S S S | s r pm , g R S - gr \u2013 sN, ||",
+                "sahitya": "Tala -gaka Gaga namu Tan- - ni na Paa da mu-"
+            },
+            {
+                "line_number": 17,
+                "swara": "D \u2013 ng , r S S rn n d P | - dp , d S sndp mpmg ||",
+                "sahitya": "- Bala ripu Gaa-- chi na Paa - - da mu -- - - - -"
+            },
+            {
+                "line_number": 18,
+                "swara": "rs- pm , p D S S S S | s r pm , g R S - gr \u2013 sN, ||",
+                "sahitya": "Tala -gaka Gaga namu Tan- - ni na Paa da mu-"
+            },
+            {
+                "line_number": 19,
+                "swara": "D \u2013 ng , r S S rn n d P | - mp dp -sn dp- mp dp - mg || rs",
+                "sahitya": "- Bala ripu Gaa-- chi na Paa - - da - - mu -- - - - - (brahma)"
+            },
+            {
+                "line_number": 20,
+                "swara": "- , m , m - M M - M M | M dp mG, R- r S r M M ||",
+                "sahitya": "Kaa - mi ni Paa- pa mu Ga di- gi - na Paa-- da mu"
+            },
+            {
+                "line_number": 21,
+                "swara": "- , r m p - D N N N N | r s N D D P - mp -nd ||",
+                "sahitya": "Paa - mu Ta la ni di na Paa- - da mu- - -"
+            },
+            {
+                "line_number": 22,
+                "swara": "p M- m , m - M M - M M | M dp mG, R- r S r M M ||",
+                "sahitya": "- Kaa - mi ni Paa- pa mu Ga di- gi - na Paa-- da mu"
+            },
+            {
+                "line_number": 23,
+                "swara": "- , r m p - D N N N N | r s N D D P - - - ||",
+                "sahitya": "Paa - mu Ta la ni di na Paa- - da mu- - -"
+            },
+            {
+                "line_number": 24,
+                "swara": "- pd m- p D - d s ,- s S | - s r , g R S - N \u2013 nd ||",
+                "sahitya": "Pre- - mapu -shree- - sa ti - Pi si - ke di Paa da mu-"
+            },
+            {
+                "line_number": 25,
+                "swara": "D- pd m- p D d S , S S | - s r , g R S - gr \u2013 sN, ||",
+                "sahitya": "- Pre- - mapu Shree- sa ti - Pi si - ke di Paa da mu-"
+            },
+            {
+                "line_number": 26,
+                "swara": "D- pd m- p D - d s , s S | s r p m , g R S - gr \u2013 sN, ||",
+                "sahitya": "- Pre- - mapu Shree- - sa ti Pi- si - - ke di Paa da mu-"
+            },
+            {
+                "line_number": 27,
+                "swara": "D \u2013 ng , r S S rn , n dd | - dp , d S sndp mpmg || rs",
+                "sahitya": "- Paa- mi di Tura- - ga pu - Paa- - - da mu- - - - - - -- (brahma)"
+            },
+            {
+                "line_number": 28,
+                "swara": "- m m , m M - dp mG, gr | gs \u2013 r m , p P pm \u2013 N , d P ||",
+                "sahitya": "Para - ma Yo \u2013 gu la - ku -- Pari - Pa ri Vi- dha -mula"
+            },
+            {
+                "line_number": 29,
+                "swara": "- - r m , p D N N N - | r s N D D P - mp nd ||",
+                "sahitya": "- Vara - mosa ge di Nee Paa-- - da mu - -"
+            },
+            {
+                "line_number": 30,
+                "swara": "pm- m m , m sM, - dp mG, gr | gs \u2013 r m , p P pm \u2013 N ,d P ||",
+                "sahitya": "Para - ma Yo \u2013 gu la - ku -- Pari - Pa ri Vi- dha mu la"
+            },
+            {
+                "line_number": 31,
+                "swara": "- - r m , p D N N N - | r s N D D P - - - ||",
+                "sahitya": "- Vara - mosa ge di Nee Paa-- - da mu - -"
+            },
+            {
+                "line_number": 32,
+                "swara": "- pm , p D S S S S | - s r , g R S - N \u2013 nd ||",
+                "sahitya": "Tiru -ven- ka ta gi ri - Ti ra - ma ni Coo pi na-"
+            },
+            {
+                "line_number": 33,
+                "swara": "D- pm , p D S S S S | - s r , g R S - gr \u2013 sN, ||",
+                "sahitya": "Tiru -ven- ka ta gi ri - Tira - ma ni Coo pi na-"
+            },
+            {
+                "line_number": 34,
+                "swara": "D- pm , p D S S S S | s r Rpm , g R S - Sgr \u2013 sN, ||",
+                "sahitya": "Tiru -ven- ka ta gi ri Ti- ra - ma ni Coo pi- na-"
+            },
+            {
+                "line_number": 35,
+                "swara": "D \u2013 n g , r - S Srn nD, D P | dm- dp , d S sndp mpmg ||",
+                "sahitya": "- Para -ma Paa - - - da mu Nee - - Paa - - da mu- - - - - -"
+            },
+            {
+                "line_number": 36,
+                "swara": "rs- pm , p D S S S S | s r Rpm , g R S - Sgr \u2013 sN, ||",
+                "sahitya": "Tiru -ven- ka ta gi ri Ti- ra - ma ni Coo pi- na-"
+            },
+            {
+                "line_number": 37,
+                "swara": "D \u2013 n g , r - S r n- nD, D P | - - mp dp -sn dp- mp dp - mg || rs",
+                "sahitya": "- Para -ma Paa - - - da mu Nee - - Paa - - da - -- mu- - - - - - - (brahma)"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Brahma_Kadigina_Mukhari.pdf"
 }

@@ -1,137 +1,138 @@
 {
-  "song_details": {
-    "name": "Kaarubaaru",
-    "raga": "Mukhari",
-    "arohanam": "S R2 M1 P N2 D2 S ||",
-    "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
-    "tala": "Adi",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - R - - gs S - S - - D N D P - | - - R - - gs S - S - - D N D dp D ||",
-        "sahitya": "- - Kaa - - ru - Baa- - - - ru - - - Kaa - - ru Baa- - - - ru -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S R- R gr Rgs S - srgr rSd N D dp D | S R- R gr Rgs S - srgr rSd N D dp D ||",
-        "sahitya": "- - Kaa- - ru - Baa- - - - ru - - - Kaa - - ru Baa- - - - ru -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S R- R gr Rgs S - srgr rSd N D dp - | - - - M M S N DP mpdp pm G R M P D ||",
-        "sahitya": "- - Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "S R- G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
-        "sahitya": "- ru Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
-      },
-      {
-        "line_number": 5,
-        "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - D S R rG r ||",
-        "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "rG r - G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
-        "sahitya": "- -- Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
-      },
-      {
-        "line_number": 7,
-        "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
-        "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - N D N D pdnd P D P - mpdp pmgr | M - P nd nd D S - - - - P D S S - ||",
-        "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - N D rssd nddp pndd P - mpdp pmgr | M - P nd nd D S - - - - P D S S - ||",
-        "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- - N D rssd N D pndd P - mpdp pmgr | M - P nd nd D S - - - - P D S R - ||",
-        "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- gs N D rssd N D pndd P - mpdp pmgr | M - P nd nd D S - - - - P D S R gr ||",
-        "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
-      },
-      {
-        "line_number": 5,
-        "swara": "R - - G R G - Rgr R - S - S - S - | srgr rSn nd D S - N D S R M - - - || G R",
-        "sahitya": "- - Llu - - - ppon- - gu - chu nu - Bhaa- - - vu- - ka - lai - - - yye- - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "G R - G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
-        "sahitya": "- -- Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
-      },
-      {
-        "line_number": 7,
-        "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
-        "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- - P D P - M Pdp M P P - pmG R M | - - R - M - P N D N D r s N D - D P - ||",
-            "sahitya": "- -nela ku Mu- - - - du - Vaa-- - - - - Na la - khila- Vi- - - - - dyala -"
-          },
-          {
-            "line_number": 2,
-            "swara": "- dm P D P - M Pdp M P P - mPm G R | M - - R M -P N D N D r s N D - D P - ||",
-            "sahitya": "- -- Nela ku Mu- - - - du - Vaa-- - - - - - Na la khila- Vi- - - - - dyala -"
-          },
-          {
-            "line_number": 3,
-            "swara": "- - - - M P D P - M D pm G R - R - | GS - -R M P N D N D rssd N D dp - ||",
-            "sahitya": "- - - Ne - rpu ka li - gi - - - - Dheer - - ghaa - yuvu - Ka - li- - - - gi -"
-          },
-          {
-            "line_number": 4,
-            "swara": "- - - N D N D pdnd P D P - mpdp pmgr | M - P nd nd D S - - - dPd ds S - - ||",
-            "sahitya": "- - Chala mu- Ga--- - r va- Ra - - - - - - hi tu - - lu - - gaa - - - Le- - -- da?- -"
-          },
-          {
-            "line_number": 5,
-            "swara": "- - - N D N D pdnd P D P - mpdp pmgr | M - P nd nd D S - - - P D S rg R - ||",
-            "sahitya": "- - Chala mu- Ga--- - r va- Ra - - - - - - hi tu - - lu - - gaa - - - Le- - --- da?- -"
-          },
-          {
-            "line_number": 6,
-            "swara": "- - - N D rssd ND pndd P - mpdp pmgr | M - P nd nd D S - - - P D S rg rs R ||",
-            "sahitya": "- - Chala mu- Ga--- - r va- Ra - - - - - - hi tu - - lu - - gaa - - - Le- - --- da?- -"
-          },
-          {
-            "line_number": 7,
-            "swara": "- - - G R G - Rgr R - S - srgr S R | S - Srn nd D S - N D S R M - - - || G R",
-            "sahitya": "- - Sa - dhu Tyaa- - - ga- raa-- - - ja - Vi-- nu- - ta! Raa- - - ma!- - - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "G R -G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
-            "sahitya": "- -- Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
-          },
-          {
-            "line_number": 9,
-            "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
-            "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
-          }
+    "song_details": {
+        "name": "Kaarubaaru",
+        "raga": "Mukhari",
+        "arohanam": "S R2 M1 P N2 D2 S ||",
+        "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
+        "tala": "Adi",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - R - - gs S - S - - D N D P - | - - R - - gs S - S - - D N D dp D ||",
+                "sahitya": "- - Kaa - - ru - Baa- - - - ru - - - Kaa - - ru Baa- - - - ru -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S R- R gr Rgs S - srgr rSd N D dp D | S R- R gr Rgs S - srgr rSd N D dp D ||",
+                "sahitya": "- - Kaa- - ru - Baa- - - - ru - - - Kaa - - ru Baa- - - - ru -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S R- R gr Rgs S - srgr rSd N D dp - | - - - M M S N DP mpdp pm G R M P D ||",
+                "sahitya": "- - Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "S R- G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
+                "sahitya": "- ru Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
+            },
+            {
+                "line_number": 5,
+                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - D S R rG r ||",
+                "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "rG r - G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
+                "sahitya": "- -- Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
+            },
+            {
+                "line_number": 7,
+                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
+                "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - N D N D pdnd P D P - mpdp pmgr | M - P nd nd D S - - - - P D S S - ||",
+                "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - N D rssd nddp pndd P - mpdp pmgr | M - P nd nd D S - - - - P D S S - ||",
+                "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- - N D rssd N D pndd P - mpdp pmgr | M - P nd nd D S - - - - P D S R - ||",
+                "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- gs N D rssd N D pndd P - mpdp pmgr | M - P nd nd D S - - - - P D S R gr ||",
+                "sahitya": "- - U - ri - vaa-- - - ru- De- - - - - - sha Jaa- - nu- - lu - - - - Va ramu nu -"
+            },
+            {
+                "line_number": 5,
+                "swara": "R - - G R G - Rgr R - S - S - S - | srgr rSn nd D S - N D S R M - - - || G R",
+                "sahitya": "- - Llu - - - ppon- - gu - chu nu - Bhaa- - - vu- - ka - lai - - - yye- - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "G R - G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
+                "sahitya": "- -- Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
+            },
+            {
+                "line_number": 7,
+                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
+                "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- - P D P - M Pdp M P P - pmG R M | - - R - M - P N D N D r s N D - D P - ||",
+                        "sahitya": "- -nela ku Mu- - - - du - Vaa-- - - - - Na la - khila- Vi- - - - - dyala -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- dm P D P - M Pdp M P P - mPm G R | M - - R M -P N D N D r s N D - D P - ||",
+                        "sahitya": "- -- Nela ku Mu- - - - du - Vaa-- - - - - - Na la khila- Vi- - - - - dyala -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- - - - M P D P - M D pm G R - R - | GS - -R M P N D N D rssd N D dp - ||",
+                        "sahitya": "- - - Ne - rpu ka li - gi - - - - Dheer - - ghaa - yuvu - Ka - li- - - - gi -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- - - N D N D pdnd P D P - mpdp pmgr | M - P nd nd D S - - - dPd ds S - - ||",
+                        "sahitya": "- - Chala mu- Ga--- - r va- Ra - - - - - - hi tu - - lu - - gaa - - - Le- - -- da?- -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- - - N D N D pdnd P D P - mpdp pmgr | M - P nd nd D S - - - P D S rg R - ||",
+                        "sahitya": "- - Chala mu- Ga--- - r va- Ra - - - - - - hi tu - - lu - - gaa - - - Le- - --- da?- -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- - - N D rssd ND pndd P - mpdp pmgr | M - P nd nd D S - - - P D S rg rs R ||",
+                        "sahitya": "- - Chala mu- Ga--- - r va- Ra - - - - - - hi tu - - lu - - gaa - - - Le- - --- da?- -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- - - G R G - Rgr R - S - srgr S R | S - Srn nd D S - N D S R M - - - || G R",
+                        "sahitya": "- - Sa - dhu Tyaa- - - ga- raa-- - - ja - Vi-- nu- - ta! Raa- - - ma!- - - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "G R -G R D S rmgr srgr rSd N D dp - | - - - M M S N DP mpdp pm G R - G R ||",
+                        "sahitya": "- -- Kaa- - ru - Baa- - - - ru - - - Se - - - yu- vaa- - - - - - - ru-"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
+                        "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Kaarubaaru_Mukhari.pdf"
 }

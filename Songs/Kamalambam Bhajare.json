@@ -1,117 +1,118 @@
 {
-  "song_details": {
-    "name": "Kamalambam Bhajare",
-    "raga": "Kalyani",
-    "arohanam": "S R2 G3 M2 P D2 N3 S ||",
-    "avarohanam": "S N3 D2 P M2 G3 R2 S ||",
-    "tala": "Adi",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "G- M- P- - - snD DP M D N- | S- - - snR snD | pmD pmG - rsN R - ||",
-        "sahitya": "Ka ma lam ba m Bha ja re re Ma na sa"
-      },
-      {
-        "line_number": 2,
-        "swara": "G- M- P- - - mpdn sndp M D N- | S- - - pdnr ssnd | pmnd pmG - rsN R - ||",
-        "sahitya": "Ka ma lam ba m Bha ja re re Ma na sa"
-      },
-      {
-        "line_number": 3,
-        "swara": "P--- pmG M- DM MG GR R- | SN DN R- rdpm | gr G rsN R- - - ||",
-        "sahitya": "Kal pi tha Ma ya Kar yam -- Thya ja re"
-      },
-      {
-        "line_number": 4,
-        "swara": "P--- pmG M- ND MG DM GR | SN DN R- rdpm | grG rsN srgr R- ||",
-        "sahitya": "Kal pi tha Ma ya Kar yam Thya ja re"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P- P- P--- pmG - - M--- | GRGR G- D- | P,g M, P--- ||",
-        "sahitya": "Kama la Va ni Se vi tha Par shwam"
-      },
-      {
-        "line_number": 2,
-        "swara": "P- P- P--- pmD pmG M--- | GR-- G- D- | dpP - - - dpP - - - ||",
-        "sahitya": "Kama la Va ni Se vi tha Par shwam"
-      },
-      {
-        "line_number": 3,
-        "swara": "P,dN- D,n dpP - pmdp pmM P--- | snD DP - D N - | rsS - - - rsS - - - ||",
-        "sahitya": "Kam bu Ja ya Gree vam Na tha De vam"
-      },
-      {
-        "line_number": 4,
-        "swara": "pdnd dnsn dpP P - pmdp pmM P- -- | snD DP - D N - | rsS - - - rsS - - - ||",
-        "sahitya": "Kam - - - bu Ja- ya Gree vam Na tha De vam"
-      },
-      {
-        "line_number": 5,
-        "swara": "SSGR SS drsr snD PM gdpd pmG | GG N- D R S sn | D PPM gdpd pmR ||",
-        "sahitya": "Kamala pura Sada nam Mrudu Gada nam | Kama nee ya Radanam Kamala Va da nam"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "S - - - G - - - R - - - P - R - | R S N S - N R - | G - - - R - - - ||",
-            "sahitya": "Sar Va sha Pa ri poo -- ra ka Cha kra"
-          },
-          {
-            "line_number": 2,
-            "swara": "S - - - R - S - - - P - N - S - | S N R - G - M - | Pdn dpP - - - - - ||",
-            "sahitya": "Swa mi neem Pa ra ma Shi - va Ka - mee neem - - - - ||"
-          },
-          {
-            "line_number": 3,
-            "swara": "D - - - N - - - S - - - snR snD | P M PD dp P - G - | - - G - R - - - ||",
-            "sahitya": "Dur va sar chi tha Gu - - p ta - Yo gi neem"
-          },
-          {
-            "line_number": 4,
-            "swara": "S - - N S N S N R - - - G - G - | - R G - M - pd pm | G R S - - - - - ||",
-            "sahitya": "Dhu - kha --- dhwam si nee em Ham si neem ||"
-          },
-          {
-            "line_number": 5,
-            "swara": "N - - - S, d S, n d pP - P - P - P , m | sn D D P P M D - | - - D N S - - - ||",
-            "sahitya": "Nir va na Ni ja Su kha Pra da ye - neem"
-          },
-          {
-            "line_number": 6,
-            "swara": "snD - - G - R - - - S rg R- S- | - - S - - - S r n | n S d D P D N - - ||",
-            "sahitya": "Ni tya Kal ya -- ni Ka thya - - - ya - ni -"
-          },
-          {
-            "line_number": 7,
-            "swara": "S - - - P - - - P - - - P M D - | dpP - R - S - N - | R - - - R - - - ||",
-            "sahitya": "Sar va ni Ma – dhu pa Vi ja ya Ve ni"
-          },
-          {
-            "line_number": 8,
-            "swara": "S - - - s r N n s D D - P - dpmg - G - | G R - - S, n S, r | G S R G rs S - - - ||",
-            "sahitya": "Sath Gu – ru -- Gu ha Ja na ni - - Ni - ran - - - ja - ni - - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "G M G R S , n R S S N S - N R - - | G - M - P - D - | N - S sn R S S - ||",
-            "sahitya": "Gar vi tha Bhan da - Su ra Bhan ja neem Ka ma kar shan ya di Ran - ja neem"
-          },
-          {
-            "line_number": 10,
-            "swara": "sn D G R - G S rg rsS - S sn D G R - | S - s R n n S d D - | P - gdpm G g d p m R ||",
-            "sahitya": "Nir - vi she sha Chai tan ya roo - pi neem Oor vi - ta -- tva di Swaru - pi – neem"
-          }
+    "song_details": {
+        "name": "Kamalambam Bhajare",
+        "raga": "Kalyani",
+        "arohanam": "S R2 G3 M2 P D2 N3 S ||",
+        "avarohanam": "S N3 D2 P M2 G3 R2 S ||",
+        "tala": "Adi",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "G- M- P- - - snD DP M D N- | S- - - snR snD | pmD pmG - rsN R - ||",
+                "sahitya": "Ka ma lam ba m Bha ja re re Ma na sa"
+            },
+            {
+                "line_number": 2,
+                "swara": "G- M- P- - - mpdn sndp M D N- | S- - - pdnr ssnd | pmnd pmG - rsN R - ||",
+                "sahitya": "Ka ma lam ba m Bha ja re re Ma na sa"
+            },
+            {
+                "line_number": 3,
+                "swara": "P--- pmG M- DM MG GR R- | SN DN R- rdpm | gr G rsN R- - - ||",
+                "sahitya": "Kal pi tha Ma ya Kar yam -- Thya ja re"
+            },
+            {
+                "line_number": 4,
+                "swara": "P--- pmG M- ND MG DM GR | SN DN R- rdpm | grG rsN srgr R- ||",
+                "sahitya": "Kal pi tha Ma ya Kar yam Thya ja re"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P- P- P--- pmG - - M--- | GRGR G- D- | P,g M, P--- ||",
+                "sahitya": "Kama la Va ni Se vi tha Par shwam"
+            },
+            {
+                "line_number": 2,
+                "swara": "P- P- P--- pmD pmG M--- | GR-- G- D- | dpP - - - dpP - - - ||",
+                "sahitya": "Kama la Va ni Se vi tha Par shwam"
+            },
+            {
+                "line_number": 3,
+                "swara": "P,dN- D,n dpP - pmdp pmM P--- | snD DP - D N - | rsS - - - rsS - - - ||",
+                "sahitya": "Kam bu Ja ya Gree vam Na tha De vam"
+            },
+            {
+                "line_number": 4,
+                "swara": "pdnd dnsn dpP P - pmdp pmM P- -- | snD DP - D N - | rsS - - - rsS - - - ||",
+                "sahitya": "Kam - - - bu Ja- ya Gree vam Na tha De vam"
+            },
+            {
+                "line_number": 5,
+                "swara": "SSGR SS drsr snD PM gdpd pmG | GG N- D R S sn | D PPM gdpd pmR ||",
+                "sahitya": "Kamala pura Sada nam Mrudu Gada nam | Kama nee ya Radanam Kamala Va da nam"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "S - - - G - - - R - - - P - R - | R S N S - N R - | G - - - R - - - ||",
+                        "sahitya": "Sar Va sha Pa ri poo -- ra ka Cha kra"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "S - - - R - S - - - P - N - S - | S N R - G - M - | Pdn dpP - - - - - ||",
+                        "sahitya": "Swa mi neem Pa ra ma Shi - va Ka - mee neem - - - - ||"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "D - - - N - - - S - - - snR snD | P M PD dp P - G - | - - G - R - - - ||",
+                        "sahitya": "Dur va sar chi tha Gu - - p ta - Yo gi neem"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "S - - N S N S N R - - - G - G - | - R G - M - pd pm | G R S - - - - - ||",
+                        "sahitya": "Dhu - kha --- dhwam si nee em Ham si neem ||"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "N - - - S, d S, n d pP - P - P - P , m | sn D D P P M D - | - - D N S - - - ||",
+                        "sahitya": "Nir va na Ni ja Su kha Pra da ye - neem"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "snD - - G - R - - - S rg R- S- | - - S - - - S r n | n S d D P D N - - ||",
+                        "sahitya": "Ni tya Kal ya -- ni Ka thya - - - ya - ni -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "S - - - P - - - P - - - P M D - | dpP - R - S - N - | R - - - R - - - ||",
+                        "sahitya": "Sar va ni Ma \u2013 dhu pa Vi ja ya Ve ni"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "S - - - s r N n s D D - P - dpmg - G - | G R - - S, n S, r | G S R G rs S - - - ||",
+                        "sahitya": "Sath Gu \u2013 ru -- Gu ha Ja na ni - - Ni - ran - - - ja - ni - - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "G M G R S , n R S S N S - N R - - | G - M - P - D - | N - S sn R S S - ||",
+                        "sahitya": "Gar vi tha Bhan da - Su ra Bhan ja neem Ka ma kar shan ya di Ran - ja neem"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "sn D G R - G S rg rsS - S sn D G R - | S - s R n n S d D - | P - gdpm G g d p m R ||",
+                        "sahitya": "Nir - vi she sha Chai tan ya roo - pi neem Oor vi - ta -- tva di Swaru - pi \u2013 neem"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Kamalambam_Bhajare_Kalyani.pdf"
 }

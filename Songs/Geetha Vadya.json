@@ -1,182 +1,183 @@
 {
-  "song_details": {
-    "name": "Geetha Vadya",
-    "raga": "Natakapriya",
-    "arohanam": "S R1 G2 M1 P D2 N2 S ||",
-    "avarohanam": "S N2 D2 P M1 G2 R1 S ||",
-    "tala": "Adi",
-    "composer": "Thanjavur Shankara Iyer"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "D - N- nd D P , m P,d | mP, M - G ,r S - pm ||",
-        "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - ta -- ka - pri-"
-      },
-      {
-        "line_number": 2,
-        "swara": "G - - - - - , g M | P - - - - - gmpd ||",
-        "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
-      },
-      {
-        "line_number": 3,
-        "swara": "N - N- nd D P , m P,d | mP, M pg -gr R- S - n d ||",
-        "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - --ta -- ka - pri-"
-      },
-      {
-        "line_number": 4,
-        "swara": "pmM G - - - - , g M | P - - - - - gmpd ||",
-        "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
-      },
-      {
-        "line_number": 5,
-        "swara": "N - N- nd D P , m P,d | mP, M pg -gr R- S - n d ||",
-        "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - --ta -- ka - pri-"
-      },
-      {
-        "line_number": 6,
-        "swara": "pmM G - - - - , g M | pd nd N - - - gmpd ||",
-        "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
-      },
-      {
-        "line_number": 7,
-        "swara": "N - N- nd D P , m P,d | mP, M pg -gr R- S - n d ||",
-        "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - --ta -- ka - pri-"
-      },
-      {
-        "line_number": 8,
-        "swara": "(gmpd)",
-        "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
-      },
-      {
-        "line_number": 9,
-        "swara": "sngr S- ss nd pm gmpd | nd p m gp mg R S - - n d ||",
-        "sahitya": "Gee ta Vaa- - dya Na-ta- na- Naa ---- ta - - ka - Pri-"
-      },
-      {
-        "line_number": 10,
-        "swara": "pmM G - - - - , g M | p D p d n S - ss nd N ||",
-        "sahitya": "Ye - - - - - Rasi ke- - - - san- - - -"
-      },
-      {
-        "line_number": 11,
-        "swara": "sngr S- ss nd P gmpd | ndp - d pm -pm g - grs - D ||",
-        "sahitya": "Gee ta Vaa- - dya Na-ta- na -- Naa -- ta -- ka-- - Pri-"
-      },
-      {
-        "line_number": 12,
-        "swara": "- - dn pmM G - - , g M | p D p d n S - ss nd N ||",
-        "sahitya": "- - - - Ye - - - - - Rasi ke- - - - san- - - -"
-      },
-      {
-        "line_number": 13,
-        "swara": "sngr S- ss nd P gmpd | ndp - d pm -pm g - grs - D ||",
-        "sahitya": "Gee ta Vaa- - dya Na-ta- na -- Naa -- ta -- ka-- - Pri-"
-      },
-      {
-        "line_number": 14,
-        "swara": "- - dn pmM G - - snN D | P - - - - - - - ||",
-        "sahitya": "- - - - Ye - - - - - Rasi ke- - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "N S S - ss nd - N S - | - - - - - - mpdn ||",
-        "sahitya": "Ve - da Roo-- - - pi ni - - - - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "N S S - ss nd - N S - | - - - - - mp dn S ||",
-        "sahitya": "Ve - da Roo-- - - pi ni - - - - - - - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - S- ss nd -N S - | S - N D N S - - ||",
-        "sahitya": "Ve - da Roo-- - - pi ni- Vi shvaa si ni- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "sngr S- ss nd -N S - | S - N D N S - - ||",
-        "sahitya": "Ve - da Roo-- - - pi ni- Vi shvaa si ni- - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "sn gr S- ss nd - N ns rg | ,r- S - ss nd -N S - ||",
-        "sahitya": "Ve - da Roo-- - - pi ni - -- -- Vi - shvaa - - si ni-"
-      },
-      {
-        "line_number": 6,
-        "swara": "sn gr S- ss nd - N ns rg | ,r- S - sN, D -N S - ||",
-        "sahitya": "Ve - da Roo-- - - pi ni - -- -- Vi - shvaa - - si ni-"
-      },
-      {
-        "line_number": 7,
-        "swara": "S - S - ss nd P - nd | pmG - gp mg R gmpd ||",
-        "sahitya": "Naa da Sva roo-- - pi ni- - - Pra- kaa-- shini"
-      },
-      {
-        "line_number": 8,
-        "swara": "n - S , S - dn Srs nd P- nd | pmG - gp mg rs gmpd ||",
-        "sahitya": "- Naa da Sva roo-- - pi- ni- - - Pra- kaa-- shini (geethavadya)"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "M - M - G - R S - | S - ss nd - S , r G M - ||",
-            "sahitya": "Maa ra ko - ti Sun da raa- - - ngi Maa- ye -"
-          },
-          {
-            "line_number": 2,
-            "swara": "p Dp M - mp G- rr S - | sr - sn dn - S , r G M - ||",
-            "sahitya": "Maa ra ko - - ti- Sun da- raa- - - ngi Maa- ye -"
-          },
-          {
-            "line_number": 3,
-            "swara": "{mg ps}",
-            "sahitya": "Maa- - tan - gi Ma ra kata Chaa - - ye- - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "ppmm gg - mm gg- rr S - | sr - sn dn - S , r G M - ||",
-            "sahitya": "Maa ra ko - - ti- Sun da- raa- - - ngi Maa- ye -"
-          },
-          {
-            "line_number": 5,
-            "swara": "{mg ps}",
-            "sahitya": "Maa- - tan - gi Ma ra kata Cha -- - - ye - -"
-          },
-          {
-            "line_number": 6,
-            "swara": "N S S - ss nd - N S - | - - - - - - mpdn ||",
-            "sahitya": "Saa- ra saa -- - kshi - - - - - - - - - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "S - S- ss nd -N S - | sngr S- ss nd N NS ||",
-            "sahitya": "Saa- ra saa -- - kshi - Sa rva saa - - - kshi-"
-          },
-          {
-            "line_number": 8,
-            "swara": "sn gr S- ss nd - N ns rg | ,r- S - S N D N S ||",
-            "sahitya": "Saa- ra saa -- - kshi - - - Sa rva saa - kshi-"
-          },
-          {
-            "line_number": 9,
-            "swara": "S - S - ss nd P - nd | pmG - gp mg R gmpd ||",
-            "sahitya": "Saa dhu ja- na- Ra - ksha- ki- - - Ka taa- - kshi- -"
-          },
-          {
-            "line_number": 10,
-            "swara": "n - S , S - dn Srs nd P- nd | pmG - gp mg rs gmpd ||",
-            "sahitya": "Saa dhu ja- na- Ra - ksha- ki- - - Ka taa- - kshi- - (geethavadya)"
-          }
+    "song_details": {
+        "name": "Geetha Vadya",
+        "raga": "Natakapriya",
+        "arohanam": "S R1 G2 M1 P D2 N2 S ||",
+        "avarohanam": "S N2 D2 P M1 G2 R1 S ||",
+        "tala": "Adi",
+        "composer": "Thanjavur Shankara Iyer"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "D - N- nd D P , m P,d | mP, M - G ,r S - pm ||",
+                "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - ta -- ka - pri-"
+            },
+            {
+                "line_number": 2,
+                "swara": "G - - - - - , g M | P - - - - - gmpd ||",
+                "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
+            },
+            {
+                "line_number": 3,
+                "swara": "N - N- nd D P , m P,d | mP, M pg -gr R- S - n d ||",
+                "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - --ta -- ka - pri-"
+            },
+            {
+                "line_number": 4,
+                "swara": "pmM G - - - - , g M | P - - - - - gmpd ||",
+                "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
+            },
+            {
+                "line_number": 5,
+                "swara": "N - N- nd D P , m P,d | mP, M pg -gr R- S - n d ||",
+                "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - --ta -- ka - pri-"
+            },
+            {
+                "line_number": 6,
+                "swara": "pmM G - - - - , g M | pd nd N - - - gmpd ||",
+                "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
+            },
+            {
+                "line_number": 7,
+                "swara": "N - N- nd D P , m P,d | mP, M pg -gr R- S - n d ||",
+                "sahitya": "Gee ta Vaa- - dya Nata- na -- Naa - --ta -- ka - pri-"
+            },
+            {
+                "line_number": 8,
+                "swara": "(gmpd)",
+                "sahitya": "Ye - - - - - Rasi ke- - - - - san-"
+            },
+            {
+                "line_number": 9,
+                "swara": "sngr S- ss nd pm gmpd | nd p m gp mg R S - - n d ||",
+                "sahitya": "Gee ta Vaa- - dya Na-ta- na- Naa ---- ta - - ka - Pri-"
+            },
+            {
+                "line_number": 10,
+                "swara": "pmM G - - - - , g M | p D p d n S - ss nd N ||",
+                "sahitya": "Ye - - - - - Rasi ke- - - - san- - - -"
+            },
+            {
+                "line_number": 11,
+                "swara": "sngr S- ss nd P gmpd | ndp - d pm -pm g - grs - D ||",
+                "sahitya": "Gee ta Vaa- - dya Na-ta- na -- Naa -- ta -- ka-- - Pri-"
+            },
+            {
+                "line_number": 12,
+                "swara": "- - dn pmM G - - , g M | p D p d n S - ss nd N ||",
+                "sahitya": "- - - - Ye - - - - - Rasi ke- - - - san- - - -"
+            },
+            {
+                "line_number": 13,
+                "swara": "sngr S- ss nd P gmpd | ndp - d pm -pm g - grs - D ||",
+                "sahitya": "Gee ta Vaa- - dya Na-ta- na -- Naa -- ta -- ka-- - Pri-"
+            },
+            {
+                "line_number": 14,
+                "swara": "- - dn pmM G - - snN D | P - - - - - - - ||",
+                "sahitya": "- - - - Ye - - - - - Rasi ke- - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "N S S - ss nd - N S - | - - - - - - mpdn ||",
+                "sahitya": "Ve - da Roo-- - - pi ni - - - - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "N S S - ss nd - N S - | - - - - - mp dn S ||",
+                "sahitya": "Ve - da Roo-- - - pi ni - - - - - - - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - S- ss nd -N S - | S - N D N S - - ||",
+                "sahitya": "Ve - da Roo-- - - pi ni- Vi shvaa si ni- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "sngr S- ss nd -N S - | S - N D N S - - ||",
+                "sahitya": "Ve - da Roo-- - - pi ni- Vi shvaa si ni- - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "sn gr S- ss nd - N ns rg | ,r- S - ss nd -N S - ||",
+                "sahitya": "Ve - da Roo-- - - pi ni - -- -- Vi - shvaa - - si ni-"
+            },
+            {
+                "line_number": 6,
+                "swara": "sn gr S- ss nd - N ns rg | ,r- S - sN, D -N S - ||",
+                "sahitya": "Ve - da Roo-- - - pi ni - -- -- Vi - shvaa - - si ni-"
+            },
+            {
+                "line_number": 7,
+                "swara": "S - S - ss nd P - nd | pmG - gp mg R gmpd ||",
+                "sahitya": "Naa da Sva roo-- - pi ni- - - Pra- kaa-- shini"
+            },
+            {
+                "line_number": 8,
+                "swara": "n - S , S - dn Srs nd P- nd | pmG - gp mg rs gmpd ||",
+                "sahitya": "- Naa da Sva roo-- - pi- ni- - - Pra- kaa-- shini (geethavadya)"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "M - M - G - R S - | S - ss nd - S , r G M - ||",
+                        "sahitya": "Maa ra ko - ti Sun da raa- - - ngi Maa- ye -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "p Dp M - mp G- rr S - | sr - sn dn - S , r G M - ||",
+                        "sahitya": "Maa ra ko - - ti- Sun da- raa- - - ngi Maa- ye -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "{mg ps}",
+                        "sahitya": "Maa- - tan - gi Ma ra kata Chaa - - ye- - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "ppmm gg - mm gg- rr S - | sr - sn dn - S , r G M - ||",
+                        "sahitya": "Maa ra ko - - ti- Sun da- raa- - - ngi Maa- ye -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "{mg ps}",
+                        "sahitya": "Maa- - tan - gi Ma ra kata Cha -- - - ye - -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "N S S - ss nd - N S - | - - - - - - mpdn ||",
+                        "sahitya": "Saa- ra saa -- - kshi - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "S - S- ss nd -N S - | sngr S- ss nd N NS ||",
+                        "sahitya": "Saa- ra saa -- - kshi - Sa rva saa - - - kshi-"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "sn gr S- ss nd - N ns rg | ,r- S - S N D N S ||",
+                        "sahitya": "Saa- ra saa -- - kshi - - - Sa rva saa - kshi-"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "S - S - ss nd P - nd | pmG - gp mg R gmpd ||",
+                        "sahitya": "Saa dhu ja- na- Ra - ksha- ki- - - Ka taa- - kshi- -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "n - S , S - dn Srs nd P- nd | pmG - gp mg rs gmpd ||",
+                        "sahitya": "Saa dhu ja- na- Ra - ksha- ki- - - Ka taa- - kshi- - (geethavadya)"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Geetha_Vadya_Natakapriya.pdf"
 }

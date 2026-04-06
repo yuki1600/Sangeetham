@@ -1,222 +1,223 @@
 {
-  "song_details": {
-    "name": "Janani Ninnu Vina",
-    "raga": "Reethigowlai",
-    "arohanam": "S G R G M N N S || AVA: S N D M G R G M P M G R S ||",
-    "avarohanam": "S G R G M N N S || AVA: S N D M G R G M P M G R S ||",
-    "tala": "Misra Chapu",
-    "composer": "Subbaraya Shastri"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "N N - | S - - sn || G R - | R G g S , ||",
-        "sahitya": "Ja na ni Nin nnu Vi na - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - - | - - s r s r ||",
-        "sahitya": "- - - - - - Am - ba -"
-      },
-      {
-        "line_number": 3,
-        "swara": "N N - | S - - N || sd p mgr | R G g S , ||",
-        "sahitya": "Ja na ni Nin nnu Vi na - - - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- - - | - ns gg rs ||",
-        "sahitya": "- - - Am ba - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "N N - | S - Srs N || sp p mgr | R G g S , ||",
-        "sahitya": "Ja na ni Nin nnu - Vi- na - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "- - - | - - N - || N - ns | snnd M- ||",
-        "sahitya": "- - - - - Tri lo - - - - - - ka"
-      },
-      {
-        "line_number": 7,
-        "swara": "N N - | S - Srs N || sp p mgr | R G g S , ||",
-        "sahitya": "Ja na ni Nin - - nnu - - Vi- na - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "- - - | - - N - || S G R G - M - ||",
-        "sahitya": "Di kke va - ram mma"
-      },
-      {
-        "line_number": 9,
-        "swara": "G M - | P - M - || G R - | G M G R ||",
-        "sahitya": "Ja ga mu lo - na Ga - - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "R G - | gS , ggrn || S p mgr | G - M - ||",
-        "sahitya": "na - - - Di --- kke va - - - ram mma"
-      },
-      {
-        "line_number": 11,
-        "swara": "mg M - | M N nd M || G R - | gm Pdp gmpm gr ||",
-        "sahitya": "Ja - ga mu - lo- - - na Ga - - - - - - -"
-      },
-      {
-        "line_number": 12,
-        "swara": "R G - | g S , g g r n || S p m g r | G - M - ||",
-        "sahitya": "Na - - - - Di - - - ke va - - - ram mma"
-      },
-      {
-        "line_number": 13,
-        "swara": "gm n n S | - nd M - || G R - | gm Pdp gmpm gr ||",
-        "sahitya": "Ja – ga - - mu la - na Ga - - - - - - - - - -"
-      },
-      {
-        "line_number": 14,
-        "swara": "R G - | g S , g g r n || S p m g r | G - M - ||",
-        "sahitya": "Na - - - - Di - - - ke va - - - ram mma"
-      },
-      {
-        "line_number": 15,
-        "swara": "d n Sr s nr | sn nd M - || G R - | gm Pdp gmpm gr ||",
-        "sahitya": "Ja - ga - - mu - - la - - na Ga - - - - - - - - - -"
-      },
-      {
-        "line_number": 16,
-        "swara": "R G - | gS , s r s r || N N - S - - -",
-        "sahitya": "Na - - - - Am-ba - Ja na ni"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "N N - | S - s n N || S - - | - - , n d n ||",
-        "sahitya": "Ma na si ja - - Maa na –"
-      },
-      {
-        "line_number": 2,
-        "swara": "S - - - | - - S , n || N - rs | s n nd M - ||",
-        "sahitya": "sa Sam mo - - thi - - ni"
-      },
-      {
-        "line_number": 3,
-        "swara": "N N - | S - s n N || S - - | - - - nd n ||",
-        "sahitya": "Ma na si ja - - Ma na -"
-      },
-      {
-        "line_number": 4,
-        "swara": "G - gs | - - S , n || N - rs | sn nd M- ||",
-        "sahitya": "sa - - Sam mo thi - - ni"
-      },
-      {
-        "line_number": 5,
-        "swara": "R , S , | Sr s ND || N , n r s | s n N D - ||",
-        "sahitya": "Vi na ve - na - Ma na - vi ni"
-      },
-      {
-        "line_number": 6,
-        "swara": "P D N | ndD M - || G - R | r m gRr S ||",
-        "sahitya": "Vi ni - Nan- - nnu Bro vu mu - - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "R , S , | nsr S-r sn N || N dn Srs | sn N D - ||",
-        "sahitya": "Vi na ve - - Na -- Ma na- - vi-- ni"
-      },
-      {
-        "line_number": 8,
-        "swara": "g m nn S | snnd M - || G - R | r m g G r S ||",
-        "sahitya": "Vi – ni - - Nan- - nnu Bro - vu mu- - - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "N P N | N S N N || S - - - - N S ||",
-        "sahitya": "Ni ra va dhi ka Su kha Daa ya ki"
-      },
-      {
-        "line_number": 10,
-        "swara": "G R S N S G G || M - M G G R S ||",
-        "sahitya": "Ya nuchu Vi ni Ni nnu Chaa la Go li chi thi"
-      },
-      {
-        "line_number": 11,
-        "swara": "N S G R N S G || R N S R S S N ||",
-        "sahitya": "Ni ra ta mu ga Ta na yu ni Mo ra lu vi ni"
-      },
-      {
-        "line_number": 12,
-        "swara": "P - N N S S - || G G M G G R S ||",
-        "sahitya": "Nee va le nu Bro chu ta ku E va ri ki"
-      },
-      {
-        "line_number": 13,
-        "swara": "G G M G G M - || N N - S N S - ||",
-        "sahitya": "Dhara lo Vi nu ma I di Gha na ma"
-      },
-      {
-        "line_number": 14,
-        "swara": "N S G G M G M || N N D M N N S ||",
-        "sahitya": "Ta ru na mi thi Kru pa Sa lu pu Du ru su ga"
-      },
-      {
-        "line_number": 15,
-        "swara": "G G M G R G - || G R N S - S N ||",
-        "sahitya": "Sa ra si ru ha Lo cha ni Su va si ni"
-      },
-      {
-        "line_number": 16,
-        "swara": "S gs N D M M dm || G R S S gs N P ||",
-        "sahitya": "Ta ma sa mu Se - ya ka ne Bro- vu mu"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "N N - S - - N || S - - G M G R ||",
-            "sahitya": "Va ra da ya ki Ga - - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "S - - - - N - || S G R G - M - ||",
-            "sahitya": "dha- - O kka ni - Bro va"
-          },
-          {
-            "line_number": 3,
-            "swara": "N , N , d nsn snD || M G R g m Pdp gmpm gr ||",
-            "sahitya": "Ka ru da - - - - - Da - ya Raa - - - - - - - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "S - - - - - srsr ||",
-            "sahitya": "da Amba"
-          },
-          {
-            "line_number": 5,
-            "swara": "N , N , S - s n N || S - - - - - n d n ||",
-            "sahitya": "Ne ra nam mi - - na - - - - - Naa -"
-          },
-          {
-            "line_number": 6,
-            "swara": "S - - - - S n || N - rs snnd M - ||",
-            "sahitya": "- - - - - tho- nu -- Va - tha"
-          },
-          {
-            "line_number": 7,
-            "swara": "R , S , S r s S N || N , n r S s n D D - ||",
-            "sahitya": "Sa ra si - ja - Bha va - Ha- - ri -"
-          },
-          {
-            "line_number": 8,
-            "swara": "g m nn S | s nnd M - || G - R r mgGrs ||",
-            "sahitya": "Ha - ra - - nu - - - tha Paa - - da - - - - -"
-          }
+    "song_details": {
+        "name": "Janani Ninnu Vina",
+        "raga": "Reethigowlai",
+        "arohanam": "S G R G M N N S || AVA: S N D M G R G M P M G R S ||",
+        "avarohanam": "S G R G M N N S || AVA: S N D M G R G M P M G R S ||",
+        "tala": "Misra Chapu",
+        "composer": "Subbaraya Shastri"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "N N - | S - - sn || G R - | R G g S , ||",
+                "sahitya": "Ja na ni Nin nnu Vi na - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - - | - - s r s r ||",
+                "sahitya": "- - - - - - Am - ba -"
+            },
+            {
+                "line_number": 3,
+                "swara": "N N - | S - - N || sd p mgr | R G g S , ||",
+                "sahitya": "Ja na ni Nin nnu Vi na - - - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- - - | - ns gg rs ||",
+                "sahitya": "- - - Am ba - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "N N - | S - Srs N || sp p mgr | R G g S , ||",
+                "sahitya": "Ja na ni Nin nnu - Vi- na - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "- - - | - - N - || N - ns | snnd M- ||",
+                "sahitya": "- - - - - Tri lo - - - - - - ka"
+            },
+            {
+                "line_number": 7,
+                "swara": "N N - | S - Srs N || sp p mgr | R G g S , ||",
+                "sahitya": "Ja na ni Nin - - nnu - - Vi- na - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "- - - | - - N - || S G R G - M - ||",
+                "sahitya": "Di kke va - ram mma"
+            },
+            {
+                "line_number": 9,
+                "swara": "G M - | P - M - || G R - | G M G R ||",
+                "sahitya": "Ja ga mu lo - na Ga - - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "R G - | gS , ggrn || S p mgr | G - M - ||",
+                "sahitya": "na - - - Di --- kke va - - - ram mma"
+            },
+            {
+                "line_number": 11,
+                "swara": "mg M - | M N nd M || G R - | gm Pdp gmpm gr ||",
+                "sahitya": "Ja - ga mu - lo- - - na Ga - - - - - - -"
+            },
+            {
+                "line_number": 12,
+                "swara": "R G - | g S , g g r n || S p m g r | G - M - ||",
+                "sahitya": "Na - - - - Di - - - ke va - - - ram mma"
+            },
+            {
+                "line_number": 13,
+                "swara": "gm n n S | - nd M - || G R - | gm Pdp gmpm gr ||",
+                "sahitya": "Ja \u2013 ga - - mu la - na Ga - - - - - - - - - -"
+            },
+            {
+                "line_number": 14,
+                "swara": "R G - | g S , g g r n || S p m g r | G - M - ||",
+                "sahitya": "Na - - - - Di - - - ke va - - - ram mma"
+            },
+            {
+                "line_number": 15,
+                "swara": "d n Sr s nr | sn nd M - || G R - | gm Pdp gmpm gr ||",
+                "sahitya": "Ja - ga - - mu - - la - - na Ga - - - - - - - - - -"
+            },
+            {
+                "line_number": 16,
+                "swara": "R G - | gS , s r s r || N N - S - - -",
+                "sahitya": "Na - - - - Am-ba - Ja na ni"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "N N - | S - s n N || S - - | - - , n d n ||",
+                "sahitya": "Ma na si ja - - Maa na \u2013"
+            },
+            {
+                "line_number": 2,
+                "swara": "S - - - | - - S , n || N - rs | s n nd M - ||",
+                "sahitya": "sa Sam mo - - thi - - ni"
+            },
+            {
+                "line_number": 3,
+                "swara": "N N - | S - s n N || S - - | - - - nd n ||",
+                "sahitya": "Ma na si ja - - Ma na -"
+            },
+            {
+                "line_number": 4,
+                "swara": "G - gs | - - S , n || N - rs | sn nd M- ||",
+                "sahitya": "sa - - Sam mo thi - - ni"
+            },
+            {
+                "line_number": 5,
+                "swara": "R , S , | Sr s ND || N , n r s | s n N D - ||",
+                "sahitya": "Vi na ve - na - Ma na - vi ni"
+            },
+            {
+                "line_number": 6,
+                "swara": "P D N | ndD M - || G - R | r m gRr S ||",
+                "sahitya": "Vi ni - Nan- - nnu Bro vu mu - - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "R , S , | nsr S-r sn N || N dn Srs | sn N D - ||",
+                "sahitya": "Vi na ve - - Na -- Ma na- - vi-- ni"
+            },
+            {
+                "line_number": 8,
+                "swara": "g m nn S | snnd M - || G - R | r m g G r S ||",
+                "sahitya": "Vi \u2013 ni - - Nan- - nnu Bro - vu mu- - - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "N P N | N S N N || S - - - - N S ||",
+                "sahitya": "Ni ra va dhi ka Su kha Daa ya ki"
+            },
+            {
+                "line_number": 10,
+                "swara": "G R S N S G G || M - M G G R S ||",
+                "sahitya": "Ya nuchu Vi ni Ni nnu Chaa la Go li chi thi"
+            },
+            {
+                "line_number": 11,
+                "swara": "N S G R N S G || R N S R S S N ||",
+                "sahitya": "Ni ra ta mu ga Ta na yu ni Mo ra lu vi ni"
+            },
+            {
+                "line_number": 12,
+                "swara": "P - N N S S - || G G M G G R S ||",
+                "sahitya": "Nee va le nu Bro chu ta ku E va ri ki"
+            },
+            {
+                "line_number": 13,
+                "swara": "G G M G G M - || N N - S N S - ||",
+                "sahitya": "Dhara lo Vi nu ma I di Gha na ma"
+            },
+            {
+                "line_number": 14,
+                "swara": "N S G G M G M || N N D M N N S ||",
+                "sahitya": "Ta ru na mi thi Kru pa Sa lu pu Du ru su ga"
+            },
+            {
+                "line_number": 15,
+                "swara": "G G M G R G - || G R N S - S N ||",
+                "sahitya": "Sa ra si ru ha Lo cha ni Su va si ni"
+            },
+            {
+                "line_number": 16,
+                "swara": "S gs N D M M dm || G R S S gs N P ||",
+                "sahitya": "Ta ma sa mu Se - ya ka ne Bro- vu mu"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "N N - S - - N || S - - G M G R ||",
+                        "sahitya": "Va ra da ya ki Ga - - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "S - - - - N - || S G R G - M - ||",
+                        "sahitya": "dha- - O kka ni - Bro va"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "N , N , d nsn snD || M G R g m Pdp gmpm gr ||",
+                        "sahitya": "Ka ru da - - - - - Da - ya Raa - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "S - - - - - srsr ||",
+                        "sahitya": "da Amba"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "N , N , S - s n N || S - - - - - n d n ||",
+                        "sahitya": "Ne ra nam mi - - na - - - - - Naa -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "S - - - - S n || N - rs snnd M - ||",
+                        "sahitya": "- - - - - tho- nu -- Va - tha"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "R , S , S r s S N || N , n r S s n D D - ||",
+                        "sahitya": "Sa ra si - ja - Bha va - Ha- - ri -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "g m nn S | s nnd M - || G - R r mgGrs ||",
+                        "sahitya": "Ha - ra - - nu - - - tha Paa - - da - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Janani_Ninnu_Vina_Reethigowlai.pdf"
 }

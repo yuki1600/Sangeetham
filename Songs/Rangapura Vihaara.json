@@ -1,157 +1,158 @@
 {
-  "song_details": {
-    "name": "Rangapura Vihaara",
-    "raga": "Brindavana Saranga",
-    "arohanam": "S R2 M1 P N3 S ||",
-    "avarohanam": "S N2 P M1 R2 G2 S ||",
-    "tala": "Rupakam",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "R- - ,n S - – N- N - N P || S - - - S - - - snnp - N ||",
-        "sahitya": "Ran- ga pu ra - Vi- haa- - - raa- Sri - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "R- - ,n S - – N- N - N P || N S - - S - - - N - S - ||",
-        "sahitya": "Ran- ga pu ra - Vi- haa- - - raa- Ja ya"
-      },
-      {
-        "line_number": 3,
-        "swara": "R - - - gr R - - S – N S n p || - mn pm R S – R M P - N P - ||",
-        "sahitya": "Ko- - - dan- - - - da Raa- maa- - va- taa- - ra Raghuvi - ra Sri –"
-      },
-      {
-        "line_number": 4,
-        "swara": "rsR - - S - – N- rsSN- N P || S - - - S - - - S rm rs S ||",
-        "sahitya": "Ran- ga pu ra - -- Vi- haa- - - raa- Ja -- ya- -"
-      },
-      {
-        "line_number": 5,
-        "swara": "R - - ,s srpm R S S – N S n p || - mn pm R S – R M P - N N P ||",
-        "sahitya": "Ko- - - dan- - - - da Raa- maa- - va- taa- - ra Raghuvi - ra Sri –"
-      },
-      {
-        "line_number": 6,
-        "swara": "npR - , s S - – srN SN- N P || NS - - S - - - NP P - ||",
-        "sahitya": "Ran- - - ga pu ra - Vi- haa- - - raa- Ja -- ya- -"
-      },
-      {
-        "line_number": 7,
-        "swara": "mpns rpmm - R - S R S – rs S n p || - mn pm R S – R M P - N N P ||",
-        "sahitya": "Ko- - - - - - dan - da Raa- maa- - va- taa- - ra Raghuvi - ra Sri –"
-      },
-      {
-        "line_number": 8,
-        "swara": "nR - - , S - – SN SN- N P || S - - - S - - - - - - - ||",
-        "sahitya": "Ran- - - ga pu ra - Vi- haa- - - raa- - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - - - - - NM P - - SN || S N S N S - - - - - S - ||",
-        "sahitya": "An- - - - ga- ja - Ja- na - ka- De- - - - - va –"
-      },
-      {
-        "line_number": 2,
-        "swara": "snnp - - - - - pnM P - - SN || S N S N N S - - - - N R ||",
-        "sahitya": "An- - - - ga- ja - Ja- na - ka- De- - - - - va –"
-      },
-      {
-        "line_number": 3,
-        "swara": "snnp - - - R - - - R - S - || S - - - S - rn - N S P - ||",
-        "sahitya": "Brin- - - daa - - va- na- Saa- - - ran- - - gen- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "P sn S N N P PM R - pmmr || M - P - MP ps snM- P - P - ||",
-        "sahitya": "dra—va- - ra- da - Ra maan-- n - ta- ran - - - n - ga-"
-      },
-      {
-        "line_number": 5,
-        "swara": "snnp - - - rsR - ,m R - S - || S - - - S - rn - N S P - ||",
-        "sahitya": "Brin- - - daa - - va- na- Saa- - - ran- - - gen- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "P sn nrss N P PM R - pmmr - || M - P - MP ps snM- P - NS ||",
-        "sahitya": "dra—va- - ra- da - Ra maan-- n - ta- ran - - - nga Shyaa-"
-      },
-      {
-        "line_number": 7,
-        "swara": "N P - M M R - R S R N S || R S S - R N S- N P – N M P ||",
-        "sahitya": "ma laa-nga Vihan-ga Turan- ga Sadayaa- paa-nga Sa - tsa - nga"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "R - P - PM - P - - - P - || pn P P - pn M P - pmM R- R - || SR pmmr S - - - - - - - ||",
-            "sahitya": "Pan- - ka - jaa- - - pta- ku- - la - Ja- - la - ni - - - dhi So- - - - - maa - - - - - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "MR RP PM - P - - - P - || pn P P - pn M P - mpn - m P R || - S mr pm npmr S - N P P - ||",
-            "sahitya": "Pan- - ka - jaa- - - pta- ku- - la - Ja- - la - ni - - - dhi So- - - - - - - - maa Va- ra –"
-          },
-          {
-            "line_number": 3,
-            "swara": "R - - - rsG R - R R S - || R - pmmr M P - - - - M P || , r- rsN - N S - - - - - - ||",
-            "sahitya": "Pan- - ka—ja - Mu- kha- Pa - - - -- ttaa- - - - bhi – - raa - - - maa- - - - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "R - - - rsG R - R R S - || R - pmmr M P - - - - M P || , r- rsN - N S - - P - R - ||",
-            "sahitya": "Pan- - ka—ja - Mu- kha- Pa - - - -- ttaa- - - - bhi – - raa - - - maa- - Va- ra-"
-          },
-          {
-            "line_number": 5,
-            "swara": "srsn P - N G R - R R S - || R - - ,m mPm R- R - S - || rsnp P - R - - - P - R- ||",
-            "sahitya": "Pan- - - ka- ja - Ji - ta - kaa- - - maa- - - Ra-ghu- raa- - - - maa- - Pa da"
-          },
-          {
-            "line_number": 6,
-            "swara": "srsn P - N G R - R R S - || R - - ,m mPm R- R - S - || srsn P - R - - - N - S N ||",
-            "sahitya": "Pan- - - ka- ja - Ji - ta - kaa- - - maa- - - Ra-ghu- raa- - - - maa- - Vaa- - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "S R - - M - R - M - R - || S - - ,n NS - ,n P - R - || srsn P - - - P - P - - sn ||",
-            "sahitya": "Maa- - - - nka Ga- ta- Si - - - taa- - - va ra - Ve- - - - - - sha She- - --"
-          },
-          {
-            "line_number": 8,
-            "swara": "P - - - MP pmmr R - S - || S rs N - S - - R - pmmr M M || P - - - P M P - PM PM ||",
-            "sahitya": "Shaa- nka- Sha-- ya- na- Bha- - - kta- San - - - - - - tho- - - - sha- E - - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "P - - - - - N - R - S - || M - R - S - - R - S - sr N || N - - N S N P - N - S - S N ||",
-            "sahitya": "Naan- - - ka- ra - vi- na- ya- na- Mru- du- ta - ra - Bhaa - - sha- A- ka-"
-          },
-          {
-            "line_number": 10,
-            "swara": "R - - ,s S - - S - - - R N || S - - snnp - pmpn psnn P - - RM || pnpm R - rsS- S - - - R S ||",
-            "sahitya": "lan- - - ka- Dar- - rpa- na Ka- po- - - - - la Vi- se- - - - - - sha- - - Muni-"
-          },
-          {
-            "line_number": 11,
-            "swara": "R - M P N P P – N M P - P || P mr – M R - R S S – N S - S - ||",
-            "sahitya": "San-kata Harana Go - vin da Ven- ka ta Ramana Mu kun da-"
-          },
-          {
-            "line_number": 12,
-            "swara": "R - pm R R S – R N S – N P N || S R N S P R S np - N M P ||",
-            "sahitya": "San kaar-- shana Mu- la Kan-da Shan- kara Gurugu haa- nan- da"
-          }
+    "song_details": {
+        "name": "Rangapura Vihaara",
+        "raga": "Brindavana Saranga",
+        "arohanam": "S R2 M1 P N3 S ||",
+        "avarohanam": "S N2 P M1 R2 G2 S ||",
+        "tala": "Rupakam",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "R- - ,n S - \u2013 N- N - N P || S - - - S - - - snnp - N ||",
+                "sahitya": "Ran- ga pu ra - Vi- haa- - - raa- Sri - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "R- - ,n S - \u2013 N- N - N P || N S - - S - - - N - S - ||",
+                "sahitya": "Ran- ga pu ra - Vi- haa- - - raa- Ja ya"
+            },
+            {
+                "line_number": 3,
+                "swara": "R - - - gr R - - S \u2013 N S n p || - mn pm R S \u2013 R M P - N P - ||",
+                "sahitya": "Ko- - - dan- - - - da Raa- maa- - va- taa- - ra Raghuvi - ra Sri \u2013"
+            },
+            {
+                "line_number": 4,
+                "swara": "rsR - - S - \u2013 N- rsSN- N P || S - - - S - - - S rm rs S ||",
+                "sahitya": "Ran- ga pu ra - -- Vi- haa- - - raa- Ja -- ya- -"
+            },
+            {
+                "line_number": 5,
+                "swara": "R - - ,s srpm R S S \u2013 N S n p || - mn pm R S \u2013 R M P - N N P ||",
+                "sahitya": "Ko- - - dan- - - - da Raa- maa- - va- taa- - ra Raghuvi - ra Sri \u2013"
+            },
+            {
+                "line_number": 6,
+                "swara": "npR - , s S - \u2013 srN SN- N P || NS - - S - - - NP P - ||",
+                "sahitya": "Ran- - - ga pu ra - Vi- haa- - - raa- Ja -- ya- -"
+            },
+            {
+                "line_number": 7,
+                "swara": "mpns rpmm - R - S R S \u2013 rs S n p || - mn pm R S \u2013 R M P - N N P ||",
+                "sahitya": "Ko- - - - - - dan - da Raa- maa- - va- taa- - ra Raghuvi - ra Sri \u2013"
+            },
+            {
+                "line_number": 8,
+                "swara": "nR - - , S - \u2013 SN SN- N P || S - - - S - - - - - - - ||",
+                "sahitya": "Ran- - - ga pu ra - Vi- haa- - - raa- - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - - - - - NM P - - SN || S N S N S - - - - - S - ||",
+                "sahitya": "An- - - - ga- ja - Ja- na - ka- De- - - - - va \u2013"
+            },
+            {
+                "line_number": 2,
+                "swara": "snnp - - - - - pnM P - - SN || S N S N N S - - - - N R ||",
+                "sahitya": "An- - - - ga- ja - Ja- na - ka- De- - - - - va \u2013"
+            },
+            {
+                "line_number": 3,
+                "swara": "snnp - - - R - - - R - S - || S - - - S - rn - N S P - ||",
+                "sahitya": "Brin- - - daa - - va- na- Saa- - - ran- - - gen- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "P sn S N N P PM R - pmmr || M - P - MP ps snM- P - P - ||",
+                "sahitya": "dra\u2014va- - ra- da - Ra maan-- n - ta- ran - - - n - ga-"
+            },
+            {
+                "line_number": 5,
+                "swara": "snnp - - - rsR - ,m R - S - || S - - - S - rn - N S P - ||",
+                "sahitya": "Brin- - - daa - - va- na- Saa- - - ran- - - gen- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "P sn nrss N P PM R - pmmr - || M - P - MP ps snM- P - NS ||",
+                "sahitya": "dra\u2014va- - ra- da - Ra maan-- n - ta- ran - - - nga Shyaa-"
+            },
+            {
+                "line_number": 7,
+                "swara": "N P - M M R - R S R N S || R S S - R N S- N P \u2013 N M P ||",
+                "sahitya": "ma laa-nga Vihan-ga Turan- ga Sadayaa- paa-nga Sa - tsa - nga"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "R - P - PM - P - - - P - || pn P P - pn M P - pmM R- R - || SR pmmr S - - - - - - - ||",
+                        "sahitya": "Pan- - ka - jaa- - - pta- ku- - la - Ja- - la - ni - - - dhi So- - - - - maa - - - - - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "MR RP PM - P - - - P - || pn P P - pn M P - mpn - m P R || - S mr pm npmr S - N P P - ||",
+                        "sahitya": "Pan- - ka - jaa- - - pta- ku- - la - Ja- - la - ni - - - dhi So- - - - - - - - maa Va- ra \u2013"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "R - - - rsG R - R R S - || R - pmmr M P - - - - M P || , r- rsN - N S - - - - - - ||",
+                        "sahitya": "Pan- - ka\u2014ja - Mu- kha- Pa - - - -- ttaa- - - - bhi \u2013 - raa - - - maa- - - - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "R - - - rsG R - R R S - || R - pmmr M P - - - - M P || , r- rsN - N S - - P - R - ||",
+                        "sahitya": "Pan- - ka\u2014ja - Mu- kha- Pa - - - -- ttaa- - - - bhi \u2013 - raa - - - maa- - Va- ra-"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "srsn P - N G R - R R S - || R - - ,m mPm R- R - S - || rsnp P - R - - - P - R- ||",
+                        "sahitya": "Pan- - - ka- ja - Ji - ta - kaa- - - maa- - - Ra-ghu- raa- - - - maa- - Pa da"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "srsn P - N G R - R R S - || R - - ,m mPm R- R - S - || srsn P - R - - - N - S N ||",
+                        "sahitya": "Pan- - - ka- ja - Ji - ta - kaa- - - maa- - - Ra-ghu- raa- - - - maa- - Vaa- - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "S R - - M - R - M - R - || S - - ,n NS - ,n P - R - || srsn P - - - P - P - - sn ||",
+                        "sahitya": "Maa- - - - nka Ga- ta- Si - - - taa- - - va ra - Ve- - - - - - sha She- - --"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "P - - - MP pmmr R - S - || S rs N - S - - R - pmmr M M || P - - - P M P - PM PM ||",
+                        "sahitya": "Shaa- nka- Sha-- ya- na- Bha- - - kta- San - - - - - - tho- - - - sha- E - - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "P - - - - - N - R - S - || M - R - S - - R - S - sr N || N - - N S N P - N - S - S N ||",
+                        "sahitya": "Naan- - - ka- ra - vi- na- ya- na- Mru- du- ta - ra - Bhaa - - sha- A- ka-"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "R - - ,s S - - S - - - R N || S - - snnp - pmpn psnn P - - RM || pnpm R - rsS- S - - - R S ||",
+                        "sahitya": "lan- - - ka- Dar- - rpa- na Ka- po- - - - - la Vi- se- - - - - - sha- - - Muni-"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "R - M P N P P \u2013 N M P - P || P mr \u2013 M R - R S S \u2013 N S - S - ||",
+                        "sahitya": "San-kata Harana Go - vin da Ven- ka ta Ramana Mu kun da-"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "R - pm R R S \u2013 R N S \u2013 N P N || S R N S P R S np - N M P ||",
+                        "sahitya": "San kaar-- shana Mu- la Kan-da Shan- kara Gurugu haa- nan- da"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Rangapura_Vihaara_Brindavana_Saranga.pdf"
 }

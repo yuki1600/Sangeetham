@@ -1,142 +1,143 @@
 {
-  "song_details": {
-    "name": "Abhayambikaya",
-    "raga": "Kedaragowla",
-    "arohanam": "S R2 M2 P N2 S ||",
-    "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
-    "tala": "Jhampa",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
-        "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S sn rsnd P pn dp mg rr G || R- S , ndp- ns rg - R , mpn ||",
-        "sahitya": "Abha yaam- bi kaa- - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S sn rsnd P Pnd dp mg rr G || R- S , ndp- ns rg - R , mpn ||",
-        "sahitya": "Abha yaam- bi kaa- - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "S N rsnd P Pnd dp mg rr G || R- S , ndp- ns pmgr - R , mpn ||",
-        "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa - ne- - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S N rsnd P Pnd dp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
-        "sahitya": "Abha yaam- bi kaa-- - ya- - - ha: - An-- - yam Na- Jaa - ne- - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S nd P - mg R - nd dp mg rm pn ||",
-        "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
-      },
-      {
-        "line_number": 7,
-        "swara": "srgr nsrs nd P P pdnd mpdp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
-        "sahitya": "A- - bha-- yaam- bi kaa-- - - - - ya- - - ha: - An-- - yam Na- Jaa - - ne- - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "S nd P - mg R - nd dp mg rm pn ||",
-        "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
-      },
-      {
-        "line_number": 9,
-        "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
-        "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- sr , M , pnd- dm P - mg rg R || - pm ps nd P- rs N - ns - S ||",
-        "sahitya": "Ibha raa- ja-- Ga- - tyaa -- hah - Ish- va-rya Ja ga - tyaa - hah"
-      },
-      {
-        "line_number": 2,
-        "swara": "r R- m g r s- n d p- P m g r- r m p n s ||",
-        "sahitya": "Nabho ma niga- tyaa - hah Naa da Laya Ga - tyaa-hah"
-      },
-      {
-        "line_number": 3,
-        "swara": "srgr nsrs nd P P pdnd mpdp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
-        "sahitya": "A- - bha-- yaam- bi kaa-- - - - - ya- - - ha: - An-- - yam Na- Jaa - - ne- - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "S nd P - mg R - nd dp mg rm pn ||",
-        "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
-      },
-      {
-        "line_number": 5,
-        "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
-        "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "- sr - R rp- pm G- gr gr S || NS rG- r S - rs N- S - S ||",
-        "sahitya": "Baa - laa di- Naa - ma- dhe - ya - Pra-kaa - shin - yaa - ha"
-      },
-      {
-        "line_number": 7,
-        "swara": "- ns , ndP , P - R M - mm , G r || R - nd dp mg- R - mp - P ||",
-        "sahitya": "Kaa - aa- - di Ta - tvaa- - - - nta- Pra-kaa - - shin - yaa- - hah"
-      },
-      {
-        "line_number": 8,
-        "swara": "- pm , - pN S - sr - - R mgR || gr - R - S rg- rsN - S - S ||",
-        "sahitya": "Moo- - laa- di Dvaa - da shaa- nta- Pra kaa -- shin- - yaa - hah"
-      },
-      {
-        "line_number": 9,
-        "swara": "- mp , r S sn - rs nd - dp - - || pmP d N- d P - Pdp mg - rg R R ||",
-        "sahitya": "Sthoo - laa- di- Mau -- naa - - nta- - Pra- kaa - shin- - - yaa - hah"
-      },
-      {
-        "line_number": 10,
-        "swara": "r r p m g - r r g r s - n s R s- s s S s ||",
-        "sahitya": "Trai-lo - kya Moo-la - Pra kr- tyaah Sva sha ktyaahah"
-      },
-      {
-        "line_number": 11,
-        "swara": "r s n d p - M m g r - n d d p mg - r m P p ||",
-        "sahitya": "Saa- lo - ka Saa mi - pya Saa- roo-pa Mu - ktyaa hah"
-      },
-      {
-        "line_number": 12,
-        "swara": "M p- n , - n d p p m P r - r r s n - S s ||",
-        "sahitya": "Maa li nee - Man-tra maa- laa di Tan-tro - ktyaahah ||"
-      },
-      {
-        "line_number": 13,
-        "swara": "R m g r - r s n d p - r s n d p - mg R - r m p ||",
-        "sahitya": "Shoo li ni - Guru gu ha - Svaa-nu bhava Ga - - tyaa- hah ||"
-      },
-      {
-        "line_number": 14,
-        "swara": "srgr nsrs nd P P pdnd mpdp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
-        "sahitya": "A- - bha-- yaam- bi kaa-- - - - - ya- - - ha: - An-- - yam Na- Jaa - - ne- - - - -"
-      },
-      {
-        "line_number": 15,
-        "swara": "S nd P - mg R - nd dp mg rm pn ||",
-        "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
-      },
-      {
-        "line_number": 16,
-        "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
-        "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
-      }
-    ],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Abhayambikaya",
+        "raga": "Kedaragowla",
+        "arohanam": "S R2 M2 P N2 S ||",
+        "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
+        "tala": "Jhampa",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
+                "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S sn rsnd P pn dp mg rr G || R- S , ndp- ns rg - R , mpn ||",
+                "sahitya": "Abha yaam- bi kaa- - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S sn rsnd P Pnd dp mg rr G || R- S , ndp- ns rg - R , mpn ||",
+                "sahitya": "Abha yaam- bi kaa- - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "S N rsnd P Pnd dp mg rr G || R- S , ndp- ns pmgr - R , mpn ||",
+                "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa - ne- - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S N rsnd P Pnd dp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
+                "sahitya": "Abha yaam- bi kaa-- - ya- - - ha: - An-- - yam Na- Jaa - ne- - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S nd P - mg R - nd dp mg rm pn ||",
+                "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
+            },
+            {
+                "line_number": 7,
+                "swara": "srgr nsrs nd P P pdnd mpdp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
+                "sahitya": "A- - bha-- yaam- bi kaa-- - - - - ya- - - ha: - An-- - yam Na- Jaa - - ne- - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "S nd P - mg R - nd dp mg rm pn ||",
+                "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
+            },
+            {
+                "line_number": 9,
+                "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
+                "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- sr , M , pnd- dm P - mg rg R || - pm ps nd P- rs N - ns - S ||",
+                "sahitya": "Ibha raa- ja-- Ga- - tyaa -- hah - Ish- va-rya Ja ga - tyaa - hah"
+            },
+            {
+                "line_number": 2,
+                "swara": "r R- m g r s- n d p- P m g r- r m p n s ||",
+                "sahitya": "Nabho ma niga- tyaa - hah Naa da Laya Ga - tyaa-hah"
+            },
+            {
+                "line_number": 3,
+                "swara": "srgr nsrs nd P P pdnd mpdp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
+                "sahitya": "A- - bha-- yaam- bi kaa-- - - - - ya- - - ha: - An-- - yam Na- Jaa - - ne- - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "S nd P - mg R - nd dp mg rm pn ||",
+                "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
+            },
+            {
+                "line_number": 5,
+                "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
+                "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "- sr - R rp- pm G- gr gr S || NS rG- r S - rs N- S - S ||",
+                "sahitya": "Baa - laa di- Naa - ma- dhe - ya - Pra-kaa - shin - yaa - ha"
+            },
+            {
+                "line_number": 7,
+                "swara": "- ns , ndP , P - R M - mm , G r || R - nd dp mg- R - mp - P ||",
+                "sahitya": "Kaa - aa- - di Ta - tvaa- - - - nta- Pra-kaa - - shin - yaa- - hah"
+            },
+            {
+                "line_number": 8,
+                "swara": "- pm , - pN S - sr - - R mgR || gr - R - S rg- rsN - S - S ||",
+                "sahitya": "Moo- - laa- di Dvaa - da shaa- nta- Pra kaa -- shin- - yaa - hah"
+            },
+            {
+                "line_number": 9,
+                "swara": "- mp , r S sn - rs nd - dp - - || pmP d N- d P - Pdp mg - rg R R ||",
+                "sahitya": "Sthoo - laa- di- Mau -- naa - - nta- - Pra- kaa - shin- - - yaa - hah"
+            },
+            {
+                "line_number": 10,
+                "swara": "r r p m g - r r g r s - n s R s- s s S s ||",
+                "sahitya": "Trai-lo - kya Moo-la - Pra kr- tyaah Sva sha ktyaahah"
+            },
+            {
+                "line_number": 11,
+                "swara": "r s n d p - M m g r - n d d p mg - r m P p ||",
+                "sahitya": "Saa- lo - ka Saa mi - pya Saa- roo-pa Mu - ktyaa hah"
+            },
+            {
+                "line_number": 12,
+                "swara": "M p- n , - n d p p m P r - r r s n - S s ||",
+                "sahitya": "Maa li nee - Man-tra maa- laa di Tan-tro - ktyaahah ||"
+            },
+            {
+                "line_number": 13,
+                "swara": "R m g r - r s n d p - r s n d p - mg R - r m p ||",
+                "sahitya": "Shoo li ni - Guru gu ha - Svaa-nu bhava Ga - - tyaa- hah ||"
+            },
+            {
+                "line_number": 14,
+                "swara": "srgr nsrs nd P P pdnd mpdp mg rr G || R- snrs , ndp- ns pmgr - R - - ||",
+                "sahitya": "A- - bha-- yaam- bi kaa-- - - - - ya- - - ha: - An-- - yam Na- Jaa - - ne- - - - -"
+            },
+            {
+                "line_number": 15,
+                "swara": "S nd P - mg R - nd dp mg rm pn ||",
+                "sahitya": "Ajnaa na atma ne Apa ro- kshaa jnaane-"
+            },
+            {
+                "line_number": 16,
+                "swara": "S S rsnd P - pn dp mg rr G || R- S , ndp- ns rg - R - - ||",
+                "sahitya": "Abha yaam- bi kaa- - - ya- - - ha: - An - yam Na- Jaa ne- - - - -"
+            }
+        ],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Abhayambikaya_Kedaragowla.pdf"
 }

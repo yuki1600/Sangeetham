@@ -1,127 +1,128 @@
 {
-  "song_details": {
-    "name": "Paratpara",
-    "raga": "Vachaspathi",
-    "arohanam": "S R2 G3 M2 P D2 N2 S ||",
-    "avarohanam": "S N2 D2 P M2 G3 R2 S ||",
-    "tala": "Deshadi",
-    "composer": "Papanasam Sivan"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - P D - - N | D - - P P - pm G M ||",
-        "sahitya": "- - - Pa raa- - tpa raa- - Pa ra me- - shva"
-      },
-      {
-        "line_number": 2,
-        "swara": "P - - P D ,n rs- N | D - - pd pd - pm G M ||",
-        "sahitya": "raa - - Pa raa- - - tpa raa- - Pa ra me- - shva"
-      },
-      {
-        "line_number": 3,
-        "swara": "P - - PD pdN dnS nsrs- N | D - - pd pd - pm G M ||",
-        "sahitya": "raa - - Pa raa- - - tpa raa- - Pa ra me- - shva"
-      },
-      {
-        "line_number": 4,
-        "swara": "P - - - P , p- pm G - R | R , - s - G M , - p dn S ||",
-        "sahitya": "raa - - Paa -rva ti- - - pa te- - - Ha ra - Pa shu- pa"
-      },
-      {
-        "line_number": 5,
-        "swara": "d N- d pm - PD pdN dnS nsrs- N | D - - pd pd - pm G M ||",
-        "sahitya": "te - - - Pa raa- - - tpa raa- - Pa ra me- - shva"
-      },
-      {
-        "line_number": 6,
-        "swara": "P - - - N , d- pm G - R | R , - s - G M , - p dn S ||",
-        "sahitya": "raa - - Paa -rva ti- - - pa te- - - Ha ra - Pa shu- pa"
-      },
-      {
-        "line_number": 7,
-        "swara": "rs nd pm- P D ,n rs- N | D - - - - - Dnp ||",
-        "sahitya": "raa - - - Pa raa- - - tpa raa- - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - Su raa-- - su- rar- - - - - - -",
-        "sahitya": "- - - Su raa-- - su- rar- - To zhum Paa- va"
-      },
-      {
-        "line_number": 2,
-        "swara": "S - - n r snN , -d - dn | S - - S R - sr G R ||",
-        "sahitya": "na - - Su raa-- - su- rar- - To zhum Paa- va"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - - S,r snN , -d - dn | S - - S R - gm pm- gR, ||",
-        "sahitya": "na - - Su raa-- - su- rar- - To zhum Paa- -- va-"
-      },
-      {
-        "line_number": 4,
-        "swara": "S - - n r sN, , - d - nd | n P - n D - dn S , - s - nS, ||",
-        "sahitya": "na - - Sun- da- - ra - Cha ra - naa - ra- vin- da - A-"
-      },
-      {
-        "line_number": 5,
-        "swara": "N , - d pm- n r sN, , - d - nd | n P - n D - dn S , - s - S || N , - d pm",
-        "sahitya": "nan - ta - - Sun- da- - ra - Cha ra - naa - ra- vin- da - A- nan ta - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- - - D P , - d P P | d N - d pm - P D N nd D ||",
-            "sahitya": "- - - A ri a ya num Kaa- naa -- A ri ya Jyo--"
-          },
-          {
-            "line_number": 2,
-            "swara": "P - - D P , - d P P | d N - d pm - P D N nd D ||",
-            "sahitya": "ti - - A ri a ya num Kaa- naa -- A ri ya Jyo--"
-          },
-          {
-            "line_number": 3,
-            "swara": "P - - P , p - pm G R | r S - s - - G M P D N ||",
-            "sahitya": "ti - - Aa - di An- - tam il - laam- Pa zhama naa-"
-          },
-          {
-            "line_number": 4,
-            "swara": "nd D - p d , n - D - N | S , - s - - - - - - ||",
-            "sahitya": "di- - - Puram - e ri - tta Mu kkan- - - - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "rs nd pm- p d , n - D - N | S , - s - - S R - sr G - R ||",
-            "sahitya": "-- - - - Puram- e ri - tta Mu kkan- ka rum be- - En"
-          },
-          {
-            "line_number": 6,
-            "swara": "S - - p d , n - nd D- N | S , - s - - S R - sr G - R ||",
-            "sahitya": "dan- - - Puram - e ri - tta Mu kkan- ka rum be- - En"
-          },
-          {
-            "line_number": 7,
-            "swara": "S - - p d , rs - nd D- N | S , - s - - S R - gm pm - gR, ||",
-            "sahitya": "dan- - - Puram - e ri - tta Mu kkan- ka rum be- - En"
-          },
-          {
-            "line_number": 8,
-            "swara": "S - - -R sN, , - N - D | d P - d - - S N - - S ||",
-            "sahitya": "dan- - Pun nya- - moor ti Su- brah - man yan- - Than"
-          },
-          {
-            "line_number": 9,
-            "swara": "d N- d pm-",
-            "sahitya": "dha- ye - -"
-          }
+    "song_details": {
+        "name": "Paratpara",
+        "raga": "Vachaspathi",
+        "arohanam": "S R2 G3 M2 P D2 N2 S ||",
+        "avarohanam": "S N2 D2 P M2 G3 R2 S ||",
+        "tala": "Deshadi",
+        "composer": "Papanasam Sivan"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - P D - - N | D - - P P - pm G M ||",
+                "sahitya": "- - - Pa raa- - tpa raa- - Pa ra me- - shva"
+            },
+            {
+                "line_number": 2,
+                "swara": "P - - P D ,n rs- N | D - - pd pd - pm G M ||",
+                "sahitya": "raa - - Pa raa- - - tpa raa- - Pa ra me- - shva"
+            },
+            {
+                "line_number": 3,
+                "swara": "P - - PD pdN dnS nsrs- N | D - - pd pd - pm G M ||",
+                "sahitya": "raa - - Pa raa- - - tpa raa- - Pa ra me- - shva"
+            },
+            {
+                "line_number": 4,
+                "swara": "P - - - P , p- pm G - R | R , - s - G M , - p dn S ||",
+                "sahitya": "raa - - Paa -rva ti- - - pa te- - - Ha ra - Pa shu- pa"
+            },
+            {
+                "line_number": 5,
+                "swara": "d N- d pm - PD pdN dnS nsrs- N | D - - pd pd - pm G M ||",
+                "sahitya": "te - - - Pa raa- - - tpa raa- - Pa ra me- - shva"
+            },
+            {
+                "line_number": 6,
+                "swara": "P - - - N , d- pm G - R | R , - s - G M , - p dn S ||",
+                "sahitya": "raa - - Paa -rva ti- - - pa te- - - Ha ra - Pa shu- pa"
+            },
+            {
+                "line_number": 7,
+                "swara": "rs nd pm- P D ,n rs- N | D - - - - - Dnp ||",
+                "sahitya": "raa - - - Pa raa- - - tpa raa- - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - Su raa-- - su- rar- - - - - - -",
+                "sahitya": "- - - Su raa-- - su- rar- - To zhum Paa- va"
+            },
+            {
+                "line_number": 2,
+                "swara": "S - - n r snN , -d - dn | S - - S R - sr G R ||",
+                "sahitya": "na - - Su raa-- - su- rar- - To zhum Paa- va"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - - S,r snN , -d - dn | S - - S R - gm pm- gR, ||",
+                "sahitya": "na - - Su raa-- - su- rar- - To zhum Paa- -- va-"
+            },
+            {
+                "line_number": 4,
+                "swara": "S - - n r sN, , - d - nd | n P - n D - dn S , - s - nS, ||",
+                "sahitya": "na - - Sun- da- - ra - Cha ra - naa - ra- vin- da - A-"
+            },
+            {
+                "line_number": 5,
+                "swara": "N , - d pm- n r sN, , - d - nd | n P - n D - dn S , - s - S || N , - d pm",
+                "sahitya": "nan - ta - - Sun- da- - ra - Cha ra - naa - ra- vin- da - A- nan ta - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- - - D P , - d P P | d N - d pm - P D N nd D ||",
+                        "sahitya": "- - - A ri a ya num Kaa- naa -- A ri ya Jyo--"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "P - - D P , - d P P | d N - d pm - P D N nd D ||",
+                        "sahitya": "ti - - A ri a ya num Kaa- naa -- A ri ya Jyo--"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "P - - P , p - pm G R | r S - s - - G M P D N ||",
+                        "sahitya": "ti - - Aa - di An- - tam il - laam- Pa zhama naa-"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "nd D - p d , n - D - N | S , - s - - - - - - ||",
+                        "sahitya": "di- - - Puram - e ri - tta Mu kkan- - - - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "rs nd pm- p d , n - D - N | S , - s - - S R - sr G - R ||",
+                        "sahitya": "-- - - - Puram- e ri - tta Mu kkan- ka rum be- - En"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "S - - p d , n - nd D- N | S , - s - - S R - sr G - R ||",
+                        "sahitya": "dan- - - Puram - e ri - tta Mu kkan- ka rum be- - En"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "S - - p d , rs - nd D- N | S , - s - - S R - gm pm - gR, ||",
+                        "sahitya": "dan- - - Puram - e ri - tta Mu kkan- ka rum be- - En"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "S - - -R sN, , - N - D | d P - d - - S N - - S ||",
+                        "sahitya": "dan- - Pun nya- - moor ti Su- brah - man yan- - Than"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "d N- d pm-",
+                        "sahitya": "dha- ye - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Paratpara_Vachaspati.pdf"
 }

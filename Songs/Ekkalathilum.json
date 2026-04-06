@@ -1,167 +1,168 @@
 {
-  "song_details": {
-    "name": "Ekkalathilum",
-    "raga": "Nata Kuranji",
-    "arohanam": "S R2 G3 M1 N2 D2 N2 P D2 N2 S ||",
-    "avarohanam": "S N2 D2 M1 G3 R2 G3 M1 P G3 R2 S ||",
-    "tala": "Rupakam",
-    "composer": "Ramaswami Shivan"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - D dn S sr G Mpm Gmr || R ,s S - - ss nd N P – D , N , || S - - - - - - - - - - - ||",
-        "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - - D D N S R Mpm Gmr || R ,s S - - ss nd N P – nD N , || S - - - - - - - - - D N ||",
-        "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - I ni"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - - - rgmg Gmr R S D ns ||",
-        "sahitya": "na - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "D P - D dn S sr G pmG mgR || R gr S - - ss nd N P – nD N , || S - - - - - - - - - D N ||",
-        "sahitya": "ne - Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - I ni"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - - - rgmg Gmr R S D ns ||",
-        "sahitya": "na - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "D np - D dn S sr G pmG mgR || rg mm gg S - ss nd N P – nD N , || S - - - - - - - S - S - ||",
-        "sahitya": "ne - Ek- ka - - - - la - - - - - tti- - - - lum ma-ra- - - ve- - - ne - - - - - - - I ni"
-      },
-      {
-        "line_number": 7,
-        "swara": "snsr sn S nd- ns nd M mgmp mgS ||",
-        "sahitya": "na - - - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "rrss N D dn S sr G Mpm Gmr || R ,s S - - ss nd N P – nD N , || snsr S - - - - - S - S - ||",
-        "sahitya": "ne - Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - I ni"
-      },
-      {
-        "line_number": 9,
-        "swara": "nsrg mgS sn- rs nd M mgmp grS ||",
-        "sahitya": "na - - - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "rrss N D dn S sr G Mpm Gmr || R ,s S - - ss nd N P – nD N , || snsr S - - - - - - - - - ||",
-        "sahitya": "ne - Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - gs S - S N D ns nD , || M - - - D N - - - S - S - ||",
-        "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - - S S - S N D ns nD n || P - - - D N - - - S - S - ||",
-        "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
-      },
-      {
-        "line_number": 3,
-        "swara": "- - - gs S - S N D ns nD n || sndn P- D N - - - S N S - ||",
-        "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
-      },
-      {
-        "line_number": 4,
-        "swara": "S ,n R - S - - S ,n nS, N D || pdpd D ,n rs - nd M M Mpg Gmr ||",
-        "sahitya": "ma- Di ya vu- dai- - tta a - - - Di - - - ma- - la ri-- nai - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "R S - - gs S - S N D ns nD n || M - - - nd rsN - sRs S - ||",
-        "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
-      },
-      {
-        "line_number": 6,
-        "swara": "NS srG M - - R - S - ssnd || pdpd dnrs S - nd M M Mpg Gmr ||",
-        "sahitya": "ma- Di ya vu- dai- - tta a - - - Di - - - ma- - la ri-- nai - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "R S - - gs S - S N D ns nD n || P - - - nd N - - NS S - ||",
-        "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
-      },
-      {
-        "line_number": 8,
-        "swara": "NS srG M - - R - S - ssnd || pdpd dnrs S - nn D M Mpg Gmr ||",
-        "sahitya": "ma- Di ya vu- dai- - tta a - - - Di - - - ma- - la ri-- nai - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "R S - - ssnd dn S sr G pmG mgR || R ,s S - - ss nd N P – nD N , || snsr S - - - - - - - - - ||",
-        "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "- - - - S S R – G - Mpg G - || Gmg Gmr Rmg r S , ssnd N - ||",
-        "sahitya": "I Sha- nai pi – ra - ka - - - sha – nai gu - - ha"
-      },
-      {
-        "line_number": 11,
-        "swara": "S - - - R - rS, D ns Dnp || nD , N - S ,r ssnd D N S - ||",
-        "sahitya": "da- - sa- nai ka- rkkum - ne- - - sha- nai-- an- bar"
-      },
-      {
-        "line_number": 12,
-        "swara": "- - - - S S R – G - Mpg G - || G - Gmr Rmg r S , N - S - ||",
-        "sahitya": "I Sha- nai pi – ra - ka - - - sha – nai gu - - ha"
-      },
-      {
-        "line_number": 13,
-        "swara": "S - - - R - rS, D ns Dnp || nD , N - S ,r ssnd N - S - ||",
-        "sahitya": "da- - sa- nai ka- rkkum - ne- - - sha- nai-- an- bar"
-      },
-      {
-        "line_number": 14,
-        "swara": "- - - - M M - M - D ns Dnp || ND N - S - ssnd D N S - ||",
-        "sahitya": "pu sha- nai shei – vi - - shva- - sa – nai-- til - lai"
-      },
-      {
-        "line_number": 15,
-        "swara": "NS RG M - G - rS, ssnd || pdpd D ,n rs - nnD M -- Mpg Gmr ||",
-        "sahitya": "va- - - sa- nai na Ta- - ra- - - - - - ja- nai nan - - -"
-      },
-      {
-        "line_number": 16,
-        "swara": "R S - M M - M - D ns Dnp || ND N - S - ssnd D N S - ||",
-        "sahitya": "pu sha- nai shei – vi - - shva- - sa – nai-- til - lai"
-      },
-      {
-        "line_number": 17,
-        "swara": "NS RG M - G - rS, ssnd || pdpd dnrs S - nnD M -- Mpg Gmr ||",
-        "sahitya": "va- - - sa- nai na Ta- - ra- - - - - - ja- nai nan - - -"
-      },
-      {
-        "line_number": 18,
-        "swara": "R S - - ssnd dn S sr G pmG mgR || R ,s S - - ss nd N P – nD N , || snsr S - - - - - S - S - ||",
-        "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - I - Ni -"
-      },
-      {
-        "line_number": 19,
-        "swara": "nsrg mgS sn- rs nd M mgmp grS ||",
-        "sahitya": "na - - - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 20,
-        "swara": "rrss N D dn S sr G Mpm Gmr || rgmm gs - - ss nd N P – nD N , || S - - - - - - - - - - - ||",
-        "sahitya": "ne - Ek- ka - - - - la - - - - - tti- - - lum ma-ra- - - ve- - - ne - - - - - - - - - - -"
-      }
-    ],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Ekkalathilum",
+        "raga": "Nata Kuranji",
+        "arohanam": "S R2 G3 M1 N2 D2 N2 P D2 N2 S ||",
+        "avarohanam": "S N2 D2 M1 G3 R2 G3 M1 P G3 R2 S ||",
+        "tala": "Rupakam",
+        "composer": "Ramaswami Shivan"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - D dn S sr G Mpm Gmr || R ,s S - - ss nd N P \u2013 D , N , || S - - - - - - - - - - - ||",
+                "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - - D D N S R Mpm Gmr || R ,s S - - ss nd N P \u2013 nD N , || S - - - - - - - - - D N ||",
+                "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - I ni"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - - - rgmg Gmr R S D ns ||",
+                "sahitya": "na - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "D P - D dn S sr G pmG mgR || R gr S - - ss nd N P \u2013 nD N , || S - - - - - - - - - D N ||",
+                "sahitya": "ne - Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - I ni"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - - - rgmg Gmr R S D ns ||",
+                "sahitya": "na - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "D np - D dn S sr G pmG mgR || rg mm gg S - ss nd N P \u2013 nD N , || S - - - - - - - S - S - ||",
+                "sahitya": "ne - Ek- ka - - - - la - - - - - tti- - - - lum ma-ra- - - ve- - - ne - - - - - - - I ni"
+            },
+            {
+                "line_number": 7,
+                "swara": "snsr sn S nd- ns nd M mgmp mgS ||",
+                "sahitya": "na - - - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "rrss N D dn S sr G Mpm Gmr || R ,s S - - ss nd N P \u2013 nD N , || snsr S - - - - - S - S - ||",
+                "sahitya": "ne - Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - I ni"
+            },
+            {
+                "line_number": 9,
+                "swara": "nsrg mgS sn- rs nd M mgmp grS ||",
+                "sahitya": "na - - - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "rrss N D dn S sr G Mpm Gmr || R ,s S - - ss nd N P \u2013 nD N , || snsr S - - - - - - - - - ||",
+                "sahitya": "ne - Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - gs S - S N D ns nD , || M - - - D N - - - S - S - ||",
+                "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - - S S - S N D ns nD n || P - - - D N - - - S - S - ||",
+                "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
+            },
+            {
+                "line_number": 3,
+                "swara": "- - - gs S - S N D ns nD n || sndn P- D N - - - S N S - ||",
+                "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
+            },
+            {
+                "line_number": 4,
+                "swara": "S ,n R - S - - S ,n nS, N D || pdpd D ,n rs - nd M M Mpg Gmr ||",
+                "sahitya": "ma- Di ya vu- dai- - tta a - - - Di - - - ma- - la ri-- nai - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "R S - - gs S - S N D ns nD n || M - - - nd rsN - sRs S - ||",
+                "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
+            },
+            {
+                "line_number": 6,
+                "swara": "NS srG M - - R - S - ssnd || pdpd dnrs S - nd M M Mpg Gmr ||",
+                "sahitya": "ma- Di ya vu- dai- - tta a - - - Di - - - ma- - la ri-- nai - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "R S - - gs S - S N D ns nD n || P - - - nd N - - NS S - ||",
+                "sahitya": "Mai- kka- - la -- nai- - - - a kka- - la - ttil"
+            },
+            {
+                "line_number": 8,
+                "swara": "NS srG M - - R - S - ssnd || pdpd dnrs S - nn D M Mpg Gmr ||",
+                "sahitya": "ma- Di ya vu- dai- - tta a - - - Di - - - ma- - la ri-- nai - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "R S - - ssnd dn S sr G pmG mgR || R ,s S - - ss nd N P \u2013 nD N , || snsr S - - - - - - - - - ||",
+                "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - - - - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "- - - - S S R \u2013 G - Mpg G - || Gmg Gmr Rmg r S , ssnd N - ||",
+                "sahitya": "I Sha- nai pi \u2013 ra - ka - - - sha \u2013 nai gu - - ha"
+            },
+            {
+                "line_number": 11,
+                "swara": "S - - - R - rS, D ns Dnp || nD , N - S ,r ssnd D N S - ||",
+                "sahitya": "da- - sa- nai ka- rkkum - ne- - - sha- nai-- an- bar"
+            },
+            {
+                "line_number": 12,
+                "swara": "- - - - S S R \u2013 G - Mpg G - || G - Gmr Rmg r S , N - S - ||",
+                "sahitya": "I Sha- nai pi \u2013 ra - ka - - - sha \u2013 nai gu - - ha"
+            },
+            {
+                "line_number": 13,
+                "swara": "S - - - R - rS, D ns Dnp || nD , N - S ,r ssnd N - S - ||",
+                "sahitya": "da- - sa- nai ka- rkkum - ne- - - sha- nai-- an- bar"
+            },
+            {
+                "line_number": 14,
+                "swara": "- - - - M M - M - D ns Dnp || ND N - S - ssnd D N S - ||",
+                "sahitya": "pu sha- nai shei \u2013 vi - - shva- - sa \u2013 nai-- til - lai"
+            },
+            {
+                "line_number": 15,
+                "swara": "NS RG M - G - rS, ssnd || pdpd D ,n rs - nnD M -- Mpg Gmr ||",
+                "sahitya": "va- - - sa- nai na Ta- - ra- - - - - - ja- nai nan - - -"
+            },
+            {
+                "line_number": 16,
+                "swara": "R S - M M - M - D ns Dnp || ND N - S - ssnd D N S - ||",
+                "sahitya": "pu sha- nai shei \u2013 vi - - shva- - sa \u2013 nai-- til - lai"
+            },
+            {
+                "line_number": 17,
+                "swara": "NS RG M - G - rS, ssnd || pdpd dnrs S - nnD M -- Mpg Gmr ||",
+                "sahitya": "va- - - sa- nai na Ta- - ra- - - - - - ja- nai nan - - -"
+            },
+            {
+                "line_number": 18,
+                "swara": "R S - - ssnd dn S sr G pmG mgR || R ,s S - - ss nd N P \u2013 nD N , || snsr S - - - - - S - S - ||",
+                "sahitya": "Ek- ka - - - - la - - - - - tti- lum ma-ra- - - ve- - - ne - - - - - - I - Ni -"
+            },
+            {
+                "line_number": 19,
+                "swara": "nsrg mgS sn- rs nd M mgmp grS ||",
+                "sahitya": "na - - - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 20,
+                "swara": "rrss N D dn S sr G Mpm Gmr || rgmm gs - - ss nd N P \u2013 nD N , || S - - - - - - - - - - - ||",
+                "sahitya": "ne - Ek- ka - - - - la - - - - - tti- - - lum ma-ra- - - ve- - - ne - - - - - - - - - - -"
+            }
+        ],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Ekkalathilum_Nata_Kuranji.pdf"
 }

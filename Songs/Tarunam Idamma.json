@@ -1,112 +1,113 @@
 {
-  "song_details": {
-    "name": "Tarunam Idamma",
-    "raga": "Gowli Panthu",
-    "arohanam": "S R1 M1 P N3 S ||",
-    "avarohanam": "S N3 P D1 M1 G3 R1 S ||",
-    "tala": "Adi",
-    "composer": "Syama Sastri"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- s r , M , - N , s R | rs S - - - - - - ||",
-        "sahitya": "Taru - nam - i dam- maa-- - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- s r , M , - N , s R | rs S - sn dp - P dm- gr ||",
-        "sahitya": "Taru - nam - i dam- maa-- - En- - nai Ra - - kshi"
-      },
-      {
-        "line_number": 3,
-        "swara": "r s- n p , N , - S n- s R | rs S - pm pm - P dm- gr ||",
-        "sahitya": "- kka Taru - nam - i - dam- maa-- - En- - nai Ra - - kshi"
-      },
-      {
-        "line_number": 4,
-        "swara": "r s- s r , M , - N , s R | rs S - - - - - - ||",
-        "sahitya": "-kka Taru - nam - i dam- maa-- - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "r s- s r , M , - N , s R | rs - s r , M , - N , s R ||",
-        "sahitya": "-kka Taru - nam - i dam- maa Taru - nam - i dam"
-      },
-      {
-        "line_number": 6,
-        "swara": "r s- s r , M , - N , s R | rs S - - - - - - ||",
-        "sahitya": "maa- Taru - nam - i dam- maa - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- p np , s S S S R R | - , s r - s n s r- S ,r - n S - ||",
-        "sahitya": "Ka ru - naani dhiyaa gi ya Kaa maa-- - - kshi - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- p np , s S S S R R | - rs nd pm n p N S S ||",
-        "sahitya": "Ka ru - naani dhiyaa gi ya Kaa maa-kshi Ra- - kshikka"
-      },
-      {
-        "line_number": 3,
-        "swara": "- p np , s S S S R S | R- rs nd pm n p N S S ||",
-        "sahitya": "Ka ru - naani dhiyaa gi ya - Kaa maa-kshi Ra- - kshikka"
-      },
-      {
-        "line_number": 4,
-        "swara": "- p np , s S S S R S | R- rs nd pm P dm gr - gr || s n",
-        "sahitya": "Ka ru - naani dhiyaa gi ya - Kaa maa-kshi Ra- - kshi - - - kka"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- sr , m P P P D - | - M , D m g R- g R S ||",
-            "sahitya": "Kaa- - mita Phala ttai- - Kai - mel- Taru vaa - ye"
-          },
-          {
-            "line_number": 2,
-            "swara": "- sr , m pm , p P D - | - M , D m g R- g R S ||",
-            "sahitya": "Kaa- - mita Phala ttai- - Kai - mel- Taru vaa - ye"
-          },
-          {
-            "line_number": 3,
-            "swara": "- sn g R s sn D S S | - P m- pdm g R - g R S ||",
-            "sahitya": "Kan- paa-rttu Ra- - kshippa - Ye - ppo-- dum- Nee- ye"
-          },
-          {
-            "line_number": 4,
-            "swara": "- sn g R s Srs nd S S | - P m- pdm g R - g R S ||",
-            "sahitya": "Kan- paa-rttu Ra- - kshippa - Ye - ppo-- dum- Nee- ye"
-          },
-          {
-            "line_number": 5,
-            "swara": "- p n P - S S S R R | - rs nd pm n p N S S ||",
-            "sahitya": "So - ma she kha ran Padi - Sun da- ri- Kau-- maa ri"
-          },
-          {
-            "line_number": 6,
-            "swara": "- p n P - S S S R R | - rs nd pm n p N S S ||",
-            "sahitya": "So - ma she kha ran Padi - Sun da- ri- Kau-- maa ri"
-          },
-          {
-            "line_number": 7,
-            "swara": "- S s -S s sN, r s -sd p m | - - rs pm - dp sn - mp dm - gr ||",
-            "sahitya": "Shyaa ma krishna So - - - da- ri - Shai la- raa- ja- ku- maa- - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "S- S s -S s N - srS , -d pm | -- rs pm - dp sn - mp dm - gr || sn",
-            "sahitya": "ri Shyaa ma krishna So - - - da ri - Shai la- raa- ja- ku- maa- - - ri-"
-          }
+    "song_details": {
+        "name": "Tarunam Idamma",
+        "raga": "Gowli Panthu",
+        "arohanam": "S R1 M1 P N3 S ||",
+        "avarohanam": "S N3 P D1 M1 G3 R1 S ||",
+        "tala": "Adi",
+        "composer": "Syama Sastri"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- s r , M , - N , s R | rs S - - - - - - ||",
+                "sahitya": "Taru - nam - i dam- maa-- - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- s r , M , - N , s R | rs S - sn dp - P dm- gr ||",
+                "sahitya": "Taru - nam - i dam- maa-- - En- - nai Ra - - kshi"
+            },
+            {
+                "line_number": 3,
+                "swara": "r s- n p , N , - S n- s R | rs S - pm pm - P dm- gr ||",
+                "sahitya": "- kka Taru - nam - i - dam- maa-- - En- - nai Ra - - kshi"
+            },
+            {
+                "line_number": 4,
+                "swara": "r s- s r , M , - N , s R | rs S - - - - - - ||",
+                "sahitya": "-kka Taru - nam - i dam- maa-- - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "r s- s r , M , - N , s R | rs - s r , M , - N , s R ||",
+                "sahitya": "-kka Taru - nam - i dam- maa Taru - nam - i dam"
+            },
+            {
+                "line_number": 6,
+                "swara": "r s- s r , M , - N , s R | rs S - - - - - - ||",
+                "sahitya": "maa- Taru - nam - i dam- maa - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- p np , s S S S R R | - , s r - s n s r- S ,r - n S - ||",
+                "sahitya": "Ka ru - naani dhiyaa gi ya Kaa maa-- - - kshi - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- p np , s S S S R R | - rs nd pm n p N S S ||",
+                "sahitya": "Ka ru - naani dhiyaa gi ya Kaa maa-kshi Ra- - kshikka"
+            },
+            {
+                "line_number": 3,
+                "swara": "- p np , s S S S R S | R- rs nd pm n p N S S ||",
+                "sahitya": "Ka ru - naani dhiyaa gi ya - Kaa maa-kshi Ra- - kshikka"
+            },
+            {
+                "line_number": 4,
+                "swara": "- p np , s S S S R S | R- rs nd pm P dm gr - gr || s n",
+                "sahitya": "Ka ru - naani dhiyaa gi ya - Kaa maa-kshi Ra- - kshi - - - kka"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- sr , m P P P D - | - M , D m g R- g R S ||",
+                        "sahitya": "Kaa- - mita Phala ttai- - Kai - mel- Taru vaa - ye"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- sr , m pm , p P D - | - M , D m g R- g R S ||",
+                        "sahitya": "Kaa- - mita Phala ttai- - Kai - mel- Taru vaa - ye"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- sn g R s sn D S S | - P m- pdm g R - g R S ||",
+                        "sahitya": "Kan- paa-rttu Ra- - kshippa - Ye - ppo-- dum- Nee- ye"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- sn g R s Srs nd S S | - P m- pdm g R - g R S ||",
+                        "sahitya": "Kan- paa-rttu Ra- - kshippa - Ye - ppo-- dum- Nee- ye"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- p n P - S S S R R | - rs nd pm n p N S S ||",
+                        "sahitya": "So - ma she kha ran Padi - Sun da- ri- Kau-- maa ri"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- p n P - S S S R R | - rs nd pm n p N S S ||",
+                        "sahitya": "So - ma she kha ran Padi - Sun da- ri- Kau-- maa ri"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- S s -S s sN, r s -sd p m | - - rs pm - dp sn - mp dm - gr ||",
+                        "sahitya": "Shyaa ma krishna So - - - da- ri - Shai la- raa- ja- ku- maa- - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "S- S s -S s N - srS , -d pm | -- rs pm - dp sn - mp dm - gr || sn",
+                        "sahitya": "ri Shyaa ma krishna So - - - da ri - Shai la- raa- ja- ku- maa- - - ri-"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Tarunam_Idamma_Gowli_Panthu.pdf"
 }

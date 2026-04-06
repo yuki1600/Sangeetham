@@ -1,64 +1,65 @@
 {
-  "song_details": {
-    "name": "Keraya Neeranu",
-    "raga": "Malahari",
-    "arohanam": "S R1 M1 P D1 S",
-    "avarohanam": "S D1 P M1 G3 R1 S",
-    "tala": "Triputa",
-    "composer": "Purandaradasa"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "D S S | D P | M P || D D P | M M | P P ||",
-        "sahitya": "Ke re ya | Nee - | ra nu || Ke re ge | chal - | li - ||"
-      },
-      {
-        "line_number": 2,
-        "swara": "D D S | D P | M P || D D P | M G | R S ||",
-        "sahitya": "Va ra va | pa de | da va || ran - te | Kaa - | ni ro ||"
-      },
-      {
-        "line_number": 3,
-        "swara": "S R R | S R | S R || D D P | M G | R S ||",
-        "sahitya": "Ha ri ya | ka ru | na do || laa - da | bha - | gya va ||"
-      },
-      {
-        "line_number": 4,
-        "swara": "D P D | S - | D P || D D P | M G | R S ||",
-        "sahitya": "Ha ri sa | ma - | rpa ne || ma - di | ba du | ki ro ||"
-      },
-      {
-        "line_number": 5,
-        "swara": "S R R | S R | S R || D D P | M G | R S ||",
-        "sahitya": "Ha ri ya | ka ru | na da || la - ya | bha - | gya va ||"
-      },
-      {
-        "line_number": 6,
-        "swara": "D S S | D P | M P || D D P | M M | P P ||",
-        "sahitya": "Sree - pu | ran - | da ra || vi ta la | ra - | ya - ||"
-      },
-      {
-        "line_number": 7,
-        "swara": "D D S | D P | M P || D D P | M G | R S ||",
-        "sahitya": "Cha ra na | ka ma | la va || no - di | ba du | ki ro ||"
-      },
-      {
-        "line_number": 8,
-        "swara": "S R R | S R | S R || D D P | M G | R S ||",
-        "sahitya": "Ha ri ya | ka ru | na do || la - da | bha - | gya va ||"
-      },
-      {
-        "line_number": 9,
-        "swara": "D P D | S - | D P || D D P | M G | R S ||",
-        "sahitya": "Ha ri sa | ma - | rpa ne || ma - di | ba du | ki ro ||"
-      },
-      {
-        "line_number": 10,
-        "swara": "S R R | S R | S R || D D P | M G | R S ||",
-        "sahitya": "Ha ri ya | ka ru | na do || la - da | bha - | gya va ||"
-      }
-    ]
-  }
+    "song_details": {
+        "name": "Keraya Neeranu",
+        "raga": "Malahari",
+        "arohanam": "S R1 M1 P D1 S",
+        "avarohanam": "S D1 P M1 G3 R1 S",
+        "tala": "Triputa",
+        "composer": "Purandaradasa"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "D S S | D P | M P || D D P | M M | P P ||",
+                "sahitya": "Ke re ya | Nee - | ra nu || Ke re ge | chal - | li - ||"
+            },
+            {
+                "line_number": 2,
+                "swara": "D D S | D P | M P || D D P | M G | R S ||",
+                "sahitya": "Va ra va | pa de | da va || ran - te | Kaa - | ni ro ||"
+            },
+            {
+                "line_number": 3,
+                "swara": "S R R | S R | S R || D D P | M G | R S ||",
+                "sahitya": "Ha ri ya | ka ru | na do || laa - da | bha - | gya va ||"
+            },
+            {
+                "line_number": 4,
+                "swara": "D P D | S - | D P || D D P | M G | R S ||",
+                "sahitya": "Ha ri sa | ma - | rpa ne || ma - di | ba du | ki ro ||"
+            },
+            {
+                "line_number": 5,
+                "swara": "S R R | S R | S R || D D P | M G | R S ||",
+                "sahitya": "Ha ri ya | ka ru | na da || la - ya | bha - | gya va ||"
+            },
+            {
+                "line_number": 6,
+                "swara": "D S S | D P | M P || D D P | M M | P P ||",
+                "sahitya": "Sree - pu | ran - | da ra || vi ta la | ra - | ya - ||"
+            },
+            {
+                "line_number": 7,
+                "swara": "D D S | D P | M P || D D P | M G | R S ||",
+                "sahitya": "Cha ra na | ka ma | la va || no - di | ba du | ki ro ||"
+            },
+            {
+                "line_number": 8,
+                "swara": "S R R | S R | S R || D D P | M G | R S ||",
+                "sahitya": "Ha ri ya | ka ru | na do || la - da | bha - | gya va ||"
+            },
+            {
+                "line_number": 9,
+                "swara": "D P D | S - | D P || D D P | M G | R S ||",
+                "sahitya": "Ha ri sa | ma - | rpa ne || ma - di | ba du | ki ro ||"
+            },
+            {
+                "line_number": 10,
+                "swara": "S R R | S R | S R || D D P | M G | R S ||",
+                "sahitya": "Ha ri ya | ka ru | na do || la - da | bha - | gya va ||"
+            }
+        ]
+    },
+    "pdfPath": "PDFs/Keraya_Neeranu.pdf"
 }

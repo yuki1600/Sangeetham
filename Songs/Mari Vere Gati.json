@@ -1,247 +1,248 @@
 {
-  "song_details": {
-    "name": "Mari Vere Gati",
-    "raga": "Anandabhairavi",
-    "arohanam": "S G₂ R₂ G₂ M₁ P D₂ P Ṡ ||",
-    "avarohanam": "Ṡ N₂ D₂ P M₁ G₂ R₂ S ||",
-    "tala": "Misra Chapu",
-    "composer": "Syama Sastri"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "P , M , | P - - - || pmpNp | P , n n P m ||",
-        "sahitya": "Ma ri ve - - - - - - - - - - re - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "M g M , | P - M - || Mdp G R | G - M - ||",
-        "sahitya": "Ga- ti - (y)ev va - r(a)m- - - - ma"
-      },
-      {
-        "line_number": 3,
-        "swara": "N p P , | P - - - || pn s R s | snrs nd P ||",
-        "sahitya": "Ma ri ve - - - - - - - - - - - - re"
-      },
-      {
-        "line_number": 4,
-        "swara": "M g M , | mgmp mpnp || Mdp mG, R | G - M - ||",
-        "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - ma"
-      },
-      {
-        "line_number": 5,
-        "swara": "N p P m | P - - - || pn s r gr | srgr nsrs nd P ||",
-        "sahitya": "Ma - ri ve - - - - - - - - - - - - re"
-      },
-      {
-        "line_number": 6,
-        "swara": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
-        "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - - - ma"
-      },
-      {
-        "line_number": 7,
-        "swara": "S , S , | sg R,n S - || S G R | G - M - ||",
-        "sahitya": "Ma hi lo - - - na- bro- cu Ta- ku –"
-      },
-      {
-        "line_number": 8,
-        "swara": "S , S , | sg R,n S - || S,d dp pm | gr- G , M , ||",
-        "sahitya": "Ma hi lo - - - na- bro- - - - cu Ta- ku –"
-      },
-      {
-        "line_number": 9,
-        "swara": "N p P , | P - - - || P G M | - P - - ||",
-        "sahitya": "Ma ri ve - - - - - - - - re"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "S , S , | S - S - || S , S , | S rs N - ||",
-        "sahitya": "Sa ra N(a) a - ga ta - - - ra"
-      },
-      {
-        "line_number": 2,
-        "swara": "S , M , | mmgr sRm gr || S d N , | S , n s R s ||",
-        "sahitya": "Ksha ki ni - - - - - - - ve - - - (y)a- ni - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S , S , | S - S - || S , S , | S rs N - ||",
-        "sahitya": "Sa ra N(a) a - ga ta - - - ra"
-      },
-      {
-        "line_number": 4,
-        "swara": "S , M , | mg Mpm G R || S d N , | S , n s R s ||",
-        "sahitya": "Ksha ki ni - - - - - - - ve - - - (y)a- ni - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "P , S , | - - sn r s || N , D , | P , d n P m ||",
-        "sahitya": "Sa da - - nam- - mi ti nam- - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "M g M , | mgmp mpnp || dp mg - r | G - M - ||",
-        "sahitya": "Mi – ti mi - - - - - n(a)- - - ksham mma -"
-      },
-      {
-        "line_number": 7,
-        "swara": "P , G r | S - ns Rgr || nsrs nd P | P , d n P m ||",
-        "sahitya": "Sa da - - nam- - mi ti nam- - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "M g M , | mgmp mpnp || dp mg - r | G - M - ||",
-        "sahitya": "Mi – ti mi - - - - - n(a)- - - ksham mma -"
-      },
-      {
-        "line_number": 9,
-        "swara": "pnsg Mpm | grS - ns Rgr || nsrs nd P | P , d n P m ||",
-        "sahitya": "Sa da - - nam- - mi ti nam- - - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "M g M , | mgmp mpnp || dp mg - r | G - M - ||",
-        "sahitya": "Mi – ti mi - - - - - n(a)- - - ksham mma -"
-      },
-      {
-        "line_number": 11,
-        "swara": "D P S | N - S G R || M G G | R - N S N ||",
-        "sahitya": "Sahityam: mari vere gati(y)evar(a)mma"
-      },
-      {
-        "line_number": 12,
-        "swara": "N p P m | P - - - || pn s r gr | srgr nsrs nd P ||",
-        "sahitya": "Ma - ri ve - - - - - - - - - - - - re"
-      },
-      {
-        "line_number": 13,
-        "swara": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
-        "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - - - ma"
-      },
-      {
-        "line_number": 14,
-        "swara": "S , S , | sg R,n S - || S,d dp pm | gr- G , M , ||",
-        "sahitya": "Ma hi lo - - - na- bro- - - - cu Ta- ku –"
-      },
-      {
-        "line_number": 15,
-        "swara": "N p P , | P - - - || P G M | - P - - ||",
-        "sahitya": "Ma ri ve - - - - - - - - re"
-      },
-      {
-        "line_number": 16,
-        "swara": "- S S | M - - - || G P M | M G G R ||",
-        "sahitya": "Su ka Sya - - - - - - ma - La -"
-      },
-      {
-        "line_number": 17,
-        "swara": "M g P m | m m g r srM gr || S , S , | S - N - ||",
-        "sahitya": "Gha- na- Sya- - - - - - - - ma kru shnu ni"
-      },
-      {
-        "line_number": 18,
-        "swara": "- S N | S - - - || - - - | - - - gr ||",
-        "sahitya": "so - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 19,
-        "swara": "S N S | P np M - || - - G R | G - M - ||",
-        "sahitya": "Da - ri kau- - - - ma - - - ri –"
-      },
-      {
-        "line_number": 20,
-        "swara": "- P P | P - S - || S , - S , | N - - - ||",
-        "sahitya": "A ka Lan- - - ka ka la - - -"
-      },
-      {
-        "line_number": 21,
-        "swara": "S , M , | mm gr srM gr || S - - | D N S - ||",
-        "sahitya": "Dha ri bim- - - - - b(a) - dha - ri"
-      },
-      {
-        "line_number": 22,
-        "swara": "P S - | - - N R || N , D , | P , d P , m ||",
-        "sahitya": "A pa- - - ra - kr pa ni - - dhi- -"
-      },
-      {
-        "line_number": 23,
-        "swara": "G - - | mg mp pm - np | pm G R | G - M - ||",
-        "sahitya": "Vi - - ni - - - - ve - - - ra - kshim pa -"
-      },
-      {
-        "line_number": 24,
-        "swara": "P R S | - - N R || N , D , | P , d n P m ||",
-        "sahitya": "A pa- - - ra - kr pa ni - - dhi- -"
-      },
-      {
-        "line_number": 25,
-        "swara": "G - - | mg mp pm - np | pm G R | G - M - ||",
-        "sahitya": "Vi - - ni - - - - ve - - - ra - kshim pa -"
-      },
-      {
-        "line_number": 26,
-        "swara": "P - - | - D P M || G - P M | G - M G R ||",
-        "sahitya": "pa - - da yu ga mu madi lo da la ci"
-      },
-      {
-        "line_number": 27,
-        "swara": "G - M | P – G M D || P – M G | R – S G M ||",
-        "sahitya": "ko- ri ti vi nu mu ma da ga ja gamana"
-      },
-      {
-        "line_number": 28,
-        "swara": "P M G | M – G - R || G R – N | S N G R ||",
-        "sahitya": "Pa rula nu tim- pa gane va ram(o) sa gu"
-      },
-      {
-        "line_number": 29,
-        "swara": "N N – S | S – G G - M || M – P M | G G M - ||",
-        "sahitya": "Sa ta ta mu ni nu ma di ma ra va ka ne"
-      },
-      {
-        "line_number": 30,
-        "swara": "P S – N | D P - N D || P M – D | P D M P ||",
-        "sahitya": "Mada na ri pu sa ti ni nu hr daya mulo"
-      },
-      {
-        "line_number": 31,
-        "swara": "G R – P | M - G R – N || S G- R | G M P - ||",
-        "sahitya": "Ga ti (y)a ni da la ci stuti sa li pi te"
-      },
-      {
-        "line_number": 32,
-        "swara": "D P S | N - S G R || M G- G | R - N S N ||",
-        "sahitya": "Muda mu to phalam(o) sa gu Ta ku dha ra lo"
-      },
-      {
-        "line_number": 33,
-        "swara": "R , S , | N D - D , p || - M G | R – G G M ||",
-        "sahitya": "Na t(a) vana ku tu ha la ni ve ga - (mari)"
-      },
-      {
-        "line_number": 34,
-        "swara": "N p P m | P - - - || pn s r gr | srgr nsrs nd P ||",
-        "sahitya": "Ma - ri ve - - - - - - - - - - - - re"
-      },
-      {
-        "line_number": 35,
-        "swara": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
-        "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - - - ma"
-      },
-      {
-        "line_number": 36,
-        "swara": "S , S , | sg R,n S - || S,d dp pm | gr- G , M , ||",
-        "sahitya": "Ma hi lo - - - na- bro- - - - cu Ta- ku –"
-      },
-      {
-        "line_number": 37,
-        "swara": "N p P , | P - - - || P G M | - P - - ||",
-        "sahitya": "Ma ri ve - - - - - - - - re"
-      }
-    ],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Mari Vere Gati",
+        "raga": "Anandabhairavi",
+        "arohanam": "S G\u2082 R\u2082 G\u2082 M\u2081 P D\u2082 P \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2082 D\u2082 P M\u2081 G\u2082 R\u2082 S ||",
+        "tala": "Misra Chapu",
+        "composer": "Syama Sastri"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "P , M , | P - - - || pmpNp | P , n n P m ||",
+                "sahitya": "Ma ri ve - - - - - - - - - - re - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "M g M , | P - M - || Mdp G R | G - M - ||",
+                "sahitya": "Ga- ti - (y)ev va - r(a)m- - - - ma"
+            },
+            {
+                "line_number": 3,
+                "swara": "N p P , | P - - - || pn s R s | snrs nd P ||",
+                "sahitya": "Ma ri ve - - - - - - - - - - - - re"
+            },
+            {
+                "line_number": 4,
+                "swara": "M g M , | mgmp mpnp || Mdp mG, R | G - M - ||",
+                "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - ma"
+            },
+            {
+                "line_number": 5,
+                "swara": "N p P m | P - - - || pn s r gr | srgr nsrs nd P ||",
+                "sahitya": "Ma - ri ve - - - - - - - - - - - - re"
+            },
+            {
+                "line_number": 6,
+                "swara": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
+                "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - - - ma"
+            },
+            {
+                "line_number": 7,
+                "swara": "S , S , | sg R,n S - || S G R | G - M - ||",
+                "sahitya": "Ma hi lo - - - na- bro- cu Ta- ku \u2013"
+            },
+            {
+                "line_number": 8,
+                "swara": "S , S , | sg R,n S - || S,d dp pm | gr- G , M , ||",
+                "sahitya": "Ma hi lo - - - na- bro- - - - cu Ta- ku \u2013"
+            },
+            {
+                "line_number": 9,
+                "swara": "N p P , | P - - - || P G M | - P - - ||",
+                "sahitya": "Ma ri ve - - - - - - - - re"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "S , S , | S - S - || S , S , | S rs N - ||",
+                "sahitya": "Sa ra N(a) a - ga ta - - - ra"
+            },
+            {
+                "line_number": 2,
+                "swara": "S , M , | mmgr sRm gr || S d N , | S , n s R s ||",
+                "sahitya": "Ksha ki ni - - - - - - - ve - - - (y)a- ni - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S , S , | S - S - || S , S , | S rs N - ||",
+                "sahitya": "Sa ra N(a) a - ga ta - - - ra"
+            },
+            {
+                "line_number": 4,
+                "swara": "S , M , | mg Mpm G R || S d N , | S , n s R s ||",
+                "sahitya": "Ksha ki ni - - - - - - - ve - - - (y)a- ni - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "P , S , | - - sn r s || N , D , | P , d n P m ||",
+                "sahitya": "Sa da - - nam- - mi ti nam- - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "M g M , | mgmp mpnp || dp mg - r | G - M - ||",
+                "sahitya": "Mi \u2013 ti mi - - - - - n(a)- - - ksham mma -"
+            },
+            {
+                "line_number": 7,
+                "swara": "P , G r | S - ns Rgr || nsrs nd P | P , d n P m ||",
+                "sahitya": "Sa da - - nam- - mi ti nam- - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "M g M , | mgmp mpnp || dp mg - r | G - M - ||",
+                "sahitya": "Mi \u2013 ti mi - - - - - n(a)- - - ksham mma -"
+            },
+            {
+                "line_number": 9,
+                "swara": "pnsg Mpm | grS - ns Rgr || nsrs nd P | P , d n P m ||",
+                "sahitya": "Sa da - - nam- - mi ti nam- - - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "M g M , | mgmp mpnp || dp mg - r | G - M - ||",
+                "sahitya": "Mi \u2013 ti mi - - - - - n(a)- - - ksham mma -"
+            },
+            {
+                "line_number": 11,
+                "swara": "D P S | N - S G R || M G G | R - N S N ||",
+                "sahitya": "Sahityam: mari vere gati(y)evar(a)mma"
+            },
+            {
+                "line_number": 12,
+                "swara": "N p P m | P - - - || pn s r gr | srgr nsrs nd P ||",
+                "sahitya": "Ma - ri ve - - - - - - - - - - - - re"
+            },
+            {
+                "line_number": 13,
+                "swara": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
+                "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - - - ma"
+            },
+            {
+                "line_number": 14,
+                "swara": "S , S , | sg R,n S - || S,d dp pm | gr- G , M , ||",
+                "sahitya": "Ma hi lo - - - na- bro- - - - cu Ta- ku \u2013"
+            },
+            {
+                "line_number": 15,
+                "swara": "N p P , | P - - - || P G M | - P - - ||",
+                "sahitya": "Ma ri ve - - - - - - - - re"
+            },
+            {
+                "line_number": 16,
+                "swara": "- S S | M - - - || G P M | M G G R ||",
+                "sahitya": "Su ka Sya - - - - - - ma - La -"
+            },
+            {
+                "line_number": 17,
+                "swara": "M g P m | m m g r srM gr || S , S , | S - N - ||",
+                "sahitya": "Gha- na- Sya- - - - - - - - ma kru shnu ni"
+            },
+            {
+                "line_number": 18,
+                "swara": "- S N | S - - - || - - - | - - - gr ||",
+                "sahitya": "so - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 19,
+                "swara": "S N S | P np M - || - - G R | G - M - ||",
+                "sahitya": "Da - ri kau- - - - ma - - - ri \u2013"
+            },
+            {
+                "line_number": 20,
+                "swara": "- P P | P - S - || S , - S , | N - - - ||",
+                "sahitya": "A ka Lan- - - ka ka la - - -"
+            },
+            {
+                "line_number": 21,
+                "swara": "S , M , | mm gr srM gr || S - - | D N S - ||",
+                "sahitya": "Dha ri bim- - - - - b(a) - dha - ri"
+            },
+            {
+                "line_number": 22,
+                "swara": "P S - | - - N R || N , D , | P , d P , m ||",
+                "sahitya": "A pa- - - ra - kr pa ni - - dhi- -"
+            },
+            {
+                "line_number": 23,
+                "swara": "G - - | mg mp pm - np | pm G R | G - M - ||",
+                "sahitya": "Vi - - ni - - - - ve - - - ra - kshim pa -"
+            },
+            {
+                "line_number": 24,
+                "swara": "P R S | - - N R || N , D , | P , d n P m ||",
+                "sahitya": "A pa- - - ra - kr pa ni - - dhi- -"
+            },
+            {
+                "line_number": 25,
+                "swara": "G - - | mg mp pm - np | pm G R | G - M - ||",
+                "sahitya": "Vi - - ni - - - - ve - - - ra - kshim pa -"
+            },
+            {
+                "line_number": 26,
+                "swara": "P - - | - D P M || G - P M | G - M G R ||",
+                "sahitya": "pa - - da yu ga mu madi lo da la ci"
+            },
+            {
+                "line_number": 27,
+                "swara": "G - M | P \u2013 G M D || P \u2013 M G | R \u2013 S G M ||",
+                "sahitya": "ko- ri ti vi nu mu ma da ga ja gamana"
+            },
+            {
+                "line_number": 28,
+                "swara": "P M G | M \u2013 G - R || G R \u2013 N | S N G R ||",
+                "sahitya": "Pa rula nu tim- pa gane va ram(o) sa gu"
+            },
+            {
+                "line_number": 29,
+                "swara": "N N \u2013 S | S \u2013 G G - M || M \u2013 P M | G G M - ||",
+                "sahitya": "Sa ta ta mu ni nu ma di ma ra va ka ne"
+            },
+            {
+                "line_number": 30,
+                "swara": "P S \u2013 N | D P - N D || P M \u2013 D | P D M P ||",
+                "sahitya": "Mada na ri pu sa ti ni nu hr daya mulo"
+            },
+            {
+                "line_number": 31,
+                "swara": "G R \u2013 P | M - G R \u2013 N || S G- R | G M P - ||",
+                "sahitya": "Ga ti (y)a ni da la ci stuti sa li pi te"
+            },
+            {
+                "line_number": 32,
+                "swara": "D P S | N - S G R || M G- G | R - N S N ||",
+                "sahitya": "Muda mu to phalam(o) sa gu Ta ku dha ra lo"
+            },
+            {
+                "line_number": 33,
+                "swara": "R , S , | N D - D , p || - M G | R \u2013 G G M ||",
+                "sahitya": "Na t(a) vana ku tu ha la ni ve ga - (mari)"
+            },
+            {
+                "line_number": 34,
+                "swara": "N p P m | P - - - || pn s r gr | srgr nsrs nd P ||",
+                "sahitya": "Ma - ri ve - - - - - - - - - - - - re"
+            },
+            {
+                "line_number": 35,
+                "swara": "M g M , | mgmp mpnp || Mdp mG, R | srpm gr S ||",
+                "sahitya": "Ga- ti - (y)ev - va - r(a)m- - - - - - - ma"
+            },
+            {
+                "line_number": 36,
+                "swara": "S , S , | sg R,n S - || S,d dp pm | gr- G , M , ||",
+                "sahitya": "Ma hi lo - - - na- bro- - - - cu Ta- ku \u2013"
+            },
+            {
+                "line_number": 37,
+                "swara": "N p P , | P - - - || P G M | - P - - ||",
+                "sahitya": "Ma ri ve - - - - - - - - re"
+            }
+        ],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Mari_Vere_Gati_Ananda_Bhairavi.pdf"
 }

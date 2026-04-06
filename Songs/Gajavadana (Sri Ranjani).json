@@ -1,0 +1,128 @@
+{
+    "song_details": {
+        "name": "Gajavadana",
+        "raga": "Sri Ranjani",
+        "arohanam": "S R2 G2 M1 D2 N2 S ||",
+        "avarohanam": "S N2 D2 M1 G2 R2 S ||",
+        "tala": "Adi",
+        "composer": "Papanasam Sivan"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- ns , n D M - RG | gr S , r G M - - D ||",
+                "sahitya": "Gaja vada na Karu na- - Sada na Sri"
+            },
+            {
+                "line_number": 2,
+                "swara": "- ns , n D gmD m- rG | gr S , r G M - - D ||",
+                "sahitya": "Gaja vada na - Karu na- - Sada na Sri"
+            },
+            {
+                "line_number": 3,
+                "swara": "- gm , d D Dns N - dn | NS , nD ssnd m- d N ||",
+                "sahitya": "Shan kara Ba-- la Lam bo- dhara Sun-- dara"
+            },
+            {
+                "line_number": 4,
+                "swara": "snrs ndsn dmnd mr G | gr S , r G M - - gm ||",
+                "sahitya": "Gaja va-da- na Karu na- - Sada na Shan-"
+            },
+            {
+                "line_number": 5,
+                "swara": ", d D mdns N - - dn | RS , nD sndm D N ||",
+                "sahitya": "kara Ba-- la - Lam bo- dhara Sun-- dara"
+            },
+            {
+                "line_number": 6,
+                "swara": "snrs ndsn dmnd mr G | gr rs , r G M - - gm ||",
+                "sahitya": "Gaja va-da- na Karu na- - Sada na Shan-"
+            },
+            {
+                "line_number": 7,
+                "swara": ", d D mdns N - - dn | srmgrS",
+                "sahitya": "kara Ba-- la - Lam bo- dhara Sun-- dara"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- nm , d N S - N S | - n s , r G gr R S - ||",
+                "sahitya": "Aja nama ren dranu Muni varum Pa-ni yum"
+            },
+            {
+                "line_number": 2,
+                "swara": "- nm , d N S - N S | - n s , r G gr R S - R ||",
+                "sahitya": "Aja nama ren dranu Muni varum Pa-ni yum"
+            },
+            {
+                "line_number": 3,
+                "swara": "S- nm , d N S - S rs | N- n s , r G gr R s- grr ||",
+                "sahitya": "Aja nama ren dranu - Muni varum Pa-ni yum"
+            },
+            {
+                "line_number": 4,
+                "swara": ", s- nm , d N S - Srg",
+                "sahitya": "Aja nama ren dranu - Muni varum Pa-ni yum Pan"
+            },
+            {
+                "line_number": 5,
+                "swara": "- nd , mG M - , dN | S- - - - - - -S ||",
+                "sahitya": "kaja chara na chara nam - - - - - Pan"
+            },
+            {
+                "line_number": 6,
+                "swara": "- nd , mG M - , nD | N - , gR S - - - dn ||",
+                "sahitya": "kaja chara na chara nam chara nam - Pan"
+            },
+            {
+                "line_number": 7,
+                "swara": "rs- nd , mG gmdm",
+                "sahitya": "kaja chara na chara nam chara nam - - Pan"
+            },
+            {
+                "line_number": 8,
+                "swara": "rs- nd , mG gmdm",
+                "sahitya": "kaja chara na chara nam chara nam sri- - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "GM N - - , n , n N | N - N - ndsn nd dm ||",
+                        "sahitya": "Nee- yee - Moo vula girk Aa dhaa-- ram\u2014"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "GM nsnn - , n , n N | N - N - ndsn nd dm ||",
+                        "sahitya": "Nee- yee - Moo vula girk Aa dhaa-- ram\u2014"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "ndsn nndm M mm gr- G | M \u2013 nd , n S - rs nd sndp - ||",
+                        "sahitya": "Nee-- yee-- Shivaa-- -- ga ma Man - tra Saa--- ram"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "nDn N S - ns , r R | R - G - gr R S - ||",
+                        "sahitya": "Nee-- yee- Vazh vil Yen Jee vaa dha-- ram"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "nDn N S nsR sr G | rgM R G gr R S - ||",
+                        "sahitya": "Nee-- yee- Vazh vil- Yen Jee vaa dha-- ram"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "ssnd M G M - , n D | N - dnS",
+                        "sahitya": "Nee-- Arul vai Sumu kha Om--- kaa-- -- ra ---"
+                    }
+                ]
+            }
+        ]
+    },
+    "pdfPath": "PDFs/Gajavadana_Sri_Ranjani.pdf"
+}

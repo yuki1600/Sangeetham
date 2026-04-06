@@ -1,131 +1,132 @@
 {
-  "song_details": {
-    "name": "Margazhi Thingal",
-    "raga": "Nattai",
-    "arohanam": "S R3 G3 M1 P D3 N3 S ||",
-    "avarohanam": "S N3 P M1 G3 M R3 S ||",
-    "tala": "Adi",
-    "composer": "Andal / Godai / Nachiyar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , s , g M P - - P | - g m , p M | M – mg gpmm R ||",
-        "sahitya": "Maar gazhi thin gal madhi nirain dha nan naa-- Laal"
-      },
-      {
-        "line_number": 2,
-        "swara": "- , s , g M pmgm P- P | - s n , np pmP | M – gmpn pmgm R ||",
-        "sahitya": "Maar gazhi thin - gal madhi ni Rain dha nan naa-- Laal"
-      },
-      {
-        "line_number": 3,
-        "swara": "- , g m -P m mgpm gm- R | S - r s , g M | P , - p N P ||",
-        "sahitya": "Nee - raada po- - dhu- veer - podhu mino ner i zhaiyeer"
-      },
-      {
-        "line_number": 4,
-        "swara": "- , n np - mg m pnnp N S | - - - - | - - - - ||",
-        "sahitya": "seer - - mal-gum aay-- ppaadi"
-      },
-      {
-        "line_number": 5,
-        "swara": "- , n np - mg m pnnp N S | - ns , r S | S - s n r s - sn ||",
-        "sahitya": "seer - - mal-gum aay-- ppaadi chel- va chi Ru meer - - gaal-"
-      },
-      {
-        "line_number": 6,
-        "swara": "N , n np - mg m pnnp N S | - ns , r S | S - s n r s - sn ||",
-        "sahitya": "seer - - mal-gum aay-- ppaadi chel- va chi Ru meer - - gaal-"
-      },
-      {
-        "line_number": 7,
-        "swara": "npm- g m - p n p rrsn P N S | - nsrg mR,- S | S- s n r s - s n ||",
-        "sahitya": "seer - - mal-gum aay-- ppaadi chel - va chi Ru meer - - gaal-"
-      },
-      {
-        "line_number": 8,
-        "swara": "npm- g m - p n p gmpn sRs , S | S- nsrg pmR- S | S- s n r s - N ||",
-        "sahitya": "seer - - mal-gum aay-- --- ppaa di chel -- va chi Ru meer - - gaal-"
-      },
-      {
-        "line_number": 9,
-        "swara": "kumaran son",
-        "sahitya": "1 2 3 4 5 6 7 8"
-      },
-      {
-        "line_number": 10,
-        "swara": "- , gp mm - R - s s n p – p N S | - s n , np pmP | M mg gpmm R ||",
-        "sahitya": "Koor -- vel ko dun-- dho zhilan nandha go -- - pan ku- ma- - ran"
-      },
-      {
-        "line_number": 11,
-        "swara": "- , gp mm - R - s s n p – p N S | gmpn sgmr srsn pnmp | gmpn snpm gpmm R ||",
-        "sahitya": "Koor -- vel ko dun-- dho zhilan nan -- dha go- pan- - ku- - ma- - - - - ran"
-      },
-      {
-        "line_number": 12,
-        "swara": "- , p , P m P - - P | - - - - | - - - - ||",
-        "sahitya": "E - raar ndha kan- Ni - - - - - - - -"
-      },
-      {
-        "line_number": 13,
-        "swara": "- , p , P m P - - P | - s n , p -M | M mg gpmm R ||",
-        "sahitya": "E - raar ndha kan- Ni - yaso dhai I Lam sin - - - - gam"
-      },
-      {
-        "line_number": 14,
-        "swara": "kadhir sun",
-        "sahitya": "madhiyam moon"
-      },
-      {
-        "line_number": 15,
-        "swara": "- , g m – P m m g p m gm R | - s s , g g m | P , - p N P ||",
-        "sahitya": "kaar - meni cen- - - - - gan - kadhir - madhiyam pol mu gath thaan"
-      },
-      {
-        "line_number": 16,
-        "swara": "- , n np - mg m pnnp N S | - - - - | - - - - ||",
-        "sahitya": "Naa - - raa- ya Na- - - ne"
-      },
-      {
-        "line_number": 17,
-        "swara": "- , n np - mg m pnnp N S | - n s , r - S | S - s n r s - sn ||",
-        "sahitya": "Naa - - raa- ya Na- - - ne nama kke pa Rai- tha- ru- vaan-"
-      },
-      {
-        "line_number": 18,
-        "swara": "N , n np - mg m pnnp N S | - ns , r S | S - s n r s - sn ||",
-        "sahitya": "Naa - - raa- ya Na- - - ne nama kke pa Rai- tha- ru- vaan-"
-      },
-      {
-        "line_number": 19,
-        "swara": "npm- g m - p n p rrsn P N S | - nsrg mR,- S | S- s n r s - s n ||",
-        "sahitya": "Naa - - raa- ya Na- - - ne na-ma -kke pa Rai- tha- ru- vaan-"
-      },
-      {
-        "line_number": 20,
-        "swara": "npm- g m - p n p gmpn sRs , S | -- nsrg pmR- S | S- s n r s - N ||",
-        "sahitya": "Naa - - raa- ya Na- - - ne na-ma -kke pa Rai- tha- ru- vaan-"
-      },
-      {
-        "line_number": 21,
-        "swara": "- , gp mm - R - s s n p – p N S | - s n , np pmP | mg pm gm R ||",
-        "sahitya": "Paa - - - ror pu ga - - - - zha padin dhe lor em - - paa vaay"
-      },
-      {
-        "line_number": 22,
-        "swara": "- , gp mm - R - s s n p – p N S | gmpn sgmr srsn pnmp | gmpn snpm gpmm R ||",
-        "sahitya": "Paa - - - ror pu ga - - - - zha pa- - din- - dhe lor (r)em - - - - paa - vaay"
-      },
-      {
-        "line_number": 23,
-        "swara": "- , s , g M P - - P | - - - - | - - - - ||",
-        "sahitya": "Maar gazhi thin gal - - - - - - - -"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Margazhi Thingal",
+        "raga": "Nattai",
+        "arohanam": "S R3 G3 M1 P D3 N3 S ||",
+        "avarohanam": "S N3 P M1 G3 M R3 S ||",
+        "tala": "Adi",
+        "composer": "Andal / Godai / Nachiyar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , s , g M P - - P | - g m , p M | M \u2013 mg gpmm R ||",
+                "sahitya": "Maar gazhi thin gal madhi nirain dha nan naa-- Laal"
+            },
+            {
+                "line_number": 2,
+                "swara": "- , s , g M pmgm P- P | - s n , np pmP | M \u2013 gmpn pmgm R ||",
+                "sahitya": "Maar gazhi thin - gal madhi ni Rain dha nan naa-- Laal"
+            },
+            {
+                "line_number": 3,
+                "swara": "- , g m -P m mgpm gm- R | S - r s , g M | P , - p N P ||",
+                "sahitya": "Nee - raada po- - dhu- veer - podhu mino ner i zhaiyeer"
+            },
+            {
+                "line_number": 4,
+                "swara": "- , n np - mg m pnnp N S | - - - - | - - - - ||",
+                "sahitya": "seer - - mal-gum aay-- ppaadi"
+            },
+            {
+                "line_number": 5,
+                "swara": "- , n np - mg m pnnp N S | - ns , r S | S - s n r s - sn ||",
+                "sahitya": "seer - - mal-gum aay-- ppaadi chel- va chi Ru meer - - gaal-"
+            },
+            {
+                "line_number": 6,
+                "swara": "N , n np - mg m pnnp N S | - ns , r S | S - s n r s - sn ||",
+                "sahitya": "seer - - mal-gum aay-- ppaadi chel- va chi Ru meer - - gaal-"
+            },
+            {
+                "line_number": 7,
+                "swara": "npm- g m - p n p rrsn P N S | - nsrg mR,- S | S- s n r s - s n ||",
+                "sahitya": "seer - - mal-gum aay-- ppaadi chel - va chi Ru meer - - gaal-"
+            },
+            {
+                "line_number": 8,
+                "swara": "npm- g m - p n p gmpn sRs , S | S- nsrg pmR- S | S- s n r s - N ||",
+                "sahitya": "seer - - mal-gum aay-- --- ppaa di chel -- va chi Ru meer - - gaal-"
+            },
+            {
+                "line_number": 9,
+                "swara": "kumaran son",
+                "sahitya": "1 2 3 4 5 6 7 8"
+            },
+            {
+                "line_number": 10,
+                "swara": "- , gp mm - R - s s n p \u2013 p N S | - s n , np pmP | M mg gpmm R ||",
+                "sahitya": "Koor -- vel ko dun-- dho zhilan nandha go -- - pan ku- ma- - ran"
+            },
+            {
+                "line_number": 11,
+                "swara": "- , gp mm - R - s s n p \u2013 p N S | gmpn sgmr srsn pnmp | gmpn snpm gpmm R ||",
+                "sahitya": "Koor -- vel ko dun-- dho zhilan nan -- dha go- pan- - ku- - ma- - - - - ran"
+            },
+            {
+                "line_number": 12,
+                "swara": "- , p , P m P - - P | - - - - | - - - - ||",
+                "sahitya": "E - raar ndha kan- Ni - - - - - - - -"
+            },
+            {
+                "line_number": 13,
+                "swara": "- , p , P m P - - P | - s n , p -M | M mg gpmm R ||",
+                "sahitya": "E - raar ndha kan- Ni - yaso dhai I Lam sin - - - - gam"
+            },
+            {
+                "line_number": 14,
+                "swara": "kadhir sun",
+                "sahitya": "madhiyam moon"
+            },
+            {
+                "line_number": 15,
+                "swara": "- , g m \u2013 P m m g p m gm R | - s s , g g m | P , - p N P ||",
+                "sahitya": "kaar - meni cen- - - - - gan - kadhir - madhiyam pol mu gath thaan"
+            },
+            {
+                "line_number": 16,
+                "swara": "- , n np - mg m pnnp N S | - - - - | - - - - ||",
+                "sahitya": "Naa - - raa- ya Na- - - ne"
+            },
+            {
+                "line_number": 17,
+                "swara": "- , n np - mg m pnnp N S | - n s , r - S | S - s n r s - sn ||",
+                "sahitya": "Naa - - raa- ya Na- - - ne nama kke pa Rai- tha- ru- vaan-"
+            },
+            {
+                "line_number": 18,
+                "swara": "N , n np - mg m pnnp N S | - ns , r S | S - s n r s - sn ||",
+                "sahitya": "Naa - - raa- ya Na- - - ne nama kke pa Rai- tha- ru- vaan-"
+            },
+            {
+                "line_number": 19,
+                "swara": "npm- g m - p n p rrsn P N S | - nsrg mR,- S | S- s n r s - s n ||",
+                "sahitya": "Naa - - raa- ya Na- - - ne na-ma -kke pa Rai- tha- ru- vaan-"
+            },
+            {
+                "line_number": 20,
+                "swara": "npm- g m - p n p gmpn sRs , S | -- nsrg pmR- S | S- s n r s - N ||",
+                "sahitya": "Naa - - raa- ya Na- - - ne na-ma -kke pa Rai- tha- ru- vaan-"
+            },
+            {
+                "line_number": 21,
+                "swara": "- , gp mm - R - s s n p \u2013 p N S | - s n , np pmP | mg pm gm R ||",
+                "sahitya": "Paa - - - ror pu ga - - - - zha padin dhe lor em - - paa vaay"
+            },
+            {
+                "line_number": 22,
+                "swara": "- , gp mm - R - s s n p \u2013 p N S | gmpn sgmr srsn pnmp | gmpn snpm gpmm R ||",
+                "sahitya": "Paa - - - ror pu ga - - - - zha pa- - din- - dhe lor (r)em - - - - paa - vaay"
+            },
+            {
+                "line_number": 23,
+                "swara": "- , s , g M P - - P | - - - - | - - - - ||",
+                "sahitya": "Maar gazhi thin gal - - - - - - - -"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Margazhi_Thingal_Thiruppavai_Pasuram_01_Nata.pdf"
 }

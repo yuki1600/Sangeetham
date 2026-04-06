@@ -1,142 +1,143 @@
 {
-  "song_details": {
-    "name": "Vaarana Mukha Vaa",
-    "raga": "Hamsadhwani",
-    "arohanam": "S R2 G3 P N3 S ||",
-    "avarohanam": "S N3 P G3 R2 S ||",
-    "tala": "Rupakam",
-    "composer": "Kotishwara Iyer"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , s , r G , p N || NS sn P , g R || R S - - - - ||",
-        "sahitya": "- - va -rana -mukha va- tu-nai - varu vai-- - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- S , r G P N || S - sn P , g R || R S - - S S || sn P , r S R - ||",
-        "sahitya": "- va -rana mukha va- tu-nai - varu vai-- - - a rul vai- daya vai"
-      },
-      {
-        "line_number": 3,
-        "swara": "gr S R G , p N || S - sn P , g R || g r S - - S S || sn P , r S R - ||",
-        "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a rul vai- daya vai"
-      },
-      {
-        "line_number": 4,
-        "swara": "gr S R G , p N || snR sn P , g R || g r S - - gr pg || rsnp - , r S R - ||",
-        "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a- rul vai- daya vai"
-      },
-      {
-        "line_number": 5,
-        "swara": "gr S R G , p N || sngr sn P , g R || g r S - - s r g p || grsnP, , r S R - ||",
-        "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
-      },
-      {
-        "line_number": 6,
-        "swara": "gr S R G , p N || srgp gr sn p- g R || g r S - - s r g p || grsnP, , r S R - ||",
-        "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
-      },
-      {
-        "line_number": 7,
-        "swara": "gr S R G , p N || S - - - - - || - - - - - - ||",
-        "sahitya": "va- ra Na mukha va- - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- , g , p N , s S || S - S- S - S || - - - - - - || - sn r s - sn N - ||",
-        "sahitya": "- - A - ranap -porul A- na kan - da- - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- , g , p N , s S || S - S- sn P P ||",
-        "sahitya": "- - A - ranap -porul A- na kan - da-"
-      },
-      {
-        "line_number": 3,
-        "swara": ", pn - g , p N , s S || S - S- sn rs N ||",
-        "sahitya": "- - - A - ranap -porul A- na kan - da-"
-      },
-      {
-        "line_number": 4,
-        "swara": "- , -g , p N , s R || sr G R- sn P P ||",
-        "sahitya": "- - - A - ranap -porul A- na kan - da-"
-      },
-      {
-        "line_number": 5,
-        "swara": "- n g , p N , s R || sr gp gr- sn P -pg || R - s r s n p g P ||",
-        "sahitya": "- A- - ranap -porul A- na- kan da- ga- na- mu-da- ttir-kkul"
-      },
-      {
-        "line_number": 6,
-        "swara": "p s s n p g - n p g r - g r || s n - S , G,r -g , p N || S - - - - - ||",
-        "sahitya": "ka ru Na- mudam u da viye a rul mata- Vaa ra- na - mukha vaa - - - - (repeat Arana Porul..)"
-      },
-      {
-        "line_number": 7,
-        "swara": "gr S R G , p N || srgp gr sn p- g R || g r S - - s r g p || grsnP, , r S R - ||",
-        "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
-      },
-      {
-        "line_number": 8,
-        "swara": "gr S R G , p N || S - - - - - || - - - - - - ||",
-        "sahitya": "va- ra Na mukha va- - - - - - - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- , s n- p P G P || R G R R , S , || S R - gp- gr , s R || s r g p g r - S - S ||",
-            "sahitya": "- -in n i shai I yal I la kkiyam - A riyam ta- mizh-- a ri ve- - - dum- in - ri"
-          },
-          {
-            "line_number": 2,
-            "swara": "- , s n- p P G P || R G R R , S , || S R - gp- gr , s R || s r G g r - S - S ||",
-            "sahitya": "- -in n i shai I yal I la kkiyam - A riyam ta- mizh-- a ri ve- - - dum- in - ri"
-          },
-          {
-            "line_number": 3,
-            "swara": "- , g , p - P N P || G - P - R G R || S ,n S R g p g r || n r gp G - - R ||",
-            "sahitya": "- - kan- nal an - naik- kan da ga - - na- muda nan- - - nu- -- lai - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "- , n , p - N p G - p || , r G P - P - g p || - , - g , p N P - pg || R ,-g , p N N S ||",
-            "sahitya": "un - num ka vi - kun - jara da san nan - - un - na rul konde- - -pan-na tu Ninden"
-          },
-          {
-            "line_number": 5,
-            "swara": "- , g , p - N , s R || sr G R - sn P P || , -",
-            "sahitya": "- - mu-nnava - ne ni mun- - nin- - ral"
-          },
-          {
-            "line_number": 6,
-            "swara": "- ng , p - N , s R || sr gp gr - sn P p g || R - s r - sn p g P ||",
-            "sahitya": "- mu-nna va - ne ni mun- - nin- ral mudi ya- da- don- ril- lai"
-          },
-          {
-            "line_number": 7,
-            "swara": "p s s n p g - n p g r - g r || s n - S , G,r -g , p N || S - - - - - ||",
-            "sahitya": "A - da lal a ti ve- gama A - gave Vaa ra- na - mukha vaa - - - - (repeat Munnavane)"
-          },
-          {
-            "line_number": 8,
-            "swara": "gr S R G , p N || srgp gr sn p- g R || g r S - - s r g p || grsnP, , r S R - ||",
-            "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
-          },
-          {
-            "line_number": 9,
-            "swara": "gr S R G , p N || S - - - - - || - - - - - - ||",
-            "sahitya": "va- ra Na mukha va- - - - - - - - - - -"
-          }
+    "song_details": {
+        "name": "Vaarana Mukha Vaa",
+        "raga": "Hamsadhwani",
+        "arohanam": "S R2 G3 P N3 S ||",
+        "avarohanam": "S N3 P G3 R2 S ||",
+        "tala": "Rupakam",
+        "composer": "Kotishwara Iyer"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , s , r G , p N || NS sn P , g R || R S - - - - ||",
+                "sahitya": "- - va -rana -mukha va- tu-nai - varu vai-- - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- S , r G P N || S - sn P , g R || R S - - S S || sn P , r S R - ||",
+                "sahitya": "- va -rana mukha va- tu-nai - varu vai-- - - a rul vai- daya vai"
+            },
+            {
+                "line_number": 3,
+                "swara": "gr S R G , p N || S - sn P , g R || g r S - - S S || sn P , r S R - ||",
+                "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a rul vai- daya vai"
+            },
+            {
+                "line_number": 4,
+                "swara": "gr S R G , p N || snR sn P , g R || g r S - - gr pg || rsnp - , r S R - ||",
+                "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a- rul vai- daya vai"
+            },
+            {
+                "line_number": 5,
+                "swara": "gr S R G , p N || sngr sn P , g R || g r S - - s r g p || grsnP, , r S R - ||",
+                "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
+            },
+            {
+                "line_number": 6,
+                "swara": "gr S R G , p N || srgp gr sn p- g R || g r S - - s r g p || grsnP, , r S R - ||",
+                "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
+            },
+            {
+                "line_number": 7,
+                "swara": "gr S R G , p N || S - - - - - || - - - - - - ||",
+                "sahitya": "va- ra Na mukha va- - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- , g , p N , s S || S - S- S - S || - - - - - - || - sn r s - sn N - ||",
+                "sahitya": "- - A - ranap -porul A- na kan - da- - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- , g , p N , s S || S - S- sn P P ||",
+                "sahitya": "- - A - ranap -porul A- na kan - da-"
+            },
+            {
+                "line_number": 3,
+                "swara": ", pn - g , p N , s S || S - S- sn rs N ||",
+                "sahitya": "- - - A - ranap -porul A- na kan - da-"
+            },
+            {
+                "line_number": 4,
+                "swara": "- , -g , p N , s R || sr G R- sn P P ||",
+                "sahitya": "- - - A - ranap -porul A- na kan - da-"
+            },
+            {
+                "line_number": 5,
+                "swara": "- n g , p N , s R || sr gp gr- sn P -pg || R - s r s n p g P ||",
+                "sahitya": "- A- - ranap -porul A- na- kan da- ga- na- mu-da- ttir-kkul"
+            },
+            {
+                "line_number": 6,
+                "swara": "p s s n p g - n p g r - g r || s n - S , G,r -g , p N || S - - - - - ||",
+                "sahitya": "ka ru Na- mudam u da viye a rul mata- Vaa ra- na - mukha vaa - - - - (repeat Arana Porul..)"
+            },
+            {
+                "line_number": 7,
+                "swara": "gr S R G , p N || srgp gr sn p- g R || g r S - - s r g p || grsnP, , r S R - ||",
+                "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
+            },
+            {
+                "line_number": 8,
+                "swara": "gr S R G , p N || S - - - - - || - - - - - - ||",
+                "sahitya": "va- ra Na mukha va- - - - - - - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- , s n- p P G P || R G R R , S , || S R - gp- gr , s R || s r g p g r - S - S ||",
+                        "sahitya": "- -in n i shai I yal I la kkiyam - A riyam ta- mizh-- a ri ve- - - dum- in - ri"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- , s n- p P G P || R G R R , S , || S R - gp- gr , s R || s r G g r - S - S ||",
+                        "sahitya": "- -in n i shai I yal I la kkiyam - A riyam ta- mizh-- a ri ve- - - dum- in - ri"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- , g , p - P N P || G - P - R G R || S ,n S R g p g r || n r gp G - - R ||",
+                        "sahitya": "- - kan- nal an - naik- kan da ga - - na- muda nan- - - nu- -- lai - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- , n , p - N p G - p || , r G P - P - g p || - , - g , p N P - pg || R ,-g , p N N S ||",
+                        "sahitya": "un - num ka vi - kun - jara da san nan - - un - na rul konde- - -pan-na tu Ninden"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- , g , p - N , s R || sr G R - sn P P || , -",
+                        "sahitya": "- - mu-nnava - ne ni mun- - nin- - ral"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- ng , p - N , s R || sr gp gr - sn P p g || R - s r - sn p g P ||",
+                        "sahitya": "- mu-nna va - ne ni mun- - nin- ral mudi ya- da- don- ril- lai"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "p s s n p g - n p g r - g r || s n - S , G,r -g , p N || S - - - - - ||",
+                        "sahitya": "A - da lal a ti ve- gama A - gave Vaa ra- na - mukha vaa - - - - (repeat Munnavane)"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "gr S R G , p N || srgp gr sn p- g R || g r S - - s r g p || grsnP, , r S R - ||",
+                        "sahitya": "va- ra Na mukha va- tu-nai - varu vai-- - - a -rul vai- daya vai"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "gr S R G , p N || S - - - - - || - - - - - - ||",
+                        "sahitya": "va- ra Na mukha va- - - - - - - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Vaarana_Mukha_Vaa_Hamsadhwani.pdf"
 }

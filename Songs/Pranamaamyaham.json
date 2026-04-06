@@ -1,147 +1,148 @@
 {
-  "song_details": {
-    "name": "Pranamaamyaham",
-    "raga": "Gowla",
-    "arohanam": "S R M P N S || AVA: S N P M R G M R S ||",
-    "avarohanam": "S R M P N S || AVA: S N P M R G M R S ||",
-    "tala": "Adi",
-    "composer": "Mysore Vasudevacharya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- p m , P , M – pm g m R | - pm gm - rg M- R rs S ||",
-        "sahitya": "Prana - maam ya ham- - - Sri Gow- - - - ri- - - Su tham - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- p n , n P M – pm g m R | - pm gm - rg M- R rs S ||",
-        "sahitya": "Prana - maam ya ham- - - Sri Gow- - - - ri- - - Su tham - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- pm p n s n pm – pm g m R | - pm gm - rg M- R rs S ||",
-        "sahitya": "Prana maam - ya ham- - - Sri Gow- - - - ri- - - Su tham - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- pm p n s n pm – pm g m – rm | pn- sn pm - rg M- R rs S ||",
-        "sahitya": "Prana maam - ya ham- - - Sri - Gow- -- ri- - - Su tham - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- pm p n s n pm – pm g m – rm | pn- sn pm - rg MpmM- r rs S ||",
-        "sahitya": "Prana maam - ya ham- - - Sri - Gow- -- ri- - - - -- Su tham - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "- s r , s n p P – ns rs R | s r m p n s - S sn pm g m r s ||",
-        "sahitya": "Phani - thal- - pa Vaa- - - su de - - - - va Bhak tham - Satha tham-"
-      },
-      {
-        "line_number": 7,
-        "swara": "rm- p n , n P M – pm g m – rm | pn- sn pm - rg MpmM - r rs S ||",
-        "sahitya": "Prana maam - ya ham- - - Sri - Gow- -- ri- - - - - - Su tham - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "- p n , n P M – pm g m R | - - - - - - - - ||",
-        "sahitya": "Prana - maam ya ham- - - Sri - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- p r , S r R S rm – R | - S - S rsnp - N S ||",
-        "sahitya": "Gana - naa- tha A- ma- ra - Brun - da Se- - vi tham"
-      },
-      {
-        "line_number": 2,
-        "swara": "- p r , S r R S pm gm | R- S rgrs S , rsnp - N S ||",
-        "sahitya": "Gana - naa- tha A- ma- - - ra Brun - da Se- - vi tham"
-      },
-      {
-        "line_number": 3,
-        "swara": "- p r , S r R S pm gm | R- n s rgrs S , rsnp - N S ||",
-        "sahitya": "Gana - naa- tha A- ma- - - ra Brun - da Se- - vi tham"
-      },
-      {
-        "line_number": 4,
-        "swara": "- s r ,g rs S , S sn P – N | S - - - - - - - ||",
-        "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- s r ,g rs S , S sn P – N | S - R - - - - - ||",
-        "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "- s r ,g rs S , S rsnp - – N | S - - M pm – P n p – N ||",
-        "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "sn- s r ,g rs S , S rsnp - – N | S - - r mp mr - m pn pm- p ns ||",
-        "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "np- s r ,g rs S , S rsnp - – N | S R - sn pm – rg m – r s - s || rm (Prana..)",
-        "sahitya": "Pani - haa- ra Bhoo- - shi tam - - Muni vara Van-- ditham-"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- p m , P , M – pm g m - rg | M – R - N P s r rs S ||",
-            "sahitya": "Krutha Chaa ru Moo- - - da- - kam Ga ja mu kham –"
-          },
-          {
-            "line_number": 2,
-            "swara": "- p m , P , mn – pm g m - rg | M – R - N P N S - ||",
-            "sahitya": "Krutha Chaa ru Moo- - - da- - kam Ga ja mu kham –"
-          },
-          {
-            "line_number": 3,
-            "swara": "- s r , m P - p s s n p m | P , n S S - r m - r s S ||",
-            "sahitya": "Sritha Karaa - - - mi- tha - Ga - rva Bhan - ja- kam- -"
-          },
-          {
-            "line_number": 4,
-            "swara": "- p rs , R , R - S rm | R , s S - S – sn P – N ||",
-            "sahitya": "Natha- - Lo- ka - San- - - - tho- sha Daa - - ya"
-          },
-          {
-            "line_number": 5,
-            "swara": "S- p rs , R , R - S rm | R S - S – sn P – N S ||",
-            "sahitya": "kam Natha- - Lo- ka - San- - - tho- - sha Daa - - ya kam"
-          },
-          {
-            "line_number": 6,
-            "swara": "- - p rs , R , R - s r pm | gm R - S – rsnp - – N S ||",
-            "sahitya": "- Natha- - Lo- ka - San- - - - tho- - sha Daa - - ya kam"
-          },
-          {
-            "line_number": 7,
-            "swara": "- s r ,g rs S , S s n P – N | S - - - - - - - ||",
-            "sahitya": "Sri tha - Bha- ktha Paa- - la kam - - - - - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "- s r ,g rs S , S sn P – N | S - R - - - - - ||",
-            "sahitya": "Sri tha - Bha- ktha Paa- - la kam - - - - - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "np- s r ,g rs S , S rsnp - – N | S R - sn p m – rg m – r s - s || rm (Prana..)",
-            "sahitya": "Sri tha - Bha- ktha Paa- - la kam - Si- ddhi Vi naa - - ya kam-"
-          }
+    "song_details": {
+        "name": "Pranamaamyaham",
+        "raga": "Gowla",
+        "arohanam": "S R M P N S || AVA: S N P M R G M R S ||",
+        "avarohanam": "S R M P N S || AVA: S N P M R G M R S ||",
+        "tala": "Adi",
+        "composer": "Mysore Vasudevacharya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- p m , P , M \u2013 pm g m R | - pm gm - rg M- R rs S ||",
+                "sahitya": "Prana - maam ya ham- - - Sri Gow- - - - ri- - - Su tham - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- p n , n P M \u2013 pm g m R | - pm gm - rg M- R rs S ||",
+                "sahitya": "Prana - maam ya ham- - - Sri Gow- - - - ri- - - Su tham - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- pm p n s n pm \u2013 pm g m R | - pm gm - rg M- R rs S ||",
+                "sahitya": "Prana maam - ya ham- - - Sri Gow- - - - ri- - - Su tham - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- pm p n s n pm \u2013 pm g m \u2013 rm | pn- sn pm - rg M- R rs S ||",
+                "sahitya": "Prana maam - ya ham- - - Sri - Gow- -- ri- - - Su tham - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- pm p n s n pm \u2013 pm g m \u2013 rm | pn- sn pm - rg MpmM- r rs S ||",
+                "sahitya": "Prana maam - ya ham- - - Sri - Gow- -- ri- - - - -- Su tham - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "- s r , s n p P \u2013 ns rs R | s r m p n s - S sn pm g m r s ||",
+                "sahitya": "Phani - thal- - pa Vaa- - - su de - - - - va Bhak tham - Satha tham-"
+            },
+            {
+                "line_number": 7,
+                "swara": "rm- p n , n P M \u2013 pm g m \u2013 rm | pn- sn pm - rg MpmM - r rs S ||",
+                "sahitya": "Prana maam - ya ham- - - Sri - Gow- -- ri- - - - - - Su tham - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "- p n , n P M \u2013 pm g m R | - - - - - - - - ||",
+                "sahitya": "Prana - maam ya ham- - - Sri - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- p r , S r R S rm \u2013 R | - S - S rsnp - N S ||",
+                "sahitya": "Gana - naa- tha A- ma- ra - Brun - da Se- - vi tham"
+            },
+            {
+                "line_number": 2,
+                "swara": "- p r , S r R S pm gm | R- S rgrs S , rsnp - N S ||",
+                "sahitya": "Gana - naa- tha A- ma- - - ra Brun - da Se- - vi tham"
+            },
+            {
+                "line_number": 3,
+                "swara": "- p r , S r R S pm gm | R- n s rgrs S , rsnp - N S ||",
+                "sahitya": "Gana - naa- tha A- ma- - - ra Brun - da Se- - vi tham"
+            },
+            {
+                "line_number": 4,
+                "swara": "- s r ,g rs S , S sn P \u2013 N | S - - - - - - - ||",
+                "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- s r ,g rs S , S sn P \u2013 N | S - R - - - - - ||",
+                "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "- s r ,g rs S , S rsnp - \u2013 N | S - - M pm \u2013 P n p \u2013 N ||",
+                "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "sn- s r ,g rs S , S rsnp - \u2013 N | S - - r mp mr - m pn pm- p ns ||",
+                "sahitya": "Pani - haa- ra Bhoo- - shi tam - - - - - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "np- s r ,g rs S , S rsnp - \u2013 N | S R - sn pm \u2013 rg m \u2013 r s - s || rm (Prana..)",
+                "sahitya": "Pani - haa- ra Bhoo- - shi tam - - Muni vara Van-- ditham-"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- p m , P , M \u2013 pm g m - rg | M \u2013 R - N P s r rs S ||",
+                        "sahitya": "Krutha Chaa ru Moo- - - da- - kam Ga ja mu kham \u2013"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- p m , P , mn \u2013 pm g m - rg | M \u2013 R - N P N S - ||",
+                        "sahitya": "Krutha Chaa ru Moo- - - da- - kam Ga ja mu kham \u2013"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- s r , m P - p s s n p m | P , n S S - r m - r s S ||",
+                        "sahitya": "Sritha Karaa - - - mi- tha - Ga - rva Bhan - ja- kam- -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- p rs , R , R - S rm | R , s S - S \u2013 sn P \u2013 N ||",
+                        "sahitya": "Natha- - Lo- ka - San- - - - tho- sha Daa - - ya"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "S- p rs , R , R - S rm | R S - S \u2013 sn P \u2013 N S ||",
+                        "sahitya": "kam Natha- - Lo- ka - San- - - tho- - sha Daa - - ya kam"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- - p rs , R , R - s r pm | gm R - S \u2013 rsnp - \u2013 N S ||",
+                        "sahitya": "- Natha- - Lo- ka - San- - - - tho- - sha Daa - - ya kam"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- s r ,g rs S , S s n P \u2013 N | S - - - - - - - ||",
+                        "sahitya": "Sri tha - Bha- ktha Paa- - la kam - - - - - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- s r ,g rs S , S sn P \u2013 N | S - R - - - - - ||",
+                        "sahitya": "Sri tha - Bha- ktha Paa- - la kam - - - - - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "np- s r ,g rs S , S rsnp - \u2013 N | S R - sn p m \u2013 rg m \u2013 r s - s || rm (Prana..)",
+                        "sahitya": "Sri tha - Bha- ktha Paa- - la kam - Si- ddhi Vi naa - - ya kam-"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Pranamaamyaham_Gowlai.pdf"
 }

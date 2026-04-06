@@ -1,162 +1,163 @@
 {
-  "song_details": {
-    "name": "Kamalambambike",
-    "raga": "Todi",
-    "arohanam": "S R1 G2 M1 P D1 N2 S ||",
-    "avarohanam": "S N2 D1 P M1 G2 R1 S ||",
-    "tala": "Rupakam",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "N - N - | Dnp D - dnS S N || S - - - | D, n S ,n N D P M ||",
-        "sahitya": "Ka ma la -- --- - - - mbi - ke - - - - - - - - - am ba"
-      },
-      {
-        "line_number": 2,
-        "swara": "N - N - | dnsr rsnd dnS S N || S - - - | pdN dnS dn Srs nd p d ||",
-        "sahitya": "Ka ma la -- --- - - - mbi - ke - - - - - - - -- - - - - - amba"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - N - | nsrsndD dnS sgr rN || S - - - | N D - - - R S,n ||",
-        "sahitya": "Ka ma la -- --- - - mbi - - ke - - Aa - - - - sri- tha-"
-      },
-      {
-        "line_number": 4,
-        "swara": "snD D P | P - pm G mpdp pm G || gr R G - | pm G R - S r s s r N ||",
-        "sahitya": "kal - - - pa- la - - thi - - ke - - - - - Chan - - - di ke -- - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - R S | R - G R S - R N || N R N D | N D D N S - - - ||",
-        "sahitya": "Ka ma - nee - - ya - - - (a)ru na - - - - shu- ke - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S ,r G - | M - N - n d D P - || ppmmg - - - | G M D P dm P , D , ||",
-        "sahitya": "Ka- ra- vi - dru tha- - Shu ke - - - - - - Ma - - - - - ma va"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - P - | D - N D D - P - || - - M - | G M G R S - rs rn ||",
-        "sahitya": "Ka ma la -- - - sa - naa - - di - Poo- - - ji -tha- -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- S R - | G - M - P , d N D || - D n ddm | D - N - S - - - ||",
-        "sahitya": "- Ka ma la - Pa- the - - - - - Ba- hu-- Va- ra- the- - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "P - P - | dnsn nd D P - P dn || P , d M - | mgpm dpmg rS, rsrn ||",
-        "sahitya": "Ka ma la -- - - - sa- na - - - - di - Poo- - - - - ji - - tha- -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- S R - | pm G M - P , d N D || - D n ddm | D - N - S - - - ||",
-        "sahitya": "- Ka ma la- - Pa- the - - - - - Ba- hu- - Va- ra- the- - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- - D N | S - - - R - S - || S rs S rn | N - N R sn D D - ||",
-        "sahitya": "- - Kama laa- - la - ya Thir- - - - tha- Vai- - - - bha-"
-      },
-      {
-        "line_number": 6,
-        "swara": "Pd p D N | S r s N S - - - - || - - - - | - - - - - - R S ||",
-        "sahitya": "Ve- - - - Shi- - - ve - - - - - - - - - - - - - am ba"
-      },
-      {
-        "line_number": 7,
-        "swara": "D - N - | S , r G , r R - S - || S rs S rn | N - nsrs nd D D - ||",
-        "sahitya": "Ka ma laa - - - la- ya- Thir - - - tha Vai - - - - - bha"
-      },
-      {
-        "line_number": 8,
-        "swara": "PD N D | - dn - Sns - - - - || - - - - | - - - - - - R S ||",
-        "sahitya": "Ve- - - - - Shi- ve-- - - - - - - - - - - - - - am ba"
-      },
-      {
-        "line_number": 9,
-        "swara": "- rrN R | r g Mpm grR S - S - || srgr rSn | N - nsrs nd D D - ||",
-        "sahitya": "Ka- ma laa - - - - - - la - ya Thi - - - rtha Vai- - - - bha"
-      },
-      {
-        "line_number": 10,
-        "swara": "Pd p D N | S r s N S - - Pdn || dpM Mdp | ppmg G - M dp D - ||",
-        "sahitya": "Ve- - - - Shi- - - ve - - Ka-- ru- - naa-- Aa- - rna ve- - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- - PD | P - M P pm mg G - || mgmg M D | DM G P mG r S rn ||",
-            "sahitya": "Saka la - Lo- - - - - ka - Naa- - - - yi - ke- - - - Amba"
-          },
-          {
-            "line_number": 2,
-            "swara": "S - R S | R - G R S ,g rRn || - r S - s R | G - M - - - G M ||",
-            "sahitya": "San- - gee - - - - - ta- - - Ra si - ke- - - -- Am ba"
-          },
-          {
-            "line_number": 3,
-            "swara": "P ,n dDp | P - mpdp pm mg G - || mgM dnsn | DM mgpm dpmg rs rn ||",
-            "sahitya": "Sa- ka- - la - Lo- - - - - ka - Naa- - - - yi - ke- - - - Amba"
-          },
-          {
-            "line_number": 4,
-            "swara": "S - R S | R - G R S ,g rRn || - r S - s R | pmG M - - - - - ||",
-            "sahitya": "San- - gee - - - - - ta- - - Ra si - ke- - - -- - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "- - G M | P - - - Pdn Pdm || md P D - | - - D N S , r G R ||",
-            "sahitya": "- - Su ka Vi - - - tva- - - - Pra- daa- - - yi - ke - - -"
-          },
-          {
-            "line_number": 6,
-            "swara": "S - - - | S rn N D dnsn D M || G - M Pdp | pm G gr R S - - - ||",
-            "sahitya": "Sun- - da - ri - Ga- - ta- maa- - - - - yi- - - ke- - - - - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "- - S S | P - - - P,d d N , || N P D - | D M - MP pm G G - ||",
-            "sahitya": "- - Vika le- - ba- ra - - Mu- - - kti- daa- - - - na -"
-          },
-          {
-            "line_number": 8,
-            "swara": "- mg M N | nd D - - dMd N - || D- Dn ddm | D - N - S - - - ||",
-            "sahitya": "- Ni-pu - ne- - - - - - - - - - A- gha-- Ha ra- ne- - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "- - D N | S - - - S - S - || - - S - | S - n s R rS, - ,n ||",
-            "sahitya": "- - Viya daa- - di- Bhoo - - ta- Ki ra- - ne- - -"
-          },
-          {
-            "line_number": 10,
-            "swara": "NR snD | D ,n S - sn D DN || S rn D M | - D N - S - - - ||",
-            "sahitya": "Vi- no- - - - - da- Cha- ra- ne- - - - - A ru ne- - -"
-          },
-          {
-            "line_number": 11,
-            "swara": "D D G - | R S- S S D N S - || R , S , N | , ndD , P G M P - ||",
-            "sahitya": "Sa ka le Guru Guha kara ne- Sa daa Shi - vaan- tah Kara ne"
-          },
-          {
-            "line_number": 12,
-            "swara": "G M P D | N G - R rsnd N - || dR Sr sn | D P - M dp G M D - ||",
-            "sahitya": "A ka cha ta Ta paa-di Va- - rne A- khan dai- - ka Ra sa- Pur- ne -"
-          }
+    "song_details": {
+        "name": "Kamalambambike",
+        "raga": "Todi",
+        "arohanam": "S R1 G2 M1 P D1 N2 S ||",
+        "avarohanam": "S N2 D1 P M1 G2 R1 S ||",
+        "tala": "Rupakam",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "N - N - | Dnp D - dnS S N || S - - - | D, n S ,n N D P M ||",
+                "sahitya": "Ka ma la -- --- - - - mbi - ke - - - - - - - - - am ba"
+            },
+            {
+                "line_number": 2,
+                "swara": "N - N - | dnsr rsnd dnS S N || S - - - | pdN dnS dn Srs nd p d ||",
+                "sahitya": "Ka ma la -- --- - - - mbi - ke - - - - - - - -- - - - - - amba"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - N - | nsrsndD dnS sgr rN || S - - - | N D - - - R S,n ||",
+                "sahitya": "Ka ma la -- --- - - mbi - - ke - - Aa - - - - sri- tha-"
+            },
+            {
+                "line_number": 4,
+                "swara": "snD D P | P - pm G mpdp pm G || gr R G - | pm G R - S r s s r N ||",
+                "sahitya": "kal - - - pa- la - - thi - - ke - - - - - Chan - - - di ke -- - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - R S | R - G R S - R N || N R N D | N D D N S - - - ||",
+                "sahitya": "Ka ma - nee - - ya - - - (a)ru na - - - - shu- ke - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S ,r G - | M - N - n d D P - || ppmmg - - - | G M D P dm P , D , ||",
+                "sahitya": "Ka- ra- vi - dru tha- - Shu ke - - - - - - Ma - - - - - ma va"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - P - | D - N D D - P - || - - M - | G M G R S - rs rn ||",
+                "sahitya": "Ka ma la -- - - sa - naa - - di - Poo- - - ji -tha- -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- S R - | G - M - P , d N D || - D n ddm | D - N - S - - - ||",
+                "sahitya": "- Ka ma la - Pa- the - - - - - Ba- hu-- Va- ra- the- - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "P - P - | dnsn nd D P - P dn || P , d M - | mgpm dpmg rS, rsrn ||",
+                "sahitya": "Ka ma la -- - - - sa- na - - - - di - Poo- - - - - ji - - tha- -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- S R - | pm G M - P , d N D || - D n ddm | D - N - S - - - ||",
+                "sahitya": "- Ka ma la- - Pa- the - - - - - Ba- hu- - Va- ra- the- - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- - D N | S - - - R - S - || S rs S rn | N - N R sn D D - ||",
+                "sahitya": "- - Kama laa- - la - ya Thir- - - - tha- Vai- - - - bha-"
+            },
+            {
+                "line_number": 6,
+                "swara": "Pd p D N | S r s N S - - - - || - - - - | - - - - - - R S ||",
+                "sahitya": "Ve- - - - Shi- - - ve - - - - - - - - - - - - - am ba"
+            },
+            {
+                "line_number": 7,
+                "swara": "D - N - | S , r G , r R - S - || S rs S rn | N - nsrs nd D D - ||",
+                "sahitya": "Ka ma laa - - - la- ya- Thir - - - tha Vai - - - - - bha"
+            },
+            {
+                "line_number": 8,
+                "swara": "PD N D | - dn - Sns - - - - || - - - - | - - - - - - R S ||",
+                "sahitya": "Ve- - - - - Shi- ve-- - - - - - - - - - - - - - am ba"
+            },
+            {
+                "line_number": 9,
+                "swara": "- rrN R | r g Mpm grR S - S - || srgr rSn | N - nsrs nd D D - ||",
+                "sahitya": "Ka- ma laa - - - - - - la - ya Thi - - - rtha Vai- - - - bha"
+            },
+            {
+                "line_number": 10,
+                "swara": "Pd p D N | S r s N S - - Pdn || dpM Mdp | ppmg G - M dp D - ||",
+                "sahitya": "Ve- - - - Shi- - - ve - - Ka-- ru- - naa-- Aa- - rna ve- - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- - PD | P - M P pm mg G - || mgmg M D | DM G P mG r S rn ||",
+                        "sahitya": "Saka la - Lo- - - - - ka - Naa- - - - yi - ke- - - - Amba"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "S - R S | R - G R S ,g rRn || - r S - s R | G - M - - - G M ||",
+                        "sahitya": "San- - gee - - - - - ta- - - Ra si - ke- - - -- Am ba"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "P ,n dDp | P - mpdp pm mg G - || mgM dnsn | DM mgpm dpmg rs rn ||",
+                        "sahitya": "Sa- ka- - la - Lo- - - - - ka - Naa- - - - yi - ke- - - - Amba"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "S - R S | R - G R S ,g rRn || - r S - s R | pmG M - - - - - ||",
+                        "sahitya": "San- - gee - - - - - ta- - - Ra si - ke- - - -- - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- - G M | P - - - Pdn Pdm || md P D - | - - D N S , r G R ||",
+                        "sahitya": "- - Su ka Vi - - - tva- - - - Pra- daa- - - yi - ke - - -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "S - - - | S rn N D dnsn D M || G - M Pdp | pm G gr R S - - - ||",
+                        "sahitya": "Sun- - da - ri - Ga- - ta- maa- - - - - yi- - - ke- - - - - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- - S S | P - - - P,d d N , || N P D - | D M - MP pm G G - ||",
+                        "sahitya": "- - Vika le- - ba- ra - - Mu- - - kti- daa- - - - na -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- mg M N | nd D - - dMd N - || D- Dn ddm | D - N - S - - - ||",
+                        "sahitya": "- Ni-pu - ne- - - - - - - - - - A- gha-- Ha ra- ne- - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- - D N | S - - - S - S - || - - S - | S - n s R rS, - ,n ||",
+                        "sahitya": "- - Viya daa- - di- Bhoo - - ta- Ki ra- - ne- - -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "NR snD | D ,n S - sn D DN || S rn D M | - D N - S - - - ||",
+                        "sahitya": "Vi- no- - - - - da- Cha- ra- ne- - - - - A ru ne- - -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "D D G - | R S- S S D N S - || R , S , N | , ndD , P G M P - ||",
+                        "sahitya": "Sa ka le Guru Guha kara ne- Sa daa Shi - vaan- tah Kara ne"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "G M P D | N G - R rsnd N - || dR Sr sn | D P - M dp G M D - ||",
+                        "sahitya": "A ka cha ta Ta paa-di Va- - rne A- khan dai- - ka Ra sa- Pur- ne -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Kamalambambike_Thodi.pdf"
 }

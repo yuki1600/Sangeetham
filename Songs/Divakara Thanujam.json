@@ -1,132 +1,133 @@
 {
-  "song_details": {
-    "name": "Divakara Thanujam",
-    "raga": "Yadukula Kambhoji",
-    "arohanam": "S R2 M1 P D2 S ||",
-    "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
-    "tala": "Eka",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "RS D - - - D - Dsd DP pmpm Pds | dp - DP - P P,m mPm G -R G,m mGr",
-        "sahitya": "||"
-      },
-      {
-        "line_number": 2,
-        "swara": "RS - D - - D - d rss D DP pmpd pd rsS | dp - DP - P pm Pdp md ppmg -R G,m mGr ||",
-        "sahitya": "Di- vaa- - - ka- ra - - Da- nu-- - - - - jam - - - - Sa nai- - - - - - scha ram- - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "RG RS SN S R R - - - S R M G | P - - M P - DP P,m mPm mg - R G - ||",
-        "sahitya": "Dhee- - ra- Tha- ram- - San- - - tha- - - tham - - Chin- - - - - - thayee"
-      },
-      {
-        "line_number": 4,
-        "swara": "- - mGr R- - - S R RG R S - - | - - - - - - - - - - - - - - - - ||",
-        "sahitya": "- - - - - - - - - ham - - - - - - - - - - - - - - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "D - D P - - P - DP P,m mPm G - R | G - - mg - R rpmg GS RP ppmg M - ||",
-        "sahitya": "Bha vaa- - - mbu Ni- dhow - - - - Ni ma- - gna- - - Ja- - naa - - naam- -"
-      },
-      {
-        "line_number": 2,
-        "swara": "D - D P - - P - PM gm Pdp mdpm G - R | G - - mg - R rpmg GS RP ppmg M - ||",
-        "sahitya": "Bha vaa- - - mbu Ni- dhow -- - - - - Ni ma- - gna- - - Ja- - naa - - naam- -"
-      },
-      {
-        "line_number": 3,
-        "swara": "Gmg GR - - Rmg rsS - - nS, P - N | - - S - - - S - S R Rpm D- - P ||",
-        "sahitya": "Bha- yan- - - ka- - ram- - A - - - thi - - Kru - - ra - Pha- la- - daam-"
-      },
-      {
-        "line_number": 4,
-        "swara": "P D - S - S - S R - R - R M G - G R- R | S D S - R S - s s N nd P dpmg R R mg S ||",
-        "sahitya": "Bhava- nee - sha Kataa - ksha Paa- thra Bhu-tha Bha-kthi ma thaam A-thi sa-ya Shubha Phaladaam--"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "S - R S R - P M P - D - N D D P | P - P , m mPm G - G G - mG r R - - - ||",
-            "sahitya": "Kaa- - laan- - ja- na - Kaa- - - nt hi yu - - - - - - - ktha De- - - - ham- -"
-          },
-          {
-            "line_number": 2,
-            "swara": "- - R S R - rpmg Gmg G R rgmg rs - | - - S - - P D - S R R P pmmg M - ||",
-            "sahitya": "Kaa- la Sa - - ho- - - - dha- - ram- - - Kaa - - ka Vaa- - - ham - - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "- - G ,m P - - ,m P - D - N D N D | DP pmpm M G- RM G R - G M D - - - ||",
-            "sahitya": "- - Nee- laam-- - Su-ka- Pu- - - shpa Maa- - - - laa - - - Vru- tham--"
-          },
-          {
-            "line_number": 4,
-            "swara": "- P- DP D - S - - - S - S , n nSn | D- D D,n n D p P , m M G - G R MG S - ||",
-            "sahitya": "- - Nee- la- ra- - - thna Bhu- - - - - sha naa- - - - lan- - - - kru- tham - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "- - G ,m P - - ,m P - D - N D N D | DP pmpm M G- RM G R - M - D - - - ||",
-            "sahitya": "- - Nee- laam-- - Su-ka- Pu- - - shpa Maa- - - - laa - - - Vru- tham--"
-          },
-          {
-            "line_number": 6,
-            "swara": "- P- DP D - S - - - S - sn Srs nSn | D- D D,n n D p P , m M G - G R MG S - ||",
-            "sahitya": "- - Nee- la- ra- - - thna Bhu- - - - - sha naa- - - - lan- - - - kru- tham - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "M - - - P - D - P, d ppmg R - rpmg | G S r P m MG G R gPm PD dm P - - ||",
-            "sahitya": "Ma- - - li - nee- Vi - - - - nu -tha- - Gu - ru - - gu - ha - Mu- -dhi- tham- -"
-          },
-          {
-            "line_number": 8,
-            "swara": "- - M P D - S ,d S - S - S , r G S | R - rpmg rs - - - snP D - S - D - ||",
-            "sahitya": "- - Maka ra - Kum - - bha Raa- - - si - - - - Naa- - dam- - - Thi-la -"
-          },
-          {
-            "line_number": 9,
-            "swara": "R - - - R - S - - - S - sn Srs dSn | DD P - - - P nd dpM DP D - - - ||",
-            "sahitya": "Thai- - la - Mi- - - sri- thaa - - - - - - nna Dee - -pa - - - - - Pri- yam- -"
-          },
-          {
-            "line_number": 10,
-            "swara": "DP D - - - R - S - - - M M P ds | sn D D P - pm MG G R RM - G S- S D ||",
-            "sahitya": "Da- yaa- - - Su- dhaa- - Saa - - - ga- - ram - - Ni- - - rbha- yam- - - Thila"
-          },
-          {
-            "line_number": 11,
-            "swara": "R - - - R - S - - - S - sn Srs dSn | DD P - - - P nd dpM DP D - - - ||",
-            "sahitya": "Thai- - la - Mi- - - sri- thaa - - - - - - nna Dee - -pa - - - - - Pri- yam- -"
-          },
-          {
-            "line_number": 12,
-            "swara": "DP D - - - R - S - - - M M P ds | sn D D P - - PM M G G R RM G S ||",
-            "sahitya": "Da- yaa- - - Su- dhaa- - Saa - - - ga- - ram - - - Ni- - - rbha- yam- - -"
-          },
-          {
-            "line_number": 13,
-            "swara": "S - rp M - M -P D P - D P dpmg R - | rPm P - P D D - P D S- S D S R - R - ||",
-            "sahitya": "Kaa la- Dan- da Pari pee ditha Jaa- - num Kaa-mi thaar - tha Phala da Kaa-ma de- num"
-          },
-          {
-            "line_number": 14,
-            "swara": "RM G - M G R r P - g - - rsS - S - P D S - | M P - P G RS - rsnd DP dpmg RM GS ||",
-            "sahitya": "Kaa- la Cha - kra Bhe-da - Chi- thra Ba- num Kal- pitha Chaa-yaa-- de-- vi- -- Su- num-"
-          }
+    "song_details": {
+        "name": "Divakara Thanujam",
+        "raga": "Yadukula Kambhoji",
+        "arohanam": "S R2 M1 P D2 S ||",
+        "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
+        "tala": "Eka",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "RS D - - - D - Dsd DP pmpm Pds | dp - DP - P P,m mPm G -R G,m mGr",
+                "sahitya": "||"
+            },
+            {
+                "line_number": 2,
+                "swara": "RS - D - - D - d rss D DP pmpd pd rsS | dp - DP - P pm Pdp md ppmg -R G,m mGr ||",
+                "sahitya": "Di- vaa- - - ka- ra - - Da- nu-- - - - - jam - - - - Sa nai- - - - - - scha ram- - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "RG RS SN S R R - - - S R M G | P - - M P - DP P,m mPm mg - R G - ||",
+                "sahitya": "Dhee- - ra- Tha- ram- - San- - - tha- - - tham - - Chin- - - - - - thayee"
+            },
+            {
+                "line_number": 4,
+                "swara": "- - mGr R- - - S R RG R S - - | - - - - - - - - - - - - - - - - ||",
+                "sahitya": "- - - - - - - - - ham - - - - - - - - - - - - - - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "D - D P - - P - DP P,m mPm G - R | G - - mg - R rpmg GS RP ppmg M - ||",
+                "sahitya": "Bha vaa- - - mbu Ni- dhow - - - - Ni ma- - gna- - - Ja- - naa - - naam- -"
+            },
+            {
+                "line_number": 2,
+                "swara": "D - D P - - P - PM gm Pdp mdpm G - R | G - - mg - R rpmg GS RP ppmg M - ||",
+                "sahitya": "Bha vaa- - - mbu Ni- dhow -- - - - - Ni ma- - gna- - - Ja- - naa - - naam- -"
+            },
+            {
+                "line_number": 3,
+                "swara": "Gmg GR - - Rmg rsS - - nS, P - N | - - S - - - S - S R Rpm D- - P ||",
+                "sahitya": "Bha- yan- - - ka- - ram- - A - - - thi - - Kru - - ra - Pha- la- - daam-"
+            },
+            {
+                "line_number": 4,
+                "swara": "P D - S - S - S R - R - R M G - G R- R | S D S - R S - s s N nd P dpmg R R mg S ||",
+                "sahitya": "Bhava- nee - sha Kataa - ksha Paa- thra Bhu-tha Bha-kthi ma thaam A-thi sa-ya Shubha Phaladaam--"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "S - R S R - P M P - D - N D D P | P - P , m mPm G - G G - mG r R - - - ||",
+                        "sahitya": "Kaa- - laan- - ja- na - Kaa- - - nt hi yu - - - - - - - ktha De- - - - ham- -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "- - R S R - rpmg Gmg G R rgmg rs - | - - S - - P D - S R R P pmmg M - ||",
+                        "sahitya": "Kaa- la Sa - - ho- - - - dha- - ram- - - Kaa - - ka Vaa- - - ham - - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- - G ,m P - - ,m P - D - N D N D | DP pmpm M G- RM G R - G M D - - - ||",
+                        "sahitya": "- - Nee- laam-- - Su-ka- Pu- - - shpa Maa- - - - laa - - - Vru- tham--"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- P- DP D - S - - - S - S , n nSn | D- D D,n n D p P , m M G - G R MG S - ||",
+                        "sahitya": "- - Nee- la- ra- - - thna Bhu- - - - - sha naa- - - - lan- - - - kru- tham - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- - G ,m P - - ,m P - D - N D N D | DP pmpm M G- RM G R - M - D - - - ||",
+                        "sahitya": "- - Nee- laam-- - Su-ka- Pu- - - shpa Maa- - - - laa - - - Vru- tham--"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- P- DP D - S - - - S - sn Srs nSn | D- D D,n n D p P , m M G - G R MG S - ||",
+                        "sahitya": "- - Nee- la- ra- - - thna Bhu- - - - - sha naa- - - - lan- - - - kru- tham - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "M - - - P - D - P, d ppmg R - rpmg | G S r P m MG G R gPm PD dm P - - ||",
+                        "sahitya": "Ma- - - li - nee- Vi - - - - nu -tha- - Gu - ru - - gu - ha - Mu- -dhi- tham- -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- - M P D - S ,d S - S - S , r G S | R - rpmg rs - - - snP D - S - D - ||",
+                        "sahitya": "- - Maka ra - Kum - - bha Raa- - - si - - - - Naa- - dam- - - Thi-la -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "R - - - R - S - - - S - sn Srs dSn | DD P - - - P nd dpM DP D - - - ||",
+                        "sahitya": "Thai- - la - Mi- - - sri- thaa - - - - - - nna Dee - -pa - - - - - Pri- yam- -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "DP D - - - R - S - - - M M P ds | sn D D P - pm MG G R RM - G S- S D ||",
+                        "sahitya": "Da- yaa- - - Su- dhaa- - Saa - - - ga- - ram - - Ni- - - rbha- yam- - - Thila"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "R - - - R - S - - - S - sn Srs dSn | DD P - - - P nd dpM DP D - - - ||",
+                        "sahitya": "Thai- - la - Mi- - - sri- thaa - - - - - - nna Dee - -pa - - - - - Pri- yam- -"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "DP D - - - R - S - - - M M P ds | sn D D P - - PM M G G R RM G S ||",
+                        "sahitya": "Da- yaa- - - Su- dhaa- - Saa - - - ga- - ram - - - Ni- - - rbha- yam- - -"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "S - rp M - M -P D P - D P dpmg R - | rPm P - P D D - P D S- S D S R - R - ||",
+                        "sahitya": "Kaa la- Dan- da Pari pee ditha Jaa- - num Kaa-mi thaar - tha Phala da Kaa-ma de- num"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "RM G - M G R r P - g - - rsS - S - P D S - | M P - P G RS - rsnd DP dpmg RM GS ||",
+                        "sahitya": "Kaa- la Cha - kra Bhe-da - Chi- thra Ba- num Kal- pitha Chaa-yaa-- de-- vi- -- Su- num-"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Divakara_Thanujam_Yadukula_Khambodhi.pdf"
 }

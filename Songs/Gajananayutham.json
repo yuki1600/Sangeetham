@@ -1,72 +1,73 @@
 {
-  "song_details": {
-    "name": "Gajananayutham",
-    "raga": "Chakravaham",
-    "arohanam": "S R1 G3 M1 P D2 N2 S ||",
-    "avarohanam": "S N2 D2 P M1 G3 R1 S ||",
-    "tala": "Eka",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "M - mg R – S G M P- | D ds nn- D P - - - ||",
-        "sahitya": "Ga jaa -- - na na yu tham Ga- ne -- shwa ram - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "M - mg R – S G M P- | D pdns- nd P - nddp ||",
-        "sahitya": "Ga jaa -- - na na yu tham Ga- ne - shwa ram - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "mpd – pmgr , – S G M P - | D ds nn- D P - nddp ||",
-        "sahitya": "Ga -- jaa -- - na na yu tham Ga- ne - shwa ram - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "P dn S S ssnd P - | pm D P pm mgr – m g r sr ||",
-        "sahitya": "Bha jaa - mi Sa-tha- tham Su – re - shwa ram- - - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "P dn S S ssnd P - | D , p - pm mgr – m g r sr ||",
-        "sahitya": "Bha jaa - mi Sa-tha- tham Su – re - shwa ram- - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "P dn sr S ssnd nddp | nd P - pm mgr – m g r sr ||",
-        "sahitya": "Bha jaa - mi Sa-tha- tham Su – re - shwa ram- - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P , d - N S - rs R | - S - ss nd – dn S - ||",
-        "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
-      },
-      {
-        "line_number": 2,
-        "swara": "P , d - N S - rs R | - S ,r- gm gg – R S - ||",
-        "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
-      },
-      {
-        "line_number": 3,
-        "swara": "S , s nd - N nsrs rs R | - S ,r- gm gg – R S - ||",
-        "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
-      },
-      {
-        "line_number": 4,
-        "swara": "R , s - S rsnd P M | N D P - mgmp mg R ||",
-        "sahitya": "Ga naa - di San-- nu tha Pa da Pad ma-ka- ram---"
-      },
-      {
-        "line_number": 5,
-        "swara": "m m g r s s r s s s r r gm P | s s r s , r – pm r s n d pp mm ||",
-        "sahitya": "Kuhn-jara bhan jana Chatu rata rakaram Guruguhaa- grajam- Pranavaa- kaa-ram-"
-      }
-    ],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Gajananayutham",
+        "raga": "Chakravaham",
+        "arohanam": "S R1 G3 M1 P D2 N2 S ||",
+        "avarohanam": "S N2 D2 P M1 G3 R1 S ||",
+        "tala": "Eka",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "M - mg R \u2013 S G M P- | D ds nn- D P - - - ||",
+                "sahitya": "Ga jaa -- - na na yu tham Ga- ne -- shwa ram - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "M - mg R \u2013 S G M P- | D pdns- nd P - nddp ||",
+                "sahitya": "Ga jaa -- - na na yu tham Ga- ne - shwa ram - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "mpd \u2013 pmgr , \u2013 S G M P - | D ds nn- D P - nddp ||",
+                "sahitya": "Ga -- jaa -- - na na yu tham Ga- ne - shwa ram - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "P dn S S ssnd P - | pm D P pm mgr \u2013 m g r sr ||",
+                "sahitya": "Bha jaa - mi Sa-tha- tham Su \u2013 re - shwa ram- - - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "P dn S S ssnd P - | D , p - pm mgr \u2013 m g r sr ||",
+                "sahitya": "Bha jaa - mi Sa-tha- tham Su \u2013 re - shwa ram- - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "P dn sr S ssnd nddp | nd P - pm mgr \u2013 m g r sr ||",
+                "sahitya": "Bha jaa - mi Sa-tha- tham Su \u2013 re - shwa ram- - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P , d - N S - rs R | - S - ss nd \u2013 dn S - ||",
+                "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
+            },
+            {
+                "line_number": 2,
+                "swara": "P , d - N S - rs R | - S ,r- gm gg \u2013 R S - ||",
+                "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
+            },
+            {
+                "line_number": 3,
+                "swara": "S , s nd - N nsrs rs R | - S ,r- gm gg \u2013 R S - ||",
+                "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
+            },
+            {
+                "line_number": 4,
+                "swara": "R , s - S rsnd P M | N D P - mgmp mg R ||",
+                "sahitya": "Ga naa - di San-- nu tha Pa da Pad ma-ka- ram---"
+            },
+            {
+                "line_number": 5,
+                "swara": "m m g r s s r s s s r r gm P | s s r s , r \u2013 pm r s n d pp mm ||",
+                "sahitya": "Kuhn-jara bhan jana Chatu rata rakaram Guruguhaa- grajam- Pranavaa- kaa-ram-"
+            }
+        ],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Gajananayutham_Chakravakam.pdf"
 }

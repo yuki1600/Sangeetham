@@ -161,21 +161,23 @@ function uniqueTitle(baseTitle) {
 }
 
 function getSongMeta(id) {
-  const row = db.prepare('SELECT id, title, raga, tala, composer, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt, editOps FROM songs WHERE id = ?').get(id);
+  const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, createdAt, updatedAt FROM songs WHERE id = ?').get(id);
   if (!row) return null;
   return {
     ...row,
     hasSwara: !!row.hasSwara,
     hasSahitya: !!row.hasSahitya,
     isPublished: !!row.isPublished,
-    editOps: JSON.parse(row.editOps || '{}')
+    isFavorite: !!row.isFavorite,
+    editOps: JSON.parse(row.editOps || '{}'),
+    pdfPath: JSON.parse(row.composition || '{}').pdfPath || null
   };
 }
 
 /** List all songs metadata. */
 router.get('/', (req, res) => {
   try {
-    const rows = db.prepare('SELECT id, title, raga, tala, composer, composition, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
+    const rows = db.prepare('SELECT id, title, raga, tala, composer, composition, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
     const songs = rows.map(s => {
       const comp = JSON.parse(s.composition || '{}');
       const sd = comp.song_details || {};
@@ -187,6 +189,8 @@ router.get('/', (req, res) => {
         isPublished: !!s.isPublished,
         arohana: sd.arohana || null,
         avarohana: sd.avarohana || null,
+        pdfPath: comp.pdfPath || null,
+        isFavorite: !!s.isFavorite,
         versionCount: 0
       };
     });
@@ -268,7 +272,7 @@ router.post('/upload', upload.fields([
 /** Get full song data. */
 router.get('/:id', (req, res) => {
   try {
-    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
+    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
     if (!row) return res.status(404).json({ error: 'Song not found' });
 
     const compositionData = JSON.parse(row.composition || '{}');
@@ -287,7 +291,9 @@ router.get('/:id', (req, res) => {
         sahityaFilename: row.sahityaFilename,
         isPublished: !!row.isPublished,
         createdAt: row.createdAt,
-        updatedAt: row.updatedAt
+        updatedAt: row.updatedAt,
+        pdfPath: compositionData.pdfPath || null,
+        isFavorite: !!row.isFavorite
       },
       song_details: compositionData.song_details || {},
       composition: compositionData.composition || [],
@@ -431,11 +437,11 @@ router.patch('/:id/title', (req, res) => {
 /** Update song metadata (raga, tala, composer). */
 router.patch('/:id/metadata', (req, res) => {
   try {
-    const { raga, tala, composer, arohana, avarohana } = req.body;
+    const { raga, tala, composer, arohana, avarohana, isFavorite } = req.body;
     if (!raga || !raga.trim()) return res.status(400).json({ error: 'Ragam is required' });
     if (!tala || !tala.trim()) return res.status(400).json({ error: 'Talam is required' });
 
-    const song = db.prepare('SELECT composition, tala AS oldTala FROM songs WHERE id = ?').get(req.params.id);
+    const song = db.prepare('SELECT composition, tala AS oldTala, isFavorite FROM songs WHERE id = ?').get(req.params.id);
     if (!song) return res.status(404).json({ error: 'Song not found' });
 
     const compositionData = JSON.parse(song.composition || '{}');
@@ -470,14 +476,17 @@ router.patch('/:id/metadata', (req, res) => {
     if (avarohana !== undefined) compositionData.song_details.avarohana = avarohana;
 
     const now = new Date().toISOString();
-    db.prepare('UPDATE songs SET raga = ?, tala = ?, composer = ?, composition = ?, updatedAt = ? WHERE id = ?')
-      .run(raga.trim(), tala.trim(), (composer || '').trim(), JSON.stringify(compositionData), now, req.params.id);
+    const newFav = isFavorite !== undefined ? (isFavorite ? 1 : 0) : song.isFavorite;
+
+    db.prepare('UPDATE songs SET raga = ?, tala = ?, composer = ?, composition = ?, isFavorite = ?, updatedAt = ? WHERE id = ?')
+      .run(raga.trim(), tala.trim(), (composer || '').trim(), JSON.stringify(compositionData), newFav, now, req.params.id);
 
     res.json({
       ok: true,
       raga: raga.trim(),
       tala: tala.trim(),
       composer: (composer || '').trim(),
+      isFavorite: !!newFav,
       talaChanged,
       composition: talaChanged ? compositionData.composition : undefined
     });

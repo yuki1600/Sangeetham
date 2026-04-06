@@ -1,82 +1,83 @@
 {
-  "song_details": {
-    "name": "Neemathisalaka",
-    "raga": "Anandabhairavi",
-    "arohanam": "S G R G M P D P S || AVA: S N D P M G R S || )",
-    "avarohanam": "S G R G M P D P S || AVA: S N D P M G R S || )",
-    "tala": "Adi",
-    "composer": "Kavi Mathruboddaya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - - - N P G - | P M G M | G R , g M ||",
-        "sahitya": "Nee - - Ma thi sal | la ka nannu Bro- chu da ||"
-      },
-      {
-        "line_number": 2,
-        "swara": "P - - - P S s s n n | P M gm Pdp | Mpm G R , g M ||",
-        "sahitya": "Nee - - Ma thi sal- - la ka na nnu | Bro - - - chu da ||"
-      },
-      {
-        "line_number": 3,
-        "swara": "P - - - P S srS nd | P M gm Pdp | Mpm G R , g M ||",
-        "sahitya": "Nee - - Ma thi sal- - la ka na nnu | Bro - - - chu da ||"
-      },
-      {
-        "line_number": 4,
-        "swara": "Pdp PS ns Rgr srS nd | P M gm Pdp | Mpm G R , g M ||",
-        "sahitya": "Nee-- - - Ma-thi-- Sal- -- la ka na nnu| Bro - - - chu da ||"
-      },
-      {
-        "line_number": 5,
-        "swara": "pmgr S- rg , r- S Srs N | - N S Mpm | G R , g M ||",
-        "sahitya": "Ne -- - ma - - - mma - Shan - ka - - ri - Amba||"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - M - P S S S S | sn rs nd P | pnnp mgM ||",
-        "sahitya": "So ma She - kha ru ni Raa -- - - ri Vai-- - - na ||"
-      },
-      {
-        "line_number": 2,
-        "swara": "P pp mg M P - P p n | n p M G M | G R G M ||",
-        "sahitya": "Sugan- - - dhi Kun thalaam - - ba ma - yam- ma- ||"
-      },
-      {
-        "line_number": 3,
-        "swara": "Ns - m gr gm pdmp grgm | pdps , - nsg r - srs N - ||",
-        "sahitya": "Charanam"
-      },
-      {
-        "line_number": 4,
-        "swara": "P - P - P - P pn np | M –gm , p M | pm G, R G M ||",
-        "sahitya": "Thal li Than - dri Gu-ru - Dai- va mu Ne - - - - va ni||"
-      },
-      {
-        "line_number": 5,
-        "swara": "pm P, P - P - P pn np | M –gm , p M,d | pm G, R G M ||",
-        "sahitya": "Thal li Than - dri Gu-ru - Dai- va mu Ne - - - - va ni||"
-      },
-      {
-        "line_number": 6,
-        "swara": "pmgr S S srrs N - | NG R gm P - mg m P , ||",
-        "sahitya": "Kel-- laya ku-- ni - sa da - Bha- ji yu- ni - - ||"
-      },
-      {
-        "line_number": 7,
-        "swara": "Pnp P M P S S S | s n r s nd P | pnnp mgM ||",
-        "sahitya": "Kul la mu ni nnu ma ra va- ka- - - bha ji -- - - mche||"
-      },
-      {
-        "line_number": 8,
-        "swara": "nnpm gr - gm P- pg m P , | - g m , p M | Mpm G R G M ||",
-        "sahitya": "O - m ka - ri - ni - - Tri- pu ra | Sun - - da ri ||"
-      }
-    ],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Neemathisalaka",
+        "raga": "Anandabhairavi",
+        "arohanam": "S G R G M P D P S || AVA: S N D P M G R S || )",
+        "avarohanam": "S G R G M P D P S || AVA: S N D P M G R S || )",
+        "tala": "Adi",
+        "composer": "Kavi Mathruboddaya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - - - N P G - | P M G M | G R , g M ||",
+                "sahitya": "Nee - - Ma thi sal | la ka nannu Bro- chu da ||"
+            },
+            {
+                "line_number": 2,
+                "swara": "P - - - P S s s n n | P M gm Pdp | Mpm G R , g M ||",
+                "sahitya": "Nee - - Ma thi sal- - la ka na nnu | Bro - - - chu da ||"
+            },
+            {
+                "line_number": 3,
+                "swara": "P - - - P S srS nd | P M gm Pdp | Mpm G R , g M ||",
+                "sahitya": "Nee - - Ma thi sal- - la ka na nnu | Bro - - - chu da ||"
+            },
+            {
+                "line_number": 4,
+                "swara": "Pdp PS ns Rgr srS nd | P M gm Pdp | Mpm G R , g M ||",
+                "sahitya": "Nee-- - - Ma-thi-- Sal- -- la ka na nnu| Bro - - - chu da ||"
+            },
+            {
+                "line_number": 5,
+                "swara": "pmgr S- rg , r- S Srs N | - N S Mpm | G R , g M ||",
+                "sahitya": "Ne -- - ma - - - mma - Shan - ka - - ri - Amba||"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - M - P S S S S | sn rs nd P | pnnp mgM ||",
+                "sahitya": "So ma She - kha ru ni Raa -- - - ri Vai-- - - na ||"
+            },
+            {
+                "line_number": 2,
+                "swara": "P pp mg M P - P p n | n p M G M | G R G M ||",
+                "sahitya": "Sugan- - - dhi Kun thalaam - - ba ma - yam- ma- ||"
+            },
+            {
+                "line_number": 3,
+                "swara": "Ns - m gr gm pdmp grgm | pdps , - nsg r - srs N - ||",
+                "sahitya": "Charanam"
+            },
+            {
+                "line_number": 4,
+                "swara": "P - P - P - P pn np | M \u2013gm , p M | pm G, R G M ||",
+                "sahitya": "Thal li Than - dri Gu-ru - Dai- va mu Ne - - - - va ni||"
+            },
+            {
+                "line_number": 5,
+                "swara": "pm P, P - P - P pn np | M \u2013gm , p M,d | pm G, R G M ||",
+                "sahitya": "Thal li Than - dri Gu-ru - Dai- va mu Ne - - - - va ni||"
+            },
+            {
+                "line_number": 6,
+                "swara": "pmgr S S srrs N - | NG R gm P - mg m P , ||",
+                "sahitya": "Kel-- laya ku-- ni - sa da - Bha- ji yu- ni - - ||"
+            },
+            {
+                "line_number": 7,
+                "swara": "Pnp P M P S S S | s n r s nd P | pnnp mgM ||",
+                "sahitya": "Kul la mu ni nnu ma ra va- ka- - - bha ji -- - - mche||"
+            },
+            {
+                "line_number": 8,
+                "swara": "nnpm gr - gm P- pg m P , | - g m , p M | Mpm G R G M ||",
+                "sahitya": "O - m ka - ri - ni - - Tri- pu ra | Sun - - da ri ||"
+            }
+        ],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Neemathisalaka_Ananda_Bhairavi.pdf"
 }

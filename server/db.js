@@ -27,6 +27,7 @@ db.exec(`
     raga TEXT,               -- Song raga metadata
     tala TEXT,               -- Song tala metadata
     composer TEXT,           -- Song composer metadata
+    isFavorite INTEGER DEFAULT 0,
     createdAt TEXT,          -- ISO string
     updatedAt TEXT           -- ISO string
   )

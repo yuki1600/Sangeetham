@@ -1,197 +1,198 @@
 {
-  "song_details": {
-    "name": "Maanamu Leda",
-    "raga": "Hamir Kalyani",
-    "arohanam": "S R2 G3 M2 P D2 N3 S ||",
-    "avarohanam": "S N3D2 P M2 G3 M1 (M#) G3 P M2 R2 S ||",
-    "tala": "Adi",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "ppM - P , P , pmM | M,g gMg rs S - - ||",
-        "sahitya": "Ma-- - na -mu- Le-- - - - - - da?-- - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "ppM - P , P , GP | pmG P , m gMg rs S ||",
-        "sahitya": "Ma-- - na -mu- Le-- - - - - - - - - da?--"
-      },
-      {
-        "line_number": 3,
-        "swara": "ppM - S ,n dpP pm Pdp | pmM ,g gMg rs S - - ||",
-        "sahitya": "Ma-- - na -- mu- Le-- - - --- - - - da?-- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "S S SR S - P - | P - - pm D P pmmd ||",
-        "sahitya": "Tana va- - - da- ni - - A- bhi- - - --"
-      },
-      {
-        "line_number": 5,
-        "swara": "ppM - gs ,n dpP pm Pdp | pmM ,g gMg R S - - ||",
-        "sahitya": "Ma-- - na -- mu- Le-- - - --- - - - da?-- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S S SR S - P - | P - - pm dnsn dp P ||",
-        "sahitya": "Tana va- - - da- ni - - A- bhi- - - --"
-      },
-      {
-        "line_number": 7,
-        "swara": "ppM - gs ,n dpP pm Pdp | pmM ,g gMg R S - - ||",
-        "sahitya": "Ma-- - na -- mu- Le-- - - --- - - - da?-- - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "S S SR S - P - | P - - pm dnsr ssnd ||",
-        "sahitya": "Tana va- - - da- ni - - A- bhi- - - --"
-      },
-      {
-        "line_number": 9,
-        "swara": "ppM - P , P , gMg | gPm gMg gpmg R - || rrss - -",
-        "sahitya": "Ma-- - na -mu- Le-- - - - - - da?-- - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "P - ,m - D , d P S - | SN S - S - - - ||",
-        "sahitya": "Ka - - na - mu- ra - - - - - Ni- - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "P - ,m - D , d P S - | - - - - S - - D ||",
-        "sahitya": "Ka - - na - mu- ra - - - - - Ni- - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "S N S rg rs S - - | snD - N dpP - - ||",
-        "sahitya": "Vale Nir-- - - - - - Mo-- - hi ni -- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "P - ,m - D , d P S N | D N S - S - - D ||",
-        "sahitya": "Ka - - na - mu- ra - - - - - Ni- - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S N S rg rs S srsr | snD - N dpP - - ||",
-        "sahitya": "Vale Nir-- - - - - - Mo-- - hi ni -- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "pmM - P - P PD | D P N - S - - - ||",
-        "sahitya": "Ga-- - na - ru chi- De- li - yu- - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "nR- s S- sd dN , P D | P D snsn N D pm D ||",
-        "sahitya": "Ku-sa - La- va- Ja- na- ka! - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "pmM - P , P , P - | - - - - Pdn dpP ||",
-            "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "pmM - P , P , P - | - - - - Mdp MP ||",
-            "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "pmM - P , P , P - | - - - - Pdn dpP ||",
-            "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "D , p - S , N , dpP | pm Pdp pm- M M,g gPm ||",
-            "sahitya": "Ra vi -ta - na yu-- du - - - - - Ni nnu- - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "pmM - P , P , P - | - - - - Pdn dpP ||",
-            "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
-          },
-          {
-            "line_number": 6,
-            "swara": "D , p - S , N , dpP | pm Pdp pm- M M,g R - ||",
-            "sahitya": "Ra vi -ta - na yu-- du - - - - - Ni nnu- - - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "M - - - P , -P , ppM | M - - pm R - S - ||",
-            "sahitya": "Ba- - sa - lu Bal- - - - ka- ga- - - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "ppM - P , P , Pdp | P D S ,n dp P - ,m ||",
-            "sahitya": "Ro-- - sa - mu to-- - - - - - - - - - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "ppM - - gs n -P , pm Pdp | pmM - pm R - S - ||",
-            "sahitya": "Ba- - sa - lu Bal- - - - ka- ga- - - -"
-          },
-          {
-            "line_number": 10,
-            "swara": "ppM - P , P , Pdp | P D S ,n dp P - ,m ||",
-            "sahitya": "Ro-- - sa - mu to-- - - - - Sim- - - -"
-          },
-          {
-            "line_number": 11,
-            "swara": "P D - N , S , - - | S - ,d N S - - - ||",
-            "sahitya": "haa- - sa -naa - - dhi- - - pa - ti - - -"
-          },
-          {
-            "line_number": 12,
-            "swara": "- - - - - - - - | - - - - dnrs snD - P ||",
-            "sahitya": "-- - - - - - - - - - - - - - - - - Sim"
-          },
-          {
-            "line_number": 13,
-            "swara": "P D P- N , S , - - | S - ,d N S - - - ||",
-            "sahitya": "haa- - sa -naa - - dhi- - - pa - ti - - -"
-          },
-          {
-            "line_number": 14,
-            "swara": "N - - nr , s S sn D | pd nrS nd - N dpP - - P ||",
-            "sahitya": "Je- - si- - na- Nee- - - - - - - - ku- - - Sim"
-          },
-          {
-            "line_number": 15,
-            "swara": "P D P- N , S , - - | S R D- N , S - - ||",
-            "sahitya": "haa- - sa -naa - - dhi- - - pa - - ti - - -"
-          },
-          {
-            "line_number": 16,
-            "swara": "N - - nr , s S sn D | pd nrS nd - N dpP - D P ||",
-            "sahitya": "Je- - si- - na- Nee- - - - - - - - ku- - Sim-"
-          },
-          {
-            "line_number": 17,
-            "swara": "N - - nr , s S sn D | pd nrS nd - N dpP - - - ||",
-            "sahitya": "Je- - si- - na- Nee- - - - - - - - ku- - - -"
-          },
-          {
-            "line_number": 18,
-            "swara": "ppM - P , P , P D | D P P S S - - - ||",
-            "sahitya": "Da-- - su -dai- - - na - Tya- ga- - -"
-          },
-          {
-            "line_number": 19,
-            "swara": "sn rsS - S D N PD | P D N S ND P D ||",
-            "sahitya": "ra - - - ja Ka- ra- - - rcchi- ta - - -"
-          }
+    "song_details": {
+        "name": "Maanamu Leda",
+        "raga": "Hamir Kalyani",
+        "arohanam": "S R2 G3 M2 P D2 N3 S ||",
+        "avarohanam": "S N3D2 P M2 G3 M1 (M#) G3 P M2 R2 S ||",
+        "tala": "Adi",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "ppM - P , P , pmM | M,g gMg rs S - - ||",
+                "sahitya": "Ma-- - na -mu- Le-- - - - - - da?-- - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "ppM - P , P , GP | pmG P , m gMg rs S ||",
+                "sahitya": "Ma-- - na -mu- Le-- - - - - - - - - da?--"
+            },
+            {
+                "line_number": 3,
+                "swara": "ppM - S ,n dpP pm Pdp | pmM ,g gMg rs S - - ||",
+                "sahitya": "Ma-- - na -- mu- Le-- - - --- - - - da?-- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "S S SR S - P - | P - - pm D P pmmd ||",
+                "sahitya": "Tana va- - - da- ni - - A- bhi- - - --"
+            },
+            {
+                "line_number": 5,
+                "swara": "ppM - gs ,n dpP pm Pdp | pmM ,g gMg R S - - ||",
+                "sahitya": "Ma-- - na -- mu- Le-- - - --- - - - da?-- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S S SR S - P - | P - - pm dnsn dp P ||",
+                "sahitya": "Tana va- - - da- ni - - A- bhi- - - --"
+            },
+            {
+                "line_number": 7,
+                "swara": "ppM - gs ,n dpP pm Pdp | pmM ,g gMg R S - - ||",
+                "sahitya": "Ma-- - na -- mu- Le-- - - --- - - - da?-- - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "S S SR S - P - | P - - pm dnsr ssnd ||",
+                "sahitya": "Tana va- - - da- ni - - A- bhi- - - --"
+            },
+            {
+                "line_number": 9,
+                "swara": "ppM - P , P , gMg | gPm gMg gpmg R - || rrss - -",
+                "sahitya": "Ma-- - na -mu- Le-- - - - - - da?-- - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "P - ,m - D , d P S - | SN S - S - - - ||",
+                "sahitya": "Ka - - na - mu- ra - - - - - Ni- - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "P - ,m - D , d P S - | - - - - S - - D ||",
+                "sahitya": "Ka - - na - mu- ra - - - - - Ni- - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "S N S rg rs S - - | snD - N dpP - - ||",
+                "sahitya": "Vale Nir-- - - - - - Mo-- - hi ni -- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "P - ,m - D , d P S N | D N S - S - - D ||",
+                "sahitya": "Ka - - na - mu- ra - - - - - Ni- - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S N S rg rs S srsr | snD - N dpP - - ||",
+                "sahitya": "Vale Nir-- - - - - - Mo-- - hi ni -- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "pmM - P - P PD | D P N - S - - - ||",
+                "sahitya": "Ga-- - na - ru chi- De- li - yu- - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "nR- s S- sd dN , P D | P D snsn N D pm D ||",
+                "sahitya": "Ku-sa - La- va- Ja- na- ka! - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "pmM - P , P , P - | - - - - Pdn dpP ||",
+                        "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "pmM - P , P , P - | - - - - Mdp MP ||",
+                        "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "pmM - P , P , P - | - - - - Pdn dpP ||",
+                        "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "D , p - S , N , dpP | pm Pdp pm- M M,g gPm ||",
+                        "sahitya": "Ra vi -ta - na yu-- du - - - - - Ni nnu- - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "pmM - P , P , P - | - - - - Pdn dpP ||",
+                        "sahitya": "Ni-- - Sa -mu- khaa - - - - na-- - - -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "D , p - S , N , dpP | pm Pdp pm- M M,g R - ||",
+                        "sahitya": "Ra vi -ta - na yu-- du - - - - - Ni nnu- - - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "M - - - P , -P , ppM | M - - pm R - S - ||",
+                        "sahitya": "Ba- - sa - lu Bal- - - - ka- ga- - - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "ppM - P , P , Pdp | P D S ,n dp P - ,m ||",
+                        "sahitya": "Ro-- - sa - mu to-- - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "ppM - - gs n -P , pm Pdp | pmM - pm R - S - ||",
+                        "sahitya": "Ba- - sa - lu Bal- - - - ka- ga- - - -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "ppM - P , P , Pdp | P D S ,n dp P - ,m ||",
+                        "sahitya": "Ro-- - sa - mu to-- - - - - Sim- - - -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "P D - N , S , - - | S - ,d N S - - - ||",
+                        "sahitya": "haa- - sa -naa - - dhi- - - pa - ti - - -"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "- - - - - - - - | - - - - dnrs snD - P ||",
+                        "sahitya": "-- - - - - - - - - - - - - - - - - Sim"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "P D P- N , S , - - | S - ,d N S - - - ||",
+                        "sahitya": "haa- - sa -naa - - dhi- - - pa - ti - - -"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "N - - nr , s S sn D | pd nrS nd - N dpP - - P ||",
+                        "sahitya": "Je- - si- - na- Nee- - - - - - - - ku- - - Sim"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "P D P- N , S , - - | S R D- N , S - - ||",
+                        "sahitya": "haa- - sa -naa - - dhi- - - pa - - ti - - -"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "N - - nr , s S sn D | pd nrS nd - N dpP - D P ||",
+                        "sahitya": "Je- - si- - na- Nee- - - - - - - - ku- - Sim-"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "N - - nr , s S sn D | pd nrS nd - N dpP - - - ||",
+                        "sahitya": "Je- - si- - na- Nee- - - - - - - - ku- - - -"
+                    },
+                    {
+                        "line_number": 18,
+                        "swara": "ppM - P , P , P D | D P P S S - - - ||",
+                        "sahitya": "Da-- - su -dai- - - na - Tya- ga- - -"
+                    },
+                    {
+                        "line_number": 19,
+                        "swara": "sn rsS - S D N PD | P D N S ND P D ||",
+                        "sahitya": "ra - - - ja Ka- ra- - - rcchi- ta - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Maanamu_Leda_Hamir_Kalyani.pdf"
 }

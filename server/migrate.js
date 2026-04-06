@@ -72,7 +72,8 @@ function migrate() {
             // but the app usually stores { song_details, composition: [...] }
             const fullCompositionData = {
                 song_details,
-                composition
+                composition,
+                pdfPath: rawData.pdfPath || null
             };
 
             // Check if song with this name/raga/tala already exists to avoid duplicates

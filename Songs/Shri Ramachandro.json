@@ -1,262 +1,263 @@
 {
-  "song_details": {
-    "name": "Shri Ramachandro",
-    "raga": "Shriranjani",
-    "arohanam": "S R2 G2 M1 D2 N2 S ||",
-    "avarohanam": "S N2 D2 M1 G2 R2 S ||",
-    "tala": "Misra Chapu",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - - | s s n d M - || M nd M | M , g G R ||",
-        "sahitya": "shri ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "G R G | M N D - || M , G , | G R R S ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      },
-      {
-        "line_number": 3,
-        "swara": "srgr S | s s n d M - || M nd M | G - G R ||",
-        "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "G R G | M N D - || M G - | rgm g mgrs ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      },
-      {
-        "line_number": 5,
-        "swara": "srgmgr | s s n d M - || gmdnS | s snd mmgr ||",
-        "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "G R G | M N D - || M G - | rg mg mgrs ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      },
-      {
-        "line_number": 7,
-        "swara": "gR g M | D N sn – R || S - ss | nn D N - ||",
-        "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "srgmgr | s s n d M - || gmdnS | s snd mmgr ||",
-        "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "G R G | M N D - || M G - | rgm g mgrs ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      },
-      {
-        "line_number": 10,
-        "swara": "gR g M | D N sn – R || S - ss | nd M gmdn ||",
-        "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
-      },
-      {
-        "line_number": 11,
-        "swara": "S - - | s s n d M - || M nd M | G - G R ||",
-        "sahitya": "shri ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 12,
-        "swara": "G R G | M N D - || M , G , | - gr R S ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "S n S , | R - G - || R - - | - - - - ||",
-        "sahitya": "bha- ra- ta- gra- jo - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "gRn , S , | R - G - || rsR - - | Rgm RG ||",
-        "sahitya": "bha- ra- ta- gra- jo - - - kau- - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "nG R , | R S N S || R G - | M - R G ||",
-        "sahitya": "shi ka ya- ga - ra - - - - ksa-"
-      },
-      {
-        "line_number": 4,
-        "swara": "gr R - | - - - - ||",
-        "sahitya": "ko - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "gRn , S , | R - G - || rsR - - | Rgm RG ||",
-        "sahitya": "bha- ra- ta- gra- jo - - - kau- - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "nG R , | R S N S || R G - | M - R G ||",
-        "sahitya": "shi ka ya- ga - ra - - - - ksa-"
-      },
-      {
-        "line_number": 7,
-        "swara": "gr R - | G R S - || S , s n d | D - N - ||",
-        "sahitya": "ko - ta- Ta- ka - - n ta - ko"
-      },
-      {
-        "line_number": 8,
-        "swara": "gRn , S , | R - G - || rsR - - | Rgm RG ||",
-        "sahitya": "bha- ra- ta- gra- jo - - - kau- - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "nG R , | R S N S || R G - | M - R G ||",
-        "sahitya": "shi ka ya- ga - ra - - - - ksa-"
-      },
-      {
-        "line_number": 10,
-        "swara": "gr R - | G R S - || s s n d M | G M D N ||",
-        "sahitya": "ko - ta- Ta- ka - - n ta - ko"
-      },
-      {
-        "line_number": 11,
-        "swara": "srgmgr | s s n d M - || gmdnS | s snd mmgr ||",
-        "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 12,
-        "swara": "G R G | M N D - || M , G , | rg mg mgrs ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      },
-      {
-        "line_number": 13,
-        "swara": "gR g M | D N sn – R || S - ss | nn M gmdn ||",
-        "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
-      },
-      {
-        "line_number": 14,
-        "swara": "S - - | s s n d M - || M nd M | G - G R ||",
-        "sahitya": "shri ra - - - ma - can - - - dro - - - -"
-      },
-      {
-        "line_number": 15,
-        "swara": "G R G | M N D - || M , G , | - gr R S ||",
-        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "mN D , | M , g M - || mN D , | N - - d n ||",
-            "sahitya": "mi- thi- la - - - - na- ga ra - - pra-"
-          },
-          {
-            "line_number": 2,
-            "swara": "n S - n | N S - - || - - - | - - - - ||",
-            "sahitya": "ve - - sha - - - - - - - - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "mN D , | M , g M - || mN D , | N - - d n ||",
-            "sahitya": "mi- thi- la - - - - na- ga ra - - pra-"
-          },
-          {
-            "line_number": 4,
-            "swara": "n S - n | N S - - ||",
-            "sahitya": "ve - - sha - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "mN D , | M , g M - || mN D , | N - - d n ||",
-            "sahitya": "mi- thi- la - - - - na- ga ra - - pra-"
-          },
-          {
-            "line_number": 6,
-            "swara": "n S - n | N S - rg || gr R S | ss nd M - ||",
-            "sahitya": "ve - - sha - - ma- he- - shva-- ra –"
-          },
-          {
-            "line_number": 7,
-            "swara": "dn rs nd | M , g G - || gr s R , | S - - - ||",
-            "sahitya": "dha-nur- - bhe-- da - ko - - - - - - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "S - - | sd N D - || D N - | S - R - ||",
-            "sahitya": "si - - ta - - - kal- - ya- Na"
-          },
-          {
-            "line_number": 9,
-            "swara": "G , M , | mnD N - || D n S , | ssnd M - ||",
-            "sahitya": "Ma-ho- tsa-- va - vai- - - bha-- va –"
-          },
-          {
-            "line_number": 10,
-            "swara": "D N - | ssnd M - || M nd G | R G gr R ||",
-            "sahitya": "Yu ta ci - - tra- ve - - - Sa - ko- -"
-          },
-          {
-            "line_number": 11,
-            "swara": "S - - | - - - - ||",
-            "sahitya": "- - - - - - -"
-          },
-          {
-            "line_number": 12,
-            "swara": "S - - | sd N D - || D - N | S - R - ||",
-            "sahitya": "si - - ta - - - kal- - ya- Na"
-          },
-          {
-            "line_number": 13,
-            "swara": "G , M , | mnD M D || D n S , | ssnd M - ||",
-            "sahitya": "Ma-ho- tsa-- va - vai- - - bha-- va –"
-          },
-          {
-            "line_number": 14,
-            "swara": "D N - | S ,n N D || nd M- G | R G gr S ||",
-            "sahitya": "Yu ta ci - - tra- ve - - Sa - ko- - - -"
-          },
-          {
-            "line_number": 15,
-            "swara": "M D n - s | , R g m R g || , g m r g s | r- s n d n S ||",
-            "sahitya": "madhurya ga na mrta pana priya gurugu ha vi-shva- so"
-          },
-          {
-            "line_number": 16,
-            "swara": "m G G - r | , – n s r – m g r - g || r s – g r s – n | D m g m – nd n ||",
-            "sahitya": "mahade- vi bha- kta parashu ra -ma ga-rva ha ro lla - - sa- -"
-          },
-          {
-            "line_number": 17,
-            "swara": "srgmgr | s s n d M - || gmdnS | ssnd mmgr ||",
-            "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
-          },
-          {
-            "line_number": 18,
-            "swara": "G R G | M N D - || M G - | rgmg mgrs ||",
-            "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-          },
-          {
-            "line_number": 19,
-            "swara": "gR g M | D N sn – R || S - ss | nn M gmdn ||",
-            "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
-          },
-          {
-            "line_number": 20,
-            "swara": "S - - | s s n d M - || M nd M | G - G R ||",
-            "sahitya": "shri ra - - - ma - can - - - dro - - - -"
-          },
-          {
-            "line_number": 21,
-            "swara": "G R G | M N D - || M , G , | - gr R S ||",
-            "sahitya": "ra - - - ksa- tu - ma - - - - - am"
-          }
+    "song_details": {
+        "name": "Shri Ramachandro",
+        "raga": "Shriranjani",
+        "arohanam": "S R2 G2 M1 D2 N2 S ||",
+        "avarohanam": "S N2 D2 M1 G2 R2 S ||",
+        "tala": "Misra Chapu",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - - | s s n d M - || M nd M | M , g G R ||",
+                "sahitya": "shri ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "G R G | M N D - || M , G , | G R R S ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            },
+            {
+                "line_number": 3,
+                "swara": "srgr S | s s n d M - || M nd M | G - G R ||",
+                "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "G R G | M N D - || M G - | rgm g mgrs ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            },
+            {
+                "line_number": 5,
+                "swara": "srgmgr | s s n d M - || gmdnS | s snd mmgr ||",
+                "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "G R G | M N D - || M G - | rg mg mgrs ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            },
+            {
+                "line_number": 7,
+                "swara": "gR g M | D N sn \u2013 R || S - ss | nn D N - ||",
+                "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "srgmgr | s s n d M - || gmdnS | s snd mmgr ||",
+                "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "G R G | M N D - || M G - | rgm g mgrs ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            },
+            {
+                "line_number": 10,
+                "swara": "gR g M | D N sn \u2013 R || S - ss | nd M gmdn ||",
+                "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
+            },
+            {
+                "line_number": 11,
+                "swara": "S - - | s s n d M - || M nd M | G - G R ||",
+                "sahitya": "shri ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 12,
+                "swara": "G R G | M N D - || M , G , | - gr R S ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "S n S , | R - G - || R - - | - - - - ||",
+                "sahitya": "bha- ra- ta- gra- jo - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "gRn , S , | R - G - || rsR - - | Rgm RG ||",
+                "sahitya": "bha- ra- ta- gra- jo - - - kau- - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "nG R , | R S N S || R G - | M - R G ||",
+                "sahitya": "shi ka ya- ga - ra - - - - ksa-"
+            },
+            {
+                "line_number": 4,
+                "swara": "gr R - | - - - - ||",
+                "sahitya": "ko - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "gRn , S , | R - G - || rsR - - | Rgm RG ||",
+                "sahitya": "bha- ra- ta- gra- jo - - - kau- - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "nG R , | R S N S || R G - | M - R G ||",
+                "sahitya": "shi ka ya- ga - ra - - - - ksa-"
+            },
+            {
+                "line_number": 7,
+                "swara": "gr R - | G R S - || S , s n d | D - N - ||",
+                "sahitya": "ko - ta- Ta- ka - - n ta - ko"
+            },
+            {
+                "line_number": 8,
+                "swara": "gRn , S , | R - G - || rsR - - | Rgm RG ||",
+                "sahitya": "bha- ra- ta- gra- jo - - - kau- - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "nG R , | R S N S || R G - | M - R G ||",
+                "sahitya": "shi ka ya- ga - ra - - - - ksa-"
+            },
+            {
+                "line_number": 10,
+                "swara": "gr R - | G R S - || s s n d M | G M D N ||",
+                "sahitya": "ko - ta- Ta- ka - - n ta - ko"
+            },
+            {
+                "line_number": 11,
+                "swara": "srgmgr | s s n d M - || gmdnS | s snd mmgr ||",
+                "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 12,
+                "swara": "G R G | M N D - || M , G , | rg mg mgrs ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            },
+            {
+                "line_number": 13,
+                "swara": "gR g M | D N sn \u2013 R || S - ss | nn M gmdn ||",
+                "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
+            },
+            {
+                "line_number": 14,
+                "swara": "S - - | s s n d M - || M nd M | G - G R ||",
+                "sahitya": "shri ra - - - ma - can - - - dro - - - -"
+            },
+            {
+                "line_number": 15,
+                "swara": "G R G | M N D - || M , G , | - gr R S ||",
+                "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "mN D , | M , g M - || mN D , | N - - d n ||",
+                        "sahitya": "mi- thi- la - - - - na- ga ra - - pra-"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "n S - n | N S - - || - - - | - - - - ||",
+                        "sahitya": "ve - - sha - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "mN D , | M , g M - || mN D , | N - - d n ||",
+                        "sahitya": "mi- thi- la - - - - na- ga ra - - pra-"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "n S - n | N S - - ||",
+                        "sahitya": "ve - - sha - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "mN D , | M , g M - || mN D , | N - - d n ||",
+                        "sahitya": "mi- thi- la - - - - na- ga ra - - pra-"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "n S - n | N S - rg || gr R S | ss nd M - ||",
+                        "sahitya": "ve - - sha - - ma- he- - shva-- ra \u2013"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "dn rs nd | M , g G - || gr s R , | S - - - ||",
+                        "sahitya": "dha-nur- - bhe-- da - ko - - - - - - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "S - - | sd N D - || D N - | S - R - ||",
+                        "sahitya": "si - - ta - - - kal- - ya- Na"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "G , M , | mnD N - || D n S , | ssnd M - ||",
+                        "sahitya": "Ma-ho- tsa-- va - vai- - - bha-- va \u2013"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "D N - | ssnd M - || M nd G | R G gr R ||",
+                        "sahitya": "Yu ta ci - - tra- ve - - - Sa - ko- -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "S - - | - - - - ||",
+                        "sahitya": "- - - - - - -"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "S - - | sd N D - || D - N | S - R - ||",
+                        "sahitya": "si - - ta - - - kal- - ya- Na"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "G , M , | mnD M D || D n S , | ssnd M - ||",
+                        "sahitya": "Ma-ho- tsa-- va - vai- - - bha-- va \u2013"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "D N - | S ,n N D || nd M- G | R G gr S ||",
+                        "sahitya": "Yu ta ci - - tra- ve - - Sa - ko- - - -"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "M D n - s | , R g m R g || , g m r g s | r- s n d n S ||",
+                        "sahitya": "madhurya ga na mrta pana priya gurugu ha vi-shva- so"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "m G G - r | , \u2013 n s r \u2013 m g r - g || r s \u2013 g r s \u2013 n | D m g m \u2013 nd n ||",
+                        "sahitya": "mahade- vi bha- kta parashu ra -ma ga-rva ha ro lla - - sa- -"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "srgmgr | s s n d M - || gmdnS | ssnd mmgr ||",
+                        "sahitya": "shri - ra - - - ma - can - - - dro - - - -"
+                    },
+                    {
+                        "line_number": 18,
+                        "swara": "G R G | M N D - || M G - | rgmg mgrs ||",
+                        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+                    },
+                    {
+                        "line_number": 19,
+                        "swara": "gR g M | D N sn \u2013 R || S - ss | nn M gmdn ||",
+                        "sahitya": "ra- - ksa sa - di ha ro ra- ghu-va ra - - -"
+                    },
+                    {
+                        "line_number": 20,
+                        "swara": "S - - | s s n d M - || M nd M | G - G R ||",
+                        "sahitya": "shri ra - - - ma - can - - - dro - - - -"
+                    },
+                    {
+                        "line_number": 21,
+                        "swara": "G R G | M N D - || M , G , | - gr R S ||",
+                        "sahitya": "ra - - - ksa- tu - ma - - - - - am"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Shri_RamachandrO_Sri_Ranjani.pdf"
 }

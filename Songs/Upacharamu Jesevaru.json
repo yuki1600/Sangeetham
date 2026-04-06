@@ -1,187 +1,188 @@
 {
-  "song_details": {
-    "name": "Upacharamu Jesevaru",
-    "raga": "Bhairavi",
-    "arohanam": "S R2 G2 M1 P D2 N2 S ||",
-    "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
-    "tala": "Rupakam",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- r m | , G , R S || R - | R G g r R ||",
-        "sahitya": "Upa ca ramu ce- se - va- -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- r g | , M , p d P || m g M | d p pm g r s n ||",
-        "sahitya": "run- na- ra - ni ma- ra va-ku- ra - - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "sr- r m | , G , R S || r g M | R G g r R ||",
-        "sahitya": "Upa ca ramu ce- - se - va- -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- r g | , M , p n d p || m g M | d p pm g r s n ||",
-        "sahitya": "run- na- ra - ni ma- ra va-ku- ra - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "sr- R,p | m- G , R S || r g M | R G g r R ||",
-        "sahitya": "U -pa ca ramu ce- - se - va- -"
-      },
-      {
-        "line_number": 6,
-        "swara": "r g m p | d n s r s n d p || m g mp | d p pm g r s n ||",
-        "sahitya": "run- na- - ra - ni ma- ra va-ku- ra - - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "sr- r r | sn dp m g r s || RG rgM | gmP mpdp G R ||",
-        "sahitya": "Upa ca ra - mu - ce- - - - se - - -- va- -"
-      },
-      {
-        "line_number": 8,
-        "swara": "r g m p | d n s r g m g r || s n d p | m n d p m m g r ||",
-        "sahitya": "run- na- - ra - ni ma- ra va-ku- ra - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "sr- r m | , G , R S || r g M | R G g r R || - - | gr sn S - ||",
-        "sahitya": "Upa ca ramu ce- - se - va- - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- d n | , S , S S || N N | r s n d D P ||",
-        "sahitya": "krpa ga vale na nai ne- - - - ni"
-      },
-      {
-        "line_number": 2,
-        "swara": "- d n | , S , r m g r || N N | r s n d D P ||",
-        "sahitya": "krpa ga va- le- na ni ne- - - - ni"
-      },
-      {
-        "line_number": 3,
-        "swara": "- d n | , s r s r m g r || s n r s | g r s n D P ||",
-        "sahitya": "krpa ga va- le- na- ni- ne- - - - ni"
-      },
-      {
-        "line_number": 4,
-        "swara": "d n S | , r- s n D P || m g p m | d p p m g r S ||",
-        "sahitya": "ki - - - r ti- ni bal ku - cu - nun- - Da-ga"
-      },
-      {
-        "line_number": 5,
-        "swara": "- d n | , s r s r m g r || s n r s | g r s n D P ||",
-        "sahitya": "krpa ga va- le- na- ni- ne- - - - ni"
-      },
-      {
-        "line_number": 6,
-        "swara": "d n S | , r- s n D P || g r s n | d p p m g r s n ||",
-        "sahitya": "ki - - - r ti- ni bal ku - - - cu nun- - - Da-"
-      },
-      {
-        "line_number": 7,
-        "swara": "s r- r r | sn dp m g r s || RG rgM | g mP mpdp G R ||",
-        "sahitya": "ga U pa ca ra - mu - ce- - - - se - - -- va- -"
-      },
-      {
-        "line_number": 8,
-        "swara": "r g m p | d n s r g m g r || s n d p | m n d p m m g r ||",
-        "sahitya": "run- - na- - ra - ni ma- ra va-ku- ra - - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "sr- r m | , G , R S || r g M | R G g r R || - - | gr sn S - ||",
-        "sahitya": "Upa ca ramu ce- - se - va- - - - - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- p d | , n D P - || - p p | , p P d p p m ||",
-            "sahitya": "va- kita ne - padi lamu ga - - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "M - n d | , n D N N || p d n d | r s N D P ||",
-            "sahitya": "- va- ta- tmaju dun- - - na- - Dani"
-          },
-          {
-            "line_number": 3,
-            "swara": "- d n | , s R S S || N - | r s N D P ||",
-            "sahitya": "shri- karu lagu ni - tam- mulu"
-          },
-          {
-            "line_number": 4,
-            "swara": "d n S | , r- s n D P || m g p m | d p p m g r S ||",
-            "sahitya": "ce- - - ri - - - un - - - na- - - ra- ni"
-          },
-          {
-            "line_number": 5,
-            "swara": "- n d | , n D N N || p d n d | r s N D P ||",
-            "sahitya": "E - kan- tamu na- nu- ja- - na ki"
-          },
-          {
-            "line_number": 6,
-            "swara": "- p d | , n D P - || m g p m | d p p m g r S ||",
-            "sahitya": "Er - padi un - n - - - - na - - - da- ni"
-          },
-          {
-            "line_number": 7,
-            "swara": "- d n | S - S - || N N | r s N D P ||",
-            "sahitya": "shri- kan ta - paru le- - - la ni"
-          },
-          {
-            "line_number": 8,
-            "swara": "- d n | S rs r m g r || N N | r s N D P ||",
-            "sahitya": "shri- kan ta - paru le- - - la ni"
-          },
-          {
-            "line_number": 9,
-            "swara": "- d n | S r s r m g r || s n r s | g r s n D P ||",
-            "sahitya": "shri- kan ta - pa-ru- le- - - la ni"
-          },
-          {
-            "line_number": 10,
-            "swara": "d n S | , r- s n D P || m g p m | d p p m g r S ||",
-            "sahitya": "shri-- - - tya- - ga ra- ja - vi – nu- ta - -"
-          },
-          {
-            "line_number": 11,
-            "swara": "- d n | , s r s - r m g r || s n r s | g r s n D P ||",
-            "sahitya": "shri- - kan- ta - - pa- ru- le- - - la ni"
-          },
-          {
-            "line_number": 12,
-            "swara": "d n S | , r- s n D P || g r s n | d p- p m g r s n ||",
-            "sahitya": "shri-- - - tya- - ga ra- - - ja- vi – nu- ta -"
-          },
-          {
-            "line_number": 13,
-            "swara": "s r- r r | sn dp m g r s || RG rgM | g mP mpdp G R ||",
-            "sahitya": "-- U pa ca ra - mu - ce- - - - se - - -- va- -"
-          },
-          {
-            "line_number": 14,
-            "swara": "r g m p | d n s r g m g r || s n d p | m n d p m m g r ||",
-            "sahitya": "run- - na- - ra - ni ma- ra va-ku- ra - - -"
-          },
-          {
-            "line_number": 15,
-            "swara": "sr- r m | , G , R S || r g M | R G g r R || - - | gr sn S - ||",
-            "sahitya": "Upa ca ramu ce- - se - va- - - - - - - - -"
-          }
+    "song_details": {
+        "name": "Upacharamu Jesevaru",
+        "raga": "Bhairavi",
+        "arohanam": "S R2 G2 M1 P D2 N2 S ||",
+        "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
+        "tala": "Rupakam",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- r m | , G , R S || R - | R G g r R ||",
+                "sahitya": "Upa ca ramu ce- se - va- -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- r g | , M , p d P || m g M | d p pm g r s n ||",
+                "sahitya": "run- na- ra - ni ma- ra va-ku- ra - - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "sr- r m | , G , R S || r g M | R G g r R ||",
+                "sahitya": "Upa ca ramu ce- - se - va- -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- r g | , M , p n d p || m g M | d p pm g r s n ||",
+                "sahitya": "run- na- ra - ni ma- ra va-ku- ra - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "sr- R,p | m- G , R S || r g M | R G g r R ||",
+                "sahitya": "U -pa ca ramu ce- - se - va- -"
+            },
+            {
+                "line_number": 6,
+                "swara": "r g m p | d n s r s n d p || m g mp | d p pm g r s n ||",
+                "sahitya": "run- na- - ra - ni ma- ra va-ku- ra - - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "sr- r r | sn dp m g r s || RG rgM | gmP mpdp G R ||",
+                "sahitya": "Upa ca ra - mu - ce- - - - se - - -- va- -"
+            },
+            {
+                "line_number": 8,
+                "swara": "r g m p | d n s r g m g r || s n d p | m n d p m m g r ||",
+                "sahitya": "run- na- - ra - ni ma- ra va-ku- ra - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "sr- r m | , G , R S || r g M | R G g r R || - - | gr sn S - ||",
+                "sahitya": "Upa ca ramu ce- - se - va- - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- d n | , S , S S || N N | r s n d D P ||",
+                "sahitya": "krpa ga vale na nai ne- - - - ni"
+            },
+            {
+                "line_number": 2,
+                "swara": "- d n | , S , r m g r || N N | r s n d D P ||",
+                "sahitya": "krpa ga va- le- na ni ne- - - - ni"
+            },
+            {
+                "line_number": 3,
+                "swara": "- d n | , s r s r m g r || s n r s | g r s n D P ||",
+                "sahitya": "krpa ga va- le- na- ni- ne- - - - ni"
+            },
+            {
+                "line_number": 4,
+                "swara": "d n S | , r- s n D P || m g p m | d p p m g r S ||",
+                "sahitya": "ki - - - r ti- ni bal ku - cu - nun- - Da-ga"
+            },
+            {
+                "line_number": 5,
+                "swara": "- d n | , s r s r m g r || s n r s | g r s n D P ||",
+                "sahitya": "krpa ga va- le- na- ni- ne- - - - ni"
+            },
+            {
+                "line_number": 6,
+                "swara": "d n S | , r- s n D P || g r s n | d p p m g r s n ||",
+                "sahitya": "ki - - - r ti- ni bal ku - - - cu nun- - - Da-"
+            },
+            {
+                "line_number": 7,
+                "swara": "s r- r r | sn dp m g r s || RG rgM | g mP mpdp G R ||",
+                "sahitya": "ga U pa ca ra - mu - ce- - - - se - - -- va- -"
+            },
+            {
+                "line_number": 8,
+                "swara": "r g m p | d n s r g m g r || s n d p | m n d p m m g r ||",
+                "sahitya": "run- - na- - ra - ni ma- ra va-ku- ra - - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "sr- r m | , G , R S || r g M | R G g r R || - - | gr sn S - ||",
+                "sahitya": "Upa ca ramu ce- - se - va- - - - - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- p d | , n D P - || - p p | , p P d p p m ||",
+                        "sahitya": "va- kita ne - padi lamu ga - - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "M - n d | , n D N N || p d n d | r s N D P ||",
+                        "sahitya": "- va- ta- tmaju dun- - - na- - Dani"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- d n | , s R S S || N - | r s N D P ||",
+                        "sahitya": "shri- karu lagu ni - tam- mulu"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "d n S | , r- s n D P || m g p m | d p p m g r S ||",
+                        "sahitya": "ce- - - ri - - - un - - - na- - - ra- ni"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- n d | , n D N N || p d n d | r s N D P ||",
+                        "sahitya": "E - kan- tamu na- nu- ja- - na ki"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "- p d | , n D P - || m g p m | d p p m g r S ||",
+                        "sahitya": "Er - padi un - n - - - - na - - - da- ni"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- d n | S - S - || N N | r s N D P ||",
+                        "sahitya": "shri- kan ta - paru le- - - la ni"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- d n | S rs r m g r || N N | r s N D P ||",
+                        "sahitya": "shri- kan ta - paru le- - - la ni"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- d n | S r s r m g r || s n r s | g r s n D P ||",
+                        "sahitya": "shri- kan ta - pa-ru- le- - - la ni"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "d n S | , r- s n D P || m g p m | d p p m g r S ||",
+                        "sahitya": "shri-- - - tya- - ga ra- ja - vi \u2013 nu- ta - -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "- d n | , s r s - r m g r || s n r s | g r s n D P ||",
+                        "sahitya": "shri- - kan- ta - - pa- ru- le- - - la ni"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "d n S | , r- s n D P || g r s n | d p- p m g r s n ||",
+                        "sahitya": "shri-- - - tya- - ga ra- - - ja- vi \u2013 nu- ta -"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "s r- r r | sn dp m g r s || RG rgM | g mP mpdp G R ||",
+                        "sahitya": "-- U pa ca ra - mu - ce- - - - se - - -- va- -"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "r g m p | d n s r g m g r || s n d p | m n d p m m g r ||",
+                        "sahitya": "run- - na- - ra - ni ma- ra va-ku- ra - - -"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "sr- r m | , G , R S || r g M | R G g r R || - - | gr sn S - ||",
+                        "sahitya": "Upa ca ramu ce- - se - va- - - - - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Upacharamu_jEsEvaru_Bhairavi.pdf"
 }

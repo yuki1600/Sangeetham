@@ -1,127 +1,128 @@
 {
-  "song_details": {
-    "name": "Toli Janmamuna",
-    "raga": "Bilahari",
-    "arohanam": "S R2 G3 P D2 S ||",
-    "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
-    "tala": "Jhampa",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S S sn nd P || pm- G g r g r S || R G P - - || - - G P D ||",
-        "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - ra - ma"
-      },
-      {
-        "line_number": 2,
-        "swara": "S S sn nd P || pm- G g r g r S || R G P P D || pd S pd S -nd ||",
-        "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - ma"
-      },
-      {
-        "line_number": 3,
-        "swara": "dr S sn nd P || pm- G g r g r S || R G P - D R || gr sn d p mg pd ||",
-        "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
-      },
-      {
-        "line_number": 4,
-        "swara": "dr S sn dp dr || s n dp dp mg rs || G G G,p - mgrs || gr sn d p mg pd ||",
-        "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
-      },
-      {
-        "line_number": 5,
-        "swara": "S S sn nd P || pm- G g r g r S || R G P - - || - - - - - ||",
-        "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - S S S || S D rs R R || S - - - - || - - - - - ||",
-        "sahitya": "ni mahima pha-la me- mo - - - - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S - S S S || S D rs R R || S - S S S || S D gr G G ||",
-        "sahitya": "ni mahima pha-la me- mo ni mahima pha-la me- mo"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - S S S || S D gr G G || gr gp g r gr S || g r s n d r- sn D ||",
-        "sahitya": "ni mahima pha-la me- mo a- ra- che- - ti pun-- Ti- ka- -"
-      },
-      {
-        "line_number": 4,
-        "swara": "n d P - d p m g p d ||",
-        "sahitya": "dda-mu va- le - na-"
-      },
-      {
-        "line_number": 5,
-        "swara": "dr S sn dp dr || s n dp dp mg rs || G G gp - mgrs || gr sn d p mg pd ||",
-        "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
-      },
-      {
-        "line_number": 6,
-        "swara": "S S sn nd P || pm- G g r g r S || R G P - - || - - - - - ||",
-        "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - - - -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "P - P- pd n d || dp mg r g d p m g || r g P pm - m g g r ||",
-            "sahitya": "ra- gi pai- - - ru- la- Chen- - ta- ram- ya- mau - - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "s r g r S S S || s r G r g d p m g || sr G g S - r G ||",
-            "sahitya": "va-ri- mo la ka ra- - jil- - - lu- ne- - rchu- nata"
-          },
-          {
-            "line_number": 3,
-            "swara": "P - - - - || n d d p m g r s rg ||",
-            "sahitya": "ra - - - - - - - - - - - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "P - P- pd n d || dp mg r g d p m g || r g P pm - m g g r ||",
-            "sahitya": "ra- gi pai- - - ru- la- Chen- - ta- ram- ya- mau - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "s r g r sn ds S || s r G r g d p m g || sr G g S - r G || P - - - - ||",
-            "sahitya": "va-ri- mo la ka ra- - jil- - - lu- ne- - rchu- nata ra - - -"
-          },
-          {
-            "line_number": 6,
-            "swara": "n d d p m g- r g P || dp mg rs r g P || pd sn p d - S - || s n D r s R R ||",
-            "sahitya": "na- - - ga- sha- ya na- -- tya-- ga ra- - ja - pa- pa-mu to- - nu"
-          },
-          {
-            "line_number": 7,
-            "swara": "n d d p m g- r g P || dp mg rs r g P || pd S S - snnd || S S sdr s R ||",
-            "sahitya": "na- - - ga- sha- ya na- -- tya-- ga ra- - ja - pa- pa-mu to- - nu"
-          },
-          {
-            "line_number": 8,
-            "swara": "s r g p g r - s r g r || s n dp p d s r G || S - s n d p d n || pn dp - gp dsnd ||",
-            "sahitya": "na- - ma- pun- - ya-mu- che-la-gu na - - - - - - ne - - nu- - - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "dr S sn dp dr || s n dp dp mg rs || G G gp - mgrs || gr sn d p mg pd ||",
-            "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
-          },
-          {
-            "line_number": 10,
-            "swara": "S S sn nd P || pg- G g r g r S || R G P - - || - - - - - ||",
-            "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - - - -"
-          }
+    "song_details": {
+        "name": "Toli Janmamuna",
+        "raga": "Bilahari",
+        "arohanam": "S R2 G3 P D2 S ||",
+        "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
+        "tala": "Jhampa",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S S sn nd P || pm- G g r g r S || R G P - - || - - G P D ||",
+                "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - ra - ma"
+            },
+            {
+                "line_number": 2,
+                "swara": "S S sn nd P || pm- G g r g r S || R G P P D || pd S pd S -nd ||",
+                "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - ma"
+            },
+            {
+                "line_number": 3,
+                "swara": "dr S sn nd P || pm- G g r g r S || R G P - D R || gr sn d p mg pd ||",
+                "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
+            },
+            {
+                "line_number": 4,
+                "swara": "dr S sn dp dr || s n dp dp mg rs || G G G,p - mgrs || gr sn d p mg pd ||",
+                "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
+            },
+            {
+                "line_number": 5,
+                "swara": "S S sn nd P || pm- G g r g r S || R G P - - || - - - - - ||",
+                "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - S S S || S D rs R R || S - - - - || - - - - - ||",
+                "sahitya": "ni mahima pha-la me- mo - - - - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S - S S S || S D rs R R || S - S S S || S D gr G G ||",
+                "sahitya": "ni mahima pha-la me- mo ni mahima pha-la me- mo"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - S S S || S D gr G G || gr gp g r gr S || g r s n d r- sn D ||",
+                "sahitya": "ni mahima pha-la me- mo a- ra- che- - ti pun-- Ti- ka- -"
+            },
+            {
+                "line_number": 4,
+                "swara": "n d P - d p m g p d ||",
+                "sahitya": "dda-mu va- le - na-"
+            },
+            {
+                "line_number": 5,
+                "swara": "dr S sn dp dr || s n dp dp mg rs || G G gp - mgrs || gr sn d p mg pd ||",
+                "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
+            },
+            {
+                "line_number": 6,
+                "swara": "S S sn nd P || pm- G g r g r S || R G P - - || - - - - - ||",
+                "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - - - -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "P - P- pd n d || dp mg r g d p m g || r g P pm - m g g r ||",
+                        "sahitya": "ra- gi pai- - - ru- la- Chen- - ta- ram- ya- mau - - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "s r g r S S S || s r G r g d p m g || sr G g S - r G ||",
+                        "sahitya": "va-ri- mo la ka ra- - jil- - - lu- ne- - rchu- nata"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "P - - - - || n d d p m g r s rg ||",
+                        "sahitya": "ra - - - - - - - - - - - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "P - P- pd n d || dp mg r g d p m g || r g P pm - m g g r ||",
+                        "sahitya": "ra- gi pai- - - ru- la- Chen- - ta- ram- ya- mau - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "s r g r sn ds S || s r G r g d p m g || sr G g S - r G || P - - - - ||",
+                        "sahitya": "va-ri- mo la ka ra- - jil- - - lu- ne- - rchu- nata ra - - -"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "n d d p m g- r g P || dp mg rs r g P || pd sn p d - S - || s n D r s R R ||",
+                        "sahitya": "na- - - ga- sha- ya na- -- tya-- ga ra- - ja - pa- pa-mu to- - nu"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "n d d p m g- r g P || dp mg rs r g P || pd S S - snnd || S S sdr s R ||",
+                        "sahitya": "na- - - ga- sha- ya na- -- tya-- ga ra- - ja - pa- pa-mu to- - nu"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "s r g p g r - s r g r || s n dp p d s r G || S - s n d p d n || pn dp - gp dsnd ||",
+                        "sahitya": "na- - ma- pun- - ya-mu- che-la-gu na - - - - - - ne - - nu- - - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "dr S sn dp dr || s n dp dp mg rs || G G gp - mgrs || gr sn d p mg pd ||",
+                        "sahitya": "to-li jan- - ma mu- na je- - - yu du Du ku de-li- se-nu ra - - ma"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "S S sn nd P || pg- G g r g r S || R G P - - || - - - - - ||",
+                        "sahitya": "toli jan- - ma mu- na je- - - yu du Du ku- - - - - - -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Toli_Janmamuna_Bilahari.pdf"
 }

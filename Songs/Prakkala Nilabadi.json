@@ -1,172 +1,173 @@
 {
-  "song_details": {
-    "name": "Prakkala Nilabadi",
-    "raga": "Kharaharapriya",
-    "arohanam": "S R2 G2 M1 P D2 N2 S ||",
-    "avarohanam": "S N2 D2 P M1 G2 R2 S ||",
-    "tala": "Triputa",
-    "composer": "Tyagaraja"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - P | D , n n d D || S sn N | n d d p M - ||",
-        "sahitya": "- - Pra kka- - la- - - Ni laa- - ba- - - di -"
-      },
-      {
-        "line_number": 2,
-        "swara": "P,m- P | p d N n d D || S Srs N | n d d p M - ||",
-        "sahitya": "- - Pra kka- - la- - - Ni laa- - ba- - - di -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- N D | P - n d d p || M - - | R G g r R ||",
-        "sahitya": "Goli che- di - - - Mu - - ccha- ta - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- s r G | r g M p d N || n d d p M | m m g r r m g r ||",
-        "sahitya": "Baa- - ga - - Del- - - - - - pa Raa- - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "S - - | - - - n s || r g m p d n | Srs Nsn Dnd Pdp ||",
-        "sahitya": "daa - - - - - - - - - - - - - - - - - - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "pm PD pdN | dnS nsR Rgr s r || S Srs N | Dnd Pdp | M - ||",
-        "sahitya": "- - Pra - - - kka- - - - la- - - - Ni la- - ba - - - - di -"
-      },
-      {
-        "line_number": 7,
-        "swara": "n d p m - pd | , p - - - ||",
-        "sahitya": "- - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - S | R - R - || S r G , | g r R S - ||",
-        "sahitya": "- - Chu kka- la - Raa- - - yu- - ni -"
-      },
-      {
-        "line_number": 2,
-        "swara": "nSn- S | rgrg R - || p d n s r g | g r R s g r s ||",
-        "sahitya": "- - - Chu kka- la - Raa- - - yu - - ni -"
-      },
-      {
-        "line_number": 3,
-        "swara": "nSn- ns | rgrg R - || r g p m m g | g r R S - ||",
-        "sahitya": "- - - Chu kka- la - Raa- - - yu - - ni -"
-      },
-      {
-        "line_number": 4,
-        "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
-        "sahitya": "Ge - ru - - Mo- - - - mu ga- - la -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- S S | N - n d P || s n n d d p | M - m g p m || m g g r R | S - r g m p ||",
-        "sahitya": "Su da ti - See- - tam- - - - - ma- Sau- - - mi - - - - tri - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "d N - s S | N - n d P || s n n d d p | M - m g p m || m g g r R | S - - s n ||",
-        "sahitya": "- - Suda ti - See- - tam- - - - - ma- Sau- - - mi - - - - tri - Sri-"
-      },
-      {
-        "line_number": 7,
-        "swara": "s r g - r g m | g m p d p m g r ||",
-        "sahitya": "Ra- - mu- - ni - - - Ki - - -"
-      },
-      {
-        "line_number": 8,
-        "swara": "gmpm- s s | N - n d P || s n n d d p | M - m g p m || m g g r R | S - - s n ||",
-        "sahitya": "ru - - - Suda ti - See- - tam- - - - - ma- Sau- - - mi - - - - tri - Sri-"
-      },
-      {
-        "line_number": 9,
-        "swara": "s r g - r g m | g m p d p m g r || g m pm",
-        "sahitya": "Ra- - mu- - ni - - - Ki - - - ru - - - (prakkala)"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- P P | P - P - || pm M - | R G g r s r ||",
-            "sahitya": "- Tanu vu- che- Van- - - da - na- - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "gm- N D | P - P - || pm M - | R G g r s r ||",
-            "sahitya": "- - Ta nu vu- che- Van- - - da - na- - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "gm- d s n d | P - P - || pm M - | R G g r R ||",
-            "sahitya": "- - Ta-nu- vu- che- Van- - - da - na- - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "- r m g r | S - S - || r g m p d n | n d D P - ||",
-            "sahitya": "-mo- na- rin- pu chu- - - - - nnaa- raa-"
-          },
-          {
-            "line_number": 5,
-            "swara": "- P M | m p G G R || r s n S n | s r G r g M ||",
-            "sahitya": "Chanu vu- - na - Naa- - - ma- - Keer-"
-          },
-          {
-            "line_number": 6,
-            "swara": "P , M, | pm G g r S || r g m p d n | n d D P - ||",
-            "sahitya": "ta- na- Se- - yu- - chu- - - - - - nnaa-- raa-"
-          },
-          {
-            "line_number": 7,
-            "swara": "- , n S | R - R - || S r G , | g r R - S ||",
-            "sahitya": "- -mana su - na - Da- la- - chi- - - Mai"
-          },
-          {
-            "line_number": 8,
-            "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
-            "sahitya": "Mara chi- - yu- - - - n naa- - raa-"
-          },
-          {
-            "line_number": 9,
-            "swara": "- , n S | r g r g R - || p d n s r g | g r R - S ||",
-            "sahitya": "- -mana su - na - Da- la- - - chi- - - Mai"
-          },
-          {
-            "line_number": 10,
-            "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
-            "sahitya": "Mara chi- - yu- - - - n naa- - raa-"
-          },
-          {
-            "line_number": 11,
-            "swara": "- , n S | r g r g R - || r g p m m g | g r R - S ||",
-            "sahitya": "- -mana su - na - Da- la- - - chi- - - Mai"
-          },
-          {
-            "line_number": 12,
-            "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
-            "sahitya": "Mara chi- - yu- - - - n naa- - raa-"
-          },
-          {
-            "line_number": 13,
-            "swara": "- S S | N - n d P || s n n d d p | M - m g p m ||",
-            "sahitya": "Nena run- chi - - Tyaa- - - - - ga - raa- - -"
-          },
-          {
-            "line_number": 14,
-            "swara": "m g g r R | S - - s n || s r g - r g m | g m p d p m g r || g m p m",
-            "sahitya": "ju - ni - - to- - Ha- ri- - Ha- - ri - - - - Mee- - - ri - ru -"
-          }
+    "song_details": {
+        "name": "Prakkala Nilabadi",
+        "raga": "Kharaharapriya",
+        "arohanam": "S R2 G2 M1 P D2 N2 S ||",
+        "avarohanam": "S N2 D2 P M1 G2 R2 S ||",
+        "tala": "Triputa",
+        "composer": "Tyagaraja"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - P | D , n n d D || S sn N | n d d p M - ||",
+                "sahitya": "- - Pra kka- - la- - - Ni laa- - ba- - - di -"
+            },
+            {
+                "line_number": 2,
+                "swara": "P,m- P | p d N n d D || S Srs N | n d d p M - ||",
+                "sahitya": "- - Pra kka- - la- - - Ni laa- - ba- - - di -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- N D | P - n d d p || M - - | R G g r R ||",
+                "sahitya": "Goli che- di - - - Mu - - ccha- ta - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- s r G | r g M p d N || n d d p M | m m g r r m g r ||",
+                "sahitya": "Baa- - ga - - Del- - - - - - pa Raa- - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "S - - | - - - n s || r g m p d n | Srs Nsn Dnd Pdp ||",
+                "sahitya": "daa - - - - - - - - - - - - - - - - - - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "pm PD pdN | dnS nsR Rgr s r || S Srs N | Dnd Pdp | M - ||",
+                "sahitya": "- - Pra - - - kka- - - - la- - - - Ni la- - ba - - - - di -"
+            },
+            {
+                "line_number": 7,
+                "swara": "n d p m - pd | , p - - - ||",
+                "sahitya": "- - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - S | R - R - || S r G , | g r R S - ||",
+                "sahitya": "- - Chu kka- la - Raa- - - yu- - ni -"
+            },
+            {
+                "line_number": 2,
+                "swara": "nSn- S | rgrg R - || p d n s r g | g r R s g r s ||",
+                "sahitya": "- - - Chu kka- la - Raa- - - yu - - ni -"
+            },
+            {
+                "line_number": 3,
+                "swara": "nSn- ns | rgrg R - || r g p m m g | g r R S - ||",
+                "sahitya": "- - - Chu kka- la - Raa- - - yu - - ni -"
+            },
+            {
+                "line_number": 4,
+                "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
+                "sahitya": "Ge - ru - - Mo- - - - mu ga- - la -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- S S | N - n d P || s n n d d p | M - m g p m || m g g r R | S - r g m p ||",
+                "sahitya": "Su da ti - See- - tam- - - - - ma- Sau- - - mi - - - - tri - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "d N - s S | N - n d P || s n n d d p | M - m g p m || m g g r R | S - - s n ||",
+                "sahitya": "- - Suda ti - See- - tam- - - - - ma- Sau- - - mi - - - - tri - Sri-"
+            },
+            {
+                "line_number": 7,
+                "swara": "s r g - r g m | g m p d p m g r ||",
+                "sahitya": "Ra- - mu- - ni - - - Ki - - -"
+            },
+            {
+                "line_number": 8,
+                "swara": "gmpm- s s | N - n d P || s n n d d p | M - m g p m || m g g r R | S - - s n ||",
+                "sahitya": "ru - - - Suda ti - See- - tam- - - - - ma- Sau- - - mi - - - - tri - Sri-"
+            },
+            {
+                "line_number": 9,
+                "swara": "s r g - r g m | g m p d p m g r || g m pm",
+                "sahitya": "Ra- - mu- - ni - - - Ki - - - ru - - - (prakkala)"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- P P | P - P - || pm M - | R G g r s r ||",
+                        "sahitya": "- Tanu vu- che- Van- - - da - na- - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "gm- N D | P - P - || pm M - | R G g r s r ||",
+                        "sahitya": "- - Ta nu vu- che- Van- - - da - na- - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "gm- d s n d | P - P - || pm M - | R G g r R ||",
+                        "sahitya": "- - Ta-nu- vu- che- Van- - - da - na- - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "- r m g r | S - S - || r g m p d n | n d D P - ||",
+                        "sahitya": "-mo- na- rin- pu chu- - - - - nnaa- raa-"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- P M | m p G G R || r s n S n | s r G r g M ||",
+                        "sahitya": "Chanu vu- - na - Naa- - - ma- - Keer-"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "P , M, | pm G g r S || r g m p d n | n d D P - ||",
+                        "sahitya": "ta- na- Se- - yu- - chu- - - - - - nnaa-- raa-"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- , n S | R - R - || S r G , | g r R - S ||",
+                        "sahitya": "- -mana su - na - Da- la- - chi- - - Mai"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
+                        "sahitya": "Mara chi- - yu- - - - n naa- - raa-"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- , n S | r g r g R - || p d n s r g | g r R - S ||",
+                        "sahitya": "- -mana su - na - Da- la- - - chi- - - Mai"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
+                        "sahitya": "Mara chi- - yu- - - - n naa- - raa-"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "- , n S | r g r g R - || r g p m m g | g r R - S ||",
+                        "sahitya": "- -mana su - na - Da- la- - - chi- - - Mai"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "- D N | s r G g r R || S , N , | n d D P - ||",
+                        "sahitya": "Mara chi- - yu- - - - n naa- - raa-"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "- S S | N - n d P || s n n d d p | M - m g p m ||",
+                        "sahitya": "Nena run- chi - - Tyaa- - - - - ga - raa- - -"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "m g g r R | S - - s n || s r g - r g m | g m p d p m g r || g m p m",
+                        "sahitya": "ju - ni - - to- - Ha- ri- - Ha- - ri - - - - Mee- - - ri - ru -"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Prakkala_Nilabadi_Kharaharapriya.pdf"
 }

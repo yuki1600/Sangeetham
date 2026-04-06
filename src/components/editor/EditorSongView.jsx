@@ -4,7 +4,7 @@ import {
     History, Undo2, RefreshCw, ChevronDown, ChevronUp,
     Check, AlertCircle, Scissors, FileText, X,
     FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid,
-    Repeat, Pencil, ZoomIn, ZoomOut, Plus, Minus
+    Repeat, Pencil, ZoomIn, ZoomOut, Plus, Minus, Heart
 } from 'lucide-react';
 import LaneLabel from '../LaneLabel';
 import NotationLane from '../NotationLane';
@@ -1059,14 +1059,58 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     );
                                 })()}
                                 {!readOnly && (
-                                    <button
-                                        onClick={openEditInfo}
-                                        className="flex items-center gap-1.5 mt-2 px-3 py-1.5 rounded-lg border text-[10px] font-bold uppercase tracking-widest transition-all hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400"
-                                        style={{ color: 'var(--text-muted)', borderColor }}
-                                    >
-                                        <Pencil className="w-3 h-3" />
-                                        Edit Info
-                                    </button>
+                                    <div className="flex items-center gap-2 mt-2">
+                                        <button
+                                            onClick={openEditInfo}
+                                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-[10px] font-bold uppercase tracking-widest transition-all hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400"
+                                            style={{ color: 'var(--text-muted)', borderColor }}
+                                        >
+                                            <Pencil className="w-3 h-3" />
+                                            Edit Info
+                                        </button>
+                                        {songData?.meta?.pdfPath && (
+                                            <a 
+                                                href={`/api/${songData.meta.pdfPath}`} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer"
+                                                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-orange-500/20 bg-orange-500/5 text-orange-500 hover:bg-orange-500/10 hover:border-orange-500/40 transition-all text-[10px] font-bold uppercase tracking-widest"
+                                                title="View PDF Notation"
+                                            >
+                                                <FileText className="w-3 h-3" />
+                                                View PDF
+                                            </a>
+                                        )}
+                                        <button
+                                            onClick={async () => {
+                                                const newFav = !songData.meta.isFavorite;
+                                                try {
+                                                    const res = await fetch(`/api/songs/${songId}/metadata`, {
+                                                        method: 'PATCH',
+                                                        headers: { 'Content-Type': 'application/json' },
+                                                        body: JSON.stringify({ 
+                                                            raga: songData.meta.raga, 
+                                                            tala: songData.meta.tala,
+                                                            isFavorite: newFav 
+                                                        })
+                                                    });
+                                                    const data = await res.json();
+                                                    if (data.ok) {
+                                                        setSongData(prev => ({ 
+                                                            ...prev, 
+                                                            meta: { ...prev.meta, isFavorite: newFav } 
+                                                        }));
+                                                    }
+                                                } catch (e) {
+                                                    console.error('Failed toggling favorite:', e);
+                                                }
+                                            }}
+                                            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border transition-all text-[10px] font-bold uppercase tracking-widest ${songData?.meta?.isFavorite ? 'bg-rose-500/20 border-rose-500/40 text-rose-500' : 'bg-white/5 border-white/10 text-[var(--text-muted)] hover:bg-rose-500/10 hover:border-rose-500/30 hover:text-rose-400'}`}
+                                            title={songData?.meta?.isFavorite ? "Remove from Favorites" : "Mark as Favorite"}
+                                        >
+                                            <Heart className={`w-3.5 h-3.5 ${songData?.meta?.isFavorite ? 'fill-rose-500' : ''}`} />
+                                            {songData?.meta?.isFavorite ? 'Favorite' : 'Favorite'}
+                                        </button>
+                                    </div>
                                 )}
                             </div>
                         </div>

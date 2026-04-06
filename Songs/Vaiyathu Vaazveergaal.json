@@ -1,131 +1,132 @@
 {
-  "song_details": {
-    "name": "Vaiyathu Vaazveergaal",
-    "raga": "Gowla",
-    "arohanam": "S R1 M1 P N3 S ||",
-    "avarohanam": "S N3 P M1 R1 G3 M1 R1 S ||",
-    "tala": "Adi",
-    "composer": "Andal / Godai / Nachiyar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - R S - S - N S snP nsrs R - | - - - R - P - M | R G pm M S R rs S ||",
-        "sahitya": "Vai yaththu vaazh--- veer-- gaal! - - -naa – mum- nam paa- - - - - vai kku-"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - - sr M - - M P - - - P , m P - | - - - R M P N P - P M G M S R r s S ||",
-        "sahitya": "Cey yum ki ri - - - sai - - gal - - ke- Lee- ro paa- - R kada lul--"
-      },
-      {
-        "line_number": 3,
-        "swara": "- - - sr rm rpmmr M P - - - P , m P - | - - -R M pnsn P - P M G M S R r s S ||",
-        "sahitya": "Cey yum ki ri - - - sai - - gal - - ke- Lee- ro paa- - R kada lul--"
-      },
-      {
-        "line_number": 4,
-        "swara": "- - - sr rPm - - P pN, NS nsrs R - | - - - - N S R – S - | S - snP P S S - ||",
-        "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa raman a - di paa- - - di"
-      },
-      {
-        "line_number": 5,
-        "swara": "- - - sr rPm - - P pN, NS nsrs R - | - - - - R G pmM – SR | rsS - rsnp - P S srsn ||",
-        "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa ra man a - di paa- - - di"
-      },
-      {
-        "line_number": 6,
-        "swara": "psn npm- sr rPm - - P pN, NS nsrs R - | - - - - R G pmM – SR | rsS - rsnp - P S S - ||",
-        "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa ra man a - di paa- - - di"
-      },
-      {
-        "line_number": 7,
-        "swara": "- - - R S - S - N S snP - np pmM - | - - - R S - S - | N S snP - np pmM - ||",
-        "sahitya": "Ney yun Nom paa- - - - - lun-nom- Ney yun Nom paa- - - - - lun-nom-"
-      },
-      {
-        "line_number": 8,
-        "swara": "- - - R S - S - pn Srs S np - np pmM - | - - R M P N P - | P M G M S R r s S ||",
-        "sahitya": "Ney yun Nom paa- - - - - lun-nom- - - naat- kaa-le nee- - - raa- di - -"
-      },
-      {
-        "line_number": 9,
-        "swara": "- - - R S - S - pmpn Srs S np - np pmM - | - - R M pn sn P - | P M G M S R r s S ||",
-        "sahitya": "Ney yun Nom paa- - - - - - - - lun-nom- - - naat- kaa-- le nee- - - raa- di - -"
-      },
-      {
-        "line_number": 10,
-        "swara": "- - - R S - S - N S sn P ns r s R - | - - - S R - R P M | R G pmM S R r s S ||",
-        "sahitya": "Mai yit te zhu - - - - - - dhom ma la ri - ttu naam- - - mudi yom"
-      },
-      {
-        "line_number": 11,
-        "swara": "- - - R S - S - nsrm rsnp ns r s R - | - - - S R - R P M | R G pmM S R r s S ||",
-        "sahitya": "Mai yit te zhu - - - - - - - dhom ma la ri - ttu naam- - - mudi yom"
-      },
-      {
-        "line_number": 12,
-        "swara": "- - - R S - S - nsrm rsnp mp - ns r s R | - - - S R - R P M | R G pmM S R r s S ||",
-        "sahitya": "Mai yit te zhu - - - - - - - - - dhom ma la ri - ttu naam- - - mudi yom"
-      },
-      {
-        "line_number": 13,
-        "swara": "- - - sr M - - M P - - - P , m P - | - - - R M P N P - P M G M S R r s S ||",
-        "sahitya": "Cey yaa - -dha na - - - cey- yom - - thee- kkura Lai cen- - - Ro - dhom -"
-      },
-      {
-        "line_number": 14,
-        "swara": "- - - sr rm rpmmr M P - - - P , m P - | - - -R M pn sn P - P M G M S R r s S ||",
-        "sahitya": "Cey yaa - -- dha na - - - cey- yom - - thee- kku-ra- Lai cen- - - Ro - dhom -"
-      },
-      {
-        "line_number": 15,
-        "swara": "- - - sr rPm - - P - P NS nsrs R - | - - - - N S R – S - | S - snP P S S - ||",
-        "sahitya": "Ai- ya - mum - pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
-      },
-      {
-        "line_number": 16,
-        "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - N S R – S - | S - rsnp - P S S - ||",
-        "sahitya": "Ai- ya - mum - pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
-      },
-      {
-        "line_number": 17,
-        "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - R G pmM – SR | rsS - rsnp - P S srsn ||",
-        "sahitya": "Ai- ya - mum pi – - - ccai yum - - aan - ndha nai yum kai kaa- tti"
-      },
-      {
-        "line_number": 18,
-        "swara": "psn npm- sr rPm - - P - P N S nsrs R - | - - - - R G pmM – SR | rsS - rsnp - P S S - ||",
-        "sahitya": "Ai- ya - mum pi – - ccai yum - - - aan - ndha nai yum kai kaa- tti"
-      },
-      {
-        "line_number": 19,
-        "swara": "- - - R S - S - N S snP - np pmM - | - - - R S - S - | N S snP - np pmM - ||",
-        "sahitya": "Uy yu- maa Ren- - - - Ni - - - Uy yu- maa Ren- - - - Ni -"
-      },
-      {
-        "line_number": 20,
-        "swara": "- - - R S - S - pn Srs S np - np pmM - | - - R M P N P - | P M G M S R r s S ||",
-        "sahitya": "Uy yu- maa Ren- - - - - Ni - - - u gan dhe-lor em - - - baa- vaay-"
-      },
-      {
-        "line_number": 21,
-        "swara": "- - - R S - S - pn Srs S np - np pmM - | - - R M P N P - | P M G M S R r s S ||",
-        "sahitya": "Uy yu- maa Ren- - - - - Ni - - - u gan dhe-lor em - - - baa- vaay-"
-      },
-      {
-        "line_number": 22,
-        "swara": "- - - R S - S - pmpn Srs S np - np pmM - | - - R M pn sn P - | P M G M S R r s S ||",
-        "sahitya": "Uy yu- maa Ren- - - - - -- Ni - - - u gan dhe-- lor em - - - baa- vaay-"
-      },
-      {
-        "line_number": 23,
-        "swara": "- - - R S - S - N S snP nsrs R - | - - - - - - - - | - - ns rm r r s s - - ||",
-        "sahitya": "Vai yaththu vaazh--- veer-- gaal! - - - - - - - - - - - - - - - - - -"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Vaiyathu Vaazveergaal",
+        "raga": "Gowla",
+        "arohanam": "S R1 M1 P N3 S ||",
+        "avarohanam": "S N3 P M1 R1 G3 M1 R1 S ||",
+        "tala": "Adi",
+        "composer": "Andal / Godai / Nachiyar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - R S - S - N S snP nsrs R - | - - - R - P - M | R G pm M S R rs S ||",
+                "sahitya": "Vai yaththu vaazh--- veer-- gaal! - - -naa \u2013 mum- nam paa- - - - - vai kku-"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - - sr M - - M P - - - P , m P - | - - - R M P N P - P M G M S R r s S ||",
+                "sahitya": "Cey yum ki ri - - - sai - - gal - - ke- Lee- ro paa- - R kada lul--"
+            },
+            {
+                "line_number": 3,
+                "swara": "- - - sr rm rpmmr M P - - - P , m P - | - - -R M pnsn P - P M G M S R r s S ||",
+                "sahitya": "Cey yum ki ri - - - sai - - gal - - ke- Lee- ro paa- - R kada lul--"
+            },
+            {
+                "line_number": 4,
+                "swara": "- - - sr rPm - - P pN, NS nsrs R - | - - - - N S R \u2013 S - | S - snP P S S - ||",
+                "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa raman a - di paa- - - di"
+            },
+            {
+                "line_number": 5,
+                "swara": "- - - sr rPm - - P pN, NS nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S srsn ||",
+                "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa ra man a - di paa- - - di"
+            },
+            {
+                "line_number": 6,
+                "swara": "psn npm- sr rPm - - P pN, NS nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S S - ||",
+                "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa ra man a - di paa- - - di"
+            },
+            {
+                "line_number": 7,
+                "swara": "- - - R S - S - N S snP - np pmM - | - - - R S - S - | N S snP - np pmM - ||",
+                "sahitya": "Ney yun Nom paa- - - - - lun-nom- Ney yun Nom paa- - - - - lun-nom-"
+            },
+            {
+                "line_number": 8,
+                "swara": "- - - R S - S - pn Srs S np - np pmM - | - - R M P N P - | P M G M S R r s S ||",
+                "sahitya": "Ney yun Nom paa- - - - - lun-nom- - - naat- kaa-le nee- - - raa- di - -"
+            },
+            {
+                "line_number": 9,
+                "swara": "- - - R S - S - pmpn Srs S np - np pmM - | - - R M pn sn P - | P M G M S R r s S ||",
+                "sahitya": "Ney yun Nom paa- - - - - - - - lun-nom- - - naat- kaa-- le nee- - - raa- di - -"
+            },
+            {
+                "line_number": 10,
+                "swara": "- - - R S - S - N S sn P ns r s R - | - - - S R - R P M | R G pmM S R r s S ||",
+                "sahitya": "Mai yit te zhu - - - - - - dhom ma la ri - ttu naam- - - mudi yom"
+            },
+            {
+                "line_number": 11,
+                "swara": "- - - R S - S - nsrm rsnp ns r s R - | - - - S R - R P M | R G pmM S R r s S ||",
+                "sahitya": "Mai yit te zhu - - - - - - - dhom ma la ri - ttu naam- - - mudi yom"
+            },
+            {
+                "line_number": 12,
+                "swara": "- - - R S - S - nsrm rsnp mp - ns r s R | - - - S R - R P M | R G pmM S R r s S ||",
+                "sahitya": "Mai yit te zhu - - - - - - - - - dhom ma la ri - ttu naam- - - mudi yom"
+            },
+            {
+                "line_number": 13,
+                "swara": "- - - sr M - - M P - - - P , m P - | - - - R M P N P - P M G M S R r s S ||",
+                "sahitya": "Cey yaa - -dha na - - - cey- yom - - thee- kkura Lai cen- - - Ro - dhom -"
+            },
+            {
+                "line_number": 14,
+                "swara": "- - - sr rm rpmmr M P - - - P , m P - | - - -R M pn sn P - P M G M S R r s S ||",
+                "sahitya": "Cey yaa - -- dha na - - - cey- yom - - thee- kku-ra- Lai cen- - - Ro - dhom -"
+            },
+            {
+                "line_number": 15,
+                "swara": "- - - sr rPm - - P - P NS nsrs R - | - - - - N S R \u2013 S - | S - snP P S S - ||",
+                "sahitya": "Ai- ya - mum - pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
+            },
+            {
+                "line_number": 16,
+                "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - N S R \u2013 S - | S - rsnp - P S S - ||",
+                "sahitya": "Ai- ya - mum - pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
+            },
+            {
+                "line_number": 17,
+                "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S srsn ||",
+                "sahitya": "Ai- ya - mum pi \u2013 - - ccai yum - - aan - ndha nai yum kai kaa- tti"
+            },
+            {
+                "line_number": 18,
+                "swara": "psn npm- sr rPm - - P - P N S nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S S - ||",
+                "sahitya": "Ai- ya - mum pi \u2013 - ccai yum - - - aan - ndha nai yum kai kaa- tti"
+            },
+            {
+                "line_number": 19,
+                "swara": "- - - R S - S - N S snP - np pmM - | - - - R S - S - | N S snP - np pmM - ||",
+                "sahitya": "Uy yu- maa Ren- - - - Ni - - - Uy yu- maa Ren- - - - Ni -"
+            },
+            {
+                "line_number": 20,
+                "swara": "- - - R S - S - pn Srs S np - np pmM - | - - R M P N P - | P M G M S R r s S ||",
+                "sahitya": "Uy yu- maa Ren- - - - - Ni - - - u gan dhe-lor em - - - baa- vaay-"
+            },
+            {
+                "line_number": 21,
+                "swara": "- - - R S - S - pn Srs S np - np pmM - | - - R M P N P - | P M G M S R r s S ||",
+                "sahitya": "Uy yu- maa Ren- - - - - Ni - - - u gan dhe-lor em - - - baa- vaay-"
+            },
+            {
+                "line_number": 22,
+                "swara": "- - - R S - S - pmpn Srs S np - np pmM - | - - R M pn sn P - | P M G M S R r s S ||",
+                "sahitya": "Uy yu- maa Ren- - - - - -- Ni - - - u gan dhe-- lor em - - - baa- vaay-"
+            },
+            {
+                "line_number": 23,
+                "swara": "- - - R S - S - N S snP nsrs R - | - - - - - - - - | - - ns rm r r s s - - ||",
+                "sahitya": "Vai yaththu vaazh--- veer-- gaal! - - - - - - - - - - - - - - - - - -"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Vaiyathu_VaazveergaaL_Thiruppavai_Pasuram_02_Gowlai.pdf"
 }

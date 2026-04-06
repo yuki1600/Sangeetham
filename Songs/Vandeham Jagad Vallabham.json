@@ -1,112 +1,113 @@
 {
-  "song_details": {
-    "name": "Vandeham Jagad Vallabham",
-    "raga": "Hamsadhwani",
-    "arohanam": "S R2 G3 P N3 S ||",
-    "avarohanam": "S N3 P G3 R2 S ||",
-    "tala": "Khanda Chapu",
-    "composer": "Annamacharya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "S - | snP gp || G R | r G – rsS , || S ,r | G P - || - - | , sr gp n ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S - | snP gp || G R | r G – rsS , || S ,r | G P - || S - | sn- pgpn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la bham dur la- bham-"
-      },
-      {
-        "line_number": 3,
-        "swara": "srgr | snpg pn || snpg | r G – rsS , || gr pg | np sn rs || gr sn | pn s -g pn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la- bham dur - la- - bham-"
-      },
-      {
-        "line_number": 4,
-        "swara": "srgr | snpg pn || snpg | r G – rsS , || srg - r | gp – g p n s || gr s - r | sn - pg pn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la- -- bham - dur- la- - bham-"
-      },
-      {
-        "line_number": 5,
-        "swara": "srgr | snpg pn || snpg | r G – rsS , || pgnp | sn – rs gr || p gr s | n p n - g pn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
-      },
-      {
-        "line_number": 6,
-        "swara": "S , r | snP gp || G R | r G – rsS , || gpns | gr sn P || - - | - - - ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "s n P | S S - N || S - | rg rsS - || s n P | S S - N || S - | N R - ||",
-        "sahitya": "man- dara dha ram gu- rum- man- dara dha ram gu rum-"
-      },
-      {
-        "line_number": 2,
-        "swara": "s n P | S S - N || S - | N R - || s r g p | R S - || gr sn | p n s – g p n ||",
-        "sahitya": "man- dara dha ram gu rum- ma- - dha vam bhoo- dha- - vam –"
-      },
-      {
-        "line_number": 3,
-        "swara": "s n P | S S - N || S R | gp R - || s r g p | R S - || gr sn | p n s – g p n ||",
-        "sahitya": "man- dara dha ram gu rum- ma- - dha vam bhoo- dha- - vam –"
-      },
-      {
-        "line_number": 4,
-        "swara": "srgr | snpg pn || snpg | r G – rsS , || pgnp | sn – rs gr || p gr s | n p n - g pn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
-      },
-      {
-        "line_number": 5,
-        "swara": "S , r | snP gp || G R | r G – rsS , || S ,r | G P - || - - | - - - ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "G R | G - P - || P - | s n G P || S - | sn P - || G P | g p g r s r ||",
-        "sahitya": "ra - ma na mam ya- - jna ra - ksha-nam la - ksha-nam- -"
-      },
-      {
-        "line_number": 7,
-        "swara": "npgr | G - P - || P - | s n G P || sn gr | sn P - || pgnp | g p G R ||",
-        "sahitya": "ra - ma na mam ya- - jna ra - ksha-nam la - ksha-nam- -"
-      },
-      {
-        "line_number": 8,
-        "swara": "G - | np G R || s r g p | R , S , || G R | G – P S || snP | - - - ||",
-        "sahitya": "va ma- nam- ka - - mi nam va- su de- vam"
-      },
-      {
-        "line_number": 9,
-        "swara": "sn P | N , S , || R - | gp R - || S R | gp G R || S - | rg rsS - || - - | - - - ||",
-        "sahitya": "Sri - ma- da- va si- nam Sri- ve- - nka Te Swa- ram –"
-      },
-      {
-        "line_number": 10,
-        "swara": "snP | pg R - || s n P | N S - || g r s n | p s s n P || n p s n | r s g r p g ||",
-        "sahitya": "Sya- ma- lam ko - ma lam Sha- - nta- mur-- tim - - ha- rim - -"
-      },
-      {
-        "line_number": 11,
-        "swara": "srgr | snpg pn || snpg | r G – rsS , || pgnp | sn – rs gr || p gr s | n p n - g pn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
-      },
-      {
-        "line_number": 12,
-        "swara": "S - | snpg pn || snpg | r G – rsS , || pgnp | sn – rs gr || p gr s | n p n - g pn ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
-      },
-      {
-        "line_number": 13,
-        "swara": "S , r | snP gnP || G R | r G – rsS , || gpns | gr sn P || - - | - - - ||",
-        "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - -"
-      }
-    ],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Vandeham Jagad Vallabham",
+        "raga": "Hamsadhwani",
+        "arohanam": "S R2 G3 P N3 S ||",
+        "avarohanam": "S N3 P G3 R2 S ||",
+        "tala": "Khanda Chapu",
+        "composer": "Annamacharya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "S - | snP gp || G R | r G \u2013 rsS , || S ,r | G P - || - - | , sr gp n ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S - | snP gp || G R | r G \u2013 rsS , || S ,r | G P - || S - | sn- pgpn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la bham dur la- bham-"
+            },
+            {
+                "line_number": 3,
+                "swara": "srgr | snpg pn || snpg | r G \u2013 rsS , || gr pg | np sn rs || gr sn | pn s -g pn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la- bham dur - la- - bham-"
+            },
+            {
+                "line_number": 4,
+                "swara": "srgr | snpg pn || snpg | r G \u2013 rsS , || srg - r | gp \u2013 g p n s || gr s - r | sn - pg pn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la- -- bham - dur- la- - bham-"
+            },
+            {
+                "line_number": 5,
+                "swara": "srgr | snpg pn || snpg | r G \u2013 rsS , || pgnp | sn \u2013 rs gr || p gr s | n p n - g pn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
+            },
+            {
+                "line_number": 6,
+                "swara": "S , r | snP gp || G R | r G \u2013 rsS , || gpns | gr sn P || - - | - - - ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "s n P | S S - N || S - | rg rsS - || s n P | S S - N || S - | N R - ||",
+                "sahitya": "man- dara dha ram gu- rum- man- dara dha ram gu rum-"
+            },
+            {
+                "line_number": 2,
+                "swara": "s n P | S S - N || S - | N R - || s r g p | R S - || gr sn | p n s \u2013 g p n ||",
+                "sahitya": "man- dara dha ram gu rum- ma- - dha vam bhoo- dha- - vam \u2013"
+            },
+            {
+                "line_number": 3,
+                "swara": "s n P | S S - N || S R | gp R - || s r g p | R S - || gr sn | p n s \u2013 g p n ||",
+                "sahitya": "man- dara dha ram gu rum- ma- - dha vam bhoo- dha- - vam \u2013"
+            },
+            {
+                "line_number": 4,
+                "swara": "srgr | snpg pn || snpg | r G \u2013 rsS , || pgnp | sn \u2013 rs gr || p gr s | n p n - g pn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
+            },
+            {
+                "line_number": 5,
+                "swara": "S , r | snP gp || G R | r G \u2013 rsS , || S ,r | G P - || - - | - - - ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "G R | G - P - || P - | s n G P || S - | sn P - || G P | g p g r s r ||",
+                "sahitya": "ra - ma na mam ya- - jna ra - ksha-nam la - ksha-nam- -"
+            },
+            {
+                "line_number": 7,
+                "swara": "npgr | G - P - || P - | s n G P || sn gr | sn P - || pgnp | g p G R ||",
+                "sahitya": "ra - ma na mam ya- - jna ra - ksha-nam la - ksha-nam- -"
+            },
+            {
+                "line_number": 8,
+                "swara": "G - | np G R || s r g p | R , S , || G R | G \u2013 P S || snP | - - - ||",
+                "sahitya": "va ma- nam- ka - - mi nam va- su de- vam"
+            },
+            {
+                "line_number": 9,
+                "swara": "sn P | N , S , || R - | gp R - || S R | gp G R || S - | rg rsS - || - - | - - - ||",
+                "sahitya": "Sri - ma- da- va si- nam Sri- ve- - nka Te Swa- ram \u2013"
+            },
+            {
+                "line_number": 10,
+                "swara": "snP | pg R - || s n P | N S - || g r s n | p s s n P || n p s n | r s g r p g ||",
+                "sahitya": "Sya- ma- lam ko - ma lam Sha- - nta- mur-- tim - - ha- rim - -"
+            },
+            {
+                "line_number": 11,
+                "swara": "srgr | snpg pn || snpg | r G \u2013 rsS , || pgnp | sn \u2013 rs gr || p gr s | n p n - g pn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
+            },
+            {
+                "line_number": 12,
+                "swara": "S - | snpg pn || snpg | r G \u2013 rsS , || pgnp | sn \u2013 rs gr || p gr s | n p n - g pn ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- - la- bham - dur- - la- - bham-"
+            },
+            {
+                "line_number": 13,
+                "swara": "S , r | snP gnP || G R | r G \u2013 rsS , || gpns | gr sn P || - - | - - - ||",
+                "sahitya": "Van de- -- ham- ja- gad- val- la bham - - - - -"
+            }
+        ],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Vandeham_Jagad_Vallabham_Hamsadhwani.pdf"
 }

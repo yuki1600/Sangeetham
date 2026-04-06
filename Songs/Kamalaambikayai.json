@@ -1,227 +1,228 @@
 {
-  "song_details": {
-    "name": "Kamalaambikayai",
-    "raga": "Kambhoji",
-    "arohanam": "S R2 G3 M1 P D2 S ||",
-    "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
-    "tala": "Khanda Ata Talam",
-    "composer": "Muthuswami Dikshitar"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - pmG M - P - - - | - - D N dp D - - D P | Pdm mg G | dPd S - ||",
-        "sahitya": "- - Ka-- ma- laam - - - - bi- kaa- - - - - yai-- - - - - - - - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "S,d D N D - DM P - | - - D N D P - - Pdm | MG G R | g r pm mggr ||",
-        "sahitya": "- - - Ka- na- kaa- - m - - shu- kaa - - - - - - yai- - - - - - - - - --"
-      },
-      {
-        "line_number": 3,
-        "swara": "S - - D DN D - D P | D - S - - - R - R M | G S S R | - - R S ||",
-        "sahitya": "Kar - - pu- - - - - ra- Vi- - - di- kaa- - - yai- - - Na-"
-      },
-      {
-        "line_number": 4,
-        "swara": "R P M G G R R S R - | - - Rmg rsS snP D - | rs D S - | - - - - ||",
-        "sahitya": "ma- - - ste- - - - - - - Na- - ma-- - - - - - ste- - - - - - - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- - Pdp mg M - P - - - | - - D N dp D - - D P | Pdm mg G | dPd S - ||",
-        "sahitya": "- - Ka-- - - ma- laam - - - - bi- kaa- - - - - yai-- - - - - - - - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "S,d rs N D - DM P - | - - D N D P - - Pdm | MG G R | gSr pm mggr ||",
-        "sahitya": "- - - Ka- na- kaa- - m - - shu- kaa - - - - - - yai- - - - - - - - - --"
-      },
-      {
-        "line_number": 7,
-        "swara": "S - - D Drs N D - D P | PD S - - - R - R M | G S S R | - - R S ||",
-        "sahitya": "Kar - - pu- - - - - ra- Vi- - - di- kaa- - - yai- - - Na-"
-      },
-      {
-        "line_number": 8,
-        "swara": "R P M G G ,r R S S R | - - rgmg rsS snP D - | rs D S - | - - - - ||",
-        "sahitya": "ma- - - ste- - - - - - - Na- - ma-- - - - - - ste- - - - - - - -"
-      }
-    ],
-    "anupallavi": [
-      {
-        "line_number": 1,
-        "swara": "- - - rp M - G - Gmr | R M G S S R Rpm M G | G M M D | P M P - ||",
-        "sahitya": "- - - Ka- ma- laa- - - - Kaa- - - nta- - - - nu - jaa- - - yai- - -"
-      },
-      {
-        "line_number": 2,
-        "swara": "- - Pdm mgG P - - - | D - D R S - - - sn P | D - D R | SD S - ||",
-        "sahitya": "- - Kaa- - - - me- -- shva - - ryai- - - A- - jaa- - - yai- - -"
-      },
-      {
-        "line_number": 3,
-        "swara": "- - SR R - rmG G,r | S,r G S Srg r S , - ,d | D N D D | P M P D ||",
-        "sahitya": "- - Hi- ma- gi - - - ri - - - Ta- nu- - - - jaa- - - yai- - -"
-      },
-      {
-        "line_number": 4,
-        "swara": "DS - - - D DN DD | PM P D dm P - - - dm | MG G R | RM G S ||",
-        "sahitya": "Hreem - - - - Kaa- - - ra - - - Pu- - - - - - - jyaa- - - yai- - -"
-      },
-      {
-        "line_number": 5,
-        "swara": "- - SR R - rgmg G,r | S,r G S Srg r S , - ,d | rs N D D | P M P D ||",
-        "sahitya": "- - Hi- ma- gi - - - ri - - - Ta- nu- - - - jaa- - - yai- - -"
-      },
-      {
-        "line_number": 6,
-        "swara": "DS - - - D DN DD | PM P D dm P - - - dm | MG G R | RM G S ||",
-        "sahitya": "Hreem - - - - Kaa- - - ra - - - Pu- - - - - - - jyaa- - - yai- - -"
-      },
-      {
-        "line_number": 7,
-        "swara": "PM P S S R G- M P - | D P D - dR, sN, D- D P - D | S ,p D - | S - R - ||",
-        "sahitya": "Kama laa- naga ra Vi haa rin- yai- Kha-la- Sa moo- ha Sam- haa- rin- yai-"
-      },
-      {
-        "line_number": 8,
-        "swara": "MG Gmr S- S g r -S ssnd | DM pdsr sn D dp dp ppmg | R M G S | Smr R pm ||",
-        "sahitya": "Kama nee-- ya Ra -- tna Haa-- rin- yai--- Ka-li Kal-- ma-sha- Pa ri haa- rin-- yai -"
-      },
-      {
-        "line_number": 9,
-        "swara": "PM P S S R G- M P - | nddp D - dR, sN, D- D P - D | S ,p D - | S - R - ||",
-        "sahitya": "Kama laa- naga ra Vi haa rin- yai- Kha-la- Sa moo- ha Sam- haa- rin- yai-"
-      },
-      {
-        "line_number": 10,
-        "swara": "MG Gmr S- S g r -S ssnd | DM pdsr sn D dp dp ppmg | R M G S | Smr gr pm ||",
-        "sahitya": "Kama nee-- ya Ra -- tna Haa-- rin- yai--- Ka-li Kal-- ma-sha- Pa ri haa- rin-- yai -"
-      }
-    ],
-    "charanams": [
-      {
-        "lines": [
-          {
-            "line_number": 1,
-            "swara": "- - - rs Sgr G - - - | R G rgmg M - mr G - - | MG RG | GS - - ||",
-            "sahitya": "- - - Sa- ka-- la - - - Sau- - - - - - - bhaa- - - gya- - - Daa - -"
-          },
-          {
-            "line_number": 2,
-            "swara": "Srg r S , S D D N D - | D P D - S - S - - - | R S R - | grpm mg G ||",
-            "sahitya": "ya-- kaam- - - bho- - - - - ja - Cha ra- - - naa-- - - yai- - - - -"
-          },
-          {
-            "line_number": 3,
-            "swara": "- - gr S SR G - - - | R G rgmg M - R G Mpg | Gmr RG | GS S R ||",
-            "sahitya": "- - Sa- ka-- la - - - Sau- - - - - - - bhaa- - - gya- - - Daa - -"
-          },
-          {
-            "line_number": 4,
-            "swara": "rgmg r S , S D rs N D - | D P D - S - S - - - | mgrs R - | grpm mg G ||",
-            "sahitya": "ya-- kaam- - - bho- - - - - ja - Cha ra- - - naa-- - - yai- - - - -"
-          },
-          {
-            "line_number": 5,
-            "swara": "- - S - - - D - - - | dpD - ,p P - nDp M,d | ppmg M - | - - P - ||",
-            "sahitya": "- - Sam - - ksho - - bhin- - - yaa - - - di- - Sha- - - - - - kti-"
-          },
-          {
-            "line_number": 6,
-            "swara": "D - D P Pdm M G G R | RG S - - - S pm mgG | G M - ,d | PM P - ||",
-            "sahitya": "yu- ta - Cha-- tur- - - thyaa - - - - - (a)va- ra- - naa- - - yai- - -"
-          },
-          {
-            "line_number": 7,
-            "swara": "- - - P D - D N nd D | - - pmpm pdsn d P, - nd | M - G ,m | P - - - ||",
-            "sahitya": "- - - Pra ka- ta - - - - - - Cha- - tu- - - - - - - r d-- da- - sha- - -"
-          },
-          {
-            "line_number": 8,
-            "swara": "D - S,d DN D - D P | Pdm mgG dPd S - snP | P D D R | SD S - ||",
-            "sahitya": "Bhu va- na- - - - - Bha- - - - ra - - - - - - - naa- - - yai- - -"
-          },
-          {
-            "line_number": 9,
-            "swara": "- - - S S ,r G - - - | rgmg ,m grG - - Gmg G R | R M R S | rsN D P ||",
-            "sahitya": "- - - Pra ba-- la - - - Gu- - - - ru - - - gu- - - - ha - - - Sam- - -"
-          },
-          {
-            "line_number": 10,
-            "swara": "DR S - - - P - - - | P,m P - D N dP , - dm | MG M R | R G G S ||",
-            "sahitya": "pra- daa- - - yaa- - - ntah- ra- Ka- ra- - - - naa- - - yai- - -"
-          },
-          {
-            "line_number": 11,
-            "swara": "- - - mg rSr G - - - | rgmg ,m grG - - Gmp G R | R Gmp R S | rsN dp D ||",
-            "sahitya": "- - - Pra ba-- la - - - Gu- - - - ru - - - gu- - - - ha - - - - Sam- - -"
-          },
-          {
-            "line_number": 12,
-            "swara": "R ,g rS , - - nSp - - | P,m P - D N dP , - dm | MG M R | R G G S ||",
-            "sahitya": "pra- daa- - - yaa- - - ntah- ra- Ka- ra- - - - naa- - - yai- - -"
-          },
-          {
-            "line_number": 13,
-            "swara": "R - S,d D - N - D - | N D D P D - S ,p D - | S - - - | S - - - ||",
-            "sahitya": "A- ka- lan- - - ka- Ru- - - pa- Va-- - - rnaa- - - yai- - -"
-          },
-          {
-            "line_number": 14,
-            "swara": "S - P - - - dpmg M - | M N D - dp N pmM - G ,m | MP - - | P- - - ||",
-            "sahitya": "A pa - - rnaa-- - - yai - - Su- - par - - - - naa- - - yai - -"
-          },
-          {
-            "line_number": 15,
-            "swara": "dsP D - S - R - G - | RG rgM G ,p R,g r S d | rsN D D | PM P D ||",
-            "sahitya": "Su-- ka- ra - Dhru ta- Chaa - - - pa-- Baa- - - naa- - - yai- - -"
-          },
-          {
-            "line_number": 16,
-            "swara": "S - - D D N D - D,m | P - M P D N DP - dm | M G G R | R G G S ||",
-            "sahitya": "Sho- - - bha- na- ka- ra - Ma- nu- ko- - - - naa- - - yai - - -"
-          },
-          {
-            "line_number": 17,
-            "swara": "- P D - S - R - G - | RG rgM G ,p R,g r S d | rsN D D | PM P D ||",
-            "sahitya": "- Su ka- ra - Dhru ta- Chaa - - - pa-- Baa- - - naa- - - yai- - -"
-          },
-          {
-            "line_number": 18,
-            "swara": "S - - D D N D - D,m | P - M P D N DP - dm | M G G R | R G G S ||",
-            "sahitya": "Sho- - - bha- na- ka- ra - Ma- nu- ko- - - - naa- - - yai - - -"
-          },
-          {
-            "line_number": 19,
-            "swara": "S - R - G gpmp gm - P - M | nD, P - D - D P -D S - | sd- D - pg | GR S - ||",
-            "sahitya": "Sa kun - ku maa- - di- Le -pa naa- yai Cha raa- cha raa di Kal - pa- naa- yai"
-          },
-          {
-            "line_number": 20,
-            "swara": "M G G - R R S sr N D- dr | sNd D P d R- s - sn D dm | pdrs N D | dm - P - ||",
-            "sahitya": "Chiku ra Vi ji ta Nee- la gha naa-- yai- Chi- daa - nan - da- Pu--- rna Gha naa- - yai"
-          },
-          {
-            "line_number": 21,
-            "swara": "S - R - G gpmp gm - P - M | nD, P - D - D P -D S - | sd- D - pg | GR S - ||",
-            "sahitya": "Sa kun - ku maa- - di- Le -pa naa- yai Cha raa- cha raa di Kal - pa- naa- yai"
-          },
-          {
-            "line_number": 22,
-            "swara": "M G G - R R S sr N D- dr | sNd D P d R- s - sn D dm | pdrs N D | dm - pdnd ||",
-            "sahitya": "Chiku ra Vi ji ta Nee- la gha naa-- yai- Chi- daa - nan - da- Pu--- rna Gha naa- - yai"
-          },
-          {
-            "line_number": 23,
-            "swara": "mpdp",
-            "sahitya": "- - - - (kamalambikaayai)"
-          }
+    "song_details": {
+        "name": "Kamalaambikayai",
+        "raga": "Kambhoji",
+        "arohanam": "S R2 G3 M1 P D2 S ||",
+        "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
+        "tala": "Khanda Ata Talam",
+        "composer": "Muthuswami Dikshitar"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - pmG M - P - - - | - - D N dp D - - D P | Pdm mg G | dPd S - ||",
+                "sahitya": "- - Ka-- ma- laam - - - - bi- kaa- - - - - yai-- - - - - - - - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "S,d D N D - DM P - | - - D N D P - - Pdm | MG G R | g r pm mggr ||",
+                "sahitya": "- - - Ka- na- kaa- - m - - shu- kaa - - - - - - yai- - - - - - - - - --"
+            },
+            {
+                "line_number": 3,
+                "swara": "S - - D DN D - D P | D - S - - - R - R M | G S S R | - - R S ||",
+                "sahitya": "Kar - - pu- - - - - ra- Vi- - - di- kaa- - - yai- - - Na-"
+            },
+            {
+                "line_number": 4,
+                "swara": "R P M G G R R S R - | - - Rmg rsS snP D - | rs D S - | - - - - ||",
+                "sahitya": "ma- - - ste- - - - - - - Na- - ma-- - - - - - ste- - - - - - - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- - Pdp mg M - P - - - | - - D N dp D - - D P | Pdm mg G | dPd S - ||",
+                "sahitya": "- - Ka-- - - ma- laam - - - - bi- kaa- - - - - yai-- - - - - - - - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "S,d rs N D - DM P - | - - D N D P - - Pdm | MG G R | gSr pm mggr ||",
+                "sahitya": "- - - Ka- na- kaa- - m - - shu- kaa - - - - - - yai- - - - - - - - - --"
+            },
+            {
+                "line_number": 7,
+                "swara": "S - - D Drs N D - D P | PD S - - - R - R M | G S S R | - - R S ||",
+                "sahitya": "Kar - - pu- - - - - ra- Vi- - - di- kaa- - - yai- - - Na-"
+            },
+            {
+                "line_number": 8,
+                "swara": "R P M G G ,r R S S R | - - rgmg rsS snP D - | rs D S - | - - - - ||",
+                "sahitya": "ma- - - ste- - - - - - - Na- - ma-- - - - - - ste- - - - - - - -"
+            }
+        ],
+        "anupallavi": [
+            {
+                "line_number": 1,
+                "swara": "- - - rp M - G - Gmr | R M G S S R Rpm M G | G M M D | P M P - ||",
+                "sahitya": "- - - Ka- ma- laa- - - - Kaa- - - nta- - - - nu - jaa- - - yai- - -"
+            },
+            {
+                "line_number": 2,
+                "swara": "- - Pdm mgG P - - - | D - D R S - - - sn P | D - D R | SD S - ||",
+                "sahitya": "- - Kaa- - - - me- -- shva - - ryai- - - A- - jaa- - - yai- - -"
+            },
+            {
+                "line_number": 3,
+                "swara": "- - SR R - rmG G,r | S,r G S Srg r S , - ,d | D N D D | P M P D ||",
+                "sahitya": "- - Hi- ma- gi - - - ri - - - Ta- nu- - - - jaa- - - yai- - -"
+            },
+            {
+                "line_number": 4,
+                "swara": "DS - - - D DN DD | PM P D dm P - - - dm | MG G R | RM G S ||",
+                "sahitya": "Hreem - - - - Kaa- - - ra - - - Pu- - - - - - - jyaa- - - yai- - -"
+            },
+            {
+                "line_number": 5,
+                "swara": "- - SR R - rgmg G,r | S,r G S Srg r S , - ,d | rs N D D | P M P D ||",
+                "sahitya": "- - Hi- ma- gi - - - ri - - - Ta- nu- - - - jaa- - - yai- - -"
+            },
+            {
+                "line_number": 6,
+                "swara": "DS - - - D DN DD | PM P D dm P - - - dm | MG G R | RM G S ||",
+                "sahitya": "Hreem - - - - Kaa- - - ra - - - Pu- - - - - - - jyaa- - - yai- - -"
+            },
+            {
+                "line_number": 7,
+                "swara": "PM P S S R G- M P - | D P D - dR, sN, D- D P - D | S ,p D - | S - R - ||",
+                "sahitya": "Kama laa- naga ra Vi haa rin- yai- Kha-la- Sa moo- ha Sam- haa- rin- yai-"
+            },
+            {
+                "line_number": 8,
+                "swara": "MG Gmr S- S g r -S ssnd | DM pdsr sn D dp dp ppmg | R M G S | Smr R pm ||",
+                "sahitya": "Kama nee-- ya Ra -- tna Haa-- rin- yai--- Ka-li Kal-- ma-sha- Pa ri haa- rin-- yai -"
+            },
+            {
+                "line_number": 9,
+                "swara": "PM P S S R G- M P - | nddp D - dR, sN, D- D P - D | S ,p D - | S - R - ||",
+                "sahitya": "Kama laa- naga ra Vi haa rin- yai- Kha-la- Sa moo- ha Sam- haa- rin- yai-"
+            },
+            {
+                "line_number": 10,
+                "swara": "MG Gmr S- S g r -S ssnd | DM pdsr sn D dp dp ppmg | R M G S | Smr gr pm ||",
+                "sahitya": "Kama nee-- ya Ra -- tna Haa-- rin- yai--- Ka-li Kal-- ma-sha- Pa ri haa- rin-- yai -"
+            }
+        ],
+        "charanams": [
+            {
+                "lines": [
+                    {
+                        "line_number": 1,
+                        "swara": "- - - rs Sgr G - - - | R G rgmg M - mr G - - | MG RG | GS - - ||",
+                        "sahitya": "- - - Sa- ka-- la - - - Sau- - - - - - - bhaa- - - gya- - - Daa - -"
+                    },
+                    {
+                        "line_number": 2,
+                        "swara": "Srg r S , S D D N D - | D P D - S - S - - - | R S R - | grpm mg G ||",
+                        "sahitya": "ya-- kaam- - - bho- - - - - ja - Cha ra- - - naa-- - - yai- - - - -"
+                    },
+                    {
+                        "line_number": 3,
+                        "swara": "- - gr S SR G - - - | R G rgmg M - R G Mpg | Gmr RG | GS S R ||",
+                        "sahitya": "- - Sa- ka-- la - - - Sau- - - - - - - bhaa- - - gya- - - Daa - -"
+                    },
+                    {
+                        "line_number": 4,
+                        "swara": "rgmg r S , S D rs N D - | D P D - S - S - - - | mgrs R - | grpm mg G ||",
+                        "sahitya": "ya-- kaam- - - bho- - - - - ja - Cha ra- - - naa-- - - yai- - - - -"
+                    },
+                    {
+                        "line_number": 5,
+                        "swara": "- - S - - - D - - - | dpD - ,p P - nDp M,d | ppmg M - | - - P - ||",
+                        "sahitya": "- - Sam - - ksho - - bhin- - - yaa - - - di- - Sha- - - - - - kti-"
+                    },
+                    {
+                        "line_number": 6,
+                        "swara": "D - D P Pdm M G G R | RG S - - - S pm mgG | G M - ,d | PM P - ||",
+                        "sahitya": "yu- ta - Cha-- tur- - - thyaa - - - - - (a)va- ra- - naa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 7,
+                        "swara": "- - - P D - D N nd D | - - pmpm pdsn d P, - nd | M - G ,m | P - - - ||",
+                        "sahitya": "- - - Pra ka- ta - - - - - - Cha- - tu- - - - - - - r d-- da- - sha- - -"
+                    },
+                    {
+                        "line_number": 8,
+                        "swara": "D - S,d DN D - D P | Pdm mgG dPd S - snP | P D D R | SD S - ||",
+                        "sahitya": "Bhu va- na- - - - - Bha- - - - ra - - - - - - - naa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 9,
+                        "swara": "- - - S S ,r G - - - | rgmg ,m grG - - Gmg G R | R M R S | rsN D P ||",
+                        "sahitya": "- - - Pra ba-- la - - - Gu- - - - ru - - - gu- - - - ha - - - Sam- - -"
+                    },
+                    {
+                        "line_number": 10,
+                        "swara": "DR S - - - P - - - | P,m P - D N dP , - dm | MG M R | R G G S ||",
+                        "sahitya": "pra- daa- - - yaa- - - ntah- ra- Ka- ra- - - - naa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 11,
+                        "swara": "- - - mg rSr G - - - | rgmg ,m grG - - Gmp G R | R Gmp R S | rsN dp D ||",
+                        "sahitya": "- - - Pra ba-- la - - - Gu- - - - ru - - - gu- - - - ha - - - - Sam- - -"
+                    },
+                    {
+                        "line_number": 12,
+                        "swara": "R ,g rS , - - nSp - - | P,m P - D N dP , - dm | MG M R | R G G S ||",
+                        "sahitya": "pra- daa- - - yaa- - - ntah- ra- Ka- ra- - - - naa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 13,
+                        "swara": "R - S,d D - N - D - | N D D P D - S ,p D - | S - - - | S - - - ||",
+                        "sahitya": "A- ka- lan- - - ka- Ru- - - pa- Va-- - - rnaa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 14,
+                        "swara": "S - P - - - dpmg M - | M N D - dp N pmM - G ,m | MP - - | P- - - ||",
+                        "sahitya": "A pa - - rnaa-- - - yai - - Su- - par - - - - naa- - - yai - -"
+                    },
+                    {
+                        "line_number": 15,
+                        "swara": "dsP D - S - R - G - | RG rgM G ,p R,g r S d | rsN D D | PM P D ||",
+                        "sahitya": "Su-- ka- ra - Dhru ta- Chaa - - - pa-- Baa- - - naa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 16,
+                        "swara": "S - - D D N D - D,m | P - M P D N DP - dm | M G G R | R G G S ||",
+                        "sahitya": "Sho- - - bha- na- ka- ra - Ma- nu- ko- - - - naa- - - yai - - -"
+                    },
+                    {
+                        "line_number": 17,
+                        "swara": "- P D - S - R - G - | RG rgM G ,p R,g r S d | rsN D D | PM P D ||",
+                        "sahitya": "- Su ka- ra - Dhru ta- Chaa - - - pa-- Baa- - - naa- - - yai- - -"
+                    },
+                    {
+                        "line_number": 18,
+                        "swara": "S - - D D N D - D,m | P - M P D N DP - dm | M G G R | R G G S ||",
+                        "sahitya": "Sho- - - bha- na- ka- ra - Ma- nu- ko- - - - naa- - - yai - - -"
+                    },
+                    {
+                        "line_number": 19,
+                        "swara": "S - R - G gpmp gm - P - M | nD, P - D - D P -D S - | sd- D - pg | GR S - ||",
+                        "sahitya": "Sa kun - ku maa- - di- Le -pa naa- yai Cha raa- cha raa di Kal - pa- naa- yai"
+                    },
+                    {
+                        "line_number": 20,
+                        "swara": "M G G - R R S sr N D- dr | sNd D P d R- s - sn D dm | pdrs N D | dm - P - ||",
+                        "sahitya": "Chiku ra Vi ji ta Nee- la gha naa-- yai- Chi- daa - nan - da- Pu--- rna Gha naa- - yai"
+                    },
+                    {
+                        "line_number": 21,
+                        "swara": "S - R - G gpmp gm - P - M | nD, P - D - D P -D S - | sd- D - pg | GR S - ||",
+                        "sahitya": "Sa kun - ku maa- - di- Le -pa naa- yai Cha raa- cha raa di Kal - pa- naa- yai"
+                    },
+                    {
+                        "line_number": 22,
+                        "swara": "M G G - R R S sr N D- dr | sNd D P d R- s - sn D dm | pdrs N D | dm - pdnd ||",
+                        "sahitya": "Chiku ra Vi ji ta Nee- la gha naa-- yai- Chi- daa - nan - da- Pu--- rna Gha naa- - yai"
+                    },
+                    {
+                        "line_number": 23,
+                        "swara": "mpdp",
+                        "sahitya": "- - - - (kamalambikaayai)"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "pdfPath": "PDFs/Kamalaambikayai_Kambodhi.pdf"
 }

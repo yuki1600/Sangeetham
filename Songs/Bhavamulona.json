@@ -1,211 +1,212 @@
 {
-  "song_details": {
-    "name": "Bhavamulona",
-    "raga": "Shuddha Dhanyasi",
-    "arohanam": "S G2 M1 P N2 S ||",
-    "avarohanam": "S N2 P M G2 S ||",
-    "tala": "Adi",
-    "composer": "Annamacharya"
-  },
-  "sections": {
-    "pallavi": [
-      {
-        "line_number": 1,
-        "swara": "- ns , n P mgpm gm- gs | - - S , p M | P N pm P ||",
-        "sahitya": "bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 2,
-        "swara": "- ns , n P mgpm gm- gs | - - ns , p M | P , nn pm P ||",
-        "sahitya": "bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 3,
-        "swara": "- gm , p N - n s , s S | - s g , n S | P n - pm G – gm ||",
-        "sahitya": "go- vin da- - - go- -vinda - ani kolu va- vo - mana"
-      },
-      {
-        "line_number": 4,
-        "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 5,
-        "swara": "- gm , p N - sgmg , n S | - s g , n S | P n - pm G – gm ||",
-        "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
-      },
-      {
-        "line_number": 6,
-        "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 7,
-        "swara": "- m m , m M M , m pm G | - gm , p - gm | npm - g S S ||",
-        "sahitya": "Ha ri ya va ta – ra mu le-- akhi - la de- - - - -va ta lu"
-      },
-      {
-        "line_number": 8,
-        "swara": "- - m m , m M M , m P – pmG | - gm , p - gm | npm - g S S ||",
-        "sahitya": "Ha ri ya va ta – ra mu le-- akhi - la de- - - - - va ta lu"
-      },
-      {
-        "line_number": 9,
-        "swara": "- - g m , g S sn gs ns np | - ns , g M | P ns , n P ||",
-        "sahitya": "Ha ri loni ve- - - - - - bra- hma- ndam- bu lu"
-      },
-      {
-        "line_number": 10,
-        "swara": "- - m m , m M mgs - gm P – pmG | - gm , p - gm | nppm g- s S ||",
-        "sahitya": "Ha ri ya va ta – ra mu le-- akhi - la de- - - -- va ta lu"
-      },
-      {
-        "line_number": 11,
-        "swara": "- - g m , g S sn gs ns np | - ns , g M | P ns , n P ||",
-        "sahitya": "Ha ri loni ve- - - - - - bra- hma- ndam- bu lu"
-      },
-      {
-        "line_number": 12,
-        "swara": "- g m , pnp P N n s - | - sg , n S | ssnp , n S ||",
-        "sahitya": "Ha ri -na- mamu le - - -an- -ni man tra- - mulu"
-      },
-      {
-        "line_number": 13,
-        "swara": "- g m , psnnP P N n s - | - sg , n S | nsN - npP , n S ||",
-        "sahitya": "Ha ri -na- mamu le - - -an- -ni man tra- - - - mulu"
-      },
-      {
-        "line_number": 14,
-        "swara": "- s g , n S - pn , m P | - m p , g P | m g S gm pn ||",
-        "sahitya": "Hari hari hari hari ha ri yana vo - - manasa"
-      },
-      {
-        "line_number": 15,
-        "swara": "- s g , n S - pn , m P | - n p , g P | m g S gm pn ||",
-        "sahitya": "Hari hari hari hari ha ri yana vo - - manasa"
-      },
-      {
-        "line_number": 16,
-        "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- - bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 17,
-        "swara": "- gm , p N - sgmg , n S | - s g , n S | P n - pm G – gm ||",
-        "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
-      },
-      {
-        "line_number": 18,
-        "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 19,
-        "swara": "- , m , m M M M Mpm G | - gm , p - gm | npm - g S S ||",
-        "sahitya": "Vish Nu ni ma hi ma le - - - vihi ta kar- - -- ma mulu"
-      },
-      {
-        "line_number": 20,
-        "swara": "- , m , m M M M P pmG | - gm , p - gm | nppm ,-g S S ||",
-        "sahitya": "Vish Nu ni ma hi ma le - - vihi ta kar- - -- ma mulu"
-      },
-      {
-        "line_number": 21,
-        "swara": "- , - g , s S S N gs np | - ns , g M | P ns , n P ||",
-        "sahitya": "Vish Nuni poga De- di- ve - - dam- bulu"
-      },
-      {
-        "line_number": 22,
-        "swara": "- , g , m- P P N N S | - sg , n S | ssnp , n S ||",
-        "sahitya": "Vish Nu Du okka De- vis- wanta ra-- tmudu"
-      },
-      {
-        "line_number": 23,
-        "swara": "- , g , m- pssn P N N S | - sg , n S | ssnp - , n S ||",
-        "sahitya": "Vish Nu Du ok ka De- vis- wanta ra-- tmudu"
-      },
-      {
-        "line_number": 24,
-        "swara": "- , g , n S - pn , m P | - M N P | pmgs - gm ||",
-        "sahitya": "Vi shnuvu vishnnu vani ve da ka vo -- mana"
-      },
-      {
-        "line_number": 25,
-        "swara": "pN- g , n S - pn , m P | - N np pm | pmgs - gmpn ||",
-        "sahitya": "sa Vi shnuvu vishnnu vani ve da ka vo -- mana"
-      },
-      {
-        "line_number": 26,
-        "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 27,
-        "swara": "- gm , p N - sgmg , n S | - s g , n S | P n - pm G – gm ||",
-        "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
-      },
-      {
-        "line_number": 28,
-        "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 29,
-        "swara": "- , m , m M M M Mpm G | - gm , p - gm | nppm G S ||",
-        "sahitya": "At chyutu I ta de - - A- di yu nan- - tya mu"
-      },
-      {
-        "line_number": 30,
-        "swara": "- , m , m M M P n- pmG , | - gm , p - gm | nppm- - G S ||",
-        "sahitya": "At chyutu I ta - de - - A- di yu nan- - tya mu"
-      },
-      {
-        "line_number": 31,
-        "swara": "- , - g , g S S N gs np | - ns , g M | P ns , n P ||",
-        "sahitya": "Atc hyutu De- - - - - asu - ran- ta - - kudu"
-      },
-      {
-        "line_number": 32,
-        "swara": "- , - g , g S S ns mg snP | - ns , g M | P ns , n P ||",
-        "sahitya": "Atc hyutu De- - - - - asu - ran- ta - - kudu"
-      },
-      {
-        "line_number": 33,
-        "swara": "- , g , m - P N - gs np- N | S- sg , n - S | ssnp , n S ||",
-        "sahitya": "At chyutu Du Sree -- ven ka ta- dri mee da- - nide"
-      },
-      {
-        "line_number": 34,
-        "swara": "- , g , m- P N -gs np- N | S - snsm gg - s S | ssnnpP, , n S ||",
-        "sahitya": "At chyutu Du Sree -- ven ka ta- - -dri mee da- - - nide"
-      },
-      {
-        "line_number": 35,
-        "swara": "- , g , n S - pn , m P | - n p , g P | mgS - gm ||",
-        "sahitya": "At chyuta - atchyu - ta Sa ra Na na vo - mana"
-      },
-      {
-        "line_number": 36,
-        "swara": "pN- g , n S - pn , m P | - n p , g P | mgS - gmpn",
-        "sahitya": "sa At chyuta - atchyu - ta Sa ra Na na vo - mana"
-      },
-      {
-        "line_number": 37,
-        "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      },
-      {
-        "line_number": 38,
-        "swara": "- gm , p N - ns , s- nsG | - s g , n S | P n - pm G – gm ||",
-        "sahitya": "go- vin da- - go- - vin da- - yani kolu va- vo - mana"
-      },
-      {
-        "line_number": 39,
-        "swara": "pn- ng s- n P gm - np pm- gs | - - ns , p M | P nsN pm P ||",
-        "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
-      }
-    ],
-    "anupallavi": [],
-    "charanams": []
-  }
+    "song_details": {
+        "name": "Bhavamulona",
+        "raga": "Shuddha Dhanyasi",
+        "arohanam": "S G2 M1 P N2 S ||",
+        "avarohanam": "S N2 P M G2 S ||",
+        "tala": "Adi",
+        "composer": "Annamacharya"
+    },
+    "sections": {
+        "pallavi": [
+            {
+                "line_number": 1,
+                "swara": "- ns , n P mgpm gm- gs | - - S , p M | P N pm P ||",
+                "sahitya": "bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 2,
+                "swara": "- ns , n P mgpm gm- gs | - - ns , p M | P , nn pm P ||",
+                "sahitya": "bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 3,
+                "swara": "- gm , p N - n s , s S | - s g , n S | P n - pm G \u2013 gm ||",
+                "sahitya": "go- vin da- - - go- -vinda - ani kolu va- vo - mana"
+            },
+            {
+                "line_number": 4,
+                "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 5,
+                "swara": "- gm , p N - sgmg , n S | - s g , n S | P n - pm G \u2013 gm ||",
+                "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
+            },
+            {
+                "line_number": 6,
+                "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 7,
+                "swara": "- m m , m M M , m pm G | - gm , p - gm | npm - g S S ||",
+                "sahitya": "Ha ri ya va ta \u2013 ra mu le-- akhi - la de- - - - -va ta lu"
+            },
+            {
+                "line_number": 8,
+                "swara": "- - m m , m M M , m P \u2013 pmG | - gm , p - gm | npm - g S S ||",
+                "sahitya": "Ha ri ya va ta \u2013 ra mu le-- akhi - la de- - - - - va ta lu"
+            },
+            {
+                "line_number": 9,
+                "swara": "- - g m , g S sn gs ns np | - ns , g M | P ns , n P ||",
+                "sahitya": "Ha ri loni ve- - - - - - bra- hma- ndam- bu lu"
+            },
+            {
+                "line_number": 10,
+                "swara": "- - m m , m M mgs - gm P \u2013 pmG | - gm , p - gm | nppm g- s S ||",
+                "sahitya": "Ha ri ya va ta \u2013 ra mu le-- akhi - la de- - - -- va ta lu"
+            },
+            {
+                "line_number": 11,
+                "swara": "- - g m , g S sn gs ns np | - ns , g M | P ns , n P ||",
+                "sahitya": "Ha ri loni ve- - - - - - bra- hma- ndam- bu lu"
+            },
+            {
+                "line_number": 12,
+                "swara": "- g m , pnp P N n s - | - sg , n S | ssnp , n S ||",
+                "sahitya": "Ha ri -na- mamu le - - -an- -ni man tra- - mulu"
+            },
+            {
+                "line_number": 13,
+                "swara": "- g m , psnnP P N n s - | - sg , n S | nsN - npP , n S ||",
+                "sahitya": "Ha ri -na- mamu le - - -an- -ni man tra- - - - mulu"
+            },
+            {
+                "line_number": 14,
+                "swara": "- s g , n S - pn , m P | - m p , g P | m g S gm pn ||",
+                "sahitya": "Hari hari hari hari ha ri yana vo - - manasa"
+            },
+            {
+                "line_number": 15,
+                "swara": "- s g , n S - pn , m P | - n p , g P | m g S gm pn ||",
+                "sahitya": "Hari hari hari hari ha ri yana vo - - manasa"
+            },
+            {
+                "line_number": 16,
+                "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- - bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 17,
+                "swara": "- gm , p N - sgmg , n S | - s g , n S | P n - pm G \u2013 gm ||",
+                "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
+            },
+            {
+                "line_number": 18,
+                "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 19,
+                "swara": "- , m , m M M M Mpm G | - gm , p - gm | npm - g S S ||",
+                "sahitya": "Vish Nu ni ma hi ma le - - - vihi ta kar- - -- ma mulu"
+            },
+            {
+                "line_number": 20,
+                "swara": "- , m , m M M M P pmG | - gm , p - gm | nppm ,-g S S ||",
+                "sahitya": "Vish Nu ni ma hi ma le - - vihi ta kar- - -- ma mulu"
+            },
+            {
+                "line_number": 21,
+                "swara": "- , - g , s S S N gs np | - ns , g M | P ns , n P ||",
+                "sahitya": "Vish Nuni poga De- di- ve - - dam- bulu"
+            },
+            {
+                "line_number": 22,
+                "swara": "- , g , m- P P N N S | - sg , n S | ssnp , n S ||",
+                "sahitya": "Vish Nu Du okka De- vis- wanta ra-- tmudu"
+            },
+            {
+                "line_number": 23,
+                "swara": "- , g , m- pssn P N N S | - sg , n S | ssnp - , n S ||",
+                "sahitya": "Vish Nu Du ok ka De- vis- wanta ra-- tmudu"
+            },
+            {
+                "line_number": 24,
+                "swara": "- , g , n S - pn , m P | - M N P | pmgs - gm ||",
+                "sahitya": "Vi shnuvu vishnnu vani ve da ka vo -- mana"
+            },
+            {
+                "line_number": 25,
+                "swara": "pN- g , n S - pn , m P | - N np pm | pmgs - gmpn ||",
+                "sahitya": "sa Vi shnuvu vishnnu vani ve da ka vo -- mana"
+            },
+            {
+                "line_number": 26,
+                "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 27,
+                "swara": "- gm , p N - sgmg , n S | - s g , n S | P n - pm G \u2013 gm ||",
+                "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
+            },
+            {
+                "line_number": 28,
+                "swara": "pn- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 29,
+                "swara": "- , m , m M M M Mpm G | - gm , p - gm | nppm G S ||",
+                "sahitya": "At chyutu I ta de - - A- di yu nan- - tya mu"
+            },
+            {
+                "line_number": 30,
+                "swara": "- , m , m M M P n- pmG , | - gm , p - gm | nppm- - G S ||",
+                "sahitya": "At chyutu I ta - de - - A- di yu nan- - tya mu"
+            },
+            {
+                "line_number": 31,
+                "swara": "- , - g , g S S N gs np | - ns , g M | P ns , n P ||",
+                "sahitya": "Atc hyutu De- - - - - asu - ran- ta - - kudu"
+            },
+            {
+                "line_number": 32,
+                "swara": "- , - g , g S S ns mg snP | - ns , g M | P ns , n P ||",
+                "sahitya": "Atc hyutu De- - - - - asu - ran- ta - - kudu"
+            },
+            {
+                "line_number": 33,
+                "swara": "- , g , m - P N - gs np- N | S- sg , n - S | ssnp , n S ||",
+                "sahitya": "At chyutu Du Sree -- ven ka ta- dri mee da- - nide"
+            },
+            {
+                "line_number": 34,
+                "swara": "- , g , m- P N -gs np- N | S - snsm gg - s S | ssnnpP, , n S ||",
+                "sahitya": "At chyutu Du Sree -- ven ka ta- - -dri mee da- - - nide"
+            },
+            {
+                "line_number": 35,
+                "swara": "- , g , n S - pn , m P | - n p , g P | mgS - gm ||",
+                "sahitya": "At chyuta - atchyu - ta Sa ra Na na vo - mana"
+            },
+            {
+                "line_number": 36,
+                "swara": "pN- g , n S - pn , m P | - n p , g P | mgS - gmpn",
+                "sahitya": "sa At chyuta - atchyu - ta Sa ra Na na vo - mana"
+            },
+            {
+                "line_number": 37,
+                "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            },
+            {
+                "line_number": 38,
+                "swara": "- gm , p N - ns , s- nsG | - s g , n S | P n - pm G \u2013 gm ||",
+                "sahitya": "go- vin da- - go- - vin da- - yani kolu va- vo - mana"
+            },
+            {
+                "line_number": 39,
+                "swara": "pn- ng s- n P gm - np pm- gs | - - ns , p M | P nsN pm P ||",
+                "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+            }
+        ],
+        "anupallavi": [],
+        "charanams": []
+    },
+    "pdfPath": "PDFs/Bhavamulona_Shuddha_Dhanyasi.pdf"
 }
