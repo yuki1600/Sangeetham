@@ -16,7 +16,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "M G M - D M \u2013 G M G R \u2013 rs S - - sngr rs S - - ||",
+                "swara": "M G M - D M - G M G R - rs S - - sngr rs S - - ||",
                 "sahitya": "Shaa- - - - staa- - - ram-- - - Sa- - daa- - -"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "M G M - D M \u2013 G M G R \u2013 rs S - - sngr rs S - - ||",
+                "swara": "M G M - D M - G M G R - rs S - - sngr rs S - - ||",
                 "sahitya": "Shaa- - - - staa- - - ram-- - - Sa- - daa- - -"
             },
             {
@@ -56,7 +56,7 @@
             },
             {
                 "line_number": 10,
-                "swara": "GM dn srsn D M \u2013 G M G R \u2013 rs S - - sngr rs S - - ||",
+                "swara": "GM dn srsn D M - G M G R - rs S - - sngr rs S - - ||",
                 "sahitya": "Shaa- - - - - - - staa- - - - ram-- - - Sa- - daa- - -"
             },
             {
@@ -76,7 +76,7 @@
             },
             {
                 "line_number": 14,
-                "swara": "GM dn srsn D M \u2013 G M G R \u2013 rs S - - sngr rs S - - ||",
+                "swara": "GM dn srsn D M - G M G R - rs S - - sngr rs S - - ||",
                 "sahitya": "Shaa- - - - - - staa- - - ram-- - - Sa- - daa- - -"
             },
             {
@@ -86,7 +86,7 @@
             },
             {
                 "line_number": 16,
-                "swara": "S - - - nssg rs S - - nsrs , n - dnsn , d - mdnd , m drsn dmdn ||",
+                "swara": "S - - - nssg rs S - - nsrs - n - dnsn - d - mdnd - m drsn dmdn ||",
                 "sahitya": "Kaa- - ---- r yam-- - - Tya- - je - - - - - - - - ham - - -"
             },
             {
@@ -98,23 +98,23 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "1. M ,m M - D N S - - - S - S - - - S sg rs S ||",
+                "swara": "1. M -m M - D N S - - - S - S - - - S sg rs S ||",
                 "sahitya": "Mu - ra - ha - raa- - - di- Mo - - hi - - ta - -"
             },
             {
                 "line_number": 2,
                 "swara": "N D D R sn D D N D M M - D - N - S - - - ||",
-                "sahitya": "Shau- - - ri - Gi- ri - vi \u2013 haa- - - ram- -"
+                "sahitya": "Shau- - - ri - Gi- ri - vi - haa- - - ram- -"
             },
             {
                 "line_number": 3,
-                "swara": "2. M ,m M - D N S - - - S - S - - - nssg rs S ||",
+                "swara": "2. M -m M - D N S - - - S - S - - - nssg rs S ||",
                 "sahitya": "Mu - ra - ha - raa- - - di- Mo - - hi - - ta - -"
             },
             {
                 "line_number": 4,
                 "swara": "sn D dnrs sn D dn sn D M M - D - N - S - - - ||",
-                "sahitya": "Shau- - - ri - Gi- - - ri - vi \u2013 haa- - - ram- -"
+                "sahitya": "Shau- - - ri - Gi- - - ri - vi - haa- - - ram- -"
             },
             {
                 "line_number": 5,
@@ -123,23 +123,23 @@
             },
             {
                 "line_number": 6,
-                "swara": "N S - - D N DM D - D R sn D \u2013 D M D N - - ||",
-                "sahitya": "Vaa- - dyaa- - - di \u2013 Pri - ya-- ka - ram - -"
+                "swara": "N S - - D N DM D - D R sn D - D M D N - - ||",
+                "sahitya": "Vaa- - dyaa- - - di - Pri - ya-- ka - ram - -"
             },
             {
                 "line_number": 7,
                 "swara": "D M D N S - S N R S - - - - - - - - - - ||",
-                "sahitya": "Prar- tthi ta Pu \u2013 tra- pradam- - - - - - - - -"
+                "sahitya": "Prar- tthi ta Pu - tra- pradam- - - - - - - - -"
             },
             {
                 "line_number": 8,
-                "swara": "D M D N S - S N R S - M , g - R - G R S - S - ||",
-                "sahitya": "Prar- tthi ta Pu \u2013 tra- pradam- Va san - ta nata Brn dam"
+                "swara": "D M D N S - S N R S - M - g - R - G R S - S - ||",
+                "sahitya": "Prar- tthi ta Pu - tra- pradam- Va san - ta nata Brn dam"
             },
             {
                 "line_number": 9,
-                "swara": "R - S - D N M D M M - G R S \u2013 D , n - M , D , ||",
-                "sahitya": "Dir ghaa yush- prada Di - - na ja na su \u2013 kha \u2013pra- dam-"
+                "swara": "R - S - D N M D M M - G R S - D - n - M - D - ||",
+                "sahitya": "Dir ghaa yush- prada Di - - na ja na su - kha -pra- dam-"
             },
             {
                 "line_number": 10,
@@ -148,7 +148,7 @@
             },
             {
                 "line_number": 11,
-                "swara": "GM dn srsn D M \u2013 G M G R \u2013 rs S - - sngr rs S - - ||",
+                "swara": "GM dn srsn D M - G M G R - rs S - - sngr rs S - - ||",
                 "sahitya": "Shaa- - - - - - staa- - - ram-- - - Sa- - daa- - -"
             },
             {
@@ -158,7 +158,7 @@
             },
             {
                 "line_number": 13,
-                "swara": "S - - - nssg rs S - - nsrs , n - dnsn , d - mdnd , m drsn dmdn ||",
+                "swara": "S - - - nssg rs S - - nsrs - n - dnsn - d - mdnd - m drsn dmdn ||",
                 "sahitya": "Kaa- - ---- r yam-- - - Tya- - je - - - - - - - - ham - - -"
             },
             {
@@ -173,7 +173,7 @@
                     {
                         "line_number": 1,
                         "swara": "S - - - - - M - M - M - - - - GM mg R S - ||",
-                        "sahitya": "Phaal- gu na Maa- - - - - - - - - - sa \u2013"
+                        "sahitya": "Phaal- gu na Maa- - - - - - - - - - sa -"
                     },
                     {
                         "line_number": 2,
@@ -183,7 +183,7 @@
                     {
                         "line_number": 3,
                         "swara": "S - - - S M M - M - - - D - D N D M D N ||",
-                        "sahitya": "Paa- - - - ndya Ke - - ra- laa - - - di \u2013"
+                        "sahitya": "Paa- - - - ndya Ke - - ra- laa - - - di -"
                     },
                     {
                         "line_number": 4,
@@ -193,17 +193,17 @@
                     {
                         "line_number": 5,
                         "swara": "S - - - - - S - S - S - - - - - sngr rs S ||",
-                        "sahitya": "Pu- - - - spa Sha-re- - - - - - - - kshu\u2014"
+                        "sahitya": "Pu- - - - spa Sha-re- - - - - - - - kshu—"
                     },
                     {
                         "line_number": 6,
-                        "swara": "G - - - M - M - G M \u2013 G M GR - - - - - - ||",
+                        "swara": "G - - - M - M - G M - G M GR - - - - - - ||",
                         "sahitya": "Kaar - - mu- ka - Dha- ram- - - - - - - - -"
                     },
                     {
                         "line_number": 7,
                         "swara": "S - - - - - srsn dmD N - - - DN DM D - ||",
-                        "sahitya": "Phu-- - - lla \u2013 Kal- - - - - haa- - - ra"
+                        "sahitya": "Phu-- - - lla - Kal- - - - - haa- - - ra"
                     },
                     {
                         "line_number": 8,
@@ -212,12 +212,12 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "S S S N DN DM D - - D N DM \u2013 mgmd M mg R S ||",
+                        "swara": "S S S N DN DM D - - D N DM - mgmd M mg R S ||",
                         "sahitya": "Kaliyuga Pra-tya- ksham Gar- vita Da- - - ksha shi-- ksham"
                     },
                     {
                         "line_number": 10,
-                        "swara": "M G R S S M - M md M D - S N D N d M \u2013 D , N ||",
+                        "swara": "M G R S S M - M md M D - S N D N d M - D - N ||",
                         "sahitya": "Varaguru guhaanta ran- - gam- Rathagaja tu - ran-gam"
                     }
                 ]

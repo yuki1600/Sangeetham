@@ -51,7 +51,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "S - - G R S || , r s n p n pm g m p n ||",
+                "swara": "S - - G R S || - r s n p n pm g m p n ||",
                 "sahitya": "Sun da- ru-la Bhajim-- pa-ve- Manasa-!"
             },
             {
@@ -61,7 +61,7 @@
             },
             {
                 "line_number": 11,
-                "swara": "S - - G R S || , r s n p n pm g m p n ||",
+                "swara": "S - - G R S || - r s n p n pm g m p n ||",
                 "sahitya": "Sun da- ru-la Bhajim-- pa-ve- Manasa-!"
             },
             {
@@ -93,7 +93,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "mgrs N - sn pm G || pm gr sn - gm , p N ||",
+                "swara": "mgrs N - sn pm G || pm gr sn - gm - p N ||",
                 "sahitya": "Naa-- - saa - - - dhu--- la- Yan- du -"
             },
             {
@@ -103,17 +103,17 @@
             },
             {
                 "line_number": 7,
-                "swara": "- p p , P , mp N || P - m g pm G - ||",
+                "swara": "- p p - P - mp N || P - m g pm G - ||",
                 "sahitya": "Dhara - Rig Saa-- maa- du - la- lo -"
             },
             {
                 "line_number": 8,
-                "swara": "- p p , P , mp N || p n sn P M G - ||",
+                "swara": "- p p - P - mp N || p n sn P M G - ||",
                 "sahitya": "Dhara - Rig Saa-- maa- du - la- lo -"
             },
             {
                 "line_number": 9,
-                "swara": "M M pm gr R S || - g m , p M P - ||",
+                "swara": "M M pm gr R S || - g m - p M P - ||",
                 "sahitya": "Va ra- Gaa-- yathri - Hruda yamu na"
             },
             {
@@ -143,7 +143,7 @@
             },
             {
                 "line_number": 15,
-                "swara": "mgrs N- sn pm G || pm g r sn - gm , p N ||",
+                "swara": "mgrs N- sn pm G || pm g r sn - gm - p N ||",
                 "sahitya": "Shu-- bha Tya - - ga ra- -ju - - ni- Yeda"
             }
         ],

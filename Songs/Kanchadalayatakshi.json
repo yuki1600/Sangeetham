@@ -11,22 +11,22 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- S , n D P - M mg | pm \u2013 G - - - - - - ||",
+                "swara": "- S - n D P - M mg | pm - G - - - - - - ||",
                 "sahitya": "Kan cha Da laa ya taa- - - kshi - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "- S , n D P - M mg | pm \u2013 G - sn sg- mg M \u2013 P ||",
+                "swara": "- S - n D P - M mg | pm - G - sn sg- mg M - P ||",
                 "sahitya": "Kan cha Da laa ya taa- - - kshi - Kaa -- maa - kshi"
             },
             {
                 "line_number": 3,
-                "swara": "- nd , P , M \u2013 G - pm | G , - d pd mp gmpn , s g s ||",
+                "swara": "- nd - P - M - G - pm | G - - d pd mp gmpn - s g s ||",
                 "sahitya": "Kama - laa Ma no - ha- ri Tripu- ra- Sun- - - dari-"
             },
             {
                 "line_number": 4,
-                "swara": "mg S , n D pmP M mg | pm \u2013 G - gm P \u2013 pm mG s ||",
+                "swara": "mg S - n D pmP M mg | pm - G - gm P - pm mG s ||",
                 "sahitya": "- - Kan cha Da laa ya taa- - - kshi - Kaa -- maa - - -"
             },
             {
@@ -39,21 +39,21 @@
             {
                 "line_number": 1,
                 "swara": "S s g s g M - g m P p m | gm pm g m P - mg pm mg ||",
-                "sahitya": "Kuchera Gamane \u2013 Mani manditha Man-jula Chara ne - - - - - - -"
+                "sahitya": "Kuchera Gamane - Mani manditha Man-jula Chara ne - - - - - - -"
             },
             {
                 "line_number": 2,
                 "swara": "S s g s g M - g m P p m | gm pn p n S - nd pmgs ||",
-                "sahitya": "Kuchera Gamane \u2013 Mani manditha Man-jula Chara ne - - - - - - -"
+                "sahitya": "Kuchera Gamane - Mani manditha Man-jula Chara ne - - - - - - -"
             },
             {
                 "line_number": 3,
                 "swara": "S s g s p pmM - g m P p m | gm pn p n S - sn s g s g ||",
-                "sahitya": "Kuchera Gamane \u2013 Mani manditha Man-jula Chara ne Maa mava Shiva"
+                "sahitya": "Kuchera Gamane - Mani manditha Man-jula Chara ne Maa mava Shiva"
             },
             {
                 "line_number": 4,
-                "swara": "G m g s n \u2013 S n d p m g m p n | S s n p n d \u2013 p , pm \u2013 g M p n ||",
+                "swara": "G m g s n - S n d p m g m p n | S s n p n d - p - pm - g M p n ||",
                 "sahitya": "Panchara Sukhi Pankajamukhi Guruguha Ranjani Duritha Bhan jani Ni ranjani"
             }
         ],
@@ -62,23 +62,23 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- P d \u2013 P, - mg , p M | G - - - - - - - ||",
+                        "swara": "- P d - P- - mg - p M | G - - - - - - - ||",
                         "sahitya": "Raa - kaa Sashi Vada ne- - - - - - -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- P d \u2013 P, - gm pm \u2013 gm pm | G - , g S GG M - ||",
+                        "swara": "- P d - P- - gm pm - gm pm | G - - g S GG M - ||",
                         "sahitya": "Raa - kaa Sa- shi Va- da ne- Su- radha ne"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- nd , \u2013 P, - mp dp \u2013 gm pm | G - , g S GG M - ||",
+                        "swara": "- nd - - P- - mp dp - gm pm | G - - g S GG M - ||",
                         "sahitya": "Raa - kaa Sa- shi Va- da ne- Su- radha ne"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- G , m G S N S - | - ss G mg sgmg M - ||",
-                        "sahitya": "Ra kshita Mada ne Ra- - than- Sa-da- ne \u2013"
+                        "swara": "- G - m G S N S - | - ss G mg sgmg M - ||",
+                        "sahitya": "Ra kshita Mada ne Ra- - than- Sa-da- ne -"
                     },
                     {
                         "line_number": 5,
@@ -92,22 +92,22 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "- S , S , sn D P , d | pm \u2013 gm P M mg pm mg G ||",
+                        "swara": "- S - S - sn D P - d | pm - gm P M mg pm mg G ||",
                         "sahitya": "Shrin gaa- raa- - shra ya - - Man- - dha Ha-sa- ne- -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "- S snsg sn D dP - d | pm \u2013 gm P M mg pm mg G ||",
+                        "swara": "- S snsg sn D dP - d | pm - gm P M mg pm mg G ||",
                         "sahitya": "Shrin gaa- raa- - shra ya - - Man- - dha Ha-sa- ne- -"
                     },
                     {
                         "line_number": 9,
-                        "swara": "gmgs sn S g m p m P p p | , d p d pm mg gm pm P p p ||",
+                        "swara": "gmgs sn S g m p m P p p | - d p d pm mg gm pm P p p ||",
                         "sahitya": "E- kaa- e- ka kshari Bhuva neshwari Ekaa- nan-daa- mrutha Jari Bhaashwari"
                     },
                     {
                         "line_number": 10,
-                        "swara": "s n S g s G s g m g s n p n | S S n d p \u2013 d P p m g m p n ||",
+                        "swara": "s n S g s G s g m g s n p n | S S n d p - d P p m g m p n ||",
                         "sahitya": "E- kaa gramano Layahari Sri-kari E kam bre-sha Gruhe shwari Shan- ka ri"
                     }
                 ]

@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Sri Ganapathini",
         "raga": "Sowrastram",
-        "arohanam": "S R\u2081 G\u2083 M\u2081 P M\u2081 D\u2082 N\u2083 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2083 D\u2082 N\u2082 D\u2082 P M\u2081 G\u2083 R\u2081 S ||",
+        "arohanam": "S R₁ G₃ M₁ P M₁ D₂ N₃ Ṡ ||",
+        "avarohanam": "Ṡ N₃ D₂ N₂ D₂ P M₁ G₃ R₁ S ||",
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
@@ -12,17 +12,17 @@
             {
                 "line_number": 1,
                 "swara": "- - D N - S S - dn S snD D - dNd | P - - P M - DPM gmPmg R R - R - ||",
-                "sahitya": "sri - ga na pa- - - -- thi- ni - - - -- - se \u2013 vim-pa ra- - - - - - -"
+                "sahitya": "sri - ga na pa- - - -- thi- ni - - - -- - se - vim-pa ra- - - - - - -"
             },
             {
                 "line_number": 2,
                 "swara": "rs S D N - S S - dn Srs nsnd D - dNd | P - - P M - DPM gmpd nsrs sndp mgrs ||",
-                "sahitya": "re \u2013 sri - ga na pa--- - - - thi ni - - - - - se- vim-pa ra- - - - - - -- - - -- - -"
+                "sahitya": "re - sri - ga na pa--- - - - thi ni - - - - - se- vim-pa ra- - - - - - -- - - -- - -"
             },
             {
                 "line_number": 3,
-                "swara": "R - -S R S - R - GMPM P, n d N d | P - - P M- D P M gmpd nsrs sndp mgrs || R -",
-                "sahitya": "re Sri tha ma- -- na \u2013vu- la- - ra - - - - - se- - vim-pa ra- - - -- - -- -- - - - -"
+                "swara": "R - -S R S - R - GMPM P- n d N d | P - - P M- D P M gmpd nsrs sndp mgrs || R -",
+                "sahitya": "re Sri tha ma- -- na -vu- la- - ra - - - - - se- - vim-pa ra- - - -- - -- -- - - - -"
             }
         ],
         "anupallavi": [
@@ -33,13 +33,13 @@
             },
             {
                 "line_number": 2,
-                "swara": "P - ndpm gr \u2013srgm pd nsrs n s rs S R rsS | - - - S - rg r s S - dn Srs nsnd D- dNd ||",
-                "sahitya": "- - va- - - -ga----- -- di--- pa--- thi \u2013su-- bhu - ja lu\u2014 che- - - - - -- ko ni- -"
+                "swara": "P - ndpm gr -srgm pd nsrs n s rs S R rsS | - - - S - rg r s S - dn Srs nsnd D- dNd ||",
+                "sahitya": "- - va- - - -ga----- -- di--- pa--- thi -su-- bhu - ja lu— che- - - - - -- ko ni- -"
             },
             {
                 "line_number": 3,
-                "swara": "P - S - N - G R S dn Srs nsnd D- d N d | P - - , n dNd P - mg P mgR GMPM || ndpm",
-                "sahitya": "- - bha \u2013 ga \u2013na tim - - - - -- pu chu - - - - - - - nu---- ve - - da-- li- na - - - - -"
+                "swara": "P - S - N - G R S dn Srs nsnd D- d N d | P - - - n dNd P - mg P mgR GMPM || ndpm",
+                "sahitya": "- - bha - ga -na tim - - - - -- pu chu - - - - - - - nu---- ve - - da-- li- na - - - - -"
             }
         ],
         "charanams": [
@@ -52,23 +52,23 @@
                     },
                     {
                         "line_number": 2,
-                        "swara": "P d n P P - M gmpd nd pm gr R , R , R - | s n D R S R - R - G M mgmp m g R srgm ||",
-                        "sahitya": "Pana- sa Na ri ke - - la - - - - - thi \u2013 jam bhu pha-la mula Na ra gim - - - - - chi - - - - - -"
+                        "swara": "P d n P P - M gmpd nd pm gr R - R - R - | s n D R S R - R - G M mgmp m g R srgm ||",
+                        "sahitya": "Pana- sa Na ri ke - - la - - - - - thi - jam bhu pha-la mula Na ra gim - - - - - chi - - - - - -"
                     },
                     {
                         "line_number": 3,
                         "swara": "D N S sn D d n P M M P dndp mpmg R S | S - N R - R R - M - mgmp mgR R - ||",
-                        "sahitya": "Ghanatha ram- bu- ganu ma hi pai\u2014 pa-da- mula ghal lu ghal la na nun - - - - chi - - - -"
+                        "sahitya": "Ghanatha ram- bu- ganu ma hi pai— pa-da- mula ghal lu ghal la na nun - - - - chi - - - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "R G M m g R -S R -S D P p p m g R S S R | P , m gmpm G M P D NS nsrs R - R - ||",
-                        "sahitya": "Ana ya mu na Hari cha rana yu ga \u2013 mula hruda yam------ -- bu ja mu la nun ---- chi ---"
+                        "swara": "R G M m g R -S R -S D P p p m g R S S R | P - m gmpm G M P D NS nsrs R - R - ||",
+                        "sahitya": "Ana ya mu na Hari cha rana yu ga - mula hruda yam------ -- bu ja mu la nun ---- chi ---"
                     },
                     {
                         "line_number": 5,
                         "swara": "S r g M G R S S - r g r s S - N D D P M | D N S - D D P - P - d n dp - M G R G M || P M",
-                        "sahitya": "Vi na-yumu nanu thia ga \u2013 ra ja vi nu thudu Vividha Ga thula Theep tha lan gu mani veda lina"
+                        "sahitya": "Vi na-yumu nanu thia ga - ra ja vi nu thudu Vividha Ga thula Theep tha lan gu mani veda lina"
                     }
                 ]
             }

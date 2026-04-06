@@ -11,27 +11,27 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "R R - G R S || D - D \u2013 S - S || R R - G g r r s || G R - D - S ||",
+                "swara": "R R - G R S || D - D - S - S || R R - G g r r s || G R - D - S ||",
                 "sahitya": "Sa bha pa thi kku Ve re dai vam Sa maa na maa -- gu maa Thil lai"
             },
             {
                 "line_number": 2,
-                "swara": "r g M - G R S || rs D D \u2013 S - S || r g M - rs g r R || r g M - D - S ||",
+                "swara": "r g M - G R S || rs D D - S - S || r g M - rs g r R || r g M - D - S ||",
                 "sahitya": "Sa bha pa thi kku Ve re dai vam Sa - maa na maa -- gu maa Thil lai"
             },
             {
                 "line_number": 3,
-                "swara": "r g M - G R S || rs D D \u2013 S - S || r g M - g m D - || srs \u2013 ds d mdm grs ||",
+                "swara": "r g M - G R S || rs D D - S - S || r g M - g m D - || srs - ds d mdm grs ||",
                 "sahitya": "Sa bha pa thi kku Ve re dai vam Sa - maa na- maa -- gu maa Thil lai"
             },
             {
                 "line_number": 4,
-                "swara": "r g md sd M G R || r r s d D \u2013 S - S || r g m \u2013 g m d \u2013 md s d S || gr r s sd \u2013 mg m g rs ||",
+                "swara": "r g md sd M G R || r r s d D - S - S || r g m - g m d - md s d S || gr r s sd - mg m g rs ||",
                 "sahitya": "Sa bha pa thi kku Ve re dai vam Sa - - maa- - na - maa - gu maa-- Thil - lai--"
             },
             {
                 "line_number": 5,
-                "swara": "R R - G R S || r s D D \u2013 S - S || R R gm G g r r s || G R - ---- ||",
+                "swara": "R R - G R S || r s D D - S - S || R R gm G g r r s || G R - ---- ||",
                 "sahitya": "Sa bha pa thi kku Ve re dai vam Sa maa na maa -- gu maa"
             }
         ],
@@ -43,17 +43,17 @@
             },
             {
                 "line_number": 2,
-                "swara": "D D - S R - || - s r G \u2013 g r R S || s r G G g r R s s || D - M - M g r S ||",
+                "swara": "D D - S R - || - s r G - g r R S || s r G G g r R s s || D - M - M g r S ||",
                 "sahitya": "Kru paa ni dhi Iva rai po- - la Ki dai ku moo - Indha Bhoo- mi Than nil --"
             },
             {
                 "line_number": 3,
-                "swara": "s r s R , s d- S R - || - s r G \u2013 g r R S || s r G G g r S- s s || D - M - M g r S ||",
+                "swara": "s r s R - s d- S R - || - s r G - g r R S || s r G G g r S- s s || D - M - M g r S ||",
                 "sahitya": "Kru paa ni dhi Iva rai po- - la Ki dai ku moo - Indha Bhoo- mi Than nil --"
             },
             {
                 "line_number": 4,
-                "swara": "S g r s S d ,- S R - || - r g M \u2013 g r R S || s r G G g r R s s || d r s s D- M - M g r S ||",
+                "swara": "S g r s S d -- S R - || - r g M - g r R S || s r G G g r R s s || d r s s D- M - M g r S ||",
                 "sahitya": "Kru paa ni dhi Iva rai po- - la Ki dai ku moo - Indha Bhoo- mi Than nil --"
             }
         ],
@@ -62,22 +62,22 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- g M d D \u2013 D D || D d r s s - D M - M || M - m m g r G - R G || M - - - -- ||",
+                        "swara": "- g M d D - D D || D d r s s - D M - M || M - m m g r G - R G || M - - - -- ||",
                         "sahitya": "O ru tharam Shi va Chi dam ba ram En dru Son- naal-- Po dhu me"
                     },
                     {
                         "line_number": 2,
                         "swara": "- d S r G - R G - || s r sr gr S - d s dsrs D || m m g r S - R - d m || G - - - -- ||",
-                        "sahitya": "Para gathi Pe ra Ve- - - ru Pun - - - iyam Pan- na - - Ven du - maa \u2013"
+                        "sahitya": "Para gathi Pe ra Ve- - - ru Pun - - - iyam Pan- na - - Ven du - maa -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- s d S - R R R || R - R \u2013 G g r R || - R R \u2013 s r G R || S - D S - S ||",
+                        "swara": "- s d S - R R R || R - R - G g r R || - R R - s r G R || S - D S - S ||",
                         "sahitya": "A ri ya Pu la yar Moo var Paa dam -- A dain daa - ren dru Pu raa nam"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- s d S - S R R || s r G G \u2013 R - R || S , r G \u2013 g r R S || s d s d M \u2013 M g r S ||",
+                        "swara": "- s d S - S R R || s r G G - R - R || S - r G - g r R S || s d s d M - M g r S ||",
                         "sahitya": "A rin dhu Son - nna Ke- - ttom - Go paa - la kri - shnan Paa -- - dum Thil lai - -"
                     }
                 ]

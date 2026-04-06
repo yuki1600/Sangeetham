@@ -16,7 +16,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "mggm mg S s s n d , n N | S - - S | M G g m d n ||",
+                "swara": "mggm mg S s s n d - n N | S - - S | M G g m d n ||",
                 "sahitya": "Saa ma ja Va-ra- -gama naa - Saa - dhu Hrut - -"
             },
             {
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "G , m D , n S , n d m d n | S - S , n | d n s n d m d n ||",
+                "swara": "G - m D - n S - n d m d n | S - S - n | d n s n d m d n ||",
                 "sahitya": "Saa-ra saa-bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "G mg GM Dnd D N S , n d m d n | S - S , n | d n s n d m d n ||",
+                "swara": "G mg GM Dnd D N S - n d m d n | S - S - n | d n s n d m d n ||",
                 "sahitya": "Saa-- - ra saa- - bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
             },
             {
@@ -46,12 +46,12 @@
             },
             {
                 "line_number": 8,
-                "swara": "G mg GM Dnd D N S , n d m d n | S - S , n | d n s n d m d n ||",
+                "swara": "G mg GM Dnd D N S - n d m d n | S - S - n | d n s n d m d n ||",
                 "sahitya": "Saa-- - ra saa- - bja Paa-la Kaa- - - laa- tee- ta Vi-khyaa- - ta-"
             },
             {
                 "line_number": 9,
-                "swara": "S g s ndD M g s g s , d N | S - - - | - - - - ||",
+                "swara": "S g s ndD M g s g s - d N | S - - - | - - - - ||",
                 "sahitya": "Saa- - - ma- -ja Va-ra- Gama naa - - - - - -"
             }
         ],
@@ -68,17 +68,17 @@
             },
             {
                 "line_number": 3,
-                "swara": "S - M - N D N S - N | S , g S N | D N S - G ||",
+                "swara": "S - M - N D N S - N | S - g S N | D N S - G ||",
                 "sahitya": "Saa ma Ni ga ma ja Su dhaa- maya Gaa- na Vi"
             },
             {
                 "line_number": 4,
-                "swara": "M - m g S s n D d n s -g | S , n D , n | s n d m g m d n ||",
+                "swara": "M - m g S s n D d n s -g | S - n D - n | s n d m g m d n ||",
                 "sahitya": "cha ksha-na Gu- na shee-la Da yaa-la vaa-la Maam - Paa- laya"
             },
             {
                 "line_number": 5,
-                "swara": "S - M - N D N S - N | S , g S N | D N S - G ||",
+                "swara": "S - M - N D N S - N | S - g S N | D N S - G ||",
                 "sahitya": "Saa ma Ni ga ma ja Su dhaa- maya Gaa- na Vi"
             },
             {
@@ -107,7 +107,7 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "M - G - S , n D d n s g | S , n D , n | sn d m g m d n ||",
+                        "swara": "M - G - S - n D d n s g | S - n D - n | sn d m g m d n ||",
                         "sahitya": "no- da Mo - hana ka- ra- Tyaa-ga raa-ja Van--da nee- - ya"
                     }
                 ]

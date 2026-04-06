@@ -12,31 +12,31 @@
             {
                 "line_number": 1,
                 "swara": "- - - R S - S - N S snP nsrs R - | - - - R - P - M | R G pm M S R rs S ||",
-                "sahitya": "Vai yaththu vaazh--- veer-- gaal! - - -naa \u2013 mum- nam paa- - - - - vai kku-"
+                "sahitya": "Vai yaththu vaazh--- veer-- gaal! - - -naa - mum- nam paa- - - - - vai kku-"
             },
             {
                 "line_number": 2,
-                "swara": "- - - sr M - - M P - - - P , m P - | - - - R M P N P - P M G M S R r s S ||",
+                "swara": "- - - sr M - - M P - - - P - m P - | - - - R M P N P - P M G M S R r s S ||",
                 "sahitya": "Cey yum ki ri - - - sai - - gal - - ke- Lee- ro paa- - R kada lul--"
             },
             {
                 "line_number": 3,
-                "swara": "- - - sr rm rpmmr M P - - - P , m P - | - - -R M pnsn P - P M G M S R r s S ||",
+                "swara": "- - - sr rm rpmmr M P - - - P - m P - | - - -R M pnsn P - P M G M S R r s S ||",
                 "sahitya": "Cey yum ki ri - - - sai - - gal - - ke- Lee- ro paa- - R kada lul--"
             },
             {
                 "line_number": 4,
-                "swara": "- - - sr rPm - - P pN, NS nsrs R - | - - - - N S R \u2013 S - | S - snP P S S - ||",
+                "swara": "- - - sr rPm - - P pN- NS nsrs R - | - - - - N S R - S - | S - snP P S S - ||",
                 "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa raman a - di paa- - - di"
             },
             {
                 "line_number": 5,
-                "swara": "- - - sr rPm - - P pN, NS nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S srsn ||",
+                "swara": "- - - sr rPm - - P pN- NS nsrs R - | - - - - R G pmM - SR | rsS - rsnp - P S srsn ||",
                 "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa ra man a - di paa- - - di"
             },
             {
                 "line_number": 6,
-                "swara": "psn npm- sr rPm - - P pN, NS nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S S - ||",
+                "swara": "psn npm- sr rPm - - P pN- NS nsrs R - | - - - - R G pmM - SR | rsS - rsnp - P S S - ||",
                 "sahitya": "Pai yath- - thu yin- - - -- -- Ra- - - - pa ra man a - di paa- - - di"
             },
             {
@@ -71,33 +71,33 @@
             },
             {
                 "line_number": 13,
-                "swara": "- - - sr M - - M P - - - P , m P - | - - - R M P N P - P M G M S R r s S ||",
+                "swara": "- - - sr M - - M P - - - P - m P - | - - - R M P N P - P M G M S R r s S ||",
                 "sahitya": "Cey yaa - -dha na - - - cey- yom - - thee- kkura Lai cen- - - Ro - dhom -"
             },
             {
                 "line_number": 14,
-                "swara": "- - - sr rm rpmmr M P - - - P , m P - | - - -R M pn sn P - P M G M S R r s S ||",
+                "swara": "- - - sr rm rpmmr M P - - - P - m P - | - - -R M pn sn P - P M G M S R r s S ||",
                 "sahitya": "Cey yaa - -- dha na - - - cey- yom - - thee- kku-ra- Lai cen- - - Ro - dhom -"
             },
             {
                 "line_number": 15,
-                "swara": "- - - sr rPm - - P - P NS nsrs R - | - - - - N S R \u2013 S - | S - snP P S S - ||",
+                "swara": "- - - sr rPm - - P - P NS nsrs R - | - - - - N S R - S - | S - snP P S S - ||",
                 "sahitya": "Ai- ya - mum - pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
             },
             {
                 "line_number": 16,
-                "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - N S R \u2013 S - | S - rsnp - P S S - ||",
+                "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - N S R - S - | S - rsnp - P S S - ||",
                 "sahitya": "Ai- ya - mum - pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
             },
             {
                 "line_number": 17,
-                "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S srsn ||",
-                "sahitya": "Ai- ya - mum pi \u2013 - - ccai yum - - aan - ndha nai yum kai kaa- tti"
+                "swara": "- - - sr rPm - - P - P S - nsrs R - | - - - - R G pmM - SR | rsS - rsnp - P S srsn ||",
+                "sahitya": "Ai- ya - mum pi - - - ccai yum - - aan - ndha nai yum kai kaa- tti"
             },
             {
                 "line_number": 18,
-                "swara": "psn npm- sr rPm - - P - P N S nsrs R - | - - - - R G pmM \u2013 SR | rsS - rsnp - P S S - ||",
-                "sahitya": "Ai- ya - mum pi \u2013 - ccai yum - - - aan - ndha nai yum kai kaa- tti"
+                "swara": "psn npm- sr rPm - - P - P N S nsrs R - | - - - - R G pmM - SR | rsS - rsnp - P S S - ||",
+                "sahitya": "Ai- ya - mum pi - - ccai yum - - - aan - ndha nai yum kai kaa- tti"
             },
             {
                 "line_number": 19,

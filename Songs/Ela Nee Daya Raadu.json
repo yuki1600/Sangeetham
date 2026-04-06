@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "s m r s N - r s n p - dn , - P , | - m n p m G | M P m pn P - n ||",
+                "swara": "s m r s N - r s n p - dn - - P - | - m n p m G | M P m pn P - n ||",
                 "sahitya": "E - - - - - - - - laa- - Nee - Da - ya- - - raa- - - - - - - -"
             },
             {
@@ -21,12 +21,12 @@
             },
             {
                 "line_number": 3,
-                "swara": "p n n p M - pn Srs SD D - P | Mpn P,n pmG | g m P m p n P - n ||",
+                "swara": "p n n p M - pn Srs SD D - P | Mpn P-n pmG | g m P m p n P - n ||",
                 "sahitya": "- - - - - - Ve- la - - - - Sa ma - - - ya- - mu- - Gaa- - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "pm rm rm - sr , s - S - - | - - - - | - - - - ||",
+                "swara": "pm rm rm - sr - s - S - - | - - - - | - - - - ||",
                 "sahitya": "du - - - - - - - - - - - - - - - - - - -"
             }
         ],
@@ -57,7 +57,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- - - D D - - D | D - d N p | P , n d N p ||",
+                        "swara": "- - - D D - - D | D - d N p | P - n d N p ||",
                         "sahitya": "- - - Raa raa- - De vaa- di- - - De- - vaa!- -"
                     },
                     {
@@ -67,12 +67,12 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "p n n p M- P s n D P - | Mpn P,n p m G | g m P Mpn P,n ||",
+                        "swara": "p n n p M- P s n D P - | Mpn P-n p m G | g m P Mpn P-n ||",
                         "sahitya": "- - - - - Raa raa- - Raa- jee- - - - va - - - Ne- - - - - - - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "d N p P - - - , p R | S - s n d n | n d N , S , ||",
+                        "swara": "d N p P - - - - p R | S - s n d n | n d N - S - ||",
                         "sahitya": "traa- - - - - - - Ra ghu va- ra - - - Pu- - - traa-"
                     },
                     {

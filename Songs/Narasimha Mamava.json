@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "P D P - P || pmM - ,g R S || R mg R - S || RM P - - ||",
+                "swara": "P D P - P || pmM - -g R S || R mg R - S || RM P - - ||",
                 "sahitya": "Nara sim- ha Ma-- - - mava Bhaga- van-- Ni- tyam"
             },
             {
@@ -31,12 +31,12 @@
             },
             {
                 "line_number": 5,
-                "swara": "P dr sn dd P || mpds dp mg r s || R mg R - S || , rsn dpmg rm ||",
+                "swara": "P dr sn dd P || mpds dp mg r s || R mg R - S || - rsn dpmg rm ||",
                 "sahitya": "Nara sim- -ha Ma-- - - ma-va- Bhaga- van-- Ni- tyam---"
             },
             {
                 "line_number": 6,
-                "swara": "P D D P P || mpdp mp mg r s || R , m - dp mg || R - - - - ||",
+                "swara": "P D D P P || mpdp mp mg r s || R - m - dp mg || R - - - - ||",
                 "sahitya": "Nara sim- ha Ma-- - - ma-va- Bha-ga- - van-- - - - - -"
             }
         ],
@@ -78,7 +78,7 @@
             },
             {
                 "line_number": 8,
-                "swara": "P D D P P || mpdp mp mg r s || R , m - dp mg || R - - - - ||",
+                "swara": "P D D P P || mpdp mp mg r s || R - m - dp mg || R - - - - ||",
                 "sahitya": "Nara sim- ha Ma-- - - ma-va- Bha-ga- - van-- - - - - -"
             },
             {
@@ -123,12 +123,12 @@
             },
             {
                 "line_number": 17,
-                "swara": "D D R - S , r || sn D D P P || M P D , p - || Pdp mg R - S ||",
+                "swara": "D D R - S - r || sn D D P P || M P D - p - || Pdp mg R - S ||",
                 "sahitya": "Pa ra ma Man -- ga- la so - bha Pan- ka- ja - na-- - - bha-"
             },
             {
                 "line_number": 18,
-                "swara": "R R mg R ,s || sn D dd rs R || mg r r- ss dd pd || sn dd pp mg rm ||",
+                "swara": "R R mg R -s || sn D dd rs R || mg r r- ss dd pd || sn dd pp mg rm ||",
                 "sahitya": "Pa ra ma Man -- ga- la so - - bha Pan- - ka- ja - na- - - - - bha- - - - -"
             },
             {
@@ -138,7 +138,7 @@
             },
             {
                 "line_number": 20,
-                "swara": "P D D P P || mpdp mp mg r s || R , m - dp mg || R - - - - ||",
+                "swara": "P D D P P || mpdp mp mg r s || R - m - dp mg || R - - - - ||",
                 "sahitya": "Nara sim- ha Ma-- - - ma-va- Bha-ga- - van-- - - - - -"
             }
         ],

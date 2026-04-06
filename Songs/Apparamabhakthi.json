@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "gmP P- mp dp D || dn S ,r nd pmgr ||",
+                "swara": "gmP P- mp dp D || dn S -r nd pmgr ||",
                 "sahitya": "Go-- ppa raa! - - - - - - -- Maa-- - - - -"
             },
             {
@@ -46,7 +46,7 @@
             },
             {
                 "line_number": 8,
-                "swara": "gmP mpD pd N || dn sr sn dn , d p m || g r",
+                "swara": "gmP mpD pd N || dn sr sn dn - d p m || g r",
                 "sahitya": "Go-- ppa-- raa! - - - - - - -- Maa-- -"
             }
         ],
@@ -82,32 +82,32 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- pd , P , P P || P - P mp dp D ||",
+                        "swara": "- pd - P - P P || P - P mp dp D ||",
                         "sahitya": "Kapi -vaa ridhi Dha tu na? - - -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- dm , D , S S || S - N d s nd pm || (gm)",
+                        "swara": "- dm - D - S S || S - N d s nd pm || (gm)",
                         "sahitya": "Kali gi Rota Ga ttu na? - - - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "gr- gm , P , D P || P - P mp dn dp ||",
+                        "swara": "gr- gm - P - D P || P - P mp dn dp ||",
                         "sahitya": "- - Kapi -vaa ridhi Dha tu na? - - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "M dm , D , S S || S - N d n Srs nd ||",
+                        "swara": "M dm - D - S S || S - N d n Srs nd ||",
                         "sahitya": "- Kali gi Rota Ga ttu na? - - - -"
                     },
                     {
                         "line_number": 5,
-                        "swara": "pm gn , dpP , D P || P - P mp dn dp ||",
+                        "swara": "pm gn - dpP - D P || P - P mp dn dp ||",
                         "sahitya": "- - Kapi -vaa ridhi Dha tu na? - - -"
                     },
                     {
                         "line_number": 6,
-                        "swara": "M dm , D , S S || S - N r s np D ||",
+                        "swara": "M dm - D - S S || S - N r s np D ||",
                         "sahitya": "- Kali gi Rota Ga ttu na? - - - -"
                     },
                     {

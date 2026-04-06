@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "srs - d -- sr s- P , pdp - g | - - gp G - R S - - - ||",
+                "swara": "srs - d -- sr s- P - pdp - g | - - gp G - R S - - - ||",
                 "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va ye- --"
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "SrsS - d -- Sr sS - P , PdpP - g | - - gp G R gd - - - ||",
+                "swara": "SrsS - d -- Sr sS - P - PdpP - g | - - gp G R gd - - - ||",
                 "sahitya": "Sadaa - cha le - shva-ram - Bhaa- va - ye- - -"
             },
             {
@@ -53,12 +53,12 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "S D - G R , -s - R | G - P - G gP , P - ||",
+                "swara": "S D - G R - -s - R | G - P - G gP - P - ||",
                 "sahitya": "Sadaa - shri ta Kal - pa vru- ksha Sa moo ham"
             },
             {
                 "line_number": 2,
-                "swara": ", d P G - G R , S , | R G - P gp dp D - ||",
+                "swara": "- d P G - G R - S - | R G - P gp dp D - ||",
                 "sahitya": "Shara naa- ga ta De va taa - Sa moo-- ham"
             },
             {
@@ -68,12 +68,12 @@
             },
             {
                 "line_number": 4,
-                "swara": "p P- d p g- P d - S d S S | r S - d - P , d p g P D ||",
+                "swara": "p P- d p g- P d - S d S S | r S - d - P - d p g P D ||",
                 "sahitya": "Udaajya kru ta Naa ma dheya vaaham Chidaanan - daa - mrutapra vaaham"
             },
             {
                 "line_number": 5,
-                "swara": "p P- d p g- P d - S d S S | r S - d - P , d p g P d r ||",
+                "swara": "p P- d p g- P d - S d S S | r S - d - P - d p g P d r ||",
                 "sahitya": "Udaajya kru ta Naa ma dheya vaaham Chidaanan - daa - mrutapra vaa ham"
             }
         ],
@@ -92,12 +92,12 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "G - - P - D D P | G - - dpgg - gr , r S ||",
+                        "swara": "G - - P - D D P | G - - dpgg - gr - r S ||",
                         "sahitya": "Chaa - yaa - ra hi ta Dee- - pa- - - Pra - kaa-"
                     },
                     {
                         "line_number": 4,
-                        "swara": "s d- G - R - - , r G | P - - D dppg - P - ||",
+                        "swara": "s d- G - R - - - r G | P - - D dppg - P - ||",
                         "sahitya": "sha- Gar - bha - - - Gruha maa - dhya ran- - - gam-"
                     },
                     {
@@ -107,22 +107,22 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "S - - S - R S ,r | pg G P P D - S - ||",
+                        "swara": "S - - S - R S -r | pg G P P D - S - ||",
                         "sahitya": "Sam - saa - ra Saa- ga- ra Bha ya bhan- gam"
                     },
                     {
                         "line_number": 7,
-                        "swara": "D P G - P - P , G , | D - D- dpP - D - R ||",
+                        "swara": "D P G - P - P - G - | D - D- dpP - D - R ||",
                         "sahitya": "Shama da mo - Pra -vru- tyaa- di Sam- - yu - kta"
                     },
                     {
                         "line_number": 8,
-                        "swara": "S - rs - sd dp - pg g r S | S rg , r S D - S - ||",
+                        "swara": "S - rs - sd dp - pg g r S | S rg - r S D - S - ||",
                         "sahitya": "Saa- dhu ja- na Hru da-ya Sa ra-- - si ja bhrun gam"
                     },
                     {
                         "line_number": 9,
-                        "swara": "g d p- g s r- s r g r p - g P P | d p pg d p - s d , - r s - g R S ||",
+                        "swara": "g d p- g s r- s r g r p - g P P | d p pg d p - s d - - r s - g R S ||",
                         "sahitya": "Kamala Vi ja ya kara Vidhruta ku rangam Karu naa rasa Sudhaar nava Ta rangam"
                     },
                     {

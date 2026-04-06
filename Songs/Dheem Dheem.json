@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Dheem Dheem",
         "raga": "Revathi",
-        "arohanam": "S R\u2081 M\u2081 P N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 P M\u2081 R\u2081 S ||",
+        "arohanam": "S R₁ M₁ P N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ P M₁ R₁ S ||",
         "tala": "Misra Chapu",
         "composer": "Lalgudi Jayaraman"
     },
@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "M , P , | n s n \u2013 p | m \u2013 R , || M , n p m | r r \u2013 P | , N , ||",
+                "swara": "M - P - | n s n - p | m - R - || M - n p m | r r - P | - N - ||",
                 "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim dhim"
             },
             {
@@ -21,7 +21,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "M , P , | n s n \u2013 p | m \u2013 R , || M , n p m | r r \u2013 P | , N , ||",
+                "swara": "M - P - | n s n - p | m - R - || M - n p m | r r - P | - N - ||",
                 "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim dhim"
             },
             {
@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "mpm pnp | n s n \u2013 p | m \u2013 rmr || mpm- n p m | r r \u2013 pn | p \u2013 nsn ||",
+                "swara": "mpm pnp | n s n - p | m - rmr || mpm- n p m | r r - pn | p - nsn ||",
                 "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim - dhim"
             },
             {
@@ -41,17 +41,17 @@
             },
             {
                 "line_number": 7,
-                "swara": "N S R | R M | - R || M P \u2013 N | - - | P N ||",
+                "swara": "N S R | R M | - R || M P - N | - - | P N ||",
                 "sahitya": "Jha Nu ta dhim- - ta na ta dhim ta na"
             },
             {
                 "line_number": 8,
-                "swara": "S \u2013 R , n | - S | , p - N || , M , P | , p m n | p- R , ||",
+                "swara": "S - R - n | - S | - p - N || - M - P | - p m n | p- R - ||",
                 "sahitya": "Na tom tom - tom ta tam tam tam ta-dhim - dhim"
             },
             {
                 "line_number": 9,
-                "swara": "mpm pnp | n s n \u2013 p | m \u2013 rmr || mpm- n p m | r r \u2013 pn | p \u2013 nsn ||",
+                "swara": "mpm pnp | n s n - p | m - rmr || mpm- n p m | r r - pn | p - nsn ||",
                 "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim - dhim"
             },
             {
@@ -61,12 +61,12 @@
             },
             {
                 "line_number": 11,
-                "swara": "N S R | M, m | - R || M P \u2013 N | , n - | P N ||",
+                "swara": "N S R | M- m | - R || M P - N | - n - | P N ||",
                 "sahitya": "Jha Nu ta dhim dhim - ta na ta dhim dhim ta na"
             },
             {
                 "line_number": 12,
-                "swara": "S \u2013 R , n | - S | , p - N || , M , P | , p m n | p- R , ||",
+                "swara": "S - R - n | - S | - p - N || - M - P | - p m n | p- R - ||",
                 "sahitya": "Na tom tom - tom ta tam tam tam ta-dhim - dhim"
             }
         ],
@@ -78,37 +78,37 @@
             },
             {
                 "line_number": 2,
-                "swara": "S n p M | R , m | p n S || - - - | - - | - - ||",
+                "swara": "S n p M | R - m | p n S || - - - | - - | - - ||",
                 "sahitya": "taki Ta tom dhim ta ki Tatom"
             },
             {
                 "line_number": 3,
-                "swara": "S n p M | R , m | p n S || R s n P | M , p | n s R ||",
+                "swara": "S n p M | R - m | p n S || R s n P | M - p | n s R ||",
                 "sahitya": "taki Ta tom dhim ta ki Tatom dhi kita jham dhim- ta kita jham"
             },
             {
                 "line_number": 4,
-                "swara": "Srs n p M | R , m | p n S || R s n P | Mpm , p | n s R ||",
+                "swara": "Srs n p M | R - m | p n S || R s n P | Mpm - p | n s R ||",
                 "sahitya": "ta- ki Ta tom dhim ta ki Tatom dhi kita jham dhim- ta kita jham"
             },
             {
                 "line_number": 5,
-                "swara": "n s r \u2013 r m r | N - n s | r s n p || , s N p m | , n P | m \u2013 R , ||",
+                "swara": "n s r - r m r | N - n s | r s n p || - s N p m | - n P | m - R - ||",
                 "sahitya": "tata ra ta- ni dhim ta ra ta-ni dhim ta ta ni dhim tata ni dhim"
             },
             {
                 "line_number": 6,
-                "swara": "Srs n p M | R , m | p n S || R s n P | Mpm , p | n s R ||",
+                "swara": "Srs n p M | R - m | p n S || R s n P | Mpm - p | n s R ||",
                 "sahitya": "ta- ki Ta tom dhim ta ki Tatom dhi kita jham dhim- ta kita jham"
             },
             {
                 "line_number": 7,
-                "swara": "n s r \u2013 r m r | N - n s | r s n p || , s N p m | , n P | m \u2013 R p ||",
+                "swara": "n s r - r m r | N - n s | r s n p || - s N p m | - n P | m - R p ||",
                 "sahitya": "tata ra ta- ni dhim ta ra ta-ni dhim ta ta ni dhim tata ni dhim ta"
             },
             {
                 "line_number": 8,
-                "swara": "mpm pnp | n s n \u2013 p | m \u2013 rmr || mpm- n p m | r r \u2013 pn | p \u2013 nsn ||",
+                "swara": "mpm pnp | n s n - p | m - rmr || mpm- n p m | r r - pn | p - nsn ||",
                 "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim - dhim"
             },
             {
@@ -123,21 +123,21 @@
                     {
                         "line_number": 1,
                         "swara": "P N P | M M | M M || r m P pm | m r R | R - ||",
-                        "sahitya": "ko- la mu ru ga naik- ka- - Na en- - Ni \u2013"
+                        "sahitya": "ko- la mu ru ga naik- ka- - Na en- - Ni -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "rsnp np | R - | R - || s r r m \u2013 mp | pnsn | NP ||",
+                        "swara": "rsnp np | R - | R - || s r r m - mp | pnsn | NP ||",
                         "sahitya": "ka- la mel- lam - ka- - tti- run-- den-"
                     },
                     {
                         "line_number": 3,
                         "swara": "nnP - mpN np | M M | M M || mmR rmP pm | m r R | R - ||",
-                        "sahitya": "ko- - la mu ru ga naik- ka- - - - Na- en- - Ni \u2013"
+                        "sahitya": "ko- - la mu ru ga naik- ka- - - - Na- en- - Ni -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "rsnp np | pmmr | R - || s r r m \u2013 mp | pnsn | NP ||",
+                        "swara": "rsnp np | pmmr | R - || s r r m - mp | pnsn | NP ||",
                         "sahitya": "ka- la mel- lam - ka- - tti- run-- den-"
                     },
                     {
@@ -147,62 +147,62 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "mpns r- s | R - | , r R || R , R , | - n r | r s S || - - - | - - | - - ||",
+                        "swara": "mpns r- s | R - | - r R || R - R - | - n r | r s S || - - - | - - | - - ||",
                         "sahitya": "ve- - - la no- e nai E no - maran - - dan"
                     },
                     {
                         "line_number": 7,
-                        "swara": "mpns r- s | R - | , r R || R - p m R | , n r r | S S ||",
+                        "swara": "mpns r- s | R - | - r R || R - p m R | - n r r | S S ||",
                         "sahitya": "ve- - - la no- e nai E no - maran - - dan"
                     },
                     {
                         "line_number": 8,
-                        "swara": "mpns r- s | R - | , r R || R - Mpm R | - n r | , s S ||",
+                        "swara": "mpns r- s | R - | - r R || R - Mpm R | - n r | - s S ||",
                         "sahitya": "ve- - - la no- e nai E no - maran - - dan"
                     },
                     {
                         "line_number": 9,
-                        "swara": "nnP mpns r- s | R - | , r R || R - Mpm R | - n r | , s S ||",
+                        "swara": "nnP mpns r- s | R - | - r R || R - Mpm R | - n r | - s S ||",
                         "sahitya": "ve- - - la no- e nai E no - maran - - dan"
                     },
                     {
                         "line_number": 10,
-                        "swara": "R m r N | P - | M \u2013 N || s n n p mrR | \u2013 N R | S - ||",
+                        "swara": "R m r N | P - | M - N || s n n p mrR | - N R | S - ||",
                         "sahitya": "ja- - la mo en ka - - la mo a ri yen"
                     },
                     {
                         "line_number": 11,
-                        "swara": "mpns r- s | R - | , r R || R - Mpm R | - n r | , s S ||",
+                        "swara": "mpns r- s | R - | - r R || R - Mpm R | - n r | - s S ||",
                         "sahitya": "ve- - - la no- e nai E no - maran - - dan"
                     },
                     {
                         "line_number": 12,
-                        "swara": "R m r N | P - | M \u2013 N || s n n p mrR | \u2013 N R | S - ||",
+                        "swara": "R m r N | P - | M - N || s n n p mrR | - N R | S - ||",
                         "sahitya": "ja- - la mo en ka - - la mo a ri yen"
                     },
                     {
                         "line_number": 13,
-                        "swara": "s S r \u2013 m m | , p \u2013 n n | , s r n ||",
+                        "swara": "s S r - m m | - p - n n | - s r n ||",
                         "sahitya": "tam tam ta dhim dhim ta tom tom ta ki Ta"
                     },
                     {
                         "line_number": 14,
-                        "swara": "S - - | - - | , s r n ||",
+                        "swara": "S - - | - - | - s r n ||",
                         "sahitya": "Jham sa ri ni"
                     },
                     {
                         "line_number": 15,
-                        "swara": "s S r \u2013 m m | , p \u2013 n n | , s r n ||",
+                        "swara": "s S r - m m | - p - n n | - s r n ||",
                         "sahitya": "tam tam ta dhim dhim ta tom tom ta ki Ta"
                     },
                     {
                         "line_number": 16,
-                        "swara": "S , n s - p | n \u2013 m p \u2013 r | m - s r n ||",
+                        "swara": "S - n s - p | n - m p - r | m - s r n ||",
                         "sahitya": "Jham ni sa- pa ni ma pa ri ma sa ri ni"
                     },
                     {
                         "line_number": 17,
-                        "swara": "r R \u2013 m M | n N - r | R - m m || , R \u2013 m m \u2013 r | r n n \u2013 m | M R ||",
+                        "swara": "r R - m M | n N - r | R - m m || - R - m m - r | r n n - m | M R ||",
                         "sahitya": "tatam tadhim tajham ta Nam ma ma ri mama ri ri ni ni ma ma ri"
                     },
                     {
@@ -212,17 +212,17 @@
                     },
                     {
                         "line_number": 19,
-                        "swara": "R - r N N s s s S | R - s N N | s s s R M , - ||",
+                        "swara": "R - r N N s s s S | R - s N N | s s s R M - - ||",
                         "sahitya": "dhim talangu takajhanu dhim talangu takajhanu dhim"
                     },
                     {
                         "line_number": 20,
-                        "swara": "- r M \u2013 s S r | s s s r n s - | - s R || n S s p p p n mp | - n S | p P N - m m m M ||",
+                        "swara": "- r M - s S r | s s s r n s - | - s R || n S s p p p n mp | - n S | p P N - m m m M ||",
                         "sahitya": "tattit talan gu takajhanu dhim - tattit talangu taka jhanu dhim tattit talangu takajhanu"
                     },
                     {
                         "line_number": 21,
-                        "swara": "mpm pnp | n s n \u2013 p | m \u2013 rmr || mpm- n p m | r r \u2013 pn | p \u2013 nsn ||",
+                        "swara": "mpm pnp | n s n - p | m - rmr || mpm- n p m | r r - pn | p - nsn ||",
                         "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim - dhim"
                     },
                     {
@@ -232,7 +232,7 @@
                     },
                     {
                         "line_number": 23,
-                        "swara": "mpm pnp | n s n \u2013 p | m \u2013 rmr || mpm- n p m | r r \u2013 pn | p \u2013 nsn ||",
+                        "swara": "mpm pnp | n s n - p | m - rmr || mpm- n p m | r r - pn | p - nsn ||",
                         "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim - dhim"
                     },
                     {
@@ -242,17 +242,17 @@
                     },
                     {
                         "line_number": 25,
-                        "swara": "N S R | M, m | - R || M P \u2013 N | , n - | P N ||",
+                        "swara": "N S R | M- m | - R || M P - N | - n - | P N ||",
                         "sahitya": "Jha Nu ta dhim dhim - ta na ta dhim dhim ta na"
                     },
                     {
                         "line_number": 26,
-                        "swara": "S \u2013 R , n | - S | , p - N || , M , P | , p m n | p- R , ||",
+                        "swara": "S - R - n | - S | - p - N || - M - P | - p m n | p- R - ||",
                         "sahitya": "Na tom tom - tom ta tam tam tam ta-dhim - dhim"
                     },
                     {
                         "line_number": 27,
-                        "swara": "mpm pnp | n s n \u2013 p | m \u2013 rmr || mpm- n p m | r r \u2013 pn | p \u2013 nsn ||",
+                        "swara": "mpm pnp | n s n - p | m - rmr || mpm- n p m | r r - pn | p - nsn ||",
                         "sahitya": "dhim dhim ta na na na na dhim dhim ta na na nana dhim - dhim"
                     },
                     {

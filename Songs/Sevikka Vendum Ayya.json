@@ -11,104 +11,104 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- , s , n D M - rs , R | M - - - | - - - - ||",
+                "swara": "- - s - n D M - rs - R | M - - - | - - - - ||",
                 "sahitya": "se vikka ven Du- mai yya - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "- , s , n D M - rs , R | M - - R | P ,m P ps ||",
+                "swara": "- - s - n D M - rs - R | M - - R | P -m P ps ||",
                 "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
             },
             {
                 "line_number": 3,
-                "swara": "- , sn s- n D M - rs , R | M - - R | P ,m P ps ||",
+                "swara": "- - sn s- n D M - rs - R | M - - R | P -m P ps ||",
                 "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
             },
             {
                 "line_number": 4,
-                "swara": "- , nr s- n D M - rs , R | M - - R | P ,m P ps ||",
+                "swara": "- - nr s- n D M - rs - R | M - - R | P -m P ps ||",
                 "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
             },
             {
                 "line_number": 5,
-                "swara": "- , nr s- n D M - rs , R | M - - R | P ,m P ns ||",
+                "swara": "- - nr s- n D M - rs - R | M - - R | P -m P ns ||",
                 "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
             },
             {
                 "line_number": 6,
-                "swara": "Rs- sn s - n D M - rs , R | M - - R | P ,m P ns ||",
+                "swara": "Rs- sn s - n D M - rs - R | M - - R | P -m P ns ||",
                 "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
             },
             {
                 "line_number": 7,
-                "swara": "Rs- nr s - n D M - rs , R | M - - - | rm rs rm pn ||",
+                "swara": "Rs- nr s - n D M - rs - R | M - - - | rm rs rm pn ||",
                 "sahitya": "se vikka ven Du- mai yya - - ci - dam- ba- ram-"
             },
             {
                 "line_number": 8,
-                "swara": "srm- sn s - n D M - rs , R | M - - - | rm rs rm pn ||",
+                "swara": "srm- sn s - n D M - rs - R | M - - - | rm rs rm pn ||",
                 "sahitya": "se vikka ven Du- mai yya - - ci - dam- ba- ram-"
             },
             {
                 "line_number": 9,
-                "swara": "srm- sn s - n D M - rs , R | mR, - - | - ,m sRs ||",
+                "swara": "srm- sn s - n D M - rs - R | mR- - - | - -m sRs ||",
                 "sahitya": "se vikka ven Du- mai yya - - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- , s , s S ssnn , nd- dm | - p n , - s R | rs N - S ||",
+                "swara": "- - s - s S ssnn - nd- dm | - p n - - s R | rs N - S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- - ti"
             },
             {
                 "line_number": 2,
-                "swara": "- , s , s S ssnn , nd- dm | - p n , - s R | rs N R S ||",
+                "swara": "- - s - s S ssnn - nd- dm | - p n - - s R | rs N R S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 3,
-                "swara": "- , n s- s S rSn , nd- nn | dm- p n , - s R | m r sn R S ||",
+                "swara": "- - n s- s S rSn - nd- nn | dm- p n - - s R | m r sn R S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 4,
-                "swara": "- , n s- s S ns R, , s- nn | dm- p n , - s R | m r sn R S ||",
+                "swara": "- - n s- s S ns R- - s- nn | dm- p n - - s R | m r sn R S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 5,
-                "swara": "- , n s- s S ns R, , s- nd | M- p n , - s R | m r sn R S ||",
+                "swara": "- - n s- s S ns R- - s- nd | M- p n - - s R | m r sn R S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 6,
-                "swara": "- , n s- s S ns r - n sn- nn | dm- p n , - s R | m r sn R S ||",
+                "swara": "- - n s- s S ns r - n sn- nn | dm- p n - - s R | m r sn R S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 7,
-                "swara": "- , n s- s S n rm - r s - ndm | - - p n , - s R | m r sn R S ||",
+                "swara": "- - n s- s S n rm - r s - ndm | - - p n - - s R | m r sn R S ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 8,
-                "swara": "- , n s- s S n rm - r s - ndm | - - p n , - s R | m r sn R rm ||",
+                "swara": "- - n s- s S n rm - r s - ndm | - - p n - - s R | m r sn R rm ||",
                 "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
             },
             {
                 "line_number": 9,
-                "swara": "- , - r , mRs , snN - - N | - dn , d M | r m r s r m p n ||",
+                "swara": "- - - r - mRs - snN - - N | - dn - d M | r m r s r m p n ||",
                 "sahitya": "de va-di dev - an - tiru sanni dhi - - - kan- Du-"
             },
             {
                 "line_number": 10,
-                "swara": "srm- rs , - n D M - rs , R | M - - - | rm rs rm pn ||",
+                "swara": "srm- rs - - n D M - rs - R | M - - - | rm rs rm pn ||",
                 "sahitya": "- -- se vikka ven Du- mai yya - - ci - dam- ba- ram-"
             },
             {
                 "line_number": 11,
-                "swara": "srm- rs s - n D M - rs , R | mR, - - | - rm sRs ||",
+                "swara": "srm- rs s - n D M - rs - R | mR- - - | - rm sRs ||",
                 "sahitya": "se vikka ven Du- mai yya - - - - - -"
             }
         ],
@@ -117,82 +117,82 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- , m , M m r m p m R S | - , r , mR, s | M - - M ||",
+                        "swara": "- - m - M m r m p m R S | - - r - mR- s | M - - M ||",
                         "sahitya": "Sin ga ra ma- na - shiva gan - gaiyil mu - zhgi"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- , m , M m r m p m R S | - , r , mR, s | M - - R ||",
+                        "swara": "- - m - M m r m p m R S | - - r - mR- s | M - - R ||",
                         "sahitya": "Sin ga ra ma- na - shiva gan - gaiyil mu - zhgi"
                     },
                     {
                         "line_number": 3,
-                        "swara": "M -M M M r m Mpm , r S | - , r , mR, s | M - - nn ||",
+                        "swara": "M -M M M r m Mpm - r S | - - r - mR- s | M - - nn ||",
                         "sahitya": "Sin ga ra ma- na - shiva gan - gaiyil mu - zhgi"
                     },
                     {
                         "line_number": 4,
-                        "swara": "dM -m , M m N rr srpm- rs | - , r , mR, s | M - - M ||",
+                        "swara": "dM -m - M m N rr srpm- rs | - - r - mR- s | M - - M ||",
                         "sahitya": "Sin ga ra ma- na - - - shiva gan - gaiyil mu - zhgi"
                     },
                     {
                         "line_number": 5,
-                        "swara": "R , - r m- P p m p s n n D \u2013 d | M - m p m \u2013 rs r | M , - m - M ||",
+                        "swara": "R - - r m- P p m p s n n D - d | M - m p m - rs r | M - - m - M ||",
                         "sahitya": "Shi va kami san- - - ni - dhi - mun- - ba-gha ve van - du"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- , - r m- P p m p s n n D \u2013 d | M - m p m \u2013 rs r | M , - rm - M ||",
+                        "swara": "- - - r m- P p m p s n n D - d | M - m p m - rs r | M - - rm - M ||",
                         "sahitya": "Shi va kami san- - - ni - dhi - mun- - ba-gha ve van - du"
                     },
                     {
                         "line_number": 7,
-                        "swara": "- , - ns , - S s n S n n n d m | - p n , s R | m r s n R S ||",
+                        "swara": "- - - ns - - S s n S n n n d m | - p n - s R | m r s n R S ||",
                         "sahitya": "pan- gagha ve- - pra- - - dak- Sinam - - - - sheidu"
                     },
                     {
                         "line_number": 8,
-                        "swara": "- , - ns , - S s n s r- n s n \u2013 nn | d m- p n , s R | m r s n R S ||",
+                        "swara": "- - - ns - - S s n s r- n s n - nn | d m- p n - s R | m r s n R S ||",
                         "sahitya": "pan- gagha ve- - - - pra- - - - - dak- Sinam - - - - sheidu"
                     },
                     {
                         "line_number": 9,
-                        "swara": "- , - ns , - S s ns R , - s- n | d m- p n , s R | m r s n R rm ||",
+                        "swara": "- - - ns - - S s ns R - - s- n | d m- p n - s R | m r s n R rm ||",
                         "sahitya": "pan- gagha ve- - - - pra- - - dak- Sinam - - - - sheidu"
                     },
                     {
                         "line_number": 10,
-                        "swara": "- , - r , mRs , snN - N N | - dn , d M | r m r s r m p n ||",
+                        "swara": "- - - r - mRs - snN - N N | - dn - d M | r m r s r m p n ||",
                         "sahitya": "Bhak tar-gal sid- - dhargal pani vidai yo- - r to- zha -"
                     },
                     {
                         "line_number": 11,
-                        "swara": "srm- rs , - n D M - rs , R | M - - - | - - - - ||",
+                        "swara": "srm- rs - - n D M - rs - R | M - - - | - - - - ||",
                         "sahitya": "- -- se vikka ven Du- mai yya - - - - - -"
                     },
                     {
                         "line_number": 12,
-                        "swara": "- , - ns , - S s ns R , - s- n | d m- p n , s R | m r s n R rm ||",
+                        "swara": "- - - ns - - S s ns R - - s- n | d m- p n - s R | m r s n R rm ||",
                         "sahitya": "pan- gagha ve- - - - pra- - - dak- Sinam - - - - sheidu"
                     },
                     {
                         "line_number": 13,
-                        "swara": "- , - r , mRs , snN - N N | - dn , d M | r m r s r m p n ||",
+                        "swara": "- - - r - mRs - snN - N N | - dn - d M | r m r s r m p n ||",
                         "sahitya": "Bhak tar-gal sid- - dhargal pani vidai yo- - r to- - -"
                     },
                     {
                         "line_number": 14,
-                        "swara": "srm- rs , - n D M - rs , R | M - - - | rm rs rm pn ||",
+                        "swara": "srm- rs - - n D M - rs - R | M - - - | rm rs rm pn ||",
                         "sahitya": "zha--se vikka ven Du- mai yya - - ci - dam- ba- ram-"
                     },
                     {
                         "line_number": 15,
-                        "swara": "srm- rs s - N d , - M , rs , R | M, - rs s - N d | , - M , rs , R ||",
+                        "swara": "srm- rs s - N d - - M - rs - R | M- - rs s - N d | - - M - rs - R ||",
                         "sahitya": "se vikka ven Du- mai yya se vikka ven Du- mai"
                     },
                     {
                         "line_number": 16,
-                        "swara": "M, - nr S - n D M - rs , , r | mR, - - | - rm sRs ||",
+                        "swara": "M- - nr S - n D M - rs - - r | mR- - - | - rm sRs ||",
                         "sahitya": "se vikka ven Dum- ai yya - - - - - -"
                     }
                 ]

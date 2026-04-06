@@ -206,6 +206,7 @@ export default function App() {
                 <SongsPanel 
                   onSelectSong={handleSelectSong} 
                   onEditSong={(id) => handleEditSong(id, 'home')}
+                  onViewAll={() => setView('editor')}
                 />
               </div>
             </div>

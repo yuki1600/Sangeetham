@@ -23,22 +23,22 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "M - | D P \u2013 D || N S | S - S ||",
+                "swara": "M - | D P - D || N S | S - S ||",
                 "sahitya": "Shas wa tha Shi va Su thaa ya"
             },
             {
                 "line_number": 2,
-                "swara": "M - | D P \u2013 D || N S | S - S || S , n | N D - || N S | S - S ||",
+                "swara": "M - | D P - D || N S | S - S || S - n | N D - || N S | S - S ||",
                 "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
             },
             {
                 "line_number": 3,
-                "swara": "M - | D P \u2013 D || N S | S - S || N - | N S - || R N | r s n d P ||",
+                "swara": "M - | D P - D || N S | S - S || N - | N S - || R N | r s n d P ||",
                 "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
             },
             {
                 "line_number": 4,
-                "swara": "s n d p | m g M \u2013 P || dp d n | S - S || N - | N S - || R N | r s n d P ||",
+                "swara": "s n d p | m g M - P || dp d n | S - S || N - | N S - || R N | r s n d P ||",
                 "sahitya": "Shas wa tha Shi va Su thaa ya Sar - va De va Sa haa ya"
             },
             {
@@ -52,8 +52,8 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "M P | , m M - || D P | D - D || S N | R S - N || R S | s s n d P ||",
-                        "sahitya": "Ga jaa - mba Ra ma naa ya Ga na pa thy Soo \u2013 da raa - - ya"
+                        "swara": "M P | - m M - || D P | D - D || S N | R S - N || R S | s s n d P ||",
+                        "sahitya": "Ga jaa - mba Ra ma naa ya Ga na pa thy Soo - da raa - - ya"
                     },
                     {
                         "line_number": 2,
@@ -67,7 +67,7 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "s r n s | d n d \u2013 d n s || s n d p | g M P d ||",
+                        "swara": "s r n s | d n d - d n s || s n d p | g M P d ||",
                         "sahitya": "Va ra si ki Vaa- ha naa- ya Gu ru gu ha Swa roo paa ya"
                     }
                 ]

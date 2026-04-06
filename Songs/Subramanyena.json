@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Subramanyena",
         "raga": "Shuddha Dhanyasi",
-        "arohanam": "S G\u2082 M\u2081 P N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 P M\u2081 G\u2082 S ||",
+        "arohanam": "S G₂ M₁ P N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ P M₁ G₂ S ||",
         "tala": "Adi",
         "composer": "Muthuswami Dikshitar"
     },
@@ -11,54 +11,54 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "M - M - G S M - | M \u2013 G P M mgpm g S g ||",
+                "swara": "M - M - G S M - | M - G P M mgpm g S g ||",
                 "sahitya": "Su brah man- ye na Ra - kshi to- - - ham- -"
             },
             {
                 "line_number": 2,
-                "swara": "M - M - G S M - | M \u2013 gm P M mgpm g S g ||",
+                "swara": "M - M - G S M - | M - gm P M mgpm g S g ||",
                 "sahitya": "Su brah man- ye na Ra - kshi to- - - ham- -"
             },
             {
                 "line_number": 3,
-                "swara": "gg N GM P M P - | N P - M - \u2013 G S G ||",
+                "swara": "gg N GM P M P - | N P - M - - G S G ||",
                 "sahitya": "A- sh taa dasha Lo chanaa - khan - - de - na"
             },
             {
                 "line_number": 4,
-                "swara": "M - M - G S M - | M \u2013 gm P M mgpm g S g ||",
+                "swara": "M - M - G S M - | M - gm P M mgpm g S g ||",
                 "sahitya": "Su brah man- ye na Ra - kshi to- - - ham- -"
             },
             {
                 "line_number": 5,
-                "swara": "sn N S - G M P - | N P - mpnp M \u2013 G S G ||",
+                "swara": "sn N S - G M P - | N P - mpnp M - G S G ||",
                 "sahitya": "A- sh taa dasha Lo chanaa - khan - - de - na"
             },
             {
                 "line_number": 6,
-                "swara": "G N GM P M P - | S np - M - \u2013 G S G ||",
+                "swara": "G N GM P M P - | S np - M - - G S G ||",
                 "sahitya": "A- sh taa dasha Lo chanaa - khan - - de - na"
             },
             {
                 "line_number": 7,
-                "swara": "G N S - G M P - | sn P - m p , m \u2013 G S P ||",
+                "swara": "G N S - G M P - | sn P - m p - m - G S P ||",
                 "sahitya": "A- sh taa dasha Lo chanaa - khan - - de - na"
             },
             {
                 "line_number": 8,
-                "swara": "M - M - mgS M - | M \u2013 gm pn P mgpm g S g ||",
+                "swara": "M - M - mgS M - | M - gm pn P mgpm g S g ||",
                 "sahitya": "Su brah man- ye na Ra - kshi to- - - ham- -"
             },
             {
                 "line_number": 9,
-                "swara": "G N S - G M pnsg | n S \u2013 n P- m p , m \u2013 G S P ||",
+                "swara": "G N S - G M pnsg | n S - n P- m p - m - G S P ||",
                 "sahitya": "A- sh taa dasha Lo cha- naa - khan - - de - na"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "Pnp N \u2013 S - S - S | - - - - - - - - ||",
+                "swara": "Pnp N - S - S - S | - - - - - - - - ||",
                 "sahitya": "Pra-- bra Vaa - maa - di - - - - - - - -"
             },
             {
@@ -68,37 +68,37 @@
             },
             {
                 "line_number": 3,
-                "swara": "Pnp N \u2013 S - S - S | P ,n P M P \u2013 M - M ||",
+                "swara": "Pnp N - S - S - S | P -n P M P - M - M ||",
                 "sahitya": "Pra-- bra Vaa - maa - di Pu- - ji ta Pa de - na"
             },
             {
                 "line_number": 4,
-                "swara": "Pnp N \u2013 S - S - S | pnsn P M P \u2013 M - M ||",
+                "swara": "Pnp N - S - S - S | pnsn P M P - M - M ||",
                 "sahitya": "Pra-- bra Vaa - maa - di Pu- - ji ta Pa de - na"
             },
             {
                 "line_number": 5,
-                "swara": "P N - S S- M , g S | sn sn P \u2013 M G \u2013 S - G ||",
+                "swara": "P N - S S- M - g S | sn sn P - M G - S - G ||",
                 "sahitya": "Puran - da ra Ma - no- - llaa- - sa Ka ra ne - na"
             },
             {
                 "line_number": 6,
-                "swara": "Pnp N \u2013 S - S - S | pnsn P M P \u2013 M - M ||",
+                "swara": "Pnp N - S - S - S | pnsn P M P - M - M ||",
                 "sahitya": "Pra-- bra Vaa - maa - di Pu- - ji ta Pa de - na"
             },
             {
                 "line_number": 7,
-                "swara": "P P np- pn S- mg sn S | nnpm P \u2013 n n pm \u2013 pp mg \u2013 sg ||",
+                "swara": "P P np- pn S- mg sn S | nnpm P - n n pm - pp mg - sg ||",
                 "sahitya": "Puran - - da- ra Ma - no- - llaa- - sa Ka ra ne - -- na-"
             },
             {
                 "line_number": 8,
-                "swara": "M - M - mmgs M - | M \u2013 gm pn P mgpm g S g ||",
+                "swara": "M - M - mmgs M - | M - gm pn P mgpm g S g ||",
                 "sahitya": "Su brah man- ye na Ra - kshi to- - - ham- -"
             },
             {
                 "line_number": 9,
-                "swara": "G N S - G M pnsg | n S \u2013 n P- m p , m \u2013 G S P ||",
+                "swara": "G N S - G M pnsg | n S - n P- m p - m - G S P ||",
                 "sahitya": "A- sh taa dasha Lo cha- naa - khan - - de - na"
             }
         ],
@@ -107,47 +107,47 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "G - mg \u2013 S - S N S | - S G M mg M - M ||",
+                        "swara": "G - mg - S - S N S | - S G M mg M - M ||",
                         "sahitya": "Kan ka- shai - la Vihaa - re - na Su khe - na"
                     },
                     {
                         "line_number": 2,
-                        "swara": "gmpn P \u2013 mg pm gs N S | - gm P M mp M - M ||",
+                        "swara": "gmpn P - mg pm gs N S | - gm P M mp M - M ||",
                         "sahitya": "Kan ka- shai -- la- Vihaa - re - na Su khe - na"
                     },
                     {
                         "line_number": 3,
-                        "swara": "mgmg S - snP N- S | - G M \u2013 G M P - P ||",
+                        "swara": "mgmg S - snP N- S | - G M - G M P - P ||",
                         "sahitya": "Val- - li - De- - va se - naa - Ra ma ne - na"
                     },
                     {
                         "line_number": 4,
-                        "swara": "N , p - nm P - P N | S \u2013 S - \u2013 sn sn P - M ||",
+                        "swara": "N - p - nm P - P N | S - S - - sn sn P - M ||",
                         "sahitya": "A kaa - ra Vru- tte- na Saa- - - nan - -de - na"
                     },
                     {
                         "line_number": 5,
-                        "swara": "P np mg \u2013 M - P nP n | n S , S \u2013 np , n \u2013 S - S ||",
+                        "swara": "P np mg - M - P nP n | n S - S - np - n - S - S ||",
                         "sahitya": "Bho ga- mo - ksha Daa-- ne- na Ni- - - tye - na"
                     },
                     {
                         "line_number": 6,
-                        "swara": "s m g- s , s \u2013 np m p \u2013 mp M m \u2013 g | M p \u2013 p N n \u2013 n | S , n S , s ||",
+                        "swara": "s m g- s - s - np m p - mp M m - g | M p - p N n - n | S - n S - s ||",
                         "sahitya": "Ven ka te - sha Naa - ma Ru- pena Vi ci tra Vi shaa kha Ma ho tsa ve- na"
                     },
                     {
                         "line_number": 7,
-                        "swara": "s g s g , S - M g , s \u2013 n p n S | s - n S s n \u2013 n p | M m \u2013 g s g s g ||",
-                        "sahitya": "Shu karahas- ya - Pra kaa \u2013 sha- Gu ru guhe na Kri tti kaa - suta Shuddha Dhan- ye-na"
+                        "swara": "s g s g - S - M g - s - n p n S | s - n S s n - n p | M m - g s g s g ||",
+                        "sahitya": "Shu karahas- ya - Pra kaa - sha- Gu ru guhe na Kri tti kaa - suta Shuddha Dhan- ye-na"
                     },
                     {
                         "line_number": 8,
-                        "swara": "M - M - mmgs M - | M \u2013 gm pn P mgpm g S g ||",
+                        "swara": "M - M - mmgs M - | M - gm pn P mgpm g S g ||",
                         "sahitya": "Su brah man- ye na Ra - kshi to- - - ham- -"
                     },
                     {
                         "line_number": 9,
-                        "swara": "G N S - G M pnsg | n S \u2013 n P- m p , m \u2013 G S P ||",
+                        "swara": "G N S - G M pnsg | n S - n P- m p - m - G S P ||",
                         "sahitya": "A- sh taa dasha Lo cha- naa - khan - - de - na"
                     }
                 ]

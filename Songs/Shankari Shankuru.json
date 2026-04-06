@@ -48,12 +48,12 @@
             },
             {
                 "line_number": 2,
-                "swara": "pd S - - R S s r M G - R S | d r S, r sn D D D | m P dpm G R S ||",
+                "swara": "pd S - - R S s r M G - R S | d r S- r sn D D D | m P dpm G R S ||",
                 "sahitya": "Sa- daa - na tha Pha la Daa - ya ki Ha- ra -naa - ya ki Ja - gath- Ja na ni"
             },
             {
                 "line_number": 3,
-                "swara": "pd S - - R S s r pm G - R S | d r S, r sn D D D | mpd Sn dpm G R S ||",
+                "swara": "pd S - - R S s r pm G - R S | d r S- r sn D D D | mpd Sn dpm G R S ||",
                 "sahitya": "Sa- daa - na tha Pha la Daa - ya ki Ha- ra -naa - ya ki Ja - - - gath- Ja na ni"
             },
             {
@@ -82,17 +82,17 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "S S sn D pm dp , d- S s n D D - | P - dr sn D P | - dpm -G R R - ||",
-                        "sahitya": "Shya ma kri - - shna So- - - dha ri- - - Shya ma le - - Sha -tho \u2013 dha - ri"
+                        "swara": "S S sn D pm dp - d- S s n D D - | P - dr sn D P | - dpm -G R R - ||",
+                        "sahitya": "Shya ma kri - - shna So- - - dha ri- - - Shya ma le - - Sha -tho - dha - ri"
                     },
                     {
                         "line_number": 2,
-                        "swara": "S - R M - M P , dpm D , P , | pd S - N - P d n | D M m g R gr S ||",
+                        "swara": "S - R M - M P - dpm D - P - | pd S - N - P d n | D M m g R gr S ||",
                         "sahitya": "Saa ma Gaa na Lo le - - Baa le Sa- daa rthi Bhan- ja na Shee- - le - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "S - R M - M P , dpm mpdp D | pd S - N - P d n | D M m g R gr S ||",
+                        "swara": "S - R M - M P - dpm mpdp D | pd S - N - P d n | D M m g R gr S ||",
                         "sahitya": "Saa ma Gaa na Lo le - - Baa le Sa- daa rthi Bhan- ja na Shee- - le - -"
                     },
                     {

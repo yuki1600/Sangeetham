@@ -33,7 +33,7 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "P- P- P--- pmG - - M--- | GRGR G- D- | P,g M, P--- ||",
+                "swara": "P- P- P--- pmG - - M--- | GRGR G- D- | P-g M- P--- ||",
                 "sahitya": "Kama la Va ni Se vi tha Par shwam"
             },
             {
@@ -43,7 +43,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "P,dN- D,n dpP - pmdp pmM P--- | snD DP - D N - | rsS - - - rsS - - - ||",
+                "swara": "P-dN- D-n dpP - pmdp pmM P--- | snD DP - D N - | rsS - - - rsS - - - ||",
                 "sahitya": "Kam bu Ja ya Gree vam Na tha De vam"
             },
             {
@@ -82,7 +82,7 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "N - - - S, d S, n d pP - P - P - P , m | sn D D P P M D - | - - D N S - - - ||",
+                        "swara": "N - - - S- d S- n d pP - P - P - P - m | sn D D P P M D - | - - D N S - - - ||",
                         "sahitya": "Nir va na Ni ja Su kha Pra da ye - neem"
                     },
                     {
@@ -93,22 +93,22 @@
                     {
                         "line_number": 7,
                         "swara": "S - - - P - - - P - - - P M D - | dpP - R - S - N - | R - - - R - - - ||",
-                        "sahitya": "Sar va ni Ma \u2013 dhu pa Vi ja ya Ve ni"
+                        "sahitya": "Sar va ni Ma - dhu pa Vi ja ya Ve ni"
                     },
                     {
                         "line_number": 8,
-                        "swara": "S - - - s r N n s D D - P - dpmg - G - | G R - - S, n S, r | G S R G rs S - - - ||",
-                        "sahitya": "Sath Gu \u2013 ru -- Gu ha Ja na ni - - Ni - ran - - - ja - ni - - -"
+                        "swara": "S - - - s r N n s D D - P - dpmg - G - | G R - - S- n S- r | G S R G rs S - - - ||",
+                        "sahitya": "Sath Gu - ru -- Gu ha Ja na ni - - Ni - ran - - - ja - ni - - -"
                     },
                     {
                         "line_number": 9,
-                        "swara": "G M G R S , n R S S N S - N R - - | G - M - P - D - | N - S sn R S S - ||",
+                        "swara": "G M G R S - n R S S N S - N R - - | G - M - P - D - | N - S sn R S S - ||",
                         "sahitya": "Gar vi tha Bhan da - Su ra Bhan ja neem Ka ma kar shan ya di Ran - ja neem"
                     },
                     {
                         "line_number": 10,
                         "swara": "sn D G R - G S rg rsS - S sn D G R - | S - s R n n S d D - | P - gdpm G g d p m R ||",
-                        "sahitya": "Nir - vi she sha Chai tan ya roo - pi neem Oor vi - ta -- tva di Swaru - pi \u2013 neem"
+                        "sahitya": "Nir - vi she sha Chai tan ya roo - pi neem Oor vi - ta -- tva di Swaru - pi - neem"
                     }
                 ]
             }

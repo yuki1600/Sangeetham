@@ -11,177 +11,177 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "S ,s - s r G - G G | - - - - - - - - ||",
-                "sahitya": "Sreeman \u2013 na - ra - ya Na - - - - - - - -"
+                "swara": "S -s - s r G - G G | - - - - - - - - ||",
+                "sahitya": "Sreeman - na - ra - ya Na - - - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "S , r - G P - P P | - - - - - - - - ||",
-                "sahitya": "Sreeman \u2013 na - ra - ya Na - - - - - - - -"
+                "swara": "S - r - G P - P P | - - - - - - - - ||",
+                "sahitya": "Sreeman - na - ra - ya Na - - - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "S ,s - R G - G G | g P \u2013 g R \u2013 G P - D P ||",
-                "sahitya": "Sreeman \u2013 na - ra - ya Na Sree- man - na ra- yana"
+                "swara": "S -s - R G - G G | g P - g R - G P - D P ||",
+                "sahitya": "Sreeman - na - ra - ya Na Sree- man - na ra- yana"
             },
             {
                 "line_number": 4,
-                "swara": "D , p - D P , p g r -S | sn d \u2013 p - \u2013 D S , -s R S ||",
-                "sahitya": "Sree-man - na ra \u2013 ya Na nee Sree \u2013 pa - da me Sa ra Nu"
+                "swara": "D - p - D P - p g r -S | sn d - p - - D S - -s R S ||",
+                "sahitya": "Sree-man - na ra - ya Na nee Sree - pa - da me Sa ra Nu"
             },
             {
                 "line_number": 5,
-                "swara": "S , s R G - G G | g P \u2013 g R \u2013 G P - ,d P ||",
-                "sahitya": "Sreeman \u2013 na - ra - ya Na Sree- man - na ra- yana"
+                "swara": "S - s R G - G G | g P - g R - G P - -d P ||",
+                "sahitya": "Sreeman - na - ra - ya Na Sree- man - na ra- yana"
             },
             {
                 "line_number": 6,
-                "swara": "D , p - D P , p g r -S | sn d \u2013 p - \u2013 D S , -s R S ||",
-                "sahitya": "Sree-man - na ra \u2013 ya Na nee Sree \u2013 pa - da me Sa ra Nu"
+                "swara": "D - p - D P - p g r -S | sn d - p - - D S - -s R S ||",
+                "sahitya": "Sree-man - na ra - ya Na nee Sree - pa - da me Sa ra Nu"
             },
             {
                 "line_number": 7,
-                "swara": "s nd - p - D S r g G G | g P \u2013 g R \u2013 G P - D P ||",
-                "sahitya": "Sreeman \u2013 na - ra - ya Na Sree- man - na ra- yana"
+                "swara": "s nd - p - D S r g G G | g P - g R - G P - D P ||",
+                "sahitya": "Sreeman - na - ra - ya Na Sree- man - na ra- yana"
             },
             {
                 "line_number": 8,
-                "swara": "G- p d S- dn d D -d P P | g D - p - \u2013 dp G , - p gR,",
-                "sahitya": "Sreeman - - na ra \u2013ya Na nee Sree \u2013 pa - da me Sa ra Nu"
+                "swara": "G- p d S- dn d D -d P P | g D - p - - dp G - - p gR-",
+                "sahitya": "Sreeman - - na ra -ya Na nee Sree - pa - da me Sa ra Nu"
             },
             {
                 "line_number": 9,
                 "swara": "dsrg",
-                "sahitya": "Sreeman \u2013 na- ra - ya Na Sree- man - na ra- - yana"
+                "sahitya": "Sreeman - na- ra - ya Na Sree- man - na ra- - yana"
             },
             {
                 "line_number": 10,
-                "swara": "G- p d S- S snd -d P P | g D - p - \u2013 dp G , - p gR,",
-                "sahitya": "Sreeman - - na ra \u2013ya Na nee Sree \u2013 pa - da me Sa ra Nu"
+                "swara": "G- p d S- S snd -d P P | g D - p - - dp G - - p gR-",
+                "sahitya": "Sreeman - - na ra -ya Na nee Sree - pa - da me Sa ra Nu"
             },
             {
                 "line_number": 11,
                 "swara": "dsrg",
-                "sahitya": "Sreeman \u2013 na- ra - ya Na Sree- man - na ra- - yana"
+                "sahitya": "Sreeman - na- ra - ya Na Sree- man - na ra- - yana"
             },
             {
                 "line_number": 12,
-                "swara": "G- p d S- dn d D -d P G | g D - p - \u2013 dp G , - p gR,",
-                "sahitya": "Sreeman - - na ra \u2013ya Na nee Sree \u2013 pa - da me Sa ra Nu"
+                "swara": "G- p d S- dn d D -d P G | g D - p - - dp G - - p gR-",
+                "sahitya": "Sreeman - - na ra -ya Na nee Sree - pa - da me Sa ra Nu"
             },
             {
                 "line_number": 13,
-                "swara": "- - - - - - Gdp | gR ,",
+                "swara": "- - - - - - Gdp | gR -",
                 "sahitya": "- - - - - - - - - - - - - - - -"
             },
             {
                 "line_number": 14,
-                "swara": "g P \u2013 gr",
+                "swara": "g P - gr",
                 "sahitya": "kama la- - sa tee - mukha kama la - ka ma la hi ta"
             },
             {
                 "line_number": 15,
-                "swara": "- g p , d \u2013 S S snD",
+                "swara": "- g p - d - S S snD",
                 "sahitya": "kama - la pri ya - - - ka ma le- - ksha Na- - -"
             },
             {
                 "line_number": 16,
-                "swara": "g dP, \u2013 gr - - G P - , d P | p P \u2013 p - -D P P P G ||",
+                "swara": "g dP- - gr - - G P - - d P | p P - p - -D P P P G ||",
                 "sahitya": "kama la- - sa tee - mukha kama la - ka ma la hi ta -"
             },
             {
                 "line_number": 17,
-                "swara": "- g p , d \u2013 S S snD",
+                "swara": "- g p - d - S S snD",
                 "sahitya": "kama - la pri ya - - - ka ma le- - ksha Na- - -"
             },
             {
                 "line_number": 18,
-                "swara": "\u2013 gr - - G pg P, , d P | p P \u2013 p - -D P P P dppg ||",
+                "swara": "- gr - - G pg P- - d P | p P - p - -D P P P dppg ||",
                 "sahitya": "kama la- - sa tee - mukha kama la - ka ma la hi ta - -"
             },
             {
                 "line_number": 19,
-                "swara": "- g p , d \u2013 S S snD",
+                "swara": "- g p - d - S S snD",
                 "sahitya": "kama - la pri ya - - - ka ma le- - ksha Na- - -"
             },
             {
                 "line_number": 20,
-                "swara": "- d g , - p D S S S S | - s r , s -S S R srG",
+                "swara": "- d g - - p D S S S S | - s r - s -S S R srG",
                 "sahitya": "kama - la - sa na hi ta garu - Da Ga ma na Sree"
             },
             {
                 "line_number": 21,
-                "swara": "- g p , g \u2013 r s nd -P gpD | p D - n D P P , p gR,",
+                "swara": "- g p - g - r s nd -P gpD | p D - n D P P - p gR-",
                 "sahitya": "kama -la na-- - bha nee - pada ka ma la me Sa ra- Nu"
             },
             {
                 "line_number": 22,
-                "swara": "- nd dg , - p D S S S S | - s g , r -S S R srG - ||",
+                "swara": "- nd dg - - p D S S S S | - s g - r -S S R srG - ||",
                 "sahitya": "ka-ma - la - sa na hi ta garu - Da Ga ma na Sree"
             },
             {
                 "line_number": 23,
-                "swara": "- g p , g \u2013 r s nd -P D - | p D - n D P P , p gR,",
+                "swara": "- g p - g - r s nd -P D - | p D - n D P P - p gR-",
                 "sahitya": "kama -la na-- - bha nee - pada ka ma la me Sa ra- Nu"
             },
             {
                 "line_number": 24,
-                "swara": "dsrg rsnd - pd s r G G G | gpdn dpgr - \u2013 G P , d n - d P ||",
-                "sahitya": "Sreeman \u2013 na- ra - ya Na Sree- man - na ra- - yana"
+                "swara": "dsrg rsnd - pd s r G G G | gpdn dpgr - - G P - d n - d P ||",
+                "sahitya": "Sreeman - na- ra - ya Na Sree- man - na ra- - yana"
             },
             {
                 "line_number": 25,
-                "swara": "G- p d S- S snd -d P G | g D - p - \u2013 dp G , - p gR,",
-                "sahitya": "Sreeman - - na ra \u2013ya Na nee Sree \u2013 pa - da me Sa ra Nu"
+                "swara": "G- p d S- S snd -d P G | g D - p - - dp G - - p gR-",
+                "sahitya": "Sreeman - - na ra -ya Na nee Sree - pa - da me Sa ra Nu"
             },
             {
                 "line_number": 26,
-                "swara": "- - r s , r - G - G G G | - , - r , g - P - P - P ||",
+                "swara": "- - r s - r - G - G G G | - - - r - g - P - P - P ||",
                 "sahitya": "para ma yo - gi ja na - - bha -gya dhe - ya -sree"
             },
             {
                 "line_number": 27,
-                "swara": "- -g p , d \u2013 P - P dppg",
+                "swara": "- -g p - d - P - P dppg",
                 "sahitya": "para ma pu - ru sha - - pa ra -t pa ra - - - -"
             },
             {
                 "line_number": 28,
-                "swara": "rs - r s , r - grG",
+                "swara": "rs - r s - r - grG",
                 "sahitya": "para ma yo - gi ja na - - bha -gya dhe - ya -sree"
             },
             {
                 "line_number": 29,
-                "swara": "- -g p , d \u2013 P - P dppg - | G \u2013 P D P D gp dp - gr ||",
+                "swara": "- -g p - d - P - P dppg - | G - P D P D gp dp - gr ||",
                 "sahitya": "para ma pu - ru sha - - pa ra -t pa ra - - - -"
             },
             {
                 "line_number": 30,
-                "swara": "S - r s , r - grG",
+                "swara": "S - r s - r - grG",
                 "sahitya": "para ma yo - gi ja na - - bha -gya dhe - ya -sree"
             },
             {
                 "line_number": 31,
-                "swara": "- -g p , d \u2013 P - P dppg",
+                "swara": "- -g p - d - P - P dppg",
                 "sahitya": "para ma pu - ru sha - - pa ra -t pa ra - - -"
             },
             {
                 "line_number": 32,
-                "swara": "- d g , - p D S - - S | S - S - R G - G - G ||",
+                "swara": "- d g - - p D S - - S | S - S - R G - G - G ||",
                 "sahitya": "para - mat- ma - pa ra ma - Nu roo pa Sree"
             },
             {
                 "line_number": 33,
-                "swara": "- g p , g R S N D P | pg D D - - - - - ||",
+                "swara": "- g p - g R S N D P | pg D D - - - - - ||",
                 "sahitya": "tiru - ven- kata gi ri de - va - - - - -"
             },
             {
                 "line_number": 34,
-                "swara": "- d g , - p D S - - S | S - S - R G - G - G ||",
+                "swara": "- d g - - p D S - - S | S - S - R G - G - G ||",
                 "sahitya": "para - mat- ma - pa ra ma - Nu roo pa Sree"
             },
             {
                 "line_number": 35,
-                "swara": "- g p , g R S N D P | g p drS",
+                "swara": "- g p - g R S N D P | g p drS",
                 "sahitya": "tiru - ven- kata gi ri de - - - - - va Sa- ra- Nu- -"
             }
         ],

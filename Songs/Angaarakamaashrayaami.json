@@ -11,12 +11,12 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- rm P , s N nd || P - M mg P M || mg R - - - -- ||",
+                "swara": "- rm P - s N nd || P - M mg P M || mg R - - - -- ||",
                 "sahitya": "An gaa ra ka maa shra ya - mya ham --"
             },
             {
                 "line_number": 2,
-                "swara": "rm rm S R S - || R , m P - S rm || S - s n r s n d P ||",
+                "swara": "rm rm S R S - || R - m P - S rm || S - s n r s n d P ||",
                 "sahitya": "Vi na - thaa sri tha ja na man daa ram"
             },
             {
@@ -34,7 +34,7 @@
             {
                 "line_number": 1,
                 "swara": "- S S - N N || d n S N S - - ||",
-                "sahitya": "Srin gaa ra ka Mee - sha Vru \u2013"
+                "sahitya": "Srin gaa ra ka Mee - sha Vru -"
             },
             {
                 "line_number": 2,
@@ -43,12 +43,12 @@
             },
             {
                 "line_number": 3,
-                "swara": "- pm P , n S \u2013 R || R - p m R S ||",
+                "swara": "- pm P - n S - R || R - p m R S ||",
                 "sahitya": "Rak thaan gam Ra kthaam ba- raa di"
             },
             {
                 "line_number": 4,
-                "swara": "S nd P - P - N || \u2013 P ,m nd P mg R ||",
+                "swara": "S nd P - P - N || - P -m nd P mg R ||",
                 "sahitya": "Dha ram - Sha kthi Soo- la- dha ram"
             },
             {
@@ -72,12 +72,12 @@
                     },
                     {
                         "line_number": 2,
-                        "swara": "m P m M M R S || N S R M m P , ||",
+                        "swara": "m P m M M R S || N S R M m P - ||",
                         "sahitya": "da - smitha Vi la si tha Vak - thram"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- r M PsnN n d pmM || - ,g R - S R S ||",
+                        "swara": "- r M PsnN n d pmM || - -g R - S R S ||",
                         "sahitya": "Dha ra ni - - Pra-dam -- - - Bhraa - thru"
                     },
                     {
@@ -87,13 +87,13 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- N N N - n s || n d P \u2013 P , d M P ||",
+                        "swara": "- N N N - n s || n d P - P - d M P ||",
                         "sahitya": "Dee na Ra - ksha- kam - Poo ji - tha"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- N S \u2013 n s r m r s || Srs n d s n S - - ||",
-                        "sahitya": "Vai dhya naa - - tha- Kshee -- thram \u2013"
+                        "swara": "- N S - n s r m r s || Srs n d s n S - - ||",
+                        "sahitya": "Vai dhya naa - - tha- Kshee -- thram -"
                     },
                     {
                         "line_number": 7,
@@ -102,13 +102,13 @@
                     },
                     {
                         "line_number": 8,
-                        "swara": "M , g m P , p s n n || P M m g p m R - ||",
+                        "swara": "M - g m P - p s n n || P M m g p m R - ||",
                         "sahitya": "taa - kshaa- nu-- graha Paa- - - thram"
                     },
                     {
                         "line_number": 9,
-                        "swara": "P r S r n s n d P || P s N d \u2013 m p n n S ||",
-                        "sahitya": "Bha nu Chan dra Guru Mi- tram Bhaa sa maa na su ka la \u2013 thram"
+                        "swara": "P r S r n s n d P || P s N d - m p n n S ||",
+                        "sahitya": "Bha nu Chan dra Guru Mi- tram Bhaa sa maa na su ka la - thram"
                     },
                     {
                         "line_number": 10,

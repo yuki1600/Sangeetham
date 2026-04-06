@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- R R - - R || R,g M -mg mP m ||",
+                "swara": "- R R - - R || R-g M -mg mP m ||",
                 "sahitya": "E maa - na di-- - cche - -- vo?"
             },
             {
@@ -21,7 +21,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "- R R - - R || R,g M -mg mP m ||",
+                "swara": "- R R - - R || R-g M -mg mP m ||",
                 "sahitya": "E maa - na di-- - cche - -- vo?"
             },
             {
@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": ",n- R R - - R || rg dp M - P dn dp ||",
+                "swara": "-n- R R - - R || rg dp M - P dn dp ||",
                 "sahitya": "- E maa - na di-- - cche - -- vo?"
             },
             {
@@ -41,12 +41,12 @@
             },
             {
                 "line_number": 7,
-                "swara": ",n- R R - - R || rg dp M -P nd P ||",
+                "swara": "-n- R R - - R || rg dp M -P nd P ||",
                 "sahitya": "- E maa - na di-- - cche - -- vo?"
             },
             {
                 "line_number": 8,
-                "swara": "M,p dp M M - G || rgdp pmgm rgrs ||",
+                "swara": "M-p dp M M - G || rgdp pmgm rgrs ||",
                 "sahitya": "Ye- - min - chi naa - - vo?"
             },
             {
@@ -71,59 +71,59 @@
             },
             {
                 "line_number": 13,
-                "swara": "- R R - - R || R,g M -mg mP m ||",
+                "swara": "- R R - - R || R-g M -mg mP m ||",
                 "sahitya": "E maa - na di-- - cche - -- vo?"
             },
             {
                 "line_number": 14,
-                "swara": "G - - R - gr || S ,n sRs S - ||",
+                "swara": "G - - R - gr || S -n sRs S - ||",
                 "sahitya": "Ye- - min - chi naa vo? - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- D D - D D || , n D nsnd pm P ||",
+                "swara": "- D D - D D || - n D nsnd pm P ||",
                 "sahitya": "Naa Maa ta lu Vina vo?-- Raa-ma!"
             },
             {
                 "line_number": 2,
-                "swara": "- D D - D D || , n D nsnd pm P,m ||",
+                "swara": "- D D - D D || - n D nsnd pm P-m ||",
                 "sahitya": "Naa Maa ta lu Vina vo?-- Raa-ma!"
             },
             {
                 "line_number": 3,
-                "swara": "pm- md p - D , D D || , n D nsnd pm P,m ||",
+                "swara": "pm- md p - D - D D || - n D nsnd pm P-m ||",
                 "sahitya": "-- Naa - Maa ta lu Vina vo?-- Raa-ma!"
             },
             {
                 "line_number": 4,
-                "swara": "pm- md , -D , D D || , n D nsnd p- n d d ||",
+                "swara": "pm- md - -D - D D || - n D nsnd p- n d d ||",
                 "sahitya": "-- Naa - Maa ta lu Vina vo?-- - Raa-ma!"
             },
             {
                 "line_number": 5,
-                "swara": "pm- md p - D , D D || , n D nsnd pm P ||",
+                "swara": "pm- md p - D - D D || - n D nsnd pm P ||",
                 "sahitya": "-- Naa - Maa ta lu Vina vo?-- Raa-ma!"
             },
             {
                 "line_number": 6,
-                "swara": "pm- md p - D , dn S || r g M mggr g r S ||",
+                "swara": "pm- md p - D - dn S || r g M mggr g r S ||",
                 "sahitya": "-- Naa - Maa ta- lu Vi- na vo?-- Raa-ma!"
             },
             {
                 "line_number": 7,
-                "swara": "S ,d nsnd P pr || rg dp pmgm rgrs ||",
+                "swara": "S -d nsnd P pr || rg dp pmgm rgrs ||",
                 "sahitya": "Naa- - - - Tala Vra-ta- le- -- mo?--"
             },
             {
                 "line_number": 8,
-                "swara": "- - md p - D , dn S || r g M mggr g r S ||",
+                "swara": "- - md p - D - dn S || r g M mggr g r S ||",
                 "sahitya": "-- Naa - Maa ta- lu Vi- na vo?-- Raa-ma!"
             },
             {
                 "line_number": 9,
-                "swara": "S ,d nsnd P pr || rg dp pmgm rgrs ||",
+                "swara": "S -d nsnd P pr || rg dp pmgm rgrs ||",
                 "sahitya": "Naa- - - - Tala Vra-ta- le- -- mo?--"
             }
         ],
@@ -132,12 +132,12 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- p p , P r rg mp | mgM rmgr S S ||",
+                        "swara": "- p p - P r rg mp | mgM rmgr S S ||",
                         "sahitya": "Yasha - maa- yu-vu- Sa- d bha-- kti-yu"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- p p , mpD,p M mp | mgM rmgr S S ||",
+                        "swara": "- p p - mpD-p M mp | mgM rmgr S S ||",
                         "sahitya": "Yasha - maa- yu-vu- Sa- d bha-- kti-yu"
                     },
                     {
@@ -147,42 +147,42 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "sn S ,d - N - S || rgM mg gr g r S ||",
+                        "swara": "sn S -d - N - S || rgM mg gr g r S ||",
                         "sahitya": "E- - -- kaa - nta Chi-- - - - tta- mu"
                     },
                     {
                         "line_number": 5,
-                        "swara": "- pm , D ns - d p md || mg M rmgr S S ||",
+                        "swara": "- pm - D ns - d p md || mg M rmgr S S ||",
                         "sahitya": "Yasha maa-- yu-vu - Sa- d bha-- kti-yu"
                     },
                     {
                         "line_number": 6,
-                        "swara": "sn S ,d - N - S || rgM mg gr g r S ||",
+                        "swara": "sn S -d - N - S || rgM mg gr g r S ||",
                         "sahitya": "E- - -- kaa - nta Chi-- - - - tta- mu"
                     },
                     {
                         "line_number": 7,
-                        "swara": "- p m , D , D - D || N - nsnd P - ||",
+                        "swara": "- p m - D - D - D || N - nsnd P - ||",
                         "sahitya": "Su sha -ree- ra Mo san- - - - ge -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "- p m , D , D - D || N - nsnd pd mp ||",
+                        "swara": "- p m - D - D - D || N - nsnd pd mp ||",
                         "sahitya": "Su sha -ree- ra Mo san- - - - ge -"
                     },
                     {
                         "line_number": 9,
-                        "swara": ",m d m , D , D - D || N - nsnd p- ndd ||",
+                        "swara": "-m d m - D - D - D || N - nsnd p- ndd ||",
                         "sahitya": "-- Susha -ree- ra Mo san- - - - - ge --"
                     },
                     {
                         "line_number": 10,
-                        "swara": "pm- d m , D , D - D || nSd nsnd p- ndd ||",
+                        "swara": "pm- d m - D - D - D || nSd nsnd p- ndd ||",
                         "sahitya": "-- Susha -ree- ra Mo san- - - - - ge --"
                     },
                     {
                         "line_number": 11,
-                        "swara": "pm- d m , D , dn S || rgM mggr gr S ||",
+                        "swara": "pm- d m - D - dn S || rgM mggr gr S ||",
                         "sahitya": "-- Susha -ree- ra Mo san- ge -- Bhaa-"
                     },
                     {
@@ -192,7 +192,7 @@
                     },
                     {
                         "line_number": 13,
-                        "swara": "ns- d m , D , dn S || rg Mpm mggr gr S ||",
+                        "swara": "ns- d m - D - dn S || rg Mpm mggr gr S ||",
                         "sahitya": "ta- Susha - ree- ra Mo san-- - - ge -- Bhaa-"
                     },
                     {

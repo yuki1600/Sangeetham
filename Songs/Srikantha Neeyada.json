@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Srikantha Neeyada",
         "raga": "Bhavapriya",
-        "arohanam": "S R\u2081 G\u2082 M\u2082 P D\u2081 N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2081 P M\u2082 G\u2082 R\u2081 S ||",
+        "arohanam": "S R₁ G₂ M₂ P D₁ N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₁ P M₂ G₂ R₁ S ||",
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
@@ -11,22 +11,22 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - P ,d N - D | P - - P P P P - ||",
+                "swara": "- - - P -d N - D | P - - P P P P - ||",
                 "sahitya": "Sri -- Kan - tha Ni - - ya da Ba laa"
             },
             {
                 "line_number": 2,
-                "swara": "P P M - P ,d N - D | pdnd pm- P P pm pdns ||",
+                "swara": "P P M - P -d N - D | pdnd pm- P P pm pdns ||",
                 "sahitya": "di Ba la Sri -- Kan - tha Ni - - - ya da Ba laa"
             },
             {
                 "line_number": 3,
-                "swara": "r s n d pm - P mdp - p mg - G | R , s - - G - rg M \u2013 - ||",
+                "swara": "r s n d pm - P mdp - p mg - G | R - s - - G - rg M - - ||",
                 "sahitya": "di -- Ba la - Che la-- a - - nga Le - - da ? - Vaa- - -"
             },
             {
                 "line_number": 4,
-                "swara": "D nd pm \u2013 P mdp - p mg - G | R , s - - G - rg M \u2013 dn ||",
+                "swara": "D nd pm - P mdp - p mg - G | R - s - - G - rg M - dn ||",
                 "sahitya": "da ? - - - - Che la-- a - - ncha Le - - da ? - Vaa- - -"
             },
             {
@@ -38,37 +38,37 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - P ,d N - N | S , s - - - - - - ||",
+                "swara": "- - - P -d N - N | S - s - - - - - - ||",
                 "sahitya": "- Paa -- kaa - ri nu tha - - - - --"
             },
             {
                 "line_number": 2,
-                "swara": "ns nd pm- P ,d N - N | S , s - dn S , p dn S ||",
+                "swara": "ns nd pm- P -d N - N | S - s - dn S - p dn S ||",
                 "sahitya": "- Paa -- kaa - ri nu tha - - - - --"
             },
             {
                 "line_number": 3,
-                "swara": ", s nd pm- P ,d N - N | S , s - S , r G - R ||",
+                "swara": "- s nd pm- P -d N - N | S - s - S - r G - R ||",
                 "sahitya": "- Paa -- kaa - ri nu tha - Nee - - vaa - ri"
             },
             {
                 "line_number": 4,
-                "swara": "S , r s n - P ,d N - N | S , s - S , r G - R ||",
+                "swara": "S - r s n - P -d N - N | S - s - S - r G - R ||",
                 "sahitya": "Ba -la - - Paa - - kaa - ri nu tha - Nee - - vaa - ri"
             },
             {
                 "line_number": 5,
-                "swara": "G , m - - G M pm G R | S ,s - sr sn \u2013sr sn -ns ||",
+                "swara": "G - m - - G M pm G R | S -s - sr sn -sr sn -ns ||",
                 "sahitya": "Ba- laa - Ba la mu- - nu De-li - ya- - - ga- - - le-"
             },
             {
                 "line_number": 6,
-                "swara": "nd- nd pm P ,d N - D | pdnd pm- P P pm pdns ||",
+                "swara": "nd- nd pm P -d N - D | pdnd pm- P P pm pdns ||",
                 "sahitya": "- - da ?- - - Sri -- Kan - tha Ni - - - ya da Ba laa"
             },
             {
                 "line_number": 7,
-                "swara": "r s n d pm - P mdp - p mg - G | R , s - - G - rg M \u2013 dn ||",
+                "swara": "r s n d pm - P mdp - p mg - G | R - s - - G - rg M - dn ||",
                 "sahitya": "di -- Ba la - Che la-- a - - nga Le - - da ? - Vaa- - -"
             },
             {
@@ -82,47 +82,47 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- - - - P P , p - P | P , p - pm mdp \u2013 p m g- G ||",
+                        "swara": "- - - - P P - p - P | P - p - pm mdp - p m g- G ||",
                         "sahitya": "Ka ka Dai - tyu Ne-ka -sha- ra-- mu - - na"
                     },
                     {
                         "line_number": 2,
-                        "swara": "R , s -- S,n G , r - S | S - ,n s r G G G M ||",
-                        "sahitya": "Ne-ya - Kan ja \u2013 ja - stra mai- - Va- ra ga le -"
+                        "swara": "R - s -- S-n G - r - S | S - -n s r G G G M ||",
+                        "sahitya": "Ne-ya - Kan ja - ja - stra mai- - Va- ra ga le -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "P - - - P p D - n - N | S , s - - - - - - ||",
-                        "sahitya": "da ?- - Sri ka- ra ! \u2013 Dvi jul lai - - - - - -"
+                        "swara": "P - - - P p D - n - N | S - s - - - - - - ||",
+                        "sahitya": "da ?- - Sri ka- ra ! - Dvi jul lai - - - - - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "nsnd pm P p D - n - N | S , s - dn S , p dn S ||",
-                        "sahitya": "- - - - - - Sri ka- ra ! \u2013 Dvi jul lai - - - - - -"
+                        "swara": "nsnd pm P p D - n - N | S - s - dn S - p dn S ||",
+                        "sahitya": "- - - - - - Sri ka- ra ! - Dvi jul lai - - - - - -"
                     },
                     {
                         "line_number": 5,
-                        "swara": ", snd pm P p D - n - N | S , s - S R G - R ||",
-                        "sahitya": "- - - - - - Sri ka- ra ! \u2013 Dvi jul lai - Daa te ru - ga"
+                        "swara": "- snd pm P p D - n - N | S - s - S R G - R ||",
+                        "sahitya": "- - - - - - Sri ka- ra ! - Dvi jul lai - Daa te ru - ga"
                     },
                     {
                         "line_number": 6,
-                        "swara": "S , r sn - P p D - n - N | S , s - S R G - R ||",
-                        "sahitya": "Le ni - - Sri ka- ra ! \u2013 Dvi jul lai - Daa te ru - ga"
+                        "swara": "S - r sn - P p D - n - N | S - s - S R G - R ||",
+                        "sahitya": "Le ni - - Sri ka- ra ! - Dvi jul lai - Daa te ru - ga"
                     },
                     {
                         "line_number": 7,
-                        "swara": "G , m - - G M pm G R | S ,s - sr sn \u2013 s r s n -n s ||",
-                        "sahitya": "Le \u2013 ni - Chin tha Nee- - ku Do cha -de- -mi? Tya- - ga raa-"
+                        "swara": "G - m - - G M pm G R | S -s - sr sn - s r s n -n s ||",
+                        "sahitya": "Le - ni - Chin tha Nee- - ku Do cha -de- -mi? Tya- - ga raa-"
                     },
                     {
                         "line_number": 8,
-                        "swara": "nd- nd pm- P ,d N - D | pdnd pm- P P pm pdns ||",
+                        "swara": "nd- nd pm- P -d N - D | pdnd pm- P P pm pdns ||",
                         "sahitya": "- ja nu- - tha! Sri -- Kan - tha Ni - - - ya da Ba laa"
                     },
                     {
                         "line_number": 9,
-                        "swara": "r s n d pm - P mdp - p mg - G | R , s - - G - rg M \u2013 dn ||",
+                        "swara": "r s n d pm - P mdp - p mg - G | R - s - - G - rg M - dn ||",
                         "sahitya": "di -- Ba la - Che la-- a - - nga Le - - da ? - Vaa- - -"
                     },
                     {

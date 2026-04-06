@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "S - - - Srn N P nppm - PM || PR RM MR- rmpn pmR rs R , || ppmr - - R - S - rssn - S - ||",
+                "swara": "S - - - Srn N P nppm - PM || PR RM MR- rmpn pmR rs R - || ppmr - - R - S - rssn - S - ||",
                 "sahitya": "Soun da- ra - Raa- - - - - - - jam- A-- - - shra- - ye- - - - - - Ga - ja"
             },
             {
@@ -36,64 +36,64 @@
             },
             {
                 "line_number": 6,
-                "swara": "S - - - Srn N P nppm - PM || PR RM MR- rmpn pmR rs R , || ppmr - - R - S - - - - - ||",
+                "swara": "S - - - Srn N P nppm - PM || PR RM MR- rmpn pmR rs R - || ppmr - - R - S - - - - - ||",
                 "sahitya": "Soun da- ra - Raa- - - - - - - jam- A-- - - shra- - ye- - - - - - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- - R - M - R , m P - P , m || P - pNp , n - nm P - - - P M ||",
+                "swara": "- - R - M - R - m P - P - m || P - pNp - n - nm P - - - P M ||",
                 "sahitya": "- - Nan da Nan- - - da - na- Raa- - jam - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "RS- R - M - R , m P - P , m || P - pNp , n - nm P - - - Mnp pm ||",
+                "swara": "RS- R - M - R - m P - P - m || P - pNp - n - nm P - - - Mnp pm ||",
                 "sahitya": "- - Nan da Nan- - - da - na- Raa- - jam - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "RS- R - M - R , m P - P , m || P - pNp , n - nm P - - - - - ||",
+                "swara": "RS- R - M - R - m P - P - m || P - pNp - n - nm P - - - - - ||",
                 "sahitya": "- - Nan da Nan- - - da - na- Raa- - jam - - - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "- - nppm - P M P , s N M P - || N - S - S - - - S - - - ||",
+                "swara": "- - nppm - P M P - s N M P - || N - S - S - - - S - - - ||",
                 "sahitya": "- - Naa- - ga - Pa- - - - - tta- na- Raa -- jam - -"
             },
             {
                 "line_number": 5,
-                "swara": "- - N - S N S , r m R , r S r || sn P - - P N N R rs R - - ||",
+                "swara": "- - N - S N S - r m R - r S r || sn P - - P N N R rs R - - ||",
                 "sahitya": "- - Sun- da- ri- - - - - Ra- - maa- - - raa- - - jam - - -"
             },
             {
                 "line_number": 6,
-                "swara": "- - snN - S N S , r m R , r S r || sn P - - P N N R rs R - - ||",
+                "swara": "- - snN - S N S - r m R - r S r || sn P - - P N N R rs R - - ||",
                 "sahitya": "- - Sun- da- ri- - - - - Ra- - maa- - - raa- - - jam - - -"
             },
             {
                 "line_number": 7,
-                "swara": "R - S - snnp - N - N S snnp - || P - - - R pmM R ,m s R s - - ||",
+                "swara": "R - S - snnp - N - N S snnp - || P - - - R pmM R -m s R s - - ||",
                 "sahitya": "Su ra - vi- - - nu - ta- ma- - hi- - - raa - - - - - - jam- - - - (repeat Sundari)"
             },
             {
                 "line_number": 8,
-                "swara": "R - S - snnp - N - N S snnp - || P - - - R pmM R ,m s R s - - ||",
+                "swara": "R - S - snnp - N - N S snnp - || P - - - R pmM R -m s R s - - ||",
                 "sahitya": "Su ra - vi- - - nu - ta- ma- - hi- - - raa - - - - - - jam- - - -"
             },
             {
                 "line_number": 9,
-                "swara": "P - P,m P S N P - R M P || RM RS N S R , m R- M P - ||",
+                "swara": "P - P-m P S N P - R M P || RM RS N S R - m R- M P - ||",
                 "sahitya": "Man da- smita Mukhaam - bu jam- Man- dara dhara Ka- raam - bu jam"
             },
             {
                 "line_number": 10,
-                "swara": "P M P N S- M R - sn P - N R - || S - N P - N P R , m R - M P - ||",
+                "swara": "P M P N S- M R - sn P - N R - || S - N P - N P R - m R - M P - ||",
                 "sahitya": "Nan- daka ra Na ya naam - bu jam Sun- dara tara Pa- daam - bu jam (repeat)"
             },
             {
                 "line_number": 11,
-                "swara": "P M P N S- M R - sn P - N R - || S - N P - N P R , m R - M P R ||",
+                "swara": "P M P N S- M R - sn P - N R - || S - N P - N P R - m R - M P R ||",
                 "sahitya": "Nan- daka ra Na ya naam - bu jam Sun- dara tara Pa- daam - bu jam (soundararajam)"
             }
         ],
@@ -102,7 +102,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- - R - P - P - RM rmP || P,m - R - pmmr - rsR - - - - - ||",
+                        "swara": "- - R - P - P - RM rmP || P-m - R - pmmr - rsR - - - - - ||",
                         "sahitya": "-- Sham ba- ra- vai- - - ri - Ja- na- - - kam - - - - -"
                     },
                     {
@@ -117,7 +117,7 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "P - P M N - P - P,n pMp || mRm S - N - R - S - - - ||",
+                        "swara": "P - P M N - P - P-n pMp || mRm S - N - R - S - - - ||",
                         "sahitya": "A- naa- - - di - Gu- ru- - gu- - ha- Mu di - tam---"
                     },
                     {
@@ -132,22 +132,22 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "P - - - N - S - R - - - || R mr S - - ,n R - S - - - ||",
+                        "swara": "P - - - N - S - R - - - || R mr S - - -n R - S - - - ||",
                         "sahitya": "Am- - bu- dhi- Gar- - va-- Ni - - - gra- ham- -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "S ,r sNs nPn pMp mR, pmmr - || R - - ,s S - - , n R - S - ||",
+                        "swara": "S -r sNs nPn pMp mR- pmmr - || R - - -s S - - - n R - S - ||",
                         "sahitya": "A- nru- ta-- Ja- - da- - - - - - Du- - - khaa- - pa- ham"
                     },
                     {
                         "line_number": 9,
-                        "swara": "P - P M R ,m R S S ,n S - || R - M - R M R M P N S - ||",
+                        "swara": "P - P M R -m R S S -n S - || R - M - R M R M P N S - ||",
                         "sahitya": "Kam bu Vi dam- bana Kan tham Khandi - krutha Dasha kan- tam"
                     },
                     {
                         "line_number": 10,
-                        "swara": "P - P M R ,m R S R N S - || R - M - R M R M P N S - ||",
+                        "swara": "P - P M R -m R S R N S - || R - M - R M R M P N S - ||",
                         "sahitya": "Kam bu Vi dam- bana Kan tham Khandi - krutha Dasha kan- tam"
                     },
                     {

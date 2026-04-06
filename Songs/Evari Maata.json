@@ -11,33 +11,33 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - P ,m - G M - P - P - - - D P | D - - - D nd D P | MM PP D ND - D ||",
+                "swara": "- - P -m - G M - P - P - - - D P | D - - - D nd D P | MM PP D ND - D ||",
                 "sahitya": "Ev va - ri ma - - - ta - - - vi - na - - - vo - - - - ra - - vo - - -"
             },
             {
                 "line_number": 2,
-                "swara": "PM- P, m - G - mp - - P - - - D P | D - - - D nd DP | MM PP D ND - D ||",
+                "swara": "PM- P- m - G - mp - - P - - - D P | D - - - D nd DP | MM PP D ND - D ||",
                 "sahitya": "- - Ev va - ri ma - - - ta- - - vi - na - - - vo - - - - ra - - - vo - - -"
             },
             {
                 "line_number": 3,
-                "swara": "PM P, nd M, G, mp - - P - - - nd dp | D - - - D ndDP | M PDR S - N D ||",
-                "sahitya": "- - Ev -- va ri ma ta vi - - na vo - - - - ra - - - - - vo \u2013"
+                "swara": "PM P- nd M- G- mp - - P - - - nd dp | D - - - D ndDP | M PDR S - N D ||",
+                "sahitya": "- - Ev -- va ri ma ta vi - - na vo - - - - ra - - - - - vo -"
             },
             {
                 "line_number": 4,
-                "swara": "PM P ,dnd M, G, mp - - P - - - nd dp | D - - - D ndDP | mgmp pmpd pdS snnd ||",
+                "swara": "PM P -dnd M- G- mp - - P - - - nd dp | D - - - D ndDP | mgmp pmpd pdS snnd ||",
                 "sahitya": "- - Ev - - - va ri ma ta vi - - na vo - - - - ra - - - - - -- - - - vo- - -"
             },
             {
                 "line_number": 5,
-                "swara": "dppm P,dnd M, G, mp - - mpD d Pd S - | D SRG MG- rg mGm | RS DR Srs NDP ||",
+                "swara": "dppm P-dnd M- G- mp - - mpD d Pd S - | D SRG MG- rg mGm | RS DR Srs NDP ||",
                 "sahitya": "- - - - Ev - - - va ri ma - ta - - vi - - - na - - - - - vo - - - - - - - ra - vo - - -"
             },
             {
                 "line_number": 6,
                 "swara": "dpM P sd D P dpmg pmgr grss rsnp D - | S - - - - - S R | GM pd r s N D P - ||",
-                "sahitya": "- - - In - - du - le- - - - - - - - - vo - - - - - - - - - - - - - - pa \u2013l i - - pa li"
+                "sahitya": "- - - In - - du - le- - - - - - - - - vo - - - - - - - - - - - - - - pa -l i - - pa li"
             },
             {
                 "line_number": 7,
@@ -47,44 +47,44 @@
             {
                 "line_number": 8,
                 "swara": "dpM P sd D P dpmg pmgr grss rsnp D - | S - srgm pdsr GmgRgr | S- pd rs N D P- ||",
-                "sahitya": "- - - In - - du - le- - - - - - - - vo - - - - - - - - -- - - - - - - - - - -- - pa \u2013li - - pa li"
+                "sahitya": "- - - In - - du - le- - - - - - - - vo - - - - - - - - -- - - - - - - - - - -- - pa -li - - pa li"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- - S ,-s np - D S - - - - - - - pd Srs | ndpd Sg rs np , D S - | - - - - - - pdsr ||",
+                "swara": "- - S --s np - D S - - - - - - - pd Srs | ndpd Sg rs np - D S - | - - - - - - pdsr ||",
                 "sahitya": "A va- - - ni lo - - - - - - - - - - - - A va - - - ni lo - - - - - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "gmpd srg- rs np , D - S - - - D S R - S R | G - rgmg rGr S - | D ,s RS Srs nd DP ||",
+                "swara": "gmpd srg- rs np - D - S - - - D S R - S R | G - rgmg rGr S - | D -s RS Srs nd DP ||",
                 "sahitya": "- - - - A - - va - ni lo - - na - - - rshe - - ya - - - - - - - - - pau ru- she - - ya -"
             },
             {
                 "line_number": 3,
-                "swara": "D - - srg- rs np , D - S - - - rsD ,s R - grS ,r | G - rgmg rGr S - | D ,s RgrRS Srs nd Dnd dp ||",
+                "swara": "D - - srg- rs np - D - S - - - rsD -s R - grS -r | G - rgmg rGr S - | D -s RgrRS Srs nd Dnd dp ||",
                 "sahitya": "- - A - - va - ni lo - - na - - - - rshe - - - ya - - - - - - - - - pau ru- - - she - - ya -"
             },
             {
                 "line_number": 4,
-                "swara": "D - S R Gmg rgrm gR, S Srs nd DP pd nd | dp mg P,d S- Srs nd | dPd S- gm pd snnd ||",
-                "sahitya": "- - man \u2013 di - - - - ya - - cho - - - - dh ya - - - - - - me \u2013ru ga - - - - - le nai - - ya - - -"
+                "swara": "D - S R Gmg rgrm gR- S Srs nd DP pd nd | dp mg P-d S- Srs nd | dPd S- gm pd snnd ||",
+                "sahitya": "- - man - di - - - - ya - - cho - - - - dh ya - - - - - - me -ru ga - - - - - le nai - - ya - - -"
             },
             {
                 "line_number": 5,
-                "swara": "D - S R Gmg rgrm gR, S Srs nd DP pd nd | dp mg P,d S- pd rs | ND P- gm pd snnd ||",
-                "sahitya": "- - man \u2013 thi - - - - ya - -cho - - - - dhy a - - - - - - me \u2013 ru ga - - - - le nai - - ya - - -"
+                "swara": "D - S R Gmg rgrm gR- S Srs nd DP pd nd | dp mg P-d S- pd rs | ND P- gm pd snnd ||",
+                "sahitya": "- - man - thi - - - - ya - -cho - - - - dhy a - - - - - - me - ru ga - - - - le nai - - ya - - -"
             },
             {
                 "line_number": 6,
-                "swara": "dppm P,dnd M, G, mp - - mpD d Pd S - | D SRG MG- rg mGm | RS DR Srs NDP ||",
+                "swara": "dppm P-dnd M- G- mp - - mpD d Pd S - | D SRG MG- rg mGm | RS DR Srs NDP ||",
                 "sahitya": "- - - - Ev - - - va ri ma - ta - - vi - - - na - - - - - vo - - - - - - - ra - vo - - -"
             },
             {
                 "line_number": 7,
                 "swara": "dpM P sd D P dpmg pmgr grss rsnp D - | S - srgm pdsr GmgRgr | S- pd rs N D P- ||",
-                "sahitya": "- - - In - - du - le- - - - - - - - vo - - - - - - - - -- - - - - - - - - - -- - pa \u2013li - - pa li"
+                "sahitya": "- - - In - - du - le- - - - - - - - vo - - - - - - - - -- - - - - - - - - - -- - pa -li - - pa li"
             }
         ],
         "charanams": [
@@ -92,42 +92,42 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- - D ,-n - D -, P , D - - - PD pdnd | N - -- N D N D , s | ndP - - - - - -P ||",
+                        "swara": "- - D --n - D -- P - D - - - PD pdnd | N - -- N D N D - s | ndP - - - - - -P ||",
                         "sahitya": "Bha - -kta pa ra - - - - - - - - - thi nu da nu chu - - - - - - - - - pa"
                     },
                     {
                         "line_number": 2,
-                        "swara": "D M -d P d S --d sn -n dp D - - PD pdnd | N - - - N D N D , s | ndP - - - - d s n d ||",
-                        "sahitya": "rama Bha-- - -kta \u2013 pa - -- ra - - - - - - thi -- nu da nu chu - - -- - - - - pa- ra-"
+                        "swara": "D M -d P d S --d sn -n dp D - - PD pdnd | N - - - N D N D - s | ndP - - - - d s n d ||",
+                        "sahitya": "rama Bha-- - -kta - pa - -- ra - - - - - - thi -- nu da nu chu - - -- - - - - pa- ra-"
                     },
                     {
                         "line_number": 3,
-                        "swara": "pDm -d P d S --d sn -n dp D - - PD pdnd | N - - - N D N D , s | ndP - - - - d s n d ||",
-                        "sahitya": "ma -- Bha-- - -kta \u2013 pa - -- ra - - - - - - thi -- nu da nu chu - - -- - - - - pa- ra-"
+                        "swara": "pDm -d P d S --d sn -n dp D - - PD pdnd | N - - - N D N D - s | ndP - - - - d s n d ||",
+                        "sahitya": "ma -- Bha-- - -kta - pa - -- ra - - - - - - thi -- nu da nu chu - - -- - - - - pa- ra-"
                     },
                     {
                         "line_number": 4,
-                        "swara": "pDm- M P M- N DN pd nd mp dp pp mg M - | - - dp mg M P D - dPd S,d rsN D - ||",
+                        "swara": "pDm- M P M- N DN pd nd mp dp pp mg M - | - - dp mg M P D - dPd S-d rsN D - ||",
                         "sahitya": "ma - -bha - - ga va- tu- - la - - kai - - - - - - se - - - - - - - vim - - chi - -"
                     },
                     {
                         "line_number": 5,
                         "swara": "- - M G P D Srg rsnd D P dPd S - | - - r S- d N - D P | ND DP Pdp M G ||",
-                        "sahitya": "vya- kta - ru - - - - pu - dai - - - - - pa \u2013li - - ki na mu - - - cha- - ta -"
+                        "sahitya": "vya- kta - ru - - - - pu - dai - - - - - pa -li - - ki na mu - - - cha- - ta -"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- - R G rgmg M - gm gm gR, S R G M P | - -G , M, pdnd M - | gmgr grsn rsnp D - ||",
+                        "swara": "- - R G rgmg M - gm gm gR- S R G M P | - -G - M- pdnd M - | gmgr grsn rsnp D - ||",
                         "sahitya": "- - yu - - - - - - - - - kta - - - - - - - - - - - ma nu nchu nu - - - - - - - - - - - -"
                     },
                     {
                         "line_number": 7,
-                        "swara": "S - R G rgmg M - gm gm gR, S R G M P | - -G , M, pdnd M - | gmgr grsn rsnp D - ||",
+                        "swara": "S - R G rgmg M - gm gm gR- S R G M P | - -G - M- pdnd M - | gmgr grsn rsnp D - ||",
                         "sahitya": "nti - yu - - - - - - - kta - - - - - - - - - - - ma nu nchu nu - - - - - - - - - - - -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "S - - S - ND P - D nd Pdp ppmg M - | - - dp mg M P D - | dPd S,d r s N D - ||",
+                        "swara": "S - - S - ND P - D nd Pdp ppmg M - | - - dp mg M P D - | dPd S-d r s N D - ||",
                         "sahitya": "nti sha ktiga la ma - - - - - -- - ha - - de- - - - vu du - ni - - - - va- - ni-"
                     },
                     {
@@ -138,22 +138,22 @@
                     {
                         "line_number": 10,
                         "swara": "- - d Pd S - P D S R G - srgr gmgr | S - S rg rsnd P - | pdnd dpmg P - D - ||",
-                        "sahitya": "sa - - ta - chi - - - tu da- - - - - - gu thia- - - - ga ra - - ja - - nu tha \u2013"
+                        "sahitya": "sa - - ta - chi - - - tu da- - - - - - gu thia- - - - ga ra - - ja - - nu tha -"
                     },
                     {
                         "line_number": 11,
                         "swara": "- - S R G mg rgr m gRs Srs nd D P pd nd | dpmg dPd S - pd rs | ND P - gm pd snnd ||",
-                        "sahitya": "sa - tya- - sam-- thu-- da - - nu \u2013 k on - - - - - - - - - ti i - - - - - la lo- - - - - - -"
+                        "sahitya": "sa - tya- - sam-- thu-- da - - nu - k on - - - - - - - - - ti i - - - - - la lo- - - - - - -"
                     },
                     {
                         "line_number": 12,
-                        "swara": "dppm P,dnd M, G, mp - - mpD d Pd S - | D SRG MG- rg mGm | RS DR Srs NDP ||",
+                        "swara": "dppm P-dnd M- G- mp - - mpD d Pd S - | D SRG MG- rg mGm | RS DR Srs NDP ||",
                         "sahitya": "- - - - Ev - - - va ri ma - ta - - vi - - - na - - - - - vo - - - - - - - ra - vo - - -"
                     },
                     {
                         "line_number": 13,
                         "swara": "dpM P sd D P dpmg pmgr grss rsnp D - | S - srgm pdsr GmgRgr | S- pd rs N D P- ||",
-                        "sahitya": "- - - In - - du - le- - - - - - - - vo - - - - - - - - -- - - - - - - - - - -- - pa \u2013li - - pa li"
+                        "sahitya": "- - - In - - du - le- - - - - - - - vo - - - - - - - - -- - - - - - - - - - -- - pa -li - - pa li"
                     }
                 ]
             }

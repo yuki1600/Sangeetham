@@ -11,27 +11,27 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- n s , n D P P , g M | P - p m G | - - S - ||",
+                "swara": "- n s - n D P P - g M | P - p m G | - - S - ||",
                 "sahitya": "Siva Siva Siva Yana raa daa O-"
             },
             {
                 "line_number": 2,
-                "swara": "- n s , n D P P , g M | pmdp p m G | - - g m p d ||",
+                "swara": "- n s - n D P P - g M | pmdp p m G | - - g m p d ||",
                 "sahitya": "Siva Siva Siva Yana raa daa O-"
             },
             {
                 "line_number": 3,
-                "swara": "ns- n s , n D P P , g M | gmdp p m G | p d p m g r - g r ||",
+                "swara": "ns- n s - n D P P - g M | gmdp p m G | p d p m g r - g r ||",
                 "sahitya": "Siva Siva Siva Yana raa daa O- ri-"
             },
             {
                 "line_number": 4,
-                "swara": "s n -s r , g M D - S S | s n g r s n - d s | n d p m g r - g m ||",
+                "swara": "s n -s r - g M D - S S | s n g r s n - d s | n d p m g r - g m ||",
                 "sahitya": "Bhava bhaya Baa dhala Na na chu ko -- raa -- daa - - -"
             },
             {
                 "line_number": 5,
-                "swara": "pd - n rs , n D P P , g M | gmdp p m G | p d p m g r - g r ||",
+                "swara": "pd - n rs - n D P P - g M | gmdp p m G | p d p m g r - g r ||",
                 "sahitya": "Siva Siva Siva Yana raa daa O- ri-"
             }
         ],
@@ -41,17 +41,17 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- n s , n D P M , g M | P dn P - | - - dp D ||",
+                        "swara": "- n s - n D P M - g M | P dn P - | - - dp D ||",
                         "sahitya": "Kaa maa- dula Dega Ko - - si (para-)"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- n s , n D P M , g M | p m d p p m G | - - g m p d ||",
+                        "swara": "- n s - n D P M - g M | p m d p p m G | - - g m p d ||",
                         "sahitya": "Kaa maa- dula Dega Ko - - si - - pa- ra-"
                     },
                     {
                         "line_number": 3,
-                        "swara": "ns- n s , n D P M , g M | p m d p p m G | - - S S ||",
+                        "swara": "ns- n s - n D P M - g M | p m d p p m G | - - S S ||",
                         "sahitya": "Kaa maa- dula Dega Ko - - si - - Pa- ra-"
                     },
                     {
@@ -61,32 +61,32 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- dm - D S , n R S | - s r , S , | s n D N S ||",
+                        "swara": "- dm - D S - n R S | - s r - S - | s n D N S ||",
                         "sahitya": "Paa ma ra tvamu Neda baa si (ati)"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- dm - D S , n R S | - s r , S , | s n D N ns ||",
+                        "swara": "- dm - D S - n R S | - s r - S - | s n D N ns ||",
                         "sahitya": "Paa ma ra tvamu Neda baa si (ati)"
                     },
                     {
                         "line_number": 7,
-                        "swara": "rs n- d M - D S , n gr rs | - s r , S , | s n D N ns ||",
+                        "swara": "rs n- d M - D S - n gr rs | - s r - S - | s n D N ns ||",
                         "sahitya": "Paa ma ra tvamu Neda baa si (ati)"
                     },
                     {
                         "line_number": 8,
-                        "swara": "rs n- s , s S s n D - d r | s n D P M | mdpm gr- gm || pd",
+                        "swara": "rs n- s - s S s n D - d r | s n D P M | mdpm gr- gm || pd",
                         "sahitya": "Ne ma mu to - - Bil- var - - cchana Je - - - - - si"
                     },
                     {
                         "line_number": 9,
-                        "swara": "- , s , n D P M , g M | p m d p p m G | - - - - ||",
+                        "swara": "- - s - n D P M - g M | p m d p p m G | - - - - ||",
                         "sahitya": "A gama mula Nuti yin chi --- (bahu-)"
                     },
                     {
                         "line_number": 10,
-                        "swara": "- , nr s- n D P M , g M | p m d p p m G | - - S S ||",
+                        "swara": "- - nr s- n D P M - g M | p m d p p m G | - - S S ||",
                         "sahitya": "A gama mula Nuti yin chi ba hu-"
                     },
                     {
@@ -96,22 +96,22 @@
                     },
                     {
                         "line_number": 12,
-                        "swara": "- , d , m - D N S R - rs | S- R , S , | s n D N S ||",
+                        "swara": "- - d - m - D N S R - rs | S- R - S - | s n D N S ||",
                         "sahitya": "Bhaa ga va tu la - to - Po shin chi (vara-)"
                     },
                     {
                         "line_number": 13,
-                        "swara": "r N- d , m - D N sn g r - rs | S- R , S , | s n D N -ns ||",
+                        "swara": "r N- d - m - D N sn g r - rs | S- R - S - | s n D N -ns ||",
                         "sahitya": "Bhaa ga va tu la - to - Po shin chi (vara-)"
                     },
                     {
                         "line_number": 14,
-                        "swara": "rsn- d , m - D N sn g r - rs | S- R , S , | s n D N -S ||",
+                        "swara": "rsn- d - m - D N sn g r - rs | S- R - S - | s n D N -S ||",
                         "sahitya": "Bhaa ga va tu la - to - Po shin chi (vara-)"
                     },
                     {
                         "line_number": 15,
-                        "swara": "- , - s , s sn D P- P M | M G R S | s r g m p d p d || N -",
+                        "swara": "- - - s - s sn D P- P M | M G R S | s r g m p d p d || N -",
                         "sahitya": "Tya ga raa - ja Sannu tu - da ni Yen - - chi - -"
                     }
                 ]

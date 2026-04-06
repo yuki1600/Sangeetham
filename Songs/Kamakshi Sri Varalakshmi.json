@@ -21,7 +21,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "S - - ,n pdrs snnd P - - - nddp mgR | G,m R S S S snnd S - - - R G P dr ||",
+                "swara": "S - - -n pdrs snnd P - - - nddp mgR | G-m R S S S snnd S - - - R G P dr ||",
                 "sahitya": "Kaa- - maa- - - kshi- - Sri- - - Va- - ra- la - - - kshmi- Sri - - -"
             },
             {
@@ -31,17 +31,17 @@
             },
             {
                 "line_number": 5,
-                "swara": "dp - P - dpmg R - RG rmgm R - - S | S,r mgG P - drsn dp - ppmg R G P dr ||",
+                "swara": "dp - P - dpmg R - RG rmgm R - - S | S-r mgG P - drsn dp - ppmg R G P dr ||",
                 "sahitya": "Ka- ma- laa- - - - - - - - - - kshi- - - Ja- ya- - la - - - - kshmi --- - Sri- - -"
             },
             {
                 "line_number": 6,
-                "swara": "sndpmgrs rgpd srgr snD P ,r sndp mgR | rGm RS snrs snnd S - - - R G P dn ||",
+                "swara": "sndpmgrs rgpd srgr snD P -r sndp mgR | rGm RS snrs snnd S - - - R G P dn ||",
                 "sahitya": "Kaa- -- - maa- - -- kshi- - Sri- - - Va- - ra- la - - - kshmi- Sri - - -"
             },
             {
                 "line_number": 7,
-                "swara": "dp - P ,d dpmg R - RG rmgm R - - S | S,r mgG P - drsn dp - ppmg R G P dr ||",
+                "swara": "dp - P -d dpmg R - RG rmgm R - - S | S-r mgG P - drsn dp - ppmg R G P dr ||",
                 "sahitya": "Ka- ma- laa- - - - - - - - - - kshi- - - Ja- ya- - la - - - - kshmi --- - Sri- - -"
             },
             {
@@ -58,27 +58,27 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "G - Mdp pmM - G - GR G - P - - - | P D D P PD - ,r S - nD, sn dp - - - ||",
+                "swara": "G - Mdp pmM - G - GR G - P - - - | P D D P PD - -r S - nD- sn dp - - - ||",
                 "sahitya": "Kaa- - - ma - - ja- na- ka- Pu- - - rna-pha- le - - - Sa- ka -- le - - -"
             },
             {
                 "line_number": 2,
-                "swara": "G mgMdp pmM - G - mgmr G - P - - - | P D D P PD GR NS nD, sn dp - - - ||",
+                "swara": "G mgMdp pmM - G - mgmr G - P - - - | P D D P PD GR NS nD- sn dp - - - ||",
                 "sahitya": "Kaa- - - - ma - - ja- na- -- ka- Pu- - - rna-pha- le - - - Sa- ka -- le - - -"
             },
             {
                 "line_number": 3,
-                "swara": "D - - - S - SR - - G,m R - - - | S - snsn D D P - ppmg P - P D - - ||",
+                "swara": "D - - - S - SR - - G-m R - - - | S - snsn D D P - ppmg P - P D - - ||",
                 "sahitya": "Kaa- - mi- thaa - - rtha- Daa- - yi- ni- - - - Sri- - - - - Pha le - - -"
             },
             {
                 "line_number": 4,
-                "swara": "S - N - D , d P - nd dp mgR - gpmg R mg rsS | S - P -mg G - P , g P D dr S N M P D - ||",
+                "swara": "S - N - D - d P - nd dp mgR - gpmg R mg rsS | S - P -mg G - P - g P D dr S N M P D - ||",
                 "sahitya": "Kaama ka - le- Vi-ma- le- - Ka-ra- kama- le- - Kaama ko- - ti -bila ha rinu ta Kamale"
             },
             {
                 "line_number": 5,
-                "swara": "S - N - D , d P - nd dp mgR - dpmg R mg rsS | S - P -mg G - P , g P D dr S N M P D ,r ||",
+                "swara": "S - N - D - d P - nd dp mgR - dpmg R mg rsS | S - P -mg G - P - g P D dr S N M P D -r ||",
                 "sahitya": "Kaama ka - le- Vi-ma- le- - Ka-ra- kama- le- - Kaama ko- - ti -bila ha rinu ta Kamale --"
             }
         ],
@@ -87,17 +87,17 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "P - D ,r S - Dsn dp - - ,d dpmg R - | Gpm MG R R S - RG rgmg R - - - ||",
+                        "swara": "P - D -r S - Dsn dp - - -d dpmg R - | Gpm MG R R S - RG rgmg R - - - ||",
                         "sahitya": "Di- na- ka- ra-- Ko-- - - ti- - - - - Pra-- kaa- - - sha Kaa- - - - ye- - -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "S - - - snrs snnd S - M ,g RG P - | P D - P Pdp mg R - GP drsn dp - - - ||",
+                        "swara": "S - - - snrs snnd S - M -g RG P - | P D - P Pdp mg R - GP drsn dp - - - ||",
                         "sahitya": "De- - di- - - - - pya maa- - - na- Div- - vya- - - - - cchaa-- ye- - - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "pmG P - P D - - S - SR - - G - | RG rgmg R - S - snrs snnd d R , - - ||",
+                        "swara": "pmG P - P D - - S - SR - - G - | RG rgmg R - S - snrs snnd d R - - - ||",
                         "sahitya": "Va-- na- jaa- - sa naa- - - di - Van - - - - di- ta- Maa- - - ye- - - -"
                     },
                     {
@@ -107,22 +107,22 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "G P mmgr S - snD S ,r G G P - P - | pm G P - D- S - S - S - S snnd S - ||",
+                        "swara": "G P mmgr S - snD S -r G G P - P - | pm G P - D- S - S - S - S snnd S - ||",
                         "sahitya": "Mana na--- Dhyaana-- Dhyaa-tru Dhye ye Ma-hanee ya Saam raa - - jya Pra daa-- ye-"
                     },
                     {
                         "line_number": 6,
-                        "swara": "G P mmgr S rg rsnd - S ,r G G P - P - | pm G P - D- S - S - S - S snnd sr - ||",
+                        "swara": "G P mmgr S rg rsnd - S -r G G P - P - | pm G P - D- S - S - S - S snnd sr - ||",
                         "sahitya": "Mana na--- Dhyaana-- Dhyaa-tru Dhye ye Ma-hanee ya Saam raa - - jya Pra daa-- ye-"
                     },
                     {
                         "line_number": 7,
-                        "swara": "S R G- rg , r S - N D - P pmG P - D , r | Sdn dp - pmG G -gr S R G- P D - S - ||",
+                        "swara": "S R G- rg - r S - N D - P pmG P - D - r | Sdn dp - pmG G -gr S R G- P D - S - ||",
                         "sahitya": "Sanaka Sa- - nan- da naa - di bhir- Jne ye- Sada-ye-- Sa-ra sa Gu rugu ha Sa haa-ye-"
                     },
                     {
                         "line_number": 8,
-                        "swara": "S R G- rg , r S - N D - P pmG P - D , r | Sdn dp - pmG G -gr S R G- P D - Dgr ||",
+                        "swara": "S R G- rg - r S - N D - P pmG P - D - r | Sdn dp - pmG G -gr S R G- P D - Dgr ||",
                         "sahitya": "Sanaka Sa- - nan- da naa - di bhir- Jne ye- Sada-ye-- Sa-ra sa Gu rugu ha Sa haa-ye-"
                     }
                 ]

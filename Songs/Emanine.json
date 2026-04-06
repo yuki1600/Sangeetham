@@ -11,32 +11,32 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - S N D - S - R M - - - - - R M | P M - N , n d d -S N- | N D P - mpmd pmG ||",
+                "swara": "- - S N D - S - R M - - - - - R M | P M - N - n d d -S N- | N D P - mpmd pmG ||",
                 "sahitya": "E - - ma - ni Ne Ni - - - Ma hi - - ma De lu - pu du - - - nam -"
             },
             {
                 "line_number": 2,
-                "swara": "RS - S N D - S - R gm - - - - - R M | P,d M - N , n d d -S N - | N D P - mpmd pmG ||",
+                "swara": "RS - S N D - S - R gm - - - - - R M | P-d M - N - n d d -S N - | N D P - mpmd pmG ||",
                 "sahitya": "ma E - - ma - ni Ne Ni - - - Ma hi - - ma De lu - pu du - - - nam -"
             },
             {
                 "line_number": 3,
-                "swara": "RS - S N D - S - rm Pdp M ,p gr R M | P,d M - N , n d d -S N - | N D P - mpmd pmG ||",
+                "swara": "RS - S N D - S - rm Pdp M -p gr R M | P-d M - N - n d d -S N - | N D P - mpmd pmG ||",
                 "sahitya": "ma E - - ma - ni Ne Ni - - - Ma hi - - ma De lu - pu du - - - nam -"
             },
             {
                 "line_number": 4,
-                "swara": "RS - S N D - S - rm Pdp pm M gmpMp gr R M | P,d M - N , n d d -gr S N | N D P - mpmd pmG ||",
+                "swara": "RS - S N D - S - rm Pdp pm M gmpMp gr R M | P-d M - N - n d d -gr S N | N D P - mpmd pmG ||",
                 "sahitya": "ma E - - ma - ni Ne - - - - - -- - -- - - Ni - - - Ma hi - - ma De lu - pu du - - - nam -"
             },
             {
                 "line_number": 5,
-                "swara": "RS - S N D - S - rm Pdp pm M gmpMp gr R M | P,d M - N , n d d -gr S N | N D P ,r- rmpd sndp ||",
+                "swara": "RS - S N D - S - rm Pdp pm M gmpMp gr R M | P-d M - N - n d d -gr S N | N D P -r- rmpd sndp ||",
                 "sahitya": "ma E - - ma - ni Ne - - - - - -- - -- - - Ni - - - Ma hi - - ma De lu - pu du - - - nam -"
             },
             {
                 "line_number": 6,
-                "swara": "mgrs - S gr sn D - S - rm Pdp pm M gmpMp gr R M | P,d M -N , n d d -gr srgr | sn D P ,r- rmpd sndp ||",
+                "swara": "mgrs - S gr sn D - S - rm Pdp pm M gmpMp gr R M | P-d M -N - n d d -gr srgr | sn D P -r- rmpd sndp ||",
                 "sahitya": "ma E - - ma - ni Ne - - - - - -- - -- - - Ni - - - Ma hi - - ma De lu - pu du - - - nam -"
             },
             {
@@ -48,32 +48,32 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - P - D P - Pnd P,d D - P - | R, m P- N - D P - | Pnd P,d D - P - ||",
+                "swara": "- - - P - D P - Pnd P-d D - P - | R- m P- N - D P - | Pnd P-d D - P - ||",
                 "sahitya": "Sa ma ja gaa - - mi ni am - ba Sa ma ja gaa - - mi ni"
             },
             {
                 "line_number": 2,
-                "swara": "pmmr - mp- N - D P - pdnd pndpd D - P - | R, m P- Nrssn - , n D DP | mpmd pmG R - gr Rgs ||",
+                "swara": "pmmr - mp- N - D P - pdnd pndpd D - P - | R- m P- Nrssn - - n D DP | mpmd pmG R - gr Rgs ||",
                 "sahitya": "am - ba Sa ma ja gaa - - mi ni am - ba Sa ma- ja gaa - - - - - mi ni"
             },
             {
                 "line_number": 3,
-                "swara": "R, m P- Nrssn - , n D DP mpdp - mpmG r- gr Rgs | R, m P- Nrssn - , n D DP | mpmd pmG R - gr Rgs ||",
+                "swara": "R- m P- Nrssn - - n D DP mpdp - mpmG r- gr Rgs | R- m P- Nrssn - - n D DP | mpmd pmG R - gr Rgs ||",
                 "sahitya": "am - ba Sa ma ja gaa - - - - - - - mi ni am - ba Sa ma- ja gaa - - - - - mi ni"
             },
             {
                 "line_number": 4,
-                "swara": "R, m P- N - D pd N D- pnd pD - P nd D | S - N n d , d P - - - | MD pmG R - G R S ||",
+                "swara": "R- m P- N - D pd N D- pnd pD - P nd D | S - N n d - d P - - - | MD pmG R - G R S ||",
                 "sahitya": "am - ba Sa maja - gaa -- mi ni - Sa - ra - sa- lo- - - - - chani-"
             },
             {
                 "line_number": 5,
-                "swara": "R, m P Nrssn - , n D DP pdnd pndpd - P nd D | S - dsRgr - sn D P - | MD pmG R - G R S ||",
+                "swara": "R- m P Nrssn - - n D DP pdnd pndpd - P nd D | S - dsRgr - sn D P - | MD pmG R - G R S ||",
                 "sahitya": "am - ba Sa ma- ja- gaa -- - -- mi ni - Sa - --- - ra - sa- lo- - - - - chani-"
             },
             {
                 "line_number": 6,
-                "swara": "P D - S R M P D - SN D PMP D | SR G S - N - D | PM - D P M , G , R || - S (Emani)",
+                "swara": "P D - S R M P D - SN D PMP D | SR G S - N - D | PM - D P M - G - R || - S (Emani)",
                 "sahitya": "Charanam"
             },
             {
@@ -98,37 +98,37 @@
             },
             {
                 "line_number": 11,
-                "swara": "srgr sn D , m , P d S - - - - - rgrg R - | - - gs- S R G gr rs S , | R - - mg gr R - - ||",
+                "swara": "srgr sn D - m - P d S - - - - - rgrg R - | - - gs- S R G gr rs S - | R - - mg gr R - - ||",
                 "sahitya": "Na - ru - - da nu - Ne nu-- Paa- -- ma ru da nu -- De - - vi ---"
             },
             {
                 "line_number": 12,
-                "swara": "srgr sn D , m , P d S - - - pd s r m- gG Rmg gr R | - - gs- S R G gr rs S , | R - - mg gr R - G R ||",
+                "swara": "srgr sn D - m - P d S - - - pd s r m- gG Rmg gr R | - - gs- S R G gr rs S - | R - - mg gr R - G R ||",
                 "sahitya": "Na - ru - - da nu Ne - - - - - -- nu-- Paa- -- - - ma ru da nu -- De - - vi --- Va ra"
             },
             {
                 "line_number": 13,
-                "swara": "R - G R S - S S ss nd , p D S - - D | R Srs N D P - M D P | md pm G R S gr N S ||",
+                "swara": "R - G R S - S S ss nd - p D S - - D | R Srs N D P - M D P | md pm G R S gr N S ||",
                 "sahitya": "Kan chi pu raa la ya Vaa -- si ni Sri Pa ra de - va te Ni - du Ku-maa-- ru da nam-maa"
             },
             {
                 "line_number": 14,
-                "swara": "R - G R S - S gr - , s nd , - p D S - - D | R Srs N D P - mp sn dp | md pm G R S gr N S ||",
+                "swara": "R - G R S - S gr - - s nd - - p D S - - D | R Srs N D P - mp sn dp | md pm G R S gr N S ||",
                 "sahitya": "Kan chi pu raa la ya Vaa -- si ni Sri Pa ra de - va te Ni - du - Ku-maa-- ru da nam-maa"
             },
             {
                 "line_number": 15,
-                "swara": "R - - - - - -R - G - S R S N D- P D | S - - - - - S R | G , S , N , D , P , d || <rpt>",
+                "swara": "R - - - - - -R - G - S R S N D- P D | S - - - - - S R | G - S - N - D - P - d || <rpt>",
                 "sahitya": "Raa - - ken du Va da na Vi nu Mi ka Ni - - - Sa ri ga Dai va mu Gaa na"
             },
             {
                 "line_number": 16,
-                "swara": "R gr Rgr Rgs -srsr pm - G R S gr sn D- P D | S - - - - - S R | G , S , N - D P , m ||",
+                "swara": "R gr Rgr Rgs -srsr pm - G R S gr sn D- P D | S - - - - - S R | G - S - N - D P - m ||",
                 "sahitya": "Raa - - ken- du Va da na Vi nu-- Mi ka Ni - - - Sa ri ga Dai va mu Gaa na"
             },
             {
                 "line_number": 17,
-                "swara": "P D - S R M P D - S N D P M P D | S R G S - N - D | P M - D, p - M - gr || R- S",
+                "swara": "P D - S R M P D - S N D P M P D | S R G S - N - D | P M - D- p - M - gr || R- S",
                 "sahitya": "Pa daa bja mu la Sa daa Vi nu ti sa li pi tee Na ta ja naa rtthi ha ra na Ni vee Naa Tal - li (emani)"
             }
         ],

@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "M - G , R , | S - - - | N S G M ||",
+                "swara": "M - G - R - | S - - - | N S G M ||",
                 "sahitya": "- Bha ja re Re -------"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "Gr , M G | G , m P , m | m d P Pdm ||",
+                "swara": "Gr - M G | G - m P - m | m d P Pdm ||",
                 "sahitya": "Hru - - - ttha - - - - pam - - -"
             },
             {
@@ -157,7 +157,7 @@
                     },
                     {
                         "line_number": 15,
-                        "swara": "G - M - | D , P , M | G R GM ||",
+                        "swara": "G - M - | D - P - M | G R GM ||",
                         "sahitya": "Ma thwa Thva de ka Sha ra nam ||"
                     }
                 ]

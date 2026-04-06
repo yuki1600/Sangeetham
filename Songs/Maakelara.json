@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "G - - M M , d - S | D - - S | - S ss n d ||",
+                "swara": "G - - M M - d - S | D - - S | - S ss n d ||",
                 "sahitya": "mu Ma ru gan na Sri Ra - ma chan --"
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "G - - M M , d - S | nd D - S | - S ss n d ||",
+                "swara": "G - - M M - d - S | nd D - S | - S ss n d ||",
                 "sahitya": "mu Ma ru gan na Sri Ra - ma chan --"
             },
             {
@@ -58,7 +58,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "gr S - S - N - D | M , d - S | - N - D ||",
+                "swara": "gr S - S - N - D | M - d - S | - N - D ||",
                 "sahitya": "raa - Sad bha ktha Man daa ra Sri ka"
             },
             {
@@ -87,12 +87,12 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "nd D - S S , n - D | S - - rg | G- mg R - mg ||",
+                        "swara": "nd D - S S - n - D | S - - rg | G- mg R - mg ||",
                         "sahitya": "di Ga thi Tha ppa ka - Din che vu - Su"
                     },
                     {
                         "line_number": 5,
-                        "swara": "gr S - S S , n - D | M , d - D | S , n - D ||",
+                        "swara": "gr S - S S - n - D | M - d - D | S - n - D ||",
                         "sahitya": "mmi Na tha Tyaa ga raa ja Gi ri sha Vi"
                     },
                     {

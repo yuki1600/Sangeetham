@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
+                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R -g R ||",
                 "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
             }
         ],
@@ -78,7 +78,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
+                "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R -g R ||",
                 "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
             }
         ],
@@ -127,7 +127,7 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R ,g R ||",
+                        "swara": "G S- R R M - - - R M P M P D S S | Rgr R S S - - D nd D - - D S R -g R ||",
                         "sahitya": "- - Gala re - - - Nee- - - - - valle Saa-- - - ke- - - ta - - - Na gari ni - -"
                     }
                 ]

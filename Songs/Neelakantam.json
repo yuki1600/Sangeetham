@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "S - n d P - - || ppmg R rm g \u2013r S || sn s r , s- S nd - nd ||",
+                "swara": "S - n d P - - || ppmg R rm g -r S || sn s r - s- S nd - nd ||",
                 "sahitya": "Nee la- kan - - ttam - - - bha - - jee- ham-- - - sa tha- tham-"
             },
             {
@@ -21,7 +21,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "S - n d P - dp || ppmg R rm g \u2013r S || sn s r , s- S nd - nd ||",
+                "swara": "S - n d P - dp || ppmg R rm g -r S || sn s r - s- S nd - nd ||",
                 "sahitya": "Nee la- kan - - ttam - - - bha - - jee- ham-- - - sa tha- tham-"
             },
             {
@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r , s- S nd - nd ||",
+                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- S nd - nd ||",
                 "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa tha- tham-"
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r , s- srgr nsrs - nd ||",
+                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
                 "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
             },
             {
@@ -63,7 +63,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "M P S- ss nd - P || mp - pn S \u2013 R , S , ||",
+                "swara": "M P S- ss nd - P || mp - pn S - R - S - ||",
                 "sahitya": "Baa la chan -- dra See - - - vi - tham"
             },
             {
@@ -73,32 +73,32 @@
             },
             {
                 "line_number": 4,
-                "swara": "M P S- ss nd - P || mp - pn S \u2013 R , S , ||",
+                "swara": "M P S- ss nd - P || mp - pn S - R - S - ||",
                 "sahitya": "Baa la chan -- dra See - - - vi - tham"
             },
             {
                 "line_number": 5,
-                "swara": "P N S \u2013 rp mgmr || rp mg S- rs nd P ||",
+                "swara": "P N S - rp mgmr || rp mg S- rs nd P ||",
                 "sahitya": "See- la Gu- ru- - - gu- ha- Poo-- ji- tham"
             },
             {
                 "line_number": 6,
                 "swara": "mp gr S Srs nd P || mp Dnd Pdp mg rm pr ||",
-                "sahitya": "Sree \u2013 Ka dam - - ba Va- na- naa - - - tham (nee)"
+                "sahitya": "Sree - Ka dam - - ba Va- na- naa - - - tham (nee)"
             },
             {
                 "line_number": 7,
-                "swara": "P N S \u2013 rp mgmr || rp mg s R s nd P ||",
+                "swara": "P N S - rp mgmr || rp mg s R s nd P ||",
                 "sahitya": "See- la Gu- ru- - - gu- ha- Poo-- ji- tham"
             },
             {
                 "line_number": 8,
                 "swara": "mp gr S Srs nd P || mp Dnd Pdp mg rm pr ||",
-                "sahitya": "Sree \u2013 Ka dam - - ba Va- na- naa - - - tham (nee)"
+                "sahitya": "Sree - Ka dam - - ba Va- na- naa - - - tham (nee)"
             },
             {
                 "line_number": 9,
-                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r , s- srgr nsrs - nd ||",
+                "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
                 "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
             },
             {
@@ -127,7 +127,7 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "- r g , - r S - - || - s r , g- S R - ||",
+                        "swara": "- r g - - r S - - || - s r - g- S R - ||",
                         "sahitya": "a bhi - mukham - - - Pan- - cha Mu kham"
                     },
                     {
@@ -137,7 +137,7 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "R- S P - mg G R || M , p - D , P , ||",
+                        "swara": "R- S P - mg G R || M - p - D - P - ||",
                         "sahitya": "- Na ksha thre - - - sha She - kha - ram"
                     },
                     {
@@ -147,7 +147,7 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "R- S P - mg G R || M , p - D , P, ||",
+                        "swara": "R- S P - mg G R || M - p - D - P- ||",
                         "sahitya": "- Na ksha thre - - sha She kha ram"
                     },
                     {
@@ -157,7 +157,7 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "rgmg R - gmG , r S || ns R S \u2013 Srs nd - P ||",
+                        "swara": "rgmg R - gmG - r S || ns R S - Srs nd - P ||",
                         "sahitya": "dha - ksha tha - - ram mee - swa ram - - - Ke"
                     },
                     {
@@ -173,16 +173,16 @@
                     {
                         "line_number": 12,
                         "swara": "S p m m g r- p s nd P || P m p n s d p s n S ||",
-                        "sahitya": "Da kshina Kaa - shi \u2013 pu-ram Danditha Kaa-ma- thripuram"
+                        "sahitya": "Da kshina Kaa - shi - pu-ram Danditha Kaa-ma- thripuram"
                     },
                     {
                         "line_number": 13,
-                        "swara": "P S r r- n s , nd P || n S nd P m g r m P ||",
+                        "swara": "P S r r- n s - nd P || n S nd P m g r m P ||",
                         "sahitya": "Dhaksha thraya va ram -ha ram Da yaa Ka ram Ka ma la ka ram (nee)"
                     },
                     {
                         "line_number": 14,
-                        "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r , s- srgr nsrs - nd ||",
+                        "swara": "S - nd - mp Dnd P || Pdp mg R- rp m -mgr || sn s r - s- srgr nsrs - nd ||",
                         "sahitya": "Nee la- kan - - - - ttam - - bha - jee- ham-- - - sa -- tha-- tham-"
                     },
                     {

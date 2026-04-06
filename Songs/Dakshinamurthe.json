@@ -16,24 +16,24 @@
             },
             {
                 "line_number": 2,
-                "swara": "S R G - mdpm g - pmg rmgr sn D , N , S - - - - sn Srg rs S S - S R | G S - RG | rgM - R G - - sn ||",
+                "swara": "S R G - mdpm g - pmg rmgr sn D - N - S - - - - sn Srg rs S S - S R | G S - RG | rgM - R G - - sn ||",
                 "sahitya": "Da - - kshi - naa - - - - moo - rthee - - vi- da- li- - tha daa - - - saar- - -- the -- Chi"
             },
             {
                 "line_number": 3,
                 "swara": "D - - - P - - M P M G R G M P - m g R S- sr sn R NS D - N - | N P - D - | N - snsr - S - sn",
-                "sahitya": "thaa nan - da - - - - Pur - - - the \u2013 - Sa daa - - - Mou - - - na - Keer - the- - Shri"
+                "sahitya": "thaa nan - da - - - - Pur - - - the - - Sa daa - - - Mou - - - na - Keer - the- - Shri"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "P - - - D - D P P , m M - - - pdnd P - M - G - - - gmdp gmpm | pmgr G - | - - M - P - - - ||",
+                "swara": "P - - - D - D P P - m M - - - pdnd P - M - G - - - gmdp gmpm | pmgr G - | - - M - P - - - ||",
                 "sahitya": "A ksha ya- Su - var - - na - - Va ta Vru ksha Mu - - - na - -sthi thee - -- -"
             },
             {
                 "line_number": 2,
-                "swara": "P - - - pdns snnd P , m M - - - pdnd P - M - dpmg - - - gmdp gmpm | pmgr Pgm | G - M - P , r srgm ||",
+                "swara": "P - - - pdns snnd P - m M - - - pdnd P - M - dpmg - - - gmdp gmpm | pmgr Pgm | G - M - P - r srgm ||",
                 "sahitya": "A ksha ya- - Su - var - - na - - Va ta Vru ksha - Mu - - - na - -sthi thee - -- -"
             },
             {
@@ -48,12 +48,12 @@
             },
             {
                 "line_number": 5,
-                "swara": "- S S R R S R - rs S - - S rs sn DP- D N S - S - N dp - M mgR | S - S , p | - D N sn P - g r S ||",
+                "swara": "- S S R R S R - rs S - - S rs sn DP- D N S - S - N dp - M mgR | S - S - p | - D N sn P - g r S ||",
                 "sahitya": "Ra kshi tha Sath Bha kthe - Sik shitha Du ryu- kthee A ksha raa nu Ra- - kthe A vi dyaa-vi ra kthee"
             },
             {
                 "line_number": 6,
-                "swara": "- S S R R S rgmg rmgr - sn S rs dr sn dp- D N S - S - N dp - M mgR | S - S , p | - dnsr sn P - g r S ||",
+                "swara": "- S S R R S rgmg rmgr - sn S rs dr sn dp- D N S - S - N dp - M mgR | S - S - p | - dnsr sn P - g r S ||",
                 "sahitya": "Rakshithasath Bha - - - kthesik shithadu -- ryu- kthee A ksha raa nu Ra kthe A vi dyaa-vi ra kthee"
             }
         ],
@@ -67,17 +67,17 @@
                     },
                     {
                         "line_number": 2,
-                        "swara": "pmgp mgrg S - M G G M P - S - S pm mg G r S , S , r G - R G M - | M - - G M | M D P M P - - - ||",
+                        "swara": "pmgp mgrg S - M G G M P - S - S pm mg G r S - S - r G - R G M - | M - - G M | M D P M P - - - ||",
                         "sahitya": "Nir - - -- vi - kal - - - pa Sa maa - - - - di - Ni - - draa - - pra - sha - - - kthee -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- md ppmg M - P - - - P - D - DP P , m M - GM P - dm P D N | SN DP | D - N - S - - - ||",
+                        "swara": "- md ppmg M - P - - - P - D - DP P - m M - GM P - dm P D N | SN DP | D - N - S - - - ||",
                         "sahitya": "A - khan-- - dai - - ka ra sa- poo - - - rnaa - - roo - da - Sa - - - - kthee - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- md ppmg M - P - - - P - rsnd DP P , m M - GM P - dm P D N | SN DP | D - N - S - - - ||",
+                        "swara": "- md ppmg M - P - - - P - rsnd DP P - m M - GM P - dm P D N | SN DP | D - N - S - - - ||",
                         "sahitya": "A - khan-- - dai - - ka ra sa- poo - - - rnaa - - roo - da - Sa - - - - kthee - -"
                     },
                     {
@@ -87,7 +87,7 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "S M G M - P M P D N S ,n D P D -N S - S - S S R S drsn dndp |",
+                        "swara": "S M G M - P M P D N S -n D P D -N S - S - S S R S drsn dndp |",
                         "sahitya": "Sukha tharaa Pravru- tthee- Swaa gnyaa na Ni vru tthee Swa Gu ru gu hooth Pa --"
                     },
                     {

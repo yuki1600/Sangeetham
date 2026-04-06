@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Himadri Suthe Pahimam",
         "raga": "Kalyani",
-        "arohanam": "S R\u2082 G\u2083 M\u2082 P D\u2082 N\u2083 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2082 G\u2083 R\u2082 S ||",
+        "arohanam": "S R₂ G₃ M₂ P D₂ N₃ Ṡ ||",
+        "avarohanam": "Ṡ N₃ D₂ P M₂ G₃ R₂ S ||",
         "tala": "Rupakam",
         "composer": "Syama Sastri"
     },
@@ -16,8 +16,8 @@
             },
             {
                 "line_number": 2,
-                "swara": "P - | - - pdpm || G , r gd pm G - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de \u2013"
+                "swara": "P - | - - pdpm || G - r gd pm G - ||",
+                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
             },
             {
                 "line_number": 3,
@@ -26,8 +26,8 @@
             },
             {
                 "line_number": 4,
-                "swara": "gmP | mpD pdpm || G , r gd pm G - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de \u2013"
+                "swara": "gmP | mpD pdpm || G - r gd pm G - ||",
+                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
             },
             {
                 "line_number": 5,
@@ -36,8 +36,8 @@
             },
             {
                 "line_number": 6,
-                "swara": "gmpd | N - ndpm || G , r gd pd pmG ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de \u2013"
+                "swara": "gmpd | N - ndpm || G - r gd pd pmG ||",
+                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
             },
             {
                 "line_number": 7,
@@ -47,7 +47,7 @@
             {
                 "line_number": 8,
                 "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de \u2013"
+                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
             },
             {
                 "line_number": 9,
@@ -88,7 +88,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "S - | - - dpmg - || S r - s n d- P , pmg ||",
+                "swara": "S - | - - dpmg - || S r - s n d- P - pmg ||",
                 "sahitya": "Sahityam: him(a)dri sute pahi mam varade para devate"
             },
             {
@@ -99,7 +99,7 @@
             {
                 "line_number": 8,
                 "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de \u2013"
+                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
             },
             {
                 "line_number": 9,
@@ -113,32 +113,32 @@
             },
             {
                 "line_number": 11,
-                "swara": "- S N \u2013 dpP - P || pmG | gmR , g M ||",
+                "swara": "- S N - dpP - P || pmG | gmR - g M ||",
                 "sahitya": "Sya ma kr- - shna so-- da- ri gau-"
             },
             {
                 "line_number": 12,
-                "swara": "P - D D D - || dn P | , d N sndp ||",
+                "swara": "P - D D D - || dn P | - d N sndp ||",
                 "sahitya": "Ri- pa ra m(e)- Sva-ri giri ja"
             },
             {
                 "line_number": 13,
-                "swara": "dn- S N \u2013 dpP - P || pmG | gmR , g M ||",
+                "swara": "dn- S N - dpP - P || pmG | gmR - g M ||",
                 "sahitya": "Sya ma kr- - shna so-- da- ri gau-"
             },
             {
                 "line_number": 14,
-                "swara": "P - D D D - || dn P | , d N S - ||",
+                "swara": "P - D D D - || dn P | - d N S - ||",
                 "sahitya": "Ri- pa ra m(e)- Sva-ri giri ja"
             },
             {
                 "line_number": 15,
-                "swara": "snd \u2013 g rg- S - N || d d r -s , n \u2013 P - M ||",
-                "sahitya": "A la - me la ve\u2014ni - - ki - ra"
+                "swara": "snd - g rg- S - N || d d r -s - n - P - M ||",
+                "sahitya": "A la - me la ve—ni - - ki - ra"
             },
             {
                 "line_number": 16,
-                "swara": "ggd- p , d \u2013 pm G gr ||",
+                "swara": "ggd- p - d - pm G gr ||",
                 "sahitya": "va- Ni - - Sri- - la-"
             },
             {
@@ -149,7 +149,7 @@
             {
                 "line_number": 18,
                 "swara": "gmpd | nsR gr sn || dpM GR G sn dpmg - ||",
-                "sahitya": "mam - - va-ra- de -- pa- ra- de \u2013"
+                "sahitya": "mam - - va-ra- de -- pa- ra- de -"
             },
             {
                 "line_number": 19,

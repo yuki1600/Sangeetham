@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Evarura Ninnu Vina",
         "raga": "Mohanam",
-        "arohanam": "S R\u2082 G3 P D2 S ||",
-        "avarohanam": "\u1e60 D\u2082 P G3 R2 S ||",
+        "arohanam": "S R₂ G3 P D2 S ||",
+        "avarohanam": "Ṡ D₂ P G3 R2 S ||",
         "tala": "Misra Chapu",
         "composer": "Tyagaraja"
     },
@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- G P | D R | S - || D , S , | D P | D - ||",
+                "swara": "- G P | D R | S - || D - S - | D P | D - ||",
                 "sahitya": "E va ru - ra- ni nu vi - na"
             },
             {
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "R- G P | dsrg | rS, - || sd s R s | D P | D - ||",
+                "swara": "R- G P | dsrg | rS- - || sd s R s | D P | D - ||",
                 "sahitya": "E va ru - ra- ni nu vi - na"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "sr- G P | dsrg | rS, - || sd Sgr RS | D P | D - ||",
+                "swara": "sr- G P | dsrg | rS- - || sd Sgr RS | D P | D - ||",
                 "sahitya": "E va ru - ra- ni nu vi - na"
             },
             {
@@ -53,17 +53,17 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- S R | G - | G R || S r G , | rs S - | S - ||",
+                "swara": "- S R | G - | G R || S r G - | rs S - | S - ||",
                 "sahitya": "Sava na ra- ksha-ka ni- - - ty(o)"
             },
             {
                 "line_number": 2,
-                "swara": "R D - | S - | - - || srgr \u2013 sd | p g r s | s r g p ||",
+                "swara": "R D - | S - | - - || srgr - sd | p g r s | s r g p ||",
                 "sahitya": "Tsa va- - - - - - - - - - - - - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "ds- S R | G - | G R || S r G , | rs S - | S - ||",
+                "swara": "ds- S R | G - | G R || S r G - | rs S - | S - ||",
                 "sahitya": "Sava na ra- ksha-ka ni- - - ty(o)"
             },
             {
@@ -83,7 +83,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "sr- G P | dsrg | rS, - || sd Sgr RS | D P | D - ||",
+                "swara": "sr- G P | dsrg | rS- - || sd Sgr RS | D P | D - ||",
                 "sahitya": "E va ru - ra- ni nu vi - na"
             },
             {
@@ -98,17 +98,17 @@
             },
             {
                 "line_number": 10,
-                "swara": "- S R | G - | G - || G , R , | G - | P - ||",
+                "swara": "- S R | G - | G - || G - R - | G - | P - ||",
                 "sahitya": "ra - ja - - bi gu - - ni"
             },
             {
                 "line_number": 11,
-                "swara": "- P G | D P | D - || P G D | P \u2013 G | R S ||",
+                "swara": "- P G | D P | D - || P G D | P - G | R S ||",
                 "sahitya": "k(e)- la - ra - tya- - - ga- - -"
             },
             {
                 "line_number": 12,
-                "swara": "D- srgp | R - | S - || S d \u2013 rsd | S R | sr G ||",
+                "swara": "D- srgp | R - | S - || S d - rsd | S R | sr G ||",
                 "sahitya": "ra- - j(a) - - - rci- ta-- ta- La- -"
             },
             {
@@ -118,7 +118,7 @@
             },
             {
                 "line_number": 14,
-                "swara": "- G - | P - | D - || srg \u2013 rsd | S R | sr G ||",
+                "swara": "- G - | P - | D - || srg - rsd | S R | sr G ||",
                 "sahitya": "I - ja- - - la-- mu- se - ya- -"
             },
             {
@@ -128,17 +128,17 @@
             },
             {
                 "line_number": 16,
-                "swara": "- srgr | dsrs | P - || pgdp \u2013 sd | rs dp | G - ||",
+                "swara": "- srgr | dsrs | P - || pgdp - sd | rs dp | G - ||",
                 "sahitya": "ko-- ca-- ma- su - -- ra bhu-- ja"
             },
             {
                 "line_number": 17,
-                "swara": "R- pgdp | R - | S - || rgpd - sr | gr \u2013 rs | dp \u2013 gr ||",
+                "swara": "R- pgdp | R - | S - || rgpd - sr | gr - rs | dp - gr ||",
                 "sahitya": "ma - - - - - - - ma- - -- ku - - - -"
             },
             {
                 "line_number": 18,
-                "swara": "sr- G P | dsrg | rS, - || sd Sgr RS | D P | D - ||",
+                "swara": "sr- G P | dsrg | rS- - || sd Sgr RS | D P | D - ||",
                 "sahitya": "E va ru - ra- ni nu vi - na"
             },
             {

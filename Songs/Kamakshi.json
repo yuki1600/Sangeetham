@@ -11,17 +11,17 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "N , | - - || D , | - - || P , | - dn ||",
+                "swara": "N - | - - || D - | - - || P - | - dn ||",
                 "sahitya": "Kaa maa kshi am"
             },
             {
                 "line_number": 2,
-                "swara": "N , | - - || D , | - - || P , | - dn ||",
+                "swara": "N - | - - || D - | - - || P - | - dn ||",
                 "sahitya": "Kaa maa kshi am"
             },
             {
                 "line_number": 3,
-                "swara": "S , | - d n || s r g | m p m g || R , | - N ||",
+                "swara": "S - | - d n || s r g | m p m g || R - | - N ||",
                 "sahitya": "Ba A nu di na mu Ma ra va ka ne - - Nee"
             },
             {
@@ -31,22 +31,22 @@
             },
             {
                 "line_number": 5,
-                "swara": "S r | n s R || , n r | s n d p || M , | - P ||",
+                "swara": "S r | n s R || - n r | s n d p || M - | - P ||",
                 "sahitya": "Kun da ra da na! Ku va la ya na ya naa! Tal"
             },
             {
                 "line_number": 6,
-                "swara": "D n | , S r ||",
+                "swara": "D n | - S r ||",
                 "sahitya": "li! Ra kshin chu!"
             },
             {
                 "line_number": 7,
-                "swara": "R g | r g S || , n g | r s R || , n r | s n D ||",
+                "swara": "R g | r g S || - n g | r s R || - n r | s n D ||",
                 "sahitya": "Kam bu ga la! Ni ra da chi ku raa! Vi dhu va da naa!"
             },
             {
                 "line_number": 8,
-                "swara": ", N | , G r ||",
+                "swara": "- N | - G r ||",
                 "sahitya": "Maa yamma!"
             },
             {
@@ -61,7 +61,7 @@
             },
             {
                 "line_number": 11,
-                "swara": "N n | , d P || P m | , g r s ||",
+                "swara": "N n | - d P || P m | - g r s ||",
                 "sahitya": "Vee vee ga Dir ccham ma! Vi pu du"
             },
             {
@@ -86,27 +86,27 @@
             },
             {
                 "line_number": 16,
-                "swara": "N s | R - || G m | g r S || , p m | g r S ||",
+                "swara": "N s | R - || G m | g r S || - p m | g r S ||",
                 "sahitya": "Mi ya ve Paa va ni ga daa ? Mo ra vi na daa ?"
             },
             {
                 "line_number": 17,
-                "swara": ", r s | , N d || P m | , g r s ||",
+                "swara": "- r s | - N d || P m | - g r s ||",
                 "sahitya": "Pa raa ke la nam ma ! Vi nam ma!"
             },
             {
                 "line_number": 18,
-                "swara": "d p n | D p m || g R | g m p d || P , | - m g ||",
+                "swara": "d p n | D p m || g R | g m p d || P - | - m g ||",
                 "sahitya": "Ka lu sha haa ri ni ! Sa daa Na ta pha la Daa ya ki"
             },
             {
                 "line_number": 19,
-                "swara": "m p m | g r g m || G , | - r g || m g r | g s r n ||",
+                "swara": "m p m | g r g m || G - | - r g || m g r | g s r n ||",
                 "sahitya": "Ya ni Bi ru du Bhu vi lo Ga li gi na Do ra ya nu chu"
             },
             {
                 "line_number": 20,
-                "swara": "S , | - g r || s n d | p m g r ||",
+                "swara": "S - | - g r || s n d | p m g r ||",
                 "sahitya": "Ve da mu Mo ra li da ga vi ni"
             },
             {
@@ -121,7 +121,7 @@
             },
             {
                 "line_number": 23,
-                "swara": "s r g | m p m g || R , | - n s || r g m | P s r ||",
+                "swara": "s r g | m p m g || R - | - n s || r g m | P s r ||",
                 "sahitya": "Ka lu sha da ha na gha naa! A pa ri mi ta Vai bha va"
             },
             {
@@ -146,18 +146,18 @@
             },
             {
                 "line_number": 28,
-                "swara": "S , | - g r || s r s | N d p || m G | m g r s ||",
+                "swara": "S - | - g r || s r s | N d p || m G | m g r s ||",
                 "sahitya": "me shwa ri Ha ri ha ra du la ku Ni Ma hi ma lu"
             },
             {
                 "line_number": 29,
-                "swara": "n S | - r g || m P | g m G || R , | - s n ||",
+                "swara": "n S | - r g || m P | g m G || R - | - s n ||",
                 "sahitya": "Ga nim pa Ta ra ma ? Su tu da mma! A bhi"
             },
             {
                 "line_number": 30,
-                "swara": "S , | - p m || P , | D N || S , | R G ||",
-                "sahitya": "maa na mu Le da, Naa pai De vi ?"
+                "swara": "S - | - p m || P - | D N || S - | R G ||",
+                "sahitya": "maa na mu Le da- Naa pai De vi ?"
             },
             {
                 "line_number": 31,

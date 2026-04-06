@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Nadopasana",
         "raga": "Begada",
-        "arohanam": "S G\u2083 R\u2082 G\u2083 M\u2081 P D\u2082 P \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2082 P M\u2081 G\u2083 R\u2082 S ||",
+        "arohanam": "S G₃ R₂ G₃ M₁ P D₂ P Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₂ P M₁ G₃ R₂ S ||",
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
@@ -22,27 +22,27 @@
             },
             {
                 "line_number": 3,
-                "swara": "N S N - S R S rs N | N , n - D P , d N - ||",
+                "swara": "N S N - S R S rs N | N - n - D P - d N - ||",
                 "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
             },
             {
                 "line_number": 4,
-                "swara": "3. dp mp , m - P D P S N | D P - R S - - - ||",
+                "swara": "3. dp mp - m - P D P S N | D P - R S - - - ||",
                 "sahitya": "Ve- - - dho - - ddha- - - - ru lu- - -"
             },
             {
                 "line_number": 5,
-                "swara": "N S N - S R S rs N | N , n - D P , d N - ||",
+                "swara": "N S N - S R S rs N | N - n - D P - d N - ||",
                 "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
             },
             {
                 "line_number": 6,
-                "swara": "4. dp mp , m - P D P S N | D P - R S - - - ||",
+                "swara": "4. dp mp - m - P D P S N | D P - R S - - - ||",
                 "sahitya": "Ve- - - dho - - ddha- - - - ru lu- - -"
             },
             {
                 "line_number": 7,
-                "swara": "N S N - S R S rs N | N , n - D P - - - ||",
+                "swara": "N S N - S R S rs N | N - n - D P - - - ||",
                 "sahitya": "Ve- - daa - - thi- - - - - - tu lu - - -"
             },
             {
@@ -52,17 +52,17 @@
             },
             {
                 "line_number": 9,
-                "swara": "- M M - mg R RP | P - P ,m N D P - ||",
+                "swara": "- M M - mg R RP | P - P -m N D P - ||",
                 "sahitya": "-vish wa - mel- - - - la - Nin-- - - di-"
             },
             {
                 "line_number": 10,
-                "swara": "S N D P S - - ,d | sN -d N- D , P , - - ||",
+                "swara": "S N D P S - - -d | sN -d N- D - P - - - ||",
                 "sahitya": "yun- - - de - - - - Vaa- - - ra - lu - - -"
             },
             {
                 "line_number": 11,
-                "swara": "M - M - mg R RP | P - P ,m N D P - ||",
+                "swara": "M - M - mg R RP | P - P -m N D P - ||",
                 "sahitya": "Vish wa - mel- - - - la - Nin-- - - di-"
             },
             {
@@ -77,12 +77,12 @@
             },
             {
                 "line_number": 14,
-                "swara": "G M P - M P D pdpd | N , n - D , P , - - ||",
+                "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
                 "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
             },
             {
                 "line_number": 15,
-                "swara": "S - ,r - sn D P M P | mg R S N D P S - ||",
+                "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
                 "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
             },
             {
@@ -116,12 +116,12 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "3. pmM - - mg G - GM | P - - D P ,d P ,d ||",
+                        "swara": "3. pmM - - mg G - GM | P - - D P -d P -d ||",
                         "sahitya": "Naa - do- - - paa- - - - sa na- - -"
                     },
                     {
                         "line_number": 5,
-                        "swara": "4. pmM - - mg G - GM | P - - D P ,d N - ||",
+                        "swara": "4. pmM - - mg G - GM | P - - D P -d N - ||",
                         "sahitya": "Naa - do- - - paa- - - - sa na- - -"
                     },
                     {
@@ -131,12 +131,12 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "G M P - M P D pdpd | N , n - D , P , - - ||",
+                        "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
                         "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "S - ,r - sn D P M P | mg R S N D P S - ||",
+                        "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
                         "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
                     },
                     {
@@ -151,22 +151,22 @@
                     },
                     {
                         "line_number": 1,
-                        "swara": "- -P P - - - D P | M , pdP , - nd pmM - - - ||",
+                        "swara": "- -P P - - - D P | M - pdP - - nd pmM - - - ||",
                         "sahitya": "- Man traa- - - tmu- lu - - - - - Yan- tra- - - - -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "M P M - G R S G , r | G , m P - M P - - - ||",
+                        "swara": "M P M - G R S G - r | G - m P - M P - - - ||",
                         "sahitya": "Tan- - traa - - tmu- lu - - - Ma- ri - - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- G ,m - P D P - S N | D P - M P mg R - S ,r ||",
+                        "swara": "- G -m - P D P - S N | D P - M P mg R - S -r ||",
                         "sahitya": "Man- -- van - - tra - mu - Len - - - - no -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "sn D P -S - - G,r | gM- d pm- R - S - - ||",
+                        "swara": "sn D P -S - - G-r | gM- d pm- R - S - - ||",
                         "sahitya": "Ga- - la vaa - - ra - - - - - - lu - - - - -"
                     },
                     {
@@ -176,27 +176,27 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "N S N - S R -S rsnd | N , n - - D P - - - ||",
+                        "swara": "N S N - S R -S rsnd | N - n - - D P - - - ||",
                         "sahitya": "Gaa- - na - Vi loo-- - - - - lu ru- - -"
                     },
                     {
                         "line_number": 7,
-                        "swara": "b) dp mp , m - P D P S N | P D P - R S - - - ||",
+                        "swara": "b) dp mp - m - P D P S N | P D P - R S - - - ||",
                         "sahitya": "Tan- - - tri - - la - ya - - Swa ra - - -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "N S N - S R S rs nd | N , n - D P , d N - ||",
+                        "swara": "N S N - S R S rs nd | N - n - D P - d N - ||",
                         "sahitya": "Gaa- - na - Vi loo-- - - - - lu ru- - -"
                     },
                     {
                         "line_number": 9,
-                        "swara": "c) dp mp , m - P D P S N | P D P - R S - - - ||",
+                        "swara": "c) dp mp - m - P D P S N | P D P - R S - - - ||",
                         "sahitya": "Tan- - - tri - - la - ya - - Swa ra - - -"
                     },
                     {
                         "line_number": 10,
-                        "swara": "N S N - S R S rs nd | N , n - D P - - - ||",
+                        "swara": "N S N - S R S rs nd | N - n - D P - - - ||",
                         "sahitya": "Gaa- - na - Vi loo-- - - - - lu ru- - -"
                     },
                     {
@@ -206,17 +206,17 @@
                     },
                     {
                         "line_number": 12,
-                        "swara": "- M M - mg R RP | P - P ,m N D P - ||",
+                        "swara": "- M M - mg R RP | P - P -m N D P - ||",
                         "sahitya": "Tyaa ga - raa- - - - ja - Van- dyu- lu -"
                     },
                     {
                         "line_number": 13,
-                        "swara": "S N D P S - - ,d | dN -d N- D , P , - - ||",
+                        "swara": "S N D P S - - -d | dN -d N- D - P - - - ||",
                         "sahitya": "- - - - Swa - - - tan- - - tru - lu- - -"
                     },
                     {
                         "line_number": 14,
-                        "swara": "- M M - mg R RP | P - P ,m N D P - ||",
+                        "swara": "- M M - mg R RP | P - P -m N D P - ||",
                         "sahitya": "Tyaa ga - raa- - - - ja - Van- dyu- lu -"
                     },
                     {
@@ -231,12 +231,12 @@
                     },
                     {
                         "line_number": 17,
-                        "swara": "G M P - M P D pdpd | N , n - D , P , - - ||",
+                        "swara": "G M P - M P D pdpd | N - n - D - P - - - ||",
                         "sahitya": "Che- - - - - Shan-- - - - ka - ra - - -"
                     },
                     {
                         "line_number": 18,
-                        "swara": "S - ,r - sn D P M P | mg R S N D P S - ||",
+                        "swara": "S - -r - sn D P M P | mg R S N D P S - ||",
                         "sahitya": "Naa -- raa - - ya - na- - Vi- dhu- lu -"
                     },
                     {

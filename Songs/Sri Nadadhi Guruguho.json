@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "Srs S , n D , d \u2013 dp , d \u2013 P | , d pm g r \u2013 G m G \u2013 m g r s n ||",
+                "swara": "Srs S - n D - d - dp - d - P | - d pm g r - G m G - m g r s n ||",
                 "sahitya": "Sri - -chidaa - - nan -da Naa - tho-ha mi ti San tha tham Hri di ni Bha ja"
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "Srs S , n D , d \u2013 dp , d \u2013 P | , d pm g r \u2013 G m G \u2013 m g r s n ||",
+                "swara": "Srs S - n D - d - dp - d - P | - d pm g r - G m G - m g r s n ||",
                 "sahitya": "Sri - -chidaa - - nan -da Naa - tho-ha mi ti San tha tham Hri di ni Bha ja"
             },
             {
@@ -53,42 +53,42 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "S - R - G \u2013 M - M | N D - - P dp- P mg - ||",
+                "swara": "S - R - G - M - M | N D - - P dp- P mg - ||",
                 "sahitya": "Naa naa Pra pan - cha Vi chi - tra - - ka- ro"
             },
             {
                 "line_number": 2,
-                "swara": "G - M \u2013 M - P P , d | N \u2013 D - P - pm G - ||",
-                "sahitya": "Naa ma roo - pa Pan- cha Bhoo \u2013 thaa - ka- ro \u2013"
+                "swara": "G - M - M - P P - d | N - D - P - pm G - ||",
+                "sahitya": "Naa ma roo - pa Pan- cha Bhoo - thaa - ka- ro -"
             },
             {
                 "line_number": 3,
-                "swara": "G - M \u2013 M - P P , d | N \u2013 D - P - pm G - M ||",
-                "sahitya": "Naa ma roo - pa Pan- cha Bhoo \u2013 thaa - ka- ro \u2013 A"
+                "swara": "G - M - M - P P - d | N - D - P - pm G - M ||",
+                "sahitya": "Naa ma roo - pa Pan- cha Bhoo - thaa - ka- ro - A"
             },
             {
                 "line_number": 4,
-                "swara": "G - M - P - D \u2013 N | D - P \u2013 pm M - G R \u2013 G ||",
+                "swara": "G - M - P - D - N | D - P - pm M - G R - G ||",
                 "sahitya": "Jnaa na Dhvaa nta Pra chan da Bhaa - ska ro A"
             },
             {
                 "line_number": 5,
-                "swara": "G - M - P - D \u2013 N | D - P \u2013 pm M - G R - ||",
+                "swara": "G - M - P - D - N | D - P - pm M - G R - ||",
                 "sahitya": "Jnaa na Dhvaa nta Pra chan da Bhaa - ska ro -"
             },
             {
                 "line_number": 6,
-                "swara": "gmpd N - D , p - pm | G - m dp- pmM ,g rg rsS - ||",
+                "swara": "gmpd N - D - p - pm | G - m dp- pmM -g rg rsS - ||",
                 "sahitya": "Jnaa-- na- Pra daa - ya- ko - Ma- he--- - shwa- ro- -"
             },
             {
                 "line_number": 7,
-                "swara": "P M g R s ss P d n S | d d p p mm g \u2013 m g r \u2013 S n - d P ||",
+                "swara": "P M g R s ss P d n S | d d p p mm g - m g r - S n - d P ||",
                 "sahitya": "Dina vanod yukta Div ya ta ro Div-yau- ghaa-di Sa kala De ha Dha ro"
             },
             {
                 "line_number": 8,
-                "swara": "S r s , S \u2013 g r s \u2013 s n d n S | S s n d P \u2013 p , m G g R s ||",
+                "swara": "S r s - S - g r s - s n d n S | S s n d P - p - m G g R s ||",
                 "sahitya": "Maa na saa- nan da kara Chatu ra ta ro Mad Gu ru va ro Man - ga lam Ka ro tu"
             }
         ],
@@ -102,27 +102,27 @@
                     },
                     {
                         "line_number": 2,
-                        "swara": "N - D \u2013 N S - R \u2013 S | rg - R - G - M - ||",
+                        "swara": "N - D - N S - R - S | rg - R - G - M - ||",
                         "sahitya": "Maa tma ka taa di Ma taa nu- sthaa no -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "sn - D \u2013 N S - R \u2013 S | mg - R - pm G M - ||",
+                        "swara": "sn - D - N S - R - S | mg - R - pm G M - ||",
                         "sahitya": "Maa tma ka taa di Ma taa nu- sthaa no -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "M - rg rs S - S - R | S , r G \u2013 R S , r G - ||",
+                        "swara": "M - rg rs S - S - R | S - r G - R S - r G - ||",
                         "sahitya": "Maa li- ni-- - Man - da laan- ta Vi dhaa- no"
                     },
                     {
                         "line_number": 5,
-                        "swara": "S - R - G M P - | d N , D - P , m P - ||",
+                        "swara": "S - R - G M P - | d N - D - P - m P - ||",
                         "sahitya": "Man traa dya ja paa Ham- sa - Dhyaa- no-"
                     },
                     {
                         "line_number": 6,
-                        "swara": "M - - P - D - D | N D P ,m dp pm G - ||",
+                        "swara": "M - - P - D - D | N D P -m dp pm G - ||",
                         "sahitya": "Maa - yaa - kaa - rya Kala naa- Hee--- no -"
                     },
                     {
@@ -132,42 +132,42 @@
                     },
                     {
                         "line_number": 8,
-                        "swara": "D - - ns - R S - | sn Srs , n D D , n S - ||",
+                        "swara": "D - - ns - R S - | sn Srs - n D D - n S - ||",
                         "sahitya": "Maa - dhu - rya Gaa naa--- mru ta Paa-- no"
                     },
                     {
                         "line_number": 9,
-                        "swara": "S , n R S - G R S | R S - S sn Srs sr - ||",
+                        "swara": "S - n R S - G R S | R S - S sn Srs sr - ||",
                         "sahitya": "Maa- dha vaa - dya bha ya Vara - Pra daa- - - no - -"
                     },
                     {
                         "line_number": 10,
-                        "swara": "S - sn D P D PM | gm pd N D D , n S - ||",
-                        "sahitya": "Maa yaa- - Sa ba li tha Brah- -- - ma ru - - po \u2013"
+                        "swara": "S - sn D P D PM | gm pd N D D - n S - ||",
+                        "sahitya": "Maa yaa- - Sa ba li tha Brah- -- - ma ru - - po -"
                     },
                     {
                         "line_number": 11,
-                        "swara": "S - R \u2013 sn D \u2013 P P - | P dp - pm gm pd N - ||",
+                        "swara": "S - R - sn D - P P - | P dp - pm gm pd N - ||",
                         "sahitya": "Maa ra ko- - ti Sun da ra-- Sva- ru- - - po -"
                     },
                     {
                         "line_number": 12,
-                        "swara": "D N D \u2013 P - P dp pm | mg M P M D , p D - ||",
-                        "sahitya": "Mathi ma taam \u2013hru da-ya- Go--- pura Di - - - po -"
+                        "swara": "D N D - P - P dp pm | mg M P M D - p D - ||",
+                        "sahitya": "Mathi ma taam -hru da-ya- Go--- pura Di - - - po -"
                     },
                     {
                         "line_number": 13,
-                        "swara": "P - M \u2013 gm pMg mg R S | sr G - M pd pd P - ||",
-                        "sahitya": "Ma tta Su- - - - raa- - di Ja-ya - pra taa- - - po \u2013"
+                        "swara": "P - M - gm pMg mg R S | sr G - M pd pd P - ||",
+                        "sahitya": "Ma tta Su- - - - raa- - di Ja-ya - pra taa- - - po -"
                     },
                     {
                         "line_number": 14,
-                        "swara": "M M M d p pp m g m- r r s | s N \u2013 d n - S r d - p D n D p ||",
+                        "swara": "M M M d p pp m g m- r r s | s N - d n - S r d - p D n D p ||",
                         "sahitya": "Maa yaa maa la va gau-laa- di de-sha Mahi pa ti Pu ji tha Pa da Pra de sha"
                     },
                     {
                         "line_number": 15,
-                        "swara": "M g \u2013 p , m \u2013 d p S , s g R s | m G r , s \u2013 s n , D p m g r s ||",
+                        "swara": "M g - p - m - d p S - s g R s | m G r - s - s n - D p m g r s ||",
                         "sahitya": "Maadhavaa - dya mara Brunda Prakaasha Ma he sha - sya Maha - artho pa de - - sha"
                     }
                 ]

@@ -16,7 +16,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "P - - M mg R || S - s d , S , s r M ||",
+                "swara": "P - - M mg R || S - s d - S - s r M ||",
                 "sahitya": "Paa - li tho-- ham Sumu khe na- Sri"
             },
             {
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "P - - M mg R || S - s d , S , s r M ||",
+                "swara": "P - - M mg R || S - s d - S - s r M ||",
                 "sahitya": "Paa - li tho-- ham Sumu khe na- Sri"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "p m p d S -pd p - mg r || S - s d , S , s r M ||",
+                "swara": "p m p d S -pd p - mg r || S - s d - S - s r M ||",
                 "sahitya": "Paa - li - tho-- ham Sumu khe na- Sri"
             },
             {
@@ -73,7 +73,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "S , r M - R - S || P D S - P dm P ||",
+                "swara": "S - r M - R - S || P D S - P dm P ||",
                 "sahitya": "Pan- - choo - da ya - di Ka ra- na"
             },
             {
@@ -83,12 +83,12 @@
             },
             {
                 "line_number": 8,
-                "swara": "S , r M - R - S || P D S - P dm p - d ||",
+                "swara": "S - r M - R - S || P D S - P dm p - d ||",
                 "sahitya": "Pan- - choo - da ya - di Ka ra- na Vi"
             },
             {
                 "line_number": 9,
-                "swara": "S r - g r S s p D p || P d- p , m g r s P m ||",
+                "swara": "S r - g r S s p D p || P d- p - m g r s P m ||",
                 "sahitya": "rin chi Ha ri Ru dra Nu te na Pancha Vak tra Shiva Sutena"
             }
         ],
@@ -102,7 +102,7 @@
                     },
                     {
                         "line_number": 2,
-                        "swara": "S , r mg R - s p || mg R s r M - P || - dm P - P - ||",
+                        "swara": "S - r mg R - s p || mg R s r M - P || - dm P - P - ||",
                         "sahitya": "Mo- da- ka - Mudka raa-- ksha- Maa - laa - Ka- re - na"
                     },
                     {
@@ -112,7 +112,7 @@
                     },
                     {
                         "line_number": 4,
-                        "swara": "R , s - pdpd pmM - || rm P dm P - P ||",
+                        "swara": "R - s - pdpd pmM - || rm P dm P - P ||",
                         "sahitya": "Pu-ru - hu- - taa- - - dya- khi la- de - va"
                     },
                     {
@@ -127,7 +127,7 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "r s D p- P m m R s || d s r m g r s - d P , m ||",
+                        "swara": "r s D p- P m m R s || d s r m g r s - d P - m ||",
                         "sahitya": "Karunaa nga Kaura tha re na Kali Mala ha ra na Ta re na"
                     }
                 ]

@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Sri Narada",
         "raga": "Kanada",
-        "arohanam": "S R\u2082 G\u2082 M\u2081 D\u2082 N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 P M\u2081 G\u2082 M\u2081 R\u2082 S ||",
+        "arohanam": "S R₂ G₂ M₁ D₂ N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ P M₁ G₂ M₁ R₂ S ||",
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
@@ -16,23 +16,23 @@
             },
             {
                 "line_number": 2,
-                "swara": "R , s nS n snrs || ssnn D - - ns ||",
+                "swara": "R - s nS n snrs || ssnn D - - ns ||",
                 "sahitya": "Shree Naa rada ! Naa da - sara"
             },
             {
                 "line_number": 3,
-                "swara": "R - R R - sr || G - mg \u2013 gm rs np ||",
-                "sahitya": "see ruha Brun-- ga \u2013 - Shu- bhan- ga!"
+                "swara": "R - R R - sr || G - mg - gm rs np ||",
+                "sahitya": "see ruha Brun-- ga - - Shu- bhan- ga!"
             },
             {
                 "line_number": 4,
-                "swara": "R , s nS n snrs || ssnn D - - ns ||",
+                "swara": "R - s nS n snrs || ssnn D - - ns ||",
                 "sahitya": "Shree Naa rada ! Naa da - sara"
             },
             {
                 "line_number": 5,
                 "swara": "R - G G M nd || pm gm rg Mpm gmrs ||",
-                "sahitya": "see ruha Brun-- ga \u2013shu-bhan-- -- ga!"
+                "sahitya": "see ruha Brun-- ga -shu-bhan-- -- ga!"
             },
             {
                 "line_number": 6,
@@ -42,7 +42,7 @@
             {
                 "line_number": 7,
                 "swara": "R - G G mdnr || sn pm rg Mpm gmrs ||",
-                "sahitya": "see ruha Brun-- ga \u2013shu-bhan-- -- ga!"
+                "sahitya": "see ruha Brun-- ga -shu-bhan-- -- ga!"
             },
             {
                 "line_number": 8,
@@ -58,7 +58,7 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- , n , p M - P || pmgm D - D - ||",
+                "swara": "- - n - p M - P || pmgm D - D - ||",
                 "sahitya": "Di na Maa - na ra---- - ksha ka!"
             },
             {
@@ -73,7 +73,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "NR S \u2013 P - P || pm G pmgm s R s ||",
+                "swara": "NR S - P - P || pm G pmgm s R s ||",
                 "sahitya": "dee- sha! Bhe- sha San- - kaa- - sha - -"
             },
             {
@@ -83,7 +83,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "GM R \u2013 Srs N S || npnn pmgm rsns ||",
+                "swara": "GM R - Srs N S || npnn pmgm rsns ||",
                 "sahitya": "dee- sha! Bhe- - sha San- - kaa- - sha - -"
             }
         ],
@@ -92,7 +92,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- , n , p M P P || mp Dnd pm G M - ||",
+                        "swara": "- - n - p M P P || mp Dnd pm G M - ||",
                         "sahitya": "Ve da Ja ni tha Va- ra-- Vee-- na"
                     },
                     {
@@ -102,7 +102,7 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "- rn S R R \u2013 R || G - M - D N sr ||",
+                        "swara": "- rn S R R - R || G - M - D N sr ||",
                         "sahitya": "Khe- da ha ra Tri thaa pa ra hi ta-"
                     },
                     {
@@ -112,8 +112,8 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- rp , m P rg mp || Mpm G pmM R S - ||",
-                        "sahitya": "Ya- dava Ku-la- ja-- - ptha\u2014sa daa"
+                        "swara": "- rp - m P rg mp || Mpm G pmM R S - ||",
+                        "sahitya": "Ya- dava Ku-la- ja-- - ptha—sa daa"
                     },
                     {
                         "line_number": 6,

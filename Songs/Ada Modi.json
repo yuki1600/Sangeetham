@@ -11,27 +11,27 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "P - D- P - M G R | G- gr S \u2013 R G , \u2013 m P M ||",
+                "swara": "P - D- P - M G R | G- gr S - R G - - m P M ||",
                 "sahitya": "A da mo - di Gala de Ra- - may yya Maa - ta"
             },
             {
                 "line_number": 2,
-                "swara": "pdnd D- P - M G R | G- gr S \u2013 R G , \u2013 m P M ||",
+                "swara": "pdnd D- P - M G R | G- gr S - R G - - m P M ||",
                 "sahitya": "A da mo - di Gala de Ra- - may yya Maa - ta"
             },
             {
                 "line_number": 3,
-                "swara": "pdns D- P - M G R | G- gr S \u2013 R G , \u2013 m P M ||",
+                "swara": "pdns D- P - M G R | G- gr S - R G - - m P M ||",
                 "sahitya": "A da mo - di Gala de Ra- - may yya Maa - ta"
             },
             {
                 "line_number": 4,
-                "swara": "pdns rg- rs nd pm G R | G- gr S \u2013 R G , \u2013 m P M ||",
+                "swara": "pdns rg- rs nd pm G R | G- gr S - R G - - m P M ||",
                 "sahitya": "A da mo - - di Gala de Ra- - may yya Maa - ta"
             },
             {
                 "line_number": 5,
-                "swara": "pdns rg- mg rs- nd pm gr | G- gr S \u2013 R G , \u2013 m P M ||",
+                "swara": "pdns rg- mg rs- nd pm gr | G- gr S - R G - - m P M ||",
                 "sahitya": "A da mo - - di Ga-la- de Ra- - may yya Maa - ta"
             },
             {
@@ -43,28 +43,28 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "P , d N D D , n S - | - - - - - - - - ||",
+                "swara": "P - d N D D - n S - | - - - - - - - - ||",
                 "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "P , d N D D , n S - | - - - - dnsn dp dm ||",
+                "swara": "P - d N D D - n S - | - - - - dnsn dp dm ||",
                 "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "P , d N D D , n S - | dn S , - pd n S , - s n d p m ||",
+                "swara": "P - d N D D - n S - | dn S - - pd n S - - s n d p m ||",
                 "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "P , d N D D , n S - | rgmg grrs snnd dpdm ||",
+                "swara": "P - d N D D - n S - | rgmg grrs snnd dpdm ||",
                 "sahitya": "Tho du nida Ni - ve - - - - - - - - -"
             },
             {
                 "line_number": 5,
-                "swara": "P , d N D D , n S - | - rg , m -G rmgr S - ||",
-                "sahitya": "Tho du nida Ni - ve - - Yanu \u2013 chu Bhak ti - - to -"
+                "swara": "P - d N D D - n S - | - rg - m -G rmgr S - ||",
+                "sahitya": "Tho du nida Ni - ve - - Yanu - chu Bhak ti - - to -"
             },
             {
                 "line_number": 6,
@@ -73,7 +73,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "pdns rg- mg rs- nd pm gr | G- gr S \u2013 R G , \u2013 m P M ||",
+                "swara": "pdns rg- mg rs- nd pm gr | G- gr S - R G - - m P M ||",
                 "sahitya": "A da mo - - di Ga-la- de Ra- - may yya Maa - ta"
             },
             {
@@ -87,38 +87,38 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "P P D \u2013 P - M gpmm | G \u2013 R M G g r sr G M ||",
+                        "swara": "P P D - P - M gpmm | G - R M G g r sr G M ||",
                         "sahitya": "Cha du vu lan - ni De-li- si Shan- ka raan-- tshu- Dai-"
                     },
                     {
                         "line_number": 2,
-                        "swara": "pn dp D \u2013 pm dp M gpmm | G \u2013 R M G g r sr G M ||",
+                        "swara": "pn dp D - pm dp M gpmm | G - R M G g r sr G M ||",
                         "sahitya": "Cha du vu lan - - ni De-li- si Shan- ka raan-- tshu- Dai-"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- s s , s- s n D \u2013 N S - | - sr , g M P - M P ||",
+                        "swara": "- s s - s- s n D - N S - | - sr - g M P - M P ||",
                         "sahitya": "- Sada - yu Daa- - su ga- - Sam- bhavu du- Mro kka"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- p d N \u2013 D - N S - | - - - - - - - - ||",
-                        "sahitya": "Kada lu Tam \u2013 mu ni - - - - - - - -"
+                        "swara": "- p d N - D - N S - | - - - - - - - - ||",
+                        "sahitya": "Kada lu Tam - mu ni - - - - - - - -"
                     },
                     {
                         "line_number": 5,
-                        "swara": "- p d N \u2013 D - N S - | - dn S , - p d n S , - s n d ||",
-                        "sahitya": "Kada lu Tam \u2013 mu ni - - - - - - - -"
+                        "swara": "- p d N - D - N S - | - dn S - - p d n S - - s n d ||",
+                        "sahitya": "Kada lu Tam - mu ni - - - - - - - -"
                     },
                     {
                         "line_number": 6,
-                        "swara": "pm- p d N \u2013 D - N S - | - rg mg- gr rs \u2013sn nd - dp ||",
-                        "sahitya": "- - Kada lu Tam \u2013 mu ni - - - - - - - -"
+                        "swara": "pm- p d N - D - N S - | - rg mg- gr rs -sn nd - dp ||",
+                        "sahitya": "- - Kada lu Tam - mu ni - - - - - - - -"
                     },
                     {
                         "line_number": 7,
-                        "swara": "dm- p d N \u2013 D - N S - | - rg , m G rgmg R s S , ||",
-                        "sahitya": "- - Kada lu Tam \u2013 mu ni Bal- - ka Je si- - - - ti vi \u2013"
+                        "swara": "dm- p d N - D - N S - | - rg - m G rgmg R s S - ||",
+                        "sahitya": "- - Kada lu Tam - mu ni Bal- - ka Je si- - - - ti vi -"
                     },
                     {
                         "line_number": 8,
@@ -127,7 +127,7 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "pdns rg- mg rs- nd pm gr | G- gr S \u2013 R G , \u2013 m P M ||",
+                        "swara": "pdns rg- mg rs- nd pm gr | G- gr S - R G - - m P M ||",
                         "sahitya": "A da mo - - di Ga-la- de Ra- - may yya Maa - ta"
                     },
                     {

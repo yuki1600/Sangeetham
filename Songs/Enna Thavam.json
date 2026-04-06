@@ -11,184 +11,184 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- , g , m- P mgG , r - N | S - - S | R - sr - ||",
+                "swara": "- - g - m- P mgG - r - N | S - - S | R - sr - ||",
                 "sahitya": "En na ta vam -shei - da nai - - ya so - da"
             },
             {
                 "line_number": 2,
-                "swara": "- , g , m- np mgG , r - N | S - - ns | R - sr - ||",
+                "swara": "- - g - m- np mgG - r - N | S - - ns | R - sr - ||",
                 "sahitya": "En na ta vam -shei - da nai - - ya so - da"
             },
             {
                 "line_number": 3,
-                "swara": "- , g , m- np mgG , r - N | S - - D | nndp mgG R ||",
+                "swara": "- - g - m- np mgG - r - N | S - - D | nndp mgG R ||",
                 "sahitya": "En na ta vam -shei - da nai - - ya so - da - --"
             },
             {
                 "line_number": 4,
-                "swara": "- , r , m \u2013 M P - , n N | S , s - pd | nr s \u2013 mn , d M ||",
+                "swara": "- - r - m - M P - - n N | S - s - pd | nr s - mn - d M ||",
                 "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
             },
             {
                 "line_number": 5,
-                "swara": "P , p ns - np mgG , r - N | S - - D | nndp mgG sR, ||",
+                "swara": "P - p ns - np mgG - r - N | S - - D | nndp mgG sR- ||",
                 "sahitya": "En -- nata vam -shei - da nai - - ya so - da - --"
             },
             {
                 "line_number": 6,
-                "swara": "- , r , m \u2013 M P - , n N | S , s - pd | nr s \u2013 n , d M ||",
+                "swara": "- - r - m - M P - - n N | S - s - pd | nr s - n - d M ||",
                 "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
             },
             {
                 "line_number": 7,
-                "swara": "P , p ns - np mgG , r - N | S - - rs | grpm nd pm ||",
+                "swara": "P - p ns - np mgG - r - N | S - - rs | grpm nd pm ||",
                 "sahitya": "En -- nata vam -shei - da nai - - ya so - da - --"
             },
             {
                 "line_number": 8,
-                "swara": "grs- r , m \u2013 P nS , , s R | Srm gr \u2013 sn -pd | nr s \u2013 n , d M ||",
+                "swara": "grs- r - m - P nS - - s R | Srm gr - sn -pd | nr s - n - d M ||",
                 "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
             },
             {
                 "line_number": 9,
-                "swara": "P , p ns - np mgG , r - N | G - - - | - - - - ||",
+                "swara": "P - p ns - np mgG - r - N | G - - - | - - - - ||",
                 "sahitya": "En -- nata vam -shei - da nai - - - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "pnsn , nd - dm n P \u2013 gr - R | - r r , m M | P - - - ||",
+                "swara": "pnsn - nd - dm n P - gr - R | - r r - m M | P - - - ||",
                 "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai"
             },
             {
                 "line_number": 2,
-                "swara": "pnsn , nd - dm n P \u2013 mg R , R | - r r , m M | P - - - ||",
+                "swara": "pnsn - nd - dm n P - mg R - R | - r r - m M | P - - - ||",
                 "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai"
             },
             {
                 "line_number": 3,
-                "swara": "pnsn , nd - dm n P \u2013 mg R , R | - m p , n N | S - - - ||",
+                "swara": "pnsn - nd - dm n P - mg R - R | - m p - n N | S - - - ||",
                 "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai"
             },
             {
                 "line_number": 4,
-                "swara": "pnsn , nd - dm n P \u2013 mg R , R | - m p , n N | S - , s R ||",
+                "swara": "pnsn - nd - dm n P - mg R - R | - m p - n N | S - - s R ||",
                 "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai k-kaiyil"
             },
             {
                 "line_number": 5,
-                "swara": "srG- - r - N nR \u2013 s - np | nS \u2013 n - nm | P , p mp ns ||",
+                "swara": "srG- - r - N nR - s - np | nS - n - nm | P - p mp ns ||",
                 "sahitya": "En- di - shi ra- Tti - pal U- Ti - ta- la-tta tha-ye-"
             },
             {
                 "line_number": 6,
-                "swara": "rG- rs , n P mgG , r - N | S - - - | - - , s R ||",
+                "swara": "rG- rs - n P mgG - r - N | S - - - | - - - s R ||",
                 "sahitya": "En - nata vam -shei - da nai - - - - - k-kaiyil"
             },
             {
                 "line_number": 7,
-                "swara": "srG- - r - N nR \u2013 s - np | nS \u2013 n - nm | P , p mp ns ||",
+                "swara": "srG- - r - N nR - s - np | nS - n - nm | P - p mp ns ||",
                 "sahitya": "En- di - shi ra- Tti - pal U- Ti - ta- la-tta tha-ye-"
             },
             {
                 "line_number": 8,
-                "swara": "r mgG- rs , n P mgG , r - N | S - - - | - - - - ||",
+                "swara": "r mgG- rs - n P mgG - r - N | S - - - | - - - - ||",
                 "sahitya": "En - nata vam -shei - da nai - - - - - - -"
             },
             {
                 "line_number": 9,
-                "swara": "- mp , n S R , r G R | - sg , r- G | S R N rsS ||",
-                "sahitya": "Bhram \u2013 anum in-di ranum - mana dil po ramai ko la-"
+                "swara": "- mp - n S R - r G R | - sg - r- G | S R N rsS ||",
+                "sahitya": "Bhram - anum in-di ranum - mana dil po ramai ko la-"
             },
             {
                 "line_number": 10,
-                "swara": "- mp , n S R , r mggr R | - sg , r- G | S gr N rsS ||",
-                "sahitya": "Bhram \u2013 anum in-di ra- num - mana dil po ramai ko la-"
+                "swara": "- mp - n S R - r mggr R | - sg - r- G | S gr N rsS ||",
+                "sahitya": "Bhram - anum in-di ra- num - mana dil po ramai ko la-"
             },
             {
                 "line_number": 11,
-                "swara": "- mp , n S G sgmp , mgG r | - sM , g- M | gm gr N rsS ||",
-                "sahitya": "Bhram \u2013 anum in-di ra-- num - mana dil po ramai ko la-"
+                "swara": "- mp - n S G sgmp - mgG r | - sM - g- M | gm gr N rsS ||",
+                "sahitya": "Bhram - anum in-di ra-- num - mana dil po ramai ko la-"
             },
             {
                 "line_number": 12,
-                "swara": "- dd , d \u2013 D D - - - | - - - - | - - - - ||",
+                "swara": "- dd - d - D D - - - | - - - - | - - - - ||",
                 "sahitya": "Ura lil ka Tti - - - - - - - - - - -"
             },
             {
                 "line_number": 13,
-                "swara": "- dd , d \u2013 D D , d , d- nr | s S- n , d M | P , - p S nrss ||",
+                "swara": "- dd - d - D D - d - d- nr | s S- n - d M | P - - p S nrss ||",
                 "sahitya": "Ura lil ka Tti vai -po ttik- - - ken - javai ttai kan na nai"
             },
             {
                 "line_number": 14,
-                "swara": "D - dd , d \u2013 D D , d , d- nr | s S- n , d M | P , - n N nrss ||",
+                "swara": "D - dd - d - D D - d - d- nr | s S- n - d M | P - - n N nrss ||",
                 "sahitya": "Ura lil ka Tti vai -po ttik- - - ken - javai ttai kan na nai"
             },
             {
                 "line_number": 15,
-                "swara": "D - dd , d \u2013 D D , d , d- nr | s S- n , d M | P - mp ns ||",
+                "swara": "D - dd - d - D D - d - d- nr | s S- n - d M | P - mp ns ||",
                 "sahitya": "Ura lil ka Tti vai -po ttik- - - ken - javai ttai ta- ye-"
             },
             {
                 "line_number": 16,
-                "swara": "rG- rs , n P mgG , r - N | S - - - | - - - - ||",
+                "swara": "rG- rs - n P mgG - r - N | S - - - | - - - - ||",
                 "sahitya": "En - nata vam -shei - da nai - - - - - - -"
             },
             {
                 "line_number": 17,
-                "swara": "nrs- np - -np mggr - , r M | P , n - N | S - - - ||",
+                "swara": "nrs- np - -np mggr - - r M | P - n - N | S - - - ||",
                 "sahitya": "sana ka - di- yar- - - tava yo gam - shei du - - -"
             },
             {
                 "line_number": 18,
-                "swara": "n R- snnp - -np mggr - , r M | P , n - N | S , - s S R ||",
+                "swara": "n R- snnp - -np mggr - - r M | P - n - N | S - - s S R ||",
                 "sahitya": "sana ka - - di- yar- - - tava yo gam - shei du va rundi"
             },
             {
                 "line_number": 19,
-                "swara": "s R -sr G- R S , - d N R | srs \u2013 np - np | mg rs rmpn ||",
+                "swara": "s R -sr G- R S - - d N R | srs - np - np | mg rs rmpn ||",
                 "sahitya": "sa- dhi - tta dai pu ni ta- ma- de- - e- Li- dil- pe-ra -"
             },
             {
                 "line_number": 20,
-                "swara": "srg- rs , n P mgG , r - N | S - - - | - , s S R ||",
+                "swara": "srg- rs - n P mgG - r - N | S - - - | - - s S R ||",
                 "sahitya": "--- En - nata vam -shei - da nai - - - - va rundi"
             },
             {
                 "line_number": 21,
-                "swara": "s R -sr G- R S , - d N rs | grs \u2013 np - np | mg rs rmpn ||",
+                "swara": "s R -sr G- R S - - d N rs | grs - np - np | mg rs rmpn ||",
                 "sahitya": "sa- dhi - tta dai pu ni ta- ma- de- - e- Li- dil- pe- ra -"
             },
             {
                 "line_number": 22,
-                "swara": "srg - rs , n P mgG , r - N | S - - D | nndp mgG sR, ||",
+                "swara": "srg - rs - n P mgG - r - N | S - - D | nndp mgG sR- ||",
                 "sahitya": "En -- nata vam -shei - da nai - - ya so - da - --"
             },
             {
                 "line_number": 23,
-                "swara": "- , r , m \u2013 M P - , g R | rssn , s - pd | nr s \u2013 n , d M ||",
+                "swara": "- - r - m - M P - - g R | rssn - s - pd | nr s - n - d M ||",
                 "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
             },
             {
                 "line_number": 24,
-                "swara": "srg- pn s- n P mgG , r - N | G - - - | - - - - ||",
+                "swara": "srg- pn s- n P mgG - r - N | G - - - | - - - - ||",
                 "sahitya": "-- En - nata vam -shei - da nai - - - - - - -"
             },
             {
                 "line_number": 25,
-                "swara": "- , g , m- P mgG , r - N | S - - - | - - ns G ||",
+                "swara": "- - g - m- P mgG - r - N | S - - - | - - ns G ||",
                 "sahitya": "En na ta vam -shei - da nai - - - - - - - -"
             },
             {
                 "line_number": 26,
-                "swara": "- , g , m- np mgG , r - N | S - - - | - - ns G ||",
+                "swara": "- - g - m- np mgG - r - N | S - - - | - - ns G ||",
                 "sahitya": "En na ta vam -shei - da nai - - - - - - - -"
             },
             {
                 "line_number": 27,
-                "swara": "- , s , n- P mgG , r - N | RN - - | S - - - ||",
+                "swara": "- - s - n- P mgG - r - N | RN - - | S - - - ||",
                 "sahitya": "En na ta vam -shei - da nai - - - - - - -"
             }
         ],

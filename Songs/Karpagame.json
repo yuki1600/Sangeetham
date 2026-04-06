@@ -11,64 +11,64 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- , p , r S R - - - | - rm P , m | R - - S ||",
+                "swara": "- - p - r S R - - - | - rm P - m | R - - S ||",
                 "sahitya": "Kar paga me- - - - Kan paa- rai- - -"
             },
             {
                 "line_number": 2,
-                "swara": "- , p , r S R - - - | mRm P , m | R - - S ||",
+                "swara": "- - p - r S R - - - | mRm P - m | R - - S ||",
                 "sahitya": "Kar paga me- - - Kan-- paa- rai- - -"
             },
             {
                 "line_number": 3,
-                "swara": "r m s- p , r S R - , r S | R ,m P , m | R - - S ||",
+                "swara": "r m s- p - r S R - - r S | R -m P - m | R - - S ||",
                 "sahitya": "mayilai Kar paga me- kadai Kan-- paa- rai- - -"
             },
             {
                 "line_number": 4,
-                "swara": "r m s- p , r S R - , r S | R ,m pn",
+                "swara": "r m s- p - r S R - - r S | R -m pn",
                 "sahitya": "mayilai Kar paga me- kadai Kan-- paa- rai- - -"
             },
             {
                 "line_number": 5,
-                "swara": "Rs -p , r S rsnp",
+                "swara": "Rs -p - r S rsnp",
                 "sahitya": "Kar paga me- ka runai Kan-- paa- rai- - -"
             },
             {
                 "line_number": 6,
-                "swara": "Rs- p , r S R - - - | rmP N- pmR",
+                "swara": "Rs- p - r S R - - - | rmP N- pmR",
                 "sahitya": "Kar paga me- - - - Kan-- - paa- rai- - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- , s , s S sn sn P M | - , p , s N | S - S S ||",
+                "swara": "- - s - s S sn sn P M | - - p - s N | S - S S ||",
                 "sahitya": "Chit para yo- - - gi ya - - Si ddhar gal jnya ni yar"
             },
             {
                 "line_number": 2,
-                "swara": "- , s , s S sn rs n - p Pnp",
+                "swara": "- - s - s S sn rs n - p Pnp",
                 "sahitya": "Chit para yo- - - gi ya - - Si ddhar gal jnya ni yar"
             },
             {
                 "line_number": 3,
-                "swara": "- , s , s S sn rs n - p Pnp",
+                "swara": "- - s - s S sn rs n - p Pnp",
                 "sahitya": "Chit para yo- - - gi ya - - Si ddhar gal jnya - ni yar"
             },
             {
                 "line_number": 4,
-                "swara": "- , s , s S nS - nrsS",
+                "swara": "- - s - s S nS - nrsS",
                 "sahitya": "Chit para yo- - - - gi ya - - Si ddhar gal jnya - ni yar"
             },
             {
                 "line_number": 5,
-                "swara": "- , s , s S nrs - nrsS",
+                "swara": "- - s - s S nrs - nrsS",
                 "sahitya": "Chit para yo- - - - gi ya - - Si ddhar gal jnya - ni yar"
             },
             {
                 "line_number": 6,
-                "swara": "s s n s m m r s m r s - n p n s r | m r s n P \u2013 r s | n p m- p m r \u2013 r m || m r s",
+                "swara": "s s n s m m r s m r s - n p n s r | m r s n P - r s | n p m- p m r - r m || m r s",
                 "sahitya": "tiruvudai adiyavar karudum varam udavum tirumagalum kalaimagalum paravu tirumayilaik-"
             }
         ],
@@ -77,22 +77,22 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "P p m P \u2013 R m -r M - p n p- m | p m \u2013 r s R P | M- P - - ||",
+                        "swara": "P p m P - R m -r M - p n p- m | p m - r s R P | M- P - - ||",
                         "sahitya": "Sathu Chidaa nandam A dai Sakala U yi ru kuyir ai- a valnee- -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "P p m P \u2013 R p -m P - p n p- m | p m \u2013 r s R p m | P - - - ||",
+                        "swara": "P p m P - R p -m P - p n p- m | p m - r s R p m | P - - - ||",
                         "sahitya": "Sathu Chidaa nandam A dai Sakala U yi ru kuyir ai- aval Nee- - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "P p m P \u2013 R n -p N - p n p- m | p m \u2013 r s R n p | P N - - ||",
+                        "swara": "P p m P - R n -p N - p n p- m | p m - r s R n p | P N - - ||",
                         "sahitya": "Sathu Chidaa nandam A dai Sakala U yi ru kuyir ai- aval Nee- - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "P p m P \u2013 R n -p N - p n p- m | p m \u2013 r s R S | N rs np - ||",
+                        "swara": "P p m P - R n -p N - p n p- m | p m - r s R S | N rs np - ||",
                         "sahitya": "Sathu Chidaa nandam A dai Sakala U yi ru kuyir ai- aval Nee- - -"
                     },
                     {
@@ -107,7 +107,7 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "S s n p m p n P p -m r m - r s R s r M r m | p p -m p N , ||",
+                        "swara": "S s n p m p n P p -m r m - r s R s r M r m | p p -m p N - ||",
                         "sahitya": "Sathuva Gunamudum Bhakthisei Bhavarbhava Thaapamum Paapamum Ara-yum ne -"
                     },
                     {
@@ -117,32 +117,32 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "P , \u2013 r , s - s r m R s s n s n | S - - - | - - - pr ||",
+                        "swara": "P - - r - s - s r m R s s n s n | S - - - | - - - pr ||",
                         "sahitya": "San-- thaa na Sow- - bha gya Sam-path- (ne) vara"
                     },
                     {
                         "line_number": 10,
-                        "swara": "sn p \u2013 r , s - r p m R s s n S | s s \u2013 m r s n \u2013 r s | n p m \u2013 n p m - rm || r S",
+                        "swara": "sn p - r - s - r p m R s s n S | s s - m r s n - r s | n p m - n p m - rm || r S",
                         "sahitya": "San-- thaa na Sow- - bha gya Sam-path- Thodu Marumayil nira thishaya In - ba mum Tharum"
                     },
                     {
                         "line_number": 11,
-                        "swara": "Rs- p , r S R ,- n p m - rm | Rs- p , r S | R ,- n p m - rm ||",
+                        "swara": "Rs- p - r S R -- n p m - rm | Rs- p - r S | R -- n p m - rm ||",
                         "sahitya": "Tharum Kar paga me- In - ba mum Tharum Kar paga me- In - ba mum"
                     },
                     {
                         "line_number": 12,
-                        "swara": "Rs - p , r S rsnp",
+                        "swara": "Rs - p - r S rsnp",
                         "sahitya": "Tharum Kar paga me- ka runai Kan-- paa- rai- - -"
                     },
                     {
                         "line_number": 13,
-                        "swara": "Rs- p , r S R - - - | m r s- p , r S | R - - pm ||",
+                        "swara": "Rs- p - r S R - - - | m r s- p - r S | R - - pm ||",
                         "sahitya": "Kar paga me- - - - mayilai Kar paga me thiru"
                     },
                     {
                         "line_number": 14,
-                        "swara": "m r s- p , r S R - - - | R ,m P , m | R - - S ||",
+                        "swara": "m r s- p - r S R - - - | R -m P - m | R - - S ||",
                         "sahitya": "mayilai Kar paga me- Kan-- paa- rai- - -"
                     }
                 ]

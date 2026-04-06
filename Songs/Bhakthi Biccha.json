@@ -21,12 +21,12 @@
             },
             {
                 "line_number": 3,
-                "swara": "- , m g - m P P P || - - - - - - ||",
+                "swara": "- - m g - m P P P || - - - - - - ||",
                 "sahitya": "Bhaa - vu ka magu - - - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "- , m g - m P P P || mdpm gpmg rmg - s ||",
+                "swara": "- - m g - m P P P || mdpm gpmg rmg - s ||",
                 "sahitya": "Bhaa - vu ka magu Saa- - - - - - - tvi- - ka"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "- , m g - m P D N || Srs n - d P - md pmg - s ||",
+                "swara": "- - m g - m P D N || Srs n - d P - md pmg - s ||",
                 "sahitya": "Bhaa - vu ka magu Saa- - - - - tvi- - - - ka"
             },
             {
@@ -63,27 +63,27 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "1. - , s , s - S S S || Srs S,d N S - - ||",
+                "swara": "1. - - s - s - S S S || Srs S-d N S - - ||",
                 "sahitya": "Mu - kti Ka khila Sha- - kti ki - -"
             },
             {
                 "line_number": 2,
-                "swara": "2. - S S - sn R S || Srs S,d N S - - ||",
+                "swara": "2. - S S - sn R S || Srs S-d N S - - ||",
                 "sahitya": "Mu kti Ka khila Sha- - kti ki - -"
             },
             {
                 "line_number": 3,
-                "swara": "3. - S S - sr mgR S || Srs S,d N S - - ||",
+                "swara": "3. - S S - sr mgR S || Srs S-d N S - - ||",
                 "sahitya": "Mu kti Ka khi- - la Sha- - kti ki - -"
             },
             {
                 "line_number": 4,
-                "swara": "4. - S S - sr mgR S || Srs S,d N S - Srg ||",
+                "swara": "4. - S S - sr mgR S || Srs S-d N S - Srg ||",
                 "sahitya": "Mu kti Ka khi- - la Sha- - kti ki - Tri"
             },
             {
                 "line_number": 5,
-                "swara": "rS , Sdn dp , - d N || SrsS - d P - md pmg - s || rg",
+                "swara": "rS - Sdn dp - - d N || SrsS - d P - md pmg - s || rg",
                 "sahitya": "mur- ttu- - la- - kati Mel- mi - - - - - - Raa- ma"
             }
         ],
@@ -92,7 +92,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "gm p m P , p pp m g || mgm- p , m - mg m - P m ||",
+                        "swara": "gm p m P - p pp m g || mgm- p - m - mg m - P m ||",
                         "sahitya": "Praa-namu le- ni Vaa-ni ki Ban- - gaa - ru Baa- ga Chu-"
                     },
                     {
@@ -102,22 +102,22 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "gm p m Pdn d - p pp m g || mgm- p , m - mg m - P p ||",
+                        "swara": "gm p m Pdn d - p pp m g || mgm- p - m - mg m - P p ||",
                         "sahitya": "Praa-namu le- - - ni Vaa-ni ki Ban- - gaa - ru Baa- ga Chu tti"
                     },
                     {
                         "line_number": 4,
-                        "swara": "R s - s , s - r g p m - g r || G m - p , m - P , -P, ||",
+                        "swara": "R s - s - s - r g p m - g r || G m - p - m - P - -P- ||",
                         "sahitya": "Aani Va - jra Bhu- shana Mu ra Man-du Be - tta Ree - thi-"
                     },
                     {
                         "line_number": 5,
-                        "swara": "S s s s - s S S s s || s d n - s , s- d n - s D p ||",
+                        "swara": "S s s s - s S S s s || s d n - s - s- d n - s D p ||",
                         "sahitya": "Jaa nala ku Puraa naa gama Shas-trave - da Japa Pra san ga"
                     },
                     {
                         "line_number": 6,
-                        "swara": "p m p - d n s - s d p - d n s || S n - dp , p- md pmg - s || r g",
+                        "swara": "p m p - d n s - s d p - d n s || S n - dp - p- md pmg - s || r g",
                         "sahitya": "Traa-na Gal- gi Ye- mi? Bha-kta Tyaaga raa- - ja nu- ta!-- Raa - ma"
                     }
                 ]

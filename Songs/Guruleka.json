@@ -51,14 +51,14 @@
             },
             {
                 "line_number": 9,
-                "swara": "- - - - - || , pmg rs \u2013 R G || M P P - P ||",
+                "swara": "- - - - - || - pmg rs - R G || M P P - P ||",
                 "sahitya": "- - - - - - - - - - Te li ya ga Bo du"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- d n , S , S || sn D nsrg R || S - - - - || - - , sn ndp ||",
+                "swara": "- d n - S - S || sn D nsrg R || S - - - - || - - - sn ndp ||",
                 "sahitya": "Karu kai na Hr - - dro-- ga - - - - - - - - - - - -"
             },
             {
@@ -68,7 +68,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "- d n , S , S || rsnd nsr G r || N N N D N || D P D N S ||",
+                "swara": "- d n - S - S || rsnd nsr G r || N N N D N || D P D N S ||",
                 "sahitya": "Karu kai na Hr - - dro-- ga Ga ha na muna Go- tta nu Sad- (guru)"
             }
         ],
@@ -77,27 +77,27 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- p p , p P P || G P - mgG R || R ,g mgpm gr || rgmg gr sn S ||",
+                        "swara": "- p p - p P P || G P - mgG R || R -g mgpm gr || rgmg gr sn S ||",
                         "sahitya": "Ta nu vu Su ta Dha na Daa-- ra Da - yaa - -di Baan-- dha vu- lu"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- p p , d N dp || G P - mgG R || R G mgpm gr || rgmg gr sn S ||",
+                        "swara": "- p p - d N dp || G P - mgG R || R G mgpm gr || rgmg gr sn S ||",
                         "sahitya": "Ta nu vu Su ta Dha na Daa-- ra Da - yaa - -di Baan-- dha vu- lu"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- r g , m P P || D N sn dp - || G G rg pm gr || rs S - - - ||",
+                        "swara": "- r g - m P P || D N sn dp - || G G rg pm gr || rs S - - - ||",
                         "sahitya": "Jani yin- chi Che da ru jaa Li ni Ka-ru-na- to - - - - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- p p , p ppmg || G R \u2013 gr sn S || - r g , m M P || - - - - - ||",
+                        "swara": "- p p - p ppmg || G R - gr sn S || - r g - m M P || - - - - - ||",
                         "sahitya": "Mana su nan- - taka Che- - yu Man danuchu"
                     },
                     {
                         "line_number": 5,
-                        "swara": "- mp , nd ppmg - || G R \u2013 gr sn S || - r g , m M P ||",
+                        "swara": "- mp - nd ppmg - || G R - gr sn S || - r g - m M P ||",
                         "sahitya": "Mana su nan- - taka Che- - yu Man danuchu"
                     },
                     {
@@ -107,12 +107,12 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "S , d N D P || D N S - S || snD nsrg R || S - - - - || - - , sn nd p ||",
+                        "swara": "S - d N D P || D N S - S || snD nsrg R || S - - - - || - - - sn nd p ||",
                         "sahitya": "Ta tva Bo- dhana Je si Kaa- paa-- du - - - - - - - - - -"
                     },
                     {
                         "line_number": 8,
-                        "swara": "D R sn D P || D N S - S || snD nsrg R || S - - - - || - - , sn nd p ||",
+                        "swara": "D R sn D P || D N S - S || snD nsrg R || S - - - - || - - - sn nd p ||",
                         "sahitya": "Ta tva Bo- dhana Je si Kaa- paa-- du - - - - - - - - - -"
                     },
                     {

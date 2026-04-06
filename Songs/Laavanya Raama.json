@@ -16,7 +16,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "rs N S \u2013 rg M \u2013 G | M - - - - - ||",
+                "swara": "rs N S - rg M - G | M - - - - - ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - - -"
             },
             {
@@ -26,37 +26,37 @@
             },
             {
                 "line_number": 4,
-                "swara": "rs N S \u2013 rg M \u2013 G | M - - - , n N ||",
+                "swara": "rs N S - rg M - G | M - - - - n N ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A ti"
             },
             {
                 "line_number": 5,
-                "swara": "3. S - , r- sn P M | R G - gr R - gr ||",
+                "swara": "3. S - - r- sn P M | R G - gr R - gr ||",
                 "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
             },
             {
                 "line_number": 6,
-                "swara": "rs N S \u2013 rg M \u2013 G | M - pmgr gmnn ||",
+                "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A- ti- -"
             },
             {
                 "line_number": 7,
-                "swara": "4. S , r g r- sn P M | R G - gr R - gr ||",
+                "swara": "4. S - r g r- sn P M | R G - gr R - gr ||",
                 "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
             },
             {
                 "line_number": 8,
-                "swara": "rs N S \u2013 rg M \u2013 G | M - pmgr gmnn ||",
+                "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
             },
             {
                 "line_number": 9,
-                "swara": "5. sn \u2013 sr gr sn P M | nnp \u2013 m g r \u2013 sn pm gr ||",
+                "swara": "5. sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
                 "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
             },
             {
                 "line_number": 10,
-                "swara": "rr sn S \u2013 rg M \u2013 G | M - pmgr gmnn ||",
+                "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
             },
             {
@@ -66,14 +66,14 @@
             },
             {
                 "line_number": 12,
-                "swara": "rs N S \u2013 rg M \u2013 G | M - - - , g R ||",
+                "swara": "rs N S - rg M - G | M - - - - g R ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "1.- G G G G - || rg M G \u2013 g r R \u2013 rs || (sr Mgr || rs ns )",
+                "swara": "1.- G G G G - || rg M G - g r R - rs || (sr Mgr || rs ns )",
                 "sahitya": "Sri vani thaa Chi-- ttha Ku- mu da"
             },
             {
@@ -83,32 +83,32 @@
             },
             {
                 "line_number": 3,
-                "swara": "2. rs N \u2013 G G G G - || rg M G \u2013 g r R \u2013 S ||",
+                "swara": "2. rs N - G G G G - || rg M G - g r R - S ||",
                 "sahitya": "- - - Sri vani thaa Chi-- ttha Ku- mu da"
             },
             {
                 "line_number": 4,
-                "swara": "S - N P M \u2013 G || g r R pmgr gm nn ||",
+                "swara": "S - N P M - G || g r R pmgr gm nn ||",
                 "sahitya": "Shee tha ka ra! Sha tha-- nan-- nya- ja-"
             },
             {
                 "line_number": 5,
-                "swara": "sn \u2013 sr gr sn P M | nnp \u2013 m g r \u2013 sn pm gr ||",
+                "swara": "sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
                 "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
             },
             {
                 "line_number": 6,
-                "swara": "rr sn S \u2013 rg M \u2013 G | M - pmgr gmnn ||",
+                "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
             },
             {
                 "line_number": 7,
-                "swara": "S , r g r- sn P M | R G - gr R - gr ||",
+                "swara": "S - r g r- sn P M | R G - gr R - gr ||",
                 "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
             },
             {
                 "line_number": 8,
-                "swara": "rs N S \u2013 rg M \u2013 G | M - - - , g R ||",
+                "swara": "rs N S - rg M - G | M - - - - g R ||",
                 "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
             }
         ],
@@ -137,7 +137,7 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- G G G G G || rg M G \u2013 g r R \u2013 rs || (sr Mgr || rs ns )",
+                        "swara": "- G G G G G || rg M G - g r R - rs || (sr Mgr || rs ns )",
                         "sahitya": "Ta masa Matha Dei - va me- - la"
                     },
                     {
@@ -147,27 +147,27 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "rs N \u2013 G G G G G || rg M G \u2013 g r R \u2013 S ||",
+                        "swara": "rs N - G G G G G || rg M G - g r R - S ||",
                         "sahitya": "Ta masa Matha Dei - va me- - la"
                     },
                     {
                         "line_number": 8,
-                        "swara": "sn \u2013 sr gr sn P M | nnp \u2013 m g r \u2013 sn pm gr ||",
+                        "swara": "sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
                         "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
                     },
                     {
                         "line_number": 9,
-                        "swara": "rr sn S \u2013 rg M \u2013 G | M - pmgr gmnn ||",
+                        "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
                         "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
                     },
                     {
                         "line_number": 10,
-                        "swara": "S , r g r- sn P M | R G - gr R - gr ||",
+                        "swara": "S - r g r- sn P M | R G - gr R - gr ||",
                         "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
                     },
                     {
                         "line_number": 11,
-                        "swara": "rs N S \u2013 rg M \u2013 G | M - - - , g R ||",
+                        "swara": "rs N S - rg M - G | M - - - - g R ||",
                         "sahitya": "laa-- ra Ju- - da re ! - - A - ti-"
                     }
                 ]

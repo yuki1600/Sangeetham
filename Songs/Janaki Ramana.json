@@ -11,27 +11,27 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- , G , R S - - - | - D S S | - - - - ||",
+                "swara": "- - G - R S - - - | - D S S | - - - - ||",
                 "sahitya": "Jaa na ki - - - Ra ma na - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "- , G , R S - rs - D | S S - - | srgr rs r g ||",
+                "swara": "- - G - R S - rs - D | S S - - | srgr rs r g ||",
                 "sahitya": "Jaa na ki -- Ra ma na"
             },
             {
                 "line_number": 3,
-                "swara": "- , G , R srgr rs - S | - D S S | srgr rs - rs ||",
+                "swara": "- - G - R srgr rs - S | - D S S | srgr rs - rs ||",
                 "sahitya": "Jaa na ki -- - - Ra ma na Sri"
             },
             {
                 "line_number": 4,
-                "swara": "r G G , R srgr rs - S | - D S S | S r g M P ||",
+                "swara": "r G G - R srgr rs - S | - D S S | S r g M P ||",
                 "sahitya": "Jaa na ki -- - - Ra ma na Sri - - - -"
             },
             {
                 "line_number": 5,
-                "swara": ", D - pm G R srgr rs - S | - D S S | S R G - ||",
+                "swara": "- D - pm G R srgr rs - S | - D S S | S R G - ||",
                 "sahitya": "Jaa na ki -- Ra ma na Bhaktha Paa"
             },
             {
@@ -46,39 +46,39 @@
             },
             {
                 "line_number": 8,
-                "swara": "M P D P M P pm - G | R sr gmpd Pdp | pm G , rsr || g mp",
+                "swara": "M P D P M P pm - G | R sr gmpd Pdp | pm G - rsr || g mp",
                 "sahitya": "ri jaa - ta Paa - - hi Sa ka la Lo ka Sha - ra-- na - - (janaki)"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- , p , d P - P - - | - - - - | - - - - ||",
+                "swara": "- - p - d P - P - - | - - - - | - - - - ||",
                 "sahitya": "Gaa nalo la ! - - - - - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "- , p , d P - P M P | D - S - S | - - - - ||",
+                "swara": "- - p - d P - P M P | D - S - S | - - - - ||",
                 "sahitya": "Gaa nalo la ! Gha na ta Maa la - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "- , p , d P - P M P | D - S - S | sr gr rs S ||",
+                "swara": "- - p - d P - P M P | D - S - S | sr gr rs S ||",
                 "sahitya": "Gaa nalo la ! Gha na ta Maa la Ni - - la"
             },
             {
                 "line_number": 4,
-                "swara": "P , -p , d P - P M P | D - S - S | s rgr rs rg ||",
+                "swara": "P - -p - d P - P M P | D - S - S | s rgr rs rg ||",
                 "sahitya": "Gaa nalo la ! Gha na ta Maa la Ni - - la"
             },
             {
                 "line_number": 5,
-                "swara": "- , -p , d P - P M P | D - S - S | s rgr rs S ||",
+                "swara": "- - -p - d P - P M P | D - S - S | s rgr rs S ||",
                 "sahitya": "Gaa nalo la ! Gha na ta Maa la Ni - - la"
             },
             {
                 "line_number": 6,
-                "swara": "G , g rs - S p - d p m p m G | r S- s dp pm | G , r s r - g m || P d (janaki)",
+                "swara": "G - g rs - S p - d p m p m G | r S- s dp pm | G - r s r - g m || P d (janaki)",
                 "sahitya": "Ka ru - - naa - la- - vaa - - la- S u gu - - na si - - la - - -"
             },
             {
@@ -88,7 +88,7 @@
             },
             {
                 "line_number": 8,
-                "swara": "M P D P M P pm - G | R sr gmpd Pdp | pm G , rsr || g mp",
+                "swara": "M P D P M P pm - G | R sr gmpd Pdp | pm G - rsr || g mp",
                 "sahitya": "ri jaa - ta Paa - - hi Sa ka la Lo ka Sha - ra-- na - - (janaki)"
             }
         ],
@@ -97,32 +97,32 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- , m , m M M M G G | - g M g R | rg Mpm gr - gr ||",
+                        "swara": "- - m - m M M M G G | - g M g R | rg Mpm gr - gr ||",
                         "sahitya": "Ra kta Na li na Dala Na ya na Nr u paa - - la"
                     },
                     {
                         "line_number": 2,
-                        "swara": "s r g - m , m M M , r , g M | - g M g R | rg Mpm gr - gr ||",
+                        "swara": "s r g - m - m M M - r - g M | - g M g R | rg Mpm gr - gr ||",
                         "sahitya": "Ra kta Na li na Dala Na ya na Nru paa - - la"
                     },
                     {
                         "line_number": 3,
-                        "swara": "s r g- m , m M d pm - R - g M | - m P m G | rg Mpm gr - gr ||",
+                        "swara": "s r g- m - m M d pm - R - g M | - m P m G | rg Mpm gr - gr ||",
                         "sahitya": "Ra kta Na li - na Dala Na ya na Nru paa - - la"
                     },
                     {
                         "line_number": 4,
-                        "swara": "s r g- m , P - g , M -r , g M | - m P m G | rg Mpm G R ||",
+                        "swara": "s r g- m - P - g - M -r - g M | - m P m G | rg Mpm G R ||",
                         "sahitya": "Ra kta Na - li na Dala Na ya na Nru paa - - la"
                     },
                     {
                         "line_number": 5,
-                        "swara": "- r m , G r S - DS | - s d , p M | pm G R S ||",
+                        "swara": "- r m - G r S - DS | - s d - p M | pm G R S ||",
                         "sahitya": "Ra ma ni Yaa nana Mu ku ra Ka po - - - la"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- , p , d P - P M P | - m P d S | S - S - ||",
+                        "swara": "- - p - d P - P M P | - m P d S | S - S - ||",
                         "sahitya": "Bha kti hi na ja na Mad a gaja Jaa la -"
                     },
                     {
@@ -132,27 +132,27 @@
                     },
                     {
                         "line_number": 8,
-                        "swara": "- , p , d P - P M P | - m P d S | S - S P ||",
+                        "swara": "- - p - d P - P M P | - m P d S | S - S P ||",
                         "sahitya": "Bha kti hi na ja na Mad a gaja Jaa la -"
                     },
                     {
                         "line_number": 9,
-                        "swara": "- , p , d P - P M P | - m P d S | sr gr rs P ||",
+                        "swara": "- - p - d P - P M P | - m P d S | sr gr rs P ||",
                         "sahitya": "Bha kti hi na ja na Mad a gaja Jaa - - la"
                     },
                     {
                         "line_number": 10,
-                        "swara": "- , p , d P - P M P | - m P d S | sr gr rs rg ||",
+                        "swara": "- - p - d P - P M P | - m P d S | sr gr rs rg ||",
                         "sahitya": "Bha kti hi na ja na Mad a gaja Jaa - - la"
                     },
                     {
                         "line_number": 11,
-                        "swara": "- , p , d P - P M P | - m P d S | sr gr rs S ||",
+                        "swara": "- - p - d P - P M P | - m P d S | sr gr rs S ||",
                         "sahitya": "Bha kti hi na ja na Mad a gaja Jaa - - la"
                     },
                     {
                         "line_number": 12,
-                        "swara": "G , g r s - S p- d p m -pm G | R , - s dp pm | G , r s r - g m || P d (janaki)",
+                        "swara": "G - g r s - S p- d p m -pm G | R - - s dp pm | G - r s r - g m || P d (janaki)",
                         "sahitya": "Pancha - Va - da - na Tyaa ga raa - - ja Paa - - la - --"
                     },
                     {
@@ -162,7 +162,7 @@
                     },
                     {
                         "line_number": 14,
-                        "swara": "M P D P M P pm - G | R sr gmpd Pdp | pm G , rsr || g mp",
+                        "swara": "M P D P M P pm - G | R sr gmpd Pdp | pm G - rsr || g mp",
                         "sahitya": "ri jaa - ta Paa - - hi Sa ka la Lo ka Sha - ra-- na - - (janaki)"
                     }
                 ]

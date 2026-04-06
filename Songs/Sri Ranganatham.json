@@ -11,37 +11,37 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "P,r sn P pm R G - M | pmgm R \u2013 sn | P \u2013 rs R - ||",
+                "swara": "P-r sn P pm R G - M | pmgm R - sn | P - rs R - ||",
                 "sahitya": "shri ran ga na - - tham u pa - - sma he - ni - tyam"
             },
             {
                 "line_number": 2,
-                "swara": "pdpr sn P pm R G - M | pmgm R \u2013 sn | P \u2013 rs R - ||",
+                "swara": "pdpr sn P pm R G - M | pmgm R - sn | P - rs R - ||",
                 "sahitya": "shri ran ga na - - tham u pa - - sma he - ni - tyam"
             },
             {
                 "line_number": 3,
-                "swara": "pdpr sn P pm R G - M | pmgm R \u2013 Srs | np \u2013 rs R - ||",
+                "swara": "pdpr sn P pm R G - M | pmgm R - Srs | np - rs R - ||",
                 "sahitya": "shri ran ga na - - tham u pa - - sma he - ni tyam"
             },
             {
                 "line_number": 4,
-                "swara": "gmpm gm P mpdp , s S | - gm r s n p | pm gm gr gm ||",
+                "swara": "gmpm gm P mpdp - s S | - gm r s n p | pm gm gr gm ||",
                 "sahitya": "si- - - ta- - val - - - labham shri- shan-kara guruguha ve-dyam"
             },
             {
                 "line_number": 5,
-                "swara": "pdpr sn P Pdp Mpm R - M | pmgm R \u2013 Srs | np \u2013 rs R - ||",
+                "swara": "pdpr sn P Pdp Mpm R - M | pmgm R - Srs | np - rs R - ||",
                 "sahitya": "shri ran ga na - - - tham u pa - - sma he - ni tyam"
             },
             {
                 "line_number": 6,
-                "swara": "gmpm gm P mpdp , s R | - gm r s n p | pm gm gr gm ||",
+                "swara": "gmpm gm P mpdp - s R | - gm r s n p | pm gm gr gm ||",
                 "sahitya": "si- - - ta- - val - - - labham shri- shan-kara guruguha ve-dyam"
             },
             {
                 "line_number": 7,
-                "swara": "pdpr sn P Pdp Mpm R - gm | pmgm R \u2013 Srs | np \u2013 rs R - ||",
+                "swara": "pdpr sn P Pdp Mpm R - gm | pmgm R - Srs | np - rs R - ||",
                 "sahitya": "shri ran ga na - - - tham u pa - - sma he - ni tyam"
             },
             {
@@ -51,7 +51,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "P,r sn P pm R G - M | pmgm R \u2013 sn | P \u2013 rs R - ||",
+                "swara": "P-r sn P pm R G - M | pmgm R - sn | P - rs R - ||",
                 "sahitya": "shri ran ga na - - tham u pa - - sma he - ni - tyam"
             },
             {
@@ -61,42 +61,42 @@
             },
             {
                 "line_number": 11,
-                "swara": "P - P \u2013 P D P S R | - sr , g M | R - S - ||",
+                "swara": "P - P - P D P S R | - sr - g M | R - S - ||",
                 "sahitya": "na ra da- - di nu ta shya mala ga tram"
             },
             {
                 "line_number": 12,
-                "swara": "snpm R \u2013 gm pd dp S R | - sr , g M | R - S - ||",
+                "swara": "snpm R - gm pd dp S R | - sr - g M | R - S - ||",
                 "sahitya": "na ra da- - - di nu ta shya ma La ga tram"
             },
             {
                 "line_number": 13,
-                "swara": "snpm R \u2013 gm pd dp S S | sr gm pm gm | R - S - ||",
+                "swara": "snpm R - gm pd dp S S | sr gm pm gm | R - S - ||",
                 "sahitya": "na ra da- - - di nu ta shya -- ma La ga tram"
             },
             {
                 "line_number": 14,
-                "swara": "G ,m R \u2013 sr sn \u2013 P pm R | gm p r sn P | pm gm R - ||",
+                "swara": "G -m R - sr sn - P pm R | gm p r sn P | pm gm R - ||",
                 "sahitya": "Ni - ra ja - ri ma- r tan- - Da su- ne - - tram"
             },
             {
                 "line_number": 15,
-                "swara": "GpmM- R \u2013 Srs sn \u2013 P pm R | gm p r sn pn | pm gm R S ||",
+                "swara": "GpmM- R - Srs sn - P pm R | gm p r sn pn | pm gm R S ||",
                 "sahitya": "Ni - - ra ja - ri ma- r tan- - Da su- ne - - tram"
             },
             {
                 "line_number": 16,
-                "swara": "S s s S \u2013 s s S , s s s S | - - - sn | pm gm R S ||",
+                "swara": "S s s S - s s S - s s s S | - - - sn | pm gm R S ||",
                 "sahitya": "dhirata ram shara ca pa dharanam - - - - - - - - - - -"
             },
             {
                 "line_number": 17,
-                "swara": "S s s S \u2013 s s S , s s s S | G m- r , r \u2013 S | n P m g m R ||",
+                "swara": "S s s S - s s S - s s s S | G m- r - r - S | n P m g m R ||",
                 "sahitya": "dhirata ram shara ca pa dharanam deva ra ja pu ji tabja caranam"
             },
             {
                 "line_number": 18,
-                "swara": "sn p - r , r- gm R r - s n p \u2013 R | S P r s n - p | d p m- g m - r g m ||",
+                "swara": "sn p - r - r- gm R r - s n p - R | S P r s n - p | d p m- g m - r g m ||",
                 "sahitya": "shri ran ga na - - - tham u pa - - sma he - ni tyam"
             },
             {
@@ -106,7 +106,7 @@
             },
             {
                 "line_number": 20,
-                "swara": "P,r sn P pm R G - M | pmgm R \u2013 sn | P \u2013 rs R - ||",
+                "swara": "P-r sn P pm R G - M | pmgm R - sn | P - rs R - ||",
                 "sahitya": "shri ran ga na - - tham u pa - - sma he - ni - tyam"
             },
             {

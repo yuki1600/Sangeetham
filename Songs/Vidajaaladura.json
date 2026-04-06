@@ -137,32 +137,32 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "P P P - - - pm R | G M dppm R - , s S ||",
+                        "swara": "P P P - - - pm R | G M dppm R - - s S ||",
                         "sahitya": "Tanu Ve- - - Pa- nu la ku Cha-ni- na- Mar i"
                     },
                     {
                         "line_number": 2,
-                        "swara": "S R G - - - , m R | - s r , g M P - - - ||",
+                        "swara": "S R G - - - - m R | - s r - g M P - - - ||",
                         "sahitya": "Kana raa- - - - nidi Kanu - koni na- - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "P P P - - - pm R | G M dppm R - , s S ||",
+                        "swara": "P P P - - - pm R | G M dppm R - - s S ||",
                         "sahitya": "Tanu Ve- - - Pa- nu la ku Cha-ni- na- Mar i"
                     },
                     {
                         "line_number": 4,
-                        "swara": "S R G - - - , m R | - s r , g M P - srgm ||",
+                        "swara": "S R G - - - - m R | - s r - g M P - srgm ||",
                         "sahitya": "Kana raa- - - - nidi Kanu - koni na- - -"
                     },
                     {
                         "line_number": 5,
-                        "swara": "S R G - - M , R , | S - - - - - - - ||",
+                        "swara": "S R G - - M - R - | S - - - - - - - ||",
                         "sahitya": "Ninnu gaa - Bhaa - vin chi- - - - - - -"
                     },
                     {
                         "line_number": 6,
-                        "swara": "S R G - - M , R , | S - - D P M P N ||",
+                        "swara": "S R G - - M - R - | S - - D P M P N ||",
                         "sahitya": "Ninnu gaa - Bhaa - vin chi- - San ta sil li ti"
                     },
                     {

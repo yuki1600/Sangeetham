@@ -11,12 +11,12 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- mg ,s - M - G || M - - - G M ||",
+                "swara": "- mg -s - M - G || M - - - G M ||",
                 "sahitya": "Su ja na Jee - va na- - - Rama"
             },
             {
                 "line_number": 2,
-                "swara": "P D P - pd N D || P - - mp , ndp ||",
+                "swara": "P D P - pd N D || P - - mp - ndp ||",
                 "sahitya": "Sugu na Bhu - sha- naa! -raa- - ma!--"
             },
             {
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": ", p D pd - rs nd dm || P - - S , d P ||",
+                "swara": "- p D pd - rs nd dm || P - - S - d P ||",
                 "sahitya": "Sugu na Bhu - - sha- naa! -raa- - ma!--"
             },
             {
@@ -36,12 +36,12 @@
             },
             {
                 "line_number": 6,
-                "swara": "- dn , s- S - N || S ,n S ,n D N ||",
+                "swara": "- dn - s- S - N || S -n S -n D N ||",
                 "sahitya": "Suja -na Jee - va na- - - - Ra-ma"
             },
             {
                 "line_number": 7,
-                "swara": "S r m , g - S - N || rssn nd dp pd nd ||",
+                "swara": "S r m - g - S - N || rssn nd dp pd nd ||",
                 "sahitya": "Sugu -na Bhu - sha- naa! - - - - Raa-ma!-"
             },
             {
@@ -51,7 +51,7 @@
             },
             {
                 "line_number": 9,
-                "swara": ",p D dpD - rs nd dm || P - - S , d P ||",
+                "swara": "-p D dpD - rs nd dm || P - - S - d P ||",
                 "sahitya": "Sugu na- - Bhu- - sha- naa! -raa- - ma!--"
             },
             {
@@ -73,12 +73,12 @@
             },
             {
                 "line_number": 2,
-                "swara": "- - - - - - || - - - , s ndpm ||",
+                "swara": "- - - - - - || - - - - s ndpm ||",
                 "sahitya": "- - -- - - - - - - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "P N D - dn S N || S - - , s ndpm ||",
+                "swara": "P N D - dn S N || S - - - s ndpm ||",
                 "sahitya": "Bhuja ga Bhu - sha naa- - - - - --"
             },
             {
@@ -93,17 +93,17 @@
             },
             {
                 "line_number": 6,
-                "swara": "- s s , s S - sn || N - - nd dp M ||",
+                "swara": "- s s - s S - sn || N - - nd dp M ||",
                 "sahitya": "Budha - janaa - va- na- - - - - - - -"
             },
             {
                 "line_number": 7,
-                "swara": "- pn , d- dn S N || S - - S S S ||",
+                "swara": "- pn - d- dn S N || S - - S S S ||",
                 "sahitya": "Bhuja ga Bhu - sha naa- - ar cchi ta!"
             },
             {
                 "line_number": 8,
-                "swara": "- s m , g S - N || dnrs sn nd dp M ||",
+                "swara": "- s m - g S - N || dnrs sn nd dp M ||",
                 "sahitya": "Budha - janaa - va- na- - - - - - - -"
             },
             {
@@ -113,17 +113,17 @@
             },
             {
                 "line_number": 10,
-                "swara": "- s m , g S - N || dnrs sn nd D - ||",
+                "swara": "- s m - g S - N || dnrs sn nd D - ||",
                 "sahitya": "Budha - janaa - va- na- - - - - -"
             },
             {
                 "line_number": 11,
-                "swara": "N R S ,n N D || dn S N - N D ||",
+                "swara": "N R S -n N D || dn S N - N D ||",
                 "sahitya": "a ja van- di ta! Srita chan- dana!"
             },
             {
                 "line_number": 12,
-                "swara": "- pd , p - pd N D || P - - S , P , ||",
+                "swara": "- pd - p - pd N D || P - - S - P - ||",
                 "sahitya": "Dasha -tu ran- - ga! Maa - ma - va-"
             }
         ],
@@ -172,7 +172,7 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "- pn ,d - dn S N || S - - - S S ||",
+                        "swara": "- pn -d - dn S N || S - - - S S ||",
                         "sahitya": "Taa- ra kaa- - dhi paa - - na na!"
                     },
                     {
@@ -182,7 +182,7 @@
                     },
                     {
                         "line_number": 11,
-                        "swara": "- pn ,d - dn S N || S - - - S S ||",
+                        "swara": "- pn -d - dn S N || S - - - S S ||",
                         "sahitya": "Taa- ra kaa- - dhi paa - - na na!"
                     },
                     {
@@ -197,7 +197,7 @@
                     },
                     {
                         "line_number": 14,
-                        "swara": "P D P - pd N D || P - - S , P , ||",
+                        "swara": "P D P - pd N D || P - - S - P - ||",
                         "sahitya": "Tyaa ga raa - ja san- - nu - ta -"
                     }
                 ]

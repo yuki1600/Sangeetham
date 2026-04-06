@@ -11,59 +11,59 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "G - M - D- sn nd P | m p pmG - pm G R S , r ||",
-                "sahitya": "Ko dan da Raa- - - mam A ni sham- - Bha- jaa- mi \u2013"
+                "swara": "G - M - D- sn nd P | m p pmG - pm G R S - r ||",
+                "sahitya": "Ko dan da Raa- - - mam A ni sham- - Bha- jaa- mi -"
             },
             {
                 "line_number": 2,
-                "swara": "G - M - D- dnsn D P | m p pmG - pm G R S , r ||",
-                "sahitya": "Ko dan da Raa- - - mam A ni sham- - Bha- jaa- mi \u2013"
+                "swara": "G - M - D- dnsn D P | m p pmG - pm G R S - r ||",
+                "sahitya": "Ko dan da Raa- - - mam A ni sham- - Bha- jaa- mi -"
             },
             {
                 "line_number": 3,
-                "swara": "G - R- S , d N S - | s r G r g M m g - p m g - r s r ||",
+                "swara": "G - R- S - d N S - | s r G r g M m g - p m g - r s r ||",
                 "sahitya": "Ko ki laa - - ra vam- Ja - - na- ki Ra- ma- - nam- -"
             },
             {
                 "line_number": 4,
-                "swara": "G - R- Srs S ,d N S - | s r G r g M d d - p m g - r s r ||",
+                "swara": "G - R- Srs S -d N S - | s r G r g M d d - p m g - r s r ||",
                 "sahitya": "Ko ki laa - - ra vam- Ja - - na- ki Ra- ma- - nam- -"
             },
             {
                 "line_number": 5,
-                "swara": "G - M - D- sn nd dp | P \u2013 D - - - - - - ||",
+                "swara": "G - M - D- sn nd dp | P - D - - - - - - ||",
                 "sahitya": "Ko dan da Raa- - - - - - mam - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- p d , n - dp - dN , S - | S S , r G , r- rr S - ||",
+                "swara": "- p d - n - dp - dN - S - | S S - r G - r- rr S - ||",
                 "sahitya": "Pada ja Paa - - mshu paa- li ta - - gal - - yam- - -"
             },
             {
                 "line_number": 2,
-                "swara": "- p d , n - dp - dN , S - | S S rs \u2013 rG , , r- S - - ||",
+                "swara": "- p d - n - dp - dN - S - | S S rs - rG - - r- S - - ||",
                 "sahitya": "Pada ja Paa - - mshu paa- li ta - - gal - - yam- - -"
             },
             {
                 "line_number": 3,
-                "swara": "- p d , n - dp - dN , S - | S S rs \u2013pm G R S - ||",
+                "swara": "- p d - n - dp - dN - S - | S S rs -pm G R S - ||",
                 "sahitya": "Pada ja Paa - - mshu paa- li ta - - gal - - yam- - -"
             },
             {
                 "line_number": 4,
-                "swara": "- s s , - sn d - D P - m p | , d P M - , g \u2013 gr R S ||",
+                "swara": "- s s - - sn d - D P - m p | - d P M - - g - gr R S ||",
                 "sahitya": "Para - me-- shwara - Gu ru - Gu ha Vaa- - - tsal - yam"
             },
             {
                 "line_number": 5,
-                "swara": "- s s r- sn d - D P - m p | , d P Mdp pm G \u2013 gr R S ||",
+                "swara": "- s s r- sn d - D P - m p | - d P Mdp pm G - gr R S ||",
                 "sahitya": "Para - me-- shwara - Gu ru - Gu ha Vaa- - - tsal - yam"
             },
             {
                 "line_number": 6,
-                "swara": "s n d n s- R s s r - g m d p D | S s n n d p- m p d \u2013 pmG \u2013 R S ||",
+                "swara": "s n d n s- R s s r - g m d p D | S s n n d p- m p d - pmG - R S ||",
                 "sahitya": "Ve-dan- ta Vedyam A ti Kau- sal-yam Vishwaa- mi- tra Hi tama kau- - til yam"
             }
         ],

@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Krishna Nee Begane Baro",
         "raga": "Yamuna Kalyani",
-        "arohanam": "S R\u2082 G\u2083 P M\u2082 G\u2083 P D\u2082 N\u2083 D\u2082 \u1e60 || [sung in madhyamam sruti]",
-        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2082 G\u2083 M\u2081 R\u2082 S ||",
+        "arohanam": "S R₂ G₃ P M₂ G₃ P D₂ N₃ D₂ Ṡ || [sung in madhyamam sruti]",
+        "avarohanam": "Ṡ N₃ D₂ P M₂ G₃ M₁ R₂ S ||",
         "tala": "Misra Chapu",
         "composer": "Vyaasaraaya"
     },
@@ -11,17 +11,17 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - S | G , m | R - || snrs nd | - N | , R , ||",
+                "swara": "- - S | G - m | R - || snrs nd | - N | - R - ||",
                 "sahitya": "Kri shna- nee be- - - - ga ne"
             },
             {
                 "line_number": 2,
-                "swara": "- - g m | R - | S - || dnrds , | - - | - - ||",
+                "swara": "- - g m | R - | S - || dnrds - | - - | - - ||",
                 "sahitya": "- - baa- ro - - - - - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "- - S | G , m | R - || nr - ssnd | nN , | R - ||",
+                "swara": "- - S | G - m | R - || nr - ssnd | nN - | R - ||",
                 "sahitya": "Kri shna- nee be- - - ga ne"
             },
             {
@@ -31,12 +31,12 @@
             },
             {
                 "line_number": 5,
-                "swara": "- - S | G , m | R - || grnd - | N - | R - ||",
+                "swara": "- - S | G - m | R - || grnd - | N - | R - ||",
                 "sahitya": "Kri shna- nee be- - - ga ne"
             },
             {
                 "line_number": 6,
-                "swara": "G - ,m | R - | S - || - - - | - - | - - ||",
+                "swara": "G - -m | R - | S - || - - - | - - | - - ||",
                 "sahitya": "baa- - - ro - - - - - - - - - -"
             }
         ],
@@ -48,7 +48,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "- - mp | D - | D P || P - , n | dpP - | mdpm ||",
+                "swara": "- - mp | D - | D P || P - - n | dpP - | mdpm ||",
                 "sahitya": "Mukha van nu - to - ro - - - - -"
             },
             {
@@ -73,7 +73,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "- - - S | G , m | R - || sn D - | N - | R - ||",
+                "swara": "- - - S | G - m | R - || sn D - | N - | R - ||",
                 "sahitya": "Kri shna- nee be- - - ga ne"
             },
             {
@@ -98,7 +98,7 @@
             },
             {
                 "line_number": 12,
-                "swara": "- - mp | D - | D P || P - , n | dpP - | mdpm ||",
+                "swara": "- - mp | D - | D P || P - - n | dpP - | mdpm ||",
                 "sahitya": "Bera Lal li - un - gu - ra - -"
             },
             {
@@ -113,7 +113,7 @@
             },
             {
                 "line_number": 15,
-                "swara": "- - - S | G , m | R - || nrssnd | N - | R - ||",
+                "swara": "- - - S | G - m | R - || nrssnd | N - | R - ||",
                 "sahitya": "Kri shna- nee be- - - ga ne"
             },
             {
@@ -124,16 +124,16 @@
             {
                 "line_number": 17,
                 "swara": "- - md | pm R | - gm || P - - | P - | P - ||",
-                "sahitya": "Kaa- shi - - - pee- tham- ba- ra \u2013"
+                "sahitya": "Kaa- shi - - - pee- tham- ba- ra -"
             },
             {
                 "line_number": 18,
-                "swara": "- - mp | D - | D P || P - , n | dpP - | mdpm ||",
+                "swara": "- - mp | D - | D P || P - - n | dpP - | mdpm ||",
                 "sahitya": "Kai- yal- li - ko - La- lu"
             },
             {
                 "line_number": 19,
-                "swara": "G - -gm | G - | G - || G r G r | - rg | m P , ||",
+                "swara": "G - -gm | G - | G - || G r G r | - rg | m P - ||",
                 "sahitya": "- - pu- si da shree-gan - dha -- -"
             },
             {
@@ -143,7 +143,7 @@
             },
             {
                 "line_number": 21,
-                "swara": "- - - S | G , m | R - || sn D - | N - | R - ||",
+                "swara": "- - - S | G - m | R - || sn D - | N - | R - ||",
                 "sahitya": "Kri shna- nee be- - - ga ne"
             },
             {
@@ -158,7 +158,7 @@
             },
             {
                 "line_number": 24,
-                "swara": "- - mp | D - | D P || P - , n | dpP - | mdpm ||",
+                "swara": "- - mp | D - | D P || P - - n | dpP - | mdpm ||",
                 "sahitya": "Jaga van nu- to - ri - - da - -"
             },
             {
@@ -168,7 +168,7 @@
             },
             {
                 "line_number": 26,
-                "swara": "- - mp | D - | D P || P - , n | dpP - | mdpm ||",
+                "swara": "- - mp | D - | D P || P - - n | dpP - | mdpm ||",
                 "sahitya": "Jaga van nu- to - ri - - da - -"
             },
             {
@@ -193,7 +193,7 @@
             },
             {
                 "line_number": 31,
-                "swara": "- - - S | G , m | R - || sn D - | N - | R - ||",
+                "swara": "- - - S | G - m | R - || sn D - | N - | R - ||",
                 "sahitya": "Kri shna- nee be- - - ga ne"
             },
             {

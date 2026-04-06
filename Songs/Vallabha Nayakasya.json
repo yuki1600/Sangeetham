@@ -16,12 +16,12 @@
             },
             {
                 "line_number": 2,
-                "swara": "gmP D P - - || N , d p m G R S || DP S- - md || ppmg gppm R G- ||",
+                "swara": "gmP D P - - || N - d p m G R S || DP S- - md || ppmg gppm R G- ||",
                 "sahitya": "Vall lla bha Na ya -- ka - sya Bha ktho Bha va mi"
             },
             {
                 "line_number": 3,
-                "swara": "gmP D P S P || N , d p m G R S || DP nsgr G- md || ppmg gp pmR G- ||",
+                "swara": "gmP D P S P || N - d p m G R S || DP nsgr G- md || ppmg gp pmR G- ||",
                 "sahitya": "Vall llabha -- -- Na ya -- ka - sya Bha ktho Bha va mi"
             },
             {
@@ -48,22 +48,22 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "G - MP DP || sr sn dp S - S || R , S ,R S - || S sd r s ns D P ||",
+                "swara": "G - MP DP || sr sn dp S - S || R - S -R S - || S sd r s ns D P ||",
                 "sahitya": "Pal llava Pada mrudu ta ra sya Pa shangu sha di ta ra sya"
             },
             {
                 "line_number": 2,
-                "swara": "M , g P , m D P || sr sn dp S - S || R , S ,R S - || S sd r s ns D P ||",
+                "swara": "M - g P - m D P || sr sn dp S - S || R - S -R S - || S sd r s ns D P ||",
                 "sahitya": "Pal lla va pada mrudu ta ra sya Pa shangu sha di ta ra sya"
             },
             {
                 "line_number": 3,
-                "swara": "- S gr G - gm || p g r s rs ns D P || pDp N R S \u2013 R || N , d pm \u2013 R , S , ||",
+                "swara": "- S gr G - gm || p g r s rs ns D P || pDp N R S - R || N - d pm - R - S - ||",
                 "sahitya": "Mal li ka jaa dhi cham - paka Haa ra - sya ma ni maa la sya"
             },
             {
                 "line_number": 4,
-                "swara": "D P d M p G m r || , g \u2013 g m d p g m p - g r s ||",
+                "swara": "D P d M p G m r || - g - g m d p g m p - g r s ||",
                 "sahitya": "Valli vivaaha kara na sya Guru guha poo ji ta -sya"
             },
             {
@@ -73,12 +73,12 @@
             },
             {
                 "line_number": 6,
-                "swara": "G , m d p D , gm r || G gm d p gm p gr s ||",
+                "swara": "G - m d p D - gm r || G gm d p gm p gr s ||",
                 "sahitya": "Dheem ta ki tajam gm r G taka dhina jam - ta ki ta"
             },
             {
                 "line_number": 7,
-                "swara": "n N d p d \u2013 n S g r g || n N d p d \u2013 m P m g r",
+                "swara": "n N d p d - n S g r g || n N d p d - m P m g r",
                 "sahitya": "n N d p d Tathinginata n N d p d Tadhin ginatom"
             }
         ],

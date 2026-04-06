@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "S - - M - M || mM , - mg R rs ||",
+                "swara": "S - - M - M || mM - - mg R rs ||",
                 "sahitya": "See - tham - ma Maa- - yam- - ma-"
             },
             {
@@ -26,8 +26,8 @@
             },
             {
                 "line_number": 4,
-                "swara": "- S S - S S || D - M \u2013 gm g \u2013 rs n ||",
-                "sahitya": "Sri Raa mudu Maa ku Tan- - dri\u2014"
+                "swara": "- S S - S S || D - M - gm g - rs n ||",
+                "sahitya": "Sri Raa mudu Maa ku Tan- - dri—"
             },
             {
                 "line_number": 5,
@@ -36,19 +36,19 @@
             },
             {
                 "line_number": 6,
-                "swara": "- sn snsr sn sr || sndn dm \u2013 gm g \u2013 rs n ||",
-                "sahitya": "Sri Raa mu-du- Maa -ku Tan- - dri\u2014"
+                "swara": "- sn snsr sn sr || sndn dm - gm g - rs n ||",
+                "sahitya": "Sri Raa mu-du- Maa -ku Tan- - dri—"
             },
             {
                 "line_number": 7,
-                "swara": "- sn sngr sn dr || sndn dm \u2013 gm g \u2013 rs n ||",
-                "sahitya": "Sri Raa mu-du- Maa -ku Tan- - dri\u2014"
+                "swara": "- sn sngr sn dr || sndn dm - gm g - rs n ||",
+                "sahitya": "Sri Raa mu-du- Maa -ku Tan- - dri—"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- dr snD mg M || - D , N , S - ||",
+                "swara": "- dr snD mg M || - D - N - S - ||",
                 "sahitya": "Vaa taat- ma- ja Sau mi tri"
             },
             {
@@ -83,12 +83,12 @@
             },
             {
                 "line_number": 8,
-                "swara": "- M M - mg M || D ,n S S S ,n ||",
+                "swara": "- M M - mg M || D -n S S S -n ||",
                 "sahitya": "Dhaa ta - Bha-ra taa- dulu So"
             },
             {
                 "line_number": 9,
-                "swara": "D N D \u2013 sn D M || gm dn sn \u2013 dm gr sn ||",
+                "swara": "D N D - sn D M || gm dn sn - dm gr sn ||",
                 "sahitya": "dharu lu Maa - ku O -- -- - - Ma- na-sa!-"
             }
         ],
@@ -97,17 +97,17 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- mm , M , M \u2013 M || M - mg \u2013 dm G - ||",
+                        "swara": "- mm - M - M - M || M - mg - dm G - ||",
                         "sahitya": "Para - me- sha Va shi- shta- Pa- raa-"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- gm D N S S || D N D M mg \u2013gr ||",
+                        "swara": "- gm D N S S || D N D M mg -gr ||",
                         "sahitya": "shara Naa- radha Sau- naka Su- ka-"
                     },
                     {
                         "line_number": 3,
-                        "swara": "sn- mm , M , M \u2013 M || gm dn s n dm \u2013 G - ||",
+                        "swara": "sn- mm - M - M - M || gm dn s n dm - G - ||",
                         "sahitya": "Para - me- sha Va shi- shta- Pa- raa-"
                     },
                     {
@@ -117,7 +117,7 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- s m , g R S - || S S S - S - ||",
+                        "swara": "- s m - g R S - || S S S - S - ||",
                         "sahitya": "Sura -pati Gau tama Lam bo"
                     },
                     {
@@ -127,12 +127,12 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "- dn , d M mg M || dg M D N S - ||",
+                        "swara": "- dn - d M mg M || dg M D N S - ||",
                         "sahitya": "Dhara - Nija Bhaa-- ga -va taa - Gre-"
                     },
                     {
                         "line_number": 8,
-                        "swara": ", s S S S sn rs || sndm dn S S S ||",
+                        "swara": "- s S S S sn rs || sndm dn S S S ||",
                         "sahitya": "saru levva ro- - - Va- - - rel- - la nu"
                     },
                     {
@@ -142,8 +142,8 @@
                     },
                     {
                         "line_number": 10,
-                        "swara": "D N D \u2013 sn D M || gm dn sn dm gr sn ||",
-                        "sahitya": "Para ma Baan \u2013 dha vu- lu- Ma- na- sa!- --"
+                        "swara": "D N D - sn D M || gm dn sn dm gr sn ||",
+                        "sahitya": "Para ma Baan - dha vu- lu- Ma- na- sa!- --"
                     }
                 ]
             }

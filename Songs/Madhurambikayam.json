@@ -16,12 +16,12 @@
             },
             {
                 "line_number": 2,
-                "swara": "M D P mp- - P || pmG G M P ,d ||",
+                "swara": "M D P mp- - P || pmG G M P -d ||",
                 "sahitya": "Madhu ra- - - mbi ka- - - - yam"
             },
             {
                 "line_number": 3,
-                "swara": "N D dpP - - P || pmG G M P ,d ||",
+                "swara": "N D dpP - - P || pmG G M P -d ||",
                 "sahitya": "Madhu ra- - - mbi ka- - - - yam"
             },
             {
@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "N D - N - S || nd - pm gr \u2013 sr gm -pd ||",
+                "swara": "N D - N - S || nd - pm gr - sr gm -pd ||",
                 "sahitya": "sada - bha - ktim ka- ro- - - mi - - Sri-"
             },
             {
@@ -41,12 +41,12 @@
             },
             {
                 "line_number": 7,
-                "swara": "sr gm pd - rg mp dn || mpdn sn \u2013 rs nd -pd ||",
+                "swara": "sr gm pd - rg mp dn || mpdn sn - rs nd -pd ||",
                 "sahitya": "sa-da- - - bha - - ktim ka- ro- - - mi - - Sri-"
             },
             {
                 "line_number": 8,
-                "swara": ", n D dpP - - P || pmG G nd dpM ||",
+                "swara": "- n D dpP - - P || pmG G nd dpM ||",
                 "sahitya": "Madhu ra- - - mbi ka- - - - yam"
             },
             {
@@ -56,17 +56,17 @@
             },
             {
                 "line_number": 10,
-                "swara": "N,d - D M P || , m P D N S - ||",
+                "swara": "N-d - D M P || - m P D N S - ||",
                 "sahitya": "ci da nan - da rasi ka- yam"
             },
             {
                 "line_number": 11,
-                "swara": "snN , d - nd pm - P || M P D N S - ||",
+                "swara": "snN - d - nd pm - P || M P D N S - ||",
                 "sahitya": "ci da nan - da ra si ka- yam"
             },
             {
                 "line_number": 12,
-                "swara": "snN , d - pd nd - pm || dm P D N S - ||",
+                "swara": "snN - d - pd nd - pm || dm P D N S - ||",
                 "sahitya": "ci da nan - da ra si ka- yam"
             },
             {
@@ -76,7 +76,7 @@
             },
             {
                 "line_number": 14,
-                "swara": "G - G R R S || snrs nd \u2013 rs nd pm ||",
+                "swara": "G - G R R S || snrs nd - rs nd pm ||",
                 "sahitya": "Sri guru guha se-- vi- ta- - - yam"
             },
             {
@@ -86,32 +86,32 @@
             },
             {
                 "line_number": 16,
-                "swara": "G - G R R S || snrs nd \u2013 rs nd pm ||",
+                "swara": "G - G R R S || snrs nd - rs nd pm ||",
                 "sahitya": "Sri guru guha se-- vi- ta- - - yam"
             },
             {
                 "line_number": 17,
-                "swara": "snN , d - nd pm - P || M P rs N S - ||",
+                "swara": "snN - d - nd pm - P || M P rs N S - ||",
                 "sahitya": "ci da nan - da ra si ka- yam"
             },
             {
                 "line_number": 18,
-                "swara": "G - gm G nr S || snrs nd \u2013 rs nd pm ||",
+                "swara": "G - gm G nr S || snrs nd - rs nd pm ||",
                 "sahitya": "Sri guru gu ha se-- vi- ta- - - yam"
             },
             {
                 "line_number": 19,
-                "swara": "g D p mg \u2013 M N - || D - - - - - ||",
+                "swara": "g D p mg - M N - || D - - - - - ||",
                 "sahitya": "kadamba vana va sin yam"
             },
             {
                 "line_number": 20,
-                "swara": "g D p mg \u2013 M N D || g r \u2013 n d pm \u2013g r gm pd ||",
+                "swara": "g D p mg - M N D || g r - n d pm -g r gm pd ||",
                 "sahitya": "kadamba vana va sinyam kavi jana nuta yo- gin-yam"
             },
             {
                 "line_number": 21,
-                "swara": "g D p mg \u2013 M N D || mg gr \u2013 n d pm \u2013g r gm pd ||",
+                "swara": "g D p mg - M N D || mg gr - n d pm -g r gm pd ||",
                 "sahitya": "kadamba vana va sinyam ka vi jana nuta yo- gin-yam"
             },
             {
@@ -121,12 +121,12 @@
             },
             {
                 "line_number": 23,
-                "swara": "sr gm pd - rg mp dn || mpdn sn \u2013 rs nd -pd ||",
+                "swara": "sr gm pd - rg mp dn || mpdn sn - rs nd -pd ||",
                 "sahitya": "sa-da- - - bha - - ktim ka- ro- - - mi - - Sri-"
             },
             {
                 "line_number": 24,
-                "swara": ", n D dpP - - P || pmG G - - - ||",
+                "swara": "- n D dpP - - P || pmG G - - - ||",
                 "sahitya": "Madhu ra- - - mbi ka- - - - - -"
             },
             {
@@ -141,27 +141,27 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "S G R - G M | , p M pmG gr R || - - - - - S ||",
+                        "swara": "S G R - G M | - p M pmG gr R || - - - - - S ||",
                         "sahitya": "Saka la- gama vinu ta- - yam"
                     },
                     {
                         "line_number": 2,
-                        "swara": ", s G R - gm pd | , p M pmG gr R ||",
+                        "swara": "- s G R - gm pd | - p M pmG gr R ||",
                         "sahitya": "Saka la- ga-ma- vinu ta- - yam"
                     },
                     {
                         "line_number": 3,
-                        "swara": ", s G R - gm gm | , p M pmG gr R ||",
+                        "swara": "- s G R - gm gm | - p M pmG gr R ||",
                         "sahitya": "Saka la- ga-ma- vinu ta- - yam"
                     },
                     {
                         "line_number": 4,
-                        "swara": "S - pm - G M P | , p dn nd D dp P ||",
+                        "swara": "S - pm - G M P | - p dn nd D dp P ||",
                         "sahitya": "sa ma- ra - sya vibha- va- - yam-"
                     },
                     {
                         "line_number": 5,
-                        "swara": ", s G R - gm pd | , p M pmG gr R ||",
+                        "swara": "- s G R - gm pd | - p M pmG gr R ||",
                         "sahitya": "Saka la- ga-ma- vinu ta- - yam"
                     },
                     {
@@ -171,7 +171,7 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "N S R \u2013 sr gr G | G M G \u2013 gr R S ||",
+                        "swara": "N S R - sr gr G | G M G - gr R S ||",
                         "sahitya": "ka- di vi- - - dya da - yi ka- - yam"
                     },
                     {
@@ -181,12 +181,12 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "N S R \u2013 sr gr G | gmpm G \u2013 gr R S ||",
+                        "swara": "N S R - sr gr G | gmpm G - gr R S ||",
                         "sahitya": "ka- di vi- - - dya da - - yi ka- - yam"
                     },
                     {
                         "line_number": 10,
-                        "swara": "ngr - sn N - D P \u2013 M | P D nd pm g r S ||",
+                        "swara": "ngr - sn N - D P - M | P D nd pm g r S ||",
                         "sahitya": "ka- me - Sva ra mo - hi ta- - - yam- -"
                     },
                     {
@@ -196,7 +196,7 @@
                     },
                     {
                         "line_number": 12,
-                        "swara": "G g \u2013 m , g - S r \u2013 N d | r s n d m P p d n S ||",
+                        "swara": "G g - m - g - S r - N d | r s n d m P p d n S ||",
                         "sahitya": "sthula su -kshma ka ra Nayam sukha-tara pravarta ka-yam"
                     },
                     {
@@ -211,7 +211,7 @@
                     },
                     {
                         "line_number": 15,
-                        "swara": "G g \u2013 m , g - S r \u2013 N d | r s n d m P p d n S ||",
+                        "swara": "G g - m - g - S r - N d | r s n d m P p d n S ||",
                         "sahitya": "sthula su -kshma ka ra Nayam sukha-tara pravarta ka-yam"
                     },
                     {
@@ -221,12 +221,12 @@
                     },
                     {
                         "line_number": 17,
-                        "swara": "sr gm pd - rg mp dn || mpdn sn \u2013 rs nd -pd ||",
+                        "swara": "sr gm pd - rg mp dn || mpdn sn - rs nd -pd ||",
                         "sahitya": "sa-da- - - bha - - ktim ka- ro- - - mi - - Sri-"
                     },
                     {
                         "line_number": 18,
-                        "swara": ", n D dpP - - P || pmG G nd dpM ||",
+                        "swara": "- n D dpP - - P || pmG G nd dpM ||",
                         "sahitya": "Madhu ra- - - mbi ka- - - - yam"
                     }
                 ]

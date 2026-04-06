@@ -11,22 +11,22 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - dr S- sn D - pm | G - R - rs S - S ,r mp ||",
+                "swara": "- - - dr S- sn D - pm | G - R - rs S - S -r mp ||",
                 "sahitya": "Da- ri thaa- - pu- Le - - ka- - Ve -- di--"
             },
             {
                 "line_number": 2,
-                "swara": "D - - dr sr- sn d - d pm | G - R - rs S - S ,r mp ||",
+                "swara": "D - - dr sr- sn d - d pm | G - R - rs S - S -r mp ||",
                 "sahitya": "The- - Da- ri thaa- - pu- - Le - - ka- - Ve -- di--"
             },
             {
                 "line_number": 3,
-                "swara": "D - - dr sr- sn d - d pm | gr G R - S - - S ,r mp ||",
+                "swara": "D - - dr sr- sn d - d pm | gr G R - S - - S -r mp ||",
                 "sahitya": "The- - Da- ri thaa- - pu- - Le - - ka- - Ve -- di--"
             },
             {
                 "line_number": 4,
-                "swara": "D - - dg gr- sn d - d pm | gr pmgr - - rsS - - S ,r mp ||",
+                "swara": "D - - dg gr- sn d - d pm | gr pmgr - - rsS - - S -r mp ||",
                 "sahitya": "The- - Da- ri thaa- - pu- - Le - - ka- - Ve -- di--"
             },
             {
@@ -73,7 +73,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "- - - R R R - R | rs S - S R -mp , dp m ||",
+                "swara": "- - - R R R - R | rs S - S R -mp - dp m ||",
                 "sahitya": "- - - A la naa - du Ni- - - rja ra Vai- - ri- -"
             },
             {
@@ -83,7 +83,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "P - - dd pm g r sr - mp | dm - gr sd - rs gr - m p , d pm ||",
+                "swara": "P - - dd pm g r sr - mp | dm - gr sd - rs gr - m p - d pm ||",
                 "sahitya": "ni - - A- la- naa - - du- - - Ni- - - rja- ra Vai- - ri- - -"
             },
             {
@@ -108,7 +108,7 @@
             },
             {
                 "line_number": 14,
-                "swara": "rsS - - dr sr - sn d - dpM , | dP-d -s - - S R - mp dp - dr ||",
+                "swara": "rsS - - dr sr - sn d - dpM - | dP-d -s - - S R - mp dp - dr ||",
                 "sahitya": "te - - -- Va- ra- mi- - Do- - chu- naa?- Tyaa- ga- - - raa-"
             },
             {

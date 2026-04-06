@@ -16,32 +16,32 @@
             },
             {
                 "line_number": 2,
-                "swara": "N S , n S - - || - S N nd D - ||",
+                "swara": "N S - n S - - || - S N nd D - ||",
                 "sahitya": "Sma raa mi A ni sham --"
             },
             {
                 "line_number": 3,
-                "swara": "2. S - M - M M || G \u2013 gm dn sn nd D ||",
+                "swara": "2. S - M - M M || G - gm dn sn nd D ||",
                 "sahitya": "Go var dhana Gi ri - - sham -"
             },
             {
                 "line_number": 4,
-                "swara": "N S , n S - - || - gs sn nd D - ||",
+                "swara": "N S - n S - - || - gs sn nd D - ||",
                 "sahitya": "Sma raa mi A ni sham --"
             },
             {
                 "line_number": 5,
-                "swara": "3. S - M - M M || G \u2013 gm dn sg gs nd D ||",
+                "swara": "3. S - M - M M || G - gm dn sg gs nd D ||",
                 "sahitya": "Go var dhana Gi ri - - -- sham -"
             },
             {
                 "line_number": 6,
-                "swara": "- dm dn s g n S , || - - S G sn S ||",
+                "swara": "- dm dn s g n S - || - - S G sn S ||",
                 "sahitya": "Sma raa mi A ni sham --"
             },
             {
                 "line_number": 7,
-                "swara": "smg \u2013 n , s- d n , - dM || G d m gs- S m g M ||",
+                "swara": "smg - n - s- d n - - dM || G d m gs- S m g M ||",
                 "sahitya": "Go-pi kaa di Mano haram Garvitha Kam saa diharam"
             }
         ],
@@ -51,22 +51,22 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "1. dd M - M N nn || D M md \u2013 G - M ||",
+                        "swara": "1. dd M - M N nn || D M md - G - M ||",
                         "sahitya": "Go - vin - da Naa - ma- Saa- ram"
                     },
                     {
                         "line_number": 2,
-                        "swara": "G , m - D , N , || S S S N sgsn ||",
+                        "swara": "G - m - D - N - || S S S N sgsn ||",
                         "sahitya": "Ga jee ndra Ra ksha na Dhi- ram"
                     },
                     {
                         "line_number": 3,
-                        "swara": "2. dd M - dn sg g s || nd dm - md \u2013 dd G M ||",
+                        "swara": "2. dd M - dn sg g s || nd dm - md - dd G M ||",
                         "sahitya": "Go - vin - da Naa - ma- Saa- ram"
                     },
                     {
                         "line_number": 4,
-                        "swara": "G , m - D , N , || S S G S S , n ||",
+                        "swara": "G - m - D - N - || S S G S S - n ||",
                         "sahitya": "Ga jee ndra Ra ksha na Dhi- ram"
                     },
                     {
@@ -76,22 +76,22 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "S N S G S \u2013 S || S \u2013 mg mg S - - ||",
+                        "swara": "S N S G S - S || S - mg mg S - - ||",
                         "sahitya": "Kana kaji ta Su sa ree- -- ram - -"
                     },
                     {
                         "line_number": 7,
-                        "swara": "g s n s n d n \u2013 g N S || - - - - - - ||",
+                        "swara": "g s n s n d n - g N S || - - - - - - ||",
                         "sahitya": "Ravisashi Nayana Vi laa sam"
                     },
                     {
                         "line_number": 8,
-                        "swara": "g s n s n d n \u2013 g N S || d n D m \u2013 d G M M ||",
+                        "swara": "g s n s n d n - g N S || d n D m - d G M M ||",
                         "sahitya": "Ravisashi Nayana Vi laa sam Ramanee ya Mukhaa bhaasam"
                     },
                     {
                         "line_number": 9,
-                        "swara": "m g m \u2013 g s \u2013 n G N S || S s n n d \u2013 m D m g s ||",
+                        "swara": "m g m - g s - n G N S || S s n n d - m D m g s ||",
                         "sahitya": "Sivagaa naa - di Vis vaa sam Sri Guruguha Manollaasam"
                     }
                 ]

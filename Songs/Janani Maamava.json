@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- , g R | S - S - || N , N , | r S n N D ||",
+                "swara": "- - g R | S - S - || N - N - | r S n N D ||",
                 "sahitya": "Jana ni Maa ma va Me - -"
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "S , - g R | sndn S - || rgm grs | R G mpdp ||",
+                "swara": "S - - g R | sndn S - || rgm grs | R G mpdp ||",
                 "sahitya": "- - Sara si - - jaa sa - na - Jaa - - - -"
             },
             {
@@ -61,7 +61,7 @@
             },
             {
                 "line_number": 11,
-                "swara": "S , - g R | sndn S - || rgm grs | R G mpdp ||",
+                "swara": "S - - g R | sndn S - || rgm grs | R G mpdp ||",
                 "sahitya": "- - Sara si - - jaa sa - na - Jaa - - - -"
             },
             {
@@ -73,12 +73,12 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- , p D | P - - P || D N - | rs n d P dm ||",
+                "swara": "- - p D | P - - P || D N - | rs n d P dm ||",
                 "sahitya": "Anu pa mi tha Ka ma - - laa - -"
             },
             {
                 "line_number": 2,
-                "swara": "P - dp | D N nDn || S - - | r s n d n S , ||",
+                "swara": "P - dp | D N nDn || S - - | r s n d n S - ||",
                 "sahitya": "Vaa -- - - - - se De - vi"
             },
             {
@@ -88,12 +88,12 @@
             },
             {
                 "line_number": 4,
-                "swara": "P - dp | D N nDn || S - - | r s n d n S , ||",
+                "swara": "P - dp | D N nDn || S - - | r s n d n S - ||",
                 "sahitya": "Vaa -- - - - - se Cha - ru"
             },
             {
                 "line_number": 5,
-                "swara": "- , d N | S - - R || S , S , | S , n N - ||",
+                "swara": "- - d N | S - - R || S - S - | S - n N - ||",
                 "sahitya": "Ha si tha Kru tha Kun da - Ni"
             },
             {
@@ -103,7 +103,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "- , d N | Sgr rs S - rm || gr s - S , | S , n N - ||",
+                "swara": "- - d N | Sgr rs S - rm || gr s - S - | S - n N - ||",
                 "sahitya": "Ha si tha --- Kru tha Kun da - Ni"
             },
             {
@@ -133,7 +133,7 @@
             },
             {
                 "line_number": 13,
-                "swara": "nsr g || , R - g R",
+                "swara": "nsr g || - R - g R",
                 "sahitya": "the -- - (janani)"
             }
         ],
@@ -142,7 +142,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- , r N | S - - - || - , P d | P - P - ||",
+                        "swara": "- - r N | S - - - || - - P d | P - P - ||",
                         "sahitya": "Ta ru na Va ri dha ni"
                     },
                     {
@@ -152,7 +152,7 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "- , m d p | m g r g R g s ||",
+                        "swara": "- - m d p | m g r g R g s ||",
                         "sahitya": "De -- - - - vi - -"
                     },
                     {
@@ -167,22 +167,22 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "- , m d p | m g r g M - ||",
+                        "swara": "- - m d p | m g r g M - ||",
                         "sahitya": "De -- - - - vi - -"
                     },
                     {
                         "line_number": 7,
-                        "swara": "- , n D | P - pndp || mg mpdp | p M - g r s ||",
+                        "swara": "- - n D | P - pndp || mg mpdp | p M - g r s ||",
                         "sahitya": "Ta ru Ki sa- - la - yo- - pa - ma --"
                     },
                     {
                         "line_number": 8,
-                        "swara": "gm P , g | G - g r R || g r S - | - R pm gr S ||",
+                        "swara": "gm P - g | G - g r R || g r S - | - R pm gr S ||",
                         "sahitya": "Pa - - - - ni Ka li tha"
                     },
                     {
                         "line_number": 9,
-                        "swara": "- , r N | S - G R || M , P , | pd N dp dm ||",
+                        "swara": "- - r N | S - G R || M - P - | pd N dp dm ||",
                         "sahitya": "Va ra dha bhi - Mu dre Kal - -"
                     },
                     {
@@ -192,17 +192,17 @@
                     },
                     {
                         "line_number": 11,
-                        "swara": "- , n D | P - pnd p || mg mpdp | p M , g r S ||",
+                        "swara": "- - n D | P - pnd p || mg mpdp | p M - g r S ||",
                         "sahitya": "Shara din dhu Sa ma -- Kan the"
                     },
                     {
                         "line_number": 12,
-                        "swara": "gm pdp mG | - gd P m G , R ||",
+                        "swara": "gm pdp mG | - gd P m G - R ||",
                         "sahitya": "Vaa - - - -"
                     },
                     {
                         "line_number": 13,
-                        "swara": "R g S , - g R | S - S - || dn Srs nd | P, d d p dm ||",
+                        "swara": "R g S - - g R | S - S - || dn Srs nd | P- d d p dm ||",
                         "sahitya": "ni Su ru chi ra Na ya - - na - Ji - - -"
                     },
                     {
@@ -212,7 +212,7 @@
                     },
                     {
                         "line_number": 15,
-                        "swara": "S , d N | S - rmgr || S - Rgr S | S - N - ||",
+                        "swara": "S - d N | S - rmgr || S - Rgr S | S - N - ||",
                         "sahitya": "ma Ka ru na ra sa Shi - shi ra"
                     },
                     {

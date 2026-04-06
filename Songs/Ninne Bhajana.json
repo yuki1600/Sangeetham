@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "1. G - - - - - mgpm | M - - - mg pm gm , r S ||",
+                "swara": "1. G - - - - - mgpm | M - - - mg pm gm - r S ||",
                 "sahitya": "Nin - - - - ne - - - - - - Bhaja"
             },
             {
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "R - - - - - gmpn | nSn P , m mg pm gmrs ||",
+                "swara": "R - - - - - gmpn | nSn P - m mg pm gmrs ||",
                 "sahitya": "Na - - - - Se yu - vaa - - da-nu-"
             },
             {
@@ -51,7 +51,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "5. G - - - - - mgpm | M - - - mg pm gm , r S ||",
+                "swara": "5. G - - - - - mgpm | M - - - mg pm gm - r S ||",
                 "sahitya": "Nin - - - - ne - - - - - - Bhaja"
             },
             {
@@ -78,33 +78,33 @@
             },
             {
                 "line_number": 4,
-                "swara": "nsrs , s gm gm pm , p mp | mpnp , n p n mPm gMr ||",
+                "swara": "nsrs - s gm gm pm - p mp | mpnp - n p n mPm gMr ||",
                 "sahitya": "Charanam"
             },
             {
                 "line_number": 5,
-                "swara": "P - - pp mr S \u2013 np np | M \u2013 P pm gm gmpm mg M ||",
+                "swara": "P - - pp mr S - np np | M - P pm gm gmpm mg M ||",
                 "sahitya": "Snaa naa -- di Ja- pa- - Thapa - - - Yo- - - - - ga"
             },
             {
                 "line_number": 6,
-                "swara": "P , m \u2013 gm pm rs - S \u2013 pm gm | rs - S R G M M - - ||",
+                "swara": "P - m - gm pm rs - S - pm gm | rs - S R G M M - - ||",
                 "sahitya": "Dhyaa - - - - - na- Sa- maa- - - dhi- Su kha - pra da"
             },
             {
                 "line_number": 7,
-                "swara": "N P - pp mr S \u2013 np np | M \u2013 P pm gm gmpm mg M ||",
+                "swara": "N P - pp mr S - np np | M - P pm gm gmpm mg M ||",
                 "sahitya": "Snaa naa -- di Ja- pa- - Thapa - - - Yo- - - - - ga"
             },
             {
                 "line_number": 8,
-                "swara": "P , m \u2013 gm pm rs - S \u2013 pm gm | rs - S R G M M - pm ||",
+                "swara": "P - m - gm pm rs - S - pm gm | rs - S R G M M - pm ||",
                 "sahitya": "Dhyaa - - - - - na- Sa- maa- - - dhi- Su kha - pra da See"
             },
             {
                 "line_number": 9,
                 "swara": "PN pnsn pmgm Pnp mg | M Pnp mg M P N P - S ||",
-                "sahitya": "Tha naa-- tha -- ! Sa\u2014ka- la Lo-- -- ka Paa - - la"
+                "sahitya": "Tha naa-- tha -- ! Sa—ka- la Lo-- -- ka Paa - - la"
             },
             {
                 "line_number": 10,
@@ -114,12 +114,12 @@
             {
                 "line_number": 11,
                 "swara": "PN pnsn pmgm Pnp mg | M Pnp mg M P N P - S ||",
-                "sahitya": "Tha naa-- tha -- ! Sa\u2014ka- la Lo-- -- ka Paa - - la"
+                "sahitya": "Tha naa-- tha -- ! Sa—ka- la Lo-- -- ka Paa - - la"
             },
             {
                 "line_number": 12,
-                "swara": "S - - - - - N - | S \u2013 ns R S sn pm gm - pm || [finish: gmrs]",
-                "sahitya": "ka - - - - Thia ga ra- - ja nu -- tha \u2013 See"
+                "swara": "S - - - - - N - | S - ns R S sn pm gm - pm || [finish: gmrs]",
+                "sahitya": "ka - - - - Thia ga ra- - ja nu -- tha - See"
             }
         ],
         "charanams": []

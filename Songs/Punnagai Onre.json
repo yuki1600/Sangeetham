@@ -11,17 +11,17 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - G P , g - R | S - - sn P - ns R S ||",
+                "swara": "- - - G P - g - R | S - - sn P - ns R S ||",
                 "sahitya": "- - - Ra ghunaa - ya ka ! - Nee - Paa- - da"
             },
             {
                 "line_number": 2,
-                "swara": "S R - G P , g - R | S rg rs- sn P - ns R S ||",
+                "swara": "S R - G P - g - R | S rg rs- sn P - ns R S ||",
                 "sahitya": "yuga - Ra ghunaa - ya ka ! - Nee - Paa- - da"
             },
             {
                 "line_number": 3,
-                "swara": "S R - G P , g - R | sr gp gr- gr sn - r s np - ns ||",
+                "swara": "S R - G P - g - R | sr gp gr- gr sn - r s np - ns ||",
                 "sahitya": "yuga - Ra ghunaa - ya ka ! - Nee - Paa- -- da"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "np g r sr- G P , g - R | sr gp gr- gr sn - r s np - ns ||",
+                "swara": "np g r sr- G P - g - R | sr gp gr- gr sn - r s np - ns ||",
                 "sahitya": "jaa- la - - - Ra ghunaa - ya ka ! - Nee - Paa- -- da"
             },
             {
@@ -46,109 +46,109 @@
             },
             {
                 "line_number": 8,
-                "swara": "np g r sr- G P , g - R | S - - - - - - - ||",
+                "swara": "np g r sr- G P - g - R | S - - - - - - - ||",
                 "sahitya": "jaa- la - - - Ra ghunaa - ya ka ! - - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - snP , p - N - N | S , s - - - - - - ||",
+                "swara": "- - - snP - p - N - N | S - s - - - - - - ||",
                 "sahitya": "- - - A- - gha jaa - la mu la - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "- - - snP , p - N - N | S , s - G R -sr G - R ||",
+                "swara": "- - - snP - p - N - N | S - s - G R -sr G - R ||",
                 "sahitya": "- - - A- - gha jaa - la mu la - Baa ra dro - -"
             },
             {
                 "line_number": 3,
-                "swara": "S - - snP , p - N - N | nsR , r - - G R -sr gp - gr ||",
+                "swara": "S - - snP - p - N - N | nsR - r - - G R -sr gp - gr ||",
                 "sahitya": "li - - A- - gha jaa - la mu- - la - Baa ra dro - -"
             },
             {
                 "line_number": 4,
-                "swara": "rG rs S , snP , p - N - N | nsR , r - - G R -sr gp - gr ||",
+                "swara": "rG rs S - snP - p - N - N | nsR - r - - G R -sr gp - gr ||",
                 "sahitya": "li - - A- - gha jaa - la mu- - la - Baa ra dro - li-"
             },
             {
                 "line_number": 5,
-                "swara": "- , s - s r , g p -r - S | nP - n - - S S sn P - ||",
+                "swara": "- - s - s r - g p -r - S | nP - n - - S S sn P - ||",
                 "sahitya": "- - Nan - Aa- - da- rim-pa Ni- ve - Ga ti Gaa- - -"
             },
             {
                 "line_number": 6,
-                "swara": "gr G R- s r , g p -r - S | nP - n - - S S sn P - ||",
+                "swara": "gr G R- s r - g p -r - S | nP - n - - S S sn P - ||",
                 "sahitya": "da - - Aa- - da- rim-pa Ni- ve - Ga ti Gaa- - -"
             },
             {
                 "line_number": 7,
-                "swara": "gr G R- s r , g p -r - S | nP - R - - S S sn P - ||",
+                "swara": "gr G R- s r - g p -r - S | nP - R - - S S sn P - ||",
                 "sahitya": "da - - Aa- - da- rim-pa Ni- ve - Ga ti Gaa- - -"
             },
             {
                 "line_number": 8,
-                "swara": "gr G R- s r , g p -r - S | nP - R - - S S sn P - pg ||",
+                "swara": "gr G R- s r - g p -r - S | nP - R - - S S sn P - pg ||",
                 "sahitya": "da - - Aa- - da- rim-pa Ni- ve - Ga ti Gaa- - da"
             },
             {
                 "line_number": 9,
-                "swara": "np gr sr - G , g P , p N | , n S , S - g r sn - r s np - g ||",
+                "swara": "np gr sr - G - g P - p N | - n S - S - g r sn - r s np - g ||",
                 "sahitya": "sri - - - -"
             },
             {
                 "line_number": 10,
-                "swara": "p n S , p G , n P , s N | , r S , S - g r sn - r s np - g ||",
+                "swara": "p n S - p G - n P - s N | - r S - S - g r sn - r s np - g ||",
                 "sahitya": "Charanam"
             },
             {
                 "line_number": 11,
-                "swara": "- - - G G , p - G | pS - n - - S S - sn P P ||",
+                "swara": "- - - G G - p - G | pS - n - - S S - sn P P ||",
                 "sahitya": "- - - Bha va saa - ga ra- mu - Daa ta le- - ka"
             },
             {
                 "line_number": 12,
-                "swara": "gr G R- G G , p - G | pS - n - - S R- sn P P ||",
+                "swara": "gr G R- G G - p - G | pS - n - - S R- sn P P ||",
                 "sahitya": "Ne- - Bha va saa - ga ra- mu - Daa ta le- - ka"
             },
             {
                 "line_number": 13,
-                "swara": "gr G R- S S - ns R- R | S R G - g n , p- G - R ||",
+                "swara": "gr G R- S S - ns R- R | S R G - g n - p- G - R ||",
                 "sahitya": "Ne - - Ba hu Gaa - si badi Ne Maru - gu Je - ri"
             },
             {
                 "line_number": 14,
-                "swara": "S - - G G , p - G | pS - n - - S R- sn P P ||",
+                "swara": "S - - G G - p - G | pS - n - - S R- sn P P ||",
                 "sahitya": "ti - - Bha va saa - ga ra- mu - Daa ta le- - ka"
             },
             {
                 "line_number": 15,
-                "swara": "gr G R- S S - ns R- R | S R G - s n , p- G - R ||",
+                "swara": "gr G R- S S - ns R- R | S R G - s n - p- G - R ||",
                 "sahitya": "Ne - - Ba hu Gaa - si badi Ne Maru - gu Je - ri"
             },
             {
                 "line_number": 16,
-                "swara": "S - - - ns , p N - N | S - - - - - - - ||",
+                "swara": "S - - - ns - p N - N | S - - - - - - - ||",
                 "sahitya": "Ti - Ava nijaa dhi paa - - - - - -"
             },
             {
                 "line_number": 17,
-                "swara": "- - - - ns , p N - N | S - - G R - sr G - R ||",
+                "swara": "- - - - ns - p N - N | S - - G R - sr G - R ||",
                 "sahitya": "- - - Ava nijaa dhi paa - sru ta Ra- - ksha"
             },
             {
                 "line_number": 18,
-                "swara": "S - - - ns , p N - N | ns R - G R - sr gp - rg ||",
+                "swara": "S - - - ns - p N - N | ns R - G R - sr gp - rg ||",
                 "sahitya": "ka - Ava nijaa dhi paa - sru ta Ra- - ksha"
             },
             {
                 "line_number": 19,
-                "swara": "rsS - - - sr , g p -r - S | nP - R -- S S - sn P - P ||",
+                "swara": "rsS - - - sr - g p -r - S | nP - R -- S S - sn P - P ||",
                 "sahitya": "ka - Saar - va- bou ma Sri - - Tya ga raa - ja"
             },
             {
                 "line_number": 20,
-                "swara": "gr G R- sr , g p -r - S | nP - R -- S S - sn P - pg || np gr s r",
+                "swara": "gr G R- sr - g p -r - S | nP - R -- S S - sn P - pg || np gr s r",
                 "sahitya": "nuta! - Saar - va- bou ma Sri - - Tya ga raa - ja nu- ta - -- (raghu)"
             }
         ],

@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Sri Kamakoti",
         "raga": "Saveri",
-        "arohanam": "S R\u2081 M\u2081 P D\u2081 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2083 D\u2081 P M\u2081 G\u2083 R\u2081 S ||",
+        "arohanam": "S R₁ M₁ P D₁ Ṡ ||",
+        "avarohanam": "Ṡ N₃ D₁ P M₁ G₃ R₁ S ||",
         "tala": "Adi",
         "composer": "Mysore Sadashiva Rao"
     },
@@ -11,27 +11,27 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "dp M P , d S ND P M - Pdn D M - G R R | S - - - - - SR M - - D PM PD ||",
-                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta \u2013 Sthi the - - - - - Karu na \u2013 ka taa- - kshi"
+                "swara": "dp M P - d S ND P M - Pdn D M - G R R | S - - - - - SR M - - D PM PD ||",
+                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta - Sthi the - - - - - Karu na - ka taa- - kshi"
             },
             {
                 "line_number": 2,
-                "swara": "dp M P , d S ND P M - pdnd dd pm - G R R | S - - - - - SR M - - D PM PD ||",
-                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta \u2013 Sthi the - - - - - Karu na \u2013 ka taa- - kshi"
+                "swara": "dp M P - d S ND P M - pdnd dd pm - G R R | S - - - - - SR M - - D PM PD ||",
+                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta - Sthi the - - - - - Karu na - ka taa- - kshi"
             },
             {
                 "line_number": 3,
-                "swara": "dp M P , d S ND P M - pdrs nd pm - G R R | S - - - - - SR M - - D PM PD ||",
-                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta \u2013 Sthi the - - - - - Karu na \u2013 ka taa- - kshi"
+                "swara": "dp M P - d S ND P M - pdrs nd pm - G R R | S - - - - - SR M - - D PM PD ||",
+                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta - Sthi the - - - - - Karu na - ka taa- - kshi"
             },
             {
                 "line_number": 4,
-                "swara": "D M \u2013 Pdn DM G R S \u2013 N D \u2013 N S R mpdp | D - - - P D , s S sn D pdnd pm \u2013D PD ||",
+                "swara": "D M - Pdn DM G R S - N D - N S R mpdp | D - - - P D - s S sn D pdnd pm -D PD ||",
                 "sahitya": "E- - ka- - - - - - mbra pa ti Hru daya Ni-la- ye Namaa- mi Sri - Ka----- -maa-kshi"
             },
             {
                 "line_number": 5,
-                "swara": "D M \u2013 Pdn DM G R S \u2013 N D \u2013 N S R mpdp | D - - - P R , s S sn D pdnd pm \u2013D PD ||",
+                "swara": "D M - Pdn DM G R S - N D - N S R mpdp | D - - - P R - s S sn D pdnd pm -D PD ||",
                 "sahitya": "E- - ka- - - - - - mbra pa ti Hru daya Ni-la- ye Namaa- mi Sri - Ka----- -maa-kshi"
             }
         ],
@@ -39,86 +39,86 @@
             {
                 "line_number": 1,
                 "swara": "mango [Amra])-",
-                "sahitya": "I worship/bow down to (namami) the divine (sri) kamakshi (she, whose eyes represent sarasvati [ka] and lakshmi [ma])"
+                "sahitya": "I worship/bow down to (namami) the divine (sri) kamakshi (she- whose eyes represent sarasvati [ka] and lakshmi [ma])"
             },
             {
                 "line_number": 1,
-                "swara": "S - N D - P - P dn D M G R - S \u2013 M P | D - - - - - - P M \u2013 dp D D S - - - ||",
+                "swara": "S - N D - P - P dn D M G R - S - M P | D - - - - - - P M - dp D D S - - - ||",
                 "sahitya": "Na ka- - - dee- - - - - - - sha Vinu the - - - - - Hi ma gi- ri Su the - - -"
             },
             {
                 "line_number": 2,
-                "swara": "S - N D - P - pd rs ndpm ddpm gr sr \u2013 mp dp | D - - - - - - P M \u2013 dp D D S - - - ||",
+                "swara": "S - N D - P - pd rs ndpm ddpm gr sr - mp dp | D - - - - - - P M - dp D D S - - - ||",
                 "sahitya": "Na ka- - - dee- - - - - - - - - sha Vi-nu- the - - - - - Hi ma gi- ri Su the - - -"
             },
             {
                 "line_number": 3,
-                "swara": "D P D \u2013 S - - srG R \u2013 R S - N D M dr | rs S - - - - - - - - - - - - - - ||",
+                "swara": "D P D - S - - srG R - R S - N D M dr | rs S - - - - - - - - - - - - - - ||",
                 "sahitya": "Sri- - Kan- -chi- - pu ra dee- - shwa ri - - - - - - - - - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "D P D \u2013 S - - srG R \u2013 R S - N D M dr | rs S - - DR S- sn D \u2013 drs R , \u2013 D M P D ||",
+                "swara": "D P D - S - - srG R - R S - N D M dr | rs S - - DR S- sn D - drs R - - D M P D ||",
                 "sahitya": "Sri- - Kan- -chi- - pu ra dee- - shwa ri - - Varada So - - da- - ri - Shan- ka ri"
             },
             {
                 "line_number": 5,
-                "swara": "D P D \u2013 S - - srpmMG R \u2013 R S rg rsN D M dgR | rs S - - DR S- sn D \u2013 drs R , \u2013 D M P D ||",
+                "swara": "D P D - S - - srpmMG R - R S rg rsN D M dgR | rs S - - DR S- sn D - drs R - - D M P D ||",
                 "sahitya": "Sri- - Kan- -chi- - - pu ra dee- - shwa ri - - Varada So - - da- - ri - Shan- ka ri"
             },
             {
                 "line_number": 6,
-                "swara": "dp M P , d S ND P M - pdrs nd pm - G R R | S - - - - - SR M - - D PM PD ||",
-                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta \u2013 Sthi the - - - - - Karu na \u2013 ka taa- - kshi"
+                "swara": "dp M P - d S ND P M - pdrs nd pm - G R R | S - - - - - SR M - - D PM PD ||",
+                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta - Sthi the - - - - - Karu na - ka taa- - kshi"
             },
             {
                 "line_number": 7,
                 "swara": "mango [Amra])-",
-                "sahitya": "I worship/bow down to (namami) the divine (sri) kamakshi (she, whose eyes represent sarasvati [ka] and lakshmi [ma])"
+                "sahitya": "I worship/bow down to (namami) the divine (sri) kamakshi (she- whose eyes represent sarasvati [ka] and lakshmi [ma])"
             },
             {
                 "line_number": 8,
-                "swara": "D M \u2013 Pdn DM G R S \u2013 N D \u2013 N S R mpdp | D - - - P R , s S sn D pdnd pm \u2013D PD ||",
+                "swara": "D M - Pdn DM G R S - N D - N S R mpdp | D - - - P R - s S sn D pdnd pm -D PD ||",
                 "sahitya": "E- - ka- - - - - - mbra pa ti Hru daya Ni-la- ye Namaa- mi Sri - Ka----- -maa-kshi"
             },
             {
                 "line_number": 9,
-                "swara": "D , P , M G R -M P D - - - - - dp M | - dm P - - - - - - - - - - - - - ||",
+                "swara": "D - P - M G R -M P D - - - - - dp M | - dm P - - - - - - - - - - - - - ||",
                 "sahitya": "Kadamba vana Nila ye - - - - - Am- - - - ba - - - - - - - - - -- -"
             },
             {
                 "line_number": 10,
-                "swara": "D , P , M G R -M P D - - - - - dp M | - dm P - - - - - - - - - mp D dp M ||",
+                "swara": "D - P - M G R -M P D - - - - - dp M | - dm P - - - - - - - - - mp D dp M ||",
                 "sahitya": "Kadamba vana Nila ye - - - - - Am- - - - ba - - - - - - - - Am-- ba- -"
             },
             {
                 "line_number": 11,
-                "swara": "D , P , M G R -M P D - - - - - dp M | - dm P - - - - - sr M rmP mp D dp M ||",
-                "sahitya": "Kadamba vana Nila ye - - - - - Am- - - - ba - - - - Am-- -- -- - - ba- - (or \u201cdevi\u201d)"
+                "swara": "D - P - M G R -M P D - - - - - dp M | - dm P - - - - - sr M rmP mp D dp M ||",
+                "sahitya": "Kadamba vana Nila ye - - - - - Am- - - - ba - - - - Am-- -- -- - - ba- - (or “devi”)"
             },
             {
                 "line_number": 12,
-                "swara": "D , P , M G R - - mp D - - - - - P dm | P D - S N D M D S - - dr sn D P M ||",
-                "sahitya": "Kadamba vana Nila ye - - - - - Amba Kan\u2014cha lo- - cha ne \u2013bha va- - -- ni"
+                "swara": "D - P - M G R - - mp D - - - - - P dm | P D - S N D M D S - - dr sn D P M ||",
+                "sahitya": "Kadamba vana Nila ye - - - - - Amba Kan—cha lo- - cha ne -bha va- - -- ni"
             },
             {
                 "line_number": 13,
-                "swara": "D G - R G R S \u2013 sr sn D - , mD md S - S | N D \u2013 dr sn D \u2013 dr snD D P - P ndD P M PD ||",
+                "swara": "D G - R G R S - sr sn D - - mD md S - S | N D - dr sn D - dr snD D P - P ndD P M PD ||",
                 "sahitya": "Madamba Vadana Vi ji tha Sashi bim-- ba Vara Su gu na Kadam- - ba Lali-- thaa--mba"
             },
             {
                 "line_number": 14,
-                "swara": "dp M P , d S ND P M - pdrs nd pm - G R R | S - - - - - SR M - - D PM PD ||",
-                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta \u2013 Sthi the - - - - - Karu na \u2013 ka taa- - kshi"
+                "swara": "dp M P - d S ND P M - pdrs nd pm - G R R | S - - - - - SR M - - D PM PD ||",
+                "sahitya": "Sri-- Ka - mako- - ti Pee-- - - - - ta - Sthi the - - - - - Karu na - ka taa- - kshi"
             },
             {
                 "line_number": 15,
                 "swara": "mango [Amra])-",
-                "sahitya": "I worship/bow down to (namami) the divine (sri) kamakshi (she, whose eyes represent sarasvati [ka] and lakshmi [ma])"
+                "sahitya": "I worship/bow down to (namami) the divine (sri) kamakshi (she- whose eyes represent sarasvati [ka] and lakshmi [ma])"
             },
             {
                 "line_number": 16,
-                "swara": "D M \u2013 Pdn DM G R S \u2013 N D \u2013 N S R mpdp | D - - - P R , s S sn D pdnd pm \u2013D PD ||",
+                "swara": "D M - Pdn DM G R S - N D - N S R mpdp | D - - - P R - s S sn D pdnd pm -D PD ||",
                 "sahitya": "E- - ka- - - - - - mbra pa ti Hru daya Ni-la- ye Namaa- mi Sri - Ka----- -maa-kshi"
             }
         ],

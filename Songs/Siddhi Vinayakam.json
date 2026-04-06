@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "1. P - M \u2013 G R - || R S - - D N ||",
+                "swara": "1. P - M - G R - || R S - - D N ||",
                 "sahitya": "Si ddhi Vi na yakam A ni"
             },
             {
@@ -21,7 +21,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "2. pmnd pm \u2013 gp pm G || R S - gr s -d N ||",
+                "swara": "2. pmnd pm - gp pm G || R S - gr s -d N ||",
                 "sahitya": "Si ddhi Vi na yakam -- - A ni"
             },
             {
@@ -31,7 +31,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "3. pmnd pm \u2013 gp pm G || R S - gr s -d N ||",
+                "swara": "3. pmnd pm - gp pm G || R S - gr s -d N ||",
                 "sahitya": "Si ddhi Vi na yakam -- - A ni"
             },
             {
@@ -41,13 +41,13 @@
             },
             {
                 "line_number": 7,
-                "swara": "N d- p m \u2013 G r S - r s || , G r dn d p , dp m ||",
-                "sahitya": "siddha Ga na naaya kam Vishi shtaa rtha Daa- yakam Varam \u2013"
+                "swara": "N d- p m - G r S - r s || - G r dn d p - dp m ||",
+                "sahitya": "siddha Ga na naaya kam Vishi shtaa rtha Daa- yakam Varam -"
             },
             {
                 "line_number": 8,
-                "swara": "4. rsn- d pm \u2013 gp pm G || R S - gr s -d N ||",
-                "sahitya": "Si \u2013 ddhi--- Vi- na yakam -- - A ni"
+                "swara": "4. rsn- d pm - gp pm G || R S - gr s -d N ||",
+                "sahitya": "Si - ddhi--- Vi- na yakam -- - A ni"
             },
             {
                 "line_number": 9,
@@ -56,49 +56,49 @@
             },
             {
                 "line_number": 10,
-                "swara": "N d- p m \u2013 G r S - r s || , G r dn d p , dp m ||",
-                "sahitya": "siddha Ga na naaya kam Vishi shtaa rtha Daa- yakam Varam \u2013"
+                "swara": "N d- p m - G r S - r s || - G r dn d p - dp m ||",
+                "sahitya": "siddha Ga na naaya kam Vishi shtaa rtha Daa- yakam Varam -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "1. S - S \u2013 S - S || R - G \u2013 gr R S ||",
+                "swara": "1. S - S - S - S || R - G - gr R S ||",
                 "sahitya": "Si ddha Ya ksha Kin na raa- - di"
             },
             {
                 "line_number": 2,
-                "swara": "D - N \u2013 S - - || - - - - - - ||",
+                "swara": "D - N - S - - || - - - - - - ||",
                 "sahitya": "Se vi tam"
             },
             {
                 "line_number": 3,
-                "swara": "2. S - S \u2013 S - S || R - G \u2013 gr R S ||",
+                "swara": "2. S - S - S - S || R - G - gr R S ||",
                 "sahitya": "Si ddha Ya ksha Kin na raa- - di"
             },
             {
                 "line_number": 4,
-                "swara": "rs D - N \u2013 S \u2013 N || S N R S - gr ||",
+                "swara": "rs D - N - S - N || S N R S - gr ||",
                 "sahitya": "Se vi tam a- khila jagat Pra"
             },
             {
                 "line_number": 5,
-                "swara": "3. nd pd N \u2013 S - S || R - G \u2013 gr R S ||",
+                "swara": "3. nd pd N - S - S || R - G - gr R S ||",
                 "sahitya": "Si ddha Ya ksha Kin na raa- - di"
             },
             {
                 "line_number": 6,
-                "swara": "grsd - N \u2013 S \u2013 N || S N R S - gr ||",
+                "swara": "grsd - N - S - N || S N R S - gr ||",
                 "sahitya": "Se vi tam a- khila jagat Pra-"
             },
             {
                 "line_number": 7,
-                "swara": "R - G \u2013 M - M || G - R \u2013 S S - ||",
+                "swara": "R - G - M - M || G - R - S S - ||",
                 "sahitya": "Si ddha Mu la Pan ka ja ma"
             },
             {
                 "line_number": 8,
-                "swara": "S R N S R G || R S snrs n \u2013 d pm ||",
+                "swara": "S R N S R G || R S snrs n - d pm ||",
                 "sahitya": "Dhya- stham- Mo- daka Ha-- - stam--"
             }
         ],
@@ -107,12 +107,12 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "P - M \u2013 pd pd \u2013 pm || G R - G R - S ||",
+                        "swara": "P - M - pd pd - pm || G R - G R - S ||",
                         "sahitya": "Bha dra pa- da- maa- - sa Cathur tthyaam"
                     },
                     {
                         "line_number": 2,
-                        "swara": "- gr sd N S - || R \u2013 gm pm \u2013 G R - ||",
+                        "swara": "- gr sd N S - || R - gm pm - G R - ||",
                         "sahitya": "Brah - ma naa di Pu- - - ji tam"
                     },
                     {
@@ -127,17 +127,17 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "R - G \u2013 gp - M || pd pd pm - P , d ||",
+                        "swara": "R - G - gp - M || pd pd pm - P - d ||",
                         "sahitya": "Rau dra bhaa- va Ra-hi- tam- Daa--"
                     },
                     {
                         "line_number": 6,
-                        "swara": "rs \u2013 D D \u2013 P dn dp || p D \u2013 n , d \u2013 N S - ||",
+                        "swara": "rs - D D - P dn dp || p D - n - d - N S - ||",
                         "sahitya": "sa- Ja na hru da- ya- Vi - raa - ji tam"
                     },
                     {
                         "line_number": 7,
-                        "swara": "a) R - - G gr R || S - nr s \u2013 n D \u2013 N ||",
+                        "swara": "a) R - - G gr R || S - nr s - n D - N ||",
                         "sahitya": "Rau hi nee-- ya nu- - jaar- cchi"
                     },
                     {
@@ -147,22 +147,22 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "b) R - - G gr R || S - nr s \u2013 n D \u2013 N ||",
+                        "swara": "b) R - - G gr R || S - nr s - n D - N ||",
                         "sahitya": "Rau hi nee-- ya nu- - jaar- cchi"
                     },
                     {
                         "line_number": 10,
-                        "swara": "S - N R S S || - nd pd \u2013 rs n \u2013 dp m ||",
-                        "sahitya": "tam I - hanaa Var - ji - - tam\u2014"
+                        "swara": "S - N R S S || - nd pd - rs n - dp m ||",
+                        "sahitya": "tam I - hanaa Var - ji - - tam—"
                     },
                     {
                         "line_number": 11,
-                        "swara": "G r \u2013 s , r- r p , m P || p M p p d p \u2013 g , m P ||",
+                        "swara": "G r - s - r- r p - m P || p M p p d p - g - m P ||",
                         "sahitya": "Adri Raa ja Sutaa tmajam a nan ta gu rugu haa grajam"
                     },
                     {
                         "line_number": 12,
-                        "swara": "S R g r s \u2013 n d \u2013 d P || R s \u2013 d , p \u2013 r s n \u2013 d p m ||",
+                        "swara": "S R g r s - n d - d P || R s - d - p - r s n - d p m ||",
                         "sahitya": "Bhadra pada Padaam- bu jam Bhaa sa maa na Chatur- bhujam-"
                     }
                 ]

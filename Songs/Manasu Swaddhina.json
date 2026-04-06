@@ -3,7 +3,7 @@
         "name": "Manasu Swaddhina",
         "raga": "Sankarabharanam",
         "arohanam": "S R2 G3 M1 P D2 N3 S ||",
-        "avarohanam": "\u1e60 N3 D2 P M1 G3 R2 S ||",
+        "avarohanam": "Ṡ N3 D2 P M1 G3 R2 S ||",
         "tala": "Misra Chapu",
         "composer": "Tyagaraja"
     },
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "S - ,r | sn D | P - || S n - d P | ppmg | gmpm ||",
+                "swara": "S - -r | sn D | P - || S n - d P | ppmg | gmpm ||",
                 "sahitya": "m(ai) - na - - (y)a gha- nu- ni- - - ki - - -"
             },
             {
@@ -41,13 +41,13 @@
             },
             {
                 "line_number": 7,
-                "swara": "gr- M G | M , d | pm G || rGmgr | S - | S - ||",
+                "swara": "gr- M G | M - d | pm G || rGmgr | S - | S - ||",
                 "sahitya": "ma ri man- tra - - tan- - - tra- mu-"
             },
             {
                 "line_number": 8,
                 "swara": "snrsnd | N - | s R s || S - - | - - | M - ||",
-                "sahitya": "l(e)- - - - la - - - - - - - Aa \u2013"
+                "sahitya": "l(e)- - - - la - - - - - - - Aa -"
             },
             {
                 "line_number": 9,
@@ -66,13 +66,13 @@
             },
             {
                 "line_number": 12,
-                "swara": "gr- M G | M , d | pm G || rGmgr | S - | S - ||",
+                "swara": "gr- M G | M - d | pm G || rGmgr | S - | S - ||",
                 "sahitya": "ma ri man- tra - - tan- - - tra- mu-"
             },
             {
                 "line_number": 13,
-                "swara": "snrsnd | N - | s R s || S - - | - , n | srgm ||",
-                "sahitya": "l(e)- - - - la - - - - - - Aa \u2013 - - -"
+                "swara": "snrsnd | N - | s R s || S - - | - - n | srgm ||",
+                "sahitya": "l(e)- - - - la - - - - - - Aa - - - -"
             },
             {
                 "line_number": 14,
@@ -93,7 +93,7 @@
             },
             {
                 "line_number": 2,
-                "swara": "G , M , | P - | D N || S , d N | S - | S - ||",
+                "swara": "G - M - | P - | D N || S - d N | S - | S - ||",
                 "sahitya": "ni(y)en cu - - va- - - ni - ki-"
             },
             {
@@ -103,27 +103,27 @@
             },
             {
                 "line_number": 4,
-                "swara": "g R g M | P - | D N || S , d N | S - | sndp ||",
+                "swara": "g R g M | P - | D N || S - d N | S - | sndp ||",
                 "sahitya": "ni(y)en cu - - va- - - ni - ki-"
             },
             {
                 "line_number": 5,
-                "swara": "- S N | Srg | R S || snr \u2013 snd | d N p | dn S ||",
+                "swara": "- S N | Srg | R S || snr - snd | d N p | dn S ||",
                 "sahitya": "Ta pa su-- - ce - - yan- n(e)-- - - la"
             },
             {
                 "line_number": 6,
-                "swara": "dn S , r | sn D | P - || g m pD p | ppmg | g pmM r ||",
+                "swara": "dn S - r | sn D | P - || g m pD p | ppmg | g pmM r ||",
                 "sahitya": "da- Sa- - ra- - tha- ba- - - - la - - - - - - -"
             },
             {
                 "line_number": 7,
-                "swara": "- S N | srgm | gr S || snr \u2013 S d | N P | D N ||",
+                "swara": "- S N | srgm | gr S || snr - S d | N P | D N ||",
                 "sahitya": "Ta pa su-- - ce - - yan- n(e)-- - - la"
             },
             {
                 "line_number": 8,
-                "swara": "dn S , r | sn D | P - || g m pdns | grsn | dp pm ||",
+                "swara": "dn S - r | sn D | P - || g m pdns | grsn | dp pm ||",
                 "sahitya": "da- Sa- - ra- - tha- ba- - - - la - - - - - - -"
             },
             {
@@ -138,13 +138,13 @@
             },
             {
                 "line_number": 11,
-                "swara": "gr- M G | M , d | pm G || rGmgr | S - | S - ||",
+                "swara": "gr- M G | M - d | pm G || rGmgr | S - | S - ||",
                 "sahitya": "ma ri man- tra - - tan- - - tra- mu-"
             },
             {
                 "line_number": 12,
-                "swara": "snrsnd | N - | s R s || S - - | - , n | srgm ||",
-                "sahitya": "l(e)- - - - la - - - - - - Aa \u2013 - - -"
+                "swara": "snrsnd | N - | s R s || S - - | - - n | srgm ||",
+                "sahitya": "l(e)- - - - la - - - - - - Aa - - - -"
             },
             {
                 "line_number": 13,
@@ -158,22 +158,22 @@
             },
             {
                 "line_number": 15,
-                "swara": "- G M | P - | P - || D , P , | dp m g | pm gr ||",
+                "swara": "- G M | P - | P - || D - P - | dp m g | pm gr ||",
                 "sahitya": "A - jan - - ma mu - - - - dur - -"
             },
             {
                 "line_number": 16,
-                "swara": "G , g M | P - | M - || P sn D | P - | P - ||",
-                "sahitya": "Vi sha- ya- ra - hitu- - ni - ki \u2013"
+                "swara": "G - g M | P - | M - || P sn D | P - | P - ||",
+                "sahitya": "Vi sha- ya- ra - hitu- - ni - ki -"
             },
             {
                 "line_number": 17,
-                "swara": "- M - | M , d | pm G || gmp mgr | G - | M - ||",
+                "swara": "- M - | M - d | pm G || gmp mgr | G - | M - ||",
                 "sahitya": "Ga - t(a)- - - ga ta - - - -- m(i) ka"
             },
             {
                 "line_number": 18,
-                "swara": "P , pmg | M - | P - || pmpDp | P - | P - ||",
+                "swara": "P - pmg | M - | P - || pmpDp | P - | P - ||",
                 "sahitya": "(y)e - - la - - - - - - - - - - - -"
             },
             {
@@ -199,11 +199,11 @@
             {
                 "line_number": 23,
                 "swara": "- M P | D N | S - || snr snd | d N p | d n S ||",
-                "sahitya": "ra - ja - va- da\u2014na-- tya-- - - ga"
+                "sahitya": "ra - ja - va- da—na-- tya-- - - ga"
             },
             {
                 "line_number": 24,
-                "swara": "dn S , r | sn D | P - || gm pd ns | gr sn | dp pm ||",
+                "swara": "dn S - r | sn D | P - || gm pd ns | gr sn | dp pm ||",
                 "sahitya": "ra - - - ja - - vi- nu- - - - - ta - - - - - - -"
             },
             {
@@ -218,13 +218,13 @@
             },
             {
                 "line_number": 27,
-                "swara": "gr- M G | M , d | pm G || rGmgr | S - | S - ||",
+                "swara": "gr- M G | M - d | pm G || rGmgr | S - | S - ||",
                 "sahitya": "ma ri man- tra - - tan- - - tra- mu-"
             },
             {
                 "line_number": 28,
-                "swara": "snrsnd | N - | s R s || S - - | - , n | srgm ||",
-                "sahitya": "l(e)- - - - la - - - - - - Aa \u2013 - - -"
+                "swara": "snrsnd | N - | s R s || S - - | - - n | srgm ||",
+                "sahitya": "l(e)- - - - la - - - - - - Aa - - - -"
             },
             {
                 "line_number": 29,

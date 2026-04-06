@@ -11,69 +11,69 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - R | P , m P - || D P - | DP dpmr ||",
+                "swara": "- - R | P - m P - || D P - | DP dpmr ||",
                 "sahitya": "En dun- di Veda lithi vo - - -"
             },
             {
                 "line_number": 2,
-                "swara": "ggrs - R | P , m P - || D P - | dn dn PD ||",
+                "swara": "ggrs - R | P - m P - || D P - | dn dn PD ||",
                 "sahitya": "En dun- di Veda li- thi- vo - - -"
             },
             {
                 "line_number": 3,
-                "swara": "P - mp | D ,n P - || pmdpmr | G G S R ||",
-                "sahitya": "-- Ye- vu- ro ? ne- - - - - Theli ya \u2013"
+                "swara": "P - mp | D -n P - || pmdpmr | G G S R ||",
+                "sahitya": "-- Ye- vu- ro ? ne- - - - - Theli ya -"
             },
             {
                 "line_number": 4,
-                "swara": "S - R | P , m P - || D P - | dn dn PD ||",
+                "swara": "S - R | P - m P - || D P - | dn dn PD ||",
                 "sahitya": "En dun- di Veda li- thi- vo - - -"
             },
             {
                 "line_number": 5,
-                "swara": "P - mp | D snN P - || mp Dnd pm R | , g G S R ||",
-                "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya \u2013"
+                "swara": "P - mp | D snN P - || mp Dnd pm R | - g G S R ||",
+                "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya -"
             },
             {
                 "line_number": 6,
-                "swara": "S - rm | P,d d P, dpmr - || G , G , | rs R rs N ||",
+                "swara": "S - rm | P-d d P- dpmr - || G - G - | rs R rs N ||",
                 "sahitya": "- - Ipu dai- - - - na- - - De lu pa- - vai- -"
             },
             {
                 "line_number": 7,
-                "swara": "S- - | - - - mp || dn S - | pddp mr \u2013 gg ||",
+                "swara": "S- - | - - - mp || dn S - | pddp mr - gg ||",
                 "sahitya": "yya - - - Sri- Raa- - mai- - - - ya-"
             },
             {
                 "line_number": 8,
-                "swara": "rsns- R | P , m P - || D P - | dn dn PD ||",
+                "swara": "rsns- R | P - m P - || D P - | dn dn PD ||",
                 "sahitya": "En dun- di Veda li- thi- vo - - -"
             },
             {
                 "line_number": 9,
-                "swara": "P - nr | rsns pDp || mp Dnd pm R | , g G S R ||",
-                "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya \u2013"
+                "swara": "P - nr | rsns pDp || mp Dnd pm R | - g G S R ||",
+                "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya -"
             },
             {
                 "line_number": 10,
-                "swara": "S - rm | P,d d P, dpmr - || G , G , | rs R rs N ||",
+                "swara": "S - rm | P-d d P- dpmr - || G - G - | rs R rs N ||",
                 "sahitya": "- - Ipu dai- - - - na- - - De lu pa- - vai- -"
             },
             {
                 "line_number": 11,
-                "swara": "S- - | - - - mp || dn sr gg | rs \u2013 ns dp mr || ggrs",
+                "swara": "S- - | - - - mp || dn sr gg | rs - ns dp mr || ggrs",
                 "sahitya": "yya - - - Sri- Raa- - -- mai- - - - - ya-"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- - dn | , P , M D || pm R M | - pd ddpm || P - - | - - - - ||",
+                "swara": "- - dn | - P - M D || pm R M | - pd ddpm || P - - | - - - - ||",
                 "sahitya": "An- da Chan- da- - mu -ve- rai- - - - - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "- - dn | , P , M D || pm R M | - pd ddpm ||",
+                "swara": "- - dn | - P - M D || pm R M | - pd ddpm ||",
                 "sahitya": "An- da Chan- da- - mu -ve- rai- - -"
             },
             {
@@ -103,22 +103,22 @@
             },
             {
                 "line_number": 8,
-                "swara": "rsns- R | P , m P - || D P - | dn dn PD ||",
+                "swara": "rsns- R | P - m P - || D P - | dn dn PD ||",
                 "sahitya": "En dun- di Veda li- thi- vo - - -"
             },
             {
                 "line_number": 9,
-                "swara": "P - nr | rsns pDp || mp Dnd pm R | , g G S R ||",
-                "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya \u2013"
+                "swara": "P - nr | rsns pDp || mp Dnd pm R | - g G S R ||",
+                "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya -"
             },
             {
                 "line_number": 10,
-                "swara": "S - rm | P,d d P, dpmr - || G , G , | rs R rs N ||",
+                "swara": "S - rm | P-d d P- dpmr - || G - G - | rs R rs N ||",
                 "sahitya": "- - Ipu dai- - - - na- - - De lu pa- - vai- -"
             },
             {
                 "line_number": 11,
-                "swara": "S- - | - - - mp || dn sr gg | rs \u2013 ns dp mr || ggrs",
+                "swara": "S- - | - - - mp || dn sr gg | rs - ns dp mr || ggrs",
                 "sahitya": "yya - - - Sri- Raa- - -- mai- - - - - ya-"
             }
         ],
@@ -127,8 +127,8 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- - rr | P , m P - || D P - | D pd dpM ||",
-                        "sahitya": "Citu kan - te Na pa raa- - dha\u2014"
+                        "swara": "- - rr | P - m P - || D P - | D pd dpM ||",
+                        "sahitya": "Citu kan - te Na pa raa- - dha—"
                     },
                     {
                         "line_number": 2,
@@ -137,7 +137,7 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "s Rs \u2013 rm | Pdp dpmr || G , G , | rsR rs N ||",
+                        "swara": "s Rs - rm | Pdp dpmr || G - G - | rsR rs N ||",
                         "sahitya": "- - - Siva lo- - ka- - mu - Ga-- - - -"
                     },
                     {
@@ -147,7 +147,7 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- - rr | r Pm P - || D , P , | dpmp dp D ||",
+                        "swara": "- - rr | r Pm P - || D - P - | dpmp dp D ||",
                         "sahitya": "Vatu Ru- - pu dai - Ba-li- ni - -"
                     },
                     {
@@ -157,7 +157,7 @@
                     },
                     {
                         "line_number": 7,
-                        "swara": "s R s rm | Pdp dpmr || G , G , | rsR rs N ||",
+                        "swara": "s R s rm | Pdp dpmr || G - G - | rsR rs N ||",
                         "sahitya": "- - - Vai- kun-- ta- - - mu - Ga-- - - -"
                     },
                     {
@@ -167,7 +167,7 @@
                     },
                     {
                         "line_number": 9,
-                        "swara": "- - md | ppmr ggrs || R , P m | P - P - ||",
+                        "swara": "- - md | ppmr ggrs || R - P m | P - P - ||",
                         "sahitya": "Vita Va--- cha-- na mu- laa di"
                     },
                     {
@@ -177,7 +177,7 @@
                     },
                     {
                         "line_number": 11,
-                        "swara": "- - mp | dd n \u2013 p D P || pmdpmr | G G rs R ||",
+                        "swara": "- - mp | dd n - p D P || pmdpmr | G G rs R ||",
                         "sahitya": "Vidhi lo-- - - ka mu- - - - Ga- - - -"
                     },
                     {
@@ -203,7 +203,7 @@
                     {
                         "line_number": 16,
                         "swara": "P - D | N - nsdp || mpdn S | Srs N S - ||",
-                        "sahitya": "mu \u2013mru dhu bhaa\u2014 sha-lu-- Gal - gu"
+                        "sahitya": "mu -mru dhu bhaa— sha-lu-- Gal - gu"
                     },
                     {
                         "line_number": 17,
@@ -217,22 +217,22 @@
                     },
                     {
                         "line_number": 19,
-                        "swara": "rsns- R | P , m P - || D P - | dn dn PD ||",
+                        "swara": "rsns- R | P - m P - || D P - | dn dn PD ||",
                         "sahitya": "En dun- di Veda li- thi- vo - - -"
                     },
                     {
                         "line_number": 20,
-                        "swara": "P - nr | rsns pDp || mp Dnd pm R | , g G S R ||",
-                        "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya \u2013"
+                        "swara": "P - nr | rsns pDp || mp Dnd pm R | - g G S R ||",
+                        "sahitya": "-- Ye- vu- ro ? ne- - - - - - - - Theli ya -"
                     },
                     {
                         "line_number": 21,
-                        "swara": "S - rm | P,d d P, dpmr - || G , G , | rs R rs N ||",
+                        "swara": "S - rm | P-d d P- dpmr - || G - G - | rs R rs N ||",
                         "sahitya": "- - Ipu dai- - - - na- - - De lu pa- - vai- -"
                     },
                     {
                         "line_number": 22,
-                        "swara": "S- - | - - - mp || dn sr gg | rs \u2013 ns dp mr || ggrs",
+                        "swara": "S- - | - - - mp || dn sr gg | rs - ns dp mr || ggrs",
                         "sahitya": "yya - - - Sri- Raa- - -- mai- - - - - ya-"
                     }
                 ]

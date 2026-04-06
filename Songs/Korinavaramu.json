@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Korinavaramu",
         "raga": "Ramapriya",
-        "arohanam": "S R\u2081 G\u2083 M\u2082 P D\u2082 N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2082 P M\u2082 G\u2083 R\u2081 S ||",
+        "arohanam": "S R₁ G₃ M₂ P D₂ N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₂ P M₂ G₃ R₁ S ||",
         "tala": "Rupakam",
         "composer": "Patnam Subramanya Iyer"
     },
@@ -11,54 +11,54 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "1. P - pm gm G R || S S S \u2013 rs nd N ||",
+                "swara": "1. P - pm gm G R || S S S - rs nd N ||",
                 "sahitya": "Ko ri-na- Vara Mosa gu mai- - - yya"
             },
             {
                 "line_number": 2,
-                "swara": "sr G R \u2013 gm P \u2013 M || P - - pm gr gm ||",
+                "swara": "sr G R - gm P - M || P - - pm gr gm ||",
                 "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "2. pdnd pm gm G R || S S S \u2013 rs nd N ||",
+                "swara": "2. pdnd pm gm G R || S S S - rs nd N ||",
                 "sahitya": "Ko ri-na- Vara Mosa gu mai- - - yya"
             },
             {
                 "line_number": 4,
-                "swara": "sr gr G \u2013 mp dp D || pdnd N \u2013 N , d pm ||",
+                "swara": "sr gr G - mp dp D || pdnd N - N - d pm ||",
                 "sahitya": "Ko- - dan- - da paa- - - - ni - -"
             },
             {
                 "line_number": 5,
-                "swara": "3. pdnd pm gd pm gr || sd pm gr \u2013 rs nd N ||",
+                "swara": "3. pdnd pm gd pm gr || sd pm gr - rs nd N ||",
                 "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
             },
             {
                 "line_number": 6,
-                "swara": "s r g m P \u2013 mp dn S || dn Srs nd \u2013 nsrs n d p m ||",
+                "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
                 "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
             },
             {
                 "line_number": 7,
-                "swara": "4. P - pm gm dmG - r S || S S S \u2013 rs nd N ||",
+                "swara": "4. P - pm gm dmG - r S || S S S - rs nd N ||",
                 "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
             },
             {
                 "line_number": 8,
-                "swara": "sr G R \u2013 gm N \u2013 D || P - - P - - ||",
+                "swara": "sr G R - gm N - D || P - - P - - ||",
                 "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- , n , d P - M || - p d , n S - - ||",
+                "swara": "- - n - d P - M || - p d - n S - - ||",
                 "sahitya": "Va ri ja - sthra - Ja na ka Sri - -"
             },
             {
                 "line_number": 2,
-                "swara": "- pd rs nd P - M || - p d , n ns rs R ||",
+                "swara": "- pd rs nd P - M || - p d - n ns rs R ||",
                 "sahitya": "Va ra ri ja - sthra - Ja na ka Sri - -"
             },
             {
@@ -68,7 +68,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "p d rs nd P dn dpM || - p d , n ns rs R ||",
+                "swara": "p d rs nd P dn dpM || - p d - n ns rs R ||",
                 "sahitya": "Va-ra- ri- ja - - sthra - Ja na ka Sri - -"
             },
             {
@@ -78,22 +78,22 @@
             },
             {
                 "line_number": 6,
-                "swara": "pdnd pm gd pm gr || sd pm gr \u2013 rs nd N ||",
+                "swara": "pdnd pm gd pm gr || sd pm gr - rs nd N ||",
                 "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
             },
             {
                 "line_number": 7,
-                "swara": "s r g m P \u2013 mp dn S || dn Srs nd \u2013 nsrs n d p m ||",
+                "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
                 "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
             },
             {
                 "line_number": 8,
-                "swara": "P - pm gm dmG- r S || S S S \u2013 rs nd N ||",
+                "swara": "P - pm gm dmG- r S || S S S - rs nd N ||",
                 "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
             },
             {
                 "line_number": 9,
-                "swara": "sr G R \u2013 gm N \u2013 D || P - - P - - ||",
+                "swara": "sr G R - gm N - D || P - - P - - ||",
                 "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
             }
         ],
@@ -102,62 +102,62 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- gm , P , - P || mp D D \u2013 pd nd N ||",
+                        "swara": "- gm - P - - P || mp D D - pd nd N ||",
                         "sahitya": "Sari vaa - ri lo- - na Na- - - nnu"
                     },
                     {
                         "line_number": 2,
-                        "swara": "dn S S \u2013 r s nd P || pd pm gr - S , r s r || gm",
-                        "sahitya": "Chou- ka Se- - - ya Va- la- du- Nee \u2013 du - - - -"
+                        "swara": "dn S S - r s nd P || pd pm gr - S - r s r || gm",
+                        "sahitya": "Chou- ka Se- - - ya Va- la- du- Nee - du - - - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "- d n S \u2013 ss nd N || D P N D N S ||",
+                        "swara": "- d n S - ss nd N || D P N D N S ||",
                         "sahitya": "Maru pu Jo - chi Yun- - naa- nu -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- s r , g M pm gr || gm P mp D P pp ||",
+                        "swara": "- s r - g M pm gr || gm P mp D P pp ||",
                         "sahitya": "Ma- na mu tho - - - Kaa-- paa- - - dunu"
                     },
                     {
                         "line_number": 5,
-                        "swara": "- p d , n D P - || P D dn S - S ||",
+                        "swara": "- p d - n D P - || P D dn S - S ||",
                         "sahitya": "Pari chara Vaa nara Sa mu - ha"
                     },
                     {
                         "line_number": 6,
-                        "swara": "s r g r sn \u2013 rs nd N || sr G R \u2013 rm , g G ||",
+                        "swara": "s r g r sn - rs nd N || sr G R - rm - g G ||",
                         "sahitya": "Pa- - - pa- ha- ra- na Va- - ri va- - - ha"
                     },
                     {
                         "line_number": 7,
-                        "swara": "- gm , G , R S || S S S \u2013 rs nd N ||",
+                        "swara": "- gm - G - R S || S S S - rs nd N ||",
                         "sahitya": "Kari - Ra kshaka Va ra da Ven- - - ka"
                     },
                     {
                         "line_number": 8,
-                        "swara": "dn S N \u2013 r s nd N || rs nd sndp nd pm ||",
+                        "swara": "dn S N - r s nd N || rs nd sndp nd pm ||",
                         "sahitya": "te- - shwa ra- - - - nu- - - ra-- - Ni-nnu-"
                     },
                     {
                         "line_number": 9,
-                        "swara": "pdnd pm gd pm gr || sd pm gr \u2013 rs nd N ||",
+                        "swara": "pdnd pm gd pm gr || sd pm gr - rs nd N ||",
                         "sahitya": "Ko ri-na- Va- ra Mo-sa- gu mai- - - yya"
                     },
                     {
                         "line_number": 10,
-                        "swara": "s r g m P \u2013 mp dn S || dn Srs nd \u2013 nsrs n d p m ||",
+                        "swara": "s r g m P - mp dn S || dn Srs nd - nsrs n d p m ||",
                         "sahitya": "Ko- - dan- - da paa- - - ni - - - - - - -"
                     },
                     {
                         "line_number": 11,
-                        "swara": "P - pm gm dmG- r S || S S S \u2013 rs nd N ||",
+                        "swara": "P - pm gm dmG- r S || S S S - rs nd N ||",
                         "sahitya": "Ko ri-na- -- - - Vara Mosa gu mai- - - yya"
                     },
                     {
                         "line_number": 12,
-                        "swara": "sr G R \u2013 gm N \u2013 D || P - - P - - ||",
+                        "swara": "sr G R - gm N - D || P - - P - - ||",
                         "sahitya": "Ko- - dan- - da paa- - ni - - - - -"
                     }
                 ]

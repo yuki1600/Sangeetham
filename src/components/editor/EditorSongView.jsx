@@ -129,9 +129,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // Use actual rendered avartana count (from || splits) for scroll speed.
     // Falls back to textModeAvCount for songs without || markers.
     const renderedAvCount = aavartanas.length > 0 ? aavartanas.length : textModeAvCount;
-    const autoAavartanaSec = totalDuration > 0 && renderedAvCount > 0
-        ? totalDuration / renderedAvCount
-        : 3.3;
+    const autoAavartanaSec = 4.0; // Default for songs without a saved calibration (removes auto-BPM/CompIAM heuristics)
     const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
 
     // Pad or trim empty avartanas so notation matches audio duration after calibration

@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Sri Guru Guha",
         "raga": "Shuddha Saveri",
-        "arohanam": "S R1 M1 P D2 \u1e60 ||",
-        "avarohanam": "\u1e60 D2 P M1 R2 S ||",
+        "arohanam": "S R1 M1 P D2 Ṡ ||",
+        "avarohanam": "Ṡ D2 P M1 R2 S ||",
         "tala": "Rupakam",
         "composer": "Muthuswami Dikshitar"
     },
@@ -11,18 +11,18 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "S - D P M D || P - M \u2013 R - S || R - - sr m p d r ||",
-                "sahitya": "Sri guru gu ha ta ra ya Su mam \u2013 Sara vana bhava"
+                "swara": "S - D P M D || P - M - R - S || R - - sr m p d r ||",
+                "sahitya": "Sri guru gu ha ta ra ya Su mam - Sara vana bhava"
             },
             {
                 "line_number": 2,
-                "swara": "S - D P M D || pdsd pm \u2013 rm pm rs || R - - sr m p d r ||",
-                "sahitya": "Sri guru gu ha ta ra ya - - Su mam \u2013 Sara vana bhava"
+                "swara": "S - D P M D || pdsd pm - rm pm rs || R - - sr m p d r ||",
+                "sahitya": "Sri guru gu ha ta ra ya - - Su mam - Sara vana bhava"
             },
             {
                 "line_number": 3,
-                "swara": "S - D P M D || pdsd pm \u2013 rm pm rs || R - - - s s d r ||",
-                "sahitya": "Sri guru gu ha ta ra ya - - Su mam \u2013 - sura pati"
+                "swara": "S - D P M D || pdsd pm - rm pm rs || R - - - s s d r ||",
+                "sahitya": "Sri guru gu ha ta ra ya - - Su mam - - sura pati"
             },
             {
                 "line_number": 4,
@@ -51,18 +51,18 @@
             },
             {
                 "line_number": 9,
-                "swara": "S d \u2013 r , s- m r m \u2013 P d || M P D \u2013 s d , - R s ||",
+                "swara": "S d - r - s- m r m - P d || M P D - s d - - R s ||",
                 "sahitya": "bhogi ra - ja vinu ta pada bhu de va kriya - moda"
             },
             {
                 "line_number": 10,
-                "swara": "R m \u2013 r , r - S s - D d || M r - s D \u2013 s r m P d ||",
+                "swara": "R m - r - r - S s - D d || M r - s D - s r m P d ||",
                 "sahitya": "yogi ra - ja yo ga bheda yukta ma no laya vinoda"
             },
             {
                 "line_number": 11,
-                "swara": "S - D P M D || pdsd pm \u2013 rm pm rs || R - - - s s d r ||",
-                "sahitya": "Sri guru gu ha ta ra ya - - Su mam \u2013 - sura pati"
+                "swara": "S - D P M D || pdsd pm - rm pm rs || R - - - s s d r ||",
+                "sahitya": "Sri guru gu ha ta ra ya - - Su mam - - sura pati"
             },
             {
                 "line_number": 12,

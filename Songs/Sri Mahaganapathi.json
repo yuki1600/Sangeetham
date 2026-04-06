@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "S , r M | P - R P || M G R | S sr rs S ||",
+                "swara": "S - r M | P - R P || M G R | S sr rs S ||",
                 "sahitya": "Shri-ma haa- Gana pa ti- ra va tu- Maam-"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "S , r M | P - R P || M G R | S sr rs S ||",
+                "swara": "S - r M | P - R P || M G R | S sr rs S ||",
                 "sahitya": "Shri-ma haa- Gana pa ti- ra va tu- Maam-"
             },
             {
@@ -51,7 +51,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "- , r M | P - N P || S S R | rs S S - ||",
+                "swara": "- - r M | P - N P || S S R | rs S S - ||",
                 "sahitya": "Kama laa laya Ta tha ni vaa- - so-"
             },
             {
@@ -61,7 +61,7 @@
             },
             {
                 "line_number": 11,
-                "swara": "- , r M | P - N P || S S R | rs S S - ||",
+                "swara": "- - r M | P - N P || S S R | rs S S - ||",
                 "sahitya": "Kama laa laya Ta tha ni vaa- - so-"
             },
             {
@@ -121,7 +121,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "R, g M | R - pmgm || R S sn | P P nsrs || R - P | - pmM - M ||",
+                        "swara": "R- g M | R - pmgm || R S sn | P P nsrs || R - P | - pmM - M ||",
                         "sahitya": "Su var- naa kar--- sha navi- gh na raa- - jo Paa- daam - bu"
                     },
                     {
@@ -201,7 +201,7 @@
                     },
                     {
                         "line_number": 17,
-                        "swara": "p n p - s n r | s r - r g m r s - r || , s n p - S | n p m - r g m r s ||",
+                        "swara": "p n p - s n r | s r - r g m r s - r || - s n p - S | n p m - r g m r s ||",
                         "sahitya": "p n p tha dhi mi ta ri r g m r s Jham - ta ri ta S n p m ta dhi gi na thom"
                     }
                 ]

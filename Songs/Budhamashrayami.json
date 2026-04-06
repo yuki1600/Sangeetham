@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "S - - - N N S rg rS , D N S - dn | P- N | - - S R G ||",
+                "swara": "S - - - N N S rg rS - D N S - dn | P- N | - - S R G ||",
                 "sahitya": "tam - - Sura Vinu tham Chan-dra Taa - raa - Su tham-"
             },
             {
@@ -36,7 +36,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "S - - - N N S rg rS , D N S - dn | P- N | - - S R G ||",
+                "swara": "S - - - N N S rg rS - D N S - dn | P- N | - - S R G ||",
                 "sahitya": "tam - - Sura Vinu tham Chan-dra Taa - raa - Su tham-"
             },
             {
@@ -51,7 +51,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "M - mgG M - - - gmdn Srs nd mpgr | S mg | sn- D , N , ||",
+                "swara": "M - mgG M - - - gmdn Srs nd mpgr | S mg | sn- D - N - ||",
                 "sahitya": "Bu- dha maa - - shra yaa-- - - - mi- - Sa - ta -"
             },
             {
@@ -61,7 +61,7 @@
             },
             {
                 "line_number": 11,
-                "swara": "M - mgG M - - - gmdn Srs nd mpgr | S mg | sn- D , N , ||",
+                "swara": "M - mgG M - - - gmdn Srs nd mpgr | S mg | sn- D - N - ||",
                 "sahitya": "Bu- dha maa - - shra yaa-- - - - mi- - Sa - ta -"
             },
             {
@@ -83,7 +83,7 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "mg S - S S N S - - - nDn S - | sd N | nd D - ,m ||",
+                "swara": "mg S - S S N S - - - nDn S - | sd N | nd D - -m ||",
                 "sahitya": "Bu- - - dha ja- nair - - Ve- - - - di- - tham - - - -"
             },
             {
@@ -93,7 +93,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "sn S - S S N S - - - nDn S - | sd N | nd D - ,m ||",
+                "swara": "sn S - S S N S - - - nDn S - | sd N | nd D - -m ||",
                 "sahitya": "Bu- - - dha ja- nair - - Ve- - - - di- - tham - - - -"
             },
             {
@@ -103,7 +103,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "sn S - S S N S - - - gmdn S rsS | D- N | nd D - ,m ||",
+                "swara": "sn S - S S N S - - - gmdn S rsS | D- N | nd D - -m ||",
                 "sahitya": "Bu- - - dha ja- nair - - Ve- - - - - di- tham - - - -"
             },
             {
@@ -113,7 +113,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "sn rs ndsn dmnd mgmp gr S gmdn S rsS | D- N | nd D - ,m ||",
+                "swara": "sn rs ndsn dmnd mgmp gr S gmdn S rsS | D- N | nd D - -m ||",
                 "sahitya": "Bu- - dha-- ja- -- nair - - - - Ve- - - - - di tham - - - -"
             },
             {
@@ -123,7 +123,7 @@
             },
             {
                 "line_number": 9,
-                "swara": "s n s n N- S rg rS, - ss nDn S dn S ssnd | M mm | gs- S R G ||",
+                "swara": "s n s n N- S rg rS- - ss nDn S dn S ssnd | M mm | gs- S R G ||",
                 "sahitya": "Ma-dhu- ra Ka vi-taa- - pra- dam- - Ma-ha nee-- ya Am- - - pa dam-"
             },
             {
@@ -147,17 +147,17 @@
                     },
                     {
                         "line_number": 2,
-                        "swara": "- S S - S,n Dns Dnp N D NS | - sn | S R S - ||",
+                        "swara": "- S S - S-n Dns Dnp N D NS | - sn | S R S - ||",
                         "sahitya": "Gu ru- gu- ha-- Mu- daa- - - - kri- thim- - -"
                     },
                     {
                         "line_number": 3,
-                        "swara": "S - S ,n S - - - rgM mGs - - | - M | M - - M ||",
+                        "swara": "S - S -n S - - - rgM mGs - - | - M | M - - M ||",
                         "sahitya": "Ku ja-- Vai- - - ri -- nam- - - - Ma ni - - ma"
                     },
                     {
                         "line_number": 4,
-                        "swara": "MN D - Dnd Mdm Gmg GR S - | S,n | D,n S - ||",
+                        "swara": "MN D - Dnd Mdm Gmg GR S - | S-n | D-n S - ||",
                         "sahitya": "ku- ta- Haa-- ra--- Ke-- - - - - yu- - - ram"
                     },
                     {
@@ -167,7 +167,7 @@
                     },
                     {
                         "line_number": 6,
-                        "swara": "NR S - S - srN D - Dns ndN | P - nd | , N , S - ||",
+                        "swara": "NR S - S - srN D - Dns ndN | P - nd | - N - S - ||",
                         "sahitya": "Ka- ma- nee- - - ya- ta- - ra - - - Mi thu nam"
                     },
                     {
@@ -177,7 +177,7 @@
                     },
                     {
                         "line_number": 8,
-                        "swara": "NR S - NS srN D - dn Srs ndN | P - nd | , N , S - ||",
+                        "swara": "NR S - NS srN D - dn Srs ndN | P - nd | - N - S - ||",
                         "sahitya": "Ka- ma- nee- - - ya- ta- - - - ra - - - Mi thu nam"
                     },
                     {
@@ -187,27 +187,27 @@
                     },
                     {
                         "line_number": 10,
-                        "swara": "NS N D M - nd M - mg S ,s nDn | S,n | rgM mGs ||",
+                        "swara": "NS N D M - nd M - mg S -s nDn | S-n | rgM mGs ||",
                         "sahitya": "Ka- - - ram- - - - - Na- pum- - - - sa-- kam- - -"
                     },
                     {
                         "line_number": 11,
-                        "swara": "S - ss nd ns nDNp dsnn D - nDn S- ss | nd N | S rg r S , ||",
+                        "swara": "S - ss nd ns nDNp dsnn D - nDn S- ss | nd N | S rg r S - ||",
                         "sahitya": "Kin ka-ra- Ja- na- - - Ma-hi- tham Kil-- bi shaa-- di Rahi- tam-"
                     },
                     {
                         "line_number": 12,
-                        "swara": "nrss S ss nd ns nDNp dsnn D - nDn S- nsrs | nd N | S rg r S , ||",
+                        "swara": "nrss S ss nd ns nDNp dsnn D - nDn S- nsrs | nd N | S rg r S - ||",
                         "sahitya": "Kin - ka-ra- Ja- na- - - Ma-hi- tham Kil-- bi shaa-- di Rahi- tam-"
                     },
                     {
                         "line_number": 13,
-                        "swara": "N S S mg S - s s n d N - dn S - ss | nd M | , mg S R G ||",
+                        "swara": "N S S mg S - s s n d N - dn S - ss | nd M | - mg S R G ||",
                         "sahitya": "Shan kara- Bha- ktha Hi- tam Sa-daa - nan -- da -sa- hi tam-"
                     },
                     {
                         "line_number": 14,
-                        "swara": "N S rgmp mg S s s n d N - dn sr nsrs ss | nd M | , mg S R G ||",
+                        "swara": "N S rgmp mg S s s n d N - dn sr nsrs ss | nd M | - mg S R G ||",
                         "sahitya": "Shan kara- Bha- ktha Hi- tam Sa-daa - -- nan -- da -sa- hi tam- (budhamashrayami)"
                     }
                 ]

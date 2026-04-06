@@ -11,7 +11,7 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "snD DN S - - - | - - - - - - , p D ||",
+                "swara": "snD DN S - - - | - - - - - - - p D ||",
                 "sahitya": "De- - - vi - - - - - - - - - Amba"
             },
             {
@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "mdpm GR G - M - | P - d m- dp - dn , dn , ||",
+                "swara": "mdpm GR G - M - | P - d m- dp - dn - dn - ||",
                 "sahitya": "Then- - Madu rai vaal Mee na- Lo- cha- ni - -"
             },
             {
@@ -41,7 +41,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "srgr sndn snsr , s - | d n r- Srs nD,- P M - - - ||",
+                "swara": "srgr sndn snsr - s - | d n r- Srs nD-- P M - - - ||",
                 "sahitya": "De- - - vi - - - Nee- ye-- Thu nai- - - -"
             },
             {
@@ -51,44 +51,44 @@
             },
             {
                 "line_number": 9,
-                "swara": "(\u201csrsnD-\u201d)",
+                "swara": "(“srsnD-”)",
                 "sahitya": "De- - - vi - - - - - - - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "S g rs N \u2013 S R , r - - | - - - - rsS - - ||",
+                "swara": "S g rs N - S R - r - - | - - - - rsS - - ||",
                 "sahitya": "De- vaa- di De van Sun - - - - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "S g rs N \u2013 S R , r - S | , r G gr R rs S - - ||",
+                "swara": "S g rs N - S R - r - S | - r G gr R rs S - - ||",
                 "sahitya": "De- vaa- di De van Sun - - da re-- san- - -"
             },
             {
                 "line_number": 3,
-                "swara": "n srG rs N \u2013 S R , r - G | - G gr R rs S - - ||",
+                "swara": "n srG rs N - S R - r - G | - G gr R rs S - - ||",
                 "sahitya": "De- vaa- - di De van Sun - - da re-- san- - -"
             },
             {
                 "line_number": 4,
-                "swara": "n srG rs N \u2013 S R , r - G | - gp mg R R - gs - ||",
+                "swara": "n srG rs N - S R - r - G | - gp mg R R - gs - ||",
                 "sahitya": "De- vaa- - di De van Sun - - da re-- san- - -"
             },
             {
                 "line_number": 5,
-                "swara": "S , r G \u2013 R snD \u2013 D N R | - sn D \u2013 D DM , n S ||",
+                "swara": "S - r G - R snD - D N R | - sn D - D DM - n S ||",
                 "sahitya": "Chi- tham Ka var- Bhu vana - Sun - da ri - Amba"
             },
             {
                 "line_number": 6,
-                "swara": "S , sr G \u2013 R snD \u2013 D N R | - sn D \u2013 D DM , n S ||",
+                "swara": "S - sr G - R snD - D N R | - sn D - D DM - n S ||",
                 "sahitya": "Chi- tham Ka var- Bhu vana - Sun - da ri - Amba"
             },
             {
                 "line_number": 7,
-                "swara": "srs- r G \u2013 R snD \u2013 D N R | sr sn D \u2013 D DM , n S ||",
+                "swara": "srs- r G - R snD - D N R | sr sn D - D DM - n S ||",
                 "sahitya": "Chi- tham Ka var- Bhu vana Sun - da ri - Amba"
             }
         ],
@@ -97,32 +97,32 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "d P \u2013 m - P M - pdpd | N D mP , - , g , rg m ||",
-                        "sahitya": "Mala ya Dwa jan Ma-- dhava me \u2013 - - - - -"
+                        "swara": "d P - m - P M - pdpd | N D mP - - - g - rg m ||",
+                        "sahitya": "Mala ya Dwa jan Ma-- dhava me - - - - - -"
                     },
                     {
                         "line_number": 2,
-                        "swara": "d P \u2013 m - P M - pdpd | N D mP , mdpm G rg ||",
-                        "sahitya": "Mala ya Dwa jan Ma-- dhava me \u2013 Kaa\u2014n cha na-"
+                        "swara": "d P - m - P M - pdpd | N D mP - mdpm G rg ||",
+                        "sahitya": "Mala ya Dwa jan Ma-- dhava me - Kaa—n cha na-"
                     },
                     {
                         "line_number": 3,
-                        "swara": "M- M- , d P - P \u2013 dp | D - drsn D - P - - ||",
+                        "swara": "M- M- - d P - P - dp | D - drsn D - P - - ||",
                         "sahitya": "Maa lai Mu thal vi Ma ha- ra - - gni - -"
                     },
                     {
                         "line_number": 4,
-                        "swara": "- ns , d N S S S S | - r r , S n rgrg R - ||",
+                        "swara": "- ns - d N S S S S | - r r - S n rgrg R - ||",
                         "sahitya": "Alai magal Kalai maghal Pani Kee- rvaa- ni"
                     },
                     {
                         "line_number": 5,
-                        "swara": "- n rsS - d N S S rg rs S | , pd nsrg \u2013 rs S rgrg R - ||",
+                        "swara": "- n rsS - d N S S rg rs S | - pd nsrg - rs S rgrg R - ||",
                         "sahitya": "Alai magal Kalai maghal Pani Kee- rvaa- ni"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- sr , g R snD \u2013 D N R | - D , n D M \u2013p D N ||",
+                        "swara": "- sr - g R snD - D N R | - D - n D M -p D N ||",
                         "sahitya": "Amu dana ya-- I niye - Mu thamizh - Va lartthai"
                     }
                 ]

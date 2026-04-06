@@ -26,7 +26,7 @@
             },
             {
                 "line_number": 4,
-                "swara": "R R gm P P P || mpdn S, n sn D sn P ||",
+                "swara": "R R gm P P P || mpdn S- n sn D sn P ||",
                 "sahitya": "A ru na cha la naa tham ---"
             },
             {
@@ -88,7 +88,7 @@
                     {
                         "line_number": 4,
                         "swara": "mpgr gmR - - ||",
-                        "sahitya": "He is like the bee(\u201cbrungam\u201d) hovering over the lotus-like (\u201cabja\u201d) Aparna-parvathi."
+                        "sahitya": "He is like the bee(“brungam”) hovering over the lotus-like (“abja”) Aparna-parvathi."
                     },
                     {
                         "line_number": 5,
@@ -98,7 +98,7 @@
                     {
                         "line_number": 6,
                         "swara": "sn D sn sr S - ||",
-                        "sahitya": "He is seated on a majestic (\u201carunothunga\u201d) bull (\u201cvrushathurangam\u201d)."
+                        "sahitya": "He is seated on a majestic (“arunothunga”) bull (“vrushathurangam”)."
                     },
                     {
                         "line_number": 7,
@@ -108,16 +108,16 @@
                     {
                         "line_number": 8,
                         "swara": "dpmr - gm R rrsn S ||",
-                        "sahitya": "He, especially dwells in the hearts (\u201cantarangam\u201d) of noble bhusuras (\u201cviprothamma\u201d). He is very"
+                        "sahitya": "He- especially dwells in the hearts (“antarangam”) of noble bhusuras (“viprothamma”). He is very"
                     },
                     {
                         "line_number": 9,
-                        "swara": "S S s s - p p , P p || dn S s n r s s n s r ||",
+                        "swara": "S S s s - p p - P p || dn S s n r s s n s r ||",
                         "sahitya": "Vi pro tha mma Vi she shaan tha ran gam Vee - ra Gu ru gu ha"
                     },
                     {
                         "line_number": 10,
-                        "swara": "D , p , p mp P - ||",
+                        "swara": "D - p - p mp P - ||",
                         "sahitya": "Thaa ra pra san gam"
                     },
                     {
@@ -127,7 +127,7 @@
                     },
                     {
                         "line_number": 12,
-                        "swara": "S r- n d p - p p , m m r ||",
+                        "swara": "S r- n d p - p p - m m r ||",
                         "sahitya": "So maa -gni Pa than - gam"
                     }
                 ]

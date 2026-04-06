@@ -11,22 +11,22 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "- - - P D , dp - M | mg R - - R PM P - ||",
+                "swara": "- - - P D - dp - M | mg R - - R PM P - ||",
                 "sahitya": "- - - Vi na- ra- - dha Naa- - - Ma na- vi -"
             },
             {
                 "line_number": 2,
-                "swara": "- - - P dn , dp - M | mg R - - R PM P - ||",
+                "swara": "- - - P dn - dp - M | mg R - - R PM P - ||",
                 "sahitya": "- - - Vi na- ra- - dha Naa- - - Ma na- vi -"
             },
             {
                 "line_number": 3,
-                "swara": "dNd P- P dn , dp - M | mg R - - R PM D - ||",
+                "swara": "dNd P- P dn - dp - M | mg R - - R PM D - ||",
                 "sahitya": "- - - Vi na- ra- - dha Naa- - - Ma na- vi -"
             },
             {
                 "line_number": 4,
-                "swara": "S - ,n- S N dp- - M | mg R - - R PM D - ||",
+                "swara": "S - -n- S N dp- - M | mg R - - R PM D - ||",
                 "sahitya": "- - - Vi na- ra- - dha Naa- - - Ma na- vi -"
             },
             {
@@ -68,12 +68,12 @@
             },
             {
                 "line_number": 3,
-                "swara": "ndnd pm - D N S - S | ns rs R- S rg , -rs S- sn ||",
+                "swara": "ndnd pm - D N S - S | ns rs R- S rg - -rs S- sn ||",
                 "sahitya": "Sri- - - - Ka na kaa - nga Kaa- - ve- ti - ran - ga-"
             },
             {
                 "line_number": 4,
-                "swara": "ndnd pm - N S R S rg | gMg R- sr R , -sr - S ||",
+                "swara": "ndnd pm - N S R S rg | gMg R- sr R - -sr - S ||",
                 "sahitya": "Sri- - - - Ka na kaa - nga Kaa- - ve- ti - ran - ga-"
             },
             {
@@ -93,22 +93,22 @@
             },
             {
                 "line_number": 8,
-                "swara": "- - - , s , s S - S | S - - - - - - - ||",
+                "swara": "- - - - s - s S - S | S - - - - - - - ||",
                 "sahitya": "- - - Bhaa gade - ya Vai- - - - - - -"
             },
             {
                 "line_number": 9,
-                "swara": "dNd dpM- S ,s- S - S | S - - dr S S - S ||",
+                "swara": "dNd dpM- S -s- S - S | S - - dr S S - S ||",
                 "sahitya": "Bho-- ga- - Bhaagade - ya Vai- - Bho- garan - ga"
             },
             {
                 "line_number": 10,
-                "swara": "ndnd pm- S ,s- S - S | ns rs R- S rg , -rs S - S ||",
+                "swara": "ndnd pm- S -s- S - S | ns rs R- S rg - -rs S - S ||",
                 "sahitya": "Sri - - - - Bhaagade - ya Vai- - Bho- ga- ran - ga"
             },
             {
                 "line_number": 11,
-                "swara": "ndnd pm - N S R S rg | gMg R- sr R , -sr - S ||",
+                "swara": "ndnd pm - N S R S rg | gMg R- sr R - -sr - S ||",
                 "sahitya": "Sri - - - - Bhaagade - ya Vai- - Bho- ga- ran - ga"
             },
             {

@@ -11,22 +11,22 @@
         "pallavi": [
             {
                 "line_number": 1,
-                "swara": "N S G R G - M P M | P D m P , pm G R S ||",
+                "swara": "N S G R G - M P M | P D m P - pm G R S ||",
                 "sahitya": "E - naa- ti No - mu Phala mo!- - - - - - -"
             },
             {
                 "line_number": 2,
-                "swara": "rn S G R G - M P M | P D m P , m n d p m g r s ||",
+                "swara": "rn S G R G - M P M | P D m P - m n d p m g r s ||",
                 "sahitya": "E - naa- ti No - mu Phala mo!- - - - - - -"
             },
             {
                 "line_number": 3,
-                "swara": "rn S G R G - M P M | P D m P , - - - - ||",
+                "swara": "rn S G R G - M P M | P D m P - - - - - ||",
                 "sahitya": "E - naa- ti No - mu Phala mo!- - - - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "N , d P - p n d p G M | pmG - R - r g m g g r r s ||",
+                "swara": "N - d P - p n d p G M | pmG - R - r g m g g r r s ||",
                 "sahitya": "E - - Daa- - - na - Bala mo!- - - - - - - - - - - -"
             },
             {
@@ -51,24 +51,24 @@
             },
             {
                 "line_number": 9,
-                "swara": "rn S Mpm gr G - M P M | P D m P , - - - - ||",
+                "swara": "rn S Mpm gr G - M P M | P D m P - - - - - ||",
                 "sahitya": "E - naa- ti No - mu Phala mo!- - - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- d n , S , S , - s - S | N R S N N D P - ||",
+                "swara": "- d n - S - S - - s - S | N R S N N D P - ||",
                 "sahitya": "Sri- -naa- tha! Bra - hma kai - na nu Nee- du"
             },
             {
                 "line_number": 2,
-                "swara": "- d n , s r s rmgr , - s - S | N G R S N D P - ||",
+                "swara": "- d n - s r s rmgr - - s - S | N G R S N D P - ||",
                 "sahitya": "Sri- -naa- tha! Bra - hma kai - na nu Nee- du"
             },
             {
                 "line_number": 3,
-                "swara": "- d n , s r s rmgr , - s - S | N S R,g rS , N D P - ||",
+                "swara": "- d n - s r s rmgr - - s - S | N S R-g rS - N D P - ||",
                 "sahitya": "Sri- -naa- tha! Bra - hma kai - na - nu - Nee- du"
             },
             {
@@ -78,7 +78,7 @@
             },
             {
                 "line_number": 5,
-                "swara": "- d n , s r s rmgr , - s - S | N S R,g rS , N D P - ||",
+                "swara": "- d n - s r s rmgr - - s - S | N S R-g rS - N D P - ||",
                 "sahitya": "Sri- -naa- tha! - Bra - hma kai - na - nu - Nee- du"
             },
             {
@@ -92,7 +92,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "N - D P - P , -g M | P - M - M G R G M ||",
+                        "swara": "N - D P - P - -g M | P - M - M G R G M ||",
                         "sahitya": "Sun dare - sha! - Sugu na Brun - da ! Dasha ratha"
                     },
                     {
@@ -102,7 +102,7 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "r s N D P - P , -d P | M - P - M G R G M ||",
+                        "swara": "r s N D P - P - -d P | M - P - M G R G M ||",
                         "sahitya": "Sun dare - sha! - Sugu na Brun - da ! Dasha ratha"
                     },
                     {

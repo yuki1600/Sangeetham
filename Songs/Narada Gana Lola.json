@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Narada Gana Lola",
         "raga": "Atana",
-        "arohanam": "S R\u2082 M\u2081 P N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2082 P M\u2081 P G\u2083 R\u2082 S ||",
+        "arohanam": "S R₂ M₁ P N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₂ P M₁ P G₃ R₂ S ||",
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
@@ -21,12 +21,12 @@
             },
             {
                 "line_number": 3,
-                "swara": "sn P | mr pm R S || rmrm | pm \u2013 pn pn sr ||",
+                "swara": "sn P | mr pm R S || rmrm | pm - pn pn sr ||",
                 "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
             },
             {
                 "line_number": 4,
-                "swara": "sn pd | n - p m r gg rs || rm Pdp | pm \u2013 pd ps pr ||",
+                "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
                 "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
             },
             {
@@ -38,12 +38,12 @@
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- mp | , d P S S || S - | snrs D - ||",
+                "swara": "- mp | - d P S S || S - | snrs D - ||",
                 "sahitya": "ni- rada sa ma ni - - - - la-"
             },
             {
                 "line_number": 2,
-                "swara": "- mp | , d P S S || snrs | nSn D - ||",
+                "swara": "- mp | - d P S S || snrs | nSn D - ||",
                 "sahitya": "ni- rada sa ma ni - - - - la-"
             },
             {
@@ -68,7 +68,7 @@
             },
             {
                 "line_number": 7,
-                "swara": "sn pd | n - p m r gg rs || rm Pdp | pm \u2013 pd ps pr ||",
+                "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
                 "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
             },
             {
@@ -82,7 +82,7 @@
                 "lines": [
                     {
                         "line_number": 1,
-                        "swara": "- D | D - D - D || Pdn D | N \u2013 d n , p M ||",
+                        "swara": "- D | D - D - D || Pdn D | N - d n - p M ||",
                         "sahitya": "ni vu le - ka (y)e - - - tanu vu lu"
                     },
                     {
@@ -92,7 +92,7 @@
                     },
                     {
                         "line_number": 3,
-                        "swara": "- M | P \u2013 sn D \u2013 P || MpnPN | pm rm R S ||",
+                        "swara": "- M | P - sn D - P || MpnPN | pm rm R S ||",
                         "sahitya": "ni vu le- - ka (y)e - - ta- ru- vu lu"
                     },
                     {
@@ -102,12 +102,12 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "- M | P \u2013 S - S || snrs | nSn D D ||",
+                        "swara": "- M | P - S - S || snrs | nSn D D ||",
                         "sahitya": "ni vu le - ka (y)e- va-- na lu"
                     },
                     {
                         "line_number": 6,
-                        "swara": "- ns | , r S rm rm || sn R | S - S S ||",
+                        "swara": "- ns | - r S rm rm || sn R | S - S S ||",
                         "sahitya": "Ni- - tyamu ga - - ku - - ri - yu nu"
                     },
                     {
@@ -127,7 +127,7 @@
                     },
                     {
                         "line_number": 10,
-                        "swara": "sn pd | n - p m r gg rs || rm Pdp | pm \u2013 pd ps pr ||",
+                        "swara": "sn pd | n - p m r gg rs || rm Pdp | pm - pd ps pr ||",
                         "sahitya": "na- ta ja- na- pa ri pa- - - - la - - - - -"
                     },
                     {

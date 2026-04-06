@@ -31,19 +31,19 @@
             },
             {
                 "line_number": 5,
-                "swara": "gm D M mg R S || sn D D dm D gr || rs S S , r s r g m ||",
+                "swara": "gm D M mg R S || sn D D dm D gr || rs S S - r s r g m ||",
                 "sahitya": "Hee - na Maa - na va - - shra yam - Thya ja - - mi - - - - -"
             },
             {
                 "line_number": 6,
-                "swara": "d n s n d m \u2013 gm g r S || sn D D dm D gr || rs S S - - - ||",
+                "swara": "d n s n d m - gm g r S || sn D D dm D gr || rs S S - - - ||",
                 "sahitya": "Hee - na - Maa - - na va - - shra yam - Thya ja - - mi - - - - -"
             }
         ],
         "anupallavi": [
             {
                 "line_number": 1,
-                "swara": "- g M m D M ,d || M ,g M dm \u2013 D - ||",
+                "swara": "- g M m D M -d || M -g M dm - D - ||",
                 "sahitya": "Chi ra thara Sam pat h pra daam -"
             },
             {
@@ -53,7 +53,7 @@
             },
             {
                 "line_number": 3,
-                "swara": "- g M m D dn srs n || DM M dm \u2013 D - ||",
+                "swara": "- g M m D dn srs n || DM M dm - D - ||",
                 "sahitya": "Chi ra thara Sam pat h pra daam -"
             },
             {
@@ -68,7 +68,7 @@
             },
             {
                 "line_number": 6,
-                "swara": "s s s r s \u2013 n d \u2013 n s r S || m g r s r g r s r g M ||",
+                "swara": "s s s r s - n d - n s r S || m g r s r g r s r g M ||",
                 "sahitya": "Ka ra ka mala drutha ku valayaam Marakatha manimaya valayaam"
             }
         ],
@@ -78,7 +78,7 @@
                     {
                         "line_number": 1,
                         "swara": "S R S - S - || S S - nr s D - ||",
-                        "sahitya": "Swe - tha Dwee pa Vaa si neem \u2013"
+                        "sahitya": "Swe - tha Dwee pa Vaa si neem -"
                     },
                     {
                         "line_number": 2,
@@ -88,7 +88,7 @@
                     {
                         "line_number": 3,
                         "swara": "S R S - Srs S || S S - nsrs D - ||",
-                        "sahitya": "Swe - tha Dwee pa Vaa si neem \u2013"
+                        "sahitya": "Swe - tha Dwee pa Vaa si neem -"
                     },
                     {
                         "line_number": 4,
@@ -97,17 +97,17 @@
                     },
                     {
                         "line_number": 5,
-                        "swara": "D - M M - gr || R S ,n - S nsrs R ||",
+                        "swara": "D - M M - gr || R S -n - S nsrs R ||",
                         "sahitya": "Bhoo tha Bha - vya Vi laa - si- neem"
                     },
                     {
                         "line_number": 6,
-                        "swara": "s n s n R S sn D || N , S n - g r r s S ||",
+                        "swara": "s n s n R S sn D || N - S n - g r r s S ||",
                         "sahitya": "Bhoo su ra Poo - ji thaam Va raam"
                     },
                     {
                         "line_number": 7,
-                        "swara": "S - R G M - || M \u2013 M - dm D - ||",
+                        "swara": "S - R G M - || M - M - dm D - ||",
                         "sahitya": "Maa tha ram a bja maa li neem"
                     },
                     {
@@ -132,7 +132,7 @@
                     },
                     {
                         "line_number": 12,
-                        "swara": ", S s - g r S s n n d || d m m d d m g m g r S ||",
+                        "swara": "- S s - g r S s n n d || d m m d d m g m g r S ||",
                         "sahitya": "Peetha va sa naam gu ru guha maa- dhula kan- thaam lalithaam"
                     },
                     {
