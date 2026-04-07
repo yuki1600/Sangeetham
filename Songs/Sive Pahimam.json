@@ -99,11 +99,11 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 3",
             "content": [
                 {
                     "swara": "P g -M     ; - P         P  P        P ;  |  pmg-s    nd-P      pdpm      gr G     ||",
-                    "sahitya": "Ca r(A)  -  ca         ra-ma      yI -         ka--  r(A)\u2014ra     vin- -     da-mu"
+                    "sahitya": "Ca r(A)  -  ca         ra-ma      yI -         ka--  r(A)—ra     vin- -     da-mu"
                 },
                 {
                     "swara": "Gr-g     D pm         gr - R    S S |   Rg- rs    S - sn   S R  G   G  ||",
@@ -111,7 +111,7 @@
                 },
                 {
                     "swara": "P m -p      ; - P         pg  nd      P ;  |    pmg-rs    nd-P      pdpm      gr G     ||",
-                    "sahitya": "Ca r(A)    -  ca         ra-ma      yI -         ka--  r(A)\u2014ra     vin- -     da-mu"
+                    "sahitya": "Ca r(A)    -  ca         ra-ma      yI -         ka--  r(A)—ra     vin- -     da-mu"
                 },
                 {
                     "swara": "Gr-g     D pm         gr - rG,   rs S |   Rg- rs    S - sn   S R  G   M  ||",

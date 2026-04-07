@@ -9,7 +9,7 @@
     },
     "composition": [
         {
-            "section": "Charanam",
+            "section": "Charanam 3",
             "content": [
                 {
                     "swara": "S, Snpdnpmp g,-mrs |r,, s rs, r, -m, -p, -n ||",
@@ -17,15 +17,7 @@
                 },
                 {
                     "swara": "SnSR, -MRS nRSn, S-d, |nS,, -R nS d,, pmp-g,-mpn ||",
-                    "sahitya": "P: I pray (\u201cbhajEham\u201d) to shri mahAgaNapatim, who i s the son (\u201cAtmajam\u201d) of Shiva, and the elder"
-                },
-                {
-                    "swara": "; , p      , m - P    m P - g    , m P     |  r m  r m      R  s - n    P  , - n   p m p r  ||",
-                    "sahitya": "jnA     na   mu  drA-  lan    kr tam  mU- lA-     dhAra  ni  vA-   si   nam- - -"
-                },
-                {
-                    "swara": "S ; , n-r s  D ,n  , p M  |  P - pm     G   -  M    |  P ;       ; , - n  ||",
-                    "sahitya": "shrI  - -  ma-   hA-          gaNa      pa   tim-   -  -    bha     jE        - -   ga"
+                    "sahitya": "P: I pray (“bhajEham”) to shri mahAgaNapatim, who i s the son (“Atmajam”) of Shiva, and the elder"
                 }
             ]
         },
@@ -147,6 +139,19 @@
                 {
                     "swara": "nsnn      ; np ; ;  ; ;  |  ; ;        ; ;      |    ; ;          ;  ;   ||",
                     "sahitya": "ham- -   - - -  - -  - -     - -        - -           - -           - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 1",
+            "content": [
+                {
+                    "swara": "; , p      , m - P    m P - g    , m P     |  r m  r m      R  s - n    P  , - n   p m p r  ||",
+                    "sahitya": "jnA     na   mu  drA-  lan    kr tam  mU- lA-     dhAra  ni  vA-   si   nam- - -"
+                },
+                {
+                    "swara": "S ; , n-r s  D ,n  , p M  |  P - pm     G   -  M    |  P ;       ; , - n  ||",
+                    "sahitya": "shrI  - -  ma-   hA-          gaNa      pa   tim-   -  -    bha     jE        - -   ga"
                 }
             ]
         }

@@ -106,19 +106,11 @@
                 },
                 {
                     "swara": "N , d      ; N         P D         P dm  |  G R        N D  | P dm          G R  ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": ";  G  R S  ;  S  N D  | , s R     M P  | D  ;      ;  ;  || (repeat once)",
-                    "sahitya": ""
+                    "sahitya": ";  G  R S  ;  S  N D  | , s R     M P  | D  ;      ;  ;  || (repeat once)"
                 },
                 {
                     "swara": "N P  D - S  R S -      M P  |  M D     P - S | N D        R S  ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "dg R      ;  -  S       N D -  R  , s  | ; N    D  , p  |  ;  G     R sn  || (durusuga)",
-                    "sahitya": "Please show mercy quickly and make me always healthy and strong bodied."
+                    "sahitya": "dg R      ;  -  S       N D -  R  , s  | ; N    D  , p  |  ;  G     R sn  || (durusuga)"
                 },
                 {
                     "swara": "Pdr       sr-sn        D ;          D gr  | gr- sn        D D   |  ddpm    , p  D      ||",
@@ -135,7 +127,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 3",
             "content": [
                 {
                     "swara": "; dp       D  ;  ;  ;            P D   | S   sn         D - pm | G R        sn D   ||",

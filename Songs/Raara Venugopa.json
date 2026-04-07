@@ -27,7 +27,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "S  ,   r    G   G       G  ;  ;   rg  |       P ,    p      P  P        P ;        ;   dp  ||",
@@ -36,7 +36,12 @@
                 {
                     "swara": "S  , s     S  S      g  r  s  n  n d  P  |    p d p m  g  g  R     g  p  m g    r  s  r g  ||",
                     "sahitya": "Vindu    Raaraa  Sadamala    madi to    Mudamala   Raganaa  Keduruga Gadiyara"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "p  p  P      r  r   R     g  p m g    G  ;  |      g p  m  g      m g  r s     r g  r  s      S ;  ||",
                     "sahitya": "Palu maa Runugaa Ravamuna Nin-          Pilachina     Palukavu Nalugaku  raa-"
@@ -44,7 +49,12 @@
                 {
                     "swara": "r   s  n  d     S ;       m g  r g  P ;  |    d  p   d    r     S   ;     r s  n  d      p m  g  r  ||",
                     "sahitya": "Karivara    da -     Marimari    naa-     A dha ramu   gro -    La raka ni  Ka ra muga"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": "P  ;   m g  r g       D ;     m g  r g     |      P   ;       m g  r g     P   P     P  ;  ||",
                     "sahitya": "Raa    Nagadara    Raa   Mu rahara    Raa -     Bhavahara Raave       raa -"

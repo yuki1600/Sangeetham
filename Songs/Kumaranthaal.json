@@ -54,7 +54,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "; pp P , - d P - D  S , - s  | ;  S  ; ;  ; ;  ; ;  ||",
@@ -67,7 +67,12 @@
                 {
                     "swara": "; pd srg-  r S- sd d S,n - d | ; - pm pds - d P - ds  dp mp || ,m",
                     "sahitya": "Sam- haa- ram -  Sei-   dee-  -  ra  -  Sin-  gaa--  ra  -  Shan-  - - kara   - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "; P P , -  d P - D  S , - s  | ;  S  ; ;  ; ;  ; ;  ||",
                     "sahitya": "I  shan Val -   li       Dei va   - nai  - -  - -  - -"

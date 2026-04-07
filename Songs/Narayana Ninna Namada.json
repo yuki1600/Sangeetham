@@ -38,7 +38,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 4",
             "content": [
                 {
                     "swara": "; , g    , m gs  ; ,   || G  N     S  ;  S ||  gm P    P   mggs ;     || gm pn  mp ; ;  ||",
@@ -99,7 +99,12 @@
                 {
                     "swara": "P , g      ; M  P   ||   ; ;  ; ; ;    ||   ; ;  ; ; ;    ||",
                     "sahitya": "nA rA     yaNA      - -         - - -        - -           - - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 7",
+            "content": [
                 {
                     "swara": "; , g    , m gs  ; ,   || sg  N     S  ;  S ||  gm P    P   mggs ;     || gm pn  mp P ;  ||",
                     "sahitya": "San  ta ta - - -     ha  ri    nin  na   sA- -    si   ra - -da      nA- - - ma va"

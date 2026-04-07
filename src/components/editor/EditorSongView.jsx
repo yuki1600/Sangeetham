@@ -1862,6 +1862,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     avPerRow={avPerRow}
                                     pxPerSec={PX_PER_SEC}
                                     zoom={waveZoom}
+                                    onZoomChange={setWaveZoom}
                                 />
                             </div>
                         )}
@@ -1910,6 +1911,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     avPerRow={avPerRow}
                                     pxPerSec={PX_PER_SEC}
                                     zoom={waveZoom}
+                                    onZoomChange={setWaveZoom}
                                 />
                             </div>
                         )}

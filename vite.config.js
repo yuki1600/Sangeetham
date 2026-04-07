@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     allowedHosts: ['buck-monte-dispatch-berkeley.trycloudflare.com'],
     proxy: {
-      '/api': { target: 'http://localhost:3001', changeOrigin: true }
+      '/api': { target: `http://localhost:${process.env.SERVER_PORT || 3001}`, changeOrigin: true }
     }
   }
 })

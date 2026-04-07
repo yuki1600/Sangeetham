@@ -33,7 +33,7 @@
                 },
                 {
                     "swara": "; , r    , m-   M         P   ;           , n N  |       S ,  s       ; - pd  |  n rs - mn       ,  d   M         ||",
-                    "sahitya": "En  gum ni          rai  -           para      bhrammam     am   mA\u2014en           razhai"
+                    "sahitya": "En  gum ni          rai  -           para      bhrammam     am   mA—en           razhai"
                 },
                 {
                     "swara": "P ,      n    s n   P       mgG , -r     ; N   |       S   ;        ;  rs    |  mrpm             ndpm  ||",
@@ -41,7 +41,7 @@
                 },
                 {
                     "swara": "grs- r    , m-   P          N ;            , s R  |     srM gr - sn-pd   |  n rs - mn         ,  d   M         ||",
-                    "sahitya": "En  gum ni          rai  -           para      bhram- mam am     mA\u2014en         razhai"
+                    "sahitya": "En  gum ni          rai  -           para      bhram- mam am     mA—en         razhai"
                 },
                 {
                     "swara": "P ,      n    s n   P       mgG , -r     ; N   |       S   ;        ;  rs    |  mrpm             ndpm  ||",
@@ -49,7 +49,7 @@
                 },
                 {
                     "swara": "grs- r    , m-   P          N ;            , s R  |     srM gr - sn-pd   |  n rs - mn         ,  d   M         ||",
-                    "sahitya": "En  gum ni          rai  -           para      bhram- mam am     mA\u2014en         razhai"
+                    "sahitya": "En  gum ni          rai  -           para      bhram- mam am     mA—en         razhai"
                 },
                 {
                     "swara": "P ,      pn    S- n   P       mgG , -r     ; N   |       G   ;        ;  ;     |  ;  ;              ;  ;   ||",
@@ -95,7 +95,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "; mp      , n  S        R , s         G  R     |    ; p g        , r-  G       |  S  gr           sn  rsS  ||",
@@ -111,11 +111,11 @@
                 },
                 {
                     "swara": "N-nd     , D-n         D   , n       D nr        |    s S - n  , d M   |     P , - s      , s - nrss  ||",
-                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi kan     na  nai\u2014"
+                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi kan     na  nai—"
                 },
                 {
                     "swara": "N-nd     , D-n         D   , n       D nr        |    s S - n  , d M   |     P , -n       , n - nrss  ||",
-                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi kan     na  nai\u2014"
+                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi kan     na  nai—"
                 },
                 {
                     "swara": "N-nd     , D-n         D   , n       D nr        |    s S - n  , d M   |    P  ;            mpns    ||",
@@ -124,7 +124,12 @@
                 {
                     "swara": "r G  - s    ,  n   P        mgG , -r     ; N   |   S   ;        ;  ;     |   ;   ;     ;   ;    ||",
                     "sahitya": "En      na ta-      vam -  shei - da      nai  -       - -        - -         -  -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "n rs - np   ; np       mggr ;      , r M     |  P ,  n          ;   N     |     S ;                ;  ;  ||",
                     "sahitya": "sana kA-   di         yar - -       tava       yO- gam     -  shei        du"
@@ -155,7 +160,7 @@
                 },
                 {
                     "swara": "; , r    , m-   M         P   ;           , g R  |      gssn ,  s       ; - pd  |  n rs - n         ,  d   M         ||",
-                    "sahitya": "En  gum ni          rai  -           para       bhram-mam     am   mA\u2014en           razhai"
+                    "sahitya": "En  gum ni          rai  -           para       bhram-mam     am   mA—en           razhai"
                 },
                 {
                     "swara": "P ,      pn    S- n   P       mgG , -r     ; N   |       G   ;        ;  ;     |  ;  ;              ;  ;   ||",

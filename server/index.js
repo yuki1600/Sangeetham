@@ -16,5 +16,5 @@ app.use('/api/songs', songsRouter);
 app.use('/api/PDFs', express.static(path.join(__dirname, '../PDFs')));
 
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`Server running on :${PORT}`));

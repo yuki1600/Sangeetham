@@ -22,27 +22,37 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "hari hari anavO manasA||",
                     "sahitya": ""
                 },
                 {
-                    "swara": "vishNuvu vishnNuvani vedaka vO manasA ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "atchyuta atchyuta SaraNanavO manasa ||",
-                    "sahitya": "In thought (\u201cbhavamu-lona\u201d) and action (\u201cbahyamunandunu\u201d) chant (\u201ckoluva\u201d) \"Govinda,\" oh my"
-                },
-                {
                     "swara": "hari hari anavO manasA||",
                     "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
+                {
+                    "swara": "vishNuvu vishnNuvani vedaka vO manasA ||",
+                    "sahitya": ""
                 },
                 {
                     "swara": "vishNuvu vishnNuvani vedaka vO manasA ||",
                     "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
+                {
+                    "swara": "atchyuta atchyuta SaraNanavO manasa ||",
+                    "sahitya": "In thought (“bhavamu-lona”) and action (“bahyamunandunu”) chant (“koluva”) \"Govinda,\" oh my"
                 },
                 {
                     "swara": "atchyuta atchyuta SaraNanavO manasa ||",

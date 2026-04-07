@@ -46,7 +46,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "; , m  mm-M  M M  , m M  |    M  dp     G R     S ,r  M M  ||",
@@ -91,7 +91,12 @@
                 {
                     "swara": "D - ng  , r S  S rn n d   P  |  ;  mp dp -sn dp- mp dp-mg || rs",
                     "sahitya": "-     Bala   ripu  Gaa-- chi na       Paa - -   da - -   mu    -- - -     - -  (brahma)"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "; , m  , m-M  M ;  M M  |  M  dp      mG, R-    r S r     M M  ||",
                     "sahitya": "Kaa - mi ni    Paa-  pa mu    Ga di-     gi -   na    Paa--    da mu"
@@ -123,7 +128,12 @@
                 {
                     "swara": "D - ng  , r S  S rn ,  n   dd  |  ;  dp  , d S sndp  mpmg ||  rs",
                     "sahitya": "-    Paa-   mi di    Tura- - ga  pu     - Paa- - -  da mu- -  - - - -       -- (brahma)"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": ";  m m , m   M  ; dp mG, gr  | gs - r  m     , p P     pm -  N      , d  P   ||",
                     "sahitya": "Para - ma Yo - gu la -   ku    --    Pari      - Pa ri   Vi-   dha     -mula"

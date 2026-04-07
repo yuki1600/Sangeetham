@@ -22,12 +22,17 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "S R     sn - N    S - n d D -N   |    dp-  P       D - mg    s M  -g       mp   dn   ||",
                     "sahitya": "nIvE   guru dai vam bani     yE vE      Lanu sE     vim pucu sadA mi    dini shiva"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "s  r  s    n    S  ;       n s-  n d       N ;   |    d n   d p     D ;       p d  p m      P  ;   ||",
                     "sahitya": "parama da  yA-    nidhi vanu     cu -      maruvaka   nA -    hrdayamu    na"
@@ -35,11 +40,21 @@
                 {
                     "swara": "s    s    s s     m m   m m    P  p p     D d d  |   n s n s    N  d p   d p    m g     m p  d n  ||",
                     "sahitya": "mahAdEva mahAprabhO sundara  nayaka  suravara dAyaka bhavabhaya harashiva"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": "d s     n d     p m g m     P ;       p d n d   |    p m- g g     M ;       p n d n      d -p d n   ||",
                     "sahitya": "sthira madu rApuramu  na       varamulo  sagu haru      ni        niratamu   nu dalaci"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 4",
+            "content": [
                 {
                     "swara": "S ;   ; s n   n d - d  p     p m m g  |   M ;       ;  p d       nd m-g  m p d n  ||",
                     "sahitya": "shrI       shubha kara shashi makuTadha  ra          jaya     vijaya tri purahara"

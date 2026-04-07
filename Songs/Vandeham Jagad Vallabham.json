@@ -22,16 +22,26 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "karuNAbharaNam kalayAmi SaraNam ||",
                     "sahitya": ""
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "kundam yadukulam gOpa gOvindam ||",
                     "sahitya": ""
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": "SyAmalam kOmalam SAnta murtim ||",
                     "sahitya": "http://www.sangeetasudha.org/annamacharya/vol4/k7.html#MARK_VANDEHAM"

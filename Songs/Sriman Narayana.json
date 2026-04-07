@@ -17,7 +17,7 @@
                 },
                 {
                     "swara": "SreemannArAyaNa nee Sree pAdamE SaraNu ||",
-                    "sahitya": "Oh Sriman nArayaNa \u2026"
+                    "sahitya": "Oh Sriman nArayaNa …"
                 },
                 {
                     "swara": "S    ,s    ;  s r     G   ;  G   G  |      ;  ;               ;  ;            ;  ;            ;   ;   ||",
@@ -74,19 +74,15 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "kamala nAbha nee pada kamalamE SaraNu ||",
                     "sahitya": ""
                 },
                 {
-                    "swara": "tiru venkaTagiri dEvA SaraNu  ||",
-                    "sahitya": ":"
-                },
-                {
                     "swara": "kamala nAbha nee pada kamalamE SaraNu ||",
-                    "sahitya": "You are like the Sun (\u201ckamalAsatee\u201d) to your lotus faced (\u201cmukha Kamala\u201d) consort Kamala.."
+                    "sahitya": "You are like the Sun (“kamalAsatee”) to your lotus faced (“mukha Kamala”) consort Kamala.."
                 },
                 {
                     "swara": "; - G         P  ;      , d P     |  p P - p ; -D P  P  P G ||",
@@ -135,10 +131,19 @@
                 {
                     "swara": "G  ||",
                     "sahitya": "Sreeman - -   nA     rA -ya   Na nee   Sree - pA      -    da          mE  Sa  ra    Nu"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
+                {
+                    "swara": "tiru venkaTagiri dEvA SaraNu  ||",
+                    "sahitya": ":"
                 },
                 {
                     "swara": "tiru venkaTagiri dEvA SaraNu  ||",
-                    "sahitya": "You are the ultimate destination (\u201cbhAga dhEya\u201d) to the supreme (\u201cparama\u201d) sages (\u201cyOgijana\u201d)."
+                    "sahitya": "You are the ultimate destination (“bhAga dhEya”) to the supreme (“parama”) sages (“yOgijana”)."
                 },
                 {
                     "swara": "; - r s  ,  r - G   ;  G  G  G  | ;  , - r     , g  - P        ;  P         ; P  ||",

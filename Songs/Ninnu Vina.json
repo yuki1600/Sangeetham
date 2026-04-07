@@ -140,7 +140,12 @@
                 {
                     "swara": "gMg  m    D m  ; - dn  || S ,  n    d pm M pm g- r s n ||",
                     "sahitya": "Chaa pa   mu    -   Sal-     lla- -   pa - -  mu-  - - gala - {Ninnu Vina}"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "; sp  ppmm G  , r S  || ; rSr - sn D  N S  ||",
                     "sahitya": "Karu naa - -  -    rasa     Pari-  pu- - - rna"
@@ -164,7 +169,12 @@
                 {
                     "swara": "s  r pmM  G ;  ;  g      m  || dn S  ,r S n dP mG r S ||",
                     "sahitya": "Va-ra-     daa -     -  Mru du   Vaar-  -tha-lu- Ga- la-"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": "; r g    ,  rr - G      R G  || R nn dD,- N     D N  ||",
                     "sahitya": "Raa- - ga   Ra     si  ka!    Raa--    ga-   Ra     hi ta!"

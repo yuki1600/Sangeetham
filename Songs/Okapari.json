@@ -68,7 +68,7 @@
                     "sahitya": "Oka   pari  ko - ka-    pa-  ri-    oi -    yaa     -  ra  mai - -"
                 },
                 {
-                    "swara": "Eduppu at \u00bd beat (i.e. 2 aksharas).The laya procee ds as 2-6-4-4 | 6-2-4-4 || The 6s amidst the 4s add  variety and odd",
+                    "swara": "Eduppu at ½ beat (i.e. 2 aksharas).The laya procee ds as 2-6-4-4 | 6-2-4-4 || The 6s amidst the 4s add  variety and odd",
                     "sahitya": "counts in the progression: each of the 6s is broken  into two 3s (dN-dP and Rg-M, ). The overall idea i s to mix 2-6s with 4-4 to fill up"
                 },
                 {
@@ -96,8 +96,8 @@
                     "sahitya": "Moka - muna  kaLa le -  lla    mo li ci    - -  n a TluN-     --   DE"
                 },
                 {
-                    "swara": "The laya proceeds as 2-6-6-2 | 6-2-4-4 || Note the increased emphasis on the 2+6 pattern in the first half (\u201ckaLalella\u201d)",
-                    "sahitya": "instead of the 4-4 (\u201ckokapari\u201d) in the prior sahity a line."
+                    "swara": "The laya proceeds as 2-6-6-2 | 6-2-4-4 || Note the increased emphasis on the 2+6 pattern in the first half (“kaLalella”)",
+                    "sahitya": "instead of the 4-4 (“kokapari”) in the prior sahity a line."
                 },
                 {
                     "swara": "p- gR gS   |  rg - mp    d sn  D P ;  ; ;  ||",
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": ",  | R- gR,     , g M      M - P         ,  p  P  ||",
@@ -184,6 +184,75 @@
                     "swara": ", nd  P mp Dnd      p- gR gS   |  r G - m      ; M ; P  ; ;  ||",
                     "sahitya": "- -  Oka     pa-ri  ko - ka-      -   pa-  ri-     oi -   yaa    - ra - mai  - -"
                 },
+                {
+                    "swara": ", | R- gR,     , g M      M - P         ,  p  P  ||",
+                    "sahitya": "Jaga -dE ka    pati  - mE - -   na jal-     - lin a      kaT  poo     - ra doo"
+                },
+                {
+                    "swara": ": 2-6-2-6 | 2-6-2-6  || Note the repetitive symmetr y after the edduppu: 6-2 = ”tha-dheem-tha-dheem-Tha ” in “jagadE-ka”,",
+                    "sahitya": "“patimE-na”, “jallina-kaT”, ”pooradoo-Li”. Since th e words straddle this pattern (eg: “jagadEkapati” a nd “kaTpoora”) it is"
+                },
+                {
+                    "swara": ", | R- gR,     , g M      M - P         ,  p  Pdp  ||",
+                    "sahitya": "Li  Jaga -dE ka    pati  - mE - -   na jal-     - l ina      kaT  poo     - ra doo"
+                },
+                {
+                    "swara": ",  M - gmP   , mgG  , | rs - gR,      , g M      M - P         ,  p  Pdp  ||",
+                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina      kaT  poo     - ra doo"
+                },
+                {
+                    "swara": ",  M      - gmP   , mgG  , | rs - gR,      , g M      M - pd         sn   d  P  ||",
+                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina      kaT  poo        -   ra  doo"
+                },
+                {
+                    "swara": "R S  |  r  g   M  n n d p       mp M  P ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
+                },
+                {
+                    "swara": ": 2-6-6-2 | 4-4-4-4  || Note slight change in patte rn, but keeps the overall idea of mixing 2-6 with 4 -4 to fill up lengths of 8",
+                    "sahitya": "and comes back to samam every second beat."
+                },
+                {
+                    "swara": "R S  |  r  g   M  n d pdS        n d P   ; ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
+                },
+                {
+                    "swara": "M P  |  M P  D N      N S    ; ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda  gaa      nu -         - -"
+                },
+                {
+                    "swara": "S S  ;  ;  |    ; ;   ; ;  ; ;  SR ||",
+                    "sahitya": "mogi can     - dra-    mugi   - -       - -   - -  - -  - -"
+                },
+                {
+                    "swara": ": 6-2-4-4 | 4-4-4-4  || Also start on samam instead  of the usual ½ beat eduppu.",
+                    "sahitya": "gR -   sn"
+                },
+                {
+                    "swara": "N-  D,n      S S    ; ;  |    ; ;   ; ;  ; ;  S R ||",
+                    "sahitya": "mogi can      -   dra-    mugi   - -       - -   - -  - -  - -"
+                },
+                {
+                    "swara": ": 6-2-5-3 | 6-2-4-4  || Note the use of 5-3 at the end of the first half. It simulates an “ateeta” edu ppu for the second half.",
+                    "sahitya": "Still maintains the idea of samam every 2 beats (i. e. 8 aksharas)."
+                },
+                {
+                    "swara": "N-  D,n      rn S    , s N  |    G , r  ; R  gmgr  g r  sr ||",
+                    "sahitya": "mogi can      -   dra-    mugi  - u ra     mu-na  -  ni li -pE- gaa-na-"
+                },
+                {
+                    "swara": "nr s-    , n D  |  pd n-  n   d p - M   G R  gm P ||",
+                    "sahitya": "pogaru   - ven  ne-  la- -     dee ga   pO  - si - -      na   TliN    DE- -"
+                },
+                {
+                    "swara": ": 6-2-5-3 | 6-2-4-4  || The pattern of the previous  line continues.",
+                    "sahitya": "d  n R  ; N S,n"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": ",  | R ;  ; ;  ; ;  ; rg ||",
                     "sahitya": "meRa   -ya -  shree venka- TE  - -     su -  - -  - -  - - -"
@@ -251,70 +320,6 @@
                 {
                     "swara": "; nd pm - pd   , p  ;   ; ;  |  ; ;  ; ;  ; ;  ; ;  ||",
                     "sahitya": "- mai - -      - -     -   -       - -   - -  --   - -  - -"
-                },
-                {
-                    "swara": ", | R- gR,     , g M      M - P         ,  p  P  ||",
-                    "sahitya": "Jaga -dE ka    pati  - mE - -   na jal-     - lin a      kaT  poo     - ra doo"
-                },
-                {
-                    "swara": ": 2-6-2-6 | 2-6-2-6  || Note the repetitive symmetr y after the edduppu: 6-2 = \u201dtha-dheem-tha-dheem-Tha \u201d in \u201cjagadE-ka\u201d,",
-                    "sahitya": "\u201cpatimE-na\u201d, \u201cjallina-kaT\u201d, \u201dpooradoo-Li\u201d. Since th e words straddle this pattern (eg: \u201cjagadEkapati\u201d a nd \u201ckaTpoora\u201d) it is"
-                },
-                {
-                    "swara": ", | R- gR,     , g M      M - P         ,  p  Pdp  ||",
-                    "sahitya": "Li  Jaga -dE ka    pati  - mE - -   na jal-     - l ina      kaT  poo     - ra doo"
-                },
-                {
-                    "swara": ",  M - gmP   , mgG  , | rs - gR,      , g M      M - P         ,  p  Pdp  ||",
-                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina      kaT  poo     - ra doo"
-                },
-                {
-                    "swara": ",  M      - gmP   , mgG  , | rs - gR,      , g M      M - pd         sn   d  P  ||",
-                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina      kaT  poo        -   ra  doo"
-                },
-                {
-                    "swara": "R S  |  r  g   M  n n d p       mp M  P ;  ||",
-                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
-                },
-                {
-                    "swara": ": 2-6-6-2 | 4-4-4-4  || Note slight change in patte rn, but keeps the overall idea of mixing 2-6 with 4 -4 to fill up lengths of 8",
-                    "sahitya": "and comes back to samam every second beat."
-                },
-                {
-                    "swara": "R S  |  r  g   M  n d pdS        n d P   ; ;  ||",
-                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
-                },
-                {
-                    "swara": "M P  |  M P  D N      N S    ; ;  ||",
-                    "sahitya": "Jigi  goni  naDu van--  ga  cinda  gaa      nu -         - -"
-                },
-                {
-                    "swara": "S S  ;  ;  |    ; ;   ; ;  ; ;  SR ||",
-                    "sahitya": "mogi can     - dra-    mugi   - -       - -   - -  - -  - -"
-                },
-                {
-                    "swara": ": 6-2-4-4 | 4-4-4-4  || Also start on samam instead  of the usual \u00bd beat eduppu.",
-                    "sahitya": "gR -   sn"
-                },
-                {
-                    "swara": "N-  D,n      S S    ; ;  |    ; ;   ; ;  ; ;  S R ||",
-                    "sahitya": "mogi can      -   dra-    mugi   - -       - -   - -  - -  - -"
-                },
-                {
-                    "swara": ": 6-2-5-3 | 6-2-4-4  || Note the use of 5-3 at the end of the first half. It simulates an \u201cateeta\u201d edu ppu for the second half.",
-                    "sahitya": "Still maintains the idea of samam every 2 beats (i. e. 8 aksharas)."
-                },
-                {
-                    "swara": "N-  D,n      rn S    , s N  |    G , r  ; R  gmgr  g r  sr ||",
-                    "sahitya": "mogi can      -   dra-    mugi  - u ra     mu-na  -  ni li -pE- gaa-na-"
-                },
-                {
-                    "swara": "nr s-    , n D  |  pd n-  n   d p - M   G R  gm P ||",
-                    "sahitya": "pogaru   - ven  ne-  la- -     dee ga   pO  - si - -      na   TliN    DE- -"
-                },
-                {
-                    "swara": ": 6-2-5-3 | 6-2-4-4  || The pattern of the previous  line continues.",
-                    "sahitya": "d  n R  ; N S,n"
                 },
                 {
                     "swara": ",  | R ;  ; ;  ; ;  ; rg ||",

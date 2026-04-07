@@ -56,18 +56,40 @@ export default function NotationLane({
     avPerRow = 1,
     pxPerSec = 100,
     zoom = 2,
+    onZoomChange,
 }) {
     const containerRef = useRef(null);
+    const wheelTargetRef = useRef(null);
     const animRef = useRef(null);
     const currentTimeRef = useRef(currentTime);
     const aavartanaSecRef = useRef(aavartanaSec);
     const pxPerSecRef = useRef(pxPerSec);
     const zoomRef = useRef(zoom);
+    const onZoomChangeRef = useRef(onZoomChange);
     const [editingKey, setEditingKey] = useState(null); // `${avIdx}-${tIdx}`
 
     useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
     useEffect(() => { pxPerSecRef.current = pxPerSec; zoomRef.current = zoom; }, [pxPerSec, zoom]);
+    useEffect(() => { onZoomChangeRef.current = onZoomChange; }, [onZoomChange]);
+
+    // Scroll-to-zoom: forward wheel events to parent zoom state, mirroring
+    // WaveformEditor's behaviour so the user can zoom from any lane.
+    useEffect(() => {
+        const el = wheelTargetRef.current;
+        if (!el) return;
+        const MIN_ZOOM = 0.1;
+        const MAX_ZOOM = 10;
+        const handleWheel = (e) => {
+            if (!onZoomChangeRef.current) return;
+            e.preventDefault();
+            const factor = -e.deltaY > 0 ? 1.15 : 1 / 1.15;
+            const next = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoomRef.current * factor));
+            onZoomChangeRef.current(next);
+        };
+        el.addEventListener('wheel', handleWheel, { passive: false });
+        return () => el.removeEventListener('wheel', handleWheel);
+    }, []);
 
     // Each avartana covers exactly aavartanaSec * pxPerSec pixels.
     const effectiveAvPx = aavartanaSec * pxPerSec * zoom;
@@ -101,7 +123,7 @@ export default function NotationLane({
     // ── Text mode: render full text rows ──────────────────────────────────
     if (textMode && contentRows) {
         return (
-            <div className="relative w-full h-full overflow-hidden no-scrollbar">
+            <div ref={wheelTargetRef} className="relative w-full h-full overflow-hidden no-scrollbar">
                 <div
                     ref={containerRef}
                     className="absolute top-0 h-full flex items-center"
@@ -193,7 +215,7 @@ export default function NotationLane({
 
     // ── Token mode: original per-avartana parsed token rendering ──────────
     return (
-        <div className="relative w-full h-full overflow-hidden no-scrollbar">
+        <div ref={wheelTargetRef} className="relative w-full h-full overflow-hidden no-scrollbar">
             <div
                 ref={containerRef}
                 className="absolute top-0 h-full"

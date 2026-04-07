@@ -17,7 +17,7 @@
                 },
                 {
                     "swara": "namO namO raghu kula nAyaka divija vandya namO namO Sankara nagaja nuta ||",
-                    "sahitya": "Salutations (\u201cnamO namO\u201d) to the hero (\u201cnAyaka\u201d) of the Raghu dynasty (\u201craghu kula\u201d)"
+                    "sahitya": "Salutations (“namO namO”) to the hero (“nAyaka”) of the Raghu dynasty (“raghu kula”)"
                 },
                 {
                     "swara": "S  S  ; - R  S ;      ||  sg M   P  M     M ,g    ||  pmM  -S    R ;  ;  ;   ||  G G       M - S     R  S  ||",
@@ -46,23 +46,15 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "ahalya SApa mOchana asura kula bhanjana sahaja viswAmitra savana rakshaka ||",
                     "sahitya": ""
                 },
                 {
-                    "swara": "taraNi tanoojAdi taru chara pAlaka Saradhi langhana kruta soumitri samEta ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "nirupama Sri venkaTa nilaya nija nagara pura vihAra punDarikAksha ||",
-                    "sahitya": "In this song Annamacharya prays to Lord Rama narrating his great deeds of punishing the wicked and"
-                },
-                {
                     "swara": "ahalya SApa mOchana asura kula bhanjana sahaja viswAmitra savana rakshaka ||",
-                    "sahitya": "He is the protector (\u201cpAlaka\u201d) of Dharma  (\u201cvihita dharma\u201d)."
+                    "sahitya": "He is the protector (“pAlaka”) of Dharma  (“vihita dharma”)."
                 },
                 {
                     "swara": "; mg  , m - P     ;  P     ||  P ;      np - pmM     ; ;  ||  ; ;  ; ;     gmpn    || P ;     ;  ;   ;  ;  ||",
@@ -103,10 +95,19 @@
                 {
                     "swara": "; - sr  ,-r S     ||  G M    P M      M M      ||  S  ,n      rsN - S  R   ;   || S  ;     ;  ;      ;  ;   ||",
                     "sahitya": "Na mO   -   na       mO         San-   kara      naga ja  -      nu-   ta       -  -       - -       - -      - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
+                {
+                    "swara": "taraNi tanoojAdi taru chara pAlaka Saradhi langhana kruta soumitri samEta ||",
+                    "sahitya": ""
                 },
                 {
                     "swara": "taraNi tanoojAdi taru chara pAlaka Saradhi langhana kruta soumitri samEta ||",
-                    "sahitya": "He lifted (\u201chara\u201d) Siva\"s (\u201chara\u201d) bow (\u201ckOdanDa\u201d) and became the lord (\u201cvallabha\u201d) of Sita."
+                    "sahitya": "He lifted (“hara”) Siva\"s (“hara”) bow (“kOdanDa”) and became the lord (“vallabha”) of Sita."
                 },
                 {
                     "swara": "; s s    P , - P    p - p p   ||  nP - np",
@@ -127,10 +128,19 @@
                 {
                     "swara": "; - sr  ,-r S     ||  sn P    R S       , g G      ||  M  ,m    pmM - S  R   ;   || S  ;     ;  ;      ;  ;   ||",
                     "sahitya": "Na mO   -   na       mO         San-   kara      naga ja   -      nu-   -  ta  -  -       - -       - -      - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
+                {
+                    "swara": "nirupama Sri venkaTa nilaya nija nagara pura vihAra punDarikAksha ||",
+                    "sahitya": "In this song Annamacharya prays to Lord Rama narrating his great deeds of punishing the wicked and"
                 },
                 {
                     "swara": "nirupama Sri venkaTa nilaya nija nagara pura vihAra punDarikAksha ||",
-                    "sahitya": "He earned eternal fame (\u201cSirO bhEdaka\u201d) by destroying (\u201cbiruda\u201d) Ravana and blessing (\u201cvarada\u201d)"
+                    "sahitya": "He earned eternal fame (“SirO bhEdaka”) by destroying (“biruda”) Ravana and blessing (“varada”)"
                 },
                 {
                     "swara": "s s s -  s    ,  s  s - r   S - S   ||  s S-   r   s n  p m     g pmM r  ||  ; p p   m m r - r   s- R s  ||",

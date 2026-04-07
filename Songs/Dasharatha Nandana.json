@@ -30,7 +30,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "; pd m- p D  ; dr , S ,  |  ; ;  ; ;  ; ;  nSp  ||",
@@ -55,7 +55,12 @@
                 {
                     "swara": "; pd  , - r S  n S ,  P - D  | P - rm  , d P  pp M ,g   gr - rs ||",
                     "sahitya": "Jaa- -  lanu    To- -  -    yaa   -    jaa  - layaa   Raa- -  ya- - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 4",
+            "content": [
                 {
                     "swara": "; pd m- p D  ; dr , S ,  |  ; ;  ; ;  ; ;  nSp  ||",
                     "sahitya": "Ne- -   Para  - de- - si -   - -  - -  - -  - - -"
@@ -79,7 +84,12 @@
                 {
                     "swara": "; pd  , - r S  n S ,  P - D  | P - rm  , d P  pp M ,g   gr - rs ||",
                     "sahitya": "Baa- -  pave   - Daa- -    si   -  Paa -   vanu  Je -  - -   si-   - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 7",
+            "content": [
                 {
                     "swara": "; pd m- p D  ; s   s , S ,  |  ; ;  ; ;  srsr  nSp  ||",
                     "sahitya": "Saa -   gara    - Shaya  - naa    - - - -  - -  -- -"

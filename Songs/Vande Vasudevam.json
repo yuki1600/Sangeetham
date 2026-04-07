@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Vande Vasudevam",
         "raga": "Sri",
-        "arohanam": "S R2 M\u2081 P N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 P M\u2081 R2 G2 R2 S ||",
+        "arohanam": "S R2 M₁ P N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ P M₁ R2 G2 R2 S ||",
         "tala": "Khanda Chapu",
         "composer": "Annamacharya"
     },
@@ -22,23 +22,33 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "kandarpa janakamaravinda nAbham ||",
                     "sahitya": ""
                 },
                 {
+                    "swara": "kandarpa janakamaravinda nAbham ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
+                {
                     "swara": "nnaga rAja SAyinam ghana nivAsam ||",
                     "sahitya": ""
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": "tiru venkaTAchala dEvam bhajE ||",
                     "sahitya": "P: I bow to Vasudeva. The king (AdheeSa) of Brindaraka worships (vandita) his lotus feet (pada-Abjam)."
-                },
-                {
-                    "swara": "kandarpa janakamaravinda nAbham ||",
-                    "sahitya": ""
                 },
                 {
                     "swara": "tiru venkaTAchala dEvam bhajE ||",
@@ -63,63 +73,43 @@
                 },
                 {
                     "swara": "N S        R ;   ,p  ||   pmR   G  - grR  ||  S ;    ;  ;  ;    ||  ; R   R mr M     ||",
-                    "sahitya": "Van-      dE -  -       vA- -   su    dE--    vam  -  -  -       brundA\u2014ra"
+                    "sahitya": "Van-      dE -  -       vA- -   su    dE--    vam  -  -  -       brundA—ra"
                 },
                 {
                     "swara": "P ;         P  N S     || n S n     P M - R || R ,g  gr R  S  ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||"
                 },
                 {
                     "swara": "rn S        R ;   ;  ||   rmpn   pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   R mr M     ||",
-                    "sahitya": "Van-      dE -  -      vA- -   su  -    dE-     vam  -  -  -         brundA\u2014ra"
+                    "sahitya": "Van-      dE -  -      vA- -   su  -    dE-     vam  -  -  -         brundA—ra"
                 },
                 {
                     "swara": "P ;         P  N S     || n S n     P M - R || R ,g  gr R  S  ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||"
                 },
                 {
                     "swara": "rn S        R ;   ;  ||   rmpn   pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
-                    "sahitya": "Van-      dE -  -      vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                    "sahitya": "Van-      dE -  -      vA- -   su  -    dE-     vam  -  -  -         brundA— -   ra"
                 },
                 {
                     "swara": "P np     pn sr S     || pn sn     P M - R || R ,g  gr R  S  ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||"
                 },
                 {
                     "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
-                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA— -   ra"
                 },
                 {
                     "swara": "P np     pn sr S     || pn sn     P M - R || R ,g  gr R  S  ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||"
                 },
                 {
                     "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
-                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA— -   ra"
                 },
                 {
                     "swara": "P np     pn sr S     || gr sn     rs np - sn || pm - pm  R - gr rs    ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||"
                 },
                 {
                     "swara": "rn S        R ;   ;  ||   mpmr  G  -  g r R  ||  S ;    ;  ;  ;    ||  ;  ;     ;   ;   ;      ||",
@@ -183,15 +173,11 @@
                 },
                 {
                     "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
-                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA— -   ra"
                 },
                 {
                     "swara": "P np     pn sr S     || gr sn     rs np - sn || pm - pm  R - gr rs    ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||"
                 },
                 {
                     "swara": "rn S        R ;   ;  ||   mpmr  G  -  g r R  ||  S ;    ;  ;  ;    ||  ;  ;     ;   ;   ;      ||",
@@ -259,15 +245,11 @@
                 },
                 {
                     "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
-                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA— -   ra"
                 },
                 {
                     "swara": "P np     pn sr S     || gr sn     rs np - sn || pm - pm  R - gr rs    ||",
-                    "sahitya": ""
-                },
-                {
-                    "swara": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||",
-                    "sahitya": ""
+                    "sahitya": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||"
                 },
                 {
                     "swara": "rn S        R ;   ;  ||   mpmr  G  -  g r R  ||  S ;    ;  ;  ;    ||  ;  ;     ;   ;   ;      ||",

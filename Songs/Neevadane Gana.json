@@ -120,6 +120,27 @@
                     "sahitya": "Nit yo-  tsa  vam bu ga la       Nee-  ku- Nija   daa-- su da- ni"
                 },
                 {
+                    "swara": "dn Srs Nsn Dnd  P,d  || pmR gm P  P  ||",
+                    "sahitya": "Nee va- -  - - - da-    ne- -  Gaa-  na"
+                },
+                {
+                    "swara": "P   P  nd dp P  || pd pm rg M   R  ||",
+                    "sahitya": "Nikhi la-  Lo--   ka- ni-  daa- - na"
+                },
+                {
+                    "swara": "S S  S -   rg mp  || pd pm   pd pm rg ||",
+                    "sahitya": "Nimi sha mor- -     va-ga-  Ka-la-  - -"
+                },
+                {
+                    "swara": "G M  ;  R S    || rsns rg mp dn     ||",
+                    "sahitya": "naa-  -  -    -    - - -  - - - - - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam Sahityam 1",
+            "content": [
+                {
                     "swara": "; P  D N      S ||  sn D  P - D N  || S ;  ; ; ;  || ; ;  ; ; ;  ||",
                     "sahitya": "Ta thyam- bu   Bal-  ku  Sri -     - -  - - -     - -  - - -"
                 },
@@ -142,22 +163,6 @@
                 {
                     "swara": "; P  D N      S || sn D  P -   md  pm  ||  rmgr   S rg m p || nd pm     sn     gr sn    ||",
                     "sahitya": "Ta thyam- bu   Bal-  ku    Sri -       Tyaa      ga raa- - -   jaa - - -   rchi- ta!- - -"
-                },
-                {
-                    "swara": "dn Srs Nsn Dnd  P,d  || pmR gm P  P  ||",
-                    "sahitya": "Nee va- -  - - - da-    ne- -  Gaa-  na"
-                },
-                {
-                    "swara": "P   P  nd dp P  || pd pm rg M   R  ||",
-                    "sahitya": "Nikhi la-  Lo--   ka- ni-  daa- - na"
-                },
-                {
-                    "swara": "S S  S -   rg mp  || pd pm   pd pm rg ||",
-                    "sahitya": "Nimi sha mor- -     va-ga-  Ka-la-  - -"
-                },
-                {
-                    "swara": "G M  ;  R S    || rsns rg mp dn     ||",
-                    "sahitya": "naa-  -  -    -    - - -  - - - - - -"
                 }
             ]
         }

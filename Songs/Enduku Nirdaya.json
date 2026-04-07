@@ -75,7 +75,7 @@
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Charanam 1",
             "content": [
                 {
                     "swara": "P P  P ;  P,m G,m | Pdn nd - N  D ;  DP  ||",
@@ -88,7 +88,12 @@
                 {
                     "swara": "Pm- m N- D  ND  NP | Pdn nd- N  D ;  dpM ||",
                     "sahitya": "Pa-  ri -    ma laa-  -   -    pa- -  - -  Gha na!-   - - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 2",
+            "content": [
                 {
                     "swara": "P ;  ; M , G  , R R | Gmg  Rgr S ;  ; ;  ||",
                     "sahitya": "Ne  - Pa - ra-  de-     - - -  - - -  si -  - -"
@@ -104,7 +109,12 @@
                 {
                     "swara": "S ;  ; R  RS  RG  | M P  dnS  DN dpM ||",
                     "sahitya": "Baa - pa ve-  Ga-     - -   -  -  si  -  - - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 3",
+            "content": [
                 {
                     "swara": "P , m  ; D  , P ,  D ;  | Pdn nd - N  D ;  ; ;  ||",
                     "sahitya": "U- da - ta  -Bhak thi-    - - -  - -    ga ni -  - -"
@@ -112,7 +122,12 @@
                 {
                     "swara": "; D , n-S  R ;  S ;  | Srn  N ;  rsnd pmgm ||",
                     "sahitya": "U -- ppa til-  la-    ga-- Le- daa?-- - - - -"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 4",
+            "content": [
                 {
                     "swara": "; D  N D  P ;  ; ;  | ; , n     dp -mg M ;  ; ;  ||",
                     "sahitya": "Se  -  tru la -  - -    - -Mi -- tru-      la -  - -"
@@ -128,7 +143,12 @@
                 {
                     "swara": "S , - n  ; N  , dP MG  | G R  S ,d  rsnd pmgm ||",
                     "sahitya": "Sa- ma - mu - ga- Ju-    -  -  che-- Nee-- - - - - -   (kenduku)"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Charanam 5",
+            "content": [
                 {
                     "swara": "d s   n n D ;  ; ;  N ;  |  D P  P nd N ;  ; ;  ||",
                     "sahitya": "Dha-ra-   lo-  - -  Nee-     -  -  vai--  -  -   - -"
