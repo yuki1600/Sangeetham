@@ -5,7 +5,8 @@
         "arohanam": "S R3 G3 M2 P D2 N2 S ||",
         "avarohanam": "S N2 D2 P M2 G3 R3 S ||",
         "tala": "Rupakam",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,79 +14,79 @@
             "content": [
                 {
                     "swara": "pmG    G , - r       ;  - S    ||  , r R       G  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -  Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -  Rama      ni  -        -  - ||"
                 },
                 {
                     "swara": "pmG    G , - s       R  - S    ||  , g R      G  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -  Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -  Rama      ni  -        -  - ||"
                 },
                 {
                     "swara": "mpd-m  pm- gm    g-gr s  || G  R        G ;  ;  ;  ||",
-                    "sahitya": "Ma-- ra  - -  Vai    -    -- ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- ra  - -  Vai    -    -- ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "G M  P - mp  D - P  || P ;  ;  ;  ;  ;  ||",
-                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  -"
+                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  - ||"
                 },
                 {
                     "swara": "pmG    G , - s       R  - S    ||  , g R      G  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  - ||"
                 },
                 {
                     "swara": "G M  P - mp  D - P  || P ;  ;  ;  ;  ;  ||",
-                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  -"
+                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  - ||"
                 },
                 {
                     "swara": "mpd-m  pm- gm    g-gr s  || G  R        gMg  ;  ;  ||",
-                    "sahitya": "Ma-- ra  - -  Vai    -    -- ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- ra  - -  Vai    -    -- ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "gmP  P - mp  D - N  || ndD  ;  ;  ;  ;  ||",
-                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  -"
+                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  - ||"
                 },
                 {
                     "swara": "mpd-m  pm- gm    g-gr s  || G  R        GM  G ;  ||",
-                    "sahitya": "Ma-- ra  - -  Vai    -    -- ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- ra  - -  Vai    -    -- ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "GM  P - mp  D - N  || ndD  ;  ;  DP ||",
-                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  -"
+                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  - ||"
                 },
                 {
                     "swara": "mpd n    s- nd  p     m-gr s || , g R        G ;     ; ;  ||",
-                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "gmpd  N - dn      S - N  || S ;   ;  ;  ;  ;  ||",
-                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  -"
+                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - ||"
                 },
                 {
                     "swara": "mpd n    s- nd  p     m-gr s || , g R        GM  G ; ||",
-                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "GM  P - mp  D - N  || NS ;  ;  ; ;  ||",
-                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  -"
+                    "sahitya": "Man-      ju   bhA- -   shi       NI -  -  -  - ||"
                 },
                 {
                     "swara": "mpd n    s- nd  p     m-gr s || , g R        G ;  ; ; ||",
-                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "gmpd  N - dn      S - sr  || rS-r   s-sn-n  d-dpd  ||",
-                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - -"
+                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - - ||"
                 },
                 {
                     "swara": "pmG    G , - s       R  - S    ||  , g R      G  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  - ||"
                 },
                 {
                     "swara": "gmpd  N - dn      S - sr  || rS-r   s nd-s  n-dpd  ||",
-                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - -"
+                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - - ||"
                 },
                 {
                     "swara": "pmG    G , - s       R  - S    ||  , n D      P  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  - ||"
                 }
             ]
         },
@@ -94,59 +95,59 @@
             "content": [
                 {
                     "swara": "D N      D - dp  P  P  ||  dn S      N - S     ;   ;  ||",
-                    "sahitya": "KrU-    ra   dA     -    na         vE - -     -    bha  -   -"
+                    "sahitya": "KrU-    ra   dA     -    na         vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "D N      D - dp  P  P  ||  dn S      N - N     S   ;  ||",
-                    "sahitya": "KrU-    ra   dA     -    na         vE - -     -    bha  -   -"
+                    "sahitya": "KrU-    ra   dA     -    na         vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "dns-  p     dn - mp     d- gmp   ||  dn S      N - N     S   ;  ||",
-                    "sahitya": "KrU-ra    - -    dA-     -   na - -     vE - -     -    bha  -   -"
+                    "sahitya": "KrU-ra    - -    dA-     -   na - -     vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn S      N - N     S   ;  ||",
-                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   -"
+                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn sr      rn - S     R   ;  ||",
-                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   -"
+                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "G ,  r        ; - sn       dn - S   ||  sn dn       sr - rs   ndpm   ||",
-                    "sahitya": "vA-ra      -   NA-     - -   ri        gau- -      - -   - -   rI- - -"
+                    "sahitya": "vA-ra      -   NA-     - -   ri        gau- -      - -   - -   rI- - - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn sr      rn - S     R   ;  ||",
-                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   -"
+                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "gM - g        ; - sn       dn - S  ||  sn dn       sr - rs   ndpd   ||",
-                    "sahitya": "vA- ra        -   NA-     - -   ri      gau- -      - -   - -   rI- - -"
+                    "sahitya": "vA- ra        -   NA-     - -   ri      gau- -      - -   - -   rI- - - ||"
                 },
                 {
                     "swara": "pmG    G , - s       R  - S    ||  , n D      P  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn sr      rn - S     R   ;  ||",
-                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   -"
+                    "sahitya": "KrU-ra    -  dA-     -  -  na - -     vE - -     -    bha  -   - ||"
                 },
                 {
                     "swara": "gM - g        ; - sn       dn - S  ||  sn dn       sr - rs   ndpd   ||",
-                    "sahitya": "vA- ra        -   NA-     - -   ri      gau- -      - -   - -   rI- - -"
+                    "sahitya": "vA- ra        -   NA-     - -   ri      gau- -      - -   - -   rI- - - ||"
                 },
                 {
                     "swara": "mpd n    s- nd  p     m-gr s || , g R        G ;  ; ; ||",
-                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "gmpd  N - dn      S - sr  || rS-r   s nd-s  n-dpd  ||",
-                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - -"
+                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - - ||"
                 },
                 {
                     "swara": "pmG    G , - s       R  - S    ||  , n D      P  ;          ;  ;    ||",
-                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  -"
+                    "sahitya": "Ma--    ra -  Vai    -     ri   -   Rama      ni  -        -  - ||"
                 }
             ]
         },
@@ -155,95 +156,95 @@
             "content": [
                 {
                     "swara": "P ;  Dnd dpP    ;  pm || gmdp      pm- G      ; rs  ||",
-                    "sahitya": "kA-        rma- ban-   - dha     vA- -      ra-   Na    - nish"
+                    "sahitya": "kA-        rma- ban-   - dha     vA- -      ra-   Na    - nish ||"
                 },
                 {
                     "swara": "S ,   r        G  , g      ; M  || , p M     P  ;  ;  ;  ||",
-                    "sahitya": "kA--        ma   ci     - tta       - va ra    dE -      -  -"
+                    "sahitya": "kA--        ma   ci     - tta       - va ra    dE -      -  - ||"
                 },
                 {
                     "swara": "P ;   D      P      ;  pm || gmdp      pm- G      ; rs  ||",
-                    "sahitya": "kA-        rma- ban-   - dha     vA- -      ra-   Na    - nish"
+                    "sahitya": "kA-        rma- ban-   - dha     vA- -      ra-   Na    - nish ||"
                 },
                 {
                     "swara": "S ,   r        G  , g      ; M  || , p M     P  ;  ;  ;  ||",
-                    "sahitya": "kA--        ma   ci     - tta       - va ra    dE -      -  -"
+                    "sahitya": "kA--        ma   ci     - tta       - va ra    dE -      -  - ||"
                 },
                 {
                     "swara": "P ;   Dnd  dppm   ;  M  ||   pmG       G -   R      ; rs     ||",
-                    "sahitya": "kA-        rma- ban-      - dha     vA- -      ra-   Na    - nish"
+                    "sahitya": "kA-        rma- ban-      - dha     vA- -      ra-   Na    - nish ||"
                 },
                 {
                     "swara": "S r -g       ; G        , M , || N D     P  ;  ;  ;  ||",
-                    "sahitya": "kA-ma     - ci        - tta         va ra       dE -      -  -"
+                    "sahitya": "kA-ma     - ci        - tta         va ra       dE -      -  - ||"
                 },
                 {
                     "swara": "P ;  Dnd dpP    ;  pm || gmdp      dm- mg      R- rs  ||",
-                    "sahitya": "kA-        rma- ban-   - dha     vA- -      ra-   Na     - nish"
+                    "sahitya": "kA-        rma- ban-   - dha     vA- -      ra-   Na     - nish ||"
                 },
                 {
                     "swara": "S r -g       ; G        , M , || N D     dpP    ;  ;  ||",
-                    "sahitya": "kA-ma     - ci        - tta         va ra       dE -      -  -"
+                    "sahitya": "kA-ma     - ci        - tta         va ra       dE -      -  - ||"
                 },
                 {
                     "swara": "D N      D - dp  M  P  ||  dn S      N - S     ;   ;  ||",
-                    "sahitya": "dha-    rma  saM   -    -          var- -    dha   ni   -   -"
+                    "sahitya": "dha-    rma  saM   -    -          var- -    dha   ni   -   - ||"
                 },
                 {
                     "swara": ";  ;  ;  ;  ; ;  ||    ;  ;  ;  ;  ;  ;  ||",
-                    "sahitya": "----         -  -          - -                -  -    -   -          - -"
+                    "sahitya": "----         -  -          - -                -  -    -   -          - - ||"
                 },
                 {
                     "swara": "D N      D - dp  M  P  ||  dn S      N - S     ;   ;  ||",
-                    "sahitya": "dha-    rma  saM   -    -          var- -    dha   ni   -   -"
+                    "sahitya": "dha-    rma  saM   -    -          var- -    dha   ni   -   - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn S      N - N     S   ;  ||",
-                    "sahitya": "dha-  rma  - saM   -  -   -  - -      var- -    dha  ni   -   -"
+                    "sahitya": "dha-  rma  - saM   -  -   -  - -      var- -    dha  ni   -   - ||"
                 },
                 {
                     "swara": "dns-  p     dn - mp     d- gmp   ||  dn S      N - N     S   ;   ||",
-                    "sahitya": "dha-  rma  - -  saM   -  - -  - -      var- -    dha  ni   -   -"
+                    "sahitya": "dha-  rma  - -  saM   -  - -  - -      var- -    dha  ni   -   - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn sr      rn - S     R   ;  ||",
-                    "sahitya": "dha-  rma  - saM   -  - -  - - -      var- -    dha  ni   -   -"
+                    "sahitya": "dha-  rma  - saM   -  - -  - - -      var- -    dha  ni   -   - ||"
                 },
                 {
                     "swara": "gG-  r        ; - sn       dn - S   ||  sn    dn      sr - rs   ndpm   ||",
-                    "sahitya": "vada na     -    hA-     - -   sE    Shu-bha-   Va- da  ne - -"
+                    "sahitya": "vada na     -    hA-     - -   sE    Shu-bha-   Va- da  ne - - ||"
                 },
                 {
                     "swara": "dns-  p     d-p  mg     r- gmp   ||  dn sr      rn - S     R   ;  ||",
-                    "sahitya": "dha-  rma  - saM   -  - -  - - -      var- -    dha  ni   -   -"
+                    "sahitya": "dha-  rma  - saM   -  - -  - - -      var- -    dha  ni   -   - ||"
                 },
                 {
                     "swara": "gM - g        ; - sn       dn - S  ||  sn dn       sr - rs   ndpd   ||",
-                    "sahitya": "vada na     -    hA-     - -   sE    Shu-bha-  Va- da  ne - -"
+                    "sahitya": "vada na     -    hA-     - -   sE    Shu-bha-  Va- da  ne - - ||"
                 },
                 {
                     "swara": "mpd n    s- nd  p     m-gr s || , n D        P ;  ; ; ||",
-                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  -"
+                    "sahitya": "Ma-- -    -   ra- Vai    - - -ri   Rama      ni  -       -  - ||"
                 },
                 {
                     "swara": "gmpd  N - dn      S - sr  || rS-r   s nd-s  n-dpd  ||",
-                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - -"
+                    "sahitya": "Man-      ju   bhA-   -   shi     NI -  -  -  - - - ||"
                 },
                 {
                     "swara": "pmG    G  ;        ;  ;    ||  ;  ;         ; sr       , rS     ||",
-                    "sahitya": "Ma--    ra -         -  -       -   -      - Vai      ri   -"
+                    "sahitya": "Ma--    ra -         -  -       -   -      - Vai      ri   - ||"
                 },
                 {
                     "swara": ";  ;  ; ;      , n D    || D ;       ; ;     DN  ||",
-                    "sahitya": "Rama      ni  -    -  -    - -"
+                    "sahitya": "Rama      ni  -    -  -    - - ||"
                 },
                 {
                     "swara": "dpP  ; ;      , p M    || grG       ; ;     , r S  ||",
-                    "sahitya": "Rama      ni  -    -  -      ra ma"
+                    "sahitya": "Rama      ni  -    -  -      ra ma ||"
                 },
                 {
                     "swara": "R ;    ;  ;     ; ;         || S  R         S  ;     ;  ;  ||",
-                    "sahitya": "Ni -        -  -     - -           -  -           -   -     -  -"
+                    "sahitya": "Ni -        -  -     - -           -  -           -   -     -  - ||"
                 }
             ]
         }

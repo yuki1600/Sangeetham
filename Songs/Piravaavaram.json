@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 M2 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M2 G3 R2 S ||",
         "tala": "Adi, Kalai",
-        "composer": "Papanasam Sivan"
+        "composer": "Papanasam Sivan",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,23 +14,23 @@
             "content": [
                 {
                     "swara": "1.; ss , sn d P M  gr gm | P ;  ;  D  D ;  ddN   ||",
-                    "sahitya": "Pira - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne-"
+                    "sahitya": "Pira - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne- ||"
                 },
                 {
                     "swara": ", sn d ndpm  gr gm | P ;  ;  D  D ;  ddN   ||",
-                    "sahitya": "Pi-ra - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne-"
+                    "sahitya": "Pi-ra - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne- ||"
                 },
                 {
                     "swara": ", sn d ndpm  gr gm | P ;  ;  D  D ;  nsrg  ||",
-                    "sahitya": "Pi-ra - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne-"
+                    "sahitya": "Pi-ra - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne- ||"
                 },
                 {
                     "swara": ", sn d ndpm  gr gm | P ;  ;  D  D ;  nsr-s  ||",
-                    "sahitya": "Pi-ra  - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne-"
+                    "sahitya": "Pi-ra  - vaa-- Varam   Thaa---  rum-  -  Pem maa-  ne- ||"
                 },
                 {
                     "swara": ", sn d ndpm  gr gm | pmnd  dpP  ; ;  ; ;  ||",
-                    "sahitya": "Pi-ra  - vaa-- Varam   Thaa---  rum-  -  - - - -  - -"
+                    "sahitya": "Pi-ra  - vaa-- Varam   Thaa---  rum-  -  - - - -  - - ||"
                 }
             ]
         },
@@ -38,31 +39,31 @@
             "content": [
                 {
                     "swara": "; s s  , sn d   d N -    s     , s ;   | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Pira   vaa-- Varam Thaa rum-  - -  - -  - -  - -"
+                    "sahitya": "Pira   vaa-- Varam Thaa rum-  - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "; s s  , sn d   d N -    s     , s ;   | ; ss , r  ;  ; sr  , S   ,  ||",
-                    "sahitya": "Pira   vaa-- Varam Thaa rum-  - irai   va-  - maru - ba"
+                    "sahitya": "Pira   vaa-- Varam Thaa rum-  - irai   va-  - maru - ba ||"
                 },
                 {
                     "swara": "S s s  , sn d   d N -    s     , s ;   | ; ss , r  G  R- sr  , S   ,  ||",
-                    "sahitya": "di Pira   vaa-- Varam Thaa rum-  - irai   va-  -  maru - ba"
+                    "sahitya": "di Pira   vaa-- Varam Thaa rum-  - irai   va-  -  maru - ba ||"
                 },
                 {
                     "swara": ", sn d   d N -    s     , s ;   | ;  s s , r      ;  R-  s   r  , S   ,  ||",
-                    "sahitya": "di Pira   vaa-- Varam Thaa rum-  - Piran   dhaal -  Un Thiru  va"
+                    "sahitya": "di Pira   vaa-- Varam Thaa rum-  - Piran   dhaal -  Un Thiru  va ||"
                 },
                 {
                     "swara": "pd     r s N  | ; dn   r- n D  P ;  dn dp ||",
-                    "sahitya": "Di Mara - vaa--   Varam Thaa - - rum  Maa-   nila Me di- nil-"
+                    "sahitya": "Di Mara - vaa--   Varam Thaa - - rum  Maa-   nila Me di- nil- ||"
                 },
                 {
                     "swara": ", sn d   d N -    s     , s ;   | ;  s s , r      ;  R-  s   r  , S   ,  ||",
-                    "sahitya": "-    Pira   vaa-- Varam Thaa rum-  - Piran   dhaal -  Un Thiru  va"
+                    "sahitya": "-    Pira   vaa-- Varam Thaa rum-  - Piran   dhaal -  Un Thiru  va ||"
                 },
                 {
                     "swara": "pd     r s N  | ; dn   r- n D  P dm  pd ns || Rgr",
-                    "sahitya": "Di Mara - vaa--   Varam Thaa - - rum  Maa-   nila       Me- - di- nil-    - -"
+                    "sahitya": "Di Mara - vaa--   Varam Thaa - - rum  Maa-   nila       Me- - di- nil-    - - ||"
                 }
             ]
         },
@@ -71,27 +72,27 @@
             "content": [
                 {
                     "swara": "| ; , d , n -  d n  S ;  , r - nd  ||",
-                    "sahitya": "Paar   vathi Ne- - - yaa -   - - Bha  ktha Sa- haa-  - -   yaa-"
+                    "sahitya": "Paar   vathi Ne- - - yaa -   - - Bha  ktha Sa- haa-  - -   yaa- ||"
                 },
                 {
                     "swara": "| d M- d , n -  d n  S ;  , r - nd  ||",
-                    "sahitya": "-  Paar   vathi Ne- - - yaa -     - - Bha  ktha Sa- haa-  - -   yaa-"
+                    "sahitya": "-  Paar   vathi Ne- - - yaa -     - - Bha  ktha Sa- haa-  - -   yaa- ||"
                 },
                 {
                     "swara": "; , s  , d     N  S ,  s  ; S  | ; ns R ;  s  R     rs   S   S ,  ||",
-                    "sahitya": "Mun -dhai Vi nai Ko - ra    Chin thaa kulam Thee- ra-"
+                    "sahitya": "Mun -dhai Vi nai Ko - ra    Chin thaa kulam Thee- ra- ||"
                 },
                 {
                     "swara": "S ,  ||",
-                    "sahitya": "Mun -dhai Vi nai Ko -- ra    Chin thaa- kulam Thee- ra-"
+                    "sahitya": "Mun -dhai Vi nai Ko -- ra    Chin thaa- kulam Thee- ra- ||"
                 },
                 {
                     "swara": "D     P dm p  d  rs n  | ; dn rn       D     P    p mp  dn dp P; ||",
-                    "sahitya": "En dhaa yun  Paa-- dhaa- - ra  -  Vin-   -dham Thu nai  Se-   - - ra - -"
+                    "sahitya": "En dhaa yun  Paa-- dhaa- - ra  -  Vin-   -dham Thu nai  Se-   - - ra - - ||"
                 },
                 {
                     "swara": "D     P dm p  d  rs n  | ; dn rn       D     P    Pdm  pd ns  ||  Rgr",
-                    "sahitya": "En dhaa yun  Paa-- dhaa- - ra  -  Vin-   -dham Thu nai  Se-    ra - -    - - -"
+                    "sahitya": "En dhaa yun  Paa-- dhaa- - ra  -  Vin-   -dham Thu nai  Se-    ra - -    - - - ||"
                 }
             ]
         }

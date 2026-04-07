@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 P N3 S ||",
         "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,79 +14,79 @@
             "content": [
                 {
                     "swara": "P ;  G - R ; rs  R ; | S  R  G - R  S R  S ;   ||",
-                    "sahitya": "Paar va   ti  - Pa- tim-  Pranau  -   mi   Sata-  tam-"
+                    "sahitya": "Paar va   ti  - Pa- tim-  Pranau  -   mi   Sata-  tam- ||"
                 },
                 {
                     "swara": "P , p  G - gR, ; S  R ; | S  R  G - R  S rg  rS ,  ||",
-                    "sahitya": "Paar va   ti  - Pa- tim-  Pranau  -   mi   Sata-  tam-"
+                    "sahitya": "Paar va   ti  - Pa- tim-  Pranau  -   mi   Sata-  tam- ||"
                 },
                 {
                     "swara": "pnsn  P - G ; rs  R ; | gnp- g   ; - R  S rg  rsS  ||",
-                    "sahitya": "Paar va   ti  - Pa- tim-  Pra-nau  -   mi   Sata-  tam-"
+                    "sahitya": "Paar va   ti  - Pa- tim-  Pra-nau  -   mi   Sata-  tam- ||"
                 },
                 {
                     "swara": "pnsn  P - G ; rs  R ; | g npP- g   ; - R     S rg    rsS  ||",
-                    "sahitya": "Paar va   ti  - Pa- tim-  Pra--- nau  -   mi   Sata-  tam-"
+                    "sahitya": "Paar va   ti  - Pa- tim-  Pra--- nau  -   mi   Sata-  tam- ||"
                 },
                 {
                     "swara": "G R  P G  N P  PS  |  sn P  P  N  P   G  R G  ||",
-                    "sahitya": "Aa-  sri ta  Jana man   daa--   ram-  Shashi  dharam"
+                    "sahitya": "Aa-  sri ta  Jana man   daa--   ram-  Shashi  dharam ||"
                 },
                 {
                     "swara": "pnsn  P - G ; rs  R ; | g np - g     ; - R     S rg    rsS  ||",
-                    "sahitya": "Paar va   ti  - Pa- tim-  Pra--- nau  -   mi   Sata-  tam-"
+                    "sahitya": "Paar va   ti  - Pa- tim-  Pra--- nau  -   mi   Sata-  tam- ||"
                 },
                 {
                     "swara": "G R  P G  N P  PS  |  sn P  G R s r  s n  P   G  ||",
-                    "sahitya": "Aa-  sri ta  Jana man   daa--   ram-  Shashi  dharam"
+                    "sahitya": "Aa-  sri ta  Jana man   daa--   ram-  Shashi  dharam ||"
                 },
                 {
                     "swara": "pnsn  P - G ; rs  R ; | g np - g     ; - R     S rg    rS ,  ||",
-                    "sahitya": "Paar va   ti  - Pa- tim-  Pra--- nau  -   mi   Sata-  tam-"
+                    "sahitya": "Paar va   ti  - Pa- tim-  Pra--- nau  -   mi   Sata-  tam- ||"
                 },
                 {
                     "swara": "S ;  N  P  pgpg  R - G  | P - np;    P S    ; N  S ;  ||",
-                    "sahitya": "Pa rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam"
+                    "sahitya": "Pa rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam ||"
                 },
                 {
                     "swara": "; ;  ; ;  ; ;  ; ;   | ; ; ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- -  - -  --  --     - -  - -  - -  --"
+                    "sahitya": "- -  - -  --  --     - -  - -  - -  -- ||"
                 },
                 {
                     "swara": "S ;  N  P  pgpg  R - G  | P - np;    P S    ; N  S ;  ||",
-                    "sahitya": "Pa rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam"
+                    "sahitya": "Pa rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam ||"
                 },
                 {
                     "swara": "srgr  N  P  pgpg  R - G  | P - np;    P S    ; N  S ,r  ||",
-                    "sahitya": "Pa-- rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam-"
+                    "sahitya": "Pa-- rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam- ||"
                 },
                 {
                     "swara": "srgr  N  P  pgpg  R - G  | P - np;    P S    ; S  R ;   ||",
-                    "sahitya": "Pa-- rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam-"
+                    "sahitya": "Pa-- rvata  Ra- -     ja   Nu   ta   Pa   daam-   - bu jam- ||"
                 },
                 {
                     "swara": "G ;  R ;  s  n P  P , g  | R  ;  s n   P  G ;  P ;  ||",
-                    "sahitya": "Bha dra  Pra-da  Kai--    laa-  sha- Vi  raa- jam"
+                    "sahitya": "Bha dra  Pra-da  Kai--    laa-  sha- Vi  raa- jam ||"
                 },
                 {
                     "swara": "G ;  R ;  s  n P  ppp g  | R  ;  s n   P  npG ;  P ;  ||",
-                    "sahitya": "Bha dra  Pra-da  Kai--    laa-  sha- Vi  raa- jam"
+                    "sahitya": "Bha dra  Pra-da  Kai--    laa-  sha- Vi  raa- jam ||"
                 },
                 {
                     "swara": "G ;  R ;  s  n P  nsr g  | R  ;  s n   P   G ;  P ;  ||",
-                    "sahitya": "Bha dra  Pra-da  Kai--    laa-  sha- Vi  raa- jam"
+                    "sahitya": "Bha dra  Pra-da  Kai--    laa-  sha- Vi  raa- jam ||"
                 },
                 {
                     "swara": "p g   r  s   s   n  S    s -  r g     p   g  P  | ;  ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Gar vita  Tripuraa  di Hara Chaturam - -   - -  - -  - -"
+                    "sahitya": "Gar vita  Tripuraa  di Hara Chaturam - -   - -  - -  - - ||"
                 },
                 {
                     "swara": "p g   r  s   s   n  S    s -  r g     p   g  np  | ;  ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Gar vita  Tripuraa  di Hara Chaturam - -   - -  - -  - -"
+                    "sahitya": "Gar vita  Tripuraa  di Hara Chaturam - -   - -  - -  - - ||"
                 },
                 {
                     "swara": "p g   r  s   s   n  S    s -  r g     p   g  P  |  g r s n   p n s r   g r    S     , n P  ||",
-                    "sahitya": "Gar vita  Tripuraa  di Hara Chaturam Guruguha  Vandita Siva Shan-karam"
+                    "sahitya": "Gar vita  Tripuraa  di Hara Chaturam Guruguha  Vandita Siva Shan-karam ||"
                 }
             ]
         }

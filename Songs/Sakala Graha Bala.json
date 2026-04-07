@@ -5,7 +5,8 @@
         "arohanam": "S R2 M1 P N3 S ||",
         "avarohanam": "S N3 D2 P M1 P G3 R2 S ||",
         "tala": "Khanda Chapu",
-        "composer": "Purandara Dasa"
+        "composer": "Purandara Dasa",
+        "compositionType": "Devaranama"
     },
     "composition": [
         {
@@ -13,31 +14,31 @@
             "content": [
                 {
                     "swara": "; p   G m   P    P ||  P P  d N p Pdp ||  M m P s N  ;  || S ;  rsnp nn  ||",
-                    "sahitya": "Sa ka la Gra ha     Bala Nee—ne--      -  Sarasi jaa   ksha -- - -- -"
+                    "sahitya": "Sa ka la Gra ha     Bala Nee—ne--      -  Sarasi jaa   ksha -- - -- - ||"
                 },
                 {
                     "swara": "pm- p   G m   P    P ||  P R  Srs np  Pdp ||  M- p R s N ;  || S ;  ns Rgr  sn  ||",
-                    "sahitya": "Sa ka la Gra ha     Bala Nee—ne--      -  Sarasi jaa     ksha -- - -- -"
+                    "sahitya": "Sa ka la Gra ha     Bala Nee—ne--      -  Sarasi jaa     ksha -- - -- - ||"
                 },
                 {
                     "swara": "P- n    S   r     S ;  || S N   rsnd  D  ||",
-                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne"
+                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne ||"
                 },
                 {
                     "swara": "; - r    M   r     S ;  || S N   rsnd  D  ||",
-                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne"
+                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne ||"
                 },
                 {
                     "swara": "; p d     N    d n S  ||  rs nr  sn p - sn n ||",
-                    "sahitya": "Vi-  shwa Ra- -     ksha-- - - -    ka - -   - -"
+                    "sahitya": "Vi-  shwa Ra- -     ksha-- - - -    ka - -   - - ||"
                 },
                 {
                     "swara": "pm p   G m   P    P ||  PD pd N dnS nsrs  snP  || ;  - p R s N ;  || S ;  ns Rgr  sn  ||",
-                    "sahitya": "Sa ka la Gra ha   Ba-  la--   Nee— -  ne--       Sarasi jaa    ksha -- - -- -"
+                    "sahitya": "Sa ka la Gra ha   Ba-  la--   Nee— -  ne--       Sarasi jaa    ksha -- - -- - ||"
                 },
                 {
                     "swara": "P - r    M   r     S ; || S N   rsnd  N  || ; p d     N    d n S ||  rs nr  sn p - sn n || pm",
-                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne      Vi-  shwa Ra- -     ksha-- - - -    ka - -"
+                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne      Vi-  shwa Ra- -     ksha-- - - -    ka - - ||"
                 }
             ]
         },
@@ -46,23 +47,23 @@
             "content": [
                 {
                     "swara": "; m p   n s R  S  || S S  snrs D  || ; R S S ;   ||  R S        D N   S ||",
-                    "sahitya": "Ravi Chan- dra   Budha   Nee-ne     Rahu Ke--    thu-vu-  Nee- ne-"
+                    "sahitya": "Ravi Chan- dra   Budha   Nee-ne     Rahu Ke--    thu-vu-  Nee- ne- ||"
                 },
                 {
                     "swara": "; m p   n s R  S  || S S  snrs D  || ; R S nsrs  ||  ns  rs    sn P  dn ||",
-                    "sahitya": "Ravi Chan- dra   Budha   Nee-ne     Rahu Ke--    thu-vu-  Nee- ne-"
+                    "sahitya": "Ravi Chan- dra   Budha   Nee-ne     Rahu Ke--    thu-vu-  Nee- ne- ||"
                 },
                 {
                     "swara": "P - R R  ;  r   s  || ns Rgr sn   -   M ;    || pd N dn S ;  || ns Rgr Srs np   nn || pm",
-                    "sahitya": "-     Kavi - Guru     Sha ni  yum-   An       ga- -  da- -    Nee- -   - -  - -   ne-  -  -"
+                    "sahitya": "-     Kavi - Guru     Sha ni  yum-   An       ga- -  da- -    Nee- -   - -  - -   ne-  -  - ||"
                 },
                 {
                     "swara": "pm p   G m   P    P ||  PD pd N dnS nsrs  snP  || ;  - p R s N ;  || S ;  ns Rgr  sn  ||",
-                    "sahitya": "Sa ka la Gra ha   Ba-  la--   Nee— -  ne--       Sarasi jaa    ksha -- - -- -"
+                    "sahitya": "Sa ka la Gra ha   Ba-  la--   Nee— -  ne--       Sarasi jaa    ksha -- - -- - ||"
                 },
                 {
                     "swara": "P - r    M   r     S ; || S N   rsnd  N  || ; p d     N    d n S ||  rs nr  sn p - sn n || pm",
-                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne      Vi-  shwa Ra- -     ksha-- - - -    ka - -"
+                    "sahitya": "-   Ni khi la Vyaa   paka Nee--  ne      Vi-  shwa Ra- -     ksha-- - - -    ka - - ||"
                 }
             ]
         },
@@ -71,31 +72,31 @@
             "content": [
                 {
                     "swara": "; n  d    D ; D  || D D  D ; D  || ; d   N   - s   S   ;    || N R  sn P  n n ||",
-                    "sahitya": "Ruthu Va  tsa   ramu Nee ne       Pratha   Di nan       galu Nee-  ne-"
+                    "sahitya": "Ruthu Va  tsa   ramu Nee ne       Pratha   Di nan       galu Nee-  ne- ||"
                 },
                 {
                     "swara": "P- n  d    D ; D  || D D  D ; D  || ; d   N   - s   S   ;    || nsrg   rsnp  n n ||",
-                    "sahitya": "Ruthu Va  tsa   ramu Nee ne       Pratha   Di na n      ga-lu- Nee-  ne-"
+                    "sahitya": "Ruthu Va  tsa   ramu Nee ne       Pratha   Di na n      ga-lu- Nee-  ne- ||"
                 },
                 {
                     "swara": "P - p  P     ns D p  || pmdp pmrm - s r   ||  , s - r   m   P  P ;     || dN p  ; ;  ;  ||",
-                    "sahitya": "-   Krathu Yo--  ga Ya---   gna---   tha-     --    Gathu vu Nee ne- -"
+                    "sahitya": "-   Krathu Yo--  ga Ya---   gna---   tha-     --    Gathu vu Nee ne- - ||"
                 },
                 {
                     "swara": "P - p  P     ns D p  || pmdp pmrm - s r   ||  , s - r   m   P  P ;   || rsnp     dN p  ;  ||",
-                    "sahitya": "-   Krathu Yo--  ga Ya---   gna---   tha-     --    Gathu vu Nee-- ---     ne- -"
+                    "sahitya": "-   Krathu Yo--  ga Ya---   gna---   tha-     --    Gathu vu Nee-- ---     ne- - ||"
                 },
                 {
                     "swara": "; m p  , n s R S  || S ; sn  rs  D  ||  ; n r  ,   S ;  S  || S S    N  R  S  ||",
-                    "sahitya": "Ritha  vaa-- gi     En  no-da- ya       Puran da    ra    Vi tta  la   -  na"
+                    "sahitya": "Ritha  vaa-- gi     En  no-da- ya       Puran da    ra    Vi tta  la   -  na ||"
                 },
                 {
                     "swara": "; m p  , n s R S  || S ; rs   ns  D  ||  ; n mr ,   S ;  S  || S S    N  R  S  ||",
-                    "sahitya": "Ritha  vaa-- gi     En  no-da- ya       Puran   d a    ra   Vi tta  la   -  na"
+                    "sahitya": "Ritha  vaa-- gi     En  no-da- ya       Puran   d a    ra   Vi tta  la   -  na ||"
                 },
                 {
                     "swara": "; r   m  , r    S   S  ||  rs ns  D ;  P  || pd N d n  S - S    || ns rg   r s n p - n n   || pm",
-                    "sahitya": "Sudhi  ya Dinnu  Gaa--- da Pra  naa--  ma- hi ma   Nee- - -  - - - -    ne -    - -"
+                    "sahitya": "Sudhi  ya Dinnu  Gaa--- da Pra  naa--  ma- hi ma   Nee- - -  - - - -    ne -    - - ||"
                 }
             ]
         }

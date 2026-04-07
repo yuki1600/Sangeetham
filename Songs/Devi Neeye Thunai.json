@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M1 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Papanasam Sivan"
+        "composer": "Papanasam Sivan",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,39 +14,39 @@
             "content": [
                 {
                     "swara": "snD  DN  S ;  ; ;  |  ; ;  ; ;  ; ;  , p D ||",
-                    "sahitya": "De-  -  -  vi -  - -  - -  - -  - -  Amba"
+                    "sahitya": "De-  -  -  vi -  - -  - -  - -  - -  Amba ||"
                 },
                 {
                     "swara": "snD  DN  S ;  ; ;  |  dS-   s   nd- P  M ;  P  D ||",
-                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--  Thu   nai- -  Amba"
+                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--  Thu   nai- -  Amba ||"
                 },
                 {
                     "swara": "NS   DN  S ;  ; ;  |  d n r-s nd- P  M ;  ; ;  ||",
-                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--  Thu   nai- -  - -"
+                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--  Thu   nai- -  - - ||"
                 },
                 {
                     "swara": "mdpm GR  G ;  M ;  |  P ;  d m- dp   ;  dn  , dn ,  ||",
-                    "sahitya": "Then- -  Madu rai vaal   Mee na-   Lo-     cha-    ni - -"
+                    "sahitya": "Then- -  Madu rai vaal   Mee na-   Lo-     cha-    ni - - ||"
                 },
                 {
                     "swara": "srgr sndn  S ;  ; ;    |  d n r-s nd- P  M ;  ;  ;  ||",
-                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--  Thu   nai- -  - -"
+                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--  Thu   nai- -  - - ||"
                 },
                 {
                     "swara": "gm pd   pm  -gR  G ;  M ;  |  P ;  d m- dp   ;  dn  N ;   ||",
-                    "sahitya": "Then- -     Madu rai vaal   Mee na-   Lo-     cha-   ni - -"
+                    "sahitya": "Then- -     Madu rai vaal   Mee na-   Lo-     cha-   ni - - ||"
                 },
                 {
                     "swara": "srgr sndn  snsr , s ;   |  d n r- Srs nD,- P     M ;  ;  ;  ||",
-                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--      Thu    nai- -  - -"
+                    "sahitya": "De-  -  -  vi -  - -     Nee- ye--      Thu    nai- -  - - ||"
                 },
                 {
                     "swara": "gm pd   pm  -gR  Mpm G  M ;  |  sndp  d m- dp   ;  dn  N ;   ||",
-                    "sahitya": "Then- -     Madu rai      -   vaal   Mee na-   Lo-     cha-   ni - -"
+                    "sahitya": "Then- -     Madu rai      -   vaal   Mee na-   Lo-     cha-   ni - - ||"
                 },
                 {
                     "swara": "snD  DN  S ;  ; ;  |  ; ;  ; ;  ; ;  ;  ;  ||",
-                    "sahitya": "De-  -  -  vi -  - -  - -  - -  - -  - -"
+                    "sahitya": "De-  -  -  vi -  - -  - -  - -  - -  - - ||"
                 }
             ]
         },
@@ -54,31 +55,31 @@
             "content": [
                 {
                     "swara": "S g rs  N - S  R , r  ; ;  | ; ;  ; ;  rsS ; ;   ||",
-                    "sahitya": "De- vaa-    di  De van   Sun  - -   - -  - - -   - -"
+                    "sahitya": "De- vaa-    di  De van   Sun  - -   - -  - - -   - - ||"
                 },
                 {
                     "swara": "S g rs  N - S  R , r  ; S  | , r G  gr R  rs S  ; ;  ||",
-                    "sahitya": "De- vaa-    di  De van   Sun  - -  da re--  san-  - -"
+                    "sahitya": "De- vaa-    di  De van   Sun  - -  da re--  san-  - - ||"
                 },
                 {
                     "swara": "n srG rs  N - S  R , r  ; G | ;  G  gr R  rs S  ; ;  ||",
-                    "sahitya": "De- vaa-  -    di  De van   Sun  - -  da re--  san-  - -"
+                    "sahitya": "De- vaa-  -    di  De van   Sun  - -  da re--  san-  - - ||"
                 },
                 {
                     "swara": "n srG rs  N - S  R , r  ; G | ;  gp mg R  R ;   gs ;  ||",
-                    "sahitya": "De- vaa-  -    di  De van   Sun  - -  da re--  san-  - -"
+                    "sahitya": "De- vaa-  -    di  De van   Sun  - -  da re--  san-  - - ||"
                 },
                 {
                     "swara": "S , r  G -    R  snD - D     N R  | ;  sn  D - D   DM    , n S   ||",
-                    "sahitya": "Chi-   tham Ka var-    Bhu vana   -  Sun     -    da      ri  -     Amba"
+                    "sahitya": "Chi-   tham Ka var-    Bhu vana   -  Sun     -    da      ri  -     Amba ||"
                 },
                 {
                     "swara": "S , sr  G -    R  snD - D     N R  | ;  sn  D - D   DM    , n S   ||",
-                    "sahitya": "Chi-   tham Ka var-    Bhu vana   -  Sun     -    da      ri  -     Amba"
+                    "sahitya": "Chi-   tham Ka var-    Bhu vana   -  Sun     -    da      ri  -     Amba ||"
                 },
                 {
                     "swara": "srs- r  G -    R  snD - D     N R  | sr sn  D - D   DM    , n S   ||",
-                    "sahitya": "Chi-   tham Ka var-    Bhu vana    Sun     -    da      ri  -     Amba"
+                    "sahitya": "Chi-   tham Ka var-    Bhu vana    Sun     -    da      ri  -     Amba ||"
                 }
             ]
         },
@@ -87,27 +88,27 @@
             "content": [
                 {
                     "swara": "d   P - m  ; P  M ;  pdpd | N D  mP ,  ; , g  , rg m   ||",
-                    "sahitya": "Mala    ya  Dwa jan Ma--  dhava me - - -  - - -"
+                    "sahitya": "Mala    ya  Dwa jan Ma--  dhava me - - -  - - - ||"
                 },
                 {
                     "swara": "d   P - m  ; P  M ;  pdpd | N D  mP ,  mdpm G     rg ||",
-                    "sahitya": "Mala    ya  Dwa jan Ma--  dhava me - Kaa—n   cha na-"
+                    "sahitya": "Mala    ya  Dwa jan Ma--  dhava me - Kaa—n   cha na- ||"
                 },
                 {
                     "swara": "M;   M- , d  P ;  P - dp  |  D ;  drsn  D  ; P ; ;  ||",
-                    "sahitya": "Maa lai   Mu  thal vi   Ma    ha-  ra - -   gni - -"
+                    "sahitya": "Maa lai   Mu  thal vi   Ma    ha-  ra - -   gni - - ||"
                 },
                 {
                     "swara": "; ns  , d N S S   S S  | ; r r  , S n rgrg R ;   ||",
-                    "sahitya": "Alai  magal   Kalai maghal    Pani  Kee-  rvaa-  ni"
+                    "sahitya": "Alai  magal   Kalai maghal    Pani  Kee-  rvaa-  ni ||"
                 },
                 {
                     "swara": "; n rsS  - d N S S   rg rs S  | , pd nsrg - rs S rgrg R ;   ||",
-                    "sahitya": "Alai  magal   Kalai maghal    Pani    Kee-  rvaa-  ni"
+                    "sahitya": "Alai  magal   Kalai maghal    Pani    Kee-  rvaa-  ni ||"
                 },
                 {
                     "swara": "; sr  , g R  snD - D    N R  |  ; D  , n D M -p  D N  ||",
-                    "sahitya": "Amu  dana ya--     I    niye    - Mu thamizh   -  Va lartthai"
+                    "sahitya": "Amu  dana ya--     I    niye    - Mu thamizh   -  Va lartthai ||"
                 }
             ]
         }

@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Nanati Baduku",
         "raga": "Revathi",
-        "arohanam": "S R\u2081 M\u2081 P N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 P M\u2081 R\u2081 S ||",
+        "arohanam": "S R₁ M₁ P N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ P M₁ R₁ S ||",
         "tala": "Adi",
-        "composer": "Annamacharya"
+        "composer": "Annamacharya",
+        "compositionType": "Sankeertana"
     },
     "composition": [
         {
@@ -13,135 +14,135 @@
             "content": [
                 {
                     "swara": "; rm        , m R   S , s      S - r s    |   n P - r           ,  r R         R ;           ; ;    ||",
-                    "sahitya": "nA-      - nA-   Ti-ba     tu  ku-       -  -     nA       - Taka      mu            - -"
+                    "sahitya": "nA-      - nA-   Ti-ba     tu  ku-       -  -     nA       - Taka      mu            - - ||"
                 },
                 {
                     "swara": "; r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R         R ;           ; ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA       - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA       - Taka      mu            - - ||"
                 },
                 {
                     "swara": "; , rm     , m M    ; , mp   , p P   |    ;  mp         n - n N        S,n S         ,n - pm   ||",
-                    "sahitya": "kA-   - na ka   - - kan - na ti          kai         -  valya      mu -           - -    - -"
+                    "sahitya": "kA-   - na ka   - - kan - na ti          kai         -  valya      mu -           - -    - - ||"
                 },
                 {
                     "swara": "rs- r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA       - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA       - Taka      mu            - - ||"
                 },
                 {
                     "swara": "; , rm     , m M    ; , mp   , p P   |    ;  mp         n - n N        snnPnS        , -n - pm   ||",
-                    "sahitya": "kA-   - na ka   - - kan - na ti          kai         -  valya      mu -             - -    - -"
+                    "sahitya": "kA-   - na ka   - - kan - na ti          kai         -  valya      mu -             - -    - - ||"
                 },
                 {
                     "swara": "rs- r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - - ||"
                 },
                 {
                     "swara": "; , rm     , m M    ;   pmrm   mp - p P   |    ;  mp         n - n N        snnPnS        , -n - pm   ||",
-                    "sahitya": "kA-   - na ka   - - kan -    --   na ti           kai           -  valya      mu -             - -    - -"
+                    "sahitya": "kA-   - na ka   - - kan -    --   na ti           kai           -  valya      mu -             - -    - - ||"
                 },
                 {
                     "swara": "rs- r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - - ||"
                 },
                 {
                     "swara": ";  ;              ;  ;        ;  ,  r        , r  R      |   ; ,  m        R s - s   ;  ;  ;  ;  ||",
-                    "sahitya": "nA    - Taka         -   -          -  -   mu"
+                    "sahitya": "nA    - Taka         -   -          -  -   mu ||"
                 },
                 {
                     "swara": "; ns        , p N     S  S     S  ;     |   ; n- r           ,  r  r  r         rmpm       mr R    ||",
-                    "sahitya": "puTTu   Tayu    ni ja   mu         - - pO        vuTayu        ni-ja-       mu-   -"
+                    "sahitya": "puTTu   Tayu    ni ja   mu         - - pO        vuTayu        ni-ja-       mu-   - ||"
                 },
                 {
                     "swara": "; ns        , p N     S  rs     nsrm     |   ,-R -nr           ,  r  r  r         rmpm       mr R    ||",
-                    "sahitya": "puTTu   Tayu    ni ja     mu           - -   pO           vuTayu       ni-ja-       mu-   -"
+                    "sahitya": "puTTu   Tayu    ni ja     mu           - -   pO           vuTayu       ni-ja-       mu-   - ||"
                 },
                 {
                     "swara": "; r m      , m M    m P ,     , pn npM |  ;  , m     p - n N       ns ;  n     pm rs      ||",
-                    "sahitya": "naTTa      naTi   mi - -     - pa-ni- -   -   - nA  -     Taka      mu  -      -  -  -"
+                    "sahitya": "naTTa      naTi   mi - -     - pa-ni- -   -   - nA  -     Taka      mu  -      -  -  - ||"
                 },
                 {
                     "swara": "sn- ns        , p N     S  rs     nsrm     |   ,-R- nr           ,  r  r  r         rmpm       mr R    ||",
-                    "sahitya": "puTTu   Tayu    ni ja     mu           -  - pO           vuTayu       ni-ja-       mu-   -"
+                    "sahitya": "puTTu   Tayu    ni ja     mu           -  - pO           vuTayu       ni-ja-       mu-   - ||"
                 },
                 {
                     "swara": "; r m      , m M    m P ,     , pn npM |  ;  , m     p - n N       N-snN  n     snnp       ||",
-                    "sahitya": "naTTa      naTi   mi - -     - pa-ni- -   -   - nA  -     Taka      mu  -      -  -  -"
+                    "sahitya": "naTTa      naTi   mi - -     - pa-ni- -   -   - nA  -     Taka      mu  -      -  -  - ||"
                 },
                 {
                     "swara": "; n s        , p N     S , r        S- rs   |  N- N         S ;            ; nsrm        ;  R     ||",
-                    "sahitya": "yeTTa     nedu   Ta-ga     la  dI-     -    pra      paN-         -   -  - -      -   ca"
+                    "sahitya": "yeTTa     nedu   Ta-ga     la  dI-     -    pra      paN-         -   -  - -      -   ca ||"
                 },
                 {
                     "swara": "S-   n s        , p N     S , r        S- rs   |  N- N         S ;           rs- nsrm        ;  R     ||",
-                    "sahitya": "mu-yeTTa    nedu   Ta-ga     la  dI-     -    pra      paN-         -   -  - -      -   ca"
+                    "sahitya": "mu-yeTTa    nedu   Ta-ga     la  dI-     -    pra      paN-         -   -  - -      -   ca ||"
                 },
                 {
                     "swara": "S -  s  r        , n S       np ,  N     pm , P  |    ; mp       ns  rs      sn n p      pm m r   ||",
-                    "sahitya": "mu kaTTa  - gaTa     pa -  Ti    ti - - -          kai-     val-- -     ya- - -       mu- - -"
+                    "sahitya": "mu kaTTa  - gaTa     pa -  Ti    ti - - -          kai-     val-- -     ya- - -       mu- - - ||"
                 },
                 {
                     "swara": "rs -  s  r        , n S       np ,  N     pm , P  |    ; mp       ns  rs      sn n p      pm m r   ||",
-                    "sahitya": "-   kaTTa     - gaTa     pa -  Ti    ti - - -          kai-     val-- -     ya- - -       mu- - -"
+                    "sahitya": "-   kaTTa     - gaTa     pa -  Ti    ti - - -          kai-     val-- -     ya- - -       mu- - - ||"
                 },
                 {
                     "swara": "rs- r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - - ||"
                 },
                 {
                     "swara": "; , rm     , m M    ;   pmrm   mp - p P   |    ;  mp         n - n N        snnPnS        , -n - pm   ||",
-                    "sahitya": "kA-   - na ka   - - kan -    --   na ti           kai           -  valya      mu -             - -    - -"
+                    "sahitya": "kA-   - na ka   - - kan -    --   na ti           kai           -  valya      mu -             - -    - - ||"
                 },
                 {
                     "swara": "rs- r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - - ||"
                 },
                 {
                     "swara": ";  ;              ;  ;        ;  ,  r        , r  R      |   ; ,  m        R s - s   ;  ;  ;  ;  ||",
-                    "sahitya": "nA    - Taka         -   -          -  -   mu"
+                    "sahitya": "nA    - Taka         -   -          -  -   mu ||"
                 },
                 {
                     "swara": "; ns        np , ns     ;  S     S  ;     |   ; n- r         ,  r  R         rmpm       mr R    ||",
-                    "sahitya": "Teka   du    pA    - pa   mu-        --  tI         -  radu        puN- -      ya-mu"
+                    "sahitya": "Teka   du    pA    - pa   mu-        --  tI         -  radu        puN- -      ya-mu ||"
                 },
                 {
                     "swara": "rs- ns        np , ns     ;  rs   nsrm     |  R n- r         ,  r  R         rmpm       mrR  R    ||",
-                    "sahitya": "Teka    du    pA    - pa   mu-         -   -  tI -        -  radu     puN- -      ya--   mu"
+                    "sahitya": "Teka    du    pA    - pa   mu-         -   -  tI -        -  radu     puN- -      ya--   mu ||"
                 },
                 {
                     "swara": "; r m      , m M    m P ,     , pn npM |  ;  , m     p - n N       ns ;  n     pm rs      ||",
-                    "sahitya": "Naki      na ki   kA - -     - la-mu- -  -   nA    -    Taka     mu -  -     -  -  - -"
+                    "sahitya": "Naki      na ki   kA - -     - la-mu- -  -   nA    -    Taka     mu -  -     -  -  - - ||"
                 },
                 {
                     "swara": "rs- ns        np , ns     ;  rs    nsrm     |  R n- r         ,  r  R         rmpm       mrR  R    ||",
-                    "sahitya": "Teka    du    pA    - pa   mu-         -   - tI -        -  radu        puN- -      ya--   mu"
+                    "sahitya": "Teka    du    pA    - pa   mu-         -   - tI -        -  radu        puN- -      ya--   mu ||"
                 },
                 {
                     "swara": "; r m      , m M    m P ,     , pn npM |  ;  , m     p - n N       NsnN  n     snnp       ||",
-                    "sahitya": "Naki      na ki   kA - -     - la-mu- -  -   nA    -    Taka     mu -  -     -  -  - -"
+                    "sahitya": "Naki      na ki   kA - -     - la-mu- -  -   nA    -    Taka     mu -  -     -  -  - - ||"
                 },
                 {
                     "swara": "; n s        , p N     S  ;         ,   S   s    |  r s N-      ,  s   S          rs- nsrm    ,  - r S    ||",
-                    "sahitya": "Yegu     vane     ShRI      -  vEnka   TE- -       - Shvaru     Te - -     -  -    li ka"
+                    "sahitya": "Yegu     vane     ShRI      -  vEnka   TE- -       - Shvaru     Te - -     -  -    li ka ||"
                 },
                 {
                     "swara": "S -  s  r        , n S       pnsn     pm , P  |    ; mp       ns  rs      sn n p      pm m r   ||",
-                    "sahitya": "Gakha    namu    mI - -    ti -   ti         kai-      val- -      ya- - -     mu-  - -"
+                    "sahitya": "Gakha    namu    mI - -    ti -   ti         kai-      val- -      ya- - -     mu-  - - ||"
                 },
                 {
                     "swara": "rs- r mp    m- m R   S , s      S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - -"
+                    "sahitya": "nA-     -    nA-   Ti-ba     tu  ku-       -  -     nA         - Taka      mu            - - ||"
                 },
                 {
                     "swara": "; , rm     , m M    ;   pmrm   mp - p P   |    ;  npmp       n - n N      snnPnS        , -n - pm   ||",
-                    "sahitya": "kA-   - na ka   - - kan -    --   na ti           kai           -  valya      mu -             - -    - -"
+                    "sahitya": "kA-   - na ka   - - kan -    --   na ti           kai           -  valya      mu -             - -    - - ||"
                 },
                 {
                     "swara": "rs- rmpn   sR,- rrsn   pmR;    s     S - r rs    |   n P - r           ,  r R       pmmr          R ;    ||",
-                    "sahitya": "nA-     - --  nA-   Ti    -   ba     tu  ku-       -  -     nA         - Taka      mu            - -"
+                    "sahitya": "nA-     - --  nA-   Ti    -   ba     tu  ku-       -  -     nA         - Taka      mu            - - ||"
                 },
                 {
                     "swara": ";  ,  r        , r  R        mr S     ;  ;  |    ; ,   r        , r  R        mr S     ;  ; ||",
-                    "sahitya": "nA    - Taka      - -  mu   - -              - - nA    - Taka      - -  mu   -  -"
+                    "sahitya": "nA    - Taka      - -  mu   - -              - - nA    - Taka      - -  mu   -  - ||"
                 }
             ]
         }

@@ -5,7 +5,8 @@
         "arohanam": "S G1 R1 G1 M2 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M2 G1 R1 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,47 +14,47 @@
             "content": [
                 {
                     "swara": "; ;    ; P      P D   P ;    pmG G ;    ; R ; R     |    S ;   ;   ;     ; ;   snsn  |   G ; G ;      ;  gM P,  ||",
-                    "sahitya": "Ma    ra ka  ta    ma--  n\u0323i -    - - - var       n\u0323a -  - -      - -   r\u0101- -      - -  ma-     -  nan  nu"
+                    "sahitya": "Ma    ra ka  ta    ma--  ṇi -    - - - var       ṇa -  - -      - -   rā- -      - -  ma-     -  nan  nu ||"
                 },
                 {
                     "swara": ";  ;  ; - P      P D   P ;    pmG G ;    ; R ; R     |    S ;   ;   ;     ; ;   snsn  |   G ; G ;      G M P ;   ||",
-                    "sahitya": "Ma    ra ka  ta    ma--  n\u0323i -    - - -  var       n\u0323a -  - -      - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma    ra ka  ta    ma--  ṇi -    - - -  var       ṇa -  - -      - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": ";  ;  ; - P      P dn  dpP ;  dpmg  G ;    ; R R ;     |   S ;   ;   ;     ; ;   snsn  |   G ; G ;      G M P dn   ||",
-                    "sahitya": "Ma    ra ka  ta       ma--   n\u0323i -     - -  var       n\u0323a -  - -      - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma    ra ka  ta       ma--   ṇi -     - -  var       ṇa -  - -      - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "dpP ; ; - P      P D   P, d -  pmG  G ;    ; R ;  R     |   S ;   ;   ;     ; ;   snsn  |   G ; G ;      G M pd nd   ||",
-                    "sahitya": "Ma    ra ka  ta       ma--   n\u0323i -     - -  var       n\u0323a -  - -      - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma    ra ka  ta       ma--   ṇi -     - -  var       ṇa -  - -      - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "ndpm ; - P      P D   P, d -  pmG  G ;    ; R ;  R     |   S ;   ;   ;     ; ;   snsn  |   G ; G ;      G M P dn   ||",
-                    "sahitya": "Ma    ra ka  ta       ma--   n\u0323i -     - -  var       n\u0323a -  - -      - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma    ra ka  ta       ma--   ṇi -     - -  var       ṇa -  - -      - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "dpP ; ; - P      D P   P ;       MP mpdp     D ;  ;  D    | N S ;  ;  ; ;  ;  ;  |  G R S N     D N S N  ||",
-                    "sahitya": "ma    rava   ka        n\u0101   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   -"
+                    "sahitya": "ma    rava   ka        nā   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   - ||"
                 },
                 {
                     "swara": "D P - S ,  n     ; dn  dpP ;    dpmg  G ;    ; R ;   R   | S ;   ;   ;     ; ;   snsn  |   G ; G ;      G M P dn   ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   n\u0323i -     - -    var    n\u0323a -  - -      - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma ra     -ka- ta         ma--   ṇi -     - -    var    ṇa -  - -      - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "dpP ; ; - P      D P   P ;       MP mpdp     D ; M- D    | N S ;  ;  ; ;  ;  ;  |  D N  S N     D N S N  ||",
-                    "sahitya": "ma    rava   ka        n\u0101   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   -"
+                    "sahitya": "ma    rava   ka        nā   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   - ||"
                 },
                 {
                     "swara": "D P - S ,  n     ; dn  dpP ;    gmpd ns-nd    pm G ,r- R   | S ;   ;   ;   ; ;   snsn  |   G ; G ;      G M P dn   ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   - -  n\u0323i -     - -    - var    n\u0323a -  - -   - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma ra     -ka- ta         ma--   - -  ṇi -     - -    - var    ṇa -  - -   - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "dpP ; ; - P      D P   P ;       MP mpdp     D ; M - D    | N S ;  ;  ; ;  D N   |  S R  S N     D N S N  ||",
-                    "sahitya": "ma    rava   ka        n\u0101   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   -"
+                    "sahitya": "ma    rava   ka        nā   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   - ||"
                 },
                 {
                     "swara": "D P - S ,  n     ; dn  dpP ;    dpmg  G ;    ; R ;   R   | R ;   ;   S     ; ;   ;  ;   |   grrs  S  ;     ;  ;   ;  ;    ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   n\u0323i -     - -    var    n\u0323a -  - -      - -   -  -       -  -  -  -     -  -   -  -"
+                    "sahitya": "Ma ra     -ka- ta         ma--   ṇi -     - -    var    ṇa -  - -      - -   -  -       -  -  -  -     -  -   -  - ||"
                 }
             ]
         },
@@ -62,43 +63,43 @@
             "content": [
                 {
                     "swara": ";  ;  ; P    D P - P dp   D N S N       D  ;  ; N   |  S  ;  ;  ;      ;  ;  ;   ;   |  ; ;  ;  ;      ;   , d nsr-s ||",
-                    "sahitya": "Pa   rama pu- -   ru -  s\u0323a -        -    - - bin    na"
+                    "sahitya": "Pa   rama pu- -   ru -  ṣa -        -    - - bin    na ||"
                 },
                 {
                     "swara": "ndpm-G , m   ; D , d N   S ;  snD   ;  ;  ;  N   |  S  ;  ;  ;      ;  ;  ;   ;   |  ; ;  ;  ;       ;  ;  d n Srs ||",
-                    "sahitya": "Pa ra     ma pu -   ru-  s\u0323a - -    -  - - bin   na"
+                    "sahitya": "Pa ra     ma pu -   ru-  ṣa - -    -  - - bin   na ||"
                 },
                 {
                     "swara": "ndpm-G , m   ; D , d N   S ;  snD   ;  ;  ;  N   |  S  ;  ;  ;      ;  ;  ;   ;   |  ; ;  ;  ;       ;  ;  d n Srs ||",
-                    "sahitya": "Pa ra     ma pu -   ru-  s\u0323a - -    -  - - bin   na"
+                    "sahitya": "Pa ra     ma pu -   ru-  ṣa - -    -  - - bin   na ||"
                 },
                 {
                     "swara": "ndpm-G , m   ; D , R ,   S ;  sn Srs    nD , ;  N   |  S  ;  ;  ;      ;  ; N ;  | G R - snD     DN   S  ;  ||",
-                    "sahitya": "Pa ra     ma pu -  ru-  s\u0323a - -    -  -   - bin   na  -  -  -      - - br\u014d -   -  -    -  -      vu-   mu"
+                    "sahitya": "Pa ra     ma pu -  ru-  ṣa - -    -  -   - bin   na  -  -  -      - - brō -   -  -    -  -      vu-   mu ||"
                 },
                 {
                     "swara": ";  ;     -G , m   ; D , R ,   S ;  sn Srs    nD , ;  N   |  S  ;  ;  ;      ;  ; N ;  | G R - snD     DN   srsn  ||",
-                    "sahitya": "Pa ra     ma pu -  ru-  s\u0323a - -    -  -   - bin   na  -  -  -      - - br\u014d -   -  -    -  -       vu-   mu"
+                    "sahitya": "Pa ra     ma pu -  ru-  ṣa - -    -  -   - bin   na  -  -  -      - - brō -   -  -    -  -       vu-   mu ||"
                 },
                 {
                     "swara": "D pm  -G , m   ; D  ; R   S ;  sn Srs    nD , ;  N   |  S  ;  ;  ;      ;  ; N ;  | G R - snD     DN   S ;   ||",
-                    "sahitya": "Pa ra      ma - pu  ru-  s\u0323a - -    -  -   - bin   na  -  -  -      - - br\u014d -   -  -    -  -       vu-   mu"
+                    "sahitya": "Pa ra      ma - pu  ru-  ṣa - -    -  -   - bin   na  -  -  -      - - brō -   -  -    -  -       vu-   mu ||"
                 },
                 {
                     "swara": ";  ;   ;  G     ; G  G ;    GM pdP    D N S ;  |   ;  ;  DN       G R S N | D N S N  D N S N   ||",
-                    "sahitya": "d\u0113    - va  ra-     \u015ba-  ra--    n\u0323a -  nu            - -  ko -       - -    nna-  -   -   - -       -   -  -  -"
+                    "sahitya": "dē    - va  ra-     śa-  ra--    ṇa -  nu            - -  ko -       - -    nna-  -   -   - -       -   -  -  - ||"
                 },
                 {
                     "swara": "D P - S ,  n     ; dn  dpP ;    gmpd ns-nd    pm G ,r- R   | S ;   ;   ;   ; ;   snsn  |   G ; G ;      G M P dn   ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   - -  n\u0323i -     - -    - var    n\u0323a -  - -   - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma ra     -ka- ta         ma--   - -  ṇi -     - -    - var    ṇa -  - -   - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "dpP ; ; - P      D P   P ;       MP mpdp     D ; M - D    | N S ;  ;  ; ;  D N   |  S R  S N     D N S N  ||",
-                    "sahitya": "ma    rava   ka        n\u0101   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   -"
+                    "sahitya": "ma    rava   ka        nā   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   - ||"
                 },
                 {
                     "swara": "D P - S ,  n     ; dn  dpP ;    dpmg  G ;    ; R ;   R   | R ;   ;   S     ; ;   ;  ;   |   grrs  S  ;     ;  ;   ;  ;    ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   n\u0323i -     - -    var    n\u0323a -  - -      - -   -  -       -  -  -  -     -  -   -  -"
+                    "sahitya": "Ma ra     -ka- ta         ma--   ṇi -     - -    var    ṇa -  - -      - -   -  -       -  -  -  -     -  -   -  - ||"
                 }
             ]
         },
@@ -107,55 +108,55 @@
             "content": [
                 {
                     "swara": "; ;  ; P    D P - P ;     ;  ; MP     mpdp D ;  |  ; pmpm  ;      P dn dpP | Pdp mg-G ;   ; R  S ;  ||",
-                    "sahitya": "Pa   rama bha     - - kta-    -  -  - - su-     - par             n\u0323a - -  - -   v\u0101 -  - -   -  -   - ha na"
+                    "sahitya": "Pa   rama bha     - - kta-    -  -  - - su-     - par             ṇa - -  - -   vā -  - -   -  -   - ha na ||"
                 },
                 {
                     "swara": ";  ;  sSr    G R - rrS    S ;  S , g    r R , S ;   |  ;  ;   G ;       ; M  P ;    |  P ;  ;  ;  ;  ;  ;  ;  ||",
-                    "sahitya": "Karu- -  -     n\u0323\u0101     -  -  ra -     sa  -  - -      -  -  p\u016br          -   -  -   -     rn\u0323a    -"
+                    "sahitya": "Karu- -  -     ṇā     -  -  ra -     sa  -  - -      -  -  pūr          -   -  -   -     rṇa    - ||"
                 },
                 {
                     "swara": "; ;  ; P    D P - P ;     ;  ; MP     mpdp PD  |  P-pmpm  ;     P dn dpP | pm Pdp mg-;   ; R  S ;  ||",
-                    "sahitya": "Pa   rama bha     - - kta-    -  -  - - su-     -  par             n\u0323a - -  - -   v\u0101 -  - -   -  -   - ha na"
+                    "sahitya": "Pa   rama bha     - - kta-    -  -  - - su-     -  par             ṇa - -  - -   vā -  - -   -  -   - ha na ||"
                 },
                 {
                     "swara": "; ;  sSr    G R - rrS    S ;  S , g    r R , S ;   |  ;  ;   G ;       ; M  P ;    |  P dn  dpP  ;  ;  ;  ;  ||",
-                    "sahitya": "Karu- -   -     n\u0323\u0101     -  -  ra -     sa  -  - -      -  -  p\u016br          -   -  -   -     -  - -    rn\u0323a    -"
+                    "sahitya": "Karu- -   -     ṇā     -  -  ra -     sa  -  - -      -  -  pūr          -   -  -   -     -  - -    rṇa    - ||"
                 },
                 {
                     "swara": "; ;   ; P   D P - D ;     D N S nd    D ; ;  N  | S ;  ;   ;     ;   ;    ;  ;    |  ;  ;   ;   ;       ;   ; dn Srs  ||",
-                    "sahitya": "dha ran\u0323i   ta -     na-  ya - -     -  - - kun nna - -"
+                    "sahitya": "dha raṇi   ta -     na-  ya - -     -  - - kun nna - - ||"
                 },
                 {
                     "swara": "ndpm-G , m   ; D , d N   S ;  snD   ;  ;  ;  N   |  S  ;  ;  ;      ;  ;  ;   ;   |  ; ;  ;  ;       ;  ;  d n Srs ||",
-                    "sahitya": "dha ra      n\u0323i   ta -   na-  ya - - -  - - kun    nna - -"
+                    "sahitya": "dha ra      ṇi   ta -   na-  ya - - -  - - kun    nna - - ||"
                 },
                 {
                     "swara": "ndpm-G , m   ; D , R ,   S ;  sn Srs    nD , ;  N   |  S  ;  ;  ;      ;  ; N ;  | G R - S ;      snD   DN   ||",
-                    "sahitya": "dha ra     n\u0323i   ta - na-  ya - -            -  - - kun    nna - -     - - pr\u0113     -  -    ma      ra- -  sa-"
+                    "sahitya": "dha ra     ṇi   ta - na-  ya - -            -  - - kun    nna - -     - - prē     -  -    ma      ra- -  sa- ||"
                 },
                 {
                     "swara": "S ,n  G , m   ;   D ; R    S ;  sn Srs    nD , ;  N   |  S  ;  ;  ;      ;  ; N ;  | G R - S ;      snD   DN   ||",
-                    "sahitya": "mu - dha ra      n\u0323i   ta - na-  ya - -      -  - - kun    nna - -        - - pr\u0113     -  -    ma      ra- -  sa-"
+                    "sahitya": "mu - dha ra      ṇi   ta - na-  ya - -      -  - - kun    nna - -        - - prē     -  -    ma      ra- -  sa- ||"
                 },
                 {
                     "swara": "S ;   ; G     ; rs  G ;    GM  D;     ;  N S ;  |   ;  ;  snsn       G R S N | D N S N  D N S N   ||",
-                    "sahitya": "Ty\u0101   ga- r\u0101 -   ja -  nu--      thu ni -            - -  k\u012b - -        -  -   - -    yan -  - -    -  -   -  -"
+                    "sahitya": "Tyā   ga- rā -   ja -  nu--      thu ni -            - -  kī - -        -  -   - -    yan -  - -    -  -   -  - ||"
                 },
                 {
                     "swara": "D P M - G     ; rs  G ;    GM  D;    M-  dN S ,  |   ;  ;  snsn       G R S N | D N S N  D N S N   ||",
-                    "sahitya": "na          Ty\u0101   ga- r\u0101 -   ja -  nu--       thu ni - -    - -  k\u012b - -        -  -   - -    yan -  - -   na  -   -  -"
+                    "sahitya": "na          Tyā   ga- rā -   ja -  nu--       thu ni - -    - -  kī - -        -  -   - -    yan -  - -   na  -   -  - ||"
                 },
                 {
                     "swara": "pdpm - S ,  n     ; dn  dpP ;    gmpd ns-nd    pm G ,r- R   | S ;   ;   ;   ; ;   snsn  |   G ; G ;   G M P dn   ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   - -  n\u0323i -     - -    - var    n\u0323a -  - -   - -   r\u0101- -      - -  ma-     nan-  nu"
+                    "sahitya": "Ma ra     -ka- ta         ma--   - -  ṇi -     - -    - var    ṇa -  - -   - -   rā- -      - -  ma-     nan-  nu ||"
                 },
                 {
                     "swara": "dpP ; ; - P      D P   P ;       MP mpdp     D ; M- D    | N S ;  ;  ; ;  D N   |  S R  S N     D N S N  ||",
-                    "sahitya": "ma    rava   ka        n\u0101   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   -"
+                    "sahitya": "ma    rava   ka        nā   - -  - -     -   -  - yan   - na - -       -  -  - -        - -   -   -     -    -   -   - ||"
                 },
                 {
                     "swara": "D P - S ,  n     ; dn  dpP ;    dpmg  G ;    ; R ;   R   | R ;   ;   S     ; ;   ;  ;   |   grrs  S  ;     ;  ;   ;  ;    ||",
-                    "sahitya": "Ma ra     -ka- ta         ma--   n\u0323i -     - -    var    n\u0323a -  - -      - -   -  -       -  -  -  -     -  -   -  -"
+                    "sahitya": "Ma ra     -ka- ta         ma--   ṇi -     - -    var    ṇa -  - -      - -   -  -       -  -  -  -     -  -   -  - ||"
                 }
             ]
         }

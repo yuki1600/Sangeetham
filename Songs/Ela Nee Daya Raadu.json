@@ -5,7 +5,8 @@
         "arohanam": "S R2 M1 P N3 S ||",
         "avarohanam": "S N3 D2 P M1 P G3 R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,19 +14,19 @@
             "content": [
                 {
                     "swara": "s m r s   N - r s   n p - dn      , - P ,     |  ;    m n      p m G  |  M P   m pn P ; n ||",
-                    "sahitya": "E - -  -  -    - -       - -    laa-   -    Nee     -   Da -      ya- - -     raa-    - - - - - - -"
+                    "sahitya": "E - -  -  -    - -       - -    laa-   -    Nee     -   Da -      ya- - -     raa-    - - - - - - - ||"
                 },
                 {
                     "swara": "d N p ;  ;      ;  ;    ;   R  |      S   ;      nsr S ; r    |  s n P  d N p ||",
-                    "sahitya": "du - -  -  -   - -    -   Pa        raa -    ku - - - -     Je -  -   se- -"
+                    "sahitya": "du - -  -  -   - -    -   Pa        raa -    ku - - - -     Je -  -   se- - ||"
                 },
                 {
                     "swara": "p n n p  M - pn  Srs SD   D - P   |   Mpn  P,n    pmG     | g m P  m p n P ; n ||",
-                    "sahitya": "- -  - - -    -    Ve-   la -  -   -   -    Sa    ma -    - -    ya- -        mu- -  Gaa- - -  - -"
+                    "sahitya": "- -  - - -    -    Ve-   la -  -   -   -    Sa    ma -    - -    ya- -        mu- -  Gaa- - -  - - ||"
                 },
                 {
                     "swara": "pm rm  rm - sr   , s - S    ;  ;  |     ;  ;        ; ;  |   ; ;     ; ;  ||",
-                    "sahitya": "du - -  - -    - -    - -   -     - -       - -        - -      - -     - -"
+                    "sahitya": "du - -  - -    - -    - -   -     - -       - -        - -      - -     - - ||"
                 }
             ]
         },
@@ -34,19 +35,19 @@
             "content": [
                 {
                     "swara": "N P P - np  np - n n      p m P  |     S ;     S - R  |     S S  n s  R ||",
-                    "sahitya": "Baa- la  Ka-  na-  ka-     ma-  ya    Che-     la  Su      ja na Pa-  ri"
+                    "sahitya": "Baa- la  Ka-  na-  ka-     ma-  ya    Che-     la  Su      ja na Pa-  ri ||"
                 },
                 {
                     "swara": "r r s n  S - R  S -  S  ; rm rs S |  r s n d    D- D  |  D     d s   d p  D ||",
-                    "sahitya": "paa- -  la Shree  -    Ra    -  - - maa   lo- - -     la Vi   dhru ta-   Sha- ra"
+                    "sahitya": "paa- -  la Shree  -    Ra    -  - - maa   lo- - -     la Vi   dhru ta-   Sha- ra ||"
                 },
                 {
                     "swara": "r s N  S - R  S R  m m R  |  n s Rmr   S- mr  | s n D  R    S  ||",
-                    "sahitya": "jaa- -      la  Shu bada  Ka-  ru    naa- - -    la  vaa- - -  la   Gha na"
+                    "sahitya": "jaa- -      la  Shu bada  Ka-  ru    naa- - -    la  vaa- - -  la   Gha na ||"
                 },
                 {
                     "swara": "S - sr  sn - pd  snN- P-   n r s n  |  p d snN   P - mn  |  pm - gm   P R  ||",
-                    "sahitya": "nee - -  la-   Na   - - -  vya Va-na-    Maa- - -    li  kaa-    -  -   Bha  ra na   (Ela)"
+                    "sahitya": "nee - -  la-   Na   - - -  vya Va-na-    Maa- - -    li  kaa-    -  -   Bha  ra na   (Ela) ||"
                 }
             ]
         },
@@ -55,35 +56,35 @@
             "content": [
                 {
                     "swara": "; ;  ; D  D ;  ; D  |  D ;  d N p  | P , n  d N p  ||",
-                    "sahitya": "- -  - Raa raa-  -  De    vaa-  di- - -    De- -  vaa!- -"
+                    "sahitya": "- -  - Raa raa-  -  De    vaa-  di- - -    De- -  vaa!- - ||"
                 },
                 {
                     "swara": "p n n p   M- P  S ;  S ;  |  s m r s    n r s n  |  n P n  d N p ||",
-                    "sahitya": "- -  -  -    -   Raa raa-  Ma    haa- -    nu - - -    bhaa-   va - -"
+                    "sahitya": "- -  -  -    -   Raa raa-  Ma    haa- -    nu - - -    bhaa-   va - - ||"
                 },
                 {
                     "swara": "p n n p   M- P  s n D  P ;  |  Mpn P,n    p m G  |  g m P   Mpn P,n     ||",
-                    "sahitya": "- -   -  -    -   Raa  raa- -  Raa-     jee- - - -    va - - -    Ne- - -    -  -  - - -"
+                    "sahitya": "- -   -  -    -   Raa  raa- -  Raa-     jee- - - -    va - - -    Ne- - -    -  -  - - - ||"
                 },
                 {
                     "swara": "d N p   P  ;  ; ;  , p    R  | S ;  s n d n  | n d N   , S ,  ||",
-                    "sahitya": "traa- -   -   -   - -  - Ra ghu   va-  ra -  - -     Pu- -  - traa-"
+                    "sahitya": "traa- -   -   -   - -  - Ra ghu   va-  ra -  - -     Pu- -  - traa- ||"
                 },
                 {
                     "swara": "N P P - np  np - n n      p m P  |   S ;     S - R  |     S S  n s  R ||",
-                    "sahitya": "Saa-   ra  ta-  ra-  Su-     dhaa- -    Pu-     ra Hru      daya Pa-  ri"
+                    "sahitya": "Saa-   ra  ta-  ra-  Su-     dhaa- -    Pu-     ra Hru      daya Pa-  ri ||"
                 },
                 {
                     "swara": "r r s n  S - R  S -  S  ; rm rs S |  r s n d    D- D  |  D     d s   d p  D ||",
-                    "sahitya": "vaa- -     ra  Ja      la   dhi    - - - Gam- bhee--   ra  Da    nu    ja-   Sam- -"
+                    "sahitya": "vaa- -     ra  Ja      la   dhi    - - - Gam- bhee--   ra  Da    nu    ja-   Sam- - ||"
                 },
                 {
                     "swara": "r s N  S - R  S R  m m R  |  n s Rmr   S- mr  | s n  -D    R    S  ||",
-                    "sahitya": "haa-        ra Ma dana  Su -  ku    maa- - -   ra Bu-   dha Ja  na   vi"
+                    "sahitya": "haa-        ra Ma dana  Su -  ku    maa- - -   ra Bu-   dha Ja  na   vi ||"
                 },
                 {
                     "swara": "S - sr  sn - pd  snN- P-   n r    s n  |  p d N   P - mn  |  pm - gm   P R  ||",
-                    "sahitya": "haa--      ra-  Sa-   ka--   la  Shru-ti -     saa- -    ra Naa-    - -   du-   pai-      (Ela)"
+                    "sahitya": "haa--      ra-  Sa-   ka--   la  Shru-ti -     saa- -    ra Naa-    - -   du-   pai-      (Ela) ||"
                 }
             ]
         }

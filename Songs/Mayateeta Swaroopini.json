@@ -5,7 +5,8 @@
         "arohanam": "S R1 G3 M1 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M1 G3 R1 S ||",
         "tala": "Rupakam",
-        "composer": "Ponnaiah Pillai"
+        "composer": "Ponnaiah Pillai",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,99 +14,99 @@
             "content": [
                 {
                     "swara": "S ;      R ;     G ;  || M ;    P-   pp  mg M  || P ;  ; ;  ; ;  ||",
-                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - -"
+                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - - ||"
                 },
                 {
                     "swara": "S ;      R ;     G ;  || M ;    P-   pp  mg M  || P ;  ; ;  P    D  ||  P ;  ,m-gm    g-rs n ||",
-                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           Nannu       bro      --  va-    - ve—"
+                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           Nannu       bro      --  va-    - ve— ||"
                 },
                 {
                     "swara": "S rs     R gr     G mg|| M pm -dp-   pp mg- M || P ;  ; ;  P    D  ||  P ;  ,m-gm    g-rs n ||",
-                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nannu       bro      --  va-    - ve—"
+                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nannu       bro      --  va-    - ve— ||"
                 },
                 {
                     "swara": "S rs     R gr     G mg|| M pm -dp-   pp mg- M || P ;  ; ;  gm   pd  ||  nsn-d  pm-gm    g-rs n ||",
-                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve—"
+                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve— ||"
                 },
                 {
                     "swara": "sr ss     rg rr   gm gg|| mpmm -dp-   pp mg- M || P ;  ; ;  gm   pd  ||  nsn-d  pm-gm    g-rs n ||",
-                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve—"
+                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve— ||"
                 },
                 {
                     "swara": "sr ss     rg rr   gm gg|| mpmm -dp-   pp mg- M || P ;  ; ;  gm   pd  ||  SrsS-d pm-Mpm G -rs n ||",
-                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve—"
+                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve— ||"
                 },
                 {
                     "swara": "S sn  D - dn   dd P   || gmdd    pm- gm  gr - pm || R ;    ;  sr    gm -pd  || nsn-d   pm- gm  g-rsn   ||",
-                    "sahitya": "Maha      -   Thri- pu-ra    Sun--     - -   - -   - -    da-    ri -    -  San- - -  - -     - - - ka - -    ri -   -  - -"
+                    "sahitya": "Maha      -   Thri- pu-ra    Sun--     - -   - -   - -    da-    ri -    -  San- - -  - -     - - - ka - -    ri -   -  - - ||"
                 },
                 {
                     "swara": "Sgr rs  Rmg gr  Gpm mg|| Mdp pm -dp-   pp mg- M || P ;   ; ;    gm   pd  ||  SrsS-d pm-Mpm G -rs n ||",
-                    "sahitya": "Ma      yaa       Athee   --    tha    - - Swa roo-  - -  pi   ni -    - -  Nan- nu      bro      -- -  va-    -   ve—"
+                    "sahitya": "Ma      yaa       Athee   --    tha    - - Swa roo-  - -  pi   ni -    - -  Nan- nu      bro      -- -  va-    -   ve— ||"
                 },
                 {
                     "swara": "S sn  D - pn   dd P   || gmdd    pm- gm  gr - pm || R ;    ;  sr    gm -pd  || nsn-d   pm- gm  g-rsn   ||",
-                    "sahitya": "Maha      -   Thri- pu-ra    Sun--     - -   - -   - -    da-    ri -    -  San- - -  - -     - - - ka - -    ri -   -  - -"
+                    "sahitya": "Maha      -   Thri- pu-ra    Sun--     - -   - -   - -    da-    ri -    -  San- - -  - -     - - - ka - -    ri -   -  - - ||"
                 },
                 {
                     "swara": "S ;      ; R     ; G   || ; M     ,d-   pp  mg M  || pdpd  dm ;  P ;  ||",
-                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - -"
+                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - - ||"
                 },
                 {
                     "swara": "; D      , P ,     mP,;  n  ||  dP, M    gMg   rg-rs  || S - sr    , g-  M    P ;   || ; ;    ; ;   pmg-r  ||",
-                    "sahitya": "Ma      ya      ma -   -     la--  va   gow-  - - la-    -   de-   - sha mu  na                   Am—ba"
+                    "sahitya": "Ma      ya      ma -   -     la--  va   gow-  - - la-    -   de-   - sha mu  na                   Am—ba ||"
                 },
                 {
                     "swara": "gm- P  ,  dm P  mP,;  n  ||  dP, M    gMg   R- S  || ; - sr    , g-  M    P ;   || ; ;    ; pm  gr- sr ||",
-                    "sahitya": "Ma   ya      ma -   -     la--  va   gow-  - - la-    -  de-  - sha mu  na               Am—  - -"
+                    "sahitya": "Ma   ya      ma -   -     la--  va   gow-  - - la-    -  de-  - sha mu  na               Am—  - - ||"
                 },
                 {
                     "swara": "gm- P  ,  dm P  mP,;  n  ||  dP, M    gMg   rg-rs  ||rn - sr    , g-  M    P ;   || ; ;    ; pm  gr- sr ||",
-                    "sahitya": "ba   Ma    ya      ma -   -     la--  va   gow-  - - la-     -  de-  - sha mu  na               Am—  - -"
+                    "sahitya": "ba   Ma    ya      ma -   -     la--  va   gow-  - - la-     -  de-  - sha mu  na               Am—  - - ||"
                 },
                 {
                     "swara": "gm- P  ,  dm P  mP,;  n  ||  dP, M    gMg   rg-rs  ||rn - sr    , g-  M    P ;   ||",
-                    "sahitya": "ba   Ma    ya      ma -   -     la--  va   gow-  - - la-     -  de-  - sha mu  na"
+                    "sahitya": "ba   Ma    ya      ma -   -     la--  va   gow-  - - la-     -  de-  - sha mu  na ||"
                 },
                 {
                     "swara": "; ps   , s N      pdpd      ||  pd ns    d p pm   G ;  || gm  dd   pm-gm   gr- pm   || gr ;    ;  R   S  ;   ||",
-                    "sahitya": "Mahi maga    la - -         do-ra-    lar- - -   chin-  chu-mu- - -  ni-    --  swa-    ri - -   -  -     -  -"
+                    "sahitya": "Mahi maga    la - -         do-ra-    lar- - -   chin-  chu-mu- - -  ni-    --  swa-    ri - -   -  -     -  - ||"
                 },
                 {
                     "swara": "M  g  r     s- P m   g  R   s ||   s    r  g m    p   m - g m   , p D  ||  N S     ;  ;     ;  ;  ||",
-                    "sahitya": "Kayaju   ni  vairi  ki prana   kaan-thaa-  Braha  dhee-  swa-      ri  -     -  -     -  -"
+                    "sahitya": "Kayaju   ni  vairi  ki prana   kaan-thaa-  Braha  dhee-  swa-      ri  -     -  -     -  - ||"
                 },
                 {
                     "swara": "M  g  r     s- P m   g  R   s ||   s    r  g m    p   m - g m    p  d   n    s ||  S n - d   n d -P       g m   p d   ||",
-                    "sahitya": "Kayaju   ni  vairi  ki prana   kaan-thaa-  Braha  dhee-  swari Kripa  seya  va lenu maa  Guru guha"
+                    "sahitya": "Kayaju   ni  vairi  ki prana   kaan-thaa-  Braha  dhee-  swari Kripa  seya  va lenu maa  Guru guha ||"
                 },
                 {
                     "swara": "S    n  d   p m - g m    g - g r s  ||",
-                    "sahitya": "swamiki ne -    da -   su  dai-thi"
+                    "sahitya": "swamiki ne -    da -   su  dai-thi ||"
                 },
                 {
                     "swara": "S ;      R ;     G ;  || M ;    P-   pp  mg M  || P ;  ; ;  ; ;  ||",
-                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - -"
+                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - - ||"
                 },
                 {
                     "swara": "M  g  r     s- P m   g  R   s ||   s    r  g m    p   m - g m    p  d   n    s ||  S n - d   n d -P       g m   p d   ||",
-                    "sahitya": "Kayaju   ni  vairi  ki prana   kaan-thaa-  Braha  dhee-  swari Kripa  seya  va lenu maa  Guru guha"
+                    "sahitya": "Kayaju   ni  vairi  ki prana   kaan-thaa-  Braha  dhee-  swari Kripa  seya  va lenu maa  Guru guha ||"
                 },
                 {
                     "swara": "S    n  d   p m - g m    g - g r s  ||",
-                    "sahitya": "swamiki ne -    da -   su  dai-thi"
+                    "sahitya": "swamiki ne -    da -   su  dai-thi ||"
                 },
                 {
                     "swara": "sr ss     rg rr   gm gg|| mpmm -dp-   pp mg- M || P ;  ; ;  gm   pd  ||  SrsS-d pm-Mpm G -rs n ||",
-                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve—"
+                    "sahitya": "Ma      yaa     Athee   tha    -  Swa roo-  - -  pi   ni -      - -           Nan-nu       bro      --  va-    - ve— ||"
                 },
                 {
                     "swara": "S sn  D - pn   dd P   || gmdd    pm- gm  gr - pm || R ;    ;  sr    gm -pd  || nsn-d   pm- gm  g-rsn   ||",
-                    "sahitya": "Maha      -   Thri- pu-ra    Sun--     - -   - -   - -    da-    ri -    -  San- - -  - -     - - - ka - -    ri -   -  - -"
+                    "sahitya": "Maha      -   Thri- pu-ra    Sun--     - -   - -   - -    da-    ri -    -  San- - -  - -     - - - ka - -    ri -   -  - - ||"
                 },
                 {
                     "swara": "S ;      ; R     ; G   || ; M     ,d-   pp  mg M  || ndpd  dm ;  P ;  ||",
-                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - -"
+                    "sahitya": "Ma     yaa    Athee   tha    Swaroo-   - -  pi        ni -      - -           - - ||"
                 }
             ]
         }

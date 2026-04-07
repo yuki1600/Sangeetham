@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Sri Ganapathini",
         "raga": "Sowrastram",
-        "arohanam": "S R\u2081 G\u2083 M\u2081 P M\u2081 D\u2082 N\u2083 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2083 D\u2082 N\u2082 D\u2082 P M\u2081 G\u2083 R\u2081 S ||",
+        "arohanam": "S R₁ G₃ M₁ P M₁ D₂ N₃ Ṡ ||",
+        "avarohanam": "Ṡ N₃ D₂ N₂ D₂ P M₁ G₃ R₁ S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,15 +14,15 @@
             "content": [
                 {
                     "swara": "; ; D N  ; S  S ; dn S  snD    D ; dNd     |   P ; ; P  M-DPM   gmPmg R  R ; R ; ||",
-                    "sahitya": "sri -      ga na    pa- -  - --     thi-  ni - -   -   --  - se     -  vim-pa ra- - - - - - -"
+                    "sahitya": "sri -      ga na    pa- -  - --     thi-  ni - -   -   --  - se     -  vim-pa ra- - - - - - - ||"
                 },
                 {
                     "swara": "rs S D N   ;   S  S ;    dn Srs   nsnd  D ; dNd  | P ; ; P   M-DPM  gmpd nsrs sndp mgrs ||",
-                    "sahitya": "re - sri -        ga  na   pa---    - - -    thi  ni - - -  -  - se-     vim-pa ra- - - - - - -- - - -- - -"
+                    "sahitya": "re - sri -        ga  na   pa---    - - -    thi  ni - - -  -  - se-     vim-pa ra- - - - - - -- - - -- - - ||"
                 },
                 {
                     "swara": "R  ; -S  R    S  ; R ;    GMPM   P, n d  N d   | P ; ; P  M- D P M  gmpd nsrs sndp mgrs  || R ;",
-                    "sahitya": "re    Sri tha ma-  --    na -vu-    la- -  ra - -    -  - - se-     -  vim-pa  ra- - - -- - -- -- - - - -"
+                    "sahitya": "re    Sri tha ma-  --    na -vu-    la- -  ra - -    -  - - se-     -  vim-pa  ra- - - -- - -- -- - - - - ||"
                 }
             ]
         },
@@ -30,15 +31,15 @@
             "content": [
                 {
                     "swara": "; ; P ;  M D ; N   S ; S ;  SR rs S  |  ; ; ; S   ; rg rsS ;  dnS  snD  D ; dNd ||",
-                    "sahitya": "Va  -     -  ga  thi  pa thi   - - su--     - - -bhu   ja la--     che- - - -  ko  ni - -"
+                    "sahitya": "Va  -     -  ga  thi  pa thi   - - su--     - - -bhu   ja la--     che- - - -  ko  ni - - ||"
                 },
                 {
                     "swara": "P ; ndpm  gr -srgm pd    nsrs n s rs  S R rsS |  ; ; ; S  ; rg r s S ;  dn Srs  nsnd D; dNd ||",
-                    "sahitya": "- -  va- -   - -ga-----   --    di---  pa---  thi -su--   bhu  - ja lu—    che- - - - - -- ko ni- -"
+                    "sahitya": "- -  va- -   - -ga-----   --    di---  pa---  thi -su--   bhu  - ja lu—    che- - - - - -- ko ni- - ||"
                 },
                 {
                     "swara": "P ; S ;  N - G R S   dn Srs nsnd  D; d N d  |  P ; ; , n    dNd  P ;    mg P mgR GMPM  || ndpm",
-                    "sahitya": "- - bha     -   ga -na   tim - - - - -- pu chu - - - - - -     -    nu----       ve - -  da--   li-  na -  - - - -"
+                    "sahitya": "- - bha     -   ga -na   tim - - - - -- pu chu - - - - - -     -    nu----       ve - -  da--   li-  na -  - - - - ||"
                 }
             ]
         },
@@ -47,23 +48,23 @@
             "content": [
                 {
                     "swara": "P P P   P    ;  M  mg mp    mgR R ;  R ; R ;  |  s n D R S    R ; R ;  G M mgmp  m g R srgm  ||",
-                    "sahitya": "Panasa Na  -  ri  ke  - -      la - - thi  jam-bhu- pha-la mula  na ra    gim - - - - -  chi - - - - - -"
+                    "sahitya": "Panasa Na  -  ri  ke  - -      la - - thi  jam-bhu- pha-la mula  na ra    gim - - - - -  chi - - - - - - ||"
                 },
                 {
                     "swara": "P  d n P  P    ; M gmpd  nd pm  gr R   , R ,   R ;   | s n D  R S   R ; R ;  G M mgmp  m g R srgm ||",
-                    "sahitya": "Pana- sa Na     ri ke  - -  la - - -   - - thi - jam bhu  pha-la mula Na ra    gim - - - - -   chi - - - - - -"
+                    "sahitya": "Pana- sa Na     ri ke  - -  la - - -   - - thi - jam bhu  pha-la mula Na ra    gim - - - - -   chi - - - - - - ||"
                 },
                 {
                     "swara": "D  N  S    sn     D d n  P M    M P dndp   mpmg   R S |  S ;  N R     ; R  R ;  M ; mgmp  mgR R ;  ||",
-                    "sahitya": "Ghanatha ram-     bu-  ganu  ma hi pai— pa-da- mula  ghal lu ghal  la na    nun - - - -   chi - - - -"
+                    "sahitya": "Ghanatha ram-     bu-  ganu  ma hi pai— pa-da- mula  ghal lu ghal  la na    nun - - - -   chi - - - - ||"
                 },
                 {
                     "swara": "R G M m g   R  -S R -S   D P p p m g   R S   S   R  | P , m gmpm G M P   D  NS  nsrs  R ; R ; ||",
-                    "sahitya": "Ana ya mu    na Hari cha rana yu ga -  mula hruda    yam------ --  bu ja mu la nun ----   chi ---"
+                    "sahitya": "Ana ya mu    na Hari cha rana yu ga -  mula hruda    yam------ --  bu ja mu la nun ----   chi --- ||"
                 },
                 {
                     "swara": "S  r g M G    R S   S ;   r g r s S ; N   D D P M    |  D N S  - D   D P - P ;      d n dp ; M   G R G M  ||  P M",
-                    "sahitya": "Vi na-yumu nanu thia  ga - ra     ja   vi nu thudu   Vividha Ga  thula Theep tha lan gu    mani veda    lina"
+                    "sahitya": "Vi na-yumu nanu thia  ga - ra     ja   vi nu thudu   Vividha Ga  thula Theep tha lan gu    mani veda    lina ||"
                 }
             ]
         }

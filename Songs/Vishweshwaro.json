@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 D2 N2 S ||",
         "avarohanam": "S N2 P M1 G2 M1 R2 S ||",
         "tala": "Adi",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,87 +14,87 @@
             "content": [
                 {
                     "swara": "R P        G ;   ; M  R ;  |  ; ;  ; ;  |    ; ;        ; ;  ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO - ||"
                 },
                 {
                     "swara": "R P        G ;   ; M  R ;  |  pm gm      R S  |    R ;        R S    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri - ||"
                 },
                 {
                     "swara": "R P        G ;   ; M  R ;  |  pm gm      R S  |    R ;        R S    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri - ||"
                 },
                 {
                     "swara": "R P        pmG    ; M  R ;  |  pm gm      R S  |    R ;        ns rs   ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri - ||"
                 },
                 {
                     "swara": "R P        pmG    ; M  R ;  |  pm gm      R S  |    R ;        rs ns   ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri - ||"
                 },
                 {
                     "swara": "R P        pmG    ; M  R ;  |  pm gm      R S  |    R ;        gmdn   ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -     Sri - ||"
                 },
                 {
                     "swara": "pmdp    G  ;  ; pmM  R ;  |  pm gm      R S  |    R ;        ; ;    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -      - -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -      - - ||"
                 },
                 {
                     "swara": "G M     D D         S sn    R S  |   sn ns        P P   |  G M       r s R  ||",
-                    "sahitya": "vidhi     guru        guhA   - di               pU ---       ji ta     sa  ta      tam - -"
+                    "sahitya": "vidhi     guru        guhA   - di               pU ---       ji ta     sa  ta      tam - - ||"
                 },
                 {
                     "swara": "R nd  pmG   ; pmM  R ;  |  pm gm      , r S  |    R ;        ; ;    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -      - -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -      - - ||"
                 },
                 {
                     "swara": "G M     D D         S sn    gr  S  |   sn rs        P nd  |  pmpm     gmr s  ||",
-                    "sahitya": "vidhi     guru        guhA   - di               pU ---       ji ta     sa  ta      tam - -"
+                    "sahitya": "vidhi     guru        guhA   - di               pU ---       ji ta     sa  ta      tam - - ||"
                 },
                 {
                     "swara": "R nd  pmG   ; pmM  rsR   |  ; ;       ;  ;   |    ; ;        ; ;    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          - -       -  -               -  -           - -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          - -       -  -               -  -           - - ||"
                 },
                 {
                     "swara": "M , d  ; N  ; S   N R  | sS n   nN ,    |  nd N       S ;  ||",
-                    "sahitya": "Vi   SA    lA         - kshI     sahi         tA--      nan-       da- yu     tO"
+                    "sahitya": "Vi   SA    lA         - kshI     sahi         tA--      nan-       da- yu     tO ||"
                 },
                 {
                     "swara": "; ;  ; ;  ; ;  ; ;  |   ; ;  ; ;  |    ; ;  ; ;  ||",
-                    "sahitya": "- -  - -  - -  - -      - -  --        - -  - -"
+                    "sahitya": "- -  - -  - -  - -      - -  --        - -  - - ||"
                 },
                 {
                     "swara": "M , d  ; N  ; S   nrsn  | dNd   nS ,      |  N  R       S ;  ||",
-                    "sahitya": "Vi   SA    lA         - kshI     sahi         tA--      nan-       da- yu     tO"
+                    "sahitya": "Vi   SA    lA         - kshI     sahi         tA--      nan-       da- yu     tO ||"
                 },
                 {
                     "swara": "R , s      ; nd  pm D  N  S  | n S - n    P - mg  |  mg - M   R ;  ||",
-                    "sahitya": "vi- kal   - pA-       - -  tI      -   ta    pra-   pan-     cA-    -  -     tI   tO"
+                    "sahitya": "vi- kal   - pA-       - -  tI      -   ta    pra-   pan-     cA-    -  -     tI   tO ||"
                 },
                 {
                     "swara": "mr-rs    nr - sn    pm- gm   dn S  |  sn    rs        n p - nd  | pm - gm      ; R  ||",
-                    "sahitya": "vi- kal   --    pA-  - -  tI      -    ta    pra-  pan-     - -    cA-    -  -  tI -      -  tO"
+                    "sahitya": "vi- kal   --    pA-  - -  tI      -    ta    pra-  pan-     - -    cA-    -  -  tI -      -  tO ||"
                 },
                 {
                     "swara": "gm-rs    nr - sn    pm- gm   dn S  |  sn    rs        n p - nd  | pm - gm      ; R  ||",
-                    "sahitya": "vi- kal   --    pA-  - -  tI      -    ta    pra-  pan-     - -    cA-    -  -  tI -      -  tO"
+                    "sahitya": "vi- kal   --    pA-  - -  tI      -    ta    pra-  pan-     - -    cA-    -  -  tI -      -  tO ||"
                 },
                 {
                     "swara": "g m   r s      s n s -  n      d n - S     g M- d  | d-  m d d       n  S -  n  |   P  ,  m    - g  m  r s  ||",
-                    "sahitya": "SaSi ravi    va-hni   lO    -ca  nO   ca turvi   dha purushA   - rtha  pra  dA- na      nipu NO-"
+                    "sahitya": "SaSi ravi    va-hni   lO    -ca  nO   ca turvi   dha purushA   - rtha  pra  dA- na      nipu NO- ||"
                 },
                 {
                     "swara": "R nd  pmG   ; pmM  R ;  |  pm gm      , r S  |    R ;        ; ;    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -      - -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          ra-  - -      kshatu  mAM -      - - ||"
                 },
                 {
                     "swara": "G M     D D         S sn    gr  S  |   sn rs        P nd  |  pmpm     gmr s  ||",
-                    "sahitya": "vidhi     guru        guhA   - di               pU ---       ji ta     sa  ta      tam - -"
+                    "sahitya": "vidhi     guru        guhA   - di               pU ---       ji ta     sa  ta      tam - - ||"
                 },
                 {
                     "swara": "R nd  pmG   ; pmM  rsR   |  ; ;       ;  ;   |    ; ;        ; ;    ||",
-                    "sahitya": "Vi -       SvE -      - Sva     rO -          - -       -  -               -  -           - -"
+                    "sahitya": "Vi -       SvE -      - Sva     rO -          - -       -  -               -  -           - - ||"
                 }
             ]
         }

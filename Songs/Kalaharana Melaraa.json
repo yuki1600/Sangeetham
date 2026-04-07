@@ -5,7 +5,8 @@
         "arohanam": "S R2 M1 P D2 S",
         "avarohanam": "S D2 P M1 R2 S",
         "tala": "Rupakam",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,23 +14,23 @@
             "content": [
                 {
                     "swara": "S ;    S  D    D P  ||  P ;  M R  ; pm  || R ;  S ;  ; rm  || P ;  ; M  P D  ||",
-                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - See-    thaa-  - Ra mana!"
+                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - See-    thaa-  - Ra mana! ||"
                 },
                 {
                     "swara": "S ;    S  D    D P  ||  pmpd  pm R  ; pm  || R ;  S ;  ; S  || R , - m    ; P  P D  ||",
-                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - He!     See thaa- Ra mana!"
+                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - He!     See thaa- Ra mana! ||"
                 },
                 {
                     "swara": "S ;    S  D    D P  ||  mpmd  pm R  ; pm  || R ;  S ;  ; S  || srm-r mp-mp d- p d  r  ||",
-                    "sahitya": "Kaa   la ha   ra na     Me- -   la  ra  - Ha-     re-  -  -  - He!    See- thaa-   Ra-   -  ma-na!"
+                    "sahitya": "Kaa   la ha   ra na     Me- -   la  ra  - Ha-     re-  -  -  - He!    See- thaa-   Ra-   -  ma-na! ||"
                 },
                 {
                     "swara": "srmr     s d-d r rs  dp ||  pdsd  pm- rm   pd pm || R ;  S ;  ; S  || srm-r mp-mp d- p d  r  ||",
-                    "sahitya": "Kaa--   la - ha -    ra- na-   Me- - la -  ra-   - - Ha-   re-  -  -  - He!    See- thaa-   Ra-   -  ma-na!"
+                    "sahitya": "Kaa--   la - ha -    ra- na-   Me- - la -  ra-   - - Ha-   re-  -  -  - He!    See- thaa-   Ra-   -  ma-na! ||"
                 },
                 {
                     "swara": "S ;    S  D    D P  ||  P ;  M R  ; pm  || R ;  S ;  ; ;  || ; ;  ; ;  ;  ;  ||",
-                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - -     - -  - -  - -"
+                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - -     - -  - -  - - ||"
                 }
             ]
         },
@@ -38,19 +39,19 @@
             "content": [
                 {
                     "swara": "; pm P - D  P D  ||   S ;  D - S  S S  ||",
-                    "sahitya": "- Kaa-     la   ha ra  na     Me-  la   Su gu naa"
+                    "sahitya": "- Kaa-     la   ha ra  na     Me-  la   Su gu naa ||"
                 },
                 {
                     "swara": "; pm P - D  P D  ||   S ;  S - s d  r s - D  ||",
-                    "sahitya": "- Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa"
+                    "sahitya": "- Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa ||"
                 },
                 {
                     "swara": "P- pm P - D  P D  ||   S ;  S - s d  r s - R  ||",
-                    "sahitya": "-  Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa"
+                    "sahitya": "-  Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa ||"
                 },
                 {
                     "swara": "; - pm P - D  P D  ||   S ;  S - s d  r s - R  || mr mr  S - s d s d  P  || pm pm    rs - rm    rm pd ||",
-                    "sahitya": "-   Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa    J aa- -   la    Ka-   - -  ru    naa- -      la- Vaa-  - -  laa-"
+                    "sahitya": "-   Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa    J aa- -   la    Ka-   - -  ru    naa- -      la- Vaa-  - -  laa- ||"
                 }
             ]
         },
@@ -59,23 +60,23 @@
             "content": [
                 {
                     "swara": "; pd  S D  P P  || pm pd    pm - rm    P  P  ||  ;  R  M - P  D D  || P D  S - D  ; P   ||",
-                    "sahitya": "Dina  Dina munu    Ti- ri-      gi-    Ti-   ri  gi    -  Di kku  le -    ka    Shara nu  Jo -  cchi"
+                    "sahitya": "Dina  Dina munu    Ti- ri-      gi-    Ti-   ri  gi    -  Di kku  le -    ka    Shara nu  Jo -  cchi ||"
                 },
                 {
                     "swara": "; pm P - D  P D  ||   S ;  D - S  ;  S  ||",
-                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  -   ti"
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  -   ti ||"
                 },
                 {
                     "swara": "; pm P - D  P D  ||   S ;  S - s d  r s - D  ||",
-                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti"
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti ||"
                 },
                 {
                     "swara": "P- pm P - D  P D  ||   S ;  S - s d  r s - R  ||",
-                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti"
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti ||"
                 },
                 {
                     "swara": "; - pm P - D  P D  ||   S ;  S - s d  r s - R  || mr mr  S - s d s d  P  || pm pm    rs - rm    rm pd ||",
-                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti      Tyaa—ga   raa-  - -  ja    Vi- nu-    ta!  Raa-  -- maa!"
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti      Tyaa—ga   raa-  - -  ja    Vi- nu-    ta!  Raa-  -- maa! ||"
                 }
             ]
         }

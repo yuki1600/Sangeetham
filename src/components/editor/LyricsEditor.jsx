@@ -24,6 +24,12 @@ const TALAS = buildTalaMap();
 // Detect template-generated placeholder strings (only _ | || and whitespace)
 const isTemplatePlaceholder = (str) => /^[\s_|]*$/.test(str);
 
+// True when an entire content entry contains nothing meaningful — i.e. both
+// swara and sahitya are empty or template placeholders. The lyrics editor
+// drops these so calibration-padding rows don't pollute the editing surface.
+const isEmptyEntry = (entry) =>
+    isTemplatePlaceholder(entry.swara || '') && isTemplatePlaceholder(entry.sahitya || '');
+
 // ---------------------------------------------------------------------------
 // Parse composition → text rows (for Text view)
 // ---------------------------------------------------------------------------
@@ -31,10 +37,12 @@ function parseToTextSections(composition) {
     if (!Array.isArray(composition)) return [];
     return composition.filter(s => s.section !== 'Aro/Avaro').map(s => ({
         name: s.section,
-        rows: (s.content || []).map(entry => ({
-            swara: isTemplatePlaceholder(entry.swara || '') ? '' : (entry.swara || ''),
-            sahitya: isTemplatePlaceholder(entry.sahitya || '') ? '' : (entry.sahitya || '')
-        }))
+        rows: (s.content || [])
+            .filter(entry => !isEmptyEntry(entry))
+            .map(entry => ({
+                swara: isTemplatePlaceholder(entry.swara || '') ? '' : (entry.swara || ''),
+                sahitya: isTemplatePlaceholder(entry.sahitya || '') ? '' : (entry.sahitya || '')
+            }))
     }));
 }
 
@@ -44,24 +52,26 @@ function parseToTextSections(composition) {
 function parseToGridSections(composition, tala) {
     if (!Array.isArray(composition)) return [];
     return composition.filter(s => s.section !== 'Aro/Avaro').map(s => {
-        const rows = (s.content || []).map(entry => {
-            const swaraAvs = (entry.swara || '').split('||').map(v => v.trim()).filter(Boolean);
-            const sahityaAvs = (entry.sahitya || '').split('||').map(v => v.trim()).filter(Boolean);
-            const count = Math.max(swaraAvs.length, sahityaAvs.length, 1);
-            const aavartanas = [];
-            for (let i = 0; i < count; i++) {
-                const sStr = swaraAvs[i] || '';
-                const lStr = sahityaAvs[i] || '';
-                const sTokens = sStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
-                const lTokens = lStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
-                const beats = Array.from({ length: tala.beats }, (_, j) => ({
-                    swara: sTokens[j] || '',
-                    sahitya: lTokens[j] || ''
-                }));
-                aavartanas.push(beats);
-            }
-            return aavartanas;
-        }).flat();
+        const rows = (s.content || [])
+            .filter(entry => !isEmptyEntry(entry))
+            .map(entry => {
+                const swaraAvs = (entry.swara || '').split('||').map(v => v.trim()).filter(Boolean);
+                const sahityaAvs = (entry.sahitya || '').split('||').map(v => v.trim()).filter(Boolean);
+                const count = Math.max(swaraAvs.length, sahityaAvs.length, 1);
+                const aavartanas = [];
+                for (let i = 0; i < count; i++) {
+                    const sStr = swaraAvs[i] || '';
+                    const lStr = sahityaAvs[i] || '';
+                    const sTokens = sStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
+                    const lTokens = lStr.replace(/\|+/g, ' ').split(/\s+/).filter(Boolean);
+                    const beats = Array.from({ length: tala.beats }, (_, j) => ({
+                        swara: sTokens[j] || '',
+                        sahitya: lTokens[j] || ''
+                    }));
+                    aavartanas.push(beats);
+                }
+                return aavartanas;
+            }).flat();
         return {
             name: s.section,
             aavartanas: rows.length > 0 ? rows : [Array.from({ length: tala.beats }, () => ({ swara: '', sahitya: '' }))]
@@ -438,6 +448,21 @@ function GridEditor({ composition, initialTalam, onSave, onClose, isDark, bg, bo
     const [pendingDeleteIdx, setPendingDeleteIdx] = useState(null);
     const [skipDeleteConfirm, setSkipDeleteConfirm] = useState(false);
 
+    // Detect whether the SOURCE composition uses bar markers at all. If the
+    // user's JSON had zero `|` characters across every entry we must NOT
+    // synthesize them on save — earlier versions of the editor injected bars
+    // at every anga boundary even for unbarred compositions, mutating data
+    // the user never touched.
+    const sourceHasBars = React.useMemo(() => {
+        if (!Array.isArray(composition)) return false;
+        return composition.some(s =>
+            (s.content || []).some(e =>
+                (typeof e.swara === 'string' && e.swara.includes('|')) ||
+                (typeof e.sahitya === 'string' && e.sahitya.includes('|'))
+            )
+        );
+    }, [composition]);
+
     const handleBeatChange = (secIdx, avIdx, beatIdx, field, value) => {
         setSections(prev => {
             const next = [...prev];
@@ -529,6 +554,16 @@ function GridEditor({ composition, initialTalam, onSave, onClose, isDark, bg, bo
     const handleSave = () => {
         const newComposition = sections.map(s => {
             const content = s.aavartanas.map(av => {
+                if (!sourceHasBars) {
+                    // Source had no bars — preserve that. Just space-separate
+                    // the beats with no `|` or `||` markers at all. Empty
+                    // beats become "-" so positional alignment still survives.
+                    const sParts = av.map(beat => beat.swara || '-');
+                    const lParts = av.map(beat => beat.sahitya || '-');
+                    return { swara: sParts.join(' '), sahitya: lParts.join(' ') };
+                }
+                // Source had bars — re-emit them at anga boundaries and
+                // close each aavartana with `||`.
                 let sParts = [], lParts = [];
                 av.forEach((beat, idx) => {
                     const beatNum = idx + 1;

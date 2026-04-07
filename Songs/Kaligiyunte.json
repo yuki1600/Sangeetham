@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M1 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,27 +14,27 @@
             "content": [
                 {
                     "swara": "; ; ; sg rs , n S nS     R; ; ;        G R G ; | gr R; ;   gR gM ; |  R ; G ;  ; ; Rgr ||",
-                    "sahitya": "- - - Ka li  - - gi-yun  te          Kaa- -   daa- -   Gal- -      -  - gu -   - - nu- -"
+                    "sahitya": "- - - Ka li  - - gi-yun  te          Kaa- -   daa- -   Gal- -      -  - gu -   - - nu- - ||"
                 },
                 {
                     "swara": "RS S rg   rsS  n S nS     R; ; ;        G R G ; | gr R; ;   gR gM ; |  R ; G ;  ; ; rgmg ||",
-                    "sahitya": "- - -Ka-- li  - - - gi-yun  te            Kaa- -   daa- -   Gal- -      -  - gu -   - - nu- -"
+                    "sahitya": "- - -Ka-- li  - - - gi-yun  te            Kaa- -   daa- -   Gal- -      -  - gu -   - - nu- - ||"
                 },
                 {
                     "swara": "grrs S rg   rsS  n S nS     R; ; ;        dg R G ; | gr R; ;   gR gM ; |  R ; Mpm  G ; Mpd pm ||",
-                    "sahitya": "- - -Ka-- li  - - - gi-yun    te             Kaa- -   daa- -   Gal- -      -  - gu -   - - nu- -"
+                    "sahitya": "- - -Ka-- li  - - - gi-yun    te             Kaa- -   daa- -   Gal- -      -  - gu -   - - nu- - ||"
                 },
                 {
                     "swara": "grsn S- R , g MP;     D P  DP  P ; ; ;  | ; ; Pdp  P ; M ;  | G ; ; ;   ; ; Mpm ||",
-                    "sahitya": "- - - -   Kaa - mi tha Pha-la- -  daa- --   - - - - -  - -  ya-    kaa-- -    - - - - - -"
+                    "sahitya": "- - - -   Kaa - mi tha Pha-la- -  daa- --   - - - - -  - -  ya-    kaa-- -    - - - - - - ||"
                 },
                 {
                     "swara": "GRS - R , g MP;     D P  DP  dPd N;  | ; ; Dnr  sn D P;  | P  Pdp  M Mpm  G ;  mpD pm ||",
-                    "sahitya": "- - - -   Kaa - mi tha Pha-la- -  daa- --   - - - - -  - -   ya-    kaa-- -  - - -  - - - -  - - - - - - - -"
+                    "sahitya": "- - - -   Kaa - mi tha Pha-la- -  daa- --   - - - - -  - -   ya-    kaa-- -  - - -  - - - -  - - - - - - - - ||"
                 },
                 {
                     "swara": "grsn S- R , g MP;     D P  DP  dPd ns R | S ; Dnr  sn D P; | P  mpdp  M gmpm  G ;  mpD pm ||",
-                    "sahitya": "- - - -   Kaa - mi tha Pha-la- -  daa- --   - - - - -  - -   ya-    kaa-- -  - - -  - - - -  - - - - - - - -"
+                    "sahitya": "- - - -   Kaa - mi tha Pha-la- -  daa- --   - - - - -  - -   ya-    kaa-- -  - - -  - - - -  - - - - - - - - ||"
                 }
             ]
         },
@@ -42,23 +43,23 @@
             "content": [
                 {
                     "swara": "; ; ;  P  D P N ;    S ; sn D  ; dr   r r sn |  S ; ; P     G R G ;  | M ;  mg G  ;  G  R;  ||",
-                    "sahitya": "- - - Ka  li ni yin   ke- tha-- - Me-ru---    - - -  ga    ka - Nin-   naa- du- -  -  Konti"
+                    "sahitya": "- - - Ka  li ni yin   ke- tha-- - Me-ru---    - - -  ga    ka - Nin-   naa- du- -  -  Konti ||"
                 },
                 {
                     "swara": "; ; S  S  N D D N   S ; sn D  ; dr   r r sn |  S ; ; P     G R G ;  | M ;  mg G  ;  G  R;  ||",
-                    "sahitya": "- - - Ka  li ni yin   ke- tha-- - Me-ru---    - - -  ga    ka - Nin-   naa- du- -  -  Konti"
+                    "sahitya": "- - - Ka  li ni yin   ke- tha-- - Me-ru---    - - -  ga    ka - Nin-   naa- du- -  -  Konti ||"
                 },
                 {
                     "swara": "; ;  S  sn  rs n D D,    pdns Rgr  sn  D- pr srgr sn  |  S ; ; P     G R G ;  | mg P  mgG ;  ;  G  R;  ||",
-                    "sahitya": "- - - Ka  li ni - yin-  ke- tha-- - Me-ru---    - - -  ga    ka - Nin-   naa-- du- -  -  Konti"
+                    "sahitya": "- - - Ka  li ni - yin-  ke- tha-- - Me-ru---    - - -  ga    ka - Nin-   naa-- du- -  -  Konti ||"
                 },
                 {
                     "swara": "; ; ; S  S S    nsrs  , r  sn D D ;  dPd   N ; | ; ;  Dnr    sn D P ;  |  P dp M pm  G ;   gr R||",
-                    "sahitya": "- - Cha  lamu Se---  -  ya--   ka -  Na—Tha- - - lanu- - - -  Cha-    kka--  ni- -  Vra- - - -"
+                    "sahitya": "- - Cha  lamu Se---  -  ya--   ka -  Na—Tha- - - lanu- - - -  Cha-    kka--  ni- -  Vra- - - - ||"
                 },
                 {
                     "swara": "S ; ; S  S S    nsrs  , r  sn D D ;  dPd   ns R| S ;  Dnr   sn D P ;  |  P mpdp M gmpm G ;  Mpd pm||",
-                    "sahitya": "tha - Cha  lamu Se---  -  ya--   ka -  Na—Tha- - - lanu- - - -  Cha-    kka--  - - ni- - - -   Vra- - - -"
+                    "sahitya": "tha - Cha  lamu Se---  -  ya--   ka -  Na—Tha- - - lanu- - - -  Cha-    kka--  - - ni- - - -   Vra- - - - ||"
                 }
             ]
         },
@@ -67,27 +68,27 @@
             "content": [
                 {
                     "swara": "; ; ; P  ; P  P ;   Mpm mg  ;   G ; gr R | ; ; ;  S   R G R ;     | G ;  gm pm  G G   gr sn  ||",
-                    "sahitya": "- --  Bha -  ga va  tha- -  - -  -  - -   Gre--   - - - sa   ru la ku      Na-  - - - - -     - - ra   dha- - -"
+                    "sahitya": "- --  Bha -  ga va  tha- -  - -  -  - -   Gre--   - - - sa   ru la ku      Na-  - - - - -     - - ra   dha- - - ||"
                 },
                 {
                     "swara": "s R g M- P  ; P P ;   Mpm mggmpd  N D P G | R  ; ;  S  R G R ;    | G ;  gm pm  G G   gr sn  ||",
-                    "sahitya": "- --  Bha -  ga va     tha- -  - -  -  - -  -  -  -  Gre-  - - - sa   ru la ku    Na-  - - - - - -- -  ra   dha- - -"
+                    "sahitya": "- --  Bha -  ga va     tha- -  - -  -  - -  -  -  -  Gre-  - - - sa   ru la ku    Na-  - - - - - -- -  ra   dha- - - ||"
                 },
                 {
                     "swara": "S ; G R   G ; M ;    P ; ;  D    P , d   N ;  |  ; ; D nr    sn D P ;  |  Pdp Mpm  G ; gr R      ||",
-                    "sahitya": "- - Pra-   hlaa- - -    da - - Pa raa- -  sha-   -  -  ra - -   - - -  Ra-   ma- daa- -  su- lu - -"
+                    "sahitya": "- - Pra-   hlaa- - -    da - - Pa raa- -  sha-   -  -  ra - -   - - -  Ra-   ma- daa- -  su- lu - - ||"
                 },
                 {
                     "swara": "S ; ; P  dp P  D ;   ns ; sn D  ; pr rrsn  |  S ; ;   P   G R G ;   | M ; mg G  ;  G  R ;   ||",
-                    "sahitya": "- - - Bhaa- - gu ga  Sri-  - - -   Ra-ghu--  -  - -  raa -  muni-    Paa da- -   -  Mula"
+                    "sahitya": "- - - Bhaa- - gu ga  Sri-  - - -   Ra-ghu--  -  - -  raa -  muni-    Paa da- -   -  Mula ||"
                 },
                 {
                     "swara": "; ; ; S  ; S   S ;  nsrs ,r sn D dPd  N ;  |  ; ;  Dnr   sn D P ;    | Pdp Mpm  G ;  gr R  ;  ||",
-                    "sahitya": "- - - Bha - kti Je si- - -  na- -   Ree thi- - - -  Tya- ga--  ra       ju- - ni- -  ki -  pu - -"
+                    "sahitya": "- - - Bha - kti Je si- - -  na- -   Ree thi- - - -  Tya- ga--  ra       ju- - ni- -  ki -  pu - - ||"
                 },
                 {
                     "swara": "S ; ; S  ; S    S    nsrs  , r  sn D   dPd   ns R| S ;  Dnr   sn D P ; |  P mpdp M gmpm G ;  Mpd pm||",
-                    "sahitya": "du - -Bha- kti Je si- - -     na- -   Ree thi- - - -  Tya- ga--  ra        ju- -- -   ni- -- - - -  ki -  pu - -"
+                    "sahitya": "du - -Bha- kti Je si- - -     na- -   Ree thi- - - -  Tya- ga--  ra        ju- -- -   ni- -- - - -  ki -  pu - - ||"
                 }
             ]
         }

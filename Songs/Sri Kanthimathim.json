@@ -5,7 +5,8 @@
         "arohanam": "S R G M P D N S || AVA: S N D P M G R S ||",
         "avarohanam": "S R G M P D N S || AVA: S N D P M G R S ||",
         "tala": "Adi, Kalai",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "R; ; ;  G; ; ;  M; P;  D ; ; P  |  S; ; ;  N ; D;  N ; D;  P ; ; M ||",
-                    "sahitya": "Sri  Kan thi ma thim   Shan ka   ra  Yu  va thim  -"
+                    "sahitya": "Sri  Kan thi ma thim   Shan ka   ra  Yu  va thim  - ||"
                 },
                 {
                     "swara": "R; ; ;  G; ; ;  M; P;  D ; ; P  |  S; ; ;  N ; D;  D N D;  nddp P ; M ||",
-                    "sahitya": "Sri  Kan thi ma thim   Shan ka   ra  Yu  va thim  -"
+                    "sahitya": "Sri  Kan thi ma thim   Shan ka   ra  Yu  va thim  - ||"
                 },
                 {
                     "swara": "PMGR  srgr G M  P D,n dpM  P D ; ;  |  PDNS   N ; D;  D N D;  nddp P ; M ||",
-                    "sahitya": "Sri  Kan   thi—ma-     thim       Shan     ka   ra  Yu -  va  thim  -"
+                    "sahitya": "Sri  Kan   thi—ma-     thim       Shan     ka   ra  Yu -  va  thim  - ||"
                 },
                 {
                     "swara": "PMGR  srgr G M  P D,n dpM  P D ; ;  |  PDNS   N ; D;  Pdp dsnd  dpP ; ; M ||",
-                    "sahitya": "Sri  Kan   thi—ma-   thim         Shan     ka   ra   Yu  va --  thim  -"
+                    "sahitya": "Sri  Kan   thi—ma-   thim         Shan     ka   ra   Yu  va --  thim  - ||"
                 },
                 {
                     "swara": "PMGR  srgr G M  P D,n dpM  P D ; ;  |  PD nsrg  rs N, D,  Pdp rsnd  nddp ; ; M ||",
-                    "sahitya": "Sri  Kan   thi—ma-   thim         Shan- -     -  ka  ra  Yu  va --  thim  -"
+                    "sahitya": "Sri  Kan   thi—ma-   thim         Shan- -     -  ka  ra  Yu  va --  thim  - ||"
                 },
                 {
                     "swara": "R; ; ;  G ; R ;  R; S;  N R ssnd    | N ; ; ;  M ; ; ;  G ; ; ;  GR GS ||",
-                    "sahitya": "Shree     Gu ru guha  Ja-  na---      neem -- Van -- de --- ham - - -"
+                    "sahitya": "Shree     Gu ru guha  Ja-  na---      neem -- Van -- de --- ham - - - ||"
                 },
                 {
                     "swara": "R; ; ;  srgr G M  P D,n dpM  P D ; ;  |  PD nsrg  rs N, D,  Pdp rsnd  nddp ; ; M ||",
-                    "sahitya": "Sri  Kan   thi—  ma-   thim       Shan - - - -  ka  ra  Yu  va --  thim  -"
+                    "sahitya": "Sri  Kan   thi—  ma-   thim       Shan - - - -  ka  ra  Yu  va --  thim  - ||"
                 },
                 {
                     "swara": "R; ; ;  G ; R ;  R; S;  N S Rgr sn-ds    | ndsn dn  ; ;   PM ; ;  pmG ; ;  pdpmgrgs ||",
-                    "sahitya": "Shree     Gu ru guha  Ja-  na---              neem --      Van -- de --- ham - - -"
+                    "sahitya": "Shree     Gu ru guha  Ja-  na---              neem --      Van -- de --- ham - - - ||"
                 }
             ]
         },
@@ -50,39 +51,39 @@
             "content": [
                 {
                     "swara": "P; ; ;     GRGR  R ; R ;  ; ; S ;  | ; ; S ;  ; ; Sgr snD D N     nS,  ; ; ||",
-                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - - ra-- Va—da -   naam  --"
+                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - - ra-- Va—da -   naam  -- ||"
                 },
                 {
                     "swara": "P; ; ;     GRGR  R ; R ;  ; ; S ;  | ; ; S ;  ; ; nGr ND- D N     nS,  ; ; ||",
-                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - - ra-- Va—da -   naam  --"
+                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - - ra-- Va—da -   naam  -- ||"
                 },
                 {
                     "swara": "P; ; ;     GRGR  R ; R ;  ; ; S ;  | ; ; NS rmgr s-sgr  snD- D nr     snS  ; ; ||",
-                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - -       ra—Va    da -   -   naam  --"
+                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - -       ra—Va    da -   -   naam  -- ||"
                 },
                 {
                     "swara": "P; ; ;     GRGR  R ; R ;  ; ; S ;  | ; ; grsndnsr  gmgr S -Sgr  snD- D nr     snS  ; ; ||",
-                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - -       ra—   Va    da -   -   naam  --"
+                    "sahitya": "Hreem kaa--- ra  Bee --  jaa  - -  kaa - -       ra—   Va    da -   -   naam  -- ||"
                 },
                 {
                     "swara": "N; D;  ; ; N ;  P ; N;  D ; N;  | S; ; ;  R; ; ;  M ; G ;  R ; ; ;  ||",
-                    "sahitya": "Hi ran     ya  Ma ni ma  ya  Sho baa  Sa  da naam"
+                    "sahitya": "Hi ran     ya  Ma ni ma  ya  Sho baa  Sa  da naam ||"
                 },
                 {
                     "swara": "RSP ;  G; R;  ; ; S;  ND dsnd | D; P;  N ; D;  M ; G;  R ; ; ;  ||",
-                    "sahitya": "Paa - -  ka Shaa - - sa naa- - - -   di De -     va    Vi   nu tham"
+                    "sahitya": "Paa - -  ka Shaa - - sa naa- - - -   di De -     va    Vi   nu tham ||"
                 },
                 {
                     "swara": "P; M ; G; R;  ; ; S;  N; S;  | G; R;  G; M;  P ; P ;  P ; ; ;  ||",
-                    "sahitya": "Pa ra shu raa  -- ma    Na tha   Hi ma   Shai-  la Su thaam"
+                    "sahitya": "Pa ra shu raa  -- ma    Na tha   Hi ma   Shai-  la Su thaam ||"
                 },
                 {
                     "swara": "D    N  N ;     D  P;  M   P   D;   P ,m G   R;  |    S,  S,      N    ;  D ; pm  N,   D,  P   pm P     D ;  ||",
-                    "sahitya": "Shu ka Shou na kaa di   Sa daa raa    - dhi thaam Shu ddha Thaam ra  par   nee Tha ta  --  sthi thaam"
+                    "sahitya": "Shu ka Shou na kaa di   Sa daa raa    - dhi thaam Shu ddha Thaam ra  par   nee Tha ta  --  sthi thaam ||"
                 },
                 {
                     "swara": "D  M P;  D;   rs N  D P -  S, n      ; D- GR  | S ; M  G       , r -R , s - N     , d - D , p - md    pm G R ; ||",
-                    "sahitya": "Shan-ka dya shto- tthara Sa ha     sra Kala shaa bhi shee    -  kha --  Mo  -  -   daam-  Su-    ra-  hi thaam"
+                    "sahitya": "Shan-ka dya shto- tthara Sa ha     sra Kala shaa bhi shee    -  kha --  Mo  -  -   daam-  Su-    ra-  hi thaam ||"
                 }
             ]
         }

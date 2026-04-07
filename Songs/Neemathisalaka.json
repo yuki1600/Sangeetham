@@ -5,7 +5,8 @@
         "arohanam": "S G R G M P D P S || AVA: S N D P M G R S || )",
         "avarohanam": "S G R G M P D P S || AVA: S N D P M G R S || )",
         "tala": "Adi",
-        "composer": "Kavi Mathruboddaya"
+        "composer": "Kavi Mathruboddaya",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,7 +14,7 @@
             "content": [
                 {
                     "swara": "(ARO: S G R G M P D P S || AVA: S N D P M G R S ||)",
-                    "sahitya": "Talam: Adi"
+                    "sahitya": "Talam: Adi ||"
                 },
                 {
                     "swara": "P ;  ; ;  N   P  G ;  |  P M  G M  |   G R  , g M ||",

@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Pahi Rama Doota",
         "raga": "Shadvidhamargini",
-        "arohanam": "S R\u2081 G\u2082 M\u2082 P D\u2082 N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2082 P M\u2082 G\u2082 R\u2081 S ||",
+        "arohanam": "S R₁ G₂ M₂ P D₂ N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₂ P M₂ G₂ R₁ S ||",
         "tala": "Rupakam",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "; ;  ; pm  G - G    |  gr R    S ;  ; ;   || ; ;  ; ;     ;  ; ||",
-                    "sahitya": "- -  - Raa-  -    ma    Doo-  ta ! -  - -  - -  - -"
+                    "sahitya": "- -  - Raa-  -    ma    Doo-  ta ! -  - -  - -  - - ||"
                 },
                 {
                     "swara": "; ,  p , p- pm  G - G    |  gr R    S ;  ; ;    || ; ;  ; ;    ; ;  ||",
-                    "sahitya": "- - Pa - hi Raa- -    ma    Doo-  ta ! -  - -  - -  - -"
+                    "sahitya": "- - Pa - hi Raa- -    ma    Doo-  ta ! -  - -  - -  - - ||"
                 },
                 {
                     "swara": "; ,  p n d- pm  G - G    ||  gr R     S ;  , s N || G ;  G - , p  M ;   || P ;  ; ;  dp M ||",
-                    "sahitya": "- - Pa - hi Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maa    ra ! - -  Maam-"
+                    "sahitya": "- - Pa - hi Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maa    ra ! - -  Maam- ||"
                 },
                 {
                     "swara": "; ,  d sn D- pm G - G    ||  gr R     S ;  , s N || G ;  G - , p  M ;   || D ;  ; ;  dp M ||",
-                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maa     ra ! - -  Maam-"
+                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maa     ra ! - -  Maam- ||"
                 },
                 {
                     "swara": "; ,  d sn D- pm G - G    ||  gr R     S ;  , s N || g r gm  P - mp   d n S  || ;  ;  ; , n  ddp m ||",
-                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -  -  Maam-  - - -"
+                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -  -  Maam-  - - - ||"
                 },
                 {
                     "swara": "; ,  d sn D- pm G - G    ||  gr R     S ;  , s N || g r gm  P - mp   d n S  || nd ns   R , r   s nd d  ||",
-                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -   -  Maam-  - - -"
+                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -   -  Maam-  - - - ||"
                 },
                 {
                     "swara": "pm ,  d sn D- dpM G - G    ||  gr R     rsS   , s N || g r gm  P - mp   d n S  || nd ns   rsn- r    s nd d  ||pm",
-                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   Jagat  Praa na    ku maa -   ra !- -   - - -  Maam-  - - -"
+                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   Jagat  Praa na    ku maa -   ra !- -   - - -  Maam-  - - - ||"
                 },
                 {
                     "swara": "pm ,  d sn D- dpM G - G    ||  gr R     ; D  ; ;    || ; ;  ; ;    dp M   || P ;  ; ;  ; ;  ||",
-                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   -  - -  - -    Maam    - - -"
+                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   -  - -  - -    Maam    - - - ||"
                 }
             ]
         },
@@ -50,19 +51,19 @@
             "content": [
                 {
                     "swara": "; , g  , r - S    ,r   G  ||  G  G    M ;   , p M  ||  P  D  N - nd  D   D   || ; , n  , d - P     P P ||",
-                    "sahitya": "Vaa  hi   nee  -  sha   Tara      na!   Daasa  Va da   na   soo-  -   nu     - - Ta   - nu Ha   ra na!"
+                    "sahitya": "Vaa  hi   nee  -  sha   Tara      na!   Daasa  Va da   na   soo-  -   nu     - - Ta   - nu Ha   ra na! ||"
                 },
                 {
                     "swara": ",m- G  , r - S ,r   G  ||  G  G    M ;   , p M  ||  P  D  N - nd  D   D   || ;  p d  P - pd   ns  N  ||",
-                    "sahitya": "-  Vaa  hi   nee  -  sha   Tara      na!   Daasa  Va da   na   soo-  -   nu     - Ta nu -    Ha   ra na!   (pahi)"
+                    "sahitya": "-  Vaa  hi   nee  -  sha   Tara      na!   Daasa  Va da   na   soo-  -   nu     - Ta nu -    Ha   ra na!   (pahi) ||"
                 },
                 {
                     "swara": "; ,  d sn D- pm G - G    ||  gr R     S ;  , s N || g r gm  P - mp   d n S  || nd ns   R , r   s nd d  ||",
-                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -   -  Maam-  - - -"
+                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -   -  Maam-  - - - ||"
                 },
                 {
                     "swara": "pm ,  d sn D- dpM G - G    ||  gr R     ; D  ; ;    || ; ;  ; ;    dp M   || P ;  ; ;  ; ;  ||",
-                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   -  - -  - -    Maam    - - -"
+                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   -  - -  - -    Maam    - - - ||"
                 }
             ]
         },
@@ -71,39 +72,39 @@
             "content": [
                 {
                     "swara": "; p   d   pm G R S  ||  ; ;    ;  ;  ; ;   ||",
-                    "sahitya": "Karu    naa- -  ra sa   - -     - -  - -"
+                    "sahitya": "Karu    naa- -  ra sa   - -     - -  - - ||"
                 },
                 {
                     "swara": "; p   d   pm G R S  || ; s r   ,  G r    R S  || ; S  sn - G  ;  G  || ;  g  m  , P ,  P ;    ||",
-                    "sahitya": "Karu    naa- -  ra sa   Pari  -  pu-   rna -      Kan   cha  naa   - dri    - Sama  de-  ha"
+                    "sahitya": "Karu    naa- -  ra sa   Pari  -  pu-   rna -      Kan   cha  naa   - dri    - Sama  de-  ha ||"
                 },
                 {
                     "swara": "; p   d   pm G R S  || ; p m   ,  G r   R S  || ; S  sn - G  ;  G  || ;  n d  , P ,  P ;    ||",
-                    "sahitya": "Karu    naa- -  ra sa   Pari  -  pu-     rna -      Kan   cha  naa   - dri    - Sama  de-  ha"
+                    "sahitya": "Karu    naa- -  ra sa   Pari  -  pu-     rna -      Kan   cha  naa   - dri    - Sama  de-  ha ||"
                 },
                 {
                     "swara": "; p   d   nsndpmG  ,  r  S  || ; p m   ,  G r   R S  || ; S  sn - G  ;  G  || ;  n d  , P ,  P ;    ||",
-                    "sahitya": "Karu    naa- -      ra sa       Pari  -  pu-     rna -  Kan cha  naa   - dri    - Sama  de-  ha"
+                    "sahitya": "Karu    naa- -      ra sa       Pari  -  pu-     rna -  Kan cha  naa   - dri    - Sama  de-  ha ||"
                 },
                 {
                     "swara": "; s s , r  G  ; G  || G pm , p P  ; P  ||",
-                    "sahitya": "Para ma Bha - ga    va ta-   Vare -nya!"
+                    "sahitya": "Para ma Bha - ga    va ta-   Vare -nya! ||"
                 },
                 {
                     "swara": "; p p , m  G  R R  ||  R  G  , m P  ; P  || ; p  d   , n - nd   D  D || dpP ;  pm- P   dn D  ||",
-                    "sahitya": "Para ma Bha - ga    va ta-   Vare -nya!  Vara   da  Tya- -   ga   ra- -   ja-   Vi  nu ta!"
+                    "sahitya": "Para ma Bha - ga    va ta-   Vare -nya!  Vara   da  Tya- -   ga   ra- -   ja-   Vi  nu ta! ||"
                 },
                 {
                     "swara": "; pdpp , m  G  R R  ||  R  G  , g M  ; P  || ; p  d   , n - nd   D  D || dpP ;  pm- P   dn D  ||",
-                    "sahitya": "Para ma Bha - ga    va ta-   Vare -nya!  Vara   da  Tya- -   ga   ra- -   ja-   Vi  nu ta!"
+                    "sahitya": "Para ma Bha - ga    va ta-   Vare -nya!  Vara   da  Tya- -   ga   ra- -   ja-   Vi  nu ta! ||"
                 },
                 {
                     "swara": "; ,  d sn D- pm G - G    ||  gr R     S ;  , s N || g r gm  P - mp   d n S  || nd ns   R , r   s nd d  ||",
-                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -   -  Maam-  - - -"
+                    "sahitya": "- - Pa - hi - Raa- -    ma    Doo-  ta ! -   Jagat  Praa na    ku maara ! - -   -  Maam-  - - - ||"
                 },
                 {
                     "swara": "pm ,  d sn D- dpM G - G    ||  gr R     ; D  ; ;    || ; ;  ; ;    dp M   || P ;  ; ;  ; ;  ||",
-                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   -  - -  - -    Maam    - - -"
+                    "sahitya": "- -   Pa - hi - Raa- -    ma       Doo-    ta ! -   -  - -  - -    Maam    - - - ||"
                 }
             ]
         }

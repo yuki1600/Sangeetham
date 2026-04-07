@@ -5,7 +5,8 @@
         "arohanam": "S G2 M1 P D2 S ||",
         "avarohanam": "S N2 D2 P M1 G2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,107 +14,107 @@
             "content": [
                 {
                     "swara": "; m g  , g S  ;   s   pm    ; G  |  ; ;  ; M  P ;  ; ;  ||",
-                    "sahitya": "Vi na - taa-       - Su ta- -   Vaa    - -  -  ha na-  - -"
+                    "sahitya": "Vi na - taa-       - Su ta- -   Vaa    - -  -  ha na-  - - ||"
                 },
                 {
                     "swara": "; m g  , g S  ;   s   pm    , G , |  ;  m p  , S ,  ;  n  d  , P ,   ||",
-                    "sahitya": "Vi na - taa-       - Su ta- -   Vaa    - hana-  Sr i  - Rama naa!-"
+                    "sahitya": "Vi na - taa-       - Su ta- -   Vaa    - hana-  Sr i  - Rama naa!- ||"
                 },
                 {
                     "swara": "; m g  , g S  ;   n  d     ,  D p  |  ;  n    s   ,  g M   P  ;   mp dp    ||",
-                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - -"
+                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - - ||"
                 },
                 {
                     "swara": "mp-m g  , mpdn dp gs;   s   pm    mpnp mG,  |  ;  p d   , pdS ,  ;  n  d  , P ,   ||",
-                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!-"
+                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!- ||"
                 },
                 {
                     "swara": "; m g  , g S  ;   n  d     ,  D p  |  ;  n    s   ,  g M   P  ;   mp dp    ||",
-                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - -"
+                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - - ||"
                 },
                 {
                     "swara": "mp-m g  , mpD dp gs;   s   pm    mpnp mG,  |  ;  p d   , pdsgmgs ;  n  d  , pmP ,   ||",
-                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!-"
+                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!- ||"
                 },
                 {
                     "swara": "; m g  , g S  ;   n  d     ,  D p  |  ;  n    s   ,  g M   P  ;   p s n n     || ( or p s d - p  D, p )",
-                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - -"
+                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - - ||"
                 },
                 {
                     "swara": "dp- m g  , g S  ;   s   pm    ; G  |  ; ;  ; M  P ;   ; ;  ||",
-                    "sahitya": "- - Vi na taa-       - Su ta- -   Vaa    - -  -  h a na-  - -"
+                    "sahitya": "- - Vi na taa-       - Su ta- -   Vaa    - -  -  h a na-  - - ||"
                 },
                 {
                     "swara": "; p d  , S ,  ;  s G  , g S  |  ;  sg  , s    S  gS  ,  , n - n d  ||",
-                    "sahitya": "Ninnu    - Saa - reku     - Ju-     - dani  - Bratu    ke- -   - -  la -"
+                    "sahitya": "Ninnu    - Saa - reku     - Ju-     - dani  - Bratu    ke- -   - -  la - ||"
                 },
                 {
                     "swara": "D - p d  , pdspds  ;  s G  , g S  |  ;  sg  , s    S  gS ,  , n - n d  ||",
-                    "sahitya": "Ninnu    Saa - reku     - Ju-     - dani  - Bratu    ke- -   - -  la -"
+                    "sahitya": "Ninnu    Saa - reku     - Ju-     - dani  - Bratu    ke- -   - -  la - ||"
                 },
                 {
                     "swara": "D - p d  , pdS , ;  s G  , g S  |  ;  sg  , s    S  gS ,  , n - n d  ||",
-                    "sahitya": "Ninnu    Saa - reku     - Ju-     - dani  - Bratu    ke- -   - -  la -"
+                    "sahitya": "Ninnu    Saa - reku     - Ju-     - dani  - Bratu    ke- -   - -  la - ||"
                 },
                 {
                     "swara": "D- s s      , n  D  p n d p  m d p m  |  G - gm    P - mp      D - p d     S , n   || d p",
-                    "sahitya": "Manu     jula  Ne- - -  che- du -   -     Ji -     -    va-      na   me-    - - la -   --        (Vinata)"
+                    "sahitya": "Manu     jula  Ne- - -  che- du -   -     Ji -     -    va-      na   me-    - - la -   --        (Vinata) ||"
                 },
                 {
                     "swara": "dp-m g  , mpD dp gs;   s   pm    mpnp mG,  |  ;  p d   , pdsgmgs ;  n  d  , pmP ,   ||",
-                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!-"
+                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!- ||"
                 },
                 {
                     "swara": "; m g  , g S  ;   n  d     ,  D p  |  ;  n    s   ,  g M   P  ;   p s n n     || ( or p s d - p  D, p )",
-                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - -"
+                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - - ||"
                 },
                 {
                     "swara": "dp- m g  , g S  ;   s   pm    ; G  |  ; ;  ; M  P ;   ; ;  ||",
-                    "sahitya": "- - Vi na taa-       - Su ta- -   Vaa    - -  -  h a na-  - -"
+                    "sahitya": "- - Vi na taa-       - Su ta- -   Vaa    - -  -  h a na-  - - ||"
                 },
                 {
                     "swara": "; m m  , M ,  ; g   pm  G ;  |  ; m g     , S ,  ; n   d  P ;  ||",
-                    "sahitya": "Mata    -Bhe- - da ma-  ne-     -Saka    -naar -c chaga  Sam"
+                    "sahitya": "Mata    -Bhe- - da ma-  ne-     -Saka    -naar -c chaga  Sam ||"
                 },
                 {
                     "swara": "; d s  , G ,  ; m m   ; P | ds n D    ;  pm  , P ,  ; mg ||",
-                    "sahitya": "mata  -Vaa-  - kkulu - Bal  - - kuta      Sukha - m aa? - -"
+                    "sahitya": "mata  -Vaa-  - kkulu - Bal  - - kuta      Sukha - m aa? - - ||"
                 },
                 {
                     "swara": "sg- m m  , M ,  P-  D , snd pm  G |  ; m g     , S ,  ; n   d  P ;  ||",
-                    "sahitya": "Mata   Bhe- -    da ma- - -   ne-    Saka    - naar -cchaga  Sam"
+                    "sahitya": "Mata   Bhe- -    da ma- - -   ne-    Saka    - naar -cchaga  Sam ||"
                 },
                 {
                     "swara": "; d s  , G ,  ; m m   ; P | ds n D    ;  pm  , P ,  ; ;  ||",
-                    "sahitya": "mata  -Vaa-  - kkulu - Bal  - - kuta      Sukha - m aa? - -"
+                    "sahitya": "mata  -Vaa-  - kkulu - Bal  - - kuta      Sukha - m aa? - - ||"
                 },
                 {
                     "swara": "; p     d  , S ,  ; ;  ; ;  |  ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Kshi ti   - lo -  - -  - -     - -  - -  - -  - -"
+                    "sahitya": "Kshi ti   - lo -  - -  - -     - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "; p     d  , S ,  ;  s G  , g S  |  ;  sg   ;   sg  gS n nd  D  ||",
-                    "sahitya": "Kshi ti   - lo - - Sat-     - san-    -  gati -  Sau-    khya-  mu- -"
+                    "sahitya": "Kshi ti   - lo - - Sat-     - san-    -  gati -  Sau-    khya-  mu- - ||"
                 },
                 {
                     "swara": "; p    d  , pdS , ;  s G  , g S  |  ;  sg   ;   sg  gS n nd  D  ||",
-                    "sahitya": "Kshi ti   - lo - - Sat-     - san-    -  gati -  Sau-    khya-  mu- -"
+                    "sahitya": "Kshi ti   - lo - - Sat-     - san-    -  gati -  Sau-    khya-  mu- - ||"
                 },
                 {
                     "swara": "P   d  s   ,  n  d  p   p n d p   m d p m  | G - gm     P - m p     D - p d   S , - n  || d p  (Vinatha )",
-                    "sahitya": "Paalita  -  Tyaa-ga  ra - - -    ja!- - -      -     A -    ma   ra -     -     Pu -       -  -   ji     - tha!"
+                    "sahitya": "Paalita  -  Tyaa-ga  ra - - -    ja!- - -      -     A -    ma   ra -     -     Pu -       -  -   ji     - tha! ||"
                 },
                 {
                     "swara": "dp-m g  , mpD dp gs;   s   pm    mpnp mG,  |  ;  p d   , pdsgmgs ;  n  d  , pmP ,   ||",
-                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!-"
+                    "sahitya": "- -  Vi na- taa-       - - -   Su ta- -  Vaa- - - - -     - hana-  Sri  - Rama naa!- ||"
                 },
                 {
                     "swara": "; m g  , g S  ;   n  d     ,  D p  |  ;  n    s   ,  g M   P  ;   p s n n     || ( or p s d - p  D, p )",
-                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - -"
+                    "sahitya": "Mana  saa-      raga  - -  Se-     - vin -    che da  Raa  maa! - - ||"
                 },
                 {
                     "swara": "dp- m g  , g S  ;   s   pm    ; G  |  ; ;  ; M  P ;   ; ;  ||",
-                    "sahitya": "- - Vi na taa-       - Su ta- -   Vaa    - -  -  h a na-  - -"
+                    "sahitya": "- - Vi na taa-       - Su ta- -   Vaa    - -  -  h a na-  - - ||"
                 }
             ]
         }

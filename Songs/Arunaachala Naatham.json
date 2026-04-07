@@ -5,7 +5,8 @@
         "arohanam": "S R S P M P D N S || AVA: S N D P M R G M R S ||",
         "avarohanam": "S R S P M P D N S || AVA: S N D P M R G M R S ||",
         "tala": "Rupakam",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,27 +14,27 @@
             "content": [
                 {
                     "swara": "R  R      gm P    P P   ||   dn S  sn D sn P ||",
-                    "sahitya": "A ru na cha la      naa tham   ---"
+                    "sahitya": "A ru na cha la      naa tham   --- ||"
                 },
                 {
                     "swara": "Pdn dpmg   rg gm   mr ; ||  sr sr rsS  sn     P ;  ||",
-                    "sahitya": "Sma  raa       -- mi     - -     A  ni sam Aa   pee"
+                    "sahitya": "Sma  raa       -- mi     - -     A  ni sam Aa   pee ||"
                 },
                 {
                     "swara": "P - pm pm pd D - pm  ||  P- ns n- pm r gm rs  ||",
-                    "sahitya": "tha ku chaa         mbaa  -  Sa        mee tham"
+                    "sahitya": "tha ku chaa         mbaa  -  Sa        mee tham ||"
                 },
                 {
                     "swara": "R  R      gm P    P P   ||   mpdn S, n  sn D sn P ||",
-                    "sahitya": "A ru na cha la      naa         tham   ---"
+                    "sahitya": "A ru na cha la      naa         tham   --- ||"
                 },
                 {
                     "swara": "Pdn dpmg   rg gm   mr ; ||  sr sr rsS  sn     P ;  ||",
-                    "sahitya": "Sma  raa       -- mi     - -     A  ni sam Aa   pee"
+                    "sahitya": "Sma  raa       -- mi     - -     A  ni sam Aa   pee ||"
                 },
                 {
                     "swara": "P - pm pm pd D - pm  ||  P- ns n- pm r gm rs  ||",
-                    "sahitya": "tha ku chaa         mbaa  -  Sa        mee tham"
+                    "sahitya": "tha ku chaa         mbaa  -  Sa        mee tham ||"
                 }
             ]
         },
@@ -42,23 +43,23 @@
             "content": [
                 {
                     "swara": ";   s  r S ;  S ;  ||  S ;  sn N sn  sr  ||",
-                    "sahitya": "Smara naath     Kai    val ya  Pradha"
+                    "sahitya": "Smara naath     Kai    val ya  Pradha ||"
                 },
                 {
                     "swara": "rs    sn  dp ;  P  pmR || gm P P ;  ; ;  ||",
-                    "sahitya": "Cha ra naa a  ra   vin dam"
+                    "sahitya": "Cha ra naa a  ra   vin dam ||"
                 },
                 {
                     "swara": ";  p   m dn sr dn dp || pm - P   ;  Pdn  P ; ||",
-                    "sahitya": "Tha ru  naa di    thya Ko  -  ti    San"
+                    "sahitya": "Tha ru  naa di    thya Ko  -  ti    San ||"
                 },
                 {
                     "swara": "pm pd P -  pp d- pmr || gm pm   R ;  rrsn S   ||",
-                    "sahitya": "kaa sha Chi     daa    nan  dam  - --"
+                    "sahitya": "kaa sha Chi     daa    nan  dam  - -- ||"
                 },
                 {
                     "swara": "s    r   S  p   P    p d  n   S || p m  D    p   p -  g  d  p m   mr ||",
-                    "sahitya": "Ka ru na ra saa di Kan dam Sharanaa ga tha Su ra brun dam"
+                    "sahitya": "Ka ru na ra saa di Kan dam Sharanaa ga tha Su ra brun dam ||"
                 }
             ]
         },
@@ -67,51 +68,51 @@
             "content": [
                 {
                     "swara": ";   S P ;  P M || dn  S sn D D P  ||",
-                    "sahitya": "A praa krutha     The jo maya"
+                    "sahitya": "A praa krutha     The jo maya ||"
                 },
                 {
                     "swara": "mp pmR     gm P  ; ;  ||",
-                    "sahitya": "Lin  - -     gam - -"
+                    "sahitya": "Lin  - -     gam - - ||"
                 },
                 {
                     "swara": ";  P  pm pd  D        P  || dd pm mp R s R s ||",
-                    "sahitya": "A thya dbhu tha  Ka ra    dru tha    Saa --"
+                    "sahitya": "A thya dbhu tha  Ka ra    dru tha    Saa -- ||"
                 },
                 {
                     "swara": "mpgr gmR  ; ;  ||",
-                    "sahitya": "ran --  gam"
+                    "sahitya": "ran --  gam ||"
                 },
                 {
                     "swara": ";  S  P    P  ; pm || pd N np- Pdp   pmM  P  ||",
-                    "sahitya": "A pra mee     yam  a   pa --    rnaa            bja"
+                    "sahitya": "A pra mee     yam  a   pa --    rnaa            bja ||"
                 },
                 {
                     "swara": "sn D  sn sr  S ; ||",
-                    "sahitya": "Brun gam -  - -"
+                    "sahitya": "Brun gam -  - - ||"
                 },
                 {
                     "swara": "snD snsr S ;  || d d d p   P - D P - Pdn ||",
-                    "sahitya": "A ru no    tthun   ga Vru sha thu"
+                    "sahitya": "A ru no    tthun   ga Vru sha thu ||"
                 },
                 {
                     "swara": "dpmr ;  gm R rrsn S  ||",
-                    "sahitya": "ran gam  - - -"
+                    "sahitya": "ran gam  - - - ||"
                 },
                 {
                     "swara": "S   S s   s -       p   p ,  P       p ||   dn  S     s  n r s   s    n  s   r ||",
-                    "sahitya": "Vi pro tha mma Vi she     shaan tha  ran gam Vee - ra Gu ru gu ha"
+                    "sahitya": "Vi pro tha mma Vi she     shaan tha  ran gam Vee - ra Gu ru gu ha ||"
                 },
                 {
                     "swara": "D     , p   , p mp  P  ;  ||",
-                    "sahitya": "Thaa ra     pra san    gam"
+                    "sahitya": "Thaa ra     pra san    gam ||"
                 },
                 {
                     "swara": "P      d    s        n s-  s r  s -  s  r  s    ||  D pm - P      d    s n  s    r    s ||",
-                    "sahitya": "Swa pra dee    -  pa Mow  li  vidrutha   gan gam Swa pra ka     - sha ji tha"
+                    "sahitya": "Swa pra dee    -  pa Mow  li  vidrutha   gan gam Swa pra ka     - sha ji tha ||"
                 },
                 {
                     "swara": "S  r- n  d p -  p   p   ,  m   m r ||",
-                    "sahitya": "So    maa -gni Pa than   -  gam"
+                    "sahitya": "So    maa -gni Pa than   -  gam ||"
                 }
             ]
         }

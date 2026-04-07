@@ -5,7 +5,8 @@
         "arohanam": "S M1 G3 M1 R2 G3 M1 P D2 P S",
         "avarohanam": "S N2 D2 N2 P M1 G3 R2 S (28th mela janya)",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,19 +14,19 @@
             "content": [
                 {
                     "swara": "1.  ; ;  ; S M  G ;  ; M | R, g ; gm P pm G M ||",
-                    "sahitya": "nannu    kan\u2026\u2026\u2026na                       tal li         nA          bhA\u2026\u2026.gya"
+                    "sahitya": "nannu    kan………na                       tal li         nA          bhA…….gya ||"
                 },
                 {
                     "swara": "pm G M ||",
-                    "sahitya": "-mA        nannu    kan\u2026\u2026\u2026na                       tal li         nA               bhA\u2026.gya"
+                    "sahitya": "-mA        nannu    kan………na                       tal li         nA               bhA….gya ||"
                 },
                 {
                     "swara": "A. R ;  ; sr sr sn D N | N P ; S M G    ; R  ||",
-                    "sahitya": "ma           nA\u2026\u2026\u2026.rA\u2026\u2026\u2026ya\u2026\u2026\u2026\u2026\u2026Ni          dha\u2026\u2026.rmA..m      bi"
+                    "sahitya": "ma           nA……….rA………ya……………Ni          dha…….rmA..m      bi ||"
                 },
                 {
                     "swara": "B. R ;  ; sr sr sn D N  | S ;  ; S  M    M   ; M  ||",
-                    "sahitya": "ma           nA\u2026\u2026\u2026.rA\u2026\u2026\u2026ya\u2026\u2026\u2026\u2026\u2026Ni          dha\u2026\u2026.rmA..m      bi"
+                    "sahitya": "ma           nA……….rA………ya……………Ni          dha…….rmA..m      bi ||"
                 }
             ]
         },
@@ -34,19 +35,19 @@
             "content": [
                 {
                     "swara": "1.       ; ; ; D  P , s ; S | sM g  ;  M  G rg M G ||",
-                    "sahitya": "ka\u2026\u2026.na..kA\u2026.ngi                       ra\u2026mA\u2026pa\u2026\u2026ti sO\u2026\u2026\u2026da"
+                    "sahitya": "ka…….na..kA….ngi                       ra…mA…pa……ti sO………da ||"
                 },
                 {
                     "swara": "2. R ;  ; ; D  P , s ; S | sM  g  ;  M   G rg mp mg ||",
-                    "sahitya": "ri                ka\u2026.na..kA\u2026.ngi                       ra\u2026mA\u2026 pa\u2026 ti sO\u2026\u2026\u2026    da"
+                    "sahitya": "ri                ka….na..kA….ngi                       ra…mA… pa… ti sO………    da ||"
                 },
                 {
                     "swara": "A. R ;  ;  S  ; sn D N | P, s ;  sn  dn P ; M  ||",
-                    "sahitya": "ri               kA\u2026\u2026.va\u2026\u2026\u2026.vE                   na nu         kA\u2026\u2026tyA\u2026\u2026..ya"
+                    "sahitya": "ri               kA…….va……….vE                   na nu         kA……tyA……..ya ||"
                 },
                 {
                     "swara": "B. pmmg  G  S , r sn D N | P, s ;  sn  dn P ; M  ||",
-                    "sahitya": "ni       kA\u2026\u2026.va\u2026\u2026. vE                   na nu         kA\u2026\u2026tyA\u2026\u2026..ya"
+                    "sahitya": "ni       kA…….va……. vE                   na nu         kA……tyA……..ya ||"
                 }
             ]
         },
@@ -55,11 +56,11 @@
             "content": [
                 {
                     "swara": "1. ; ;  ; P  P  P ; P | dP  s ; sn dn P  ; mg ||",
-                    "sahitya": "kA\u2026\u2026vu kA\u2026..vu\u2026\u2026\u2026\u2026\u2026..mani nE     mo\u2026\u2026ra.beT\u2026.Ta"
+                    "sahitya": "kA……vu kA…..vu……………..mani nE     mo……ra.beT….Ta ||"
                 },
                 {
                     "swara": "2. M ;  ; pp , s sn D N | P  pm gr s  s , mG M P ||",
-                    "sahitya": "gA            kara\u2026.ga.dE\u2026\u2026.mi                     ma thi         kama   la  lO   ca ni"
+                    "sahitya": "gA            kara….ga.dE…….mi                     ma thi         kama   la  lO   ca ni ||"
                 }
             ]
         }

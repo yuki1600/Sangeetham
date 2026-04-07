@@ -1,9 +1,10 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
-import { Volume2, VolumeX, Play, Square, Activity } from 'lucide-react';
-import { TONIC_PRESETS, hzToSwara } from '../utils/swaraUtils';
+import React, { useState, useCallback, useEffect } from 'react';
+import { Volume2, VolumeX, Play, Square, Activity, Mic, MicOff } from 'lucide-react';
+import { TONIC_PRESETS } from '../utils/swaraUtils';
 import { startDrone, stopDrone, isDronePlaying, setDroneVolume, getDroneVolume } from '../utils/droneEngine';
-import { startMic, stopMic, getAudioBuffer, resumeAudioContext, getAudioContextState } from '../utils/audioEngine';
-import { initPitchDetector, detectPitch } from '../utils/pitchDetection';
+import { resumeAudioContext } from '../utils/audioEngine';
+import { usePitchDetection } from '../hooks/usePitchDetection';
+import { usePitchDetectionEnabled } from '../hooks/usePitchDetectionEnabled';
 
 /**
  * TonicBar — Unified control bar for Tonic selection, Drone playback, and Live Pitch Monitoring.
@@ -12,16 +13,15 @@ import { initPitchDetector, detectPitch } from '../utils/pitchDetection';
 export default function TonicBar({ tonicHz, onTonicChange, theme }) {
     const [isDroneActive, setIsDroneActive] = useState(isDronePlaying());
     const [volume, setVolume] = useState(getDroneVolume());
-    
-    // Pitch Monitoring State (Auto-starts on interaction)
-    const [isMicActive, setIsMicActive] = useState(true);
-    const [pitchData, setPitchData] = useState(null); // { hz, swara, deviation, color }
-    const [signalLevel, setSignalLevel] = useState(0);
-    
-    const rafRef = useRef(null);
-    const micActiveRef = useRef(false);
-    const lastProcessTimeRef = useRef(0);
-    const lastLoopTimeRef = useRef(performance.now());
+    const [pitchEnabled, setPitchEnabled] = usePitchDetectionEnabled();
+
+    // Pitch Monitoring (auto-starts on interaction inside the hook)
+    const { pitchData, signalLevel, isMicActive } = usePitchDetection(tonicHz, {
+        enabled: pitchEnabled,
+        throttleMs: 80,
+        signalLevel: true,
+        watchdog: true,
+    });
 
     // --- Drone Logic ---
     useEffect(() => {
@@ -54,142 +54,13 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
         setDroneVolume(val);
     };
 
-    // --- Pitch Monitoring Logic ---
-    const startMonitoring = useCallback(async () => {
-        try {
-            const { sampleRate } = await startMic();
-            initPitchDetector(sampleRate);
-            micActiveRef.current = true;
-            setIsMicActive(true);
-        } catch (err) {
-            console.error('Mic access failed:', err);
-            // Don't disable isMicActive completely, allow retry on next interaction
-        }
-    }, []);
-
-    const stopMonitoring = useCallback(() => {
-        micActiveRef.current = false;
-        setIsMicActive(false);
-        stopMic();
-        setPitchData(null);
-        setSignalLevel(0);
-    }, []);
-
-    // Watchdog and Persistence
+    // Resume the AudioContext on user interaction (browser autoplay policy)
     useEffect(() => {
-        const watchdog = setInterval(() => {
-            if (isMicActive && micActiveRef.current) {
-                const now = performance.now();
-                const diff = now - lastLoopTimeRef.current;
-                
-                // If loop hasn't run for > 1s, restart it
-                if (diff > 1000) {
-                    console.warn('Pitch Monitor watchdog: Loop stalled. Restarting...');
-                    if (rafRef.current) cancelAnimationFrame(rafRef.current);
-                }
-
-                // Check AudioContext state
-                if (getAudioContextState() === 'suspended') {
-                    resumeAudioContext();
-                }
-            }
-        }, 2000);
-        return () => clearInterval(watchdog);
-    }, [isMicActive]);
-
-    useEffect(() => {
-        let smoothHz = null;
-        const hzHistory = [];
-
-        function loop() {
-            lastLoopTimeRef.current = performance.now();
-
-            if (!micActiveRef.current) {
-                rafRef.current = requestAnimationFrame(loop);
-                return;
-            }
-
-            try {
-                const buffer = getAudioBuffer();
-                if (buffer) {
-                    let rms = 0;
-                    for (let i = 0; i < buffer.length; i++) rms += buffer[i] * buffer[i];
-                    rms = Math.sqrt(rms / buffer.length);
-                    setSignalLevel(prev => prev * 0.7 + Math.min(1, rms * 15) * 0.3);
-
-                    const hz = detectPitch(buffer);
-                    const now = performance.now();
-
-                    if (now - lastProcessTimeRef.current >= 80) { // ~12fps for bar monitor
-                        lastProcessTimeRef.current = now;
-
-                        if (hz) {
-                            hzHistory.push(hz);
-                            if (hzHistory.length > 3) hzHistory.shift();
-                            const sorted = [...hzHistory].sort((a, b) => a - b);
-                            const median = sorted[Math.floor(sorted.length / 2)];
-                            
-                            if (smoothHz === null || Math.abs(smoothHz - median) > 30) {
-                                smoothHz = median;
-                            } else {
-                                smoothHz = smoothHz * 0.8 + median * 0.2;
-                            }
-                        } else {
-                            hzHistory.push(null);
-                            if (hzHistory.length > 3) hzHistory.shift();
-                            if (hzHistory.every(h => h === null)) smoothHz = null;
-                        }
-
-                        if (smoothHz) {
-                            const info = hzToSwara(smoothHz, tonicHz);
-                            if (info) {
-                                setPitchData({
-                                    hz: Math.round(smoothHz * 10) / 10,
-                                    swara: info.swara,
-                                    deviation: Math.round(info.deviation),
-                                    color: info.color,
-                                });
-                            }
-                        } else {
-                            setPitchData(null);
-                        }
-                    }
-                }
-            } catch (err) {
-                console.error('Pitch Monitor loop error:', err);
-            }
-            
-            rafRef.current = requestAnimationFrame(loop);
-        }
-
-        rafRef.current = requestAnimationFrame(loop);
-        return () => {
-            if (rafRef.current) cancelAnimationFrame(rafRef.current);
-        };
-    }, [tonicHz]);
-
-    useEffect(() => {
-        const tryStart = () => {
-            if (isMicActive) {
-                if (!micActiveRef.current) {
-                    startMonitoring();
-                } else {
-                    resumeAudioContext();
-                }
-            }
-        };
-
+        const tryResume = () => resumeAudioContext();
         const events = ['click', 'mousedown', 'pointerdown', 'touchstart', 'keydown', 'scroll'];
-        events.forEach(e => window.addEventListener(e, tryStart, { passive: true }));
-        
-        // Initial attempt (may fail due to browser policy, but handled by the listeners)
-        tryStart();
-
-        return () => {
-            events.forEach(e => window.removeEventListener(e, tryStart));
-            if (micActiveRef.current) stopMic();
-        };
-    }, [isMicActive, startMonitoring]);
+        events.forEach(e => window.addEventListener(e, tryResume, { passive: true }));
+        return () => events.forEach(e => window.removeEventListener(e, tryResume));
+    }, []);
 
     return (
         <div className="w-full mb-8 sticky top-0 z-30 fade-in">
@@ -239,11 +110,29 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                     </div>
 
                     {/* Center: Live Pitch Monitor (Stable Width, No Internal Borders) */}
-                    <div className="flex-1 flex items-center justify-center pl-4 lg:pl-8 pr-4 lg:pr-8">
-                        <div className="min-w-[280px] flex items-center justify-center transition-all duration-300">
-                            {pitchData ? (
+                    <div className="flex-1 flex items-center justify-center pl-4 lg:pl-8 pr-4 lg:pr-8 gap-4">
+                        <button
+                            onClick={() => setPitchEnabled(!pitchEnabled)}
+                            title={pitchEnabled ? 'Turn off live pitch detection' : 'Turn on live pitch detection'}
+                            className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 flex-shrink-0 ${
+                                pitchEnabled
+                                    ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/25'
+                                    : 'bg-white/5 text-[var(--text-muted)] border border-white/10 hover:text-white/80 hover:bg-white/10'
+                            }`}
+                        >
+                            {pitchEnabled ? <Mic className="w-4 h-4" /> : <MicOff className="w-4 h-4" />}
+                        </button>
+                        <div className="min-w-[260px] flex items-center justify-center transition-all duration-300">
+                            {!pitchEnabled ? (
+                                <div className="flex items-center gap-3 opacity-30">
+                                    <MicOff className="w-4 h-4 text-[var(--text-muted)]" />
+                                    <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                                        Pitch Detection Off
+                                    </span>
+                                </div>
+                            ) : pitchData ? (
                                 <div className="flex items-center gap-8 slide-up">
-                                    <div 
+                                    <div
                                         className="text-4xl font-black transition-colors duration-200"
                                         style={{ color: pitchData.color, textShadow: `0 0 15px ${pitchData.color}40` }}
                                     >
@@ -254,7 +143,7 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                                         <div className="text-base font-bold text-[var(--text-primary)] tracking-tight">
                                             {pitchData.hz} <span className="text-[10px] font-normal text-[var(--text-muted)] uppercase">Hz</span>
                                         </div>
-                                        <div 
+                                        <div
                                             className="text-[11px] font-black tracking-wider px-2 py-0.5 rounded-md bg-white/5 border border-white/5"
                                             style={{ color: pitchData.color }}
                                         >

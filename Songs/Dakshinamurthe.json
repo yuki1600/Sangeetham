@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 M1 P D2 N3 S ||",
         "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
         "tala": "Jhampa",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,15 +14,15 @@
             "content": [
                 {
                     "swara": "AVO: S N3 D2 P M1 G3 R2 S  ||",
-                    "sahitya": "Talam: Misra Jhampa (2 kalai)"
+                    "sahitya": "Talam: Misra Jhampa (2 kalai) ||"
                 },
                 {
                     "swara": "S R G ;    M ;  gpmg       rmgr SS  DN S ;    ; ; ; sn   Srg rs S   S ;  S R  |  G S - RG  |  rgM ; R    G ; ; sn ||",
-                    "sahitya": "Da - -        kshi naa - -      - - - moo - - -  rthee  - - Vi-   da- li- -   tha  Daa -    -  -  saar-    - --   the   --    Shree"
+                    "sahitya": "Da - -        kshi naa - -      - - - moo - - -  rthee  - - Vi-   da- li- -   tha  Daa -    -  -  saar-    - --   the   --    Shree ||"
                 },
                 {
                     "swara": "S R G ;    mdpm  g-pmg   rmgr sn D , N , S ;    ; ; ; sn  Srg rs S  S ;  S R  |  G S - RG  |  rgM ; R    G ; ; sn ||",
-                    "sahitya": "Da - -        kshi      - naa -       - - - moo  -  rthee  - - vi-   da- li- -   tha  daa -    -  -   saar-    - --   the   --    Chi"
+                    "sahitya": "Da - -        kshi      - naa -       - - - moo  -  rthee  - - vi-   da- li- -   tha  daa -    -  -   saar-    - --   the   --    Chi ||"
                 }
             ]
         },
@@ -30,27 +31,27 @@
             "content": [
                 {
                     "swara": "P ; ; ;  D ;  D P   P , m  M ;   ;  ; pdnd   P ;  M ;   G ; ; ;    gmdp gmpm |  pmgr G ;  |   ; ; M ;    P ;  ;  ;     ||",
-                    "sahitya": "A ksha ya-  Su  -   var -    - na - -  Va  ta       Vru      ksha Mu     - - -   na       - -Sthi   thee - -- -"
+                    "sahitya": "A ksha ya-  Su  -   var -    - na - -  Va  ta       Vru      ksha Mu     - - -   na       - -Sthi   thee - -- - ||"
                 },
                 {
                     "swara": "P ; ; ;  pdns  snnd  P , m  M ;  ;  ; pdnd   P ;  M ;  dpmg  ; ; ; gmdp gmpm|  pmgr Pgm | G ; M ;  P , r srgm  ||",
-                    "sahitya": "A        ksha ya-  -  Su  -   var -    - na - -  Va  ta    Vru           ksha - Mu     - - -   na       - -Sthi   thee - -- -"
+                    "sahitya": "A        ksha ya-  -  Su  -   var -    - na - -  Va  ta    Vru           ksha - Mu     - - -   na       - -Sthi   thee - -- - ||"
                 },
                 {
                     "swara": "ppmg M ;   M ;  dpmg   M ;  ;  P    P ;  dm P   D N  S ;  S N S R    R S -  S rs | N S  sn D |  N ; PD  SN S ;   ||",
-                    "sahitya": "Ra  --  - -    ksha maam   - -     Sa   na -kaa -     -  -    di  Raa  - -      ja -    Yo- -  - -  gi - -     -   Sthu  thee -"
+                    "sahitya": "Ra  --  - -    ksha maam   - -     Sa   na -kaa -     -  -    di  Raa  - -      ja -    Yo- -  - -  gi - -     -   Sthu  thee - ||"
                 },
                 {
                     "swara": "S N M ; M ;  dpmg   M ;  ;  P    P ;  dm P   D N  S ;  S N S R    R S -  S rs | N S  sn D |  N ; PD  N;  S ;   ||",
-                    "sahitya": "Ra  --  -ksha maam   - -     Sa   na -kaa -     -  -    di  Raa  - -      ja -    Yo- -  - -  gi - -     -   Sthu  thee -"
+                    "sahitya": "Ra  --  -ksha maam   - -     Sa   na -kaa -     -  -    di  Raa  - -      ja -    Yo- -  - -  gi - -     -   Sthu  thee - ||"
                 },
                 {
                     "swara": ";  S S      R   R S  R ;   rs S - ; S   rs sn   DP-  D N   S ;  S ;  N  dp  ; M mgR   | S ;  S , p  | ;  D N sn P ; g r S ||",
-                    "sahitya": "Ra kshi tha Sath Bha kthe -  Sik shitha Du  ryu- kthee A ksha raa  nu Ra- -  kthe  A vi      dyaa-vi ra   kthee"
+                    "sahitya": "Ra kshi tha Sath Bha kthe -  Sik shitha Du  ryu- kthee A ksha raa  nu Ra- -  kthe  A vi      dyaa-vi ra   kthee ||"
                 },
                 {
                     "swara": ";  S S   R   R S  rgmg rmgr - sn S  rs dr  sn dp-  D N  S ; S ;  N  dp  ; M mgR  | S ; S , p  | ;  dnsr sn P ; g r S ||",
-                    "sahitya": "RakshithaSath Bha  - - -  ktheSik shithaDu --   ryu- kthee A ksha raa  nu Ra kthe A vi      dyaa-vi ra   kthee"
+                    "sahitya": "RakshithaSath Bha  - - -  ktheSik shithaDu --   ryu- kthee A ksha raa  nu Ra kthe A vi      dyaa-vi ra   kthee ||"
                 }
             ]
         },
@@ -59,27 +60,27 @@
             "content": [
                 {
                     "swara": "; S D P  GmpGR  S ;  S G grpm mgG  S ; sn N  ;  sn S rg    rs S  D N  |  S N S  ;   |  ; ;  G R    G ;  ; ;  ||",
-                    "sahitya": "Nikhi-   la - - -   Sam sha-   ya    ha       ra  na -     ni pu -     na -  tha-      ra -  - -     - -  yu -   kthee - -"
+                    "sahitya": "Nikhi-   la - - -   Sam sha-   ya    ha       ra  na -     ni pu -     na -  tha-      ra -  - -     - -  yu -   kthee - - ||"
                 },
                 {
                     "swara": "pmgp mgrg S ;  M G  G M P ;   S ;   S pm  mg G r S ,    S , r G ;   R G  M ;  |  M ;  - G M | M D P M  P ; ; ; ||",
-                    "sahitya": "Nir -   - --    vi - kal -    - -    pa  Sa  maa -   -  -  -  di -     Ni  - -      draa  - -      pra -   sha -  -    -   kthee -"
+                    "sahitya": "Nir -   - --    vi - kal -    - -    pa  Sa  maa -   -  -  -  di -     Ni  - -      draa  - -      pra -   sha -  -    -   kthee - ||"
                 },
                 {
                     "swara": "; md ppmg  M ; P ;  ; ;  P ;   D ;  DP  P , m M ;   GM P ;   dm P D N   |  SN DP |  D ;  N ;  S ; ; ;     ||",
-                    "sahitya": "A -  khan--   -   dai   - - ka   ra    sa-  poo - -   -     rnaa - -    roo - da -    Sa - - -       -   kthee -  -"
+                    "sahitya": "A -  khan--   -   dai   - - ka   ra    sa-  poo - -   -     rnaa - -    roo - da -    Sa - - -       -   kthee -  - ||"
                 },
                 {
                     "swara": "; md ppmg  M ; P ;  ; ;  P ;   rsnd DP  P , m M ;   GM P ;   dm P D N   |  SN DP |  D ;  N ;  S ; ; ;     ||",
-                    "sahitya": "A -  khan--   -   dai   - - ka   ra    sa-  poo - -   -     rnaa - -    roo - da -    Sa - - -       -   kthee -  -"
+                    "sahitya": "A -  khan--   -   dai   - - ka   ra    sa-  poo - -   -     rnaa - -    roo - da -    Sa - - -       -   kthee -  - ||"
                 },
                 {
                     "swara": ";  S  N S   N S ns R   R S  Srs   N S D N    M P DN  S ;  S rs     N sn   D ;  | P ;   GM  |  D P M P   mg R S ; ||",
-                    "sahitya": "A pa  -  roo - - -  -  ksha- Ni-    - - - thya   Bo-  - -   dha-  nan    -   - -    --     da  Mu  -    -  -    - -    kthee  - -"
+                    "sahitya": "A pa  -  roo - - -  -  ksha- Ni-    - - - thya   Bo-  - -   dha-  nan    -   - -    --     da  Mu  -    -  -    - -    kthee  - - ||"
                 },
                 {
                     "swara": "mp dn S ; dr  | sn dp S  sn    dp ;  g r S ||",
-                    "sahitya": "tthe - - Swaa - nu bho- ga     Thrp- tthee"
+                    "sahitya": "tthe - - Swaa - nu bho- ga     Thrp- tthee ||"
                 }
             ]
         }

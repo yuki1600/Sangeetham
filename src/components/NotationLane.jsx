@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useWheelZoom } from '../hooks/useWheelZoom';
 
 // Note: AAVARTANA_PX is now dynamically calculated as pxPerSec * aavartanaSec * zoom
 
@@ -48,6 +49,7 @@ export default function NotationLane({
     theme,
     aavartanaSec = 4.0,
     aavartanaTimings,
+    contentRowTimings,
     editMode = false,
     onTokenEdit,
     timeRef,
@@ -65,31 +67,15 @@ export default function NotationLane({
     const aavartanaSecRef = useRef(aavartanaSec);
     const pxPerSecRef = useRef(pxPerSec);
     const zoomRef = useRef(zoom);
-    const onZoomChangeRef = useRef(onZoomChange);
     const [editingKey, setEditingKey] = useState(null); // `${avIdx}-${tIdx}`
 
     useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
     useEffect(() => { pxPerSecRef.current = pxPerSec; zoomRef.current = zoom; }, [pxPerSec, zoom]);
-    useEffect(() => { onZoomChangeRef.current = onZoomChange; }, [onZoomChange]);
 
     // Scroll-to-zoom: forward wheel events to parent zoom state, mirroring
     // WaveformEditor's behaviour so the user can zoom from any lane.
-    useEffect(() => {
-        const el = wheelTargetRef.current;
-        if (!el) return;
-        const MIN_ZOOM = 0.1;
-        const MAX_ZOOM = 10;
-        const handleWheel = (e) => {
-            if (!onZoomChangeRef.current) return;
-            e.preventDefault();
-            const factor = -e.deltaY > 0 ? 1.15 : 1 / 1.15;
-            const next = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoomRef.current * factor));
-            onZoomChangeRef.current(next);
-        };
-        el.addEventListener('wheel', handleWheel, { passive: false });
-        return () => el.removeEventListener('wheel', handleWheel);
-    }, []);
+    useWheelZoom(wheelTargetRef, zoom, onZoomChange);
 
     // Each avartana covers exactly aavartanaSec * pxPerSec pixels.
     const effectiveAvPx = aavartanaSec * pxPerSec * zoom;
@@ -99,8 +85,10 @@ export default function NotationLane({
     // (t * pxPerSec * zoom), so column i aligns with playhead when t=timing[i].
     const hasTimings = !textMode && !!(aavartanaTimings && aavartanaTimings.length === aavartanas?.length);
 
-    // In text mode, each row occupies avPerRow avartanas worth of pixels
-    const rowPx = avPerRow * effectiveAvPx;
+    // Same idea for text mode, but at content-row granularity. When provided,
+    // text rows are positioned absolutely so user-set section cues realign the
+    // visible swara/sahitya rows on the timeline.
+    const hasTextTimings = textMode && !!(contentRowTimings && contentRows && contentRowTimings.length === contentRows.length);
 
     // Animate scroll
     useEffect(() => {
@@ -122,36 +110,66 @@ export default function NotationLane({
 
     // ── Text mode: render full text rows ──────────────────────────────────
     if (textMode && contentRows) {
+        // When section cues are set, position rows absolutely by their start
+        // time. Otherwise fall back to the original flex layout (uniform spacing).
+        const containerStyle = hasTextTimings
+            ? {
+                left: `${playheadFraction * 100}%`,
+                willChange: 'transform',
+                width: Math.max(1, (totalDuration * pxPerSec * zoom) + effectiveAvPx),
+            }
+            : {
+                left: `${playheadFraction * 100}%`,
+                willChange: 'transform',
+                paddingRight: '60vw',
+            };
+
         return (
             <div ref={wheelTargetRef} className="relative w-full h-full overflow-hidden no-scrollbar">
                 <div
                     ref={containerRef}
-                    className="absolute top-0 h-full flex items-center"
-                    style={{
-                        left: `${playheadFraction * 100}%`,
-                        willChange: 'transform',
-                        paddingRight: '60vw',
-                    }}
+                    className={`absolute top-0 h-full ${hasTextTimings ? '' : 'flex items-center'}`}
+                    style={containerStyle}
                 >
                     {contentRows.map((row, idx) => {
-                        const text = (isSwara ? row.swara : row.sahitya) || '';
                         const isFirstInSection = idx === 0 || contentRows[idx - 1]?.section !== row.section;
-                        const avCount = row.avCount || 1;
+                        // Row width is driven by `avPerRow` (the user's
+                        // layout density choice in the lyrics editor) so
+                        // every row spans `avPerRow × calibrationSec` of
+                        // visual space. If a row's source data happens to
+                        // contain more avartanas than that, we expand to
+                        // fit so we never lose content.
+                        const avCount = Math.max(row.avCount || 1, avPerRow || 1);
                         const w = avCount * effectiveAvPx;
 
-                        // Text fitting: calculate a font size that fills the width 'w'
-                        // Base: ~10px per character for 1rem.
-                        // We want: fontSize * text.length * density ~ w
-                        const baseCharWidth = isSwara ? 11 : 9;
-                        const targetW = w - 48; // padding
-                        const autoFontSize = Math.min(1.8, targetW / (text.length * baseCharWidth));
-                        const finalFontSize = `${autoFontSize}rem`;
+                        // Tokenize this lane's own string independently. The
+                        // row is one flex line of width `w`, with the tokens
+                        // spread across it via `justify-content: space-between`.
+                        // No cells, no fixed slot widths — each token takes its
+                        // natural size and the gaps stretch to fill the row.
+                        const rawStr = (isSwara ? row.swara : row.sahitya) || '';
+                        const tokens = rawStr.split(/\s+/).filter(Boolean);
+
+                        // Font size scales with the row width per token so the
+                        // text grows when there's more space and shrinks when
+                        // it's tight. Capped to a sane min/max range.
+                        const tokenCount = Math.max(1, tokens.length);
+                        const fontPx = Math.max(10, Math.min(24, (w / tokenCount) / (isSwara ? 10 : 9) * 12));
+                        const finalFontSize = `${fontPx}px`;
+
+                        const rowLeft = hasTextTimings
+                            ? contentRowTimings[idx] * pxPerSec * zoom
+                            : undefined;
 
                         return (
                             <div
                                 key={idx}
                                 className="flex-shrink-0 flex items-center h-full relative"
-                                style={{ width: w }}
+                                style={{
+                                    width: w,
+                                    justifyContent: 'space-between',
+                                    ...(hasTextTimings ? { position: 'absolute', top: 0, bottom: 0, left: rowLeft } : null),
+                                }}
                             >
                                 {isFirstInSection && (
                                     <div
@@ -166,30 +184,42 @@ export default function NotationLane({
                                     </div>
                                 )}
 
-                                <div
-                                    className="w-full px-5 flex justify-between items-center"
-                                    style={{
-                                        fontSize: finalFontSize,
-                                        fontFamily: "'Outfit', sans-serif",
-                                        fontWeight: 700,
-                                        color: isSwara
-                                            ? (isDark ? '#60a5fa' : '#1e40af')
-                                            : (isDark ? '#fcd34d' : '#b45309'),
-                                        whiteSpace: 'nowrap',
-                                        textShadow: isSwara && isDark ? '0 0 12px rgba(96,165,250,0.25)' : 'none',
-                                    }}
-                                >
-                                    {text.split(/(\s+)/).map((chunk, i) => (
-                                        <span key={i} style={{ display: 'inline-block' }}>
-                                            {chunk.replace(/ /g, '\u00A0')}
+                                {tokens.map((tok, i) => {
+                                    const isBar = tok === '|' || tok === '||';
+                                    if (isBar) {
+                                        return (
+                                            <span
+                                                key={i}
+                                                className="font-bold opacity-40 select-none flex-shrink-0"
+                                                style={{
+                                                    fontSize: tok === '||' ? '1.4rem' : '1.2rem',
+                                                    color: isDark ? '#fff' : '#000',
+                                                    letterSpacing: tok === '||' ? '-0.1em' : '0',
+                                                }}
+                                            >
+                                                {tok}
+                                            </span>
+                                        );
+                                    }
+                                    return (
+                                        <span
+                                            key={i}
+                                            className="font-bold select-none flex-shrink-0"
+                                            style={{
+                                                fontSize: finalFontSize,
+                                                fontFamily: "'Outfit', sans-serif",
+                                                fontWeight: 700,
+                                                color: isSwara
+                                                    ? (isDark ? '#60a5fa' : '#1e40af')
+                                                    : (isDark ? '#fcd34d' : '#b45309'),
+                                                whiteSpace: 'nowrap',
+                                                textShadow: isSwara && isDark ? '0 0 12px rgba(96,165,250,0.25)' : 'none',
+                                            }}
+                                        >
+                                            {tok === '-' ? <span style={{ opacity: 0.3 }}>—</span> : tok}
                                         </span>
-                                    ))}
-                                </div>
-
-                                <div
-                                    className="absolute right-0 top-0 bottom-0 w-px"
-                                    style={{ background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)' }}
-                                />
+                                    );
+                                })}
                             </div>
                         );
                     })}

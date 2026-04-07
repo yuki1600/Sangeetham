@@ -5,7 +5,8 @@
         "arohanam": "S R1 G2 M1 P D2 N2 S ||",
         "avarohanam": "S N2 D2 P M1 G2 R1 S ||",
         "tala": "Adi",
-        "composer": "Thanjavur Shankara Iyer"
+        "composer": "Thanjavur Shankara Iyer",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,59 +14,59 @@
             "content": [
                 {
                     "swara": "D ;  N- nd  D P  , m P,d  |  mP,  M  ; G  ,r  S ; pm ||",
-                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  ta --  ka -  pri-"
+                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  ta --  ka -  pri- ||"
                 },
                 {
                     "swara": "G ;  ; ;  ; ;  , g M  | P ;  ; ;  ; ;  gmpd ||",
-                    "sahitya": "Ye -  - -  - -    Rasi   ke- - -  - -  san-"
+                    "sahitya": "Ye -  - -  - -    Rasi   ke- - -  - -  san- ||"
                 },
                 {
                     "swara": "N ;  N- nd  D P  , m P,d  |  mP,  M  pg -gr  R-  S ; n d ||",
-                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  --ta --  ka -  pri-"
+                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  --ta --  ka -  pri- ||"
                 },
                 {
                     "swara": "pmM G   ; ;  ; ;  , g M  | P ;  ; ;  ; ;  gmpd ||",
-                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - -  san-"
+                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - -  san- ||"
                 },
                 {
                     "swara": "N ;  N- nd  D P  , m P,d  |  mP,  M  pg -gr  R-  S ; n d ||",
-                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  --ta --  ka -  pri-"
+                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  --ta --  ka -  pri- ||"
                 },
                 {
                     "swara": "pmM G   ; ;  ; ;  , g M  | pd nd  N ;  ; ;  gmpd ||",
-                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - -  san-"
+                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - -  san- ||"
                 },
                 {
                     "swara": "N ;  N- nd  D P  , m P,d  |  mP,  M  pg -gr  R-  S ; n d ||",
-                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  --ta --  ka -  pri-"
+                    "sahitya": "Gee ta Vaa- -  dya    Nata-   na --  Naa -  --ta --  ka -  pri- ||"
                 },
                 {
                     "swara": "pmM G   ; ;  ; ;  , g M  | pndp  dnS  ; ;   ndpd ||",
-                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - -  san-"
+                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - -  san- ||"
                 },
                 {
                     "swara": "sngr  S- ss  nd pm  gmpd   |  nd  p m  gp mg  R S ; -  n d ||",
-                    "sahitya": "Gee ta Vaa- -  dya  Na-ta- na- Naa ---- ta -  -   ka  -    Pri-"
+                    "sahitya": "Gee ta Vaa- -  dya  Na-ta- na- Naa ---- ta -  -   ka  -    Pri- ||"
                 },
                 {
                     "swara": "pmM G   ; ;  ; ;  , g M  | p D p  d n S ; ss   nd N ||",
-                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - san- - - -"
+                    "sahitya": "Ye -   - -  - -    Rasi   ke- - -  - san- - - - ||"
                 },
                 {
                     "swara": "sngr  S- ss  nd P  gmpd   |  ndp - d  pm -pm  g - grs ;  D ||",
-                    "sahitya": "Gee ta Vaa- -  dya  Na-ta- na --  Naa --   ta --  ka-- -  Pri-"
+                    "sahitya": "Gee ta Vaa- -  dya  Na-ta- na --  Naa --   ta --  ka-- -  Pri- ||"
                 },
                 {
                     "swara": "; ;  dn  pmM G    ; ;  , g M  | p D p  d n S ; ss   nd N ||",
-                    "sahitya": "- -  - - Ye -   - -  - -    Rasi   ke- - -  - san- - - -"
+                    "sahitya": "- -  - - Ye -   - -  - -    Rasi   ke- - -  - san- - - - ||"
                 },
                 {
                     "swara": "sngr  S- ss  nd P  gmpd   |  ndp - d  pm -pm  g - grs ;  D ||",
-                    "sahitya": "Gee ta Vaa- -  dya  Na-ta- na --  Naa --   ta --  ka-- -  Pri-"
+                    "sahitya": "Gee ta Vaa- -  dya  Na-ta- na --  Naa --   ta --  ka-- -  Pri- ||"
                 },
                 {
                     "swara": "; ;  dn  pmM G    ; ;  snN D  | P ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- -  - - Ye -   - -  - -  Rasi   ke- - -  - - - -"
+                    "sahitya": "- -  - - Ye -   - -  - -  Rasi   ke- - -  - - - - ||"
                 }
             ]
         },
@@ -74,35 +75,35 @@
             "content": [
                 {
                     "swara": "N S  S - ss  nd-N  S ;  |  ; ;  ; ;  ; ;   mpdn ||",
-                    "sahitya": "Ve -  da Roo--  - - pi  ni    - -  - -  - -  - - - -"
+                    "sahitya": "Ve -  da Roo--  - - pi  ni    - -  - -  - -  - - - - ||"
                 },
                 {
                     "swara": "N S  S - ss  nd-N  S ;  |  ; ;  ; ;  ; mp dn S ||",
-                    "sahitya": "Ve -  da Roo--  - - pi  ni    - -  - -  - -  - - - -"
+                    "sahitya": "Ve -  da Roo--  - - pi  ni    - -  - -  - -  - - - - ||"
                 },
                 {
                     "swara": "S ;  S- ss  nd -N  S ; |  S ;  N D  N S  ; ;  ||",
-                    "sahitya": "Ve -  da Roo--  - -  pi   ni-     Vi shvaa     si  ni- - -"
+                    "sahitya": "Ve -  da Roo--  - -  pi   ni-     Vi shvaa     si  ni- - - ||"
                 },
                 {
                     "swara": "sngr  S- ss  nd -N  S ; |  S ;  N D  N S  ; ;  ||",
-                    "sahitya": "Ve -  da Roo--  - -  pi   ni-     Vi shvaa     si  ni- - -"
+                    "sahitya": "Ve -  da Roo--  - -  pi   ni-     Vi shvaa     si  ni- - - ||"
                 },
                 {
                     "swara": "sn gr   S- ss nd - N  ns rg  |  ,r- S  ; ss  nd -N    S ;  ||",
-                    "sahitya": "Ve -  da Roo--  - -   pi  ni - --     -- Vi - shvaa -  -  si  ni-"
+                    "sahitya": "Ve -  da Roo--  - -   pi  ni - --     -- Vi - shvaa -  -  si  ni- ||"
                 },
                 {
                     "swara": "sn gr   S- ss nd - N  ns rg  |  ,r- S  ;  sN,  D -N    S ;  ||",
-                    "sahitya": "Ve -  da Roo--  - -   pi  ni - --     -- Vi - shvaa -  -  si  ni-"
+                    "sahitya": "Ve -  da Roo--  - -   pi  ni - --     -- Vi - shvaa -  -  si  ni- ||"
                 },
                 {
                     "swara": "S ;  S - ss nd P  ;  nd  | pmG  ; gp  mg R  gmpd  ||",
-                    "sahitya": "Naa da Sva roo-- -   pi   ni- -  - Pra- kaa-- shini"
+                    "sahitya": "Naa da Sva roo-- -   pi   ni- -  - Pra- kaa-- shini ||"
                 },
                 {
                     "swara": "n-S ,  S - dn Srs nd  P-  nd  | pmG  ; gp  mg rs  gmpd  ||",
-                    "sahitya": "- Naa da Sva roo-- -    pi-   ni- -  - Pra- kaa-- shini    (GeethaVadya)"
+                    "sahitya": "- Naa da Sva roo-- -    pi-   ni- -  - Pra- kaa-- shini    (GeethaVadya) ||"
                 }
             ]
         },
@@ -111,43 +112,43 @@
             "content": [
                 {
                     "swara": "M ;  M - G  ;  R  S ;  | S - ss  nd - S  , r G  M ;  ||",
-                    "sahitya": "Maa ra    ko -  ti  Sun   da  raa- - -   ngi   Maa-  ye -"
+                    "sahitya": "Maa ra    ko -  ti  Sun   da  raa- - -   ngi   Maa-  ye - ||"
                 },
                 {
                     "swara": "p Dp  M - mp  G-  rr  S ;  | sr - sn  dn  - S  , r G  M ;  ||",
-                    "sahitya": "Maa ra    ko - -  ti-  Sun  da-  raa- - -   ngi   Maa-  ye -"
+                    "sahitya": "Maa ra    ko - -  ti-  Sun  da-  raa- - -   ngi   Maa-  ye - ||"
                 },
                 {
                     "swara": "G  S  ;  R  G M  , g M  | P D  D ;  ns dpmg    ; ;  ||",
-                    "sahitya": "Maa-   -  tan   - gi   Ma ra   kata Chaa - -  ye- -     - -"
+                    "sahitya": "Maa-   -  tan   - gi   Ma ra   kata Chaa - -  ye- -     - - ||"
                 },
                 {
                     "swara": "ppmm  gg - mm  gg-  rr  S ;  | sr - sn  dn - S  , r G  M ;  ||",
-                    "sahitya": "Maa ra    ko   - -  ti-  Sun  da-  raa- - -   ngi   Maa-  ye -"
+                    "sahitya": "Maa ra    ko   - -  ti-  Sun  da-  raa- - -   ngi   Maa-  ye - ||"
                 },
                 {
                     "swara": "G  S  ;  R  G M  , g M  | P D  nd pdS  nD ,    P ;  ||",
-                    "sahitya": "Maa-   -  tan   - gi   Ma ra   kata Cha --    - -   ye - -"
+                    "sahitya": "Maa-   -  tan   - gi   Ma ra   kata Cha --    - -   ye - - ||"
                 },
                 {
                     "swara": "N S  S - ss  nd-N  S ;  |  ; ;  ; ;  ; ;   mpdn ||",
-                    "sahitya": "Saa- ra  saa --   -   kshi   - -  - -  - -  - - - -"
+                    "sahitya": "Saa- ra  saa --   -   kshi   - -  - -  - -  - - - - ||"
                 },
                 {
                     "swara": "S ;  S- ss  nd -N  S ; |  sngr  S- ss  nd N   NS  ||",
-                    "sahitya": "Saa- ra  saa --   -   kshi -    Sa rva saa - -  -  kshi-"
+                    "sahitya": "Saa- ra  saa --   -   kshi -    Sa rva saa - -  -  kshi- ||"
                 },
                 {
                     "swara": "sn gr   S- ss nd - N  ns rg  |  ,r- S  ; S N  D  N   S  ||",
-                    "sahitya": "Saa- ra  saa --   -   kshi -    - - Sa rva  saa - kshi-"
+                    "sahitya": "Saa- ra  saa --   -   kshi -    - - Sa rva  saa - kshi- ||"
                 },
                 {
                     "swara": "S ;  S - ss nd P  ;  nd  | pmG  ; gp  mg R  gmpd  ||",
-                    "sahitya": "Saa dhu ja- na- Ra -  ksha-   ki- -  - Ka taa- -  kshi- -"
+                    "sahitya": "Saa dhu ja- na- Ra -  ksha-   ki- -  - Ka taa- -  kshi- - ||"
                 },
                 {
                     "swara": "n-S ,  S - dn Srs nd  P-  nd  | pmG  ; gp  mg rs  gmpd  ||",
-                    "sahitya": "Saa dhu ja- na- Ra -  ksha-   ki- -  - Ka taa- -  kshi- -       (GeethaVadya)"
+                    "sahitya": "Saa dhu ja- na- Ra -  ksha-   ki- -  - Ka taa- -  kshi- -       (GeethaVadya) ||"
                 }
             ]
         }

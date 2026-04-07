@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M2 P D1 N2 S ||",
         "avarohanam": "S N2 D1 P M2 G2 R2 S ||",
         "tala": "Rupakam",
-        "composer": "Papanasam Sivan"
+        "composer": "Papanasam Sivan",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,47 +14,47 @@
             "content": [
                 {
                     "swara": "; pd   , n D   dN,   ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "AN    Dava nE -      -     u nai  nambi nEn"
+                    "sahitya": "AN    Dava nE -      -     u nai  nambi nEn ||"
                 },
                 {
                     "swara": "; pd   , n-  pd   rs- N  ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "AN    Da  va  - -  nE   -     u nai  nambi nEn"
+                    "sahitya": "AN    Da  va  - -  nE   -     u nai  nambi nEn ||"
                 },
                 {
                     "swara": "; pd   , n-  pd   rs- N  ||  D - d p    , d P    pdnd  ||",
-                    "sahitya": "AN    Da  va  - -  nE   -     u nai  nambi nEn"
+                    "sahitya": "AN    Da  va  - -  nE   -     u nai  nambi nEn ||"
                 },
                 {
                     "swara": "pm-pd   ns-  Rgr   rs- N  ||  D - d p    , d P    pdnd  ||",
-                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn--"
+                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "pm-pd   ns-  Rgr   rs- N  ||  D - d p    , d P    P ;   ||",
-                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn--"
+                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "; gm      , p-    M    G M   || P ;    pd    ns      rs    nd    ||",
-                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha"
+                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha ||"
                 },
                 {
                     "swara": "dm-   pd   , n-  pd   rs- N  ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "lilan  AN  Da  va   - -  nE     -     u nai   nambi nEn--"
+                    "sahitya": "lilan  AN  Da  va   - -  nE     -     u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "; gm      , p-    M    G M   || P ;    pd    ns      rs    nd    ||",
-                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha"
+                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha ||"
                 },
                 {
                     "swara": "dm-   pd   , n-  pd   rs- N  ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "lilan  AN  Da  va   - -  nE     -     u nai   nambi nEn--"
+                    "sahitya": "lilan  AN  Da  va   - -  nE     -     u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "; gm      , p-    M    G R   || S ;    gr     sn      rs    nd    ||",
-                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha"
+                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha ||"
                 },
                 {
                     "swara": "dm-   pd    , n   D      dN,   ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "lilan  AN    Da  va    nE          -    u nai   nambi nEn--"
+                    "sahitya": "lilan  AN    Da  va    nE          -    u nai   nambi nEn-- ||"
                 }
             ]
         },
@@ -62,27 +63,27 @@
             "content": [
                 {
                     "swara": "; pd    , n N      S , n      ||   S ;    ; ;  ; ;  || ; ;  ; ;    r s n d  ||",
-                    "sahitya": "tAN   Davam A--           dum  - -  - -     - -  - -    - - - -"
+                    "sahitya": "tAN   Davam A--           dum  - -  - -     - -  - -    - - - - ||"
                 },
                 {
                     "swara": "pm- pd    , n S      R , n      ||   S ;    ; ;    ; ;  || ; ;  ; ;    r s n d  ||",
-                    "sahitya": "tAN   Davam  A--           dum  - -     - -     - -  - -    - - - -"
+                    "sahitya": "tAN   Davam  A--           dum  - -     - -     - -  - -    - - - - ||"
                 },
                 {
                     "swara": "pm- pd    , n S      R , n      ||   S ;    ; ;     ggrr   || ssnd    rs sn  n d dp  ||",
-                    "sahitya": "tAN   Davam  A--           dum  - -     - -     - -  - -  - -      - - - -"
+                    "sahitya": "tAN   Davam  A--           dum  - -     - -     - -  - -  - -      - - - - ||"
                 },
                 {
                     "swara": "pm- pd    , n S      R , n      ||   S ;    ; ;     ; ;    || ggrs    rr sn  ss nd  ||",
-                    "sahitya": "tAN   Davam  A--           dum  - -     - -     - -  - -  - -      - - - -"
+                    "sahitya": "tAN   Davam  A--           dum  - -     - -     - -  - -  - -      - - - - ||"
                 },
                 {
                     "swara": "pm- pd    , n S        RG     ||   R ;    ; ,s     D , d    ||",
-                    "sahitya": "tAN   Davam  A--           dum  - -     - - - -"
+                    "sahitya": "tAN   Davam  A--           dum  - -     - - - - ||"
                 },
                 {
                     "swara": "pm- pd    , n S        rgrg     ||   R ;    rgM   G R     ||",
-                    "sahitya": "tAN   Davam  A--           dum  kun-    cita"
+                    "sahitya": "tAN   Davam  A--           dum  kun-    cita ||"
                 },
                 {
                     "swara": "; sr     , g - R    S  S  || nS - g    rs - sn    rs n- d  ||",
@@ -95,79 +96,79 @@
             "content": [
                 {
                     "swara": "pm-pd   ns-  Rgr   rs- N  ||  D - d p    , d P    P ;   ||",
-                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn--"
+                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "; gm      , p-    M    G R   || S ;    gr     sn      rs    nd    ||",
-                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha"
+                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha ||"
                 },
                 {
                     "swara": "dm-   pd    , n   D      dN,   ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "lilan  AN    Da  va    nE          -    u nai   nambi nEn--"
+                    "sahitya": "lilan  AN    Da  va    nE          -    u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "; p p    , d P      ;  P ||   P    - m p     ,  m R   G R  ||",
-                    "sahitya": "kaDa   linum    mi   ghu    bhayan  kara   bhavak"
+                    "sahitya": "kaDa   linum    mi   ghu    bhayan  kara   bhavak ||"
                 },
                 {
                     "swara": ";  s r      , g R     S   S  ||  ; sr    ,  p M   P  ;  ||",
-                    "sahitya": "kaDal   naDu  cchuzhal        iDai    ppaDu  -  -"
+                    "sahitya": "kaDal   naDu  cchuzhal        iDai    ppaDu  -  - ||"
                 },
                 {
                     "swara": "; p p    , d P      ;  P ||   P    - m p     ,  m G   R- g r  ||",
-                    "sahitya": "kaDa   linum    mi   ghu    bhayan  kara   - bhavak"
+                    "sahitya": "kaDa   linum    mi   ghu    bhayan  kara   - bhavak ||"
                 },
                 {
                     "swara": ";  s r      , g R     S   S  ||  ; sr    ,  P m    D m-p  ||",
-                    "sahitya": "kaDal   naDu  cchuzhal        iDai    ppa      Du  -  -"
+                    "sahitya": "kaDal   naDu  cchuzhal        iDai    ppa      Du  -  - ||"
                 },
                 {
                     "swara": "; p p    , d P      ;  P ||   P    - m p     ,  m G   R- g r  ||",
-                    "sahitya": "kaDa   linum    mi   ghu    bhayan  kara   - bhavak"
+                    "sahitya": "kaDa   linum    mi   ghu    bhayan  kara   - bhavak ||"
                 },
                 {
                     "swara": ";  s r      , g R     S   S  ||  ; sr    ,  P  m     ;  P    ||",
-                    "sahitya": "kaDal   naDu  cchuzhal        iDai    ppa Du  -  shi"
+                    "sahitya": "kaDal   naDu  cchuzhal        iDai    ppa Du  -  shi ||"
                 },
                 {
                     "swara": "M - pd   , n N     S ;  ||  ; ;  ; ;  ; ;  || ; ;  ; ;  rs nd   ||",
-                    "sahitya": "ru   paDa  ganai  ya                - -  - -   - -    - -  - -  shi ru"
+                    "sahitya": "ru   paDa  ganai  ya                - -  - -   - -    - -  - -  shi ru ||"
                 },
                 {
                     "swara": "pm - pd   , n S    R,n  ||  S ;  ; ;  rs nd   ||",
-                    "sahitya": "paDa  ganai  ya                - -  - -  shi ru"
+                    "sahitya": "paDa  ganai  ya                - -  - -  shi ru ||"
                 },
                 {
                     "swara": "pm - pd   , n S     R ;   ||  ;  sr     G    - gr   R- Sgr  ||",
-                    "sahitya": "paDa  ganai  ya                  aDi mai   kaN-  DA - -"
+                    "sahitya": "paDa  ganai  ya                  aDi mai   kaN-  DA - - ||"
                 },
                 {
                     "swara": "RS- pd   , n S     R ;   ||  ;  rg     M    - R   gr- R  ||",
-                    "sahitya": "paDa  ganai  ya                  aDi mai     kaN-  DA - -"
+                    "sahitya": "paDa  ganai  ya                  aDi mai     kaN-  DA - - ||"
                 },
                 {
                     "swara": "; sr   ,  mg- gg   rr S  || n S- g    r s - sn    r s n - d   ||",
-                    "sahitya": "rA-    ma- dA- -- San          pA- mAl- -   koN - - -   Da"
+                    "sahitya": "rA-    ma- dA- -- San          pA- mAl- -   koN - - -   Da ||"
                 },
                 {
                     "swara": "pm- pd   , n S     R ;   ||  ;  rg     M    - R   gr- R  ||",
-                    "sahitya": "paDa  ganai  ya                  aDi mai     kaN-  DA - -"
+                    "sahitya": "paDa  ganai  ya                  aDi mai     kaN-  DA - - ||"
                 },
                 {
                     "swara": "; sr   ,  mg- gg   rr S  || n S- g    r s - sn    r s n - d   ||",
-                    "sahitya": "rA-    ma- dA- -- San          pA- mAl- -   koN - - -   Da"
+                    "sahitya": "rA-    ma- dA- -- San          pA- mAl- -   koN - - -   Da ||"
                 },
                 {
                     "swara": "pm-pd   ns-  Rgr   rs- N  ||  D - d p    , d P    P ;   ||",
-                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn--"
+                    "sahitya": "AN    Da  - - -  va  nE   -     u nai   nambi nEn-- ||"
                 },
                 {
                     "swara": "; gm      , p-    M    G R   || S ;    gr     sn      rs    nd    ||",
-                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha"
+                    "sahitya": "aDi      maik-ka   dimai      yAn  aruL puri yoru pugha ||"
                 },
                 {
                     "swara": "dm-   pd    , n   D      dN,   ||  D - d p    , d P    P ;  ||",
-                    "sahitya": "lilan  AN    Da  va    nE          -    u nai   nambi nEn--"
+                    "sahitya": "lilan  AN    Da  va    nE          -    u nai   nambi nEn-- ||"
                 }
             ]
         }

@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Srikantha Neeyada",
         "raga": "Bhavapriya",
-        "arohanam": "S R\u2081 G\u2082 M\u2082 P D\u2081 N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2081 P M\u2082 G\u2082 R\u2081 S ||",
+        "arohanam": "S R₁ G₂ M₂ P D₁ N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₁ P M₂ G₂ R₁ S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,83 +14,83 @@
             "content": [
                 {
                     "swara": "; ;  ; P ,d N  ; D | P ;  ; P  P  P  P ; ||",
-                    "sahitya": "Sri  -- Kan - tha  Ni -  - ya da Ba laa"
+                    "sahitya": "Sri  -- Kan - tha  Ni -  - ya da Ba laa ||"
                 },
                 {
                     "swara": "P P  M - P ,d N  ; D | pdnd  pm- P  P  pm  pdns ||",
-                    "sahitya": "di Ba la    Sri  -- Kan - tha  Ni -  - - ya da Ba laa"
+                    "sahitya": "di Ba la    Sri  -- Kan - tha  Ni -  - - ya da Ba laa ||"
                 },
                 {
                     "swara": "r s n d    pm  - P  mdp-p mg-G | R , s  ; - G  ; rg  M - ;   ||",
-                    "sahitya": "di -- Ba la -   Che la--  a - -  nga     Le   -    -     da ?  - Vaa-     -      -"
+                    "sahitya": "di -- Ba la -   Che la--  a - -  nga     Le   -    -     da ?  - Vaa-     -      - ||"
                 },
                 {
                     "swara": "D   nd  pm - P  mdp-p mg-G | R , s  ; - G  ; rg  M - dn   ||",
-                    "sahitya": "da ?   - -     - - Che la--  a - -  ncha   Le   -    -    da ?  - Vaa-     -      -"
+                    "sahitya": "da ?   - -     - - Che la--  a - -  ncha   Le   -    -    da ?  - Vaa-     -      - ||"
                 },
                 {
                     "swara": "; ;  ; P  ,d  N  ;  N  | S , s  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- Paa  --   kaa -  ri   nu tha - -  - -  --"
+                    "sahitya": "- Paa  --   kaa -  ri   nu tha - -  - -  -- ||"
                 },
                 {
                     "swara": "ns nd pm- P  ,d  N  ;  N  | S , s  ; dn  S , p dn S  ||",
-                    "sahitya": "-    Paa  --   kaa -  ri   nu tha - -  - -  --"
+                    "sahitya": "-    Paa  --   kaa -  ri   nu tha - -  - -  -- ||"
                 },
                 {
                     "swara": ", s nd pm- P  ,d  N  ;  N  | S , s  ; S  , r G  ;  R   ||",
-                    "sahitya": "-     Paa  --   kaa -  ri   nu tha - Nee - - vaa -   ri"
+                    "sahitya": "-     Paa  --   kaa -  ri   nu tha - Nee - - vaa -   ri ||"
                 },
                 {
                     "swara": "S , r  s n - P  ,d  N  ;  N  | S , s  ; S  , r G  ;  R   ||",
-                    "sahitya": "Ba -la - -     Paa - - kaa -  ri   nu tha - Nee - - vaa -   ri"
+                    "sahitya": "Ba -la - -     Paa - - kaa -  ri   nu tha - Nee - - vaa -   ri ||"
                 },
                 {
                     "swara": "G , m  ; - G  M pm G R  | S ,s ; sr  sn -sr  sn  -ns  ||",
-                    "sahitya": "Ba- laa -  Ba  la mu-  -   nu   De-li - ya- - -   ga-  -  -  le-"
+                    "sahitya": "Ba- laa -  Ba  la mu-  -   nu   De-li - ya- - -   ga-  -  -  le- ||"
                 },
                 {
                     "swara": "nd- nd  pm  P ,d N  ; D | pdnd  pm- P  P  pm  pdns ||",
-                    "sahitya": "- -  da ?- - - Sri  -- Kan - tha  Ni -  - - ya da Ba laa"
+                    "sahitya": "- -  da ?- - - Sri  -- Kan - tha  Ni -  - - ya da Ba laa ||"
                 },
                 {
                     "swara": "r s n d    pm  - P  mdp-p mg-G | R , s  ; - G  ; rg  M - dn  ||",
-                    "sahitya": "di -- Ba la -   Che la--  a - -  nga     Le   -    -     da ?  - Vaa-     -      -"
+                    "sahitya": "di -- Ba la -   Che la--  a - -  nga     Le   -    -     da ?  - Vaa-     -      - ||"
                 },
                 {
                     "swara": "; ;  ; - P  P , p  ; P  | P , p  ; pm mdp - p      m g-  G  ||",
-                    "sahitya": "Ka ka Dai - tyu   Ne-ka -Sha- ra--     mu    -   -   na"
+                    "sahitya": "Ka ka Dai - tyu   Ne-ka -Sha- ra--     mu    -   -   na ||"
                 },
                 {
                     "swara": "R , s  ;-  S,n  G , r  ; S  | S ;       ,n  s   r  G G  G M  ||",
-                    "sahitya": "Ne-ya -  Kan ja - ja - stra   mai-  -  Va-     ra  ga  le  -"
+                    "sahitya": "Ne-ya -  Kan ja - ja - stra   mai-  -  Va-     ra  ga  le  - ||"
                 },
                 {
                     "swara": "P ;  ; - P  p D-n ; N  | S , s  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "da ?- -  Sri ka-  ra ! - Dvi   jul lai   - -  - -  - -"
+                    "sahitya": "da ?- -  Sri ka-  ra ! - Dvi   jul lai   - -  - -  - - ||"
                 },
                 {
                     "swara": "nsnd  pm P  p D-n ; N  | S , s  ; dn  S , p dn S  ||",
-                    "sahitya": "- - - -  - - Sri ka-  ra ! - Dvi   jul lai   - -  - -  - -"
+                    "sahitya": "- - - -  - - Sri ka-  ra ! - Dvi   jul lai   - -  - -  - - ||"
                 },
                 {
                     "swara": ", snd  pm P  p D-n ; N  | S , s  ; S  R G      ;   R   ||",
-                    "sahitya": "- - - -  - - Sri ka-  ra ! - Dvi   jul lai   - Daa te ru     -   ga"
+                    "sahitya": "- - - -  - - Sri ka-  ra ! - Dvi   jul lai   - Daa te ru     -   ga ||"
                 },
                 {
                     "swara": "S , r  sn-P p D-n ; N  | S , s  ; S  R G      ;   R   ||",
-                    "sahitya": "Le  ni     - - Sri ka-  ra ! - Dvi   jul lai   - Daa te ru     -   ga"
+                    "sahitya": "Le  ni     - - Sri ka-  ra ! - Dvi   jul lai   - Daa te ru     -   ga ||"
                 },
                 {
                     "swara": "G , m  ; - G  M   pm G R  | S ,s ; sr  sn -  s r    s  n  -n  s  ||",
-                    "sahitya": "Le - ni -   Chin   tha Nee- -  ku   Do cha  -de-  -mi? Tya-  - ga raa-"
+                    "sahitya": "Le - ni -   Chin   tha Nee- -  ku   Do cha  -de-  -mi? Tya-  - ga raa- ||"
                 },
                 {
                     "swara": "nd- nd pm-     P   ,d N  ; D | pdnd  pm- P  P  pm  pdns ||",
-                    "sahitya": "- ja nu-  -  tha!  Sri -- Kan - tha  Ni -  - -   ya da Ba laa"
+                    "sahitya": "- ja nu-  -  tha!  Sri -- Kan - tha  Ni -  - -   ya da Ba laa ||"
                 },
                 {
                     "swara": "r s n d    pm  - P  mdp-p mg-G | R , s  ; - G  ; rg  M - dn  ||",
-                    "sahitya": "di -- Ba la -   Che la--  a - -  nga     Le   -    -     da ?  - Vaa-     -      -"
+                    "sahitya": "di -- Ba la -   Che la--  a - -  nga     Le   -    -     da ?  - Vaa-     -      - ||"
                 }
             ]
         }

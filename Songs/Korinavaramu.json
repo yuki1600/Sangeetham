@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Korinavaramu",
         "raga": "Ramapriya",
-        "arohanam": "S R\u2081 G\u2083 M\u2082 P D\u2082 N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 D\u2082 P M\u2082 G\u2083 R\u2081 S ||",
+        "arohanam": "S R₁ G₃ M₂ P D₂ N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ D₂ P M₂ G₃ R₁ S ||",
         "tala": "Rupakam",
-        "composer": "Patnam Subramanya Iyer"
+        "composer": "Patnam Subramanya Iyer",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,119 +14,119 @@
             "content": [
                 {
                     "swara": "1. P ;  pm gm G R || S S  S - rs  nd N  ||",
-                    "sahitya": "Ko ri-na-  Vara  Mosa gu  mai- - - yya"
+                    "sahitya": "Ko ri-na-  Vara  Mosa gu  mai- - - yya ||"
                 },
                 {
                     "swara": "sr G R - gm  P - M  || P ;  ; pm  gr gm  ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - - ||"
                 },
                 {
                     "swara": "2. pdnd  pm gm G R || S S  S - rs  nd N  ||",
-                    "sahitya": "Ko ri-na-  Vara  Mosa gu  mai- - - yya"
+                    "sahitya": "Ko ri-na-  Vara  Mosa gu  mai- - - yya ||"
                 },
                 {
                     "swara": "sr gr G - mp    dp D  || pdnd  N - N  , d pm  ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  -      -     -  ni - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  -      -     -  ni - - ||"
                 },
                 {
                     "swara": "3. pdnd  pm gd pm gr || sd pm  gr - rs  nd N  ||",
-                    "sahitya": "Ko ri-na- Va- ra  Mo-sa- gu  mai- - - yya"
+                    "sahitya": "Ko ri-na- Va- ra  Mo-sa- gu  mai- - - yya ||"
                 },
                 {
                     "swara": "s r g m    P - mp    dn S  || dn Srs   nd - nsrs   n d p m  ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - -     ni - -  - -  - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - -     ni - -  - -  - - - ||"
                 },
                 {
                     "swara": "4. P ;  pm gm dmG-r S  || S S  S - rs  nd N  ||",
-                    "sahitya": "Ko ri-na-  -- - - Vara Mosa gu  mai- - - yya"
+                    "sahitya": "Ko ri-na-  -- - - Vara Mosa gu  mai- - - yya ||"
                 },
                 {
                     "swara": "sr G R - gm  N - D  || P ;  ; P  ;  ;   ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - - ||"
                 },
                 {
                     "swara": "; , n  , d P  ; M  || ; p  d  , n    S    ; ;  ||",
-                    "sahitya": "Va  ri ja - sthra    - Ja na    ka  Sri     - -"
+                    "sahitya": "Va  ri ja - sthra    - Ja na    ka  Sri     - - ||"
                 },
                 {
                     "swara": "; pd  rs nd P ; M  || ; p  d  , n    ns    rs R ||",
-                    "sahitya": "Va ra ri ja - sthra    - Ja na    ka  Sri     - -"
+                    "sahitya": "Va ra ri ja - sthra    - Ja na    ka  Sri     - - ||"
                 },
                 {
                     "swara": "G ;  rgrs nd N  || rsnd  sn    dp  ndpm  ||",
-                    "sahitya": "Vat san-- - -  ga    Ni- -  shta-ran-  -- ga-"
+                    "sahitya": "Vat san-- - -  ga    Ni- -  shta-ran-  -- ga- ||"
                 },
                 {
                     "swara": "p d  rs   nd  P dn dpM  || ; p  d  , n    ns    rs R ||",
-                    "sahitya": "Va-ra- ri- ja - - sthra    - Ja na    ka  Sri     - -"
+                    "sahitya": "Va-ra- ri- ja - - sthra    - Ja na    ka  Sri     - - ||"
                 },
                 {
                     "swara": "G ;  rgrs nd N  || rsnd  sn    dp  ndpm  ||",
-                    "sahitya": "Vat san-- - -  ga    Ni- -  shta-ran-  -- ga-"
+                    "sahitya": "Vat san-- - -  ga    Ni- -  shta-ran-  -- ga- ||"
                 },
                 {
                     "swara": "pdnd  pm gd pm gr || sd pm  gr - rs  nd N  ||",
-                    "sahitya": "Ko ri-na- Va- ra  Mo-sa- gu  mai- - - yya"
+                    "sahitya": "Ko ri-na- Va- ra  Mo-sa- gu  mai- - - yya ||"
                 },
                 {
                     "swara": "s r g m    P - mp    dn S  || dn Srs   nd - nsrs   n d p m  ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - -     ni - -  - -  - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - -     ni - -  - -  - - - ||"
                 },
                 {
                     "swara": "P ;  pm gm dmG- r S  || S S  S - rs  nd N  ||",
-                    "sahitya": "Ko ri-na-  -- - - Vara Mosa gu  mai- - - yya"
+                    "sahitya": "Ko ri-na-  -- - - Vara Mosa gu  mai- - - yya ||"
                 },
                 {
                     "swara": "sr G R - gm  N - D  || P ;  ; P  ;  ;   ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - - ||"
                 },
                 {
                     "swara": "; gm  , P ,  ;  P   || mp D  D - pd  nd N  ||",
-                    "sahitya": "Sari vaa -  ri     lo-  -  na  Na-   - - nnu"
+                    "sahitya": "Sari vaa -  ri     lo-  -  na  Na-   - - nnu ||"
                 },
                 {
                     "swara": "dn S  S - r s  nd  P  ||  pd pm gr  - S  ,  r s r  || gm",
-                    "sahitya": "Chou-  ka  Se-  - -  ya   Va- la-  du-  Nee - du - -     - -"
+                    "sahitya": "Chou-  ka  Se-  - -  ya   Va- la-  du-  Nee - du - -     - - ||"
                 },
                 {
                     "swara": "; d   n  S - ss nd N  || D P N D  N S  ||",
-                    "sahitya": "Maru pu  Jo - chi   Yun- -  naa-  nu -"
+                    "sahitya": "Maru pu  Jo - chi   Yun- -  naa-  nu - ||"
                 },
                 {
                     "swara": "; s  r  , g   M  pm gr || gm P  mp D  P pp ||",
-                    "sahitya": "Ma-        na mu   tho - - -   Kaa--  paa- -  -  dunu"
+                    "sahitya": "Ma-        na mu   tho - - -   Kaa--  paa- -  -  dunu ||"
                 },
                 {
                     "swara": "; p d  , n D  P ;  || P D  dn S  ; S ||",
-                    "sahitya": "Pari chara  Vaa   nara  Sa mu - ha"
+                    "sahitya": "Pari chara  Vaa   nara  Sa mu - ha ||"
                 },
                 {
                     "swara": "s r g r  sn - rs  nd N  || sr G  R - rm  , g G ||",
-                    "sahitya": "Pa- - -  pa-  ha-  ra- na   Va- -  ri    va-   - -  ha"
+                    "sahitya": "Pa- - -  pa-  ha-  ra- na   Va- -  ri    va-   - -  ha ||"
                 },
                 {
                     "swara": "; gm  , G ,  R    S  || S S  S - rs  nd N  ||",
-                    "sahitya": "Kari - Ra kshaka    Va ra da Ven-  - - ka"
+                    "sahitya": "Kari - Ra kshaka    Va ra da Ven-  - - ka ||"
                 },
                 {
                     "swara": "dn S  N -    r s     nd N  || rs nd  sndp  nd pm  ||",
-                    "sahitya": "te- -  shwa ra-     - -  -     nu- - -  ra-- -  Ni-nnu-"
+                    "sahitya": "te- -  shwa ra-     - -  -     nu- - -  ra-- -  Ni-nnu- ||"
                 },
                 {
                     "swara": "pdnd  pm gd pm gr || sd pm  gr - rs  nd N  ||",
-                    "sahitya": "Ko ri-na- Va- ra  Mo-sa- gu  mai- - - yya"
+                    "sahitya": "Ko ri-na- Va- ra  Mo-sa- gu  mai- - - yya ||"
                 },
                 {
                     "swara": "s r g m    P - mp    dn S  || dn Srs   nd - nsrs   n d p m  ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - -     ni - -  - -  - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - -     ni - -  - -  - - - ||"
                 },
                 {
                     "swara": "P ;  pm gm dmG- r S || S S  S - rs  nd N  ||",
-                    "sahitya": "Ko ri-na-  -- - - Vara Mosa gu  mai- - - yya"
+                    "sahitya": "Ko ri-na-  -- - - Vara Mosa gu  mai- - - yya ||"
                 },
                 {
                     "swara": "sr G R - gm  N - D  || P ;  ; P  ;  ;   ||",
-                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - -"
+                    "sahitya": "Ko-    -    dan-   -    da   paa-  - ni -  - - - - ||"
                 }
             ]
         }

@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 M1 P D2 P S ||",
         "avarohanam": "S N3 P M1 R2 G3 M1 R2 S ||",
         "tala": "Adi",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,71 +14,71 @@
             "content": [
                 {
                     "swara": "P,r     sn  P     pm R    G -  M  | pmgm    R - sn    |  P - rs      R ;  ||",
-                    "sahitya": "shrI   ran ga   na - -    tham u              pA - -    sma hE      -    ni -    tyam"
+                    "sahitya": "shrI   ran ga   na - -    tham u              pA - -    sma hE      -    ni -    tyam ||"
                 },
                 {
                     "swara": "pdpr     sn  P     pm R    G -  M  | pmgm    R - sn    |  P - rs      R ;  ||",
-                    "sahitya": "shrI      ran ga   na - -    tham u           pA - -    sma hE      -    ni -    tyam"
+                    "sahitya": "shrI      ran ga   na - -    tham u           pA - -    sma hE      -    ni -    tyam ||"
                 },
                 {
                     "swara": "pdpr     sn  P     pm R    G -  M  | pmgm    R - Srs    |  np - rs      R ;  ||",
-                    "sahitya": "shrI      ran ga   na - -    tham u           pA - -    sma hE        -      ni   tyam"
+                    "sahitya": "shrI      ran ga   na - -    tham u           pA - -    sma hE        -      ni   tyam ||"
                 },
                 {
                     "swara": "gmpm   gm P    mpdp     , s S  | ; gm      r s    n p     | pm gm      gr gm     ||",
-                    "sahitya": "sI- - -    tA- -    val - -     - labham        shrI-   shan-kara    guruguha  vE-dyam"
+                    "sahitya": "sI- - -    tA- -    val - -     - labham        shrI-   shan-kara    guruguha  vE-dyam ||"
                 },
                 {
                     "swara": "pdpr     sn  P     Pdp Mpm  R - M    |  pmgm    R - Srs    |  np - rs      R ;  ||",
-                    "sahitya": "shrI      ran ga   na - -    -   tham u       pA - -    sma hE        -      ni   tyam"
+                    "sahitya": "shrI      ran ga   na - -    -   tham u       pA - -    sma hE        -      ni   tyam ||"
                 },
                 {
                     "swara": "gmpm   gm P    mpdp     , s R  | ; gm      r s    n p     | pm gm      gr gm     ||",
-                    "sahitya": "sI- - -    tA- -    val - -     - labham        shrI-   shan-kara    guruguha  vE-dyam"
+                    "sahitya": "sI- - -    tA- -    val - -     - labham        shrI-   shan-kara    guruguha  vE-dyam ||"
                 },
                 {
                     "swara": "pdpr     sn  P     Pdp Mpm  R - gm    |  pmgm    R - Srs    |  np - rs      R ;  ||",
-                    "sahitya": "shrI      ran ga   na - -    -   tham u       pA - -    sma hE        -      ni   tyam"
+                    "sahitya": "shrI      ran ga   na - -    -   tham u       pA - -    sma hE        -      ni   tyam ||"
                 },
                 {
                     "swara": "gmpm   gm P    mpdp     S  R  | ; gm      r s    n p     | pm gm      gr gm     ||",
-                    "sahitya": "sI- - -    tA- -    val - -     la  bham        shrI-   shan-kara    guruguha  vE-dyam"
+                    "sahitya": "sI- - -    tA- -    val - -     la  bham        shrI-   shan-kara    guruguha  vE-dyam ||"
                 },
                 {
                     "swara": "P,r     sn  P     pm R    G -  M  | pmgm    R - sn    |  P - rs      R ;  ||",
-                    "sahitya": "shrI   ran ga   na - -    tham u              pA - -    sma hE      -    ni -    tyam"
+                    "sahitya": "shrI   ran ga   na - -    tham u              pA - -    sma hE      -    ni -    tyam ||"
                 },
                 {
                     "swara": "; ;       S ;         ;  ;  ;  ;  |   ; ;  ; ;  |    ; ;  ; ;  ||",
-                    "sahitya": "- -       - -          -  -             -   -              - -        - -               - -     -  -"
+                    "sahitya": "- -       - -          -  -             -   -              - -        - -               - -     -  - ||"
                 },
                 {
                     "swara": "P ;      P - P        D P       S R     |  ; sr         , g M   |  R ;     S  ;  ||",
-                    "sahitya": "nA     ra    dA-      - di       nu ta              shyA        maLa   gA      tram"
+                    "sahitya": "nA     ra    dA-      - di       nu ta              shyA        maLa   gA      tram ||"
                 },
                 {
                     "swara": "snpm  R - gm       pd dp       S R     |  ; sr         , g   M  |     R ;    S  ;  ||",
-                    "sahitya": "nA     ra    dA-      - -  di       nu ta            shyA      ma La      gA      tram"
+                    "sahitya": "nA     ra    dA-      - -  di       nu ta            shyA      ma La      gA      tram ||"
                 },
                 {
                     "swara": "snpm  R - gm       pd dp       S S     |  sr gm        pm gm  |     R ;    S  ;  ||",
-                    "sahitya": "nA     ra    dA-      - -  di       nu ta          shyA --     ma  La      gA      tram"
+                    "sahitya": "nA     ra    dA-      - -  di       nu ta          shyA --     ma  La      gA      tram ||"
                 },
                 {
                     "swara": "G ,m   R - sr        sn - P      pm R        |  gm p r        sn P     | pm gm    R ;  ||",
-                    "sahitya": "Ni -    ra    jA        -     ri     mA- r          tAN- -       Da su-     nE - -     tram"
+                    "sahitya": "Ni -    ra    jA        -     ri     mA- r          tAN- -       Da su-     nE - -     tram ||"
                 },
                 {
                     "swara": "GpmM;   R - Srs       sn - P      pm R        |  gm p r        sn pn     | pm gm    R S ||",
-                    "sahitya": "Ni -    -   ra    jA         -     ri     mA- r           tAN- -        Da su-     nE - -     tram"
+                    "sahitya": "Ni -    -   ra    jA         -     ri     mA- r           tAN- -        Da su-     nE - -     tram ||"
                 },
                 {
                     "swara": "S   s s     S - s  s        S ,  s       s s S      |  ;  ;              ; sn      | pm gm     R S  ||",
-                    "sahitya": "dhIrata  ram shara    cA  pa  dharaNam    -  -            -  - -        - -  - -      -  -"
+                    "sahitya": "dhIrata  ram shara    cA  pa  dharaNam    -  -            -  - -        - -  - -      -  - ||"
                 },
                 {
                     "swara": "S   s s     S - s  s        S ,  s       s s S      |  G m- r      , r - S   |   n P  m      g m R     ||",
-                    "sahitya": "dhIrata  ram shara    cA  pa  dharaNam  dEva rA     ja   pU    ji tAbja    caraNam"
+                    "sahitya": "dhIrata  ram shara    cA  pa  dharaNam  dEva rA     ja   pU    ji tAbja    caraNam ||"
                 },
                 {
                     "swara": "R gm     r s n p       , p -    rs     R - gm   |  r p m - g    m - r g m |  p d p s         S  ;      ||",
@@ -89,19 +90,19 @@
                 },
                 {
                     "swara": "pdpr     sn  P     Pdp Mpm  R - gm    |  pmgm    R - Srs    |  np - rs      R ;  ||",
-                    "sahitya": "shrI      ran ga   na - -    -   tham u       pA - -    sma hE        -      ni   tyam"
+                    "sahitya": "shrI      ran ga   na - -    -   tham u       pA - -    sma hE        -      ni   tyam ||"
                 },
                 {
                     "swara": "gmpm   gm P    mpdp     S  R  | ; gm      r s    n p     | pm gm      gr gm     ||",
-                    "sahitya": "sI- - -    tA- -    val - -     la  bham        shrI-   shan-kara    guruguha  vE-dyam"
+                    "sahitya": "sI- - -    tA- -    val - -     la  bham        shrI-   shan-kara    guruguha  vE-dyam ||"
                 },
                 {
                     "swara": "P,r     sn  P     pm R    G -  M  | pmgm    R - sn    |  P - rs      R ;  ||",
-                    "sahitya": "shrI   ran ga   na - -    tham u              pA - -    sma hE      -    ni -    tyam"
+                    "sahitya": "shrI   ran ga   na - -    tham u              pA - -    sma hE      -    ni -    tyam ||"
                 },
                 {
                     "swara": "; ;       ; gm       R  ;  S ;  |   ; ;  ; ;  |    ; ;  ; ;  ||",
-                    "sahitya": "- -       - -          -  -             -   -              - -        - -               - -     -  -"
+                    "sahitya": "- -       - -          -  -             -   -              - -        - -               - -     -  - ||"
                 }
             ]
         }

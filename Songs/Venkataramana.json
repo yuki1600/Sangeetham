@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 M2 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M2 G3 R2 S ||",
         "tala": "Rupakam",
-        "composer": "Papanasam Sivan"
+        "composer": "Papanasam Sivan",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,39 +14,39 @@
             "content": [
                 {
                     "swara": "P , m  M gr  , g M  || P ;   ; ;  ; ;  ||",
-                    "sahitya": "Ven-  ka-ta-   rama   na"
+                    "sahitya": "Ven-  ka-ta-   rama   na ||"
                 },
                 {
                     "swara": "P , m  Mgr  , g M  || P ;   ; pm gr gm   ||",
-                    "sahitya": "Ven-  ka-ta-   rama   na  - --  - - - -"
+                    "sahitya": "Ven-  ka-ta-   rama   na  - --  - - - - ||"
                 },
                 {
                     "swara": "P , m  Mgr  , g M  || P ;   ; nd pm gm   ||",
-                    "sahitya": "Ven-  ka-ta-   rama   na  - --  - - - -"
+                    "sahitya": "Ven-  ka-ta-   rama   na  - --  - - - - ||"
                 },
                 {
                     "swara": "P , m  Mgr  , g M  || P ;   ndpm D D    ||",
-                    "sahitya": "Ven-  ka-ta-   rama   na  Un --- Thiru"
+                    "sahitya": "Ven-  ka-ta-   rama   na  Un --- Thiru ||"
                 },
                 {
                     "swara": ", d R  S ;  sn D  || D sn  , d pm  grgm ||",
-                    "sahitya": "vila yaa da-lai   Yaar--  A ri - var- - -"
+                    "sahitya": "vila yaa da-lai   Yaar--  A ri - var- - - ||"
                 },
                 {
                     "swara": "P , m  Mgr  , g nd  || dP ,   ndpm pdN     ||",
-                    "sahitya": "Ven-  ka-ta-   rama   na  Un --- Thiru"
+                    "sahitya": "Ven-  ka-ta-   rama   na  Un --- Thiru ||"
                 },
                 {
                     "swara": "sr Gmg  rsnd ;   P D  || grsn  dn Srs  n -dpm ||",
-                    "sahitya": "vi- la yaa da-lai   Yaar--  A ri - -  var- - -"
+                    "sahitya": "vi- la yaa da-lai   Yaar--  A ri - -  var- - - ||"
                 },
                 {
                     "swara": "pd N  pmgr , g nd  || D ;    ndpm pdN     ||",
-                    "sahitya": "Ven-  ka-ta-   rama   na  Un --- Thiru"
+                    "sahitya": "Ven-  ka-ta-   rama   na  Un --- Thiru ||"
                 },
                 {
                     "swara": "sr Gmg  rsnd ;   P D  || grsn  dn Srs  n -dpm ||",
-                    "sahitya": "vi- la yaa da-lai   Yaar--  A ri - -  var- - -"
+                    "sahitya": "vi- la yaa da-lai   Yaar--  A ri - -  var- - - ||"
                 }
             ]
         },
@@ -54,23 +55,23 @@
             "content": [
                 {
                     "swara": "sn D  dn - S  ;  R  || G R  S ;  ; ;  ||",
-                    "sahitya": "Shan- ka-  Cha -  kra   Dhaa-  ri -  - -"
+                    "sahitya": "Shan- ka-  Cha -  kra   Dhaa-  ri -  - - ||"
                 },
                 {
                     "swara": "Srs nd  dn - S  ;  R  || G R  S ;  srgr  ||",
-                    "sahitya": "Shan- ka-  Cha -  kra   Dhaa-  ri -  sri - -"
+                    "sahitya": "Shan- ka-  Cha -  kra   Dhaa-  ri -  sri - - ||"
                 },
                 {
                     "swara": "sn D dn - s r  ,  s - R  || gmgr  S ;  SRsrgr  ||",
-                    "sahitya": "Shan- ka-  Cha -  -   kra   Dhaa-  ri -  sri - -"
+                    "sahitya": "Shan- ka-  Cha -  -   kra   Dhaa-  ri -  sri - - ||"
                 },
                 {
                     "swara": "sn D dn - s r  ,  s - R  || gmpm gr- S   ; ;  ||",
-                    "sahitya": "Shan- ka-  Cha -  -   kra   Dhaa-  ri -  - -"
+                    "sahitya": "Shan- ka-  Cha -  -   kra   Dhaa-  ri -  - - ||"
                 },
                 {
                     "swara": "S S  snD  p d N   || rsnd ndpm  grgm ||",
-                    "sahitya": "Shara na-dai ndhen-  Pi-zhai  Po-ru- tha-rul-"
+                    "sahitya": "Shara na-dai ndhen-  Pi-zhai  Po-ru- tha-rul- ||"
                 }
             ]
         },
@@ -79,35 +80,35 @@
             "content": [
                 {
                     "swara": "; p d  , P ,  P ;  || P P  mdpm gr G  ||",
-                    "sahitya": "Alar mel  Man gaima naa --- laa - -"
+                    "sahitya": "Alar mel  Man gaima naa --- laa - - ||"
                 },
                 {
                     "swara": "; pm  G R  pmgr || sr -gm  Pdn  dp P  ||",
-                    "sahitya": "Am-  buja na-- -  bha- Da- yaa-- laa—"
+                    "sahitya": "Am-  buja na-- -  bha- Da- yaa-- laa— ||"
                 },
                 {
                     "swara": "D- p d  , P ,  dn r n  || D P  mdpm gr G  ||",
-                    "sahitya": "Alar mel  Man gaima naa --- laa - -"
+                    "sahitya": "Alar mel  Man gaima naa --- laa - - ||"
                 },
                 {
                     "swara": "; pm  G R  pmgr || sr -gm  Pdn  dp P  ||",
-                    "sahitya": "Am-  buja na-- -  bha- Da- yaa-- laa—"
+                    "sahitya": "Am-  buja na-- -  bha- Da- yaa-- laa— ||"
                 },
                 {
                     "swara": "; nd  , N ,  , r R  || , g R  Srg  rs S ||",
-                    "sahitya": "Mana rthaal  Maran   thiru maa-- the-l"
+                    "sahitya": "Mana rthaal  Maran   thiru maa-- the-l ||"
                 },
                 {
                     "swara": "sr snD  N ;   R R  || SR  gmgr S ;  ||",
-                    "sahitya": "Mana rthaal  Maran   thiru maa-- the-l"
+                    "sahitya": "Mana rthaal  Maran   thiru maa-- the-l ||"
                 },
                 {
                     "swara": "sr sSd  N ;   R R  || SR  gmgr gr - S  ||",
-                    "sahitya": "Mana rthaal  Maran   thiru maa-- --  the-l"
+                    "sahitya": "Mana rthaal  Maran   thiru maa-- --  the-l ||"
                 },
                 {
                     "swara": "S ;  N D  D ;  || rsn- d pm - g r   , g M  ||",
-                    "sahitya": "Ma nni- thu  kon—darul-  Tiru- pathi"
+                    "sahitya": "Ma nni- thu  kon—darul-  Tiru- pathi ||"
                 }
             ]
         }

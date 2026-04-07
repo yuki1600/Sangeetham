@@ -5,7 +5,8 @@
         "arohanam": "S R M P D S || AVA: S N D P M G R S ||",
         "avarohanam": "S R M P D S || AVA: S N D P M G R S ||",
         "tala": "Rupakam",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,51 +14,51 @@
             "content": [
                 {
                     "swara": "1. ; G  R ;      S ; sn D  D ;  ;  D  || S ; ; ;    ; ; ; ;  ; ; ; ;  ||",
-                    "sahitya": "Ka ri       Ka la- -  bha- -Mu  kham--   - - - -  - - - -"
+                    "sahitya": "Ka ri       Ka la- -  bha- -Mu  kham--   - - - -  - - - - ||"
                 },
                 {
                     "swara": "2. G S  R ;      S rg rsnd ;   D ;  ;  D  || S ; ; ;    P D rsnp    D ; ; D  ||",
-                    "sahitya": "Ka - ri  -      Ka la- -  bha- -Mu  kham--   Dhun- - -   dhi-- Ga"
+                    "sahitya": "Ka - ri  -      Ka la- -  bha- -Mu  kham--   Dhun- - -   dhi-- Ga ||"
                 },
                 {
                     "swara": "Pdn Pdm    DP D ;  N D M P  ||",
-                    "sahitya": "ne- - - - -    sham - -   -  -   -  -"
+                    "sahitya": "ne- - - - -    sham - -   -  -   -  - ||"
                 },
                 {
                     "swara": "3. D- G R ;     dsrg rsnp   D ;  ;  D  || S ,r GR  Srg rsnp    D ; ; D  ||",
-                    "sahitya": "-    Kari -    Ka-- la- -  bha- -Mu  kham--   Dhun- - -   dhi-- Ga"
+                    "sahitya": "-    Kari -    Ka-- la- -  bha- -Mu  kham--   Dhun- - -   dhi-- Ga ||"
                 },
                 {
                     "swara": "pdnd ndpm    DP D ;  ; mpd- dpm  ||  Gmg GR     R ; ; dd pm - d P -D ,   ||",
-                    "sahitya": "ne- - - - -  -    sham - -   -Bha-  ja- -      Re - -          Re --- -    - -   Chi-  tta-"
+                    "sahitya": "ne- - - - -  -    sham - -   -Bha-  ja- -      Re - -          Re --- -    - -   Chi-  tta- ||"
                 },
                 {
                     "swara": "D R S ;    snD dsn-d     M- D   S ;    ||  S ;  R M       P ;  pmn- d    pm - d P - D ,  ||",
-                    "sahitya": "Ka-  ve-   ri -- Tha- ta   - -  sthi tham    Sa ve  -        ri - Raa- ga  -  -    nu-   tham-"
+                    "sahitya": "Ka-  ve-   ri -- Tha- ta   - -  sthi tham    Sa ve  -        ri - Raa- ga  -  -    nu-   tham- ||"
                 },
                 {
                     "swara": "4. dggs R ;     dsrg rsnp ;   PD  ;  D  || S ,r pmMGR   Srg rsnp ;   D ; ; D  ||",
-                    "sahitya": "Ka--  ri -    Ka-- la- -  bha- -Mu  kham--   -  - -   Dhun- - -   dhi-- Ga"
+                    "sahitya": "Ka--  ri -    Ka-- la- -  bha- -Mu  kham--   -  - -   Dhun- - -   dhi-- Ga ||"
                 },
                 {
                     "swara": "pdnd ndpm    DP D ;  ; mp dS n- dpM ,  ||  R ; ; ;     R ; ; dd       pm - d P -D ,   ||",
-                    "sahitya": "ne- - - - -  -    sham - -   -Bha- - -     ja- -      Re - -    Re --- -         - -   Chi-  tta-"
+                    "sahitya": "ne- - - - -  -    sham - -   -Bha- - -     ja- -      Re - -    Re --- -         - -   Chi-  tta- ||"
                 },
                 {
                     "swara": "D R S ,r    snD drsn ,-d     M- D   S ;    ||  S ;  R M       P ;  p dn- d  pm - d P - D ,  ||",
-                    "sahitya": "Ka-  ve-   ri -- Tha- - ta   - -  sthi tham    Sa ve  -        ri - Raa-- ga  -  -    nu-   tham-"
+                    "sahitya": "Ka-  ve-   ri -- Tha- - ta   - -  sthi tham    Sa ve  -        ri - Raa-- ga  -  -    nu-   tham- ||"
                 },
                 {
                     "swara": "5. dggs R ;     dsrg rsnp ;   PD  ;  D  || S rg rpmmGR   Srg rsnp ;   D ; ; D  ||",
-                    "sahitya": "Ka--  ri -    Ka-- la- -  bha- -Mu  kham--   -  - -     Dhun- - -   dhi-- Ga"
+                    "sahitya": "Ka--  ri -    Ka-- la- -  bha- -Mu  kham--   -  - -     Dhun- - -   dhi-- Ga ||"
                 },
                 {
                     "swara": "pdnd ndpm    DP D ;  ; mp dS n- dpM ,  ||  R ; ; ;     R ; S dd       pm - d P -D ,   ||",
-                    "sahitya": "ne- - - - -  -    sham - -   -Bha- - -     ja- -      Re - -    Re --- -         - -   Chi-  tta-"
+                    "sahitya": "ne- - - - -  -    sham - -   -Bha- - -     ja- -      Re - -    Re --- -         - -   Chi-  tta- ||"
                 },
                 {
                     "swara": "D R S ,r    snD drsn ,-d     M- D   S ;    ||  S ;  R M       P ;  p dn- d  pm - d P - D ,  ||",
-                    "sahitya": "Ka-  ve-   ri -- Tha- - ta   - -  sthi tham    Sa ve  -        ri - Raa-- ga  -  -    nu-   tham-"
+                    "sahitya": "Ka-  ve-   ri -- Tha- - ta   - -  sthi tham    Sa ve  -        ri - Raa-- ga  -  -    nu-   tham- ||"
                 }
             ]
         },
@@ -66,35 +67,35 @@
             "content": [
                 {
                     "swara": "; S R ;  ; pm P ;     ; ; P ;  || ; P  P , dn   Pdm P , m     mpdp    D ;    ||",
-                    "sahitya": "Hari-    - ha- yaa-  - - di-     - Saka- -     la- -  de- - -    - - - -    va -"
+                    "sahitya": "Hari-    - ha- yaa-  - - di-     - Saka- -     la- -  de- - -    - - - -    va - ||"
                 },
                 {
                     "swara": "pmps R ;   ; pm P ;       ; ; P ;  || ; P  P , dn   Pdm P , m     mpdp    D ;    ||",
-                    "sahitya": "Ha- -  ri-    - ha- yaa-  - - di-     - Saka- -     la- -  de- - -    - - - -    va -"
+                    "sahitya": "Ha- -  ri-    - ha- yaa-  - - di-     - Saka- -     la- -  de- - -    - - - -    va - ||"
                 },
                 {
                     "swara": "pmM S R ;   ; pm P ;       ; ; P ;  || ; P  P dn     Pdm P , m     mpdp    D ;    ||",
-                    "sahitya": "Ha- -  - ri-    - ha- yaa-  - - di-     - Sa ka- -      la- -  de- - -    - - - -    va -"
+                    "sahitya": "Ha- -  - ri-    - ha- yaa-  - - di-     - Sa ka- -      la- -  de- - -    - - - -    va - ||"
                 },
                 {
                     "swara": "DS ; ;  snrs  nD ,       D ;  P ;   ||  D ; P ;  D ; dsrs        S R ; ;  ||",
-                    "sahitya": "Aa- -  raa-  - - -        dhi- ta -     Pa- daam   -  - bu- -        jam- - -"
+                    "sahitya": "Aa- -  raa-  - - -        dhi- ta -     Pa- daam   -  - bu- -        jam- - - ||"
                 },
                 {
                     "swara": "S ;  R ;    ; pm P ;       ; ; P ;    || ; P  P dn       Pdm P , m     mpdp    D ;    ||",
-                    "sahitya": "Ha- ri-    - ha- yaa-    - - di-      - Sa ka- -      la- -  de- - -    - - - -    va -"
+                    "sahitya": "Ha- ri-    - ha- yaa-    - - di-      - Sa ka- -      la- -  de- - -    - - - -    va - ||"
                 },
                 {
                     "swara": "dmD S ; ;   snrs  nD ,       D ;  P ;   ||  D ; P ;     D ; dsrs          S R ; ;  ||",
-                    "sahitya": "Aa- - -  - -  raa-  - - -        dhi- ta -     Pa- daam   -  - bu- -        jam- - -"
+                    "sahitya": "Aa- - -  - -  raa-  - - -        dhi- ta -     Pa- daam   -  - bu- -        jam- - - ||"
                 },
                 {
                     "swara": "G R S ;    N P D ;      dr sn D - M ||  P D S ;  ; ; ; ;  ; ; ; ;  ||",
-                    "sahitya": "Giri jaa   Tanujam-    Vi-ji-tha Ma   nasi jam - - - -  - - - -"
+                    "sahitya": "Giri jaa   Tanujam-    Vi-ji-tha Ma   nasi jam - - - -  - - - - ||"
                 },
                 {
                     "swara": "G R S ;    N P D ;      dr sn D - M ||  P D S ;   rp pm  dP- d   ;  drs- R ,    ||",
-                    "sahitya": "Giri jaa   Tanujam-    Vi-ji-tha Ma   nasi jam Gu-ru- gu-  haa- gra- jam    (Kari Kalabha)"
+                    "sahitya": "Giri jaa   Tanujam-    Vi-ji-tha Ma   nasi jam Gu-ru- gu-  haa- gra- jam    (Kari Kalabha) ||"
                 }
             ]
         },
@@ -103,51 +104,51 @@
             "content": [
                 {
                     "swara": "; ; M ;  M ;  P ;     mpD P ;      || Pdn Pdm     mpdp D ;      P,d N D ||",
-                    "sahitya": "Moo-   laa- dhaa   - - -   ra -       Cha-tur- -   dda- -  la -     Pan -  -"
+                    "sahitya": "Moo-   laa- dhaa   - - -   ra -       Cha-tur- -   dda- -  la -     Pan -  - ||"
                 },
                 {
                     "swara": "P,d dpdm    ; d M D ,     S ; ; ;     ||",
-                    "sahitya": "ka- ja - - -      Ma- dhya  stham--"
+                    "sahitya": "ka- ja - - -      Ma- dhya  stham-- ||"
                 },
                 {
                     "swara": "P ; ; ,m mpdp D ;    ; D , g R  || rs S ;   pd        S ;  Srg    rsnp ;  pmpm   ||",
-                    "sahitya": "Mo-  -    da- - - ka -   - ha- -  -     stham-Mu-     ni-  ja- -   na- - - Hrut - -"
+                    "sahitya": "Mo-  -    da- - - ka -   - ha- -  -     stham-Mu-     ni-  ja- -   na- - - Hrut - - ||"
                 },
                 {
                     "swara": "Pdn DM     mgR  G R      S ; ; ;  ||",
-                    "sahitya": "Ka- ma--    la- -    -   -       stham--"
+                    "sahitya": "Ka- ma--    la- -    -   -       stham-- ||"
                 },
                 {
                     "swara": "M ;     M ;  mpD dpM     G ; R - S,d  || dpM G ;      ; R- G R    GR S ;  ||",
-                    "sahitya": "Phaa la -    chan-  - - -     dram-   Su-    mu- -kham  - -    Ka-     ru- naa"
+                    "sahitya": "Phaa la -    chan-  - - -     dram-   Su-    mu- -kham  - -    Ka-     ru- naa ||"
                 },
                 {
                     "swara": "; rg  rsnp    D gr   rsS  ; ; ; ;  ||",
-                    "sahitya": "- -   saa-      - - -  ndram - - - -"
+                    "sahitya": "- -   saa-      - - -  ndram - - - - ||"
                 },
                 {
                     "swara": "; ;  pdpd    S ; ; ,m       D ;  P ;  || mpdp D ;       dPd N D  P ;  Pdn   ||",
-                    "sahitya": "- -  Paa-    shaan-        ku- - sha    Dha- - ram-    Pa-  -   -     dma ka--"
+                    "sahitya": "- -  Paa-    shaan-        ku- - sha    Dha- - ram-    Pa-  -   -     dma ka-- ||"
                 },
                 {
                     "swara": "Pdm-  mpdp    D ; - D gr   rs S ; ;  ||",
-                    "sahitya": "ram- - Sun- -   -   -   da- -  ram-   - -"
+                    "sahitya": "ram- - Sun- -   -   -   da- -  ram-   - - ||"
                 },
                 {
                     "swara": "sn P D ;     G R  S -  N     dMd S ;  || ; ; ; ;  ; ; ; ;  ; ; ; ;  ||",
-                    "sahitya": "Nee- la -    gri- va    Ku    maa- ram    - - - -  - - - -  - - - -"
+                    "sahitya": "Nee- la -    gri- va    Ku    maa- ram    - - - -  - - - -  - - - - ||"
                 },
                 {
                     "swara": "sn P D ;     G R  S -  N     dMd S ;  || D R S N - D M  mgR     G R S ;   ||",
-                    "sahitya": "Nee- la -    gri- va    Ku    maa- ram   Nee-radha Sho- baa--     haa-ram-"
+                    "sahitya": "Nee- la -    gri- va    Ku    maa- ram   Nee-radha Sho- baa--     haa-ram- ||"
                 },
                 {
                     "swara": "S,r   P M   P dn dP, dM,   mpdp   D  , - d   ||  S ; S rg    rsnp ; D;     dsrs  R ;    ||",
-                    "sahitya": "Paa-litha   Bha--ktham--   Dhee- ram-   a     paa-ram-   Vaa-- ram  Vaa- ram"
+                    "sahitya": "Paa-litha   Bha--ktham--   Dhee- ram-   a     paa-ram-   Vaa-- ram  Vaa- ram ||"
                 },
                 {
                     "swara": "S,r   P M   P dn dP, dM,   mpdp   D  , - d   ||  GR R ;   S rg    rsnp ; dsrs  R ;    ||",
-                    "sahitya": "Paa-litha   Bha--ktham--   Dhee- ram-   a     paa-ram-   Vaa-- ram -  Vaa- ram   (Kari Kalabha)"
+                    "sahitya": "Paa-litha   Bha--ktham--   Dhee- ram-   a     paa-ram-   Vaa-- ram -  Vaa- ram   (Kari Kalabha) ||"
                 }
             ]
         }

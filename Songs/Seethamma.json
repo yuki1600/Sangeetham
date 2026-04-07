@@ -5,7 +5,8 @@
         "arohanam": "S M1 G3 M1 D2 N3 S ||",
         "avarohanam": "S N3 D2 M1 G3 R1 S ||",
         "tala": "Rupakam",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,31 +14,31 @@
             "content": [
                 {
                     "swara": "S ;   ;  M  ; M  || mM ,  ; mg  R rs ||",
-                    "sahitya": "See -  tham -  ma    Maa-  - yam- -  ma-"
+                    "sahitya": "See -  tham -  ma    Maa-  - yam- -  ma- ||"
                 },
                 {
                     "swara": "S ;   ;  M  ; M  || gm D M - mg  R rs ||",
-                    "sahitya": "See -  tham -  ma    Maa-  -    yam- -  ma-"
+                    "sahitya": "See -  tham -  ma    Maa-  -    yam- -  ma- ||"
                 },
                 {
                     "swara": "S ;   ;  M  ; M  || gm dn sn- dm  M M  ||",
-                    "sahitya": "See -  tham -  ma    Maa-  -    yam- -  ma-"
+                    "sahitya": "See -  tham -  ma    Maa-  -    yam- -  ma- ||"
                 },
                 {
                     "swara": "; S  S ;  S S  || D ;  M - gm  g - rs n  ||",
-                    "sahitya": "Sri  Raa mudu    Maa  ku   Tan- -   dri—"
+                    "sahitya": "Sri  Raa mudu    Maa  ku   Tan- -   dri— ||"
                 },
                 {
                     "swara": "sn gr sn  M  ; M  || gm dn Srs  nd M M  ||",
-                    "sahitya": "See - -  tham -  ma    Maa-  -    yam- -  ma-"
+                    "sahitya": "See - -  tham -  ma    Maa-  -    yam- -  ma- ||"
                 },
                 {
                     "swara": "; sn snsr sn    sr   || sndn dm - gm g - rs n  ||",
-                    "sahitya": "Sri  Raa mu-du-    Maa  -ku   Tan- -   dri—"
+                    "sahitya": "Sri  Raa mu-du-    Maa  -ku   Tan- -   dri— ||"
                 },
                 {
                     "swara": "; sn sngr sn    dr   || sndn dm - gm g - rs n  ||",
-                    "sahitya": "Sri  Raa mu-du-    Maa  -ku   Tan- -   dri—"
+                    "sahitya": "Sri  Raa mu-du-    Maa  -ku   Tan- -   dri— ||"
                 }
             ]
         },
@@ -46,39 +47,39 @@
             "content": [
                 {
                     "swara": "; dr  snD  mg M  || ; D  , N ,  S ;  ||",
-                    "sahitya": "Vaa taat- ma- ja      Sau   mi tri"
+                    "sahitya": "Vaa taat- ma- ja      Sau   mi tri ||"
                 },
                 {
                     "swara": "; dr  snD  mg M  || D ;   D N  S ;  ||",
-                    "sahitya": "Vaa taat- ma- ja    Sau  mi- tri"
+                    "sahitya": "Vaa taat- ma- ja    Sau  mi- tri ||"
                 },
                 {
                     "swara": "; dr  snD  mg M  || ; D  snsr rsS   ||",
-                    "sahitya": "Vaa taat- ma- ja    Sau  mi- tri"
+                    "sahitya": "Vaa taat- ma- ja    Sau  mi- tri ||"
                 },
                 {
                     "swara": "; dr  Srs nd mg M  || ; D  snsr rsS   ||",
-                    "sahitya": "Vaa taat- - ma- ja    Sau  mi- tri"
+                    "sahitya": "Vaa taat- - ma- ja    Sau  mi- tri ||"
                 },
                 {
                     "swara": "; S  S  sn  gr sn  || D R sn D  dm gm  ||",
-                    "sahitya": "Vai na te- - - ya-   Ri pu mar-- dha-na-"
+                    "sahitya": "Vai na te- - - ya-   Ri pu mar-- dha-na- ||"
                 },
                 {
                     "swara": "dm- dr  Srs nd mg M  || D ;  snsr rsS   ||",
-                    "sahitya": "Vaa taat- - ma- ja    Sau  mi- tri"
+                    "sahitya": "Vaa taat- - ma- ja    Sau  mi- tri ||"
                 },
                 {
                     "swara": "; S  S  sn  gr sn  || D R sn D  mg M  ||",
-                    "sahitya": "Vai na te- - - ya-   Ri pu mar-- dha-na-"
+                    "sahitya": "Vai na te- - - ya-   Ri pu mar-- dha-na- ||"
                 },
                 {
                     "swara": "; M  M ;  mg M  || D ,n  S S  S ,n  ||",
-                    "sahitya": "Dhaa ta  -  Bha-ra    taa-  dulu  So"
+                    "sahitya": "Dhaa ta  -  Bha-ra    taa-  dulu  So ||"
                 },
                 {
                     "swara": "D   N  D - sn  D M  ||  gm dn    sn - dm    gr sn  ||",
-                    "sahitya": "dharu lu    Maa -   ku     O -- --    - -    Ma-  na-sa!-"
+                    "sahitya": "dharu lu    Maa -   ku     O -- --    - -    Ma-  na-sa!- ||"
                 }
             ]
         },
@@ -87,43 +88,43 @@
             "content": [
                 {
                     "swara": "; mm  , M ,  M - M  || M ;  mg - dm    G ;  ||",
-                    "sahitya": "Para - me- sha  Va    shi- shta- Pa-     raa-"
+                    "sahitya": "Para - me- sha  Va    shi- shta- Pa-     raa- ||"
                 },
                 {
                     "swara": ";  gm D N  S S  ||  D N  D M  mg -gr ||",
-                    "sahitya": "shara  Naa- radha     Sau- naka  Su-   ka-"
+                    "sahitya": "shara  Naa- radha     Sau- naka  Su-   ka- ||"
                 },
                 {
                     "swara": "sn- mm  , M ,  M - M || gm dn s n    dm -  G ;  ||",
-                    "sahitya": "Para - me- sha  Va    shi- shta- Pa-     raa-"
+                    "sahitya": "Para - me- sha  Va    shi- shta- Pa-     raa- ||"
                 },
                 {
                     "swara": ";  gm D N  S S  ||  D N  D M  M  mgR ||",
-                    "sahitya": "shara  Naa- radha     Sau- naka  Su-   ka-"
+                    "sahitya": "shara  Naa- radha     Sau- naka  Su-   ka- ||"
                 },
                 {
                     "swara": ";  s m  , g R  S ;  || S S  S ;  S ;  ||",
-                    "sahitya": "Sura -pati Gau   tama  Lam bo"
+                    "sahitya": "Sura -pati Gau   tama  Lam bo ||"
                 },
                 {
                     "swara": "S S  DN  D M  || mg dm   gr- R  S ;  ||",
-                    "sahitya": "dhara     Guha      Sana    kaa- - -  - -  du   lu -"
+                    "sahitya": "dhara     Guha      Sana    kaa- - -  - -  du   lu - ||"
                 },
                 {
                     "swara": "; dn  , d M  mg M  || dg M  D N  S ;  ||",
-                    "sahitya": "Dhara  -  Nija Bhaa--   ga -va taa -  Gre-"
+                    "sahitya": "Dhara  -  Nija Bhaa--   ga -va taa -  Gre- ||"
                 },
                 {
                     "swara": ", s  S   S S  sn rs || sndm  dn S  S S ||",
-                    "sahitya": "saru levva ro- - -    Va- - - rel- - la nu"
+                    "sahitya": "saru levva ro- - -    Va- - - rel- - la nu ||"
                 },
                 {
                     "swara": "; s s snsr  sr sn  || sn D  mm- gm   dn ss  ||",
-                    "sahitya": "Vara     Tya-- - - ga-     ra- -  ju-    ni-     - - ki"
+                    "sahitya": "Vara     Tya-- - - ga-     ra- -  ju-    ni-     - - ki ||"
                 },
                 {
                     "swara": "D N  D - sn  D M  || gm dn   sn   dm  gr sn  ||",
-                    "sahitya": "Para ma Baan - dha   vu- lu-  Ma- na- sa!- --"
+                    "sahitya": "Para ma Baan - dha   vu- lu-  Ma- na- sa!- -- ||"
                 }
             ]
         }

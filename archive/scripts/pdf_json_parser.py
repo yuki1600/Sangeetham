@@ -3,20 +3,55 @@ import json
 import re
 from pypdf import PdfReader
 
-# Map various spellings to standard section names
+# Map various spellings to standard section names. Order matters: longer
+# / more specific keys must come before their prefixes (e.g.
+# `muktayisvarasahityam` before `muktayiswaram`, `chittaswaram` before
+# `swaram`, `ettugadapallavi` before `pallavi`).
 SECTION_MAP = {
-    "pallavi": "Pallavi",
-    "anupallavi": "Anupallavi",
-    "charanam": "Charanam",
-    "caranam": "Charanam",
-    "chitteswaram": "Chitteswaram",
-    "chittaiswaram": "Chitteswaram",
-    "muktayiswaram": "Muktayi Swaram",
-    "ettugadapallavi": "Ettugada Pallavi",
-    "ettugadaswaram": "Ettugada Swaram",
-    "madhyamakalasahityam": "Madhyamakala Sahityam",
-    "swaram": "Charanam Swaram",
-    "sahityam": "Charanam Sahityam"
+    # Muktayi Svara Sahityam (the swara passage with attached sahityam after
+    # the anupallavi in a varnam) — multiple romanized spellings exist.
+    "muktayisvarasahityam":   "Muktayi Svara Sahityam",
+    "muktayisvarasahitya":    "Muktayi Svara Sahityam",
+    "mukthayisvarasahityam":  "Muktayi Svara Sahityam",
+    "mukthayisvarasahitya":   "Muktayi Svara Sahityam",
+    "muktayiswarasahityam":   "Muktayi Svara Sahityam",
+    "muktayiswarasahitya":    "Muktayi Svara Sahityam",
+    "muktayiswaram":          "Muktayi Swaram",
+    "muktayisvaram":          "Muktayi Svaram",
+
+    # Chitta swaram (the closing pure-swara passage of a kriti).
+    "chittasvaram":           "Chitta Svaram",
+    "chittaswaram":           "Chitta Svaram",
+    "chittaiswaram":          "Chitteswaram",
+    "chitteswaram":           "Chitteswaram",
+    "chittasvaras":           "Chitta Svaram",
+    "chittaswaras":           "Chitta Svaram",
+
+    # Ettugada (charanam-style alternating swara/sahityam passages, varnams).
+    "ettugadapallavi":        "Ettugada Pallavi",
+    "ettugadaswaram":         "Ettugada Swaram",
+    "ettugadasvaram":         "Ettugada Swaram",
+
+    # Madhyamakala (faster-tempo continuation of a kriti).
+    "madhyamakalasahityam":   "Madhyamakala Sahityam",
+    "madhyamakalaswaram":     "Madhyamakala Swaram",
+    "madhyamakalasvaram":     "Madhyamakala Swaram",
+
+    # Anupallavi (must come before Pallavi prefix matching).
+    "anupallavi":             "Anupallavi",
+
+    # Pallavi.
+    "pallavi":                "Pallavi",
+
+    # Charanam.
+    "charanam":               "Charanam",
+    "caranam":                "Charanam",
+
+    # Generic suffix matchers for free-floating "Swaram"/"Sahityam" labels.
+    "swaram":                 "Charanam Swaram",
+    "svaram":                 "Charanam Svaram",
+    "sahityam":               "Charanam Sahityam",
+    "sahitya":                "Charanam Sahityam",
 }
 
 def clean_for_match(s):

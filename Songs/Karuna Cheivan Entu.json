@@ -5,7 +5,8 @@
         "arohanam": "S R2 M1 P N2 S ||",
         "avarohanam": "S N2 P D2 N2 P M1 R2 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Irayimman Thampi"
+        "composer": "Irayimman Thampi",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,39 +14,39 @@
             "content": [
                 {
                     "swara": "; ;  N S    R ;  R  ;     R  ;  ;  ;      ; G   gr R  |  S ;  ; N    S - rG rS    ;  S N P    ; p n    n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   - tAa -   ma-sam  -  -  - -       Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   - tAa -   ma-sam  -  -  - -       Krish NA, ||"
                 },
                 {
                     "swara": "; ;  rn S    R ;  R  ;     R  ;  ;  ;      ; G   gr R  |  S ;  ; N    S - rG rS    ;  S N P    ; p n    n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   - tAa -   ma-sam  -  -  - -       Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   - tAa -   ma-sam  -  -  - -       Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S    R ;  R  ;     R  ;  ;  ;      ; rm   mPm |  rgrs ; N    S - rG rS    ;  S N P    ; P    n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   -  tAa -   ma-sam  -  -  - -       Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   -  tAa -   ma-sam  -  -  - -       Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S    R ;  R  ;     MP ;  M    R G   gr R  |  S ;  ; N    S - rG rS    ;  S N P    ; P    n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   -  tAa -   ma-sam  -  -  - -       Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      - en  du- -    - -   -  tAa -   ma-sam  -  -  - -       Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S    R ;  R  ;     rmpn S ;    Pdn P - mr  |  ggrs- N S    R , g -rS ,    S , n N P     ; P     n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S     R ;  S  ;     S ,s  rsnp     ; P  ,  P n  |  R ;  ;  ;        ;  ;    ; rm      mP  ;  ; pm   R G gR,   ||",
-                    "sahitya": "Kazha li -  nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  -"
+                    "sahitya": "Kazha li -  nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  - ||"
                 },
                 {
                     "swara": "S ;  N S    R ;  R  ;     rmpn S ;    Pdn P - mr  |  ggrs- N S    R , g -rS ,    S , n N P     ; P     n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA, ||"
                 },
                 {
                     "swara": "S ;  N S    R ;  R  ;     rmpn srgr  snpd  n-pmr   | rgrs- N S    R , g -rS ,    S , n N P     ; P     n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -      - -    tAa -    - -   ma-    sam  -   -    -Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -      - -    tAa -    - -   ma-    sam  -   -    -Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S     R,g  rS ,     S ,n  rsnp     ; P  ,  P n  |  R ;  ;  ;        ;  ;    ; rm      mP  ;  ; pm   R G gR,   ||",
-                    "sahitya": "Kazha li -   nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  -"
+                    "sahitya": "Kazha li -   nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  - ||"
                 },
                 {
                     "swara": "S ;   ;   ;      ;   ;   ;   ;    ;   ;   ;   ;         ;   ;   ;   ;       |  ;   ;   ;   ;    ;   ;   ;   ;        ;   ;   ;   ;   ;   ;   ;   ;  ||",
@@ -58,35 +59,35 @@
             "content": [
                 {
                     "swara": "; ;   P M     P ;  P,r     R ;   rmP     pm R-rggr  | S ;   R mr    R pm P ;     P ;   sn P     ; p n     S ;    ||",
-                    "sahitya": "Sha ra  NA  ga-   than  mAr-   kki- - shTa -  - -  va ra-   dA-- nam   cey   tu- -     cem-   mE-"
+                    "sahitya": "Sha ra  NA  ga-   than  mAr-   kki- - shTa -  - -  va ra-   dA-- nam   cey   tu- -     cem-   mE- ||"
                 },
                 {
                     "swara": "; ;   P M     P ;  P,r     R ;   rmP     pm R-rggr  | S ;   R mr    R pm P ;     P ;   sn P     ; p n     N S    ||",
-                    "sahitya": "Sha ra  NA  ga-   than  mAr-   kki- - shTa -  - -  va ra-   dA-- nam   cey   tu- -     cem-   mE-"
+                    "sahitya": "Sha ra  NA  ga-   than  mAr-   kki- - shTa -  - -  va ra-   dA-- nam   cey   tu- -     cem-   mE- ||"
                 },
                 {
                     "swara": "; ;   P M     P ;  P,r     Rmr  rmP    pm R-rggr  | S ;   R mr    R pm P ;     P ;   sn P     ; p n     N S    ||",
-                    "sahitya": "Sha ra  NA  ga-   than  mAr-   kki- - shTa -  - -  va ra-   dA-- nam   cey   tu- -     cem-   mE-"
+                    "sahitya": "Sha ra  NA  ga-   than  mAr-   kki- - shTa -  - -  va ra-   dA-- nam   cey   tu- -     cem-   mE- ||"
                 },
                 {
                     "swara": "; ;  GR    Rgr sR,  S ;    N R snP       ; pn  NS   |  ; ; GR   rg sR,   S ;    N R N P    P ,n  NS     ||",
-                    "sahitya": "Guru  vA-  - -   yur   pu - ram       - tan-nil-        Guru vA-  - - yur   pu - ram    tan-- nil"
+                    "sahitya": "Guru  vA-  - -   yur   pu - ram       - tan-nil-        Guru vA-  - - yur   pu - ram    tan-- nil ||"
                 },
                 {
                     "swara": "R M R - mr    P P -  P N   np - pnsn pm   R  G  grR | ; ; GR   rg sR,   S ;    N R N P    P ,n  NS     ||",
-                    "sahitya": "Maruvu  ma-  khila  duri   ta-   ha-ra-Na-  bhagawan-     Guru vA- - - yur   pu - ram    tan-- nil"
+                    "sahitya": "Maruvu  ma-  khila  duri   ta-   ha-ra-Na-  bhagawan-     Guru vA- - - yur   pu - ram    tan-- nil ||"
                 },
                 {
                     "swara": "R M R - mr    P P -  P N   np - pnsn pm   R  G  grR | ; ;  ; gr   sn pn  NS     ;  ;  ;  ;       ;  ;  ;   ;      ||",
-                    "sahitya": "Maruvu  ma-  khila  duri   ta-   ha-ra-Na-  bhagawan-  - -   -     - -  -    - -      - -  - -         - - -   -"
+                    "sahitya": "Maruvu  ma-  khila  duri   ta-   ha-ra-Na-  bhagawan-  - -   -     - -  -    - -      - -  - -         - - -   - ||"
                 },
                 {
                     "swara": "; ;  N S    R ;  R  ;     rmpn S ;    Pdn P - mr  |  ggrs- N S    R , g -rS ,    S , n N P     ; P     n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S     R,g  rS ,     S ,n  rsnp     ; P  ,  P n  |  R ;  ;  ;        ;  ;    ; rm      mP  ;  ; pm   R G gR,   ||",
-                    "sahitya": "Kazha li -   nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  -"
+                    "sahitya": "Kazha li -   nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  - ||"
                 },
                 {
                     "swara": "S ;   ;   ;      ;   ;   ;   ;    ;   ;   ;   ;         ;   ;   ;   ;       |  ;   ;   ;   ;    ;   ;   ;   ;        ;   ;   ;   ;   ;   ;   ;   ;  ||",
@@ -94,35 +95,35 @@
                 },
                 {
                     "swara": "; ; N S   R ;  R ;    R ;   R ;     R;  grR   | S ;  - N S      R ,g- r S ,    S ,s  N P    P ,n N S    ||",
-                    "sahitya": "Guru   ta   ra     bha   va     sin  dhau   -  -    du ri     ta  -   san-    ca-  ya -    mA- kum,"
+                    "sahitya": "Guru   ta   ra     bha   va     sin  dhau   -  -    du ri     ta  -   san-    ca-  ya -    mA- kum, ||"
                 },
                 {
                     "swara": "; ;  N S     R ,g  rS,    S ,s  N P     P N  N S  |  ;  ;  N S        R  ;  R ;      R,m pmR    R G gr R   ||",
-                    "sahitya": "Ti ra   tan   nil    mu-  zhu-    kumn- na- -        nara       ga  - thi-      kya- va- -   lam- bam,-"
+                    "sahitya": "Ti ra   tan   nil    mu-  zhu-    kumn- na- -        nara       ga  - thi-      kya- va- -   lam- bam,- ||"
                 },
                 {
                     "swara": "S ;  N S     R ,g  rS,  S ,s  N P     P N  N S  |  ;  ;  N S        R  ;  R ;      R,m pmR    R G gr R   ||",
-                    "sahitya": "Ti ra   tan   nil     mu-  zhu-   kumn- na- -       nara       ga  - thi-      kya- va- -   lam- bam,-"
+                    "sahitya": "Ti ra   tan   nil     mu-  zhu-   kumn- na- -       nara       ga  - thi-      kya- va- -   lam- bam,- ||"
                 },
                 {
                     "swara": "S ;  P M     P ;  P,r     Rmr  rmP     pm R-RG  | RS-   R mr    R pm P ;     P ;   sn P     ; p n     S ;    ||",
-                    "sahitya": "Mara    ka- ta-     ma-   Ni- -    vaN- Nan**- -     ha ri-    tan--  nE-    en-  num-   - ta-     va,"
+                    "sahitya": "Mara    ka- ta-     ma-   Ni- -    vaN- Nan**- -     ha ri-    tan--  nE-    en-  num-   - ta-     va, ||"
                 },
                 {
                     "swara": "; ;  GR    gr R  S ;    N R snP       ; pn  NS   |  ; ;  GR     gr R,g  S;     nsrg rsnp     Pnm P ;      ||",
-                    "sahitya": "Cari   ta- -  varN Na- naN-       Na- Lil-    - -  Cari   ta- -    varN  Na- naN-     Na-  Lil-"
+                    "sahitya": "Cari   ta- -  varN Na- naN-       Na- Lil-    - -  Cari   ta- -    varN  Na- naN-     Na-  Lil- ||"
                 },
                 {
                     "swara": "; ;  GR    gr R,g  S;     nsrg rsnp     Pnm P ; |  R M R - mr    P P -  P N   np - pnsn pm   R  G  grR ||",
-                    "sahitya": "- -  Cari   ta- -    varN  Na- naN-     Na-  Lil-  Sa ka la  mu   nikaL para  va-   ta-ri- va-   nadh Una."
+                    "sahitya": "- -  Cari   ta- -    varN  Na- naN-     Na-  Lil-  Sa ka la  mu   nikaL para  va-   ta-ri- va-   nadh Una. ||"
                 },
                 {
                     "swara": "; ;  N S    R ;  R  ;     rmpn S ;    Pdn P - mr  |  ggrs- N S    R , g -rS ,    S , n N P     ; P     n S ,   ||",
-                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA,"
+                    "sahitya": "Karu  Na  cey-    vAn  - -      en  - -   du- -    - -    tAa -    - -   ma-    sam  -   -    -Krish NA, ||"
                 },
                 {
                     "swara": "; ;  N S     R,g  rS ,     S ,n  rsnp     ; P  ,  P n  |  R ;  ;  ;        ;  ;    ; rm      mP  ;  ; pm   R G gR,   ||",
-                    "sahitya": "Kazha li -   nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  -"
+                    "sahitya": "Kazha li -   nE      kai -  - -         to   zhun-  nEn  -          - -    - Krish  NA  -  - -      -  -  -  - ||"
                 },
                 {
                     "swara": "S ;   ;   ;      ;   ;   ;   ;    ;   ;   ;   ;         ;   ;   ;   ;       |  ;   ;   ;   ;    ;   ;   ;   ;        ;   ;   ;   ;   ;   ;   ;   ;  ||",

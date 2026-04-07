@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Krishna Nee Begane Baro",
         "raga": "Yamuna Kalyani",
-        "arohanam": "S R\u2082 G\u2083 P M\u2082 G\u2083 P D\u2082 N\u2083 D\u2082 \u1e60 || [sung in madhyamam sruti]",
-        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2082 G\u2083 M\u2081 R\u2082 S ||",
+        "arohanam": "S R₂ G₃ P M₂ G₃ P D₂ N₃ D₂ Ṡ || [sung in madhyamam sruti]",
+        "avarohanam": "Ṡ N₃ D₂ P M₂ G₃ M₁ R₂ S ||",
         "tala": "Misra Chapu",
-        "composer": "Vyaasaraaya"
+        "composer": "Vyaasaraaya",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,163 +14,163 @@
             "content": [
                 {
                     "swara": "; ; S   |  G , m  | R ;  || snrs nd |   ; N  |  , R ,   ||",
-                    "sahitya": "Kri   shna-          nee         bE- -  -    -  ga       nE"
+                    "sahitya": "Kri   shna-          nee         bE- -  -    -  ga       nE ||"
                 },
                 {
                     "swara": "; ;   g m |  R ;  | S ;  ||  dnrds , |    ; ;  |    ; ;  ||",
-                    "sahitya": "- -  baa-   rO -        - -         - - -       - -        - -"
+                    "sahitya": "- -  baa-   rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": "; ; S   |  G , m  | R ;  || nr-ssnd |    nN ,  |  R ;   ||",
-                    "sahitya": "Kri   shna-          nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri   shna-          nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "nsrgmp |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - -"
+                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": "; ; S   |  G , m  | R ;  || grnd ;  |    N ;   |  R ;   ||",
-                    "sahitya": "Kri   shna-          nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri   shna-          nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "G  ;   ,m |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "baa- - -     rO -        - -         - - -       - -        - -"
+                    "sahitya": "baa- - -     rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": "; ; G  |   G R |  G M  ||  P ; ;  | gm P  |  P ;  ||",
-                    "sahitya": "bE     ga -    nE-                  baa-     rO - -      -   -"
+                    "sahitya": "bE     ga -    nE-                  baa-     rO - -      -   - ||"
                 },
                 {
                     "swara": "; ; mp |    D  ;  |  D P  ||  P ;  , n | dpP ;  |  mdpm  ||",
-                    "sahitya": "Mukha van    nu -                tO    -    rO   -    -  - - -"
+                    "sahitya": "Mukha van    nu -                tO    -    rO   -    -  - - - ||"
                 },
                 {
                     "swara": "G  ;  -md  | pmG  |  G M  ||  P ; ;  | gm P  |  P ;  ||",
-                    "sahitya": "bE    ga -       nE-           baa-     rO - -      -   -"
+                    "sahitya": "bE    ga -       nE-           baa-     rO - -      -   - ||"
                 },
                 {
                     "swara": "; ; mp |    D  ;  |  D P  ||  mpnd nn | dpP ;  |  mdpm  ||",
-                    "sahitya": "Mukha van    nu -                tO    -      rO   -    -  - - -"
+                    "sahitya": "Mukha van    nu -                tO    -      rO   -    -  - - - ||"
                 },
                 {
                     "swara": "G  ;  -gm   | G ;    |   G ;  ||   G ; ;  | G   R |  gmdp  ||",
-                    "sahitya": "bE    ga -       - nE           baa-     rO - -      -   -"
+                    "sahitya": "bE    ga -       - nE           baa-     rO - -      -   - ||"
                 },
                 {
                     "swara": "P ; gm |    G R  |  R S   ||  nsrg mdpp | R ;   |  S ;  ||",
-                    "sahitya": "Mukha van    nu -                tO    -         rO   -   - -"
+                    "sahitya": "Mukha van    nu -                tO    -         rO   -   - - ||"
                 },
                 {
                     "swara": "; ;   - S | G , m  | R ;  || sn D ;  |    N ;  |  R ;   ||",
-                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "nsrgmp |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - -"
+                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": ";  ; - S |   g- rgm  | R ;  || sn D ;  |    N ;  |  R ;   ||",
-                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "; ; gm  |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "- -  baa   rO -        - -         - - -       - -        - -"
+                    "sahitya": "- -  baa   rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": "; ; md | pm R   | G M  || P P ;   |  gmP  | P ;  ||",
-                    "sahitya": "Udi   yal   -     li  -              u di        ge          jje"
+                    "sahitya": "Udi   yal   -     li  -              u di        ge          jje ||"
                 },
                 {
                     "swara": "; ; mp |  D ;   |  D P  || P ; , n    | dpP ;   |   mdpm   ||",
-                    "sahitya": "Bera   Lal      li -                un    -      gu  -        ra -   -"
+                    "sahitya": "Bera   Lal      li -                un    -      gu  -        ra -   - ||"
                 },
                 {
                     "swara": "G  ;  -gm   | G ;    |   G ;  ||   G  ;  ;   |  G R  | gmdp   ||",
-                    "sahitya": "Kora  Lal         li            haa-  -     ki-    - da    - -"
+                    "sahitya": "Kora  Lal         li            haa-  -     ki-    - da    - - ||"
                 },
                 {
                     "swara": "P ; gm |    G R  |    R S   ||  nsrg mp     | R ;   |  S ;  ||",
-                    "sahitya": "-    vai-     ja yan-  ti  -            maa  -   -     la"
+                    "sahitya": "-    vai-     ja yan-  ti  -            maa  -   -     la ||"
                 },
                 {
                     "swara": "; ;   - S | G , m  | R ;  || nrssnd  |    N ;  |  R ;   ||",
-                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": ";  ; gm  |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "-  - baa-   rO -         - -         - - -       - -        - -"
+                    "sahitya": "-  - baa-   rO -         - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": "; ; md | pm R   | ;  gm   || P ; ;  |  P  ;  | P ;  ||",
-                    "sahitya": "Kaa-  shi - -   -  pee-          tham-      ba-        ra -"
+                    "sahitya": "Kaa-  shi - -   -  pee-          tham-      ba-        ra - ||"
                 },
                 {
                     "swara": "; ; mp |  D ;   |  D P  || P ; , n    | dpP ;   |   mdpm   ||",
-                    "sahitya": "Kai-  yal-     li -                 ko   -       La-         lu"
+                    "sahitya": "Kai-  yal-     li -                 ko   -       La-         lu ||"
                 },
                 {
                     "swara": "G  ;  -gm   | G ;    |   G ;  ||   G r G r  |  ; rg  | m P ,   ||",
-                    "sahitya": "-  -    pU-     si         da          shree-gan   - dha   --  -"
+                    "sahitya": "-  -    pU-     si         da          shree-gan   - dha   --  - ||"
                 },
                 {
                     "swara": "P ; gm |    G R  |  R S   ||  nsrg mdpp | R ;   |  S ;  ||",
-                    "sahitya": "-   may    yO-      La -             gam- -  - -    ma!    - -"
+                    "sahitya": "-   may    yO-      La -             gam- -  - -    ma!    - - ||"
                 },
                 {
                     "swara": "; ;   - S | G , m  | R ;  || sn D ;  |    N ;  |  R ;   ||",
-                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "nsrgmp |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - -"
+                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": "; ; md | pm gr  | G M  || P ; ;  |  P  ;  | P ;  ||",
-                    "sahitya": "Taa-  yi-  - -   ge -              baa         yal         li"
+                    "sahitya": "Taa-  yi-  - -   ge -              baa         yal         li ||"
                 },
                 {
                     "swara": "; ; mp |  D ;   |  D P  || P ; , n    | dpP ;   |   mdpm   ||",
-                    "sahitya": "Jaga   van    nu-                 to   -       ri -  -       da  -  -"
+                    "sahitya": "Jaga   van    nu-                 to   -       ri -  -       da  -  - ||"
                 },
                 {
                     "swara": "G ; md | pm gr  | G M  || P ; ;  |  gmP  | P ;  ||",
-                    "sahitya": "Taa-  yi-  - -   ge -              baa         yal         li"
+                    "sahitya": "Taa-  yi-  - -   ge -              baa         yal         li ||"
                 },
                 {
                     "swara": "; ; mp |  D ;   |  D P  || P ; , n    | dpP ;   |   mdpm   ||",
-                    "sahitya": "Jaga   van    nu-                 to   -       ri -  -       da  -  -"
+                    "sahitya": "Jaga   van    nu-                 to   -       ri -  -       da  -  - ||"
                 },
                 {
                     "swara": "G  ;  -gm   | G ;    |   G ;  ||   G r G r  |  ; rg  |  gmdp  ||",
-                    "sahitya": "- -     jaga   dhO       ddhaa      ra -  ka -     nam  ma-"
+                    "sahitya": "- -     jaga   dhO       ddhaa      ra -  ka -     nam  ma- ||"
                 },
                 {
                     "swara": "P ; gm |    G R  |  R S   ||  nsrg mdpp | R ;   |  S ;  ||",
-                    "sahitya": "uDu    pi  -     shree           kri-  - -  -     shna    - -"
+                    "sahitya": "uDu    pi  -     shree           kri-  - -  -     shna    - - ||"
                 },
                 {
                     "swara": ";   ;  -gm   | G ;    |   G ;  ||   G G ;  | R- rg  |  gmdp  ||",
-                    "sahitya": "- -     jaga   dhO      ddhaa      ra  ka -   -   nam  ma-"
+                    "sahitya": "- -     jaga   dhO      ddhaa      ra  ka -   -   nam  ma- ||"
                 },
                 {
                     "swara": "P ; gm |    G R  |  R S   ||  nsrg mdpp | R ;   |  S ;  ||",
-                    "sahitya": "uDu    pi  -     shree           kri-  - -  -     shna    - -"
+                    "sahitya": "uDu    pi  -     shree           kri-  - -  -     shna    - - ||"
                 },
                 {
                     "swara": "; ;   - S | G , m  | R ;  || sn D ;  |    N ;  |  R ;   ||",
-                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "nsrgmp |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - -"
+                    "sahitya": "baa- - -    rO -        - -         - - -       - -        - - ||"
                 },
                 {
                     "swara": ";  ; - S |   g- rgm  | R ;  || sn D ;  |    N ;  |  R ;   ||",
-                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE"
+                    "sahitya": "Kri  shna-       nee         bE- -  -      ga       nE ||"
                 },
                 {
                     "swara": "; ; gm  |  R ;  | S ;  ||  ; ; ;  |    ; ;  |    ; ;  ||",
-                    "sahitya": "- -  baa   rO -        - -         - - -       - -        - -"
+                    "sahitya": "- -  baa   rO -        - -         - - -       - -        - - ||"
                 }
             ]
         }

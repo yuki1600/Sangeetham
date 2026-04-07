@@ -2,34 +2,37 @@
     "song_details": {
         "name": "Lambodara",
         "raga": "Malahari",
-        "arohanam": "S R1 M1 P D1 S",
-        "avarohanam": "S D1 P M1 G3 R1 S",
+        "arohanam": "S R1 M1 P D1 S'",
+        "avarohanam": "S' D1 P M1 G1 R1 S",
         "tala": "Rupakam",
-        "composer": "Purandaradasa"
+        "composer": "Purandaradasa",
+        "janya": "15th Melakarta",
+        "jati": "Chaturasra",
+        "compositionType": "Geetham"
     },
     "composition": [
         {
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "M P     | D S S R || R S  | D P M P ||",
-                    "sahitya": "Sree -  | Ga na na tha || sin dhu | - ra var  na ||"
+                    "swara": "M P | D S. S. R. || R. S. | D P M P ||",
+                    "sahitya": "Sree - | Ga Na Na Tha || Sin Dhu | - Ra Var Na ||"
                 },
                 {
-                    "swara": "R M  | P D M P || D P | M G R S ||",
-                    "sahitya": "Ka ru  | na Sa ga ra || ka ri | va  dha - na ||"
+                    "swara": "R M | P D M P || D P | M G R S ||",
+                    "sahitya": "Ka Ru | Na Sa Ga Ra || Ka Ri | Va Da Na - ||"
                 },
                 {
-                    "swara": "S -  | R M G R || S R | G R S , ||",
-                    "sahitya": "Lam -  | bo - dha ra || la ku | mi ka ra - ||"
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 },
                 {
-                    "swara": "R M  | P D M P || D P | M G R S ||",
-                    "sahitya": "Am -  | ba - su tha || a ma | ra vi nu tha ||"
+                    "swara": "R M | P D M P || D P | M G R S ||",
+                    "sahitya": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
                 },
                 {
-                    "swara": "S -  | R M G R || S R | G R S , ||",
-                    "sahitya": "Lam -  | bo - dha ra || la ku | mi ka ra - ||"
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
         },
@@ -37,12 +40,24 @@
             "section": "Charanam 1",
             "content": [
                 {
-                    "swara": "M P     | D S S R || R S  | D P M P ||",
-                    "sahitya": "Sid dha | cha - ra na || ga na | se - vi  tha ||"
+                    "swara": "M P | D S. S. R. || R. S. | D P M P ||",
+                    "sahitya": "Sid Dha | Cha - Ra Na || Ga Na | Se - Vi Ta ||"
                 },
                 {
-                    "swara": "R M  | P D M P || D P | M G R S ||",
-                    "sahitya": "Sid dhi  | vi na ya ka || the - | na mo na  mo ||"
+                    "swara": "R M | P D M P || D P | M G R S ||",
+                    "sahitya": "Sid Dhi | Vi Na Ya Ka || Te - | Na Mo Na Mo ||"
+                },
+                {
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
+                },
+                {
+                    "swara": "R M | P D M P || D P | M G R S ||",
+                    "sahitya": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
+                },
+                {
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
         },
@@ -50,12 +65,24 @@
             "section": "Charanam 2",
             "content": [
                 {
-                    "swara": "M P     | D S S R || R S  | D P M P ||",
-                    "sahitya": "Sa ka  | la vi dya - || - dhi | pu - ji  tha ||"
+                    "swara": "M P | D S. S. R. || R. S. | D P M P ||",
+                    "sahitya": "Sa Ka | La Vi Dya - || Aa Di |Pu - Ji Ta ||"
                 },
                 {
-                    "swara": "R M  | P D M P || D P | M G R S ||",
-                    "sahitya": "Sa -  | rvo - tha ma || the - | na mo na  mo ||"
+                    "swara": "R M | P D M P || D P | M G R S ||",
+                    "sahitya": "Sar - | Vo - Ta Ma || Te - | Na Mo Na Mo ||"
+                },
+                {
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
+                },
+                {
+                    "swara": "R M | P D M P || D P | M G R S ||",
+                    "sahitya": "Am - |Ba - Su Ta || Aa Ma | Ra Vi Nu Ta ||"
+                },
+                {
+                    "swara": "S R | M - G R || S R | G R S - ||",
+                    "sahitya": "Lam - |Bo - Da Ra || La Ku | Mi Ka Ra - ||"
                 }
             ]
         }

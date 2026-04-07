@@ -5,7 +5,8 @@
         "arohanam": "S R1 M1 P N3 S ||",
         "avarohanam": "S N3 P D1 M1 G3 R1 S ||",
         "tala": "Adi",
-        "composer": "Syama Sastri"
+        "composer": "Syama Sastri",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,31 +14,31 @@
             "content": [
                 {
                     "swara": "AVO: S N3 D1 P M2 G3 R1 S  ||",
-                    "sahitya": "Talam: Adi"
+                    "sahitya": "Talam: Adi ||"
                 },
                 {
                     "swara": "; s  r  , M ,  ; N  , s R | rs S  ; ;  ; ;  ; ;   ||",
-                    "sahitya": "Taru - nam -  i  dam-  maa-- - -  - -  - -"
+                    "sahitya": "Taru - nam -  i  dam-  maa-- - -  - -  - - ||"
                 },
                 {
                     "swara": "; s  r  , M ,  ; N  , s R | rs S  ; sn  dp -  P dm- gr  ||",
-                    "sahitya": "Taru - nam -  i  dam-  maa-- - En- - nai Ra - -    kshi"
+                    "sahitya": "Taru - nam -  i  dam-  maa-- - En- - nai Ra - -    kshi ||"
                 },
                 {
                     "swara": "r s-    n  p      , N ,    ; S  n- s R | rs S  ; pm  pm -  P dm- gr  ||",
-                    "sahitya": "- kka Taru   - nam   -  i - dam-  maa-- - En- - nai  Ra - -    kshi"
+                    "sahitya": "- kka Taru   - nam   -  i - dam-  maa-- - En- - nai  Ra - -    kshi ||"
                 },
                 {
                     "swara": "r  s-  s  r    , M ,  ; N  , s R | rs S  ; ;  ; ;  ; ;   ||",
-                    "sahitya": "-kka Taru  - nam -  i  dam-  maa-- - -  - -  - -"
+                    "sahitya": "-kka Taru  - nam -  i  dam-  maa-- - -  - -  - - ||"
                 },
                 {
                     "swara": "r  s-  s  r    , M ,  ; N  , s R | rs -   s  r    , M ,  ; N  , s R ||",
-                    "sahitya": "-kka Taru  - nam -  i  dam-  maa Taru  - nam -  i  dam"
+                    "sahitya": "-kka Taru  - nam -  i  dam-  maa Taru  - nam -  i  dam ||"
                 },
                 {
                     "swara": "r  s-   s  r    , M ,  ; N  , s R | rs  S    ; ;  ; ;  ; ;  ||",
-                    "sahitya": "maa- Taru  - nam -  i  dam-  maa -   - -  - -  - -"
+                    "sahitya": "maa- Taru  - nam -  i  dam-  maa -   - -  - -  - - ||"
                 }
             ]
         },
@@ -46,19 +47,19 @@
             "content": [
                 {
                     "swara": "; p   np  ,  s   S S S  R R  |  ; , s    r-s n s    r- S ,r - n S ;  ||",
-                    "sahitya": "Ka ru - naani  dhiyaa gi ya     Kaa   maa-- - -  kshi   - -"
+                    "sahitya": "Ka ru - naani  dhiyaa gi ya     Kaa   maa-- - -  kshi   - - ||"
                 },
                 {
                     "swara": "; p   np  ,  s   S S S  R R  |  ; rs  nd   pm  n p N S S  ||",
-                    "sahitya": "Ka ru - naani  dhiyaa gi ya     Kaa   maa-kshi Ra- -     kshikka"
+                    "sahitya": "Ka ru - naani  dhiyaa gi ya     Kaa   maa-kshi Ra- -     kshikka ||"
                 },
                 {
                     "swara": "; p   np  ,  s   S S S  R S  |  R- rs  nd   pm  n p N S S  ||",
-                    "sahitya": "Ka ru - naani  dhiyaa gi ya    - Kaa   maa-kshi Ra- -     kshikka"
+                    "sahitya": "Ka ru - naani  dhiyaa gi ya    - Kaa   maa-kshi Ra- -     kshikka ||"
                 },
                 {
                     "swara": "; p   np  ,  s   S S S  R S  |  R- rs  nd   pm  P dm gr - gr  || s n",
-                    "sahitya": "Ka ru - naani  dhiyaa gi ya    - Kaa   maa-kshi Ra- -     kshi - -     - kka"
+                    "sahitya": "Ka ru - naani  dhiyaa gi ya    - Kaa   maa-kshi Ra- -     kshi - -     - kka ||"
                 }
             ]
         },
@@ -67,35 +68,35 @@
             "content": [
                 {
                     "swara": "; sr  , m P P P  D ;  | ; M ,  D m g R- g  R S  ||",
-                    "sahitya": "Kaa- - mita  Phala ttai-  - Kai - mel- Taru vaa  - ye"
+                    "sahitya": "Kaa- - mita  Phala ttai-  - Kai - mel- Taru vaa  - ye ||"
                 },
                 {
                     "swara": "; sr  , m pm , p P  D ;  | ; M ,  D m g R- g  R S  ||",
-                    "sahitya": "Kaa- - mita  Phala ttai-  - Kai - mel- Taru vaa  - ye"
+                    "sahitya": "Kaa- - mita  Phala ttai-  - Kai - mel- Taru vaa  - ye ||"
                 },
                 {
                     "swara": "; sn  g R s  sn D  S    S  | ;  P m- pdm  g R -  g  R S  ||",
-                    "sahitya": "Kan- paa-rttu Ra- -  kshippa    - Ye -    ppo--  dum- Nee- ye"
+                    "sahitya": "Kan- paa-rttu Ra- -  kshippa    - Ye -    ppo--  dum- Nee- ye ||"
                 },
                 {
                     "swara": "; sn  g R s  Srs nd  S    S  | ;  P m- pdm  g R -  g  R S  ||",
-                    "sahitya": "Kan- paa-rttu Ra- -  kshippa    - Ye -    ppo--  dum- Nee- ye"
+                    "sahitya": "Kan- paa-rttu Ra- -  kshippa    - Ye -    ppo--  dum- Nee- ye ||"
                 },
                 {
                     "swara": "; p n      P -   S       S  S     R R     |  ;  rs        nd  pm     n p N   S   S  ||",
-                    "sahitya": "So -     ma  she kha ran   Padi       - Sun     da- ri-      Kau--       maa ri"
+                    "sahitya": "So -     ma  she kha ran   Padi       - Sun     da- ri-      Kau--       maa ri ||"
                 },
                 {
                     "swara": "; p n      P -   S       S  S     R R     |  ;  rs        nd  pm     n p N   S   S  ||",
-                    "sahitya": "So -     ma  she kha ran   Padi       - Sun     da- ri-      Kau--       maa ri"
+                    "sahitya": "So -     ma  she kha ran   Padi       - Sun     da- ri-      Kau--       maa ri ||"
                 },
                 {
                     "swara": "; S  s -S       s     sN,   r s -sd   p m  | ;  - rs      pm - dp      sn - mp    dm - gr ||",
-                    "sahitya": "Shyaa  ma krishna   So -  - -   da-  ri   -      Shai    la-   raa-     ja-  ku-   maa-   - -"
+                    "sahitya": "Shyaa  ma krishna   So -  - -   da-  ri   -      Shai    la-   raa-     ja-  ku-   maa-   - - ||"
                 },
                 {
                     "swara": "S- S  s -S       s     N ; srS  , -d  pm   | ;- rs      pm - dp      sn - mp    dm - gr || sn",
-                    "sahitya": "ri Shyaa  ma krishna   So -  - -  da  ri   -   Shai    la-   raa-     ja-  ku-   maa-   - -   ri-"
+                    "sahitya": "ri Shyaa  ma krishna   So -  - -  da  ri   -   Shai    la-   raa-     ja-  ku-   maa-   - -   ri- ||"
                 }
             ]
         }

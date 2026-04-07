@@ -5,7 +5,8 @@
         "arohanam": "S G R G M N N S || AVA: S N D M G R G M P M G R S ||",
         "avarohanam": "S G R G M N N S || AVA: S N D M G R G M P M G R S ||",
         "tala": "Adi",
-        "composer": "Papanasam Sivan"
+        "composer": "Papanasam Sivan",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "P ;     pm  G   R  S  , n   N  |   S  ;   ;   ;  |  ;  ;  G   M  ||",
-                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  -   -         nin  -"
+                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  -   -         nin  - ||"
                 },
                 {
                     "swara": "P gmnp   pm  G   R  S  , n   N  |   S  ;   ;   ;  |  ;  ;  G   M  ||",
-                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  -   -         nin  -"
+                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  -   -         nin  - ||"
                 },
                 {
                     "swara": "pdnd     mg pm    gr  S  , n   N  |   S  ;   ;   ;  |  S G  gg rn   ||",
-                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  - Moo-   laa - - -"
+                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  - Moo-   laa - - - ||"
                 },
                 {
                     "swara": "S ;   S - S  G  G  M  ;  | gm P  M mpmm | G - R   G  M  ||",
-                    "sahitya": "dhaa ra   Ga na  pa the-   Su- ra pa  the - -    -   U   na  thu"
+                    "sahitya": "dhaa ra   Ga na  pa the-   Su- ra pa  the - -    -   U   na  thu ||"
                 },
                 {
                     "swara": "pnp-m   pm- gm  gr - S      , n   N  |   S  ;   ;   ;  |  nsmg  gg rn   ||",
-                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  - Moo-   laa - - -"
+                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  - Moo-   laa - - - ||"
                 },
                 {
                     "swara": "S ;   S - S  G  G  M  ;  | gm nn  S ndsn | dM ,  - G  G  M  ||",
-                    "sahitya": "dhaa ra   Ga na  pa the-   Su- ra pa  the - -    -   U   na  thu"
+                    "sahitya": "dhaa ra   Ga na  pa the-   Su- ra pa  the - -    -   U   na  thu ||"
                 },
                 {
                     "swara": "ssnd       mg pm   gr - S      , n   N  |   S  ;   ;   ;  |  nsmg  gg rn   ||",
-                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  - Moo-   laa - - -"
+                    "sahitya": "Tat tva  ma ri   ya       Ta ra   maa  -   -   -  - Moo-   laa - - - ||"
                 },
                 {
                     "swara": "S ;   S - S  G  G  M  ;  | gm nn  S ndsn | dM ,  - G  G  M  ||",
-                    "sahitya": "dhaa ra   Ga na  pa the-   Su- ra pa  the - -    -   U   na  thu"
+                    "sahitya": "dhaa ra   Ga na  pa the-   Su- ra pa  the - -    -   U   na  thu ||"
                 }
             ]
         },
@@ -50,19 +51,19 @@
             "content": [
                 {
                     "swara": "D n d   M   mm  gg M   ; ;  |  ;  ;   ;   ;  |   ;   ;  M   D   ||",
-                    "sahitya": "Sat --    tva Gu -   na-mum"
+                    "sahitya": "Sat --    tva Gu -   na-mum ||"
                 },
                 {
                     "swara": "D n d   M   mm  gg M   , N ,   |  nd M , n    N  S  |    N  G  R   S   ||",
-                    "sahitya": "Sat --    tva Gu -   na-mum   Jee    va - -   Da  ya yum Jna -   na mum"
+                    "sahitya": "Sat --    tva Gu -   na-mum   Jee    va - -   Da  ya yum Jna -   na mum ||"
                 },
                 {
                     "swara": "D n d   M   mm  gg M   MN dnsn  | ,  nd M  n    N  S  |     NGrmgg  R   S   ||",
-                    "sahitya": "Sat --    tva Gu -   na-mum   Jee          va - -   Da  ya yum Jna -   --   na mum"
+                    "sahitya": "Sat --    tva Gu -   na-mum   Jee          va - -   Da  ya yum Jna -   --   na mum ||"
                 },
                 {
                     "swara": "snrs   , n D     M  ;  M  G   | g M - p     dp - gm  | pm gr  G M ||",
-                    "sahitya": "Sa       tru mi   lla  da Kee    raa-    dha   - -  nu - -   -  ku na thu"
+                    "sahitya": "Sa       tru mi   lla  da Kee    raa-    dha   - -  nu - -   -  ku na thu ||"
                 }
             ]
         },
@@ -71,55 +72,55 @@
             "content": [
                 {
                     "swara": "; m m  , m M  M M   ;   M     |  G  ;     M  pm   | G  R     S  sn     ||",
-                    "sahitya": "Ma dhu   ra Pa ri   poor       na       Mo    dha ka     Ka ra     nee --"
+                    "sahitya": "Ma dhu   ra Pa ri   poor       na       Mo    dha ka     Ka ra     nee -- ||"
                 },
                 {
                     "swara": "sg - m m   , m- sg    gm M   ;   M     |  MN dnsn  D  M    | mp mp   pm M G    ||",
-                    "sahitya": "Ma dhu      ra  Pa    ri    poor   na       Mo ---     dha ka    Ka  ra      nee --"
+                    "sahitya": "Ma dhu      ra  Pa    ri    poor   na       Mo ---     dha ka    Ka  ra      nee -- ||"
                 },
                 {
                     "swara": "R - N  s G r   G  ;  G    M     |  M - g m    , pd p    | mpM G  R  S  ||",
-                    "sahitya": "-    Ma haa --  Vi gna Va       na   Koo     taa --      ra -  Va ra  ne"
+                    "sahitya": "-    Ma haa --  Vi gna Va       na   Koo     taa --      ra -  Va ra  ne ||"
                 },
                 {
                     "swara": "; n n  ,  N  ,  N    N   N   ;   |  nsnd  M  M    |  m p m p  pm M G    ||",
-                    "sahitya": "Ni dhi  Yun bha dum An     ba --  Ka rul     Pa  -  ra -  ne  - - -"
+                    "sahitya": "Ni dhi  Yun bha dum An     ba --  Ka rul     Pa  -  ra -  ne  - - - ||"
                 },
                 {
                     "swara": "R - g m    , p M  pmgr  G  M  |  P ;  mg mnP   | pm G    R  S  ||",
-                    "sahitya": "Ni ti     la Cha raa --   cha ra    Bhee jan  - - -      - -  ku  ra  ne"
+                    "sahitya": "Ni ti     la Cha raa --   cha ra    Bhee jan  - - -      - -  ku  ra  ne ||"
                 },
                 {
                     "swara": ";  n    d  , M  ,  mm gg  s - g    G  |  M ;    ;  M  |   G  R   G  ;   ||",
-                    "sahitya": "Ma dhi   she ka -  ran -   Ma gha   ne      Su    mu kha ne"
+                    "sahitya": "Ma dhi   she ka -  ran -   Ma gha   ne      Su    mu kha ne ||"
                 },
                 {
                     "swara": ";  m   n  dnsn N s n  dm n N    S   nd N  |  S  ;       ;  ;   |   ;  ;     ;    ;   ||",
-                    "sahitya": "Ma da  vaa - - -   -   - -  ra na Mu kha-      ne"
+                    "sahitya": "Ma da  vaa - - -   -   - -  ra na Mu kha-      ne ||"
                 },
                 {
                     "swara": "S    N   S  G   G  G  G   G   |  G  M    , g R  |  S  ;   S   S   ||",
-                    "sahitya": "Sru ti     Mu di     U  nar va  rum     Chi -      tpa ra    ne  gu ha"
+                    "sahitya": "Sru ti     Mu di     U  nar va  rum     Chi -      tpa ra    ne  gu ha ||"
                 },
                 {
                     "swara": "sn r s      , n    D  M  ;  G   M    |   P ,  m  ;  G  |  R - R     G   M     ||",
-                    "sahitya": "So - -    dha ra   ne  Raa  -          ma daa     sa    nu  kku   na thu"
+                    "sahitya": "So - -    dha ra   ne  Raa  -          ma daa     sa    nu  kku   na thu ||"
                 },
                 {
                     "swara": "S    N   S  G   G  G  G   G   |  mg pm   , g R  |  S  ;   S   S   ||",
-                    "sahitya": "Sru ti     Mu di     U  nar va  rum     Chi -       tpa ra    ne  gu ha"
+                    "sahitya": "Sru ti     Mu di     U  nar va  rum     Chi -       tpa ra    ne  gu ha ||"
                 },
                 {
                     "swara": "sn r s      , n    D  M  ;  G   M    |   P ,  m  ;  G  |  R - R     G   M     ||",
-                    "sahitya": "So - -    dha ra   ne  Raa  -          ma daa     sa    nu  kku   na thu"
+                    "sahitya": "So - -    dha ra   ne  Raa  -          ma daa     sa    nu  kku   na thu ||"
                 },
                 {
                     "swara": "S    N   S  G   G  G  G   G   |  gm Pd p  Mpm g  r |  S  ;    S   S   ||",
-                    "sahitya": "Sru ti     Mu di     U  nar va  rum     Chi -          -    tpara   ne  gu ha"
+                    "sahitya": "Sru ti     Mu di     U  nar va  rum     Chi -          -    tpara   ne  gu ha ||"
                 },
                 {
                     "swara": "sn r s      , n    D  M  ;  G   M    |   P ,  D  ;  M   |  G - R     G   M     ||",
-                    "sahitya": "So - -    dha ra   ne  Raa  -          ma daa     sa    nu  kku   na thu"
+                    "sahitya": "So - -    dha ra   ne  Raa  -          ma daa     sa    nu  kku   na thu ||"
                 }
             ]
         }

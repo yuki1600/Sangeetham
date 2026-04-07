@@ -5,7 +5,8 @@
         "arohanam": "S R1 G3 M2 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M2 G3 R1 S ||",
         "tala": "Adi",
-        "composer": "Swati Tirunal"
+        "composer": "Swati Tirunal",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "S;  R S ; N  D  N  | sn D P M  G ;  MR ||",
-                    "sahitya": "Sa ra saa   ksha    Pari  paa-- laya  Maa mayi"
+                    "sahitya": "Sa ra saa   ksha    Pari  paa-- laya  Maa mayi ||"
                 },
                 {
                     "swara": "G ;  P   D  ; D  M D  | snD  PM  P M  PD  ||",
-                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - sha"
+                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - sha ||"
                 },
                 {
                     "swara": "S;  rg rs S ; N   , d  N  | dn sr n- d P  G ;  MR ||",
-                    "sahitya": "Sa ra saa   ksha    Pari  paa-- -  laya  Maa mayi"
+                    "sahitya": "Sa ra saa   ksha    Pari  paa-- -  laya  Maa mayi ||"
                 },
                 {
                     "swara": "G ;  P   D  ; D  M D  | rsnd  PM  dpm-g m- pdn  ||",
-                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - - sha"
+                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - - sha ||"
                 },
                 {
                     "swara": "srsr  rg rs S ; N   , d  N  | dn srS n- d P  G ;  MR ||",
-                    "sahitya": "Sa ra saa   ksha    Pari  paa-- -  laya  Maa mayi"
+                    "sahitya": "Sa ra saa   ksha    Pari  paa-- -  laya  Maa mayi ||"
                 },
                 {
                     "swara": "G ;  P   D  ; D  M D  | rsnd  PM  dpm-g m- pdn  ||",
-                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - -  sha"
+                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - -  sha ||"
                 },
                 {
                     "swara": "sngr  sn sn  rs - sn    , d  N  | dn srS n- d P  P  ;  MR ||",
-                    "sahitya": "Sa ra saa    ksha    - Pari  paa-- -  laya  Maa mayi"
+                    "sahitya": "Sa ra saa    ksha    - Pari  paa-- -  laya  Maa mayi ||"
                 },
                 {
                     "swara": "G ;  D   P  ; D  M D  | rsnd  PM  dpm-g m- pdm  || G ; ; ;",
-                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - - -     sha"
+                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - - -     sha ||"
                 }
             ]
         },
@@ -50,35 +51,35 @@
             "content": [
                 {
                     "swara": "dN , D - P  ; D  P D |  d N ,  D N  S ;  R S ||",
-                    "sahitya": "Nee ra   jaa  sthra  Jana   kaa-  -  di  mE chaka"
+                    "sahitya": "Nee ra   jaa  sthra  Jana   kaa-  -  di  mE chaka ||"
                 },
                 {
                     "swara": "snrs  sn - ds n-d pm  P D |  d N ,  D N  S ;  R S ||",
-                    "sahitya": "Nee ra   jaa -  sthra  Jana   kaa-  -  di  mE chaka"
+                    "sahitya": "Nee ra   jaa -  sthra  Jana   kaa-  -  di  mE chaka ||"
                 },
                 {
                     "swara": "snrs  sn - ds n-d pm  P D |  d N ,  D N  S ;  R S ||",
-                    "sahitya": "Nee ra   jaa  -sthra-  Jana   kaa-  -  di  mE chaka"
+                    "sahitya": "Nee ra   jaa  -sthra-  Jana   kaa-  -  di  mE chaka ||"
                 },
                 {
                     "swara": "S ;  R - S ;  sn , d N  |  sn D  PM  G M  PD  ||",
-                    "sahitya": "Nee ra  dha    - bha   Kari  naa-- yaka  Bhaya hara"
+                    "sahitya": "Nee ra  dha    - bha   Kari  naa-- yaka  Bhaya hara ||"
                 },
                 {
                     "swara": "snrs  sn - ds n-d pm  P D |  d N ,  D N  S ,r  gr G ||",
-                    "sahitya": "Nee ra   jaa  -sthra-  Jana   kaa-  -  di  mE chaka"
+                    "sahitya": "Nee ra   jaa  -sthra-  Jana   kaa-  -  di  mE chaka ||"
                 },
                 {
                     "swara": "G pm   gr - S , S n , d N  |  sn D  PM  dpm- g mp dn  ||",
-                    "sahitya": "Nee ra  dha    - bha  Kari  naa-- yaka Bha- ya - ha -ra"
+                    "sahitya": "Nee ra  dha    - bha  Kari  naa-- yaka Bha- ya - ha -ra ||"
                 },
                 {
                     "swara": "srsr  rg rs S ; N   , d  N  | dn srS n- d P  G ;  MR ||",
-                    "sahitya": "Sa ra saa   ksha    Pari  paa-- -  laya  Maa mayi"
+                    "sahitya": "Sa ra saa   ksha    Pari  paa-- -  laya  Maa mayi ||"
                 },
                 {
                     "swara": "G ;  D   P  ; D  M D  | rsnd  PM  dpm-g m- pdm  || G ; ; ;",
-                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - - -     sha"
+                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - - -     sha ||"
                 }
             ]
         },
@@ -87,71 +88,71 @@
             "content": [
                 {
                     "swara": "P ;  P - P  ;  D  P P  | ; P  d P m  G R  G M  ||",
-                    "sahitya": "Bhi ma se   vya  Thama  Man gala- Lee- lamu"
+                    "sahitya": "Bhi ma se   vya  Thama  Man gala- Lee- lamu ||"
                 },
                 {
                     "swara": "P ;  ; ;  ; ;  ; ;  | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "dha"
+                    "sahitya": "dha ||"
                 },
                 {
                     "swara": "P ;  P - P  ;  D  P P  | ; P  d P m  gp mr  G M  ||",
-                    "sahitya": "Bhi ma se   vya  Thama  Man gala-  Lee- lamu"
+                    "sahitya": "Bhi ma se   vya  Thama  Man gala-  Lee- lamu ||"
                 },
                 {
                     "swara": "P ;  ; ;  ; ;  ; ;  | ; ;  ; ;  mdpm grgm ||",
-                    "sahitya": "dha"
+                    "sahitya": "dha ||"
                 },
                 {
                     "swara": "P ;  P - P  ;  D  dn dp P  | ; P  d P m  gp mr  G M  ||",
-                    "sahitya": "Bhi ma se   vya  Thama  Man gala- Lee- lamu"
+                    "sahitya": "Bhi ma se   vya  Thama  Man gala- Lee- lamu ||"
                 },
                 {
                     "swara": "P ;  ; ;  D ;  DN   | sn D  P M  G M   P D  ||",
-                    "sahitya": "dha  - -  Kuru   mE-- Kusha lam- Bhava"
+                    "sahitya": "dha  - -  Kuru   mE-- Kusha lam- Bhava ||"
                 },
                 {
                     "swara": "sS ,  R - ss ; N  D- N  | sn D  P M  ; g m , g R  ||",
-                    "sahitya": "Bhee thi  Naa -sha  na Ca  naa-- dbhuta     Guna   ni la"
+                    "sahitya": "Bhee thi  Naa -sha  na Ca  naa-- dbhuta     Guna   ni la ||"
                 },
                 {
                     "swara": "MG  ; ;  ; ;  ; ;  | ; ;  ; ;  ; ;  D N  ||",
-                    "sahitya": "ya -  - -  - -  - -  - -  - -  - -  Bhava"
+                    "sahitya": "ya -  - -  - -  - -  - -  - -  - -  Bhava ||"
                 },
                 {
                     "swara": "d N ,  D P  ; D   M D  | d N ,  D N  S ;  R S  ||",
-                    "sahitya": "Bhaa mini  Sa muda   yaa  shaya  Mo hana"
+                    "sahitya": "Bhaa mini  Sa muda   yaa  shaya  Mo hana ||"
                 },
                 {
                     "swara": "srsn  D P  ; D   M D  | d N ,  D N  S ;  R S  ||",
-                    "sahitya": "Bhaa mini  Sa muda   yaa  shaya  Mo hana"
+                    "sahitya": "Bhaa mini  Sa muda   yaa  shaya  Mo hana ||"
                 },
                 {
                     "swara": "sngr  sn-dn ;  D   M D  | d N ,  D N  S ;  R S  ||",
-                    "sahitya": "Bhaa mi-ni-   Sa muda   yaa  shaya  Mo hana"
+                    "sahitya": "Bhaa mi-ni-   Sa muda   yaa  shaya  Mo hana ||"
                 },
                 {
                     "swara": "; , s R   S  ;  sn  , d N  | sn D  P M  G M  PD  ||",
-                    "sahitya": "Pa dmanaa   bha-  Kama  laa- -  dhara  Nee- vara"
+                    "sahitya": "Pa dmanaa   bha-  Kama  laa- -  dhara  Nee- vara ||"
                 },
                 {
                     "swara": "S ;  R   S  ;  N   D N  | sn D  P M  G M  PD  ||",
-                    "sahitya": "Pa dmanaa   bha-  Kama  laa- -  dhara  Nee- vara"
+                    "sahitya": "Pa dmanaa   bha-  Kama  laa- -  dhara  Nee- vara ||"
                 },
                 {
                     "swara": "sngr  sn-ds nd-  D   M D  | d N ,  D N  S ,r  gr G  ||",
-                    "sahitya": "Bhaa mi-ni-   -- Sa muda   yaa  shaya  Mo hana"
+                    "sahitya": "Bhaa mi-ni-   -- Sa muda   yaa  shaya  Mo hana ||"
                 },
                 {
                     "swara": "G pm gr  S  ; sn , d N  | sn D  PM  dpm- g m - pd n ||",
-                    "sahitya": "Pa dmanaa   bha-  Kama  laa- -  dhara Nee- va  -     ra --"
+                    "sahitya": "Pa dmanaa   bha-  Kama  laa- -  dhara Nee- va  -     ra -- ||"
                 },
                 {
                     "swara": "srsr  rg rs S ; N   , d  N  | dn srS n- d P  G ;  MR ||",
-                    "sahitya": "Sa ra saa   ksha      Pari  paa-- -  laya  Maa mayi"
+                    "sahitya": "Sa ra saa   ksha      Pari  paa-- -  laya  Maa mayi ||"
                 },
                 {
                     "swara": "G ;  D   P  ; D  M D  | rsnd  PM  dpm-g m- pdm  || G ; ; ;",
-                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - - -     sha"
+                    "sahitya": "San thatham - Ka ru na  ya--  Jaga dee- - -  - - -     sha ||"
                 }
             ]
         }

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
+import { useWheelZoom } from '../../hooks/useWheelZoom';
 
-const MIN_ZOOM = 0.1;
-const MAX_ZOOM = 10;
 const RULER_H = 22; // height of time ruler in CSS px
 const SCROLL_EDGE = 60; // px from edge to start auto-scrolling
 const SCROLL_SPEED = 3; // seconds per second of auto-scroll at edge
@@ -58,8 +57,6 @@ export default function WaveformEditor({
     useEffect(() => { zoomRef.current = zoom; pxPerSecRef.current = parentPxPerSec; }, [zoom, parentPxPerSec]);
 
     const isDark = theme !== 'light';
-    const onZoomChangeRef = useRef(onZoomChange);
-    useEffect(() => { onZoomChangeRef.current = onZoomChange; }, [onZoomChange]);
 
     // Decode audioBuffer to downsampled waveform samples
     useEffect(() => {
@@ -79,21 +76,8 @@ export default function WaveformEditor({
         samplesRef.current = { samples, duration: audioBuffer.duration };
     }, [audioBuffer]);
 
-    // Scroll-to-zoom handler
-    const handleWheel = useCallback((e) => {
-        e.preventDefault();
-        const delta = -e.deltaY;
-        const factor = delta > 0 ? 1.15 : 1 / 1.15;
-        const next = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoomRef.current * factor));
-        if (onZoomChangeRef.current) onZoomChangeRef.current(next);
-    }, []);
-
-    useEffect(() => {
-        const el = containerRef.current;
-        if (!el) return;
-        el.addEventListener('wheel', handleWheel, { passive: false });
-        return () => el.removeEventListener('wheel', handleWheel);
-    }, [handleWheel]);
+    // Scroll-to-zoom (shared hook with NotationLane)
+    useWheelZoom(containerRef, zoom, onZoomChange);
 
     /**
      * Choose a nice ruler tick interval for the current zoom level.
@@ -187,12 +171,11 @@ export default function WaveformEditor({
             }
 
             // ── Waveform ────────────────────────────────────────────────
+            // No audio for the active track? Leave the waveform area blank
+            // (the ruler still draws above). The previous behaviour drew
+            // randomized green bars every frame which read as a "buffering"
+            // animation even though nothing was loading.
             if (!data || data.duration === 0) {
-                ctx.fillStyle = 'rgba(16,185,129,0.2)';
-                for (let i = 0; i < 60; i++) {
-                    const h = waveH * 0.2 + Math.random() * waveH * 0.4;
-                    ctx.fillRect(i * (W / 60), waveTop + (waveH - h) / 2, W / 60 - 1, h);
-                }
                 animRef.current = requestAnimationFrame(draw);
                 return;
             }

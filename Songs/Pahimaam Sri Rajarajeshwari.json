@@ -5,7 +5,8 @@
         "arohanam": "S R G M P D P N S ||",
         "avarohanam": "S D P M R S ||",
         "tala": "Adi",
-        "composer": "Maha Vaidyanatha Sivan"
+        "composer": "Maha Vaidyanatha Sivan",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,43 +14,43 @@
             "content": [
                 {
                     "swara": "1. P ;  ; M  mmR  R ;  | R S  R G  ; - gm  pm R  ||",
-                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa"
+                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa ||"
                 },
                 {
                     "swara": "S ;  ; ;  ; ;  ; S  | S ;  RS  R ;  G M  ||",
-                    "sahitya": "ri -  - -  - -  - Kru   paa-  kari  Shan  ka ri"
+                    "sahitya": "ri -  - -  - -  - Kru   paa-  kari  Shan  ka ri ||"
                 },
                 {
                     "swara": "2. P ;  ; md  pmR  R ;  | R S  R G  ; - gm  pm R  ||",
-                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa"
+                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa ||"
                 },
                 {
                     "swara": "S ;  ; ;  ; ;  ; R  | S D  Pmd   pmR G M  ||",
-                    "sahitya": "ri -  - -  - -  - Kru   paa-  kari  Shan--  ka ri"
+                    "sahitya": "ri -  - -  - -  - Kru   paa-  kari  Shan--  ka ri ||"
                 },
                 {
                     "swara": "3. P ;  ; md  pmR  R ;  | R S  R G  ; - gm  pm R  ||",
-                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa"
+                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa ||"
                 },
                 {
                     "swara": "S ;  ; ;  ; ;  ; dr  | ssdp  mpmr   nsrs sr  gm ||",
-                    "sahitya": "ri -  - -  - -  - Kru   paa-  kari  Shan--  ka ri"
+                    "sahitya": "ri -  - -  - -  - Kru   paa-  kari  Shan--  ka ri ||"
                 },
                 {
                     "swara": "4. P ;  ; md  pmR  R ;  | R S  R G  ; - gm  pm R  ||",
-                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa"
+                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa ||"
                 },
                 {
                     "swara": "nsrs mpdp mpdp nsrs | rgmr  ssdp ddpm rs r  gm ||",
-                    "sahitya": "ri -  Kru-- paa- - ka--   ri  Shan--  ka -- ri ----"
+                    "sahitya": "ri -  Kru-- paa- - ka--   ri  Shan--  ka -- ri ---- ||"
                 },
                 {
                     "swara": "5. P ;  ; md  pmR  R ;  | R S  R G  ; - gm  pmM R  ||",
-                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa"
+                    "sahitya": "Paa - hi maam-   Shri-  Ra -  ja Raa -   je-  - -  shwa ||"
                 },
                 {
                     "swara": "S ;  ; ;  ; ;  ; ; | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "ri -  - -  - -  - -    - -  - -  - -  - -"
+                    "sahitya": "ri -  - -  - -  - -    - -  - -  - -  - - ||"
                 }
             ]
         },
@@ -58,15 +59,15 @@
             "content": [
                 {
                     "swara": "; P  ; P  mpdp  D ;  | ; D P S sn R  S ;  ||",
-                    "sahitya": "E -hi  Su--- kham   - De -  hi  Div-  ya"
+                    "sahitya": "E -hi  Su--- kham   - De -  hi  Div-  ya ||"
                 },
                 {
                     "swara": "; P  ; P  mpdp  D ;  | ; D P S sn R  S ;  ||",
-                    "sahitya": "E -hi  Su--- kham   - De -  hi  Div-  ya"
+                    "sahitya": "E -hi  Su--- kham   - De -  hi  Div-  ya ||"
                 },
                 {
                     "swara": "S R  G M  R , s  ; D  | D P  pm R  r S r  G M  ||",
-                    "sahitya": "vaa-  hi ni  Da ya  - Pra   vaa-  hi- ni  Mo-- hi ni"
+                    "sahitya": "vaa-  hi ni  Da ya  - Pra   vaa-  hi- ni  Mo-- hi ni ||"
                 },
                 {
                     "swara": "P  ;  ;  P  M R  S ;  | ; D  P - P  M - M  R R  ||",
@@ -99,27 +100,27 @@
             "content": [
                 {
                     "swara": "D ;  P - D  ; M  P ;  |  P mp md - pm     R - M     R S  ||",
-                    "sahitya": "Bhan da Chan - da       Mun           da Khan- -   da-    ni  Ma    hi sha"
+                    "sahitya": "Bhan da Chan - da       Mun           da Khan- -   da-    ni  Ma    hi sha ||"
                 },
                 {
                     "swara": "rS ,   S   R    G M  P , d  | pm R  G , m  ; P  P ;  ||",
-                    "sahitya": "Bhan- ja  ni   Ja  na  Ran-  ja - ni  Ni-ran - ja ni -"
+                    "sahitya": "Bhan- ja  ni   Ja  na  Ran-  ja - ni  Ni-ran - ja ni - ||"
                 },
                 {
                     "swara": "D ;  P - D  ; M  P ;  |  P mp pd - pm     R - M     R S  ||",
-                    "sahitya": "Bhan da Chan - da       Mun           da Khan- -   da-      ni  Ma    hi sha"
+                    "sahitya": "Bhan da Chan - da       Mun           da Khan- -   da-      ni  Ma    hi sha ||"
                 },
                 {
                     "swara": "rS ,   S   R    G M  P , d  | pm R  G , m  ; P  P ;  ||",
-                    "sahitya": "Bhan- ja  ni   Ja  na  Ran-  ja - ni  Ni-ran - ja ni -"
+                    "sahitya": "Bhan- ja  ni   Ja  na  Ran-  ja - ni  Ni-ran - ja ni - ||"
                 },
                 {
                     "swara": "pr ;  G M  P ;  M P  | D ;  P -  P  N S  R - S  ||",
-                    "sahitya": "Pan-  ditha Shri  Guha  daa- sa   Po    -  sha ni -Su"
+                    "sahitya": "Pan-  ditha Shri  Guha  daa- sa   Po    -  sha ni -Su ||"
                 },
                 {
                     "swara": "S R  G M  R S  S D  |  P mp pm R  S R  G M  ||",
-                    "sahitya": "bhaa- shini Ripu  Bhee-    sh ani-  Va- ra  Bhu- shani"
+                    "sahitya": "bhaa- shini Ripu  Bhee-    sh ani-  Va- ra  Bhu- shani ||"
                 },
                 {
                     "swara": "P  ;  ;  P  M R  S ;  | ; D  P - P  M - M  R R  ||",

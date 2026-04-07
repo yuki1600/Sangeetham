@@ -29,10 +29,22 @@ db.exec(`
     composer TEXT,           -- Song composer metadata
     isFavorite INTEGER DEFAULT 0,
     avartanasPerRow INTEGER DEFAULT 1,
+    compositionType TEXT,    -- Geetham | Swarajathi | Varnam | Kriti | Tillana | Javali | Padam | Devaranama | Sankeertana | Bhajan
     createdAt TEXT,          -- ISO string
     updatedAt TEXT           -- ISO string
   )
 `);
+
+// Backfill compositionType column on pre-existing DBs that were created
+// before the column was introduced.
+try {
+  const cols = db.prepare("PRAGMA table_info(songs)").all().map(c => c.name);
+  if (!cols.includes('compositionType')) {
+    db.exec('ALTER TABLE songs ADD COLUMN compositionType TEXT');
+  }
+} catch (e) {
+  console.error('Failed to backfill compositionType column:', e.message);
+}
 
 // Version history table
 db.exec(`

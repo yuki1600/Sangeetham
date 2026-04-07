@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 M1 P D2 P N3 S ||",
         "avarohanam": "S D2 P M1 R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,147 +14,147 @@
             "content": [
                 {
                     "swara": "D P  N ;  ; ;  SD  | P ;  ; pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  ladu  raa-  - Naa-  -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  ladu  raa-  - Naa-  -   Ma na su ||"
                 },
                 {
                     "swara": "D P  pnsr  ; ;  SD  | P ;  ; pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  ladu  raa-  - Naa-  -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  ladu  raa-  - Naa-  -   Ma na su ||"
                 },
                 {
                     "swara": "D P  mpdp N ;  SD  | P ;  ; pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  ladu  raa-  - Naa-  -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  ladu  raa-  - Naa-  -   Ma na su ||"
                 },
                 {
                     "swara": "D P  PN  ; ;  srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "D P  mpdp PN  srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "D P  mpdp nsrs  srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  ; R  ;  - G  M P  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    -  -Naa-  -     Ma na s u"
+                    "sahitya": "Vi-na-    raa-  - -  - -    -  -Naa-  -     Ma na s u ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  ; pm  R - G  M P  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    -  -Naa-  -     Ma na s u"
+                    "sahitya": "Vi-na-    raa-  - -  - -    -  -Naa-  -     Ma na s u ||"
                 },
                 {
                     "swara": "D P  PN  ; ;  srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | srgm pm R  S ;  rgmp ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - - -  - -  -- -  -"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - - -  - -  -- -  - ||"
                 },
                 {
                     "swara": "D P  mpdp nsrs srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | srgm pm R  S ;  rgmp ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - - -  - -  -- -  -"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - - -  - -  -- -  - ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  mdpm  R - G  M P  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  sdpm  R - G  M P  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - -  - -  - -"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "S R  G ;  ; ;  M R  | S ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Adi yaa- - -  sala  che - - - -  - -"
+                    "sahitya": "Adi yaa- - -  sala  che - - - -  - - ||"
                 },
                 {
                     "swara": "S R  G ;  ; ;  M R  | S ;  ; D P M  P N  ||",
-                    "sahitya": "Adi yaa- - -  sala  che - Da gi li  Ne-"
+                    "sahitya": "Adi yaa- - -  sala  che - Da gi li  Ne- ||"
                 },
                 {
                     "swara": "S R  G ;  sr G  M R  | S ;  ; D P M  P N  ||",
-                    "sahitya": "Adi yaa- - -  sala  che - Da gi li  Ne-"
+                    "sahitya": "Adi yaa- - -  sala  che - Da gi li  Ne- ||"
                 },
                 {
                     "swara": "S R  G ;  srgm  pm R  | S ;  ; D P M  P N  ||",
-                    "sahitya": "Adi yaa- - -  sa- la  che - Da gi li  Ne-"
+                    "sahitya": "Adi yaa- - -  sa- la  che - Da gi li  Ne- ||"
                 },
                 {
                     "swara": "D P  ; pr  S D  D P  | ; md  pmR  ; G  M P  ||",
-                    "sahitya": "Naa- -rthi- Badi  Naa-  - Pa-  dam-- - bu la nu"
+                    "sahitya": "Naa- -rthi- Badi  Naa-  - Pa-  dam-- - bu la nu ||"
                 },
                 {
                     "swara": "D P  ; pr  S D  D P  | MD  pmR  ; G  M P  ||",
-                    "sahitya": "Naa- -rthi- Badi  Naa-  PA  dam-- - bu la nu"
+                    "sahitya": "Naa- -rthi- Badi  Naa-  PA  dam-- - bu la nu ||"
                 },
                 {
                     "swara": "D P  mpdp nsrs srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  sdpm  R - G  M P  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - -  - -  - -"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "P P  P ;  ; ;  pm R  | G M    dppm R ;  , s S   ||",
-                    "sahitya": "Tanu  Ve- - -  Pa- nu   la ku    Cha-ni-   na-  Mar i"
+                    "sahitya": "Tanu  Ve- - -  Pa- nu   la ku    Cha-ni-   na-  Mar i ||"
                 },
                 {
                     "swara": "S R  G ;  ; ;  , m R  | ;  s r , g M  P ;  ; ;  ||",
-                    "sahitya": "Kana raa-  - -  - nidi      Kanu - koni na-  - -"
+                    "sahitya": "Kana raa-  - -  - nidi      Kanu - koni na-  - - ||"
                 },
                 {
                     "swara": "P P  P ;  ; ;  pm R  | G M    dppm R ;  , s S   ||",
-                    "sahitya": "Tanu  Ve- - -  Pa- nu   la ku    Cha-ni-   na-  Mar i"
+                    "sahitya": "Tanu  Ve- - -  Pa- nu   la ku    Cha-ni-   na-  Mar i ||"
                 },
                 {
                     "swara": "S R  G ;  ; ;  , m R  | ;  s r , g M  P ;   srgm ||",
-                    "sahitya": "Kana raa-  - -  - nidi      Kanu - koni na-  - -"
+                    "sahitya": "Kana raa-  - -  - nidi      Kanu - koni na-  - - ||"
                 },
                 {
                     "swara": "S R  G ;  ; M  , R ,   | S ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Ninnu gaa  - Bhaa - vin   chi- - -  - -  - -"
+                    "sahitya": "Ninnu gaa  - Bhaa - vin   chi- - -  - -  - - ||"
                 },
                 {
                     "swara": "S R  G ;  ; M  , R ,   | S ;  ; D P M  P N  ||",
-                    "sahitya": "Ninnu gaa  - Bhaa - vin   chi- - San ta sil li ti"
+                    "sahitya": "Ninnu gaa  - Bhaa - vin   chi- - San ta sil li ti ||"
                 },
                 {
                     "swara": "S R  G ;  srgm  pm R  | S ;  ; D P M  P N  ||",
-                    "sahitya": "Ninnu gaa  Bhaa- vin- -    chi- - San ta sil li ti"
+                    "sahitya": "Ninnu gaa  Bhaa- vin- -    chi- - San ta sil li ti ||"
                 },
                 {
                     "swara": "D P  ; pr  S D  D P  | ; md  pmR  ; G  M P  ||",
-                    "sahitya": "Sri-  - Tyaa -  -  ga-    - raa-  - - -  - ja  nu t a"
+                    "sahitya": "Sri-  - Tyaa -  -  ga-    - raa-  - - -  - ja  nu t a ||"
                 },
                 {
                     "swara": "D P  ; R S D  D P  | ; md  pmR  ; G  M P  ||",
-                    "sahitya": "Sri-  - Tyaa -  -  ga-    - raa-  ja - -  - vi  nu ta"
+                    "sahitya": "Sri-  - Tyaa -  -  ga-    - raa-  ja - -  - vi  nu ta ||"
                 },
                 {
                     "swara": "D P  mpdp nsrs srgm | R ;  sd pm  R - G  M P  ||",
-                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su"
+                    "sahitya": "Vida jaa-  - -  la-du-  raa-  Naa- - -   Ma na su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  sdpm  R - G  M P  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  Naa- - -   Ma na  su ||"
                 },
                 {
                     "swara": "mdP pm R ;  ; S  ; ;  | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - -  - -  - -"
+                    "sahitya": "Vi-na-    raa-  - -  - -    - - -  - -  - -  - - ||"
                 }
             ]
         }

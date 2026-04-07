@@ -1,15 +1,88 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import * as LucideIcons from 'lucide-react';
 import { ArrowLeft, Search, X, Music, ChevronRight, Filter, Pencil } from 'lucide-react';
 import { LESSON_GROUPS } from '../utils/carnaticData';
 
+// Per-category accent classes (Tailwind gradient strings, to match the
+// existing SongCard hover overlay) and labels for the dynamic
+// compositionType groups (keyed off `type:<CompositionType>` group ids).
+const TYPE_META = {
+    Geetham:     { gradient: 'from-emerald-500 to-teal-600',  level: 'Beginner',   blurb: 'Simple devotional starters' },
+    Swarajathi:  { gradient: 'from-cyan-500 to-sky-600',      level: 'Beginner+',  blurb: 'Swara-driven introductions' },
+    Varnam:      { gradient: 'from-violet-500 to-purple-600', level: 'Foundation', blurb: 'Raga blueprint exercises' },
+    Kriti:       { gradient: 'from-amber-500 to-orange-600',  level: 'Concert',    blurb: 'Trinity & post-trinity gems' },
+    Tillana:     { gradient: 'from-pink-500 to-rose-600',     level: 'Concluding', blurb: 'Rhythmic concluding pieces' },
+    Javali:      { gradient: 'from-rose-500 to-red-600',      level: 'Light',      blurb: 'Romantic light classical' },
+    Padam:       { gradient: 'from-purple-500 to-fuchsia-600',level: 'Expressive', blurb: 'Slow expressive bhakti pieces' },
+    Devaranama:  { gradient: 'from-blue-500 to-indigo-600',   level: 'Devotional', blurb: 'Haridasa devotional songs' },
+    Sankeertana: { gradient: 'from-teal-500 to-emerald-600',  level: 'Devotional', blurb: 'Annamacharya keertanas' },
+    Bhajan:      { gradient: 'from-orange-500 to-amber-600',  level: 'Devotional', blurb: 'Saint-poet bhajans' },
+    Slokam:      { gradient: 'from-yellow-500 to-amber-600',  level: 'Recitative', blurb: 'Free-meter verses' },
+    Viruttam:    { gradient: 'from-indigo-500 to-violet-600', level: 'Recitative', blurb: 'Tamil free-meter verses' },
+    Other:       { gradient: 'from-slate-500 to-slate-600',   level: 'Misc',       blurb: 'Uncategorised pieces' },
+};
+
 /**
- * SongBrowser — song list for a given lesson group.
- * Portrait-friendly scrollable layout matching the home page column width.
+ * SongBrowser — song list for a given group.
+ *
+ * Two flavours of group are supported:
+ *   1) Static lesson groups from carnaticData (e.g. "beginner-1") — songs are
+ *      pulled directly out of LESSON_GROUPS.
+ *   2) Dynamic compositionType groups, identified by an id prefixed with
+ *      `type:` (e.g. `type:Geetham`). Songs are fetched live from /api/songs
+ *      and filtered down to that compositionType.
  */
 export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong }) {
-    const group = LESSON_GROUPS.find(g => g.id === groupId);
-    const songs = group?.songs ?? [];
+    // Dynamic mode: groupId is "type:Geetham"
+    const isTypeGroup = typeof groupId === 'string' && groupId.startsWith('type:');
+    const compositionType = isTypeGroup ? groupId.slice('type:'.length) : null;
+    const typeMeta = compositionType ? (TYPE_META[compositionType] || TYPE_META.Other) : null;
+
+    const staticGroup = !isTypeGroup ? LESSON_GROUPS.find(g => g.id === groupId) : null;
+
+    const [dynamicSongs, setDynamicSongs] = useState([]);
+    const [loading, setLoading] = useState(isTypeGroup);
+
+    useEffect(() => {
+        if (!isTypeGroup) return;
+        let cancelled = false;
+        setLoading(true);
+        fetch('/api/songs')
+            .then(r => r.json())
+            .then(data => {
+                if (cancelled || !Array.isArray(data)) return;
+                const filtered = data
+                    .filter(s => s.isPublished && (s.compositionType || 'Other') === compositionType)
+                    // Shape DB rows so they look like the static LESSON_GROUPS songs
+                    // SongCard expects (.title, .raga, .tala, .composer, .id).
+                    .map(s => ({
+                        ...s,
+                        songViewId: s.id,
+                        jsonUrl: `/api/songs/${s.id}`,
+                        audioUrl: `/api/songs/${s.id}/audio`,
+                        isDynamic: true,
+                    }))
+                    .sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+                setDynamicSongs(filtered);
+            })
+            .catch(e => console.error('Failed to load type group songs:', e))
+            .finally(() => { if (!cancelled) setLoading(false); });
+        return () => { cancelled = true; };
+    }, [isTypeGroup, compositionType]);
+
+    // Synthesize a "group" object that the rest of the JSX renders against.
+    const group = isTypeGroup
+        ? {
+            id: groupId,
+            label: compositionType,
+            level: typeMeta.level,
+            color: typeMeta.gradient,
+            icon: 'Disc3',
+            blurb: typeMeta.blurb,
+        }
+        : staticGroup;
+
+    const songs = isTypeGroup ? dynamicSongs : (staticGroup?.songs ?? []);
 
 
     const [query, setQuery] = useState('');
@@ -183,7 +256,12 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
 
             {/* Song List */}
             <div className="space-y-2">
-                {filtered.length === 0 ? (
+                {loading ? (
+                    <div className="flex flex-col items-center justify-center py-16 text-[var(--text-muted)] gap-3">
+                        <div className="w-6 h-6 rounded-full border-2 border-emerald-500 border-t-transparent animate-spin" />
+                        <p className="text-xs uppercase tracking-widest opacity-60">Loading songs…</p>
+                    </div>
+                ) : filtered.length === 0 ? (
                     <div className="flex flex-col items-center justify-center py-16 text-[var(--text-muted)]">
                         <Music className="w-10 h-10 mb-3 opacity-30" />
                         <p className="text-sm font-medium">No pieces match your filters</p>

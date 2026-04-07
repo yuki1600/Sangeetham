@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 P D2 N2 S ||",
         "avarohanam": "S N2 D1 P M1 G2 R2 S ||",
         "tala": "Rupakam",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,23 +14,23 @@
             "content": [
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        ; dp     ||  G ;    pm- gr     S N  ||  S ;  ; ;  ;  ;  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        ; dp     ||  G ;    pm- gr     S N  ||  S ;  ; rg  m-g r s  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - sI -        -  tA -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - sI -        -  tA - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        dn dp     ||  G ;    pm- dp  mGr ||  Rgs  ; rg  m-g  r s  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        nn dp     ||  G ;    pm- dp  mGr ||  Rgs  ; rg  m-g  r s  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        ; dp     ||  G ;    pm- gr     S ,n  ||  S ;  ; ;  ; ;  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - - ||"
                 }
             ]
         },
@@ -38,39 +39,39 @@
             "content": [
                 {
                     "swara": "S S     ; S         ; S ||   S , n    N D   D P  ||   ; ;       ; ;  ; ;  ||   ; ;  ; ;  ; ;  ||",
-                    "sahitya": "ramA  - bhA   -  ra    tI -  -   gau-   rI  -       - -      - -      - -               - -      - -           - -"
+                    "sahitya": "ramA  - bhA   -  ra    tI -  -   gau-   rI  -       - -      - -      - -               - -      - -           - - ||"
                 },
                 {
                     "swara": "S , s     ; S         ; S ||   S , n    N D   D P  ||   sns- s     ; S         ; S ||   S , n    N D   D P   ||",
-                    "sahitya": "ra-mA  - bhA   -  ra    tI -  -   gau-   rI  -       ra-mA  - bhA   -  ra     tI -  -   gau-   rI  -"
+                    "sahitya": "ra-mA  - bhA   -  ra    tI -  -   gau-   rI  -       ra-mA  - bhA   -  ra     tI -  -   gau-   rI  - ||"
                 },
                 {
                     "swara": "P P        ,d - ns   R-S  || S , n    N D   D P  ||  P P     D - ns   R-S  || S , n    N D   D P  ||",
-                    "sahitya": "ra-mA    -    bhA   - ra   tI -  -   gau-   rI  -     ra mA  -    bhA   - ra   tI -  -   gau-   rI  -"
+                    "sahitya": "ra-mA    -    bhA   - ra   tI -  -   gau-   rI  -     ra mA  -    bhA   - ra   tI -  -   gau-   rI  - ||"
                 },
                 {
                     "swara": "S N  ns P      P,d- pm ||  P - mg   pm G   g r r s ||",
-                    "sahitya": "rama      Na -     sva- rU-    -    pE -   - -  Na  Sri - -"
+                    "sahitya": "rama      Na -     sva- rU-    -    pE -   - -  Na  Sri - - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        nn dp     ||  G ;    pm- dp  mGr ||  Rgs  ;  ;   ; ;   ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - -          - -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - -          - - ||"
                 },
                 {
                     "swara": "S S     ; S         ; S ||   S , n    N D   D P  ||   P P        ,d - ns   R-S  || S , n    N D   D P  ||",
-                    "sahitya": "ramA  - bhA   -  ra    tI -  -   gau-   rI  -       ra-mA    -    bhA   - ra   tI -  -   gau-   rI  -"
+                    "sahitya": "ramA  - bhA   -  ra    tI -  -   gau-   rI  -       ra-mA    -    bhA   - ra   tI -  -   gau-   rI  - ||"
                 },
                 {
                     "swara": "S N  ns P      P,d- pm ||  P - mg   pm G   g r r s ||",
-                    "sahitya": "rama      Na -     sva- rU-    -    pE -   - -  Na  Sri - -"
+                    "sahitya": "rama      Na -     sva- rU-    -    pE -   - -  Na  Sri - - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        nn dp     ||  G ;    pm- dp  mGr ||  Rgs  ; rg  m-g  r s  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        ; dp     ||  G ;    pm- gr     S ,n  ||  S ;  ; ;  ; ;  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - - ||"
                 }
             ]
         },
@@ -79,79 +80,79 @@
             "content": [
                 {
                     "swara": "G ;    M - P     ; M  ||  G ;     pm - G    R S  ||   ; ;       ; ;      ; ;  ||   ; ;  ; ;  ; ;  ||",
-                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na       - -      - -      - -       - -      - -           - -"
+                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na       - -      - -      - -       - -      - -           - - ||"
                 },
                 {
                     "swara": "G ;    M - P     ; M  ||  G ;     pm - G    R S  ||   , n S     R ;      ; G  ||   M ,g    P M   ; M  | |",
-                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na        kama  nI -     -  ya     kan-    darE  - Na"
+                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na        kama  nI -     -  ya     kan-    darE  - Na ||"
                 },
                 {
                     "swara": "G ;    M - P     ; pm  || gmpd pm - G    R S  ||  r  n S     R ;      ; G  ||   M ,g    P , m   ; M  ||",
-                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na      ka-ma  nI -     -  ya     kan-    da - rE  - Na"
+                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na      ka-ma  nI -     -  ya     kan-    da - rE  - Na ||"
                 },
                 {
                     "swara": "G ;    M - P     ; pm  || gmpd pm - G    R S  ||  r  n S     R ;      ; G  ||   M ,g    P pm   ; M  ||",
-                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na      ka-ma  nI -     -  ya     kan-    da rE    - Na"
+                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    - Na      ka-ma  nI -     -  ya     kan-    da rE    - Na ||"
                 },
                 {
                     "swara": "G ;    M - P     ; pm  || G pm  mg   rm g - g S ||  , n S     R ;      ; G  ||   M ,g    P pm   ; M ||",
-                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    -  Na-     kama  nI -     -  ya     kan-    darE  - Na"
+                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    -  Na-     kama  nI -     -  ya     kan-    darE  - Na ||"
                 },
                 {
                     "swara": "G ;    M - P     ; pm  || G pm  G    rm g - g S ||  r n S     R ;      ; G  ||   M ,g    P pm   ; M ||",
-                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    -  Na-    kama    nI -     -  ya     kan-    darE  - Na"
+                    "sahitya": "kA    ma   kO  - Ti      sun     da-   rE    -  Na-    kama    nI -     -  ya     kan-    darE  - Na ||"
                 },
                 {
                     "swara": "P ;    D N     S R    ||  S , n    N D   D P      | |   ; ;       ; ;      ; ;  ||   ; ;  ; ;  ; ;  ||",
-                    "sahitya": "kO   maLa   ghana    shyA-   mE-  na -           - -      - -      - -           - -      - -           - -"
+                    "sahitya": "kO   maLa   ghana    shyA-   mE-  na -           - -      - -      - -           - -      - -           - - ||"
                 },
                 {
                     "swara": "P ;    D N     S R    ||  S , n    N D   D P      | |   P ;    D N     S R    ||  S , n    N D   P M      ||",
-                    "sahitya": "kO   maLa   ghana    shyA-   mE-  na -           kO   maLa   ghana    shyA-   mE-  -   na"
+                    "sahitya": "kO   maLa   ghana    shyA-   mE-  na -           kO   maLa   ghana    shyA-   mE-  -   na ||"
                 },
                 {
                     "swara": "S N    S - P   D P   ||  mg ;      pm- G   R S   ||",
-                    "sahitya": "kO -    -   da  - Nda    rA -      - -   mE  - Na"
+                    "sahitya": "kO -    -   da  - Nda    rA -      - -   mE  - Na ||"
                 },
                 {
                     "swara": "P ;    D N     S R    ||  S , n    N D   P M      | | S N    S - P   D P   ||  mg ;      pm- G   R S   ||",
-                    "sahitya": "kO   maLa   ghana    shyA-   mE-  -   na        kO -    -   da  - Nda    rA -      - -   mE  - Na"
+                    "sahitya": "kO   maLa   ghana    shyA-   mE-  -   na        kO -    -   da  - Nda    rA -      - -   mE  - Na ||"
                 },
                 {
                     "swara": "S    s   s    r g M   g R s   ||  ; ;     ; ;     ; ;  ||",
-                    "sahitya": "mAmaka hrdaya sthitEna   - -     - -    - -"
+                    "sahitya": "mAmaka hrdaya sthitEna   - -     - -    - - ||"
                 },
                 {
                     "swara": "S    s   s    r g M   g R s   ||    S s s     N D     g R s  ||",
-                    "sahitya": "mAmaka hrdaya sthitEna   mAruti   gI tA  mrtEna"
+                    "sahitya": "mAmaka hrdaya sthitEna   mAruti   gI tA  mrtEna ||"
                 },
                 {
                     "swara": "S    s   s    r g pm   g R s   ||    S s s     N D     g R s  ||",
-                    "sahitya": "mAmaka hrdaya  sthitEna   mAruti   gI tA  mrtEna"
+                    "sahitya": "mAmaka hrdaya  sthitEna   mAruti   gI tA  mrtEna ||"
                 },
                 {
                     "swara": "S  n s  ,  r  s  r     s n   d p    ||  M - p n   d  p - m g    m - g r  s   ||",
-                    "sahitya": "mA-njI  - ramaNi maN-Dita     mad guru guha  mA-   ni   tE- na"
+                    "sahitya": "mA-njI  - ramaNi maN-Dita     mad guru guha  mA-   ni   tE- na ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        ; dp     ||  G ;    pm- gr     S ,n  ||  S ;  ; ;  ; ;  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - - ||"
                 },
                 {
                     "swara": "S    s   s    r g pm   g R s   ||    S s s     N D     g R s  ||",
-                    "sahitya": "mAmaka hrdaya  sthitEna   mAruti   gI tA  mrtEna"
+                    "sahitya": "mAmaka hrdaya  sthitEna   mAruti   gI tA  mrtEna ||"
                 },
                 {
                     "swara": "S  n s  ,  r  s  r     s n   d p    ||  M - p n   d  p - m g    m - g r  s   ||",
-                    "sahitya": "mA-njI  - ramaNi maN-Dita     mad guru guha  mA-   ni   tE- na"
+                    "sahitya": "mA-njI  - ramaNi maN-Dita     mad guru guha  mA-   ni   tE- na ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        nn dp     ||  G ;    pm- dp  mGr ||  Rgs  ; rg  m-g  r s  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -           ra-    kSi-  tO   -  -       ham     - sI -        -  tA - ||"
                 },
                 {
                     "swara": "R ;     R - R     ; ;     ||  gmP      M- P        ; dp     ||  G ;    pm- gr     S ,n  ||  S ;  ; ;  ; ;  ||",
-                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - -"
+                    "sahitya": "rA     ma   can  - -       drE--     Na sam     - - -        ra-    kSi-  tO   -  -         ham     - -           - - ||"
                 }
             ]
         }

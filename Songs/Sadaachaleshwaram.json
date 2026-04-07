@@ -5,7 +5,8 @@
         "arohanam": "S R1 G2 P D1 S ||",
         "avarohanam": "S D1 P G2 R1 S ||",
         "tala": "Adi",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "S D  ; S  P ;  dp     G |  ; - gp  G - R  S ;  ; ;  ||",
-                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  --"
+                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  -- ||"
                 },
                 {
                     "swara": "S D  ; S  P ;  dp     G |  ; - gp  G - R  S ;  dspd ||",
-                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  ham--"
+                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  ham-- ||"
                 },
                 {
                     "swara": "S D  ; S  P ;  dp     G |  ; - gp  G - R  S ;  ; ;  ||",
-                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  --"
+                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  -- ||"
                 },
                 {
                     "swara": "S       S ; sr  G G  dp   G  |  G R   S ;  g p g p  pd   p d ||",
-                    "sahitya": "Cha ma  - tkaa -   ra  Pu-  ra    ge-  ham  Girijaa- Mo-ham-"
+                    "sahitya": "Cha ma  - tkaa -   ra  Pu-  ra    ge-  ham  Girijaa- Mo-ham- ||"
                 },
                 {
                     "swara": "srs-d  ;- sr  s- P ,  pdp -  g |  ; - gp  G - R  S ;  ; ;  ||",
-                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  --"
+                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va ye-  -- ||"
                 },
                 {
                     "swara": "S       S ; sr  G G  dp   G  |  G R   S ;  g  p g p pd   p d ||",
-                    "sahitya": "Cha ma  - tkaa -   ra  Pu-  ra    ge-  ham  Girijaa- Mo-ham-"
+                    "sahitya": "Cha ma  - tkaa -   ra  Pu-  ra    ge-  ham  Girijaa- Mo-ham- ||"
                 },
                 {
                     "swara": "SrsS-d  ;- Sr  sS - P ,  PdpP -  g  |  ; - gp       G  R    gd ;  ; ;  ||",
-                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va  -    ye-  - -"
+                    "sahitya": "Sadaa - cha le -  shva-ram  -   Bhaa-    va  -    ye-  - - ||"
                 },
                 {
                     "swara": "; ;  dssd ; P  ; ;  | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- -  - - -  - -  - -    - -  - -  - -  --"
+                    "sahitya": "- -  - - -  - -  - -    - -  - -  - -  -- ||"
                 }
             ]
         },
@@ -50,23 +51,23 @@
             "content": [
                 {
                     "swara": "S   D  ; G  R , -s ; R   | G ;       P -  G gP ,  P ;  ||",
-                    "sahitya": "Sadaa - shri ta Kal - pa   vru-    ksha Sa moo ham"
+                    "sahitya": "Sadaa - shri ta Kal - pa   vru-    ksha Sa moo ham ||"
                 },
                 {
                     "swara": ", d P  G ;  G R  , S , | R G  ;  P  gp dp  D ;  ||",
-                    "sahitya": "Shara naa- ga ta   De   va taa - Sa moo-- ham"
+                    "sahitya": "Shara naa- ga ta   De   va taa - Sa moo-- ham ||"
                 },
                 {
                     "swara": "p  P- d p    g- P     d - S    d     S   S     | ; ;      ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Udaajya kru ta Naa ma dheya  vaaham    - -      - -  - -  - -"
+                    "sahitya": "Udaajya kru ta Naa ma dheya  vaaham    - -      - -  - -  - - ||"
                 },
                 {
                     "swara": "p  P- d p    g- P     d - S    d     S   S     | r     S  - d     ; P       , d    p  g      P     D ||",
-                    "sahitya": "Udaajya kru ta Naa ma dheya  vaaham   Chidaanan   - daa    - mrutaPra vaaham"
+                    "sahitya": "Udaajya kru ta Naa ma dheya  vaaham   Chidaanan   - daa    - mrutaPra vaaham ||"
                 },
                 {
                     "swara": "p  P- d p    g- P     d - S    d     S   S     | r     S  - d     ; P       , d    p  g      P     d r ||",
-                    "sahitya": "Udaajya kru ta Naa ma dheya  vaaham   Chidaanan   - daa    - mrutaPra vaa  ham"
+                    "sahitya": "Udaajya kru ta Naa ma dheya  vaaham   Chidaanan   - daa    - mrutaPra vaa  ham ||"
                 }
             ]
         },
@@ -75,43 +76,43 @@
             "content": [
                 {
                     "swara": "G     R  ; S  ; R  G ;  | P ;  ; G  ; R  ; R  ||",
-                    "sahitya": "Chamat  - kaa - ra  Bhoo  paa- - laa - di  - Pra"
+                    "sahitya": "Chamat  - kaa - ra  Bhoo  paa- - laa - di  - Pra ||"
                 },
                 {
                     "swara": "S  ;   D  G  R S   P  D  | S- R  G ;  pgP  G ;  ||",
-                    "sahitya": "saa-  da- ka ra na  Nipu   na Ma   haa- lin-  gam"
+                    "sahitya": "saa-  da- ka ra na  Nipu   na Ma   haa- lin-  gam ||"
                 },
                 {
                     "swara": "G ;  ; P  ; D  D P  | G ;  ;  dpgg  ; gr ,  r S  ||",
-                    "sahitya": "Chaa - yaa - ra hi ta  Dee- -  pa-  -   - Pra - kaa-"
+                    "sahitya": "Chaa - yaa - ra hi ta  Dee- -  pa-  -   - Pra - kaa- ||"
                 },
                 {
                     "swara": "s d- G   ; R  ; ;  , r     G  |  P ;  ; D  dppg ;  P ;  ||",
-                    "sahitya": "sha- Gar -   bha    - -  - Gruha    maa - dhya ran- - - gam-"
+                    "sahitya": "sha- Gar -   bha    - -  - Gruha    maa - dhya ran- - - gam- ||"
                 },
                 {
                     "swara": "G    P ; P  G ;  dp D   | P - gdpg    ;  G  gr R  S ;  ||",
-                    "sahitya": "Sa ma - sta Du kkhaa-    di He- -   -  tu bhoo- ta -"
+                    "sahitya": "Sa ma - sta Du kkhaa-    di He- -   -  tu bhoo- ta - ||"
                 },
                 {
                     "swara": "S ;  ; S  ; R  S ,r  | pg G  P     P     D ; S ;  ||",
-                    "sahitya": "Sam - saa - ra  Saa-   ga- ra  Bha ya  bhan-  gam"
+                    "sahitya": "Sam - saa - ra  Saa-   ga- ra  Bha ya  bhan-  gam ||"
                 },
                 {
                     "swara": "D    P  G - P  ; P  , G ,  | D ;  D- dpP ; D  ; R  ||",
-                    "sahitya": "Shama   da  mo    - Pra -vru-   tyaa- di Sam-  - yu - kta"
+                    "sahitya": "Shama   da  mo    - Pra -vru-   tyaa- di Sam-  - yu - kta ||"
                 },
                 {
                     "swara": "S ;  rs -   sd  dp - pg  g  r S  | S   rg   ,   r   S D ;  S ;  ||",
-                    "sahitya": "Saa- dhu ja-   na   Hru da-ya    Sa ra--   - si   ja bhrun gam"
+                    "sahitya": "Saa- dhu ja-   na   Hru da-ya    Sa ra--   - si   ja bhrun gam ||"
                 },
                 {
                     "swara": "g    d  p- g      s   r- s  r      g   r    p - g     P    P   | d   p  pg    d p  - s d    , -  r  s   - g   R S  ||",
-                    "sahitya": "Kamala Vi    ja ya kara   Vidhruta ku   rangam  Karu naa   rasa  Sudhaar  nava Ta  rangam"
+                    "sahitya": "Kamala Vi    ja ya kara   Vidhruta ku   rangam  Karu naa   rasa  Sudhaar  nava Ta  rangam ||"
                 },
                 {
                     "swara": "r   g    g  r      s -   s  d  p  -  g   p   g   - p    g   r   s r  | r   g  r - p     g p   - g d   p   D - r    s   r  s   r   ||",
-                    "sahitya": "Kamale  -     sha Vinuta   Vrushabha Tu  ran- gam   Kamala  va   dana Guru Guhaa nta ran-gam-"
+                    "sahitya": "Kamale  -     sha Vinuta   Vrushabha Tu  ran- gam   Kamala  va   dana Guru Guhaa nta ran-gam- ||"
                 }
             ]
         }

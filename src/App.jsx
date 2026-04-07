@@ -5,7 +5,6 @@ import LessonsPanel from './components/LessonsPanel';
 import SongBrowser from './components/SongBrowser';
 import ExerciseRunner from './components/ExerciseRunner';
 import FeedbackSummary from './components/FeedbackSummary';
-import SongSection from './components/SongSection';
 import SongsPanel from './components/SongsPanel';
 import SongEditor from './components/editor/SongEditor';
 import EditorSongView from './components/editor/EditorSongView';

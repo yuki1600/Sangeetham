@@ -5,7 +5,8 @@
         "arohanam": "S G R G M P D P S || AVA: S N D P M G R S ||",
         "avarohanam": "S G R G M P D P S || AVA: S N D P M G R S ||",
         "tala": "Rupakam",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,63 +14,63 @@
             "content": [
                 {
                     "swara": "P ;  ; ;   |     ; N , P,   |     ;  n p      G ;   ||",
-                    "sahitya": "Ma                  na  sa            Gu       ru"
+                    "sahitya": "Ma                  na  sa            Gu       ru ||"
                 },
                 {
                     "swara": "R-G , M , |     P ;  Pdp |      G ;   M P ||",
-                    "sahitya": "-  gu    ha       Ru     --        pam --"
+                    "sahitya": "-  gu    ha       Ru     --        pam -- ||"
                 },
                 {
                     "swara": "M-G , R , |      S ; ; ;    |      N S G M ||",
-                    "sahitya": "-   Bha ja        re                 Re -------"
+                    "sahitya": "-   Bha ja        re                 Re ------- ||"
                 },
                 {
                     "swara": "P ;  ;  ;     |    ; Pdn  d n P |   ; np  G ;  ||",
-                    "sahitya": "Ma                 na  - sa--         Gu-  ru"
+                    "sahitya": "Ma                 na  - sa--         Gu-  ru ||"
                 },
                 {
                     "swara": "R-G , M , |   P ; nddp |   G ;   mpdp ||",
-                    "sahitya": "-   gu   ha     Ru  ---       pam - - -"
+                    "sahitya": "-   gu   ha     Ru  ---       pam - - - ||"
                 },
                 {
                     "swara": "pm -G , R, |   S ; ; ;   |   N S G M ||",
-                    "sahitya": "--      Bha ja    re           Re  - - -"
+                    "sahitya": "--      Bha ja    re           Re  - - - ||"
                 },
                 {
                     "swara": "P ; ; ;  |    pn Srs  ss nNd |    P - mn p G , ||",
-                    "sahitya": "Ma              na - - - sa ---       -     Gu -  ru"
+                    "sahitya": "Ma              na - - - sa ---       -     Gu -  ru ||"
                 },
                 {
                     "swara": "R-G , M , |   P ; nddp |   G ;   mpdp ||",
-                    "sahitya": "-   gu   ha     Ru  ---       pam - - -"
+                    "sahitya": "-   gu   ha     Ru  ---       pam - - - ||"
                 },
                 {
                     "swara": "pm -G , R, |   S ; ; ;   |   N S G M ||",
-                    "sahitya": "--      Bha ja    re           Re  - - -"
+                    "sahitya": "--      Bha ja    re           Re  - - - ||"
                 },
                 {
                     "swara": "P ; ; ;    |   p n s R s - ss |   ndP - m n p - G , ||",
-                    "sahitya": "Ma             na - - - - sa----| - - -      Gu- -    ru"
+                    "sahitya": "Ma             na - - - - sa----| - - -      Gu- -    ru ||"
                 },
                 {
                     "swara": "R - G , M, |   P ; nddp   |    G ;  gmpd P          ||",
-                    "sahitya": "Gu ha    Ru  - - -         pam -  - -"
+                    "sahitya": "Gu ha    Ru  - - -         pam -  - - ||"
                 },
                 {
                     "swara": "gmpm   G , R , |   Rgr  S ;  |   S ; r S n ||",
-                    "sahitya": "- -------  Bha ja    re - - -         Re - - -"
+                    "sahitya": "- -------  Bha ja    re - - -         Re - - - ||"
                 },
                 {
                     "swara": "N ; ; ;  |   n s G g r R  |    G ; ; ;   ||",
-                    "sahitya": "Ma             ya- -   Ma- -     ya- - -"
+                    "sahitya": "Ma             ya- -   Ma- -     ya- - - ||"
                 },
                 {
                     "swara": "Gr , M G |   G , m P , m |   m d P   Pdm  ||",
-                    "sahitya": "Hru - - -      ttha  -  -  -  -    pam    - - -"
+                    "sahitya": "Hru - - -      ttha  -  -  -  -    pam    - - - ||"
                 },
                 {
                     "swara": "G ;    M p d P | p m G  G r R |   mg G  pm M || (ma)",
-                    "sahitya": "Thya ja - - -      re   -   -  -  -       Re  - -  -"
+                    "sahitya": "Thya ja - - -      re   -   -  -  -       Re  - -  - ||"
                 }
             ]
         },
@@ -78,39 +79,39 @@
             "content": [
                 {
                     "swara": "S ;   S ;    |   S ;  N ;  |   ; ;  ; ;  ||",
-                    "sahitya": "Ma na          va  Jan"
+                    "sahitya": "Ma na          va  Jan ||"
                 },
                 {
                     "swara": "S ; M ; |   mggr  sr mgR  |   S ; ; ;  ||",
-                    "sahitya": "Ma ni       Sam  - - - - -        pra - -"
+                    "sahitya": "Ma ni       Sam  - - - - -        pra - - ||"
                 },
                 {
                     "swara": "r s N ; ;    |   ; p Sn  S  |   ; ; ; ;         ||",
-                    "sahitya": "pthe- - -         sa thi - -   - - - -"
+                    "sahitya": "pthe- - -         sa thi - -   - - - - ||"
                 },
                 {
                     "swara": "S ; S ;   |   S ; PS   |   Srs SN  ; ;  ||",
-                    "sahitya": "Ma na     va   jan       - - - -"
+                    "sahitya": "Ma na     va   jan       - - - - ||"
                 },
                 {
                     "swara": "S ;    Mpm |   m  ggr   sr  mgR  |   S ; ; ;||",
-                    "sahitya": "Ma   ni - -     Sam - -    --------      pra"
+                    "sahitya": "Ma   ni - -     Sam - -    --------      pra ||"
                 },
                 {
                     "swara": "R s N ; ; ; |    ; p S n S     |   ; ; M   P   ||",
-                    "sahitya": "Pthe - - -         Sathi   -        - - Pa ra"
+                    "sahitya": "Pthe - - -         Sathi   -        - - Pa ra ||"
                 },
                 {
                     "swara": "S ; ; ;  |   N ;   D ; |   P ; D ;    ||",
-                    "sahitya": "Ma        thma   ni     Ni   ra"
+                    "sahitya": "Ma        thma   ni     Ni   ra ||"
                 },
                 {
                     "swara": "N ;  P ; |   D ; N ;  |   P      ; ; ;  ||",
-                    "sahitya": "thi Sha   ya   Su     kham"
+                    "sahitya": "thi Sha   ya   Su     kham ||"
                 },
                 {
                     "swara": "Md  P Pdm |   mp G gr R |   mg G pm M ||",
-                    "sahitya": "Vra  - ja- -   |  re    - - - -       re   - - - -"
+                    "sahitya": "Vra  - ja- -   |  re    - - - -       re   - - - - ||"
                 }
             ]
         },

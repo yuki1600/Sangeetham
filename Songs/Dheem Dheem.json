@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Dheem Dheem",
         "raga": "Revathi",
-        "arohanam": "S R\u2081 M\u2081 P N\u2082 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2082 P M\u2081 R\u2081 S ||",
+        "arohanam": "S R₁ M₁ P N₂ Ṡ ||",
+        "avarohanam": "Ṡ N₂ P M₁ R₁ S ||",
         "tala": "Misra Chapu",
-        "composer": "Lalgudi Jayaraman"
+        "composer": "Lalgudi Jayaraman",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,51 +14,51 @@
             "content": [
                 {
                     "swara": "M ,     P ,    |  n  s   n - p   | m - R ,      ||   M ,    n   p  m    |     r r - P     |  , N ,  ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm       dhiM ta  na na        nana dhIm   dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm       dhiM ta  na na        nana dhIm   dhIm ||"
                 },
                 {
                     "swara": "R ;  ;       |   ;   ;          |    ;   ;      ||",
-                    "sahitya": "dhIm -           -   -               -   -"
+                    "sahitya": "dhIm -           -   -               -   - ||"
                 },
                 {
                     "swara": "M ,     P ,    |  n  s   n - p   | m - R ,      ||   M ,    n   p  m    |     r r - P     |  , N ,  ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm       dhiM ta  na na        nana dhIm   dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm       dhiM ta  na na        nana dhIm   dhIm ||"
                 },
                 {
                     "swara": "R ;  ;       |   ;    N    |  R  S    ||   ;    M   N  |  P  ;   | M  R    ||",
-                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na"
+                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na ||"
                 },
                 {
                     "swara": "mpm  pnp    |  n  s   n - p   | m - rmr      ||   mpm-    n   p  m    |     r r - pn     |  p - nsn   ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm ||"
                 },
                 {
                     "swara": "rmrr  ;       |   ;    N    |  R  S    ||   ;    M   N  |  P  ;   | M  R    ||",
-                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na"
+                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na ||"
                 },
                 {
                     "swara": "N   S   R     |     R M   |  ;   R      ||  M P - N   |   ;  ;  |  P N       ||",
-                    "sahitya": "Jha Nu ta        dhIm-    -   ta          na ta  dhIm            ta na"
+                    "sahitya": "Jha Nu ta        dhIm-    -   ta          na ta  dhIm            ta na ||"
                 },
                 {
                     "swara": "S - R ,   n    |    ;  S   |   , p  - N     || ,  M ,   P  | , p   m n  | p- R ,  ||",
-                    "sahitya": "Na tOm tOm   - tOm     ta  tAm       tAm tAm   ta-dhIm  -  dhIm"
+                    "sahitya": "Na tOm tOm   - tOm     ta  tAm       tAm tAm   ta-dhIm  -  dhIm ||"
                 },
                 {
                     "swara": "mpm  pnp    |  n  s   n - p   | m - rmr      ||   mpm-    n   p  m    |     r r - pn     |  p - nsn   ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm ||"
                 },
                 {
                     "swara": "rmrr  ;       |   ;    N    |  R  S    ||   ;    M   N  |  P  ;   | M  R    ||",
-                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na"
+                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na ||"
                 },
                 {
                     "swara": "N   S   R     |     M,    m       |  ;   R      ||  M P - N   |  , n  ;  |  P N       ||",
-                    "sahitya": "Jha Nu ta        dhIm dhIM    -   ta          na ta  dhIm  dhIM  ta na"
+                    "sahitya": "Jha Nu ta        dhIm dhIM    -   ta          na ta  dhIm  dhIM  ta na ||"
                 },
                 {
                     "swara": "S - R ,   n    |    ;  S   |   , p  - N     || ,  M ,   P  | , p   m n  | p- R ,  ||",
-                    "sahitya": "Na tOm tOm   - tOm     ta  tAm       tAm tAm   ta-dhIm  -  dhIm"
+                    "sahitya": "Na tOm tOm   - tOm     ta  tAm       tAm tAm   ta-dhIm  -  dhIm ||"
                 }
             ]
         },
@@ -66,39 +67,39 @@
             "content": [
                 {
                     "swara": "S  n  p    M   |   R ;  |  ;  ;  ||   ; ;  ;  |  ;  ;  |   ;  ;  ||",
-                    "sahitya": "tAki Ta tOm   dhIm  -  -         -  - -      -  -           - -"
+                    "sahitya": "tAki Ta tOm   dhIm  -  -         -  - -      -  -           - - ||"
                 },
                 {
                     "swara": "S  n  p    M   |   R  ,  m  | p  n   S  ||   ; ;  ;  |  ;  ;  |   ;  ;  ||",
-                    "sahitya": "tAki Ta tOm   dhIm ta   ki TatOm"
+                    "sahitya": "tAki Ta tOm   dhIm ta   ki TatOm ||"
                 },
                 {
                     "swara": "S  n  p    M   |   R  ,  m  | p  n   S  ||   R    s n   P     |  M  ,     p  |   n  s   R   ||",
-                    "sahitya": "tAki Ta tOm   dhIm ta   ki TatOm   dhI kiTa jham dhIm- ta      kiTa jham"
+                    "sahitya": "tAki Ta tOm   dhIm ta   ki TatOm   dhI kiTa jham dhIm- ta      kiTa jham ||"
                 },
                 {
                     "swara": "Srs  n  p    M |   R  ,  m  | p   n   S  ||   R    s n   P     |  Mpm  ,  p  |   n  s   R   ||",
-                    "sahitya": "tA- ki Ta tOm  dhIm ta   ki TatOm   dhI kiTa jham dhIm-    ta     kiTa jham"
+                    "sahitya": "tA- ki Ta tOm  dhIm ta   ki TatOm   dhI kiTa jham dhIm-    ta     kiTa jham ||"
                 },
                 {
                     "swara": "n  s  r - r m  r  | N -    n  s |  r s n   p     || , s   N   p  m |   ,  n P  | m - R ,   ||",
-                    "sahitya": "tata ra   tA-  ni  dhIm ta ra  tA-ni dhIm    ta tA  ni dhIm   tatA   ni  dhIm"
+                    "sahitya": "tata ra   tA-  ni  dhIm ta ra  tA-ni dhIm    ta tA  ni dhIm   tatA   ni  dhIm ||"
                 },
                 {
                     "swara": "Srs  n  p    M |   R  ,  m  | p   n   S  ||   R    s n   P     |  Mpm  ,  p  |   n  s   R   ||",
-                    "sahitya": "tA- ki Ta tOm  dhIm ta   ki TatOm   dhI kiTa jham dhIm-    ta     kiTa jham"
+                    "sahitya": "tA- ki Ta tOm  dhIm ta   ki TatOm   dhI kiTa jham dhIm-    ta     kiTa jham ||"
                 },
                 {
                     "swara": "n  s  r - r m  r  | N -    n  s |  r s n   p     || , s   N   p  m |   ,  n P  | m - R      p  ||",
-                    "sahitya": "tata ra   tA-  ni  dhIm ta ra  tA-ni dhIm    ta tA  ni dhIm   tatA   ni  dhIm ta"
+                    "sahitya": "tata ra   tA-  ni  dhIm ta ra  tA-ni dhIm    ta tA  ni dhIm   tatA   ni  dhIm ta ||"
                 },
                 {
                     "swara": "mpm  pnp    |  n  s   n - p   | m - rmr      ||   mpm-    n   p  m    |     r r - pn     |  p - nsn   ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm ||"
                 },
                 {
                     "swara": "rmrr  ;       |   ;    ;   |     ;   S  ||    ;  ;   ;   |   ;   ;   |  ;   ;   ||",
-                    "sahitya": "dhIm -           -    -         -   -        -   -  -       -  -      -   -"
+                    "sahitya": "dhIm -           -    -         -   -        -   -  -       -  -      -   - ||"
                 }
             ]
         },
@@ -107,115 +108,115 @@
             "content": [
                 {
                     "swara": "P N  P  |   M  M   |   M  M    ||    r m P pm   | m r R   |  R  ;     ||",
-                    "sahitya": "kO-   la    mu  ru     ga  naik-     kA- -  Na   eN- -      Ni -"
+                    "sahitya": "kO-   la    mu  ru     ga  naik-     kA- -  Na   eN- -      Ni - ||"
                 },
                 {
                     "swara": "rsnp  np |  R   ;   |   R  ;  ||  s r r m - mp |  pnsn   |  NP  ||",
-                    "sahitya": "kA-   la    mel-     lAm -         kA- -      tti-    run--    dEn-"
+                    "sahitya": "kA-   la    mel-     lAm -         kA- -      tti-    run--    dEn- ||"
                 },
                 {
                     "swara": "nnP-mpN np  |   M  M   |   M  M    ||   mmR rmP pm   | m r R   |  R  ;     ||",
-                    "sahitya": "kO-   -      la      mu  ru     ga  naik-     kA- -  - -   Na-    eN- -      Ni -"
+                    "sahitya": "kO-   -      la      mu  ru     ga  naik-     kA- -  - -   Na-    eN- -      Ni - ||"
                 },
                 {
                     "swara": "rsnp  np |  pmmr  |   R  ;  ||  s r r m - mp |  pnsn   |  NP  ||",
-                    "sahitya": "kA-   la    mel-     lAm -         kA- -      tti-    run--    dEn-"
+                    "sahitya": "kA-   la    mel-     lAm -         kA- -      tti-    run--    dEn- ||"
                 },
                 {
                     "swara": "mpns r- s  |  R ;    |  ; ;  ||  ;  ;  ;  |  ;  ;    |   ;  ;  ||",
-                    "sahitya": "vE- - -   la    nO-"
+                    "sahitya": "vE- - -   la    nO- ||"
                 },
                 {
                     "swara": "mpns r- s  |  R ;    |  , r R  ||  R ,  R ,   |  ;  n r   |   r s   S  ||   ; ; ; |  ; ;  | ; ;   ||",
-                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     - maran  - -  dAn"
+                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     - maran  - -  dAn ||"
                 },
                 {
                     "swara": "mpns r- s  |  R ;    |  , r R  ||  R -  p m R   |  ,  n r r   |  S   S  ||",
-                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     -      maran  - -  dAn"
+                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     -      maran  - -  dAn ||"
                 },
                 {
                     "swara": "mpns r- s  |  R ;    |  , r R  ||  R -  Mpm R   |  ;  n r   |  , s   S  ||",
-                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     -      maran  - -  dAn"
+                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     -      maran  - -  dAn ||"
                 },
                 {
                     "swara": "nnP mpns r- s  |  R ;    |  , r R  ||  R -  Mpm R   |  ;  n r   |  , s   S  ||",
-                    "sahitya": "vE- - -         la    nO-       e nai              E     nO     -      maran  - -  dAn"
+                    "sahitya": "vE- - -         la    nO-       e nai              E     nO     -      maran  - -  dAn ||"
                 },
                 {
                     "swara": "R  m r  N    |  P  ;     |  M - N  || s n n p  mrR |- N   R |    S  ;   ||",
-                    "sahitya": "jA- -     la      mO        en   kA             -  - la    mO      a    ri    yEn"
+                    "sahitya": "jA- -     la      mO        en   kA             -  - la    mO      a    ri    yEn ||"
                 },
                 {
                     "swara": "mpns r- s  |  R ;    |  , r R  ||  R -  Mpm R   |  ;  n r   |  , s   S  ||",
-                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     -      maran  - -  dAn"
+                    "sahitya": "vE- - -   la    nO-      e nai      E     nO     -      maran  - -  dAn ||"
                 },
                 {
                     "swara": "R  m r  N    |  P  ;     |  M - N  || s n n p  mrR |- N   R |    S  ;   ||",
-                    "sahitya": "jA- -     la      mO        en   kA             -  - la    mO      a    ri    yEn"
+                    "sahitya": "jA- -     la      mO        en   kA             -  - la    mO      a    ri    yEn ||"
                 },
                 {
                     "swara": "s       S      r - m      m     |  , p - n       n  | ,   s   r   n  ||",
-                    "sahitya": "tAm tAm ta dhIm dhIm      ta   tOm tOM   ta  ki Ta"
+                    "sahitya": "tAm tAm ta dhIm dhIm      ta   tOm tOM   ta  ki Ta ||"
                 },
                 {
                     "swara": "S   ;   ;  |    ;  ;  | ,  s   r   n   ||",
-                    "sahitya": "Jham                        sa ri ni"
+                    "sahitya": "Jham                        sa ri ni ||"
                 },
                 {
                     "swara": "s       S      r - m      m     |  , p - n       n  | ,   s   r   n  ||",
-                    "sahitya": "tAm tAm ta dhIm dhIm      ta   tOm tOM   ta  ki Ta"
+                    "sahitya": "tAm tAm ta dhIm dhIm      ta   tOm tOM   ta  ki Ta ||"
                 },
                 {
                     "swara": "S   ,    n  s - p | n - m  p - r  | m -  s   r   n   ||",
-                    "sahitya": "Jham ni sa- pa ni  ma pa  ri  ma   sa ri   ni"
+                    "sahitya": "Jham ni sa- pa ni  ma pa  ri  ma   sa ri   ni ||"
                 },
                 {
                     "swara": "r   R - m M  |  n N -    r  |  R -  m  m  ||  ,  R - m m - r |  r  n n - m | M  R ||",
-                    "sahitya": "tatAm tadhIm tajham ta  Nam ma ma      ri    mama  ri  ri ni ni  ma mA rI"
+                    "sahitya": "tatAm tadhIm tajham ta  Nam ma ma      ri    mama  ri  ri ni ni  ma mA rI ||"
                 },
                 {
                     "swara": "s  s  s  S      r  r   r   R   m m m M  |   N  ;  |    n  P  P   n n n N  ||",
-                    "sahitya": "takajhaNU takajhaNu takajhaNu     dhIm    taLAngu takajhaNu"
+                    "sahitya": "takajhaNU takajhaNu takajhaNu     dhIm    taLAngu takajhaNu ||"
                 },
                 {
                     "swara": "R      -  r   N  N     s  s  s  S   |   R   - s N N    |   s s s R      M , ;  ||",
-                    "sahitya": "dhIm    taLAngu  takajhaNu  dhIm taLAngu takajhaNu dhIm"
+                    "sahitya": "dhIm    taLAngu  takajhaNu  dhIm taLAngu takajhaNu dhIm ||"
                 },
                 {
                     "swara": ";   r M - s  S    r |  s  s  s r     n s    ;  |   ;   s R  ||  n  S  s    p  p  p  n    mp |   ;  n S | p P N -   m m m M ||",
-                    "sahitya": "tattit  taLan gu takajhaNU dhIm -      tattit    talAngu taka jhaNu dhIm    tattit taLAngu  takajhaNu"
+                    "sahitya": "tattit  taLan gu takajhaNU dhIm -      tattit    talAngu taka jhaNu dhIm    tattit taLAngu  takajhaNu ||"
                 },
                 {
                     "swara": "mpm  pnp    |  n  s   n - p   | m - rmr      ||   mpm-    n   p  m    |     r r - pn     |  p - nsn   ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm ||"
                 },
                 {
                     "swara": "rmrr  ;       |   ;    ;   |     ;   S  ||",
-                    "sahitya": "dhIm -           -    -         -   -        <repeat chitta swaram>"
+                    "sahitya": "dhIm -           -    -         -   -        <repeat chitta swaram> ||"
                 },
                 {
                     "swara": "mpm  pnp    |  n  s   n - p   | m - rmr      ||   mpm-    n   p  m    |     r r - pn     |  p - nsn   ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm ||"
                 },
                 {
                     "swara": "rmrr  ;       |   ;    N    |  R  S    ||   ;    M   N  |  P  ;   | M  R    ||",
-                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na"
+                    "sahitya": "dhIm -           -    nA    dru dhIm   -   tom dru dhIm    ta  na ||"
                 },
                 {
                     "swara": "N   S   R     |     M,    m       |  ;   R      ||  M P - N   |  , n  ;  |  P N       ||",
-                    "sahitya": "Jha Nu ta        dhIm dhIM    -   ta          na ta  dhIm  dhIM  ta na"
+                    "sahitya": "Jha Nu ta        dhIm dhIM    -   ta          na ta  dhIm  dhIM  ta na ||"
                 },
                 {
                     "swara": "S - R ,   n    |    ;  S   |   , p  - N     || ,  M ,   P  | , p   m n  | p- R ,  ||",
-                    "sahitya": "Na tOm tOm   - tOm     ta  tAm       tAm tAm   ta-dhIm  -  dhIm"
+                    "sahitya": "Na tOm tOm   - tOm     ta  tAm       tAm tAm   ta-dhIm  -  dhIm ||"
                 },
                 {
                     "swara": "mpm  pnp    |  n  s   n - p   | m - rmr      ||   mpm-    n   p  m    |     r r - pn     |  p - nsn   ||",
-                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm"
+                    "sahitya": "dhIm dhIm   ta na na  na    na  dhIm           dhiM    ta  na na        nana dhIm   -  dhIm ||"
                 },
                 {
                     "swara": "rmrr  ;       |   ;    ;   |     ;   S  ||    ;  ;   ;   |   ;   ;   |  ;   ;   ||",
-                    "sahitya": "dhIm -           -    -         -   -        -   -  -       -  -      -   -"
+                    "sahitya": "dhIm -           -    -         -   -        -   -  -       -  -      -   - ||"
                 }
             ]
         }

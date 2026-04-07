@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Maapaala",
         "raga": "Asaveri",
-        "arohanam": "S R\u2081 M\u2081 P D\u2081 S ||",
-        "avarohanam": "S N\u2082 S P D\u2081 M\u2081 P R\u2082 G\u2082 R\u2081 S ||",
+        "arohanam": "S R₁ M₁ P D₁ S ||",
+        "avarohanam": "S N₂ S P D₁ M₁ P R₂ G₂ R₁ S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,23 +14,23 @@
             "content": [
                 {
                     "swara": "M ,   p  ;  P  ,d   P  dp D  |  ; p   m    , P dn |  pm R   G G  ||",
-                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga -"
+                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga - ||"
                 },
                 {
                     "swara": "rsr - g  , r - rs  , r  M   ;   P  |  mpdp pm gg  |  G pm   g r s r  ||",
-                    "sahitya": "Raa  da  - -  Sri  -   Raa   -  ma   chan  -  -   -     dra  -    - -  -  -"
+                    "sahitya": "Raa  da  - -  Sri  -   Raa   -  ma   chan  -  -   -     dra  -    - -  -  - ||"
                 },
                 {
                     "swara": "M ,   p  ;  P  D    P  dp D  |  ; p   m    , P dn |  pd  sr   n S p  ||",
-                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga -"
+                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga - ||"
                 },
                 {
                     "swara": "dd p - d  , p - mp  dp  nn   dp   P  |  mpdp pm gg  |  gr pm   g r s r  ||",
-                    "sahitya": "Raa  da  - -    Sri  - - Raa   -    ma   chan  -  -   -     dra  -    - -  -  -"
+                    "sahitya": "Raa  da  - -    Sri  - - Raa   -    ma   chan  -  -   -     dra  -    - -  -  - ||"
                 },
                 {
                     "swara": "M ,   p  ;  P  D    P  dp D  |  ; p   m    P ;   |   ;  ;    ;  ;   ||",
-                    "sahitya": "Maa paa   la  Ve la      si - -          -  -  -      ka      -  -                    -  -"
+                    "sahitya": "Maa paa   la  Ve la      si - -          -  -  -      ka      -  -                    -  - ||"
                 }
             ]
         },
@@ -38,23 +39,23 @@
             "content": [
                 {
                     "swara": "S r - n  S -pd mprm P P  |  mP -d     P  pd |   S N      S   S    ||",
-                    "sahitya": "Ni-   paa  - da-     mu-la-   Bha kthi    Nin   daa  -  ra -    ga Ni     -  cchi"
+                    "sahitya": "Ni-   paa  - da-     mu-la-   Bha kthi    Nin   daa  -  ra -    ga Ni     -  cchi ||"
                 },
                 {
                     "swara": "S r - g  R - R  srsr sn   S  | ; m  p , d    P  | mgpm     gr   sr   ||",
-                    "sahitya": "Kaa  paa -    du    Sha-       kthi ni     Ka ra    mu na    Nun  - -    da- ga-"
+                    "sahitya": "Kaa  paa -    du    Sha-       kthi ni     Ka ra    mu na    Nun  - -    da- ga- ||"
                 },
                 {
                     "swara": "M ,   p  ;  P  D    P  dp D  |  ; p   m    , P dn |  pd  sr   n S p  ||",
-                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga -"
+                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga - ||"
                 },
                 {
                     "swara": "pd p - nd  , p - mp  dp  nn   dp   P  |  mpdp pm gg  |  G pm   g r s r  ||",
-                    "sahitya": "Raa  da  -   -   Sri  - - Raa   -    ma   chan  -  -   -     dra  -    - -  -  -"
+                    "sahitya": "Raa  da  -   -   Sri  - - Raa   -    ma   chan  -  -   -     dra  -    - -  -  - ||"
                 },
                 {
                     "swara": "M ,   p  ;  P  D    P  dp D  |  ; p   m    P ;   |   ;  ;    ;  ;   ||",
-                    "sahitya": "Maa paa   la  Ve la      si - -          -  -  -      ka      -  -                    -  -"
+                    "sahitya": "Maa paa   la  Ve la      si - -          -  -  -      ka      -  -                    -  - ||"
                 }
             ]
         },
@@ -63,39 +64,39 @@
             "content": [
                 {
                     "swara": "P ,    p  ; pm  mr G  gr  S |  S r-  n   S  sp  | D  S  R  m   r ||",
-                    "sahitya": "Naa ga     dhi-  paVi      nu  ta    Naa gaa - ri  Ra tha   Ni nnuvi"
+                    "sahitya": "Naa ga     dhi-  paVi      nu  ta    Naa gaa - ri  Ra tha   Ni nnuvi ||"
                 },
                 {
                     "swara": "M , -   p  ; pd  sr - ns  , p -dp  |  nn dp  mpdp  | pm G  gr r s ||",
-                    "sahitya": "Naa   ga   thi  - -    - -    - - - -       Ne- ru-  - - - -   ga - -     - - - -"
+                    "sahitya": "Naa   ga   thi  - -    - -    - - - -       Ne- ru-  - - - -   ga - -     - - - - ||"
                 },
                 {
                     "swara": "P    m - g   , r - S -    S    r - n    ,  s  -  p      d  | S    r - g     , r s     r  |  G   m    g -   m  p   D   ||",
-                    "sahitya": "Naa ga  raa  ja Hrut Saa ga raa   bja! Bha va   Saa ga raan  ta ka! Su     rA gha Ha   ra  Ka na"
+                    "sahitya": "Naa ga  raa  ja Hrut Saa ga raa   bja! Bha va   Saa ga raan  ta ka! Su     rA gha Ha   ra  Ka na ||"
                 },
                 {
                     "swara": "P     d - s    ,   r -  s r  G      r   r   s   r   -     s  r    |  N   s  -   d  ,  p -  mp |   pm     g  - g  , r  s    r ||",
-                    "sahitya": "kaa gha Dhee ra  Sura  Naa ga ga ma na  Cha ra       Naa(a)Ga  taa pta  Sri -  Tyaa ga   raa ja nu ta"
+                    "sahitya": "kaa gha Dhee ra  Sura  Naa ga ga ma na  Cha ra       Naa(a)Ga  taa pta  Sri -  Tyaa ga   raa ja nu ta ||"
                 },
                 {
                     "swara": "P    m - g   , r - S -    S    r - n    ,  s  -  p      d  | S    r - g     , r s     r  |  G   m    g -   m  p   D   ||",
-                    "sahitya": "Naa ga  raa  ja Hrut Saa ga raa   bja! Bha va   Saa ga raan  ta ka! Su     rA gha Ha   ra  Ka na"
+                    "sahitya": "Naa ga  raa  ja Hrut Saa ga raa   bja! Bha va   Saa ga raan  ta ka! Su     rA gha Ha   ra  Ka na ||"
                 },
                 {
                     "swara": "P     d - s    ,   r -  g m  G      r   r   s   r   -  n    s    |  N   s  -   d  ,  p -  mp |   pm     g  - g  , r  s    r ||",
-                    "sahitya": "kaa gha Dhee ra  Sura  Naa ga ga ma na  Cha ra       Naa(a)Ga  taa pta  Sri -  Tyaa ga   raa ja nu ta"
+                    "sahitya": "kaa gha Dhee ra  Sura  Naa ga ga ma na  Cha ra       Naa(a)Ga  taa pta  Sri -  Tyaa ga   raa ja nu ta ||"
                 },
                 {
                     "swara": "M ,   p  ;  P  , d   P  dp D  |  ; p   m    , P d |  pd  sr   n S p  ||",
-                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga -"
+                    "sahitya": "Maa paa   la  Ve la      si - ka      Ma mu   Bro -    va -  -   ga - ||"
                 },
                 {
                     "swara": "pd p - nd  , p - mp  dp  nn   dp   P  |  mpdp pm gg  |  gr pm   g r s r  ||",
-                    "sahitya": "Raa  da  -   -   Sri  - - Raa   -    ma   chan  -  -   -     dra  -    - -  -  -"
+                    "sahitya": "Raa  da  -   -   Sri  - - Raa   -    ma   chan  -  -   -     dra  -    - -  -  - ||"
                 },
                 {
                     "swara": "M ,   p  ;  P  , d  P  dp D  |  ; p   m    P ;   |   ;  ;    ;  ;   ||",
-                    "sahitya": "Maa paa   la  Ve la      si - -          -  -  -      ka      -  -                    -  -"
+                    "sahitya": "Maa paa   la  Ve la      si - -          -  -  -      ka      -  -                    -  - ||"
                 }
             ]
         }

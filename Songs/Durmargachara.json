@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M2 D2 S ||",
         "avarohanam": "S N3 D2 M2 G2 S ||",
         "tala": "Rupakam",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,59 +14,59 @@
             "content": [
                 {
                     "swara": "1. ; s   r , G ,  M   M  || G S  ; r   g , s S  ||",
-                    "sahitya": "Du ru  - maa    ga  Cha-   raa -  - dhamu - lanu"
+                    "sahitya": "Du ru  - maa    ga  Cha-   raa -  - dhamu - lanu ||"
                 },
                 {
                     "swara": "; n d  , S ,  S S  || sn D    S-  S  R ;  ||",
-                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa-"
+                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa- ||"
                 },
                 {
                     "swara": "2. ; s   r , G ,  mdM   mg  || G S  ; r   g , s S  ||",
-                    "sahitya": "Du ru  - maa    ga  --  Cha-   raa - - dhamu - lanu"
+                    "sahitya": "Du ru  - maa    ga  --  Cha-   raa - - dhamu - lanu ||"
                 },
                 {
                     "swara": "; n d  , S ,  S S  || srsn D    S-  S  R ;  ||",
-                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa-"
+                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa- ||"
                 },
                 {
                     "swara": "3. ; s   r , G ,  mnD   dm || , g S    ; r   g , s S  ||",
-                    "sahitya": "Du r  - maa     ga  --  Cha-   raa - - dhamu - lanu"
+                    "sahitya": "Du r  - maa     ga  --  Cha-   raa - - dhamu - lanu ||"
                 },
                 {
                     "swara": "; n d  , S ,  S S  || srsn D    S-  S  R ;  ||",
-                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa-"
+                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa- ||"
                 },
                 {
                     "swara": "4. ; s   r , G ,  M   M    || gmdm dm - G mg   g S  ||",
-                    "sahitya": "Du r  - maa     ga  Cha-   raa - - - - -  dha  mu - lanu"
+                    "sahitya": "Du r  - maa     ga  Cha-   raa - - - - -  dha  mu - lanu ||"
                 },
                 {
                     "swara": ";  r  g  , S ,  S S  || g s n d    S-  S  R ;  ||",
-                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa-"
+                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa- ||"
                 },
                 {
                     "swara": "5. ; s   r , G ,  M   M    || gmds  ; -  N d   m  G  ||",
-                    "sahitya": "Du r  - maa     ga  Cha-   raa - - - - -  dha  mu la nu"
+                    "sahitya": "Du r  - maa     ga  Cha-   raa - - - - -  dha  mu la nu ||"
                 },
                 {
                     "swara": "s r  G  S ;   S S  || g s n d    S-  S  R ;  ||",
-                    "sahitya": "Do-ra    Nee vana   Jaa- -    -    la    raa-"
+                    "sahitya": "Do-ra    Nee vana   Jaa- -    -    la    raa- ||"
                 },
                 {
                     "swara": "6. ; s   r , G ,  M   M    || gmds  rg -  N d   m  D  ||",
-                    "sahitya": "Du r  - maa     ga  Cha-   raa - - - - -  dha  mu la nu"
+                    "sahitya": "Du r  - maa     ga  Cha-   raa - - - - -  dha  mu la nu ||"
                 },
                 {
                     "swara": "gssn  nddm G S  || srG srG    S-  S  R ;  ||",
-                    "sahitya": "Do-ra     Nee vana   Jaa- -      -    la   raa-"
+                    "sahitya": "Do-ra     Nee vana   Jaa- -      -    la   raa- ||"
                 },
                 {
                     "swara": "; s   r , G ,  mdM   mg  || G S  ; r   g , s S  ||",
-                    "sahitya": "Du ru  - maa    ga  --  Cha-   raa - - dhamu - lanu"
+                    "sahitya": "Du ru  - maa    ga  --  Cha-   raa - - dhamu - lanu ||"
                 },
                 {
                     "swara": "; n d  , S ,  S S  || sn D    S-  S  R ;  ||",
-                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa-"
+                    "sahitya": "- Dora    - Nee vana   Jaa- -    -    la    raa- ||"
                 }
             ]
         },
@@ -74,31 +75,31 @@
             "content": [
                 {
                     "swara": "1. ; D , S ,  S S ||  ;  ;  ; ;  ; ;  ||",
-                    "sahitya": "Dha rmaa tmaka!    -   -   - -  - -"
+                    "sahitya": "Dha rmaa tmaka!    -   -   - -  - - ||"
                 },
                 {
                     "swara": "2. ; sn d S ,  S S ||  ;  nd  ,  S ,  S S  ||",
-                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu"
+                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu ||"
                 },
                 {
                     "swara": "3. ; sn d S ,  S S ||  ;  nd  ,  S ,  S R  ||",
-                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu"
+                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu ||"
                 },
                 {
                     "swara": "4. ; sn d S ,  S S ||  ;  nd  ,  S ,  R G  ||",
-                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu"
+                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu ||"
                 },
                 {
                     "swara": "sr G  S S  ss nd  ||  md gs    nd - md  m - g S ||",
-                    "sahitya": "Dai- vamu     Nee--    vai --      - -  Yun- -  daga"
+                    "sahitya": "Dai- vamu     Nee--    vai --      - -  Yun- -  daga ||"
                 },
                 {
                     "swara": "5. ; sn d S ,  S S ||  ;  nd  ,  S ,  R G  ||",
-                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu"
+                    "sahitya": "Dha rmaa tmaka!      -Dhana Dhaa   nyamu ||"
                 },
                 {
                     "swara": "sr gm  ,-g S  ss nd  ||  md gs    nd - md  m - g S ||",
-                    "sahitya": "Dai- - vamu   Nee--    vai --      - -  Yun- -  daga"
+                    "sahitya": "Dai- - vamu   Nee--    vai --      - -  Yun- -  daga ||"
                 }
             ]
         },
@@ -107,43 +108,43 @@
             "content": [
                 {
                     "swara": "; d d  , d -D ; D   ||  mdm- g     S- R    , g S   ||",
-                    "sahitya": "Palu      ku Bo -  ti      ni - - Sa    bha lo   - - na"
+                    "sahitya": "Palu      ku Bo -  ti      ni - - Sa    bha lo   - - na ||"
                 },
                 {
                     "swara": "; d d  , d -md  gs nd   ||  mdm- g     S- R    , g S   ||",
-                    "sahitya": "Palu      ku Bo -   ti -     ni - - Sa    bha lo   - - na"
+                    "sahitya": "Palu      ku Bo -   ti -     ni - - Sa    bha lo   - - na ||"
                 },
                 {
                     "swara": "; d d  , d -md  gs nd   ||  mdM  G  S     R,g   , s   ||",
-                    "sahitya": "Palu      ku Bo -   ti -     ni - -    Sa bha lo - -  na"
+                    "sahitya": "Palu      ku Bo -   ti -     ni - -    Sa bha lo - -  na ||"
                 },
                 {
                     "swara": "; sn    , d- S     ;  R   || G M    D M  D ;  ||",
-                    "sahitya": "Pati   ta Maa   na    vu  la   Kosa ge -"
+                    "sahitya": "Pati   ta Maa   na    vu  la   Kosa ge - ||"
                 },
                 {
                     "swara": "; d n  , d -D ; md   ||  ndM  G  S     R,g   , s   ||",
-                    "sahitya": "Palu      ku Bo -  ti -     ni - -   Sa bha lo - -  na"
+                    "sahitya": "Palu      ku Bo -  ti -     ni - -   Sa bha lo - -  na ||"
                 },
                 {
                     "swara": "; sn    , d- S     ;  R   || G M    D M  gsnd  ||",
-                    "sahitya": "Pati   ta  Maa   na    vu  la   Kosa ge -"
+                    "sahitya": "Pati   ta  Maa   na    vu  la   Kosa ge - ||"
                 },
                 {
                     "swara": "; s    n d  S ,  S S ||  ;  ;  ; ;  ; ;   ||",
-                    "sahitya": "Khalu   la Ne     cchata"
+                    "sahitya": "Khalu   la Ne     cchata ||"
                 },
                 {
                     "swara": "; s    n d  S ,  S S ||  ;  s s ,  n D  S ;  ||",
-                    "sahitya": "Khalu   la Ne     cchata      - Boga  dana  Sri"
+                    "sahitya": "Khalu   la Ne     cchata      - Boga  dana  Sri ||"
                 },
                 {
                     "swara": "; s    n d  S ,  S S ||  ;  s s ,  n D  S   R ||",
-                    "sahitya": "Khalu   la Ne     cchata      - Boga  dana  Sri ka"
+                    "sahitya": "Khalu   la Ne     cchata      - Boga  dana  Sri ka ||"
                 },
                 {
                     "swara": "G-  sr    G  S      ssnd  || md gs   nd - md  m- g S ||",
-                    "sahitya": "ra! Tya   -  ga    raa---    ja -  - -   - -   Van -   di ta!"
+                    "sahitya": "ra! Tya   -  ga    raa---    ja -  - -   - -   Van -   di ta! ||"
                 }
             ]
         }

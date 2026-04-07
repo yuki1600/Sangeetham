@@ -5,7 +5,8 @@
         "arohanam": "S G2 M1 D1 N2 S",
         "avarohanam": "S N2 D1 M1 G2 S (20th mela janya)",
         "tala": "Adi",
-        "composer": "Sadasiva Brahmendra"
+        "composer": "Sadasiva Brahmendra",
+        "compositionType": "Bhajan"
     },
     "composition": [
         {
@@ -13,19 +14,19 @@
             "content": [
                 {
                     "swara": "1. ;  n    s , M ,  ; gm , gsg |  M ;  ;  ;  ; G M D  ||",
-                    "sahitya": "Bha ja    re      go          pa                  lam                  maa\u2026\u2026na"
+                    "sahitya": "Bha ja    re      go          pa                  lam                  maa……na ||"
                 },
                 {
                     "swara": "; gs , D n | S ;  ; ;  ssnn dd mm ||",
-                    "sahitya": "sa Bhaja   re          go    pa                 lam                   maa      na  sa"
+                    "sahitya": "sa Bhaja   re          go    pa                 lam                   maa      na  sa ||"
                 },
                 {
                     "swara": ", gsg | M ; ; ;  ; dmM  gm D ||",
-                    "sahitya": "Bha ja    re      go          pa                lam                  maa\u2026\u2026  na"
+                    "sahitya": "Bha ja    re      go          pa                lam                  maa……  na ||"
                 },
                 {
                     "swara": "dm sg s D n | S ;  ; ;  gmdn sn dm ||",
-                    "sahitya": "sa Bhaja   re            go    pa                 lam                 maa      na  sa"
+                    "sahitya": "sa Bhaja   re            go    pa                 lam                 maa      na  sa ||"
                 }
             ]
         },
@@ -34,19 +35,19 @@
             "content": [
                 {
                     "swara": "S ndD ||",
-                    "sahitya": "Bha ja   go      pa         lam                 bha ji     ta ku  che\u2026\u2026\u2026lam"
+                    "sahitya": "Bha ja   go      pa         lam                 bha ji     ta ku  che………lam ||"
                 },
                 {
                     "swara": "dd, ns ; S  | ; n n , s  S nsgm gs ndD  ||",
-                    "sahitya": "Bha ja  go           pa    lam                bha ji      ta ku  che            lam"
+                    "sahitya": "Bha ja  go           pa    lam                bha ji      ta ku  che            lam ||"
                 },
                 {
                     "swara": "2a. ; n    s , mgs sngs nd N | ; d n , d   M M , g dm gs ||",
-                    "sahitya": "Tri ja   gan     moo         lam              di thi     su tha kaa             lam"
+                    "sahitya": "Tri ja   gan     moo         lam              di thi     su tha kaa             lam ||"
                 },
                 {
                     "swara": "mg sndm ||",
-                    "sahitya": "Tri ja       gan    moo        lam               di thi    su tha    kaa            lam"
+                    "sahitya": "Tri ja       gan    moo        lam               di thi    su tha    kaa            lam ||"
                 }
             ]
         }

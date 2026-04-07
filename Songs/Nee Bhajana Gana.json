@@ -5,7 +5,8 @@
         "arohanam": "S R2 M1 P D2 N2 D2 P S ||",
         "avarohanam": "S N2 , D2 P M1 R2 G2 , R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "N ;  ; ;  ; ;  D D  | P - D    ; P  mpdp  mpdp  ||",
-                    "sahitya": "Nee  - -  - -  Bhaja   na Gaa    -  na    Ra-si-  ku-la-"
+                    "sahitya": "Nee  - -  - -  Bhaja   na Gaa    -  na    Ra-si-  ku-la- ||"
                 },
                 {
                     "swara": "D N  dpmr rmpd N - dd  | P - Dnd   D- P  mpdp  mpdp  ||",
-                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na    Ra-si-  ku-la-"
+                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na    Ra-si-  ku-la- ||"
                 },
                 {
                     "swara": "D rs  D N  dpmp ,m - dd  | P - Dnd   D- P  mpdp  mpdp  ||",
-                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na    Ra-si-  ku-la-"
+                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na    Ra-si-  ku-la- ||"
                 },
                 {
                     "swara": "D rs  D N  dpmp ,m - dd  | P - Dnd   D- P  ; mp , d P,d  ||",
-                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na     Rasi-    ku-la-"
+                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na     Rasi-    ku-la- ||"
                 },
                 {
                     "swara": "dpmr  R G  rs R ; r   p  | mr - R     G- R   S ;  r  m p d  ||",
-                    "sahitya": "ne- -  -   -  - - -  - Nen   du-  gaa    -    na   raa-  Raa-maa!-"
+                    "sahitya": "ne- -  -   -  - - -  - Nen   du-  gaa    -    na   raa-  Raa-maa!- ||"
                 },
                 {
                     "swara": "N N  dpmr rmpd N - dd  | P - Dnd   D- P  ; mp , d   N ||",
-                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na    Rasi-    ku la-"
+                    "sahitya": "Nee  - -  - - - -  -    Bhaja  na Gaa     -  na    Rasi-    ku la- ||"
                 },
                 {
                     "swara": "dpmr  R G  rs R ; r   p  | mr - R     G- R   S ;  r  m p d  ||",
-                    "sahitya": "ne- -  -   -  - - -  - Nen   du-  gaa    -    na   raa-  Raa-- maa!"
+                    "sahitya": "ne- -  -   -  - - -  - Nen   du-  gaa    -    na   raa-  Raa-- maa! ||"
                 },
                 {
                     "swara": "N ;  ; ;  ; ;  dp D  | P ;  ; ;  ; ;  ; ;   ||",
-                    "sahitya": "Nee  - -  - -   - - -    - -  - -  - -  - -"
+                    "sahitya": "Nee  - -  - -   - - -    - -  - -  - -  - - ||"
                 }
             ]
         },
@@ -50,27 +51,27 @@
             "content": [
                 {
                     "swara": "S ;  ; S  S - sg  rs ns  | ,n - R     S R  R G R -S  ||",
-                    "sahitya": "Sri - bha va Sa ro  -    -     jaa     - sa    naa-  di Saa"
+                    "sahitya": "Sri - bha va Sa ro  -    -     jaa     - sa    naa-  di Saa ||"
                 },
                 {
                     "swara": "R ;  ; ;  ; P p D p | S N  R ;  S ;  ; ;  ||",
-                    "sahitya": "Chi-  - -  - -  - - - -  - - -  - -  - -  - -"
+                    "sahitya": "Chi-  - -  - -  - - - -  - - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "S ;  ; S  S - sg  rs ns  | ,n - R     S R  R G R -S  ||",
-                    "sahitya": "Sri - bha va Sa ro  -    -     jaa     - sa    naa-  di Saa"
+                    "sahitya": "Sri - bha va Sa ro  -    -     jaa     - sa    naa-  di Saa ||"
                 },
                 {
                     "swara": "R ;  ; ;  R gg rs D | D nn  dpmr  Rgg  rs R  ||",
-                    "sahitya": "Chi-  - -  - -  - - - -  - - -  - -  - -  - -"
+                    "sahitya": "Chi-  - -  - -  - - - -  - - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "S ;  ; S  S - sg  rs ns  | ,n - R     S rp  mg ;  R -S  ||",
-                    "sahitya": "Sri - bha va Sa ro  -    -     jaa     - sa    naa-  di Saa"
+                    "sahitya": "Sri - bha va Sa ro  -    -     jaa     - sa    naa-  di Saa ||"
                 },
                 {
                     "swara": "ns R  S - P   ;  P  R S  | ; D N -dp   rm rm  pmpd ||",
-                    "sahitya": "chi-  Ma no -  ra mana  - Van- dya- -   I -  la-  lo - - -"
+                    "sahitya": "chi-  Ma no -  ra mana  - Van- dya- -   I -  la-  lo - - - ||"
                 }
             ]
         },
@@ -79,59 +80,59 @@
             "content": [
                 {
                     "swara": "; s   r , s-  sd  , p - P  R S  |  ; mp , d N D  P  mp dn ||",
-                    "sahitya": "Sagu - na Nir  - -  gu na mu      Nija  da -  bbara la -nu-"
+                    "sahitya": "Sagu - na Nir  - -  gu na mu      Nija  da -  bbara la -nu- ||"
                 },
                 {
                     "swara": "dpmr  R G  R S  m R m  |  P - D    ; D  N N  D    P ||",
-                    "sahitya": "Shan-  mata mula  Mar- -     ma ma   - shta   Si  -  ddhula"
+                    "sahitya": "Shan-  mata mula  Mar- -     ma ma   - shta   Si  -  ddhula ||"
                 },
                 {
                     "swara": "; s   r , s-  sd  , p - P  R S  |  ; mp r- sd N D  P  mp dn ||",
-                    "sahitya": "Sagu - na Nir  - -  gu na mu      Nija -  da -  bbara la -nu-"
+                    "sahitya": "Sagu - na Nir  - -  gu na mu      Nija -  da -  bbara la -nu- ||"
                 },
                 {
                     "swara": "dpmr  R G  R S  m R m  |  P - D    ; dp  pdN N  D    P ||",
-                    "sahitya": "Shan-  mata mula  Mar- -     ma ma   - shta   Si  -   - ddhula"
+                    "sahitya": "Shan-  mata mula  Mar- -     ma ma   - shta   Si  -   - ddhula ||"
                 },
                 {
                     "swara": "; s   r , s-  sd  , p - P  R S  |  ; mp r- sd N D  P  mp dn ||",
-                    "sahitya": "Sagu - na Nir  - -  gu na mu      Nija -  da -  bbara la -nu-"
+                    "sahitya": "Sagu - na Nir  - -  gu na mu      Nija -  da -  bbara la -nu- ||"
                 },
                 {
                     "swara": "dpmr  G G  R S  m R m  |  P - D    ; dr  N N  D    P ||",
-                    "sahitya": "Shan-  mata mula  Mar- -     ma ma   - shta   Si  -   - ddhula"
+                    "sahitya": "Shan-  mata mula  Mar- -     ma ma   - shta   Si  -   - ddhula ||"
                 },
                 {
                     "swara": "; p d , p - S  ; S  r r s n  |  S - R     S  R   R G  R - S  ||",
-                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni"
+                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni ||"
                 },
                 {
                     "swara": "R ;  ; ;  ; ; S ;  | ; ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- -  - -  - -  - -    - -  - -  - -  - -"
+                    "sahitya": "- -  - -  - -  - -    - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "; p d , p - S  ; S  r r s n  |  S - R     S  R   R G  R - S  ||",
-                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni"
+                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni ||"
                 },
                 {
                     "swara": "R ;  ; ;  R gg rs D | D nn  dpmr  Rgg  rs R  ||",
-                    "sahitya": "- -  - -  - - - - -    - -  - - -  - -  - -"
+                    "sahitya": "- -  - -  - - - - -    - -  - - -  - -  - - ||"
                 },
                 {
                     "swara": "S-p d , p - S  ; sg  r r s n  |  S - R     S  rp   mg- ;  R - S  ||",
-                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni"
+                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni ||"
                 },
                 {
                     "swara": "N R  ;  S  P ;   P R  |  S - D N -dp   rm rm  pmpd ||",
-                    "sahitya": "Varaa -  na na-   Tya-   ga   raa   -  ja-    Vi- nu- ta! - -"
+                    "sahitya": "Varaa -  na na-   Tya-   ga   raa   -  ja-    Vi- nu- ta! - - ||"
                 },
                 {
                     "swara": ";-p d , p - S  ; sg  r r s n  |  S - R     S  rp   mg- ;  R - S  ||",
-                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni"
+                    "sahitya": "Vaga - lu  Ju - pa  San--    ta   Sil     -   li   Gan-  ti     ni ||"
                 },
                 {
                     "swara": "N R  ;  S  ns P   P R  |  S - D N -dp   rm rm  pmpd ||",
-                    "sahitya": "Varaa -  na na-   Tya-   ga   raa   -  ja-    Vi- nu- ta! - -"
+                    "sahitya": "Varaa -  na na-   Tya-   ga   raa   -  ja-    Vi- nu- ta! - - ||"
                 }
             ]
         }

@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 P D2 S || AVA: S N3 D2 P M1 G3 R2 S ||",
         "avarohanam": "S R2 G3 P D2 S || AVA: S N3 D2 P M1 G3 R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,27 +14,27 @@
             "content": [
                 {
                     "swara": "S ;  R ;  mg G P ;    ; ;  ; ;      ; D  , dgr    |  S ;  ; ;  SN ND        D P ; ;  ppmg RG    ||",
-                    "sahitya": "Do  ra  ku-- -  na-   - - - -     - I - - tu--     Van- -   - -  ti - -       Se -  - -  va - - - - -"
+                    "sahitya": "Do  ra  ku-- -  na-   - - - -     - I - - tu--     Van- -   - -  ti - -       Se -  - -  va - - - - - ||"
                 },
                 {
                     "swara": "gr S  R ;  mg G P ;    ; ;  dpmg   R- D  , dgr    |  S rg RS   SN ND       Pdn D P  ppmg RG    ||",
-                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -     -  I - - tu--      Van- -       - -  ti - -       Se -  - -  va - - - - -"
+                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -     -  I - - tu--      Van- -       - -  ti - -       Se -  - -  va - - - - - ||"
                 },
                 {
                     "swara": "gr S  R ;  mg G pd S  snnd  dppm  gr- G  pd S    |  sn D R ;   sr G rs nd       pd S snnd   dp-dpmg rg   ||",
-                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -          -  I - tu-- -       Van- -      ti - - - - -        Se -  - -        - -  va - - - -  -"
+                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -          -  I - tu-- -       Van- -      ti - - - - -        Se -  - -        - -  va - - - -  - ||"
                 },
                 {
                     "swara": "gr S  R ;  mg G pd S  sndp pmgr   rg P- mgpd    |  Snd grgr  sn- ds gr -sn     d-sns- dn -pn  dp-dp mgrg   ||",
-                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -       I - -   tu-- -       - - -  Van- -    - -  - -  - - ti -    -  Se -  - -   -    - - va - - -"
+                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -       I - -   tu-- -       - - -  Van- -    - -  - -  - - ti -    -  Se -  - -   -    - - va - - - ||"
                 },
                 {
                     "swara": "gr S  grR  mg G dpP   nd D-S sn   D - R R ;    |  srgp mg- rm gr - sgrs nd    pd gr  rs sn   nd dp-mgrg     ||",
-                    "sahitya": "Do  ra   ku-- -  na-   - - - - - -       -    I  tu-- -   Van- - -    - -      - -   ti - - - -   Se -  - -   -    - - va - - -"
+                    "sahitya": "Do  ra   ku-- -  na-   - - - - - -       -    I  tu-- -   Van- - -    - -      - -   ti - - - -   Se -  - -   -    - - va - - - ||"
                 },
                 {
                     "swara": "gr S  R ;  mg G P ;    ; ;  dpmg   R- D  , dgr    |  S ; ; ;      ; ; S ;      snrs sn nd D - S ; ;     ||",
-                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -     -  I - - tu--      Van- -      - - ti -      Se -  - -   -    va - -"
+                    "sahitya": "Do  ra  ku-- -  na-   - - - - - -     -  I - - tu--      Van- -      - - ti -      Se -  - -   -    va - - ||"
                 }
             ]
         },
@@ -42,23 +43,23 @@
             "content": [
                 {
                     "swara": "D ; D ;  D ; drsn     P ; dp pm     gr - G  , P ,    |  ; D , S ,  ; S    S  ; snrs sn nd     D - S   S ;  ||",
-                    "sahitya": "Do- ra -  ku- - - -     na- - - - -      - -   Al - pa       - Ta  pa  - Mo na  rin-- - - - -    -     chi na"
+                    "sahitya": "Do- ra -  ku- - - -     na- - - - -      - -   Al - pa       - Ta  pa  - Mo na  rin-- - - - -    -     chi na ||"
                 },
                 {
                     "swara": "sn D D ; D ; drsn     P ; dp pm     gr - G  , P ,    |  ; D , S ,  ; S    S  ;  snrs sn nd     D - S   S ;  ||",
-                    "sahitya": "Do- ra -  ku- - - -     na- - - - -      - -   Al - pa       - Ta  pa  - Mo na   rin-- - - - -    -     chi na"
+                    "sahitya": "Do- ra -  ku- - - -     na- - - - -      - -   Al - pa       - Ta  pa  - Mo na   rin-- - - - -    -     chi na ||"
                 },
                 {
                     "swara": "dSn dSn dp ; drsn    dp- pn dp pm     gr - G  , P ,    |  ; D , S ,  ; S    S  ;  snrs sn nd     D - R  R S   ||",
-                    "sahitya": "Do- ra -  ku- - - -     - -  na- - - - -      - -   Al - pa      - Ta  pa  - Mo na   rin-- - - - -    -     chi na"
+                    "sahitya": "Do- ra -  ku- - - -     - -  na- - - - -      - -   Al - pa      - Ta  pa  - Mo na   rin-- - - - -    -     chi na ||"
                 },
                 {
                     "swara": "grsn rsnd  sndp pd gr    sn -ds nd  pm   gr - G  , P ,    |  ; D , S ,  ; S    S  ;  snrs sn nd     D - R  R S   ||",
-                    "sahitya": "Do- ra -    ku- - na- - - - - -  -   -  -   - - - - - Al - pa      - Ta  pa  - Mo na   rin-- - - - -    -     chi na"
+                    "sahitya": "Do- ra -    ku- - na- - - - - -  -   -  -   - - - - - Al - pa      - Ta  pa  - Mo na   rin-- - - - -    -     chi na ||"
                 },
                 {
                     "swara": "R ; rgmg ;   R;  S ;   SN ND    DP - DR  | sRs sndn  dP , - Dnd   Pdp ppmg   gr S R G  ||",
-                    "sahitya": "Bhu- - -       su- ra   Va- ru-     la-    kai-    - - -   - - -           na-    Su - -   ra-  la- - -   kai - na  -"
+                    "sahitya": "Bhu- - -       su- ra   Va- ru-     la-    kai-    - - -   - - -           na-    Su - -   ra-  la- - -   kai - na  - ||"
                 }
             ]
         },
@@ -67,27 +68,27 @@
             "content": [
                 {
                     "swara": "S;   RG    P P -  , p D     P - P dp   G R -  R R S ;   | ; S r G-   rs    ; S   sn D   ; S   r   G - rg  P - P P ;||",
-                    "sahitya": "Ta  masa Guna    Rahi    ta  Munu  laku   Poga da    -Taramu Gaa - ka ne --   - Bramasi  yun-   daga"
+                    "sahitya": "Ta  masa Guna    Rahi    ta  Munu  laku   Poga da    -Taramu Gaa - ka ne --   - Bramasi  yun-   daga ||"
                 },
                 {
                     "swara": "S;   RG    P P -  , p D     P - dp dp   G R -  R R S ;   |  S R G-   rs    ; S   sn D   ; S   r   G - rg  P - P P ;||",
-                    "sahitya": "Ta  masa Guna    Rahi    ta  Munu  laku   Poga da    -Taramu Gaa - ka ne --   - Bramasi  yun-   daga"
+                    "sahitya": "Ta  masa Guna    Rahi    ta  Munu  laku   Poga da    -Taramu Gaa - ka ne --   - Bramasi  yun-   daga ||"
                 },
                 {
                     "swara": "dpmg   P D   dr  sn   D P    Pds D P    Pdp mg R ;  | ; g p m- mgr   S S   S D  S, r  G G    P ; ; ;   ||",
-                    "sahitya": "Sree-- math- Ka-na- ka pu Tho- - tla  Pai-- - -  ni    Chelu-  vun-- daga Kolu vun- - da   ga - - -"
+                    "sahitya": "Sree-- math- Ka-na- ka pu Tho- - tla  Pai-- - -  ni    Chelu-  vun-- daga Kolu vun- - da   ga - - - ||"
                 },
                 {
                     "swara": "Dnd  dp dp  P M    mg gr    G P  D ;   drsn dp D  |  S ;   S  S      S  S  ; S      snrs  sn nd   D - D S ;  ||",
-                    "sahitya": "Kaa- mi tha Phala daa- -     yaki yau  See- tha- -   Kan thuni    Gani - Yup  pon- - - - -   -    da ga"
+                    "sahitya": "Kaa- mi tha Phala daa- -     yaki yau  See- tha- -   Kan thuni    Gani - Yup  pon- - - - -   -    da ga ||"
                 },
                 {
                     "swara": "sn D  D - G  ; R - S R   G - rs S ; - gr   sn dp D ; | D ; D - dr   s R s  sn dp    Pdn D P   dpmg R ;   ||",
-                    "sahitya": "Ra- -  ma Bhram  - ha Tana  yu dau--   Tyaa - - -  ga-   raa- ju Ta- paa- - du-chu Nun- - cha ga - -  - -"
+                    "sahitya": "Ra- -  ma Bhram  - ha Tana  yu dau--   Tyaa - - -  ga-   raa- ju Ta- paa- - du-chu Nun- - cha ga - -  - - ||"
                 },
                 {
                     "swara": "D     d   g   R     r  r   * R    s n     D    d d   * R     s   s    d   p  D     *   p - d  d  p   m  g  r  g    ||",
-                    "sahitya": "Kaa muni Chin maya  Roopuni  Sad guna   Dhaamuni Kanu laa        ra Madini  Kanuguna"
+                    "sahitya": "Kaa muni Chin maya  Roopuni  Sad guna   Dhaamuni Kanu laa        ra Madini  Kanuguna ||"
                 }
             ]
         }

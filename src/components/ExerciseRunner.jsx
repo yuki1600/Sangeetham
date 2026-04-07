@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Smartphone, RotateCw, Music, Play, Pause, ArrowLeft, Volume2, VolumeX } from 'lucide-react';
+import { Smartphone, RotateCw, Music, Play, Pause, ArrowLeft, Volume2, VolumeX, Mic, MicOff } from 'lucide-react';
 import PitchVisualizer from './PitchVisualizer';
-import NoteQueue from './NoteQueue';
-import { startMic, stopMic, getAudioBuffer, getSampleRate, hasSignal } from '../utils/audioEngine';
-import { initPitchDetector, detectPitch, extractPitchCurveFromAudio } from '../utils/pitchDetection';
+import { startMic, stopMic } from '../utils/audioEngine';
+import { initPitchDetector, extractPitchCurveFromAudio } from '../utils/pitchDetection';
 import { hzToSwara, simpleSwaraToHz, TONIC_PRESETS } from '../utils/swaraUtils';
 import { startDrone, stopDrone, isDronePlaying } from '../utils/droneEngine';
+import { usePitchDetection } from '../hooks/usePitchDetection';
+import { usePitchDetectionEnabled } from '../hooks/usePitchDetectionEnabled';
 
 /**
  * ExerciseRunner — orchestrates the guided practice session.
@@ -19,7 +20,6 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
     const [fullReferencePitchCurve, setFullReferencePitchCurve] = useState(null);
     const [audioCurrentTime, setAudioCurrentTime] = useState(0);
     const [micReady, setMicReady] = useState(false);
-    const [currentSwara, setCurrentSwara] = useState(null);
     const [referenceSwara, setReferenceSwara] = useState(null);
     const [isPlaying, setIsPlaying] = useState(true);
 
@@ -32,9 +32,66 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
     const startTimeRef = useRef(null);
     const noteStartRef = useRef(null);
     const animFrameRef = useRef(null);
-    const lastProcessTimeRef = useRef(0);
     const loopsRef = useRef(0);
     const [droneActive, setDroneActive] = useState(isDronePlaying());
+
+    // Refs read by the pitch-detection onSample callback so the loop never has
+    // to restart when these change.
+    const currentNoteIndexRef = useRef(currentNoteIndex);
+    const currentTargetRef = useRef(null);
+    const tonicHzRef = useRef(tonicHz);
+    useEffect(() => { currentNoteIndexRef.current = currentNoteIndex; }, [currentNoteIndex]);
+    useEffect(() => { tonicHzRef.current = tonicHz; }, [tonicHz]);
+
+    // Live pitch via shared hook. Sample callback handles scoring + history.
+    const handlePitchSample = useCallback((smoothHz, swaraInfo) => {
+        const target = currentTargetRef.current;
+        const noteIdx = currentNoteIndexRef.current;
+        const tonic = tonicHzRef.current;
+        const sampleTime = (exercise.audioUrl && audioRef.current)
+            ? audioRef.current.currentTime * 1000
+            : performance.now();
+
+        if (smoothHz && swaraInfo) {
+            setPitchHistory(prev => {
+                const next = [...prev, { time: sampleTime, hz: smoothHz }];
+                return next.filter(p => sampleTime - p.time < 10000);
+            });
+
+            if (target && scoresRef.current[noteIdx]) {
+                const targetHz = simpleSwaraToHz(target.swara, tonic);
+                if (targetHz) {
+                    const targetInfo = hzToSwara(targetHz, tonic);
+                    if (targetInfo) {
+                        const dev = Math.abs(swaraInfo.cents - targetInfo.cents);
+                        const adjDev = dev > 600 ? 1200 - dev : dev;
+                        scoresRef.current[noteIdx].push(adjDev <= 35 ? 1 : 0);
+                    }
+                }
+            }
+        } else {
+            setPitchHistory(prev => {
+                const next = [...prev, { time: sampleTime, hz: null }];
+                return next.filter(p => sampleTime - p.time < 10000);
+            });
+        }
+
+        // Reference pitch tracking
+        if (target && exercise.audioUrl && audioRef.current) {
+            const refHz = simpleSwaraToHz(target.swara, tonic);
+            if (refHz) {
+                const refSwaraInfo = hzToSwara(refHz, tonic);
+                setReferenceSwara({ ...refSwaraInfo, hz: refHz });
+            }
+        }
+    }, [exercise.audioUrl]);
+
+    const [pitchEnabled, setPitchEnabled] = usePitchDetectionEnabled();
+
+    const { pitchData: currentSwara } = usePitchDetection(tonicHz, {
+        enabled: phase === 'playing' && micReady && pitchEnabled,
+        onSample: handlePitchSample,
+    });
 
     const toggleDrone = useCallback(async () => {
         if (droneActive) {
@@ -48,8 +105,7 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
 
     const sequence = exercise.sequence;
     const currentTarget = sequence[currentNoteIndex];
-
-
+    useEffect(() => { currentTargetRef.current = currentTarget; }, [currentTarget]);
 
     // Start mic and audio when playing begins
     useEffect(() => {
@@ -148,113 +204,6 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
             setIsPlaying(true);
         }
     }, [isPlaying]);
-
-    // Pitch detection loop
-    useEffect(() => {
-        if (phase !== 'playing' || !micReady) return;
-
-        let rafId;
-        let smoothHz = null;
-        const hzHistory = [];
-
-        const loop = () => {
-            const buffer = getAudioBuffer();
-            if (buffer) {
-                const rawHz = detectPitch(buffer);
-                const now = performance.now();
-
-                // Target 10 samples per second (100ms interval) for responsive trail
-                if (now - lastProcessTimeRef.current < 100) {
-                    rafId = requestAnimationFrame(loop);
-                    return;
-                }
-                lastProcessTimeRef.current = now;
-
-                if (rawHz) {
-                    hzHistory.push(rawHz);
-                    if (hzHistory.length > 3) hzHistory.shift();
-
-                    const sorted = [...hzHistory].sort((a, b) => a - b);
-                    const median = sorted[Math.floor(sorted.length / 2)];
-
-                    if (smoothHz === null || Math.abs(smoothHz - median) > 30) {
-                        smoothHz = median;
-                    } else {
-                        smoothHz = smoothHz * 0.8 + median * 0.2;
-                    }
-                } else {
-                    hzHistory.push(null);
-                    if (hzHistory.length > 3) hzHistory.shift();
-                    if (hzHistory.every(h => h === null)) {
-                        smoothHz = null;
-                    }
-                }
-
-                if (smoothHz) {
-                    const swaraInfo = hzToSwara(smoothHz, tonicHz);
-                    if (swaraInfo) {
-                        setCurrentSwara({
-                            ...swaraInfo,
-                            hz: smoothHz,
-                            deviation: Math.round(swaraInfo.deviation)
-                        });
-                    } else {
-                        setCurrentSwara(null);
-                    }
-
-                    // Add to pitch history
-                    const sampleTime = (exercise.audioUrl && audioRef.current)
-                        ? audioRef.current.currentTime * 1000
-                        : now;
-
-                    setPitchHistory(prev => {
-                        const newHistory = [...prev, { time: sampleTime, hz: smoothHz }];
-                        // Keep last 10 seconds
-                        const window = 10000;
-                        return newHistory.filter(p => sampleTime - p.time < window);
-                    });
-
-                    // Score: check if pitch is close to target
-                    if (scoresRef.current[currentNoteIndex]) {
-                        const targetHz = simpleSwaraToHz(currentTarget.swara, tonicHz);
-                        if (targetHz) {
-                            const targetInfo = hzToSwara(targetHz, tonicHz);
-                            if (swaraInfo && targetInfo) {
-                                const dev = Math.abs(swaraInfo.cents - targetInfo.cents);
-                                // Handle wrap at octave boundary
-                                const adjDev = dev > 600 ? 1200 - dev : dev;
-                                const isHit = adjDev <= 35;
-                                scoresRef.current[currentNoteIndex].push(isHit ? 1 : 0);
-                            }
-                        }
-                    }
-                } else {
-                    const sampleTime = (exercise.audioUrl && audioRef.current)
-                        ? audioRef.current.currentTime * 1000
-                        : now;
-                    setPitchHistory(prev => {
-                        const newHistory = [...prev, { time: sampleTime, hz: null }];
-                        return newHistory.filter(p => sampleTime - p.time < 10000);
-                    });
-                }
-
-                // --- Handle Reference Pitch (Audio File) ---
-                if (exercise.audioUrl && audioRef.current) {
-                    const refHz = simpleSwaraToHz(currentTarget.swara, tonicHz);
-                    if (refHz) {
-                        const refSwaraInfo = hzToSwara(refHz, tonicHz);
-                        setReferenceSwara({ ...refSwaraInfo, hz: refHz });
-                    }
-                }
-            }
-
-            rafId = requestAnimationFrame(loop);
-        };
-
-        rafId = requestAnimationFrame(loop);
-
-        return () => cancelAnimationFrame(rafId);
-    }, [phase, micReady, tonicHz, currentNoteIndex, currentTarget, exercise.audioUrl, isPlaying]);
 
     // Handle tonicHz (Shruti) changes dynamically
     useEffect(() => {
@@ -376,7 +325,26 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
                         </button>
                     )}
 
-                    {currentSwara ? (
+                    <button
+                        onClick={() => setPitchEnabled(!pitchEnabled)}
+                        title={pitchEnabled ? 'Turn off live pitch detection' : 'Turn on live pitch detection'}
+                        className={`w-11 h-11 flex items-center justify-center rounded-xl border transition-all duration-300 flex-shrink-0 ${
+                            pitchEnabled
+                                ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30 hover:bg-emerald-500/25'
+                                : 'bg-white/5 text-[var(--text-muted)] border-white/10 hover:text-white/80 hover:bg-white/10'
+                        }`}
+                    >
+                        {pitchEnabled ? <Mic className="w-4 h-4" /> : <MicOff className="w-4 h-4" />}
+                    </button>
+
+                    {!pitchEnabled ? (
+                        <div className="flex items-center gap-3 opacity-50">
+                            <MicOff className="w-4 h-4 text-[var(--text-muted)]" />
+                            <span className="text-xs font-bold tracking-[0.2em] uppercase text-[var(--text-muted)]">
+                                Pitch Detection Off
+                            </span>
+                        </div>
+                    ) : currentSwara ? (
                         <div className="flex items-center gap-5 themed-glass px-6 py-2 rounded-2xl fade-in">
                             <div className={`text-4xl font-black transition-colors duration-300 ${Math.abs(currentSwara.deviation) <= 15 ? 'text-emerald-400' :
                                 Math.abs(currentSwara.deviation) <= 35 ? 'text-yellow-400' : 'text-[var(--text-secondary)]'

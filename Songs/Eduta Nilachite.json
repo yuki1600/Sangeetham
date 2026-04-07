@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 M1 P D2 N3 S ||",
         "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,151 +14,151 @@
             "content": [
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | SN DN     dp ;  P ; MD PG   Gmp Gmr ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du - Som - -   -  -     mu- -  - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du - Som - -   -  -     mu- -  - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | dnS sndn  dp ;  pmpm pSn d Pg   gmpm pmgr  ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du - Som - --   - - -   mu- -- -- - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du - Som - --   - - -   mu- -- -- - - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | dnsr sndn  dp ;  dnsr grsn dPg   gmpm pmgr  ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | dnsr grsn  dp ;  dnsr gmgr sndp  pmdp pmgr  ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "M md ppmg   gmP dnS   dnS nsR   Srs S Srs S  | dnsr grsn  dp ;  dnsr gmgr sndp  pmdp pmgr  ||",
-                    "sahitya": "E  du  ta  - --  Ni--  li - -   chi  - - -   te - - -  - - - -  Ni-  -  -- - du -  Som   - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  - --  Ni--  li - -   chi  - - -   te - - -  - - - -  Ni-  -  -- - du -  Som   - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "M md ppmg   gmP dnS   dnS nsR   Srs Srs Srs S  | dnsr grsn  dp ;  dnsr gmgr sndp  pmdp pmgr  ||",
-                    "sahitya": "E  du  ta  - --  Ni--  li - -   chi  - - -   te - - -  - - - -    Ni-  -  -- - du -  Som   - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  - --  Ni--  li - -   chi  - - -   te - - -  - - - -    Ni-  -  -- - du -  Som   - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "grmg rs S     D N S ; S N sn R  ; gm , dp p   | R S ; ;  ; ; grgr   Gmp mmG   grmg rs S ||",
-                    "sahitya": "Le- -  - - -    -    -  mi Bo-  - - -  -  - -    vu- -    ra?- - -  - - Ni---  Som- - - - -   mu- -- -- - - -"
+                    "sahitya": "Le- -  - - -    -    -  mi Bo-  - - -  -  - -    vu- -    ra?- - -  - - Ni---  Som- - - - -   mu- -- -- - - - ||"
                 },
                 {
                     "swara": "Smg rs S     D N S ; S N sn R  ; gm , dp p   | mg R S ;  ; ; grgr   Gmp mmG   grmg rs S ||",
-                    "sahitya": "Le- -  - - -    -    -  mi Bo-  - - -  -  - -    vu- -    ra?- - -  - - Ni---  Som- - - - -   mu- -- -- - - -"
+                    "sahitya": "Le- -  - - -    -    -  mi Bo-  - - -  -  - -    vu- -    ra?- - -  - - Ni---  Som- - - - -   mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm P;   ,r- gm , dp p   | R S ; ;  ; ; grgr   Gmp mmG   grmg rs S ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi Bo-  - - -  -   - -    vu- -    ra?- - -  - - Ni---  Som- - - - -   mu- -- -- - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi Bo-  - - -  -   - -    vu- -    ra?- - -  - - Ni---  Som- - - - -   mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm P;   ,r- gm , dp p   | R S ; ; ; ; M ;    pSn  dP ,g       Gmp Gmr ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi Bo-  - - -  -   - -    vu- -    ra?- - -  - - Ni---  Som- - - - -    mu- -- -- - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi Bo-  - - -  -   - -    vu- -    ra?- - -  - - Ni---  Som- - - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm pdns   grsn  dp mp   | R S ; ; ; ; M ;    pSn  dP ,g       Gmp Gmr ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi Bo-  - - -  -   - -   -  -vu   ra?- - -  - - Ni---  Som- - - - -    mu- -- -- - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi Bo-  - - -  -   - -   -  -vu   ra?- - -  - - Ni---  Som- - - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm pdns   grsn  dp mp   | R S ; ;     mgrs nd-gr     sn dp - rsnd   pm - gmp gmr ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | dnsr grsn  dp ;  dnsr gmgr sndp  pmdp pmgr  ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm pdns   grsn  dp mp   | R S ; ;     mgrs nd-gr     sn dp - rsnd   pm - gmp gmr ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | ; ; ; ;  ; ; ; ;  ; ; ; ;  ; ; ; ;   ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  - - - -  - - - -  - -- -  - - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  - - - -  - - - -  - -- -  - - - - ||"
                 },
                 {
                     "swara": "; S   sndn      d P, P ;      M D P , m     Gmp Gmr    | G ;  M ;  M P P ;   ; D ;  N   S  ; P D   ||",
-                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -       ni -   Ma      - -   ttu    - Mi-  -   ra - nu-"
+                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -       ni -   Ma      - -   ttu    - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "N- S  sdsn      d P, P ;      M D P , m      Gmp Gmr    | G ;  M dp  M P P ;  ; D ;  N    S  ; P D   ||",
-                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -       ni -  Ma      - -   ttu    - Mi-  -   ra - nu-"
+                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -       ni -  Ma      - -   ttu    - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "N- S  sdsn      d P, pmpm  pSn dPm      gmpm pmgr | G M  pdnd   drsn dP,  ; D ;  N   S  ; P D   ||",
-                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu-"
+                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "N- S  dnsn     d P, pmpm  pSn dPm      gmpm pmgr | mg M  pdnd   drsn dP,  ; D ;  N   S  ; P D   || (S;)",
-                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu-"
+                    "sahitya": "Nudu- -      ti- - Vraa   -   -   tha -      Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "S   rr sn - N    ss n d- D nn dp - P ddpm   gmpm pmgr | G M  M Pdp  M P P ;   ; D ;  N   S  ; S ;   ||",
-                    "sahitya": "Nudu- -    ti-    -- - -   Vraa ---     tha ----   Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu-"
+                    "sahitya": "Nudu- -    ti-    -- - -   Vraa ---     tha ----   Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "S   rr sn - N    ss n d- D nn dp - P ddpm   gmpm pmgr | mg M  pdnd   rrsn dP,  ; D ;  N   S  ; S ;   ||",
-                    "sahitya": "Nudu- -    ti-    -- - -   Vraa ---     tha ----   Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu-"
+                    "sahitya": "Nudu- -    ti-    -- - -   Vraa ---     tha ----   Gaa- - - -        ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "srgr   nsrs - dnsn  mpdn   srns dn pd  mp- gmp gmr  | mg M  pdnd   rrsn dP,  ; D ;  N   S  ; S ;   ||",
-                    "sahitya": "Nu-- du- -    ti-- -  Vraa -  -- - - -   tha ---- Gaa- - - -     ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu-"
+                    "sahitya": "Nu-- du- -    ti-- -  Vraa -  -- - - -   tha ---- Gaa- - - -     ni - -  Ma --   - - - ttu   - Mi-  -   ra - nu- ||"
                 },
                 {
                     "swara": "S ;   SN    sRs  ; S    sn R sn D sn P D N    | S ; ; ;    ; ; ; ;  ; ; ; ;  ; ; sr Gmg    ||",
-                    "sahitya": "Naa -  -    - - -  - Ta ra--  maa--         De—li -    si - - -  -  -  - -  - - - -  - - - - - - -"
+                    "sahitya": "Naa -  -    - - -  - Ta ra--  maa--         De—li -    si - - -  -  -  - -  - - - -  - - - - - - - ||"
                 },
                 {
                     "swara": "S ;   SN    sRs  ; S    sn R sn D sn P D N    | S ; SN  DN dP,   M D P - pp  mg- m P d N ||",
-                    "sahitya": "Naa -  -    - - -  - Ta ra--  maa--         De—li -    si - Mo- - - sa--  Bo- --    - -    - -   du- na?-"
+                    "sahitya": "Naa -  -    - - -  - Ta ra--  maa--         De—li -    si - Mo- - - sa--  Bo- --    - -    - -   du- na?- ||"
                 },
                 {
                     "swara": "S ;   ; Srg  rgmg rsS  ; S    sn R sn D     rsnp ; D N    | ns R- SN   DN dP,  M D P - pp  mg- m P d N ||",
-                    "sahitya": "Naa -  -    - - -  - - -  -  Ta  ra--  maa--   De—li -    si - -  Mo-  - - sa--  Bo- --    - -    - -   du- na?-"
+                    "sahitya": "Naa -  -    - - -  - - -  -  Ta  ra--  maa--   De—li -    si - -  Mo-  - - sa--  Bo- --    - -    - -   du- na?- ||"
                 },
                 {
                     "swara": "S ;   ; Srg  rgmg rsS  ; S    sn R sn D   rsnp ; D N    | ns R- SN   DN dP,  pmpm pSn  dPm pmgr ||",
-                    "sahitya": "Naa -  -    - - -  - - -  -  Ta  ra--  maa--   De—li -    si - -  Mo-  - - sa--  Bo- --    - -  du- - na?—"
+                    "sahitya": "Naa -  -    - - -  - - -  -  Ta  ra--  maa--   De—li -    si - -  Mo-  - - sa--  Bo- --    - -  du- - na?— ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | dnsr grsn  dp ;  dnsr gmgr sndp  pmdp pmgr  ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm pdns   grsn  dp mp   | R S ; ;     mgrs nd-gr     sn dp - rsnd   pm - gmp gmr ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | ; ; ; ;  ; ; ; ;  ; ; ; ;  ; ; ; ;   ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  - - - -  - - - -  - -- -  - - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  - - - -  - - - -  - -- -  - - - - ||"
                 },
                 {
                     "swara": "psn - dp , M    G R  G M    P   ppmg  R    pmgr S S  | S n  R ; s    D N S S   s d ppmg - gp  mgmr G M ||",
-                    "sahitya": "Ta--   raa- na   Dora  kani   Pa raa- --  ku  Naa—yeda   Nu- Raama Je - sithe  Su- raa---  su-  ru- - -  -  lu-"
+                    "sahitya": "Ta--   raa- na   Dora  kani   Pa raa- --  ku  Naa—yeda   Nu- Raama Je - sithe  Su- raa---  su-  ru- - -  -  lu- ||"
                 },
                 {
                     "swara": "psn - dp , M    GR   GM  pdnd ,mpdp ,mg gr pm grS S| S n  R ; s  D N S S   s d ppmg - gp  mgmr G M ||",
-                    "sahitya": "Ta--   raa—na  Dora  kaniPa raa- --    ku  Naa- - ye  daNu-Raama Je - sithe  Su- raa---  su-  ru- - -  -  lu-"
+                    "sahitya": "Ta--   raa—na  Dora  kaniPa raa- --    ku  Naa- - ye  daNu-Raama Je - sithe  Su- raa---  su-  ru- - -  -  lu- ||"
                 },
                 {
                     "swara": "pdnd , - mpdp , M GR GM  pdnd ,mpdp ,mg gr pm grS S| S n  R ; s  D N S S   s d ppmg - gp  mgmr G M ||",
-                    "sahitya": "Ta--   -  raa--- -  naDora  kaniPa raa- --    ku  Naa- - ye  daNu-Raama Je - sithe  Su- raa---  su-  ru- lu- Met-"
+                    "sahitya": "Ta--   -  raa--- -  naDora  kaniPa raa- --    ku  Naa- - ye  daNu-Raama Je - sithe  Su- raa---  su-  ru- lu- Met- ||"
                 },
                 {
                     "swara": "psn - dp , D    N S - S ,n    srg- r  S   - D    N S - M P  |   dnS  ;   sn   D P - MP   psn - dp , M mpmgr , mP||",
-                    "sahitya": "Tu--   raa- I   ppudu Yi--    Ha-  raa-   mi     tana   Me -     La-raa- Bha- ktha Tya- ga--    raa- jaNu-tha- Met-"
+                    "sahitya": "Tu--   raa- I   ppudu Yi--    Ha-  raa-   mi     tana   Me -     La-raa- Bha- ktha Tya- ga--    raa- jaNu-tha- Met- ||"
                 },
                 {
                     "swara": "psn - dp , D    N S - S ,n    srg- r  S   - D    N S - M P  |   dnS  ;   sn   D P - MP   psn - dp ,  M Gmp  Gmr ||",
-                    "sahitya": "Tu--   raa- I   ppudu Yi--    Ha-  raa-   mi     tana   Me -     La-raa- Bha- ktha Tya- ga--    raa- ja Nutha-Naa--"
+                    "sahitya": "Tu--   raa- I   ppudu Yi--    Ha-  raa-   mi     tana   Me -     La-raa- Bha- ktha Tya- ga--    raa- ja Nutha-Naa-- ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | dnsr grsn  dp ;  dnsr gmgr sndp  pmdp pmgr  ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  Ni-  -  -      du -  Som - --   - - -    mu- -- -- - - - ||"
                 },
                 {
                     "swara": "sr Gmg rs S     D N S ; srgm pdns   grsn  dp mp   | R S ; ;     mgrs nd-gr     sn dp - rsnd   pm - gmp gmr ||",
-                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - -"
+                    "sahitya": "Le- -  - - -    -    -  - mi -Bo-  - - -  -   - -   -  -vu   ra?- - -      Ni-- - -- Som- - - - -   - - -   - -      mu--  - - - ||"
                 },
                 {
                     "swara": "M G  M ;    P ; P ;   D ;  N ;   S ; ; ;  | ; ; ; ;  ; ; ; ;  ; ; ; ;  ; ; ; ;   ||",
-                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  - - - -  - - - -  - -- -  - - - -"
+                    "sahitya": "E  du  ta  -  Ni- la-   chi  - -    te - - -  - - - -  - - - -  - -- -  - - - - ||"
                 }
             ]
         }

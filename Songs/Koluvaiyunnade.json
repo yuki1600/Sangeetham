@@ -5,7 +5,8 @@
         "arohanam": "S R M P D S || {alt: S R G R M P D N S} AVA: S N D , P M G R , S || )",
         "avarohanam": "S R M P D S || {alt: S R G R M P D N S} AVA: S N D , P M G R , S || )",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "(ARO: S R M P D S || {alt: S R G R M P D N S} AVA: S N D , P M G R , S  ||)",
-                    "sahitya": "Talam: Adi"
+                    "sahitya": "Talam: Adi ||"
                 },
                 {
                     "swara": "; n   d P ;   mg R  rs rg | gMg  R ;  ;  ;  ; ;  ||",
-                    "sahitya": "Kolu    vai yun na --   de --   --"
+                    "sahitya": "Kolu    vai yun na --   de --   -- ||"
                 },
                 {
                     "swara": "; n   d P ;   mg R  rs rg | gMg  R - R , dd   p  mp dd  ||",
-                    "sahitya": "Kolu    vai yun na --   de --   --  Ko  dan-da  pa -"
+                    "sahitya": "Kolu    vai yun na --   de --   --  Ko  dan-da  pa - ||"
                 },
                 {
                     "swara": "d r- s   n   nd P    mg R  rs rg | gMg  R - R , dd   p  mp dd  ||",
-                    "sahitya": "-ni Kolu  vai  -- yun na --   de --   --  Ko  dan-da  pa -"
+                    "sahitya": "-ni Kolu  vai  -- yun na --   de --   --  Ko  dan-da  pa - ||"
                 },
                 {
                     "swara": "d r- s   n Dnd P    mg R  rs rg | gMg  R - D , dd   p  mp dd  ||",
-                    "sahitya": "-ni Kolu  vai  -- yun na --   de --   --  Ko  dan-da  pa -"
+                    "sahitya": "-ni Kolu  vai  -- yun na --   de --   --  Ko  dan-da  pa - ||"
                 },
                 {
                     "swara": "d r- s   n  Dnd P    Mpm mg  rs rg | gMg  R - D , dd   p  mp dd  ||",
-                    "sahitya": "-ni Kolu  vai  -- yun   --    na --   de --   --  Ko  dan-da  pa -"
+                    "sahitya": "-ni Kolu  vai  -- yun   --    na --   de --   --  Ko  dan-da  pa - ||"
                 },
                 {
                     "swara": "d r- s   n  Dnd Pdp Mpm mg  rs rg | gMg  R - D , dd   p  mp dd  ||",
-                    "sahitya": "-ni Kolu  vai  -- yun   --    na --   de --   --  Ko  dan-da  pa -"
+                    "sahitya": "-ni Kolu  vai  -- yun   --    na --   de --   --  Ko  dan-da  pa - ||"
                 },
                 {
                     "swara": "d r- s   n  Dnd Pdp Mpm mg  rs rg | gMg  R  ;  ; ;  ; ;   ||",
-                    "sahitya": "-ni Kolu  vai  -- yun   --    na --   de --   --  -   - -  - -"
+                    "sahitya": "-ni Kolu  vai  -- yun   --    na --   de --   --  -   - -  - - ||"
                 }
             ]
         },
@@ -50,23 +51,23 @@
             "content": [
                 {
                     "swara": "; mg r  , p M  dd   P  mp D | ; sn d - r S  sn d-  d dNd ||",
-                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai--"
+                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai-- ||"
                 },
                 {
                     "swara": "P- mg r  , p M  dd   P  mp mpD | ; sn d - r S  sn d-  d dNd ||",
-                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai--"
+                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai-- ||"
                 },
                 {
                     "swara": "P- mg r  , p M  dd   P  mp mpD | ; sn d - r S  sn d-  d nsR ||",
-                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai--"
+                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai-- ||"
                 },
                 {
                     "swara": "; - sndp   ,  mg R  dd   P mp mpD | ; sn d - r S  sn d-  d nsR ||",
-                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai--"
+                    "sahitya": "Sa  la  li tha  Ma-thu   lai - -    Sa -  -    raku Shee—lu lai-- ||"
                 },
                 {
                     "swara": "; r mg  ,  r R  sn D  ns mg  | gr - sn   d - n dp   mg R mp dd ||",
-                    "sahitya": "Vala-  chuchu Ko --  - - - -    ri-    va- -   cchi--  Se--   vim - -"
+                    "sahitya": "Vala-  chuchu Ko --  - - - -    ri-    va- -   cchi--  Se--   vim - - ||"
                 }
             ]
         },
@@ -75,19 +76,19 @@
             "content": [
                 {
                     "swara": "dp     mp   d- d  d p - mg  r  s - r d   d p  |  D  ;  ;  ;  ;  ; ;  ||",
-                    "sahitya": "Udu  ra-   ja mu kudu Se- -sha sai-   - -        ya"
+                    "sahitya": "Udu  ra-   ja mu kudu Se- -sha sai-   - -        ya ||"
                 },
                 {
                     "swara": "dp     mp  d - d    d p -   mg  r  s -  r d    d p   |  D  ;  ;   dd  p-   d   P - p    p   pd ||",
-                    "sahitya": "Udu    ra- ja  Mu kudu   Se- -sha    sai-   - -      ya         pai-  ni Che lan  ga ga - ni"
+                    "sahitya": "Udu    ra- ja  Mu kudu   Se- -sha    sai-   - -      ya         pai-  ni Che lan  ga ga - ni ||"
                 },
                 {
                     "swara": "s   n   d- d     P  p- p   M  m   g -  r s  r g  |  g M g  R    -  pm    d  p   dp - pm pd ||",
-                    "sahitya": "Puda mi ku  maa ri Su  gan dhamu Bu- --        yya  --   -        Nam  mina vaa-  rala ke-"
+                    "sahitya": "Puda mi ku  maa ri Su  gan dhamu Bu- --        yya  --   -        Nam  mina vaa-  rala ke- ||"
                 },
                 {
                     "swara": "s  n   d  n  - dp   mpdp  mg   r s - r d   d  p       | D ;  ;    D       d - S  s -  rr rr ||",
-                    "sahitya": "Kadakan-   tanu Ko- -   ri na vara mi-  - -   yya  - - Tyaa  ga  raaju  Nena runa"
+                    "sahitya": "Kadakan-   tanu Ko- -   ri na vara mi-  - -   yya  - - Tyaa  ga  raaju  Nena runa ||"
                 }
             ]
         }

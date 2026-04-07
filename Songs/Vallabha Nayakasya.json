@@ -5,7 +5,8 @@
         "arohanam": "S G R G M P D P S || AVA: S N , D P M , G R S || )",
         "avarohanam": "S G R G M P D P S || AVA: S N , D P M , G R S || )",
         "tala": "Rupakam",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "(ARO: S G R G M P D P S || AVA: S N , D P M , G R S || )",
-                    "sahitya": "Talam: Rupakam"
+                    "sahitya": "Talam: Rupakam ||"
                 },
                 {
                     "swara": "gmP  D P  ; ; || P m  d p m G R S  ||  DP  S;  ; md   ||  ppmg gp pmR  G; ||",
-                    "sahitya": "Vall lla bha    Na  ya   --   ka   -  sya    Bha   ktho   Bha         va   mi"
+                    "sahitya": "Vall lla bha    Na  ya   --   ka   -  sya    Bha   ktho   Bha         va   mi ||"
                 },
                 {
                     "swara": "gmP  D P  ; ; || N ,  d p m G R S  ||  DP  S;  ; md   ||  ppmg gppm R  G; ||",
-                    "sahitya": "Vall  lla bha     Na  ya   --   ka   -  sya    Bha   ktho   Bha         va   mi"
+                    "sahitya": "Vall  lla bha     Na  ya   --   ka   -  sya    Bha   ktho   Bha         va   mi ||"
                 },
                 {
                     "swara": "gmP  D P  S P || N ,  d p m G R S  ||  DP  nsgr G- md   ||  ppmg gp pmR  G; ||",
-                    "sahitya": "Vall llabha -- --   Na  ya   --   ka   -  sya    Bha     ktho   Bha         va   mi"
+                    "sahitya": "Vall llabha -- --   Na  ya   --   ka   -  sya    Bha     ktho   Bha         va   mi ||"
                 },
                 {
                     "swara": "gmP  D P  S P || rs n  d p m G R S  ||  DP  nsgr G- md   ||  ppmg gp pmR  G; ||",
-                    "sahitya": "Vall llabha -- --   Na  ya   --   ka   -  sya    Bha     ktho   Bha         va   mi"
+                    "sahitya": "Vall llabha -- --   Na  ya   --   ka   -  sya    Bha     ktho   Bha         va   mi ||"
                 },
                 {
                     "swara": "S m  G m P  m D p || rs ns    dp -     pm g -gm r   ||",
-                    "sahitya": "Vanchi tarthadaa yakasya Vara Mooshika Va hanasya"
+                    "sahitya": "Vanchi tarthadaa yakasya Vara Mooshika Va hanasya ||"
                 },
                 {
                     "swara": "gm pDp  ; mgR  S ; || rs n  d p m -mg R S  ||  rrsn     dp- ns      gr G || gm  Pdp  mg-gpmm mr G ||",
-                    "sahitya": "Vall - -     lla- -    bha-      Na - ya   --   ka   -  sya    Bha    - -  ktho   - - -    Bha  va- -   -   - -  -  - -  -mi"
+                    "sahitya": "Vall - -     lla- -    bha-      Na - ya   --   ka   -  sya    Bha    - -  ktho   - - -    Bha  va- -   -   - -  -  - -  -mi ||"
                 },
                 {
                     "swara": "S m  G m P  m D p || rs ns    dp -     pm g -gm r   ||",
-                    "sahitya": "Vanchi tarthadaa yakasya Vara Mooshika Va hanasya"
+                    "sahitya": "Vanchi tarthadaa yakasya Vara Mooshika Va hanasya ||"
                 }
             ]
         },
@@ -50,31 +51,31 @@
             "content": [
                 {
                     "swara": "G ;  MP DP ||  sr sn dp S ; S ||  R ,  S ,R  S ;|| S sd     r s ns   D P  ||",
-                    "sahitya": "Pal llava     Pada     mrudu ta   ra   sya      Pa shangu   sha di ta     ra    sya"
+                    "sahitya": "Pal llava     Pada     mrudu ta   ra   sya      Pa shangu   sha di ta     ra    sya ||"
                 },
                 {
                     "swara": "M , g P , m D P || sr sn dp S ; S ||  R ,  S ,R  S ;|| S sd     r s ns   D P  ||",
-                    "sahitya": "Pal lla va     pada     mrudu ta   ra   sya      Pa shangu   sha di ta     ra    sya"
+                    "sahitya": "Pal lla va     pada     mrudu ta   ra   sya      Pa shangu   sha di ta     ra    sya ||"
                 },
                 {
                     "swara": "; S  gr G  ; gm  || p g r s rs ns D P  ||  pDp N R S - R|| N , d pm - R , S ,  ||",
-                    "sahitya": "Mal li   ka     jaa       dhi    cham -   paka      Haa     ra  -       sya ma ni maa        la sya"
+                    "sahitya": "Mal li   ka     jaa       dhi    cham -   paka      Haa     ra  -       sya ma ni maa        la sya ||"
                 },
                 {
                     "swara": "D P    d M p  G m r || , g - g m   d p   g m      p -  g r   s ||",
-                    "sahitya": "Valli  vivaaha  kara na       sya Guru guha poo      ji    ta -sya"
+                    "sahitya": "Valli  vivaaha  kara na       sya Guru guha poo      ji    ta -sya ||"
                 },
                 {
                     "swara": "gm P D P    N r s ||  gm gr        S - N         d P d  ||",
-                    "sahitya": "kaa li ka laa maalini      Kamalak shi   Sann        nu ta sya"
+                    "sahitya": "kaa li ka laa maalini      Kamalak shi   Sann        nu ta sya ||"
                 },
                 {
                     "swara": "G ,  m d p D  ,   gm r  ||  G gm  d p  gm  p gr s ||",
-                    "sahitya": "Dheem   ta ki tajam  gm r      G taka dhina     jam - ta ki ta"
+                    "sahitya": "Dheem   ta ki tajam  gm r      G taka dhina     jam - ta ki ta ||"
                 },
                 {
                     "swara": "n N  d p d - n S g r g ||  n N d p d   - m P m g r",
-                    "sahitya": "n N  d p d   Tathinginata  n N d p d     Tadhin ginatom"
+                    "sahitya": "n N  d p d   Tathinginata  n N d p d     Tadhin ginatom ||"
                 }
             ]
         }

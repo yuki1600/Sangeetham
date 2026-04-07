@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 D2 N2 S ||",
         "avarohanam": "S N2 D2 M1 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,23 +14,23 @@
             "content": [
                 {
                     "swara": "M ;  R ;  G ;  RR | S ;  ; N  S    R  G ;  ||",
-                    "sahitya": "Bro che va reva   re  - Ra ghupa te!"
+                    "sahitya": "Bro che va reva   re  - Ra ghupa te! ||"
                 },
                 {
                     "swara": "M ;  R ;  G ;  gr R | S ;  ; R  G  M  D,m  ||",
-                    "sahitya": "Bro che va re-va   re  - Ni nnuvi naa!--"
+                    "sahitya": "Bro che va re-va   re  - Ni nnuvi naa!-- ||"
                 },
                 {
                     "swara": "M ;  R ;  rgmg  gr R | S ;  ; R  G  M  n   d   n  d      ||",
-                    "sahitya": "Bro che va re-va   re  - Sri raama    Ne na ru na!"
+                    "sahitya": "Bro che va re-va   re  - Sri raama    Ne na ru na! ||"
                 },
                 {
                     "swara": "dnD M  mdM G  rgmg  gr R | S ;  ; r    g  m- D d  n  s  n  d      ||",
-                    "sahitya": "Bro che va re-va   re  - Sa ka    la  Loka Naa-yaka!"
+                    "sahitya": "Bro che va re-va   re  - Sa ka    la  Loka Naa-yaka! ||"
                 },
                 {
                     "swara": "rssn ndM rgmg  gr R | S ;  ; d  n  s n - d n     r s - n d  ||",
-                    "sahitya": "Bro-- che-- va- - - re-va   re  - Nara     vara Nee- - -   sari!"
+                    "sahitya": "Bro-- che-- va- - - re-va   re  - Nara     vara Nee- - -   sari! ||"
                 }
             ]
         },
@@ -38,19 +39,19 @@
             "content": [
                 {
                     "swara": "M R  G     r g    M - r     g   m   - D  d  |  s  n d n      S  ;  s - n   N     n - d  D  ||",
-                    "sahitya": "Deven draadulu Me  cchuta  ku   Lanka  Dayato-    Daa-   na Mosan gi  Sa daa!"
+                    "sahitya": "Deven draadulu Me  cchuta  ku   Lanka  Dayato-    Daa-   na Mosan gi  Sa daa! ||"
                 },
                 {
                     "swara": "m   m - g r    ,  g - M     r - G    r  n s r g  |  M D  N    s  r  g   R    s     s s  n d  ||",
-                    "sahitya": "Mu ni Sa va -mbu Ju    da Ven ta    Janikala    Maari  chaadula Ha tambu Je-  -  si"
+                    "sahitya": "Mu ni Sa va -mbu Ju    da Ven ta    Janikala    Maari  chaadula Ha tambu Je-  -  si ||"
                 },
                 {
                     "swara": "M g - r  , g -   M   d  N  s     r g - M |  r g - M     g r   S    g r r   s     s n n d  ||",
-                    "sahitya": "Vaali No - kka Ko la ne si   Ravi Baa luni Raa   juni ga  Vin- -chi   Ju- - chi!"
+                    "sahitya": "Vaali No - kka Ko la ne si   Ravi Baa luni Raa   juni ga  Vin- -chi   Ju- - chi! ||"
                 },
                 {
                     "swara": "d     n    S -    r  r   G    M   g  r    G  g  r   | S ,    n    G  g r     s   S   n  r s n d  ||",
-                    "sahitya": "Bhavaa bdi   Taruno   Paa yamu Lerani    Tyaaga  raajuni   Karam -       bi - di!-"
+                    "sahitya": "Bhavaa bdi   Taruno   Paa yamu Lerani    Tyaaga  raajuni   Karam -       bi - di!- ||"
                 }
             ]
         }

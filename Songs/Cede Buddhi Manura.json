@@ -2,10 +2,11 @@
     "song_details": {
         "name": "Cede Buddhi Manura",
         "raga": "Atana",
-        "arohanam": "S R\u2082 M\u2081 P N\u2083 \u1e60 ||",
-        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2081 P G\u2083 R\u2082 S ||",
+        "arohanam": "S R₂ M₁ P N₃ Ṡ ||",
+        "avarohanam": "Ṡ N₃ D₂ P M₁ P G₃ R₂ S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,123 +14,123 @@
             "content": [
                 {
                     "swara": "; , r |   sn P     pdN        P - pp   mg M  | P ;         ;  ;     |    ;  ;        ; , r   ||",
-                    "sahitya": "Ce  DE      bu--      ddhi  mA - -   nu   rA         -  -         -  -        - Ce"
+                    "sahitya": "Ce  DE      bu--      ddhi  mA - -   nu   rA         -  -         -  -        - Ce ||"
                 },
                 {
                     "swara": "|   sn P     pdN        P - pp   mg M  | P ;         ;  ;     |    npnp     pmp- r   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- -  Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- -  Ce ||"
                 },
                 {
                     "swara": "|   sn P     pdN        P - pp   mg M  | P ;         ;  ;     |    pd N    dns- r   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- -  Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- -  Ce ||"
                 },
                 {
                     "swara": "|   sn P     pdN        P - Pdp mg M  | P ;         ;  ;     |    pm P   S , -  r   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- - Ce ||"
                 },
                 {
                     "swara": "|   sn D    dsnn       P - Pdp mg M  | P ;         ;  ;     |    nnpm    S , -  s   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -         ma-na   sa- - Ce ||"
                 },
                 {
                     "swara": "|   D ;      dsnn       P - mpdp mg M  | P ;         ;  ;     |    mr rm    srs -  r   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA         -  -         ma-na    sa- - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA         -  -         ma-na    sa- - Ce ||"
                 },
                 {
                     "swara": "|   D ;      dsnn       P - mpdp mg M  | G G        rs  ns    |   rm  rm    pmp -  r   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA         -   ma-       na   - -     sa- - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA         -   ma-       na   - -     sa- - Ce ||"
                 },
                 {
                     "swara": "|   D ;      dsnn       P - mpdp mg M  | P ,d         dNp   |    ;  ;           ;  , r    ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA             -  -         -  -         - - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA             -  -         -  -         - - Ce ||"
                 },
                 {
                     "swara": "|   snP     pd snN  P -  mpdp mg M  | P ,d         dNp   |    ;  ;           ;   ;    ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA             -  -         -  -         -  -"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA             -  -         -  -         -  - ||"
                 },
                 {
                     "swara": "; ,p | dpM       P S      S - D       , N ,  |   S ;       ;  ;         ;  ;       ;  ,  p   ||",
-                    "sahitya": "I   DE--       pA-     tram(e)       va      rO -      - -         -  -       - -  I"
+                    "sahitya": "I   DE--       pA-     tram(e)       va      rO -      - -         -  -       - -  I ||"
                 },
                 {
                     "swara": "| dpM       P S      S - D       , N ,  |   S ;       ;  ;         ;  ;       ;  ,  p   ||",
-                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - -         -  -       - -  I"
+                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - -         -  -       - -  I ||"
                 },
                 {
                     "swara": "| dpM       P S      S - D       , N ,  |   ssnd      ;  ;         ;  P     ;  ,  p   ||",
-                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - -         -  -       - -  I"
+                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - -         -  -       - -  I ||"
                 },
                 {
                     "swara": "| dpM       P S      S - D       , N ,  |   S ;       ;  sn         rs ns   D ,  p   ||",
-                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - jU        - - Da  rA - I"
+                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - jU        - - Da  rA - I ||"
                 },
                 {
                     "swara": "| dpM       P gr      S - D       , N ,  |   S ;       ;  ns         rs ns   D ,  p   ||",
-                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - jU        - - Da  rA - I"
+                    "sahitya": "(I)  DE--       pA-     tram(e)       va      rO -      - jU        - - Da  rA - I ||"
                 },
                 {
                     "swara": "| dpM       mp nsrg  rsS - D    , N ,  |   S ;       ;  ns         rs ns   D ,  p   ||",
-                    "sahitya": "(I)  DE--       pA-   - - tram(e)      va       rO -      - jU        - - Da  rA - I"
+                    "sahitya": "(I)  DE--       pA-   - - tram(e)      va       rO -      - jU        - - Da  rA - I ||"
                 },
                 {
                     "swara": "| dpM       mp nsrg  rsS - D    , N ,  |   S ;       ;  rs         ns rs   D ,  p   ||",
-                    "sahitya": "(I)  DE--       pA-   - - tram(e)      va       rO -      - jU        Da--   rA - I"
+                    "sahitya": "(I)  DE--       pA-   - - tram(e)      va       rO -      - jU        Da--   rA - I ||"
                 },
                 {
                     "swara": "| dpM       mp nsrg  rsS - D    , N ,  |   S ;       ssnd        Pnd Dsn  nrs - sg    ||",
-                    "sahitya": "(I)  DE--       pA-   - - tram(e)      va       rO -      jU--        Da- rA -  - -     cE"
+                    "sahitya": "(I)  DE--       pA-   - - tram(e)      va       rO -      jU--        Da- rA -  - -     cE ||"
                 },
                 {
                     "swara": "|   sn P     pdN        P - Pdp mg M  | P ,d         dNp   |    ;  ;           ;  ;    ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -            - -             - -"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -            - -             - - ||"
                 },
                 {
                     "swara": "d  n  p m    p d m  p     r  m  r  - s   n  s   r   m    |  r  m  p - n      n  p - m p     S  ;          D  ;      ||",
-                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na    lE -         dA -"
+                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na    lE -         dA - ||"
                 },
                 {
                     "swara": "d  n  p m    p n d   n    p d m -  p    r  m    r   s    |  r  m  p - n      n  p - m p     S  ;          D  ;      ||",
-                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na    lE -         dA -"
+                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na    lE -         dA - ||"
                 },
                 {
                     "swara": "d  n  p m    p n d   n    p d m -  p    r  m    r   s    |  r  m  p - n      n  p - p g     r- S ,           D  ;      ||",
-                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na   -  lE -         dA -"
+                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na   -  lE -         dA - ||"
                 },
                 {
                     "swara": "d  n  p m    p s d   n    p d m -  p    r  m    r   s    |  r  m  p - n      n  p - p g     r- S ,           D  ;      ||",
-                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na   -  lE -         dA -"
+                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na   -  lE -         dA - ||"
                 },
                 {
                     "swara": "d  n  p m    p s d   n    p d m -  p    r  m    r   s    |  r  m  p - n      n  p - m p     nsrg        rsnd  ;      ||",
-                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na    lE -         dA -"
+                    "sahitya": "bhU-vA-   si ki ta gu  phalamu ka lugu n(a)ni    budhulu  pal    -  ka  vi na    lE -         dA - ||"
                 },
                 {
                     "swara": "m p  S       s - D  ,       ;  , s    S  ;       |           ;  ;    ;  ;  ;   ;  ;   ;  ||",
-                    "sahitya": "SrI- vA    su   dE -          vu  dE"
+                    "sahitya": "SrI- vA    su   dE -          vu  dE ||"
                 },
                 {
                     "swara": "m p  S       s - s d - s      r s - n s    r -   s   r   s     |       ;  ;          ;  sn    rs - ns  D   ;  ||",
-                    "sahitya": "SrI- vA     su  dE - vu    dE   sa -  rvam(a)nucu"
+                    "sahitya": "SrI- vA     su  dE - vu    dE   sa -  rvam(a)nucu ||"
                 },
                 {
                     "swara": "m p  S       s - s d - s      r s - n s    r -   s   r   s     |      d r  S      s  n - P     m - ps  s   r s  sr - r   ||",
-                    "sahitya": "SrI- vA     su  dE - vu    dE   sa -  rvam(a)nucu          cin- tin   carA  tyA  ga  rAja   nutuni  (ce)"
+                    "sahitya": "SrI- vA     su  dE - vu    dE   sa -  rvam(a)nucu          cin- tin   carA  tyA  ga  rAja   nutuni  (ce) ||"
                 },
                 {
                     "swara": "m p  S       s - s d - s      r s - n s    r -   s   r   s     |      d r  S      s  n - N     d - S  n   r s  sr - r   ||",
-                    "sahitya": "SrI- vA     su  dE - vu    dE   sa -  rvam(a)nucu          cin- tin   carA  tyA  ga  rAja   nutuni  (ce)"
+                    "sahitya": "SrI- vA     su  dE - vu    dE   sa -  rvam(a)nucu          cin- tin   carA  tyA  ga  rAja   nutuni  (ce) ||"
                 },
                 {
                     "swara": "|   D ;      dsnn       P - mpdp mg M  | G G        rs  ns    |   rm  rm    pmp -  r   ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA         -   ma-       na   - -     sa- - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA         -   ma-       na   - -     sa- - Ce ||"
                 },
                 {
                     "swara": "|   D ;      dsnn       P - mpdp mg M  | P ,d         dNp   |    ;  ;           ;  , r    ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA             -  -         -  -         - - Ce"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - - -   nu   rA             -  -         -  -         - - Ce ||"
                 },
                 {
                     "swara": "|   sn P     pdN        P - Pdp mg M  | P ,d         dNp   |    ;  ;           ;  ;    ||",
-                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -            - -             - -"
+                    "sahitya": "(Ce)  DE      bu--      ddhi  mA - -   nu   rA         -  -            - -             - - ||"
                 }
             ]
         }

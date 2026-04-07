@@ -5,7 +5,8 @@
         "arohanam": "S R2 G3 P N3 S ||",
         "avarohanam": "S N3 P G3 R2 S ||",
         "tala": "Rupakam",
-        "composer": "Kotishwara Iyer"
+        "composer": "Kotishwara Iyer",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,31 +14,31 @@
             "content": [
                 {
                     "swara": "; , s  , r G  , p N  || NS  sn P  , g R  || R S  ; ;  ; ; ||",
-                    "sahitya": "- - vA -raNa  -mukha    vA- tu-Nai - varu   vAi-- - -  - -"
+                    "sahitya": "- - vA -raNa  -mukha    vA- tu-Nai - varu   vAi-- - -  - - ||"
                 },
                 {
                     "swara": "; S  , r G  P   N  || S ;  sn P  , g R  || R S  ; ;  S S ||  sn P    , r S    R ;  ||",
-                    "sahitya": "- vA -raNa  mukha    vA- tu-Nai - varu   vAi-- - -   a ruL vAi-     daya  vAi"
+                    "sahitya": "- vA -raNa  mukha    vA- tu-Nai - varu   vAi-- - -   a ruL vAi-     daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || S ;  sn P  , g R  || g r S  ; ;  S S ||  sn P    , r S    R ;  ||",
-                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai - varu   vAi-- - -   a ruL vAi-     daya  vAi"
+                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai - varu   vAi-- - -   a ruL vAi-     daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || snR  sn P  , g R  || g r S  ; ;      gr pg  ||rsnp ;    , r S    R ;  ||",
-                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai - varu   vAi-- - -      a- ruL vAi-       daya  vAi"
+                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai - varu   vAi-- - -      a- ruL vAi-       daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || sngr  sn P  , g R  || g r S  ; ;      s r g p  ||grsnP,   , r S   R ;  ||",
-                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai - varu   vAi-- - -      a -ruL   vAi-       daya  vAi"
+                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai - varu   vAi-- - -      a -ruL   vAi-       daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || srgp  gr sn  p- g R  || g r S  ; ;      s r g p  ||grsnP,   , r S   R ;  ||",
-                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai -  varu   vAi-- - -      a -ruL   vAi-       daya  vAi"
+                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai -  varu   vAi-- - -      a -ruL   vAi-       daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || S ;  ; ;  ; ;  || ; ;  ; ;  ; ; ||",
-                    "sahitya": "vA- ra Na  mukha    vA- - -  - -    - -  - -  - -"
+                    "sahitya": "vA- ra Na  mukha    vA- - -  - -    - -  - -  - - ||"
                 }
             ]
         },
@@ -46,35 +47,35 @@
             "content": [
                 {
                     "swara": "; , g , p N , s S  ||  S ;  S- S ;  S  || ; ;  ; ;  ; ;   ||  ; sn    r s - sn    N ;  ||",
-                    "sahitya": "- - A - raNap -poruL    A-  na kan -  da-  - -  - -  - -      - -    -  -    - -     - -"
+                    "sahitya": "- - A - raNap -poruL    A-  na kan -  da-  - -  - -  - -      - -    -  -    - -     - - ||"
                 },
                 {
                     "swara": "; , g , p N , s S  ||  S ;  S- sn P  P  ||",
-                    "sahitya": "- - A - raNap -poruL    A-  na kan -  da-"
+                    "sahitya": "- - A - raNap -poruL    A-  na kan -  da- ||"
                 },
                 {
                     "swara": ", pn-g , p N , s S  ||  S ;  S- sn rs  N  ||",
-                    "sahitya": "- - - A - raNap -poruL    A-  na kan -  da-"
+                    "sahitya": "- - - A - raNap -poruL    A-  na kan -  da- ||"
                 },
                 {
                     "swara": "; ,  -g , p N , s R  ||  sr G  R- sn P  P  ||",
-                    "sahitya": "- - - A - raNap -poruL    A-  na kan -  da-"
+                    "sahitya": "- - - A - raNap -poruL    A-  na kan -  da- ||"
                 },
                 {
                     "swara": "; n g , p N , s R  ||  sr gp  gr- sn P  -pg  || R ;     s r   s n    p g P    ||",
-                    "sahitya": "- A-  - raNap -poruL    A-  na- kan  da- gA-    nA-   mu-da-    ttir-kkuL"
+                    "sahitya": "- A-  - raNap -poruL    A-  na- kan  da- gA-    nA-   mu-da-    ttir-kkuL ||"
                 },
                 {
                     "swara": "p   s  s  n      p   g -   n  p    g  r -  g   r   ||   s  n - S     ,  G,r -g  , p N || S ;    ; ;  ;  ;  ||",
-                    "sahitya": "ka ru NA-   mudam u da   viyE   a  ruL    mata- Vaa   ra-  na    - mukha vaa  - -  - -   (repeat AraNa Porul..)"
+                    "sahitya": "ka ru NA-   mudam u da   viyE   a  ruL    mata- Vaa   ra-  na    - mukha vaa  - -  - -   (repeat AraNa Porul..) ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || srgp  gr sn  p- g R  || g r S  ; ;      s r g p  ||grsnP,   , r S   R ;  ||",
-                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai -  varu   vAi-- - -      a -ruL   vAi-       daya  vAi"
+                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai -  varu   vAi-- - -      a -ruL   vAi-       daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || S ;  ; ;  ; ;  || ; ;  ; ;  ; ; ||",
-                    "sahitya": "vA- ra Na  mukha    vA- - -  - -    - -  - -  - -"
+                    "sahitya": "vA- ra Na  mukha    vA- - -  - -    - -  - -  - - ||"
                 }
             ]
         },
@@ -83,39 +84,39 @@
             "content": [
                 {
                     "swara": "; , s    n- p   P      G P  || R G     R   R      , S ,   ||  S R   - gp-  gr    , s R   || s r g p   g r - S    ; S ||",
-                    "sahitya": "- -in   n   i shai    I  yal      I  la   kkiyam   - A       riyam  ta- mizh-- a ri      vE- - - dum- in   -  ri"
+                    "sahitya": "- -in   n   i shai    I  yal      I  la   kkiyam   - A       riyam  ta- mizh-- a ri      vE- - - dum- in   -  ri ||"
                 },
                 {
                     "swara": "; , s    n- p   P      G P  || R G     R   R      , S ,   ||  S R   - gp-  gr    , s R   || s r G    g r - S    ; S ||",
-                    "sahitya": "- -in   n   i shai    I  yal      I  la   kkiyam   - A       riyam  ta- mizh-- a ri      vE- - - dum- in   -  ri"
+                    "sahitya": "- -in   n   i shai    I  yal      I  la   kkiyam   - A       riyam  ta- mizh-- a ri      vE- - - dum- in   -  ri ||"
                 },
                 {
                     "swara": "; , g    ,  p -  P  N P  || G ;  P - R  G R   ||  S ,n   S R    g p g r    || n r gp    G ;  ; R  ||",
-                    "sahitya": "- - kan- nal an       - naik-    kan da gA -  -        nA-   muda nan- - -     nU- --    lai -    - -"
+                    "sahitya": "- - kan- nal an       - naik-    kan da gA -  -        nA-   muda nan- - -     nU- --    lai -    - - ||"
                 },
                 {
                     "swara": "; , n   , p -   N       p G - p  ||  , r G    P ;  P - g  p || ; , - g    , p  N    P -   pg   || R ,-g   , p   N   N S    ||",
-                    "sahitya": "un - num ka      vi -  kun    - jara   dA san nAn  - -  un  - na ruL koNDE-    - -paN-Na tu NindEn"
+                    "sahitya": "un - num ka      vi -  kun    - jara   dA san nAn  - -  un  - na ruL koNDE-    - -paN-Na tu NindEn ||"
                 },
                 {
                     "swara": "; , g   , p -  N   , s     R   ||  sr G  R - sn  P  P  || , -",
-                    "sahitya": "- - mu-nnava   - nE nI      mun-    -    nin-   -  rAl"
+                    "sahitya": "- - mu-nnava   - nE nI      mun-    -    nin-   -  rAl ||"
                 },
                 {
                     "swara": "; ng   , p -  N   , s     R   ||  sr gp  gr - sn  P     p  g   || R  ;    s r - sn    p g P   ||",
-                    "sahitya": "- mu-nna   va   - nE nI      mun-    -    nin-  rAl  muDi yA-   da-  don- ril-  lai"
+                    "sahitya": "- mu-nna   va   - nE nI      mun-    -    nin-  rAl  muDi yA-   da-  don- ril-  lai ||"
                 },
                 {
                     "swara": "p   s  s   n      p   g -   n  p    g  r -  g   r   ||   s  n - S     ,  G,r -g  , p N || S ;    ; ;  ;  ;  ||",
-                    "sahitya": "A  - da lAl    a    ti    vE-   gama  A   -       gave Vaa   ra-  na    - mukha vaa  - -  - -   (repeat MunnavanE)"
+                    "sahitya": "A  - da lAl    a    ti    vE-   gama  A   -       gave Vaa   ra-  na    - mukha vaa  - -  - -   (repeat MunnavanE) ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || srgp  gr sn  p- g R  || g r S  ; ;      s r g p  ||grsnP,   , r S   R ;  ||",
-                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai -  varu   vAi-- - -      a -ruL   vAi-       daya  vAi"
+                    "sahitya": "vA- ra Na  mukha    vA- tu-Nai -  varu   vAi-- - -      a -ruL   vAi-       daya  vAi ||"
                 },
                 {
                     "swara": "gr S  R G  , p   N  || S ;  ; ;  ; ;  || ; ;  ; ;  ; ; ||",
-                    "sahitya": "vA- ra Na  mukha    vA- - -  - -    - -  - -  - -"
+                    "sahitya": "vA- ra Na  mukha    vA- - -  - -    - -  - -  - - ||"
                 }
             ]
         }

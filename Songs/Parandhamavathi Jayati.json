@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M2 P D2 N3 S ||",
         "avarohanam": "S N3 D2 P M2 G2 R2 S ||",
         "tala": "Rupakam",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,55 +14,55 @@
             "content": [
                 {
                     "swara": "P M  ; D  ; pm  || G R   S S  R ; ||",
-                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   -"
+                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   - ||"
                 },
                 {
                     "swara": ";  pm  || G R   N S  R ; ||",
-                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   -"
+                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   - ||"
                 },
                 {
                     "swara": ", g M  || P ;  P -pm g r g m  ||",
-                    "sahitya": "pAr-      va  tI -     - para      mE-     sha yu-    va- tI -"
+                    "sahitya": "pAr-      va  tI -     - para      mE-     sha yu-    va- tI - ||"
                 },
                 {
                     "swara": ";  M   || G R   N S  R ; ||",
-                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   -"
+                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   - ||"
                 },
                 {
                     "swara": ", g M  || P ;  P -pm g r g m  ||",
-                    "sahitya": "pAr-      va  tI -     - para      mE-     sha yu-    va- tI -"
+                    "sahitya": "pAr-      va  tI -     - para      mE-     sha yu-    va- tI - ||"
                 },
                 {
                     "swara": "P dn  S sn    nd  pm   || G R   N S  R ; ||",
-                    "sahitya": "Paran - dhA  -   ma-     vatI  jaya ti   -"
+                    "sahitya": "Paran - dhA  -   ma-     vatI  jaya ti   - ||"
                 },
                 {
                     "swara": "gr R  gm P , d  N  || S ;  S -sn nd p m  ||",
-                    "sahitya": "pAr-      va - tI -    - para      mE-     sha yu-    va- tI -"
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha yu-    va- tI - ||"
                 },
                 {
                     "swara": "|| mG,  R  N S  R ; ||",
-                    "sahitya": "Paran - dhA  -   ma-     va   tI   jaya ti   -"
+                    "sahitya": "Paran - dhA  -   ma-     va   tI   jaya ti   - ||"
                 },
                 {
                     "swara": "gr R  gm P , d  N  || srgr sn -rs nd p m  ||",
-                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI -"
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI - ||"
                 },
                 {
                     "swara": "|| mG, R  N G  R ; ||",
-                    "sahitya": "Paran - dhA  -   ma-     va   tI   jaya ti   -"
+                    "sahitya": "Paran - dhA  -   ma-     va   tI   jaya ti   - ||"
                 },
                 {
                     "swara": "gr R  gm P , d  N  || srgr sn -rs nd p m  ||",
-                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI -"
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI - ||"
                 },
                 {
                     "swara": "; pm  || G R   ;  N  G  ; || R ;  ; ;  ; ;  || ; ;  ; N  R ;  ||",
-                    "sahitya": "Paran - dhA  - ma-     vatI  -  ja ya    ti   -  - -  - -    - -   ja ya"
+                    "sahitya": "Paran - dhA  - ma-     vatI  -  ja ya    ti   -  - -  - -    - -   ja ya ||"
                 },
                 {
                     "swara": "S ;  ; ;  ; ;  ||",
-                    "sahitya": "ti   -"
+                    "sahitya": "ti   - ||"
                 }
             ]
         },
@@ -70,7 +71,7 @@
             "content": [
                 {
                     "swara": ", pM   D ;   sn D   || pm -dn     S -N S  ;  ||    ; ;       ; ;       ; ;  || ; ;       ; ;       ; ;  ||",
-                    "sahitya": "param   jyO  -      ti - -       vi-    kA -  -  s i    nI"
+                    "sahitya": "param   jyO  -      ti - -       vi-    kA -  -  s i    nI ||"
                 },
                 {
                     "swara": "P M    D ;   sn D   || P  - dn     S -N S  ;  ||    s r G       g r R       S ;  || nr s- s     nd-pd     dN,",
@@ -82,23 +83,23 @@
                 },
                 {
                     "swara": "nR - g  R - s r   s  n - d n  || D - dp     M  g-   r    , g  M  ||",
-                    "sahitya": "niran ta  ram guru guha  jana   nI   brha  dI- sha ran - ja nI"
+                    "sahitya": "niran ta  ram guru guha  jana   nI   brha  dI- sha ran - ja nI ||"
                 },
                 {
                     "swara": "nR - g  R - n r   s  n - d n  || D - dp     M  g-   r    , g  M  ||",
-                    "sahitya": "niran ta  ram guru guha  jana   nI   brha  dI- sha ran - ja nI"
+                    "sahitya": "niran ta  ram guru guha  jana   nI   brha  dI- sha ran - ja nI ||"
                 },
                 {
                     "swara": "|| mG,  R  N G  R ; ||",
-                    "sahitya": "Paran - dhA  -   ma-     va    tI    jaya ti   -"
+                    "sahitya": "Paran - dhA  -   ma-     va    tI    jaya ti   - ||"
                 },
                 {
                     "swara": "gr R  gm P , d  N  || srgr sn -rs nd p m  ||",
-                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI -"
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI - ||"
                 },
                 {
                     "swara": "; pm  || G R   ;  N  G  ; || R ;  ; N  R ;  || S ;      ; ;  ; ;  ||",
-                    "sahitya": "Paran - dhA  - ma-     vatI  -  ja ya    ti   -  -  ja ya      ti -      - -  - -"
+                    "sahitya": "Paran - dhA  - ma-     vatI  -  ja ya    ti   -  -  ja ya      ti -      - -  - - ||"
                 }
             ]
         }

@@ -1,21 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc } from 'lucide-react';
+import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc, Download } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';
+import { useDropdown } from '../../hooks/useDropdown';
+import { triggerDownload } from '../../utils/triggerDownload';
 
 function MultiSelectSearchableDropdown({ label, selected, onChange, options, isDark, borderColor, icon: Icon }) {
-    const [open, setOpen] = useState(false);
+    const { open, setOpen, ref: wrapperRef } = useDropdown();
     const [query, setQuery] = useState('');
-    const wrapperRef = useRef(null);
-
-    useEffect(() => {
-        const handleClickOutside = (e) => {
-            if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false);
-        };
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
-    }, []);
 
     const filtered = options.filter(o => o.toLowerCase().includes(query.toLowerCase()));
     const toggleOption = (opt) => {
@@ -101,17 +94,8 @@ function MultiSelectSearchableDropdown({ label, selected, onChange, options, isD
 }
 
 function SearchableSelect({ label, value, onChange, options, isDark, borderColor, formatOption }) {
-    const [open, setOpen] = useState(false);
+    const { open, setOpen, ref: wrapperRef } = useDropdown();
     const [query, setQuery] = useState('');
-    const wrapperRef = useRef(null);
-
-    useEffect(() => {
-        const handleClickOutside = (e) => {
-            if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false);
-        };
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
-    }, []);
 
     // If query is exactly the selected value, the user hasn't typed anything new,
     // so don't filter the list at all. Let them see all options.
@@ -132,7 +116,7 @@ function SearchableSelect({ label, value, onChange, options, isDark, borderColor
                         if (!open) setOpen(true);
                     }}
                     onFocus={() => { setOpen(true); setQuery(value); }}
-                    placeholder={`Select or type ${label.toLowerCase()}...`}
+                    placeholder={`Select ${label.replace(/\s*\*\s*$/, '').trim()}`}
                     className="w-full pl-3 pr-8 py-2.5 rounded-xl border text-sm transition-all focus:outline-none"
                     style={{ 
                         background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', 
@@ -165,8 +149,7 @@ function SearchableSelect({ label, value, onChange, options, isDark, borderColor
 }
 
 function SortDropdown({ value, onChange, isDark, borderColor }) {
-    const [open, setOpen] = useState(false);
-    const wrapperRef = useRef(null);
+    const { open, setOpen, ref: wrapperRef } = useDropdown();
 
     const options = [
         { id: 'date-desc', label: 'Newest Added', icon: Calendar },
@@ -175,14 +158,6 @@ function SortDropdown({ value, onChange, isDark, borderColor }) {
         { id: 'title-desc', label: 'Alphabetical (Z-A)', icon: SortAsc },
         { id: 'updated-desc', label: 'Last Modified', icon: Edit3 },
     ];
-
-    useEffect(() => {
-        const handleClickOutside = (e) => {
-            if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setOpen(false);
-        };
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
-    }, []);
 
     const selected = options.find(o => o.id === value) || options[0];
 
@@ -225,22 +200,62 @@ function SortDropdown({ value, onChange, isDark, borderColor }) {
     );
 }
 
+/**
+ * TypeBanner — small fabric-flag style ribbon hanging from the top edge of
+ * each editor card, showing the song's compositionType. Display-only — the
+ * type itself is edited via the Settings dropdown on the card.
+ *
+ * Visually it sticks slightly above the top edge of the card and has a
+ * notched (V-cut) bottom so it reads as a hanging fabric banner.
+ */
+function TypeBanner({ song, color }) {
+    if (!song.compositionType) return null;
+    return (
+        <div className="absolute right-4 -top-3 z-10 pointer-events-none select-none">
+            {/* The "rope" — two short threads pinning the banner to the top of the card */}
+            <div className="relative h-2.5 flex justify-between px-3">
+                <span className="block w-px h-2.5" style={{ background: `${color}aa` }} />
+                <span className="block w-px h-2.5" style={{ background: `${color}aa` }} />
+            </div>
+            {/* The fabric */}
+            <div
+                className="px-4 pt-1.5 pb-3 text-[9px] font-black uppercase tracking-[0.2em] text-white text-center"
+                style={{
+                    background: `linear-gradient(180deg, ${color}, ${color}cc)`,
+                    minWidth: '88px',
+                    clipPath: 'polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%)',
+                    boxShadow: `0 6px 14px -4px ${color}66, 0 2px 4px rgba(0,0,0,0.18)`,
+                    textShadow: '0 1px 1px rgba(0,0,0,0.25)',
+                }}
+            >
+                {song.compositionType}
+            </div>
+        </div>
+    );
+}
+
 export default function SongEditor({ theme, onEditSong, onBack }) {
     const [songs, setSongs] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [showUpload, setShowUpload] = useState(false);
-    const [uploadState, setUploadState] = useState({ 
-        swaraAudio: null, 
-        sahityaAudio: null, 
-        jsonFile: null, 
-        uploading: false, 
-        error: null 
+    const [uploadState, setUploadState] = useState({
+        swaraAudio: null,
+        sahityaAudio: null,
+        jsonFile: null,
+        pdfFile: null,
+        uploading: false,
+        error: null,
     });
-    const [uploadMode, setUploadMode] = useState('manual'); // 'file' | 'manual'
+    const [uploadMode, setUploadMode] = useState('file'); // 'file' | 'manual'
+    // When the user picks a PDF without a JSON in Auto Setup, raga/tala
+    // are required (server has no other way to derive them).
+    const [autoRaga, setAutoRaga] = useState('');
+    const [autoTala, setAutoTala] = useState('');
+    const [autoComposer, setAutoComposer] = useState('');
     const [uploadTitle, setUploadTitle] = useState('');
     const [manualRaga, setManualRaga] = useState('');
-    const [manualTala, setManualTala] = useState('Adi');
+    const [manualTala, setManualTala] = useState('');
     const [manualComposer, setManualComposer] = useState('');
     const [manualSections, setManualSections] = useState(['Pallavi', 'Anupallavi', 'Charanam']);
 
@@ -260,6 +275,31 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const [editRaga, setEditRaga] = useState('');
     const [editTala, setEditTala] = useState('');
     const [editComposer, setEditComposer] = useState('');
+    const [editType, setEditType] = useState('');
+
+    // Canonical list of composition types — used by the Type field inside
+    // the Settings (gear) dropdown on each card.
+    const COMPOSITION_TYPES = [
+        'Geetham', 'Swarajathi', 'Varnam', 'Kriti', 'Tillana', 'Javali',
+        'Padam', 'Devaranama', 'Sankeertana', 'Bhajan', 'Slokam', 'Viruttam',
+    ];
+
+    // Per-type accent colors so the banner is recognisable at a glance.
+    const TYPE_COLORS = {
+        Geetham:     '#10b981',
+        Swarajathi:  '#06b6d4',
+        Varnam:      '#8b5cf6',
+        Kriti:       '#f59e0b',
+        Tillana:     '#ec4899',
+        Javali:      '#f43f5e',
+        Padam:       '#a855f7',
+        Devaranama:  '#3b82f6',
+        Sankeertana: '#14b8a6',
+        Bhajan:      '#f97316',
+        Slokam:      '#eab308',
+        Viruttam:    '#6366f1',
+    };
+    const typeColor = (t) => TYPE_COLORS[t] || '#64748b';
 
     // Filter states
     const [filterTitle, setFilterTitle] = useState('');
@@ -275,6 +315,57 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const swaraInputRef = useRef(null);
     const sahityaInputRef = useRef(null);
     const jsonInputRef = useRef(null);
+    const pdfInputRef = useRef(null);
+
+    /**
+     * Generate a sample composition JSON the user can download, edit, and
+     * re-upload via the "JSON file" mode. Uses the same template generator
+     * the manual flow uses, so the schema stays in lock-step with the
+     * server's expectations.
+     */
+    /**
+     * Pick a PDF, then ask the server to extract metadata from its header
+     * (title / raga / tala / composer / arohanam / avarohanam / janya / jati).
+     * Anything we get back is poured into the contextual auto-meta fields
+     * AND into uploadTitle (if the user hasn't typed one yet) so the user
+     * doesn't have to retype data the PDF already exposes.
+     */
+    const [pdfParsing, setPdfParsing] = useState(false);
+    const handlePdfPicked = async (file) => {
+        setUploadState(s => ({ ...s, pdfFile: file, error: null }));
+        if (!file) return;
+        setPdfParsing(true);
+        try {
+            const fd = new FormData();
+            fd.append('pdf', file);
+            const res = await fetch('/api/songs/parse-pdf', { method: 'POST', body: fd });
+            if (!res.ok) return; // silent — user can still type fields manually
+            const meta = await res.json();
+            if (meta.name && !uploadTitle.trim()) setUploadTitle(meta.name);
+            if (meta.raga) setAutoRaga(meta.raga);
+            if (meta.tala) setAutoTala(meta.tala);
+            if (meta.composer) setAutoComposer(meta.composer);
+        } catch (err) {
+            console.warn('PDF parse failed:', err);
+        } finally {
+            setPdfParsing(false);
+        }
+    };
+
+    const handleDownloadTemplate = () => {
+        const tala = manualTala || 'Adi';
+        const sections = manualSections.length ? manualSections : ['Pallavi', 'Anupallavi', 'Charanam'];
+        const template = generateCompositionTemplate(
+            uploadTitle.trim() || 'Sample Song',
+            tala,
+            sections,
+            manualRaga || 'Sample Raga',
+            manualComposer || 'Composer Name',
+            0,
+        );
+        const blob = new Blob([JSON.stringify(template, null, 2)], { type: 'application/json' });
+        triggerDownload(blob, 'sangeetham-template.json');
+    };
 
     const isDark = theme !== 'light';
     const borderColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.07)';
@@ -323,6 +414,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         setEditRaga(song.raga || '');
         setEditTala(song.tala || '');
         setEditComposer(song.composer || '');
+        setEditType(song.compositionType || '');
     };
 
     const commitMetaEdit = async (id) => {
@@ -331,17 +423,29 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             const res = await fetch(`/api/songs/${id}/metadata`, {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ raga: editRaga.trim(), tala: editTala.trim(), composer: editComposer.trim() }),
+                body: JSON.stringify({
+                    raga: editRaga.trim(),
+                    tala: editTala.trim(),
+                    composer: editComposer.trim(),
+                    compositionType: editType.trim(),
+                }),
             });
             if (!res.ok) throw new Error('Update failed');
             const data = await res.json();
-            setSongs(prev => prev.map(s => s.id === id ? { ...s, raga: data.raga, tala: data.tala, composer: data.composer } : s));
+            setSongs(prev => prev.map(s => s.id === id ? {
+                ...s,
+                raga: data.raga,
+                tala: data.tala,
+                composer: data.composer,
+                compositionType: data.compositionType,
+            } : s));
         } catch (e) {
             alert('Update failed: ' + e.message);
         } finally {
             setEditingMetaId(null);
         }
     };
+
 
     const togglePublish = async (id, currentPublished) => {
         try {
@@ -370,7 +474,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     };
 
     const handleUploadSubmit = async () => {
-        const { swaraAudio, sahityaAudio, jsonFile } = uploadState;
+        const { swaraAudio, sahityaAudio, jsonFile, pdfFile } = uploadState;
         if (!uploadTitle.trim()) {
             setUploadState(s => ({ ...s, error: 'Please enter a song title.' }));
             return;
@@ -379,24 +483,39 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             setUploadState(s => ({ ...s, error: 'Please select at least one audio file (Swara or Sahitya).' }));
             return;
         }
-        if (uploadMode === 'manual') {
-            if (!manualRaga.trim()) {
-                setUploadState(s => ({ ...s, error: 'Ragam is required.' }));
+
+        // Auto Setup with PDF-only and Manual Setup both need raga + tala
+        // from the form (no JSON for the server to read them out of).
+        const needsManualMeta =
+            uploadMode === 'manual' ||
+            (uploadMode === 'file' && !jsonFile && pdfFile);
+        const metaRaga = uploadMode === 'manual' ? manualRaga : autoRaga;
+        const metaTala = uploadMode === 'manual' ? manualTala : autoTala;
+        const metaComposer = uploadMode === 'manual' ? manualComposer : autoComposer;
+
+        if (needsManualMeta) {
+            if (!metaRaga.trim()) {
+                setUploadState(s => ({ ...s, error: 'Ragam is required when uploading a PDF without a JSON.' }));
                 return;
             }
-            if (!manualTala.trim()) {
-                setUploadState(s => ({ ...s, error: 'Talam is required.' }));
+            if (!metaTala.trim()) {
+                setUploadState(s => ({ ...s, error: 'Talam is required when uploading a PDF without a JSON.' }));
                 return;
             }
         }
 
+        if (uploadMode === 'file' && !jsonFile && !pdfFile) {
+            setUploadState(s => ({ ...s, error: 'Please select a JSON composition or a PDF reference (or both).' }));
+            return;
+        }
+
         // Check for duplicate song (same title + raga + tala)
         const trimTitle = uploadTitle.trim().toLowerCase();
-        const trimRaga = (uploadMode === 'manual' ? manualRaga.trim() : '').toLowerCase();
-        const trimTala = (uploadMode === 'manual' ? manualTala.trim() : '').toLowerCase();
+        const trimRaga = (needsManualMeta ? metaRaga.trim() : '').toLowerCase();
+        const trimTala = (needsManualMeta ? metaTala.trim() : '').toLowerCase();
         const duplicate = songs.find(s => {
             if (s.title?.toLowerCase() !== trimTitle) return false;
-            if (uploadMode !== 'manual') return true; // same title is enough when raga/tala come from JSON
+            if (!needsManualMeta) return true; // same title is enough when raga/tala come from JSON
             return (s.raga?.toLowerCase() || '') === trimRaga
                 && (s.tala?.toLowerCase() || '') === trimTala;
         });
@@ -429,9 +548,6 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             const title = uploadTitle.trim();
             const templateObj = generateCompositionTemplate(title, manualTala, manualSections, manualRaga, manualComposer, audioDuration);
             finalJsonFile = new File([JSON.stringify(templateObj)], `${title}.json`, { type: 'application/json' });
-        } else if (!jsonFile) {
-            setUploadState(s => ({ ...s, error: 'Please select a JSON composition file.' }));
-            return;
         }
 
         setUploadState(s => ({ ...s, uploading: true, error: null }));
@@ -440,11 +556,14 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             form.append('title', uploadTitle.trim());
             if (swaraAudio) form.append('swaraAudio', swaraAudio);
             if (sahityaAudio) form.append('sahityaAudio', sahityaAudio);
-            form.append('json', finalJsonFile);
-            if (uploadMode === 'manual') {
-                form.append('raga', manualRaga.trim());
-                form.append('tala', manualTala.trim());
-                if (manualComposer.trim()) form.append('composer', manualComposer.trim());
+            // Only attach a JSON when we actually have one. PDF-only uploads
+            // let the server synthesize an empty composition.
+            if (finalJsonFile) form.append('json', finalJsonFile);
+            if (pdfFile) form.append('pdf', pdfFile);
+            if (needsManualMeta) {
+                form.append('raga', metaRaga.trim());
+                form.append('tala', metaTala.trim());
+                if (metaComposer.trim()) form.append('composer', metaComposer.trim());
             }
             const res = await fetch('/api/songs/upload', { method: 'POST', body: form });
             if (!res.ok) {
@@ -454,9 +573,10 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             const newSong = await res.json();
             setSongs(prev => [newSong, ...prev]);
             setShowUpload(false);
-            setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, uploading: false, error: null });
+            setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, pdfFile: null, uploading: false, error: null });
             setUploadTitle('');
             setUploadMode('file');
+            setAutoRaga(''); setAutoTala(''); setAutoComposer('');
         } catch (e) {
             setUploadState(s => ({ ...s, uploading: false, error: e.message }));
         }
@@ -697,6 +817,9 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                     backdropFilter: 'blur(12px)',
                                 }}
                             >
+                                {/* Composition Type Banner — hangs from the top of the card like a fabric flag */}
+                                <TypeBanner song={song} color={typeColor(song.compositionType)} />
+
                                 {/* Title */}
                                 <div className="flex items-start justify-between mb-3">
                                     <div className="flex-1 min-w-0">
@@ -774,6 +897,14 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                                     isDark={isDark}
                                                     borderColor={borderColor}
                                                 />
+                                                <SearchableSelect
+                                                    label="Type"
+                                                    value={editType}
+                                                    onChange={setEditType}
+                                                    options={COMPOSITION_TYPES}
+                                                    isDark={isDark}
+                                                    borderColor={borderColor}
+                                                />
                                                 <div className="flex items-center gap-2 pt-1">
                                                     <button
                                                         onClick={() => commitMetaEdit(song.id)}
@@ -819,17 +950,6 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                     </div>
                                 </div>
 
-                                {/* Right Actions Box */}
-                                <div className="absolute right-6 top-6 flex flex-col items-end gap-3 pointer-events-none">
-                                    <button 
-                                        onClick={(e) => { e.stopPropagation(); handleToggleFavorite(song); }}
-                                        className={`p-2.5 rounded-xl border transition-all pointer-events-auto shadow-sm ${song.isFavorite ? 'bg-rose-500/10 border-rose-500/40 text-rose-500' : 'bg-black/5 border-white/10 text-[var(--text-muted)] hover:bg-rose-500/5 hover:border-rose-500/30 hover:text-rose-400'}`}
-                                        title={song.isFavorite ? "Remove from Favorites" : "Mark as Favorite"}
-                                    >
-                                        <Heart className={`w-5 h-5 ${song.isFavorite ? 'fill-rose-500' : ''}`} />
-                                    </button>
-                                </div>
-
                                 {/* Meta */}
                                 <div className="flex items-center gap-3 mb-4 text-[11px]" style={{ color: 'var(--text-muted)' }}>
                                     <span className="flex items-center gap-1">
@@ -847,6 +967,14 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                 {/* Actions */}
                                 <div className="flex items-center gap-2">
                                     <button
+                                        onClick={(e) => { e.stopPropagation(); handleToggleFavorite(song); }}
+                                        className={`w-9 h-9 flex items-center justify-center rounded-xl border transition-all ${song.isFavorite ? 'bg-rose-500/10 border-rose-500/40 text-rose-500' : 'bg-black/5 border-white/10 text-[var(--text-muted)] hover:bg-rose-500/5 hover:border-rose-500/30 hover:text-rose-400'}`}
+                                        title={song.isFavorite ? "Remove from Favorites" : "Mark as Favorite"}
+                                    >
+                                        <Heart className={`w-4 h-4 ${song.isFavorite ? 'fill-rose-500' : ''}`} />
+                                    </button>
+
+                                    <button
                                         onClick={() => startMetaEdit(song)}
                                         className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:border-blue-500/40 hover:bg-blue-500/10"
                                         style={{ borderColor }}
@@ -855,31 +983,19 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                         <Settings className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
                                     </button>
 
-                                    {/* Files Dropdown (only for PDF for now) */}
+                                    {/* Direct PDF link (no hover popup) */}
                                     {song.pdfPath && (
-                                        <div className="relative group/menu">
-                                            <button
-                                                className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:border-orange-500/40 hover:bg-orange-500/10"
-                                                style={{ borderColor }}
-                                                title="Files"
-                                            >
-                                                <FileText className="w-4 h-4 text-orange-400" />
-                                            </button>
-                                            <div className="absolute bottom-full right-0 mb-2 invisible group-hover/menu:visible opacity-0 group-hover/menu:opacity-100 transition-all z-20 min-w-[140px]">
-                                                <div className="bg-[#1a1a24] border border-white/10 rounded-xl shadow-2xl overflow-hidden py-1">
-                                                    <a
-                                                        href={`/api/${song.pdfPath}`}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        className="flex items-center gap-2 px-3 py-2 text-[10px] font-bold uppercase tracking-wider text-orange-400 hover:bg-orange-500/10 transition-colors"
-                                                        onClick={(e) => { e.stopPropagation(); }}
-                                                    >
-                                                        <FileText className="w-3.5 h-3.5" />
-                                                        View PDF Notation
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <a
+                                            href={`/api/${song.pdfPath}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            onClick={(e) => e.stopPropagation()}
+                                            className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:border-orange-500/40 hover:bg-orange-500/10"
+                                            style={{ borderColor }}
+                                            title="View PDF Notation"
+                                        >
+                                            <FileText className="w-4 h-4 text-orange-400" />
+                                        </a>
                                     )}
 
                                     <button
@@ -931,7 +1047,9 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                         }}
                     >
                         <div className="flex items-center justify-between mb-5">
-                            <h2 className="text-lg font-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>Add New Song</h2>
+                            <h2 className="text-lg font-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                                {uploadMode === 'manual' ? 'Add New Song (without Lyrics)' : 'Add New Song'}
+                            </h2>
                             <button onClick={() => { setShowUpload(false); setUploadMode('file'); }}
                                 className="w-8 h-8 flex items-center justify-center rounded-xl opacity-60 hover:opacity-100 transition-opacity">
                                 <X className="w-4 h-4" />
@@ -1030,34 +1148,115 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                         </div>
 
                         {uploadMode === 'file' ? (
-                            /* JSON file upload */
+                            /* Auto Setup — half/half JSON + PDF pickers */
                             <div className="mb-6">
-                                <label className="block text-[10px] font-black uppercase tracking-widest mb-2 opacity-50">Composition JSON</label>
-                                <button
-                                    onClick={() => jsonInputRef.current?.click()}
-                                    className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-dashed transition-all group"
-                                    style={{
-                                        borderColor: uploadState.jsonFile ? 'rgba(16,185,129,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
-                                        background: uploadState.jsonFile ? 'rgba(16,185,129,0.05)' : 'transparent',
-                                    }}
-                                >
-                                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${uploadState.jsonFile ? 'bg-emerald-500/20 text-emerald-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
-                                        <FileJson className="w-5 h-5" />
-                                    </div>
-                                    <div className="text-left min-w-0 flex-1">
-                                        <div className={`text-sm font-bold truncate ${uploadState.jsonFile ? 'text-emerald-500' : 'text-[var(--text-primary)]'}`}>
-                                            {uploadState.jsonFile ? uploadState.jsonFile.name : 'Select JSON File'}
+                                <div className="flex items-center justify-between mb-2">
+                                    <label className="block text-[10px] font-black uppercase tracking-widest opacity-50">Composition Source (JSON, PDF, or both)</label>
+                                    <button
+                                        onClick={handleDownloadTemplate}
+                                        className="flex items-center gap-1.5 px-2.5 py-1 text-[9px] font-black uppercase tracking-wider rounded-lg border transition-all hover:bg-emerald-500/10 hover:text-emerald-500 hover:border-emerald-500/30"
+                                        style={{ borderColor, color: 'var(--text-muted)' }}
+                                        title="Download a sample composition JSON you can edit and re-upload"
+                                    >
+                                        <Download className="w-3 h-3" />
+                                        Template
+                                    </button>
+                                </div>
+                                <div className="grid grid-cols-2 gap-3">
+                                    {/* JSON picker */}
+                                    <button
+                                        onClick={() => jsonInputRef.current?.click()}
+                                        className="flex flex-col items-center gap-2 px-3 py-4 rounded-2xl border-2 border-dashed transition-all group"
+                                        style={{
+                                            borderColor: uploadState.jsonFile ? 'rgba(16,185,129,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
+                                            background: uploadState.jsonFile ? 'rgba(16,185,129,0.05)' : 'transparent',
+                                        }}
+                                    >
+                                        <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${uploadState.jsonFile ? 'bg-emerald-500/20 text-emerald-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
+                                            <FileJson className="w-5 h-5" />
                                         </div>
-                                        <div className="text-[10px] opacity-40 uppercase tracking-tight">Full track notation</div>
+                                        <div className="text-center min-w-0 w-full">
+                                            <div className={`text-[11px] font-bold truncate ${uploadState.jsonFile ? 'text-emerald-500' : 'text-[var(--text-primary)]'}`}>
+                                                {uploadState.jsonFile ? uploadState.jsonFile.name : 'Select JSON'}
+                                            </div>
+                                            <div className="text-[9px] opacity-40 uppercase tracking-tight mt-0.5">Full notation</div>
+                                        </div>
+                                    </button>
+                                    <input
+                                        ref={jsonInputRef}
+                                        type="file"
+                                        accept=".json,application/json"
+                                        className="hidden"
+                                        onChange={(e) => setUploadState(s => ({ ...s, jsonFile: e.target.files[0] || null, error: null }))}
+                                    />
+
+                                    {/* PDF picker */}
+                                    <button
+                                        onClick={() => pdfInputRef.current?.click()}
+                                        className="flex flex-col items-center gap-2 px-3 py-4 rounded-2xl border-2 border-dashed transition-all group"
+                                        style={{
+                                            borderColor: uploadState.pdfFile ? 'rgba(249,115,22,0.3)' : (isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'),
+                                            background: uploadState.pdfFile ? 'rgba(249,115,22,0.05)' : 'transparent',
+                                        }}
+                                    >
+                                        <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${uploadState.pdfFile ? 'bg-orange-500/20 text-orange-500' : 'bg-white/5 text-[var(--text-muted)]'}`}>
+                                            {pdfParsing
+                                                ? <div className="w-4 h-4 border-2 border-orange-400 border-t-transparent rounded-full animate-spin" />
+                                                : <FileText className="w-5 h-5" />}
+                                        </div>
+                                        <div className="text-center min-w-0 w-full">
+                                            <div className={`text-[11px] font-bold truncate ${uploadState.pdfFile ? 'text-orange-500' : 'text-[var(--text-primary)]'}`}>
+                                                {uploadState.pdfFile ? uploadState.pdfFile.name : 'Select PDF'}
+                                            </div>
+                                            <div className="text-[9px] opacity-40 uppercase tracking-tight mt-0.5">
+                                                {pdfParsing ? 'Reading metadata…' : 'Sheet music'}
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <input
+                                        ref={pdfInputRef}
+                                        type="file"
+                                        accept=".pdf,application/pdf"
+                                        className="hidden"
+                                        onChange={(e) => handlePdfPicked(e.target.files[0] || null)}
+                                    />
+                                </div>
+
+                                {/* PDF without JSON: surface raga/tala selectors so the server
+                                    has enough metadata to synthesize a starter composition. */}
+                                {uploadState.pdfFile && !uploadState.jsonFile && (
+                                    <div className="mt-4 space-y-4 p-3 rounded-2xl border" style={{ borderColor, background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)' }}>
+                                        <div className="text-[10px] font-black uppercase tracking-widest opacity-50 px-1">
+                                            PDF only — please specify metadata
+                                        </div>
+                                        <div className="grid grid-cols-2 gap-3">
+                                            <SearchableSelect
+                                                label="Ragam *"
+                                                value={autoRaga}
+                                                onChange={setAutoRaga}
+                                                options={allRagas}
+                                                isDark={isDark}
+                                                borderColor={borderColor}
+                                            />
+                                            <SearchableSelect
+                                                label="Talam *"
+                                                value={autoTala}
+                                                onChange={setAutoTala}
+                                                options={allTalas}
+                                                isDark={isDark}
+                                                borderColor={borderColor}
+                                            />
+                                        </div>
+                                        <SearchableSelect
+                                            label="Composer"
+                                            value={autoComposer}
+                                            onChange={setAutoComposer}
+                                            options={allComposers}
+                                            isDark={isDark}
+                                            borderColor={borderColor}
+                                        />
                                     </div>
-                                </button>
-                                <input
-                                    ref={jsonInputRef}
-                                    type="file"
-                                    accept=".json,application/json"
-                                    className="hidden"
-                                    onChange={(e) => setUploadState(s => ({ ...s, jsonFile: e.target.files[0] || null, error: null }))}
-                                />
+                                )}
                             </div>
                         ) : (
                             /* Manual Setup */
@@ -1126,7 +1325,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
                         <div className="flex gap-3">
                             <button
-                                onClick={() => { setShowUpload(false); setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, uploading: false, error: null }); }}
+                                onClick={() => { setShowUpload(false); setUploadState({ swaraAudio: null, sahityaAudio: null, jsonFile: null, pdfFile: null, uploading: false, error: null }); setAutoRaga(''); setAutoTala(''); setAutoComposer(''); }}
                                 className="flex-1 py-3 rounded-xl border font-bold text-sm transition-all"
                                 style={{ borderColor, color: 'var(--text-muted)' }}
                             >

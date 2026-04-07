@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 D2 S ||",
         "avarohanam": "S D2 M1 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,27 +14,27 @@
             "content": [
                 {
                     "swara": "1. S ;  D , m  ; G  gr R |     S ;   ;  rg M ;  D ;  ||",
-                    "sahitya": "Shree  Lak shmi  Va raa--     ham- -  Bha-  je - ham-"
+                    "sahitya": "Shree  Lak shmi  Va raa--     ham- -  Bha-  je - ham- ||"
                 },
                 {
                     "swara": "2. rsdm -  s dm - d mg -G  gr R |     S ;   ;  rg M ;  D ;  ||",
-                    "sahitya": "Shree  Lak- shmi --  Va raa--     ham- -  Bha-  je - ham-"
+                    "sahitya": "Shree  Lak- shmi --  Va raa--     ham- -  Bha-  je - ham- ||"
                 },
                 {
                     "swara": "3. rsdm -  s dm - d mg -G  gr R |     S ;   ;  gr srgm dmds  ||",
-                    "sahitya": "Shree  Lak- shmi --  Va raa--     ham- -  Bha-  je - ham-"
+                    "sahitya": "Shree  Lak- shmi --  Va raa--     ham- -  Bha-  je - ham- ||"
                 },
                 {
                     "swara": "4. grsd -  rsd -s  dm - m   g  -gr R |     S ;   ;  rg rs D S ;  ||",
-                    "sahitya": "Shree  Lak- shmi --  Va- -    raa--     ham- -  Bha-  je - ham-"
+                    "sahitya": "Shree  Lak- shmi --  Va- -    raa--     ham- -  Bha-  je - ham- ||"
                 },
                 {
                     "swara": "R ;  G ;  M ;  M D |   S ;  ; rs  d m - g m   , -m     D ||",
-                    "sahitya": "Shree  Lak shmi Sahi-     tam - - Sritha jana Shubha Pra dam"
+                    "sahitya": "Shree  Lak shmi Sahi-     tam - - Sritha jana Shubha Pra dam ||"
                 },
                 {
                     "swara": "5.  rsdm -  s dm - d  mg -G    gr R |     R ;   ;  rg rs D S ;  ||",
-                    "sahitya": "Shree  Lak- shmi --  Va- -    raa--     ham- -  Bha-  je - ham-"
+                    "sahitya": "Shree  Lak- shmi --  Va- -    raa--     ham- -  Bha-  je - ham- ||"
                 }
             ]
         },
@@ -42,27 +43,27 @@
             "content": [
                 {
                     "swara": "1. DM  D - S  ; S  D    S  |   R ;  R G  gr R  S ;  ||",
-                    "sahitya": "Nee- la  Me  gha  Ghana    Shya mala  Gaa-- thram"
+                    "sahitya": "Nee- la  Me  gha  Ghana    Shya mala  Gaa-- thram ||"
                 },
                 {
                     "swara": "2. DM  D - S  ; S  D    S  |   rgmg rmgg  gr sd  S ;  ||",
-                    "sahitya": "Nee- la  Me  gha  Ghana    Shya mala  Gaa-- thram"
+                    "sahitya": "Nee- la  Me  gha  Ghana    Shya mala  Gaa-- thram ||"
                 },
                 {
                     "swara": "3. rsdm  D - S  ; S  D    S  |   rgmg rmgg  gr sd  S ;  ||",
-                    "sahitya": "Nee- la  Me  gha  Ghana    Shya  mala  Gaa-- thram    (finish with 1)"
+                    "sahitya": "Nee- la  Me  gha  Ghana    Shya  mala  Gaa-- thram    (finish with 1) ||"
                 },
                 {
                     "swara": "a) R;  g M g G R  S ;  | sd sd d m     G gr R  S ;  ||",
-                    "sahitya": "Nee la - -  Bhu-  de-    vi- - -   Sthu-thi Paa--  thram"
+                    "sahitya": "Nee la - -  Bhu-  de-    vi- - -   Sthu-thi Paa--  thram ||"
                 },
                 {
                     "swara": "b) R G  rg M mg R gr S  |  rs D s d M  dm G  g r S  ||",
-                    "sahitya": "Nee la - -  Bhu-  de-    vi- - -   Sthu-thi Paa--  thram"
+                    "sahitya": "Nee la - -  Bhu-  de-    vi- - -   Sthu-thi Paa--  thram ||"
                 },
                 {
                     "swara": "R m - g  , r - s d      rs  gr  -   mg M  |    d r s  - s    d m - d s  -  s D m       gm D  ||",
-                    "sahitya": "Neela kan ta Shiva Guruguha Mithram Nikhila Bhaktha Jana Bhayaarthi Daathram"
+                    "sahitya": "Neela kan ta Shiva Guruguha Mithram Nikhila Bhaktha Jana Bhayaarthi Daathram ||"
                 }
             ]
         },
@@ -71,31 +72,31 @@
             "content": [
                 {
                     "swara": "1. M ;  M - M  D - M  D ;  |  D S  D D  M- G  gr R  ||",
-                    "sahitya": "Man ga   laa -     la yaa  Abho-  gi nu tha Pa dam--"
+                    "sahitya": "Man ga   laa -     la yaa  Abho-  gi nu tha Pa dam-- ||"
                 },
                 {
                     "swara": "2. M ;  M - gm  D - M  D ;  |  md rs  sd dm  mg - G  gr R  ||",
-                    "sahitya": "Man ga   laa -     la yaa  Abho-  gi nu tha Pa dam--"
+                    "sahitya": "Man ga   laa -     la yaa  Abho-  gi nu tha Pa dam-- ||"
                 },
                 {
                     "swara": "; gr  sd S  R G  MM  | D S  ; D  ; M  D S  ||",
-                    "sahitya": "Pun- ga-va  Budha  jana  Natham    Ve  da nutham"
+                    "sahitya": "Pun- ga-va  Budha  jana  Natham    Ve  da nutham ||"
                 },
                 {
                     "swara": "; , d  , s S   R  R  GR  |  S - rm  gr  S  gr - rs  D s   s  ||",
-                    "sahitya": "San   kara      Priya  karam     Ku be-  --  ra  Pra thi- -  sti tham"
+                    "sahitya": "San   kara      Priya  karam     Ku be-  --  ra  Pra thi- -  sti tham ||"
                 },
                 {
                     "swara": "; r s d - s S   R  R  GR  |  S - rm  gr  S  gr - rs  D s   s  ||",
-                    "sahitya": "San  -  kara      Priya  karam     Ku be-  --  ra  Pra thi- -  sti tham"
+                    "sahitya": "San  -  kara      Priya  karam     Ku be-  --  ra  Pra thi- -  sti tham ||"
                 },
                 {
                     "swara": "; , r  , s  - D  ;  M  D S | ;  sd  dm ;  ; G -  gr R   ||",
-                    "sahitya": "Shan  ka Cha -   kra    Dharam     Kru-  paa-   ka-  ram --"
+                    "sahitya": "Shan  ka Cha -   kra    Dharam     Kru-  paa-   ka-  ram -- ||"
                 },
                 {
                     "swara": "grrs D - rs  D - M  D S   | s dm - d   m g - G    gr R  ; ;  ||",
-                    "sahitya": "Shan  ka Cha -   kra    Dharam   Kru-    paa-       ka-  ram --"
+                    "sahitya": "Shan  ka Cha -   kra    Dharam   Kru-    paa-       ka-  ram -- ||"
                 }
             ]
         },
@@ -104,11 +105,11 @@
             "content": [
                 {
                     "swara": "R m - g  , r  -S -  r s r  - s  , d S  | R gm  gm - D  m D - s  , d S  ||",
-                    "sahitya": "Pankajaasana Pramukha Sevitham     Pankaja Mukha Bhaargavee Bhaavitham"
+                    "sahitya": "Pankajaasana Pramukha Sevitham     Pankaja Mukha Bhaargavee Bhaavitham ||"
                 },
                 {
                     "swara": "R      g - r       g - S       r -  D s -   m       , D s   |  R   g   r     s  d - s d    , M m    g  m d  s   ||",
-                    "sahitya": "Bhanga Ha    ra Thaamra    parnee Thee rastham  Sankata    hara Sadaananda  Sahi tham-"
+                    "sahitya": "Bhanga Ha    ra Thaamra    parnee Thee rastham  Sankata    hara Sadaananda  Sahi tham- ||"
                 }
             ]
         }

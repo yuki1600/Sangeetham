@@ -5,7 +5,8 @@
         "arohanam": "S G3 M2 P N3 S ||",
         "avarohanam": "S N3 P M2 G3 S ||",
         "tala": "Rupakam",
-        "composer": "Muthaiah Bhagavatar"
+        "composer": "Muthaiah Bhagavatar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,67 +14,67 @@
             "content": [
                 {
                     "swara": "S N  ; P    M ;  ||  M gm      G-  gs        S ;  ||",
-                    "sahitya": "sudhA     ma   yi                    su  dhA   -     ni      dhi"
+                    "sahitya": "sudhA     ma   yi                    su  dhA   -     ni      dhi ||"
                 },
                 {
                     "swara": "; ;  ; ;  ; ;  ||  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- -  - -  - -                - -  - -  - -"
+                    "sahitya": "- -  - -  - -                - -  - -  - - ||"
                 },
                 {
                     "swara": "S N  ; P    M ;  ||  G gm      G-  gs        S ;  ||",
-                    "sahitya": "sudhA     ma   yi                    su  dhA   -    ni       dhi"
+                    "sahitya": "sudhA     ma   yi                    su  dhA   -    ni       dhi ||"
                 },
                 {
                     "swara": ";    ss   S G  M P  ||   mpN    ;  sn    pmpn ||",
-                    "sahitya": "(su)ma   carE-     -  kSu     kO - -    - daN     - - DE-"
+                    "sahitya": "(su)ma   carE-     -  kSu     kO - -    - daN     - - DE- ||"
                 },
                 {
                     "swara": "S N  ; P    M ;  ||  pm gm     pm-  G   S ;   ||",
-                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE --"
+                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE -- ||"
                 },
                 {
                     "swara": ";    ss   S G  M P ||   mpN    ;  sn    pmpn ||",
-                    "sahitya": "(su)ma   carE-     -  kSu     kO - -    - daN     - - DE-"
+                    "sahitya": "(su)ma   carE-     -  kSu     kO - -    - daN     - - DE- ||"
                 },
                 {
                     "swara": "S N  ; P    M ;  ||  pm gm     pm-  gm    gs gm  ||",
-                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE --"
+                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE -- ||"
                 },
                 {
                     "swara": "pm gm     gs - ns     gm P ||   mp ns     mg- sn     pm pn   ||",
-                    "sahitya": "su- ma     ca    rE-     -  kSu    kO - -     -  - daN     - - DE-"
+                    "sahitya": "su- ma     ca    rE-     -  kSu    kO - -     -  - daN     - - DE- ||"
                 },
                 {
                     "swara": "S N  ; P    M ;  ||  ; ;  ;  ;  ;  ; ||  [sing N and M flat]",
-                    "sahitya": "sudhA     ma   yi                   - -  -  -        -   -"
+                    "sahitya": "sudhA     ma   yi                   - -  -  -        -   - ||"
                 },
                 {
                     "swara": "gmpm    G ;      ;  S   ||   ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- - - -  - -       - -      - -  - -  - -"
+                    "sahitya": "- - - -  - -       - -      - -  - -  - - ||"
                 },
                 {
                     "swara": ",p  P     N  S -  G   S  ||  N  P      P  - P      N    S   || ;  ;        ; ;   ; ;  ||",
-                    "sahitya": "Vi dhI-    -  ndra   nu tha    vi  ma    la    sa      la  hau"
+                    "sahitya": "Vi dhI-    -  ndra   nu tha    vi  ma    la    sa      la  hau ||"
                 },
                 {
                     "swara": ",p P     N   S -  G   S  ||  sn  P      P  - P    N  S ||",
-                    "sahitya": "VidhI-    -  ndra   nu tha    vi  ma    la    sa   la  hau"
+                    "sahitya": "VidhI-    -  ndra   nu tha    vi  ma    la    sa   la  hau ||"
                 },
                 {
                     "swara": ",p P     N   S -  G   M  ||  mg  gs      S  - ns      gs  G ||",
-                    "sahitya": "VidhI-    -  ndra   nu tha     vi -  ma    la    sa      la  hau"
+                    "sahitya": "VidhI-    -  ndra   nu tha     vi -  ma    la    sa      la  hau ||"
                 },
                 {
                     "swara": "ns G   S - sn     pm pn || sn pm   gm gs      g m P  ||",
-                    "sahitya": "vE-        da   sA-   - -  rE-     vi-ja-    yAm--     bi -  kE"
+                    "sahitya": "vE-        da   sA-   - -  rE-     vi-ja-    yAm--     bi -  kE ||"
                 },
                 {
                     "swara": ",p P     N   S -  G   M  ||  mg  gs      S  - ns      gs  G ||",
-                    "sahitya": "VidhI-    -  ndra   nu tha     vi -  ma    la    sa      la  hau"
+                    "sahitya": "VidhI-    -  ndra   nu tha     vi -  ma    la    sa      la  hau ||"
                 },
                 {
                     "swara": "ns G   S - sn     pm pn || sn pm   gm gs      g m pn  ||",
-                    "sahitya": "vE-        da   sA-   - -  rE-     vi-ja-    yAm--     bi -  kE"
+                    "sahitya": "vE-        da   sA-   - -  rE-     vi-ja-    yAm--     bi -  kE ||"
                 },
                 {
                     "swara": "S np     N pm    g s g m  || P ;  ;  , m  g m p n  ||",
@@ -89,67 +90,67 @@
                 },
                 {
                     "swara": "S N  ; P    M ;  ||  pm gm     pm-  gm    gs gm  ||",
-                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE --"
+                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE -- ||"
                 },
                 {
                     "swara": "pm gm     gs - ns     gm P ||   mp ns     mg- sn     pm pn   ||",
-                    "sahitya": "su- ma     ca    rE-     -  kSu    kO - -     -  - daN     - - DE-"
+                    "sahitya": "su- ma     ca    rE-     -  kSu    kO - -     -  - daN     - - DE- ||"
                 },
                 {
                     "swara": "S N  ; P    mnppm M,   ||  ; ;  ;  ;  ;  ; ||  [sing N and M flat]",
-                    "sahitya": "sudhA     ma   yi                   - -  -  -        -   -"
+                    "sahitya": "sudhA     ma   yi                   - -  -  -        -   - ||"
                 },
                 {
                     "swara": "gmpm    G ;      ;  S   ||   ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- - - -  - -       - -      - -  - -  - -"
+                    "sahitya": "- - - -  - -       - -      - -  - -  - - ||"
                 },
                 {
                     "swara": "; ps     , n - P  ; M  || mg G  pmmg    gs  ;  n  ||  ; ;  ; ;  ;  ;  ||",
-                    "sahitya": "Sara    si    jA     - kSi          ja- gan mO- -    hi- -  ni    - -  - -  - -"
+                    "sahitya": "Sara    si    jA     - kSi          ja- gan mO- -    hi- -  ni    - -  - -  - - ||"
                 },
                 {
                     "swara": "; ps     , n - P  ; M  || mg G  pmmg    gs  ;  n  ||",
-                    "sahitya": "Sara    si    jA     - kSi          ja- gan mO- -    hi- -  ni"
+                    "sahitya": "Sara    si    jA     - kSi          ja- gan mO- -    hi- -  ni ||"
                 },
                 {
                     "swara": "; sp    , n  S          ;   S  || ; gm  , g  S  G M  ||",
-                    "sahitya": "Sara   sa rA      -    ga      maNi   bhU-     Sa Ni"
+                    "sahitya": "Sara   sa rA      -    ga      maNi   bhU-     Sa Ni ||"
                 },
                 {
                     "swara": "; , p     N - S  G  S  || N P   ;   np ;  N  ||",
-                    "sahitya": "Ha    ri    kE-      -  sha      priya    -  kA-    -  mi"
+                    "sahitya": "Ha    ri    kE-      -  sha      priya    -  kA-    -  mi ||"
                 },
                 {
                     "swara": "S ;  ; ;  ; ;  ||  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "ni -  - -  - -      - -  - -  - -"
+                    "sahitya": "ni -  - -  - -      - -  - -  - - ||"
                 },
                 {
                     "swara": "; , p     N - S  G  S  || N P   ;   pn ;  S ||",
-                    "sahitya": "Ha    ri    kE-      -  sha      priya    -  kA-    -  mi"
+                    "sahitya": "Ha    ri    kE-      -  sha      priya    -  kA-    -  mi ||"
                 },
                 {
                     "swara": "S , p     N - ns  G  S  || N P   ;   pn ;  S ||",
-                    "sahitya": "ni  Ha    ri    kE-      -  sha      priya    -  kA-    -  mi"
+                    "sahitya": "ni  Ha    ri    kE-      -  sha      priya    -  kA-    -  mi ||"
                 },
                 {
                     "swara": "S , p     N - S  G  M  ||  G S      n s g s     G  G  ||",
-                    "sahitya": "ni  Ha    ri    kE-      -  sha      priya    kA-   -    mi  ni"
+                    "sahitya": "ni  Ha    ri    kE-      -  sha      priya    kA-   -    mi  ni ||"
                 },
                 {
                     "swara": "; , p     N - S  G  M  ||  G S      n s g s     G  G  ||",
-                    "sahitya": "- - Ha    ri    kE-      -  sha      priya    kA-   -    mi  ni"
+                    "sahitya": "- - Ha    ri    kE-      -  sha      priya    kA-   -    mi  ni ||"
                 },
                 {
                     "swara": "ns G   S - sn     pm pn || sn pm   gm gs      g m pn  ||",
-                    "sahitya": "Aa- -     nan dA    - -  - -      mr- ta-  kar-  - -    Sa- Ni"
+                    "sahitya": "Aa- -     nan dA    - -  - -      mr- ta-  kar-  - -    Sa- Ni ||"
                 },
                 {
                     "swara": "; , p     N - S  G  M  ||  G S      n s g s     G  G  ||",
-                    "sahitya": "- - Ha    ri    kE-      -  sha      priya    kA-   -    mi  ni"
+                    "sahitya": "- - Ha    ri    kE-      -  sha      priya    kA-   -    mi  ni ||"
                 },
                 {
                     "swara": "ns G   S - sn     pm pn || sn pm   gm gs      g m pn  ||",
-                    "sahitya": "Aa- -     nan dA    - -  - -      mr- ta-  kar-  - -    Sa- Ni"
+                    "sahitya": "Aa- -     nan dA    - -  - -      mr- ta-  kar-  - -    Sa- Ni ||"
                 },
                 {
                     "swara": "S np     N pm    g s g m  || P ;  ;  , m  g m p n  ||",
@@ -165,19 +166,19 @@
                 },
                 {
                     "swara": "S N  ; P    M ;  ||  pm gm     pm-  gm    gs gm  ||",
-                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE --"
+                    "sahitya": "sudhA     ma   yi                    su  dhA    - -    ni  -  dhE -- ||"
                 },
                 {
                     "swara": "pm gm     gs - ns     gm P ||   mp ns     mg- sn     pm pn   ||",
-                    "sahitya": "su- ma     ca    rE-     -  kSu    kO - -     -  - daN     - - DE-"
+                    "sahitya": "su- ma     ca    rE-     -  kSu    kO - -     -  - daN     - - DE- ||"
                 },
                 {
                     "swara": "S N  ; P     M ;  ||  ; ;  ;  ;  ;  ; ||  [sing N and M flat]",
-                    "sahitya": "sudhA     ma   yi                   - -  -  -        -   -"
+                    "sahitya": "sudhA     ma   yi                   - -  -  -        -   - ||"
                 },
                 {
                     "swara": "gmpm    G ;      ;  S   ||   ; ;  ; ;  ; ;  ||",
-                    "sahitya": "- - - -  - -       - -      - -  - -  - -"
+                    "sahitya": "- - - -  - -       - -      - -  - -  - - ||"
                 }
             ]
         }

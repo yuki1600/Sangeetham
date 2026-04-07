@@ -5,7 +5,8 @@
         "arohanam": "S G2 R2 G2 M1 N2 D2 M1 N2 N2 S ||",
         "avarohanam": "S N2 D2 M1 G2 M1 P M1 G2 R2 S ||",
         "tala": "Adi",
-        "composer": "Ambujam Krishna"
+        "composer": "Ambujam Krishna",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "g M -p ; M  mgG , - r   S - sg |   gGg S ;  ; ;  ; ;  ||",
-                    "sahitya": "Guru vaa - yur    Ap - -    pa  ne Ap-   pan--  - -  - -  - -"
+                    "sahitya": "Guru vaa - yur    Ap - -    pa  ne Ap-   pan--  - -  - -  - - ||"
                 },
                 {
                     "swara": "g M -p ; M  mgG , - r   S - sg |   gGg S ;  n S - g  G M   ||",
-                    "sahitya": "Guru vaa - yur    Ap - -    pa  ne Ap-   pan--  - -  Sri- Kri   - shnan"
+                    "sahitya": "Guru vaa - yur    Ap - -    pa  ne Ap-   pan--  - -  Sri- Kri   - shnan ||"
                 },
                 {
                     "swara": "n D -m ; gm pm  -G  r    S - sg |   gm gG r   S ;   n S - g  G M   ||",
-                    "sahitya": "Guru vaa- yur      - -    Appa  ne Ap-   pan-  - -    - -  Sri- Kri   - shnan"
+                    "sahitya": "Guru vaa- yur      - -    Appa  ne Ap-   pan-  - -    - -  Sri- Kri   - shnan ||"
                 },
                 {
                     "swara": "n D -m ; gm pm  -G  r    S - sg |   gm gG r   S - nn   s S-  g    G   M   ||",
-                    "sahitya": "Guru vaa- yur      - -    Appa  ne Ap-   pan-  - -    -   Sri-   - -  Kri   - shnan"
+                    "sahitya": "Guru vaa- yur      - -    Appa  ne Ap-   pan-  - -    -   Sri-   - -  Kri   - shnan ||"
                 },
                 {
                     "swara": "dN r S -nd     M ; - dp pm    ;  -G  r    S - sg |  gGg S - rs    ndM-  G     r - Gm   ||",
-                    "sahitya": "Gu-ru   vaa-   - -    yur  - -  -    Appa  ne Ap-     pan-  - -    Sri-   - -    Kri    - shnan"
+                    "sahitya": "Gu-ru   vaa-   - -    yur  - -  -    Appa  ne Ap-     pan-  - -    Sri-   - -    Kri    - shnan ||"
                 },
                 {
                     "swara": "gm nn  S - ndM   , G  r    S - sg |  gGg S - rs    ndM-  g g   ,  - M ,   ||",
-                    "sahitya": "Gu-ru   vaa-  yur  -  Appa  ne Ap-     pan-  - -    Sri-   - -    Kri    - shnan"
+                    "sahitya": "Gu-ru   vaa-  yur  -  Appa  ne Ap-     pan-  - -    Sri-   - -    Kri    - shnan ||"
                 },
                 {
                     "swara": "g M - r   , S - nd     M - G  r    S - sg |  gGg S - rs    ndM-  g g   ,  - M ,   ||",
-                    "sahitya": "Gu-ru   vaa-  yur  -  -    Appa  ne Ap-  pan-  - -    Sri-   - -    Kri    - shnan"
+                    "sahitya": "Gu-ru   vaa-  yur  -  -    Appa  ne Ap-  pan-  - -    Sri-   - -    Kri    - shnan ||"
                 },
                 {
                     "swara": "g M - r   , S - nd     M - G  r    snnp   ; |  ;  S    gm gGr     S ;  ; ;  ||",
-                    "sahitya": "Gu-ru   vaa-  yur  -  -    Appa  ne - -   -    Ap-  pan-  - -    - -  - -"
+                    "sahitya": "Gu-ru   vaa-  yur  -  -    Appa  ne - -   -    Ap-  pan-  - -    - -  - - ||"
                 }
             ]
         },
@@ -50,39 +51,39 @@
             "content": [
                 {
                     "swara": "n   S - nd     M - mp     Mpm gG,      G M  | ; ;  ; ;  ; ;  ; ; ||",
-                    "sahitya": "Naa-   raa      -   ya-      naa-   - -       Yena    - -  - -  - -  - -"
+                    "sahitya": "Naa-   raa      -   ya-      naa-   - -       Yena    - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "n   S - nd     M - mp     Mpm gG,      G M  | g M - n    ; N  s N-   s    ; S  ||",
-                    "sahitya": "Naa-   raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku"
+                    "sahitya": "Naa-   raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku ||"
                 },
                 {
                     "swara": "n   rs - nd     M - mp     G , r       G M  | g M - n    ; N  n S-   s    ; S  ||",
-                    "sahitya": "Naa-   raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku"
+                    "sahitya": "Naa-   raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku ||"
                 },
                 {
                     "swara": "nsrs ,  - nd     M - mp     G , r       G M  | g M - n    ; N  n S-   s    ; S  ||",
-                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku"
+                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku ||"
                 },
                 {
                     "swara": "nsrs ,  - nd     M - mp     G r  n     s-   g M  | g M - n    ; N  n S-   n    S S  ||",
-                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku"
+                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku ||"
                 },
                 {
                     "swara": "nsrs ,  - nd     M - mp     G r  n     s-   g M  | g M - n    ; N  n S-   g    G M ||",
-                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku"
+                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku ||"
                 },
                 {
                     "swara": "grS ,  - nd     M - mp     G r  n     s-   g M  | g M - n    ; N  n S-   g    G M ||",
-                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku"
+                    "sahitya": "Naa-    raa      -   ya-      naa-   - -       Yena    Naa- vaa  - ra    Azhai ppor -rkku ||"
                 },
                 {
                     "swara": "; g m  , g R  sn rs  n N -d  |  ; pdN    , - d M    M p- mg    R G  ||",
-                    "sahitya": "Varum    I dar  Ta-vi- -  -  rttu     - Vaan-   chaiyu   dan- Kaa   - kkum"
+                    "sahitya": "Varum    I dar  Ta-vi- -  -  rttu     - Vaan-   chaiyu   dan- Kaa   - kkum ||"
                 },
                 {
                     "swara": "; g m  , g R  sn rs  n N -d  |  ; gm    , - pDpD   pmM;-mg    R G  ||",
-                    "sahitya": "Varum    I dar  Ta-vi- -  -  rttu     - Vaan-   chai-yu-   dan- Kaa   - kkum"
+                    "sahitya": "Varum    I dar  Ta-vi- -  -  rttu     - Vaan-   chai-yu-   dan- Kaa   - kkum ||"
                 }
             ]
         },
@@ -91,35 +92,35 @@
             "content": [
                 {
                     "swara": "; , g  g - M  m     M , m     ;  M  |   ; , g  m - p M   mgG ;    S S  ||",
-                    "sahitya": "Vi zhi kat ka   mu  Du    - ttum  - -  E  zhil Tiru    me  - -     - ni"
+                    "sahitya": "Vi zhi kat ka   mu  Du    - ttum  - -  E  zhil Tiru    me  - -     - ni ||"
                 },
                 {
                     "swara": "; , g  g - M  m     M - ns   gg M   |   ;  dN rS - nd M   pmgG, ,    S S  ||",
-                    "sahitya": "Vi zhi kat ka   mu  Du  - -ttum  - -  E  zhil Ti- ru    me  - -     - ni"
+                    "sahitya": "Vi zhi kat ka   mu  Du  - -ttum  - -  E  zhil Ti- ru    me  - -     - ni ||"
                 },
                 {
                     "swara": "; , n  s - g   R    sgsg   n  p    , N ,    | ; , n  s g- G M - m g   ,  M,   ||",
-                    "sahitya": "A       zha  ga Ma nam- Tuddi  - kkum - -Baa-la Ti ru   vu ru - vam"
+                    "sahitya": "A       zha  ga Ma nam- Tuddi  - kkum - -Baa-la Ti ru   vu ru - vam ||"
                 },
                 {
                     "swara": "; , ds   nn   d M  G  G  r- g M  |  ; , g  m - n N   S      N  S ;   ||",
-                    "sahitya": "- - Mu zhu madi  Mukham - Tighaz   - - A   rul  Vizhi cchudar gal"
+                    "sahitya": "- - Mu zhu madi  Mukham - Tighaz   - - A   rul  Vizhi cchudar gal ||"
                 },
                 {
                     "swara": "; , dn   rs   nd M  G  G  r- g M  |  ; , g  m - n N   S      N  S ;   ||",
-                    "sahitya": "- - Mu zhu madi  Mukham - Tighaz   - - A   rul  Vizhi cchudar gal"
+                    "sahitya": "- - Mu zhu madi  Mukham - Tighaz   - - A   rul  Vizhi cchudar gal ||"
                 },
                 {
                     "swara": "; , sg   gs   nd M  G  G  r- g M  |  ; , g  m - n N   sn     gg   s- S ,   ||",
-                    "sahitya": "- - Mu zhu madi  Mukham - Tighaz   - - A   rul  Vizhi cchudar- -  gal"
+                    "sahitya": "- - Mu zhu madi  Mukham - Tighaz   - - A   rul  Vizhi cchudar- -  gal ||"
                 },
                 {
                     "swara": "; n s    , G -      gs     sn  rs      nn D  | ; n s   , nd  M Mpm gG,   gg S ||",
-                    "sahitya": "Azhai -kkum An    bar ga-   ru-lum   A di     ma lar  I - -  nai-  yum--"
+                    "sahitya": "Azhai -kkum An    bar ga-   ru-lum   A di     ma lar  I - -  nai-  yum-- ||"
                 },
                 {
                     "swara": "; n s    , G -      gs     sn  rs      nn D  | gmnn  s- nd M Mpm gG,   gg S ||",
-                    "sahitya": "Azhai -kkum An    bar ga-   ru-lum   A di--     ma lar  I - -  nai-  yum--"
+                    "sahitya": "Azhai -kkum An    bar ga-   ru-lum   A di--     ma lar  I - -  nai-  yum-- ||"
                 }
             ]
         },
@@ -128,23 +129,23 @@
             "content": [
                 {
                     "swara": "N      n     n      S  ,  s      n   s   g  g    , M g  | M ;  ; ;  ; ;  ; ;  ||",
-                    "sahitya": "Munnam Ya   sho-dai   Main-danaai  -Vanda   van-  - -  - -  - -"
+                    "sahitya": "Munnam Ya   sho-dai   Main-danaai  -Vanda   van-  - -  - -  - - ||"
                 },
                 {
                     "swara": "N      n     n      S  ,  s      n   s   g  g    , M g  | M ;  ; ;  nsgm gg sgS  ||",
-                    "sahitya": "Munnam Ya   sho-dai   Main-danaai  -Vanda   van-  - -  - -  - -  - -"
+                    "sahitya": "Munnam Ya   sho-dai   Main-danaai  -Vanda   van-  - -  - -  - -  - - ||"
                 },
                 {
                     "swara": "N      n     n      S  ,  s      n   s   g  g    M   g m  | g g s - g   m    g  m  m   n s s - n   s       n s s   ||",
-                    "sahitya": "Munnam Ya   sho-dai   Main-danaai Vandavan In- ru Na ma kkirangi   In - gu E  zhun daruli"
+                    "sahitya": "Munnam Ya   sho-dai   Main-danaai Vandavan In- ru Na ma kkirangi   In - gu E  zhun daruli ||"
                 },
                 {
                     "swara": "N      n     n      s n s  s      n   s   g  g    , m   g m   | g g s - g   m    g  m  m   n s s - n  s       n s s   ||",
-                    "sahitya": "Munnam Ya   sho--dai   Main-danaai -Vandavan In- ru Na ma kkirangi   In - gu E  zhun daruli"
+                    "sahitya": "Munnam Ya   sho--dai   Main-danaai -Vandavan In- ru Na ma kkirangi   In - gu E  zhun daruli ||"
                 },
                 {
                     "swara": "n s n p    n   n  S      n    s   g g        M  m  m  | g   m  g  r    n rs   n d    m -   m p m   g   r  g m  ||",
-                    "sahitya": "Ba-lanai Yuva naai Paa-   likkum Dei vamaai Pa ra vasha Nilai Kaa- ttum  Parama Purushan-"
+                    "sahitya": "Ba-lanai Yuva naai Paa-   likkum Dei vamaai Pa ra vasha Nilai Kaa- ttum  Parama Purushan- ||"
                 }
             ]
         }

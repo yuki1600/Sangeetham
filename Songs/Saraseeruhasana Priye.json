@@ -5,7 +5,8 @@
         "arohanam": "S R3 G3 M1 P D3 N3 S ||",
         "avarohanam": "S N3 P M1 R3 S ||",
         "tala": "Adi",
-        "composer": "Puliyur Doraiswamy Ayyar"
+        "composer": "Puliyur Doraiswamy Ayyar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,19 +14,19 @@
             "content": [
                 {
                     "swara": "||  ;   P  M P  ; M  P ;  | P p - m  ; pm  R S  ,  m g   - s ||",
-                    "sahitya": "||      Sa   ra si         Ru ha            sa -     na  - Pri yee-    Am -   ba"
+                    "sahitya": "||      Sa   ra si         Ru ha            sa -     na  - Pri yee-    Am -   ba ||"
                 },
                 {
                     "swara": "|| gm -  P  M P  ; pm  gmpn  | SrsS - p  ; pmM  R S  ,  m g    s ||",
-                    "sahitya": "||         Sa   ra si       Ru ha            sa -     na  - Pri yee-    Am -   ba"
+                    "sahitya": "||         Sa   ra si       Ru ha            sa -     na  - Pri yee-    Am -   ba ||"
                 },
                 {
                     "swara": "|| gm -  P  M P  ; pm  gmpn  | SrsS - p  ; pmM  R S  ,  S    s  ||",
-                    "sahitya": "||         Sa   ra si       Ru ha            sa -     na  - Pri yee-    Am -   ba"
+                    "sahitya": "||         Sa   ra si       Ru ha            sa -     na  - Pri yee-    Am -   ba ||"
                 },
                 {
                     "swara": "|| ;  S  S - R  S - G  m -m P   | , g R   s - R   s  -  g  m  pn     p -  m g     s    ||  gm",
-                    "sahitya": "||    Sa da  Vee naa Ga na  Priye    Sa da    -   nanda   hrudaye-     -    Mani  Sa || daye"
+                    "sahitya": "||    Sa da  Vee naa Ga na  Priye    Sa da    -   nanda   hrudaye-     -    Mani  Sa || daye ||"
                 }
             ]
         },
@@ -34,19 +35,19 @@
             "content": [
                 {
                     "swara": "|| ; P  M P  ; mg  m P  ,  |  ; ;  ; ;  ; ;  , mg s  ||",
-                    "sahitya": "||  Sha  ra naa   ga-       tham -   - -  - -  - -    am- ba"
+                    "sahitya": "||  Sha  ra naa   ga-       tham -   - -  - -  - -    am- ba ||"
                 },
                 {
                     "swara": "||gm- P  M P  ; mg  m P  ,  | ; R r    s - sn         pm - g   m  pn - pn ||",
-                    "sahitya": "||  --  Sha  ra naa   ga- tham          Maa mava   Man-   jula   Shara   niki Thana"
+                    "sahitya": "||  --  Sha  ra naa   ga- tham          Maa mava   Man-   jula   Shara   niki Thana ||"
                 },
                 {
                     "swara": "|| S -   P    M P  ; mg  m P  ,  | ; R r    s - sn         pm - g   m  pn - pn ||",
-                    "sahitya": "||  ye- Sha ra  naa   ga- tham          Maa mava   Man-   jula   Shara   niki Thana"
+                    "sahitya": "||  ye- Sha ra  naa   ga- tham          Maa mava   Man-   jula   Shara   niki Thana ||"
                 },
                 {
                     "swara": "|| S - S     ; sn  pm-  g m    pn - p   n |  S - p s    , s - rs  R ;   , mg s  || gm",
-                    "sahitya": "|| ye  Sam   mo-   ditha Kavi  jana Hruda    ye  Saro    ja  Nila ye            Mani va   la ye"
+                    "sahitya": "|| ye  Sam   mo-   ditha Kavi  jana Hruda    ye  Saro    ja  Nila ye            Mani va   la ye ||"
                 }
             ]
         },
@@ -59,7 +60,7 @@
                 },
                 {
                     "swara": "||  ;  S  S - S  r g M  - P  ;  |  M  - G  ; - pm  R  ;  ;  S  ||",
-                    "sahitya": "||     Sha  ra  na      - gatha  Dee            na   Va      tsa-    le              Am"
+                    "sahitya": "||     Sha  ra  na      - gatha  Dee            na   Va      tsa-    le              Am ||"
                 },
                 {
                     "swara": "||   S-   gm   P N  P - ns  , p M  |  Pnp   Mpm   R S  , r G  M ;  ||",
@@ -79,7 +80,7 @@
                 },
                 {
                     "swara": "||  p  m  mr      S - s    n    P - gg    m - p S  |  sn   P     g   m   s   n     p m -  R     r s -   s r   ||  gm",
-                    "sahitya": "|| stana yuga   le    Dhava     le  Saka  la  Saam -     raa-jya   Prathagana   Yutha  Pu  sthaka Dhaa    le"
+                    "sahitya": "|| stana yuga   le    Dhava     le  Saka  la  Saam -     raa-jya   Prathagana   Yutha  Pu  sthaka Dhaa    le ||"
                 }
             ]
         }

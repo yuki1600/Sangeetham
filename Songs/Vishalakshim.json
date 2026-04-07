@@ -5,7 +5,8 @@
         "arohanam": "S R1 G3 M2 P D1 N3 S ||",
         "avarohanam": "S N3 D1 P M2 G3 R1 S ||",
         "tala": "Misra Chapu",
-        "composer": "Muthuswami Dikshitar"
+        "composer": "Muthuswami Dikshitar",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,35 +14,35 @@
             "content": [
                 {
                     "swara": "; ; D  |  P  ;  D ;  || dN ; ,  | sn D  d N ,  || S ; ;  |  ; ;  ; ;  ||",
-                    "sahitya": "-- vI   shA lA-   kSIm--  vi--       shvE-   shim--   - -  - -"
+                    "sahitya": "-- vI   shA lA-   kSIm--  vi--       shvE-   shim--   - -  - - ||"
                 },
                 {
                     "swara": "; ; D  |  P  ,m  D ;  || dN ; , | sn D  d N ,  || S ; ;  |  ; ;  ; rs  ||",
-                    "sahitya": "--  vI   shA lA-   kSIm--  vi--       shvE-   shim--   - -  - -"
+                    "sahitya": "--  vI   shA lA-   kSIm--  vi--       shvE-   shim--   - -  - - ||"
                 },
                 {
                     "swara": "ndpm- P  |  P  ,m  D ;  || dN ; ,  | sn D  d N ,  || S ; ;  |  ; ;  ; nsrs  ||",
-                    "sahitya": "-- - -    vI    shA  lA-   kSIm--  vi--       shvE-   shim--   - -  - -"
+                    "sahitya": "-- - -    vI    shA  lA-   kSIm--  vi--       shvE-   shim--   - -  - - ||"
                 },
                 {
                     "swara": "ndpm- P  |  P  ,m  D ;  || dN ; , | sn D  d N ,  || S ;    S |   R S  ; dn  || S rn -  ds | nd pm   ; pm||",
-                    "sahitya": "-- - -    vI    shA  lA-   kSIm--  vi--       shvE-   shim-bha ja rE   - rE-        mA--  na-  sa - - -   -sa"
+                    "sahitya": "-- - -    vI    shA  lA-   kSIm--  vi--       shvE-   shim-bha ja rE   - rE-        mA--  na-  sa - - -   -sa ||"
                 },
                 {
                     "swara": "gr gm- P  |  P  ,m  D ;  || dN ; ,  | sn D  d N ,  || S ;    G |   R S  ; dn  || S rn -  ds | ndpm   pmgr||",
-                    "sahitya": "dA- -   vI    shA  lA-   kSIm--  vi--       shvE-   shim-bha ja rE   - rE-        mA--  na-  sa - - -  sa - -"
+                    "sahitya": "dA- -   vI    shA  lA-   kSIm--  vi--       shvE-   shim-bha ja rE   - rE-        mA--  na-  sa - - -  sa - - ||"
                 },
                 {
                     "swara": "sr gm- pd  | n-dpm pmgr  || gmpdns | srgm  grsn  || R ;   ds |   nd-nd pm- gm  || pd-pmgr  | gr S     S-nd  ||",
-                    "sahitya": "dA- -   vI    -  shA  lA-   kSIm--    vi--     shvE-   shim-bha ja   rE   --   rE-      -- mA--    na-sa - sa -"
+                    "sahitya": "dA- -   vI    -  shA  lA-   kSIm--    vi--     shvE-   shim-bha ja   rE   --   rE-      -- mA--    na-sa - sa - ||"
                 },
                 {
                     "swara": "ndpm- pd  | n-dpm pmgr  || gmpdns | srgm  grsn  || R ;  ds |   nd-nd pm- gm  || pd-pmgr  | grS   nsrS,-d||",
-                    "sahitya": "dA- -   vI    -  shA  lA-   kSIm--    vi--     shvE-   shim-bha ja  rE   -    rE-          mA--    na-sa sa  - dA"
+                    "sahitya": "dA- -   vI    -  shA  lA-   kSIm--    vi--     shvE-   shim-bha ja  rE   -    rE-          mA--    na-sa sa  - dA ||"
                 },
                 {
                     "swara": "ndpm- P  |  P  ,m  D ;  || N ; ;  | sn D  d N ,  || S ; ;  |  ; ;  ; ;  ||",
-                    "sahitya": "-- - -vI    shA  lA-   kSIm--   vi--       shvE-   shim--   - -  - -"
+                    "sahitya": "-- - -vI    shA  lA-   kSIm--   vi--       shvE-   shim--   - -  - - ||"
                 }
             ]
         },
@@ -50,63 +51,63 @@
             "content": [
                 {
                     "swara": "; ; P  | ,g - M      D ;  || dN , ;  |  S S  ,d N  || ; S   ;   | ; ;  ; ; || ; ; ;    | ; ;  ; ,s  ||",
-                    "sahitya": "kA -   shI      rAjH   nIm- -    ka pA  -- li           nIm--   - -  - -   - - -      --  - -"
+                    "sahitya": "kA -   shI      rAjH   nIm- -    ka pA  -- li           nIm--   - -  - -   - - -      --  - - ||"
                 },
                 {
                     "swara": "ndpm- P | ,g M      D ;  || dN , ;  |  S S  ,d N  || S ;  ;   | ; ;  ; ,s ||",
-                    "sahitya": "-- - -   kA -shI      rAjH   nIm- -    ka pA  -- li           nIm--   - -  - -"
+                    "sahitya": "-- - -   kA -shI      rAjH   nIm- -    ka pA  -- li           nIm--   - -  - - ||"
                 },
                 {
                     "swara": "ndpm- P | ,g M      D ;  || dN , ;  |  S S  ,d N  || S ;  ;   | ; ;  nsrs nsrs  ||",
-                    "sahitya": "-- - -  kA - shI      rAjH   nIm- -    kapA    -- li         nIm--   - -  - - -   - - -"
+                    "sahitya": "-- - -  kA - shI      rAjH   nIm- -    kapA    -- li         nIm--   - -  - - -   - - - ||"
                 },
                 {
                     "swara": "ndpm- P | ,g M      D ;  || dN , ;  |  S S  ,d N  || S ;  ;   | ; dn  S  , s       ||",
-                    "sahitya": "-- - -  kA - shI      rAjH   nIm- -    kapA    -- li         nIm--   - -  - -   -"
+                    "sahitya": "-- - -  kA - shI      rAjH   nIm- -    kapA    -- li         nIm--   - -  - -   - ||"
                 },
                 {
                     "swara": "ndpm- P | ,g M      D ;  || dN , ;  |  S S  ,d N  || S ;  sr   | G ;  gr  G   || ; pm gr | ; srss , Sd ||",
-                    "sahitya": "-- - -   kA - shI      rAjH   nIm- -    kapA    -- li          nIm vi   nO         da- jA          li-  nIm-  vA   -- ri"
+                    "sahitya": "-- - -   kA - shI      rAjH   nIm- -    kapA    -- li          nIm vi   nO         da- jA          li-  nIm-  vA   -- ri ||"
                 },
                 {
                     "swara": "N ; -  P | ,g M      D ;  || dN , ;  |  S S  ,d N  || S ;  sr   | G ;  gr  G   || ; pm gr | ; srss , Sd ||",
-                    "sahitya": "NIm kA - shI      rAjH   nIm- -    kapA    -- li         nIm vi   nO       da- jA            li- nIm-  vA   --   ri"
+                    "sahitya": "NIm kA - shI      rAjH   nIm- -    kapA    -- li         nIm vi   nO       da- jA            li- nIm-  vA   --   ri ||"
                 },
                 {
                     "swara": "N ; -  dn | s-  N d    P-   m g  || , r   S  -  mg |  pm  D     g  r  s  n  ||  dp M   -",
-                    "sahitya": "NIm pA-shamOca nIm prasi  -ddhinIm I -    shA-nIm guruguha    jananIm  [repeat]"
+                    "sahitya": "NIm pA-shamOca nIm prasi  -ddhinIm I -    shA-nIm guruguha    jananIm  [repeat] ||"
                 },
                 {
                     "swara": "dp M  -  dd  | p-  n  d  p   ndpm  || gm    pd P  |  ; ;  ; , s  ||",
-                    "sahitya": "jananIm Thaiya Thakita  ndpm   Thimi pd P     - -  - - s"
+                    "sahitya": "jananIm Thaiya Thakita  ndpm   Thimi pd P     - -  - - s ||"
                 },
                 {
                     "swara": "ndpm  -  dd  | p-  n  d  p   ndpm  || gm    pd P   |  ; , s  P , s  ||",
-                    "sahitya": "ndpm     Thaiya Thakita  ndpm    Thimi pd P        s  P , s"
+                    "sahitya": "ndpm     Thaiya Thakita  ndpm    Thimi pd P        s  P , s ||"
                 },
                 {
                     "swara": "P , s -  dd  | p-  n  d  p   ndpm  || gm    pd P   |  ; , s  D , s  ||",
-                    "sahitya": "P,  s    Thaiya Thakita  ndpm    Thimi pd P     - s  D , s"
+                    "sahitya": "P,  s    Thaiya Thakita  ndpm    Thimi pd P     - s  D , s ||"
                 },
                 {
                     "swara": "P , s -  dd  | p-  n  d  p   ndpm  || gm    pd P   |  ; ;  ;  , s  ||",
-                    "sahitya": "P,  s    Thaiya Thakita  ndpm    Thimi pd P     - -        - - s"
+                    "sahitya": "P,  s    Thaiya Thakita  ndpm    Thimi pd P     - -        - - s ||"
                 },
                 {
                     "swara": "ndpm  -  dd  | p-  n  d  p   ndpm  || gm    pd  ns   |  g r - g m    g    R    s  ||",
-                    "sahitya": "ndpm     Thaiya Thakita  ndpm    Thimi pd  ns    Jam- Thari ThaThin gi"
+                    "sahitya": "ndpm     Thaiya Thakita  ndpm    Thimi pd  ns    Jam- Thari ThaThin gi ||"
                 },
                 {
                     "swara": "nd        P     dd  | p-  n  d  p   ndpm  || gm    pd  ns   |  g r - g m    g    R    s  ||",
-                    "sahitya": "nathom P   Thaiya Thakita  ndpm    Thimi pd  ns    Jam- Thari ThaThin gi"
+                    "sahitya": "nathom P   Thaiya Thakita  ndpm    Thimi pd  ns    Jam- Thari ThaThin gi ||"
                 },
                 {
                     "swara": "nd        pm  -  g m  | p d p   -  g   m p-mp  || d- p d n - d n   | s - nr s     N , -   s  ||",
-                    "sahitya": "nathom pm   Dhimi Thakita  g   m p-mp    d-Tajanu  d n     s - nrTha Jam  Tha"
+                    "sahitya": "nathom pm   Dhimi Thakita  g   m p-mp    d-Tajanu  d n     s - nrTha Jam  Tha ||"
                 },
                 {
                     "swara": "nd        p m  -  g m  | p d p   -  g   m p-mp  || d- p d n - d n   | s - nr s      N    s    s  ||    n d  p   m",
-                    "sahitya": "digi    na thom Dhimi Thakita  g   m p-mp    d-Tajanu  d n     s - nrTha Jamta   Tha  di gina thom"
+                    "sahitya": "digi    na thom Dhimi Thakita  g   m p-mp    d-Tajanu  d n     s - nrTha Jamta   Tha  di gina thom ||"
                 },
                 {
                     "swara": "ndpm-           pd  | n-dpm pmgr  || gmpdns | srgm  grsn  || R ;  ds |   nd-nd pm- gm  || pd-pmgr  | grS",
@@ -114,11 +115,11 @@
                 },
                 {
                     "swara": "nsrS,-d||",
-                    "sahitya": "diginathom   vI    -  shA  lA-   kSIm--    vi--     shvE-   shim-bha ja  rE   -    rE-      - -  mA--  na-"
+                    "sahitya": "diginathom   vI    -  shA  lA-   kSIm--    vi--     shvE-   shim-bha ja  rE   -    rE-      - -  mA--  na- ||"
                 },
                 {
                     "swara": "ndpm- P  |  P  ,m  D ;  || N ; ;  | sn D  d N ,  || S ; ;  |  ; ;  ; ;  ||",
-                    "sahitya": "-- - -    vI    shA  lA-   kSIm--  vi--       shvE-   shim--   - -  - -"
+                    "sahitya": "-- - -    vI    shA  lA-   kSIm--  vi--       shvE-   shim--   - -  - - ||"
                 }
             ]
         }

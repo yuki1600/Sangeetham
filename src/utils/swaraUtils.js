@@ -119,6 +119,17 @@ export function getSwaraColor(deviation) {
 }
 
 /**
+ * Tailwind class equivalent of getSwaraColor — used by pitch displays
+ * (CompactPitchBar, TonicBar, ExerciseRunner) that style with utility classes.
+ */
+export function getPitchColorClass(deviation) {
+    const absDev = Math.abs(deviation);
+    if (absDev <= 15) return 'text-emerald-400';
+    if (absDev <= 35) return 'text-yellow-400';
+    return 'text-red-400';
+}
+
+/**
  * Get all swara frequencies for one octave given a tonic.
  */
 export function getSwaraScale(tonicHz) {

@@ -5,7 +5,8 @@
         "arohanam": "S R2 M1 P D2 S ||",
         "avarohanam": "S N3 D2 P M1 G3 R2 S ||",
         "tala": "Khanda Chapu",
-        "composer": "Swati Tirunal"
+        "composer": "Swati Tirunal",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,27 +14,27 @@
             "content": [
                 {
                     "swara": "P D  P ;   P  || pmM ;     ,g R S        ||  R  mg  R ; S  || RM  P ;  ;  ||",
-                    "sahitya": "Nara sim- ha    Ma--    - -  mava        Bhaga- van--    Ni-  tyam"
+                    "sahitya": "Nara sim- ha    Ma--    - -  mava        Bhaga- van--    Ni-  tyam ||"
                 },
                 {
                     "swara": "P D  P ;   P  || mpdp mp mg r s        ||  R  mg  R ; S  || mg R pp mgrm  ||",
-                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam---"
+                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam--- ||"
                 },
                 {
                     "swara": "P dn  P  D  P  || mpds  dp mg r s        ||  R  mg  R ; S  || ddpp mg rs rm  ||",
-                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam---"
+                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam--- ||"
                 },
                 {
                     "swara": "P dr sn dd  P  || mpds  dp mg r s        ||  R  mg  R ; S  || rrsn dpmg rm  ||",
-                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam---"
+                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam--- ||"
                 },
                 {
                     "swara": "P dr sn dd  P  || mpds  dp mg r s        ||  R  mg  R ; S  || , rsn dpmg rm  ||",
-                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam---"
+                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam--- ||"
                 },
                 {
                     "swara": "P D  D  P   P  || mpdp mp mg r s        ||  R  , m ; dp mg || R ;  ; ; ;   ||",
-                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bha-ga-  - van--    -  -  - - -"
+                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bha-ga-  - van--    -  -  - - - ||"
                 }
             ]
         },
@@ -42,27 +43,27 @@
             "content": [
                 {
                     "swara": "; D  P mg R || ; M  P ;  D  || P ;  ; ; dp  ||",
-                    "sahitya": "-Ha ra vi- rin    - cha   va -  sa   va - - - -"
+                    "sahitya": "-Ha ra vi- rin    - cha   va -  sa   va - - - - ||"
                 },
                 {
                     "swara": "M- D  P mg R || ; M  P ;  D  || P- M  P    D ;   ||  sn - D     R S ;  ||",
-                    "sahitya": "-    Ha ra vi- rin    - cha   va -  sa   va nu    tha Sau   rya-  sin    - dho-"
+                    "sahitya": "-    Ha ra vi- rin    - cha   va -  sa   va nu    tha Sau   rya-  sin    - dho- ||"
                 },
                 {
                     "swara": "M- D  P mpdp mg ||  R dp   mg R-  dd     || P- mp     D    mpdr   ||  sn - D    R S ;  ||",
-                    "sahitya": "-    Ha ra vi---   rin     - cha   va - -   sa-      va  nu-    tha  Sau--      rya-sin    -  dho-"
+                    "sahitya": "-    Ha ra vi---   rin     - cha   va - -   sa-      va  nu-    tha  Sau--      rya-sin    -  dho- ||"
                 },
                 {
                     "swara": "; D  ; R    S  || R - sr  sn   D ;   ||  P - M    P- D sd  ||   P - pp    mg R  ;  ||",
-                    "sahitya": "- Aa - ra  bha   sa  ni- ha-  tha-      -    su     ra Di - -      na Ban- - -   dho-"
+                    "sahitya": "- Aa - ra  bha   sa  ni- ha-  tha-      -    su     ra Di - -      na Ban- - -   dho- ||"
                 },
                 {
                     "swara": "S- R  ; mg R  || S - sr  sn   dd ss  ||  rs - mg   r r- ss dd   ||   pp - sn dd pp  mg  ||",
-                    "sahitya": "-  Aa - ra bha   sa  ni- ha-  tha-       --    su-   ra- Di - -      na-  Ban-   - - dho-"
+                    "sahitya": "-  Aa - ra bha   sa  ni- ha-  tha-       --    su-   ra- Di - -      na-  Ban-   - - dho- ||"
                 },
                 {
                     "swara": "R R  mg R   S ||  sr  sn   dd rs   rr    ||mg r r- ss dd   pd || sn  dd   pp  mg rm ||",
-                    "sahitya": "A thi ra-  bhasa  ni- ha-  tha--  --      su- ra- Di - -    na-  Ban- -  dho- --"
+                    "sahitya": "A thi ra-  bhasa  ni- ha-  tha--  --      su- ra- Di - -    na-  Ban- -  dho- -- ||"
                 },
                 {
                     "swara": "P dp  mg R R || mg   rr  sn - D  R ||  S , r   , -s R -mg  || R -   pm   g R - s r p ||",
@@ -78,11 +79,11 @@
                 },
                 {
                     "swara": "P dr sn dd  P  || mpds  dp mg r s        ||  R  mg  R ; S  || , rsn dpmg rm  ||",
-                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam---"
+                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam--- ||"
                 },
                 {
                     "swara": "P D  D  P   P  || mpdp mp mg r s        ||  R  , m ; dp mg || R ;  ; ; ;   ||",
-                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bha-ga-  - van--    -  -  - - -"
+                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bha-ga-  - van--    -  -  - - - ||"
                 }
             ]
         },
@@ -91,43 +92,43 @@
             "content": [
                 {
                     "swara": "; P  P D P  ||  M P  pp mg rs   || rpmg     R ; S ||  ; ;  ; ; ;  ||",
-                    "sahitya": "Ka ra dritha    Si  ta   he- - - thi-   ya- - -    tha- -    - -  - - -"
+                    "sahitya": "Ka ra dritha    Si  ta   he- - - thi-   ya- - -    tha- -    - -  - - - ||"
                 },
                 {
                     "swara": "; P  P D P  ||  M P  pp mg rs   || rpmg     R ; S ||  ; ;  rrmg  rs  ||",
-                    "sahitya": "Ka ra dritha    Si  ta   he- - - thi-   ya- - -    tha- -    - -  Bhoo-ri"
+                    "sahitya": "Ka ra dritha    Si  ta   he- - - thi-   ya- - -    tha- -    - -  Bhoo-ri ||"
                 },
                 {
                     "swara": "S N  D   R mg  || R S      mg r s R   || rpmg   R ; S ||",
-                    "sahitya": "Kalu sha va- -     ri-dha   Ku-la-  -     ja- - -    tha- -"
+                    "sahitya": "Kalu sha va- -     ri-dha   Ku-la-  -     ja- - -    tha- - ||"
                 },
                 {
                     "swara": "; P  P D P  ||  M P  pp mg rs   || rpmg     R ; S ||  ; R    S R S  ||",
-                    "sahitya": "Ka ra dritha    Si  ta   he- - - thi-   ya- - -    tha- -    - Bhoo- ri-"
+                    "sahitya": "Ka ra dritha    Si  ta   he- - - thi-   ya- - -    tha- -    - Bhoo- ri- ||"
                 },
                 {
                     "swara": "S N  D - R mg  || R S  -   mg r s R   || dpmg   R ; S || ; ;  ; ; ;  ||",
-                    "sahitya": "Kalu sha va- -     ri-dha   Ku-la-  -     ja- - -    tha- -   - -  - - -"
+                    "sahitya": "Kalu sha va- -     ri-dha   Ku-la-  -     ja- - -    tha- -   - -  - - - ||"
                 },
                 {
                     "swara": "D    P  mg R- M   ||  P ;    D P ;  || M P  D S  sn || D R  S ; ;  ||",
-                    "sahitya": "Bhari tha- -  Kri      paa  rasa  -    Pari       pa-  li-      the-     bha- -"
+                    "sahitya": "Bhari tha- -  Kri      paa  rasa  -    Pari       pa-  li-      the-     bha- - ||"
                 },
                 {
                     "swara": "D    P  mpdp mg rm   ||  mgrr dd P ;   || M P  D S  sn || D R  S ; ;  ||",
-                    "sahitya": "Bhari tha- -  - -  Kri      paa - ra-sa  -    Pari  pa-  li-    the-     bha- -"
+                    "sahitya": "Bhari tha- -  - -  Kri      paa - ra-sa  -    Pari  pa-  li-    the-     bha- - ||"
                 },
                 {
                     "swara": "D    P  mg R-      dp   ||  mgrr dd P ;   || mpD  mpdr  sn  || D R     S ; ;  ||",
-                    "sahitya": "Bhari tha- -  - -  Kri      paa - ra-sa  -   Pa-ri   pa- -- li-     the-     bha- -"
+                    "sahitya": "Bhari tha- -  - -  Kri      paa - ra-sa  -   Pa-ri   pa- -- li-     the-     bha- - ||"
                 },
                 {
                     "swara": "D D  R - S , r ||  sn  D  D P  P  || M P  D , p ;    ||Pdp   mg R ;  S ||",
-                    "sahitya": "Pa ra      ma Man -- ga- la  so - bha  Pan-  ka- ja -    na--   - -  bha-"
+                    "sahitya": "Pa ra      ma Man -- ga- la  so - bha  Pan-  ka- ja -    na--   - -  bha- ||"
                 },
                 {
                     "swara": "R R        mg R  ,s ||  sn  D  dd rs   R    ||mg r r- ss dd   pd || sn  dd   pp  mg rm ||",
-                    "sahitya": "Pa ra      ma Man -- ga- la  so - -  bha   Pan- -  ka- ja - na-  - -  - -  bha- - - - -"
+                    "sahitya": "Pa ra      ma Man -- ga- la  so - -  bha   Pan- -  ka- ja - na-  - -  - -  bha- - - - - ||"
                 },
                 {
                     "swara": "P dp  mg R R || mg   rr  sn - D  R ||  S , r   , -s R -mg  || R -   pm   g R - s r m ||",
@@ -139,11 +140,11 @@
                 },
                 {
                     "swara": "P dr sn dd  P  || mpds  dp mg r s        ||  R  mg  R ; S  || , rsn dpmg rm  ||",
-                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam---"
+                    "sahitya": "Nara sim- -ha    Ma-- - -  ma-va-          Bhaga- van--    Ni-  tyam--- ||"
                 },
                 {
                     "swara": "P D  D  P   P  || mpdp mp mg r s        ||  R  , m ; dp mg || R ;  ; ; ;   ||",
-                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bha-ga-  - van--    -  -  - - -"
+                    "sahitya": "Nara sim- ha    Ma-- - -  ma-va-          Bha-ga-  - van--    -  -  - - - ||"
                 }
             ]
         }

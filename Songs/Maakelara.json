@@ -5,7 +5,8 @@
         "arohanam": "S R G M D S || AVA: S N D M G R S ||",
         "avarohanam": "S R G M D S || AVA: S N D M G R S ||",
         "tala": "Adi",
-        "composer": "Tyagaraja"
+        "composer": "Tyagaraja",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,31 +14,31 @@
             "content": [
                 {
                     "swara": ";   ;  ;   M  ;   G   ;  M  |   G   ;     ;  G  |   R    S      ;   R    ||",
-                    "sahitya": "Maa     ke    la    raa     Vi   chaa   -          ra"
+                    "sahitya": "Maa     ke    la    raa     Vi   chaa   -          ra ||"
                 },
                 {
                     "swara": "G   ;    ; M  ;   D   ;  M  |   G   ;     ;  G  |   gr    S      ;   R   ||",
-                    "sahitya": "mu  Maa     ke    la    raa     Vi   chaa  -           ra"
+                    "sahitya": "mu  Maa     ke    la    raa     Vi   chaa  -           ra ||"
                 },
                 {
                     "swara": "G   ;    ; M  ;   D   ;  S  |   ssnn dm - mg |   gg rs        ;   R   ||",
-                    "sahitya": "mu  Maa     ke    la    raa     Vi   chaa ra        mu"
+                    "sahitya": "mu  Maa     ke    la    raa     Vi   chaa ra        mu ||"
                 },
                 {
                     "swara": "G   ;    ; M  ;   D   ;  S  |   rgmg   rs  - nd |   mg rs        ;   R   ||",
-                    "sahitya": "mu  Maa     ke    la    raa         Vi   chaa ra        mu"
+                    "sahitya": "mu  Maa     ke    la    raa         Vi   chaa ra        mu ||"
                 },
                 {
                     "swara": "G   ;    ; M  M  , d   ;   S  |   D ;  ;   S   |   ;   S         ss n d    ||",
-                    "sahitya": "mu    Ma ru     gan      na      Sri    Ra    -    ma       chan --"
+                    "sahitya": "mu    Ma ru     gan      na      Sri    Ra    -    ma       chan -- ||"
                 },
                 {
                     "swara": "sn n d      ; M  ;   D   ;  S  |   rgmg   rs  - nd |   mg rs        ;   R   ||",
-                    "sahitya": "dra   Maa     ke    la    raa         Vi   chaa ra        mu"
+                    "sahitya": "dra   Maa     ke    la    raa         Vi   chaa ra        mu ||"
                 },
                 {
                     "swara": "G   ;    ; M  M  , d   ;   S  |   nd D  ;   S   |   ;   S         ss n d    ||",
-                    "sahitya": "mu   Ma ru     gan      na      Sri    Ra    -    ma       chan --"
+                    "sahitya": "mu   Ma ru     gan      na      Sri    Ra    -    ma       chan -- ||"
                 }
             ]
         },
@@ -46,11 +47,11 @@
             "content": [
                 {
                     "swara": ";   ;   ;   S  ;    N   ;   D      |   S   ;    ;   rg  |  ;  mg   R  m g ||",
-                    "sahitya": "Saa     ke     ta    Raa       ja       ku  maa --"
+                    "sahitya": "Saa     ke     ta    Raa       ja       ku  maa -- ||"
                 },
                 {
                     "swara": "gr  S  ;  S   ;  N   ;  D   |  M  , d       ;   S     |  ;   N     ;   D     ||",
-                    "sahitya": "raa -     Sad    bha    ktha    Man daa       ra          Sri       ka"
+                    "sahitya": "raa -     Sad    bha    ktha    Man daa       ra          Sri       ka ||"
                 }
             ]
         },
@@ -59,23 +60,23 @@
             "content": [
                 {
                     "swara": ";  ;  ;  M  M  M  ;   M  |  G  ;    ;  mg  |  M - D       ;   S    ||",
-                    "sahitya": "Ja ta   gur     chi  Naa     ta-    ka  Su        thra"
+                    "sahitya": "Ja ta   gur     chi  Naa     ta-    ka  Su        thra ||"
                 },
                 {
                     "swara": "n D m  ; - M  M  M  ;   M  |  dmmg    G -  mg |  M - D      ;   S    ||",
-                    "sahitya": "munu      Ja ta   gur     chi  Naa     ta-    ka   Su        thra"
+                    "sahitya": "munu      Ja ta   gur     chi  Naa     ta-    ka   Su        thra ||"
                 },
                 {
                     "swara": "n D m  ; - D  N  nd  D -  M  |  mg gr     S -  mg |  M - M      D -N     ||",
-                    "sahitya": "munu     Ja ga mel  -     la   Me -cha-  ga  Ka-    ra   mu     na Ni"
+                    "sahitya": "munu     Ja ga mel  -     la   Me -cha-  ga  Ka-    ra   mu     na Ni ||"
                 },
                 {
                     "swara": "nd D  ;  S  S ,  n  ;  D  |  S  ;    ;   rg   |  G-  mg    R  - mg   ||",
-                    "sahitya": "di  Ga thi  Tha    ppa    ka   -  Din     che  vu    -    Su"
+                    "sahitya": "di  Ga thi  Tha    ppa    ka   -  Din     che  vu    -    Su ||"
                 },
                 {
                     "swara": "gr  S  ;    S   S  ,  n  ;   D  |  M  , d      ;  D     |  S  ,  n      ;  D      ||",
-                    "sahitya": "mmi    Na tha Tyaa      ga    raa  ja        Gi      ri     sha     Vi"
+                    "sahitya": "mmi    Na tha Tyaa      ga    raa  ja        Gi      ri     sha     Vi ||"
                 }
             ]
         }

@@ -5,7 +5,8 @@
         "arohanam": "S R2 G2 M1 D2 S ||",
         "avarohanam": "S D2 M1 G2 R2 S ||",
         "tala": "Rupakam",
-        "composer": "Gopalakrishna Bharati"
+        "composer": "Gopalakrishna Bharati",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,23 +14,23 @@
             "content": [
                 {
                     "swara": "R  R  ;  G  R S ||  D ;  D - S  ; S  || R  R ; G g r r s ||  G R ; D ; S  ||",
-                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa maa    na maa --    gu maa  Thil    lai"
+                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa maa    na maa --    gu maa  Thil    lai ||"
                 },
                 {
                     "swara": "r g M  ;  G  R S ||  rs D  D - S  ; S  || r g M ; rs g r R ||  r g M  ; D ; S  ||",
-                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa -  maa na maa --    gu maa  Thil    lai"
+                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa -  maa na maa --    gu maa  Thil    lai ||"
                 },
                 {
                     "swara": "r g M  ;  G  R S ||  rs D  D - S  ; S  || r g M ; g m  D ; ||  srs - ds d    mdm  grs ||",
-                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa - maa  na- maa --    gu     maa    Thil   lai"
+                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa - maa  na- maa --    gu     maa    Thil   lai ||"
                 },
                 {
                     "swara": "r g md sd  M  G R  ||  r r s d D - S  ; S  || r g m - g m d - md  s d  S  ||  gr r s sd - mg m g rs ||",
-                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa - -    maa- -    na - maa -     gu maa--   Thil - lai--"
+                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa - -    maa- -    na - maa -     gu maa--   Thil - lai-- ||"
                 },
                 {
                     "swara": "R  R  ;  G  R S ||  r s D  D - S  ; S  || R  R gm G g r r s ||  G R ; ;;;;  ||",
-                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa maa  na maa --    gu maa"
+                    "sahitya": "Sa bha   pa thi kku     Ve re   dai vam  Sa maa  na maa --    gu maa ||"
                 }
             ]
         },
@@ -38,19 +39,19 @@
             "content": [
                 {
                     "swara": "D    D   ;  S  S  ;  ||",
-                    "sahitya": "Kru paa   ni dhi"
+                    "sahitya": "Kru paa   ni dhi ||"
                 },
                 {
                     "swara": "D    D   ;  S  R  ;  || ; s r  G - g r  R S  || s r G  G g r  R s s  || D ;  M -  M  g r S ||",
-                    "sahitya": "Kru paa   ni dhi      Iva rai   po- -   la    Ki dai ku moo   -  Indha    Bhoo-  mi  Than nil --"
+                    "sahitya": "Kru paa   ni dhi      Iva rai   po- -   la    Ki dai ku moo   -  Indha    Bhoo-  mi  Than nil -- ||"
                 },
                 {
                     "swara": "s r s R , s  d-  S  R  ;  || ; s r  G - g r  R S  || s r G  G g r  S- s s  || D ;  M -  M  g r S ||",
-                    "sahitya": "Kru paa          ni dhi      Iva rai   po- -   la    Ki dai ku moo   -  Indha    Bhoo-  mi  Than nil --"
+                    "sahitya": "Kru paa          ni dhi      Iva rai   po- -   la    Ki dai ku moo   -  Indha    Bhoo-  mi  Than nil -- ||"
                 },
                 {
                     "swara": "S g r s S d  ,- S  R  ;  || ; r g  M - g r  R S  || s r G  G g r  R s s  || d r s s D- M - M g r S ||",
-                    "sahitya": "Kru paa         ni dhi      Iva rai   po- -   la    Ki dai ku moo   -  Indha    Bhoo-  mi  Than nil --"
+                    "sahitya": "Kru paa         ni dhi      Iva rai   po- -   la    Ki dai ku moo   -  Indha    Bhoo-  mi  Than nil -- ||"
                 }
             ]
         },
@@ -59,19 +60,19 @@
             "content": [
                 {
                     "swara": "; g  M d  D - D    D    ||D    d r s s  ;  D    M  -  M  || M - m m    g  r  G  - R  G  ||   M ;  ; ;  ;; ||",
-                    "sahitya": "O ru tharam Shi va      Chi  dam       ba   ram  En    dru   Son-    naal--    Po dhu   me"
+                    "sahitya": "O ru tharam Shi va      Chi  dam       ba   ram  En    dru   Son-    naal--    Po dhu   me ||"
                 },
                 {
                     "swara": "; d S   r  G -  R    G  -   ||  s r  sr gr    S - d s   dsrs   D ||  m m    g  r  S  - R ;  d m  ||   G ;  ; ;  ;; ||",
-                    "sahitya": "Para gathi   Pe   ra    Ve-   - -    ru  Pun  - - -   iyam Pan-   na - -    Ven  du -      maa -"
+                    "sahitya": "Para gathi   Pe   ra    Ve-   - -    ru  Pun  - - -   iyam Pan-   na - -    Ven  du -      maa - ||"
                 },
                 {
                     "swara": "; s   d  S  -   R  R  R ||  R ;  R - G  g r R ||  ;  R    R - s r     G   R ||    S ;   D S  ;   S  ||",
-                    "sahitya": "A  ri   ya    Pu     la    yar     Moo   var Paa   dam --          A   dain daa     -   ren        dru    Pu  raa   nam"
+                    "sahitya": "A  ri   ya    Pu     la    yar     Moo   var Paa   dam --          A   dain daa     -   ren        dru    Pu  raa   nam ||"
                 },
                 {
                     "swara": "; s  d    S  -   S   R     R   ||  s r G   G  - R    ;  R         ||  S  ,  r   G  - g r      R   S  || s d   s d M -  M    g r  S ||",
-                    "sahitya": "A  rin dhu Son -     nna         Ke- -   ttom -        Go         paa  -   la    kri      - shnan Paa --  - dum Thil lai - -"
+                    "sahitya": "A  rin dhu Son -     nna         Ke- -   ttom -        Go         paa  -   la    kri      - shnan Paa --  - dum Thil lai - - ||"
                 }
             ]
         }

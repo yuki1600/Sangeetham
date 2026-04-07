@@ -5,7 +5,8 @@
         "arohanam": "S M1 G3 M1 P D2 N2 S ||",
         "avarohanam": "S N2 D2 P M1 G3 R2 S ||",
         "tala": "Adi",
-        "composer": "Chinni Krishna Dasa"
+        "composer": "Chinni Krishna Dasa",
+        "compositionType": "Kriti"
     },
     "composition": [
         {
@@ -13,11 +14,11 @@
             "content": [
                 {
                     "swara": "S  ;       S  N    D  P   , m G   |    M ;       ;  G   M  P             D  N  ||",
-                    "sahitya": "sA         -  mba  shi vA -yana       vE-       -  rA             ji  ta             gi ri"
+                    "sahitya": "sA         -  mba  shi vA -yana       vE-       -  rA             ji  ta             gi ri ||"
                 },
                 {
                     "swara": "S ,   r   N ,  s  D ,  n  P , d  |   M , p      M  ,  g  M  ,  p          D , n  ||",
-                    "sahitya": "sA mba vI ma  nO-ha  rA pa       rA- tpa   rA - kr       pA- ka         rA-shrI"
+                    "sahitya": "sA mba vI ma  nO-ha  rA pa       rA- tpa   rA - kr       pA- ka         rA-shrI ||"
                 }
             ]
         },
@@ -26,7 +27,7 @@
             "content": [
                 {
                     "swara": "S R     sn - N    S - n d D -N   |    dp-  P       D - mg    s M  -g       mp   dn   ||",
-                    "sahitya": "nIvE   guru dai vam bani     yE vE      Lanu sE     vim pucu sadA mi    dini shiva"
+                    "sahitya": "nIvE   guru dai vam bani     yE vE      Lanu sE     vim pucu sadA mi    dini shiva ||"
                 }
             ]
         },
@@ -35,11 +36,11 @@
             "content": [
                 {
                     "swara": "s  r  s    n    S  ;       n s-  n d       N ;   |    d n   d p     D ;       p d  p m      P  ;   ||",
-                    "sahitya": "parama da  yA-    nidhi vanu     cu -      maruvaka   nA -    hrdayamu    na"
+                    "sahitya": "parama da  yA-    nidhi vanu     cu -      maruvaka   nA -    hrdayamu    na ||"
                 },
                 {
                     "swara": "s    s    s s     m m   m m    P  p p     D d d  |   n s n s    N  d p   d p    m g     m p  d n  ||",
-                    "sahitya": "mahAdEva mahAprabhO sundara  nayaka  suravara dAyaka bhavabhaya harashiva"
+                    "sahitya": "mahAdEva mahAprabhO sundara  nayaka  suravara dAyaka bhavabhaya harashiva ||"
                 }
             ]
         },
@@ -48,7 +49,7 @@
             "content": [
                 {
                     "swara": "d s     n d     p m g m     P ;       p d n d   |    p m- g g     M ;       p n d n      d -p d n   ||",
-                    "sahitya": "sthira madu rApuramu  na       varamulo  sagu haru      ni        niratamu   nu dalaci"
+                    "sahitya": "sthira madu rApuramu  na       varamulo  sagu haru      ni        niratamu   nu dalaci ||"
                 }
             ]
         },
@@ -57,31 +58,31 @@
             "content": [
                 {
                     "swara": "S ;   ; s n   n d - d  p     p m m g  |   M ;       ;  p d       nd m-g  m p d n  ||",
-                    "sahitya": "shrI       shubha kara shashi makuTadha  ra          jaya     vijaya tri purahara"
+                    "sahitya": "shrI       shubha kara shashi makuTadha  ra          jaya     vijaya tri purahara ||"
                 },
                 {
                     "swara": "s m g s    S   S     s  r   s  s      N   N  |  n s  n d      D D      p d p m    P P    ||",
-                    "sahitya": "shrtajana lOla  dbhuta guNa  shI lA     krtanuta    pAlA     patituni   lOlA-"
+                    "sahitya": "shrtajana lOla  dbhuta guNa  shI lA     krtanuta    pAlA     patituni   lOlA- ||"
                 },
                 {
                     "swara": "s   M  m    g  P  p     m D d      p N n       | d R r        n S s     n s  n d    P ;  ||",
-                    "sahitya": "mudamba la ranga   padAbja  mulandu   padambu  lujErcu pashupati ni"
+                    "sahitya": "mudamba la ranga   padAbja  mulandu   padambu  lujErcu pashupati ni ||"
                 },
                 {
                     "swara": "M    p    m    P    d  p       D  n  d       N  s  n   |  S  r  s      R  s n      s  r S       n d p m  ||",
-                    "sahitya": "Gnyaanamu dhyaanamu snaanamu paanamu   daanamu maanamu abhimaa namanucu"
+                    "sahitya": "Gnyaanamu dhyaanamu snaanamu paanamu   daanamu maanamu abhimaa namanucu ||"
                 },
                 {
                     "swara": "g m p d     n  s  n  r      S ;        s r n  s    |  d n   p d     M ;    d p m - g     m p d n  ||",
-                    "sahitya": "kanikara  munacara   Nam     bulukanu  konushrutu lan -  nutula  sha  raNanucu  (saamba)"
+                    "sahitya": "kanikara  munacara   Nam     bulukanu  konushrutu lan -  nutula  sha  raNanucu  (saamba) ||"
                 },
                 {
                     "swara": "S r S     N d N      S  n    D     P ; ,  | P d N    D  p  M      P  m  G     M ; ,  ||",
-                    "sahitya": "sAresA regu nI    nAma man tram       kOrinA nu nI pA  dAbja man tram"
+                    "sahitya": "sAresA regu nI    nAma man tram       kOrinA nu nI pA  dAbja man tram ||"
                 },
                 {
                     "swara": "M  g  M    P m P     D   p D    N d  N   | S r S     N d N  S n  D      M p D   ||",
-                    "sahitya": "dAsuDau cinni krS Nu niki    dikkunI  vEyani  shokkanA   thuni nam mukoni"
+                    "sahitya": "dAsuDau cinni krS Nu niki    dikkunI  vEyani  shokkanA   thuni nam mukoni ||"
                 }
             ]
         }

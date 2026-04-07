@@ -1,18 +1,16 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Volume2, VolumeX } from 'lucide-react';
-import { startMic, stopMic, getAudioBuffer } from '../utils/audioEngine';
-import { initPitchDetector, detectPitch } from '../utils/pitchDetection';
-import { hzToSwara, TONIC_PRESETS } from '../utils/swaraUtils';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Volume2, VolumeX, Mic, MicOff } from 'lucide-react';
+import { TONIC_PRESETS } from '../utils/swaraUtils';
 import { startDrone, stopDrone, isDronePlaying, setDroneVolume, getDroneVolume } from '../utils/droneEngine';
+import { usePitchDetection } from '../hooks/usePitchDetection';
+import { usePitchDetectionEnabled } from '../hooks/usePitchDetectionEnabled';
 
 export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
-    const [currentSwara, setCurrentSwara] = useState(null);
     const [droneActive, setDroneActive] = useState(isDronePlaying());
     const [droneVolume, setDroneVolumeState] = useState(getDroneVolume());
-    const [micReady, setMicReady] = useState(false);
+    const [pitchEnabled, setPitchEnabled] = usePitchDetectionEnabled();
 
-    const lastProcessTimeRef = useRef(0);
-    const rafRef = useRef(null);
+    const { pitchData: currentSwara } = usePitchDetection(tonicHz, { enabled: pitchEnabled });
 
     const toggleDrone = useCallback(async () => {
         if (droneActive) {
@@ -37,90 +35,33 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
         }
     }, [tonicHz, droneActive]);
 
-    useEffect(() => {
-        let cancelled = false;
-        const setup = async () => {
-            try {
-                const { sampleRate } = await startMic();
-                initPitchDetector(sampleRate);
-                if (!cancelled) setMicReady(true);
-            } catch (err) {
-                console.error('Mic setup failed:', err);
-            }
-        };
-        setup();
-        return () => {
-            cancelled = true;
-            stopMic();
-            if (rafRef.current) cancelAnimationFrame(rafRef.current);
-        };
-    }, []);
-
-    useEffect(() => {
-        if (!micReady) return;
-
-        let smoothHz = null;
-        const hzHistory = [];
-
-        const loop = () => {
-            const buffer = getAudioBuffer();
-            if (buffer) {
-                const rawHz = detectPitch(buffer);
-                const now = performance.now();
-
-                if (now - lastProcessTimeRef.current >= 100) {
-                    lastProcessTimeRef.current = now;
-
-                    if (rawHz) {
-                        hzHistory.push(rawHz);
-                        if (hzHistory.length > 3) hzHistory.shift();
-                        const sorted = [...hzHistory].sort((a, b) => a - b);
-                        const median = sorted[Math.floor(sorted.length / 2)];
-
-                        if (smoothHz === null || Math.abs(smoothHz - median) > 30) {
-                            smoothHz = median;
-                        } else {
-                            smoothHz = smoothHz * 0.8 + median * 0.2;
-                        }
-                    } else {
-                        hzHistory.push(null);
-                        if (hzHistory.length > 3) hzHistory.shift();
-                        if (hzHistory.every(h => h === null)) smoothHz = null;
-                    }
-
-                    if (smoothHz) {
-                        const swaraInfo = hzToSwara(smoothHz, tonicHz);
-                        if (swaraInfo) {
-                            setCurrentSwara({
-                                ...swaraInfo,
-                                hz: smoothHz,
-                                deviation: Math.round(swaraInfo.deviation)
-                            });
-                        } else {
-                            setCurrentSwara(null);
-                        }
-                    } else {
-                        setCurrentSwara(null);
-                    }
-                }
-            }
-            rafRef.current = requestAnimationFrame(loop);
-        };
-
-        rafRef.current = requestAnimationFrame(loop);
-        return () => {
-            if (rafRef.current) cancelAnimationFrame(rafRef.current);
-        };
-    }, [micReady, tonicHz]);
-
     const isDark = theme !== 'light';
 
     return (
-        <div className="flex items-center justify-start gap-6 py-2">
+        <div className="flex items-center justify-start gap-4 py-2">
+            {/* Pitch Detection Toggle */}
+            <button
+                onClick={() => setPitchEnabled(!pitchEnabled)}
+                title={pitchEnabled ? 'Turn off live pitch detection' : 'Turn on live pitch detection'}
+                className={`flex items-center justify-center rounded-full border transition-all duration-300 flex-shrink-0 ${
+                    pitchEnabled
+                        ? `${isDark ? 'bg-emerald-500/15 border-emerald-500/30 text-emerald-400' : 'bg-emerald-500/10 border-emerald-500/30 text-emerald-600'}`
+                        : `${isDark ? 'bg-white/5 border-white/10 text-white/40 hover:text-white/70' : 'bg-black/5 border-black/10 text-black/40 hover:text-black/70'}`
+                }`}
+                style={{ width: '56px', height: '56px' }}
+            >
+                {pitchEnabled ? <Mic className="w-5 h-5" /> : <MicOff className="w-5 h-5" />}
+            </button>
+
             {/* Pitch Display */}
             <div className={`flex items-center gap-4 px-6 rounded-full border transition-all duration-300 ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
                 }`} style={{ height: '56px', minWidth: '240px' }}>
-                {currentSwara ? (
+                {!pitchEnabled ? (
+                    <div className="flex items-center gap-3 opacity-40 px-4">
+                        <MicOff className="w-4 h-4" />
+                        <span className="text-xs font-black tracking-[0.2em] uppercase">Pitch Off</span>
+                    </div>
+                ) : currentSwara ? (
                     <>
                         <div className="flex items-center justify-center w-16">
                             <div className={`text-4xl font-black transition-all duration-300 ${Math.abs(currentSwara.deviation) <= 15 ? 'text-emerald-400' :

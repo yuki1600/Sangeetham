@@ -13,21 +13,81 @@ import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
 import CompactPitchBar from '../CompactPitchBar';
 import { buildAavartanas, buildContentRows, applyTokenEdit } from '../../utils/songParser';
-import { applyEditOps, getEditedDuration, editedTimeToOriginal } from '../../utils/audioEditor';
+import { applyEditOps, editedTimeToOriginal } from '../../utils/audioEditor';
 import { TALA_TEMPLATES } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { getRagaScale } from '../../utils/ragaScales';
 import SwaraScale from '../SwaraScale';
 import { audioBufferToWav } from '../../utils/wavEncoder';
+import { audioCache, songDataCache } from '../../utils/audioCache';
+import { formatTime } from '../../utils/formatTime';
+import { triggerDownload } from '../../utils/triggerDownload';
+import { EXPANDED_RAGAM_LIST } from '../../data/ragaList';
+import { PX_PER_SEC, PLAYHEAD } from '../../constants/playback';
+import { useDragSeek } from '../../hooks/useDragSeek';
+import { useSeekBar } from '../../hooks/useSeekBar';
+import { useKeyboardShortcuts } from '../../hooks/useKeyboardShortcuts';
+import { useDropdown } from '../../hooks/useDropdown';
 
-// ── Session Cache ─────────────────────────────────────────────────────────────
-// Stores decoded AudioBuffer objects to make navigation "seamless"
-const audioCache = new Map(); // key: `${songId}-${type}`
-// Stores song metadata and composition data
-const songDataCache = new Map(); // key: `${songId}`
+/**
+ * SecondsInput — number input that lets the user freely type any value
+ * (whole or decimal). Uses a local string buffer so React's controlled
+ * value never fights typing in progress. Commits the parsed value on blur
+ * or Enter; if the user leaves the field blank or with an invalid value
+ * we revert to `defaultValue` (the auto-calculated āvartana length).
+ */
+function SecondsInput({ value, defaultValue, onCommit, className, style, title }) {
+    const [buffer, setBuffer] = React.useState(() => String(value ?? defaultValue ?? ''));
+    const focusedRef = React.useRef(false);
 
-const PX_PER_SEC = 100;
-const PLAYHEAD = 0.25;
+    // Mirror external value changes (e.g. calibration via waveform) when not focused.
+    React.useEffect(() => {
+        if (focusedRef.current) return;
+        const next = value != null ? String(parseFloat(Number(value).toFixed(2))) : String(parseFloat(Number(defaultValue ?? 0).toFixed(2)));
+        setBuffer(next);
+    }, [value, defaultValue]);
+
+    const commit = () => {
+        const trimmed = buffer.trim();
+        if (trimmed === '') {
+            // Blank → revert to default
+            onCommit(null);
+            setBuffer(String(parseFloat(Number(defaultValue ?? 0).toFixed(2))));
+            return;
+        }
+        const v = parseFloat(trimmed);
+        if (!Number.isFinite(v) || v <= 0) {
+            onCommit(null);
+            setBuffer(String(parseFloat(Number(defaultValue ?? 0).toFixed(2))));
+            return;
+        }
+        onCommit(v);
+        setBuffer(String(parseFloat(v.toFixed(2))));
+    };
+
+    return (
+        <input
+            type="number"
+            inputMode="decimal"
+            step="any"
+            min="0"
+            value={buffer}
+            onFocus={() => { focusedRef.current = true; }}
+            onChange={e => setBuffer(e.target.value)}
+            onBlur={() => { focusedRef.current = false; commit(); }}
+            onKeyDown={e => {
+                if (e.key === 'Enter') { e.currentTarget.blur(); }
+                else if (e.key === 'Escape') {
+                    setBuffer(String(parseFloat(Number(value ?? defaultValue ?? 0).toFixed(2))));
+                    e.currentTarget.blur();
+                }
+            }}
+            className={className}
+            style={style}
+            title={title}
+        />
+    );
+}
 
 export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack, readOnly = false }) {
     // Song data from server
@@ -61,8 +121,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [showSections, setShowSections] = useState(false);
     const [sectionTimings, setSectionTimings] = useState({}); // { "Pallavi": 0, "Anupallavi": 45.2, ... }
     const [isSaving, setIsSaving] = useState(false);
-    const [isPublished, setIsPublished] = useState(false);
-    const [isPublishing, setIsPublishing] = useState(false);
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
     const [sahityaCollapsed, setSahityaCollapsed] = useState(false);
@@ -77,18 +135,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isDownloadingAudio, setIsDownloadingAudio] = useState(false);
     const [previewBanner, setPreviewBanner] = useState(null); // { composition, editOps }
 
-    // Drag/seek (same pattern as SongSection)
-    const [isDragging, setIsDragging] = useState(false);
+    // Drag/seek loop state (handlers come from useDragSeek below)
     const [isLoopEnabled, setIsLoopEnabled] = useState(false);
     const [loopRange, setLoopRange] = useState(null); // { start, end } in seconds
     const [preLoopTime, setPreLoopTime] = useState(null);
-    const dragData = useRef({ startX: 0, startTime: 0, isSelecting: false, selectionStart: 0 });
 
     // File swapping
     const [isSwapping, setIsSwapping] = useState(false);
     const audioSwapRef = useRef(null);
     const jsonSwapRef = useRef(null);
-    const [showDownloadMenu, setShowDownloadMenu] = useState(false);
+    // Files dropdown — click-outside detection (not onMouseLeave) so it
+    // doesn't close when the cursor briefly crosses an option boundary.
+    const { open: showDownloadMenu, setOpen: setShowDownloadMenu, ref: downloadMenuRef } = useDropdown();
     const [waveZoom, setWaveZoom] = useState(2);
 
     // Edit Info modal
@@ -96,21 +154,17 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [editInfoRaga, setEditInfoRaga] = useState('');
     const [editInfoTala, setEditInfoTala] = useState('');
     const [editInfoComposer, setEditInfoComposer] = useState('');
+    const [editInfoType, setEditInfoType] = useState('');
     const [editInfoArohana, setEditInfoArohana] = useState([]);
     const [editInfoAvarohana, setEditInfoAvarohana] = useState([]);
     const [editInfoSaving, setEditInfoSaving] = useState(false);
 
-    const EXPANDED_RAGAM_LIST = [
-        'Abhogi', 'Anandabhairavi', 'Arabhi', 'Asaveri', 'Atana', 'Bhairavi', 'Bilahari', 'Bowli',
-        'Brindavani', 'Chakravakam', 'Chalanaata', 'Charukesi', 'Darbar', 'Dhanyasi', 'Dharmavati',
-        'Gaurimanohari', 'Gowlai', 'Hamsadhwani', 'Hamsanadam', 'Hari Kambodhi', 'Hindolam',
-        'Kalyani', 'Kambodhi', 'Kamas', 'Kanada', 'Kapi', 'Kedaragowla', 'Keeravani', 'Kharaharapriya',
-        'Latangi', 'Madhyamavati', 'Malahari', 'Mayamalavagowlai', 'Mohanam', 'Mukhari', 'Nalinakanthi',
-        'Nattai', 'Navaroj', 'Pantuvarali', 'Poorvikalyani', 'Punnagavarali', 'Reethigowlai', 'Revathi',
-        'Saaranga', 'Sahana', 'Sama', 'Saveri', 'Shankarabharanam', 'Shanmukhapriya', 'Simhendramadhyamam',
-        'Sindhu Bhairavi', 'Sri', 'Sri Ranjani', 'Subhapantuvarali', 'Suddha Dhanyasi', 'Suddha Saveri',
-        'Surutti', 'Thodi', 'Vachaspati', 'Varali', 'Vasanta', 'Yadukula Kambodhi'
+    // Canonical compositionType options for the dropdown.
+    const COMPOSITION_TYPES = [
+        'Geetham', 'Swarajathi', 'Varnam', 'Kriti', 'Tillana', 'Javali',
+        'Padam', 'Devaranama', 'Sankeertana', 'Bhajan', 'Slokam', 'Viruttam',
     ];
+
     const allRagas = useMemo(() => [...new Set([...EXPANDED_RAGAM_LIST, ...ALL_SONGS.map(s => s.raga).filter(r => r && r !== 'All Ragas')])].sort(), []);
     const allTalas = useMemo(() => [...new Set([...Object.keys(TALA_TEMPLATES), ...ALL_SONGS.map(s => s.tala).filter(Boolean)])].sort(), []);
     const allComposers = useMemo(() => {
@@ -125,64 +179,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const aavartanas = useMemo(() => composition ? buildAavartanas(composition) : [], [composition]);
     // Build content rows for text mode display
     const contentRows = useMemo(() => composition ? buildContentRows(composition) : [], [composition]);
-    const textModeAvCount = contentRows.length * avPerRow;
-    // Use actual rendered avartana count (from || splits) for scroll speed.
-    // Falls back to textModeAvCount for songs without || markers.
-    const renderedAvCount = aavartanas.length > 0 ? aavartanas.length : textModeAvCount;
     const autoAavartanaSec = 4.0; // Default for songs without a saved calibration (removes auto-BPM/CompIAM heuristics)
     const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
-    const effectiveAavartanaPx = PX_PER_SEC * effectiveAavartanaSec * waveZoom;
 
-    // Pad or trim empty avartanas so notation matches audio duration after calibration
-    useEffect(() => {
-        if (!composition || !customAavartanaSec || customAavartanaSec <= 0 || totalDuration <= 0 || readOnly) return;
-        const currentCount = aavartanas.length;
-        const needed = Math.ceil(totalDuration / customAavartanaSec);
-        if (currentCount === needed) return;
-
-        const isEmptyContent = (entry) => {
-            const s = (entry.swara || '').replace(/[_|;\s.,]/g, '');
-            return s.length === 0;
-        };
-
-        const newComp = structuredClone(composition);
-
-        if (currentCount < needed) {
-            // Pad: add empty avartanas distributed evenly
-            const tala = songData?.meta?.tala || '';
-            const template = TALA_TEMPLATES[tala] || '_ _ _ _ ||';
-            const emptyPattern = template.replace(/\|\|$/, '').trim();
-            const toAdd = needed - currentCount;
-            const sections = newComp.map(s => s.section);
-            const uniqueSecs = [...new Set(sections)];
-            const perSection = Math.floor(toAdd / uniqueSecs.length);
-            let remainder = toAdd - perSection * uniqueSecs.length;
-
-            for (const sec of newComp) {
-                const extra = perSection + (remainder > 0 ? 1 : 0);
-                if (remainder > 0) remainder--;
-                for (let i = 0; i < extra; i++) {
-                    sec.content.push({ swara: emptyPattern + ' ||', sahitya: emptyPattern + ' ||' });
-                }
-            }
-        } else {
-            // Trim: remove excess empty avartanas from the end of sections
-            let toRemove = currentCount - needed;
-            // Work backwards through sections to remove trailing empty entries
-            for (let si = newComp.length - 1; si >= 0 && toRemove > 0; si--) {
-                const sec = newComp[si];
-                for (let ci = sec.content.length - 1; ci >= 0 && toRemove > 0; ci--) {
-                    if (isEmptyContent(sec.content[ci]) && sec.content.length > 1) {
-                        sec.content.splice(ci, 1);
-                        toRemove--;
-                    } else {
-                        break; // stop at first non-empty entry in this section
-                    }
-                }
-            }
-        }
-        setComposition(newComp);
-    }, [customAavartanaSec, totalDuration, aavartanas.length, readOnly]);
+    // Calibration no longer mutates the composition. customAavartanaSec
+    // controls the per-row scroll speed via effectiveAavartanaSec, and
+    // section cues / contentRowTimings position rows on the audio timeline
+    // — so there's no need to pad the composition with empty placeholder
+    // rows just to make the notation reach the end of the audio.
 
     // Unique sections in order
     const uniqueSections = useMemo(
@@ -196,7 +200,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const audioDur = totalDuration || 0;
         const notationDur = aavartanas.length * effectiveAavartanaSec;
         const effDur = Math.max(audioDur, notationDur);
-        
+
         if (!aavartanas.length || effDur === 0) return null;
         if (!uniqueSections.some(s => sectionTimings[s] != null)) return null;
 
@@ -223,6 +227,33 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         }
         return timings;
     }, [aavartanas, uniqueSections, sectionTimings, totalDuration, effectiveAavartanaSec]);
+
+    // Per-content-row start times — same logic as aavartanaTimings but at the
+    // content-row granularity that text mode actually renders. Without this,
+    // text-mode lanes ignore section cues entirely and the swara/sahitya
+    // refuse to realign when the user marks a section start.
+    const contentRowTimings = useMemo(() => {
+        if (!contentRows.length) return null;
+        if (!uniqueSections.some(s => sectionTimings[s] != null)) return null;
+
+        const timings = [];
+        let cursor = 0;          // natural end of all preceding rows
+        let sectionCursor = 0;   // current write position within the active section
+        let lastSection = null;
+
+        for (const row of contentRows) {
+            if (row.section !== lastSection) {
+                // User-marked time wins; otherwise pick up from the natural cursor.
+                sectionCursor = sectionTimings[row.section] ?? cursor;
+                lastSection = row.section;
+            }
+            timings.push(sectionCursor);
+            sectionCursor += (row.avCount || 1) * effectiveAavartanaSec;
+            // Cursor only moves forward — matches aavartanaTimings semantics.
+            cursor = Math.max(cursor, sectionCursor);
+        }
+        return timings;
+    }, [contentRows, uniqueSections, sectionTimings, effectiveAavartanaSec]);
 
     // Section marker objects passed to WaveformEditor for visual cue lines
     const sectionMarkers = useMemo(
@@ -272,7 +303,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             setEditOps(cleanOps);
             setSectionTimings(cleanSec);
             setCustomAavartanaSec(cleanCalib);
-            setIsPublished(!!cached.meta?.isPublished);
             setAvPerRow(cached.avartanasPerRow || 1);
             setSavedDataStr(JSON.stringify({ composition: cached.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib, avartanasPerRow: cached.avartanasPerRow || 1 }));
             
@@ -297,7 +327,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 setEditOps(cleanOps);
                 setSectionTimings(cleanSec);
                 setCustomAavartanaSec(cleanCalib);
-                setIsPublished(!!data.meta?.isPublished);
                 setAvPerRow(data.avartanasPerRow || 1);
                 setSavedDataStr(JSON.stringify({ composition: data.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib, avartanasPerRow: data.avartanasPerRow || 1 }));
                 
@@ -427,7 +456,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // ── RAF sync loop ─────────────────────────────────────────────────────────
     const smoothTimeRef = useRef(0);
     const lastSyncRef = useRef({ hw: 0, perf: 0 });
-    const lastReactTimeRef = useRef(-1);
 
     useEffect(() => {
         const tick = (now) => {
@@ -478,168 +506,42 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     }, [isPlaying]);
 
     const restartAudio = useCallback(() => {
-        if (!audioRef.current) return;
         const targetTime = (isLoopEnabled && loopRange) ? loopRange.start : 0;
-        audioRef.current.currentTime = targetTime;
+        // Reset every time source so the lane animation snaps to the start
+        // even when there is no audio loaded (e.g. the user has only been
+        // dragging the lyrics around). The rAF tick reads currentTimeRef
+        // directly, so updating it here moves the playhead instantly.
+        smoothTimeRef.current = targetTime;
+        currentTimeRef.current = targetTime;
         setCurrentTime(targetTime);
-        if (isPlaying) { audioRef.current.pause(); setIsPlaying(false); }
+        if (audioRef.current) {
+            try { audioRef.current.currentTime = targetTime; } catch {}
+            if (isPlaying) { audioRef.current.pause(); setIsPlaying(false); }
+        }
     }, [isPlaying, isLoopEnabled, loopRange]);
 
-    // ── Drag to seek ──────────────────────────────────────────────────────────
-    const handleDragStart = useCallback((e) => {
-        setIsDragging(true);
-        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
-        const rect = e.currentTarget.getBoundingClientRect();
-        const clickX = x - rect.left;
-        const playheadX = rect.width * PLAYHEAD;
-        
-        const isSelecting = isLoopEnabled;
-        const pxPerSec = PX_PER_SEC * waveZoom;
-        const startTime = currentTimeRef.current + ((clickX - playheadX) / pxPerSec);
+    // ── Drag to seek (extracted to shared hook) ──────────────────────────────
+    const { isDragging, handlers: dragHandlers } = useDragSeek({
+        audioRef,
+        currentTimeRef,
+        setCurrentTime,
+        effectiveDuration,
+        waveZoom,
+        isLoopEnabled,
+        loopRange,
+        setLoopRange,
+        preLoopTime,
+        setPreLoopTime,
+    });
 
-        dragData.current = {
-            startX: x,
-            startTime: currentTimeRef.current,
-            selectionStart: startTime,
-            isSelecting
-        };
+    // ── Seek slider drag support (extracted to shared hook) ──────────────────
+    const { seekBarRef, onMouseDown: handleSeekMouseDown, onTouchStart: handleSeekTouchStart } = useSeekBar({
+        audioRef,
+        currentTimeRef,
+        setCurrentTime,
+        effectiveDuration,
+    });
 
-        if (isSelecting) {
-            if (loopRange === null) {
-                setPreLoopTime(currentTimeRef.current);
-            }
-            setLoopRange({ start: startTime, end: startTime });
-        }
-    }, [isLoopEnabled, loopRange, effectiveAavartanaSec, waveZoom]);
-
-    const handleDragMove = useCallback((e) => {
-        if (!isDragging) return;
-        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
-        const rect = e.currentTarget.getBoundingClientRect();
-        const clickX = x - rect.left;
-        const playheadX = rect.width * PLAYHEAD;
-
-        if (dragData.current.isSelecting) {
-            const pxPerSec = PX_PER_SEC * waveZoom;
-            const currentT = currentTimeRef.current + ((clickX - playheadX) / pxPerSec);
-            const start = Math.min(dragData.current.selectionStart, currentT);
-            const end = Math.max(dragData.current.selectionStart, currentT);
-            setLoopRange({
-                start: Math.max(0, start),
-                end: Math.min(effectiveDuration, end)
-            });
-        } else {
-            const deltaX = x - dragData.current.startX;
-            const pxPerSec = PX_PER_SEC * waveZoom;
-            const deltaT = -(deltaX / pxPerSec);
-            let newTime = Math.max(0, Math.min(dragData.current.startTime + deltaT, effectiveDuration));
-            if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = newTime;
-            setCurrentTime(newTime);
-            currentTimeRef.current = newTime;
-        }
-    }, [isDragging, effectiveDuration, effectiveAavartanaSec, waveZoom]);
-
-    const handleDragEnd = useCallback(() => {
-        setIsDragging(false);
-        if (dragData.current.isSelecting && loopRange) {
-            if (audioRef.current) {
-                audioRef.current.currentTime = loopRange.start;
-            }
-            setCurrentTime(loopRange.start);
-        }
-    }, [loopRange]);
-
-    const handleClickSeek = useCallback((e) => {
-        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
-        const dragStartPos = dragData.current?.startX || 0;
-        const deltaX = Math.abs(x - dragStartPos);
-        
-        if (deltaX < 5) {
-            // If a loop exists and we click (not drag), revert to pre-loop position
-            if (isLoopEnabled && loopRange) {
-                if (preLoopTime !== null) {
-                    if (audioRef.current && audioRef.current.readyState > 0) {
-                        audioRef.current.currentTime = preLoopTime;
-                    }
-                    setCurrentTime(preLoopTime);
-                    currentTimeRef.current = preLoopTime;
-                }
-                setLoopRange(null);
-                setPreLoopTime(null);
-                return;
-            }
-
-            if (isLoopEnabled) return;
-
-            const rect = e.currentTarget.getBoundingClientRect();
-            const clickX = x - rect.left;
-            const playheadX = rect.width * PLAYHEAD;
-            const pxPerSec = PX_PER_SEC * waveZoom;
-            const deltaT = (clickX - playheadX) / pxPerSec;
-            let newTime = Math.max(0, Math.min(currentTimeRef.current + deltaT, effectiveDuration));
-            if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = newTime;
-            setCurrentTime(newTime);
-            currentTimeRef.current = newTime;
-        }
-    }, [effectiveDuration, effectiveAavartanaSec, isLoopEnabled, loopRange, preLoopTime, waveZoom]);
-
-    const handleSeek = useCallback((e) => {
-        if (effectiveDuration === 0) return;
-        const rect = e.currentTarget.getBoundingClientRect();
-        const t = ((e.clientX - rect.left) / rect.width) * effectiveDuration;
-        if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
-        setCurrentTime(t);
-        currentTimeRef.current = t;
-    }, [effectiveDuration]);
-
-    // ── Seek slider drag support ─────────────────────────────────────────────
-    const seekBarRef = useRef(null);
-    const isDraggingSeek = useRef(false);
-
-    const seekToFrac = useCallback((clientX) => {
-        if (effectiveDuration === 0 || !seekBarRef.current) return;
-        const rect = seekBarRef.current.getBoundingClientRect();
-        const frac = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
-        const t = frac * effectiveDuration;
-        if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
-        setCurrentTime(t);
-        currentTimeRef.current = t;
-    }, [effectiveDuration]);
-
-    const handleSeekMouseDown = useCallback((e) => {
-        isDraggingSeek.current = true;
-        seekToFrac(e.clientX);
-        e.preventDefault();
-    }, [seekToFrac]);
-
-    const handleSeekTouchStart = useCallback((e) => {
-        isDraggingSeek.current = true;
-        seekToFrac(e.touches[0].clientX);
-    }, [seekToFrac]);
-
-    useEffect(() => {
-        const onMove = (e) => {
-            if (!isDraggingSeek.current) return;
-            seekToFrac(e.clientX ?? e.touches?.[0]?.clientX);
-        };
-        const onUp = () => { isDraggingSeek.current = false; };
-        window.addEventListener('mousemove', onMove);
-        window.addEventListener('mouseup', onUp);
-        window.addEventListener('touchmove', onMove);
-        window.addEventListener('touchend', onUp);
-        return () => {
-            window.removeEventListener('mousemove', onMove);
-            window.removeEventListener('mouseup', onUp);
-            window.removeEventListener('touchmove', onMove);
-            window.removeEventListener('touchend', onUp);
-        };
-    }, [seekToFrac]);
-
-    // ── Edit ops change (with undo stack) ────────────────────────────────────
-    const handleEditOpsChange = useCallback((newOps) => {
-        setEditOpsHistory(prev => [...prev, editOps]);
-        setEditOps(newOps);
-    }, [editOps]);
 
     const handleUndoLastCut = useCallback(() => {
         if (editOpsHistory.length === 0) return;
@@ -668,86 +570,19 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setCustomAavartanaSec(null);
     }, []);
 
-    // ── Back Button Intercept ──────────────────────────────────────────────────
-    const handleBackAttempt = () => {
-        if (hasUnsavedChanges && !readOnly) {
-            setShowUnsavedWarning(true);
-        } else {
-            onBack();
-        }
-    };
-
-    // ── Keyboard shortcuts ────────────────────────────────────────────────────
-    useEffect(() => {
-        const onKeyDown = (e) => {
-            const inInput = e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA';
-            if (inInput) return;
-
-            // Space: play / pause
-            if (e.code === 'Space') {
-                e.preventDefault();
-                togglePlay();
-                return;
-            }
-
-            // T: toggle trim mode
-            if ((e.key === 't' || e.key === 'T') && !readOnly) {
-                setEditorMode(m => m === 'trim' ? 'view' : 'trim');
-                return;
-            }
-
-            // C: toggle calibrate mode
-            if ((e.key === 'c' || e.key === 'C') && !readOnly) {
-                setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate');
-                return;
-            }
-
-            // Ctrl+Z / Cmd+Z: undo
-            if ((e.ctrlKey || e.metaKey) && (e.key === 'z' || e.key === 'Z') && !readOnly) {
-                e.preventDefault();
-                handleUndoLastCut();
-                return;
-            }
-
-            // R: reset all edits
-            if ((e.key === 'r' || e.key === 'R') && !readOnly) {
-                handleResetAllEdits();
-                return;
-            }
-
-            if (readOnly || (editorMode !== 'trim' && editorMode !== 'calibrate')) return;
-
-            if (e.key === 'Escape') {
-                setActiveSelection(null);
-                return;
-            }
-            if ((e.key === 'Delete' || e.key === 'Backspace') && activeSelection?.endTime != null) {
-                const start = Math.min(activeSelection.startTime, activeSelection.endTime);
-                const end = Math.max(activeSelection.startTime, activeSelection.endTime);
-                if (end - start < 0.1) return;
-                e.preventDefault();
-                if (editorMode === 'calibrate') {
-                    setCustomAavartanaSec(end - start);
-                    setActiveSelection(null);
-                    setEditorMode('view');
-                } else {
-                    handleDeleteSelection();
-                }
-            }
-            // Enter: apply calibration in calibrate mode
-            if (e.key === 'Enter' && editorMode === 'calibrate' && activeSelection?.endTime != null) {
-                const start = Math.min(activeSelection.startTime, activeSelection.endTime);
-                const end = Math.max(activeSelection.startTime, activeSelection.endTime);
-                if (end - start < 0.1) return;
-                e.preventDefault();
-                setCustomAavartanaSec(end - start);
-                setActiveSelection(null);
-                setEditorMode('view');
-            }
-        };
-        window.addEventListener('keydown', onKeyDown);
-        return () => window.removeEventListener('keydown', onKeyDown);
-    }, [editorMode, activeSelection, editOps, togglePlay, handleUndoLastCut, handleResetAllEdits]);
+    // ── Keyboard shortcuts (extracted to shared hook) ────────────────────────
+    useKeyboardShortcuts({
+        readOnly,
+        editorMode,
+        setEditorMode,
+        activeSelection,
+        setActiveSelection,
+        togglePlay,
+        handleUndoLastCut,
+        handleResetAllEdits,
+        handleDeleteSelection,
+        setCustomAavartanaSec,
+    });
 
     // Clear selection when leaving trim/calibrate mode
     useEffect(() => {
@@ -848,13 +683,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         }
     };
 
-    function triggerDownload(blob, filename) {
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url; a.download = filename; a.click();
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
-    }
-
     const handleAudioSwap = async (e, type = activeAudioType) => {
         const file = e.target.files?.[0];
         if (!file || !songId) return;
@@ -942,6 +770,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setEditInfoRaga(raga);
         setEditInfoTala(songData?.meta?.tala || '');
         setEditInfoComposer(songData?.meta?.composer || '');
+        setEditInfoType(songData?.meta?.compositionType || songData?.song_details?.compositionType || '');
         // Load arohana/avarohana from song_details, or fall back to raga database
         const sd = songData?.song_details || {};
         const scale = getRagaScale(raga);
@@ -969,6 +798,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     raga: editInfoRaga.trim(),
                     tala: editInfoTala.trim(),
                     composer: editInfoComposer.trim(),
+                    compositionType: editInfoType.trim(),
                     arohana: aroStr,
                     avarohana: avaroStr,
                 }),
@@ -977,8 +807,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             const data = await res.json();
             setSongData(prev => ({
                 ...prev,
-                meta: { ...prev.meta, raga: data.raga, tala: data.tala, composer: data.composer },
-                song_details: { ...prev.song_details, raga: data.raga, tala: data.tala, composer: data.composer, arohana: aroStr, avarohana: avaroStr }
+                meta: { ...prev.meta, raga: data.raga, tala: data.tala, composer: data.composer, compositionType: data.compositionType },
+                song_details: { ...prev.song_details, raga: data.raga, tala: data.tala, composer: data.composer, compositionType: data.compositionType, arohana: aroStr, avarohana: avaroStr }
             }));
             if (data.talaChanged && data.composition) {
                 setComposition(data.composition);
@@ -991,9 +821,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         }
     };
 
-    const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
-    const progress = totalDuration > 0 ? currentTime / totalDuration : 0;
-    const originalDuration = rawBuffer?.duration ?? 0;
 
     if (!songData) {
         return (
@@ -1136,9 +963,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 </div>
                                 <div className="flex items-center gap-2">
                             {/* Manage Files dropdown */}
-                            <div className="relative">
+                            <div className="relative" ref={downloadMenuRef}>
                                     <button
-                                        onClick={() => setShowDownloadMenu(s => !s)}
+                                        onClick={() => setShowDownloadMenu(!showDownloadMenu)}
                                         className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm font-black border transition-all ${showDownloadMenu ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
                                         style={{ borderColor: showDownloadMenu ? undefined : borderColor, color: showDownloadMenu ? undefined : (isDark ? '#fff' : '#000') }}
                                     >
@@ -1150,7 +977,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                         <div
                                             className="absolute right-0 top-full mt-1 rounded-xl border overflow-hidden z-50 shadow-2xl"
                                             style={{ background: isDark ? '#141420' : '#fff', borderColor, minWidth: 220 }}
-                                            onMouseLeave={() => setShowDownloadMenu(false)}
                                         >
                                             <div className="px-3 py-2 bg-emerald-500/5 border-b" style={{ borderColor }}>
                                                 <div className="text-[10px] uppercase tracking-widest opacity-40 font-black mb-1">Active Track</div>
@@ -1346,7 +1172,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
                             <div className="flex items-center gap-4">
                                 <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)' }}>
-                                    {fmt(currentTime)} / {fmt(totalDuration)}
+                                    {formatTime(currentTime)} / {formatTime(totalDuration)}
                                 </span>
                                 <div className="flex items-center gap-1.5 px-3 py-1 rounded-lg"
                                     style={{ background: isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)' }}>
@@ -1486,15 +1312,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 <Gauge className="w-4 h-4" />
                                 Calibrate
                             </button>
-                            <input
-                                type="number"
-                                step="0.01"
-                                min="0.5"
-                                value={parseFloat((customAavartanaSec ?? autoAavartanaSec).toFixed(2))}
-                                onChange={e => {
-                                    const v = parseFloat(e.target.value);
-                                    setCustomAavartanaSec(v > 0 ? v : null);
-                                }}
+                            <SecondsInput
+                                value={customAavartanaSec}
+                                defaultValue={autoAavartanaSec}
+                                onCommit={v => setCustomAavartanaSec(v)}
                                 className="w-16 text-center px-1 py-1.5 rounded-lg border text-xs font-bold tabular-nums focus:outline-none focus:border-blue-500/50"
                                 style={{
                                     background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)',
@@ -1609,15 +1430,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                 border: `1px solid ${customAavartanaSec ? 'rgba(59,130,246,0.25)' : 'rgba(16,185,129,0.2)'}`,
                                             }}>
                                                 <Gauge className="w-3 h-3" />
-                                                <input
-                                                    type="number"
-                                                    step="0.01"
-                                                    min="0.5"
-                                                    value={parseFloat((customAavartanaSec ?? autoAavartanaSec).toFixed(2))}
-                                                    onChange={e => {
-                                                        const v = parseFloat(e.target.value);
-                                                        setCustomAavartanaSec(v > 0 ? v : null);
-                                                    }}
+                                                <SecondsInput
+                                                    value={customAavartanaSec}
+                                                    defaultValue={autoAavartanaSec}
+                                                    onCommit={v => setCustomAavartanaSec(v)}
                                                     className="w-12 text-center font-mono font-bold tabular-nums bg-transparent border-none outline-none focus:ring-0"
                                                     style={{ color: 'inherit' }}
                                                     title="Edit āvartana duration in seconds"
@@ -1681,13 +1497,13 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                 className="text-xs font-mono tabular-nums"
                                                 style={{ color: t != null ? '#10b981' : 'var(--text-muted)', opacity: t != null ? 1 : 0.35, minWidth: 36 }}
                                             >
-                                                {t != null ? fmt(t) : '--:--'}
+                                                {t != null ? formatTime(t) : '--:--'}
                                             </span>
                                             <button
                                                 onClick={() => setSectionTimings(prev => ({ ...prev, [section]: currentTime }))}
                                                 className="flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all hover:opacity-100"
                                                 style={{ background: isCurrent ? 'rgba(16,185,129,0.2)' : 'rgba(16,185,129,0.1)', color: '#10b981', border: '1px solid rgba(16,185,129,0.4)' }}
-                                                title={`Set ${section} start to current time (${fmt(currentTime)})`}
+                                                title={`Set ${section} start to current time (${formatTime(currentTime)})`}
                                             >
                                                 {isCurrent ? '● Set' : 'Set'}
                                             </button>
@@ -1714,14 +1530,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 {/* ── Three Lanes ───────────────────────────────────────────────── */}
                 <main
                     className={`flex-1 flex flex-col relative overflow-hidden select-none ${editorMode === 'view' && isDragging ? 'cursor-grabbing' : editorMode === 'view' ? 'cursor-grab' : 'cursor-default'}`}
-                    onMouseDown={handleDragStart}
-                    onMouseMove={handleDragMove}
-                    onMouseUp={handleDragEnd}
-                    onMouseLeave={handleDragEnd}
-                    onTouchStart={handleDragStart}
-                    onTouchMove={handleDragMove}
-                    onTouchEnd={handleDragEnd}
-                    onClick={handleClickSeek}
+                    {...dragHandlers}
                 >
                     {/* Visual playhead */}
                     <div className="absolute inset-y-0 z-20 pointer-events-none" style={{ left: `${PLAYHEAD * 100}%` }}>
@@ -1826,11 +1635,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         overflow: 'hidden',
                     }}>
                         <div
-                            className="absolute left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                            className="absolute left-0 right-0 z-30 flex items-center pointer-events-none select-none"
                             style={{ top: 6, height: '28px' }}
-                            onClick={() => setSahityaCollapsed(c => !c)}
                         >
-                            <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
+                            <button
+                                type="button"
+                                onClick={() => setSahityaCollapsed(c => !c)}
+                                title={sahityaCollapsed ? 'Expand sahitya lane' : 'Collapse sahitya lane'}
+                                className="pointer-events-auto cursor-pointer flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg hover:brightness-110 active:scale-95 transition-all"
                                 style={{
                                     color: isDark ? '#fff' : '#000',
                                     background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
@@ -1841,13 +1653,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 {sahityaCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
                                 Sahitya
-                            </div>
+                            </button>
                         </div>
                         {!sahityaCollapsed && contentRows.length > 0 && (
                             <div className="absolute inset-0" style={{ top: '0px' }}>
                                 <NotationLane
                                     aavartanas={aavartanas}
                                     aavartanaTimings={aavartanaTimings}
+                                    contentRowTimings={contentRowTimings}
                                     currentTime={currentTime}
                                     timeRef={currentTimeRef}
                                     totalDuration={effectiveDuration}
@@ -1875,11 +1688,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         overflow: 'hidden',
                     }}>
                         <div
-                            className="absolute left-0 right-0 z-30 flex items-center cursor-pointer select-none"
+                            className="absolute left-0 right-0 z-30 flex items-center pointer-events-none select-none"
                             style={{ top: 6, height: '28px' }}
-                            onClick={() => setSwaraCollapsed(c => !c)}
                         >
-                            <div className="flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg"
+                            <button
+                                type="button"
+                                onClick={() => setSwaraCollapsed(c => !c)}
+                                title={swaraCollapsed ? 'Expand swara lane' : 'Collapse swara lane'}
+                                className="pointer-events-auto cursor-pointer flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg hover:brightness-110 active:scale-95 transition-all"
                                 style={{
                                     color: isDark ? '#fff' : '#000',
                                     background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
@@ -1890,13 +1706,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             >
                                 {swaraCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
                                 Swara
-                            </div>
+                            </button>
                         </div>
                         {!swaraCollapsed && aavartanas.length > 0 && (
                             <div className="absolute inset-0" style={{ top: '0px' }}>
                                 <NotationLane
                                     aavartanas={aavartanas}
                                     aavartanaTimings={aavartanaTimings}
+                                    contentRowTimings={contentRowTimings}
                                     currentTime={currentTime}
                                     timeRef={currentTimeRef}
                                     totalDuration={effectiveDuration}
@@ -1932,7 +1749,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 >
                     <div className="flex items-center gap-4 w-full" style={{ maxWidth: 800 }}>
                         <span className="text-sm tabular-nums font-mono font-bold" style={{ color: '#10b981', minWidth: 44 }}>
-                            {fmt(currentTime)}
+                            {formatTime(currentTime)}
                         </span>
 
                         {/* Track wrapper: labels + slider positioned relative to track */}
@@ -1991,7 +1808,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                 e.stopPropagation();
                                                 if (audioRef.current) audioRef.current.currentTime = t;
                                             }}
-                                            title={`${section} — ${fmt(t)}`}
+                                            title={`${section} — ${formatTime(t)}`}
                                         >
                                             {section}
                                         </span>
@@ -2050,7 +1867,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         </div>
 
                         <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)', minWidth: 44, textAlign: 'right' }}>
-                            {fmt(effectiveDuration)}
+                            {formatTime(effectiveDuration)}
                         </span>
                     </div>
                 </div>
@@ -2283,6 +2100,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     <datalist id="edit-info-composers">
                                         {allComposers.map(c => <option key={c} value={c} />)}
                                     </datalist>
+                                </div>
+                                <div>
+                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Type of Song</label>
+                                    <select
+                                        value={editInfoType}
+                                        onChange={e => setEditInfoType(e.target.value)}
+                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
+                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
+                                    >
+                                        <option value="">— Select type —</option>
+                                        {COMPOSITION_TYPES.map(t => <option key={t} value={t}>{t}</option>)}
+                                    </select>
                                 </div>
                             </div>
 
