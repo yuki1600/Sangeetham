@@ -12,44 +12,89 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "D S S | D P | M P || D D P | M M | P P ||",
-                    "sahitya": "Ke re ya | Nee - | ra nu || Ke re ge | chal - | li - ||"
+                    "swara": "D S  S  | D P | M  P || D D P | M M | P  P ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D D S | D P | M P || D D P | M G | R S ||",
-                    "sahitya": "Va ra va | pa de | da va || ran - te | Kaa - | ni ro ||"
+                    "swara": "Ke re  ya | Nee - | ra nu || Ke re ge | chal - | li - ||",
+                    "sahitya": "... while worshipping with the intention of obtaining the boons (\u201cvarava padeda rante\u201d) from the god."
                 },
                 {
-                    "swara": "S R R | S R | S R || D D P | M G | R S ||",
-                    "sahitya": "Ha ri ya | ka ru | na do || laa - da | bha - | gya va ||"
+                    "swara": "D D  S | D P | M P || D D P | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D P D | S - | D P || D D P | M G | R S ||",
-                    "sahitya": "Ha ri sa | ma - | rpa ne || ma - di | ba du | ki ro ||"
+                    "swara": "Va ra  va | pa de | da va || ran - te | Kaa - | ni ro ||",
+                    "sahitya": "In a similar manner the life given as a considerate bequest  (\u201ckarunadolaada bhagyavu\u201d) by Hari (\u201chari"
                 },
                 {
-                    "swara": "S R R | S R | S R || D D P | M G | R S ||",
-                    "sahitya": "Ha ri ya | ka ru | na da || la - ya | bha - | gya va ||"
+                    "swara": "S R  R | S R | S R || D D P | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D S S | D P | M P || D D P | M M | P P ||",
-                    "sahitya": "Sree - pu | ran - | da ra || vi ta la | ra - | ya - ||"
+                    "swara": "Ha ri  ya | ka ru | na do || laa - da | bha - | gya va ||",
+                    "sahitya": "... is (\"maadi\") surrendered back to him (\u201chari samarpana\u201d)."
                 },
                 {
-                    "swara": "D D S | D P | M P || D D P | M G | R S ||",
-                    "sahitya": "Cha ra na | ka ma | la va || no - di | ba du | ki ro ||"
+                    "swara": "D P  D | S - | D P || D D P | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S R R | S R | S R || D D P | M G | R S ||",
-                    "sahitya": "Ha ri ya | ka ru | na do || la - da | bha - | gya va ||"
+                    "swara": "Ha ri  sa | ma - | rpa ne || ma - di | ba du | ki ro ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D P D | S - | D P || D D P | M G | R S ||",
-                    "sahitya": "Ha ri sa | ma - | rpa ne || ma - di | ba du | ki ro ||"
+                    "swara": "S R  R | S R | S R || D D P | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S R R | S R | S R || D D P | M G | R S ||",
-                    "sahitya": "Ha ri ya | ka ru | na do || la - da | bha - | gya va ||"
+                    "swara": "Ha ri  ya | ka ru | na da || la - ya | bha - | gya va ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "D S  S  | D P | M  P || D D P | M M | P  P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sree -  pu | ran - | da ra || vi ta la | ra - | ya - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "D D  S | D P | M P || D D P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Cha ra  na | ka ma | la va || no - di | ba du | ki ro ||",
+                    "sahitya": "... the life given as a considerate bequest  (\u201ckarunadolaada bhagyavu\u201d) by Hari (\u201chari ya\u201d) ..."
+                },
+                {
+                    "swara": "S R  R | S R | S R || D D P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ha ri  ya | ka ru | na do || la - da | bha - | gya va ||",
+                    "sahitya": "... is (\"maadi\") surrendered back to him (\u201chari samarpana\u201d)."
+                },
+                {
+                    "swara": "D P  D | S - | D P || D D P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ha ri  sa | ma - | rpa ne || ma - di | ba du | ki ro ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S R  R | S R | S R || D D P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ha ri  ya | ka ru | na do || la - da | bha - | gya va ||",
+                    "sahitya": ""
                 }
             ]
         }

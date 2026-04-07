@@ -12,20 +12,20 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "sn S - mg M - ppmg M P || D - psnd P pndp mg M mp mp mg R rsS ||",
-                    "sahitya": "Vee naa - Pu stha ka Dha ri- ni -- maa - shra - ye - -"
+                    "swara": "sn S  ; mg M ;  ppmg M P || D ;  psnd  P   pndp   mg M  mp mp mg  R rsS ||",
+                    "sahitya": "Vee    naa -  Pu stha ka    Dha ri-      ni -- maa -   shra -   ye - -"
                 },
                 {
-                    "swara": "S - - mg M - ppmg M P || D - psnd P pndp mg M mp mp mg R rsS ||",
-                    "sahitya": "Vee naa - Pu stha ka Dha ri- ni -- maa - shra - ye - -"
+                    "swara": "S ;   ; mg M ;  ppmg   M P || D ;  psnd   P  pndp   mg M  mp mp mg  R rsS ||",
+                    "sahitya": "Vee    naa -  Pu stha ka    Dha ri-      ni -- maa -   shra -   ye - -"
                 },
                 {
-                    "swara": "S - N nd dsnd P nd pmM - dpmg M || P D - Dns dnP D - dn R sn S - - ||",
-                    "sahitya": "Ve ga vaa - - hi- - neem Vaa neem Aa - - - shra- - ye - -"
+                    "swara": "S ;  N nd dsnd P nd   pmM ;  dpmg  M ||  P D - Dns dnP  D - dn  R   sn S  ; ; ||",
+                    "sahitya": "Ve ga vaa - -     hi- -   neem    Vaa        neem  Aa    - -   -     shra- -        ye -  -"
                 },
                 {
-                    "swara": "S - N nd dsnd P nd pmM - dpmg M || P D - dn Srs nds nN D - dn R sn S - - ||",
-                    "sahitya": "Ve ga vaa - - hi- - neem Vaa neem Aa - - - shra- - ye - -"
+                    "swara": "S ;  N nd dsnd P nd   pmM ;  dpmg  M ||  P D - dn Srs nds nN  D - dn  R  sn S  ; ; ||",
+                    "sahitya": "Ve ga vaa - -     hi- -   neem    Vaa        neem  Aa    - -   -     shra- -        ye -  -"
                 }
             ]
         },
@@ -33,16 +33,16 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "P - S - -n D P P nd pmM - || dp pmG M P -n D D P snN D dp M ||",
-                    "sahitya": "E nan ga yu tha Ja taa ju - ta Maku tan -- thaam --"
+                    "swara": "P ; S ; ,n D P    P nd pmM  ;  || dp pmG   M P  ,n   D    D P   snN    D  dp M ||",
+                    "sahitya": "E nan ga yu tha Ja taa  ju     -    ta  Maku  tan    --   thaam --"
                 },
                 {
-                    "swara": "P - P dn S -n D P P nd pmM - || dp pmG M P -n D D P snN D - ||",
-                    "sahitya": "E nan ga yu tha Ja taa ju - ta Maku tan -- thaam --"
+                    "swara": "P ; P dn S ,n D P    P nd pmM  ;  || dp pmG   M P  ,n   D    D P   snN    D  ; ||",
+                    "sahitya": "E nan ga yu tha Ja taa  ju     -    ta  Maku  tan    --   thaam --"
                 },
                 {
-                    "swara": "d r S R r s r g M rs r rs S - n d p d || n s n d d p p m gr m m mgR - rs S - ||",
-                    "sahitya": "E - kaa- - gra Chi - ttha Ni dhyaa tham - - Vidhi Kaan tham -"
+                    "swara": "d r S R r s r g  M   rs r rs S ;  n d p d || n s n d   d p p m  gr  m m  mgR    ;  rs S   ;  ||",
+                    "sahitya": "E       -   kaa- -      gra Chi  - ttha    Ni   dhyaa   tham     - - Vidhi Kaan    tham  -"
                 }
             ]
         },
@@ -50,8 +50,28 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "S ,  d    ; d p  d s n d  P    M ;     P d p   ||   M G mg     G  M   P  ;  D P d n       D  ; ||",
+                    "sahitya": "Pa   raa     dya-     khi - - - la  Sab da - -  Swa roo -      -  pa  Vaa       kaa  ---    sham--"
+                },
+                {
+                    "swara": "M ;  ;  dp  P mp  gm P  mn    D   || ; P ,   N , D  M     P ;  ;  P  ; ;  ||",
+                    "sahitya": "Powr    na mee -  Chan - -  dri kaa        Dha va la  San    kaa   sham"
+                },
+                {
+                    "swara": "pm mg    M P  nd N   n D n    S  ; n d ||   p m P   d p M  G mg    G - gm m d    pm  P   ||",
+                    "sahitya": "Ka   ra -  ara  Vin -   daam       -      Kal - -    -  -  yaa -     na  daam  -  -     Bhaa --   sham--"
+                },
+                {
+                    "swara": "dn D   M - P    d p - M      mp  mg R    r s S  || M ;  ; G mg    G  M  P  ;  g m p d     || (P;)",
+                    "sahitya": "Ka na ka Cham     --  pa      ka  Dhaa    ma    Bhuu   sha--   -   Vi she shaam --"
+                },
+                {
+                    "swara": "s   R     m  M    G      m      P   D     n    s  n   S  ; || n   s   N   -d  N   d      P   p    d    p -g     M  P  ;||",
+                    "sahitya": "Ni ran  tha ram Bha ktha Jih waa  gra Vaa- saam  Ni   khi la Pra pancha San koo     sha Vi kaa saam"
+                },
+                {
+                    "swara": "s    R     s     r m   g  r      s  ns   n  - d n   D   n S , || s n  d n   d p - d p m p  - M    m p - M   M  mg R||",
+                    "sahitya": "Na raa dha  ma - na na Vi loo ka  Sho- kaa - pa haam Narahari hara Guru guha    Poo   jitha  Vi  gra haam-"
                 }
             ]
         }

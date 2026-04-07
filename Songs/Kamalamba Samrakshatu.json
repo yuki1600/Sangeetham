@@ -12,44 +12,44 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1) N - P- | G - M pm || G - R - | S - N - ||",
-                    "sahitya": "Ka ma la - - m ba - Sam -"
+                    "swara": "1) N ,  P,   |  G ;  M pm   ||  G ,  R ,     |  S ;  N ;  ||",
+                    "sahitya": "Ka  ma     la   -  - m     ba  -     Sam   -"
                 },
                 {
-                    "swara": "- - S | N S M - || G - R - | G - M - ||",
-                    "sahitya": "- - Ra ksha tu maa m Sri - -"
+                    "swara": ";  ;       S   |  N S M ; ||  G ,  R ,     |  G ;  M ;  ||",
+                    "sahitya": "- -          Ra     ksha   tu      maa     m     Sri  - -"
                 },
                 {
-                    "swara": "2) N - P - | G - mdppm - || G - R - | S - N - ||",
-                    "sahitya": "Ka ma la - - -- m ba - Sam -"
+                    "swara": "2) N ,  P ,   |  G ;  mdppm  ; ||  G ,  R ,     |  S ;  N ;  ||",
+                    "sahitya": "Ka  ma     la  - - -- m       ba  -     Sam   -"
                 },
                 {
-                    "swara": "- - S | N S M - || mg mPmGR | G - M - ||",
-                    "sahitya": "Ra ksha tu maa - - - - m Sri - -"
+                    "swara": ";  ;       S   |  N S M ; ||  mg mPmGR     |  G ;  M ; ||",
+                    "sahitya": "Ra     ksha   tu     maa - -   - -  m    Sri  - -"
                 },
                 {
-                    "swara": "3) N - P - | G - mdppm - || G - R - | srgr rn - ||",
-                    "sahitya": "Ka ma la - - -- m ba - Sam -"
+                    "swara": "3) N ,  P ,   |  G ;  mdppm  ; ||  G ,  R ,     |  srgr  rn ;  ||",
+                    "sahitya": "Ka  ma     la  - - -- m       ba  -     Sam   -"
                 },
                 {
-                    "swara": "- - S | S P mdpm || G - R - | S - g R n ||",
-                    "sahitya": "Ra ksha tu maa m Hru - - th"
+                    "swara": ";  ;       S   |  S P mdpm ||  G ,  R ,     |  S ;  g R n  ||",
+                    "sahitya": "Ra     ksha   tu      maa     m    Hru  - - th"
                 },
                 {
-                    "swara": "a) S G R | G - M - || N - P - | G - Mpm ||",
-                    "sahitya": "Ka ma laa -- Na ga ra Ni"
+                    "swara": "a) S   G  R |  G ; M ;  ||  N ,  P ,     |  G ;  Mpm  ||",
+                    "sahitya": "Ka ma     laa  --     Na  ga     ra  Ni"
                 },
                 {
-                    "swara": "G - R - | G - pmgr || G - S | - - g R n ||",
-                    "sahitya": "Va - si ni -- --- --- Hru -"
+                    "swara": "G ,  R ,   |  G ;  pmgr  ||  G ; S    |  ; ;  g R n ||",
+                    "sahitya": "Va -      si   ni  --       ---  ---   Hru -"
                 },
                 {
-                    "swara": "a) S G - | G - M - || P - dmp | G - mdppm - ||",
-                    "sahitya": "Ka ma la - - - - Na ga ra Ni"
+                    "swara": "a) S G  ; |  G ; M ;  ||  P ,  dmp     |  G ;  mdppm ;  ||",
+                    "sahitya": "Ka ma     la -  - - -     Na  ga     ra  Ni"
                 },
                 {
-                    "swara": "G - R - | G - pmgr || G - S | - - - - ||",
-                    "sahitya": "Va - si ni -- --- --- - - - -"
+                    "swara": "G ,  R ,   |  G ;  pmgr  ||  G ; S    |  ; ;  ; ;  ||",
+                    "sahitya": "Va -      si   ni  --       ---  ---     - -       - -"
                 }
             ]
         },
@@ -57,44 +57,44 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "1) P M P | S - P - || N - P - | M G M - ||",
-                    "sahitya": "Su ma na Sa ra dhi tha bja mu khi"
+                    "swara": "1) P M P |  S ; P ;  ||  N ,  P ,     |  M   G M ;  ||",
+                    "sahitya": "Su ma  na   Sa ra    dhi tha    bja mu khi"
                 },
                 {
-                    "swara": "mdpm G | R G M - || P N P | S N S - ||",
-                    "sahitya": "Sun da ra ma na Pri ya ka ra Sa khi"
+                    "swara": "mdpm  G   |  R G  M ;  ||  P    N  P    |   S    N  S ;  ||",
+                    "sahitya": "Sun da     ra ma    na     Pri  ya  ka      ra  Sa   khi"
                 },
                 {
-                    "swara": "2) P M P | g r S s n r s || N pn n p | M - G M - ||",
-                    "sahitya": "Su ma na Sa ra dhi Tha - - bja mu khi"
+                    "swara": "2) P M P |  g r S s n r s  ||  N pn  n p     |  M - G M ;  ||",
+                    "sahitya": "Su ma  na   Sa ra    dhi Tha - -    bja mu khi"
                 },
                 {
-                    "swara": "pd mp G | R G M - || P N P | S N S - ||",
-                    "sahitya": "Sun da ra ma na Pri ya ka ra Sa khi"
+                    "swara": "pd mp  G   |  R G M ;  ||  P N  P    |    S N  S ;  ||",
+                    "sahitya": "Sun da     ra ma    na     Pri  ya  ka      ra  Sa   khi"
                 },
                 {
-                    "swara": "S N S | M - m m g g || g r S - | N - S S - ||",
-                    "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
+                    "swara": "S N  S  |  M ;  m m g g  ||  g r   S  ;      |  N - S    S ;  ||",
+                    "sahitya": "Ka ma  la     ja  Nan     da-   Bo     da Su -   khi -"
                 },
                 {
-                    "swara": "- - - | - - S S ||",
-                    "sahitya": "- - - - - Amba"
+                    "swara": "; ; ;  | ; ;   S   S ||",
+                    "sahitya": "- - -  - -  Amba"
                 },
                 {
-                    "swara": "S N S | M - m m g g || g r S - | N - r s n d P ||",
-                    "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
+                    "swara": "S N  S  |  M ;  m m g g  ||  g r   S  ;      |  N - r s    n d P  ||",
+                    "sahitya": "Ka ma  la     ja  Nan     da-   Bo     da Su -   khi -"
                 },
                 {
-                    "swara": "P - S - | s s n d n p p m || G M P | M G r G m ||",
-                    "sahitya": "Kan tha - tha -- - - ra - Pan --ja ra Su - khi -"
+                    "swara": "P ,  S ,   |  s s n d  n p p m   ||  G  M   P     |  M G  r G m ||",
+                    "sahitya": "Kan tha -     tha  --  - -   ra -       Pan  --ja      ra Su -  khi -"
                 },
                 {
-                    "swara": "S N S | M - m g Mpm || g r S - | N - nsrs n d P ||",
-                    "sahitya": "Ka ma la ja Nan da- Bo da Su - khi -"
+                    "swara": "S N  S  |  M ;  m g Mpm ||  g r   S    ;      |  N - nsrs   n d P  ||",
+                    "sahitya": "Ka ma  la     ja  Nan        da-   Bo     da Su -    khi -"
                 },
                 {
-                    "swara": "P - S - | r s n d P M || G M P | M G r G m ||",
-                    "sahitya": "Kan tha - tha -- - - ra - Pan --ja ra Su - khi -"
+                    "swara": "P ,  S ,   |  r s n d    P  M    ||    G  M   P     |  M G  r G m ||",
+                    "sahitya": "Kan tha -     tha  --  - -   ra -       Pan  --ja      ra Su -  khi -"
                 }
             ]
         },
@@ -102,8 +102,68 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "1) N ,  P ,   |  G ;    n p p m   ||  G  ,       R ,  |   S ;  S rs  ||",
+                    "sahitya": "Tri  pu     ra    - - dhi -       Cha       -      kre  swa"
+                },
+                {
+                    "swara": "N  ;  ;   |  ; ;    N R   ||   sn S       ;  |  ; ;  G M   ||",
+                    "sahitya": "ri      Am -         ba   Am ba"
+                },
+                {
+                    "swara": "2) N ,  P,   |  G ;    n p p m   ||  G  ,       R,  |  S ;  S rs  ||",
+                    "sahitya": "Tri  pu     ra    - - dhi -       Cha       -      kre  swa"
+                },
+                {
+                    "swara": "N  ;  ;   |  ; ;    S ;    ||  G gr      R   |    G ;  M ;  ||",
+                    "sahitya": "ri      A        ni Ma    -       di   Si"
+                },
+                {
+                    "swara": "P ;  N   |  P ;    G ;    ||  mg mPm gr   |  S ;  G R  ||",
+                    "sahitya": "dhee -    shwa     ri        Ni  ---     tya - -"
+                },
+                {
+                    "swara": "R N   S   |  S , n    P M    ||  md pm gr    |  G ;  M ;   ||  (second time: M-S)",
+                    "sahitya": "-  -  Ka    me   shwa        ri  - - - -      - -   ni                 ni Kshi"
+                },
+                {
+                    "swara": "N ,     P,   |  M ;   mg mPm || gr  S     ;  |  G R  R N   ||",
+                    "sahitya": "(Kshi) thi     pu     ra   Thrai- -      -    lo     -  -  kya -"
+                },
+                {
+                    "swara": "; s  G r |  G ;    M ;    ||  P ;  ;     |  D M   M dp   ||",
+                    "sahitya": "Mo  -  -     ha     na        Cha       kra  Va -"
+                },
+                {
+                    "swara": "G R  G    |   ; M    ;  ;    ||   ;  ;     M  |  P  ;  M ; ||",
+                    "sahitya": "-  -  rdhi     -  ni       Pra    ka  ta"
+                },
+                {
+                    "swara": "mg mPm gr |   G ;  G M     ||   P ;  ;  |  ;  ;  ;  S || (second time: S-S)",
+                    "sahitya": "Yo  - - -       gi -         ni       (Kshi)              Su ra"
+                },
+                {
+                    "swara": "P ,  P ,   |  S ;    N ;     ||  S ;  M |  G ;  R mgG  ||",
+                    "sahitya": "Ri  pu    Ma     hi        sha   ---     su   ra"
+                },
+                {
+                    "swara": "gr ,  S ,    |  S r s    N  R     ||  S  N  S |   ; ;  N G   ||",
+                    "sahitya": "- -  dhi     Ma  rdhi        ni  -  -   Ni ga"
+                },
+                {
+                    "swara": "R  S ;   |  S N    S ;     ||  P ;  ; |  ; ;  D P   ||",
+                    "sahitya": "ma  Pu     ra    -        na    - thi"
+                },
+                {
+                    "swara": "G ;  ;    |  M d p pm   g r    ||  S ;  ; |  ; ;  S S   ||",
+                    "sahitya": "Sam      ve        thi        ni    (su ra)"
+                },
+                {
+                    "swara": "s s    P P  |  g r r s   s n S    ||  s g r    R g  |  s - N  s s - g r   ||",
+                    "sahitya": "Tri pu  re shi    Guru gu ha     Jana ni       Tripura Bhan ja  na Ranja ni Madhu"
+                },
+                {
+                    "swara": "r s    N s nd  |  P m P  mg   R    ||  s g r    G m  |  P m G r    gm ||",
+                    "sahitya": "ri pu Saho da    ri Ta lo dha   ri      Tripura Sunda    ri Mahe-   shwari"
                 }
             ]
         }

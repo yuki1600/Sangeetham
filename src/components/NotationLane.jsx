@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const AAVARTANA_PX = 320;
+// Note: AAVARTANA_PX is now dynamically calculated as pxPerSec * aavartanaSec * zoom
 
 const SWARA_COLORS = {
     S: '#34d399',
@@ -46,7 +46,7 @@ export default function NotationLane({
     playheadFraction = 0.25,
     type = 'swara',
     theme,
-    aavartanaSec = 3.3,
+    aavartanaSec = 4.0,
     aavartanaTimings,
     editMode = false,
     onTokenEdit,
@@ -54,23 +54,31 @@ export default function NotationLane({
     textMode = false,
     contentRows,
     avPerRow = 1,
+    pxPerSec = 100,
+    zoom = 2,
 }) {
     const containerRef = useRef(null);
     const animRef = useRef(null);
     const currentTimeRef = useRef(currentTime);
     const aavartanaSecRef = useRef(aavartanaSec);
+    const pxPerSecRef = useRef(pxPerSec);
+    const zoomRef = useRef(zoom);
     const [editingKey, setEditingKey] = useState(null); // `${avIdx}-${tIdx}`
 
     useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
+    useEffect(() => { pxPerSecRef.current = pxPerSec; zoomRef.current = zoom; }, [pxPerSec, zoom]);
+
+    // Each avartana covers exactly aavartanaSec * pxPerSec pixels.
+    const effectiveAvPx = aavartanaSec * pxPerSec * zoom;
 
     // When aavartanaTimings provided, columns are absolutely positioned at
-    // timing[i]/avSec * AAVARTANA_PX. The transform scroll is the same formula
-    // (t/avSec)*AAVARTANA_PX, so column i aligns with playhead when t=timing[i].
+    // timing[i] * pxPerSec * zoom. The transform scroll is the same formula
+    // (t * pxPerSec * zoom), so column i aligns with playhead when t=timing[i].
     const hasTimings = !textMode && !!(aavartanaTimings && aavartanaTimings.length === aavartanas?.length);
 
     // In text mode, each row occupies avPerRow avartanas worth of pixels
-    const rowPx = avPerRow * AAVARTANA_PX;
+    const rowPx = avPerRow * effectiveAvPx;
 
     // Animate scroll
     useEffect(() => {
@@ -78,7 +86,7 @@ export default function NotationLane({
             const el = containerRef.current;
             if (el) {
                 const t = timeRef ? timeRef.current : currentTimeRef.current;
-                const offset = (t / aavartanaSecRef.current) * AAVARTANA_PX;
+                const offset = t * pxPerSecRef.current * zoomRef.current;
                 el.style.transform = `translateX(-${offset}px)`;
             }
             animRef.current = requestAnimationFrame(animate);
@@ -92,14 +100,6 @@ export default function NotationLane({
 
     // ── Text mode: render full text rows ──────────────────────────────────
     if (textMode && contentRows) {
-        // Distribute total scroll width proportionally by text length.
-        // Total width = contentRows.length * rowPx (preserves scroll speed).
-        const totalScrollPx = contentRows.length * rowPx;
-        const textField = isSwara ? 'swara' : 'sahitya';
-        const lengths = contentRows.map(r => (r[textField] || ' ').length);
-        const totalLen = lengths.reduce((a, b) => a + b, 0) || 1;
-        const rowWidths = lengths.map(len => Math.max(rowPx * 0.3, (len / totalLen) * totalScrollPx));
-
         return (
             <div className="relative w-full h-full overflow-hidden no-scrollbar">
                 <div
@@ -112,9 +112,18 @@ export default function NotationLane({
                     }}
                 >
                     {contentRows.map((row, idx) => {
-                        const text = isSwara ? row.swara : row.sahitya;
+                        const text = (isSwara ? row.swara : row.sahitya) || '';
                         const isFirstInSection = idx === 0 || contentRows[idx - 1]?.section !== row.section;
-                        const w = rowWidths[idx];
+                        const avCount = row.avCount || 1;
+                        const w = avCount * effectiveAvPx;
+
+                        // Text fitting: calculate a font size that fills the width 'w'
+                        // Base: ~10px per character for 1rem.
+                        // We want: fontSize * text.length * density ~ w
+                        const baseCharWidth = isSwara ? 11 : 9;
+                        const targetW = w - 48; // padding
+                        const autoFontSize = Math.min(1.8, targetW / (text.length * baseCharWidth));
+                        const finalFontSize = `${autoFontSize}rem`;
 
                         return (
                             <div
@@ -124,10 +133,11 @@ export default function NotationLane({
                             >
                                 {isFirstInSection && (
                                     <div
-                                        className="absolute top-2 left-0 px-2 py-0.5 rounded bg-amber-500/15 text-[11px] font-black tracking-widest uppercase z-20"
+                                        className="absolute top-2 left-0 px-2 py-0.5 rounded bg-emerald-500/15 text-[11px] font-black tracking-widest uppercase z-20"
                                         style={{
-                                            color: isDark ? '#fbbf24' : '#92400e',
-                                            border: `1px solid ${isDark ? 'rgba(251,191,36,0.35)' : 'rgba(146,64,14,0.25)'}`
+                                            color: isDark ? '#10b981' : '#047857',
+                                            border: `1px solid ${isDark ? 'rgba(16,185,129,0.35)' : 'rgba(4,120,87,0.25)'}`,
+                                            backdropFilter: 'blur(8px)'
                                         }}
                                     >
                                         {row.section}
@@ -135,25 +145,28 @@ export default function NotationLane({
                                 )}
 
                                 <div
-                                    className="w-full px-3"
+                                    className="w-full px-5 flex justify-between items-center"
                                     style={{
-                                        fontSize: isSwara ? '0.85rem' : '0.8rem',
+                                        fontSize: finalFontSize,
                                         fontFamily: "'Outfit', sans-serif",
-                                        fontWeight: isSwara ? 700 : 600,
-                                        letterSpacing: '0.04em',
+                                        fontWeight: 700,
                                         color: isSwara
                                             ? (isDark ? '#60a5fa' : '#1e40af')
-                                            : (isDark ? '#fcd34d' : '#92400e'),
+                                            : (isDark ? '#fcd34d' : '#b45309'),
                                         whiteSpace: 'nowrap',
-                                        textShadow: isSwara && isDark ? '0 0 10px rgba(96,165,250,0.3)' : 'none',
+                                        textShadow: isSwara && isDark ? '0 0 12px rgba(96,165,250,0.25)' : 'none',
                                     }}
                                 >
-                                    {text || '\u00A0'}
+                                    {text.split(/(\s+)/).map((chunk, i) => (
+                                        <span key={i} style={{ display: 'inline-block' }}>
+                                            {chunk.replace(/ /g, '\u00A0')}
+                                        </span>
+                                    ))}
                                 </div>
 
                                 <div
                                     className="absolute right-0 top-0 bottom-0 w-px"
-                                    style={{ background: isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)' }}
+                                    style={{ background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)' }}
                                 />
                             </div>
                         );
@@ -181,16 +194,14 @@ export default function NotationLane({
     // ── Token mode: original per-avartana parsed token rendering ──────────
     return (
         <div className="relative w-full h-full overflow-hidden no-scrollbar">
-            {/* Scrolling content */}
             <div
                 ref={containerRef}
                 className="absolute top-0 h-full"
                 style={{
                     left: `${playheadFraction * 100}%`,
                     willChange: 'transform',
-                    // In timing mode the container must be wide enough to hold all columns
                     ...(hasTimings
-                        ? { width: Math.max(1, (totalDuration / aavartanaSec) * AAVARTANA_PX + AAVARTANA_PX) }
+                        ? { width: Math.max(1, (totalDuration * pxPerSec * zoom) + effectiveAvPx) }
                         : { display: 'flex', alignItems: 'center', paddingRight: '60vw' }
                     ),
                 }}
@@ -198,13 +209,11 @@ export default function NotationLane({
                 {aavartanas.map((av, avIdx) => {
                     const tokens = isSwara ? av.swara : av.sahitya;
                     const noteCount = tokens.filter(t => !t.isSeparator).length || 1;
-                    const noteWidth = AAVARTANA_PX / noteCount;
-                    // Scale font to fit the allocated note width; cap at design maxima
+                    const noteWidth = effectiveAvPx / noteCount;
                     const noteFontSize = `${Math.min(isSwara ? 1.5 : 1.2, noteWidth / 16)}rem`;
 
-                    // When timings provided: pin column to its audio start-time position
                     const colLeft = hasTimings
-                        ? (aavartanaTimings[avIdx] / aavartanaSec) * AAVARTANA_PX
+                        ? aavartanaTimings[avIdx] * pxPerSec * zoom
                         : undefined;
 
                     return (
@@ -212,11 +221,10 @@ export default function NotationLane({
                             key={avIdx}
                             className="flex items-center h-full flex-shrink-0"
                             style={{
-                                width: AAVARTANA_PX,
+                                width: effectiveAvPx,
                                 ...(hasTimings ? { position: 'absolute', top: 0, bottom: 0, left: colLeft } : { position: 'relative' }),
                             }}
                         >
-                            {/* Section label */}
                             {(avIdx === 0 || aavartanas[avIdx - 1]?.section !== av.section) && (
                                 <div
                                     className="absolute top-2 left-0 px-2 py-0.5 rounded bg-amber-500/15 text-[11px] font-black tracking-widest uppercase"

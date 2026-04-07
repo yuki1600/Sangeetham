@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Vande Vasudevam",
         "raga": "Sri",
-        "arohanam": "S R2 M₁ P N₂ Ṡ ||",
-        "avarohanam": "Ṡ N₂ P M₁ R2 G2 R2 S ||",
+        "arohanam": "S R2 M\u2081 P N\u2082 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2082 P M\u2081 R2 G2 R2 S ||",
         "tala": "Khanda Chapu",
         "composer": "Annamacharya"
     },
@@ -12,152 +12,266 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "S - R - - || sr mg R -R - || S - - - - || S - nr sn P ||",
-                    "sahitya": "Van- de - - va- - su de-- vam - - - sri pa- tim"
+                    "swara": "vandE vAsudEvam brundArakAdheeSa vandita padAbjam ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N S R - - || sr G G - grR || S - - - - || S - nr sn P ||",
-                    "sahitya": "Van- de - - va- - su de-- vam - - - sri pa- tim"
+                    "swara": "vandE vAsudEvam brundArakAdheeSa vandita padAbjam ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "kandarpa janakamaravinda nAbham ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N S R - -p || pmR G - grR || S - - - - || S - nr sn P ||",
-                    "sahitya": "Van- de - - va- - su de-- vam - - - sri pa- tim"
+                    "swara": "nnaga rAja SAyinam ghana nivAsam ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N S R - -p || pmR G - grR || S - - - - || - R R mr M ||",
-                    "sahitya": "Van- de - - va- - su de-- vam - - - brunda—ra"
+                    "swara": "tiru venkaTAchala dEvam bhajE ||",
+                    "sahitya": "P: I bow to Vasudeva. The king (AdheeSa) of Brindaraka worships (vandita) his lotus feet (pada-Abjam)."
                 },
                 {
-                    "swara": "P - P N S || n S n P M - R || R -g gr R S ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da-- bjam- ||"
+                    "swara": "kandarpa janakamaravinda nAbham ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "rn S R - - || rmpn pm r - g R || S - - - - || - R R mr M ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - brunda—ra"
+                    "swara": "tiru venkaTAchala dEvam bhajE ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam Sahityam",
+            "content": [
+                {
+                    "swara": "S ;         R ;   ;   ||    sr mg  R  -R ;   ||  S ;    ;  ;  ;    ||  S ;    nr  sn P    ||",
+                    "sahitya": "Van-      dE -  -       vA- -   su dE--      vam  -  -  -       sri    pa- tim"
                 },
                 {
-                    "swara": "P - P N S || n S n P M - R || R -g gr R S ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da-- bjam- ||"
+                    "swara": "N S        R ;   ;   ||    sr G    G  - grR  ||  S ;    ;  ;  ;    ||  S ;    nr  sn P    ||",
+                    "sahitya": "Van-      dE -  -       vA- -   su dE--      vam  -  -  -       sri    pa- tim"
                 },
                 {
-                    "swara": "rn S R - - || rmpn pm r - g R || S - - - - || - R rpmmR- M ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - brunda— - ra"
+                    "swara": "N S        R ;   ,p  ||   pmR   G  - grR  ||  S ;    ;  ;  ;    ||  S ;    nr  sn P    ||",
+                    "sahitya": "Van-      dE -  -       vA- -   su    dE--    vam  -  -  -       sri    pa- tim"
                 },
                 {
-                    "swara": "P np pn sr S || pn sn P M - R || R -g gr R S ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da-- bjam- ||"
+                    "swara": "N S        R ;   ,p  ||   pmR   G  - grR  ||  S ;    ;  ;  ;    ||  ; R   R mr M     ||",
+                    "sahitya": "Van-      dE -  -       vA- -   su    dE--    vam  -  -  -       brundA\u2014ra"
                 },
                 {
-                    "swara": "rmpn sr gr sn || pnsn pm r - g R || S - - - - || - R rpmmR- M ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - brunda— - ra"
+                    "swara": "P ;         P  N S     || n S n     P M - R || R ,g  gr R  S  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P np pn sr S || pn sn P M - R || R -g gr R S ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da-- bjam- ||"
+                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "rmpn sr gr sn || pnsn pm r - g R || S - - - - || - R rpmmR- M ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - brunda— - ra"
+                    "swara": "rn S        R ;   ;  ||   rmpn   pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   R mr M     ||",
+                    "sahitya": "Van-      dE -  -      vA- -   su  -    dE-     vam  -  -  -         brundA\u2014ra"
                 },
                 {
-                    "swara": "P np pn sr S || gr sn rs np - sn || pm - pm R - gr rs ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da- - - - bjam- ||"
+                    "swara": "P ;         P  N S     || n S n     P M - R || R ,g  gr R  S  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "rn S R - - || mpmr G - g r R || S - - - - || - - - - - ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - - - - - -"
+                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- P P - P || P - P nn P || M - P pm R || R- G R S - ||",
-                    "sahitya": "In dee va ra - Sya- mam in - di ra - - ku cha ta Tee"
+                    "swara": "rn S        R ;   ;  ||   rmpn   pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
+                    "sahitya": "Van-      dE -  -      vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
                 },
                 {
-                    "swara": "R -m mp - P || P - pnsn P || mpnp pn- pm R || R- G R S - ||",
-                    "sahitya": "In - dee va ra - Sya- mam in - di - ra - - ku cha ta Tee"
+                    "swara": "P np     pn sr S     || pn sn     P M - R || R ,g  gr R  S  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- G R S - || sn P N S - || R mr M - P - m || P - - - - ||",
-                    "sahitya": "chandanan ki- ta (la)sach- cha- - ru de- - ham - - - -"
+                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- P n P - N || S - R S - || - n s - r - S - || sn P N - S - ||",
-                    "sahitya": "Manda- ra ma- li ka - maku Ta sam So- - bhi tam"
+                    "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
                 },
                 {
-                    "swara": "sn P P N S || R - G R - s || N G R - S - r || sn P N - S - ||",
-                    "sahitya": "Man- da- ra ma- li ka maku Ta sam So- - bhi tam"
+                    "swara": "P np     pn sr S     || pn sn     P M - R || R ,g  gr R  S  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "M P P N S || pmR G R - s || N G R - S - r || rsnp - N - S - ||",
-                    "sahitya": "Man- da- ra ma- li ka maku Ta sam So- - bhi tam"
+                    "swara": "kA       dhee-Sa     van--     di  ta   pa   dA--  bjam-   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- R S - S || nrsn P - - || p n s n P - pm || R G g r R S ||",
-                    "sahitya": "Kan dar pa ja-na- kam- - a - ra- vin- da- na- bham -"
+                    "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
                 },
                 {
-                    "swara": "- gr S - S || nsrs np nn pm || p n s r g r s n - pn || s n pm R g g r s ||",
-                    "sahitya": "Kan dar pa ja-na- kam- - a - ra- vin- - da- na- - - bham -"
+                    "swara": "P np     pn sr S     || gr sn     rs np - sn || pm - pm  R - gr rs    ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "r s - n r - r s n - p d || n - p m - r G - - g r s ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - brunda— - ra"
+                    "swara": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P np pn sr S || gr sn rs np - sn || pm - pm R - gr rs ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da- - - - bjam- ||"
+                    "swara": "rn S        R ;   ;  ||   mpmr  G  -  g r R  ||  S ;    ;  ;  ;    ||  ;  ;     ;   ;   ;      ||",
+                    "sahitya": "Van-      dE -  -      vA- -   su  -  dE-     vam  -  -  -         -  -     -  -   -"
                 },
                 {
-                    "swara": "rn S R - - || mpmr G - g r R || S - - - - || - - - - - ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - - - - - -"
+                    "swara": "; P     P  ;  P   ||    P  ;    P    nn P    ||  M ;     P pm R    ||  R- G     R  S ;    ||",
+                    "sahitya": "In   dee   va      ra  -   Sya-   mam       in -     di rA - -      ku  cha  ta Tee"
                 },
                 {
-                    "swara": "- P P P P || P - nn - P - || M - P-n pm R || R G R S - ||",
-                    "sahitya": "Ka ri pu ra na tha sam - ra - ksha Ne - - ta - tpa ram"
+                    "swara": "R ,m  mp ;  P   ||    P  ;    pnsn    P    ||  mpnp   pn- pm R    ||  R- G     R  S ;    ||",
+                    "sahitya": "In  -   dee    va       ra  -   Sya-   mam    in -     di -  rA - -      ku  cha  ta Tee"
                 },
                 {
-                    "swara": "- R mr M P || P - nn - P - || mpnp pn- pm R || R G R S - ||",
-                    "sahitya": "Ka ri pu ra na tha sam - ra - ksha Ne - ta - tpa ram"
+                    "swara": "; G     R  S  ;   ||    sn P    N   S  ;   ||  R mr     M - P , m     ||  P  ;    ;   ;   ;     ||",
+                    "sahitya": "chandanAn        ki- ta   (la)sach-       chA- -    ru    dE- -        ham -  -  -  -"
                 },
                 {
-                    "swara": "N R S - s r || sn P N - S - || R mr M - P - m || pm P - - - ||",
-                    "sahitya": "Ka ri ra- ja- va-ra da san - gata- ka ra- - bjam - - -"
+                    "swara": "; P      n P ,  N   ||   S ;     R  S  ;  ||  ; n s    , r - S  ;    || sn P   N -  S ;  ||",
+                    "sahitya": "MandA-    ra      mA-    li   kA          - maku Ta  sam     SO- -  bhi  tam"
                 },
                 {
-                    "swara": "- p p - n P p n || S - R S - || - - - - - || - - - - - ||",
-                    "sahitya": "Sara see- ru - ha- nanam - - - - - - - - - -"
+                    "swara": "sn P      P N S    ||   R ;     G  R  , s  ||  N G      R - S  , r    || sn P   N -  S ;  ||",
+                    "sahitya": "Man-   dA-  ra      mA-     li   kA          maku    Ta  sam       SO- -  bhi  tam"
                 },
                 {
-                    "swara": "- p p - n P p n || S - R S - || - N R - S - || s n P N - S - ||",
-                    "sahitya": "Sara see- ru - ha- nanam cha kra vi - bhra- ji tam"
+                    "swara": "M  P     P N S    ||  pmR     G  R  , s  ||  N G      R - S  , r    || rsnp ;   N -  S ;  ||",
+                    "sahitya": "Man-   dA-  ra       mA-     li   kA          maku    Ta  sam       SO- -  bhi  tam"
                 },
                 {
-                    "swara": "sn P P N S || R - G R - s || N G R - S - r || sn P N - S - ||",
-                    "sahitya": "Sa-ra see- ru ha- na nam cha - kra vi - bhra- ji tam"
+                    "swara": "; R      S  ;   S   ||  nrsn     P  ;  ;  ||  p n s n     P  ;  pm     ||  R G    g r R  S   ||",
+                    "sahitya": "Kan  dar   pa      ja-na-  kam- -          a -   ra-    vin-  da-        nA-    bham  -"
                 },
                 {
-                    "swara": "M P P N S || pmR G R - s || N G R - S - r || rsnp - N - S - ||",
-                    "sahitya": "Sa-ra see- ru ha- na nam cha - kra vi - bhra- ji tam"
+                    "swara": "; gr      S  ;   S   ||  nsrs     np nn pm  ||  p n s r     g r s n - pn     || s n pm    R g g r s    ||",
+                    "sahitya": "Kan  dar   pa      ja-na-  kam- -          a -   ra-    vin-  -   da-       nA- - -    bham  -"
                 },
                 {
-                    "swara": "N R S - S || nSn P npM || p n s n P - pm || R G g r R S ||",
-                    "sahitya": "Ti ru ven- ka Ta-- chala- de- - - vam bha je - ham - -"
+                    "swara": "R , g    r s - n s  r m  || r m p n   m p n s - r g  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N R S - S || nsrs np nn pm || p n s r g r s n - pn || s n pm R g g r s ||",
-                    "sahitya": "Ti ru ven- ka Ta-- cha-la- de- - - vam - bha je - -- ham - -"
+                    "swara": "R , g    r s - n r  s  n  || p n  s n   p m - r g  r s   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "r s - n r - r s n - p d || n - p m - r G - - g r s ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - brunda— - ra"
+                    "swara": "rR - g    r s - n s  r m  || r m p n   m p n s - r g  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P np pn sr S || gr sn rs np - sn || pm - pm R - gr rs ||",
-                    "sahitya": "ka dhee-sa van-- di ta pa da- - - - bjam- ||"
+                    "swara": "rR - g    r s - n r  s  n  || p n  s n   p m - r g  r s   ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "rn S R - - || mpmr G - g r R || S - - - - || - - - - - ||",
-                    "sahitya": "Van- de - - va- - su - de- vam - - - - - - - -"
+                    "swara": "r m - r m   p - m p n - mp ||   mp n - p     n s -  n G - g   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "r s - n r      ,  r s n - p d   || n - p m - r    G  , - g r s  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                },
+                {
+                    "swara": "P np     pn sr S     || gr sn     rs np - sn || pm - pm  R - gr rs    ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "rn S        R ;   ;  ||   mpmr  G  -  g r R  ||  S ;    ;  ;  ;    ||  ;  ;     ;   ;   ;      ||",
+                    "sahitya": "Van-      dE -  -      vA- -   su  -  dE-     vam  -  -  -         -  -     -  -   -"
+                },
+                {
+                    "swara": "; P     P   P  P    ||   P ;      nn  -   P   ;   ||  M   ;     P,n    pm R    ||  R  G     R  S ;    ||",
+                    "sahitya": "Ka   ri  pu ra      nA       tha   sam -     ra    -     ksha NE - -        ta   -     tpa ram"
+                },
+                {
+                    "swara": "; R     mr  M  P    ||   P ;      nn  -   P   ;   ||  mpnp   pn-  pm R    ||  R  G     R  S ;    ||",
+                    "sahitya": "Ka   ri    pu ra        nA      tha   sam -      ra    -    ksha NE -        ta   -     tpa ram"
+                },
+                {
+                    "swara": "N R     S  ;  s r    ||    sn P    N - S  ;   ||  R mr     M - P , m     ||  pm P   ;   ;   ;     ||",
+                    "sahitya": "Ka ri    rA-  ja-        va-ra   da san -      gata-     ka   rA- -        bjam  -   -   -"
+                },
+                {
+                    "swara": "; p p      ,  n P  p n    ||   S ;     R  S  ;  ||  ;  ;     ;  ;  ;   ||  ; ;     ;   ;  ;   ||",
+                    "sahitya": "Sara     see-  ru -         hA-   nanam    -  -     -  -  -      - -    -   -   -"
+                },
+                {
+                    "swara": "; p p      ,  n P  p n    ||   S ;     R  S  ;  ||  ;  N     R  - S  ;    || s n P   N -  S ;  ||",
+                    "sahitya": "Sara     see-  ru -         hA-   nanam      cha   kra   vi -      bhrA-  ji    tam"
+                },
+                {
+                    "swara": "sn P      P N S    ||   R ;     G  R  , s  ||  N G      R - S  , r    || sn P   N -  S ;  ||",
+                    "sahitya": "Sa-ra    see-  ru      hA-   na nam         cha -      kra  vi -       bhrA-  ji    tam"
+                },
+                {
+                    "swara": "M  P     P N S    ||  pmR     G  R  , s  ||  N G      R - S  , r    || rsnp ;   N -  S ;  ||",
+                    "sahitya": "Sa-ra    see-  ru      hA-      na nam       cha -      kra  vi -       bhrA-  ji    tam"
+                },
+                {
+                    "swara": "N R      S  ;   S   ||  nSn     P  npM  ||  p n s n     P  ;  pm     ||  R G    g r R  S   ||",
+                    "sahitya": "Ti  ru    ven- ka    TA--     chala-         dE- -  -    vam bha         jE -    ham -  -"
+                },
+                {
+                    "swara": "N R      S  ;   S   ||  nsrs     np  nn pm ||  p n s r     g r s n - pn     || s n pm    R g g r s    ||",
+                    "sahitya": "Ti  ru    ven- ka    TA--    cha-la-          dE- -  -    vam -  bha       jE -  --   ham -  -"
+                },
+                {
+                    "swara": "R , g    r s - n s  r m  || r m p n   m p n s - r g  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "R , g    r s - n r  s  n  || p n  s n   p m - r g  r s   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "rR - g    r s - n s  r m  || r m p n   m p n s - r g  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "rR - g    r s - n r  s  n  || p n  s n   p m - r g  r s   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "r m - r m   p - m p n - mp ||   mp n - p     n s -  n G - g   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "r s - n r      ,  r s n - p d   || n - p m - r    G  , - g r s  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "rmpn      sr gr sn  ||  pnsn    pm r - g R  ||  S ;    ;  ;  ;    ||  ; R   rpmmR;  M     ||",
+                    "sahitya": "Van-      dE -  -        vA- -   su  -    dE-     vam  -  -  -         brundA\u2014 -   ra"
+                },
+                {
+                    "swara": "P np     pn sr S     || gr sn     rs np - sn || pm - pm  R - gr rs    ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "kA       dhee-Sa     van--     di  ta     pa   dA-   -  -   -   bjam-   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "rn S        R ;   ;  ||   mpmr  G  -  g r R  ||  S ;    ;  ;  ;    ||  ;  ;     ;   ;   ;      ||",
+                    "sahitya": "Van-      dE -  -      vA- -   su  -  dE-     vam  -  -  -         -  -     -  -   -"
                 }
             ]
         }

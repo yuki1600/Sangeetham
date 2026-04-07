@@ -2,104 +2,126 @@
     "song_details": {
         "name": "Aragimpave",
         "raga": "Todi",
-        "arohanam": "S R1 G2 M1 P D1 N2 Ṡ ||",
-        "avarohanam": "Ṡ N₂ D1 P M₁ G₂ R1 S ||",
+        "arohanam": "S R1 G2 M1 P D1 N2 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2082 D1 P M\u2081 G\u2082 R1 S ||",
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "- sr gm- G - R || S - - - nd N ||",
-                    "sahitya": "Ara - - gim - pa ve- - - pa- -"
+                    "swara": "; sr    gm- G    ; R  ||   S ;  ; ;  nd N  ||",
+                    "sahitya": "Ara   - -   gim - pa    vE-   - -          pA- -"
                 },
                 {
-                    "swara": "- sr gm- G - R || S - - - rsnd ||",
-                    "sahitya": "lara - - gim - pa ve- - - pa- -"
+                    "swara": "; sr    gm- G     ; R  ||   S ;  ; ;  rsnd  ||",
+                    "sahitya": "lAra   - -  gim - pa    vE-   - -          pA- -"
                 },
                 {
-                    "swara": "N- sr gm- G - R || S - - - drS nd ||",
-                    "sahitya": "lara - - gim - pa ve- - - pa- -"
+                    "swara": "N- sr    gm- G    ; R  ||   S ;     ; ;  drS nd  ||",
+                    "sahitya": "lAra   - -  gim - pa    vE-   - -        pA- -"
                 },
                 {
-                    "swara": "N- S R - g - M || P - - - pmgr ||",
-                    "sahitya": "la ra - gim - pa ve- - - pa- -"
+                    "swara": "N- S    R ,  g    ; M  ||   P ;     ; ;   pmgr  ||",
+                    "sahitya": "lA  ra - gim - pa    vE-     - -         pA- -"
                 },
                 {
-                    "swara": "N- sr pm- G - R || S - - - rs nd ||",
-                    "sahitya": "lara - - gim - pa ve- - - pa- -"
+                    "swara": "N- sr    pm- G    ; R  ||   S ;     ; ;  rs nd  ||",
+                    "sahitya": "lAra   - -  gim - pa    vE-   - -        pA- -"
                 },
                 {
-                    "swara": "N- S R - g - M || pdN DM G R ||",
-                    "sahitya": "la ra - gim - pa ve- - - pa- -"
+                    "swara": "N- S    R ,  g    ; M  ||   pdN     DM   G R  ||",
+                    "sahitya": "lA  ra - gim - pa    vE-     - -         pA- -"
                 },
                 {
-                    "swara": "N- sd dppm- G - R || S - - - rs nd ||",
-                    "sahitya": "la- ra - -gim - pa ve- - - pa- -"
+                    "swara": "N- sd   dppm- G    ; R  ||   S ;     ; ;  rs nd  ||",
+                    "sahitya": "lA-   ra   - -gim - pa    vE-   - -     pA- -"
                 },
                 {
-                    "swara": "N- S R - g - M || pdns -n - dp mgrs ||",
-                    "sahitya": "la ra - gim - pa ve- - - pa- -"
+                    "swara": "N- S    R ,  g    ; M  ||   pdns     ,n-dp  mgrs  ||",
+                    "sahitya": "lA  ra - gim - pa    vE-     - -         pA- -"
                 },
                 {
-                    "swara": "rn- sd dppm- G - R || S - - - nsrs nd ||",
-                    "sahitya": "la- ra - -gim - pa ve- - - pa- -"
+                    "swara": "rn- sd   dppm- G    ; R  ||   S ;     ; ;  nsrs nd  ||",
+                    "sahitya": "lA-   ra   - -gim - pa    vE-   - -     pA- -"
                 },
                 {
-                    "swara": "N- S R - pm G M || pdns -n - dp mgrs ||",
-                    "sahitya": "la ra - gim - pa ve- - - pa- -"
+                    "swara": "N- S    R ,  pm G M  ||   pdns     ,n-dp  mgrs  ||",
+                    "sahitya": "lA  ra - gim - pa      vE-         - -     pA- -"
                 },
                 {
-                    "swara": "rn- sd dpm - p mg - rs || G - - - - - ||",
-                    "sahitya": "la- ra gim - pa ve- - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "- - - - - rs || D - D - D D D || dnsr G R S - S ||",
-                    "sahitya": "Raghu vi ra ja na ka ja- - - ka ra pa"
+                    "swara": "rn- sd   dpm-p  mg-rs  ||   G ;     ; ;    ; ;  ||",
+                    "sahitya": "lA-   ra   gim -  pa     vE-     - -     - -"
                 },
                 {
-                    "swara": "S -r sn dp G - || - mp dp- mg rs - gr ||",
-                    "sahitya": "Vi - tri-ta- mau - ven- na- pa - - l(a)"
+                    "swara": "; ;  ; ;      ; rs    || D ;        D - D     D D  || dnsr      G R  S - S    ||",
+                    "sahitya": "Raghu  vI          ra    ja    na ka            jA- -      -  ka      ra  pa"
                 },
                 {
-                    "swara": "rn- sd dpm - p mg - rs || S - - - - rs ||",
-                    "sahitya": "la- ra gim - pa ve- - - - Raghu"
+                    "swara": "S ,r  sn dp  G ;  || ;  mp     dp- mg    rs - gr  ||",
+                    "sahitya": "Vi -        tri-ta-    mau           -  ven-   na-  pA   - -    l(A)"
                 },
                 {
-                    "swara": "D - D - D D D || dnsr G R S - S ||",
-                    "sahitya": "vi ra ja na ka ja- - - ka ra pa"
+                    "swara": "rn- sd   dpm-p  mg-rs  ||   S ;     ; ;    ; rs  ||",
+                    "sahitya": "lA-   ra   gim -  pa     vE-     - -     -  Raghu"
                 },
                 {
-                    "swara": "S -r sn dp G - || - mp dp- mg rs - gr ||",
-                    "sahitya": "Vi - tri-ta- mau - ven- na- pa - - l(a)"
+                    "swara": "D ;      D - D     D D  || dnsr      G R  S - S    ||",
+                    "sahitya": "vI        ra    ja    na ka            jA- -      -  ka      ra  pa"
                 },
                 {
-                    "swara": "rn- sd dppm- G - R || S - - - nsrs nd ||",
-                    "sahitya": "la- ra - -gim - pa ve- - - pa- -"
+                    "swara": "S ,r  sn dp  G ;  || ;  mp     dp- mg    rs - gr  ||",
+                    "sahitya": "Vi -        tri-ta-    mau           -  ven-   na-  pA   - -    l(A)"
                 },
                 {
-                    "swara": "N- S R - pm G M || pdns -n - dp mgrs ||",
-                    "sahitya": "la ra - gim - pa ve- - - pa- -"
+                    "swara": "rn- sd   dppm- G    ; R  ||   S ;     ; ;  nsrs nd  ||",
+                    "sahitya": "lA-   ra   - -gim - pa    vE-   - -     pA- -"
                 },
                 {
-                    "swara": "rn- sd dpm - p mg - rs || G - - - - - ||",
-                    "sahitya": "la- ra gim - pa ve- - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "N- S    R ,  pm G M  ||   pdns     ,n-dp  mgrs  ||",
+                    "sahitya": "lA  ra - gim - pa      vE-         - -     pA- -"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "rn- sd   dpm-p  mg-rs  ||   G ;     ; ;    ; ;  ||",
+                    "sahitya": "lA-   ra   gim -  pa     vE-     - -     - -"
+                },
+                {
+                    "swara": "; P     , d- P  ;  P    || pd N  DM  GM  ||",
+                    "sahitya": "sA      ra mai       -  na     di - -        vy(A)-    nnamu"
+                },
+                {
+                    "swara": "; P  ,d - P  M M   || g M-d pm- pm   gr - sr  ||",
+                    "sahitya": "shaD      -ra   sa    yu  ta    bha- ksha - -   Na-   -mu  lu-"
+                },
+                {
+                    "swara": "gm- P     , d- P  ;  P    || gmpd N  DM  GM  ||",
+                    "sahitya": "-   sA      ra mai    -  na    di - -   -     vy(A)-    nnamu"
+                },
+                {
+                    "swara": "; P  ,d - P  M M   || g M-d pm- pm   gr - S ||",
+                    "sahitya": "shaD      -ra   sa    yu  ta    bha- ksha - -   Na-   -mu  lu-"
+                },
+                {
+                    "swara": "; nr       , s - D      , m D  ||   dnsr      G R  S S  ||",
+                    "sahitya": "dA-     ra   sO      -  -da       r(A) -  - - du       la tO"
+                },
+                {
+                    "swara": "S ;  sr- sn  dp - dn || Srs n d    pm-dp    m - gr s  ||",
+                    "sahitya": "tyA       ga-  rA-   - -     ja     vi- nu -    ta -  pA - -       - - -"
+                },
+                {
+                    "swara": "rn- sd   dppm- G    ; R  ||   S ;     ; ;  nsrs nd  ||",
+                    "sahitya": "lA-   ra   - -gim - pa    vE-   - -     pA- -"
+                },
+                {
+                    "swara": "N- S    R ,  pm G M  ||   pdns     ,n-dp  mgrs  ||",
+                    "sahitya": "lA  ra - gim - pa      vE-         - -     pA- -"
+                },
+                {
+                    "swara": "rn- sd   dpm-p  mg-rs  ||   G ;     ; ;    ; ;  ||",
+                    "sahitya": "lA-   ra   gim -  pa     vE-     - -     - -"
                 }
             ]
         }

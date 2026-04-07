@@ -12,60 +12,126 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "R S d | S - | S - || M G R | M M | P - ||",
-                    "sahitya": "Pa du ma | na - | bha - || pa ra ma | pu ru | sha - ||"
+                    "swara": "R S  d | S - | S - || M G R | M M | P - ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S D D | D P | M P || D D P | M G | R S ||",
-                    "sahitya": "Pa ram - | jo - | - thi || swa ru - | pa - | - - ||"
+                    "swara": "Pa du  ma | na - | bha - || pa ra ma | pu ru | sha - ||",
+                    "sahitya": "... the personification of eternal flame (\u201cparamjyothi swarupa\u201d) of life .."
                 },
                 {
-                    "swara": "R S d | S - | S - || M G R | M M | P - ||",
-                    "sahitya": "Vi du ra | van - | dhia - || vi ma la | cha ri | tha - ||"
+                    "swara": "S D  D | D P | M P || D D P | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S D D | D P | M P || D D P | M G | R S ||",
-                    "sahitya": "Vi hang - | ga - | - di || ro - ha | na - | - - ||"
+                    "swara": "Pa ram - | jo - | - thi || swa ru - | pa - | - - ||",
+                    "sahitya": "... the destroyer (\u201cvandhya\u201d) of adversity (\u201cvidhura\u201d) ..."
                 },
                 {
-                    "swara": "P M P | D S | D S || R S D | D S | D P ||",
-                    "sahitya": "U dha dhi | ni va | - sa || u ra ga | sa ya | - na ||"
+                    "swara": "R S  d | S - | S - || M G R | M M | P - ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D D P | P - | P M || R M M | P - | P - ||",
-                    "sahitya": "U - nna | tho - | nna tha || ma hi - | ma - | - - ||"
+                    "swara": "Vi du  ra | van - | dhia - || vi ma la | cha ri | tha - ||",
+                    "sahitya": "He is perched (\u201cadhirohana\u201d) on the prodigious bird Garuda (\u201cvihanga\u201d).."
                 },
                 {
-                    "swara": "D D P | P - | P M || R - M | M G | R S ||",
-                    "sahitya": "Ya du ku | lo - | ttha ma || ye - gna | ra - | kshaka ||"
+                    "swara": "S D  D | D P | M P || D D P | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S - S | D D | D P || P - P | M G | R S ||",
-                    "sahitya": "A - gna | si - | ksha ka || ra - ma | na - | - ma ||"
+                    "swara": "Vi hang - | ga - | - di || ro - ha | na - | - - ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "P M  P | D S | D S || R S  D | D S | D P ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D S - | D P | M P || D D P | M G | R S ||",
-                    "sahitya": "Vi bhee - | sha na | pa - || la ka - | na mo | na mo ||"
+                    "swara": "U dha dhi | ni va | - sa || u ra ga | sa ya | - na ||",
+                    "sahitya": "... He is capable of miracles (\u201cmahima\u201d) which are greater than the greatest (\u201cunnathonnatha\u201d), ..."
                 },
                 {
-                    "swara": "D S - | D P | M P || D D P | M G | R S ||",
-                    "sahitya": "I bha - | va ra | da - || ya ka - | na mo | na mo ||"
+                    "swara": "D D  P | P - | P M || R M M | P - | P - ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P M P | D S | D S || R S D | D S | D P ||",
-                    "sahitya": "Su bha - | Pra da | Su ma || no - ra | da - | - Su ||"
+                    "swara": "U -  nna | tho - | nna tha || ma hi - | ma - | - - ||",
+                    "sahitya": "He is the greatest one of the yadava race (\u201cyadukulothama\u201d), Krishna, and as Rama, he had protected"
                 },
                 {
-                    "swara": "D D P | P - | P M || R - M | P - | - - ||",
-                    "sahitya": "Re - ndra | Ma - | no - || ran - ja | na - | - - ||"
+                    "swara": "D D  P | P - | P M || R - M | M G | R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D D P | P - | P M || R - M | M G | R S ||",
-                    "sahitya": "A bhi - | na - | va pu || ran - da | ra - | - vi ||"
+                    "swara": "Ya du  ku | lo - | ttha ma || ye - gna | ra - | kshaka ||",
+                    "sahitya": "He had also preached (\u201csikshaka\u201d) the importance of obeying the command (\u201cAgnya\u201d) of his parent,"
                 },
                 {
-                    "swara": "S - S | D D | D P || P - P | M G | R S ||",
-                    "sahitya": "tal - la | bhal - | la re || ra - ma | na - | - ma ||"
+                    "swara": "S -  S | D D | D P || P - P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "A -  gna | si - | ksha ka || ra - ma | na - | - ma ||",
+                    "sahitya": "( P a d u m a )"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "D S  - | D P | M P || D D P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Vi bhee - | sha na | pa - || la ka - | na mo | na mo ||",
+                    "sahitya": "I praise thee (\"namo namo\") who bestow (\u201cvara daayaka\u201d) everything on his followers (\u201cvibhow\u201d)."
+                },
+                {
+                    "swara": "D S  - | D P | M P || D D P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "I bha - | va ra | da - || ya ka - | na mo | na mo ||",
+                    "sahitya": "He endows all the good fortunes (\u201csubha prada\u201d), and fulfils all the sanguine aspirations (\u201csu"
+                },
+                {
+                    "swara": "P M  P | D S | D S || R S D | D S | D P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Su bha - | Pra da | Su ma || no - ra | da - | - Su ||",
+                    "sahitya": "He is our noble king (\u201csu-rendra\u201d) and he engages our spirit (\"abhinava\") with cheerfulness (\u201cmano"
+                },
+                {
+                    "swara": "D D  P | P - | P M || R - M | P      -  | -     -      ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Re -  ndra | Ma - | no - || ran - ja | na - | - - ||",
+                    "sahitya": "... and he is Rama, the lord (\"bhallare\") of Purandara dasa."
+                },
+                {
+                    "swara": "D D  P | P - | P M || R - M | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "A bhi  - | na - | va pu || ran - da | ra - | - vi ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S -  S | D D | D P || P - P | M G | R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "tal -  la | bhal - | la re || ra - ma | na - | - ma ||",
+                    "sahitya": ""
                 }
             ]
         }

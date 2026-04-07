@@ -793,19 +793,21 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                                 </div>
                                             </div>
                                         ) : (
-                                            <div className="flex flex-wrap gap-4 text-[13px] font-bold uppercase tracking-wider mb-1">
-                                                {song.raga && (
-                                                    <span className="flex items-center gap-1.5 grayscale-[0.3]">
-                                                        <span className="opacity-40 font-black">Raga: </span>
-                                                        <span style={{ color: '#10b981' }}>{song.raga}</span>
-                                                    </span>
-                                                )}
-                                                {song.tala && (
-                                                    <span className="flex items-center gap-1.5 grayscale-[0.3]">
-                                                        <span className="opacity-40 font-black">Tala: </span>
-                                                        <span style={{ color: '#60a5fa' }}>{song.tala}</span>
-                                                    </span>
-                                                )}
+                                            <div className="flex flex-col gap-1.5 mb-2">
+                                                <div className="flex flex-wrap gap-4 text-[13px] font-bold uppercase tracking-wider">
+                                                    {song.raga && (
+                                                        <span className="flex items-center gap-1.5 grayscale-[0.3]">
+                                                            <span className="opacity-40 font-black">Raga: </span>
+                                                            <span style={{ color: '#10b981' }}>{song.raga}</span>
+                                                        </span>
+                                                    )}
+                                                    {song.tala && (
+                                                        <span className="flex items-center gap-1.5 grayscale-[0.3]">
+                                                            <span className="opacity-40 font-black">Tala: </span>
+                                                            <span style={{ color: '#60a5fa' }}>{song.tala}</span>
+                                                        </span>
+                                                    )}
+                                                </div>
                                                 {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
                                                     <div className="text-[13px] font-bold uppercase tracking-wider">
                                                         <span className="opacity-40 font-black">Composer: </span>
@@ -840,19 +842,6 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                             {song.versionCount} version{song.versionCount !== 1 ? 's' : ''}
                                         </span>
                                     )}
-                                    {song.pdfPath && (
-                                        <a 
-                                            href={`/api/${song.pdfPath}`} 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                            className="ml-auto flex items-center gap-2 px-4 py-1.5 rounded-xl border border-orange-500/30 bg-orange-500/10 text-orange-500 hover:bg-orange-500/20 transition-all font-bold text-xs uppercase tracking-wider shadow-sm"
-                                            title="View PDF Notation"
-                                            onClick={(e) => e.stopPropagation()}
-                                        >
-                                            <FileText className="w-4 h-4" />
-                                            PDF
-                                        </a>
-                                    )}
                                 </div>
 
                                 {/* Actions */}
@@ -865,6 +854,34 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                     >
                                         <Settings className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
                                     </button>
+
+                                    {/* Files Dropdown (only for PDF for now) */}
+                                    {song.pdfPath && (
+                                        <div className="relative group/menu">
+                                            <button
+                                                className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:border-orange-500/40 hover:bg-orange-500/10"
+                                                style={{ borderColor }}
+                                                title="Files"
+                                            >
+                                                <FileText className="w-4 h-4 text-orange-400" />
+                                            </button>
+                                            <div className="absolute bottom-full right-0 mb-2 invisible group-hover/menu:visible opacity-0 group-hover/menu:opacity-100 transition-all z-20 min-w-[140px]">
+                                                <div className="bg-[#1a1a24] border border-white/10 rounded-xl shadow-2xl overflow-hidden py-1">
+                                                    <a
+                                                        href={`/api/${song.pdfPath}`}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="flex items-center gap-2 px-3 py-2 text-[10px] font-bold uppercase tracking-wider text-orange-400 hover:bg-orange-500/10 transition-colors"
+                                                        onClick={(e) => { e.stopPropagation(); }}
+                                                    >
+                                                        <FileText className="w-3.5 h-3.5" />
+                                                        View PDF Notation
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
+
                                     <button
                                         onClick={() => togglePublish(song.id, song.isPublished)}
                                         className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-xl text-sm font-bold transition-all border ${song.isPublished ? 'border-emerald-500 bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500/20' : 'border-transparent bg-black/5 text-[var(--text-muted)] hover:bg-black/10 hover:text-[var(--text-primary)]'} ${isDark && !song.isPublished ? 'bg-white/5 hover:bg-white/10' : ''}`}

@@ -12,73 +12,114 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "dN- D - dm - M - gm - gS- - S || N - D N - sn - S - - - - - ||",
-                    "sahitya": "ni- ra ja- - kshi ka- -ma- - kshi ni- ra da - ciku re"
+                    "swara": "dN, D - dm    ; M ; gm , gS- ;  S     || N ; D N       ; sn  , S ,     ;  ;    ;   ;  ||",
+                    "sahitya": "nI-  ra     jA-  -  kshi kA-    -mA- - kshi   nI-  ra da     - ciku rE"
                 },
                 {
-                    "swara": "dN- D - dm - M - gm - gS- - S || N - D N S N S - - M G M ||",
-                    "sahitya": "ni- ra ja- - kshi ka- -ma- - kshi ni- ra da ci ku re tri pu re"
+                    "swara": "dN, D - dm    ; M ; gm , gS- ;  S     || N ; D N       S N S ;      ;  M  G M   ||",
+                    "sahitya": "nI-  ra     jA-  -  kshi kA-    -mA- - kshi   nI-  ra da     ci ku rE           tri pu rE"
                 },
                 {
-                    "swara": "dN- D - dm - M gmd - g dm - gS-- gs || N - D N S N S - - M G M ||",
-                    "sahitya": "ni- ra ja- - kshi ka- - - - ma-kshi- ni- ra da ci ku re tri pu re"
+                    "swara": "dN, D - dm    ; M   gmd-g dm - gS,- gs     || N ; D N       S N S ;       ;  M  G M   ||",
+                    "sahitya": "nI-  ra     jA-  - kshi kA-   -  - -   mA-kshi-    nI-  ra da     ci ku rE           tri pu rE"
                 },
                 {
-                    "swara": "dsnn - D - dm - M gmd n S -s n dm g s || snG gs gs - d N S - - M G M ||",
-                    "sahitya": "ni- ra ja- - kshi ka- - - - ma-- - kshi ni- ra da ci ku re tri pu re"
+                    "swara": "dsnn ; D - dm    ; M   gmd n     S -s n dm g s   || snG gs gs      , d N S ;       ;  M  G M   ||",
+                    "sahitya": "nI-  ra      jA-  -  kshi kA-   -  - -   mA-- - kshi     nI-  ra da       ci ku rE          tri pu rE"
                 },
                 {
-                    "swara": "dN- D - dndd - M gmd n S -s n dm g s || snG gs gs - d N S - - M G M ||",
-                    "sahitya": "ni- ra ja- - kshi ka- - - - ma-- - kshi ni- ra da ci ku re tri pu re"
+                    "swara": "dN, D -  dndd  ; M   gmd n     S -s n dm g s   || snG gs gs      , d N S ;       ;  M  G M   ||",
+                    "sahitya": "nI-  ra      jA-  -  kshi kA-   -  - -   mA-- - kshi     nI-  ra da       ci ku rE          tri pu rE"
                 },
                 {
-                    "swara": "dsnn - D - dndd - M gmd n sg -ngS nddm g s || snG gs gs D N S - - M G M ||",
-                    "sahitya": "ni- ra ja- - kshi ka- - - - - - - ma-- kshi ni- ra da ci ku re tri pu re"
+                    "swara": "dsnn ; D -  dndd  ; M   gmd n   sg -ngS nddm g s   || snG gs gs      D N S ;       ;  M  G M   ||",
+                    "sahitya": "nI-    ra      jA-  -  kshi kA-   -  - -    - -  - mA-- kshi    nI-  ra da       ci ku rE          tri pu rE"
                 },
                 {
-                    "swara": "dsnn - D - dndd - M gmd n sg -ngS nddm g s || snG gs gs -d N S G - - - - ||",
-                    "sahitya": "ni- ra ja- - kshi ka- - - - - - - - ma-- kshi ni- ra da ci ku re"
-                },
-                {
-                    "swara": "gMg S -- - dN S -",
-                    "sahitya": "Anupallavi"
-                },
-                {
-                    "swara": "NS N - D N -D D M D G M - || - - - - - - - gs - g M - - ||",
-                    "sahitya": "Sa- ra da - ra ma- nayane"
-                },
-                {
-                    "swara": "NS N - D N -D D M D G M - || G M ns ndD - N S - - nG S - ||",
-                    "sahitya": "Sa- ra da - ra ma- nayane sa- ra-sa - - can dra na- ne-"
-                },
-                {
-                    "swara": "ngss - N - dsnn - -D D M - dG DM || gmd - mdn- nsnndD- - N S - sns G S - ||",
-                    "sahitya": "Sa- ra da - ra ma- nayane sa- ra-- sa - - can dra na- - ne-"
-                },
-                {
-                    "swara": "ngss - N - dsnn - -D D M mdG M - || gmd - mdn- nsnndD- -dn S - sns G S - ||",
-                    "sahitya": "Sa- ra da - ra ma- nayane sa- ra-- sa - - can dra na- - ne-"
-                },
-                {
-                    "swara": "sn s g S S Ggs--ndD - - - - - - ||",
-                    "sahitya": "va-rija pade vara de - -"
-                },
-                {
-                    "swara": "sn s g S S gs ndD - D n d M m g s - g M ||",
-                    "sahitya": "va-rija pade vara de - taraya mam tat-va pade"
-                },
-                {
-                    "swara": "dN- D - dm - M gmd - g dm - gS-- gs || N - D N S N S - - M G M ||",
-                    "sahitya": "ni- ra ja- - kshi ka- - - - ma-kshi- ni- ra da ci ku re tri pu re"
+                    "swara": "dsnn ; D -  dndd  ; M   gmd n   sg -ngS nddm g s   || snG gs gs      ,d N S G       ;  ;   ;   ;    ||",
+                    "sahitya": "nI-    ra      jA-  -  kshi kA-   -  - -    - - -    - mA-- kshi    nI-  ra da       ci ku rE"
                 }
             ]
         },
         {
-            "section": "Charanam",
+            "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "",
+                    "swara": "NS N - D   N -D  D M     D G M ;   ||   ;  ;  ;   ;         ;  ;   ;    gs   , g M ;   ;   ||",
+                    "sahitya": "SA- ra  dA  -    ra  mA-     nayanE"
+                },
+                {
+                    "swara": "NS N - D   N -D  D M     D G M ;   ||   G M ns ndD   ; N  S ;      ; nG S ,  ||",
+                    "sahitya": "SA- ra  dA  -    ra  mA-      nayanE         sA-  ra-sa - -   can drA     na- nE-"
+                },
+                {
+                    "swara": "ngss ;  N - dsnn ;  -D  D M     , dG DM   ||   gmd-mdn- nsnndD, - N  S ;     sns G S ,  ||",
+                    "sahitya": "SA-      ra   dA  -     ra  mA-      nayanE         sA-  ra--  sa - -       can drA     na- - nE-"
+                },
+                {
+                    "swara": "ngss ;  N - dsnn ;  -D  D M      mdG M ;   ||   gmd-mdn- nsnndD, -dn  S ;     sns G S ,  ||",
+                    "sahitya": "SA-      ra   dA  -     ra  mA-      nayanE         sA-  ra--  sa - -          can drA     na- - nE-"
+                },
+                {
+                    "swara": "sn  s g   S  S    Ggs;-ndD ,  ;      ;  ;   ;   ;  ||",
+                    "sahitya": "vA-rija pAdE vara  dE - -"
+                },
+                {
+                    "swara": "sn  s g   S  S    gs ndD - D n d       M     m g s - g M  ||",
+                    "sahitya": "vA-rija pAdE vara  dE - tAraya    mAM tat-va  padE"
+                },
+                {
+                    "swara": "dN, D - dm    ; M   gmd-g dm - gS,- gs     || N ; D N       S N S ;       ;  M  G M   ||",
+                    "sahitya": "nI-  ra     jA-  - kshi kA-   -  - -   mA-kshi-    nI-  ra da     ci ku rE           tri pu rE"
+                }
+            ]
+        },
+        {
+            "section": "Madhyamakala Sahityam",
+            "content": [
+                {
+                    "swara": "gS,   M ;    G M - gS ,   N ;  D N  ||    mg S   N gs     D  N - S ;     , mG   M , dm ||",
+                    "sahitya": "Gau- rI -    hin-   dO- -   La  dyuti       hI-  -   ra ma-  Ni ma  yA     bhara  NE"
+                },
+                {
+                    "swara": "S ;  M ;     gmd-gdm -gs   N ;  D N  ||    mg S   N gs     D  N - S ;     , mG   M ;  ||",
+                    "sahitya": "Gau- rI -    hin-   dO- -     La  dyuti       hI-  -   ra ma-  Ni ma  yA     bhara  NE"
+                },
+                {
+                    "swara": "M N D - M  gmgs  S - G   M N D  D ||  ddM ns ndD   D - M   N D   n- s N S  ;  ||",
+                    "sahitya": "Sau-  ri    vi  rin- -  ci     vi  nu ta Si va   Sa -  kti-ma-    ya   na  vA-    - varaNE"
+                },
+                {
+                    "swara": "M N D - M  gmgs  S - G   M N , d  D ||  ddM ns ndD   D - M   N D   n- s N S  ;  ||",
+                    "sahitya": "Sau-  ri    vi  rin- -  ci     vi  nu ta Si va   Sa -  kti-ma-    ya   na  vA-    - varaNE"
+                },
+                {
+                    "swara": "s n s g   S  S     s  s   n d - d n    D    M   m g -  s g M  ||",
+                    "sahitya": "nA-rI- maNyA dyar-cita   nava nA   thA ntaH karaNE"
+                },
+                {
+                    "swara": "S , n d m - M     g m g s   g s d n     s m  g m   n d M  ||",
+                    "sahitya": "sU ri jana  saM   sE- vita sun-dara   guru guha karaNE"
+                },
+                {
+                    "swara": "N , n d m  - gm    g g s s  | N , - d   , n s g  g m m d  ||",
                     "sahitya": ""
+                },
+                {
+                    "swara": "N , D n   -  s s      m m g - s| s m G -  sn sg S - n d             ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "s N- n dm - g g  , m M ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "dN, D - dm    ; M   gmd n   sg -ngS nddm g s   || snG gs gs      D N S ;       ;  M  G M   ||",
+                    "sahitya": "nI-  ra     jA-  - kshi kA-   -  - -    -  -  mA-   kshi-  nI-  ra da       ci ku rE           tri pu rE"
+                },
+                {
+                    "swara": "dN, D - dm    ; M ; gm , gS- ;  S     || N ; D N       ; sn  , S ,     ;  ;    ;   ;  ||",
+                    "sahitya": "nI-  ra     jA-  -  kshi kA-    -mA- - kshi   nI-  ra da     - ciku rE"
                 }
             ]
         }

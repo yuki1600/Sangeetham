@@ -12,36 +12,36 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1. - P M gm G R || S - N - s r gr G ||",
-                    "sahitya": "Ap pa Raa - ma Bha kthi Yen- - tho"
+                    "swara": "1. ; P   M gm     G R  || S ;   N -  s r  gr G  ||",
+                    "sahitya": "Ap  pa Raa    - ma   Bha kthi Yen- -  tho"
                 },
                 {
-                    "swara": "- G M P - - || - - - - pmgr ||",
-                    "sahitya": "Go ppa raa! - - - - - - Maa--"
+                    "swara": "; G     M   P  ; ;  ||  ; ;  ; ;  pmgr ||",
+                    "sahitya": "Go    ppa raa!  - -     - -  - -  Maa--"
                 },
                 {
-                    "swara": "2. gm- P M gm pm gr || S - N - s r gr G ||",
-                    "sahitya": "- - Ap pa Raa - - ma Bha kthi Yen- - tho"
+                    "swara": "2. gm- P   M gm     pm gr  || S ;   N -  s r  gr G  ||",
+                    "sahitya": "- -  Ap  pa Raa    - - ma   Bha kthi Yen- -  tho"
                 },
                 {
-                    "swara": "- G M P - D || dp P - md pmgr ||",
-                    "sahitya": "Go ppa raa! - - - - - Maa-- - - - -"
+                    "swara": "; G     M   P  ;  D  ||  dp P ;  md  pmgr ||",
+                    "sahitya": "Go    ppa raa!  - -     - -  - Maa-- - -  - -"
                 },
                 {
-                    "swara": "3. gm- P M gm pm gr || srgr N - s r gr G ||",
-                    "sahitya": "- - Ap pa Raa - - ma Bha kthi Yen- - tho"
+                    "swara": "3. gm- P   M gm     pm gr  || srgr    N -  s r  gr G  ||",
+                    "sahitya": "- -  Ap  pa Raa    - - ma    Bha kthi Yen- -  tho"
                 },
                 {
-                    "swara": "gmP P- mp dp D || dn S -r nd pmgr ||",
-                    "sahitya": "Go-- ppa raa! - - - - - - -- Maa-- - - - -"
+                    "swara": "gmP      P- mp dp  D  ||  dn S ,r  nd pmgr ||",
+                    "sahitya": "Go--    ppa raa!  - -   - -      - -  --  Maa-- - -  - -"
                 },
                 {
-                    "swara": "4. gm- G sn dpM G R || srgr N - s r gr G ||",
-                    "sahitya": "- - Ap pa Raa - - ma Bha kthi Yen- - tho"
+                    "swara": "4. gm- G   sn dpM    G R  || srgr    N -  s r  gr G  ||",
+                    "sahitya": "- -  Ap  pa Raa    - - ma    Bha kthi Yen- -  tho"
                 },
                 {
-                    "swara": "gmP mpD pd N || dn sr sn dn - d p m || g r",
-                    "sahitya": "Go-- ppa-- raa! - - - - - - -- Maa-- -"
+                    "swara": "gmP      mpD pd N  ||  dn sr sn  dn  , d p m || g r",
+                    "sahitya": "Go--      ppa--       raa! - -       - -    - -  --  Maa-- -"
                 }
             ]
         },
@@ -49,24 +49,24 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- M D S S S || sn D pm - dn S S ||",
-                    "sahitya": "Tri pa ta lanu Deer- chi- Kan - ti"
+                    "swara": "; M  D  S  S  S  || sn D  pm - dn  S S  ||",
+                    "sahitya": "Tri pa  ta lanu    Deer- chi- Kan  - ti"
                 },
                 {
-                    "swara": "- S S sn gr S || sn D dm - dn S S ||",
-                    "sahitya": "Tri pa ta lanu Deer- chi- Kan - ti"
+                    "swara": "; S  S  sn  gr  S  || sn D  dm - dn  S S  ||",
+                    "sahitya": "Tri pa  ta lanu    Deer- chi- Kan  - ti"
                 },
                 {
-                    "swara": "- S S sn gr S || sn D D - ns rs R ||",
-                    "sahitya": "Tri pa ta lanu Deer- chi- Kan - ti"
+                    "swara": "; S  S  sn  gr  S  || sn D  D -  ns  rs R  ||",
+                    "sahitya": "Tri pa  ta lanu    Deer- chi- Kan  - ti"
                 },
                 {
-                    "swara": "- S R gm pm gr || sn D P - dn S S ||",
-                    "sahitya": "Tri pa ta lanu Deer- chi- Kan - ti"
+                    "swara": "; S  R  gm  pm  gr  || sn D  P -  dn S  S  ||",
+                    "sahitya": "Tri pa  ta lanu    Deer- chi- Kan  - ti"
                 },
                 {
-                    "swara": "snsr s r - sn D P || pm n d pm - gm gr s r || gm -",
-                    "sahitya": "Re-- ppa-va- lenu Ga- - - chu- naa- - - - - - - -"
+                    "swara": "snsr s r - sn  D P  || pm n d   pm - gm   gr s r  ||  gm -",
+                    "sahitya": "Re-- ppa-va-   lenu   Ga-  - -  chu-  naa-  - - - -  -    - -"
                 }
             ]
         },
@@ -74,8 +74,36 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; pd  , P ,  P  P  || P ;  P mp  dp D  ||",
+                    "sahitya": "Kapi  -Vaa ridhi    Dha tu na? - -   -"
+                },
+                {
+                    "swara": "; dm  , D ,  S S  || S ;  N  d s  nd pm  || (gm)",
+                    "sahitya": "Kali   gi  Rota    Ga ttu na? - - - -"
+                },
+                {
+                    "swara": "gr- gm , P ,  D  P  || P ;  P mp  dn dp  ||",
+                    "sahitya": "- - Kapi  -Vaa ridhi    Dha tu na? - -   -"
+                },
+                {
+                    "swara": "M dm  , D ,  S S  || S ;  N  d n  Srs nd ||",
+                    "sahitya": "- Kali   gi  Rota    Ga ttu na? - - - -"
+                },
+                {
+                    "swara": "pm gn , dpP ,  D  P  || P ;  P mp  dn dp  ||",
+                    "sahitya": "- - Kapi  -Vaa ridhi    Dha tu na? - -   -"
+                },
+                {
+                    "swara": "M dm  , D ,  S S  || S ;  N  r s  np D   ||",
+                    "sahitya": "- Kali   gi  Rota    Ga ttu na? - - - -"
+                },
+                {
+                    "swara": "; S  S   s n  g r S  || sn D  P - dn  S S  ||",
+                    "sahitya": "A pa raa-  - -  dhi    Tya-- ga  ra-  -   ju"
+                },
+                {
+                    "swara": "S ;  sn D  P M  || pm n d   pm -  gm   gr s r  || g m",
+                    "sahitya": "Aa nan-- damu    He- - -    cchu-naa! - - - -    - -"
                 }
             ]
         }

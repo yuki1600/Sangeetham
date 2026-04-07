@@ -9,73 +9,95 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "- M N P D - P - d p p m G - - R S - r | G R G S S r n S - R sn D N S - S - ||",
-                    "sahitya": "Ka da - nu va ri - - - ki - -kaddu- Ka- da- ni- -mo - - ra- - la ni du"
+                    "swara": "; M  N  P   D ; P ;   d p p m  G ;   ; R S ,  r |  G R G S       S r n S ;       R sn D N    S ; S ; ||",
+                    "sahitya": "Ka   da -   nu   va  ri  - -  -   ki -   -Kaddu-    Ka-   da-      ni-  -Mo - -     ra- - la     ni  du"
                 },
                 {
-                    "swara": "- M N P D - d n S - r s n d p m d pp mg r S r | G - mpdp pm G gr S - r sn D N S - S - ||",
-                    "sahitya": "Ka da- nu va - - - ri- - - ki - Ka -- du- - Ka -da-- - ni- - Mo-- -ra- - la ni du"
+                    "swara": "; M N P     D ; d n S     , r s n d p m d  pp mg r S r  | G ; mpdp   pm G gr S  , r sn D N   S ; S ; ||",
+                    "sahitya": "Ka da-      nu   va - -   -  ri-  - -    ki - Ka --  du- -    Ka -da-- -  ni-  - Mo--     -ra- -  la   ni du"
                 },
                 {
-                    "swara": "- M N P D - d n s r g r s n r s n d s n d p m g r s | s r g m d n Srs s n d m p m g r S r s n d N S - S - ||",
-                    "sahitya": "Kada - nu -va--- ri- - - ki - - - Ka - - - du - - - Ka- - - da - - - ni- - - Mo- - ra - - - - la ni du"
+                    "swara": "; M N P   D ; d n s r    g r s n  r s n d   s n d p  m g r s | s r g m   d n Srs   s n d m p m g r  S r s n d N  S ; S ; ||",
+                    "sahitya": "Kada -   nu -va---     ri-  - -  ki - - -  Ka - - - du   - - -  Ka- - -   da  - - -   ni- - -   Mo-  -    ra - - -  - la  ni  du"
                 },
                 {
-                    "swara": "- S S - r G - M d m D n d N s n N G R S | S r n ns rS-r s n D d n S dnsn dpM m p d P - d pm G ||",
-                    "sahitya": "Peda - la Ma - - ta - - lu - - Ne - -da ba - - da - - - Mou - - - - - - - - - - - no - - - - - -"
+                    "swara": "; S S , r   G ; M d m    D n d  N s n    N G R S   |  S  r n ns rS,r   s n D d n S  dnsn dpM   m p d P ; d  pm G ||",
+                    "sahitya": "Peda  -   la   Ma - -     ta - -   lu - -     Ne -   -da    ba - -  da - - -  Mou  - - -     - - - - - - - -  no   - - - - - -"
                 },
                 {
-                    "swara": "- S s r sr G - m g m d d m d n n d n s n s r g s r n s | S rn ns rS -r snD dnS dnsndpM mpdP-d pm G ||",
-                    "sahitya": "Peda--- la- ma - - - ta- - - la - - - Ne - - -da- - - ba - -da - - - Mou - -- - ---- - - no - - - - - - -"
+                    "swara": "; S s r sr   G ; m g m d   d m d n  n d n s    n s r g s r n s  | S rn ns rS ,r  snD dnS  dnsndpM  mpdP;d pm G  ||",
+                    "sahitya": "Peda---   la- ma - - -     ta-   -  -  la - -  -    Ne - - -da- - -    ba  - -da - - - Mou - --   - ---- - -     no  - - - - - - -"
                 },
                 {
-                    "swara": "- m d N - D - P d p M p m G - - R S r | G - mpdp pm G grS - r sn D N S - S - ||",
-                    "sahitya": "Ka - da - nu va-- ri - - ki Kadu Ka- dda- - - ni- - Mo-- - ra - - la ni du"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "- S S - n nd D d n S N - dpM d P g M - | - P D P D - n S N D N D N S - s n d p ||",
-                    "sahitya": "A ddam pu- - Che- - kil la- - che- - - - Mu du- ga - - ru Mo - - mu Chu da- - -"
+                    "swara": "; m d N ;     D ; P d p   M p m G ;    ; R S r   |  G ; mpdp    pm G grS       , r sn D N     S ; S ;  ||",
+                    "sahitya": "Ka - da -   nu  va--    ri  -  -   ki       Kadu       Ka- dda- - - ni- -  Mo--    -  ra  - -  la    ni du"
                 },
                 {
-                    "swara": "d n - S nsrS -n n d D d n S N - d p M mpdp - g M - | - P D P d n d n s r s n D N D dn S - S - ||",
-                    "sahitya": "A ddam pu- - Che kil la - - che - - - Mudu- ga- - - ru- - Mo- - mu Chu da"
+                    "swara": "; S S , n   nd D d n S    N ; dpM   d P g M ;   |  ; P D P    D , n S N   D N D N     S ; s n d p   ||",
+                    "sahitya": "A ddam  pu- - Che- -   kil la- -    che- -  -  -      Mu du-  ga   -  - ru  Mo - -  mu  Chu da- - -"
                 },
                 {
-                    "swara": "- D D - d n s r s r G R S - R N S D N | N G R S s r s n D P p d N dp M mpd P - d pmG ||",
-                    "sahitya": "- Budhi Gal- - -gi- - - na ti Ma - - - Va - - dda Ra- - - -- va the - - - - mi ra- - - -- - - - -"
+                    "swara": "d n - S  nsrS ;n   n d D  d n S   N ; d p M   mpdp , g M ;  |  ; P D P   d n d n s r s n   D N D dn   S ; S ;  ||",
+                    "sahitya": "A  ddam     pu- -   Che      kil  la - -    che       - -  -        Mudu-   ga- - -   ru- -    Mo- -  mu  Chu da"
                 },
                 {
-                    "swara": "- D D - d n s r s r G R S - R N S D N | ng RmgG R S s r s n D P p d N dp M mpd P - d pmG ||",
-                    "sahitya": "Budhi Kal- - -gi - - - na ti Ma - - - Va - - - - - -dda Ra- - - - va the - - -- - mi ra - -- - -- - -- -"
+                    "swara": "; D D ;     d n s r s r G   R S  ;  R    N S D N  |  N G R S     s r s n D P       p d N dp M     mpd P ; d pmG  ||",
+                    "sahitya": "- Budhi   Gal- - -gi-  -    - na    ti    Ma -  -  -    Va -  - dda Ra- - - -- va     the  - - - - mi   ra- - - -- - - - -"
                 },
                 {
-                    "swara": "- M N P D - d n s r g r s n r s n d s n d p m g r s | s r g m d n Srs s n d m p m g r S r s n d N S - S - ||",
-                    "sahitya": "Kada - nu -va--- ri- - - ki - - - Ka - - - du - - - Ka- - - da - - - ni- - - Mo- - ra - - - - la ni du"
+                    "swara": "; D D ;    d n s r s r G    R S  ;  R   N S D N   |  ng RmgG  R S     s r s n D P    p d N dp M  mpd P ; d pmG  ||",
+                    "sahitya": "Budhi   Kal- - -gi - -     - na    ti   Ma - - -       Va - - - - -  -dda   Ra- - - - va    the - - -- - mi ra - -- - -- - -- -"
                 },
                 {
-                    "swara": "- S s r sr G - m g m d d m d n n d n s n s r g s r n s | S rn ns rS -r snD dnS dnsndpM mpdP-d pm G ||",
-                    "sahitya": "Peda--- la- ma - - - ta- - - la - - - Ne - - -da- - - ba - -da - - - Mou - -- - ---- - - no - - - - - - -"
+                    "swara": "; M N P   D ; d n s r    g r s n  r s n d   s n d p  m g r s | s r g m   d n Srs   s n d m p m g r  S r s n d N  S ; S ; ||",
+                    "sahitya": "Kada -   nu -va---     ri-  - -  ki - - -  Ka - - - du   - - -  Ka- - -   da  - - -   ni- - -   Mo-  -    ra - - -  - la  ni  du"
                 },
                 {
-                    "swara": "- m d N - D - P d p M p m G - - R S r | G - mpdp pm G grS - r sn D N S - S - ||",
-                    "sahitya": "Ka - da - nu va-- ri - - ki Kadu Ka- dda- - - ni- - Mo-- - ra - - la ni du"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "; S s r sr   G ; m g m d   d m d n  n d n s    n s r g s r n s  | S rn ns rS ,r  snD dnS  dnsndpM  mpdP;d pm G  ||",
+                    "sahitya": "Peda---   la- ma - - -     ta-   -  -  la - -  -    Ne - - -da- - -    ba  - -da - - - Mou - --   - ---- - -     no  - - - - - - -"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; m d N ;     D ; P d p   M p m G ;    ; R S r   |  G ; mpdp    pm G grS       , r sn D N     S ; S ;  ||",
+                    "sahitya": "Ka - da -   nu  va--    ri  -  -   ki       Kadu       Ka- dda- - - ni- -  Mo--    -  ra  - -  la    ni du"
+                },
+                {
+                    "swara": "; P ; D  P ; ; P  M ; ;  P     ppmg M ;     | ; P , d N     D ; ; P       ;  d p M P   pp m g   M ;  ||",
+                    "sahitya": "Ni  ddu  ra   Ni    raa   ka    rin- - chi       Mu  -ddu  ga    Tham  -  bo-  - ra     Bha - -    tti"
+                },
+                {
+                    "swara": "; G ; M  D    M  m d N   D ddn ddm   G ; r r S |  ;  S ; rs     R    G  M ;  pdn ddpM  pdpd P ; ||",
+                    "sahitya": "Shu dha  Mai -    na    -   -   Ma\u2014na\u2014su-che- -  -  Su  - -    swa ra mu  tho - - - -- - -  - -"
+                },
+                {
+                    "swara": "; S S , n    n d D  d n S    N ; d p M    d P g M ;  | ;  P D P       D , n     S N    D N D - N  S ; ; ;    ||",
+                    "sahitya": "Paddu    Tha  -  ppa - - ka  Bha  --   jim -  che    - Bhakta-     Pa   -  - la  -    namu-    Se  yu"
+                },
+                {
+                    "swara": "d n - S  nsrS ;n   n d D  d n S   N ; d p M   mpdp , g M ;  |  ; P D P   d n d n s r s n   D N D dn   S ; S ;  ||",
+                    "sahitya": "Paddu         Tha  -  ppa - - ka  Bha  --   jim -   che        - Bhakta-Pa   -  - la  -    namu-  Se  yu"
+                },
+                {
+                    "swara": "; D  D ;   d n s r sr G     R - S ;  R  N S D N    |  N G  R S   s r s n D P    p d N d p M    mpdP ;d  pmG  ||",
+                    "sahitya": "Thadda  ya - -- Sha -      -   li    vi    Ni - -ve -    Thia   -  ga      ra- - -  ja      San   -  - - nnu  tha - - - -- - --"
+                },
+                {
+                    "swara": "; D D ;    d n s r s r G    R S  ;  R   N S D N   |  ng RmgG  R S     s r s n D P    p d N dp M  mpd P ; d pmG  ||",
+                    "sahitya": "Thadda  ya - -- Sha -  -   li    vi    Ni - -ve -    Thia   -       -  ga   ra- - -  ja      San   -  - - nnu  tha - - - -- - --"
+                },
+                {
+                    "swara": "; M N P   D ; d n s r    g r s n  r s n d   s n d p  m g r s | s r g m   d n Srs   s n d m p m g r  S r s n d N  S ; S ; ||",
+                    "sahitya": "Kada -   nu -va---     ri-  - -  ki - - -  Ka - - - du   - - -  Ka- - -   da  - - -   ni- - -   Mo-  -    ra - - -  - la  ni  du"
+                },
+                {
+                    "swara": "; S s r sr   G ; m g m d   d m d n  n d n s    n s r g s r n s  | S rn ns rS ,r  snD dnS  dnsndpM  mpdP;d pm G  ||",
+                    "sahitya": "Peda---   la- ma - - -     ta-   -  -  la - -  -    Ne - - -da- - -    ba  - -da - - - Mou - --   - ---- - -     no  - - - - - - -"
+                },
+                {
+                    "swara": "; m d N ;     D ; P d p   M p m G ;    ; R S r   |  G ; mpdp    pm G grS       , r sn D N     S ; S ;  ||",
+                    "sahitya": "Ka - da -   nu  va--    ri  -  -   ki       Kadu       Ka- dda- - - ni- -  Mo--    -  ra  - -  la    ni du"
                 }
             ]
         }

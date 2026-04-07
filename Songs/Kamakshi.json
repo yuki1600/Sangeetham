@@ -12,128 +12,132 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "N - | - - || D - | - - || P - | - dn ||",
-                    "sahitya": "Kaa maa kshi am"
+                    "swara": "N ,  |  ;  ;  || D ,  |  ;   ;  || P ,  |  ;    dn  ||",
+                    "sahitya": "Kaa      maa      kshi       am"
                 },
                 {
-                    "swara": "N - | - - || D - | - - || P - | - dn ||",
-                    "sahitya": "Kaa maa kshi am"
+                    "swara": "S ,  |  ; s     r  ||  (Kaamakshi)",
+                    "sahitya": "Ba   kan chi"
                 },
                 {
-                    "swara": "S - | - d n || s r g | m p m g || R - | - N ||",
-                    "sahitya": "Ba A nu di na mu Ma ra va ka ne - - Nee"
+                    "swara": "N ,  |  ;  ;  || D ,  |  ;   ;  || P ,  |  ;    dn  ||",
+                    "sahitya": "Kaa      maa      kshi       am"
                 },
                 {
-                    "swara": "S r | g m P || d n s | N d p || m G | R g r ||",
-                    "sahitya": "Paa da mu la Di kka nu chu Nam mi ti ni Sree Kan- chi"
+                    "swara": "S ,  |  ; d     n  ||  s  r   g  |      m   p  m   g || R  ,  |  ;     N  ||",
+                    "sahitya": "Ba  A    nu   di na mu     Ma  ra va ka    ne  -  -   Nee"
                 },
                 {
-                    "swara": "S r | n s R || - n r | s n d p || M - | - P ||",
-                    "sahitya": "Kun da ra da na! Ku va la ya na ya naa! Tal"
+                    "swara": "S     r  |  g    m  P  || d     n    s    |   N     d   p  || m G  |  R   g  r  ||",
+                    "sahitya": "Paa da   mu la Di    kka nu chu    Nam mi ti    ni Sree  Kan- chi"
                 },
                 {
-                    "swara": "D n | - S r ||",
-                    "sahitya": "li! Ra kshin chu!"
+                    "swara": "S      r   |  n  s     R        || ,  n   r  |  s  n  d    p  || M ,   |   ;   P  ||",
+                    "sahitya": "Kun da   ra da   na!          Ku va   la ya na ya   naa!     Tal"
                 },
                 {
-                    "swara": "R g | r g S || - n g | r s R || - n r | s n D ||",
-                    "sahitya": "Kam bu ga la! Ni ra da chi ku raa! Vi dhu va da naa!"
+                    "swara": "D  n   |   ,   S       r   ||",
+                    "sahitya": "li! Ra   kshin chu!"
                 },
                 {
-                    "swara": "- N | - G r ||",
-                    "sahitya": "Maa yamma!"
+                    "swara": "R      g    |   r  g  S       || ,  n  g     |   r    s   R || ,  n   r |   s   n   D  ||",
+                    "sahitya": "Kam bu    ga la!   Ni ra da chi ku raa!  Vi dhu va da naa!"
                 },
                 {
-                    "swara": "G m | g r s r || N s | n s r g || M p | g r g m ||",
-                    "sahitya": "Kum bha ku cha! Ma da ma tta Ga ja ga ma Pa dma bha va Ha ri"
+                    "swara": ",  N  |  , G  r    ||",
+                    "sahitya": "Maa    yamma!"
                 },
                 {
-                    "swara": "P d | m g r s || N s | N G || r G | M p d ||",
-                    "sahitya": "Sham bu Nu ta pa da! Shan ka ri! Nee vu naa Chin ta la"
+                    "swara": "G      m  |  g   r       s    r  ||   N  s  | n    s  r   g   || M    p  | g      r    g   m   ||",
+                    "sahitya": "Kum bha  ku cha! Ma da    ma  tta  Ga ja ga ma   Pa  dma bha va Ha  ri"
                 },
                 {
-                    "swara": "N n | - d P || P m | - g r s ||",
-                    "sahitya": "Vee vee ga Dir ccham ma! Vi pu du"
+                    "swara": "P        d    |  m  g   r   s   ||  N  s    |  N   G     || r  G   |  M    p  d      ||",
+                    "sahitya": "Sham bu     Nu ta pa da! Shan ka   ri! Nee      vu naa Chin ta la"
                 },
                 {
-                    "swara": "M p | n d M || p d p | M g r || G m | P g m ||",
-                    "sahitya": "Bha kta ja na Kal pa la ti ka! Ka ru naa la ya! Sa da"
+                    "swara": "N     n     |  , d   P   ||  P         m     |  , g  r  s  ||",
+                    "sahitya": "Vee vee      ga  Dir   ccham ma!    Vi pu du"
                 },
                 {
-                    "swara": "P - g | p m g r || N s | R n s || R n | s r g m ||",
-                    "sahitya": "yaa! Gi ri ta na ya! Kaa va vee Sha ra naa ga tu du ga da ?"
+                    "swara": "M    p    |   n  d     M  || p  d  p  |   M    g   r  ||  G  m  |  P   g   m   ||",
+                    "sahitya": "Bha kta   ja  na   Kal   pa la ti     ka!  Ka ru   naa la   ya! Sa da"
                 },
                 {
-                    "swara": "P d | n s P || s n d | p m g r ||",
-                    "sahitya": "Taa ma sa mu See ya ka Va ra mo sa gu"
+                    "swara": "P  -   g      |  p m  g  r ||   N    s      |  R    n   s  || R     n   |  s  r    g  m ||",
+                    "sahitya": "yaa! Gi     ri ta   na ya! Kaa va     vee Sha ra   naa ga    tu du ga da ?"
                 },
                 {
-                    "swara": "P d | p m g r || G m | P m g || R g | M g r ||",
-                    "sahitya": "Paa ta ka mu la nu Dir cchi Ni Pa da Bha kti San ta ta"
+                    "swara": "P     d      | n  s    P   || s   n    d    | p  m  g   r  ||",
+                    "sahitya": "Taa ma    sa mu  See ya ka  Va    ra mo sa gu"
                 },
                 {
-                    "swara": "N s | R - || G m | g r S || - p m | g r S ||",
-                    "sahitya": "Mi ya ve Paa va ni ga daa ? Mo ra vi na daa ?"
+                    "swara": "P     d   |  p  m  g  r   ||  G  m   |  P   m  g  ||  R   g  |   M   g    r ||",
+                    "sahitya": "Paa ta    ka mu la nu   Dir cchi Ni Pa da   Bha kti   San ta   ta"
                 },
                 {
-                    "swara": "- r s | - N d || P m | - g r s ||",
-                    "sahitya": "Pa raa ke la nam ma ! Vi nam ma!"
+                    "swara": "N   s  |  R   ;    ||   G  m  |   g  r   S   ||  ,  p  m  |  g  r   S    ||",
+                    "sahitya": "Mi ya   ve     Paa va    ni ga daa ?   Mo ra  vi  na daa ?"
                 },
                 {
-                    "swara": "d p n | D p m || g R | g m p d || P - | - m g ||",
-                    "sahitya": "Ka lu sha haa ri ni ! Sa daa Na ta pha la Daa ya ki"
+                    "swara": ",    r  s  |  ,  N    d   ||  P    m   |  ,  g    r     s ||",
+                    "sahitya": "Pa raa    ke    la    nam ma !   Vi nam ma!"
                 },
                 {
-                    "swara": "m p m | g r g m || G - | - r g || m g r | g s r n ||",
-                    "sahitya": "Ya ni Bi ru du Bhu vi lo Ga li gi na Do ra ya nu chu"
+                    "swara": "d    p   n |  D    p  m   ||  g   R    |  g  m  p    d   ||  P  ,  |   ;   m  g    ||",
+                    "sahitya": "Ka lu sha  haa ri  ni !  Sa  daa   Na ta  pha la   Daa ya ki"
                 },
                 {
-                    "swara": "S - | - g r || s n d | p m g r ||",
-                    "sahitya": "Ve da mu Mo ra li da ga vi ni"
+                    "swara": "m  p   m  |  g  r     g     m  ||  G  ,  |  ;    r  g   ||  m  g    r |  g   s   r    n  ||",
+                    "sahitya": "Ya ni Bi    ru du  Bhu vi  lo            Ga li      gi  na Do  ra ya nu chu"
                 },
                 {
-                    "swara": "N r | s r - n r || N d | p d m p || G r | s r n s ||",
-                    "sahitya": "Nee Pa va na Ni la yaa! Su ra sa mu da yaa! Ka ra Vi dru tha"
+                    "swara": "S    ,       |    ;    g  r    ||  s    n   d  |  p  m  g  r  ||",
+                    "sahitya": "Ve          da mu   Mo ra li    da  ga vi ni"
                 },
                 {
-                    "swara": "r g m | P m p || s n d | P m g || r S | N d n ||",
-                    "sahitya": "Ku va la yaa! Ma da Da nu ja Vaa ra na Mru geen dra rcchi ta"
+                    "swara": "N     r    |  s  r  -  n  r  ||   N    d  |  p  d  m    p || G      r  |  s    r  n   s  ||",
+                    "sahitya": "Nee Pa  va na Ni la    yaa! Su   ra sa mu da  yaa! Ka  ra Vi dru tha"
                 },
                 {
-                    "swara": "s r g | m p m g || R - | - n s || r g m | P s r ||",
-                    "sahitya": "Ka lu sha da ha na gha naa! A pa ri mi ta Vai bha va"
+                    "swara": "r     g   m |  P     m   p   ||  s  n  d  | P    m  g  ||  r   S  |    N   d       n     ||",
+                    "sahitya": "Ku va la    yaa! Ma da   Da nu ja Vaa ra na Mru geen dra rcchi ta"
                 },
                 {
-                    "swara": "g m p | D m p || g r g | M p m || p d n | S p d ||",
-                    "sahitya": "mu ga la Ni Sma ra na ma di lo Da la chi na Ja naa Du la"
+                    "swara": "s     r   g  |  m  p   m  g   ||  R  ,  |  ;    n  s   || r  g  m  |  P  s       r ||",
+                    "sahitya": "Ka lu  sha  da ha na gha   naa!    A pa   ri mi ta  Vai bha va"
                 },
                 {
-                    "swara": "n s r | G m g || r S | N d p || g R | - s n ||",
-                    "sahitya": "ku Ba hu Sam pa da la ni cche vi ppu du Maa ka bha"
+                    "swara": "g   m   p  |  D   m    p     || g   r  g  |  M   p m || p  d     n  |  S     p  d  ||",
+                    "sahitya": "mu ga la    Ni Sma ra      na ma di  lo  Da la  chi na  Ja   naa Du la"
                 },
                 {
-                    "swara": "d P | - g r ||",
+                    "swara": "n  s    r   |  G     m  g      ||  r  S    |  N     d  p  ||  g    R    |  ;    s  n  ||",
+                    "sahitya": "ku Ba hu  Sam pa da        la ni     cche vi ppu du  Maa       ka bha"
+                },
+                {
+                    "swara": "d   P |   ;  g     r  ||",
                     "sahitya": "ya mi yya ve!"
                 },
                 {
-                    "swara": "S g | R s r || S r | N d m || P d | N d n ||",
-                    "sahitya": "Sya ma kri shna Sa ho dha ri Si va shan ka ri Pa ra"
+                    "swara": "S     g   |  R  s        r     || S   r  |  N   d  m  ||   P     d  |  N  d    n  ||",
+                    "sahitya": "Sya ma   kri shna Sa     ho  dha  ri Si va     shan ka   ri Pa   ra"
                 },
                 {
-                    "swara": "S - | - g r || s r s | N d p || m G | m g r s ||",
-                    "sahitya": "me shwa ri Ha ri ha ra du la ku Ni Ma hi ma lu"
+                    "swara": "S  ,     |  ;    g      r    ||  s  r   s  |  N   d  p  || m  G  |  m  g   r    s ||",
+                    "sahitya": "me       shwa ri      Ha ri ha  ra   du la   ku Ni  Ma hi ma lu"
                 },
                 {
-                    "swara": "n S | - r g || m P | g m G || R - | - s n ||",
-                    "sahitya": "Ga nim pa Ta ra ma ? Su tu da mma! A bhi"
+                    "swara": "n    S    |  ;     r  g   ||  m  P    |  g  m  G  || R  ,   |  ;     s  n     ||",
+                    "sahitya": "Ga nim        pa Ta   ra ma ?   Su tu da  mma!        A  bhi"
                 },
                 {
-                    "swara": "S - | - p m || P - | D N || S - | R G ||",
-                    "sahitya": "maa na mu Le da- Naa pai De vi ?"
+                    "swara": "S   ,    |   ;    p  m   || P   ,      |  D    N    ||  S   ,  |  R    G       ||",
+                    "sahitya": "maa     na mu  Le     da, Naa     pai     De    vi ?"
                 },
                 {
-                    "swara": "m G | R g r || S r | N d p || m G | R g r ||",
-                    "sahitya": "Pa raa kee la ne Bro va ve I pu du Sri Bhai ra vi"
+                    "swara": "m  G  |  R    g   r    ||  S    r      |  N   d   p || m  G  |  R    g  r     ||",
+                    "sahitya": "Pa raa  kee  la  ne    Bro va       ve   I   pu  du Sri Bhai ra vi"
                 }
             ]
         }

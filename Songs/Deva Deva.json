@@ -12,97 +12,12 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1. S - R - R G M || P P ppmg M - P ||",
-                    "sahitya": "De va De - va Ka la yaa--- mi the"
+                    "swara": "1. S ;  R - R G M  || P P  ppmg  M - P  ||",
+                    "sahitya": "De va De -   va   Ka la yaa---  mi    the"
                 },
                 {
-                    "swara": "- pd - P - P pm || mgmg mp- gm g - rs n ||",
-                    "sahitya": "Chara nam bu ja- Se- - - va- nam-- - - -"
-                },
-                {
-                    "swara": "2. S - R - R G M || P P ppmg M - P ||",
-                    "sahitya": "De va De - va Ka la yaa--- mi the"
-                },
-                {
-                    "swara": "- nd - P - P pm || mgmd pm- gm g - rs n ||",
-                    "sahitya": "Chara nam bu ja- Se- - - va- nam-- - - -"
-                },
-                {
-                    "swara": "3. S - R - dp mg M || P P ppmg M - P ||",
-                    "sahitya": "De va De - va Ka la yaa--- mi the"
-                },
-                {
-                    "swara": "- nd - P - P pm || gm Pdp Mpm- gm g - rs n ||",
-                    "sahitya": "Chara nam bu ja- Se- - - va- nam-- - - -"
-                },
-                {
-                    "swara": "4. S - R - dp mg M || pdmp gmpd N - S ||",
-                    "sahitya": "De va De - va Ka la yaa--- mi the"
-                },
-                {
-                    "swara": "sngr snD P M || gm Pdp Mpm- gm g - rs n ||",
-                    "sahitya": "Chara nam bu ja- Se- - - va- nam-- - - -"
-                },
-                {
-                    "swara": "5. S - R - dp mg M || pdmp gmpd N - S ||",
-                    "sahitya": "De va De - va Ka la yaa--- mi the"
-                },
-                {
-                    "swara": "srgm grsn pdpm || gm Pdp Mpm- gm g - rs n ||",
-                    "sahitya": "Chara nam bu ja- Se- - - va- nam-- - - -"
-                },
-                {
-                    "swara": "6. S - R - G - M || P P ppmg M - ||",
-                    "sahitya": "De va De - va Ka la yaa--- mi"
-                },
-                {
-                    "swara": "-d pmP - - - - || - - - - - - ||",
-                    "sahitya": "the"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "1. - pd - P - M P || ppmg M - P - - ||",
-                    "sahitya": "Bhuva na Tra ya Naa --- ya ka"
-                },
-                {
-                    "swara": "2. - nd - P - mp dp || ppmg M - - d pmP - ||",
-                    "sahitya": "Bhuva na Tra ya Naa --- ya - ka"
-                },
-                {
-                    "swara": "gm P P - mp dp D || pd N D - N - S - ||",
-                    "sahitya": "Bhu - ri Ka- ru- na yaa -- - Ma ma"
-                },
-                {
-                    "swara": "3. - r- n d - P - mp mpdp || ppmg M - P - - ||",
-                    "sahitya": "- - Bhuva na Tra ya Naa --- ya ka --"
-                },
-                {
-                    "swara": "gm pm P - mp dp D || pd N D - N - Srs n ||",
-                    "sahitya": "Bhu - ri Ka- ru- na yaa -- - Ma ma"
-                },
-                {
-                    "swara": "4. dn- n d - P - mp mpdp || - pmM g M - - d pmP - ||",
-                    "sahitya": "- - Bhuva na Tra ya Naa --- ya ka --"
-                },
-                {
-                    "swara": "gm pm P - mp dp D || pd N D - N - S - ||",
-                    "sahitya": "Bhu - ri Ka- ru- na yaa -- - Ma ma"
-                },
-                {
-                    "swara": "- S S - sn gr S || ns - d N - S - ||",
-                    "sahitya": "Bha va thaa-- pa maa - khi - lam"
-                },
-                {
-                    "swara": "- S S -sn gr S || Srs sd N - S - ||",
-                    "sahitya": "Bhava thaa-- -- pa maa khi - lam"
-                },
-                {
-                    "swara": "S - snD P - m || mgmd pm- gm g - rsn ||",
-                    "sahitya": "Vaa ra-- ya -- Ra- maa- -- kan- - tha--"
+                    "swara": "; pd  , P ,  P pm  || mgmg  mp- gm  g - rs n  ||",
+                    "sahitya": ""
                 }
             ]
         },
@@ -110,8 +25,157 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
+                    "swara": "2. S ;  R - R G M  || P P  ppmg  M - P  ||",
+                    "sahitya": "De va De -   va   Ka la yaa---  mi    the"
+                },
+                {
+                    "swara": "; nd  , P ,  P pm  || mgmd  pm- gm  g - rs n  ||",
                     "sahitya": ""
+                },
+                {
+                    "swara": "3. S ;  R - dp  mg M  || P P  ppmg  M - P  ||",
+                    "sahitya": "De va De -     va   Ka la yaa---  mi    the"
+                },
+                {
+                    "swara": "; nd  , P ,  P pm  || gm Pdp    Mpm- gm  g - rs n  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "4. S ;  R - dp  mg M  || pdmp  gmpd N  -  S   ||",
+                    "sahitya": "De va De -     va   Ka la yaa---  mi    the"
+                },
+                {
+                    "swara": "sngr snD  P M   || gm Pdp    Mpm- gm  g - rs n  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "5. S ;  R - dp  mg M  || pdmp  gmpd N  -  S   ||",
+                    "sahitya": "De va De -     va   Ka la yaa---  mi    the"
+                },
+                {
+                    "swara": "srgm grsn pdpm   || gm Pdp    Mpm- gm  g - rs n  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "6. S ;  R - G ;     M || P P  ppmg M  ;    ||",
+                    "sahitya": "De va De -     va   Ka la yaa---  mi"
+                },
+                {
+                    "swara": ",d pmP ; ;  ; ;  ||   ; ;  ; ;  ; ;  ||",
+                    "sahitya": "the"
+                },
+                {
+                    "swara": "; P  M - mg R - sn  || S R  mgrg , M ,  ||",
+                    "sahitya": "Jaa ta     Ru- -     pa-   Nibha   Che--     la"
+                },
+                {
+                    "swara": "; P  M - gm g - rsn  || S R  mgrg , M ,  ||",
+                    "sahitya": "Jaa ta    Ru- -     pa--   Nibha   Che---    la"
+                },
+                {
+                    "swara": "; gm  , P ,  D P  || dM;d- pmM  , mg   p- mgr ||",
+                    "sahitya": "Jan maar jitha    Ma --  maa--  khi - -   la --"
+                },
+                {
+                    "swara": "gm -pd mp - gm g - rsn  || S pd  pmM , g  M ;   ||",
+                    "sahitya": "--   Jaa ta    Ru- -     pa--   Nibha   Che---   la"
+                },
+                {
+                    "swara": "; gm  , P ,  D P  || dM;d- pmM - m g   pm gr   ||",
+                    "sahitya": "Jan maar jitha    Ma --  maa--  khi - -   la --"
+                },
+                {
+                    "swara": "; gm  , gR S , n  || R S  S rg rg rsS  ||",
+                    "sahitya": "Pa-   taka  San-   chaya   mi-- --  ha --"
+                },
+                {
+                    "swara": "; S r G r G ;  || ; mg pm gr R S  ||",
+                    "sahitya": "Vaa  - ra -  ya -       Ka- ru- - -  naya"
+                },
+                {
+                    "swara": "a) ; p   d  , P ,  P - md || ppmg  M - P  ; ;  ||",
+                    "sahitya": "Dithi   jaa li   Vi-   dha---  la     na  - -"
+                },
+                {
+                    "swara": "b) ; n   d , P ,  P - md || Pdp mg M - , d   pmP ; ||",
+                    "sahitya": "Dithi   jaa li   Vi-   dha---    la      -    na  - -"
+                },
+                {
+                    "swara": "gm  P  P - mp dp  D  || pd N  D - dn  , S ,  ||",
+                    "sahitya": "Dee -  na   ban   -- dho    Maa-      -    ma   va"
+                },
+                {
+                    "swara": "c) ; n   d  , P ,  P - md || Pdp mg M - , d   pmP ; ||",
+                    "sahitya": "Dithi   jaa li   Vi-   dha---    la      -    na  - -"
+                },
+                {
+                    "swara": "gm  pm  P - mp dp  D  || pd rs nd - dn  , S ,  ||",
+                    "sahitya": "Dee -  na   ban   -- dho    Maa-      -    ma   va"
+                },
+                {
+                    "swara": "x) ; S  S - sn  gr   S  || sn D , d N  S ;  ||",
+                    "sahitya": "Sri tha Vi bhudha    Chaa-      la -  Sri"
+                },
+                {
+                    "swara": "y) ; S  S - sn  gr   S  || Srs , d , d N  S ;  ||",
+                    "sahitya": "Sri tha Vi bhudha    Chaa-      la -  Sri"
+                },
+                {
+                    "swara": "S ;  s  r - sn  D - pm  || gm pd pm - gm   g - rs n  ||",
+                    "sahitya": "Pa dma  naa- -    bha    Shou--  - -     re- -      - - -"
+                },
+                {
+                    "swara": "z) ; S  S - sn  gr   S  || Srs , d , d N  S ;  ||",
+                    "sahitya": "Sri tha Vi bhudha    Chaa-      la -  Sri"
+                },
+                {
+                    "swara": "srgm  g  r - sn  dp - dn  || r s n - d  p m - gm   g - rs n  ||",
+                    "sahitya": "Pa dma  naa- -    bha    Shou--  - -        re- -      - - -"
+                }
+            ]
+        },
+        {
+            "section": "Anupallavi",
+            "content": [
+                {
+                    "swara": "1. ; pd , P ,  M   P  ||  ppmg M - P  ; ;  ||",
+                    "sahitya": "Bhuva   na  Tra ya       Naa --- ya   ka"
+                },
+                {
+                    "swara": "2. ; nd , P ,  mp dp  ||  ppmg M - , d   pmP ;     ||",
+                    "sahitya": "Bhuva   na  Tra ya       Naa --- ya      -  ka"
+                },
+                {
+                    "swara": "gm P  P - mp dp D  || pd N  D - N  , S  ,  ||",
+                    "sahitya": "Bhu -  ri   Ka-   ru- na   yaa --     -   Ma ma"
+                },
+                {
+                    "swara": "3. , r-  n d     , P ,  mp mpdp ||  ppmg  M - P  ; ;      ||",
+                    "sahitya": "- - Bhuva   na  Tra ya        Naa --- ya     ka --"
+                },
+                {
+                    "swara": "gm pm  P - mp dp D  || pd N  D - N  , Srs n   ||",
+                    "sahitya": "Bhu -  ri   Ka-   ru- na   yaa --     -   Ma ma"
+                },
+                {
+                    "swara": "4. dn-  n d     , P ,  mp mpdp ||  , pmM g M - , d   pmP ;         ||",
+                    "sahitya": "- - Bhuva   na  Tra ya        Naa ---     ya          ka --"
+                },
+                {
+                    "swara": "gm pm  P - mp dp D  || pd N  D - N  , S ,   ||",
+                    "sahitya": "Bhu -  ri   Ka-   ru- na   yaa --     -   Ma ma"
+                },
+                {
+                    "swara": "; S  S  - sn gr  S  || ns , d  N  ;  S ;  ||",
+                    "sahitya": "Bha va  thaa--     pa        maa -   khi -     lam"
+                },
+                {
+                    "swara": "; S  S -sn gr  S  || Srs sd  N  ;  S ;  ||",
+                    "sahitya": "Bhava thaa--  --   pa        maa   khi -    lam"
+                },
+                {
+                    "swara": "S ;  snD P , m  || mgmd pm- gm g - rsn  ||",
+                    "sahitya": "Vaa ra--  ya --   Ra- maa- --   kan- -   tha--"
                 }
             ]
         }

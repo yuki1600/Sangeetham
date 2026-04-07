@@ -12,56 +12,56 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "P M - D - pm || G R S S R - ||",
-                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                    "swara": "P M  ; D  ; pm  || G R   S S  R ; ||",
+                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   -"
                 },
                 {
-                    "swara": "P M - mD-",
-                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                    "swara": ";  pm  || G R   N S  R ; ||",
+                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   -"
                 },
                 {
-                    "swara": "grS R gM-",
-                    "sahitya": "par- va ti - - para me- sha yu- va- ti -"
+                    "swara": ", g M  || P ;  P -pm g r g m  ||",
+                    "sahitya": "pAr-      va  tI -     - para      mE-     sha yu-    va- tI -"
                 },
                 {
-                    "swara": "P M - mD-",
-                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                    "swara": ";  M   || G R   N S  R ; ||",
+                    "sahitya": "Paran - dhA  - ma-     vatI  jaya ti   -"
                 },
                 {
-                    "swara": "grS R gM-",
-                    "sahitya": "par- va ti - - para me- sha yu- va- ti -"
+                    "swara": ", g M  || P ;  P -pm g r g m  ||",
+                    "sahitya": "pAr-      va  tI -     - para      mE-     sha yu-    va- tI -"
                 },
                 {
-                    "swara": "P dn S sn nd pm || G R N S R - ||",
-                    "sahitya": "Paran - dha - ma- vati jaya ti -"
+                    "swara": "P dn  S sn    nd  pm   || G R   N S  R ; ||",
+                    "sahitya": "Paran - dhA  -   ma-     vatI  jaya ti   -"
                 },
                 {
-                    "swara": "gr R gm P - d N || S - S -sn nd p m ||",
-                    "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
+                    "swara": "gr R  gm P , d  N  || S ;  S -sn nd p m  ||",
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha yu-    va- tI -"
                 },
                 {
-                    "swara": "P dn S sn nd pdpp",
-                    "sahitya": "Paran - dha - ma- va ti jaya ti -"
+                    "swara": "|| mG,  R  N S  R ; ||",
+                    "sahitya": "Paran - dhA  -   ma-     va   tI   jaya ti   -"
                 },
                 {
-                    "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
-                    "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
+                    "swara": "gr R  gm P , d  N  || srgr sn -rs nd p m  ||",
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI -"
                 },
                 {
-                    "swara": "P dn S sn nd pdpp",
-                    "sahitya": "Paran - dha - ma- va ti jaya ti -"
+                    "swara": "|| mG, R  N G  R ; ||",
+                    "sahitya": "Paran - dhA  -   ma-     va   tI   jaya ti   -"
                 },
                 {
-                    "swara": "gr R gm P - d N || srgr sn -rs nd p m ||",
-                    "sahitya": "par- va - ti - - para me- sha yu- va- ti -"
+                    "swara": "gr R  gm P , d  N  || srgr sn -rs nd p m  ||",
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI -"
                 },
                 {
-                    "swara": "P M - mD-",
-                    "sahitya": "Paran - dha - ma- vati - ja ya ti - - - - - - - ja ya"
+                    "swara": "; pm  || G R   ;  N  G  ; || R ;  ; ;  ; ;  || ; ;  ; N  R ;  ||",
+                    "sahitya": "Paran - dhA  - ma-     vatI  -  ja ya    ti   -  - -  - -    - -   ja ya"
                 },
                 {
-                    "swara": "S - - - - - ||",
-                    "sahitya": "ti -"
+                    "swara": "S ;  ; ;  ; ;  ||",
+                    "sahitya": "ti   -"
                 }
             ]
         },
@@ -69,8 +69,44 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
+                    "swara": ", pM   D ;   sn D   || pm -dn     S -N S  ;  ||    ; ;       ; ;       ; ;  || ; ;       ; ;       ; ;  ||",
+                    "sahitya": "param   jyO  -      ti - -       vi-    kA -  -  s i    nI"
+                },
+                {
+                    "swara": "P M    D ;   sn D   || P  - dn     S -N S  ;  ||    s r G       g r R       S ;  || nr s- s     nd-pd     dN,",
                     "sahitya": ""
+                },
+                {
+                    "swara": "; ||",
+                    "sahitya": "param   jyO  -      ti - -       vi-    kA -  -  si     nI       para-      mA--      tma    pra\u2014kA  --   shi-    nI- -"
+                },
+                {
+                    "swara": "P M    D , r   sn D   || P  - dn     S -N S  ;  ||    s r G       g r R       S ;  || nr s- s     nd-p d     dN,",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "; ||",
+                    "sahitya": "param   jyO  -      ti - -       vi-    kA -  -  si     nI       para-      mA--      tma    pra\u2014kA  --   shi-    nI- -"
+                },
+                {
+                    "swara": "nR - g  R - s r   s  n - d n  || D - dp     M  g-   r    , g  M  ||",
+                    "sahitya": "niran ta  ram guru guha  jana   nI   brha  dI- sha ran - ja nI"
+                },
+                {
+                    "swara": "nR - g  R - n r   s  n - d n  || D - dp     M  g-   r    , g  M  ||",
+                    "sahitya": "niran ta  ram guru guha  jana   nI   brha  dI- sha ran - ja nI"
+                },
+                {
+                    "swara": "|| mG,  R  N G  R ; ||",
+                    "sahitya": "Paran - dhA  -   ma-     va    tI    jaya ti   -"
+                },
+                {
+                    "swara": "gr R  gm P , d  N  || srgr sn -rs nd p m  ||",
+                    "sahitya": "pAr-      va - tI -    - para      mE-     sha  yu-    va- tI -"
+                },
+                {
+                    "swara": "; pm  || G R   ;  N  G  ; || R ;  ; N  R ;  || S ;      ; ;  ; ;  ||",
+                    "sahitya": "Paran - dhA  - ma-     vatI  -  ja ya    ti   -  -  ja ya      ti -      - -  - -"
                 }
             ]
         }

@@ -12,32 +12,32 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- ns - n D M - RG | gr S - r G M - - D ||",
-                    "sahitya": "Gaja vada na Karu na- - Sada na Sri"
+                    "swara": "; ns , n D M ;  RG  |   gr S , r G  M ;  ; D  ||",
+                    "sahitya": "Gaja  vada na  Karu    na- -   Sada na  Sri"
                 },
                 {
-                    "swara": "- ns - n D gmD m- rG | gr S - r G M - - D ||",
-                    "sahitya": "Gaja vada na - Karu na- - Sada na Sri"
+                    "swara": "; ns , n D gmD  m- rG  |   gr S , r G  M ;  ; D  ||",
+                    "sahitya": "Gaja  vada na  -  Karu    na- -   Sada na  Sri"
                 },
                 {
-                    "swara": "- gm - d D Dns N - dn | NS - nD ssnd m- d N ||",
-                    "sahitya": "Shan kara Ba-- la Lam bo- dhara Sun-- dara"
+                    "swara": "; gm  , d D Dns N - dn  |   NS , nD ssnd m-  d N  ||",
+                    "sahitya": "Shan   kara  Ba--   la  Lam    bo-  dhara     Sun--       dara"
                 },
                 {
-                    "swara": "snrs ndsn dmnd mr G | gr S - r G M - - gm ||",
-                    "sahitya": "Gaja va-da- na Karu na- - Sada na Shan-"
+                    "swara": "snrs  ndsn dmnd mr G | gr S , r G  M ;  ;  gm ||",
+                    "sahitya": "Gaja va-da- na  Karu    na- -   Sada na  Shan-"
                 },
                 {
-                    "swara": "- d D mdns N - - dn | RS - nD sndm D N ||",
-                    "sahitya": "kara Ba-- la - Lam bo- dhara Sun-- dara"
+                    "swara": ", d D mdns N ;  ; dn  | RS  , nD sndm  D N  ||",
+                    "sahitya": "kara  Ba--   la   -  Lam    bo-  dhara     Sun--   dara"
                 },
                 {
-                    "swara": "snrs ndsn dmnd mr G | gr rs - r G M - - gm ||",
-                    "sahitya": "Gaja va-da- na Karu na- - Sada na Shan-"
+                    "swara": "snrs  ndsn dmnd mr G | gr rs , r G  M ;  ;  gm ||",
+                    "sahitya": "Gaja va-da- na  Karu    na- -   Sada na  Shan-"
                 },
                 {
-                    "swara": "- d D mdns N - - dn | srmgrS",
-                    "sahitya": "kara Ba-- la - Lam bo- dhara Sun-- dara"
+                    "swara": ",  , nD sndm  D N  ||",
+                    "sahitya": "kara  Ba--   la   -  Lam    bo-    dhara     Sun--   dara"
                 }
             ]
         },
@@ -45,36 +45,36 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- nm - d N S - N S | - n s - r G gr R S - ||",
-                    "sahitya": "Aja nama ren dranu Muni varum Pa-ni yum"
+                    "swara": "; nm , d N  S ;  N S  | ; n s , r G  gr R S ;  ||",
+                    "sahitya": "Aja  nama ren dranu    Muni  varum Pa-ni yum"
                 },
                 {
-                    "swara": "- nm - d N S - N S | - n s - r G gr R S - R ||",
-                    "sahitya": "Aja nama ren dranu Muni varum Pa-ni yum"
+                    "swara": "; nm , d N  S ;  N S  | ; n s , r G  gr R S - R  ||",
+                    "sahitya": "Aja  nama ren dranu    Muni  varum Pa-ni yum"
                 },
                 {
-                    "swara": "S- nm - d N S - S rs | N- n s - r G gr R s- grr ||",
-                    "sahitya": "Aja nama ren dranu - Muni varum Pa-ni yum"
+                    "swara": "S- nm , d N  S ;  S rs  | N- n s , r G  gr R s- grr  ||",
+                    "sahitya": "Aja  nama ren dranu    -  Muni  varum Pa-ni yum"
                 },
                 {
-                    "swara": "- s- nm - d N S - Srg",
-                    "sahitya": "Aja nama ren dranu - Muni varum Pa-ni yum Pan"
+                    "swara": "rs  | N- n s , r G  gr R S- S ||",
+                    "sahitya": "Aja  nama ren dranu    -  Muni  varum Pa-ni yum Pan"
                 },
                 {
-                    "swara": "- nd - mG M - - dN | S- - - - - - -S ||",
-                    "sahitya": "kaja chara na chara nam - - - - - Pan"
+                    "swara": "; nd  , mG  M ;  , dN | S;  ; ;  ; ;  ; -S ||",
+                    "sahitya": "kaja   chara  na chara   nam - -  - -  -  Pan"
                 },
                 {
-                    "swara": "- nd - mG M - - nD | N - - gR S - - - dn ||",
-                    "sahitya": "kaja chara na chara nam chara nam - Pan"
+                    "swara": "; nd  , mG  M ;  , nD | N ;  , gR S ;  ; - dn ||",
+                    "sahitya": "kaja   chara  na chara   nam  chara nam -  Pan"
                 },
                 {
-                    "swara": "rs- nd - mG gmdm",
-                    "sahitya": "kaja chara na chara nam chara nam - - Pan"
+                    "swara": "M , nD | mdnd  N  , gR S ;   mg - gg ||",
+                    "sahitya": "kaja   chara  na chara   nam    chara nam -  -   Pan"
                 },
                 {
-                    "swara": "rs- nd - mG gmdm",
-                    "sahitya": "kaja chara na chara nam chara nam sri- - -"
+                    "swara": "M , nD | mdnd  N  , gR S ;   dmdn ||",
+                    "sahitya": "kaja   chara  na chara   nam    chara nam sri-   - -"
                 }
             ]
         },
@@ -82,8 +82,28 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "GM   N ; ; , n  , n N  | N ;  N ;  ndsn  nd dm ||",
+                    "sahitya": "Nee- yee  -  Moo  vula  girk Aa dhaa-- ram\u2014"
+                },
+                {
+                    "swara": "GM   nsnn ; , n  , n N  | N ;  N ;  ndsn  nd dm ||",
+                    "sahitya": "Nee- yee  -  Moo  vula  girk Aa dhaa-- ram\u2014"
+                },
+                {
+                    "swara": "ndsn nndm M mm gr- G  | M - nd    , n S  -  rs nd  sndp   ;  ||",
+                    "sahitya": "Nee-- yee-- Shivaa-- --   ga  ma  Man    -  tra   Saa---  ram"
+                },
+                {
+                    "swara": "nDn N S  ;  ns , r  R | R ;  G ;  gr R S ;  ||",
+                    "sahitya": "Nee-- yee-    Vazh vil Yen    Jee vaa dha-- ram"
+                },
+                {
+                    "swara": "nDn N S   nsR sr     G | rgM  R G  gr R S ;  ||",
+                    "sahitya": "Nee-- yee-  Vazh vil- Yen   Jee vaa dha-- ram"
+                },
+                {
+                    "swara": "nd mdN  dm  gmdn ||",
+                    "sahitya": "Nee--  Arul vai  Sumu  kha  Om---  kaa--  --   ra ---"
                 }
             ]
         }

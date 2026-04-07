@@ -26,7 +26,7 @@ const audioCache = new Map(); // key: `${songId}-${type}`
 // Stores song metadata and composition data
 const songDataCache = new Map(); // key: `${songId}`
 
-const AAVARTANA_PX = 320;
+const PX_PER_SEC = 100;
 const PLAYHEAD = 0.25;
 
 export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack, readOnly = false }) {
@@ -89,7 +89,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const audioSwapRef = useRef(null);
     const jsonSwapRef = useRef(null);
     const [showDownloadMenu, setShowDownloadMenu] = useState(false);
-    const [waveZoom, setWaveZoom] = useState(1);
+    const [waveZoom, setWaveZoom] = useState(2);
 
     // Edit Info modal
     const [showEditInfo, setShowEditInfo] = useState(false);
@@ -131,6 +131,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const renderedAvCount = aavartanas.length > 0 ? aavartanas.length : textModeAvCount;
     const autoAavartanaSec = 4.0; // Default for songs without a saved calibration (removes auto-BPM/CompIAM heuristics)
     const effectiveAavartanaSec = customAavartanaSec ?? autoAavartanaSec;
+    const effectiveAavartanaPx = PX_PER_SEC * effectiveAavartanaSec * waveZoom;
 
     // Pad or trim empty avartanas so notation matches audio duration after calibration
     useEffect(() => {
@@ -192,7 +193,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // Per-aavartana start times derived from sectionTimings.
     // Returns null when no timings are set (falls back to uniform spacing).
     const aavartanaTimings = useMemo(() => {
-        if (!aavartanas.length || totalDuration === 0) return null;
+        const audioDur = totalDuration || 0;
+        const notationDur = aavartanas.length * effectiveAavartanaSec;
+        const effDur = Math.max(audioDur, notationDur);
+        
+        if (!aavartanas.length || effDur === 0) return null;
         if (!uniqueSections.some(s => sectionTimings[s] != null)) return null;
 
         const timings = [];
@@ -244,6 +249,12 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     }, [aavartanaTimings, currentTime, effectiveAavartanaSec, aavartanas.length]);
 
     const currentSection = aavartanas[currentAvIdx]?.section || '';
+    
+    // Effective duration for UI limits (fallback to notation length if no audio)
+    const effectiveDuration = useMemo(() => {
+        const notationDur = aavartanas.length * effectiveAavartanaSec;
+        return Math.max(totalDuration, notationDur);
+    }, [totalDuration, aavartanas.length, effectiveAavartanaSec]);
 
     // ── Load song data ────────────────────────────────────────────────────────
     useEffect(() => {
@@ -439,12 +450,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     let interp = hw + elapsed;
                     if (audioRef.current.duration) interp = Math.min(interp, audioRef.current.duration);
                     smoothTimeRef.current = interp;
-                } else {
+                    currentTimeRef.current = smoothTimeRef.current;
+                    setCurrentTime(smoothTimeRef.current);
+                } else if (audioRef.current.src && audioRef.current.readyState > 0) {
+                    // Only sync from audio hardware if it has a valid source
                     smoothTimeRef.current = hw;
+                    currentTimeRef.current = smoothTimeRef.current;
+                    setCurrentTime(smoothTimeRef.current);
                 }
-
-                currentTimeRef.current = smoothTimeRef.current;
-                setCurrentTime(smoothTimeRef.current);
             }
             animRef.current = requestAnimationFrame(tick);
         };
@@ -481,7 +494,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const playheadX = rect.width * PLAYHEAD;
         
         const isSelecting = isLoopEnabled;
-        const startTime = currentTimeRef.current + ((clickX - playheadX) / AAVARTANA_PX * effectiveAavartanaSec);
+        const pxPerSec = PX_PER_SEC * waveZoom;
+        const startTime = currentTimeRef.current + ((clickX - playheadX) / pxPerSec);
 
         dragData.current = {
             startX: x,
@@ -496,7 +510,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             }
             setLoopRange({ start: startTime, end: startTime });
         }
-    }, [isLoopEnabled, loopRange, effectiveAavartanaSec]);
+    }, [isLoopEnabled, loopRange, effectiveAavartanaSec, waveZoom]);
 
     const handleDragMove = useCallback((e) => {
         if (!isDragging) return;
@@ -506,21 +520,24 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const playheadX = rect.width * PLAYHEAD;
 
         if (dragData.current.isSelecting) {
-            const currentT = currentTimeRef.current + ((clickX - playheadX) / AAVARTANA_PX * effectiveAavartanaSec);
+            const pxPerSec = PX_PER_SEC * waveZoom;
+            const currentT = currentTimeRef.current + ((clickX - playheadX) / pxPerSec);
             const start = Math.min(dragData.current.selectionStart, currentT);
             const end = Math.max(dragData.current.selectionStart, currentT);
             setLoopRange({
                 start: Math.max(0, start),
-                end: Math.min(totalDuration, end)
+                end: Math.min(effectiveDuration, end)
             });
         } else {
             const deltaX = x - dragData.current.startX;
-            const deltaT = -(deltaX / AAVARTANA_PX) * effectiveAavartanaSec;
-            let newTime = Math.max(0, Math.min(dragData.current.startTime + deltaT, totalDuration));
-            if (audioRef.current) audioRef.current.currentTime = newTime;
+            const pxPerSec = PX_PER_SEC * waveZoom;
+            const deltaT = -(deltaX / pxPerSec);
+            let newTime = Math.max(0, Math.min(dragData.current.startTime + deltaT, effectiveDuration));
+            if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = newTime;
             setCurrentTime(newTime);
+            currentTimeRef.current = newTime;
         }
-    }, [isDragging, totalDuration, effectiveAavartanaSec]);
+    }, [isDragging, effectiveDuration, effectiveAavartanaSec, waveZoom]);
 
     const handleDragEnd = useCallback(() => {
         setIsDragging(false);
@@ -534,15 +551,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     const handleClickSeek = useCallback((e) => {
         const x = e.clientX ?? (e.touches && e.touches[0].clientX);
-        const deltaX = Math.abs(x - dragData.current.startX);
+        const dragStartPos = dragData.current?.startX || 0;
+        const deltaX = Math.abs(x - dragStartPos);
+        
         if (deltaX < 5) {
             // If a loop exists and we click (not drag), revert to pre-loop position
             if (isLoopEnabled && loopRange) {
                 if (preLoopTime !== null) {
-                    if (audioRef.current) {
+                    if (audioRef.current && audioRef.current.readyState > 0) {
                         audioRef.current.currentTime = preLoopTime;
                     }
                     setCurrentTime(preLoopTime);
+                    currentTimeRef.current = preLoopTime;
                 }
                 setLoopRange(null);
                 setPreLoopTime(null);
@@ -554,33 +574,37 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             const rect = e.currentTarget.getBoundingClientRect();
             const clickX = x - rect.left;
             const playheadX = rect.width * PLAYHEAD;
-            const deltaT = (clickX - playheadX) / AAVARTANA_PX * effectiveAavartanaSec;
-            let newTime = Math.max(0, Math.min(currentTimeRef.current + deltaT, totalDuration));
-            if (audioRef.current) audioRef.current.currentTime = newTime;
+            const pxPerSec = PX_PER_SEC * waveZoom;
+            const deltaT = (clickX - playheadX) / pxPerSec;
+            let newTime = Math.max(0, Math.min(currentTimeRef.current + deltaT, effectiveDuration));
+            if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = newTime;
             setCurrentTime(newTime);
+            currentTimeRef.current = newTime;
         }
-    }, [totalDuration, effectiveAavartanaSec, isLoopEnabled, loopRange, preLoopTime]);
+    }, [effectiveDuration, effectiveAavartanaSec, isLoopEnabled, loopRange, preLoopTime, waveZoom]);
 
     const handleSeek = useCallback((e) => {
-        if (!audioRef.current || totalDuration === 0) return;
+        if (effectiveDuration === 0) return;
         const rect = e.currentTarget.getBoundingClientRect();
-        const t = ((e.clientX - rect.left) / rect.width) * totalDuration;
-        audioRef.current.currentTime = t;
+        const t = ((e.clientX - rect.left) / rect.width) * effectiveDuration;
+        if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
         setCurrentTime(t);
-    }, [totalDuration]);
+        currentTimeRef.current = t;
+    }, [effectiveDuration]);
 
     // ── Seek slider drag support ─────────────────────────────────────────────
     const seekBarRef = useRef(null);
     const isDraggingSeek = useRef(false);
 
     const seekToFrac = useCallback((clientX) => {
-        if (!audioRef.current || totalDuration === 0 || !seekBarRef.current) return;
+        if (effectiveDuration === 0 || !seekBarRef.current) return;
         const rect = seekBarRef.current.getBoundingClientRect();
         const frac = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
-        const t = frac * totalDuration;
-        audioRef.current.currentTime = t;
+        const t = frac * effectiveDuration;
+        if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
         setCurrentTime(t);
-    }, [totalDuration]);
+        currentTimeRef.current = t;
+    }, [effectiveDuration]);
 
     const handleSeekMouseDown = useCallback((e) => {
         isDraggingSeek.current = true;
@@ -1007,24 +1031,26 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
                                     {songData.meta?.title || 'Untitled'}
                                 </div>
-                                <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
-                                    {songData.meta?.raga && (
-                                        <span>
-                                            <span className="opacity-40">Raga: </span>
-                                            <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
-                                        </span>
-                                    )}
-                                    {songData.meta?.tala && (
-                                        <span>
-                                            <span className="opacity-40">Tala: </span>
-                                            <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
-                                        </span>
-                                    )}
+                                <div className="flex flex-col gap-1 mt-0.5">
+                                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
+                                        {songData.meta?.raga && (
+                                            <span>
+                                                <span className="opacity-40">Raga: </span>
+                                                <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
+                                            </span>
+                                        )}
+                                        {songData.meta?.tala && (
+                                            <span>
+                                                <span className="opacity-40">Tala: </span>
+                                                <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
+                                            </span>
+                                        )}
+                                    </div>
                                     {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
-                                        <span>
+                                        <div className="text-[10px] font-bold uppercase tracking-widest">
                                             <span className="opacity-40">Composer: </span>
                                             <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
-                                        </span>
+                                        </div>
                                     )}
                                 </div>
                                 {(() => {
@@ -1065,18 +1091,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                             <Pencil className="w-3 h-3" />
                                             Edit Info
                                         </button>
-                                        {songData?.meta?.pdfPath && (
-                                            <a 
-                                                href={`/api/${songData.meta.pdfPath}`} 
-                                                target="_blank" 
-                                                rel="noopener noreferrer"
-                                                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-orange-500/20 bg-orange-500/5 text-orange-500 hover:bg-orange-500/10 hover:border-orange-500/40 transition-all text-[10px] font-bold uppercase tracking-widest"
-                                                title="View PDF Notation"
-                                            >
-                                                <FileText className="w-3 h-3" />
-                                                View PDF
-                                            </a>
-                                        )}
+
                                         <button
                                             onClick={async () => {
                                                 const newFav = !songData.meta.isFavorite;
@@ -1163,6 +1178,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
                                             <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Downloads</div>
                                             {[
+                                                { label: 'View PDF Notation', icon: FileText, action: () => window.open(`/api/${songData.meta?.pdfPath}`, '_blank'), hidden: !songData.meta?.pdfPath, color: '#f97316' },
                                                 { label: 'Original JSON', icon: FileJson, action: () => handleDownloadJSON(false) },
                                                 { label: 'Edited JSON (Current)', icon: Check, action: () => handleDownloadJSON(true), color: '#10b981' },
                                                 { label: 'Original Audio (.mp3)', icon: FileAudio, action: handleDownloadOriginalAudio },
@@ -1173,7 +1189,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                                     disabled: !editedBuffer || isDownloadingAudio,
                                                     color: '#10b981' 
                                                 },
-                                            ].map(item => (
+                                            ].filter(item => !item.hidden).map(item => (
                                                 <button
                                                     key={item.label}
                                                     onClick={(e) => { e.stopPropagation(); item.action(); setShowDownloadMenu(false); }}
@@ -1698,14 +1714,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 {/* ── Three Lanes ───────────────────────────────────────────────── */}
                 <main
                     className={`flex-1 flex flex-col relative overflow-hidden select-none ${editorMode === 'view' && isDragging ? 'cursor-grabbing' : editorMode === 'view' ? 'cursor-grab' : 'cursor-default'}`}
-                    onMouseDown={editorMode === 'view' ? handleDragStart : undefined}
-                    onMouseMove={editorMode === 'view' ? handleDragMove : undefined}
-                    onMouseUp={editorMode === 'view' ? handleDragEnd : undefined}
-                    onMouseLeave={editorMode === 'view' ? handleDragEnd : undefined}
-                    onTouchStart={editorMode === 'view' ? handleDragStart : undefined}
-                    onTouchMove={editorMode === 'view' ? handleDragMove : undefined}
-                    onTouchEnd={editorMode === 'view' ? handleDragEnd : undefined}
-                    onClick={editorMode === 'view' ? handleClickSeek : undefined}
+                    onMouseDown={handleDragStart}
+                    onMouseMove={handleDragMove}
+                    onMouseUp={handleDragEnd}
+                    onMouseLeave={handleDragEnd}
+                    onTouchStart={handleDragStart}
+                    onTouchMove={handleDragMove}
+                    onTouchEnd={handleDragEnd}
+                    onClick={handleClickSeek}
                 >
                     {/* Visual playhead */}
                     <div className="absolute inset-y-0 z-20 pointer-events-none" style={{ left: `${PLAYHEAD * 100}%` }}>
@@ -1719,12 +1735,12 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         <div
                             className="absolute inset-y-0 z-10 pointer-events-none transition-none"
                             style={{
-                                left: `calc(${PLAYHEAD * 100}% + ${(loopRange.start - currentTime) / effectiveAavartanaSec * AAVARTANA_PX}px)`,
-                                width: `${(loopRange.end - loopRange.start) / effectiveAavartanaSec * AAVARTANA_PX}px`,
+                                left: `calc(${PLAYHEAD * 100}% + ${(loopRange.start - currentTime) * PX_PER_SEC * waveZoom}px)`,
+                                width: `${(loopRange.end - loopRange.start) * PX_PER_SEC * waveZoom}px`,
                                 background: 'rgba(16,185,129,0.15)',
                                 borderLeft: '1px solid rgba(16,185,129,0.5)',
                                 borderRight: '1px solid rgba(16,185,129,0.5)',
-                                willChange: 'left, width'
+                                willowChange: 'left, width'
                             }}
                         >
                             {/* Label */}
@@ -1753,7 +1769,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             audioBuffer={editedBuffer}
                             currentTime={currentTime}
                             timeRef={currentTimeRef}
-                            originalDuration={totalDuration}
+                            originalDuration={effectiveDuration}
                             editorMode={editorMode}
                             selection={activeSelection}
                             onSelectionChange={setActiveSelection}
@@ -1763,8 +1779,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             aavartanaSec={effectiveAavartanaSec}
                             zoom={waveZoom}
                             onZoomChange={setWaveZoom}
+                            pxPerSec={PX_PER_SEC}
                             onSeek={(t) => {
-                                if (audioRef.current) audioRef.current.currentTime = t;
+                                if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
                                 currentTimeRef.current = t;
                                 setCurrentTime(t);
                             }}
@@ -1833,13 +1850,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     aavartanaTimings={aavartanaTimings}
                                     currentTime={currentTime}
                                     timeRef={currentTimeRef}
-                                    totalDuration={totalDuration}
+                                    totalDuration={effectiveDuration}
                                     playheadFraction={PLAYHEAD}
                                     aavartanaSec={effectiveAavartanaSec}
                                     type="sahitya"
                                     theme={theme}
                                     onTokenEdit={handleTokenEdit}
                                     readOnly={readOnly}
+                                    textMode={true}
+                                    contentRows={contentRows}
+                                    avPerRow={avPerRow}
+                                    pxPerSec={PX_PER_SEC}
+                                    zoom={waveZoom}
                                 />
                             </div>
                         )}
@@ -1876,13 +1898,18 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     aavartanaTimings={aavartanaTimings}
                                     currentTime={currentTime}
                                     timeRef={currentTimeRef}
-                                    totalDuration={totalDuration}
+                                    totalDuration={effectiveDuration}
                                     playheadFraction={PLAYHEAD}
                                     aavartanaSec={effectiveAavartanaSec}
                                     type="swara"
                                     theme={theme}
                                     onTokenEdit={handleTokenEdit}
                                     readOnly={readOnly}
+                                    textMode={true}
+                                    contentRows={contentRows}
+                                    avPerRow={avPerRow}
+                                    pxPerSec={PX_PER_SEC}
+                                    zoom={waveZoom}
                                 />
                             </div>
                         )}
@@ -1919,11 +1946,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 userSelect: 'none',
                             }}
                         >
-                            {/* Section markers: vertical line + label to the right */}
-                            {uniqueSections.map(section => {
-                                const t = sectionTimings[section];
-                                if (t == null) return null;
-                                const frac = Math.min(1, t / (totalDuration || 1));
+                                    {/* Section markers: vertical line + label to the right */}
+                                    {uniqueSections.map(section => {
+                                        const t = sectionTimings[section];
+                                        if (t == null) return null;
+                                        const frac = Math.min(1, t / (effectiveDuration || 1));
                                 return (
                                     <div
                                         key={section}
@@ -1985,7 +2012,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 }}>
                                     {/* Aavartana tick marks */}
                                     {aavartanas.map((_, i) => {
-                                        const frac = (i * effectiveAavartanaSec) / (totalDuration || 1);
+                                        const frac = (i * effectiveAavartanaSec) / (effectiveDuration || 1);
                                         if (frac >= 1 || i === 0) return null;
                                         return <div key={i} className="absolute top-0 bottom-0 w-px opacity-30" style={{ left: `${frac * 100}%`, background: isDark ? '#fff' : '#000' }} />;
                                     })}
@@ -1998,7 +2025,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     transform: 'translateY(-50%)',
                                     height: 6,
                                     borderRadius: 3,
-                                    width: `${progress * 100}%`,
+                                    width: `${Math.min(100, (currentTime / (effectiveDuration || 1)) * 100)}%`,
                                     background: 'linear-gradient(to right, #10b981, #34d399)',
                                     boxShadow: '0 0 8px rgba(16,185,129,0.3)',
                                 }} />
@@ -2006,7 +2033,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                 <div style={{
                                     position: 'absolute',
                                     top: '50%',
-                                    left: `${progress * 100}%`,
+                                    left: `${Math.min(100, (currentTime / (effectiveDuration || 1)) * 100)}%`,
                                     transform: 'translate(-50%, -50%)',
                                     width: 18,
                                     height: 18,
@@ -2021,7 +2048,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         </div>
 
                         <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)', minWidth: 44, textAlign: 'right' }}>
-                            {fmt(totalDuration)}
+                            {fmt(effectiveDuration)}
                         </span>
                     </div>
                 </div>

@@ -12,100 +12,157 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "S S - - R S - || sg M P M M -g || pmM -S R - - - || G G M - S R S ||",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - - - di vi ja van - dya"
+                    "swara": "namO namO raghu kula nAyaka divija vandya  namO namO Sankara nagaja nuta ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N S - - R S - || s g M P M M -g || pmM -S R - - - || G G M - S R S ||",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - - - di vi ja van - dya"
+                    "swara": "namO namO raghu kula nAyaka divija vandya namO namO Sankara nagaja nuta ||",
+                    "sahitya": "Salutations (\u201cnamO namO\u201d) to the hero (\u201cnAyaka\u201d) of the Raghu dynasty (\u201craghu kula\u201d)"
                 },
                 {
-                    "swara": "N P - - R S - || ns rs ns rs ns rg || pmM",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya- - ka - - di-vi- ja- van- - -dya-"
+                    "swara": "S  S  ; - R  S ;      ||  sg M   P  M     M ,g    ||  pmM  -S    R ;  ;  ;   ||  G G       M - S     R  S  ||",
+                    "sahitya": "Na mO   -   na     mO         ra- ghu    ku la     nA--       ya- -   ka    - -        - -       di vi       ja    van  - dya"
                 },
                 {
-                    "swara": "rs rsnp",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+                    "swara": "N  S  ; - R  S ;      ||  s g M   P  M     M ,g    ||  pmM  -S    R ;  ;  ;   ||  G G       M - S     R  S  ||",
+                    "sahitya": "Na mO   -   na     mO         ra- ghu    ku la     nA--       ya- -   ka    - -        - -       di vi       ja    van  -  dya"
                 },
                 {
-                    "swara": "sn rsnp",
-                    "sahitya": "Na mo - na mo San- kara naga ja - nu- ta - - - - - - - -"
+                    "swara": "N  P  ; - R  S ;     ||  ns  rs      ns rs     ns rg     ||  pmM",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- mg - m - P - P || P - np - pmM - - || - - - - gmpn || P - - - - - ||",
-                    "sahitya": "vihi - ta dhar - ma pa- la- ka - - - - - - - - - - - - - - - - - -"
+                    "swara": "- R    ; ;  ;  ;   ||nnpp    mm-gm    r r sn  ||",
+                    "sahitya": "Na mO   -   na     mO       ra- ghu    ku la     nA--       ya- -     ka  - -     di-vi-    ja-  van-   - -dya-"
                 },
                 {
-                    "swara": "- mg - m - P - P || P - np - pmM",
-                    "sahitya": "vihi - ta dhar - ma pa- la- ka - - - - vihi - ta dhar -ma pa- la- ka - -"
+                    "swara": "; - R  S ;     ||  gm pm   gm pn     pnS     ||  S  sn      S R      ;  ;   || rr sn    pp- mm    r r sn  ||",
+                    "sahitya": "Na mO   -   na     mO       ra- ghu    ku  la     nA--       ya-ka  -- - -     di-vi-    ja-  van-   - -dya-"
                 },
                 {
-                    "swara": "sn pm g M- r - S || pn rsnp - -N S - || - -r - s - S S S || S- sn rs - sn N - ||",
-                    "sahitya": "vi-hi - ta - dhar - ma pa- - - - la ka - vee- ra da Sara dha ra - - ma - - -"
+                    "swara": "; - sr  ,-r S     ||  G M    P M      M M      ||  S  ,n      rsN - S  R   ;   || S  ;     ;  ;      ;  ;   ||",
+                    "sahitya": "Na mO   -   na       mO         San-   kara      naga ja  -      nu-   ta       -  -       - -       - -      - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "ahalya SApa mOchana asura kula bhanjana sahaja viswAmitra savana rakshaka ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "sn pm g M- smR",
-                    "sahitya": "vi-hi - ta - dhar - ma pa- - - - la ka - vee- ra da Sara dha ra - - - - ma -"
+                    "swara": "taraNi tanoojAdi taru chara pAlaka Saradhi langhana kruta soumitri samEta ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- g g - m- R - s N || n S p - M- gm - p N || - g g - m- R - s N || n s n- p M- gm - rs - r ||",
-                    "sahitya": "gaga -na va- -sinee ta- Ta ka mar - dana gaga -na va- sinee ta- Ta ka mar dana A"
+                    "swara": "nirupama Sri venkaTa nilaya nija nagara pura vihAra punDarikAksha ||",
+                    "sahitya": "In this song Annamacharya prays to Lord Rama narrating his great deeds of punishing the wicked and"
                 },
                 {
-                    "swara": "R S S p -m g m r s || m r s- g m P -m P - || m gm -p -- np n S R || r s n - p - m- mg Mpm",
-                    "sahitya": "halya Sapa vi mo-chana asura ku labhanja na saha ja vis wa--mitra savana rak-sha ka - - - -"
+                    "swara": "ahalya SApa mOchana asura kula bhanjana sahaja viswAmitra savana rakshaka ||",
+                    "sahitya": "He is the protector (\u201cpAlaka\u201d) of Dharma  (\u201cvihita dharma\u201d)."
                 },
                 {
-                    "swara": "rs sn P - R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+                    "swara": "; mg  , m - P     ;  P     ||  P ;      np - pmM     ; ;  ||  ; ;  ; ;     gmpn    || P ;     ;  ;   ;  ;  ||",
+                    "sahitya": "vihi      - ta   dhar  -  ma     pA-     la-   ka - -     - -      - - - -     - -  - -      - -      - -   - -"
                 },
                 {
-                    "swara": "sn rsnp",
-                    "sahitya": "Na mo - na mo San- kara naga ja - nu- ta - - - - - - - -"
+                    "swara": "; mg  , m - P     ;  P     ||  P ;      np - pmM",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- s s P - - P p - p p || nP - np",
-                    "sahitya": "hara ko- danda hara si - tan-ga-na vallabha khara doo- -shana- a ri - - vali gar- vapa ha-"
+                    "swara": "; ;  ||  ; mg  , m - P     ;  P   || sn P    N - S    ;  ; ||",
+                    "sahitya": "vihi      - ta   dhar  -  ma     pA-     la-   ka - -     - -      vihi     - ta   dhar  -ma   pA-     la-  ka   - -"
                 },
                 {
-                    "swara": "n p n - s S S-n Srs S || n s r s n s r -s R - || - g g m -R s n - P m || g m P n -r s n p p mr ||",
-                    "sahitya": "tarani ta nooja - - - taru chara pa-- la ka - Sara dhi langha na krutya sou-mitri same-ta - - -"
+                    "swara": "sn pm  g M- r      ;  S     ||  pn rsnp    ; -N        S ;  ||  ; ,r    , s - S    S S   || S- sn   rs - sn     N  ; ||",
+                    "sahitya": "vi-hi -     ta -  dhar  -  ma      pA-  - -     - la       ka -        vee- ra  da  Sara   dha rA - -    ma -  -  -"
                 },
                 {
-                    "swara": "rs sn P - R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+                    "swara": ";  S     ||  pn rsnp   ; -N        S ;  ||  ; ,r    , s - S    S S   || S-  ns   rg Mpm    mR  , ||",
+                    "sahitya": "vi-hi -     ta -  dhar  -  ma       pA-  - -     - la       ka -        vee- ra  da  Sara   dha rA -  - -    -    ma -"
                 },
                 {
-                    "swara": "sn rsnp",
-                    "sahitya": "Na mo - na mo San- kara naga ja - nu- - ta - - - - - - - -"
+                    "swara": "; g g  , m- R  , s N  || n S p -     M- gm    , p N  ||  ; g g  , m- R  , s N  || n s n- p   M- gm  , rs  - r  ||",
+                    "sahitya": "gaga      -na vA-  -sinee    tA- Ta     ka mar  - dana     gaga    -na vA-  sinee   tA- Ta     ka mar dana A"
                 },
                 {
-                    "swara": "s s s - s - s s - r S - S || s S- r s n p m g pmM r || - p p m m r - r s- R s ||",
-                    "sahitya": "biruda ra - vana Si ro bhe daka vi bhi-shana vara- - da sa- ke - ta pu ra vasa"
+                    "swara": "R  S    S  p -m   g m   r s  ||  m r s- g  m  P -m   P  ;   || m gm -p  ,- np n  S R || r s n - p  ,  m- mg  Mpm",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "np n s - - s n p M - || g m - P n p - n n - S - || - - - - - - ||",
-                    "sahitya": "raghava- nirupa ma Sri - ven kata nila - ya"
+                    "swara": "gm ||",
+                    "sahitya": "halya  Sapa vi  mO-chana  asura ku labhanja    na      saha ja vis   wA--mitra  savana rak-sha ka  -  -   -  -"
                 },
                 {
-                    "swara": "s s s - s - s s - r S - S || s S- r s n p m g pmM",
-                    "sahitya": "biruda ra - vana Si ro bhe daka vi bhi-shana vara- - da sa- ke - ta pu ra vasa"
+                    "swara": "rs  sn  P - R  S ;     ||  gm pm   gm pn     pnS     ||  S  sn      S R      ;  ;   || rr sn    pp- mm    r r sn  ||",
+                    "sahitya": "Na mO   -   na     mO       ra- ghu    ku  la     nA--       ya-ka  -- - -     di-vi-    ja-  van-   - -dya-"
                 },
                 {
-                    "swara": "np n s - - s n p M - || g m - P n p - n n s- s r - s || n p - pm pm- mr m- r S ||",
-                    "sahitya": "raghava- nirupa ma Sri - ven kata nila ya nija na gara pura vara viha-ra - -"
+                    "swara": "; - sr  ,-r S     ||  G M    P M      M M      ||  S  ,n      rsN - S  R   ;   || S  ;     ;  ;      ;  ;   ||",
+                    "sahitya": "Na mO   -   na       mO         San-   kara      naga ja  -      nu-   ta       -  -       - -       - -      - -"
                 },
                 {
-                    "swara": "g m p n - p - m n p - p m r ||",
-                    "sahitya": "pun-dari - - ka- - ksha - -"
+                    "swara": "taraNi tanoojAdi taru chara pAlaka Saradhi langhana kruta soumitri samEta ||",
+                    "sahitya": "He lifted (\u201chara\u201d) Siva\"s (\u201chara\u201d) bow (\u201ckOdanDa\u201d) and became the lord (\u201cvallabha\u201d) of Sita."
                 },
                 {
-                    "swara": "rs sn P - R S - || gm pm gm pn pnS || S sn S R - - || rr sn pp- mm r r sn ||",
-                    "sahitya": "Na mo - na mo ra- ghu ku la na-- ya-ka -- - - di-vi- ja- van- - -dya-"
+                    "swara": "; s s    P , - P    p - p p   ||  nP - np",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "sn rsnp",
-                    "sahitya": "Na mo - na mo San- ka- ra- na-ga- ja - - nu- - ta - - - - - - - -"
+                    "swara": ", np M    M -g m   || p m-  g m   p r- s n   p m r r   || R s- g  m P n   nP,  ||",
+                    "sahitya": "hara kO- danDa hara     si -   tAn-ga-nA  vallabha   khara doo-  -shanA- a ri -  -      vAli gar- vApa  ha-"
+                },
+                {
+                    "swara": "n p n - s   S  S,n   Srs  S || n s  r    s   n s r -s    R  ;    ||  ; g g    m -R  s     n - P m  ||  g m P  n -r s n  p p mr ||",
+                    "sahitya": "taraNi ta noojA      -  - -   taru chara pA--  la   ka -       Sara  dhi  langha na krutya   sou-mitri samE-ta -  - -"
+                },
+                {
+                    "swara": "rs  sn  P - R  S ;     ||  gm pm   gm pn     pnS     ||  S  sn      S R      ;  ;   || rr sn    pp- mm    r r sn  ||",
+                    "sahitya": "Na mO   -   na     mO       ra- ghu    ku  la     nA--       ya-ka  -- - -     di-vi-    ja-  van-   - -dya-"
+                },
+                {
+                    "swara": "; - sr  ,-r S     ||  sn P    R S       , g G      ||  M  ,m    pmM - S  R   ;   || S  ;     ;  ;      ;  ;   ||",
+                    "sahitya": "Na mO   -   na       mO         San-   kara      naga ja   -      nu-   -  ta  -  -       - -       - -      - -"
+                },
+                {
+                    "swara": "nirupama Sri venkaTa nilaya nija nagara pura vihAra punDarikAksha ||",
+                    "sahitya": "He earned eternal fame (\u201cSirO bhEdaka\u201d) by destroying (\u201cbiruda\u201d) Ravana and blessing (\u201cvarada\u201d)"
+                },
+                {
+                    "swara": "s s s -  s    ,  s  s - r   S - S   ||  s S-   r   s n  p m     g pmM r  ||  ; p p   m m r - r   s- R s  ||",
+                    "sahitya": "biruda rA - vaNa Si  rO bhE   daka vi bhi-shaNa  vara-  -  da   sA-    kE - ta pu  ra vAsa"
+                },
+                {
+                    "swara": "np n s   , - s n p  M ;    ||  g m - P    n p - n n    , S , ||  ; ;  ; ;       ; ;  ||",
+                    "sahitya": "rAghava-  nirupa ma        Sri -   ven kaTa nila  -  ya"
+                },
+                {
+                    "swara": "s s s -  s    ,  s  s - r   S - S   ||  s S-   r   s n  p m     g pmM",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "r  ||  ; p p   m m r - r   s- R s  ||",
+                    "sahitya": "biruda rA - vaNa Si  rO bhE   daka vi bhi-shaNa  vara-  -  da   sA-    kE - ta pu  ra vAsa"
+                },
+                {
+                    "swara": "np n s   , - s n p  M ;    ||  g m - P    n p - n n    s- s r - s ||  n  p - pm   pm- mr    m- r  S ||",
+                    "sahitya": "rAghava-  nirupa ma        Sri -   ven kaTa nila  ya nija na   gara   pura    vara  vihA-ra     -  -"
+                },
+                {
+                    "swara": "g m p n     , p - m n   p - p m  r  ||",
+                    "sahitya": "pun-Dari   - -    kA-   -   ksha - -"
+                },
+                {
+                    "swara": "rs  sn  P - R  S ;     ||  gm pm   gm pn     pnS     ||  S  sn      S R      ;  ;   || rr sn    pp- mm    r r sn  ||",
+                    "sahitya": "Na mO   -   na     mO       ra- ghu    ku  la     nA--       ya-ka  -- - -     di-vi-    ja-  van-   - -dya-"
+                },
+                {
+                    "swara": "; - sr  ,-r S     ||  mg pm np sn       snsr      ||  snpm  G    pmM- R   ;   ;   || S  ;     ;  ;      ;  ;   ||",
+                    "sahitya": "Na mO   -   na       mO         San-   ka- ra-      na-ga- ja  -      -    nu-   -  ta  -  -       - -       - -      - -"
                 }
             ]
         }

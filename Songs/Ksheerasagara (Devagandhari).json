@@ -2,8 +2,8 @@
     "song_details": {
         "name": "Ksheerasagara",
         "raga": "Devagandhari",
-        "arohanam": "S R₂ M₁ P D₂ Ṡ ||",
-        "avarohanam": "Ṡ N₃ D₂ P M₁ G₃ R₂ S ||",
+        "arohanam": "S R\u2082 M\u2081 P D\u2082 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2081 G\u2083 R\u2082 S ||",
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
@@ -12,36 +12,36 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- - - -M mgR P - - - - - - M mg R | R- S rg rsS S - NS RS RM M - ||",
-                    "sahitya": "Kshi ra-- saa - - - - - ga ra- - - Shaya- na-- ! -- - - - - Ra- ma-"
+                    "swara": "; ; ; -M        mgR   P ;     ; ;  ; ;     ; M    mg R  |  R;   S   rg      rsS   S ;    NS RS     RM   M ;  ||",
+                    "sahitya": "Kshi     ra--    saa - -   - - -       ga   ra- -    -        Shaya-    na-- !  --   - - -  -        Ra-   ma-"
                 },
                 {
-                    "swara": "mgR -- mp mgR ND MP - - - mp mg R | RS- S rg rsS snD NS RS - RM M - ||",
-                    "sahitya": "Kshi ra-- saa - - - - - ga - ra- - - - Shaya- na-- ! -- - - - - Ra- ma- - -"
+                    "swara": "mgR ;- mp  mgR  ND   MP ; ;   ; mp  mg R   |  RS- S  rg      rsS snD    NS RS -   RM  M ;  ||",
+                    "sahitya": "Kshi   ra--    saa - -   - -    - ga - ra- -        - -   Shaya-   na-- !  --   - - -    -     Ra- ma-   - -"
                 },
                 {
-                    "swara": "mgR- mp mgR ND MP S - - - n dpmg | R - S rg rsS snD- NS RS - RM M - ||",
-                    "sahitya": "Kshi ra-- saa - - - - - ga - ra- - Shaya- na-- ! -- - - - - Ra- ma-"
+                    "swara": "mgR; mp    mgR   ND   MP S ;   ; , n  dpmg  |  R ;  S   rg      rsS  snD-   NS   RS - RM  M ; ||",
+                    "sahitya": "Kshi   ra--    saa - -   - - -             ga -       ra- - Shaya-   na-- !  --     - - -    -     Ra-  ma-"
                 },
                 {
-                    "swara": "mgR- mp mgR mpD - - ns R- - sn dpmg | R - S rg rsS snD- NS RS - RM M - ||",
-                    "sahitya": "Kshi ra-- saa - - - - - - - ga - - - ra- - - Shaya- na-- ! -- - - - - Ra- ma- - -"
+                    "swara": "mgR; mp  mgR   mpD   ; - ns R;   ; sn  dpmg  |  R ;   S   rg    rsS   snD-  NS    RS - RM  M ; ||",
+                    "sahitya": "Kshi   ra--    saa - -   - - -  - -   ga - - - ra-     - -   Shaya-   na-- !  --    - - -    -     Ra-  ma-   - -"
                 },
                 {
-                    "swara": "mgR- mp mgR mpD - - ns rgR- - sn dpmg | R - S rg rsS snD- NS RS - RM M - ||",
-                    "sahitya": "Kshi ra-- saa - - - - - - - - ga-ra- - - - Shaya- na-- ! -- - - - - Nan- nu - -"
+                    "swara": "mgR; mp  mgR   mpD    ; - ns rgR; - sn dpmg | R ;   S   rg     rsS  snD-  NS   RS - RM  M ; ||",
+                    "sahitya": "Kshi   ra--    saa - -   - - -  - - -   ga-ra- -    -    -   Shaya-   na-- !  --   - - -    -    Nan- nu  - -"
                 },
                 {
-                    "swara": "mgR - P- - m D - D - NS snD dNd PM | pdnd mpdp - d pmM - M- mgR R M P - - - ||",
-                    "sahitya": "Chin- ta la Be- - - - - - - - tta Va - - le- - - na?- - - - - Ra- ma!"
+                    "swara": "mgR - P;  , m D  , D ,   NS  snD  dNd PM  |  pdnd  mpdp , d   pmM ; M;   mgR R M    P ; ; ;   ||",
+                    "sahitya": "Chin-  ta     la   Be-  -   - - -     - - - tta     Va - - le- -      -  na?-      -  -    - -   Ra-     ma!"
                 },
                 {
-                    "swara": "- - - P- - m D - S - nsrs nsN dNd PM | pdnd mpdp pdnd dmdp mgpm mgR srsn D - R ||",
-                    "sahitya": "Chin- ta la Be- - - - - - - - tta Va - - le- - na?- - - - - - - - - - - - - - - Ra"
+                    "swara": "; ;      - P;  , m D  , S ,   nsrs   nsN  dNd PM  |  pdnd  mpdp  pdnd  dmdp   mgpm  mgR   srsn   D - R ||",
+                    "sahitya": "Chin-  ta     la   Be-  -   - - -     - - - tta     Va - - le- -    na?-     -  -  - -   - - -  - - -     -  -   -   -  Ra"
                 },
                 {
-                    "swara": "rsS - - mp mgR mpD - - ns Mpm gr - - sn dpmg | R - S rg rsS snD- NS RS - RM M - || mgR",
-                    "sahitya": "ma! Kshi ra-- saa - - - - - - - - - - ga-ra- - - Shaya- na-- ! -- - - - - Ra - ma - - - -"
+                    "swara": "rsS ; - mp    mgR   mpD   ; - ns Mpm gr - ; sn dpmg | R ;   S   rg   rsS  snD- NS   RS - RM  M ; || mgR",
+                    "sahitya": "ma!    Kshi   ra--    saa - -    - - -  - - -  - -     ga-ra- -    -     Shaya-   na-- !  --   - - -    -     Ra - ma   - - - -"
                 }
             ]
         },
@@ -49,40 +49,40 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- - P - - m D D - NS snD - R S - | - - - - - - - - - - - - - - - - ||",
-                    "sahitya": "Vaa - ra na Raa- - - - ju ni"
+                    "swara": "; ;  P ;  , m  D D ;  NS snD   ; R S ;  |  ; ; ; ;  ; ; ; ;  ; ; ; ;  ; ; ; ;  ||",
+                    "sahitya": "Vaa    -    ra na  Raa- - -   - ju ni"
                 },
                 {
-                    "swara": "- - P - - m D D - NS snD - R S - | - - - S - S S - NS snD - pd dNd ||",
-                    "sahitya": "Vaa - ra na Raa- - - - ju ni - - Bro vanu Ve- - - - ga- me—"
+                    "swara": "; ;  P ;  , m  D D ;  NS snD   ; R S ;  |  ; ; ; S ; S S ;  NS snD  ; pd dNd ||",
+                    "sahitya": "Vaa    -    ra na  Raa- - -   - ju ni     - - Bro  vanu  Ve- - - -    ga- me\u2014"
                 },
                 {
-                    "swara": "P- ndpm gr - mp D - nsrg rsnd - R S - | - - - N R- S S - sn Srs dsnd - pd dNd ||",
-                    "sahitya": "Vaa - ra na Raa- - - - ju ni - - Bro - vanu Ve- - - - ga- me—"
+                    "swara": "P; ndpm   gr - mp D ;  nsrg rsnd   ; R S ; |  ; ; ; N   R- S S ;   sn Srs dsnd   ; pd dNd ||",
+                    "sahitya": "Vaa    -    ra na  Raa- - -   - ju ni     - - Bro -   vanu    Ve- - - -          ga- me\u2014"
                 },
                 {
-                    "swara": "P - R - rMg R- S - D R s Sn DP | pdnd mpdp pmM - mgR RS RM P - - - ||",
-                    "sahitya": "-- Va - - - cchi na di - - - - Vi- nna--- - - - nu - - raa -- - - Ra - ma!"
+                    "swara": "P ; R ;   rMg R;  S ;  D R   s Sn DP | pdnd mpdp  pmM ; mgR     RS RM        P ; ; ;  ||",
+                    "sahitya": "--   Va - -  - cchi na   di - - - -    Vi-   nna---  - - -  nu - -   raa --  - -   Ra -        ma!"
                 },
                 {
-                    "swara": "P - R - M G R - S - D R s Sn DP | pdnd mpdp pmM - pmdp mgpm mgR srsn D - R || S -",
-                    "sahitya": "-- Va - - - cchi na di - - - - Vi- nna--- - - - nu - - raa -- - - --- - - - - - - - Ra - ma!"
+                    "swara": "P ; R ;  M G R ;   S ;  D R   s Sn DP | pdnd mpdp  pmM ; pmdp  mgpm mgR  srsn  D - R || S ;",
+                    "sahitya": "--   Va - -  - cchi na   di - - - -    Vi-   nna---  - - -  nu - -   raa --  - - ---   - - -   - - -  -    Ra - ma!"
                 },
                 {
-                    "swara": "mgR- mp mgR mpD - - ns rgR- - sn dpmg | R - S rg rsS snD- NS RS - RM M - ||",
-                    "sahitya": "Kshi ra-- saa - - - - - - - - ga-ra- - - - Shaya- na-- ! -- - - - - Nan- nu - -"
+                    "swara": "mgR; mp  mgR   mpD    ; - ns rgR; - sn dpmg | R ;   S   rg     rsS  snD-  NS   RS - RM  M ; ||",
+                    "sahitya": "Kshi   ra--    saa - -   - - -  - - -   ga-ra- -    -    -   Shaya-   na-- !  --   - - -    -    Nan- nu  - -"
                 },
                 {
-                    "swara": "mgR - P- - m D - D - NS snD dNd PM | pdnd mpdp - d pmM - M- mgR R M P - - - ||",
-                    "sahitya": "Chin- ta la Be- - - - - - - - tta Va - - le- - - na?- - - - - Ra- ma!"
+                    "swara": "mgR - P;  , m D  , D ,   NS  snD  dNd PM  |  pdnd  mpdp , d   pmM ; M;   mgR R M    P ; ; ;   ||",
+                    "sahitya": "Chin-  ta     la   Be-  -   - - -     - - - tta     Va - - le- -      -  na?-      -  -    - -   Ra-     ma!"
                 },
                 {
-                    "swara": "- - - P- - m D - S - nsrs nsN dNd PM | pdnd mpdp pdnd dmdp mgpm mgR srsn D - R ||",
-                    "sahitya": "Chin- ta la Be- - - - - - - - tta Va - - le- - na?- - - - - - - - - - - - - - - Ra"
+                    "swara": "; ;      - P;  , m D  , S ,   nsrs   nsN  dNd PM  |  pdnd  mpdp  pdnd  dmdp   mgpm  mgR   srsn   D - R ||",
+                    "sahitya": "Chin-  ta     la   Be-  -   - - -     - - - tta     Va - - le- -    na?-     -  -  - -   - - -  - - -     -  -   -   -  Ra"
                 },
                 {
-                    "swara": "rsS - - mp mgR mpD - - ns Mpm gr - - sn dpmg | R - S rg rsS snD- NS RS - RM M - || mgR",
-                    "sahitya": "ma! Kshi ra-- saa - - - - - - - - - - ga-ra- - - Shaya- na-- ! -- - - - - Ra - ma - - - -"
+                    "swara": "rsS ; - mp    mgR   mpD   ; - ns Mpm gr - ; sn dpmg | R ;   S   rg   rsS  snD- NS   RS - RM  M ; || mgR",
+                    "sahitya": "ma!    Kshi   ra--    saa - -    - - -  - - -  - -     ga-ra- -    -     Shaya-   na-- !  --   - - -    -     Ra - ma   - - - -"
                 }
             ]
         },
@@ -90,8 +90,68 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; ; P ;       P ; ; ;        ; ; ; P      mgR - RM  | mg  R ; - R     RM P ;  ; ; ; dn P ; dpmg  ||",
+                    "sahitya": "Naa     ri  - - -       - -  ma    ni  -      ki -    -  -  -       Ji     ra -  li -  - -  cchi na di - - -"
+                },
+                {
+                    "swara": "rsrm- P ;     dNd P;      ; ; ; P      mgR - RM  | mg  R ; - R     RM  P ;  ; ; ; dn P ; dpmg  ||",
+                    "sahitya": "Naa      ri  - - -       - -  ma    ni  -    ki -     -  -  - -    Ji     ra -   li -  - - - cchi na di - - -"
+                },
+                {
+                    "swara": "R; RM      M ; mgR    R S- S, r    G - S RS   | S ; snD         NS RS  R ; ; ;  ; rg rsS ;  ||",
+                    "sahitya": "--  Na-        de  - - -       Ne  Vi -    -     -  - -       - -  nna -       -  - nu-        ra  - - -   - Ra- ma--"
+                },
+                {
+                    "swara": "; ; P ;     ;   M  D;    NSND     dNd P ;  | ; ; ; M      P dn P ;     pdnd mpdp    P M  mgR  ||",
+                    "sahitya": "Chi-     -   ru dau    Ra- - -      - - - ma          - -- daa-   su-ni         Ban---  - - -   - dha mu ---"
+                },
+                {
+                    "swara": "; ; R ;     GM mgR     RS - SR    G -S RS |  NS   snD   NS   RS  R ; ; ;  ; rg rsS ;  ||",
+                    "sahitya": "Di    - -   rchi--     na-   di -      -    - -  -     Vi-  nna-   - -    nu-  raa -  Ra ma--"
+                },
+                {
+                    "swara": "; ; D ; P ; pmM ;   mgR - RM  P ; ; ;  | ; ;  P ;     M- D , D,     N S sn D  ; R S ;  ||",
+                    "sahitya": "Ni ra  jaa- -   -   - -      kshi-     kai - - -    - - Ni -     -    ra  dhi     Daa- - -    - tina"
+                },
+                {
+                    "swara": "; ; D nd  P ; pmM ;   mgR - RM  P ; ; ;  | ; ;  P nd    pm - D , D,    nsrg rsnd  ; R S ;  ||",
+                    "sahitya": "Ni ra  jaa- -   -   - -      kshi-     kai - - -    - - Ni -    -  -    ra  dhi    Daa- - -    - tina"
+                },
+                {
+                    "swara": "; ; D R   S ; ; ;     S ; sn Srs     dSn  dNd  | pmM , N S     nsR R S    R ; ; ;     ; rg rs S ;  ||",
+                    "sahitya": "Ni -     Keer- --    thi ni - -      -- -    - - -       Vi  --   nna-    - - -   nu -   raa - - - Ra- ma\u2014"
+                },
+                {
+                    "swara": "; ; srsn D    ; S R ;      R ;  GM    mgR   R ;    |  RS -  S R    G - S RS  - N S sn D    ; R S ;   ||",
+                    "sahitya": "Taa- -    -   ra ka    naa    - -     ma - -   -      -  -   Tya-   -     ga - -    raa - ja -     - nuta!"
+                },
+                {
+                    "swara": "; ; ns , n   D -  S R ;   R ;  GM    mgmg GR |  RS -  S R    G - S RS  NS  Srs nd    ; R S ;   ||",
+                    "sahitya": "Taa- -    -   ra ka    naa    - -     ma - -   -     -  -   Tya-   -     ga - -    raa - ja -     - nuta!"
+                },
+                {
+                    "swara": "; ; N R    S ; ; ;    N S sn D     dNd P P    | pdnd mpdp     pmM ; mgR     RS RM  P ; ; ;  ||",
+                    "sahitya": "Daya    to - -     Nan- - -      Nee-  - lu           ko- - -  - - -     raa   -   - -       - -   Ra -  ma!"
+                },
+                {
+                    "swara": "; ; N R    S ; ; ;    N S sn D     dNd P P   | pdnd mpdp     pdnd pmdp     mgpm mgR    srsn  D - R || S ; ;",
+                    "sahitya": "Daya    to - -     Nan- - -      Nee-  - lu   ko- - -  - - -      raa   -   - -        - -     -  -  - -    - - -   -   Ra   ma!"
+                },
+                {
+                    "swara": "mgR; mp  mgR   mpD    ; - ns rgR; - sn dpmg | R ;   S   rg     rsS  snD-  NS   RS - RM  M ; ||",
+                    "sahitya": "Kshi   ra--    saa - -   - - -  - - -   ga-ra- -    -    -   Shaya-   na-- !  --   - - -    -    Nan- nu  - -"
+                },
+                {
+                    "swara": "mgR - P;  , m D  , D ,   NS  snD  dNd PM  |  pdnd  mpdp , d   pmM ; M;   mgR R M    P ; ; ;   ||",
+                    "sahitya": "Chin-  ta     la   Be-  -   - - -     - - - tta     Va - - le- -      -  na?-      -  -    - -   Ra-     ma!"
+                },
+                {
+                    "swara": "; ;      - P;  , m D  , S ,   nsrs   nsN  dNd PM  |  pdnd  mpdp  pdnd  dmdp   mgpm  mgR   srsn   D - R ||",
+                    "sahitya": "Chin-  ta     la   Be-  -   - - -     - - - tta     Va - - le- -    na?-     -  -  - -   - - -  - - -     -  -   -   -  Ra"
+                },
+                {
+                    "swara": "rsS ; - mp    mgR   mpD   ; - ns Mpm gr - ; sn dpmg | R ;   S   rg   rsS  snD- NS   RS - RM  M ; || mgR",
+                    "sahitya": "ma!    Kshi   ra--    saa - -    - - -  - - -  - -     ga-ra- -    -     Shaya-   na-- !  --   - - -    -     Ra - ma   - - - -"
                 }
             ]
         }

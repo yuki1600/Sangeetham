@@ -12,44 +12,44 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - - - || - - - - - r m ||",
-                    "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - - - - - - - -amba"
+                    "swara": "P ;  M - mg       R - R   || S ;  S-  sn D - rs  || R ;  ; ;  ; ;  ||  ; ;        ; ;   ; r m  ||",
+                    "sahitya": "shrI  sa     ra-       -     sva   ti      na  mO-   -    stu-    tE -       - -           - -     - -         - -     -Amba"
                 },
                 {
-                    "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - DP || P - M - mg r -s r m ||",
-                    "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
+                    "swara": "P ;  M - mg       R - R   || S ;  S-  sn D - rs  || R ;  ; ;  DP  ||  P ;       M-mg    r -s r m  ||",
+                    "sahitya": "shrI  sa     ra-       -     sva   ti      na  mO-   -    stu-    tE -       - -          para    dE       va  tE -  - Am-ba"
                 },
                 {
-                    "swara": "P - M - mg R - R || S - S- sn D - rs || R - - - -dP || P - M - mg r -s r m ||",
-                    "sahitya": "shri sa ra- - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
+                    "swara": "P ;  M - mg       R - R   || S ;  S-  sn D - rs  || R ;  ; ;  ,dP  ||  P ;       M-mg    r -s r m  ||",
+                    "sahitya": "shrI  sa     ra-       -     sva   ti      na  mO-   -    stu-    tE -       - -          para    dE       va  tE -  - Am-ba"
                 },
                 {
-                    "swara": "P -r pm - dp mgR",
-                    "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - para de va te - - Am-ba"
+                    "swara": "- R   || S ;    rr-  sn     D - rs    || R ;    ; ;       sdP  ||  P ;      dp-mg    r -s r m  ||",
+                    "sahitya": "shrI  sa     ra-       -    -   sva   ti      na  mO-   -    stu-    tE -     - -       para    dE       va  tE -  - Am-ba"
                 },
                 {
-                    "swara": "P -r pm - dp mgR - R || S - Srg- rsnd - - rs || R - - - sdP || P - dp - mg R - ||",
-                    "sahitya": "shri sa ra- - - sva ti na - mo- - stu- te - - - para de va te - - -"
+                    "swara": "P ,r  pm - dp     mgR  - R   || S ;    Srg-  rsnd   ; - rs    || R ;    ; ;       sdP  ||  P ;      dp-mg      R ;   ||",
+                    "sahitya": "shrI  sa     ra-       -    -   sva   ti      na -  mO-    -   stu-    tE -     - -     para    dE      va  tE -     -  -"
                 },
                 {
-                    "swara": "S s d m g R pm - g r || mp- d r rdS - - || - - - - - - ||",
-                    "sahitya": "shripati gau- ri pati guru guha vinu te- - - - - - - - -"
+                    "swara": "S    s d  m  g R  pm - g r ||   mp- d r      rdS        ;  ;   ||    ; ;  ; ;  ; ;  ||",
+                    "sahitya": "shrIpati  gau- rI   pati  guru    guha vinu  tE-         -  -       - - - - - -"
                 },
                 {
-                    "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
-                    "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
+                    "swara": "S    s d  m  g R  pm - g r ||   mp- d r      sn-d p      m g - r m   ||",
+                    "sahitya": "shrIpati  gau- rI   pati  guru    guha vinu  tE-vidhi   yuva  tE-"
                 },
                 {
-                    "swara": "P dSn",
-                    "sahitya": "shri sa ra- - - sva ti na - mo- - st u- te - - - para de va te - - -"
+                    "swara": ", dp  - mgR    ; - R   || S ;    Srg-  rsnd   ; - rs    || R ;    ; ;       sdP  ||  P ;      dp-mg      R ;   ||",
+                    "sahitya": "shrI   sa      ra- -      -    sva   ti      na -  mO-    -   st u-    tE -     - -     para    dE      va  tE -     -  -"
                 },
                 {
-                    "swara": "S s d m g R pm - g r || mp- d r sn - d p m g - r m ||",
-                    "sahitya": "shripati gau- ri pati guru guha vinu te-vidhi yuva te-"
+                    "swara": "S    s d  m  g R  pm - g r ||   mp- d r      sn-d p      m g - r m   ||",
+                    "sahitya": "shrIpati  gau- rI   pati  guru    guha vinu  tE-vidhi   yuva  tE-"
                 },
                 {
-                    "swara": "P dSn",
-                    "sahitya": "shri sa ra- - - sva ti na mo- - stu- te - - - - - - - - - - -"
+                    "swara": ", dp  - mgR    ; - R   || S ;     s-snd       ; - rs    || srmg       R ;    ; ;   ||   ; ;      ; ;        ; ;   ||",
+                    "sahitya": "shrI   sa      ra- -      -    sva   ti      na mO-    -   stu-    tE -         - -     - -       - -      - - - -"
                 }
             ]
         },
@@ -57,8 +57,76 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
+                    "swara": "R ;  S - sn  D - S  || S- R  R mg  R R  ||  S R  R  mg  rs rm ||  P P    P ds  PD ||",
+                    "sahitya": "vA sa  nA-    -     tra     ya vi    var- -       ji ta     vara     muni-    bhA--         vita    mU--      rttE-"
+                },
+                {
+                    "swara": "P ;  ; ;  ; ;  ||",
+                    "sahitya": "- -  - -  - -"
+                },
+                {
+                    "swara": "R ;  S - sn  D - S  || S- R  rpmg  R R  ||  S R  R  mg  rs rm ||  P P    P ds  pDp ||",
+                    "sahitya": "vA sa  nA-    -     tra     ya vi    var- -       ji ta     vara     muni-    bhA--         vita    mU--      rttE-"
+                },
+                {
+                    "swara": "R ;  S - sn  D - S  || S- R  rpmg  R R  ||  S R  R  mg  rs rm ||  P P    P ds  PD ||",
+                    "sahitya": "vA sa  nA-    -     tra     ya vi    var- -       ji ta     vara     muni-    bhA--         vita    mU--      rttE-"
+                },
+                {
+                    "swara": "snD  D - S  ;  - R ||  ; ;  ; ;  ; ;  ||   dr D    S ;  ; ;  ||  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "vA-- sa   vA -    di    - -  - -  - -       - -  - -  - -    - -  - -  - -"
+                },
+                {
+                    "swara": "snD  D - S  ;  - R ||  , r R  mg-R  S sn ||   sn dr   S- sn D P  ||  M P   ppmm  R ;  ||",
+                    "sahitya": "vA-- sa   vA -    dya      akhi la-   nir ja ra           va-ra    vi  ta-    raNa     bahu   kIr- - -     ttE"
+                },
+                {
+                    "swara": "D  D - S  ;  - R ||  R rp  mg-R  S sn ||   sn dr   S- sn D P  ||  M P   ppmm  R - gr ||",
+                    "sahitya": "vA-- sa   vA -    dya    akhi- la-   nir ja ra           va-ra    vi  ta-    raNa     bahu   kIr- - -     ttE dara"
+                },
+                {
+                    "swara": "S ;  S -S  S - S ||  S nd       dM,   G  R ;   ||    P ;       P M    M D   ||  D P      D R  sdS  ;  ||",
+                    "sahitya": "hA sa yu      ta   mu   khAm   bu -   ru    hE        ad        bhuta  cara     Nam-     buru    hE-"
+                },
+                {
+                    "swara": "R ;  R M  G - R  ||  ; sn  D- dr  sr ,s   ||  D  R  sn- D  ; P ||  ; pp    mm - rs   R- g  r   ||",
+                    "sahitya": "Sam sA-          ra  bhI    -tyA      -   pa-    hE-        saka        la-  man  -trA    kSa   ra-    gu-  hE dara"
+                },
+                {
+                    "swara": "S ;  S -S  S - S ||  S nd       dM,",
                     "sahitya": ""
+                },
+                {
+                    "swara": "G  R ;   ||    P ;       P M    M D   ||  D P      D R  sdS  ;  ||",
+                    "sahitya": "hA sa yu      ta   mu   khAm   bu -   ru    hE        ad        bhuta  cara     Nam-     buru    hE-"
+                },
+                {
+                    "swara": "R ;  R pm  G - R  ||  ; sn  D- dr  s R sd",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "||  D  R  sn- D  ; P ||  ; pp    mm - rs   R- g  r   ||",
+                    "sahitya": "Sam sA-          ra  bhI    -tyA      -   pa-    hE-  -      saka       la-  man  -trA    kSa   ra-    gu-  hE dara"
+                },
+                {
+                    "swara": "S   s-  s        s -  s    S          m g   R ||  P   p m       d d     P  d r S  ||",
+                    "sahitya": "hAsa yu      ta  mu  khAm  bu ru hE   adbhuta      caraNAm-     buruhE"
+                },
+                {
+                    "swara": "R   rm g - R  n     d- d R  ||  d r  s - d      , P -  m g -r  r  m ||",
+                    "sahitya": "samsA   ra   bhItyA  -  pahE   sakala   man- trAkSa     ra guhE -      [finish"
+                },
+                {
+                    "swara": "P ;  M - mg       R - R   || S ;  Srg -  rsnd   ; - rs    || R ;  ; ;  sdP  ||  P ;      dp-mg      R ;   ||",
+                    "sahitya": "shrI  sa     ra-       -    sva   ti      na  -  mO-   -    stu-    tE -    - -       para    dE       va  tE -    - -"
+                },
+                {
+                    "swara": "S    s d  m  g R  pm - g r ||   mp- d r      sn-d p      m g - r m   ||",
+                    "sahitya": "shrIpati  gau- rI   pati  guru    guha vinu  tE-vidhi   yuva  tE-"
+                },
+                {
+                    "swara": ", dp  - mgR    ; - R   || S ;     r -snd       ; - rs    || srmg       R ;    ; ;   ||   ; ;      ; ;        ; ;   ||",
+                    "sahitya": "shrI   sa      ra- -      -    sva   ti      na mO-    -   stu-    tE -         - -     - -       - -      - - - -"
                 }
             ]
         }

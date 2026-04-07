@@ -6,10 +6,10 @@ import NotationLane from './NotationLane';
 import { buildAavartanas } from '../utils/songParser';
 
 /** Duration of one aavartana in seconds */
-const AAVARTANA_SEC = 3.3;
+const AAVARTANA_SEC = 4.0;
 
 /** Pixel width of one aavartana column in the scrolling grid */
-const AAVARTANA_PX = 320;
+const AAVARTANA_PX = 800;
 
 // ─── WaveformCanvas ───────────────────────────────────────────────────────────
 
@@ -484,8 +484,15 @@ export default function SongSection({ song, onBack, theme, tonicHz, onTonicChang
                                 <div className="font-bold text-sm" style={{ color: 'var(--text-primary)', fontFamily: "'Outfit', sans-serif" }}>
                                     {songDetails?.title || song?.title || 'Lambodara Lakumikara'}
                                 </div>
-                                <div className="text-[9px] uppercase tracking-widest font-black opacity-60">
-                                    {songDetails?.raga || 'Malahari'} · {songDetails?.tala || 'Rupakam'}
+                                <div className="flex flex-col gap-0.5 mt-0.5">
+                                    <div className="text-[9px] uppercase tracking-widest font-black opacity-60">
+                                        {songDetails?.raga || 'Malahari'} · {songDetails?.tala || 'Rupakam'}
+                                    </div>
+                                    {songDetails?.composer && songDetails.composer !== 'Unknown' && (
+                                        <div className="text-[9px] uppercase tracking-widest font-black opacity-40">
+                                            {songDetails.composer}
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </div>

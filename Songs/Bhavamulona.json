@@ -12,160 +12,198 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- ns - n P mgpm gm- gs | - - S - p M | P N pm P ||",
-                    "sahitya": "bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "gOvinda gOvinda yani koluvavO manasa ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- ns - n P mgpm gm- gs | - - ns - p M | P - nn pm P ||",
-                    "sahitya": "bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "gOvinda gOvinda yani koluvavO manasa ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "hari hari anavO manasA||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- gm - p N - n s - s S | - s g - n S | P n - pm G - gm ||",
-                    "sahitya": "go- vin da- - - go- -vinda - ani kolu va- vo - mana"
+                    "swara": "vishNuvu vishnNuvani vedaka vO manasA ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "pn- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "atchyuta atchyuta SaraNanavO manasa ||",
+                    "sahitya": "In thought (\u201cbhavamu-lona\u201d) and action (\u201cbahyamunandunu\u201d) chant (\u201ckoluva\u201d) \"Govinda,\" oh my"
                 },
                 {
-                    "swara": "- gm - p N - sgmg - n S | - s g - n S | P n - pm G - gm ||",
-                    "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
+                    "swara": "hari hari anavO manasA||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "pn- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "vishNuvu vishnNuvani vedaka vO manasA ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "- m m - m M M - m pm G | - gm - p - gm | npm - g S S ||",
-                    "sahitya": "Ha ri ya va ta - ra mu le-- akhi - la de- - - - -va ta lu"
+                    "swara": "atchyuta atchyuta SaraNanavO manasa ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam Sahityam",
+            "content": [
+                {
+                    "swara": "; ns        , n P     mgpm   gm- gs   |   ;  - S             , p  M  |     P N           pm P   ||",
+                    "sahitya": "bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu    nan-          du-  nu"
                 },
                 {
-                    "swara": "- - m m - m M M - m P - pmG | - gm - p - gm | npm - g S S ||",
-                    "sahitya": "Ha ri ya va ta - ra mu le-- akhi - la de- - - - - va ta lu"
+                    "swara": "; ns        , n P     mgpm   gm- gs   |   ;  - ns             , p  M  |     P , nn        pm P   ||",
+                    "sahitya": "bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "- - g m - g S sn gs ns np | - ns - g M | P ns - n P ||",
-                    "sahitya": "Ha ri loni ve- - - - - - bra- hma- ndam- bu lu"
+                    "swara": "; gm     , p   N      ; n s    , s S      |   ; s g                , n S     |  P n-pm     G - gm  ||",
+                    "sahitya": "gO-     vin da- - - gO-  -vinda      - ani               kolu       va-  vO     -    mana"
                 },
                 {
-                    "swara": "- - m m - m M mgs - gm P - pmG | - gm - p - gm | nppm g- s S ||",
-                    "sahitya": "Ha ri ya va ta - ra mu le-- akhi - la de- - - -- va ta lu"
+                    "swara": "pn- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa- bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "- - g m - g S sn gs ns np | - ns - g M | P ns - n P ||",
-                    "sahitya": "Ha ri loni ve- - - - - - bra- hma- ndam- bu lu"
+                    "swara": "; gm     , p   N        ; sgmg    , n S    |   ; s g               , n S     |  P n-pm     G - gm  ||",
+                    "sahitya": "gO-     vin da- -      gO-  -   vinda    - yani             kolu       va-  vO     -    mana"
                 },
                 {
-                    "swara": "- g m - pnp P N n s - | - sg - n S | ssnp - n S ||",
-                    "sahitya": "Ha ri -na- mamu le - - -an- -ni man tra- - mulu"
+                    "swara": "pn- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa- bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "- g m - psnnP P N n s - | - sg - n S | nsN - npP - n S ||",
-                    "sahitya": "Ha ri -na- mamu le - - -an- -ni man tra- - - - mulu"
+                    "swara": "; m m   , m M    M , m    pm G    |   ;  gm        , p-gm    |  npm-g       S S      ||",
+                    "sahitya": "Ha ri    ya va   tA - ra  mu  lE--       akhi      - la dE-     - - - -va      ta lu"
                 },
                 {
-                    "swara": "- s g - n S - pn - m P | - m p - g P | m g S gm pn ||",
-                    "sahitya": "Hari hari hari hari ha ri yana vo - - manasa"
+                    "swara": "; - m m   , m M    M , m    P - pmG | ; gm        , p-gm    |  npm-g      S S      ||",
+                    "sahitya": "Ha ri    ya va   tA - ra  mu  lE--       akhi      - la dE-     - - - - va     ta lu"
                 },
                 {
-                    "swara": "- s g - n S - pn - m P | - n p - g P | m g S gm pn ||",
-                    "sahitya": "Hari hari hari hari ha ri yana vo - - manasa"
+                    "swara": "; - g m     , g S    sn gs       ns  np    | ; ns           , g M     |  P ns          , n P    ||",
+                    "sahitya": "Ha ri     lOni   vE- -      - -   - -       bra-           hmA-    nDam-        bu lu"
                 },
                 {
-                    "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- - bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "; - m m   , m M    mgs-gm  P - pmG | ; gm        , p-gm    |  nppm     g- s  S      ||",
+                    "sahitya": "Ha ri    ya va     tA - ra   mu  lE--       akhi      - la dE-     - - --      va ta lu"
                 },
                 {
-                    "swara": "- gm - p N - sgmg - n S | - s g - n S | P n - pm G - gm ||",
-                    "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
+                    "swara": "; - g m     , g S    sn gs       ns  np    | ; ns           , g M     |  P ns          , n P    ||",
+                    "sahitya": "Ha ri     lOni   vE- -      - -   - -       bra-           hmA-    nDam-        bu lu"
                 },
                 {
-                    "swara": "pn- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": ";  g m     , pnp     P N   n s   ;  | ; sg         ,  n  S  |  ssnp       , n S  ||",
+                    "sahitya": "Ha ri    -nA-    mamu      lE -  -       -an-          -ni man tra- -         mulu"
                 },
                 {
-                    "swara": "- - m - m M M M Mpm G | - gm - p - gm | npm - g S S ||",
-                    "sahitya": "Vish Nu ni ma hi ma le - - - vihi ta kar- - -- ma mulu"
+                    "swara": ";  g m     , psnnP   P N   n s   ;  | ; sg         ,  n  S  |  nsN-npP    , n S  ||",
+                    "sahitya": "Ha ri    -nA-    mamu      lE -  -       -an-          -ni man tra- -   - -     mulu"
                 },
                 {
-                    "swara": "- - m - m M M M P pmG | - gm - p - gm | nppm --g S S ||",
-                    "sahitya": "Vish Nu ni ma hi ma le - - vihi ta kar- - -- ma mulu"
+                    "swara": "; s g       , n S      ; pn       , m P     |   ; m p      , g P   | m g S      gm pn    ||",
+                    "sahitya": "Hari      hari        hari      hari           ha ri       yana    vO - -     manasA"
                 },
                 {
-                    "swara": "- - - g - s S S N gs np | - ns - g M | P ns - n P ||",
-                    "sahitya": "Vish Nuni poga De- di- ve - - dam- bulu"
+                    "swara": "; s g       , n S      ; pn       , m P     |   ; n p      , g P    | m g S      gm pn    ||",
+                    "sahitya": "Hari      hari        hari      hari           ha ri       yana    vO - -     manasA"
                 },
                 {
-                    "swara": "- - g - m- P P N N S | - sg - n S | ssnp - n S ||",
-                    "sahitya": "Vish Nu Du okka De- vis- wanta ra-- tmudu"
+                    "swara": "sgmg- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa- -   bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "- - g - m- pssn P N N S | - sg - n S | ssnp - - n S ||",
-                    "sahitya": "Vish Nu Du ok ka De- vis- wanta ra-- tmudu"
+                    "swara": "; gm     , p   N        ; sgmg    , n S    |   ; s g               , n S     |  P n-pm     G - gm  ||",
+                    "sahitya": "gO-     vin da- -      gO-  -   vinda    - yani             kolu       va-  vO     -    mana"
                 },
                 {
-                    "swara": "- - g - n S - pn - m P | - M N P | pmgs - gm ||",
-                    "sahitya": "Vi shnuvu vishnnu vani ve da ka vo -- mana"
+                    "swara": "pn- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa- bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "pN- g - n S - pn - m P | - N np pm | pmgs - gmpn ||",
-                    "sahitya": "sa Vi shnuvu vishnnu vani ve da ka vo -- mana"
+                    "swara": "; , m     , m M    M M    Mpm G  |   ;  gm        , p-gm    |  npm-g       S S      ||",
+                    "sahitya": "Vish   Nu ni    ma hi   ma  lE - -     - vihi         ta kar-     - --  ma     mulu"
                 },
                 {
-                    "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "; , m     , m M      M  M     P   pmG  |   ;  gm        , p-gm    |  nppm ,-g       S S      ||",
+                    "sahitya": "Vish   Nu ni     ma hi      ma  lE -       - vihi         ta kar-      - --    ma     mulu"
                 },
                 {
-                    "swara": "- gm - p N - sgmg - n S | - s g - n S | P n - pm G - gm ||",
-                    "sahitya": "go- vin da- - go- - vinda - yani kolu va- vo - mana"
+                    "swara": "; , - g     , s S    S N       gs  np    | ; ns           , g M     |  P ns          , n P    ||",
+                    "sahitya": "Vish  Nuni  poga     De- di-      vE            -  -         dam-           bulu"
                 },
                 {
-                    "swara": "pn- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "; , g     , m- P    P N      N S       |  ;  sg        , n S        |    ssnp         , n S  ||",
+                    "sahitya": "Vish  Nu Du okka    DE-           vis-        wAnta         rA--          tmuDu"
                 },
                 {
-                    "swara": "- - m - m M M M Mpm G | - gm - p - gm | nppm G S ||",
-                    "sahitya": "At chyutu I ta de - - A- di yu nan- - tya mu"
+                    "swara": "; , g     , m- pssn  P  N      N S       |  ;  sg        , n S        |    ssnp ;         , n S  ||",
+                    "sahitya": "Vish  Nu Du ok  ka    DE-           vis-        wAnta          rA--          tmuDu"
                 },
                 {
-                    "swara": "- - m - m M M P n- pmG - | - gm - p - gm | nppm- - G S ||",
-                    "sahitya": "At chyutu I ta - de - - A- di yu nan- - tya mu"
+                    "swara": "; , g    ,  n  S      ; pn       , m P       |  ; M         N  P         |  pmgs       ; gm    ||",
+                    "sahitya": "Vi    shNuvu   vishnNu vani          ve         da ka          vO  --         mana"
                 },
                 {
-                    "swara": "- - - g - g S S N gs np | - ns - g M | P ns - n P ||",
-                    "sahitya": "Atc hyutu De- - - - - asu - ran- ta - - kudu"
+                    "swara": "pN- g    ,  n  S      ; pn       , m P       |  ; N         np  pm     |  pmgs       ; gmpn    ||",
+                    "sahitya": "sA Vi    shNuvu   vishnNu vani          ve         da ka          vO  --         mana"
                 },
                 {
-                    "swara": "- - - g - g S S ns mg snP | - ns - g M | P ns - n P ||",
-                    "sahitya": "Atc hyutu De- - - - - asu - ran- ta - - kudu"
+                    "swara": "sgmg- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa-     bhA   - vamu     lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "- - g - m - P N - gs np- N | S- sg - n - S | ssnp - n S ||",
-                    "sahitya": "At chyutu Du Sree -- ven ka ta- dri mee da- - nide"
+                    "swara": "; gm     , p   N        ; sgmg    , n S    |   ; s g               , n S     |  P n-pm     G - gm  ||",
+                    "sahitya": "gO-     vin da- -      gO-  -   vinda    - yani             kolu       va-  vO     -    mana"
                 },
                 {
-                    "swara": "- - g - m- P N -gs np- N | S - snsm gg - s S | ssnnpP- - n S ||",
-                    "sahitya": "At chyutu Du Sree -- ven ka ta- - -dri mee da- - - nide"
+                    "swara": "pn- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa- bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 },
                 {
-                    "swara": "- - g - n S - pn - m P | - n p - g P | mgS - gm ||",
-                    "sahitya": "At chyuta - atchyu - ta Sa ra Na na vo - mana"
+                    "swara": "; , m     , m M    M M    Mpm G  |   ;  gm        , p-gm    |  nppm      G  S      ||",
+                    "sahitya": "At     chyutu  I   ta    dE -   -           A-           di yu       nan- -      tya mu"
                 },
                 {
-                    "swara": "pN- g - n S - pn - m P | - n p - g P | mgS - gmpn",
-                    "sahitya": "sa At chyuta - atchyu - ta Sa ra Na na vo - mana"
+                    "swara": "; , m     , m M      M  P    n- pmG ,  |   ;  gm        , p-gm    |  nppm; ;    G S       ||",
+                    "sahitya": "At     chyutu     I   ta    -  dE - -           A-           di yu       nan- -      tya mu"
                 },
                 {
-                    "swara": "sgmg- ng s- n P gmnp pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "; , - g     , g S    S N       gs  np    | ; ns           , g M     |  P ns          , n P    ||",
+                    "sahitya": "Atc  hyutu DE-      - -  - -       asu           - rAn-      ta - -           kuDu"
                 },
                 {
-                    "swara": "- gm - p N - ns - s- nsG | - s g - n S | P n - pm G - gm ||",
-                    "sahitya": "go- vin da- - go- - vin da- - yani kolu va- vo - mana"
+                    "swara": "; , - g     , g S    S ns      mg  snP  | ; ns           , g M     |  P ns          , n P    ||",
+                    "sahitya": "Atc  hyutu DE-      - -  - -       asu           - rAn-      ta - -           kuDu"
                 },
                 {
-                    "swara": "pn- ng s- n P gm - np pm- gs | - - ns - p M | P nsN pm P ||",
-                    "sahitya": "sa- bha - vamu lo- - - - - na- - ba - hyamu nan- du- nu"
+                    "swara": "; , g     , m - P    N-gs      np- N       |  S- sg        , n - S        |    ssnp         , n S  ||",
+                    "sahitya": "At    chyutu Du Sree   --   vEn       ka tA-       dri mee        da- -           nide"
+                },
+                {
+                    "swara": "; , g     , m- P      N -gs      np- N     |  S -  snsm     gg-s   S    | ssnnpP,        , n S  ||",
+                    "sahitya": "At    chyutu Du Sree   --   vEn      ka   tA-        - -dri mee  da- - -           nide"
+                },
+                {
+                    "swara": "; , g    ,  n  S      ; pn       , m P       |  ; n  p        , g   P         |  mgS       ; gm    ||",
+                    "sahitya": "At   chyuta   - atchyu   -  ta           Sa ra       Na  na          vO -         mana"
+                },
+                {
+                    "swara": "sgmg- ng       s- n P     gmnp    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa-     bhA   - vamu     lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
+                },
+                {
+                    "swara": "; gm     , p   N        ; ns      , s-  nsG    |   ; s g               , n S     |  P n-pm     G - gm  ||",
+                    "sahitya": "gO-     vin da- -      gO-  - vin da-        - yani             kolu       va-  vO     -    mana"
+                },
+                {
+                    "swara": "pn- ng       s- n P     gm-np    pm- gs   |   ;  - ns             , p  M  |     P nsN        pm P   ||",
+                    "sahitya": "sa- bhA     - vamu  lO- - -   - -    na-    -     bA          - hyamu      nan-          du-  nu"
                 }
             ]
         }

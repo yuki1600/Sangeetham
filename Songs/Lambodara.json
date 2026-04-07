@@ -12,40 +12,81 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "M P | D S S R || R S | D P M P ||",
-                    "sahitya": "Sree - | Ga na na tha || sin dhu | - ra var na ||"
+                    "swara": "M P     | D S S R || R S  | D P M P ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "R M | P D M P || D P | M G R S ||",
-                    "sahitya": "Ka ru | na Sa ga ra || ka ri | va dha na - ||"
+                    "swara": "Sree -  | Ga na na tha || sin dhu | - ra var  na ||",
+                    "sahitya": "... and the ocean of compassion (\u201ckaruna sagara\u201d). You have the visage (\u201cvadana\u201d) of the mighty"
                 },
                 {
-                    "swara": "S - | R M G R || S R | G R S - ||",
-                    "sahitya": "Lam - | bo - dha ra || la ku | mi ka ra - ||"
+                    "swara": "R M  | P D M P || D P | M G R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "R M | P D M P || D P | M G R S ||",
-                    "sahitya": "Am - | ba - su tha || a ma | ra vi nu tha ||"
+                    "swara": "Ka ru  | na Sa ga ra || ka ri | va  dha - na ||",
+                    "sahitya": "... and a   protruding belly (\u201clambodara\u201d). You hold goddess lakshmi (\u201clakumi\u201d) in your hand (\u201ckara\u201d)."
                 },
                 {
-                    "swara": "S - | R M G R || S R | G R S - ||",
-                    "sahitya": "Lam - | bo - dha ra || la ku | mi ka ra - ||"
+                    "swara": "S -  | R M G R || S R | G R S , ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "M P | D S S R || R S | D P M P ||",
-                    "sahitya": "Sid dha | cha - ra na || ga na | se - vi tha ||"
+                    "swara": "Lam -  | bo - dha ra || la ku | mi ka ra - ||",
+                    "sahitya": "O son of Parvathi (\u201camba sutha\u201d) you are worshipped by (\u201cvinutha\u201d) the gods (\u201camara\u201d)."
                 },
                 {
-                    "swara": "R M | P D M P || D P | M G R S ||",
-                    "sahitya": "Sid dhi | vi na ya ka || the - | na mo na mo ||"
+                    "swara": "R M  | P D M P || D P | M G R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "M P | D S S R || R S | D P M P ||",
-                    "sahitya": "Sa ka | la vi dya - || - dhi | pu - ji tha ||"
+                    "swara": "Am -  | ba - su tha || a ma | ra vi nu tha ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "R M | P D M P || D P | M G R S ||",
-                    "sahitya": "Sa - | rvo - tha ma || the - | na mo na mo ||"
+                    "swara": "S -  | R M G R || S R | G R S , ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Lam -  | bo - dha ra || la ku | mi ka ra - ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "M P     | D S S R || R S  | D P M P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sid dha | cha - ra na || ga na | se - vi  tha ||",
+                    "sahitya": "You grant your devotees all their wishes (\u201csiddhi vinayaka\u201d) and I bow to you  (\u201cthe namo \u201d)."
+                },
+                {
+                    "swara": "R M  | P D M P || D P | M G R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sid dhi  | vi na ya ka || the - | na mo na  mo ||",
+                    "sahitya": "(Lam)"
+                },
+                {
+                    "swara": "M P     | D S S R || R S  | D P M P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sa ka  | la vi dya - || - dhi | pu - ji  tha ||",
+                    "sahitya": "You are the greatest one of all (\u201csarvothama\u201d) and I pray to you."
+                },
+                {
+                    "swara": "R M  | P D M P || D P | M G R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sa -  | rvo - tha ma || the - | na mo na  mo ||",
+                    "sahitya": "(Lam)"
                 }
             ]
         }

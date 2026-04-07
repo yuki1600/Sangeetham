@@ -12,32 +12,32 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- - - r - - G - g m - p M | P - - - pm G - G gr rs ||",
-                    "sahitya": "- - Naa - da - Tanu - mani sham - Shan - - ka ram- -"
+                    "swara": "; , - r  ; - G  ; g m , p   M |  P ;  ; - pm G - G  gr rs  ||",
+                    "sahitya": "- -  Naa -   da  - Tanu - mani   sham -  Shan   - -  ka ram- -"
                 },
                 {
-                    "swara": "S - - r - - G - g m - p M | P dnD P - pm G - G gr rs ||",
-                    "sahitya": "- - Naa - da - Tanu - mani sham - Shan - - ka ram- -"
+                    "swara": "S , - r  ; - G  ; g m , p   M |  P dnD P - pm G - G  gr rs  ||",
+                    "sahitya": "- -  Naa -   da  - Tanu - mani   sham -  Shan   - -  ka ram- -"
                 },
                 {
-                    "swara": "S - - r - - R rg r gM gmP pm | pd pdnd P - pm G - G gr rs ||",
-                    "sahitya": "- - Naa - da Ta- nu-- - -- mani sham - - - Shan - - ka ram- -"
+                    "swara": "S , - r  ;  - R  rg r gM gmP   pm |  pd pdnd   P - pm   G - G    gr rs  ||",
+                    "sahitya": "- -  Naa -   da     Ta- nu--    - --  mani  sham -  - -  Shan   - -  ka  ram- -"
                 },
                 {
-                    "swara": "S - S R - - G G - | - r g - M -m p m- g r - r gm ||",
-                    "sahitya": "- - Na maa- - mi Me- - Mana -saa - - - Shira - saa- - -"
+                    "swara": "S - S  R  ;   ;  G  G ;  |  ; r  g     , M -m     p m- g  r    , r  gm   ||",
+                    "sahitya": "- -  Na   maa-   -  mi  Me-  - Mana   -saa -       -  -  Shira  - saa- - -"
                 },
                 {
-                    "swara": "grs - r - - R rg r gM gmP pm | pd pdnd P - pm G - G gr rs ||",
-                    "sahitya": "- - Naa - da Ta- nu-- - -- mani sham - - - Shan - - ka ram- -"
+                    "swara": "grs - r  ;  - R  rg r gM gmP   pm |  pd pdnd   P - pm   G - G    gr rs  ||",
+                    "sahitya": "- -  Naa -   da     Ta- nu--    - --  mani  sham -  - -  Shan   - -  ka  ram- -"
                 },
                 {
-                    "swara": "S - S R - - N pmmg - | - r g - M -d p m- g r - r gm ||",
-                    "sahitya": "- - Na maa- - mi Me- - - - Mana -saa - - - Shira - saa- - -"
+                    "swara": "S - S  R  ;   ;  N  pmmg ;  |  ; r  g     , M -d      p m- g  r    , r  gm   ||",
+                    "sahitya": "- -  Na   maa-   -  mi  Me-  - -    - Mana   -saa -       -  -  Shira  - saa- - -"
                 },
                 {
-                    "swara": "grs - r - - G - g m - p M | ND P - - - - - ||",
-                    "sahitya": "- - Naa - da Ta nu-- - mani sham - - - - - - -"
+                    "swara": "grs - r  ;  - G  ; g m , p   M |  ND  P ;  ; ;  ; ;   ||",
+                    "sahitya": "- -  Naa -   da       Ta nu--   - mani      sham -  - -   - -  - -"
                 }
             ]
         },
@@ -45,20 +45,20 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- P - d N P - M G | M - R S gRg M - ||",
-                    "sahitya": "- Mo - daka ra - Ni ga mo- ttama Saa- ma -"
+                    "swara": ";  P  , d N P ;  M G  | M ;  R S  gRg  M ;  ||",
+                    "sahitya": "- Mo      - daka ra -  Ni ga   mo-  ttama Saa- ma -"
                 },
                 {
-                    "swara": "- pd p - d N P -nd p -m G | M - R S gRg M - ||",
-                    "sahitya": "- Mo - daka ra - Ni ga mo- ttama Saa- ma -"
+                    "swara": ";  pd  p-d N P -nd   p -m G  | M ;  R S  gRg  M ;  ||",
+                    "sahitya": "- Mo      -  daka ra -   Ni ga   mo-  ttama Saa- ma -"
                 },
                 {
-                    "swara": "- pd p - d N P -nd p -m M | Mdp P m- gRrS mgrg mgrg ||",
-                    "sahitya": "- Mo - daka ra - Ni ga mo- tta ma Saa- ma -"
+                    "swara": ";  pd  p-d N P -nd   p -m M  | Mdp P  m- gRrS   mgrg mgrg  ||",
+                    "sahitya": "- Mo      -  daka ra -   Ni ga   mo-  tta  ma   Saa- ma -"
                 },
                 {
-                    "swara": "M- P - D D -p pdnd | N- nd dp- pm - G - pm gr ||",
-                    "sahitya": "- Ve - da saa- ram-- - Vaa - - ram- Vaa- ram- -"
+                    "swara": "M-  P  ; D  D ,p  pdnd | N- nd dp- pm - G ;  pm gr ||",
+                    "sahitya": "-     Ve   - da saa-  ram--    -  Vaa - -   ram- Vaa-  ram- -"
                 }
             ]
         },
@@ -66,8 +66,28 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; P  P ;  pmM ;    P ;  | D- nn dp - M  grpm  gr    sr  ||",
+                    "sahitya": "Sa dyo jaa- - -    taa-    di Pan-  - -   cha Va- -  ktra ja"
+                },
+                {
+                    "swara": "gm- P  P ;  Mpm M    Pdp P  | D- nn dp - M  grpm  G    R ||",
+                    "sahitya": "Sa dyo jaa- - -    taa-    di Pan-  - -   cha Va- -  ktra ja"
+                },
+                {
+                    "swara": "; sr , g M P D N ;  | ; nd   , P ,  mg P G R  ||",
+                    "sahitya": "Sari -gama padha ni -    Vara  - Sa pta- -  swara"
+                },
+                {
+                    "swara": "; P  P ;  ; M ,g - M | ; r g  , r S  gRg M ;  ||",
+                    "sahitya": "Vi dyaa - lo - -   lam    -Vida - litha  Kaa-- lam-"
+                },
+                {
+                    "swara": "; P  P ;  nddp pm-mg | rs- r g  , r S  mgrg mgrg  ||",
+                    "sahitya": "Vi dyaa lo- --      - -   lam -  -  Vida - litha  Kaa-- lam- -"
+                },
+                {
+                    "swara": "M- rg  ,m - P  D D pdnd | N - nd   dp - pm   G ;  pmgr || gs",
+                    "sahitya": "-   Vima -la   Hru   daya  Tyaa--  ga   raa-   - -   ja -   Paa-    lam- -       - -"
                 }
             ]
         }

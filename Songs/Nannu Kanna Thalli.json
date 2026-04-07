@@ -12,28 +12,20 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1. - - - S M G - - M | R- g - gm P pm G M ||",
-                    "sahitya": "nannu kan………na tal li na bha…….gya"
+                    "swara": "1.  ; ;  ; S M  G ;  ; M | R, g ; gm P pm G M ||",
+                    "sahitya": "nannu    kan\u2026\u2026\u2026na                       tal li         nA          bhA\u2026\u2026.gya"
                 },
                 {
-                    "swara": "2. R - - S M G - - M | R- g - gm pdpd",
-                    "sahitya": "-ma nannu kan………na tal li na bha….gya"
+                    "swara": "pm G M ||",
+                    "sahitya": "-mA        nannu    kan\u2026\u2026\u2026na                       tal li         nA               bhA\u2026.gya"
                 },
                 {
-                    "swara": "A. R - - sr sr sn D N | N P - S M G - R ||",
-                    "sahitya": "ma na……….ra………ya……………ni dha…….rma..m bi"
+                    "swara": "A. R ;  ; sr sr sn D N | N P ; S M G    ; R  ||",
+                    "sahitya": "ma           nA\u2026\u2026\u2026.rA\u2026\u2026\u2026ya\u2026\u2026\u2026\u2026\u2026Ni          dha\u2026\u2026.rmA..m      bi"
                 },
                 {
-                    "swara": "pm mg gr Repeat 2",
-                    "sahitya": "ke"
-                },
-                {
-                    "swara": "B. R - - sr sr sn D N | S - - S M M - M ||",
-                    "sahitya": "ma na……….ra………ya……………ni dha…….rma..m bi"
-                },
-                {
-                    "swara": "pm mg gr",
-                    "sahitya": "ke"
+                    "swara": "B. R ;  ; sr sr sn D N  | S ;  ; S  M    M   ; M  ||",
+                    "sahitya": "ma           nA\u2026\u2026\u2026.rA\u2026\u2026\u2026ya\u2026\u2026\u2026\u2026\u2026Ni          dha\u2026\u2026.rmA..m      bi"
                 }
             ]
         },
@@ -41,24 +33,20 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "1. - - - D P - s - S | sM g - M G rg M G ||",
-                    "sahitya": "ka…….na..ka….ngi ra…ma…pa……ti so………da"
+                    "swara": "1.       ; ; ; D  P , s ; S | sM g  ;  M  G rg M G ||",
+                    "sahitya": "ka\u2026\u2026.na..kA\u2026.ngi                       ra\u2026mA\u2026pa\u2026\u2026ti sO\u2026\u2026\u2026da"
                 },
                 {
-                    "swara": "2. R - - - D P - s - S | sM g - M G rg mp mg ||",
-                    "sahitya": "ri ka….na..ka….ngi ra…ma… pa… ti so……… da"
+                    "swara": "2. R ;  ; ; D  P , s ; S | sM  g  ;  M   G rg mp mg ||",
+                    "sahitya": "ri                ka\u2026.na..kA\u2026.ngi                       ra\u2026mA\u2026 pa\u2026 ti sO\u2026\u2026\u2026    da"
                 },
                 {
-                    "swara": "A. R - - S - sn D N | P- s - sn dn P - M ||",
-                    "sahitya": "ri ka…….va……….ve na nu ka……tya……..ya"
+                    "swara": "A. R ;  ;  S  ; sn D N | P, s ;  sn  dn P ; M  ||",
+                    "sahitya": "ri               kA\u2026\u2026.va\u2026\u2026\u2026.vE                   na nu         kA\u2026\u2026tyA\u2026\u2026..ya"
                 },
                 {
-                    "swara": "B. pmmg G S - r sn D N | P- s - sn dn P - M ||",
-                    "sahitya": "ni ka…….va……. ve na nu ka……tya……..ya"
-                },
-                {
-                    "swara": "pmmg gr",
-                    "sahitya": "ni"
+                    "swara": "B. pmmg  G  S , r sn D N | P, s ;  sn  dn P ; M  ||",
+                    "sahitya": "ni       kA\u2026\u2026.va\u2026\u2026. vE                   na nu         kA\u2026\u2026tyA\u2026\u2026..ya"
                 }
             ]
         },
@@ -66,8 +54,12 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "1. ; ;  ; P  P  P ; P | dP  s ; sn dn P  ; mg ||",
+                    "sahitya": "kA\u2026\u2026vu kA\u2026..vu\u2026\u2026\u2026\u2026\u2026..mani nE     mo\u2026\u2026ra.beT\u2026.Ta"
+                },
+                {
+                    "swara": "2. M ;  ; pp , s sn D N | P  pm gr s  s , mG M P ||",
+                    "sahitya": "gA            kara\u2026.ga.dE\u2026\u2026.mi                     ma thi         kama   la  lO   ca ni"
                 }
             ]
         }

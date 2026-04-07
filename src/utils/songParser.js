@@ -89,10 +89,23 @@ export function buildContentRows(composition) {
         const section = composition[sectionIdx];
         for (let contentIdx = 0; contentIdx < (section.content || []).length; contentIdx++) {
             const entry = section.content[contentIdx];
+            // Calculate how many avartanas this row covers by counting non-empty segments separated by ||
+            const getAvCount = (str) => {
+                if (!str) return 0;
+                // Filter out empty parts to handle trailing || or extra whitespace
+                const segments = str.split('||').map(s => s.trim()).filter(s => s.length > 0);
+                return segments.length;
+            };
+
+            const swaraAvs = getAvCount(entry.swara);
+            const sahityaAvs = getAvCount(entry.sahitya);
+            const avCount = Math.max(1, swaraAvs, sahityaAvs);
+
             rows.push({
                 section: section.section,
                 swara: entry.swara || '',
                 sahitya: entry.sahitya || '',
+                avCount,
                 sectionIdx,
                 contentIdx,
             });

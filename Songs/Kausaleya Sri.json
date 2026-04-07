@@ -9,97 +9,127 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "S - S sn D P - P - G P G R S - snd- N - | S - - - - - - - - - - - - - - - ||",
-                    "sahitya": "Kau-sa le- - ya shri bhava ja la dhi dha- ra Na - - - - - - - - - - - - - -"
+                    "swara": "S ;    S  sn     D P - P ;     G P    G R      S - snd- N ,   |   S ;  ;  ;       ;  ;  ;  ;          ;  ;  ;   ;         ;  ;   ;  ;   ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI    bhava ja la    dhi dha-   ra        NA -  -      -  -  -  -         -  -  -  -          - -   - -"
                 },
                 {
-                    "swara": "S - S sn D P - P - G P G R S - D -- N - | S - - - - - rs S S R - -rg M - P D N ||",
-                    "sahitya": "Kau-sa le- - ya shri bhava ja la dhi dha- ra Na - - - - ja- na ki- - - - ramana"
+                    "swara": "S ;    S  sn     D P - P ;     G P    G R      S - D ,- N ,   |   S ;  ;  ;       ;  ;  rs S       S R ; -rg   M - P D N    ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI    bhava ja la    dhi  dha- ra        NA -  -      -  -  jA-       na ki-  - -   -     ramaNa"
                 },
                 {
-                    "swara": "srgr S sn D P - mpdn sn dp mgG R- snd- N - | S - - - - - pmgr G - M - - P D- P D N ||",
-                    "sahitya": "Kau-sa le- - ya shri -- bha-va- ja la dhi dha- ra Na - - - - ja- na ki- - - - ramana"
+                    "swara": "srgr  S  sn     D P - mpdn sn  dp   mgG      R- snd- N ,   |   S ;  ;  ;       ;  ; pmgr   G-M ; - P     D-  P D N    ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -      -  -  jA-       na ki-  - -      -   ramaNa"
                 },
                 {
-                    "swara": "srgr S sn D P - mpdn sn dp G G R- D - - N - | S - - - - - pmgr rg GM - P D- P D N ||",
-                    "sahitya": "Kau-sa le- - ya shri -- bha-va- ja la dhi dha- ra Na - - - - ja- na ki- - - - ramana"
+                    "swara": "srgr  S  sn     D P - mpdn sn  dp   G G      R- D , - N ,   |   S ;  ;  ;       ;  ; pmgr    rg  GM  - P     D-  P D N    ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -      -  -  jA-      na  ki-  -    -     -   ramaNa"
                 },
                 {
-                    "swara": "srgm gr - sn D P - ggrr sn dp G G R- snd- N - | S - - - - gr- rrsn S- R - - R G- grR - ||",
-                    "sahitya": "Kau-sa le- - ya shri -- bha-va- ja la dhi dha- ra Na - - - - ja- na ki- ra ma Na - -"
+                    "swara": "srgm gr-sn    D P - ggrr   sn  dp   G G      R- snd- N ,   |   S ;  ;  ;       ; gr- rrsn    S- R ;  - R     G-  grR ;     ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -      -  -   jA-      na  ki-   ra    ma Na - -"
                 },
                 {
-                    "swara": "- - - R - g - M - P - pdnr - D - p - gP- mgG - | R - - - - - S - S- nd D P - P D N ||",
-                    "sahitya": "Sa ka la lo - - - ka- - ka- ra - - na - - - - - sa- dhu ja - na - smarana"
+                    "swara": ";  ; - R , g    ; M , P ,       pdnr - D , p      ; gP- mgG , |   R  ;    ;    ;       ;  ;   S ;      S- nd  D P     ; P D N    ||",
+                    "sahitya": "Sa   ka    la    lO       -  - -    ka- -        ka-  ra    - -    na -    -    -      -  -  sA-   dhu ja - na -     smaraNa"
                 },
                 {
-                    "swara": "srgm gr - sn D P - ggrr sn dp G G R- D - - N - | S - - - - - - rsN S- R - - R G- grR - ||",
-                    "sahitya": "Kau-sa le- - ya shri -- bha-va- ja la dhi dha- ra Na - - - - ja- na ki- ra ma Na - -"
+                    "swara": "srgm gr-sn    D P - ggrr   sn  dp   G G      R- D , - N ,   |   S ;  ;  ;       ; ; - rsN      S- R ;  - R     G-  grR ;     ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -      -  -   jA-      na  ki-   ra    ma Na - -"
                 },
                 {
-                    "swara": "- - - R - g - M - P - pdnr - D - p - gP- mgG - | R - - - - - R - N- D P - - P D N ||",
-                    "sahitya": "Sa ka la lo - - - ka- - ka- ra - - na - - - - - sa- dhu ja - na - smarana"
+                    "swara": ";  ; - R , g    ; M , P ,       pdnr - D , p      ; gP- mgG , |   R  ;    ;    ;       ;  ;   R ;      N- D  P ;     ; P D N    ||",
+                    "sahitya": "Sa   ka    la    lO       -  - -    ka- -        ka-  ra    - -    na -    -    -      -  -  sA-   dhu ja - na -     smaraNa"
                 },
                 {
-                    "swara": "srgm gr - sn D P - ggrr sn dp G G R- D - - N - | S - - - - - - rsN S- R - - rg M - P D N ||",
-                    "sahitya": "Kau-sa le- - ya shri -- bha-va- ja la dhi dha- ra Na - - - - ja- na ki- - - - rama Na"
+                    "swara": "srgm gr-sn    D P - ggrr   sn  dp   G G      R- D , - N ,   |   S ;  ;  ;       ; ; - rsN      S- R ;  - rg     M - P D N  ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -      -  -   jA-      na  ki-   -  -    -      rama Na"
                 },
                 {
-                    "swara": "S - S sn D P - P - G P G R S - D -- N - | sn sR- - - - S - - - - - - - - - ||",
-                    "sahitya": "Kau-sa le- - ya shri bhava ja la dhi dha- ra Na - - - - - - - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "snD P- pd N - S rmgg - R - - - - - - - | - - - - - - - - - - - - - - - - ||",
-                    "sahitya": "pan-na ga- - shaya- - na"
+                    "swara": "S ;    S  sn     D P - P ;     G P    G R      S - D ,- N ,   |   sn sR,  ;       ;  ;  S ;      ;  ;   ;  ;        ;   ;   ;   ;     ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI    bhava ja la    dhi  dha- ra        NA -  -         -  -  -  -     -  -  -  -        -  -    -  -"
                 },
                 {
-                    "swara": "snD P- pd N - S rmgg - R - - - - - R -g | M -g- G - r - D - N - S - - gr sndp mpdn ||",
-                    "sahitya": "pan-na ga- - shaya- - na pan - - - ka-ja - na ya na - - - - - - - - -"
+                    "swara": "snD P- pd     N - S rmgg ;    R ;  ;  ;        ;  ;  ;  ;    |   ;  ;  ;   ;            ;   ;  ;   ;           ;  ;  ;   ;            ;   ;  ;   ;     ||",
+                    "sahitya": "pan-na ga-    -     shaya- -      nA"
                 },
                 {
-                    "swara": "snD P- pd N - S rmgg - R - - - - - R -g | M -g- G - r - D - N - S - - - - - - - ||",
-                    "sahitya": "pan-na ga- - shaya- - na pan - - - ka-ja - na ya na - - - - - -"
+                    "swara": "snD P- pd     N - S rmgg ;    R ;  ;  ;        ;  ;  R ,g |   M ,g- G , r      ;   D , N ,        S ;  ;   gr        sndp mpdn  ||",
+                    "sahitya": "pan-na ga-    -     shaya- -      nA                   pan -      -  -    ka-ja    -    na  ya         nA     - -        -  - -   - - - -"
                 },
                 {
-                    "swara": "snD P- pd N - S - rgrp GR - - - - rgmp | - -m- G - r - D - N - S - - gr sndp mpdn ||",
-                    "sahitya": "pan-na ga- - shaya- - na pan - - - ka-ja - na ya na - - - - - - - - -"
+                    "swara": "snD P- pd     N - S rmgg ;    R ;  ;  ;        ;  ;  R ,g |   M ,g- G , r      ;   D , N ,        S ;  ;  ;      ;  ;  ;  ;  ||",
+                    "sahitya": "pan-na ga-    -     shaya- -      nA                   pan -      -  -    ka-ja    -    na  ya         nA - -        - - - -"
                 },
                 {
-                    "swara": "snD P- pd N - S - rgrp GR - - - - rgmp | - -m- G - r - D - N - S - - - - - - - ||",
-                    "sahitya": "pan-na ga- - shaya- - na pan - - - ka-ja - na ya na - - - - - -"
+                    "swara": "snD P- pd     N - S-rgrp     GR  ;  ;        ;  ;  rgmp |   ; ,m- G , r      ;   D , N ,        S ;  ;  gr     sndp mpdn  ||",
+                    "sahitya": "pan-na ga-    -    shaya- -    nA                      pan -      -  -   ka-ja    -    na  ya         nA - -        - - - -  - - -"
                 },
                 {
-                    "swara": "R -g gM- r -g -R - S N - D - D P D N - S | N - D - D P - P - m - G- gr R - - - - ||",
-                    "sahitya": "Bha- dradri -- kse- tra va sa ka - tri - pu tra ri dva ja a go - ksa ja- - - - -"
+                    "swara": "snD P- pd     N - S-rgrp     GR  ;  ;        ;  ;  rgmp |   ; ,m- G , r      ;   D , N ,        S ;  ;  ;      ;  ;  ;  ;  ||",
+                    "sahitya": "pan-na ga-    -    shaya- -    nA                      pan -      -  -   ka-ja    -    na  ya         nA - -       -  - - -"
                 },
                 {
-                    "swara": "R -g gM- r -g -R - S srgr sn- D P D N - S | nrgr N - D P - P - m - G- gr R - - - - ||",
-                    "sahitya": "Bha- dradri -- kse- tra va sa ka - tri - pu tra ri dva ja a go - ksa ja- - - - -"
+                    "swara": "R ,g   gM- r     ,g -R  ;  S     N ;  D - D    P D N - S  |   N ;  D - D      P ;    P , m        ; G-  gr R      ;  ;  ;  ;    ||",
+                    "sahitya": "Bha-  drAdri   --  kSE- tra   vA  sa   kA   -  tri -    pu    trA  ri   dva    ja      a   gO      - kSa jA-      -  -  - -"
                 },
                 {
-                    "swara": "R -g gM- r -g -R - S srgr sn- D P D N - S | dnsr N - D P - mpd - pm mg- - G - R - rgM pdN ||",
-                    "sahitya": "Bha- dradri -- kse- tra va sa ka - tri - pu tra ri dva ja a - go - - - ksa ja- he - - -"
+                    "swara": "R ,g   gM- r     ,g -R  ;  S     srgr  sn- D    P D N - S  |   nrgr N - D      P ;    P , m        ; G-  gr R      ;  ;  ;  ;    ||",
+                    "sahitya": "Bha-  drAdri   --  kSE- tra   vA   sa   kA   -  tri -    pu    trA  ri   dva    ja      a   gO      - kSa jA-      -  -  - -"
                 },
                 {
-                    "swara": "srgm gr - sn D P - ggrr sn dp G G R- D - - N - | sR- - - s - - - - - - - - - - - - ||",
-                    "sahitya": "Kau-sa le- - ya shri -- bha-va- ja la dhi dha- ra Na - - - - - - - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "R ,g   gM- r     ,g -R  ;  S     srgr  sn- D    P D N - S  |  dnsr N - D      P ;  mpd-pm   mg; - G , R ,   rgM pdN||",
+                    "sahitya": "Bha-  drAdri   --  kSE- tra   vA   sa   kA   -  tri -    pu    trA  ri   dva    ja   a   -  gO    - - -   kSa jA-  hE  -  - -"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "srgm gr-sn    D P - ggrr   sn  dp   G G      R- D , - N ,   |   sR, ; , s       ;  ;  ;  ;    ;  ;   ;  ;      ;   ;   ;   ;     ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -       -  -  -  -     -  -  -  -        -  -    -  -"
+                },
+                {
+                    "swara": "P , d  N ;      ;  ;  D N     D P ; - G    G P - mgG ; |  R ;  ;  ;        ;  ; - R G     M P - R ,g    M P - D P     ||",
+                    "sahitya": "rA-   mA      -  -  pA-   himAm pa   ran-   dA-  -     mA -  -        -  -  ra vi     kula    so -    ma-     Raghu"
+                },
+                {
+                    "swara": "P , d  N ;      ;  ;  dnS     D , P ,- G    G P - mgG ; |  R ;  ;  ;        ;  ; - R G     M P - R ,g    M P - D P     ||",
+                    "sahitya": "rA-   mA      -  -  pA-   hi-mAmpa   ran-   dA-  -     mA -  -        -  -  ra vi     kula    so -    ma-     Raghu"
+                },
+                {
+                    "swara": "prgr sn-D      ;  ;  dnsr   D , P ,- M    P dd - pmgg ; | GR  ;  ;        ;  ; - R G     M P - R ,g    M P - D P     ||",
+                    "sahitya": "rA-   -- mA   -  -  pA-   hi-mAm pa  ran-     dA-  -     mA -  -        -  -  ra vi     kula    so -    ma-     Ra ti"
+                },
+                {
+                    "swara": "P ;  ,d -D      N  ; -  sd N    D - P ; - G   G P G R  |   snd-n   ;- S     ;  ; R G     M P - R ,g    M P - D P     ||",
+                    "sahitya": "rA  - -  ja       -   -   ja- -     na   ka-   a    ti  - Shubha pa-  la    dha        ra vi     ku la   so -    mA-   Ra ti"
+                },
+                {
+                    "swara": "prgr sn-D      ;  ; - sd N    D - P ; - G   G P G R  |   snd-n   ;- S     R  ;  S  ;    ;  ;   ;   ;       ;   ;   ;   ;      ||",
+                    "sahitya": "rA  - -  ja       -   - ja- -     na   ka-   a    ti  - Shubha pa-  la    dha    -  -   -  -     - -   -  -       -   -   -   -"
+                },
+                {
+                    "swara": "S S    snD    P - P D- S     R G R ;     ;  ;  R G | M G - G R     ; - snD-  N   S ;  ; gr    sn dp mpdn  ||",
+                    "sahitya": "khara dU-   Sha NA- bhan -  ja ka      - - muni  jana    mana   -   ran-    ja   kA- - --    - - --   - - - -"
+                },
+                {
+                    "swara": "S S    snD    P - P D- S     R G R ;     ;  ;  R G | M G - G R     ; - rsnd ;- sn   S R  ; ,s   ;  ;   ;   ;   ||",
+                    "sahitya": "khara dU-   Sha NA- bhan -  ja ka      - - muni  jana    mana   -   ran-      ja   kA- - --    - - --   - - - -"
+                },
+                {
+                    "swara": "R G M G    R,g R S      ; R  ; S       ;  N- D ;  | P M  ; - P     ; M - R G    R-S   R ;     ;   ;   ;   ;     ||",
+                    "sahitya": "Shrta jana   pA- la ka     shrI-va     -  tsa nA-  yaka      mu  - kti   dA-     ya ka  - -     -  -    -  -"
+                },
+                {
+                    "swara": "R G M G    R,g R S      ; NR- S       ;  N- D ;  | P M  ; - P     ; M - R G    R-S   R ;     rgM  pdN     ||",
+                    "sahitya": "Shrta jana   pA- la ka     shrI-va     -  tsa nA-  yaka      mu  - kti   dA-     ya ka  - -      hE -    -  -"
+                },
+                {
+                    "swara": "srgm gr-sn    D P - ggrr   sn  dp   G G      R- D , - N ,   |   S ;  ;  ;       ; ; - Rgr sn  S- R ;  - rg   M - P D N  ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI -- bha-va- ja la    dhi  dha- ra        NA -  -      -  -   jA-      na  ki-   -  -    -    rama Na"
+                },
+                {
+                    "swara": "S ;    S  sn     D P - mpdn sndp  G G     R - D ,- N ,   |   sn sR,  ;       ;  ;  S ;      ;  ;   ;  ;        ;   ;   ;   ;     ||",
+                    "sahitya": "Kau-sa lE-    -  ya  shrI    bhava ja la    dhi  dha- ra        NA -  -         -  -  -  -     -  -  -  -        -  -    -  -"
                 }
             ]
         }

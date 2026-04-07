@@ -9,35 +9,31 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "2 G3 M2 P D2 N3 S",
-                    "sahitya": "Kamalajadala Vimala Su-nayana Kari Varada Karunaambudhe"
+                    "swara": "S   S   S  |  N    D  N    S  ||   N   D   P  |  D   P   M    P  ||",
+                    "sahitya": "Ka  mala    jaa   -     da la      Vi   ma la    Su- na   ya  na"
                 },
                 {
-                    "swara": "S S S | N D N S || N D P | D P M P ||",
-                    "sahitya": "Ka mala jaa - da la Vi ma la Su- na ya na"
+                    "swara": "G   M   P    |  P   D     D    N  || D  P   M  |  P   G    R    S  ||",
+                    "sahitya": "Ka  ri Va    ra   da    Ka  ru    naa-  mbu   dhe  -    -     -"
                 },
                 {
-                    "swara": "G M P | P D D N || D P M | P G R S ||",
-                    "sahitya": "Ka ri Va ra da Ka ru naa- mbu dhe - - -"
+                    "swara": "D    D    D   |   G   G    G    ,  ||  M   P    , |  M  G  R    S  ||",
+                    "sahitya": "Ka   ru   na     Sha ra   dhe  -     Ka  ma  -     laa  -   -     -"
                 },
                 {
-                    "swara": "D D D | G G G - || M P - | M G R S ||",
-                    "sahitya": "Ka ru na Sha ra dhe - Ka ma - laa - - -"
+                    "swara": "R    ,    ,  |  S    ,    ,     ,   ||   ,     ,     ,  |  ,    ,      ,      ,  ||",
+                    "sahitya": "Kaan- - -   thaa -   -    -         -     -    -    - -        -  -"
                 },
                 {
-                    "swara": "R - - | S - - - || - - - | - - - - ||",
-                    "sahitya": "Kaan- - - thaa - - - - - - - - - -"
+                    "swara": "G   M   P  |  M   P  D   P   || N     D   P  |  D   P  M    P  ||",
+                    "sahitya": "Ke  -    shi    Na  ra kaa -   (a)su    ra Vi    bhe -  da    na"
                 },
                 {
-                    "swara": "G M P | M P D P || N D P | D P M P ||",
-                    "sahitya": "Ke - shi Na ra kaa - (a)su ra Vi bhe - da na"
-                },
-                {
-                    "swara": "G M P | P D D N || D P - M | P G R S ||",
-                    "sahitya": "Va ra dha Ve - la a pu ra Su ro - tta ma"
+                    "swara": "G   M   P    |  P   D     D    N  || D  P  -  M  |  P   G    R    S  ||",
+                    "sahitya": "Va  ra  dha    Ve -      la      a     pu  ra  Su    ro   -    tta  ma"
                 }
             ]
         }

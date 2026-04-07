@@ -12,44 +12,44 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1. G - - - - - mgpm | M - - - mg pm gm - r S ||",
-                    "sahitya": "Nin - - - - ne - - - - - - Bhaja"
+                    "swara": "1. G ;  ;  ;  ; ;  mgpm |  M ;  ; - mg  pm gm  , r S  ||",
+                    "sahitya": "Nin   - - - -     ne       - -  - -   - -   Bhaja"
                 },
                 {
-                    "swara": "R - - - - - - gm | P - - M mg pm gmrs ||",
-                    "sahitya": "Na - - - - - Se yu - vaa - - da-nu-"
+                    "swara": "R ;  ; ;  ; ;  ; gm  |   P ;  ; M  mg pm  gmrs  ||",
+                    "sahitya": "Na - -   - -  - Se   yu    -     vaa - -    da-nu-"
                 },
                 {
-                    "swara": "2. rsnp nsgm G- gmpn | snpm G - nppm R S ||",
-                    "sahitya": "Nin ne --- - - - - - - - Bhaja"
+                    "swara": "2. rsnp nsgm  G; gmpn |  snpm    G ;  nppm R S  ||",
+                    "sahitya": "Nin   ne       --- -  - -  - -   - -   Bhaja"
                 },
                 {
-                    "swara": "R - - - - - gmpn | nSn P - m mg pm gmrs ||",
-                    "sahitya": "Na - - - - Se yu - vaa - - da-nu-"
+                    "swara": "R ;  ; ;  ; ;  gmpn  |   nSn P , m mg pm  gmrs  ||",
+                    "sahitya": "Na - -   - -  Se   yu    -     vaa - -    da-nu-"
                 },
                 {
-                    "swara": "3. rsnp nsgm G- snpm | gmpn S - gr snpm R S ||",
-                    "sahitya": "Nin ne --- - - - - - - - Bhaja"
+                    "swara": "3. rsnp nsgm  G; snpm |  gmpn S  - gr  snpm R S  ||",
+                    "sahitya": "Nin   ne       --- -  - -  - -   - -   Bhaja"
                 },
                 {
-                    "swara": "R - - - - - gmpn | srs - n sn- pn p - mpm gmrs ||",
-                    "sahitya": "Na - - - - Se - - -yu - vaa - - -- - da-nu-"
+                    "swara": "R ;  ; ;  ; ;  gmpn  |   srs-n sn- pn p - mpm  gmrs  ||",
+                    "sahitya": "Na - -   - -  Se     - - -yu    - vaa - -     -- -    da-nu-"
                 },
                 {
-                    "swara": "4. rsnp nsgm G- snpm | gmpn S - gr snpm R S ||",
-                    "sahitya": "Nin ne --- - - - - - - - Bhaja"
+                    "swara": "4. rsnp nsgm  G; snpm |  gmpn S  - gr  snpm R S  ||",
+                    "sahitya": "Nin   ne       --- -  - -  - -   - -   Bhaja"
                 },
                 {
-                    "swara": "R - - - - - gmpn | srSS - nsNN- pn PP - mpMM gmrs ||",
-                    "sahitya": "Na - - - - Se - - -yu - vaa - - -- - da-nu-"
+                    "swara": "R ;  ; ;  ; ;  gmpn  |   srSS-nsNN- pn PP - mpMM  gmrs  ||",
+                    "sahitya": "Na - -   - -  Se     - - -yu    -    vaa - -     -- -         da-nu-"
                 },
                 {
-                    "swara": "5. G - - - - - mgpm | M - - - mg pm gm - r S ||",
-                    "sahitya": "Nin - - - - ne - - - - - - Bhaja"
+                    "swara": "5. G ;  ;  ;  ; ;  mgpm |  M ;  ; - mg  pm gm  , r S  ||",
+                    "sahitya": "Nin   - - - -     ne       - -  - -   - -   Bhaja"
                 },
                 {
-                    "swara": "R - - - - - - - | - - - - - - - - ||",
-                    "sahitya": "Na - - - - -"
+                    "swara": "R ;  ; ;  ; ;  ; ;  |   ; ;  ; ;  ; ;  ; ;   ||",
+                    "sahitya": "Na - -   - -  -"
                 }
             ]
         },
@@ -57,52 +57,89 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "Pan na- - - - - ga - - - sha - -",
+                    "swara": "1. P N ; ;  ; ;  pnsn | pnsn pmgm ;  P , N ,  ||",
+                    "sahitya": "Pan   na- -     - -  -  ga - - -   sha  - -"
+                },
+                {
+                    "swara": "S ;  ; ;  ; ;  ; ;  |  ; ;  ; ;  ; ;  ; ; ||",
                     "sahitya": "yi"
                 },
                 {
-                    "swara": "Pan na- - - - - ga - - - sha - -",
-                    "sahitya": "Yi Paru la Ve - da le - - - nu - - -"
+                    "swara": "2. P N ; ;  ; ;  pnsn | pnsn pmgm ;  P , N ,  ||",
+                    "sahitya": "Pan   na- -     - -  -  ga - - -   sha  - -"
                 },
                 {
-                    "swara": "Pan na- - - - - ga - - - sha - -",
-                    "sahitya": "Yi Paru la Ve - da le - - - nu - - -"
+                    "swara": "S ;  ; ;  ; ;  , pN   |  S- ns R S -  s n p m g m p n ||",
+                    "sahitya": "Yi    Paru    la Ve -   da le - - -  nu - - -"
                 },
                 {
-                    "swara": "nsrs - s gm gm pm - p mp | mpnp - n p n mPm gMr ||",
-                    "sahitya": "Charanam"
+                    "swara": "3. P N ; ;  ; ;  pnsn | pnsn pmgm ;  pn p- R s  ||",
+                    "sahitya": "Pan   na- -     - -  -  ga - - -   sha  - -"
                 },
                 {
-                    "swara": "P - - pp mr S - np np | M - P pm gm gmpm mg M ||",
-                    "sahitya": "Snaa naa -- di Ja- pa- - Thapa - - - Yo- - - - - ga"
+                    "swara": "S ;  ; ;  ; ;  , pN   |  S- ns R S -  s n p m g m p n ||   [finish: gmrs]",
+                    "sahitya": "Yi    Paru    la Ve -   da le - - -  nu - - -"
                 },
                 {
-                    "swara": "P - m - gm pm rs - S - pm gm | rs - S R G M M - - ||",
-                    "sahitya": "Dhyaa - - - - - na- Sa- maa- - - dhi- Su kha - pra da"
+                    "swara": "nsrs ; gm  gm pm ; mp |  mpnp  ;   p n mPm gMr ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N P - pp mr S - np np | M - P pm gm gmpm mg M ||",
-                    "sahitya": "Snaa naa -- di Ja- pa- - Thapa - - - Yo- - - - - ga"
+                    "swara": "nsrs , s gm  gm pm , p mp |  mpnp  , n   p n mPm gMr ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P - m - gm pm rs - S - pm gm | rs - S R G M M - pm ||",
-                    "sahitya": "Dhyaa - - - - - na- Sa- maa- - - dhi- Su kha - pra da See"
+                    "swara": "s R- r G - gm , - m P p D- d | n S n   P - mg   mPm gmrs ||",
+                    "sahitya": ""
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "P ;  ;  pp mr S  - np np |  M - P    pm  gm   gmpm mg M ||",
+                    "sahitya": "Snaa   naa --  di   Ja-  pa-     -     Thapa - - -    Yo- - -   - - ga"
                 },
                 {
-                    "swara": "PN pnsn pmgm Pnp mg | M Pnp mg M P N P - S ||",
-                    "sahitya": "Tha naa-- tha -- ! Sa—ka- la Lo-- -- ka Paa - - la"
+                    "swara": "P , m  - gm  pm    rs  -  S - pm   gm |  rs  -   S   R  G    M M    ;  ;  ||",
+                    "sahitya": "Dhyaa -       - -  - - na-   Sa-  maa-  - - dhi-  Su   kha -   pra  da"
                 },
                 {
-                    "swara": "S - - - - - - - | - - - - - - - pm ||",
-                    "sahitya": "ka - - - - - - - - - - - - - See"
+                    "swara": "N P   ;  pp mr S  - np np |  M - P    pm  gm   gmpm mg M ||",
+                    "sahitya": "Snaa   naa --  di   Ja-  pa-     -     Thapa - - -    Yo- - -   - - ga"
                 },
                 {
-                    "swara": "PN pnsn pmgm Pnp mg | M Pnp mg M P N P - S ||",
-                    "sahitya": "Tha naa-- tha -- ! Sa—ka- la Lo-- -- ka Paa - - la"
+                    "swara": "P , m  - gm  pm    rs  -  S - pm   gm |  rs  -   S   R  G    M M    ;  pm  ||",
+                    "sahitya": "Dhyaa -       - -  - - na-   Sa-  maa-  - - dhi-  Su   kha -   pra  da      See"
                 },
                 {
-                    "swara": "S - - - - - N - | S - ns R S sn pm gm - pm || [finish: gmrs]",
-                    "sahitya": "ka - - - - Thia ga ra- - ja nu -- tha - See"
+                    "swara": "PN    pnsn pmgm  Pnp mg  |  M Pnp    mg M    P N  P  -  S  ||",
+                    "sahitya": "Tha    naa--   tha -- !   Sa\u2014ka-      la Lo--    --   ka  Paa -     -     la"
+                },
+                {
+                    "swara": "S ;   ; ;  ; ;  ; ;  |  ; ;  ; ;  ; ;  ; pm  ||",
+                    "sahitya": "ka  - -  - -  - -    - -  - -  - -  - See"
+                },
+                {
+                    "swara": "PN    pnsn pmgm  Pnp mg  |  M Pnp    mg M    P N  P  -  S  ||",
+                    "sahitya": "Tha    naa--   tha -- !   Sa\u2014ka-      la Lo--    --   ka  Paa -     -     la"
+                },
+                {
+                    "swara": "S ;   ; ;  ; ;  N ;   |  S - ns  R S  sn pm gm - pm   ||  [finish: gmrs]",
+                    "sahitya": "ka  - -  - -  Thia   ga    ra-  -  ja  nu --        tha - See"
+                },
+                {
+                    "swara": "nsrs ; gm  gm pm ; mp |  mpnp  ;   p n mPm gMr ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "nsrs , s gm  gm pm , p mp |  mpnp  , n   p n mPm gMr ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "s R- r G - gm , - m P p D- d | n S n   P - mg   mPm gmrs ||",
+                    "sahitya": ""
                 }
             ]
         }

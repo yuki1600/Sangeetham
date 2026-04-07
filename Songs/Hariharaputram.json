@@ -12,72 +12,72 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1. S - S - SR S - sn D D N N D D M M - - - ||",
-                    "sahitya": "Ha ri ha- - ra- - pu- - - - - - - - tram - -"
+                    "swara": "1. S ;  S ;    SR    S ;     sn D D N  N D D M  M ; ; ;  ||",
+                    "sahitya": "Ha  ri     ha- - ra- -   pu- -  -  -   -   -  -   -  tram - -"
                 },
                 {
-                    "swara": "M G M - D M - G M G R - rs S - - sngr rs S - - ||",
-                    "sahitya": "Shaa- - - - staa- - - ram-- - - Sa- - daa- - -"
+                    "swara": "M G M ;    D M - G M  G R - rs S   ; ;  sngr   rs S ; ;  ||",
+                    "sahitya": "Shaa- -       -  -  staa- -   -    ram--  - - Sa- -  daa- - -"
                 },
                 {
-                    "swara": "dnD D M - - M - - - - - M G M - D - N - ||",
-                    "sahitya": "Bha-je - - - ham- - - - - Maa- - -- yaa- - -"
+                    "swara": "dnD D M    ; ;  M ;  ; ; ; ;  M G M ;  D ; N ;  ||",
+                    "sahitya": "Bha-je  -     - -  ham-  - - - -     Maa- - --   yaa- - -"
                 },
                 {
-                    "swara": "S - - - nssg rs S - - S N D N D M G M D N ||",
-                    "sahitya": "Kaa- - ---- r yam-- - - Tya- je - - - ham - - -"
+                    "swara": "S ; ; ;      nssg  rs S  ; ;  S N  D N D M  G M D N ||",
+                    "sahitya": "Kaa- -      ---- r yam--      -  - Tya-  je  -   -   -  ham - -  -"
                 },
                 {
-                    "swara": "2. S - S - nssg rs S sn D D R sn D D M M - - - ||",
-                    "sahitya": "Ha ri ha- - ra- - pu- - - - - - - - tram - -"
+                    "swara": "2. S ;  S ; nssg   rs S     sn D D R  sn D D M  M ; ; ;  ||",
+                    "sahitya": "Ha  ri  ha- -   ra- -    pu- -  -  -   -   -  -   -  tram - -"
                 },
                 {
-                    "swara": "M G M - D M - G M G R - rs S - - sngr rs S - - ||",
-                    "sahitya": "Shaa- - - - staa- - - ram-- - - Sa- - daa- - -"
+                    "swara": "M G M ;    D M - G M  G R - rs S   ; ;  sngr   rs S ; ;  ||",
+                    "sahitya": "Shaa- -       -  -  staa- -   -    ram--  - - Sa- -  daa- - -"
                 },
                 {
-                    "swara": "dnD D M - - M - - - - - M G D M N D N - ||",
-                    "sahitya": "Bha-je - - - ham- - - - - Maa- - -- yaa- - -"
+                    "swara": "dnD D M    ; ;  M ;  ; ; ; ;  M G D M  N D  N ; ||",
+                    "sahitya": "Bha-je  -     - -  ham-  - - - -     Maa- - --   yaa- - -"
                 },
                 {
-                    "swara": "S - - - nssg rs S - - r S n - s N d - n D m G M D N ||",
-                    "sahitya": "Kaa- - ---- r yam-- - - Tya- je - - - ham - - -"
+                    "swara": "S ; ; ;      nssg  rs S  ; ;  r S n  - s N d  - n D m G M D N ||",
+                    "sahitya": "Kaa- -      ---- r yam--      -  - Tya-    je  -   -   -  ham - -  -"
                 },
                 {
-                    "swara": "3. S - S - nssg rs S sn D dnsnndD - mdN D M M - - - ||",
-                    "sahitya": "Ha ri ha- - ra- - pu- - - - - - - - tram - -"
+                    "swara": "3. S ;  S ; nssg   rs S     sn D dnsnndD  ; mdN D M  M ; ; ;  ||",
+                    "sahitya": "Ha  ri  ha- -   ra- -    pu- -  -  -   -   -  -   -  tram - -"
                 },
                 {
-                    "swara": "GM dn srsn D M - G M G R - rs S - - sngr rs S - - ||",
-                    "sahitya": "Shaa- - - - - - - staa- - - - ram-- - - Sa- - daa- - -"
+                    "swara": "GM  dn srsn    D M - G M   G R - rs S   ; ;  sngr   rs S ; ;  ||",
+                    "sahitya": "Shaa- -  - - -    -  -      staa- -   -  -    ram--  - - Sa- -  daa- - -"
                 },
                 {
-                    "swara": "drsn D D M - - M - - - - - M G D M N D N - ||",
-                    "sahitya": "Bha - je - - - ham- - - - - Maa- - -- yaa- - -"
+                    "swara": "drsn D D M    ; ;  M ;  ; ; ; ;  M G D M  N D  N ; ||",
+                    "sahitya": "Bha  -  je  -     - -  ham-  - - - -     Maa- - --   yaa- - -"
                 },
                 {
-                    "swara": "S - - - nssg rs S - - r S n - s N d - n D m drsn dmdn ||",
-                    "sahitya": "Kaa- - ---- r yam-- - - Tya- je - - - ham - - -"
+                    "swara": "S ; ; ;      nssg  rs S  ; ;  r S n  - s N d  - n D m drsn dmdn ||",
+                    "sahitya": "Kaa- -      ---- r yam--      -  - Tya-    je  -   -   -  ham - -  -"
                 },
                 {
-                    "swara": "4. S - sngr nsrs dmdn gmdn srsn dr sn D M M - - - ||",
-                    "sahitya": "Ha ri -- ha- - ra- - pu- - - - - - - - tram - -"
+                    "swara": "4. S ;  sngr  nsrs   dmdn   gmdn srsn    dr sn  D M  M ; ; ;  ||",
+                    "sahitya": "Ha  ri --   ha- -   ra- -    pu- -  -  -   -   -  -   -  tram - -"
                 },
                 {
-                    "swara": "GM dn srsn D M - G M G R - rs S - - sngr rs S - - ||",
-                    "sahitya": "Shaa- - - - - - staa- - - ram-- - - Sa- - daa- - -"
+                    "swara": "GM  dn srsn   D M - G M  G R - rs S   ; ;  sngr   rs S ; ;  ||",
+                    "sahitya": "Shaa- -   - -     -  -      staa- -   -    ram--  - - Sa- -  daa- - -"
                 },
                 {
-                    "swara": "drsn D D M - - M - - - - - M G D M N D N - ||",
-                    "sahitya": "Bha - je - - - ham- - - - - Maa- - -- yaa- - -"
+                    "swara": "drsn D D M    ; ;  M ;  ; ; ; ;  M G D M  N D  N ; ||",
+                    "sahitya": "Bha  -  je  -     - -  ham-  - - - -     Maa- - --   yaa- - -"
                 },
                 {
-                    "swara": "S - - - nssg rs S - - nsrs - n - dnsn - d - mdnd - m drsn dmdn ||",
-                    "sahitya": "Kaa- - ---- r yam-- - - Tya- - je - - - - - - - - ham - - -"
+                    "swara": "S ; ; ;      nssg  rs S  ; ;  nsrs , n  - dnsn , d  - mdnd  , m drsn dmdn ||",
+                    "sahitya": "Kaa- -      ---- r yam--      -  - Tya-  -     je  -   - -    - - - -    -  ham - -  -"
                 },
                 {
-                    "swara": "S - S - nssg rs S sn D N M D N S - - - - - ||",
-                    "sahitya": "Ha ri ha- - ra- - pu- - - - - - tram - -"
+                    "swara": "S ;  S ;     nssg   rs S     sn D N M  D N  S ;     ;  ; ; ;  ||",
+                    "sahitya": "Ha  ri   ha- -   ra- -    pu- -  -  -   -   -  tram - -"
                 }
             ]
         },
@@ -85,60 +85,60 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "1. M -m M - D N S - - - S - S - - - S sg rs S ||",
-                    "sahitya": "Mu - ra - ha - raa- - - di- Mo - - hi - - ta - -"
+                    "swara": "1. M ,m M ;      D N  S ;  ; ; S ;  S ; ; ;  S sg  rs S  ||",
+                    "sahitya": "Mu -  ra -     ha -   raa-  - - di- Mo - -  hi - - ta - -"
                 },
                 {
-                    "swara": "N D D R sn D D N D M M - D - N - S - - - ||",
-                    "sahitya": "Shau- - - ri - Gi- ri - vi - haa- - - ram- -"
+                    "swara": "N D   D R        sn D D N  D M M ;   D ; N ;    S ; ; ;  ||",
+                    "sahitya": "Shau-  -   -        ri  -  Gi-  ri  -    vi - haa- - -    ram- -"
                 },
                 {
-                    "swara": "2. M -m M - D N S - - - S - S - - - nssg rs S ||",
-                    "sahitya": "Mu - ra - ha - raa- - - di- Mo - - hi - - ta - -"
+                    "swara": "2. M ,m M ;      D N  S ;  ; ; S ;  S ; ; ;  nssg  rs S  ||",
+                    "sahitya": "Mu -  ra -     ha -   raa-  - - di- Mo - -  hi - - ta - -"
                 },
                 {
-                    "swara": "sn D dnrs sn D dn sn D M M - D - N - S - - - ||",
-                    "sahitya": "Shau- - - ri - Gi- - - ri - vi - haa- - - ram- -"
+                    "swara": "sn D   dnrs        sn D dn sn    D M M ;   D ; N ;    S ; ; ;  ||",
+                    "sahitya": "Shau-  -   -        ri  -  Gi- - -    ri  -    vi - haa- - -    ram- -"
                 },
                 {
-                    "swara": "G - M - G M mg R - - - S S - - - ns R N - ||",
-                    "sahitya": "Mu ra li - - - - - - - - bhe ri - - - -"
+                    "swara": "G ; M ;      G M mg R ; ;  ; S   S ;  ; ;  ns R N ;   ||",
+                    "sahitya": "Mu  ra      li  -   - -  -   - -  - -     bhe ri - -   - -"
                 },
                 {
-                    "swara": "N S - - D N DM D - D R sn D - D M D N - - ||",
-                    "sahitya": "Vaa- - dyaa- - - di - Pri - ya-- ka - ram - -"
+                    "swara": "N S ; ;   D N DM  D ; D R      sn D - D M  D N ; ;  ||",
+                    "sahitya": "Vaa- -  dyaa- - -  di - Pri -     ya--   ka  -  ram -  -"
                 },
                 {
-                    "swara": "D M D N S - S N R S - - - - - - - - - - ||",
-                    "sahitya": "Prar- tthi ta Pu - tra- pradam- - - - - - - - -"
+                    "swara": "D M  D   N    S ;  S N     R   S ; ;  ; ; ; ;  ; ; ; ;  ||",
+                    "sahitya": "Prar- tthi ta   Pu - tra-     pradam-     - - - -  - - - -"
                 },
                 {
-                    "swara": "D M D N S - S N R S - M - g - R - G R S - S - ||",
-                    "sahitya": "Prar- tthi ta Pu - tra- pradam- Va san - ta nata Brn dam"
+                    "swara": "D M  D   N    S ;  S N     R   S      - M , g  ; R - G R     S ;   S ;  ||",
+                    "sahitya": "Prar- tthi ta   Pu - tra-     pradam-   Va san     - ta  nata     Brn dam"
                 },
                 {
-                    "swara": "R - S - D N M D M M - G R S - D - n - M - D - ||",
-                    "sahitya": "Dir ghaa yush- prada Di - - na ja na su - kha -pra- dam-"
+                    "swara": "R ;  S ;   D N   M D  M M ; G      R S - D , n  ; M ,  D ,    ||",
+                    "sahitya": "Dir  ghaa yush- prada        Di  - -  na     ja na  su - kha -pra- dam-"
                 },
                 {
-                    "swara": "S - sngr nsrs dmdn gmdn srsn dr sn D M M - - - ||",
-                    "sahitya": "Ha ri -- ha- - ra- - pu- - - - - - - - tram - -"
+                    "swara": "S ;  sngr  nsrs   dmdn   gmdn srsn    dr sn  D M  M ; ; ;  ||",
+                    "sahitya": "Ha  ri --   ha- -   ra- -    pu- -  -  -   -   -  -   -  tram - -"
                 },
                 {
-                    "swara": "GM dn srsn D M - G M G R - rs S - - sngr rs S - - ||",
-                    "sahitya": "Shaa- - - - - - staa- - - ram-- - - Sa- - daa- - -"
+                    "swara": "GM  dn srsn   D M - G M  G R - rs S   ; ;  sngr   rs S ; ;  ||",
+                    "sahitya": "Shaa- -   - -     -  -      staa- -   -    ram--  - - Sa- -  daa- - -"
                 },
                 {
-                    "swara": "drsn D D M - - M - - - - - nm G D M N D N - ||",
-                    "sahitya": "Bha - je - - - ham- - - - - Maa- - -- yaa- - -"
+                    "swara": "drsn D D M    ; ;  M ;  ; ; ; ;  nm G D M  N D  N ; ||",
+                    "sahitya": "Bha  -  je  -     - -  ham-  - - - -     Maa- - --   yaa- - -"
                 },
                 {
-                    "swara": "S - - - nssg rs S - - nsrs - n - dnsn - d - mdnd - m drsn dmdn ||",
-                    "sahitya": "Kaa- - ---- r yam-- - - Tya- - je - - - - - - - - ham - - -"
+                    "swara": "S ; ; ;      nssg  rs S  ; ;  nsrs , n  - dnsn , d  - mdnd  , m drsn dmdn ||",
+                    "sahitya": "Kaa- -      ---- r yam--      -  - Tya-  -     je  -   - -    - - - -    -  ham - -  -"
                 },
                 {
-                    "swara": "S - S - nssg rs S sn D N M D N S - - - - - ||",
-                    "sahitya": "Ha ri ha- - ra- - pu- - - - - - tram - -"
+                    "swara": "S ;  S ;     nssg   rs S     sn D N M  D N  S ;     ;  ; ; ;  ||",
+                    "sahitya": "Ha  ri   ha- -   ra- -    pu- -  -  -   -   -  tram - -"
                 }
             ]
         },
@@ -146,8 +146,44 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "S ; ; ;  ; ;  M ;      M ;  M ;           ; ; - GM     mg R S ;  ||",
+                    "sahitya": "Phaal-           gu       na   Maa- -     - - -  - - -  -  - sa -"
+                },
+                {
+                    "swara": "S ; ; ;  S ;  sn gr     rs S S ;      S ; ; ;     R ; ; ;   ||",
+                    "sahitya": "Pau- -  rni maa--   - - -  va-      taa- -     ram - -"
+                },
+                {
+                    "swara": "S ; ; ;  S M  M ;    M ; ; ;    D ;  D N  D M D N   ||",
+                    "sahitya": "Paa- -     -  -    ndya  Ke - -     ra-  laa -  -    -  di -"
+                },
+                {
+                    "swara": "S ; ; N    S ;   ; ;        S N nssg       rsnd - D M  D N ;  ;  ||",
+                    "sahitya": "De- -    sha- - -       Pra bhaa-      - - -    ka -   ram- - -"
+                },
+                {
+                    "swara": "S ; ; ;  ; ;   S ;     S ; S ;     ; ; ; ;    sngr rs S  ||",
+                    "sahitya": "Pu- -  - - spa     Sha-re-    - - - -   - -  - kshu\u2014"
+                },
+                {
+                    "swara": "G  ; ; ;  M ; M ;    G M - G M  GR ; ;  ; ; ; ;  ||",
+                    "sahitya": "Kaar - -  mu- ka -   Dha-    ram-   - -  - -  - - - -"
+                },
+                {
+                    "swara": "S ; ; ;  ; ;  srsn   dmD N ;     ; ;     DN      DM  D ;   ||",
+                    "sahitya": "Phu--  - -  lla -    Kal-  - -      - -     haa-      - -  ra"
+                },
+                {
+                    "swara": "Dmg M ;     M ;  D ;  DR sn M    D ; ; N       S ; ; ; ||",
+                    "sahitya": "Dan-  - -     da -  Dha-  ra- -  ka -    ram - -       - - - -"
+                },
+                {
+                    "swara": "S S S N   DN DM    D ;  -  D N  DM - mgmd    M    mg R   S ||",
+                    "sahitya": "Kaliyuga Pra-tya-    ksham Gar-       vita   Da- - -    ksha shi--  ksham"
+                },
+                {
+                    "swara": "M G R S     S M ; M  md M D ;     S N   D N  d M - D , N ||",
+                    "sahitya": "Varaguru    guhaanta   ran- - gam-   Rathagaja tu -     ran-gam"
                 }
             ]
         }

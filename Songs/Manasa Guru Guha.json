@@ -12,32 +12,64 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "M - G - R - | S - - - | N S G M ||",
-                    "sahitya": "- Bha ja re Re -------"
+                    "swara": "P ;  ; ;   |     ; N , P,   |     ;  n p      G ;   ||",
+                    "sahitya": "Ma                  na  sa            Gu       ru"
                 },
                 {
-                    "swara": "- gu ha Ru --- pam - - -",
-                    "sahitya": "-- Bha ja re Re - - -"
+                    "swara": "R-G , M , |     P ;  Pdp |      G ;   M P ||",
+                    "sahitya": "-  gu    ha       Ru     --        pam --"
                 },
                 {
-                    "swara": "- gu ha Ru --- pam - - -",
-                    "sahitya": "-- Bha ja re Re - - -"
+                    "swara": "M-G , R , |      S ; ; ;    |      N S G M ||",
+                    "sahitya": "-   Bha ja        re                 Re -------"
                 },
                 {
-                    "swara": "Gu ha Ru - - - pam - - -",
-                    "sahitya": "- ------- Bha ja re - - - Re - - -"
+                    "swara": "P ;  ;  ;     |    ; Pdn  d n P |   ; np  G ;  ||",
+                    "sahitya": "Ma                 na  - sa--         Gu-  ru"
                 },
                 {
-                    "swara": "N - - - | n s G g r R | G - - - ||",
-                    "sahitya": "Ma ya- - Ma- - ya- - -"
+                    "swara": "R-G , M , |   P ; nddp |   G ;   mpdp ||",
+                    "sahitya": "-   gu   ha     Ru  ---       pam - - -"
                 },
                 {
-                    "swara": "Gr - M G | G - m P - m | m d P Pdm ||",
-                    "sahitya": "Hru - - - ttha - - - - pam - - -"
+                    "swara": "pm -G , R, |   S ; ; ;   |   N S G M ||",
+                    "sahitya": "--      Bha ja    re           Re  - - -"
                 },
                 {
-                    "swara": "G - M p d P | p m G G r R | mg G pm M || (ma)",
-                    "sahitya": "Thya ja - - - re - - - - Re - - -"
+                    "swara": "P ; ; ;  |    pn Srs  ss nNd |    P - mn p G , ||",
+                    "sahitya": "Ma              na - - - sa ---       -     Gu -  ru"
+                },
+                {
+                    "swara": "R-G , M , |   P ; nddp |   G ;   mpdp ||",
+                    "sahitya": "-   gu   ha     Ru  ---       pam - - -"
+                },
+                {
+                    "swara": "pm -G , R, |   S ; ; ;   |   N S G M ||",
+                    "sahitya": "--      Bha ja    re           Re  - - -"
+                },
+                {
+                    "swara": "P ; ; ;    |   p n s R s - ss |   ndP - m n p - G , ||",
+                    "sahitya": "Ma             na - - - - sa----| - - -      Gu- -    ru"
+                },
+                {
+                    "swara": "R - G , M, |   P ; nddp   |    G ;  gmpd P          ||",
+                    "sahitya": "Gu ha    Ru  - - -         pam -  - -"
+                },
+                {
+                    "swara": "gmpm   G , R , |   Rgr  S ;  |   S ; r S n ||",
+                    "sahitya": "- -------  Bha ja    re - - -         Re - - -"
+                },
+                {
+                    "swara": "N ; ; ;  |   n s G g r R  |    G ; ; ;   ||",
+                    "sahitya": "Ma             ya- -   Ma- -     ya- - -"
+                },
+                {
+                    "swara": "Gr , M G |   G , m P , m |   m d P   Pdm  ||",
+                    "sahitya": "Hru - - -      ttha  -  -  -  -    pam    - - -"
+                },
+                {
+                    "swara": "G ;    M p d P | p m G  G r R |   mg G  pm M || (ma)",
+                    "sahitya": "Thya ja - - -      re   -   -  -  -       Re  - -  -"
                 }
             ]
         },
@@ -45,32 +77,40 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "S - S - | S - N - | - - - - ||",
-                    "sahitya": "Ma na va Jan"
+                    "swara": "S ;   S ;    |   S ;  N ;  |   ; ;  ; ;  ||",
+                    "sahitya": "Ma na          va  Jan"
                 },
                 {
-                    "swara": "r s N - - | - p Sn S | - - - - ||",
-                    "sahitya": "pthe- - - sa thi - - - - - -"
+                    "swara": "S ; M ; |   mggr  sr mgR  |   S ; ; ;  ||",
+                    "sahitya": "Ma ni       Sam  - - - - -        pra - -"
                 },
                 {
-                    "swara": "S - S - | S - PS | Srs SN - - ||",
-                    "sahitya": "Ma na va jan - - - -"
+                    "swara": "r s N ; ;    |   ; p Sn  S  |   ; ; ; ;         ||",
+                    "sahitya": "pthe- - -         sa thi - -   - - - -"
                 },
                 {
-                    "swara": "Ma ni - - Sam - - -------- pra",
-                    "sahitya": "Pthe - - - Sathi - - - Pa ra"
+                    "swara": "S ; S ;   |   S ; PS   |   Srs SN  ; ;  ||",
+                    "sahitya": "Ma na     va   jan       - - - -"
                 },
                 {
-                    "swara": "S - - - | N - D - | P - D - ||",
-                    "sahitya": "Ma thma ni Ni ra"
+                    "swara": "S ;    Mpm |   m  ggr   sr  mgR  |   S ; ; ;||",
+                    "sahitya": "Ma   ni - -     Sam - -    --------      pra"
                 },
                 {
-                    "swara": "N - P - | D - N - | P - - - ||",
-                    "sahitya": "thi Sha ya Su kham"
+                    "swara": "R s N ; ; ; |    ; p S n S     |   ; ; M   P   ||",
+                    "sahitya": "Pthe - - -         Sathi   -        - - Pa ra"
                 },
                 {
-                    "swara": "Md P Pdm | mp G gr R | mg G pm M ||",
-                    "sahitya": "Vra - ja- - | re - - - - re - - - -"
+                    "swara": "S ; ; ;  |   N ;   D ; |   P ; D ;    ||",
+                    "sahitya": "Ma        thma   ni     Ni   ra"
+                },
+                {
+                    "swara": "N ;  P ; |   D ; N ;  |   P      ; ; ;  ||",
+                    "sahitya": "thi Sha   ya   Su     kham"
+                },
+                {
+                    "swara": "Md  P Pdm |   mp G gr R |   mg G pm M ||",
+                    "sahitya": "Vra  - ja- -   |  re    - - - -       re   - - - -"
                 }
             ]
         },
@@ -78,8 +118,132 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
+                    "swara": "S ; ; ;    |   M  ;   mg G |   M ; ; ; ||",
                     "sahitya": ""
+                },
+                {
+                    "swara": "Sa              tva     Gu  -      no        ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "P   ; ; ;    | dm ;  m p G |   G  ;   R ; ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "pa - - -     dhi -  Sa - -       hi    tha   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S    ; ; G  |   ; ;  M  ; |   pm P ; ; ; ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sa  - - da     - - shi       vam - -  ||",
+                    "sahitya": "All living beings (\u201cjeeva\u201d) are born (\u201cuthbhavam\u201d) out of Him as the result of the impact of AVIDYA."
+                },
+                {
+                    "swara": "S ; ; ;  |   nNn ;  D ;  |    P ;     DP ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Swa          vi---------       dhya   - - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "P dm  mp G |   G ; R ;  |   S ; ; ; ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sa - -  me - -   -      tha     jee- - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "R G r  S ;   |   S     N  S ;  |   ; ; ; ;  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Vo - - - -       tbha  -   vam   - - - - ||",
+                    "sahitya": "The universe (\u201cviswa\u201d) with its TAMASIC qualities is again a manifestation of His"
+                },
+                {
+                    "swara": "S     ; ; ;  |   S     ; ; ;  |   N   ; ; ;    ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Tha          tvam            Tha - - -    ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "NS  mg G R |   S  ; S  ; |   S  ;  rSn   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ma-sa- -  -       yu   tha     Vi    - - -  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "N  ;   P  N |   S ; S  N |   S     ; ; ;  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "shwa Vai-  -  -   bha -   vam - - - ||",
+                    "sahitya": "He is TARAKESVARA and ANANDA BHAIRAVA."
+                },
+                {
+                    "swara": "P ; PS  |   ; N   D snN    |   N P   P   M ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Tha - -          ra  Ke - -          - -    swa - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S       ; ; P |   ; ;   D  sn     |  N  P   P M ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "ram - - Aa      - - nan       -           da  - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "G  ; P M |    N P   mgR   |  rGr    S ; ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Bhai  - - -     -  -    ra - -     vam  - -   ||",
+                    "sahitya": "Madhyamakalam:-"
+                },
+                {
+                    "swara": "S   ; S ;   | S ;   SS    |    S N       S ;    ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Nat  va    Sri   guru     Chara    nam   ||",
+                    "sahitya": "Mediate (\u201ckruthwa\u201d) on His name(\u201cnamasmaranam\u201d);"
+                },
+                {
+                    "swara": "M ; GR  |   Srm  GR  |   S   N    S  ; ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Kru thwa   Na -   ma-   sma ra  nam ||",
+                    "sahitya": "Conquer (\u201cJithwa\u201d) the veil of illusion(\u201cMoha\u201d),"
+                },
+                {
+                    "swara": "P   ;   S N  |   R S     N  ;  |   P  D  P  M  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Jith   wa       Mo-    ha  -    va  ra  nam - ||",
+                    "sahitya": "and Think (\u201cMathwa\u201d) of Him as your (\u201cthwa\u201d) sole (\u201ceka\u201d)  refuge (\u201csharanam\u201d).]"
+                },
+                {
+                    "swara": "G  ;   M  ;  |   D  , P   ,   M  |   G   R     GM ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ma    thwa   Thva     de  ka   Sha  ra    nam ||",
+                    "sahitya": "[Repeat 2nd speed ] and then (Manasa)"
                 }
             ]
         }

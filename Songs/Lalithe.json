@@ -9,93 +9,107 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "- S r G - G - || G - G gm mpmg ||",
-                    "sahitya": "La li the Maam Pa hi Da yaa --"
+                    "swara": "SND- G    RG- M P  ; P  ;   D   M P D - N |  S ;  ,r - sn   D P - pp mg     ;   G  D P     pm G R S  ||",
+                    "sahitya": "Sri- -  La  li -   the -  - Kan-chi Nagara   Ni   vaa- -   si-    - ni   Ma-haa-   -  Tripura    Sun--  dari"
                 },
                 {
-                    "swara": "- G r G - mpmg || R - rgmg S - ||",
-                    "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
+                    "swara": "SND- G    RG- M P  ; P  ;   D   M P D - N |  Srg rmgr - sn   D P - pp mg     ;   G  D P     pm G R S  ||",
+                    "sahitya": "Sri- -  La  li -   the -  - Kan-chi Nagara   Ni   vaa- -   -    si-    - ni   Ma-haa-   -  Tripura    Sun--  dari"
                 },
                 {
-                    "swara": "nd - s p mpmg g S - || r G - G gm mpmg ||",
-                    "sahitya": "Lali the -- Maam Pa - hi Da yaa --"
+                    "swara": "Srs dN, D- G   RG- M P  ; P  ;   D   M P D - N |  snrs gr -  sn   D P - mg  pm  dp-nndp- mp d-pm GR rnS||",
+                    "sahitya": "Sri- - -  -    La  li -   the -  - Kan-chi Nagara   Ni   vaa- -   -   si-    - ni   Ma-haa-   - Tri-pu-ra--  Sun--   --da"
                 },
                 {
-                    "swara": "- G r G - mpmg || R - rgmg S - ||",
-                    "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
+                    "swara": "ns Rgr snrs  ND - NS   NS R G  - M P,d  pmG | pmmg  rgrg    rs R  R,n  NS ; ;  G R  r n S          ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -     -  - -   - -  - -  paa- -    - - -    hi- -  - -  - -  -  -    Sun- - - da"
                 },
                 {
-                    "swara": "nd - s p pmPdpmg g S - || r G - G gm Pdp mp ||",
-                    "sahitya": "Lali the -- -- Maam Pa - hi Da yaa --"
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg mp | mpdp mg  rgrg    rs R  R,n NS ; ;  G R  r n S          ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - -    hi- -  - -  - -  -  -    Sun- - - da"
                 },
                 {
-                    "swara": "mg- G r G - mpmg || R - rgmg S - ||",
-                    "sahitya": "Ka li the Sru-tha- Kal pa-la- the"
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg rs | rg rgM  gmP mpdp G R  R,n NS ; ;  G R  r n S          ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - - - -  hi- -  - - - -  -  -    Sun- - - da"
                 },
                 {
-                    "swara": "nd - S r g S S R || rs D S - r - g S ||",
-                    "sahitya": "Laa -li tha Sa ka la Ka laa- va sa"
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg rs | rg rgM  gmP mpdp G R  ; ;       ; ;  ; ;       ; ; ; ;         ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - - - -  hi- -  - - - -  -  - -       - - - -"
                 },
                 {
-                    "swara": "R - - - - s R || mpds - dp M mG r ||",
-                    "sahitya": "the - Sru tha Kal- - pa la the --"
+                    "swara": "N ;  ; P    D P - G    P    Mpm GR sn    S ; ;    sg | rs N D - G  R S-  R ,g     M - N S - R   G - M    pdpd   ||",
+                    "sahitya": "Nee\u2014laa   - bja Da- la   Lo- -  - -  cha-  ne- -  Sa-daa- - -    Sri   - tha Da--     sa    Jana   Ra  -    ksha ne -"
                 },
                 {
-                    "swara": "- rg rs - - - ||",
-                    "sahitya": "- - - -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "- p m - P - d S d || S - - S - S ||",
-                    "sahitya": "Ku la Shai - la su the Ka ma"
+                    "swara": "N ;  ;   P    D P - mg P    Mpm GR  R    S ; ;    sg | rrs n  , d - G  R S-  R ,g     M - N S - R   G - M    pdpd   ||",
+                    "sahitya": "Nee\u2014laa   - bja Da- la   Lo- -  - -  cha-  ne- -  Sa-daa- -   -    Sri  - tha Da--     sa    Jana   Ra  -    ksha ne -"
                 },
                 {
-                    "swara": "- S S ds - n D || D - nd P P - ||",
-                    "sahitya": "ko ti Pee - ta Ma dhya ga the"
+                    "swara": "nsrs nr - sn  DP-mpdp   Pdn dpmG,R  R , mgrs , sg | rrs n  , d - G R S-  R ,g     M - N S - R  G - M P ,d  ||",
+                    "sahitya": "Nee\u2014   laa - bja Da- la Lo- -  - -  - -   cha-ne- -  Sa- daa- -   -    Sri  - tha Da--    sa    Jana   Ra  -ksha ne -"
                 },
                 {
-                    "swara": "- m g - P - d S d || S - - S rg S ||",
-                    "sahitya": "Ku la Shai - la su the Ka -- ma"
+                    "swara": "P N  D- S      G R - S S  R , s    ;  sr    ns P  ;  dn  | ns ;  ;  ;    ; ; ; ;  ; ; ; ;  ; ; ; ;  ||",
+                    "sahitya": "Nee- la me    - gha  Sadru  sha Kun da-  le- -  -  Ma- yi-  - - -    - - - -  - - - -  - - - -"
                 },
                 {
-                    "swara": "- S S ds - n D || D - nd P pm pd ||",
-                    "sahitya": "ko ti Pee - ta Ma dhya ga the"
+                    "swara": "P N  D- S      G R - S S  R , s    ;  sr    ns P  P D  | dn ns  , r sn    DP-pmpm  MDP-m pdpm G RS  ||",
+                    "sahitya": "Nee- la me    - gha  Sadru  sha Kun da-  le- - Mayi Kru-pam- Vi-  taraVi-na-  ta Lo- ka\u2014paa- - li ni"
                 },
                 {
-                    "swara": "-p- pm m g G P d S d || S - - S rg S ||",
-                    "sahitya": "Ku- la - - Shai - la su the Ka -- ma"
-                },
-                {
-                    "swara": "- S S ds - n D || D - nd P P - ||",
-                    "sahitya": "ko ti Pee - ta Ma dhya ga the"
-                },
-                {
-                    "swara": "- mp M - M M || gm P P M p D p ||",
-                    "sahitya": "Jala daa yi tha Daa - na ra the - -"
-                },
-                {
-                    "swara": "- M M Pds P P || mdpm G - G m G r ||",
-                    "sahitya": "Cha pa laa yi tha Kaa - - ya la the --"
-                },
-                {
-                    "swara": "- s r ppmm M M || gm P P M p D p ||",
-                    "sahitya": "Jala daa yi tha Daa - na ra the - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
-                {
-                    "swara": "",
+                    "swara": "N ;  D - G       R G - M P    D N - S N    D M G R      |  S ;  ;  ;   ;  ; D , p      ; pp m G r   N ;    S  R ||",
                     "sahitya": ""
+                },
+                {
+                    "swara": "G  M  G P       M D - P N    D - S N R    S - G R - M |  G R S ;   ;  R N D     P ;  ; pm   G R    S  R ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "N dgrg mp     dn-sndm gr    S ;  ; d p      , G  r -N s r    | gm gp mdpn    ds nr sg rm    gr S , r nd   P, Gr sr ||",
+                    "sahitya": "[O Goddess Lalitha, the delicate one, who resides (\u201cNivaasini\u201d or \u201cVilaasini\u201d) in the city (\u201cNagara\u201d) of Kanchi. You are the"
+                },
+                {
+                    "swara": "Srs dN, D- G   RG- M P  ; P  ;   D   M P D - N |  snrs gr -  sn   D P - mg  pm  dp-nndp- mp d-pm GR rnS||",
+                    "sahitya": "Sri- - -  -    La  li -   the -  - Kan-chi Nagara   Ni   vaa- -   -   si-    - ni   Ma-haa-   -  Tri-pu-ra--  Sun--   --da"
+                },
+                {
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg rs | rg rgM  gmP mpdp G R  R,n NS ; ;  G R  r n S          ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - - - -  hi- -  - - - -  -  -    Sun- - - da"
+                },
+                {
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg rs | rg rgM  gmP mpdp G R  ; ;       ; ;  ; ;       ; ; ; ;         ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - - - -  hi- -  - - - -  -  - -       - - - -"
+                },
+                {
+                    "swara": "R gm G R    rn S   S,r   gr   S ;  ;  ;   S N  D P |  P G   R S   - N S   RG   GN  DP   MG R S   ||",
+                    "sahitya": "Chi--  ttam- A- ti  Cha-pa- lam- - -   Su-   sthi-   ram- Kuru   Mama Sri   Kaa- - -   maa- -kshi"
+                },
+                {
+                    "swara": "rg Mpm GR  rn S   S,r   gmgr   S ;  ;  ;  S N D P |  P G  R S   - N S   RG  mpdp  nndp   mpdp mgrs  ||",
+                    "sahitya": "Chi--  ttam-  A- ti  Cha- pa---  lam- - -  Su- sthi-   ram- Kuru   Mama Sri Kaa- -  - - - -  maa-  - - -kshi"
+                },
+                {
+                    "swara": "RG M , pm  RG - M P   D - P  ; P    M P D N   | S gr   N S  ; ;  sm pm   G N D P   pmG R S  ||",
+                    "sahitya": "Si vaya  Paa\u2014da  Kama la   Aa   di   Vaa- - -    Druda- ta ram  - -  De- - -   hi -  Karu  naa\u2014kari"
+                },
+                {
+                    "swara": "N dgrg mp     dn-sndm gr    S ;  ; d p      , G  r -N s r    | gm gp mdpn    ds nr sg rm    gr S , r nd   P, Gr sr ||",
+                    "sahitya": "[O Goddess Lalitha, the delicate one, who resides (\u201cNivaasini\u201d or \u201cVilaasini\u201d) in the city (\u201cNagara\u201d) of Kanchi. You are the"
+                },
+                {
+                    "swara": "Srs dN, D- G   RG- M P  ; P  ;   D   M P D - N |  snrs gr -  sn   D P - mg  pm  dp-nndp- mp d-pm GR rnS||",
+                    "sahitya": "Sri- - -  -    La  li -   the -  - Kan-chi Nagara   Ni   vaa- -   -   si-    - ni   Ma-haa-   -  Tri-pu-ra--  Sun--   --da"
+                },
+                {
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg rs | rg rgM  gmP mpdp G R  R,n NS ; ;  G R  r n S          ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - - - -  hi- -  - - - -  -  -    Sun- - - da"
+                },
+                {
+                    "swara": "ns Rgr snrs  ND - NS   nsrg mpdn - sndp mg rs | rg rgM  gmP mpdp G R  ; ;       ; ;  ; ;       ; ; ; ;         ||",
+                    "sahitya": "ri - - - -  - - -   - -     -  -        Maam- -      paa- - - - - --    - - -    - -   - - - - -  hi- -  - - - -  -  - -       - - - -"
                 }
             ]
         }

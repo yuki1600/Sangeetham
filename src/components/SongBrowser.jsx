@@ -214,15 +214,20 @@ function SongCard({ song, group, onSelect, onEditSong }) {
                     <h4 className="font-semibold text-sm text-[var(--text-primary)] group-hover:text-emerald-400 transition-colors truncate">
                         {song.title}
                     </h4>
-                    <div className="flex flex-wrap gap-1.5 mt-1.5">
-                        {song.raga && (
-                            <MetaTag label={song.raga} color="raga" />
-                        )}
-                        {song.tala && (
-                            <MetaTag label={song.tala} color="tala" />
-                        )}
+                    <div className="flex flex-col gap-1.5 mt-2">
+                        <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+                            {song.raga && (
+                                <MetaTag label={song.raga} color="raga" />
+                            )}
+                            {song.tala && (
+                                <MetaTag label={song.tala} color="tala" />
+                            )}
+                        </div>
                         {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
-                            <MetaTag label={song.composer} color="composer" />
+                            <div className="flex items-center gap-1.5 px-0.5">
+                                <span className="opacity-40 uppercase tracking-widest font-black text-[8px]">By</span>
+                                <span className="text-[10px] font-bold text-amber-500/80 uppercase tracking-wide">{song.composer}</span>
+                            </div>
                         )}
                     </div>
                 </div>

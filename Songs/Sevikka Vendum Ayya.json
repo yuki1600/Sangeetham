@@ -12,40 +12,40 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- - s - n D M - rs - R | M - - - | - - - - ||",
-                    "sahitya": "se vikka ven Du- mai yya - - - - - -"
+                    "swara": "; , s       ,  n D M ;       rs ,  R    |     M ;      ;  ;  |     ;  ;       ;   ;  ||",
+                    "sahitya": "sE         vikka    vEN     Du-  mai     yyA       - -        - -       - -"
                 },
                 {
-                    "swara": "- - s - n D M - rs - R | M - - R | P -m P ps ||",
-                    "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
+                    "swara": "; , s       ,  n D M ;       rs ,  R    |     M ;      ;  R  |     P  ,m     P   ps  ||",
+                    "sahitya": "sE         vikka    vEN     Du-  mai     yyA       - ci       dam-     ba ram"
                 },
                 {
-                    "swara": "- - sn s- n D M - rs - R | M - - R | P -m P ps ||",
-                    "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
+                    "swara": "; , sn       s-  n D M ;       rs ,  R    |     M ;      ;  R  |     P  ,m     P   ps  ||",
+                    "sahitya": "sE         vikka    vEN     Du-  mai     yyA       - ci       dam-     ba ram"
                 },
                 {
-                    "swara": "- - nr s- n D M - rs - R | M - - R | P -m P ps ||",
-                    "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
+                    "swara": "; , nr       s-  n D M ;       rs ,  R    |     M ;      ;  R  |     P  ,m     P   ps  ||",
+                    "sahitya": "sE         vikka  vEN     Du-  mai     yyA       - ci        dam-     ba ram"
                 },
                 {
-                    "swara": "- - nr s- n D M - rs - R | M - - R | P -m P ns ||",
-                    "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
+                    "swara": "; , nr       s-  n D M ;       rs ,  R    |     M ;      ;  R  |     P  ,m     P   ns  ||",
+                    "sahitya": "sE         vikka  vEN     Du-  mai     yyA       - ci        dam-     ba ram"
                 },
                 {
-                    "swara": "Rs- sn s - n D M - rs - R | M - - R | P -m P ns ||",
-                    "sahitya": "se vikka ven Du- mai yya - ci dam- ba ram"
+                    "swara": "Rs- sn      s -  n D   M ;       rs ,  R    |    M ;      ;  R  |     P  ,m     P   ns  ||",
+                    "sahitya": "sE           vikka   vEN     Du-  mai     yyA       - ci       dam-     ba ram"
                 },
                 {
-                    "swara": "Rs- nr s - n D M - rs - R | M - - - | rm rs rm pn ||",
-                    "sahitya": "se vikka ven Du- mai yya - - ci - dam- ba- ram-"
+                    "swara": "Rs- nr       s -  n D   M ;       rs ,  R    |    M ;      ;  ;       |   rm   rs    rm pn  ||",
+                    "sahitya": "sE           vikka   vEN     Du-  mai     yyA       - -      ci - dam- ba- ram-"
                 },
                 {
-                    "swara": "srm- sn s - n D M - rs - R | M - - - | rm rs rm pn ||",
-                    "sahitya": "se vikka ven Du- mai yya - - ci - dam- ba- ram-"
+                    "swara": "srm- sn       s -  n D   M ;       rs ,  R    |    M ;       ;  ;       |   rm   rs    rm pn  ||",
+                    "sahitya": "sE          vikka   vEN     Du-  mai     yyA       - -        ci - dam- ba- ram-"
                 },
                 {
-                    "swara": "srm- sn s - n D M - rs - R | mR- - - | - -m sRs ||",
-                    "sahitya": "se vikka ven Du- mai yya - - - - - -"
+                    "swara": "srm- sn       s -  n D   M ;       rs ,  R    |    mR,       ;  ;       |   ; ,m sRs  ||",
+                    "sahitya": "sE          vikka   vEN     Du-  mai     yyA       - -          - -               - -"
                 }
             ]
         },
@@ -53,48 +53,48 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- - s - s S ssnn - nd- dm | - p n - - s R | rs N - S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- - ti"
+                    "swara": "; , s       ,  s S ssnn      , nd- dm  |  ;  p n      , - s R    | rs N      ;  S   ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum     cidam   -  bara    mUr-      -   ti"
                 },
                 {
-                    "swara": "- - s - s S ssnn - nd- dm | - p n - - s R | rs N R S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , s       ,  s S ssnn      , nd- dm  |  ;  p n      , - s R    | rs N      R  S  ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum     cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - n s- s S rSn - nd- nn | dm- p n - - s R | m r sn R S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , n       s- s S rSn      , nd- nn   |  dm-  p n      , - s R  |m r sn    R  S  ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum      cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - n s- s S ns R- - s- nn | dm- p n - - s R | m r sn R S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , n       s- s S ns R,     ,  s- nn   |  dm-  p n      , - s R  |m r sn    R  S  ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum      cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - n s- s S ns R- - s- nd | M- p n - - s R | m r sn R S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , n       s- s S ns R,     ,  s- nd   |  M-  p n      , - s R  |m r sn    R  S  ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum      cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - n s- s S ns r - n sn- nn | dm- p n - - s R | m r sn R S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , n       s- s S ns r-n     sn- nn   |  dm-  p n      , - s R  |m r sn    R  S  ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum      cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - n s- s S n rm - r s - ndm | - - p n - - s R | m r sn R S ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , n       s- s S n rm-r     s - ndm    |  ; -  p n      , - s R  |m r sn    R  S  ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum        cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - n s- s S n rm - r s - ndm | - - p n - - s R | m r sn R rm ||",
-                    "sahitya": "se vikka ven - - Dum cidam - bara mur- ti yam"
+                    "swara": "; , n       s- s S n rm-r     s - ndm    |  ; -  p n      , - s R  |m r sn    R  rm ||",
+                    "sahitya": "sE         vikka    vEN       - -   Dum        cidam   -  bara    mUr-      ti yAm"
                 },
                 {
-                    "swara": "- - - r - mRs - snN - - N | - dn - d M | r m r s r m p n ||",
-                    "sahitya": "de va-di dev - an - tiru sanni dhi - - - kan- Du-"
+                    "swara": "; , - r    ,  mRs ,     snN ;    ; N  |    ;  dn        , d M   | r m r  s     r m  p n ||",
+                    "sahitya": "dE      vA-di     dEv         - an       - tiru        sanni    dhi - - -    kaN- Du-"
                 },
                 {
-                    "swara": "srm- rs - - n D M - rs - R | M - - - | rm rs rm pn ||",
-                    "sahitya": "- -- se vikka ven Du- mai yya - - ci - dam- ba- ram-"
+                    "swara": "srm- rs       , -  n D   M ;       rs ,  R    |    M ;       ;  ;       |   rm   rs    rm pn  ||",
+                    "sahitya": "- --   sE          vikka   vEN     Du-  mai     yyA       - -        ci - dam- ba- ram-"
                 },
                 {
-                    "swara": "srm- rs s - n D M - rs - R | mR- - - | - rm sRs ||",
-                    "sahitya": "se vikka ven Du- mai yya - - - - - -"
+                    "swara": "srm- rs       s -  n D   M ;       rs ,  R    |    mR,       ;  ;       |   ; rm sRs  ||",
+                    "sahitya": "sE          vikka   vEN     Du-  mai     yyA       - -          - -               - -"
                 }
             ]
         },
@@ -102,8 +102,68 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; , m  , M m      r m p m        R S  | ; , r      , mR, s         |   M   ;   ; M  ||",
+                    "sahitya": "Sin       gA ra    mA- na -      shiva      gan    - gaiyil            mU             - zhgi"
+                },
+                {
+                    "swara": "; , m  , M m      r m p m        R S  | ; , r      , mR, s         |   M   ;   ; R  ||",
+                    "sahitya": "Sin       gA ra    mA- na -      shiva      gan    - gaiyil            mU             - zhgi"
+                },
+                {
+                    "swara": "M -M    M  M     r m Mpm       , r S  | ; , r      , mR, s         |   M   ;   ; nn  ||",
+                    "sahitya": "Sin       gA ra    mA- na -        shiva      gan    - gaiyil            mU             - zhgi"
+                },
+                {
+                    "swara": "dM -m    , M m     N    rr        srpm- rs  | ; , r      , mR, s         |   M   ;   ; M  ||",
+                    "sahitya": "Sin       gA ra    mA- na -        -  - shiva      gan    - gaiyil            mU             - zhgi"
+                },
+                {
+                    "swara": "R , - r     m- P p      m p s n      n D - d  |  M - m p   m - rs r    |  M , - m       ;  M  ||",
+                    "sahitya": "Shi    va kAmi  san- -  -     ni -   dhi    -    mun- -    bA-gha   vE    van     -  du"
+                },
+                {
+                    "swara": ";  , - r     m- P p      m p s n      n D - d  |  M - m p   m - rs r    |  M , - rm       ;  M  ||",
+                    "sahitya": "Shi    va kAmi  san- -  -     ni -   dhi    -    mun- -    bA-gha   vE    van     -  du"
+                },
+                {
+                    "swara": ";  , - ns   , - S s      n S n          n n d m  | ; p n       ,  s R  |   m  r s n  R  S  ||",
+                    "sahitya": "pAn-   gAgha  vE- -         pra- - -                dak-      SiNam     -  -   -  -           sheidu"
+                },
+                {
+                    "swara": ";  , - ns   , - S s      n s r- n      s n - nn  | d m- p n       ,  s R     |   m  r s n       R  S  ||",
+                    "sahitya": "pAn-   gAgha  vE- -         - -   pra- - -         - -  dak-      SiNam     -  -   -  -           sheidu"
+                },
+                {
+                    "swara": ";  , - ns   , - S s      ns R  ,        ; s- n   | d m- p n       ,  s R     |   m  r s n       R  rm    ||",
+                    "sahitya": "pAn-   gAgha  vE- -         - -   pra-              - -  dak-      SiNam     -  -   -  -           sheidu"
+                },
+                {
+                    "swara": "; , - r    ,  mRs ,     snN ;    N    N  |    ;  dn        , d M   | r m r  s     r m  p n ||",
+                    "sahitya": "Bhak tar-gaL  sid- -      dhargaL        paNi       viDai  yO-  - r     to- zha -"
+                },
+                {
+                    "swara": "srm- rs       , -  n D   M ;       rs ,  R    |    M ;       ;  ;       |    ; ;         ;  ;  ||",
+                    "sahitya": "- --   sE          vikka   vEN     Du-  mai     yyA       - -         - -        - -"
+                },
+                {
+                    "swara": ";  , - ns   , - S s      ns R  ,        ; s- n   | d m- p n       ,  s R     |   m  r s n       R  rm    ||",
+                    "sahitya": "pAn-   gAgha  vE- -         - -   pra-              - -  dak-      SiNam     -  -   -  -           sheidu"
+                },
+                {
+                    "swara": "; , - r    ,  mRs ,     snN ;    N    N  |    ;  dn        , d M   | r m r  s     r m  p n ||",
+                    "sahitya": "Bhak tar-gaL  sid- -      dhargaL        paNi       viDai  yO- - r     to-  -  -"
+                },
+                {
+                    "swara": "srm- rs       , -  n D   M ;       rs ,  R    |    M ;       ;  ;       |   rm   rs    rm pn  ||",
+                    "sahitya": "zha--sE          vikka   vEN     Du-  mai     yyA       - -        ci - dam- ba- ram-"
+                },
+                {
+                    "swara": "srm- rs       s -  N  d   ,  - M ,  rs ,  R    |   M, -  rs       s -  N  d   | , - M ,       rs ,  R   ||",
+                    "sahitya": "sE            vikka     vEN  Du- mai     yyA  sE            vikka      vEN      Du- mai"
+                },
+                {
+                    "swara": "M, - nr     S -  n D    M ;       rs ,  ,   r    |  mR,       ;  ;       |   ; rm         sRs  ||",
+                    "sahitya": "sE          vikka   vEN     Dum-  ai     yyA       - -             - -           - -"
                 }
             ]
         }

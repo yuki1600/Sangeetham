@@ -12,24 +12,24 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "S R G M - G P - - - - - | G G R N G R S - - S Gr sN d ||",
-                    "sahitya": "Vaan-cha Tho- nu Naa - - - - - Vagalu Thel-pa ve - - Am -ba- -"
+                    "swara": "S   R G    M  ;  G   P  ;  ;  ;  ;  ;  |  G G R      N G R      S  ;  ;     S  Gr sN d  ||",
+                    "sahitya": "Vaan-cha Tho-  nu Naa - -  -  - -    Vagalu    Thel-pa     ve - -    Am -ba- -"
                 },
                 {
-                    "swara": "S R G G M G P - - - - - | G G R N G R S - - S Gr sN d ||",
-                    "sahitya": "Vaan-cha Tho- nu Naa - - - - - Vagalu Thel-pa ve - - Am -ba- -"
+                    "swara": "S   R G    G M  G   P  ;  ;  ;  ;  ;  |  G G R      N G R      S  ;  ;     S  Gr sN d  ||",
+                    "sahitya": "Vaan-cha Tho-  nu Naa - -  -  - -    Vagalu    Thel-pa     ve - -    Am -ba- -"
                 },
                 {
-                    "swara": "S R G G M G P - - gp D P | mmggR N G R S - - S Gr sN d ||",
-                    "sahitya": "Vaan-cha Tho- nu Naa - - - - - Va-ga-lu Thel-pa ve - - Am -ba- -"
+                    "swara": "S   R G    G M  G   P  ;  ;  gp D P  |  mmggR     N G R      S  ;  ;     S  Gr sN d  ||",
+                    "sahitya": "Vaan-cha Tho-  nu Naa - -  -  - -    Va-ga-lu    Thel-pa     ve - -    Am -ba- -"
                 },
                 {
-                    "swara": "S R G G M G G P D P D S | ds rg rs nd pd rs sn nd dp mgG-r snn D- ||",
-                    "sahitya": "Vaan-cha Tho- nu Naa - - - - - Va-ga-lu Thel—pa- ve - - Am -- ba- -"
+                    "swara": "S   R G    G M  G   G P D  P D S  |  ds  rg  rs     nd  pd rs    sn nd dp   mgG,r snn D,  ||",
+                    "sahitya": "Vaan-cha Tho-  nu Naa - -  -  - -    Va-ga-lu    Thel\u2014pa-   ve - -        Am -- ba- -"
                 },
                 {
-                    "swara": "S R G G M G G P D P D S | ds rg rs nd pd rs sn nd dp mg - r N d ||",
-                    "sahitya": "Vaan-cha Tho- nu Naa - - - - - Va-ga-lu Thel—pa- ve - - Am -- ba- -"
+                    "swara": "S   R G    G M  G   G P D  P D S  |  ds  rg  rs     nd  pd rs    sn nd dp    mg , r     N d   ||",
+                    "sahitya": "Vaan-cha Tho-  nu Naa - -  -  - -    Va-ga-lu    Thel\u2014pa-   ve - -        Am --    ba- -"
                 }
             ]
         },
@@ -37,24 +37,44 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "G P D S R R gr S gm mg G - | N G R N D S N D P G R S ||",
-                    "sahitya": "Vaan-chi tha Pha la daa- ya- ki- - - Val- li Guhuni Manasu Garaga"
+                    "swara": "G    P  D   S    R   R    gr S gm   mg G  ;  |  N G R    N D S   N D P  G R S  ||",
+                    "sahitya": "Vaan-chi  tha Pha la  daa- ya-    ki-  -   -           Val- li   Guhuni  Manasu Garaga"
                 },
                 {
-                    "swara": "G P D S R R gr S gm mg G - S | N G R N D S N D P G R S ||",
-                    "sahitya": "Vaan-chi tha Pha la daa- ya- ki- - Sri Val- li Guhuni Manasu Garaga"
+                    "swara": "G    P  D   S    R   R    gr S gm   mg G  - S  |  N G R    N D S   N D P  G R S  ||",
+                    "sahitya": "Vaan-chi  tha Pha la  daa- ya-    ki-  -     Sri     Val- li   Guhuni  Manasu Garaga"
                 },
                 {
-                    "swara": "sn gp D S R R gr S gm mg g - S - | N G R N D S N D P G R S ||",
-                    "sahitya": "Vaan-chi tha Pha la daa- ya- ki- - Sri Val- li Guhuni Manasu Garaga"
+                    "swara": "sn   gp  D   S    R   R   gr S gm   mg g  - S  ,   |  N G R    N D S   N D P  G R S  ||",
+                    "sahitya": "Vaan-chi  tha Pha la  daa- ya-    ki-  -     Sri     Val- li   Guhuni  Manasu Garaga"
                 },
                 {
-                    "swara": "sn gp D S R R gr sn d mgG gp ds G - | N G R N D S gr sn dp G R S ||",
-                    "sahitya": "Vaan-chi tha Pha la daa- - - - - - - ya- ki- Sri Val- li Guhuni Ma na su Garaga"
+                    "swara": "sn   gp  D   S    R   R   gr sn d mgG gp    ds G ;  |    N G R    N D S   gr sn dp   G R S  ||",
+                    "sahitya": "Vaan-chi  tha Pha la  daa- - - - - - - ya-  ki-   Sri    Val- li    Guhuni  Ma na  su  Garaga"
                 },
                 {
-                    "swara": "S S- - s r gm G - - P P - g pds N - | D D - p d sr S - N - dp mg rs nd ||",
+                    "swara": "S ;  S  ; sr gm       G ; P   ; gpds  | N  D ;     pd sr S    N  ; dp  mg rs nd   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S ; ,- s     r gm G ,  - P ; , g   pds N , | D ;  , p     d sr S ,    N  ; dp  mg rs nd   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S S, - s     r gm G ,  - P P , g   pds N , | D D  , p     d sr S ,    N  ; dp  mg rs nd   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S ; s- s     r gm G g  - P ; p g   pds N n | D ;  d p     d sr S s    N , n dp  mg rs nd   ||",
                     "sahitya": "(can have other combinations of 5)"
+                },
+                {
+                    "swara": "srgm gp   M , gpd  s nd P ,  srgm gp |  G r N d    S , N d    M g P ,    G r N d ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "srgm gp   M , gpd  s nd P ,  srgm gp |  mgG r snN d    S , snN d    pmM g P ,    mgG r snN d ||",
+                    "sahitya": ""
                 }
             ]
         },
@@ -62,7 +82,71 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
+                    "swara": "P ;    D  P  mgG ;  gg P M   g R   n D  | S R G     M mg G     P ; ;    ; P ;  ||",
+                    "sahitya": "Maa ni   ni Nee--    Ba-lu    dou- Naa-  Ma- na  mu Ka- -     pa- -   - di -"
+                },
+                {
+                    "swara": "P ;    dn  ndP  mgG ;   gp D P   g R   n D  | S R G     M mg G     P ; ;    ; P ;  ||",
+                    "sahitya": "Maa ni   ni --  Nee--    Ba--lu    dou- Naa-  Ma- na  mu Ka- -     pa- -   - di -"
+                },
+                {
+                    "swara": "P ;    dn  ndP  mgG ;   gp dn dp   g R   n D  | S R G     M mg G     P  ; P  ;  P P   ||",
+                    "sahitya": "Maa ni   ni --  Nee--    Ba--- lu    dou- Naa-  Ma- na  mu Ka- -     pa- di - Abhi"
+                },
+                {
+                    "swara": "P ; D  P M G  G D P  g R n D  |  S  R G     M  G  P       mg G ;  ;   P P   ||",
+                    "sahitya": "Ma-na mi- nsa  Valenu Tha-lli-   Maraga   tha Val-       li-  -   -   - Abhi"
+                },
+                {
+                    "swara": "P ; D  P M G  G D P  g R n D  |  S  R G     M  G  P       mg G ;  ;   S R   ||",
+                    "sahitya": "Ma-na mi- nsa  Valenu Tha-lli-   Maraga    tha Val-       li-  -   -     - Kali"
+                },
+                {
+                    "swara": "G P M  G R S  sr G R  n D , S  | s r gm G    P P  P    nd d p D  S S  g p ||",
+                    "sahitya": "maa-na  mulanu   Bro-va   nee-  Sa  maa\u2014na   Evvaru  Maa--   ra yutha Kali"
+                },
+                {
+                    "swara": "sn nd dp G R S  dsr G r  n D , S  | s r gm G    P P  P    nd d p D  S S  - S ||",
+                    "sahitya": "maa- na  mulanu   Bro-va   nee-  Sa  maa\u2014na   Evvaru  Maa--   ra yutha Sa"
+                },
+                {
+                    "swara": "P ,   d  S   R ; R  ds Rgr gr    R S -; | ; ; ;  ; ; ;  ; ; ;  ; ; S  ||",
+                    "sahitya": "maa - na  ru - pa  Ha ri\u2014ke-  -  sha   - - -  - -  - - -  - - Sa"
+                },
+                {
+                    "swara": "P ,   d  S   R ; R  ds Rgr gr    R S -S |  ds rg R     nD S ,     ; ; ;      ; ; S  ||",
+                    "sahitya": "maa - na  ru - pa  Ha ri\u2014ke-  - sha Ku maa\u2014ra  Raa-ni    - - -   - - Sa"
+                },
+                {
+                    "swara": "P ,   d  S   R ; R  ds Rgr gr    R S -S |  ds rg R     nD S ,     gr sn dp  mgG ,  rs - s ||",
+                    "sahitya": "maa - na  ru - pa  Ha ri\u2014ke-  - sha Ku maa\u2014ra  Raa-ni    Va na ja  Ne- - thri- Sa"
+                },
+                {
+                    "swara": "P ,   d  S   R ; R  ds Rgr gr    R S -S |  ds rg R     nD S ,     gr sn dp  mgG  , rS  ||",
+                    "sahitya": "maa - na  ru - pa  Ha ri\u2014ke-  - sha Ku maa\u2014ra  Raa-ni    Va na ja  Ne- - thri-"
+                },
+                {
+                    "swara": "S ;  S  ; sr gm       G ; P   ; gpds  | N  D ;     pd sr S    N  ; dp  mg rs nd   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S ; ,- s     r gm G ,  - P ; , g   pds N , | D ;  , p     d sr S ,    N  ; dp  mg rs nd   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S S, - s     r gm G ,  - P P , g   pds N , | D D  , p     d sr S ,    N  ; dp  mg rs nd   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S ; s- s     r gm G g  - P ; p g   pds N n | D ;  d p     d sr S s    N , n dp  mg rs nd   ||",
+                    "sahitya": "(can have other combinations of 5)"
+                },
+                {
+                    "swara": "srgm gp   M , gpd  s nd P ,  srgm gp |  G r N d    S , N d    M g P ,    G r N d ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "srgm gp   M , gpd  s nd P ,  srgm gp |  mgG r snN d    S , snN d    pmM g P ,    mgG r snN d ||",
                     "sahitya": ""
                 }
             ]

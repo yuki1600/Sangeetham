@@ -12,396 +12,373 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- dn - d P M-g",
-                    "sahitya": "Oka pari ko - ka- pa- ri- oi - yaa - ra mai - -"
+                    "swara": "p m  , gR, gS, | R g - m       ;  M  P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-    pa-  ri-    oi -    yaa     -  ra  mai - -"
                 },
                 {
-                    "swara": "- dn - d P M-g",
-                    "sahitya": "Oka pari ko - ka- pa- ri- oi - yaa - ra mai - -"
+                    "swara": "p m  , gR, gS, | R g - m       ;  M  P ;  D ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-    pa-  ri-    oi -    yaa     -  ra  mai - -"
                 },
                 {
-                    "swara": "s -- nd P M-g p m - gR- gS- | R g - m - M P - D - ||",
-                    "sahitya": "- Oka - pari ko - ka- pa- ri- oi - ya a - ra mai - -"
+                    "swara": "s  ,- nd  P M,g  p m  , gR, gS, | R g - m       ;  M  P ;  D ;  ||",
+                    "sahitya": "-  Oka -  pari  ko - ka-    pa-  ri-    oi -    ya a     -  ra  mai - -"
                 },
                 {
-                    "swara": "r s- nd P M-g pmmg - mG- rS- | R g - m - M P - D - ||",
-                    "sahitya": "- Oka - pari ko - ka- - pa- ri- oi - yaa - ra mai - -"
+                    "swara": "r  s- nd  P M,g  pmmg   , mG, rS, | R g - m       ;  M  P ;  D ;  ||",
+                    "sahitya": "-  Oka -  pari  ko - ka-    -    pa-  ri-    oi -    yaa     -  ra mai - -"
                 },
                 {
-                    "swara": "N- nr s- nd",
-                    "sahitya": "- Oka - pari ko - ka- - pa- ri- oi - yaa - ra mai - -"
+                    "swara": "P M,g  pmmg   , mG, rS, | R g - n       ;  D  P ;  ; ;  ||",
+                    "sahitya": "-  Oka -  pari  ko - ka-    -    pa-  ri-    oi -    yaa     -  ra mai - -"
                 },
                 {
-                    "swara": "- dn - d P M-g",
-                    "sahitya": "Oka pari ko - ka- pa- ri- oi - yaa - - ra mai - -"
+                    "swara": "p m  ,    gR, gS,   |  rg - mp    d sn  D P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-        pa-  ri-      oi -   yaa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- d n - p D nS - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - n a Tlun- De --"
+                    "swara": "N - n    d p M  G R g m P ||",
+                    "sahitya": "Moka - muna  kaLa le -  lla    mo li ci    - -  n a TluN-    DE --"
                 },
                 {
-                    "swara": "- dn - d P mp Dnd",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
+                    "swara": "p- gR gS   |  rg - mp    d sn  D P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-      -   pa-  ri-   oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- d n - p D g R - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - na Tlun- -- De"
+                    "swara": "N - n    d p M  dpmg rs - rg ||",
+                    "sahitya": "Moka - muna  kaLa  le -  lla    mo li ci    - -  na TluN-     --   DE"
                 },
                 {
-                    "swara": "mp- dnrs",
-                    "sahitya": "- - Oka pa-ri ko - ka- - pa- ri- oi - yaa - ra mai - -"
+                    "swara": ", nd  P mp Dnd      p- gR gS   |  r G - n      ; D P ;  ; ;  ||",
+                    "sahitya": "- -  Oka     pa-ri  ko - ka-      -   pa-  ri-     oi -   yaa    - ra mai - -"
                 },
                 {
-                    "swara": "- d n - p D g R - s - S | sd N - n d p M dpmg rs - rg ||",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - na Tlun- -- De"
+                    "swara": "; d  n  , p D g R - s ; S  |  sd  N - n    d p M  dpmg rs - rg ||",
+                    "sahitya": "Moka - muna  kaLa  le -  lla    mo li ci    - -  na TluN-     --   DE"
                 },
                 {
-                    "swara": "mp- dnrs",
-                    "sahitya": "- - Oka pa-ri ko - ka- - pa- ri- oi - yaa - ra - - - -"
+                    "swara": ", nd  P mp Dnd      p- gR gS   |  r G - n      ; D ; ;  ; ;  ||",
+                    "sahitya": "- -  Oka     pa-ri  ko - ka-      -   pa-  ri-     oi -   yaa    - ra - -  - -"
                 },
                 {
-                    "swara": "- nd pm - pd - p - - - | - - - - - - - - ||",
-                    "sahitya": "mai - - - - - - - - - - -- - - - -"
+                    "swara": "; nd pm - pd   , p  ;   ; ;  |  ; ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "mai - -      - -     -   -       - -   - -  --   - -  - -"
                 },
                 {
-                    "swara": "- nd - P - M - gp - mgG",
-                    "sahitya": "Jaga -de ka pati - me - - na jal- - lin a kat poo - ra doo"
+                    "swara": "p m  , gR, gS, | R g - m       ;  M  P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-    pa-  ri-    oi -    yaa     -  ra  mai - -"
                 },
                 {
-                    "swara": "D- nd - P - M - gp - mgG",
-                    "sahitya": "Li Jaga -de ka pati - me - - na jal- - l ina kat poo - ra doo"
+                    "swara": "Eduppu at \u00bd beat (i.e. 2 aksharas).The laya procee ds as 2-6-4-4 | 6-2-4-4 || The 6s amidst the 4s add  variety and odd",
+                    "sahitya": "counts in the progression: each of the 6s is broken  into two 3s (dN-dP and Rg-M, ). The overall idea i s to mix 2-6s with 4-4 to fill up"
                 },
                 {
-                    "swara": "D- nd - pmM",
-                    "sahitya": "Li Jaga -de ka -- pa-ti - me - - na jal- - lina kat poo - ra doo"
+                    "swara": "p m  , gR, gS, | R g - m       ;  M  P ;  D ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-    pa-  ri-    oi -    yaa     -  ra  mai - -"
                 },
                 {
-                    "swara": "D- nd - pmM",
-                    "sahitya": "Li Jaga -de ka -- pa-ti - me - - na jal- - lina kat poo - ra doo"
+                    "swara": "s  ,- nd  P M,g  p m  , gR, gS, | R g - m       ;  M  P ;  D ;  ||",
+                    "sahitya": "-  Oka -  pari  ko - ka-    pa-  ri-    oi -    ya a     -  ra  mai - -"
                 },
                 {
-                    "swara": "- pd - nD d P - mg",
-                    "sahitya": "Jigi goni nadu van-- ga cinda gaa nu - - - - - - - - -"
+                    "swara": "r  s- nd  P M,g  pmmg   , mG, rS, | R g - m       ;  M  P ;  D ;  ||",
+                    "sahitya": "-  Oka -  pari  ko - ka-    -    pa-  ri-    oi -    yaa     -  ra mai - -"
                 },
                 {
-                    "swara": "- pd - nD d P - mg",
-                    "sahitya": "Jigi goni nadu van-- ga cinda gaa nu - - - - - - - - -"
+                    "swara": "P M,g  pmmg   , mG, rS, | R g - n       ;  D  P ;  ; ;  ||",
+                    "sahitya": "-  Oka -  pari  ko - ka-    -    pa-  ri-    oi -    yaa     -  ra mai - -"
                 },
                 {
-                    "swara": "- rg - mP d N - dp",
-                    "sahitya": "Jigi goni nadu van-- ga cinda gaa nu - - -"
+                    "swara": "p m  ,    gR, gS,   |  rg - mp    d sn  D P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-        pa-  ri-      oi -   yaa       - -   ra mai - -"
                 },
                 {
-                    "swara": "s S - n - D-n",
-                    "sahitya": "mogi can - dra- mugi - - - - - - - - - -"
+                    "swara": "N - n    d p M  G R g m P ||",
+                    "sahitya": "Moka - muna  kaLa le -  lla    mo li ci    - -  n a TluN-     --   DE"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - - - - - - - - - -"
+                    "swara": "The laya proceeds as 2-6-6-2 | 6-2-4-4 || Note the increased emphasis on the 2+6 pattern in the first half (\u201ckaLalella\u201d)",
+                    "sahitya": "instead of the 4-4 (\u201ckokapari\u201d) in the prior sahity a line."
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": "p- gR gS   |  rg - mp    d sn  D P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-      -   pa-  ri-   oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": "N - n    d p M  dpmg rs - rg ||",
+                    "sahitya": "Moka - muna  kaLa  le -  lla    mo li ci    - -  na TluN-     --   DE"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": ", nd  P mp Dnd      p- gR gS   |  r G - n      ; D P ;  ; ;  ||",
+                    "sahitya": "- -  Oka     pa-ri  ko - ka-      -   pa-  ri-     oi -   yaa    - ra mai - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": "N - n    d p M  dpmg rs - rg ||",
+                    "sahitya": "Moka - muna  kaLa  le -  lla    mo li ci    - -  na TluN-     --   DE"
                 },
                 {
-                    "swara": "d n R - N S-n",
-                    "sahitya": "pogaru - ven ne- la- - dee ga po - si - - na Tlin De- -"
+                    "swara": ", nd  P mp Dnd      p- gR gS   |  r G - n      ; D ; ;  ; ;  ||",
+                    "sahitya": "- -  Oka     pa-ri  ko - ka-      -   pa-  ri-     oi -   yaa    - ra - -  - -"
                 },
                 {
-                    "swara": "d n R - N S-n",
-                    "sahitya": "pogaru - ven ne- la- - dee ga po - si - - na Tlin - - De- - - (oka)"
-                },
-                {
-                    "swara": "- dn - d P mp Dnd",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
-                },
-                {
-                    "swara": "- d n - p D g R - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - na Tlun- -- De"
-                },
-                {
-                    "swara": "mp- dnrs",
-                    "sahitya": "- - Oka pa-ri ko - ka- - pa- ri- oi - yaa - ra - mai - -"
-                },
-                {
-                    "swara": "- n d - P - M - g p - mgG",
-                    "sahitya": "mera -ya - shree venka- Te - - su - - - - - - - -"
-                },
-                {
-                    "swara": "mp- n d - P - M-r",
-                    "sahitya": "- - mera -ya - shree venka- - Te - - su - - - - - - - -"
-                },
-                {
-                    "swara": "mp- n d - P - M - gp - -mgG",
-                    "sahitya": "- - mera -ya - shree venka- - Te - - su me - - na sin gaa ramugaa"
-                },
-                {
-                    "swara": "D - n d - P - M- gp - -mgG",
-                    "sahitya": "nu - mera -ya - shree venka- - Te - - su me - - na sin gaa ramugaa"
-                },
+                    "swara": "; nd pm - pd   , p  ;   ; ;  |  ; ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "mai - -      - -     -   -       - -   - -  --   - -  - -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
                 {
-                    "swara": "D- n d - pmM",
-                    "sahitya": "nu - mera -ya - shree venka- Te - - su me - - na sin gaa ramugaa"
+                    "swara": ",  | R- gR,     , g M      M - P         ,  p  P  ||",
+                    "sahitya": "Jaga -dE ka    pati  - mE - -   na jal-     - lin a      kaT  poo     - ra doo"
                 },
                 {
-                    "swara": "- rg - mP d N - dp M P | - mp - D - N S - - ||",
-                    "sahitya": "Sara -saina som- mu - lu - dhari yim ca gaa"
+                    "swara": ",  | R- gR,     , g M      M - P         ,  p  Pdp  ||",
+                    "sahitya": "Li  Jaga -dE ka    pati  - mE - -   na jal-     - l ina      kaT  poo     - ra doo"
                 },
                 {
-                    "swara": "- rg - mP d N - dp",
-                    "sahitya": "Sara -saina som- mu - lu - dhari yim ca gaa"
+                    "swara": ",  M - gmP   , mgG  , | rs - gR,      , g M       M - P         ,  p  Pdp  ||",
+                    "sahitya": "Li  Jaga -dE ka -- pa-ti  - mE - -   na jal-      -  lina      kaT  poo     - ra doo"
                 },
                 {
-                    "swara": "sp - rg - mP d N - dp",
-                    "sahitya": "- - Sara -saina som- mu - lu dhari yim ca gaa"
+                    "swara": ",  M      - gmP   , mgG  , | rs - gR,      , g M    M - pd         sn   d  P  ||",
+                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina    kaT  poo        -   ra  doo"
                 },
                 {
-                    "swara": "s S - n - D-n",
-                    "sahitya": "meru pu - to- Ti - - - - - - - - - - -"
+                    "swara": "R S  |  r  g   M  n n d p       mp M  P ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
                 },
                 {
-                    "swara": "s S - n - D-n",
-                    "sahitya": "meru pu - to- Ti - - alar melu - man ga-yu- daa-nu-"
+                    "swara": "R S  |  r  g   M  n d pdS        n d P   ; ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "meru pu - to- Ti - - alar melu - man ga-yu- daa-nu-"
+                    "swara": "M P  |  M P  D N      N S    ; ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda  gaa      nu -         - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "meru pu - to- Ti - - alar melu - man ga-yu- daa-nu-"
+                    "swara": "S S  ;  ;  |    ; ;   ; ;  ; ;  SR ||",
+                    "sahitya": "mogi can     - dra-    mugi   - -       - -   - -  - -  - -"
                 },
                 {
-                    "swara": "d n R - N S-n",
-                    "sahitya": "merupu - me gha- mu- - koodi me-ra si - - na Tlun- De- -"
+                    "swara": "N-  D,n      S S    ; ;  |    ; ;   ; ;  ; ;  S R ||",
+                    "sahitya": "mogi can      -   dra-    mugi   - -       - -   - -  - -  - -"
                 },
                 {
-                    "swara": "d n gR-",
-                    "sahitya": "merupu - me gha- mu- - koodi me-ra si - - na Tlun- De- - - - (oka)"
+                    "swara": "N-  D,n      rn S    , s N  |    G , r  ; R  gmgr  g r  sr ||",
+                    "sahitya": "mogi can      -   dra-    mugi  - u ra     mu-na  -  ni li -pE- gaa-na-"
                 },
                 {
-                    "swara": "- dn - d P mp Dnd",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
+                    "swara": "nr  s-    , n D  |  pd n-  n   d p - M   G R  gm P ||",
+                    "sahitya": "pogaru   - ven  ne-  la- -     dee ga   pO  - si - -      na   TliN    DE- -"
                 },
                 {
-                    "swara": "- d n - p D g R - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - na Tlun- -- De"
+                    "swara": "p- gR gS   |  rg - mp    d sn  D P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-      -   pa-  ri-   oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- dn - d P mg pmmg",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
+                    "swara": "N - n    d p M  dpmg rs - rg ||",
+                    "sahitya": "Moka - muna  kaLa  le -  lla    mo li ci    - -  na TluN-     --   DE"
                 },
                 {
-                    "swara": "- dn - d P M gpM",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - yaa - - ra mai - -"
+                    "swara": ", nd  P mp Dnd      p- gR gS   |  r G - m      ; M ; P  ; ;  ||",
+                    "sahitya": "- -  Oka     pa-ri  ko - ka-      -   pa-  ri-     oi -   yaa    - ra - mai  - -"
                 },
                 {
-                    "swara": "R g - m - M P - mgrs | R g - n - D - - - - ||",
-                    "sahitya": "oi - yaa - ra mai - - - oi - yaa - ra - - - -"
+                    "swara": ",  | R ;  ; ;  ; ;  ; rg ||",
+                    "sahitya": "meRa   -ya -  shree venka- TE  - -     su -  - -  - -  - - -"
                 },
                 {
-                    "swara": "- nd pm - pd - p - - - | - - - - - - - - ||",
-                    "sahitya": "- mai - - - - - - - - - - -- - - - -"
+                    "swara": "-   gm    p -mgG  ,  | R ;  ; ;  ; ;  ; rs ||",
+                    "sahitya": "- -   meRa   -ya -  shree venka- - TE  - -     su -  - -  - -  - - -"
                 },
                 {
-                    "swara": "- dn - d P M-g",
-                    "sahitya": "Oka pari ko - ka- pa- ri- oi - yaa - ra mai - -"
+                    "swara": ",  | rs- gRg     ; M    M - P       p  p   P   ||",
+                    "sahitya": "- -   meRa   -ya -  shree venka- - TE  - -     su mE - -  na   sin  gaa     ramugaa"
                 },
                 {
-                    "swara": "- dn - d P M-g",
-                    "sahitya": "Oka pari ko - ka- pa- ri- oi - yaa - ra mai - -"
+                    "swara": ",  | rs- gRg     ; M    M - P       p  p   Pdp   ||",
+                    "sahitya": "nu - meRa -ya -   shree venka- - TE  - -     su mE - -  na   sin  gaa     ramugaa"
                 },
                 {
-                    "swara": "s -- nd P M-g p m - gR- gS- | R g - m - M P - D - ||",
-                    "sahitya": "- Oka - pari ko - ka- pa- ri- oi - ya a - ra mai - -"
+                    "swara": ",  M      - gmP   , mgG  , | rs- gRg     ; M    M - P       p  p   Pdp   ||",
+                    "sahitya": "nu - meRa -ya -    shree     venka- TE  - -     su mE - -  na   sin  gaa     ramugaa"
                 },
                 {
-                    "swara": "r s- nd P M-g pmmg - mG- rS- | R g - m - M P - D - ||",
-                    "sahitya": "- Oka - pari ko - ka- - pa- ri- oi - yaa - ra mai - -"
+                    "swara": "; rg , mP d N - dp  M P   |  ; mp     , D ,      N  S     ; ;  ||",
+                    "sahitya": "Sara -saina  som-  mu -  lu       - dhari     yim       ca gaa"
                 },
                 {
-                    "swara": "N- nr s- nd",
-                    "sahitya": "- Oka - pari ko - ka- - pa- ri- oi - yaa - ra mai - -"
+                    "swara": "M P   |  ; mp     , D ,      N  S     ; nrS   ||",
+                    "sahitya": "Sara -saina  som-  mu -  lu       - dhari     yim       ca gaa"
                 },
                 {
-                    "swara": "- dn - d P M-g",
-                    "sahitya": "Oka pari ko - ka- pa- ri- oi - yaa - - ra mai - -"
+                    "swara": "M P   |  m P -d       ; N       S ;   ; ;  ||",
+                    "sahitya": "- -  Sara -saina  som-  mu -  lu      dhari yim     ca       gaa"
                 },
                 {
-                    "swara": "- d n - p D nS - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - n a Tlun- -- De"
+                    "swara": "S ;   ;  ;  |    ; ;   ; ;  ; ;  SR ||",
+                    "sahitya": "meru  pu     -   to-     Ti -  -  -      - -   - -  - -  -  -"
                 },
                 {
-                    "swara": "- dn - d P mp Dnd",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
+                    "swara": "N-  D,n      rn S , s N  |    G , r  ; R  gmgr  g r  sr ||",
+                    "sahitya": "meru  pu     -     to-      Ti -  - alar     mElu   - man ga-yu- daa-nu-"
                 },
                 {
-                    "swara": "- d n - p D g R - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - na Tlun- -- De"
+                    "swara": "nr  s-    , n D  |  p d n-  n   d p - M   G R  gm P ||",
+                    "sahitya": "merupu  - mE      gha- mu-    - kooDi  me-ra si -  -     na   TluN-  DE- -"
                 },
                 {
-                    "swara": "mp- dnrs",
-                    "sahitya": "- - Oka pa-ri ko - ka- - pa- ri- oi - yaa - ra mai - -"
+                    "swara": "p- gR gS   |  rg - mp    d sn  D P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-      -   pa-  ri-   oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- d n - p D g R - s - S | sd",
-                    "sahitya": "Moka - muna kala le - lla mo li ci - - na Tlun- -- De"
+                    "swara": "N - n    d p M  dpmg rs - rg ||",
+                    "sahitya": "Moka - muna  kaLa  le -  lla    mo li ci    - -  na TluN-     --   DE"
                 },
                 {
-                    "swara": "mp- dnrs",
-                    "sahitya": "- - Oka pa-ri ko - ka- - pa- ri- oi - yaa - ra - - - -"
+                    "swara": "mG, rS,   |  R g - m  ; M  P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-  -     pa-  ri-     oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- nd pm - pd - p - - - | - - - - - - - - ||",
-                    "sahitya": "mai - - - - - - - - - - -- - - - -"
+                    "swara": "mG, rS,   |  R g - n  ; D P ;  mgrs ||",
+                    "sahitya": "Oka   pari  ko - ka-  -  pa-  ri-     oi -   yaa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- nd - P - M - gp - mgG",
-                    "sahitya": "Jaga -de ka pati - me - - na jal- - lin a kat poo - ra doo"
+                    "swara": "R g - m  ; M P ;  mgrs |  R g - n  ; D ; ;  ; ;  ||",
+                    "sahitya": "oi -   yaa  - ra mai   - - -     oi -   yaa             -   ra - -  - -"
                 },
                 {
-                    "swara": "D- nd - P - M - gp - mgG",
-                    "sahitya": "Li Jaga -de ka pati - me - - na jal- - l ina kat poo - ra doo"
+                    "swara": "; nd pm - pd   , p  ;   ; ;  |  ; ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "- mai - -      - -     -   -       - -   - -  --   - -  - -"
                 },
                 {
-                    "swara": "D- nd - pmM",
-                    "sahitya": "Li Jaga -de ka -- pa-ti - me - - na jal- - lina kat poo - ra doo"
+                    "swara": ", | R- gR,     , g M      M - P         ,  p  P  ||",
+                    "sahitya": "Jaga -dE ka    pati  - mE - -   na jal-     - lin a      kaT  poo     - ra doo"
                 },
                 {
-                    "swara": "D- nd - pmM",
-                    "sahitya": "Li Jaga -de ka -- pa-ti - me - - na jal- - lina kat poo - ra doo"
+                    "swara": ": 2-6-2-6 | 2-6-2-6  || Note the repetitive symmetr y after the edduppu: 6-2 = \u201dtha-dheem-tha-dheem-Tha \u201d in \u201cjagadE-ka\u201d,",
+                    "sahitya": "\u201cpatimE-na\u201d, \u201cjallina-kaT\u201d, \u201dpooradoo-Li\u201d. Since th e words straddle this pattern (eg: \u201cjagadEkapati\u201d a nd \u201ckaTpoora\u201d) it is"
                 },
                 {
-                    "swara": "- pd - nD d P - mg",
-                    "sahitya": "Jigi goni nadu van-- ga cinda gaa nu - - - - - - - - -"
+                    "swara": ", | R- gR,     , g M      M - P         ,  p  Pdp  ||",
+                    "sahitya": "Li  Jaga -dE ka    pati  - mE - -   na jal-     - l ina      kaT  poo     - ra doo"
                 },
                 {
-                    "swara": "- pd - nD d P - mg",
-                    "sahitya": "Jigi goni nadu van-- ga cinda gaa nu - - - - - - - - -"
+                    "swara": ",  M - gmP   , mgG  , | rs - gR,      , g M      M - P         ,  p  Pdp  ||",
+                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina      kaT  poo     - ra doo"
                 },
                 {
-                    "swara": "- rg - mP d N - dp",
-                    "sahitya": "Jigi goni nadu van-- ga cinda gaa nu - - -"
+                    "swara": ",  M      - gmP   , mgG  , | rs - gR,      , g M      M - pd         sn   d  P  ||",
+                    "sahitya": "Li  Jaga -dE ka --     pa-ti  - mE - -   na jal-      - lina      kaT  poo        -   ra  doo"
                 },
                 {
-                    "swara": "s S - n - D-n",
-                    "sahitya": "mogi can - dra- mugi - - - - - - - - - -"
+                    "swara": "R S  |  r  g   M  n n d p       mp M  P ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - - - - - - - - - -"
+                    "swara": ": 2-6-6-2 | 4-4-4-4  || Note slight change in patte rn, but keeps the overall idea of mixing 2-6 with 4 -4 to fill up lengths of 8",
+                    "sahitya": "and comes back to samam every second beat."
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": "R S  |  r  g   M  n d pdS        n d P   ; ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda gaa nu - - -        - - - -  - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": "M P  |  M P  D N      N S    ; ;  ||",
+                    "sahitya": "Jigi  goni  naDu van--  ga  cinda  gaa      nu -         - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": "S S  ;  ;  |    ; ;   ; ;  ; ;  SR ||",
+                    "sahitya": "mogi can     - dra-    mugi   - -       - -   - -  - -  - -"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "mogi can - dra- mugi - u ra mu-na - ni li -pe- gaa-na-"
+                    "swara": ": 6-2-4-4 | 4-4-4-4  || Also start on samam instead  of the usual \u00bd beat eduppu.",
+                    "sahitya": "gR -   sn"
                 },
                 {
-                    "swara": "d n R - N S-n",
-                    "sahitya": "pogaru - ven ne- la- - dee ga po - si - - na Tlin De- -"
+                    "swara": "N-  D,n      S S    ; ;  |    ; ;   ; ;  ; ;  S R ||",
+                    "sahitya": "mogi can      -   dra-    mugi   - -       - -   - -  - -  - -"
                 },
                 {
-                    "swara": "d n R - N S-n",
-                    "sahitya": "pogaru - ven ne- la- - dee ga po - si - - na Tlin - - De- - - (oka)"
+                    "swara": ": 6-2-5-3 | 6-2-4-4  || Note the use of 5-3 at the end of the first half. It simulates an \u201cateeta\u201d edu ppu for the second half.",
+                    "sahitya": "Still maintains the idea of samam every 2 beats (i. e. 8 aksharas)."
                 },
                 {
-                    "swara": "- n d - P - M - g p - mgG",
-                    "sahitya": "mera -ya - shree venka- Te - - su - - - - - - - -"
+                    "swara": "N-  D,n      rn S    , s N  |    G , r  ; R  gmgr  g r  sr ||",
+                    "sahitya": "mogi can      -   dra-    mugi  - u ra     mu-na  -  ni li -pE- gaa-na-"
                 },
                 {
-                    "swara": "mp- n d - P - M-r",
-                    "sahitya": "- - mera -ya - shree venka- - Te - - su - - - - - - - -"
+                    "swara": "nr s-    , n D  |  pd n-  n   d p - M   G R  gm P ||",
+                    "sahitya": "pogaru   - ven  ne-  la- -     dee ga   pO  - si - -      na   TliN    DE- -"
                 },
                 {
-                    "swara": "mp- n d - P - M - gp - -mgG",
-                    "sahitya": "- - mera -ya - shree venka- - Te - - su me - - na sin gaa ramugaa"
+                    "swara": ": 6-2-5-3 | 6-2-4-4  || The pattern of the previous  line continues.",
+                    "sahitya": "d  n R  ; N S,n"
                 },
                 {
-                    "swara": "D - n d - P - M- gp - -mgG",
-                    "sahitya": "nu - mera -ya - shree venka- - Te - - su me - - na sin gaa ramugaa"
+                    "swara": ",  | R ;  ; ;  ; ;  ; rg ||",
+                    "sahitya": "meRa   -ya -  shree venka- TE  - -     su -  - -  - -  - - -"
                 },
                 {
-                    "swara": "D- n d - pmM",
-                    "sahitya": "nu - mera -ya - shree venka- Te - - su me - - na sin gaa ramugaa"
+                    "swara": "-   gm    p -mgG  ,  | R ;  ; ;  ; ;  ; rs ||",
+                    "sahitya": "- -   meRa   -ya -  shree venka- - TE  - -     su -  - -  - -  - - -"
                 },
                 {
-                    "swara": "- rg - mP d N - dp",
-                    "sahitya": "Sara -saina som- mu - lu - dhari yim ca gaa"
+                    "swara": ",  | rs- gRg     ; M    M - P       p  p   P   ||",
+                    "sahitya": "- -   meRa   -ya -  shree venka- - TE  - -     su mE - -  na   sin  gaa     ramugaa"
                 },
                 {
-                    "swara": "- rg - mP d N - dp",
-                    "sahitya": "Sara -saina som- mu - lu - dhari yim ca gaa"
+                    "swara": ",  | rs- gRg     ; M    M - P       p  p   Pdp   ||",
+                    "sahitya": "nu - meRa -ya -   shree venka- - TE  - -     su mE - -  na   sin  gaa     ramugaa"
                 },
                 {
-                    "swara": "sp - rg - mP d N - dp",
-                    "sahitya": "- - Sara -saina som- mu - lu - dhari yim ca gaa"
+                    "swara": ",  M      - gmP   , mgG  , | rs- gRg     ; M    M - P       p  p   Pdp   ||",
+                    "sahitya": "nu - meRa -ya -    shree     venka- TE  - -     su mE - -  na   sin  gaa     ramugaa"
                 },
                 {
-                    "swara": "s S - n - D-n",
-                    "sahitya": "meru pu - to- Ti - - - - - - - - - - -"
+                    "swara": "M P   |  ; mp     , D ,      N  S     ; ;  ||",
+                    "sahitya": "Sara -saina  som-  mu -  lu       - dhari     yim       ca gaa"
                 },
                 {
-                    "swara": "s S - n - D-n",
-                    "sahitya": "meru pu - to- Ti - - alar melu - man ga-yu- daa-nu-"
+                    "swara": "M P   |  ; mp     , D ,      N  S     ; nrS   ||",
+                    "sahitya": "Sara -saina  som-  mu -  lu       - dhari     yim       ca gaa"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "meru pu - to- Ti - - alar melu - man ga-yu- daa-nu-"
+                    "swara": "M P   |  ; mp     , D ,      N  S     ; ;  ||",
+                    "sahitya": "- -  Sara -saina  som-  mu -  lu       - dhari     yim      ca gaa"
                 },
                 {
-                    "swara": "gR - sn",
-                    "sahitya": "meru pu - to- Ti - - alar melu - man ga-yu- daa-nu-"
+                    "swara": "S ;   ;  ;  |    ; ;   ; ;  ; ;  SR ||",
+                    "sahitya": "meru  pu     -   to-     Ti -  -  -      - -   - -  - -  -  -"
                 },
                 {
-                    "swara": "d n R - N S-n",
-                    "sahitya": "merupu - me gha- mu- - koodi me-ra si - - na Tlun- De- -"
+                    "swara": "N-  D,n      rn S , s N  |    G , r  ; R  gmgr  g r  sr ||",
+                    "sahitya": "meru  pu     -     to-      Ti -  - alar     mElu   - man ga-yu- daa-nu-"
                 },
                 {
-                    "swara": "d n gR-",
-                    "sahitya": "merupu - me gha- mu- - koodi me-ra si - - na Tlun- De- - - - (oka)"
+                    "swara": "nr  s-    , n D  |  p d n-  n   d p - M   G R  gm P ||",
+                    "sahitya": "merupu  - mE      gha- mu-    - kooDi  me-ra si -  -     na   TluN-  DE- -"
                 },
                 {
-                    "swara": "- dn - d P mp Dnd",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
+                    "swara": "p- gR gS   |  R g - m  ; M  P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-      -   pa-  ri-   oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- dn - d P mg pmmg",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - y aa - - ra mai - -"
+                    "swara": "mG, rS,   |  R g - m  ; M  P ;  ; ;  ||",
+                    "sahitya": "Oka   pari  ko - ka-  -     pa-  ri-     oi -   y aa       - -   ra mai - -"
                 },
                 {
-                    "swara": "- dn - d P M gpM",
-                    "sahitya": "Oka pari ko - ka- - pa- ri- oi - yaa - - ra mai - -"
+                    "swara": "mG, rS,   |  R g - n  ; D P ;  mgrs ||",
+                    "sahitya": "Oka   pari  ko - ka-  -  pa-  ri-     oi -   yaa       - -   ra mai - -"
                 },
                 {
-                    "swara": "R g - m - M P - mgrs | R g - n - D - - - - ||",
-                    "sahitya": "oi - yaa - ra mai - - - oi - yaa - ra - - - -"
+                    "swara": "R g - m  ; M P ;  mgrs |  R g - n  ; D ; ;  ; ;  ||",
+                    "sahitya": "oi -   yaa  - ra mai   - - -     oi -   yaa             -   ra - -  - -"
                 },
                 {
-                    "swara": "- nd pm - pd - p - - - | - - - - - - - - ||",
-                    "sahitya": "- mai - - - - - - - - - - -- - - - -"
+                    "swara": "; nd pm - pd   , p  ;   ; ;  |  ; ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "- mai - -      - -     -   -       - -   - -  --   - -  - -"
                 }
             ]
         }

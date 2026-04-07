@@ -9,81 +9,99 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "P M | R r r s n P || n s R | R R r s R ||",
-                    "sahitya": "A la kal lla- - - - la - - Daga ga-ni"
+                    "swara": "P M  | R   r r  s n P  ||   n s R  |  R  R  r s R | |",
+                    "sahitya": "A  la        kal lla-  -  -  -           lA - -    Daga   ga-ni"
                 },
                 {
-                    "swara": "P M | R p m r s n p || n s R | R R r s R ||",
-                    "sahitya": "A la kal lla- - - - - la - - Daga ga-ni"
+                    "swara": "P M  | R   p m   r s n p  ||   n s R  |  R  R  r s R ||",
+                    "sahitya": "A  la        kal lla-    -  -  - -       lA - -    Daga   ga-ni"
                 },
                 {
-                    "swara": "s r m r | r m p m P P || n n P | p m p m r s r m ||",
-                    "sahitya": "A - - ra - - - Nmuni ye- Tu pon- - - ge- no-"
+                    "swara": "s r m r  |  r m p m    P   P  ||  n n  P    | p m p  m    r s r m   ||",
+                    "sahitya": "A -  -      rA -  - -   Nmuni    ye- Tu     pon- - -     ge- nO-"
                 },
                 {
-                    "swara": "P M | R p m r s n p || n s R | R R r s R ||",
-                    "sahitya": "A la kal lla- - - - - la - - Daga ga-ni"
+                    "swara": "P M  | R   p m   r s n p  ||   n s R  |  R  R  r s R ||",
+                    "sahitya": "A  la        kal lla-    -  -  - -       lA - -    Daga   ga-ni"
                 },
                 {
-                    "swara": "s r m r | r m p m P P || p n s r | s n s n p m p n ||",
-                    "sahitya": "ya - - ra - - - Nmuni ye- Tu pon- - - ge- no-"
+                    "swara": "s r m r  |  r m p m    P   P  ||  p n  s r     | s n s n     p m p n    ||",
+                    "sahitya": "yA -  -      rA -  - -   Nmuni    ye- Tu     pon- - -     ge- nO-"
                 },
                 {
-                    "swara": "s n p m | R p m r s n p || n s R | R R r s R ||",
-                    "sahitya": "A- la- kal lla- - - - - la - - Daga ga-ni"
+                    "swara": "s n p m   | R   p m   r s n p  ||   n s R  |  R  R  r s R ||",
+                    "sahitya": "A-  la-      kal lla-    -  -  - -      lA - -    Daga   ga-ni"
                 },
                 {
-                    "swara": "r m r m | p m p n p n s r || s n s r | s n s n p m p n ||",
-                    "sahitya": "A - - - ra - - - Nmu-ni- ye- Tu pon- - - ge- no-"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "- r r | R- R - R || s r r m | s R s s n s n ||",
-                    "sahitya": "celu vu mi - ra ga- nu- ma- - ri- - -"
+                    "swara": "r m r m  |  p m p n    p n  s r ||  s n  s r     | s n s n     p m p n    ||",
+                    "sahitya": "A -  -  -     rA -  - -  Nmu-ni-    ye- Tu     pon- - -     ge- nO-"
                 },
                 {
-                    "swara": "S S | - - - - || n s r s | s n n p m p n s ||",
-                    "sahitya": "cuni - - - - - - - - - - - - - - - -"
+                    "swara": "; r r  |  R- R  ;  R  || s r r m  |   s R s  s n s n  ||",
+                    "sahitya": "celu         vu mI   -  ra          ga- nu-   mA- -   rI- - -"
                 },
                 {
-                    "swara": "- r r | R- R - R || s r r m | s R s s n s n ||",
-                    "sahitya": "celu vu mi - ra ga- nu- ma- - ri- - -"
+                    "swara": "S S  |   ; ;  ; ;  ||  n s r s  |   s n n p   m p n  s ||",
+                    "sahitya": "cuni      - -  -  -       - - - -      -   - - -   - -  - -"
                 },
                 {
-                    "swara": "S S | - - - - || m p n s | r m r s n p n s ||",
-                    "sahitya": "cuni - - - - - - - - - - - - - - - -"
+                    "swara": "; r r  |  R- R  ;  R  || s r r m  |   s R s  s n s n  ||",
+                    "sahitya": "celu         vu mI   -  ra          ga- nu-   mA- -   rI- - -"
                 },
                 {
-                    "swara": "- r r | R- R - R || s r r m | s R s S - ||",
-                    "sahitya": "celu vu mi - ra ga- nu- ma- - ri -"
+                    "swara": "S S  |   ; ;  ; ;  ||  m p n s |   r m r s   n p n s ||",
+                    "sahitya": "cuni      - -  -  -       - - - -        -  - - -    - -  - -"
                 },
                 {
-                    "swara": "s R s | n S n p m p n || p n Srs | n r s n p m p n ||",
-                    "sahitya": "cu-ni ma-da ma- na- cu - - - ve - - - - - la -"
+                    "swara": "; r r  |  R- R  ;  R  || s r r m  |   s R s    S  ;    ||",
+                    "sahitya": "celu         vu mI   -  ra          ga- nu-   mA- -     rI -"
                 },
                 {
-                    "swara": "s n p m | R p m r s n p || n s R | R R r s R ||",
-                    "sahitya": "A- la- kal lla- - - - - la - - Daga ga-ni"
+                    "swara": "s R s  |   n S n    p m p n ||  p n Srs  |   n r s n    p m p n  ||",
+                    "sahitya": "cu-ni     ma-da   ma- na-    cu -  - -     vE - - -     - -  la -"
                 },
                 {
-                    "swara": "r m r m | p m p n p n s r || s n s r | s n s n p m p n ||",
-                    "sahitya": "A - - - ra - - - Nmu-ni- ye- Tu pon- - - ge- no-"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "s n p m   | R   p m   r s n p  ||   n s R  |  R  R  r s R ||",
+                    "sahitya": "A-  la-      kal lla-    -  -  - -      lA - -    Daga   ga-ni"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "r m r m  |  p m p n    p n  s r ||  s n  s r     | s n s n     p m p n    ||",
+                    "sahitya": "A -  -  -     rA -  - -  Nmu-ni-    ye- Tu     pon- - -     ge- nO-"
+                },
+                {
+                    "swara": "P M  | P R  M R  ||   r m-  p m   | n n p m  r m p m  ||",
+                    "sahitya": "muni        kanu     sai-             ga -   de-     li -   si -      shi- va-"
+                },
+                {
+                    "swara": "P ;  |   ; ;  ; ;  || m p n p        | s n p m  r s  r m  ||",
+                    "sahitya": "- -      - -  - -     -  -   -  -          -  -   -  -       - -  -  -"
+                },
+                {
+                    "swara": "P M  | P R  M R  ||   r m-  p m   | n n p m  r m p m  ||",
+                    "sahitya": "muni        kanu     sai-             ga -   de-     li -   si -      shi- va-"
+                },
+                {
+                    "swara": "n n P  | n n M  P R  ||  r m p n      |  pm - P  N  S  ||",
+                    "sahitya": "dha-nu     vu-nu   vi ri     cE- - -          di-   sa        ma ya"
+                },
+                {
+                    "swara": "R   R  |    R   ;     ;   R  ||  s  r  r  m     |  s R s        S  S  ||",
+                    "sahitya": "mu na        tyA -     -    ga      rA  -  -  -        ju - -       vinu"
+                },
+                {
+                    "swara": "s R s  |  n  S n      p m p n  || p n Srs    |  n r  s n  p m p n    ||",
+                    "sahitya": "tu- ni        mO- -     mu -  na-    ran- - -       - - jil-         -   -  lu-"
+                },
+                {
+                    "swara": "s n p m   | R   p m   r s n p  ||   n s R  |  R  R  r s R ||",
+                    "sahitya": "A-  la-      kal lla-    -  -  - -      lA - -    Daga   ga-ni"
+                },
+                {
+                    "swara": "r m r m  |  p m p n    p n  s r ||  s n  s r     | s n s n     p m p n    ||",
+                    "sahitya": "A -  -  -     rA -  - -  Nmu-ni-    ye- Tu     pon- - -     ge- nO-"
                 }
             ]
         }

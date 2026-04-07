@@ -9,101 +9,135 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "1. S - - sn P M | R G - gr R - gr ||",
-                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                    "swara": "1. S ; ;  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa   van- -  ya   Ra -    ma-- !    Kanu"
                 },
                 {
-                    "swara": "rs N S - rg M - G | M - - - - - ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - - -"
+                    "swara": "rs N    S - rg  M - G  |  M ;  ; ;  ; ;  ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  - -"
                 },
                 {
-                    "swara": "2. S - - sn P M | R G - gr R - gr ||",
-                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                    "swara": "2. S ; ;  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa   van- -  ya   Ra -    ma-- !    Kanu"
                 },
                 {
-                    "swara": "rs N S - rg M - G | M - - - - n N ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A ti"
+                    "swara": "rs N    S - rg  M - G  |  M ;  ; ;  , n N   ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -    A ti"
                 },
                 {
-                    "swara": "3. S - - r- sn P M | R G - gr R - gr ||",
-                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                    "swara": "3. S ; , r-  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa      van- -  ya   Ra -    ma-- !    Kanu"
                 },
                 {
-                    "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A- ti- -"
+                    "swara": "rs N    S - rg  M - G  |  M ;  pmgr gmnn  ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A- ti- -"
                 },
                 {
-                    "swara": "4. S - r g r- sn P M | R G - gr R - gr ||",
-                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                    "swara": "4. S , r g r-  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa      van- -  ya   Ra -    ma-- !    Kanu"
                 },
                 {
-                    "swara": "rs N S - rg M - G | M - pmgr gmnn ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                    "swara": "rs N    S - rg  M - G  |  M ;  pmgr gmnn  ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti- -"
                 },
                 {
-                    "swara": "5. sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
-                    "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
+                    "swara": "5. sn - sr    gr   sn    P M | nnp - m   g r - sn    pm gr ||",
+                    "sahitya": "Laa      --  van-   -  ya   Ra -    ma-- !    Ka-   nu - - -"
                 },
                 {
-                    "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                    "swara": "rr sn    S - rg  M - G  |  M ;  pmgr gmnn  ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti- -"
                 },
                 {
-                    "swara": "6. sn S r g R- sn P M | R G - gr R - gr ||",
-                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                    "swara": "6. sn S  r g R-  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa      van- -  ya   Ra -    ma-- !    Kanu"
                 },
                 {
-                    "swara": "rs N S - rg M - G | M - - - - g R ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "1.- G G G G - || rg M G - g r R - rs || (sr Mgr || rs ns )",
-                    "sahitya": "Sri vani thaa Chi-- ttha Ku- mu da"
+                    "swara": "rs N    S - rg  M - G  |  M ;  ; ;  , g R   ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti- -"
                 },
                 {
-                    "swara": "N S - - - nsrg ||",
-                    "sahitya": "- - - - - - -"
+                    "swara": "1.; G  G G  G ;   ||  rg  M     G - g r  R - rs  || (sr Mgr || rs ns )",
+                    "sahitya": "Sri vani thaa    Chi--      ttha Ku- mu da"
                 },
                 {
-                    "swara": "2. rs N - G G G G - || rg M G - g r R - S ||",
-                    "sahitya": "- - - Sri vani thaa Chi-- ttha Ku- mu da"
+                    "swara": "N S  ; ;  ; nsrg ||",
+                    "sahitya": "- -  - -  - - -"
                 },
                 {
-                    "swara": "S - N P M - G || g r R pmgr gm nn ||",
-                    "sahitya": "Shee tha ka ra! Sha tha-- nan-- nya- ja-"
+                    "swara": "2. rs N - G   G G  G ;   ||  rg  M     G - g r  R - S ||",
+                    "sahitya": "- - -     Sri  vani thaa    Chi--      ttha Ku- mu da"
                 },
                 {
-                    "swara": "sn - sr gr sn P M | nnp - m g r - sn pm gr ||",
-                    "sahitya": "Laa -- van- - ya Ra - ma-- ! Ka- nu - - -"
+                    "swara": "S ;  N P M - G  ||  g r R  pmgr   gm nn  ||",
+                    "sahitya": "Shee tha ka ra!   Sha     tha--   nan--    nya- ja-"
                 },
                 {
-                    "swara": "rr sn S - rg M - G | M - pmgr gmnn ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
+                    "swara": "sn - sr    gr   sn    P M | nnp - m   g r - sn    pm gr ||",
+                    "sahitya": "Laa  --  van-   -  ya   Ra -    ma-- !   Ka-   nu - - -"
                 },
                 {
-                    "swara": "S - r g r- sn P M | R G - gr R - gr ||",
-                    "sahitya": "Laa van- - ya Ra - ma-- ! Kanu"
+                    "swara": "rr sn    S - rg  M - G  |  M ;  pmgr gmnn  ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti- -"
                 },
                 {
-                    "swara": "rs N S - rg M - G | M - - - - g R ||",
-                    "sahitya": "laa-- ra Ju- - da re ! - - A - ti- -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "S , r g r-  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa      van- -  ya   Ra -    ma-- !    Kanu"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "rs N    S - rg  M - G  |  M ;  ; ;  , g R   ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti- -"
+                },
+                {
+                    "swara": "1. N ;  ; S  N P  || M ;  ; R  G R ||",
+                    "sahitya": "Nee   ma na su   ni  So gasu"
+                },
+                {
+                    "swara": "sr G ; rm gr  S  || sn S  rg M  G M ||",
+                    "sahitya": "ni --    Di- nu-su    Ve--  re -- rama"
+                },
+                {
+                    "swara": "2. N ;  ; gr sn pm  || gm N  ; sn pmgr ||",
+                    "sahitya": "Nee   ma na su   ni  So gasu"
+                },
+                {
+                    "swara": "sr G ; rm gr  S  || sn S  rg M  G M ||",
+                    "sahitya": "ni --    Di- nu-su    Ve--  re -- rama"
+                },
+                {
+                    "swara": "; G  G G  G G   ||  rg  M     G - g r  R - rs  || (sr Mgr || rs ns )",
+                    "sahitya": "Ta masa      Matha     Dei  -      va   me-  -    la"
+                },
+                {
+                    "swara": "N S  ; ;  ; nsrg ||",
+                    "sahitya": "- -  - -  - - -"
+                },
+                {
+                    "swara": "rs N -  G   G G  G  G   ||  rg  M     G - g r    R - S ||",
+                    "sahitya": "Ta  masa  Matha     Dei  -      va   me-  -    la"
+                },
+                {
+                    "swara": "S ;  N P  ;  M  ||  G -  g r  R - g m    ,  nN  ||   (also gr S possible)",
+                    "sahitya": "Tya garaa      ja     nu    tha-   -    Div-     ya-"
+                },
+                {
+                    "swara": "sn - sr    gr   sn    P M | nnp - m   g r - sn    pm gr ||",
+                    "sahitya": "Laa  --  van-   -  ya   Ra -    ma-- !   Ka-   nu - - -"
+                },
+                {
+                    "swara": "rr sn    S - rg  M - G  |  M ;  pmgr gmnn  ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti- -"
+                },
+                {
+                    "swara": "S , r g r-  sn P M | R G  - gr R  ;  gr ||",
+                    "sahitya": "Laa      van- -  ya   Ra -    ma-- !    Kanu"
+                },
+                {
+                    "swara": "rs N    S - rg  M - G  |  M ;  ; ;  , g R   ||",
+                    "sahitya": "laa--  ra  Ju-   -     da      re !    - -  A - ti-"
                 }
             ]
         }

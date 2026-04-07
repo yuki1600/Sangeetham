@@ -9,93 +9,111 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "M - G- | M - P - || - - - | - - D N || S - - | snD - m P || sndp pm | mgS sr gm ||",
-                    "sahitya": "Ma ha la - ksmi - - - - - jagan ma- - ta - - -manam i -ran-gi va-ra- ma-rul"
+                    "swara": "M , G,  | M ;  P ;    ||    ; ; ;     |  ; ;       D N     ||   S  ;  ; |  snD  , m P   ||  sndp pm |  mgS sr  gm  ||",
+                    "sahitya": "Ma hA     la  -     kSmi       - - -       - -       jagan       mA- -            tA - -   -manam  i -ran-gi   va-ra-   ma-ruL"
                 },
                 {
-                    "swara": "M -d pmG - | M - P - || - - - | - - D N || S - -r | snD - m P || sndp pm | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la - ksmi - - - - - jagan ma- - ta - - -manam i -ran-gi va-ra- ma-rul"
+                    "swara": "M ,d pmG , | M ;  P ;    ||    ; ; ;     |  ; ;       D N     ||   S  ;  ,r |  snD  , m P   ||  sndp pm |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -  la  - kSmi      - - -       - -       jagan       mA- -            tA - -   -manam  i -ran-gi   va-ra-   ma-ruL"
                 },
                 {
-                    "swara": "mpd pM - G - | M -dp MP || - - - | - - mpdn || S - -r | snD - m P || sndp pm | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - - - ja- gan ma- - ta - - -manam i -ran-gi va-ra- ma-rul"
+                    "swara": "mpd pM-G , | M -dp  MP ||    ; ; ;     |  ; ;      mpdn    ||   S  ;  ,r |  snD  , m P   ||  sndp pm |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la  kSmi- -      - - -       - -       ja- gan      mA- -       tA - -   -manam  i -ran-gi   va-ra-   ma-ruL"
                 },
                 {
-                    "swara": "mpd pM - G - | M - dp M || P - - | - - mpdn || S - rg | rsnd - - m P || sndp pm | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - - - ja- gan ma- - ta - - -manam i -ran-gi va-ra- ma-rul"
+                    "swara": "mpd pM-G , | M ; dp M ||    P ; ;     |  ; ;      mpdn    ||   S  ;  rg |  rsnd ;  , m P   ||  sndp pm |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la  kSmi- -      - - -       - -     ja- gan      mA- -         tA - -   -manam  i -ran-gi   va-ra-   ma-ruL"
                 },
                 {
-                    "swara": "mpd pM - G - | M - P D-n || dr sn DP | - - mpdn || S - rg | rsnd - - m P || sndp pm | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - ta - - -manam i -ran-gi va-ra- ma-rul"
+                    "swara": "mpd pM-G , | M ; P D,n ||   dr sn DP  |  ; ;      mpdn    ||   S  ;  rg |  rsnd ;  , m P   ||  sndp pm |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la   kSmi- -     - - -   --     - -     ja- gan     mA- -      tA - -   -manam  i -ran-gi   va-ra-   ma-ruL"
                 },
                 {
-                    "swara": "mpd pM - G - | M - P D-n || dr sn DP | - - mpdn || S - gr | sndp - m P || sndp pmG | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - ta - - -manam i-ran-gi -- va-ra- ma-rul"
+                    "swara": "mpd pM-G , | M ; P D,n ||   dr sn DP  |  ; ;      mpdn    ||   S  ;  gr |  sndp , m P   ||  sndp pmG |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la   kSmi- -     - - -   --     - -     ja- gan     mA- -       tA - -   -manam  i-ran-gi --   va-ra- ma-ruL"
                 },
                 {
-                    "swara": "mpdPd pmG - | M - P dn || dnSn Dp | - - D N || S -r gmgr | sndp - m P || sndp pmG | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - -- ta - - -manam i-ran-gi -- va-ra- ma-rul"
+                    "swara": "mpdPd pmG , | M ; P dn ||  dnSn Dp  |  ; ;      D N   ||   S  ,r   gmgr|  sndp , m P   ||  sndp pmG |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la   kSmi- -     - - -   --     - -     ja- gan   mA- -   --   tA - -   -manam  i-ran-gi --   va-ra- ma-ruL"
                 },
                 {
-                    "swara": "M dp M -G- | M - dp M || P - - | - - - - ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "S P - | dpmg M P || - D - n | S - - Sn || S rg rsS | S S N - dr || sSn dn | S - dr sn DP ||",
-                    "sahitya": "maha vi- - - shnuvin -marbe num - mani pi—tha- mada nil a- marn di dum- - - - -"
+                    "swara": "M dp M ,G, | M ; dp M  ||   P ; ;   |  ; ;     ; ;   ||",
+                    "sahitya": "Ma - hA  - -   la   kSmi- -     - - -    - -    - -"
                 },
                 {
-                    "swara": "M dpmg - | M - P P || D - N | S - - Sn || S rg rsS | S S N - S || S-d N | dn S-n DP ||",
-                    "sahitya": "maha vi- - - shnuvin mar-be num - mani pi—tha- mada nil a marn di dum- - - - -"
+                    "swara": "S P ;   |  dpmg  M   P  || ; D , n |    S ;  , Sn  ||  S rg rsS |   S S N -  dr  || sSn dn   | S-dr sn DP    ||",
+                    "sahitya": "mahA       vi- - - shNuvin      -mArbe   num   - maNi       pI\u2014Tha-  mada nil  a-      marn di    dum- - -  - -"
                 },
                 {
-                    "swara": "pSn dP- - | dpmg M P || D - N | S - - Sn || S rg rsS | S S N - S || S-d N | dn S-n DP ||",
-                    "sahitya": "ma- ha - vi- - - shnuvin mar-be num - mani pi—tha- mada nil a marn di dum- - - - -"
+                    "swara": "M dpmg ; |  M ;  P  P  || D  ;  N |    S ;  , Sn  ||  S rg rsS |   S S N -  S || S,d N | dn S,n DP    ||",
+                    "sahitya": "mahA       vi- - - shNuvin     mAr-be   num   - maNi       pI\u2014Tha-  mada nil  a       marn di dum- - -  - -"
                 },
                 {
-                    "swara": "pSn dP- - | dpmg M P || mpdnSrs S | S - - S n || srgm G | rS- S N - S || S-d N | dn S sndp - ||",
-                    "sahitya": "ma- ha - vi- - - shnuvin mar-- - be num mani pi—tha ma danil a marn di dum- - - - -"
+                    "swara": "pSn dP, ; |  dpmg   M  P  || D  ;  N |    S ;  , Sn  ||  S rg rsS |   S S N -  S || S,d N | dn S,n DP    ||",
+                    "sahitya": "ma- hA  -   vi- - - shNuvin    mAr-be   num   - maNi       pI\u2014Tha-  mada nil  a       marn di dum- - -  - -"
                 },
                 {
-                    "swara": "dnsn dP- - | dpmg M P || mpdnSrs S | S - - S n || srgm G | rS- S N - S || S-d N | S - dr sn DP ||",
-                    "sahitya": "ma- ha - vi- - - shnuvin mar-- - be num mani pi—tha ma danil a marn di dum- - - - -"
+                    "swara": "pSn dP, ; |  dpmg   M  P  || mpdnSrs S|   S ;  , S n  ||  srgm G |   rS, S N -  S || S,d N |  dn S sndp ;   ||",
+                    "sahitya": "ma- hA  -   vi- - - shNuvin    mAr-- -  be   num  maNi     pI\u2014Tha   ma danil  a       marn di  dum- - -  - -"
                 },
                 {
-                    "swara": "dnsn dP- - | dpmg M P || mpdnSrs S | S - - S n || srgm G | rS- S N - S || S-d N | S - - - ||",
-                    "sahitya": "ma- ha - vi- - - shnuvin mar-- - be num mani pi—tha ma danil a marn di dum- - -"
+                    "swara": "dnsn dP, ; |  dpmg  M  P  || mpdnSrs S|   S ;  , S n  ||  srgm G |   rS, S N -  S || S,d N |  S-dr sn DP   ||",
+                    "sahitya": "ma- hA  -   vi- - - shNuvin    mAr-- -  be   num  maNi     pI\u2014Tha   ma danil  a       marn di  dum- - -  - -"
                 },
                 {
-                    "swara": "M - P | R S - S -r || N D P | D N S - || dn S - r | N dn dP - | mdp mgs | S -r G M ||",
-                    "sahitya": "Man ma ta nai In- ra ru Lum tha- ye da- ya- ni dhi- ye-- ma—ha—ma- - ye"
+                    "swara": "dnsn dP, ; |  dpmg  M  P  || mpdnSrs S|   S ;  , S n  ||  srgm G |   rS, S N -  S || S,d N |  S ;      ; ;    ||",
+                    "sahitya": "ma- hA  -   vi- - - shNuvin    mAr-- -  be   num  maNi     pI\u2014Tha   ma danil  a       marn di  dum-  - -"
                 },
                 {
-                    "swara": "M - P | R S - S -r || N D P | D N S - || mpdn srsr | N dn dP - | mdp mgrS- | S -r G M ||",
-                    "sahitya": "Man ma ta nai In- ra ru Lum tha- ye da- ya- - ni dhi- ye-- ma—ha— ma- - ye"
+                    "swara": "M ;   P  |  R S -  S ,r  ||  N  D  P   |   D N    S ;  || dn S , r |  N dn   dP ,  | mdp mgs | S ,r   G M    ||",
+                    "sahitya": "Man ma    ta nai  In-              ra  ru Lum  thA-   yE         da- yA-   ni dhi- yE--        ma\u2014hA\u2014mA-  - yE"
                 },
                 {
-                    "swara": "mpdPd pmG - | M - P dn || dnSn Dp | - - D N || S -r gmgr | sndp - m P || sndp pmG | mgS sr gm ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - -- - - ja- gan ma- - -- ta - - -manam i-ran-gi -- va-ra- ma-rul"
+                    "swara": "M ;   P  |  R S -  S ,r  ||  N  D  P   |   D N    S ;  || mpdn srsr |  N dn   dP ,  | mdp mgrS, | S ,r  G M    ||",
+                    "sahitya": "Man ma    ta nai  In-              ra  ru Lum  thA-   yE        da- yA-   -   ni dhi- yE--     ma\u2014hA\u2014   mA- - yE"
                 },
                 {
-                    "swara": "M dp M -G- | M - dp M || P - - | - - - - ||",
-                    "sahitya": "Ma - ha - - la ksmi- - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "mpdPd pmG , | M ; P dn ||  dnSn Dp  |  ; ;      D N   ||   S  ,r   gmgr|  sndp , m P   ||  sndp pmG |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la   kSmi- -     - - -   --     - -     ja- gan   mA- -   --   tA - -   -manam  i-ran-gi --   va-ra- ma-ruL"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "M dp M ,G, | M ; dp M  ||   P ; ;   |  ; ;     ; ;   ||",
+                    "sahitya": "Ma - hA  - -   la   kSmi- -     - - -    - -    - -"
+                },
+                {
+                    "swara": "MP -N   |   D   P     P - pm   ||  pmdp -M | G ;      ; ;    || gs  pm  rg  | rSr     GM || dpmg M | P ;     ; ;  ||",
+                    "sahitya": "pAr- kka   Dal ta   rum kr        pA-     ka   ri -      - -      pa- rin-du  van-   denai  A- - -  da  ri -     - -"
+                },
+                {
+                    "swara": "MP -N   |   D   P     P - pm   ||  M dp -M | G ;      ; ;    || gs  pm  rg  | rSr     GM || dpmg M | P ;     ; ;  ||",
+                    "sahitya": "pAr- kka   Dal ta   rum kr        pA-     ka   ri -      - -      pa- rin-du  van-   denai  A- - -  da  ri -     - -"
+                },
+                {
+                    "swara": "GS -S   |    N   D    P - pm   ||   mpD mP, -M | G ;      ; ;    || gs  pm  rg  | rSr     GM || dpmg M | dpmp    ; ;  ||",
+                    "sahitya": "pAr- kka   Dal ta   rum kr        pA-           ka   ri -      - -      pa- rin-du  van-   denai  A- - -  da   ri -     - -"
+                },
+                {
+                    "swara": "S ;  S    |    R N   S  - D ||   N -  P  D    |   nn m - p D   N   ||  S ;  ;   |  ; ;     ; ;  ||  ; ; ; |  ; ;     ; ;  ||",
+                    "sahitya": "Pan-ka      ja ma lar  va           Lar  an nai    yE - - kaDaikkaN   pAr  - -   - -      - - -   - -     - -"
+                },
+                {
+                    "swara": "S ;  S    |    R N   S  - D ||   N -  P  D    |   nm - m P,d  N   ||  S ;  ;   |  ; ;     ; ;  ||  ; ; ; |  ; ;     ; ;  ||",
+                    "sahitya": "Pan-ka      ja ma lar  va           Lar  an nai    yE - - kaDaikkaN  pAr  - -   - -      - - -   - -     - -"
+                },
+                {
+                    "swara": "S ;  S    |    R N   S  - dr ||   ss -  sn  dp |   pmG - m P,d  N   ||  S ;  ;   |  ; ;   ,mP||  ds -dP ,  |mG,  gs   R G||",
+                    "sahitya": "Pan-ka      ja ma lar  va           Lar  an nai    yE - - kaDaikkaN    pAr  - -   rA-    ma dA-   san  pa  Niyum"
+                },
+                {
+                    "swara": "mpdPd pmG , | M ; P dn ||  dnSn Dp  |  ; ;      D N   ||   S  ,r   gmgr|  sndp , m P   ||  sndp pmG |  mgS sr  gm  ||",
+                    "sahitya": "Ma - hA  - -    la   kSmi- -     - - -   --     - -     ja- gan   mA- -   --   tA - -   -manam  i-ran-gi --   va-ra- ma-ruL"
+                },
+                {
+                    "swara": "M dp M ,G, | M ; dp M  ||   P ; ;   |  ; ;     ; ;   ||",
+                    "sahitya": "Ma - hA  - -   la   kSmi- -     - - -    - -    - -"
                 }
             ]
         }

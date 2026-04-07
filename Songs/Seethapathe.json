@@ -12,32 +12,28 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- - - M - mg G - M | P - - - M N D N D ||",
-                    "sahitya": "- - - See - thaa - pa the ! - Naa - Ma na su"
+                    "swara": "; ;  ; M  ; mg  G - M  |  P ;  ; - M  N D  N D  ||",
+                    "sahitya": "- -  - See - thaa -      pa    the !     -  Naa    -  Ma na su"
                 },
                 {
-                    "swara": "P - - dp M -mg G - M | P - - - M N D N D ||",
-                    "sahitya": "na!- - See - thaa - pa the ! - Naa - Ma na su"
+                    "swara": "P ;  ; dp M -mg  G - M  |  P ;  ; - M  N D  N D  ||",
+                    "sahitya": "na!-  - See -     thaa -      pa    the !     -  Naa    -  Ma na su"
                 },
                 {
-                    "swara": "pm pd nd- dp M -pm G - M | P - - - S - N D M ||",
-                    "sahitya": "na!- - - See - thaa - pa the ! - Naa - Ma na su"
+                    "swara": "pm pd  nd- dp M -pm  G - M  |  P ;  ; - S  ;  N  D M  ||",
+                    "sahitya": "na!- - -  See -     thaa -      pa    the !     -  Naa    -  Ma na su"
                 },
                 {
-                    "swara": "pd ns - n- dp md -pm G - M | p S n d p - mg mp- pm pd - pd ||",
-                    "sahitya": "na!- - - See - - thaa - pa the ! - - Naa - - Ma- na- su -"
+                    "swara": "pd ns  , n- dp md -pm  G - M  |  p S n d p - mg    mp- pm    pd - pd  ||",
+                    "sahitya": "na!- - -  See -  -   thaa -      pa    the !     -  -   Naa    - -  Ma-  na-   su -"
                 },
                 {
-                    "swara": "ns nd pd- dp M -mg G - R | S - - s - - s g M - gm P - M ||",
-                    "sahitya": "- - na!- - - Si- - ddhaa- nta ma- ni - Yun- - naa- - nu"
+                    "swara": "ns nd  pd- dp M  -mg  G -  R |  S , - s  ;  - s g    M  - gm    P  - M  ||",
+                    "sahitya": "- - na!- - -  Si-  -     ddhaa-      nta    ma-  ni  -   Yun-    -      naa-  -      nu"
                 },
                 {
-                    "swara": "pd nd dp - dp M -mg G - R | S - - s - - s g M - gm P - M ||",
-                    "sahitya": "raa!- - - Si- - ddhaa- nta ma- ni - Yun- - naa- - nu"
-                },
-                {
-                    "swara": "pd n s - n",
-                    "sahitya": "raa! - - - -"
+                    "swara": "pd nd  dp - dp M  -mg  G -  R |  S , - s  ;  - s g    M  - gm    P  - M  ||",
+                    "sahitya": "raa!- - -   Si-  -     ddhaa-      nta    ma-  ni  -   Yun-    -      naa-  -      nu"
                 }
             ]
         },
@@ -45,28 +41,24 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- - - pd N - dn S N | S - - - S S S - N ||",
-                    "sahitya": "- - - Vaa- - taa - tma jaa- - du la Chen - ta"
+                    "swara": "; ;  ; pd  N - dn  S N  |  S ;  ; - S  S  S  ; N  ||",
+                    "sahitya": "- -  - Vaa-  -      taa  -  tma    jaa-  -   du la Chen -  ta"
                 },
                 {
-                    "swara": "d N - d pm- pd N - dn S N | S - - - M G S - N ||",
-                    "sahitya": "ne - - - Vaa- - taa - tma jaa- - du la Chen - ta"
+                    "swara": "d N-d  pm- pd  N - dn  S N  |  S ;  ; - M  G  S  ; N  ||",
+                    "sahitya": "ne -  - -  Vaa-  -     taa  -  tma    jaa-  -   du la Chen -  ta"
                 },
                 {
-                    "swara": "rs n d pm- pd N - dn S N | S - - - M mgr - g r s- sn ||",
-                    "sahitya": "ne - - - Vaa- - taa - tma jaa- - du la - - Chen—ta-"
+                    "swara": "rs n d  pm- pd  N - dn  S N  |  S ;  ; - M  mgr - g   r s- sn   ||",
+                    "sahitya": "ne -  - -  Vaa-  -     taa  -  tma    jaa-  -   du la - -  Chen\u2014ta-"
                 },
                 {
-                    "swara": "rs n d pm- S - - N - D | d P- d - - nd pm - P - dp ||",
-                    "sahitya": "ne - - - Var - nin - chi na - Nee - Pa- lu- ku - Lel-"
+                    "swara": "rs n d  pm- S  ; - N   ;  D  |  d  P- d    ; - nd  pm - P    ;  dp    ||",
+                    "sahitya": "ne -  - -  Var  -    nin -  chi    na -  Nee -  Pa-  lu-    ku  -   Lel-"
                 },
                 {
-                    "swara": "mg M - - pd nr s - n - D | d P- d - - nd pm - gm pd ns ||",
-                    "sahitya": "la - Var - - - nin - chi na - Nee - Pa- lu- ku - Lel-"
-                },
-                {
-                    "swara": "r s n d p d",
-                    "sahitya": "la - - - - -"
+                    "swara": "mg M  ; - pd nr s - n   ;  D  |  d  P- d    ; - nd  pm - gm   pd ns    ||",
+                    "sahitya": "la -  Var  -    - -  nin -  chi    na -  Nee -  Pa-  lu-    ku  -   Lel-"
                 }
             ]
         },
@@ -74,8 +66,36 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; ;  ; P  P - P  ; M  | N , - d    ; - dn   S - s s  n d   P  ||",
+                    "sahitya": "- -  - Pre ma ju - chi   Naa   pai  -   Pe-  dda Ma- na-  su"
+                },
+                {
+                    "swara": "pdp - m gm- P  P - P  ; M  | snN , - d   ; - dn   S - s s  n d   P  ||",
+                    "sahitya": "Je -    si  - -  Pre ma ju - chi   Naa   pai   -   Pe-  dda Ma- na-  su"
+                },
+                {
+                    "swara": "pdp - m gm- P  M - mg   G R  | S , - s   ; - sg   M - g m P  M   ||",
+                    "sahitya": "Je -    si  - -    Nee  -     Ma- hi ma   le-    lla -  Nin   -    daa - -    ru"
+                },
+                {
+                    "swara": "P , - p  ; -pd  N - dn  S N  |  S ,- s  ; - S  S  S  ; N  ||",
+                    "sahitya": "Ju -  pi    -  Ee-      -    Ma-  hi ni     Bhaya  -  me ti   kan -  na"
+                },
+                {
+                    "swara": "d N-d  pm- pd  N - dn  S N  |  S ,- s  ; - M  G  S  ; N  ||",
+                    "sahitya": "Maa- ta   - -  Ee-      -  Ma-  hi ni     Bhaya  -  me ti   kan -  na"
+                },
+                {
+                    "swara": "rs n d  pm- pd  N - dn  S N  |  S ,- s ; - M  mgr - g   r s- sn   ||",
+                    "sahitya": "Maa- ta   - -  Ee-      -  Ma-  hi ni     Bhaya  -  me ti  --   kan   -  na"
+                },
+                {
+                    "swara": "rs n d  pm- S  S - N   ;  D  |  d  P- d    ; - nd  pm - P    ;  dp    ||",
+                    "sahitya": "Maa-ta    - -   Raa ma  chan  - dra !     Tyaa-ga  -   raa- - -    ja     - Vi-"
+                },
+                {
+                    "swara": "mg- M  ; - pd nr s - n   ;  D  |  d  P- d    ; - nd  pm - gm   pd ns    ||",
+                    "sahitya": "nu-   ta!   -  Raa   ma -  chan - dra !     Tyaa-ga  -   raa- ja-   Vi-    - - nu-"
                 }
             ]
         }

@@ -12,40 +12,40 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "D D P - P || G G G - R || S N S - - || - - - - - ||",
-                    "sahitya": "Guru le - ka E tu van ti Gu ni ki"
+                    "swara": "D D  P ;   P  ||  G G   G ; R  || S N  S ;  ;  || ; ;  ; ; ;  ||",
+                    "sahitya": "Guru le -  ka   E  tu  van ti    Gu ni ki"
                 },
                 {
-                    "swara": "D D P - P || G G mgG R || S N S - - || - - - - - ||",
-                    "sahitya": "Guru le - ka E tu van ti Gu ni ki"
+                    "swara": "D D  P ;   P  ||  G G   mgG R  || S N  S ;  ;  || ; ;  ; ; ;  ||",
+                    "sahitya": "Guru le -  ka   E  tu  van   ti    Gu ni ki"
                 },
                 {
-                    "swara": "D D P - P || G P mgG R || gr sn S - RG || MM P - D ||",
-                    "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+                    "swara": "D D  P ;   P  ||  G P   mgG R  || gr  sn  S - RG  || MM P ; D ||",
+                    "sahitya": "Guru le -  ka   E  tu  van   ti    Gu ni ki  Te li  ya ga  Bo du"
                 },
                 {
-                    "swara": "N D P - P || mp mp mgG R || gr sn S - RG || MP D - N ||",
-                    "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+                    "swara": "N D  P ;   P  ||  mp mp   mgG R  || gr  sn  S  - RG  || MP D ; N ||",
+                    "sahitya": "Guru le -  ka   E   tu  van   ti    Gu ni ki   Te li  ya ga  Bo du"
                 },
                 {
-                    "swara": "S N snnd P || mp mp mgG R || gr sn S - RG || MP dnsr sr ||",
-                    "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+                    "swara": "S N  snnd   P  ||  mp mp   mgG R  || gr  sn  S  - RG  || MP dnsr sr ||",
+                    "sahitya": "Guru le -  ka   E   tu  van   ti    Gu ni ki   Te li  ya ga  Bo   du"
                 },
                 {
-                    "swara": "dnsr snnd P || gm pd ppmg R || gr sn S - RG || MP dnsr sr ||",
-                    "sahitya": "Guru le - ka E tu van ti Gu ni ki Te li ya ga Bo du"
+                    "swara": "dnsr  snnd   P  ||  gm pd   ppmg R || gr  sn  S  - RG  || MP dnsr sr ||",
+                    "sahitya": "Guru le -  ka   E   tu  van   ti    Gu ni ki   Te li  ya ga  Bo   du"
                 },
                 {
-                    "swara": "dn srS Nsn Dnd P || gm Pdp Mpm mg R || gr sn S - RG || MP dnsr sr ||",
-                    "sahitya": "Guru le - - - ka E tu van - - ti Gu ni ki Te li ya ga Bo du"
+                    "swara": "dn srS  Nsn Dnd    P ||  gm Pdp   Mpm mg R || gr  sn   S  - RG   || MP dnsr sr ||",
+                    "sahitya": "Guru le - - -      ka  E   tu  van    - -  ti   Gu ni    ki   Te li ya ga  Bo   du"
                 },
                 {
-                    "swara": "dn srS Nsn Dnd P || gm Pdp Mpm mg R || gr sn S - RG || MP P - P ||",
-                    "sahitya": "Guru le - - - ka E tu van - - ti Gu ni ki Te li ya ga Bo du"
+                    "swara": "dn srS  Nsn Dnd    P ||  gm Pdp   Mpm mg R || gr  sn   S  - RG   || MP P ;    P ||",
+                    "sahitya": "Guru le - - -      ka  E   tu  van    - -  ti   Gu ni    ki   Te li ya ga  Bo   du"
                 },
                 {
-                    "swara": "- - - - - || - pmg rs - R G || M P P - P ||",
-                    "sahitya": "- - - - - - - - - - Te li ya ga Bo du"
+                    "swara": "; ;  ; ; ;  || , pmg  rs - R G  || M P   P ;  P  ||",
+                    "sahitya": "-  -  - - -     -  - - - -     Te li    ya ga  Bo   du"
                 }
             ]
         },
@@ -53,16 +53,16 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- d n - S - S || sn D nsrg R || S - - - - || - - - sn ndp ||",
-                    "sahitya": "Karu kai na Hr - - dro-- ga - - - - - - - - - - - -"
+                    "swara": "; d n , S , S || sn D  nsrg  R  || S ;  ; ; ;  || ; ;  , sn ndp ||",
+                    "sahitya": "Karu   kai na   Hr - -  dro-- ga      - -  - - -     - -  - - - - -"
                 },
                 {
-                    "swara": "D N S - S || sn D nsrg R || N N N D N || D P D N - ||",
-                    "sahitya": "Karu kai na Hr - - dro-- ga Ga ha na muna Go- tta nu"
+                    "swara": "D N  S ;  S || sn D  nsrg  R  || N N  N D N  || D P  D N ;  ||",
+                    "sahitya": "Karu kai na   Hr - -  dro-- ga   Ga ha    na muna   Go-  tta nu"
                 },
                 {
-                    "swara": "- d n - S - S || rsnd nsr G r || N N N D N || D P D N S ||",
-                    "sahitya": "Karu kai na Hr - - dro-- ga Ga ha na muna Go- tta nu Sad- (guru)"
+                    "swara": "; d n , S , S || rsnd  nsr G  r  || N N  N D N  || D P  D N   S   ||",
+                    "sahitya": "Karu kai na Hr - -  dro-- ga   Ga ha    na muna   Go-  tta nu Sad- (guru)"
                 }
             ]
         },
@@ -70,8 +70,44 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; p p , p   P P  || G    P   ; mgG R   || R ,g  mgpm gr  ||  rgmg   gr   sn  S   ||",
+                    "sahitya": "Ta nu   vu Su ta  Dha na   Daa-- ra   Da -   yaa - -di     Baan-- dha vu- lu"
+                },
+                {
+                    "swara": "; p p , d   N dp || G    P  ; mgG R   || R G  mgpm gr  ||  rgmg   gr   sn  S   ||",
+                    "sahitya": "Ta nu   vu Su ta  Dha na   Daa-- ra   Da -   yaa - -di     Baan-- dha vu- lu"
+                },
+                {
+                    "swara": "; r g  , m P  P  ||  D   N  sn dp  ;   || G G  rg pm gr  || rs S  ;  ; ;  ||",
+                    "sahitya": "Jani   yin- chi  Che da ru  jaa    Li ni Ka-ru-na-     to - -  -  - -"
+                },
+                {
+                    "swara": "; p p  , p  ppmg ||  G R - gr sn  S  || ; r g   , m M P  || ; ; ; ; ;  ||",
+                    "sahitya": "Mana    su nan- -    taka Che- -    yu    Man   danuchu"
+                },
+                {
+                    "swara": "; mp       , nd  ppmg  ;  ||  G R - gr sn       S  || ; r g   , m M P  ||",
+                    "sahitya": "Mana    su nan- -         taka     Che- -    yu    Man   danuchu"
+                },
+                {
+                    "swara": "D ;    N  D P  || D N   S  ; S  || ; ; ; ; ;  ||",
+                    "sahitya": "Ta    tva Bo-     dhana   Je    si"
+                },
+                {
+                    "swara": "S , d    N  D P  || D N   S  ; S  || snD  nsrg  R  || S ; ; ; ;  || ; ; , sn nd p ||",
+                    "sahitya": "Ta      tva Bo-     dhana   Je    si   Kaa- paa-- du    -  -  - -     -  -  - - - -"
+                },
+                {
+                    "swara": "D R    sn  D P  || D N   S  ; S  || snD  nsrg  R  || S ; ; ; ;  || ; ; , sn nd p ||",
+                    "sahitya": "Ta      tva Bo-     dhana   Je    si   Kaa- paa-- du    -  -  - -     -  -  - - - -"
+                },
+                {
+                    "swara": "D R    sn  D P  || D N   S  ; S  || snD  nsrg  R  || S ;    S   N ;    || D P  dn  S S ||",
+                    "sahitya": "Ta      tva Bo-     dhana   Je    si   Kaa- paa-- du    Tyaa ga raa -  jaa  - pthu dagu"
+                },
+                {
+                    "swara": "dnrs    sn  D P  || D N   S  ; S  || rsnd  nsr G  r  || S ;    S   N ;    || D P  dn  S S ||",
+                    "sahitya": "Ta      tva Bo-     dhana   Je    si   Kaa- paa-- du    Tyaa ga raa -  jaa  - pthu dagu"
                 }
             ]
         }

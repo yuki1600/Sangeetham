@@ -9,60 +9,127 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "S R G P - P P G | R S D S | - R G - ||",
-                    "sahitya": "guni jana - di nu ta guru g uho da ye"
+                    "swara": "S R  G P  ;  P  P   G  | R S  D S  |   ; R  G ;  ||",
+                    "sahitya": "guNi      janA - di         nu ta        guru     g uhO           da      yE"
                 },
                 {
-                    "swara": "S R G D - P P G | R S D S | - R G - ||",
-                    "sahitya": "guni jana - di nu ta guru g uho da ye"
+                    "swara": "S R  G D  ;  P  P   G  | R S  D S  |   ; R  G ;  ||",
+                    "sahitya": "guNi      janA - di         nu ta        guru     g uhO           da      yE"
                 },
                 {
-                    "swara": "S R G dd pg - pd rs D | -p G R- S | - R G - ||",
-                    "sahitya": "guni ja na - - di nu ta guru gu ho da ye"
+                    "swara": "S R  G dd  pg-pd  rs   D  | ,p G   R- S  |   ; R  G  ;  ||",
+                    "sahitya": "guNi      ja nA - - di       nu  ta        guru     gu hO          da     yE"
                 },
                 {
-                    "swara": "S R G dd pg - pd rs D | -p G R- S | - R G - ||",
-                    "sahitya": "guni jana - - di- nu ta guru g u ho da ye"
+                    "swara": "S R  G dd  pg-pd  rs   D  | ,p G   R- S  |   ; R  G  ;  ||",
+                    "sahitya": "guNi      janA - - di-     nu  ta        guru     g u hO          da     yE"
                 },
                 {
-                    "swara": "P - dp - pmgr - G - G | pm G - gs | S - R rs S ||",
-                    "sahitya": "Gur ja- ri - - ra ga pri- ye - va ra shi ve—"
+                    "swara": "P ;  dp - pmgr  ; G  ;  G  | pm G   ; gs  |  S - R  rs S  ||",
+                    "sahitya": "Gur ja-    ri - -    rA         ga        pri- yE   - vA         ra   shi   vE\u2014"
                 },
                 {
-                    "swara": "S R G dd pg - pd rs nd | -p G R- S | - R G - ||",
-                    "sahitya": "guni jana- -- di nu ta guru gu ho da ye"
+                    "swara": "S R  G dd  pg-pd  rs   nd  | ,p G   R- S  |   ; R  G ;  ||",
+                    "sahitya": "guNi      janA-  --  di      nu  ta        guru     gu hO          da     yE"
                 },
                 {
-                    "swara": "P - dp - pmgr - G - G | pm G - gr | S - R rs S ||",
-                    "sahitya": "Gur ja- ri - - - ra ga pri- ye - va ra shi ve—"
+                    "swara": "P ;  dp - pmgr  ; G  ;  G  | pm G   ; gr  |  S - R  rs S  ||",
+                    "sahitya": "Gur ja-    ri - -   - rA        ga        pri- yE   - vA         ra  shi   vE\u2014"
                 },
                 {
-                    "swara": "gr sr dd pg nd pd rs nd | - p G R- S | - R G - ||",
-                    "sahitya": "guni ja-na- - - di- nu- ta- guru gu ho da ye"
+                    "swara": "gr sr  dd pg  nd pd  rs   nd  |  , p G   R- S  |   ; R  G ;  ||",
+                    "sahitya": "guNi      ja-nA- - - di-     nu- ta-         guru   gu hO          da     yE"
                 },
                 {
-                    "swara": "P - dp - pmgr - G - G | sn dp nd - pg | dp- gr gr S ||",
-                    "sahitya": "Gur ja- ri - - - ra ga pri- ye - - va- ra -shi- ve—"
+                    "swara": "P ;  dp - pmgr  ; G  ;  G  | sn  dp   nd-pg  |  dp- gr   gr S  ||",
+                    "sahitya": "Gur ja-    ri - -   - rA        ga        pri- yE   - - vA-      ra -shi- vE\u2014"
                 },
                 {
-                    "swara": "gr sr G D - P P G | R S D S | - R G - ||",
-                    "sahitya": "gu-ni- jana - di nu ta guru g uho da ye"
+                    "swara": "gr  sr  G D  ;  P  P   G  | R S  D S  |   ; R  G ;  ||",
+                    "sahitya": "gu-Ni-    janA - di         nu ta        guru     g uhO           da      yE"
                 },
                 {
-                    "swara": "- - - - - rg pg R | S - - - | - - - - ||",
-                    "sahitya": "- - - - - - - - - - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "; ;  ; ;  ; rg pg  R  |  S ;  ; ;  |   ; ;  ; ;  ||",
+                    "sahitya": "- -  - -  - -  - - -     - -  - -      - -       - -"
+                },
                 {
-                    "swara": "",
+                    "swara": "gMg  P ;  ; ;  ; ;  | ; R  gp - R  |  S ;  ; ;  ||",
+                    "sahitya": "- - -  - -  - -  - -    - -  - -     -      - -  - -"
+                },
+                {
+                    "swara": "; mg  , d P      MP  M G  | ; rm  g-r  S  | S , r  G G  ||",
+                    "sahitya": "maNi    maya    bhU-        Shi Ni         mA     - na-va    pO--      SaNi"
+                },
+                {
+                    "swara": "; pm , d P      MP  M G  | ; rg  p-g r  s  | S , r   G G  ||",
+                    "sahitya": "maNi    maya    bhU-        Shi Ni         mA      - na-va     pO--      SaNi"
+                },
+                {
+                    "swara": "; , d mGm P D  N S  | ; ;  ; ;  |   ; ;  ; ;  ||",
+                    "sahitya": "ma     dhu- ra   bhA-        SiNi"
+                },
+                {
+                    "swara": "; , d mGm P D  N S  | ; dn  , d M   |   rgpg    g r  S  ||",
+                    "sahitya": "ma     dhu- ra   bhA-        SiNi    mA-      na sa      tO--     Si- Ni"
+                },
+                {
+                    "swara": "gr s r    d   d  p  g   n d p   - d     r  s  R   |   ;  ;  ; ;  |   ; ;      ; ;  ||",
+                    "sahitya": "gaNapati phaNipati  shayana vi   dhinutE"
+                },
+                {
+                    "swara": "gr s r    d   d  p  g   n d p   - d     r  s  R   |   s r - n s      d n p -d   |   p g d p    g r S   ||",
+                    "sahitya": "gaNapati phaNipati  shayana vi   dhinutE    gaja ratha   turaga pa   dayutE-    lalitE"
+                },
+                {
+                    "swara": "m g r s     d   d  p  g   m g r  - s     r  s  R   |   s r - n s      d n p -d   |   p g d p    g r S   ||",
+                    "sahitya": "gaNapati phaNipati  shayana vi   dhinutE    gaja ratha   turaga pa   dayutE-    lalitE"
+                },
+                {
+                    "swara": "s S s  r r gg , S r  G - s r  |  G ;  ; ;  |   ; , m    , g r s ||",
                     "sahitya": ""
+                },
+                {
+                    "swara": "s S s  r r gg , S r  G - s r  |  G ;  ; ;  |   ; , p    , g r s ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "s S s  r r gg , S r  G - s r  |  G ;  ; ;  |   ; , d    m g r s ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "s S s  r r gg , S r  G - s r  |  G ,d    , d P  |   ddpp    m m g g  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "dd P      m G - d   p m G -    d G g  |   g p gd   P -mg    | dm G   -  p m g r     ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "s s r-d    , s- p d     s - p d r   s r   gg | d n s r     g m p m | s r g p   d p m g      ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "p d n s  p d  r s  d r s s  g r s s | m g r s     ,  n  d p   | m G -p   g r s n     ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "gr sr  dd pg  nd pd  rs   nd  |  , p G   R- S  |   ; R  G ;  ||",
+                    "sahitya": "guNi      ja-nA- - - di-     nu- ta-         guru   gu hO          da     yE"
+                },
+                {
+                    "swara": "P ;  dp - pmgr  ; G  ;  G  | sn  dp   nd-pg  |  dp- gr   gr S  ||",
+                    "sahitya": "Gur ja-    ri - -   - rA        ga        pri- yE   - - vA-      ra -shi- vE\u2014"
+                },
+                {
+                    "swara": "gr  sr  G D  ;  P  P   G  | R S  D S  |   ; R  G ;  ||",
+                    "sahitya": "gu-Ni-    janA - di         nu ta        guru     g uhO           da      yE"
+                },
+                {
+                    "swara": "; ;  ; ;  ; rg pg  R  |  S ;  ; ;  |   ; ;  ; ;  ||",
+                    "sahitya": "- -  - -  - -  - - -     - -  - -      - -       - -"
                 }
             ]
         }

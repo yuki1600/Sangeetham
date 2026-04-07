@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 
-const BASE_PX = 320; // base pixels per aavartana (no zoom)
 const MIN_ZOOM = 0.1;
 const MAX_ZOOM = 10;
 const RULER_H = 22; // height of time ruler in CSS px
@@ -28,11 +27,12 @@ export default function WaveformEditor({
     sectionMarkers,   // [{ section, time }] — cyan cue lines on waveform
     theme,
     playheadFraction = 0.25,
-    aavartanaSec = 3.3,
+    aavartanaSec = 4.0,
     timeRef,
     onSeek,         // (newTime) => void — called during drag auto-scroll
-    zoom = 1,
-    onZoomChange    // (newZoom) => void
+    zoom = 2,
+    onZoomChange,    // (newZoom) => void
+    pxPerSec: parentPxPerSec = 100 // default if not provided
 }) {
     const canvasRef = useRef(null);
     const samplesRef = useRef(null);
@@ -47,6 +47,7 @@ export default function WaveformEditor({
     const editorModeRef = useRef(editorMode);
 
     const zoomRef = useRef(zoom);
+    const pxPerSecRef = useRef(parentPxPerSec);
 
     useEffect(() => { currentTimeRef.current = currentTime; }, [currentTime]);
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
@@ -54,7 +55,7 @@ export default function WaveformEditor({
     useEffect(() => { selectionRef.current = selection; }, [selection]);
     useEffect(() => { sectionMarkersRef.current = sectionMarkers; }, [sectionMarkers]);
     useEffect(() => { editorModeRef.current = editorMode; }, [editorMode]);
-    useEffect(() => { zoomRef.current = zoom; }, [zoom]);
+    useEffect(() => { zoomRef.current = zoom; pxPerSecRef.current = parentPxPerSec; }, [zoom, parentPxPerSec]);
 
     const isDark = theme !== 'light';
     const onZoomChangeRef = useRef(onZoomChange);
@@ -136,7 +137,7 @@ export default function WaveformEditor({
             const avSec = aavartanaSecRef.current;
             const z = zoomRef.current;
             const playheadX = W * playheadFraction;
-            const pxPerSec = (BASE_PX * z) / avSec;
+            const pxPerSec = pxPerSecRef.current * z;
             const visibleSec = W / pxPerSec;
             const timeToX = (origT) => playheadX + (origT - t) * pxPerSec;
 
@@ -311,7 +312,7 @@ export default function WaveformEditor({
         const avSec = aavartanaSecRef.current;
         const z = zoomRef.current;
         const playheadX = W * playheadFraction;
-        const pxPerSec = (BASE_PX * z) / avSec;
+        const pxPerSec = pxPerSecRef.current * z;
         const dur = originalDurationRef.current || 1;
         return Math.max(0, Math.min(dur, currentTimeRef.current + (x - playheadX) / pxPerSec));
     };

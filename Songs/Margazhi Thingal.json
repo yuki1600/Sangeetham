@@ -9,99 +9,91 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "- - s - g M P - - P | - g m - p M | M - mg gpmm R ||",
-                    "sahitya": "Maar gazhi thin gal madhi nirain dha nan naa-- Laal"
+                    "swara": "; , s     , g M      P ;         ; P     |   ; g m     , p M   |  M - mg   gpmm R   ||",
+                    "sahitya": "Maar gazhi    thin        gaL     madhi      niRain dha  nan   naa--  Laal"
                 },
                 {
-                    "swara": "- - s - g M pmgm P- P | - s n - np pmP | M - gmpn pmgm R ||",
-                    "sahitya": "Maar gazhi thin - gal madhi ni Rain dha nan naa-- Laal"
+                    "swara": "; , s     , g M      pmgm     P- P     |   ; s n     , np pmP   | M - gmpn   pmgm R   ||",
+                    "sahitya": "Maar gazhi    thin          - gaL        madhi  ni Rain    dha    nan     naa--  Laal"
                 },
                 {
-                    "swara": "- - g m -P m mgpm gm- R | S - r s - g M | P - - p N P ||",
-                    "sahitya": "Nee - raada po- - dhu- veer - podhu mino ner i zhaiyeer"
+                    "swara": "; , g     m -P m      mgpm      gm- R     |   S - r  s      , g M   |     P , - p      N P    ||",
+                    "sahitya": "Nee   -   raada    pO- -       dhu- veer     -  pOdhu  minO       nEr   i    zhaiyeer"
                 },
                 {
-                    "swara": "- - n np - mg m pnnp N S | - - - - | - - - - ||",
-                    "sahitya": "seer - - mal-gum aay-- ppaadi"
+                    "swara": "; , n     np - mg m      pnnp        N  S     |   ;   ;           ;  ;    |         ;  ;           ;  ;  ||",
+                    "sahitya": "seer - -   mal-gum aay--       ppaadi"
                 },
                 {
-                    "swara": "- - n np - mg m pnnp N S | - ns - r S | S - s n r s - sn ||",
-                    "sahitya": "seer - - mal-gum aay-- ppaadi chel- va chi Ru meer - - gaal-"
+                    "swara": "; , n     np - mg m      pnnp        N  S     |   ; ns           , r  S  |  S -   s n     r s -  sn   ||",
+                    "sahitya": "seer - -   mal-gum aay--       ppaadi       chel-         va chi Ru   meer - -   gaaL-"
                 },
                 {
-                    "swara": "N - n np - mg m pnnp N S | - ns - r S | S - s n r s - sn ||",
-                    "sahitya": "seer - - mal-gum aay-- ppaadi chel- va chi Ru meer - - gaal-"
+                    "swara": "N , n     np - mg m      pnnp        N  S     |   ; ns           , r  S  |  S -   s n    r s  - sn   ||",
+                    "sahitya": "seer - -   mal-gum aay--       ppaadi       chel-         va chi   Ru   meer - -    gaaL-"
                 },
                 {
-                    "swara": "npm- g m - p n p rrsn P N S | - nsrg mR-- S | S- s n r s - s n ||",
-                    "sahitya": "seer - - mal-gum aay-- ppaadi chel - va chi Ru meer - - gaal-"
+                    "swara": "npm- g    m -  p   n  p    rrsn P        N  S     |   ; nsrg         mR,- S  |   S-  s n    r s -   s n   ||",
+                    "sahitya": "seer - -   mal-gum   aay--       ppaadi         chel         - va   chi  Ru meer - -    gaaL-"
                 },
                 {
-                    "swara": "npm- g m - p n p gmpn sRs - S | S- nsrg pmR- S | S- s n r s - N ||",
-                    "sahitya": "seer - - mal-gum aay-- --- ppaa di chel -- va chi Ru meer - - gaal-"
+                    "swara": "npm- g    m -  p   n  p    gmpn sRs     ,  S     |   S- nsrg      pmR- S  |   S-  s n    r s -   N ||",
+                    "sahitya": "seer - -   mal-gum   aay--  ---       ppaa     di  chel      -- va  chi    Ru meer - -  gaaL-"
                 },
                 {
-                    "swara": "kumaran son",
-                    "sahitya": "1 2 3 4 5 6 7 8"
+                    "swara": "; , gp   mm - R - s     s n p - p    N  S   |    ;  s n     , np pmP   |   M  mg   gpmm R   ||",
+                    "sahitya": "Koor --    vEl ko   dun--  dho zhilan     nandha    gO -- -       pan ku-  ma- -  ran"
                 },
                 {
-                    "swara": "- - gp mm - R - s s n p - p N S | - s n - np pmP | M mg gpmm R ||",
-                    "sahitya": "Koor -- vel ko dun-- dho zhilan nandha go -- - pan ku- ma- - ran"
+                    "swara": "; , gp   mm - R - s     s n p - p    N  S   |    gmpn sgmr   srsn pnmp  |  gmpn snpm  gpmm R   ||",
+                    "sahitya": "Koor --    vEl ko   dun--  dho zhilan     nan -- dha    gO-  pan- -    ku-  -  ma- -   -  -  -  ran"
                 },
                 {
-                    "swara": "- - gp mm - R - s s n p - p N S | gmpn sgmr srsn pnmp | gmpn snpm gpmm R ||",
-                    "sahitya": "Koor -- vel ko dun-- dho zhilan nan -- dha go- pan- - ku- - ma- - - - - ran"
+                    "swara": "; , p      ,  P     m       P  ;        ;  P    |     ;  ;       ;  ;     |    ;   ;       ;  ;  ||",
+                    "sahitya": "E      - raar ndha  kaN-         Ni        -   -         -  -          -   -      -  -"
                 },
                 {
-                    "swara": "- - p - P m P - - P | - - - - | - - - - ||",
-                    "sahitya": "E - raar ndha kan- Ni - - - - - - - -"
+                    "swara": "; , p      ,  P     m       P  ;        ;  P    |     ; s n      , p -M    |    M  mg   gpmm R   ||",
+                    "sahitya": "E      - raar ndha  kaN-         Ni        - yasO    dhai I         Lam sin  - -  - - gam"
                 },
                 {
-                    "swara": "- - p - P m P - - P | - s n - p -M | M mg gpmm R ||",
-                    "sahitya": "E - raar ndha kan- Ni - yaso dhai I Lam sin - - - - gam"
+                    "swara": "; , g      m - P  m   m g p m   gm R   |   ;  s  s       , g   g   m   |  P  , - p     N     P     ||",
+                    "sahitya": "kaar   -    mEni   cen- - -     - -  gaN   - kadhir  - madhiyam pOl  mu  gath thaan"
                 },
                 {
-                    "swara": "kadhir sun",
-                    "sahitya": "madhiyam moon"
+                    "swara": "; , n     np - mg m      pnnp        N  S     |   ;   ;           ;  ;    |         ;  ;           ;  ;  ||",
+                    "sahitya": "Naa - -   raa- ya    Na- -         -  nE"
                 },
                 {
-                    "swara": "- - g m - P m m g p m gm R | - s s - g g m | P - - p N P ||",
-                    "sahitya": "kaar - meni cen- - - - - gan - kadhir - madhiyam pol mu gath thaan"
+                    "swara": "; , n     np - mg m      pnnp        N  S     |   ; n  s        , r   - S  |  S -   s n     r s -  sn   ||",
+                    "sahitya": "Naa - -   raa- ya    Na- -         -  nE         nama       kkE pa  Rai- tha-    ru-  vaan-"
                 },
                 {
-                    "swara": "- - n np - mg m pnnp N S | - - - - | - - - - ||",
-                    "sahitya": "Naa - - raa- ya Na- - - ne"
+                    "swara": "N , n     np - mg m      pnnp        N  S     |   ; ns           , r  S  |  S -   s n    r s  - sn   ||",
+                    "sahitya": "Naa - -   raa- ya    Na- -         -  nE         nama       kkE pa  Rai- tha-    ru-  vaan-"
                 },
                 {
-                    "swara": "- - n np - mg m pnnp N S | - n s - r - S | S - s n r s - sn ||",
-                    "sahitya": "Naa - - raa- ya Na- - - ne nama kke pa Rai- tha- ru- vaan-"
+                    "swara": "npm- g    m -  p   n  p    rrsn P        N  S     |   ; nsrg         mR,- S  |   S-  s n    r s -   s n   ||",
+                    "sahitya": "Naa - -   raa- ya    Na- -         -  nE          na-ma       -kkE pa  Rai- tha-    ru-  vaan-"
                 },
                 {
-                    "swara": "N - n np - mg m pnnp N S | - ns - r S | S - s n r s - sn ||",
-                    "sahitya": "Naa - - raa- ya Na- - - ne nama kke pa Rai- tha- ru- vaan-"
+                    "swara": "npm- g    m -  p   n  p    gmpn sRs     ,  S     |   ;- nsrg      pmR- S  |   S-  s n    r s -   N ||",
+                    "sahitya": "Naa - -   raa- ya     Na- -           -  nE         na-ma       -kkE pa  Rai- tha-    ru-  vaan-"
                 },
                 {
-                    "swara": "npm- g m - p n p rrsn P N S | - nsrg mR-- S | S- s n r s - s n ||",
-                    "sahitya": "Naa - - raa- ya Na- - - ne na-ma -kke pa Rai- tha- ru- vaan-"
+                    "swara": "; , gp   mm - R - s     s n p - p    N  S   |    ;  s n     , np  pmP   |   mg pm   gm R   ||",
+                    "sahitya": "Paa - - -   rOr pu  ga - -     -    -    zha      padin   dhE lOr       em  -  -   paa vaay"
                 },
                 {
-                    "swara": "npm- g m - p n p gmpn sRs - S | -- nsrg pmR- S | S- s n r s - N ||",
-                    "sahitya": "Naa - - raa- ya Na- - - ne na-ma -kke pa Rai- tha- ru- vaan-"
+                    "swara": "; , gp   mm - R - s     s n p - p    N  S   |    gmpn  sgmr   srsn pnmp  |  gmpn snpm  gpmm   R ||",
+                    "sahitya": "Paa - - -   rOr pu  ga - -     -    -    zha    pa- -    din- -  dhE lOr        (r)em  - - - -  paa   -   vaay"
                 },
                 {
-                    "swara": "- - gp mm - R - s s n p - p N S | - s n - np pmP | mg pm gm R ||",
-                    "sahitya": "Paa - - - ror pu ga - - - - zha padin dhe lor em - - paa vaay"
-                },
-                {
-                    "swara": "- - gp mm - R - s s n p - p N S | gmpn sgmr srsn pnmp | gmpn snpm gpmm R ||",
-                    "sahitya": "Paa - - - ror pu ga - - - - zha pa- - din- - dhe lor (r)em - - - - paa - vaay"
-                },
-                {
-                    "swara": "- - s - g M P - - P | - - - - | - - - - ||",
-                    "sahitya": "Maar gazhi thin gal - - - - - - - -"
+                    "swara": "; , s     , g M      P ;         ; P     |   ; ;            ;  ;    |        ;  ;         ;  ;    ||",
+                    "sahitya": "Maar gazhi    thin        gaL      - -           -  -             -  -         -  -"
                 }
             ]
         }

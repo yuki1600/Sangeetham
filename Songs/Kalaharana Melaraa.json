@@ -12,24 +12,24 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "S - S D D P || P - M R - pm || R - S - - rm || P - - M P D ||",
-                    "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - See- thaa- - Ra mana!"
+                    "swara": "S ;    S  D    D P  ||  P ;  M R  ; pm  || R ;  S ;  ; rm  || P ;  ; M  P D  ||",
+                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - See-    thaa-  - Ra mana!"
                 },
                 {
-                    "swara": "S - S D D P || pmpd pm R - pm || R - S - - S || R - - m - P P D ||",
-                    "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - He! See thaa- Ra mana!"
+                    "swara": "S ;    S  D    D P  ||  pmpd  pm R  ; pm  || R ;  S ;  ; S  || R , - m    ; P  P D  ||",
+                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - He!     See thaa- Ra mana!"
                 },
                 {
-                    "swara": "S - S D D P || mpmd pm R - pm || R - S - - S || srm - r mp - mp d- p d r ||",
-                    "sahitya": "Kaa la ha ra na Me- - la ra - Ha- re- - - - He! See- thaa- Ra- - ma-na!"
+                    "swara": "S ;    S  D    D P  ||  mpmd  pm R  ; pm  || R ;  S ;  ; S  || srm-r mp-mp d- p d  r  ||",
+                    "sahitya": "Kaa   la ha   ra na     Me- -   la  ra  - Ha-     re-  -  -  - He!    See- thaa-   Ra-   -  ma-na!"
                 },
                 {
-                    "swara": "srmr s d - d r rs dp || pdsd pm- rm pd pm || R - S - - S || srm - r mp - mp d- p d r ||",
-                    "sahitya": "Kaa-- la - ha - ra- na- Me- - la - ra- - - Ha- re- - - - He! See- thaa- Ra- - ma-na!"
+                    "swara": "srmr     s d-d r rs  dp ||  pdsd  pm- rm   pd pm || R ;  S ;  ; S  || srm-r mp-mp d- p d  r  ||",
+                    "sahitya": "Kaa--   la - ha -    ra- na-   Me- - la -  ra-   - - Ha-   re-  -  -  - He!    See- thaa-   Ra-   -  ma-na!"
                 },
                 {
-                    "swara": "S - S D D P || P - M R - pm || R - S - - - || - - - - - - ||",
-                    "sahitya": "Kaa la ha ra na Me la ra - Ha- re- - - - - - - - - - -"
+                    "swara": "S ;    S  D    D P  ||  P ;  M R  ; pm  || R ;  S ;  ; ;  || ; ;  ; ;  ;  ;  ||",
+                    "sahitya": "Kaa   la ha   ra na   Me  la  ra  - Ha-     re-  -  -  - -     - -  - -  - -"
                 }
             ]
         },
@@ -37,20 +37,20 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- pm P - D P D || S - D - S S S ||",
-                    "sahitya": "- Kaa- la ha ra na Me- la Su gu naa"
+                    "swara": "; pm P - D  P D  ||   S ;  D - S  S S  ||",
+                    "sahitya": "- Kaa-     la   ha ra  na     Me-  la   Su gu naa"
                 },
                 {
-                    "swara": "- pm P - D P D || S - S - s d r s - D ||",
-                    "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa"
+                    "swara": "; pm P - D  P D  ||   S ;  S - s d  r s - D  ||",
+                    "sahitya": "- Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa"
                 },
                 {
-                    "swara": "P- pm P - D P D || S - S - s d r s - R ||",
-                    "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa"
+                    "swara": "P- pm P - D  P D  ||   S ;  S - s d  r s - R  ||",
+                    "sahitya": "-  Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa"
                 },
                 {
-                    "swara": "- - pm P - D P D || S - S - s d r s - R || mr mr S - s d s d P || pm pm rs - rm rm pd ||",
-                    "sahitya": "- Kaa- la ha ra na Me- la Su- gu- naa J aa- - la Ka- - - ru naa- - la- Vaa- - - laa-"
+                    "swara": "; - pm P - D  P D  ||   S ;  S - s d  r s - R  || mr mr  S - s d s d  P  || pm pm    rs - rm    rm pd ||",
+                    "sahitya": "-   Kaa-     la   ha ra  na     Me-  la   Su- gu-  naa    J aa- -   la    Ka-   - -  ru    naa- -      la- Vaa-  - -  laa-"
                 }
             ]
         },
@@ -58,8 +58,24 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; pd  S D  P P  || pm pd    pm - rm    P  P  ||  ;  R  M - P  D D  || P D  S - D  ; P   ||",
+                    "sahitya": "Dina  Dina munu    Ti- ri-      gi-    Ti-   ri  gi    -  Di kku  le -    ka    Shara nu  Jo -  cchi"
+                },
+                {
+                    "swara": "; pm P - D  P D  ||   S ;  D - S  ;  S  ||",
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  -   ti"
+                },
+                {
+                    "swara": "; pm P - D  P D  ||   S ;  S - s d  r s - D  ||",
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti"
+                },
+                {
+                    "swara": "P- pm P - D  P D  ||   S ;  S - s d  r s - R  ||",
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti"
+                },
+                {
+                    "swara": "; - pm P - D  P D  ||   S ;  S - s d  r s - R  || mr mr  S - s d s d  P  || pm pm    rs - rm    rm pd ||",
+                    "sahitya": "Tanu vu  Dha  namu      Nee de   yan  - - -   ti      Tyaa\u2014ga   raa-  - -  ja    Vi- nu-    ta!  Raa-  -- maa!"
                 }
             ]
         }

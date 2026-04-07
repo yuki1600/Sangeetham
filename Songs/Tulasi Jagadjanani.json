@@ -2,163 +2,158 @@
     "song_details": {
         "name": "Tulasi Jagadjanani",
         "raga": "Saveri",
-        "arohanam": "S R₁ M₁ P D₁ Ṡ ||",
-        "avarohanam": "Ṡ N₃ D₁ P M₁ G₃ R₁ S ||",
+        "arohanam": "S R\u2081 M\u2081 P D\u2081 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2083 D\u2081 P M\u2081 G\u2083 R\u2081 S ||",
         "tala": "Rupakam",
         "composer": "Tyagaraja"
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "- s r - ggs R S || sn D S R rs S ||",
-                    "sahitya": "- Tula - si-- - Ja gad-- Jana ni- -"
+                    "swara": "; s   r  , ggs  R S  || sn D S R  rs S  ||",
+                    "sahitya": "- Tula     - si--  -  Ja   gad-- Jana ni- -"
                 },
                 {
-                    "swara": "- s r - ggs R S || sn D S gr rs S ||",
-                    "sahitya": "- Tula - si-- - Ja gad-- Jana ni- -"
+                    "swara": "; s   r  , ggs  R S  || sn D S gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  -  Ja   gad-- Jana ni- -"
                 },
                 {
-                    "swara": "- s r - M - dp D || P dd pm - G - r R ||",
-                    "sahitya": "Duri - Thaa- - - pa haa- - - - ri -- ni"
+                    "swara": ";  s r  ,  M ,  dp D  || P dd  pm - G  , r  R  ||",
+                    "sahitya": "Duri  - Thaa- - - pa  haa- -  - -     ri   --  ni"
                 },
                 {
-                    "swara": "- s r - dpm gr - gr || sn D S gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Jana ni- -"
+                    "swara": "; s   r  , dpm  gr - gr  || sn D S gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Jana ni- -"
                 },
                 {
-                    "swara": "- s r - M - dp D || S - -n - dd pm -gr ||",
-                    "sahitya": "Duri - Thaa- - - pa haa- - - - ri -- ni-"
+                    "swara": ";  s r  ,  M ,  dp D  || S ;  ,n - dd  pm -gr ||",
+                    "sahitya": "Duri  - Thaa- - - pa  haa- -  - -   ri       --   ni-"
                 },
                 {
-                    "swara": "sd s r - dpm gr - gr || sn D sn gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Ja-na ni- -"
+                    "swara": "sd s   r  , dpm  gr - gr || sn D sn gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Ja-na ni- -"
                 },
                 {
-                    "swara": "r s R d p D rs R || rr sn dp - dd pm -gr ||",
-                    "sahitya": "Du-ri Thaa- - - pa haa- - - - ri -- ni-"
+                    "swara": "r s R  d p D rs R  || rr sn  dp - dd  pm -gr ||",
+                    "sahitya": "Du-ri Thaa- - - pa  haa- -  - -   ri       --   ni-"
                 },
                 {
-                    "swara": "sd s r - dpm gr - gr || sn D S gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Ja-na ni- -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "- pd - p M P D || S - - S S - ||",
-                    "sahitya": "Nila - vara maghu Nee - sa ri -"
+                    "swara": "sd s   r  , dpm  gr - gr || sn D S  gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Ja-na ni- -"
                 },
                 {
-                    "swara": "pd rs nd nd pm pd || S - - S S - ||",
-                    "sahitya": "Ni-la- va-ra- ma-ghu- Nee - sa ri -"
+                    "swara": "; pd  , p M  P D  || S ;  ; S  S ;  ||",
+                    "sahitya": "Nila - vara maghu    Nee - sa ri -"
                 },
                 {
-                    "swara": "pd rs nd nd pm pd || S -r G R R - ||",
-                    "sahitya": "Ni-la- va-ra- ma-ghu- Nee sa ri Vel"
+                    "swara": "pd rs nd nd  pm  pd  || S ;  ; S  S ;  ||",
+                    "sahitya": "Ni-la- va-ra- ma-ghu-   Nee - sa ri -"
                 },
                 {
-                    "swara": "R sr sn D D pd || mpd- d pm- gr gr S ||",
-                    "sahitya": "Pu lu- Le- - ra ta! Bro—vu - - mi- ka-nu"
+                    "swara": "pd rs nd nd  pm  pd  || S ,r  G  R  R ;  ||",
+                    "sahitya": "Ni-la- va-ra- ma-ghu-   Nee sa  ri     Vel"
                 },
                 {
-                    "swara": "- pd rs nd nd pd || S -r G R R - ||",
-                    "sahitya": "Nila va-ra- ma-ghu- Nee sa ri Vel"
+                    "swara": "R sr  sn D  D pd  || mpd- d   pm- gr   gr S ||",
+                    "sahitya": "Pu lu-    Le- -  ra  ta!    Bro\u2014vu - -   mi- ka-nu"
                 },
                 {
-                    "swara": "R sr sn D D pd || mpd- d pm- gr gr S ||",
-                    "sahitya": "Pu lu- Le- - ra ta! Bro—vu - - mi- ka-nu"
+                    "swara": ";  pd  rs nd  nd pd  || S ,r  G  R  R ;  ||",
+                    "sahitya": "Nila va-ra- ma-ghu-   Nee sa  ri     Vel"
                 },
                 {
-                    "swara": "- pd - p M P D || S -r G R R - ||",
-                    "sahitya": "Nila va ra- ma-ghu- Nee sa ri Vel"
+                    "swara": "R sr  sn D  D pd  || mpd- d   pm- gr   gr S ||",
+                    "sahitya": "Pu lu-    Le- -  ra  ta!    Bro\u2014vu - -   mi- ka-nu"
                 },
                 {
-                    "swara": "R sr sn D pdmp || sr mp dd pm gr sd ||",
-                    "sahitya": "Pu lu- Le- - ra ta! Bro— vu- mi- ka-nu"
+                    "swara": ";  pd  , p M  P D  || S ,r  G  R  R ;  ||",
+                    "sahitya": "Nila  va ra- ma-ghu-   Nee sa  ri     Vel"
                 },
                 {
-                    "swara": "sd s r - dpm gr - gr || sn D sn gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Ja-na ni- -"
+                    "swara": "R sr  sn D  pdmp  || sr mp  dd  pm  gr sd  ||",
+                    "sahitya": "Pu lu-    Le- -  ra  ta!    Bro\u2014  vu- mi-  ka-nu"
                 },
                 {
-                    "swara": "r s R d p D rs R || rr sn dp - dd pm -gr ||",
-                    "sahitya": "Du-ri Thaa- - - pa haa- - - - ri -- ni-"
+                    "swara": "sd s   r  , dpm  gr - gr || sn D sn gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Ja-na ni- -"
                 },
                 {
-                    "swara": "sd s r - dpm gr - gr || sn D S gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Ja-na ni- -"
+                    "swara": "r s R  d p D rs R  || rr sn  dp - dd  pm -gr ||",
+                    "sahitya": "Du-ri Thaa- - - pa  haa- -  - -   ri       --   ni-"
                 },
                 {
-                    "swara": "- pd - p - P P - || P P P M dp D ||",
-                    "sahitya": "Chara na Yu gam- bulu Nadu la- ku"
+                    "swara": "sd s   r  , dpm  gr - gr || sn D S  gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Ja-na ni- -"
                 },
                 {
-                    "swara": "- p p - m P - - || mpd - d pm - G - R - ||",
-                    "sahitya": "Para -ma Vai - - kun- - ta - - ma - ta!-"
+                    "swara": "; pd  , p - P  P ;  || P P  P M  dp D  ||",
+                    "sahitya": "Chara  na Yu gam-   bulu  Nadu la- ku"
                 },
                 {
-                    "swara": "- s r - m - m P - || P P p n dpM dp D ||",
-                    "sahitya": "Chara na Yu gam- bulu Nadu la- ku"
+                    "swara": "; p p  , m  P  ;  ;  || mpd - d   pm - G   , R ,  ||",
+                    "sahitya": "Para -ma Vai  -  -   kun- -   ta  - -     ma  - ta!-"
                 },
                 {
-                    "swara": "- p p - m P - - || mpd - d pm - G - R - ||",
-                    "sahitya": "Para -ma Vai - - kun- - ta - - ma - ta!-"
+                    "swara": "; s   r  , m - m  P ;  || P P  p n dpM   dp D  ||",
+                    "sahitya": "Chara  na   Yu gam-   bulu  Nadu   la- ku"
                 },
                 {
-                    "swara": "- sr G - gr g r S || S - r sn D g r r s ||",
-                    "sahitya": "Sara si jaa- - - kshi Nee- Ma-- dhya-mu-"
+                    "swara": "; p p  , m  P  ;  ;  || mpd - d   pm - G   , R ,  ||",
+                    "sahitya": "Para -ma Vai  -  -   kun- -   ta  - -     ma  - ta!-"
                 },
                 {
-                    "swara": "- sr - m M P - || pdn - d pm - dp D - ||",
-                    "sahitya": "Saka la Su ra - vaa-- sa - - ma- ta!-"
+                    "swara": ";  sr  G - gr  g r S  ||  S , r  sn D  g     r r  s   ||",
+                    "sahitya": "Sara si    jaa-  - - kshi    Nee-   Ma--  dhya-mu-"
                 },
                 {
-                    "swara": "- pd r s nd nd pm || P D S - S S ||",
-                    "sahitya": "Sira mu-na- Nai- - - gama Ko- tulu"
+                    "swara": "; sr  , m M  P ;  || pdn - d    pm - dp    D ;  ||",
+                    "sahitya": "Saka   la Su ra -    vaa--   sa   - -   ma-    ta!-"
                 },
                 {
-                    "swara": "- dr - s S sn D || sr G rs - R G - ||",
-                    "sahitya": "Vela -yuchu chun-- Naa-- ra- ta!- - -"
+                    "swara": ";  pd  r  s nd  nd pm  || P D   S ;   S S   ||",
+                    "sahitya": "Sira mu-na- Nai- - -    gama   Ko-  tulu"
                 },
                 {
-                    "swara": "- pd r s nd nd pm || P D S - S S ||",
-                    "sahitya": "Sira mu-na- Nai- - - gama Ko- tulu"
+                    "swara": "; dr  , s S  sn D  || sr G  rs - R   G ;  ||",
+                    "sahitya": "Vela -yuchu   chun--   Naa--   ra-   ta!-  -  -"
                 },
                 {
-                    "swara": "- dr - s S sn D || sr G rs - pm G - ||",
-                    "sahitya": "Vela -yuchu chun-- Naa-- ra- ta!- - -"
+                    "swara": ";  pd  r  s nd  nd pm  || P D   S ;   S S   ||",
+                    "sahitya": "Sira mu-na- Nai- - -    gama   Ko-  tulu"
                 },
                 {
-                    "swara": "- sr G - gr gr S || S - r sn D D - ||",
-                    "sahitya": "Sara sa Tyaa- - ga raa- - jaa- - di -"
+                    "swara": "; dr  , s S  sn D  || sr G  rs - pm   G ;  ||",
+                    "sahitya": "Vela -yuchu   chun--   Naa--   ra-   ta!-  -  -"
                 },
                 {
-                    "swara": "R sr sn D D D || mpd - d pm- G R- R || -",
-                    "sahitya": "Vara- Bha-- ktu lu Pa-- de - - ra - ta! -"
+                    "swara": "; sr  G - gr  gr  S || S , r  sn D  D ;  ||",
+                    "sahitya": "Sara sa   Tyaa- - ga   raa- -  jaa- -  di -"
                 },
                 {
-                    "swara": "- sr G - gr gr S || S rg rsnd D - ||",
-                    "sahitya": "Sara sa Tyaa- - ga raa- - jaa- - di -"
+                    "swara": "R sr  sn D  D D  || mpd - d   pm- G  R- R|| ;",
+                    "sahitya": "Vara- Bha-- ktu lu    Pa--    de  - -    ra  -   ta!  -"
                 },
                 {
-                    "swara": "R sr sn D pdmp || sr mp dd pm gr gr || sd",
-                    "sahitya": "Vara- Bha-- ktu lu Pa-- de - - ra ta! - - - (tulasi)"
+                    "swara": "; sr  G - gr  gr  S || S rg rsnd  D ;  ||",
+                    "sahitya": "Sara sa   Tyaa- - ga   raa- -  jaa- -  di -"
                 },
                 {
-                    "swara": "sd s r - dpm gr - gr || sn D sn gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Ja-na ni- -"
+                    "swara": "R sr  sn D  pdmp  || sr mp  dd  pm  gr gr  ||  sd",
+                    "sahitya": "Vara- Bha-- ktu lu    Pa--     de  - -      ra ta!  -  - -    (Tulasi)"
                 },
                 {
-                    "swara": "r s R d p D rs R || rr sn dp - dd pm -gr ||",
-                    "sahitya": "Du-ri Thaa- - - pa haa- - - - ri -- ni-"
+                    "swara": "sd s   r  , dpm  gr - gr || sn D sn gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Ja-na ni- -"
                 },
                 {
-                    "swara": "sd s r - dpm gr - gr || sn D S gr rs S ||",
-                    "sahitya": "- Tula - si-- - - Ja gad-- Ja-na ni- -"
+                    "swara": "r s R  d p D rs R  || rr sn  dp - dd  pm -gr ||",
+                    "sahitya": "Du-ri Thaa- - - pa  haa- -  - -   ri       --   ni-"
+                },
+                {
+                    "swara": "sd s   r  , dpm  gr - gr || sn D S  gr  rs S  ||",
+                    "sahitya": "- Tula     - si--  - -   Ja   gad-- Ja-na ni- -"
                 }
             ]
         }

@@ -12,44 +12,44 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "G - M G - G || gr S R G - - ||",
-                    "sahitya": "Ra ma Na nnu Bro- va raa"
+                    "swara": "G  ; M G   ; G  || gr S    R G  ; ;     ||",
+                    "sahitya": "Ra ma Na    nnu   Bro-  va raa"
                 },
                 {
-                    "swara": "P - M G - G || gr S R G - - ||",
-                    "sahitya": "Ra ma Na nnu Bro- va raa"
+                    "swara": "P  ; M G   ; G  || gr S    R G  ; ;     ||",
+                    "sahitya": "Ra ma Na    nnu   Bro-  va raa"
                 },
                 {
-                    "swara": "gm P M - G pm- G || gr S R G - - ||",
-                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                    "swara": "gm P M - G   pm- G  || gr S    R G  ; ;     ||",
+                    "sahitya": "Ra ma Na   -   nnu   Bro-  va raa"
                 },
                 {
-                    "swara": "gm P dp - pp mm- G || gg rs R G - - ||",
-                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                    "swara": "gm P dp - pp   mm- G  || gg rs    R G  ; ;     ||",
+                    "sahitya": "Ra ma Na   -   nnu   Bro-  va raa"
                 },
                 {
-                    "swara": "gm Pdp mp - pp mm- G || gg rs R G - - ||",
-                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                    "swara": "gm Pdp mp - pp   mm- G  || gg rs    R G  ; ;     ||",
+                    "sahitya": "Ra ma Na   -   nnu   Bro-  va raa"
                 },
                 {
-                    "swara": "rgmg M - rg mg M || pd N nddp pmgr ||",
-                    "sahitya": "Ve - - ma ko -- - Lo -- ka - - bhi - -"
+                    "swara": "rgmg  M - rg mg M || pd N  nddp    pmgr ||",
+                    "sahitya": "Ve - - ma  ko  --  -    Lo --    ka - -      bhi - -"
                 },
                 {
-                    "swara": "gm Pdp mp - pp mm- G || rgmg rs R G - - ||",
-                    "sahitya": "Ra ma Na - nnu Bro- va raa"
+                    "swara": "gm Pdp mp - pp   mm- G  || rgmg rs   R G  ; ;     ||",
+                    "sahitya": "Ra ma Na   -   nnu   Bro-        va raa"
                 },
                 {
-                    "swara": "rgmg M - rg mg M || pd ns rs - nd p - mgr ||",
-                    "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
+                    "swara": "rgmg  M - rg mg M || pd ns  rs - nd p-mgr ||",
+                    "sahitya": "Ve - - ma  ko  --  -    Lo --    --    ka - -   bhi - -"
                 },
                 {
-                    "swara": "rgmg M - rg mpdn || sr Gmg rs - nd p - mgr ||",
-                    "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
+                    "swara": "rgmg  M - rg mpdn || sr Gmg   rs - nd p-mgr ||",
+                    "sahitya": "Ve - - ma  ko  --  -    Lo --    --       ka - -   bhi - -"
                 },
                 {
-                    "swara": "gmgr S - ns nd P || gm gr S - nd p - mgr ||",
-                    "sahitya": "Ve - - ma ko -- - Lo -- -- ka - - bhi - -"
+                    "swara": "gmgr  S - ns nd P || gm gr   S  - nd    p-mgr ||",
+                    "sahitya": "Ve - -    ma  ko  --  -    Lo --    --      ka - -   bhi - -"
                 }
             ]
         },
@@ -57,28 +57,28 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- - p - d- r s n d n p || - dn S N S - ||",
-                    "sahitya": "Ci ma lo - - - - - Bram - ha lo"
+                    "swara": "; , p  , d- r s  n d n p ||  ;   dn      S  N  S ;  ||",
+                    "sahitya": "Ci ma lo -   - - - -         Bram    - ha    lo"
                 },
                 {
-                    "swara": "- - g - m - p d n s n d || n p - dn S N S - ||",
-                    "sahitya": "Ci ma lo - - - - - - - Bram - ha lo"
+                    "swara": "; , g , m - p d   n s n d  ||  n p - dn       S  N    S ;  ||",
+                    "sahitya": "Ci ma lo -   - - - -       - -   Bram    - ha    lo"
                 },
                 {
-                    "swara": "- d n S - d n s- s n d || n p - dn S N S - ||",
-                    "sahitya": "Ci ma lo - - - - - - - Bram - ha lo"
+                    "swara": "; d n  S - d n  s- s n d || n p - dn       S  N    S ;  ||",
+                    "sahitya": "Ci ma lo -   - - - -       - -   Bram    - ha    lo"
                 },
                 {
-                    "swara": "S S sr Gmg gr S || S n r s- n D P - ||",
-                    "sahitya": "Siva ke -- sa va - du la lo"
+                    "swara": "S S  sr Gmg  gr S || S n r s- n D P ;  ||",
+                    "sahitya": "Siva ke --  sa   va -  du la lo"
                 },
                 {
-                    "swara": "- G G gm P- D || D N S - sn S - || (Srg)",
-                    "sahitya": "Pre ma Mi - ra Me la gu cun te"
+                    "swara": "; G  G   gm   P- D  || D N  S - sn  S ; ||  (Srg)",
+                    "sahitya": "Pre ma Mi -     ra       Me la   gu  cun te"
                 },
                 {
-                    "swara": "mg R gr S rs N || nd P dp M mg R ||",
-                    "sahitya": "Bi ru du va hin cina Si ta"
+                    "swara": "mg R gr S  rs N || nd P dp M  mg R ||",
+                    "sahitya": "Bi  ru du va hin    cina     Si ta"
                 }
             ]
         },
@@ -86,8 +86,20 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": ";  P  P    P  dn S ||  ; N  D P  ; D   ||",
+                    "sahitya": "Me ppu la kai      kan na ta    vu"
+                },
+                {
+                    "swara": "M P  M    G  R S   || rg  mg    M -  g m    P P  ||  (p - nd dpm)",
+                    "sahitya": "Na -  ppu Ba da ga    Vi   - -     rra  Vi -      - gi"
+                },
+                {
+                    "swara": ";  , d  , n    S  D - dn  || P - , d      , n   sn        S  ; || (Sr g)",
+                    "sahitya": "Ta ppu pa   nu    lu     -     Le       ka  yun  de"
+                },
+                {
+                    "swara": "mg R gr S  sn  D || nd P dp M  mg R ||",
+                    "sahitya": "Tya ga ra ja vi nu   ta  Si ta"
                 }
             ]
         }

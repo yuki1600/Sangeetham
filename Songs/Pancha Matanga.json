@@ -12,32 +12,32 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "P - D M - P || D P M G R S || S D S - - rm ||",
-                    "sahitya": "Pan cha Ma - tan - ga Mukha Gana pathi naa - Pari"
+                    "swara": "P ;  D   M  ; P  ||  D P       M G     R S  || S D  S ;  ; rm  ||",
+                    "sahitya": "Pan cha Ma - tan     -  ga       Mukha  Gana    pathi naa - Pari"
                 },
                 {
-                    "swara": "P - - M mg R || S - s d - S - s r M ||",
-                    "sahitya": "Paa - li tho-- ham Sumu khe na- Sri"
+                    "swara": "P ;  ; M  mg R  || S -   s d  , S ,  s r M  ||",
+                    "sahitya": "Paa - li tho--   ham Sumu khe na- Sri"
                 },
                 {
-                    "swara": "P dp m - pd s - P || D P M G R S || S D S - - rm ||",
-                    "sahitya": "Pancha - Ma - tan - ga Mukha Gana pathi naa - Pari"
+                    "swara": "P   dp  m-pd s  ; P  ||  D P       M G     R S  || S D  S ;  ; rm  ||",
+                    "sahitya": "Pancha   -  Ma - tan     -  ga       Mukha  Gana    pathi naa - Pari"
                 },
                 {
-                    "swara": "P - - M mg R || S - s d - S - s r M ||",
-                    "sahitya": "Paa - li tho-- ham Sumu khe na- Sri"
+                    "swara": "P ;  ; M  mg R  || S -   s d  , S ,  s r M  ||",
+                    "sahitya": "Paa - li tho--   ham Sumu khe na- Sri"
                 },
                 {
-                    "swara": "P dp m - pd s - P || D P ppmg R S || dd pm p d s - s r m p d ||",
-                    "sahitya": "Pancha - Ma - tan - ga Mukha Gana pa thi naa- Pa- - ri - -"
+                    "swara": "P   dp  m-pd s  ; P  ||  D P       ppmg    R S  || dd pm    p d s-s       r m p d  ||",
+                    "sahitya": "Pancha   -  Ma - tan     -  ga       Mukha  Gana    pa thi    naa-  Pa-  - ri - -"
                 },
                 {
-                    "swara": "p m p d S -pd p - mg r || S - s d - S - s r M ||",
-                    "sahitya": "Paa - li - tho-- ham Sumu khe na- Sri"
+                    "swara": "p m p d   S -pd p-mg r  || S -   s d  , S ,  s r M  ||",
+                    "sahitya": "Paa -    li -  tho--   ham Sumu khe na- Sri"
                 },
                 {
-                    "swara": "P dp pmgr - rm || pd P dmP P - ||",
-                    "sahitya": "Pancha - - - - - Ma - - - - tan ga"
+                    "swara": "P   dp  pmgr  ; rm ||  pd P       dmP    P ;   ||",
+                    "sahitya": "Pancha   - - -  - - Ma     - - - -        tan     ga"
                 }
             ]
         },
@@ -45,40 +45,40 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "M - D P - - || dd pm - pd S - ||",
-                    "sahitya": "Pan cha Bhoo - - taa -- - - tma- ka -"
+                    "swara": "M ;  D   P  ; ;  || dd pm     ; pd  S ;  ||",
+                    "sahitya": "Pan cha Bhoo - -    taa -- -     - tma-  ka -"
                 },
                 {
-                    "swara": "M - rm pm P - || dd pm - pd S - ||",
-                    "sahitya": "Pan cha Bhoo - - taa -- - - tma- ka -"
+                    "swara": "M ;  rm   pm   P ;  || dd pm     ; pd  S ;  ||",
+                    "sahitya": "Pan cha Bhoo - -    taa -- -     - tma-  ka -"
                 },
                 {
-                    "swara": "pdmp rm pm P - || dd pm - pd S - ||",
-                    "sahitya": "Pan cha Bhoo - - taa -- - - tma- ka -"
+                    "swara": "pdmp  rm   pm   P ;  || dd pm     ; pd  S ;  ||",
+                    "sahitya": "Pan cha Bhoo - -    taa -- -     - tma-  ka -"
                 },
                 {
-                    "swara": "mgrs rm pm P - || dd pm - pd S - ||",
-                    "sahitya": "Pan cha Bhoo - - taa -- - - tma- ka -"
+                    "swara": "mgrs  rm   pm   P ;  || dd pm     ; pd  S ;  ||",
+                    "sahitya": "Pan cha Bhoo - -    taa -- -     - tma-  ka -"
                 },
                 {
-                    "swara": "mgrs rm pm P - || dd pm pd S - S ||",
-                    "sahitya": "Pan cha Bhoo - - taa -- - tma-ka - Pra"
+                    "swara": "mgrs  rm   pm   P ;  || dd pm     pd   S   ;  S ||",
+                    "sahitya": "Pan cha Bhoo - -    taa -- -     tma-ka -  Pra"
                 },
                 {
-                    "swara": "S - r M - R - S || P D S - P dm P ||",
-                    "sahitya": "Pan- - choo - da ya - di Ka ra- na"
+                    "swara": "S , r  M - R  ; S  ||  P D   S - P dm P  ||",
+                    "sahitya": "Pan-  -    choo - da    ya  -     di  Ka    ra-  na"
                 },
                 {
-                    "swara": "mgrs rm Pdp M P || dd pm pd S - S ||",
-                    "sahitya": "Pan cha Bhoo - - taa -- - tma-ka - Pra"
+                    "swara": "mgrs  rm   Pdp  M P   || dd pm     pd   S   ;  S ||",
+                    "sahitya": "Pan cha Bhoo - -    taa -- -     tma-ka -  Pra"
                 },
                 {
-                    "swara": "S - r M - R - S || P D S - P dm p - d ||",
-                    "sahitya": "Pan- - choo - da ya - di Ka ra- na Vi"
+                    "swara": "S , r  M - R  ; S  ||  P D   S - P dm p - d ||",
+                    "sahitya": "Pan-  -    choo - da    ya  -     di  Ka    ra- na Vi"
                 },
                 {
-                    "swara": "S r - g r S s p D p || P d- p - m g r s P m ||",
-                    "sahitya": "rin chi Ha ri Ru dra Nu te na Pancha Vak tra Shiva Sutena"
+                    "swara": "S    r  - g       r  S    s    p  D  p  || P d-   p     , m   g   r   s  P m  ||",
+                    "sahitya": "rin chi Ha    ri Ru dra Nu te na  Pancha Vak  tra Shiva        Sutena"
                 }
             ]
         },
@@ -86,8 +86,32 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "; rm  P ;  dm P  || P ;  M G  R - S  || R ;  S - D  ; S ||",
+                    "sahitya": "Vara  daa bha-ya    Paa shasru ni  Ka   paa la   Dan - ta"
+                },
+                {
+                    "swara": "S , r  mg R  ;    s   p  || mg R  s    r   M        ; P  || ; dm  P ;  P ;  ||",
+                    "sahitya": "Mo-  da- ka  - Mudka    raa-- ksha- Maa    - laa    - Ka-   re -   na"
+                },
+                {
+                    "swara": "; pd  R ;  R  R  || R R  rm -R  ; S  ||",
+                    "sahitya": "Kama   laa -  pu  ra  Vi haa --   re - na"
+                },
+                {
+                    "swara": "R , s  ; pdpd   pmM ;  || rm    P    dm P  ; P  ||",
+                    "sahitya": "Pu-ru - hu- -   taa- - -    dya- khi la- de - va"
+                },
+                {
+                    "swara": "R M  P M  S R  || S ;  D     S  ; S  ||",
+                    "sahitya": "Poo-  ji  tha Vi-   gne- shwa re  - na"
+                },
+                {
+                    "swara": "m  p  d p      m g- R        s D p  || d  r   s  r       d   s - D  g   R s ||",
+                    "sahitya": "Vara guru   guha So     da rena    Suruchira     Lam-  bo    dha re na"
+                },
+                {
+                    "swara": "r   s  D p-    P   m    m  R s  || d  s  r  m        g   r   s - d     P  , m  ||",
+                    "sahitya": "Karunaa nga Kaura  tha re na    Kali Mala     ha  ra na Ta    re   na"
                 }
             ]
         }

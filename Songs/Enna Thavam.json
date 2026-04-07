@@ -12,40 +12,48 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "- - g - m- P mgG - r - N | S - - S | R - sr - ||",
-                    "sahitya": "En na ta vam -shei - da nai - - ya so - da"
+                    "swara": "AVO : S N2 D2 N2 P M1 P G2 R2 S ||",
+                    "sahitya": "Talam: Adi"
                 },
                 {
-                    "swara": "- - g - m- np mgG - r - N | S - - ns | R - sr - ||",
-                    "sahitya": "En na ta vam -shei - da nai - - ya so - da"
+                    "swara": "; , g     , m  P        mgG , -r     ; N   |       S   ;        ;  ns    |  R  ,g              R  ;  ||",
+                    "sahitya": "En      na ta-       vam -  shei - da        nai  -       - ya-     sO- - -            dA -"
                 },
                 {
-                    "swara": "- - g - m- np mgG - r - N | S - - D | nndp mgG R ||",
-                    "sahitya": "En na ta vam -shei - da nai - - ya so - da - --"
+                    "swara": "; , g     , m  np       mgG , -r     ; N   |       S   ;        ;  ns    |  R , g             gsR  ;  ||",
+                    "sahitya": "En      na ta-       vam -  shei - da        nai  -       - ya-     sO- - -            dA -"
                 },
                 {
-                    "swara": "- - r - m - M P - - n N | S - s - pd | nr s - mn - d M ||",
-                    "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
+                    "swara": "; , g     , m  np       mgG , -r     ; N   |       S   ;        ;  D    |  nndp             mggr  ;  ||",
+                    "sahitya": "En      na ta-       vam -  shei - da        nai  -       - ya-     sO- - -            dA -"
                 },
                 {
-                    "swara": "P - p ns - np mgG - r - N | S - - D | nndp mgG sR- ||",
-                    "sahitya": "En -- nata vam -shei - da nai - - ya so - da - --"
+                    "swara": "; , g     , m  np       mgG , -r     ; N   |       S   ;        ;  nd    |  nndp             mggr  R  ||",
+                    "sahitya": "En      na ta-       vam -  shei - da        nai  -       - ya-     sO- - -            dA -   -"
                 },
                 {
-                    "swara": "- - r - m - M P - - n N | S - s - pd | nr s - n - d M ||",
-                    "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
+                    "swara": "; , r    , m-   M         P   ;           , n N  |       S ,  s       ; - pd  |  n rs - mn       ,  d   M         ||",
+                    "sahitya": "En  gum ni          rai  -           para      bhrammam     am   mA\u2014en           razhai"
                 },
                 {
-                    "swara": "P - p ns - np mgG - r - N | S - - rs | grpm nd pm ||",
-                    "sahitya": "En -- nata vam -shei - da nai - - ya so - da - --"
+                    "swara": "P ,      n    s n   P       mgG , -r     ; N   |       S   ;        ;  rs    |  mrpm             ndpm  ||",
+                    "sahitya": "kka  En      na ta-      vam -  shei - da        nai  -       - ya-     sO- - -            dA -   -"
                 },
                 {
-                    "swara": "grs- r - m - P nS - - s R | Srm gr - sn -pd | nr s - n - d M ||",
-                    "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
+                    "swara": "grs- r    , m-   P          N ;            , s R  |     srM gr - sn-pd   |  n rs - mn         ,  d   M         ||",
+                    "sahitya": "En  gum ni          rai  -           para      bhram- mam am     mA\u2014en         razhai"
                 },
                 {
-                    "swara": "P - p ns - np mgG - r - N | G - - - | - - - - ||",
-                    "sahitya": "En -- nata vam -shei - da nai - - - - - - -"
+                    "swara": "P ,      n    s n   P       mgG , -r     ; N   |       S   ;        ;  rs    |  mrpm             ndpm  ||",
+                    "sahitya": "kka  En      na ta-      vam -  shei - da        nai  -       - ya-     sO- - -            dA -   -"
+                },
+                {
+                    "swara": "grs- r    , m-   P          N ;            , s R  |     srM gr - sn-pd   |  n rs - mn         ,  d   M         ||",
+                    "sahitya": "En  gum ni          rai  -           para      bhram- mam am     mA\u2014en         razhai"
+                },
+                {
+                    "swara": "P ,      pn    S- n   P       mgG , -r     ; N   |       G   ;        ;  ;     |  ;  ;              ;  ;   ||",
+                    "sahitya": "kka    En    na ta-        vam -  shei - da          nai  -         -  -      -  -              - -"
                 }
             ]
         },
@@ -53,112 +61,105 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "pnsn - nd - dm n P - gr - R | - r r - m M | P - - - ||",
-                    "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai"
+                    "swara": "pnsn , nd    ; np       pn  pp ,  g     ; R     |  ; r  r       , m M     |    P ;              ;   ;  ||",
+                    "sahitya": "I  - -   rE-    - zu -     bhu-va   nan - gaL    - paDai    ttava         naik"
                 },
                 {
-                    "swara": "pnsn - nd - dm n P - mg R - R | - r r - m M | P - - - ||",
-                    "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai"
+                    "swara": "pnsn , nd    ; np       pn  pp ,  g     ; R     |  ; m  p       , n N     |    S ;              ;   np  ||",
+                    "sahitya": "I  - -   rE-    - zu -     bhu-va   nan - gaL    - paDai    ttava         naik"
                 },
                 {
-                    "swara": "pnsn - nd - dm n P - mg R - R | - m p - n N | S - - - ||",
-                    "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai"
+                    "swara": "pnsn , nd    ; np       pn  pp ,  g     ; R     |  ; m  p       , n N     |    S ;              , s R   ||",
+                    "sahitya": "I  - -   rE-    - zu -     bhu-va   nan - gaL    - paDai    ttava         naik              kaiyil"
                 },
                 {
-                    "swara": "pnsn - nd - dm n P - mg R - R | - m p - n N | S - - s R ||",
-                    "sahitya": "I - - re- - zu- bhuva nan - gal padai ttava nai k-kaiyil"
+                    "swara": "nsR ,   np    ; np       mg  R ,   m     ; P     |  ; m  p       , n N     |    S ;              , s R   ||",
+                    "sahitya": "I  - -   rE-    - zu -     bhu-va   nan - gaL    - paDai     ttava         naik              kaiyil"
                 },
                 {
-                    "swara": "srG- - r - N nR - s - np | nS - n - nm | P - p mp ns ||",
-                    "sahitya": "En- di - shi ra- Tti - pal U- Ti - ta- la-tta tha-ye-"
+                    "swara": "srG , r       ; - snN        n R - s         ; np    |  nS - n     ; nm     |  P , p          mpns    ||",
+                    "sahitya": "En-  di      -   shI-       rAT-  Ti        - pAl     U-   Ti    -  tA-      lA-Tta       tA-yE-"
                 },
                 {
-                    "swara": "rG- rs - n P mgG - r - N | S - - - | - - - s R ||",
-                    "sahitya": "En - nata vam -shei - da nai - - - - - k-kaiyil"
+                    "swara": "rG-    n    s n   P       mgG , -r     ; N   |       S   ;        ;  ;     |   ;   ;              , s R   ||",
+                    "sahitya": "En      na ta-      vam -  shei - da        nai  -       - -         - - -           kaiyil"
                 },
                 {
-                    "swara": "srG- - r - N nR - s - np | nS - n - nm | P - p mp ns ||",
-                    "sahitya": "En- di - shi ra- Tti - pal U- Ti - ta- la-tta tha-ye-"
+                    "swara": "srG , r       ; - snN        n R - s         ; np    |  nS - n     ; nm     |  P , p          mpns    ||",
+                    "sahitya": "En-  di      -   shI-       rAT-  Ti        - pAl     U-   Ti    -  tA-      lA-Tta       tA-yE-"
                 },
                 {
-                    "swara": "r mgG- rs - n P mgG - r - N | S - - - | - - - - ||",
-                    "sahitya": "En - nata vam -shei - da nai - - - - - - -"
+                    "swara": "r mgG -    n    s n   P       mgG , -r     ; N   |   S   ;        ;  ;     |   ;   ;  ;   ;    ||",
+                    "sahitya": "kka  En      na ta-           vam -  shei - da      nai  -       - -          - -               -  -"
+                }
+            ]
+        },
+        {
+            "section": "Charanam",
+            "content": [
+                {
+                    "swara": "; mp      , n  S        R , s         G  R     |    ; p g        , r-  G       |  S  gr           sn  rsS  ||",
+                    "sahitya": "Bhram  manum   in-di         ra num      mana      -dil po        rAmai-       ko-  Lla"
                 },
                 {
-                    "swara": "- mp - n S R - r G R | - sg - r- G | S R N rsS ||",
-                    "sahitya": "Bhram - anum in-di ranum - mana dil po ramai ko la-"
+                    "swara": "; mp      , n  S        G sg        mp-mgG r     |    ; s m        , g  M       |  rm  gr           sn  rsS  ||",
+                    "sahitya": "Bhram  manum   in-di         - -   ra  -num      mana      -dil po         rAmai-         ko-  Lla"
                 },
                 {
-                    "swara": "- mp - n S R - r mggr R | - sg - r- G | S gr N rsS ||",
-                    "sahitya": "Bhram - anum in-di ra- num - mana dil po ramai ko la-"
+                    "swara": "N-nd     , D-n         D   ;       ;   ;        |    ;  ;  ;  ;  |     ;   ;         ;    ;  ||",
+                    "sahitya": "Ura     lil ka       TTi"
                 },
                 {
-                    "swara": "- mp - n S G sgmp - mgG r | - sM - g- M | gm gr N rsS ||",
-                    "sahitya": "Bhram - anum in-di ra-- num - mana dil po ramai ko la-"
+                    "swara": "N-nd     , D-n         D   , n       D nr        |    s S - n  , d M   |     P , - s      , s - nrss  ||",
+                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi kan     na  nai\u2014"
                 },
                 {
-                    "swara": "- dd - d - D D - - - | - - - - | - - - - ||",
-                    "sahitya": "Ura lil ka Tti - - - - - - - - - - -"
+                    "swara": "N-nd     , D-n         D   , n       D nr        |    s S - n  , d M   |     P , -n       , n - nrss  ||",
+                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi kan     na  nai\u2014"
                 },
                 {
-                    "swara": "- dd - d - D D - d - d- nr | s S- n - d M | P - - p S nrss ||",
-                    "sahitya": "Ura lil ka Tti vai -po ttik- - - ken - javai ttai kan na nai"
+                    "swara": "N-nd     , D-n         D   , n       D nr        |    s S - n  , d M   |    P  ;            mpns    ||",
+                    "sahitya": "Ura     lil ka       TTi  vAi    po tti-            -  -   ken      javai        ttAi           tA-yE-"
                 },
                 {
-                    "swara": "D - dd - d - D D - d - d- nr | s S- n - d M | P - - n N nrss ||",
-                    "sahitya": "Ura lil ka Tti vai -po ttik- - - ken - javai ttai kan na nai"
+                    "swara": "r G  - s    ,  n   P        mgG , -r     ; N   |   S   ;        ;  ;     |   ;   ;     ;   ;    ||",
+                    "sahitya": "En      na ta-      vam -  shei - da      nai  -       - -        - -         -  -"
                 },
                 {
-                    "swara": "D - dd - d - D D - d - d- nr | s S- n - d M | P - mp ns ||",
-                    "sahitya": "Ura lil ka Tti vai -po ttik- - - ken - javai ttai ta- ye-"
+                    "swara": "n rs - np   ; np       mggr ;      , r M     |  P ,  n          ;   N     |     S ;                ;  ;  ||",
+                    "sahitya": "sana kA-   di         yar - -       tava       yO- gam     -  shei        du"
                 },
                 {
-                    "swara": "rG- rs - n P mgG - r - N | S - - - | - - - - ||",
-                    "sahitya": "En - nata vam -shei - da nai - - - - - - -"
+                    "swara": "n R - snnp   ,  np       mggr ;      , r M     |  P ,  n          ;   N     |     S , - s           S R  ||",
+                    "sahitya": "sana   kA-      di         yar - -       tava       yO- gam     -  shei        du    va        rundi"
                 },
                 {
-                    "swara": "nrs- np - -np mggr - - r M | P - n - N | S - - - ||",
-                    "sahitya": "sana ka - di- yar- - - tava yo gam - shei du - - -"
+                    "swara": "S r - s       rg- gr        S , - d            N R   | srs - np      ;  np    | mgrs          rmpn      ||",
+                    "sahitya": "sA-   dhi   - - tta        dai  pu           ni  ta   mA-  dE         e-      Li-dil-       pe -ra-"
                 },
                 {
-                    "swara": "n R- snnp - -np mggr - - r M | P - n - N | S - - s S R ||",
-                    "sahitya": "sana ka - - di- yar- - - tava yo gam - shei du va rundi"
+                    "swara": "sr mg  - gs    ,  sn   np        mgG , -r     ; N   |   S   ;        ;  ;     |   ;  , s           S R  ||",
+                    "sahitya": "En      na   ta-      vam -  shei - da      nai  -       - -        -    va        rundi"
                 },
                 {
-                    "swara": "s R -sr G- R S - - d N R | srs - np - np | mg rs rmpn ||",
-                    "sahitya": "sa- dhi - tta dai pu ni ta- ma- de- - e- Li- dil- pe-ra -"
+                    "swara": "S r - s       rg- gr        S , - d            N rs   | grs - np      ;  np    | mgrs          rmpn      ||",
+                    "sahitya": "sA-   dhi   - - tta        dai  pu           ni  ta   mA-  dE         e-      Li-dil-       pe -ra-"
                 },
                 {
-                    "swara": "srg- rs - n P mgG - r - N | S - - - | - - s S R ||",
-                    "sahitya": "--- En - nata vam -shei - da nai - - - - va rundi"
+                    "swara": "sr mg  - gs    ,  sn   np        mgG , -r     ; N   |   S   ;        ;  D    |  nndp           mggr  ;  ||",
+                    "sahitya": "En      na   ta-      vam -  shei - da      nai  -       - ya-     sO- - -         dA -"
                 },
                 {
-                    "swara": "s R -sr G- R S - - d N rs | grs - np - np | mg rs rmpn ||",
-                    "sahitya": "sa- dhi - tta dai pu ni ta- ma- de- - e- Li- dil- pe- ra -"
+                    "swara": "; , g     , m  np       mgG , -r     ; N   |       S   ;        ;  D    |  nndp             mggr  ;  ||",
+                    "sahitya": "En      na ta-       vam -  shei - da        nai  -       - ya-     sO- - -            dA -"
                 },
                 {
-                    "swara": "srg - rs - n P mgG - r - N | S - - D | nndp mgG sR- ||",
-                    "sahitya": "En -- nata vam -shei - da nai - - ya so - da - --"
+                    "swara": "; , r    , m-   M         P   ;           , g R  |      gssn ,  s       ; - pd  |  n rs - n         ,  d   M         ||",
+                    "sahitya": "En  gum ni          rai  -           para       bhram-mam     am   mA\u2014en           razhai"
                 },
                 {
-                    "swara": "- - r - m - M P - - g R | rssn - s - pd | nr s - n - d M ||",
-                    "sahitya": "En gum ni rai para bhram mam am- ma- venr- azhai"
-                },
-                {
-                    "swara": "srg- pn s- n P mgG - r - N | G - - - | - - - - ||",
-                    "sahitya": "-- En - nata vam -shei - da nai - - - - - - -"
-                },
-                {
-                    "swara": "- - g - m- P mgG - r - N | S - - - | - - ns G ||",
-                    "sahitya": "En na ta vam -shei - da nai - - - - - - - -"
-                },
-                {
-                    "swara": "- - g - m- np mgG - r - N | S - - - | - - ns G ||",
-                    "sahitya": "En na ta vam -shei - da nai - - - - - - - -"
-                },
-                {
-                    "swara": "- - s - n- P mgG - r - N | RN - - | S - - - ||",
-                    "sahitya": "En na ta vam -shei - da nai - - - - - - -"
+                    "swara": "P ,      pn    S- n   P       mgG , -r     ; N   |       G   ;        ;  ;     |  ;  ;              ;  ;   ||",
+                    "sahitya": "kka    En    na ta-        vam -  shei - da          nai  -         -  -      -  -              - -"
                 }
             ]
         }

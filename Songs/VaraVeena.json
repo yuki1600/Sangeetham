@@ -9,47 +9,87 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "G G | P - P - | D P || S - S - ||",
-                    "sahitya": "Va ra | vee - na - | Mru du || Pa - ni - ||"
+                    "swara": "G G      | P , P  , | D        P   || S , S ,  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "R S | D D P - | D P || G G R - ||",
-                    "sahitya": "Va na | ru ha Lo - | cha na || Raa - ni - ||"
+                    "swara": "Va        ra       | vee - na       -  | Mru     du   ||        Pa      - ni    -             ||",
+                    "sahitya": "You are the queen (\"raani\") of the omniscient. Your eyes (\"lochana\") are like the lotus petals"
                 },
                 {
-                    "swara": "G P | D S D - | D P || G G R - ||",
-                    "sahitya": "Su ru | chi ra Bam - | bha ra || Ve - ni - ||"
+                    "swara": "R S      | D D P  , | D        P     || G G R ,        ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "G G | D P G - | P G || G R S - ||",
-                    "sahitya": "Su ra | nu tha Kal - | ya - || - - ni - ||"
+                    "swara": "Va     na         |  ru      ha Lo     - | cha             na     || Raa      - ni    -             ||",
+                    "sahitya": "Your curly (\"suruchira\") tresses (\"veni\") resemble the bees (\"bambhara\")."
                 },
                 {
-                    "swara": "G G | G G R G | P G || P - P - ||",
-                    "sahitya": "Ni ru | pa ma Shu bha | Gu na || Lo - la - ||"
+                    "swara": "G P      | D S D   , | D       P     || G G R ,  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "G G | D P D - | D P || S - S - ||",
-                    "sahitya": "Ni ra | thi Ja ya - | Pra da || See - la - ||"
+                    "swara": "Su        ru        | chi ra Bam - | bha           ra     || Ve      - ni    -       ||",
+                    "sahitya": "Devas (\"Sura\") worship (\"nuta\") your auspicious form (\"kalyaani\")."
                 },
                 {
-                    "swara": "D G | R R S S | D S || D D D P ||",
-                    "sahitya": "Va ra | da - Pri ya | Ran ga || naa - ya ki ||"
+                    "swara": "G G      |  D P G      , | P       G     || G R S ,  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "G P | D S D P | D P || G G R S ||",
-                    "sahitya": "Vaa - | nchitha Pha la | Daa - || - - ya ki ||"
+                    "swara": "Su  ra      | nu tha Kal     -    | ya          -           || -       - ni     -      ||",
+                    "sahitya": "You have (\"lola\") unequaled (\"nir-upama\")  virtuous (\"shuba\") qualities (\"guna\")."
                 },
                 {
-                    "swara": "S R | G - G - | G R || P G R - ||",
-                    "sahitya": "Sa ra | si - ja - | sa na || Ja na ni - ||"
+                    "swara": "G G      | G G R  G | P                  G     ||  P , P ,  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S R | S G R S ||",
-                    "sahitya": "Ja ya | ja ya ja ya ||"
+                    "swara": "Ni         ru       | pa ma Shu  bha  | Gu                na     ||  Lo      - la    -        ||",
+                    "sahitya": "You (\"sheela\") give (\"prada\") endless (\"narathi\") victory (\"jaya\")."
+                },
+                {
+                    "swara": "G G      | D P D      , | D                  P     ||   S , S ,  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ni        ra         | thi Ja ya     -     | Pra                da     || See      - la    -        ||",
+                    "sahitya": "You are Ranganaayaki,  the consort (\"priya\")of the Ranganatha (\"varadaa\")."
+                },
+                {
+                    "swara": "D G      | R R S  S | D                  S     ||  D D D P    ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Va       ra         | da - Pri    ya    | Ran                ga     || naa      - ya    ki       ||",
+                    "sahitya": "You grant (\"daayaki\") the boons (\"phala\") desired (\"vaanchita\") by your devotees."
+                },
+                {
+                    "swara": "G P      | D S D  P | D                  P     || G G R S  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Vaa      -         | nchitha Pha  la | Daa                  -     ||  -      - ya    ki        ||",
+                    "sahitya": "O Mother (\"janani\") of Brahma, who is seated on a lotus (\"saraseeja-asana\")!"
+                },
+                {
+                    "swara": "S R      | G , G  , | G                 R     || P G R , ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Sa        ra         | si - ja      -     | sa                 na     || Ja      na ni    -      ||",
+                    "sahitya": "Victory (\"jaya\") to you."
+                },
+                {
+                    "swara": "S R      | S G R  S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ja         ya       | ja ya ja      ya ||",
+                    "sahitya": ""
                 }
             ]
         }

@@ -12,84 +12,84 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "P - M D - p M || D - N S - - ||",
-                    "sahitya": "Paa mara - jana Paa- li ni - -"
+                    "swara": "P ;     M D         , p M  ||  D ;  N S  ; ;  ||",
+                    "sahitya": "Paa    mara        - jana      Paa-  li  ni - -"
                 },
                 {
-                    "swara": "dpP - M- G - - R - || S - d N S - rgm ||",
-                    "sahitya": "Paa hi Bru han naa-- ya ki - - --"
+                    "swara": "dpP ;  M- G  , - R ,  || S , d N S  , rgm  ||",
+                    "sahitya": "Paa hi  Bru     han    naa-- ya ki - - --"
                 },
                 {
-                    "swara": "pdnd pm gr gm P || pdN D - N S - ||",
-                    "sahitya": "Paa ma-ra- ja - na Paa- - li ni-"
+                    "swara": "pdnd pm gr        gm P  ||  pdN D - N   S ;  ||",
+                    "sahitya": "Paa         ma-ra-      ja - na      Paa-  -    li      ni-"
                 },
                 {
-                    "swara": "dpP - M- gm pmgr || S - d N S - rgm ||",
-                    "sahitya": "Paa hi Bru han-- naa-- ya ki - - --"
+                    "swara": "dpP ;  M- gm   pmgr  || S , d N S  , rgm  ||",
+                    "sahitya": "Paa hi  Bru   han--    naa-- ya ki - - --"
                 },
                 {
-                    "swara": "pdnd pm gr gm P || pdN D - N S - ||",
-                    "sahitya": "Paa ma-ra- ja - na Paa- - li ni-"
+                    "swara": "pdnd pm gr        gm P  ||  pdN D - N   S ;  ||",
+                    "sahitya": "Paa         ma-ra-      ja - na      Paa-  -    li      ni-"
                 },
                 {
-                    "swara": "dpP - M- gm pmgr || grss -d N srgm ||",
-                    "sahitya": "Paa hi Bru han-- naa-- -- ya ki- --"
+                    "swara": "dpP ;  M- gm   pmgr  || grss ,d  N  srgm  ||",
+                    "sahitya": "Paa hi  Bru   han--    naa-- --   ya     ki- --"
                 },
                 {
-                    "swara": "pdnd pm gr gm P || pd r snd - - gr - rsS- ||",
-                    "sahitya": "Paa ma-ra- ja - na Paa- - - li ni-"
+                    "swara": "pdnd pm gr        gm P  ||  pd r snd   ; - gr   , rsS;  ||",
+                    "sahitya": "Paa         ma-ra-      ja - na      Paa-  -   -  li      ni-"
                 },
                 {
-                    "swara": "dpP - M- gm pmgr || grss -d N srgm ||",
-                    "sahitya": "Paa hi Bru han-- naa-- -- ya ki- --"
+                    "swara": "dpP ;  M- gm   pmgr  || grss ,d  N  srgm  ||",
+                    "sahitya": "Paa hi  Bru   han--    naa-- --   ya     ki- --"
                 },
                 {
-                    "swara": "pdnd pm gr gm P || pd r snd - - gr - rsS- ||",
-                    "sahitya": "Paa ma-ra- ja - na Paa- - - li ni-"
+                    "swara": "pdnd pm gr        gm P  ||  pd r snd   ; - gr   , rsS;  ||",
+                    "sahitya": "Paa         ma-ra-      ja - na      Paa-  -   -  li      ni-"
                 },
                 {
-                    "swara": "grsn dp- nd pmgm || pmG R - sn srgm ||",
-                    "sahitya": "Paa hi Bru han-- naa-- ya ki- -- - -"
+                    "swara": "grsn  dp- nd   pmgm  || pmG R  - sn  srgm  ||",
+                    "sahitya": "Paa hi  Bru   han--    naa-- ya   ki-  -- - -"
                 },
                 {
-                    "swara": "P - M D - p M || D - N S -n sr ||",
-                    "sahitya": "Paa mara - jana Paa- li ni - -"
+                    "swara": "P ;     M D         , p M  ||  D ;  N S  ,n sr  ||",
+                    "sahitya": "Paa    mara        - jana      Paa-  li  ni - -"
                 },
                 {
-                    "swara": "- s - - - - - || - - - - - - ||",
-                    "sahitya": "- - - - - - - - - - - --"
+                    "swara": ", s ;  ; ;  ; ;   || ; ;  ; ;  ; ;  ||",
+                    "sahitya": "- - -  - -  - -     - -  - -   --"
                 },
                 {
-                    "swara": "G - M P - D || - p M D - N S ||",
-                    "sahitya": "Kaa mithaa -rttha Pha la daa- yini"
+                    "swara": "G ;  M P  ; D  || , p M  D ;  N S ||",
+                    "sahitya": "Kaa mithaa -rttha    Pha la daa-  yini"
                 },
                 {
-                    "swara": "- - - - - - || - - - - - - ||",
-                    "sahitya": "- - - - - - - - - - - -"
+                    "swara": "; ;  ; ;  ; ;  || ; ;  ; ;  ; ;  ||",
+                    "sahitya": "- -  - -  - -     - -  - -  - -"
                 },
                 {
-                    "swara": "G - M P - D || - p M D - N S ||",
-                    "sahitya": "Kaa mithaa -rttha Pha la daa- yini"
+                    "swara": "G ;  M P  ; D  || , p M  D ;  N S ||",
+                    "sahitya": "Kaa mithaa -rttha    Pha la daa-  yini"
                 },
                 {
-                    "swara": "dpmg - M P - D || - p M D - N S ||",
-                    "sahitya": "Kaa - - mithaa -rttha Pha la daa- yini"
+                    "swara": "dpmg ;  M P  ; D  || , p M  D ;  N S ||",
+                    "sahitya": "Kaa - -  mithaa -rttha    Pha la daa-  yini"
                 },
                 {
-                    "swara": "- S - R - gmpm || G R sSd N S ||",
-                    "sahitya": "Kaa run- yaa- -- mruta Vaa-- hini"
+                    "swara": ", S ,  R ;  gmpm ||  G R  sSd N S  ||",
+                    "sahitya": "Kaa run- yaa- --    mruta Vaa-- hini"
                 },
                 {
-                    "swara": "S n d p m g - m P dn || - S - - - s ndpd ||",
-                    "sahitya": "Komala Hrudaya Ni vaa si ni- - - - -"
+                    "swara": "S   n  d  p  m   g - m    P    dn     || , S ,  ; , s ndpd  ||",
+                    "sahitya": "Komala Hrudaya Ni   vaa  si          ni-  - -  - -"
                 },
                 {
-                    "swara": "S n d p m g - m P dn || s n d p m G - r G r s ||",
-                    "sahitya": "Komala Hrudaya Ni vaa sini Guruguha Mati Pra kaashini"
+                    "swara": "S   n  d  p  m   g - m    P    dn     || s   n  d p m G - r G    r  s  ||",
+                    "sahitya": "Komala Hrudaya Ni   vaa  sini     Guruguha  Mati Pra kaashini"
                 },
                 {
-                    "swara": "n s R g r - g m P d n || S n d - P m g r g m ||",
-                    "sahitya": "See- man ti ni Nata Man tri ni Shree Mahaa - deva Ran- ja ni"
+                    "swara": "n    s R     g r - g m    P    d  n        || S        n  d       ,  P m   g    r g m  ||",
+                    "sahitya": "See- man  ti ni Nata Man tri ni  Shree Mahaa  - deva Ran-  ja ni"
                 }
             ]
         }

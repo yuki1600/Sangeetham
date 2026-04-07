@@ -12,28 +12,28 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "D M - G R - || S - sn D - S || S - R G - M ||",
-                    "sahitya": "Hi ran ma yeem Laksh meem sa daa Bha jaa - mi"
+                    "swara": "D  M   ;   G      R ; ||  S ;  sn D  ;  S  || S ;    R  G  ;  M  ||",
+                    "sahitya": "Hi  ran   ma     yeem     Laksh  meem     sa   daa  Bha jaa          -   mi"
                 },
                 {
-                    "swara": "D M - G R - || S - sn D - gr || r s S R G - M ||",
-                    "sahitya": "Hi ran ma yeem Laksh meem sa daa - Bha jaa - mi"
+                    "swara": "D  M   ;   G      R ; ||  S ;  sn D  ;  gr  || r s S  R  G  ; M  ||",
+                    "sahitya": "Hi  ran   ma     yeem     Laksh  meem     sa   daa  -  Bha jaa       -   mi"
                 },
                 {
-                    "swara": "D sn dm gm R - || S - Srs nd - gr || r s S R G - M ||",
-                    "sahitya": "Hi ran - ma yeem Laksh meem sa daa - Bha jaa - mi"
+                    "swara": "D  sn  dm    gm    R ; ||  S ;  Srs nd   ;  gr  || r s S  R  G  ;  M  ||",
+                    "sahitya": "Hi  ran  -    ma     yeem     Laksh  meem     sa   daa  -  Bha jaa       -   mi"
                 },
                 {
-                    "swara": "dn Srs nd gm R - || S - Srs nd - gr || r s S R G - M ||",
-                    "sahitya": "Hi ran - ma yeem Laksh meem sa daa - Bha jaa - mi"
+                    "swara": "dn  Srs nd    gm    R ; ||  S ;  Srs nd   ;  gr  || r s S  R  G  ;  M  ||",
+                    "sahitya": "Hi  ran  -    ma     yeem     Laksh  meem     sa   daa  -  Bha jaa       -   mi"
                 },
                 {
-                    "swara": "gm D M mg R S || sn D D dm D gr || rs S S - r s r g m ||",
-                    "sahitya": "Hee - na Maa - na va - - shra yam - Thya ja - - mi - - - - -"
+                    "swara": "gm D  M  mg  R S ||  sn  D  D    dm  D  gr  || rs S S  , r      s r g m     ||",
+                    "sahitya": "Hee -  na Maa       - na    va  - - shra yam  -  Thya    ja - -    mi  -     - -  -    -"
                 },
                 {
-                    "swara": "d n s n d m - gm g r S || sn D D dm D gr || rs S S - - - ||",
-                    "sahitya": "Hee - na - Maa - - na va - - shra yam - Thya ja - - mi - - - - -"
+                    "swara": "d n s n  d m - gm   g r S ||  sn  D  D    dm  D  gr  || rs S S ;  ; ;          ||",
+                    "sahitya": "Hee -    na -    Maa  - - na    va  - - shra yam  -  Thya    ja - -    mi  -     - -  -    -"
                 }
             ]
         },
@@ -41,28 +41,28 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "- g M m D M -d || M -g M dm - D - ||",
-                    "sahitya": "Chi ra thara Sam pat h pra daam -"
+                    "swara": "; g M    m D   M ,d  ||  M ,g  M dm - D  ;  ||",
+                    "sahitya": "Chi ra      thara     Sam    pat h   pra daam  -"
                 },
                 {
-                    "swara": "D sn nd nd dm M || D N S - - - ||",
-                    "sahitya": "Kshee raam- bu- dhi Tha na yaam"
+                    "swara": "D   sn  nd nd dm M  ||  D N  S ;  ; ;  ||",
+                    "sahitya": "Kshee     raam-     bu- dhi      Tha na yaam"
                 },
                 {
-                    "swara": "- g M m D dn srs n || DM M dm - D - ||",
-                    "sahitya": "Chi ra thara Sam pat h pra daam -"
+                    "swara": "; g M    m D   dn srs n  ||  DM   M dm - D  ;  ||",
+                    "sahitya": "Chi ra      thara     Sam    pat h   pra daam  -"
                 },
                 {
-                    "swara": "D sn nd nd dm M || D N S - - - ||",
-                    "sahitya": "Kshee raam- bu- dhi Tha na yaam"
+                    "swara": "D   sn  nd nd dm M  ||  D N  S ;  ; ;  ||",
+                    "sahitya": "Kshee     raam-     bu- dhi      Tha na yaam"
                 },
                 {
-                    "swara": "s s S S n D d M || m d dm m g r n d n S ||",
-                    "sahitya": "Hari vak sha stha la la yaam Hari neem Charana Kisalayam"
+                    "swara": "s s    S  S    n      D d M  || m d  dm      m g r      n d n  S  ||",
+                    "sahitya": "Hari vak sha stha la    la  yaam    Hari neem Charana Kisalayam"
                 },
                 {
-                    "swara": "s s s r s - n d - n s r S || m g r s r g r s r g M ||",
-                    "sahitya": "Ka ra ka mala drutha ku valayaam Marakatha manimaya valayaam"
+                    "swara": "s    s   s   r   s - n d -    n  s  r  S ||  m  g  r   s    r  g  r  s     r   g   M     ||",
+                    "sahitya": "Ka ra ka mala drutha ku valayaam      Marakatha manimaya valayaam"
                 }
             ]
         },
@@ -70,8 +70,56 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "S R  S  ;  S   ;     ||  S    S       ;   nr  s   D    ;   ||",
+                    "sahitya": "Swe -    tha  Dwee       pa   Vaa       si      neem -"
+                },
+                {
+                    "swara": "N  ;  S R  S ;    ||  R  G        ;     G  M  ;  ||",
+                    "sahitya": "Sree     Kama    laam           bi  kaam    -   Pa   raam"
+                },
+                {
+                    "swara": "S R  S  ;  Srs   S     ||  S    S       ;   nsrs   D    ;   ||",
+                    "sahitya": "Swe -    tha  Dwee       pa   Vaa       si      neem -"
+                },
+                {
+                    "swara": "N  ;  S R   r s S     ||  R  G        ;     G  M  ;  ||",
+                    "sahitya": "Sree     Kama    laam           bi  kaam    -   Pa   raam"
+                },
+                {
+                    "swara": "D  ;  M M  ;  gr   || R   S      ,n  -  S    nsrs R     ||",
+                    "sahitya": "Bhoo tha Bha   - vya     Vi   laa     -     si-    neem"
+                },
+                {
+                    "swara": "s n s n   R  S  sn D ||  N  ,  S n  -  g r     r s S   ||",
+                    "sahitya": "Bhoo   su ra     Poo -      ji        thaam Va    raam"
+                },
+                {
+                    "swara": "S  ;  R  G  M  ;  ||  M - M   ;  dm  D ;  ||",
+                    "sahitya": "Maa tha ram   a    bja  maa     li     neem"
+                },
+                {
+                    "swara": "D sn  n d n d  D M  || D S     N   R r s S  ||",
+                    "sahitya": "Maa-       ni- - -    kyam     bha ra  na  Dha  raam-"
+                },
+                {
+                    "swara": "s n s n   R  - S  ;   S  || S  n  - d M   - D   N ;  ||",
+                    "sahitya": "Gee- - - tha Vaa   dya    Vi -    noo-   dhi-   neem"
+                },
+                {
+                    "swara": "n d n d     D  M   M  ;  ||  m g R      R   r s    S  ;  ||",
+                    "sahitya": "Gi- ri -    jaam -   thaam    In -  -       di  raam -    [Sam geetha ]"
+                },
+                {
+                    "swara": "S     s  - g   r   s  -  n   d     d   n    S   ||   r   s      r    g     M  - d    m  d    n  S ||",
+                    "sahitya": "See tha ki  ra  na   ni bha va da  naam    sri tha chin -    thaa  ma ni  sa da naam"
+                },
+                {
+                    "swara": ",  S    s -  g   r   S        s   n   n  d  || d  m  m d   d m   g m    g   r   S  ||",
+                    "sahitya": "Peetha va  sa naam  gu ru guha    maa- dhula kan- thaam lalithaam"
+                },
+                {
+                    "swara": "d m  D ||",
+                    "sahitya": "lalithaam  [Hiranmayeem]"
                 }
             ]
         }

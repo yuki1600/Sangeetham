@@ -12,32 +12,32 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "1. S - M - M M || G - G M N nd D ||",
-                    "sahitya": "Go var dhana Gi ri - - sham -"
+                    "swara": "1. S ;  M ;  M M  || G - G   M  N   nd  D   ||",
+                    "sahitya": "Go var dhana   Gi     ri -      -   sham   -"
                 },
                 {
-                    "swara": "N S - n S - - || - S N nd D - ||",
-                    "sahitya": "Sma raa mi A ni sham --"
+                    "swara": "N     S  , n  S  ;  ;  ||   ;  S  N  nd  D  ;  ||",
+                    "sahitya": "Sma raa mi          A     ni sham   --"
                 },
                 {
-                    "swara": "2. S - M - M M || G - gm dn sn nd D ||",
-                    "sahitya": "Go var dhana Gi ri - - sham -"
+                    "swara": "2. S ;  M ;  M M  || G - gm  dn sn    nd  D   ||",
+                    "sahitya": "Go var dhana   Gi     ri -       -   sham   -"
                 },
                 {
-                    "swara": "N S - n S - - || - gs sn nd D - ||",
-                    "sahitya": "Sma raa mi A ni sham --"
+                    "swara": "N     S  , n  S  ;  ;  ||   ;  gs   sn  nd  D  ;  ||",
+                    "sahitya": "Sma raa mi          A     ni sham   --"
                 },
                 {
-                    "swara": "3. S - M - M M || G - gm dn sg gs nd D ||",
-                    "sahitya": "Go var dhana Gi ri - - -- sham -"
+                    "swara": "3. S ;  M ;  M M  || G - gm  dn sg gs   nd  D   ||",
+                    "sahitya": "Go var dhana   Gi     ri -       -      -- sham   -"
                 },
                 {
-                    "swara": "- dm dn s g n S - || - - S G sn S ||",
-                    "sahitya": "Sma raa mi A ni sham --"
+                    "swara": ";  dm  dn s g  n S , ||   ;  ;   S G  sn S   ||",
+                    "sahitya": "Sma      raa mi              A  ni  sham   --"
                 },
                 {
-                    "swara": "smg - n - s- d n - - dM || G d m gs- S m g M ||",
-                    "sahitya": "Go-pi kaa di Mano haram Garvitha Kam saa diharam"
+                    "swara": "smg - n   ,  s- d n     ,  - dM ||  G d   m   gs-  S     m g M  ||",
+                    "sahitya": "Go-pi  kaa  di Mano     haram Garvitha Kam saa diharam"
                 }
             ]
         },
@@ -45,7 +45,52 @@
             "section": "Charanam",
             "content": [
                 {
-                    "swara": "",
+                    "swara": "1. dd M  ;  M  N nn  ||  D M  md - G  ; M   ||",
+                    "sahitya": "Go -     vin  -  da    Naa -   ma-   Saa- ram"
+                },
+                {
+                    "swara": "G , m  ;  D  , N ,  || S    S  S N  sgsn  ||",
+                    "sahitya": "Ga jee  ndra    Ra   ksha na Dhi-  ram"
+                },
+                {
+                    "swara": "2. dd M  ;  dn  sg  g s  ||  nd dm ;    md - dd  G M   ||",
+                    "sahitya": "Go -     vin  -  da     Naa -      ma-   Saa-   ram"
+                },
+                {
+                    "swara": "G , m  ;  D  , N ,  || S    S  G S  S , n  ||",
+                    "sahitya": "Ga jee  ndra    Ra   ksha na Dhi-  ram"
+                },
+                {
+                    "swara": "G S  S N  N D  || D M  D ;  N ;  ||",
+                    "sahitya": "Kavi jana  Hrn   Man daa - ram"
+                },
+                {
+                    "swara": "S N  S G  S - S  || S - mg  mg S  ; ;  ||",
+                    "sahitya": "Kana kaji ta Su  sa    ree-  --  ram   - -"
+                }
+            ]
+        },
+        {
+            "section": "Madhyamakala Sahityam",
+            "content": [
+                {
+                    "swara": "g   s  n  s  n   d  n - g  N   S   ||  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "Ravisashi Nayana Vi laa sam"
+                },
+                {
+                    "swara": "g   s  n  s  n   d  n - g  N   S   ||  d   n D     m - d G      M   M  ||",
+                    "sahitya": "Ravisashi Nayana Vi laa sam  Ramanee  ya Mukhaa bhaasam"
+                },
+                {
+                    "swara": "m g m - g   s - n  G    N   S    ||  S   s n  n d  - m  D   m g  s ||",
+                    "sahitya": "Sivagaa naa -   di Vis vaa sam   Sri Guruguha Manollaasam"
+                },
+                {
+                    "swara": "G , g  m g M -  ,  s g s  ||  n S  -  n    d n  S    ,  - mg  m ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "gm d- m  d n- dn   s - M g || s n S   nd m - m    , g s  n   ||",
                     "sahitya": ""
                 }
             ]

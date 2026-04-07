@@ -12,28 +12,28 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "M - mg R - S G M P- | D ds nn- D P - - - ||",
-                    "sahitya": "Ga jaa -- - na na yu tham Ga- ne -- shwa ram - - -"
+                    "swara": "M - mg  R - S G M  P;  | D   ds  nn-  D        P ;  ; ;  ||",
+                    "sahitya": "Ga  jaa -- -    na    na yu     tham   Ga-  ne     -- shwa   ram -   - -"
                 },
                 {
-                    "swara": "M - mg R - S G M P- | D pdns- nd P - nddp ||",
-                    "sahitya": "Ga jaa -- - na na yu tham Ga- ne - shwa ram - - -"
+                    "swara": "M - mg  R - S G M  P;  | D     pdns-  nd       P ;  nddp  ||",
+                    "sahitya": "Ga  jaa -- -    na    na yu     tham   Ga-    ne   - shwa   ram -   - -"
                 },
                 {
-                    "swara": "mpd - pmgr - - S G M P - | D ds nn- D P - nddp ||",
-                    "sahitya": "Ga -- jaa -- - na na yu tham Ga- ne - shwa ram - - -"
+                    "swara": "mpd - pmgr  , - S  G M     P ;  | D     ds  nn-  D        P ;  nddp  ||",
+                    "sahitya": "Ga --  jaa -- -     na  na yu     tham   Ga-    ne   - shwa   ram -   - -"
                 },
                 {
-                    "swara": "P dn S S ssnd P - | pm D P pm mgr - m g r sr ||",
-                    "sahitya": "Bha jaa - mi Sa-tha- tham Su - re - shwa ram- - - - - - - -"
+                    "swara": "P    dn  S S  ssnd  P ;  | pm D  P pm  mgr - m   g r sr  ||",
+                    "sahitya": "Bha jaa   - mi  Sa-tha-   tham  Su - re   - shwa   ram- -  - - - - - -"
                 },
                 {
-                    "swara": "P dn S S ssnd P - | D - p - pm mgr - m g r sr ||",
-                    "sahitya": "Bha jaa - mi Sa-tha- tham Su - re - shwa ram- - - - - - - -"
+                    "swara": "P    dn  S S  ssnd  P ;  | D , p  ;  pm  mgr - m   g r sr  ||",
+                    "sahitya": "Bha jaa   - mi  Sa-tha-   tham  Su - re   - shwa   ram- -  - - - - - -"
                 },
                 {
-                    "swara": "P dn sr S ssnd nddp | nd P - pm mgr - m g r sr ||",
-                    "sahitya": "Bha jaa - mi Sa-tha- tham Su - re - shwa ram- - - - - - - -"
+                    "swara": "P    dn  sr S  ssnd  nddp  | nd P  ;  pm  mgr - m   g r sr  ||",
+                    "sahitya": "Bha jaa   - mi  Sa-tha-   tham  Su - re   - shwa   ram- -  - - - - - -"
                 }
             ]
         },
@@ -41,24 +41,29 @@
             "section": "Anupallavi",
             "content": [
                 {
-                    "swara": "P - d - N S - rs R | - S - ss nd - dn S - ||",
-                    "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
+                    "swara": "P , d  ; N  S ;  rs R  | ; S  ; ss nd - dn      S ;  ||",
+                    "sahitya": "A  jen - dra  Poo-  ji- tha   - Vig - ne-  - -    shwa-  ram-"
                 },
                 {
-                    "swara": "P - d - N S - rs R | - S -r- gm gg - R S - ||",
-                    "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
+                    "swara": "P , d  ; N  S ;  rs R  | ; S  ,r- gm gg - R      S ;  ||",
+                    "sahitya": "A  jen - dra  Poo-  ji- tha   - Vig - ne-  - -    shwa-  ram-"
                 },
                 {
-                    "swara": "S - s nd - N nsrs rs R | - S -r- gm gg - R S - ||",
-                    "sahitya": "A jen - dra Poo- ji- tha - Vig - ne- - - shwa- ram-"
+                    "swara": "S , s  nd-N  nsrs  rs R  | ; S  ,r- gm gg - R      S ;  ||",
+                    "sahitya": "A  jen -  dra  Poo-  ji- tha   - Vig - ne-  - -    shwa-  ram-"
                 },
                 {
-                    "swara": "R - s - S rsnd P M | N D P - mgmp mg R ||",
-                    "sahitya": "Ga naa - di San-- nu tha Pa da Pad ma-ka- ram---"
-                },
+                    "swara": "R , s  ; S  rsnd  P M  | N   D  P ;  mgmp mg R ||",
+                    "sahitya": "Ga naa - di  San-- nu tha   Pa   da  Pad ma-ka-    ram---"
+                }
+            ]
+        },
+        {
+            "section": "Madhyamakala Sahityam",
+            "content": [
                 {
-                    "swara": "m m g r s s r s s s r r gm P | s s r s - r - pm r s n d pp mm ||",
-                    "sahitya": "Kuhn-jara bhan jana Chatu rata rakaram Guruguhaa- grajam- Pranavaa- kaa-ram-"
+                    "swara": "m  m   g r   s s    r s       s  s   r r   gm P |   s    s r  s     , r - pm     r    s  n d  pp mm ||",
+                    "sahitya": "Kuhn-jara  bhan jana  Chatu rata rakaram    Guruguhaa- grajam-  Pranavaa- kaa-ram-"
                 }
             ]
         }

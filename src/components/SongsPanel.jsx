@@ -237,15 +237,23 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                         <h4 className="text-base font-bold text-[var(--text-primary)] truncate group-hover:text-emerald-400 transition-colors">
                             {song.title}
                         </h4>
-                        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1">
-                            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10">
-                                <span className="opacity-40 uppercase tracking-wider font-black text-[10px]">Raga</span>
-                                <span className="text-[13px] font-bold text-[var(--text-secondary)]">{song.raga || 'Other'}</span>
+                        <div className="flex flex-col gap-1.5 mt-2">
+                            <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+                                <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
+                                    <span className="opacity-40 uppercase tracking-[0.1em] font-black text-[9px]">Raga</span>
+                                    <span className="text-[12px] font-bold text-emerald-400">{song.raga || 'Other'}</span>
+                                </div>
+                                <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
+                                    <span className="opacity-40 uppercase tracking-[0.1em] font-black text-[9px]">Tala</span>
+                                    <span className="text-[12px] font-bold text-teal-400">{song.tala || 'Other'}</span>
+                                </div>
                             </div>
-                            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10">
-                                <span className="opacity-40 uppercase tracking-wider font-black text-[10px]">Tala</span>
-                                <span className="text-[13px] font-bold text-[var(--text-secondary)]">{song.tala || 'Other'}</span>
-                            </div>
+                            {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
+                                <div className="flex items-center gap-1.5 px-2.5 py-0.5">
+                                    <span className="opacity-40 uppercase tracking-[0.1em] font-black text-[9px]">By</span>
+                                    <span className="text-[12px] font-bold text-amber-400/80">{song.composer}</span>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

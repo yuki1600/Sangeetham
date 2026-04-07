@@ -12,36 +12,68 @@
             "section": "Pallavi",
             "content": [
                 {
-                    "swara": "D P | M G R S || R M | P D M P ||",
-                    "sahitya": "Kun da | Gou - - ra || Gou - | Ri - va ra ||"
+                    "swara": "D P | M  G R S || R M | P D  M P ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D R | R S D P || D P | M G R S ||",
-                    "sahitya": "Man di | - ra - ya || ma - | na ma ku ta ||"
+                    "swara": "Kun da | Gou - - ra || Gou - | Ri - va ra ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S - | R - R - || D P | M G R S ||",
-                    "sahitya": "Man - | da - ra - || ku su | ma - ka ra ||"
+                    "swara": "D R | R  S  D P || D P | M G R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S R | M - G R || S R | G R S - ||",
-                    "sahitya": "Ma ka | ran - dam - || va - | si thu va - ||"
+                    "swara": "Man di | -  ra - ya || ma - | na ma ku ta ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D P | M G R S || R M | P D M P ||",
-                    "sahitya": "He ma | ku - - ta || sim - | ha - sa na ||"
+                    "swara": "S - | R  - R - || D P | M G R S ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D R | R S D P || D P | M G R S ||",
-                    "sahitya": "Vi ru | pa ra - ksha || ka ru | na - ka ra ||"
+                    "swara": "Man - | da - ra - || ku su | ma - ka ra ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D P | M G R S || R M | P D M P ||",
-                    "sahitya": "Chan da | ma - - ma || man - | da - gi ni ||"
+                    "swara": "S R | M  - G R || S R | G R S - ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "D R | R S D P || D P | M G R S ||",
-                    "sahitya": "Man - | di ra - ya || ma - | na ma ku ta ||"
+                    "swara": "Ma ka | ran - dam - || va - | si thu va - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "D P | M  G R S || R M | P D  M P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "He ma | ku - - ta || sim - | ha - sa na||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "D R | R  S D P || D P | M G R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Vi ru | pa ra - ksha|| ka ru | na - ka ra ||",
+                    "sahitya": "(Man)"
+                },
+                {
+                    "swara": "D P | M  G R S || R M | P D  M P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Chan da | ma - - ma || man - | da - gi ni ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "D R | R  S  D P || D P | M G R S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Man - | di  ra - ya || ma - | na ma ku ta ||",
+                    "sahitya": "( M a n )"
                 }
             ]
         }

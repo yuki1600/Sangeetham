@@ -2,104 +2,170 @@
     "song_details": {
         "name": "Salakalla",
         "raga": "Arabhi",
-        "arohanam": "S R₂ M₁ P D₂ Ṡ ||",
-        "avarohanam": "Ṡ N₃ D₂ P M₁ G₃ R₂ S ||",
+        "arohanam": "S R\u2082 M\u2081 P D\u2082 \u1e60 ||",
+        "avarohanam": "\u1e60 N\u2083 D\u2082 P M\u2081 G\u2083 R\u2082 S ||",
         "tala": "Adi",
         "composer": "Tyagaraja"
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "P - - mg R - mg R - R | S - - sn D - S - rm ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+                    "swara": "P ;  ; mg  R - mg      R - R   |  S ;  ;  sn  D - S  ;  rm  ||",
+                    "sahitya": "Chaa - la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
                 },
                 {
-                    "swara": "P rm P- mg rr - mg R - R | S - - sn D - S - rm ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+                    "swara": "P rm P- mg  rr - mg      R - R   |  S ;  ;  sn  D - S  ;  rm  ||",
+                    "sahitya": "Chaa -   la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
                 },
                 {
-                    "swara": "rm pd - p mg R - mg R - R | rsS - - sn D - S - R ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+                    "swara": "rm pd  , p   mg  R - mg      R - R   |  rsS  ;  ;  sn  D - S  ;   R  ||",
+                    "sahitya": "Chaa -   la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
                 },
                 {
-                    "swara": "rm pd sn d d pp - mg R - R | rsS - - sn D - S - R ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+                    "swara": "rm pd  sn d d pp - mg     R - R   |  rsS  ;  ;  sn  D - S  ;  R  ||",
+                    "sahitya": "Chaa -   la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
                 },
                 {
-                    "swara": "rm pd sn d d pp - mp mg r r | sr ss - sn D - S - R ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+                    "swara": "rm pd  sn d d pp - mp    mg   r r   |  sr ss  ;  sn  D - S  ;  R  ||",
+                    "sahitya": "Chaa -   la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
                 },
                 {
-                    "swara": "rr mm pp dd ss - r r mg R | r sn d dp -pmM - g - rm rm P ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - - du- - - - Kon - na-"
+                    "swara": "rr mm   pp dd  ss  - r r   mg     R    |  r sn d    dp -pmM      , g - rm rm P  ||",
+                    "sahitya": "Chaa -   la -  -      Kal-      -     la     laa -   -     du-      -    - -   Kon -  na-"
                 },
                 {
-                    "swara": "D P - pmM - g- rs R R | ddpm g r - s s - s - rm rm pd ||",
-                    "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - - - - - - -"
+                    "swara": "D P  ; pmM , g- rs  R R  |  ddpm     g r - s s , s - rm     rm pd ||",
+                    "sahitya": "Sau-  - khya      - me-  -   mi  - raa! - -  -  - -  - -  - -   - -  - - - - -"
                 },
                 {
-                    "swara": "P - - pmG R - mg R - R | S - - sn D - S - rm ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
+                    "swara": "P ;  ; pmG  R - mg      R - R   |  S ;  ;  sn  D - S  ;  rm  ||",
+                    "sahitya": "Chaa - la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
                 },
                 {
-                    "swara": "S R - pmM - g- rs R R | S - - - - - - - ||",
-                    "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "D - - D P - pd d d p m | P - D P D S S S S ||",
-                    "sahitya": "Kaa- - la - mu - Po- - - nu Maa- ta Ni lu chu nu"
+                    "swara": "S R  ; pmM , g- rs  R R  |  S ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "Sau-  - khya      - me-  -   mi  - raa! - -  -  - -  - -  - -   - -"
                 },
                 {
-                    "swara": "dp mp dp - pd sd - pd d d p m | P - D P D S S S S ||",
-                    "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- ta Ni lu chu nu"
+                    "swara": "D ;  ; D P - pd  d d p m  | P - D  P  D   S S  S  S   ||",
+                    "sahitya": "Kaa-  - la -    mu - Po- - -      nu  Maa-   ta  Ni lu     chu nu"
                 },
                 {
-                    "swara": "dp mp dp - R mg - R R d d | pd- dd pm pd sd sd S S ||",
-                    "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- - - ta Ni lu chu nu"
+                    "swara": "dp mp  dp - pd  sd - pd  d d p m  | P - D  P  D   S S  S  S   ||",
+                    "sahitya": "Kaa-  - -    la-   - -  mu   Po- - -      nu  Maa-   ta  Ni lu     chu nu"
                 },
                 {
-                    "swara": "rsnd - - - pmgr - R rsS - | S - ss rr mm pp dd ss rr ||",
-                    "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- - - ta Ni lu chu nu"
+                    "swara": "dp mp  dp - R mg - R   R  d d | pd- dd  pm  pd   sd  sd   S  S   ||",
+                    "sahitya": "Kaa-  - -    la-   - -  mu   Po- - -      nu  Maa- - -  ta  Ni lu     chu nu"
                 },
                 {
-                    "swara": "mg rr ss- dd pp mg rr ss | S - ss rr mm pp dd ss rr ||",
-                    "sahitya": "Kaa- - - la- - - mu Po- - - nu Maa- - - ta Ni lu chu nu"
+                    "swara": "rsnd  ;  ;  -  pmgr   ;  R rsS  ;  | S - ss    rr    mm  pp dd  ss  rr   ||",
+                    "sahitya": "Kaa-  - -    la-   - -  mu   Po- - -      nu  Maa- - -  ta  Ni   lu  chu nu"
                 },
                 {
-                    "swara": "s R - r s s - ds D - P mg R - m | mp - - - - - - - ||",
-                    "sahitya": "Kal- - - - yaa- - na raa- - - - ma! - - - - - - -"
+                    "swara": "mg rr ss-   dd  pp mg   rr   ss | S - ss    rr    mm  pp dd  ss  rr   ||",
+                    "sahitya": "Kaa-  - -    la-   - -  mu   Po- - -      nu  Maa- - -  ta  Ni   lu  chu nu"
                 },
                 {
-                    "swara": "s R - r s s - ds D - P mg R | rm P - - mpD mpdr ||",
-                    "sahitya": "Kal- - - - yaa- - na raa- - - - ma! - - - Naa-- to - - -"
+                    "swara": "s R - r s s - ds D - P  mg R , m | mp ;  ;  ;  ; ;  ; ;   ||",
+                    "sahitya": "Kal- -    -  -    yaa-  -   na    raa- -  - -   ma! -   -  -  - -  - -"
                 },
                 {
-                    "swara": "S - d dp - pp m- m g r r - sr d | S - s r mp d p - rm p d - m p d ||",
-                    "sahitya": "Sahityam: cala kallalu-adukonna saukhyamu-emira"
+                    "swara": "s R - r s s - ds D - P  mg R  | rm P  ;  ;  mpD  mpdr ||",
+                    "sahitya": "Kal- -    -  -    yaa-  -   na    raa- -  - -   ma! -   -  -  Naa-- to - - -"
                 },
                 {
-                    "swara": "P - - pmG R - mg R - R | S - - sn D - S - rm ||",
-                    "sahitya": "Chaa - la - - Kal- - la laa - du- - Kon - na-"
-                },
-                {
-                    "swara": "S R - pmM - g- rs R R | S - - - - - - - ||",
-                    "sahitya": "Sau- - khya - me- - mi - raa! - - - - - - - - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
-                {
-                    "swara": "",
+                    "swara": "S , d  dp - pp     m- m g r      r -  sr d | S  , s        r mp d     p - rm p       d - m p d  ||",
                     "sahitya": ""
+                },
+                {
+                    "swara": "srmg  r- sr  s  n    dd - p     d  s s r  | d s - p d     s - r m  p          d  - s r - d      s s  r m   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "P ;  ; pmG  R - mg      R - R   |  S ;  ;  sn  D - S  ;  rm  ||",
+                    "sahitya": "Chaa - la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
+                },
+                {
+                    "swara": "S R  ; pmM , g- rs  R R  |  S ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "Sau-  - khya      - me-  -   mi  - raa! - -  -  - -  - -  - -   - -"
+                },
+                {
+                    "swara": "P ;  P - P  ; ;  mpdn DP | ; dnD   P ;  pmM ,g    rs rm ||",
+                    "sahitya": "Tal li   Tan - -  dri- - - - -   - Ne-   - -  nun -  -     da - - -"
+                },
+                {
+                    "swara": "D P   P - P  ; ;  mp d r  | sn - dr     ,  r s n     d p m g  r s rm  ||",
+                    "sahitya": "Tal li   Tan - -  dri- - - - -   - Ne-        - -     nun -  -  da - - -"
+                },
+                {
+                    "swara": "D P   P - P  ; ;  mp d s  | r  d  s - p      d s - m p  d - m p  m   g r  r m    ||",
+                    "sahitya": "Tal li   Tan - -  dri- - - - -   -  -    Ne    - -     nun -  -  -     - - - -    da - - -"
+                },
+                {
+                    "swara": "P ;  ; mg  R R  s r    p m  | g r - R  S - sn  D S R ;  ||",
+                    "sahitya": "Ta-  - kki-   -  na  Bha- ya-    - -     me la    raa   -   ya ni"
+                },
+                {
+                    "swara": "rm rm  P - mp     D - mp   dr s s  |  D ;  P - mpdp   mg R  ; S  ||",
+                    "sahitya": "Pa lu- -    maa-  -   -   ru-  -  - -  -     Che -  -    ya -  - -  no - - -  -  -"
+                },
+                {
+                    "swara": "sn D  ;  sd  R R  rmpd  | ppmg  R ;  S ;  S ;  ||",
+                    "sahitya": "Baa- -  - sa-  -  lu  Che- -    - - - -  - - -  - -  si"
+                },
+                {
+                    "swara": "D D  D ;  P ;  ; ;  |  ; ;  ; ;  ; ;   pm pm ||",
+                    "sahitya": "I  la lo -  - -  - -     - -  - -  - -  - -   - -"
+                },
+                {
+                    "swara": "p d S   D ;  P ;  ; pm  |  pdsd  P ;  ppmg   rs rm    ||",
+                    "sahitya": "I  la-  lo -  - -   - Sa-     ri- - -  vaa-  ra- la -  lo- - -"
+                },
+                {
+                    "swara": "pd rsS   D ;  P ;  ; pm  |  pdsd  pdpp mpmg rs rm    ||",
+                    "sahitya": "I  la-  lo -  - -   - Sa-     ri- - -  vaa-  ra- la -  lo- - -"
+                },
+                {
+                    "swara": "pd rsS   D ;  P ;  ; pd  |  sr sn  dd pp   mpmg rs rm    ||",
+                    "sahitya": "I  la-  lo -  - -           - Sa-     ri- vaa-  - - -  ra- la -  lo- - -"
+                },
+                {
+                    "swara": "pmgr ;  ; R  ; R  rm P  | P  mp  D ;   mp dr  S ;  ||",
+                    "sahitya": "En- - -    - En - to  Bro-   chi chu-  -  -  nti - - -  Pe"
+                },
+                {
+                    "swara": "sn    D  R  S  R S  srm g | R S  ;  ;  snD D R  ||",
+                    "sahitya": "dda- la    to -  -  -  Ba-l- -   ka che -   -  se- -  -    ti"
+                },
+                {
+                    "swara": "S ;  ; ;  ; ;  ; ;  | ; ;  ; ;  ; ;  S ;  ||",
+                    "sahitya": "vi - -  - -  - -  - -  - -  - -  Ped"
+                },
+                {
+                    "swara": "sn    D  R  S  R S  srm g | R S  ;  ;  snD D R  ||",
+                    "sahitya": "dda- la    to -  -  -  Ba-l- -   ka che -   -  se- -        -   ti"
+                },
+                {
+                    "swara": "s R - r s s - ds D - P  mp mm  | , g - rm  P ;  mpD  mpdr ||",
+                    "sahitya": "Tyaa-  - - - -   -  - - -    ga-  raa  - -    - -    ja-  -  -  vi- -  nu - - ta"
+                },
+                {
+                    "swara": "S , d  dp - pp     m- m g r      r -  sr d | S  , s        r mp d     p - rm p       d - m p d  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "srmg  r- sr  s  n    dd - p     d  s s r  | d s - p d     s - r m  p          d  - s r - d      s s  r m   ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "P ;  dp pmG  R - mg      R - R   |  S ;  ;  sn  D - S  ;  rm  ||",
+                    "sahitya": "Chaa - - la -  -     Kal-      -     la      laa -   du-      -    Kon -  na-"
+                },
+                {
+                    "swara": "S R  ; pmM , g- rs  R R  |  S ;  ; ;  ; ;  ; ;  ||",
+                    "sahitya": "Sau-  - khya      - me-  -   mi  - raa! - -  -  - -  - -  - -   - -"
                 }
             ]
         }

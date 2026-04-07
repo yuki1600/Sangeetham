@@ -9,81 +9,111 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "1. GMGR GM P - - - P - || D - P - dn - dpP - -m D P D N ||",
-                    "sahitya": "Ra - - - ma- naa- - - tham - - Bha - - je- - - - ham - - -"
+                    "swara": "1. GMGR       GM P ;  ; ; P ; ||  D ; P ;      dn - dpP   ; ,m  D P D N  ||",
+                    "sahitya": "Ra - - -       ma- naa-  - - tham     - - Bha       - -    je- -  - -   ham -  - -"
                 },
                 {
-                    "swara": "S - N D P - m - G M G R G - || G- m pm - mg - gr - rs S - - ||",
-                    "sahitya": "Ra- - - ma - - chan- - - dra Poo - - - - ji - - tham - - - - - - -"
+                    "swara": "S ;  N D       P , m - G M  G R G ;  || G, m pm ;  mg ; gr ;  rs S ; ;  ||",
+                    "sahitya": "Ra-  -  -       ma - -  chan-  -  -   dra    Poo - - - -  ji - - tham - -  - - - - -"
                 },
                 {
-                    "swara": "2. gdpm gmgr G M pmnd dpP- P D || - - d N r s n- dpP - -m D P D N ||",
-                    "sahitya": "Ra - - - - - - ma- naa- -- - - - tham - - Bha - - je- - - - ham - - -"
+                    "swara": "2. gdpm gmgr  G M pmnd   dpP- P D || ; ; d N r   s n- dpP   ; ,m  D P D N  ||",
+                    "sahitya": "Ra - - -  - - -  ma-  naa- --  - - - tham  - - Bha    - -    je- -  - -   ham -  - -"
                 },
                 {
-                    "swara": "srgr sn -dn S -N - dsnd pm gr G - || gmpd nsrg rs nd - rs nd pm - gm g r s r ||",
-                    "sahitya": "Ra- - - - ma chan- - - - - dra- Poo - - - - - - - - ji - - - - tham - - - -"
+                    "swara": "srgr sn -dn    S -N - dsnd  pm gr G ; || gmpd nsrg  rs nd - rs nd  pm - gm g r s r  ||",
+                    "sahitya": "Ra-  -  -         - ma  chan-  - - - -  dra-  Poo - - - -  - - - -   ji - -  - -      tham - - - -"
                 },
                 {
-                    "swara": "3. GMGR GM - - gm dn sn nd D || - - - - - dn D P - - - - ||",
-                    "sahitya": "Ra - - - ma- - naa- - - - - - - - - - - - - tham- - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Anupallavi",
-            "content": [
-                {
-                    "swara": "1. G M G R G M P - - P dn dpM || - D D N S D N - S - - - ||",
-                    "sahitya": "Kaa - - - mi - tha- - Pha- la- - Pra da- De- - - vam - -"
+                    "swara": "3. GMGR       GM - ; gm  dn sn nd D  ||  ; ; ; ;  ; dn D P       ; ; ; ;   ||",
+                    "sahitya": "Ra - - -       ma-      - naa- - - - - - - -     - - - -  - tham-       - - - -"
                 },
                 {
-                    "swara": "SN G R S - snsn Srg rs S || ns rs - sn D pd - nsrs - R - - ||",
-                    "sahitya": "Ko- - - ti - Teer- - - tha - Pra- - - bhaa - - - - vam- - - - -"
+                    "swara": "1. G M G R          G M P ;     ; P  dn dpM  || ; D D N  S D N ;   S ; ; ;  ||",
+                    "sahitya": "Kaa - - -           mi  - tha-    - Pha- la- -       Pra da-    De- -  - vam - -"
                 },
                 {
-                    "swara": "2. dsnd pmgr G M P - - ds n - sn d || pm- D - N n snD N - S - - - ||",
-                    "sahitya": "Kaa - - - mi - tha- - Pha-- la- - - - Pra da- De- - - vam - -"
+                    "swara": "SN G R          S ;   snsn  Srg  rs S    || ns rs  ;  sn  D pd - nsrs ; R ; ;  ||",
+                    "sahitya": "Ko-  - -          ti -  Teer-   - -    tha -     Pra- - - bhaa - -  - -  vam-  - - - -"
                 },
                 {
-                    "swara": "SN G R S - snsn Srg rs S || ns rs - sn D pd - nsrs R - - - ||",
-                    "sahitya": "Ko- - - ti - Teer- - - tha - Pra- - - bhaa - - - - vam- - - - -"
+                    "swara": "2. dsnd pmgr       G M P ;     ; ds  n - sn d || pm- D , N n    snD N ;   S ; ; ;  ||",
+                    "sahitya": "Kaa - - -           mi  - tha-    - Pha--  la- -    - -    Pra da-    De- -  - vam - -"
                 },
                 {
-                    "swara": "S S - N G R S N D N S - || S S sn dn dp P P - G M P D N ||",
-                    "sahitya": "Kumaara Guruguha Mahitham Kapi Brun- daa di San - nu tham-"
+                    "swara": "SN G R          S ;   snsn  Srg  rs S    || ns rs  ;  sn  D pd - nsrs R ; ; ;  ||",
+                    "sahitya": "Ko-  - -          ti -  Teer-   - -    tha -     Pra- - - bhaa - -  - -  vam-  - - - -"
                 },
                 {
-                    "swara": "R S - N - g R S N - d N S - || S S sn dn dp P P - G M P D N ||",
-                    "sahitya": "Kumaara Guruguha Mahitham Kapi Brun- daa di San - nu tham-"
+                    "swara": "S   S ; N     G R S N     D N S ;  || S S   sn dn dp P  P - G      M P D N  ||",
+                    "sahitya": "Kumaara   Guruguha   Mahitham  Kapi Brun- daa    di  San    -  nu tham-"
                 },
                 {
-                    "swara": "R S - N - g R S N - d N S - || S S sn dn dp P P - G - M pm R ||",
-                    "sahitya": "Kumaara Guruguha Mahitham Kapi Brun- daa di San - nu tham-"
+                    "swara": "R   S ; N     , g R S N     , d  N S ;  || S S   sn dn dp P  P - G      M P D N ||",
+                    "sahitya": "Kumaara    Guruguha    Mahitham  Kapi Brun- daa    di  San    -  nu tham-"
                 },
                 {
-                    "swara": "gdpm gmgr G M pmnd dpP- P D || - - d N r s n- dpP - -m D P D N ||",
-                    "sahitya": "Ra - - - - - - ma- naa- -- - - - tham - - Bha - - je- - - - ham - - -"
+                    "swara": "R   S ; N     , g R S N     , d  N S ;  || S S   sn dn dp P  P - G      ; M pm R    ||",
+                    "sahitya": "Kumaara    Guruguha    Mahitham  Kapi Brun- daa    di  San    -  nu tham-"
                 },
                 {
-                    "swara": "srgr sn -dn S -N - dsnd pm gr G - || gmpd nsrg rs nd - rs nd pm - gm g r s r ||",
-                    "sahitya": "Ra- - - - ma chan- - - - - dra- Poo - - - - - - - - ji - - - - tham - - - -"
+                    "swara": "gdpm gmgr  G M pmnd   dpP- P D || ; ; d N r   s n- dpP   ; ,m  D P D N  ||",
+                    "sahitya": "Ra - - -  - - -  ma-  naa- --  - - - tham  - - Bha    - -    je- -  - -   ham -  - -"
                 },
                 {
-                    "swara": "GMGR GM - - gm dn sn nd D || - - - - - dn D P - - - - ||",
-                    "sahitya": "Ra - - - ma- - naa- - - - - - - - - - - - - tham- - - - -"
-                }
-            ]
-        },
-        {
-            "section": "Charanam",
-            "content": [
+                    "swara": "srgr sn -dn    S -N - dsnd  pm gr G ; || gmpd nsrg  rs nd - rs nd  pm - gm g r s r  ||",
+                    "sahitya": "Ra-  -  -         - ma  chan-  - - - -  dra-  Poo - - - -  - - - -   ji - -  - -      tham - - - -"
+                },
                 {
-                    "swara": "",
-                    "sahitya": ""
+                    "swara": "GMGR       GM - ; gm  dn sn nd D  ||  ; ; ; ;  ; dn D P       ; ; ; ;   ||",
+                    "sahitya": "Ra - - -       ma-      - naa- - - - - - - -     - - - -  - tham-       - - - -"
+                },
+                {
+                    "swara": "S ; ; ;  D ;  dp P  ; ;  P M  ||  dpmg ; ; ;  D ; P ;  ; ; D ;   ||",
+                    "sahitya": "Se- - -  thu  ma- -  - - dhya-   Gan- - - - -  dha maa - - da- -"
+                },
+                {
+                    "swara": "P ; dpM ;    ; ; D ;  P ; ;  N   || S D N ;   S ; ; ;  ; ; ; ;  ||",
+                    "sahitya": "na Par- - -    - - va -  ta -- Vi     haa- - -  -  ram - - - - - - -"
+                },
+                {
+                    "swara": "S ; D ;      ; ; P ;   ; ; D M    || pmG  G R  S R -  S R    G ;  M ; ||",
+                    "sahitya": "Sa daa        - - Par - -   - - va- - -    ta- -  Va -  ra -   ddha-   na - - -"
+                },
+                {
+                    "swara": "P M Pdn    dp P - PD  N D N ;  || S ; sn gr  rs S ; ;  ; ; ; ;  ||",
+                    "sahitya": "Ma- no--   - -  -     llaa-  - -  -   -    sa- ka- - -  ram - -  - - - -"
+                },
+                {
+                    "swara": "S     S ;  N  D P - G R  G   M P ;  ||",
+                    "sahitya": "Has taa ma laka   Gan-  dhavaram"
+                },
+                {
+                    "swara": "pd M GR  S N - S R  G M P ;   ||",
+                    "sahitya": "Ha-   taka maya Che-  ladharam"
+                },
+                {
+                    "swara": "D M D ;  N - S  ;  N  G R S ;   ||",
+                    "sahitya": "Ha-  tyaa di   paa -  -  paharam"
+                },
+                {
+                    "swara": "S ;     sn D  Pdn  dp P  GM pm R  ||",
+                    "sahitya": "Ham sa- -   so- - haa- -  kaa- ram- -"
+                },
+                {
+                    "swara": "gdpm gmgr  G M pmnd   dpP- P D || ; ; d N r   s n- dpP   ; ,m  D P D N  ||",
+                    "sahitya": "Ra - - -  - - -  ma-  naa- --  - - - tham  - - Bha    - -    je- -  - -   ham -  - -"
+                },
+                {
+                    "swara": "srgr sn -dn    S -N - dsnd  pm gr G ; || gmpd nsrg  rs nd - rs nd  pm - gm g r s r  ||",
+                    "sahitya": "Ra-  -  -         - ma  chan-  - - - -  dra-  Poo - - - -  - - - -   ji - -  - -      tham - - - -"
+                },
+                {
+                    "swara": "GMGR       GM - ; gm  dn sn nd D  ||  ; ; ; ;  ; dn D P       ; ; ; ;   ||",
+                    "sahitya": "Ra - - -       ma-      - naa- - - - - - - -     - - - -  - tham-       - - - -"
                 }
             ]
         }

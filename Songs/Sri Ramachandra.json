@@ -9,35 +9,95 @@
     },
     "composition": [
         {
-            "section": "Pallavi",
+            "section": "Charanam Sahityam",
             "content": [
                 {
-                    "swara": "G R G M | P - | M G R G | M P M - ||",
-                    "sahitya": "Shree - Raa - | ma - | chan - draa - | Sri tha Paa - ||"
+                    "swara": "P - P | M M | P - || M G  R | S R | M G ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P D2 N N | D1 P | M N D1 P | M G R S ||",
-                    "sahitya": "- ri jaa - | - tha | Sa ma - - | - - - stha ||"
+                    "swara": "Re - re |    Shree - | ra - || - -  ma | chan - | - - ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "S R S P | M P | G R G M | G G R S ||",
-                    "sahitya": "Kal - - ya | - na | Gu na - bhi | raa - - ma ||"
+                    "swara": "R R S | S D | R S || R -  - | R - | S R ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "R R G G | M M | G G R G | M P M M ||",
-                    "sahitya": "See - tha - | Mu kha | Am - - - | bo - ru ha ||"
+                    "swara": "- - - | - - | - - || ndra -  - | - - | Ra ghu ||",
+                    "sahitya": "You are the beacon (\"tilakaa\") of the solar (\"raghu\") dynasty (\"vamsha\")!"
                 },
                 {
-                    "swara": "P D2 D2 N | N S | P D2 N S | R G R S ||",
-                    "sahitya": "San - - - | - cha | ree - - - | - - - ka ||"
+                    "swara": "M G R | R S | S - || P M  M | P - | P - ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "N R S G | R S | N N D1 M | P D2 N S ||",
-                    "sahitya": "Ni ran - tha | ram - | Man - ga la | Ma - - ta ||"
+                    "swara": "Vam - sha | Ti la | ka - || Ra -     gha | ven - | dra  ||",
+                    "sahitya": ""
                 },
                 {
-                    "swara": "P D1 P S | N S | P D1 M P | G - R S ||",
-                    "sahitya": "No - - tu | - - | - - - - | - - - - ||"
+                    "swara": "P M P | M G | R R || M G  R | S R | S S ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "A - - | - - | - - || a -  - | - - | - - ||",
+                    "sahitya": "You take care of (\"poshakure\") ordinary mortals (\"srita-jana\")!"
+                },
+                {
+                    "swara": "S d R | S R | S S || d S  - | d d | d p ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "A - - | - - | - - || a -  - | Sri tha | ja na ||",
+                    "sahitya": "You give pleasure (\"manoranjana\") to Seetha!"
+                },
+                {
+                    "swara": "p m p | d S | S - || R S  R | M G | R R ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Po - sha | ku - | re - || See -  - | tha - | - Ma ||",
+                    "sahitya": "You give pleasure (\"manoranjana\") to Seetha!"
+                },
+                {
+                    "swara": "M G R | M M | P M || P -  P | P - | P - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "no - - | ran - | ja nu || Re -  re | Dhee - | ra - ||",
+                    "sahitya": "You have vanquished (\"antakure\") Ravana!"
+                },
+                {
+                    "swara": "P M P | D S | S R  || M G  R  | S R  | S S  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "Ra - va | na - | su ra || An -  tha | ku - | re - ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "S D R  | S R  | S S  || D S  - | D D | D P ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "A - - | yi ya | yi ya || a -   | yi ya | yi ya ||",
+                    "sahitya": "You fulfill the desires (\"mandhaara\") of your devotees (\"dheena jana\")!"
+                },
+                {
+                    "swara": "P M P | D S | S - || S -  S | D D | D     P  ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "A - - | yi ya | re - || Dhee -  na | Ja na | Man - ||",
+                    "sahitya": "Lord, please protect me (\"maamava\")."
+                },
+                {
+                    "swara": "P M P | M G | R R ||",
+                    "sahitya": ""
+                },
+                {
+                    "swara": "daa - ru | Maa - | ma va ||",
+                    "sahitya": ""
                 }
             ]
         }
