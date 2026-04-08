@@ -5,6 +5,7 @@ import { ALL_SONGS } from '../../utils/carnaticData';
 import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';
 import { useDropdown } from '../../hooks/useDropdown';
 import { triggerDownload } from '../../utils/triggerDownload';
+import { apiUrl } from '../../utils/api';
 
 function MultiSelectSearchableDropdown({ label, selected, onChange, options, isDark, borderColor, icon: Icon }) {
     const { open, setOpen, ref: wrapperRef } = useDropdown();
@@ -338,7 +339,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         try {
             const fd = new FormData();
             fd.append('pdf', file);
-            const res = await fetch('/api/songs/parse-pdf', { method: 'POST', body: fd });
+            const res = await fetch(apiUrl('/api/songs/parse-pdf'), { method: 'POST', body: fd });
             if (!res.ok) return; // silent — user can still type fields manually
             const meta = await res.json();
             if (meta.name && !uploadTitle.trim()) setUploadTitle(meta.name);
@@ -373,7 +374,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const fetchSongs = async () => {
         try {
             setLoading(true);
-            const res = await fetch('/api/songs');
+            const res = await fetch(apiUrl('/api/songs'));
             if (!res.ok) throw new Error('Failed to load songs');
             setSongs(await res.json());
         } catch (e) {
@@ -395,7 +396,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         const newTitle = renameValue.trim();
         if (!newTitle) { setRenamingId(null); return; }
         try {
-            const res = await fetch(`/api/songs/${id}/title`, {
+            const res = await fetch(apiUrl(`/api/songs/${id}/title`), {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ title: newTitle }),
@@ -420,7 +421,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const commitMetaEdit = async (id) => {
         if (!editRaga.trim() || !editTala.trim()) return;
         try {
-            const res = await fetch(`/api/songs/${id}/metadata`, {
+            const res = await fetch(apiUrl(`/api/songs/${id}/metadata`), {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -449,7 +450,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
 
     const togglePublish = async (id, currentPublished) => {
         try {
-            const res = await fetch(`/api/songs/${id}/publish`, {
+            const res = await fetch(apiUrl(`/api/songs/${id}/publish`), {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ isPublished: !currentPublished }) 
@@ -465,7 +466,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const handleDelete = async (id, title) => {
         if (!window.confirm(`Delete "${title}"? This cannot be undone.`)) return;
         try {
-            const res = await fetch(`/api/songs/${id}`, { method: 'DELETE' });
+            const res = await fetch(apiUrl(`/api/songs/${id}`), { method: 'DELETE' });
             if (!res.ok) throw new Error('Delete failed');
             setSongs(prev => prev.filter(s => s.id !== id));
         } catch (e) {
@@ -565,7 +566,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                 form.append('tala', metaTala.trim());
                 if (metaComposer.trim()) form.append('composer', metaComposer.trim());
             }
-            const res = await fetch('/api/songs/upload', { method: 'POST', body: form });
+            const res = await fetch(apiUrl('/api/songs/upload'), { method: 'POST', body: form });
             if (!res.ok) {
                 const data = await res.json().catch(() => ({}));
                 throw new Error(data.error || 'Upload failed');
@@ -614,7 +615,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
     const handleToggleFavorite = async (song) => {
         const newFav = !song.isFavorite;
         try {
-            const res = await fetch(`/api/songs/${song.id}/metadata`, {
+            const res = await fetch(apiUrl(`/api/songs/${song.id}/metadata`), {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 
@@ -638,7 +639,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
         try {
             for (const song of filteredSongs) {
                 if (song.isPublished === active) continue;
-                await fetch(`/api/songs/${song.id}/publish`, {
+                await fetch(apiUrl(`/api/songs/${song.id}/publish`), {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ isPublished: active }) 
@@ -986,7 +987,7 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
                                     {/* Direct PDF link (no hover popup) */}
                                     {song.pdfPath && (
                                         <a
-                                            href={`/api/${song.pdfPath}`}
+                                            href={apiUrl(`/api/${song.pdfPath}`)}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             onClick={(e) => e.stopPropagation()}

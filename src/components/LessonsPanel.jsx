@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { ChevronRight, PlayCircle, GraduationCap } from 'lucide-react';
 import { EXERCISES } from '../utils/exercises';
+import { apiUrl } from '../utils/api';
 
 // Display order for category cards — beginner-friendly forms first, then the
 // concert forms, then the lighter / devotional categories. Categories not
@@ -43,7 +44,7 @@ export default function LessonsPanel({ onStartExercise, onBrowse }) {
 
     useEffect(() => {
         let cancelled = false;
-        fetch('/api/songs')
+        fetch(apiUrl('/api/songs'))
             .then(r => r.json())
             .then(data => {
                 if (cancelled || !Array.isArray(data)) return;

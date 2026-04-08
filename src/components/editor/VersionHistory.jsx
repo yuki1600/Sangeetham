@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, RotateCcw, Eye, Clock, Scissors, Crop } from 'lucide-react';
+import { apiUrl } from '../../utils/api';
 
 function relativeTime(iso) {
     if (!iso) return '';
@@ -26,7 +27,7 @@ export default function VersionHistory({ songId, theme, onClose, onRestore }) {
     useEffect(() => {
         if (!songId) return;
         setLoading(true);
-        fetch(`/api/songs/${songId}/versions`)
+        fetch(apiUrl(`/api/songs/${songId}/versions`))
             .then(r => r.json())
             .then(data => { setVersions(Array.isArray(data) ? data : []); setLoading(false); })
             .catch(() => setLoading(false));
@@ -34,7 +35,7 @@ export default function VersionHistory({ songId, theme, onClose, onRestore }) {
 
     const handlePreview = async (version) => {
         try {
-            const res = await fetch(`/api/songs/${songId}/versions/${version.id}`);
+            const res = await fetch(apiUrl(`/api/songs/${songId}/versions/${version.id}`));
             if (!res.ok) return;
             const data = await res.json();
             onRestore({ composition: data.composition, editOps: data.editOps }, false);
@@ -46,7 +47,7 @@ export default function VersionHistory({ songId, theme, onClose, onRestore }) {
     const handleRestore = async (version) => {
         setRestoring(version.id);
         try {
-            const res = await fetch(`/api/songs/${songId}/restore/${version.id}`, { method: 'POST' });
+            const res = await fetch(apiUrl(`/api/songs/${songId}/restore/${version.id}`), { method: 'POST' });
             if (!res.ok) throw new Error('Restore failed');
             const data = await res.json();
             onRestore({ composition: data.composition, editOps: data.editOps }, true);

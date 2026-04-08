@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ChevronRight, Music2, Globe, Disc3, Pencil, Search, Heart, Plus } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { apiUrl } from '../utils/api';
 
 // Per-type accent colors so the small banner on each card matches the
 // learning-path categories on the left rail.
@@ -32,7 +33,7 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch('/api/songs')
+        fetch(apiUrl('/api/songs'))
             .then(r => r.json())
             .then(data => {
                 if (Array.isArray(data)) {
@@ -238,8 +239,8 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
             onClick={() => onSelectSong({
                 ...song,
                 songViewId: song.id,
-                jsonUrl: `/api/songs/${song.id}`,
-                audioUrl: `/api/songs/${song.id}/audio`,
+                jsonUrl: apiUrl(`/api/songs/${song.id}`),
+                audioUrl: apiUrl(`/api/songs/${song.id}/audio`),
                 isDynamic: true
             })}
             className="w-full group relative overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-gradient-to-br from-[var(--bg-card)] to-[var(--bg-card-hover)] p-4 text-left transition-all duration-400 hover:border-emerald-500/30 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)]"
@@ -297,7 +298,7 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                             e.stopPropagation();
                             try {
                                 const newFav = !song.isFavorite;
-                                const res = await fetch(`/api/songs/${song.id}/metadata`, {
+                                const res = await fetch(apiUrl(`/api/songs/${song.id}/metadata`), {
                                     method: 'PATCH',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({ raga: song.raga, tala: song.tala, isFavorite: newFav })

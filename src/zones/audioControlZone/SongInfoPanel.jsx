@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Pencil, Heart } from 'lucide-react';
 import SwaraScale from '../../components/SwaraScale';
 import { getRagaScale } from '../../utils/ragaScales';
+import { apiUrl } from '../../utils/api';
 
 /**
  * Audio Control Zone → Song Info
@@ -28,7 +29,7 @@ export default function SongInfoPanel({
     const handleFavoriteToggle = async () => {
         const newFav = !songData.meta.isFavorite;
         try {
-            const res = await fetch(`/api/songs/${songId}/metadata`, {
+            const res = await fetch(apiUrl(`/api/songs/${songId}/metadata`), {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

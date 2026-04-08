@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layers, ChevronDown, Check, FileText, FileJson, FileAudio, RefreshCw, Upload } from 'lucide-react';
+import { apiUrl } from '../../utils/api';
 
 /**
  * Bottom Bar → Admin Controls
@@ -77,7 +78,7 @@ export default function AdminControls({
 
                         <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Downloads</div>
                         {[
-                            { label: 'View PDF Notation', icon: FileText, action: () => window.open(`/api/${songData.meta?.pdfPath}`, '_blank'), hidden: !songData.meta?.pdfPath, color: '#f97316' },
+                            { label: 'View PDF Notation', icon: FileText, action: () => window.open(apiUrl(`/api/${songData.meta?.pdfPath}`), '_blank'), hidden: !songData.meta?.pdfPath, color: '#f97316' },
                             { label: 'Original JSON', icon: FileJson, action: () => handleDownloadJSON(false) },
                             { label: 'Edited JSON (Current)', icon: Check, action: () => handleDownloadJSON(true), color: '#10b981' },
                             { label: 'Original Audio (.mp3)', icon: FileAudio, action: handleDownloadOriginalAudio },

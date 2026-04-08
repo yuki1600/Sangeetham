@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Globe, Clock, Check } from 'lucide-react';
+import { apiUrl } from '../../utils/api';
 
 /**
  * Bottom Bar → Publish Button
@@ -24,7 +25,7 @@ export default function PublishButton({ songId, publishStatus, onStatusChange, i
         if (status !== 'draft' || !songId || isSubmitting) return;
         setIsSubmitting(true);
         try {
-            const res = await fetch(`/api/songs/${songId}/publish-request`, { method: 'POST' });
+            const res = await fetch(apiUrl(`/api/songs/${songId}/publish-request`), { method: 'POST' });
             if (!res.ok) throw new Error('Publish request failed');
             const data = await res.json();
             if (onStatusChange) onStatusChange(data.publishStatus || 'pending');

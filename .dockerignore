@@ -1,0 +1,30 @@
+.git
+.gitignore
+node_modules
+dist
+dist-ssr
+.vscode
+.idea
+.DS_Store
+*.log
+npm-debug.log*
+
+# Frontend source — backend image doesn't need it
+src
+public
+index.html
+vite.config.js
+eslint.config.js
+
+# Misc / archives / scripts not used by the running server
+archive
+docs
+scripts
+__pycache__
+*.pyc
+
+# Stale / unused on-disk song dirs (DB BLOBs are the source of truth)
+server/songs
+
+# Untracked junk
+*.jpeg

@@ -1,0 +1,20 @@
+# Render Blueprint — defines the backend web service.
+# Connect this repo as a Blueprint in the Render dashboard
+# (New + → Blueprint → pick repo) and Render will read this file.
+services:
+  - type: web
+    name: sangeetham-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeploy: true
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Add the deployed Firebase Hosting domain(s) here. Comma-separated.
+      # The server already whitelists *.web.app and *.firebaseapp.com for the
+      # carnatic-sangeetham project, but custom domains need to be added.
+      - key: ALLOWED_ORIGINS
+        value: ""

@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import * as LucideIcons from 'lucide-react';
 import { ArrowLeft, Search, X, Music, ChevronRight, Filter, Pencil } from 'lucide-react';
 import { LESSON_GROUPS } from '../utils/carnaticData';
+import { apiUrl } from '../utils/api';
 
 // Per-category accent classes (Tailwind gradient strings, to match the
 // existing SongCard hover overlay) and labels for the dynamic
@@ -47,7 +48,7 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
         if (!isTypeGroup) return;
         let cancelled = false;
         setLoading(true);
-        fetch('/api/songs')
+        fetch(apiUrl('/api/songs'))
             .then(r => r.json())
             .then(data => {
                 if (cancelled || !Array.isArray(data)) return;
@@ -58,8 +59,8 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
                     .map(s => ({
                         ...s,
                         songViewId: s.id,
-                        jsonUrl: `/api/songs/${s.id}`,
-                        audioUrl: `/api/songs/${s.id}/audio`,
+                        jsonUrl: apiUrl(`/api/songs/${s.id}`),
+                        audioUrl: apiUrl(`/api/songs/${s.id}/audio`),
                         isDynamic: true,
                     }))
                     .sort((a, b) => (a.title || '').localeCompare(b.title || ''));

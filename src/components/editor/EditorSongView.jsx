@@ -21,6 +21,7 @@ import { useDragSeek } from '../../hooks/useDragSeek';
 import { useSeekBar } from '../../hooks/useSeekBar';
 import { useKeyboardShortcuts } from '../../hooks/useKeyboardShortcuts';
 import { useDropdown } from '../../hooks/useDropdown';
+import { apiUrl } from '../../utils/api';
 
 export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack }) {
     // Song data from server
@@ -308,7 +309,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             return;
         }
 
-        fetch(`/api/songs/${songId}`)
+        fetch(apiUrl(`/api/songs/${songId}`))
             .then(r => r.json())
             .then(data => {
                 songDataCache.set(songId, data);
@@ -362,7 +363,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         (async () => {
             try {
                 setRawBuffer(null); // Clear while switching if not cached
-                const res = await fetch(`/api/songs/${songId}/audio?type=${activeAudioType}`);
+                const res = await fetch(apiUrl(`/api/songs/${songId}/audio?type=${activeAudioType}`));
                 if (!res.ok) throw new Error('Audio not found');
                 const arrayBuf = await res.arrayBuffer();
                 const ctx = new AudioContext();
@@ -648,7 +649,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         setIsSaving(true);
         setSaveStatus(null);
         try {
-            const res = await fetch(`/api/songs/${songId}`, {
+            const res = await fetch(apiUrl(`/api/songs/${songId}`), {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ composition, editOps: { ...editOps, sectionTimings, customAavartanaSec }, avartanasPerRow: avPerRow }),
@@ -696,7 +697,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const handleDownloadOriginalAudio = async () => {
         if (!songId) return;
         try {
-            const res = await fetch(`/api/songs/${songId}/audio`);
+            const res = await fetch(apiUrl(`/api/songs/${songId}/audio`));
             const blob = await res.blob();
             triggerDownload(blob, songData.meta?.audioFilename || 'original.mp3');
         } catch (e) {
@@ -712,7 +713,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             const formData = new FormData();
             formData.append('wav', wavBlob, 'edited.wav');
 
-            const res = await fetch('/api/songs/convert-to-mp3', {
+            const res = await fetch(apiUrl('/api/songs/convert-to-mp3'), {
                 method: 'POST',
                 body: formData
             });
@@ -738,7 +739,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         try {
             const formData = new FormData();
             formData.append('audio', file);
-            const res = await fetch(`/api/songs/${songId}/swap-audio?type=${type}`, {
+            const res = await fetch(apiUrl(`/api/songs/${songId}/swap-audio?type=${type}`), {
                 method: 'POST',
                 body: formData
             });
@@ -751,7 +752,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             // If we just uploaded the active type, reload it
             if (type === activeAudioType) {
                 setRawBuffer(null);
-                const audioRes = await fetch(`/api/songs/${songId}/audio?type=${type}&t=${Date.now()}`);
+                const audioRes = await fetch(apiUrl(`/api/songs/${songId}/audio?type=${type}&t=${Date.now()}`));
                 const arrayBuf = await audioRes.arrayBuffer();
                 const ctx = new AudioContext();
                 const decoded = await ctx.decodeAudioData(arrayBuf);
@@ -780,7 +781,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         try {
             const formData = new FormData();
             formData.append('json', file);
-            const res = await fetch(`/api/songs/${songId}/swap-json`, {
+            const res = await fetch(apiUrl(`/api/songs/${songId}/swap-json`), {
                 method: 'POST',
                 body: formData
             });
@@ -837,7 +838,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const aroStr = editInfoArohana.filter(s => s.trim()).join(' ');
         const avaroStr = editInfoAvarohana.filter(s => s.trim()).join(' ');
         try {
-            const res = await fetch(`/api/songs/${songId}/metadata`, {
+            const res = await fetch(apiUrl(`/api/songs/${songId}/metadata`), {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -919,7 +920,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         setPreviewBanner(null);
                     }}
                     onPreviewDiscard={() => {
-                        fetch(`/api/songs/${songId}`).then(r => r.json()).then(data => {
+                        fetch(apiUrl(`/api/songs/${songId}`)).then(r => r.json()).then(data => {
                             setComposition(data.composition);
                             setEditOps(data.editOps || { trimStart: 0, trimEnd: null, cuts: [] });
                         });
