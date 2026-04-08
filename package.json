@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"nodemon server/index.js\"",
-    "dev:client": "vite",
-    "server": "nodemon server/index.js",
-    "server:once": "node server/index.js",
+    "dev": "SERVER_PORT=3002 concurrently \"SERVER_PORT=3002 vite\" \"PORT=3002 nodemon server/index.js\"",
+    "dev:client": "SERVER_PORT=3002 vite",
+    "server": "PORT=3002 nodemon server/index.js",
+    "server:once": "PORT=3002 node server/index.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

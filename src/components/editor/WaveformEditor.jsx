@@ -29,6 +29,7 @@ export default function WaveformEditor({
     aavartanaSec = 4.0,
     timeRef,
     onSeek,         // (newTime) => void — called during drag auto-scroll
+    onPan,          // (deltaPx) => void — horizontal trackpad swipe pan
     zoom = 2,
     onZoomChange,    // (newZoom) => void
     pxPerSec: parentPxPerSec = 100 // default if not provided
@@ -76,8 +77,8 @@ export default function WaveformEditor({
         samplesRef.current = { samples, duration: audioBuffer.duration };
     }, [audioBuffer]);
 
-    // Scroll-to-zoom (shared hook with NotationLane)
-    useWheelZoom(containerRef, zoom, onZoomChange);
+    // Scroll-to-zoom + scroll-to-pan (shared hook with NotationLane)
+    useWheelZoom(containerRef, zoom, onZoomChange, { onPan });
 
     /**
      * Choose a nice ruler tick interval for the current zoom level.

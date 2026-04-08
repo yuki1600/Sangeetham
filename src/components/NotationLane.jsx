@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { Copy, X } from 'lucide-react';
 import { useWheelZoom } from '../hooks/useWheelZoom';
 
 // Note: AAVARTANA_PX is now dynamically calculated as pxPerSec * aavartanaSec * zoom
@@ -59,6 +60,9 @@ export default function NotationLane({
     pxPerSec = 100,
     zoom = 2,
     onZoomChange,
+    onPan,
+    onRowDuplicate,
+    onRowDelete,
 }) {
     const containerRef = useRef(null);
     const wheelTargetRef = useRef(null);
@@ -73,9 +77,10 @@ export default function NotationLane({
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
     useEffect(() => { pxPerSecRef.current = pxPerSec; zoomRef.current = zoom; }, [pxPerSec, zoom]);
 
-    // Scroll-to-zoom: forward wheel events to parent zoom state, mirroring
-    // WaveformEditor's behaviour so the user can zoom from any lane.
-    useWheelZoom(wheelTargetRef, zoom, onZoomChange);
+    // Scroll-to-zoom + scroll-to-pan: forward wheel events to the parent.
+    // Horizontal trackpad swipes pan the timeline, pinch + vertical wheel
+    // zoom — see useWheelZoom for the gesture matrix.
+    useWheelZoom(wheelTargetRef, zoom, onZoomChange, { onPan });
 
     // Each avartana covers exactly aavartanaSec * pxPerSec pixels.
     const effectiveAvPx = aavartanaSec * pxPerSec * zoom;
@@ -89,6 +94,36 @@ export default function NotationLane({
     // text rows are positioned absolutely so user-set section cues realign the
     // visible swara/sahitya rows on the timeline.
     const hasTextTimings = textMode && !!(contentRowTimings && contentRows && contentRowTimings.length === contentRows.length);
+
+    // Section bands — one wide header per contiguous run of rows belonging
+    // to the same section. Computed in both layout modes (absolute timings
+    // OR cumulative flex) so the band always matches the rows underneath.
+    const sectionBands = useMemo(() => {
+        if (!textMode || !contentRows?.length) return [];
+        const bands = [];
+        let cursorPx = 0;
+        let i = 0;
+        while (i < contentRows.length) {
+            const sec = contentRows[i].section;
+            const startPx = hasTextTimings
+                ? (contentRowTimings[i] || 0) * pxPerSec * zoom
+                : cursorPx;
+            let endPx = startPx;
+            while (i < contentRows.length && contentRows[i].section === sec) {
+                const realAv = Math.max(1, contentRows[i].avCount || 1);
+                const slotAv = Math.max(realAv, avPerRow || 1);
+                const rowW = slotAv * effectiveAvPx;
+                const rowLeft = hasTextTimings
+                    ? (contentRowTimings[i] || 0) * pxPerSec * zoom
+                    : cursorPx;
+                endPx = rowLeft + rowW;
+                cursorPx = rowLeft + rowW;
+                i++;
+            }
+            bands.push({ section: sec, left: startPx, width: Math.max(1, endPx - startPx) });
+        }
+        return bands;
+    }, [textMode, contentRows, contentRowTimings, hasTextTimings, avPerRow, effectiveAvPx, pxPerSec, zoom]);
 
     // Animate scroll
     useEffect(() => {
@@ -131,8 +166,40 @@ export default function NotationLane({
                     className={`absolute top-0 h-full ${hasTextTimings ? '' : 'flex items-center'}`}
                     style={containerStyle}
                 >
+                    {/* Section header bands — span the full horizontal extent
+                        of each section, with the section name repeated like a
+                        marquee so the label is visible regardless of pan/zoom. */}
+                    {sectionBands.map((band, bi) => {
+                        // Marquee spacing: tile the label every ~220px so wide
+                        // sections show many copies and short ones still show
+                        // at least one centered.
+                        const TILE_PX = 220;
+                        const repeatCount = Math.max(1, Math.round(band.width / TILE_PX));
+                        return (
+                            <div
+                                key={`band-${bi}`}
+                                className="absolute top-1 flex items-center text-[11px] font-black tracking-widest uppercase z-20 pointer-events-none rounded overflow-hidden"
+                                style={{
+                                    left: band.left,
+                                    width: band.width,
+                                    height: 18,
+                                    color: isDark ? '#10b981' : '#047857',
+                                    background: isDark ? 'rgba(16,185,129,0.10)' : 'rgba(16,185,129,0.10)',
+                                    border: `1px solid ${isDark ? 'rgba(16,185,129,0.30)' : 'rgba(4,120,87,0.25)'}`,
+                                    backdropFilter: 'blur(8px)',
+                                    justifyContent: repeatCount > 1 ? 'space-around' : 'center',
+                                }}
+                            >
+                                {Array.from({ length: repeatCount }).map((_, i) => (
+                                    <span key={i} className="px-2 whitespace-nowrap">
+                                        {band.section}
+                                    </span>
+                                ))}
+                            </div>
+                        );
+                    })}
+
                     {contentRows.map((row, idx) => {
-                        const isFirstInSection = idx === 0 || contentRows[idx - 1]?.section !== row.section;
                         // Row width is driven by `avPerRow` (the user's
                         // layout density choice in the lyrics editor) so
                         // every row spans `avPerRow × calibrationSec` of
@@ -171,30 +238,68 @@ export default function NotationLane({
                                     ...(hasTextTimings ? { position: 'absolute', top: 0, bottom: 0, left: rowLeft } : null),
                                 }}
                             >
-                                {isFirstInSection && (
+                                {(onRowDuplicate || onRowDelete) && (
                                     <div
-                                        className="absolute top-2 left-0 px-2 py-0.5 rounded bg-emerald-500/15 text-[11px] font-black tracking-widest uppercase z-20"
-                                        style={{
-                                            color: isDark ? '#10b981' : '#047857',
-                                            border: `1px solid ${isDark ? 'rgba(16,185,129,0.35)' : 'rgba(4,120,87,0.25)'}`,
-                                            backdropFilter: 'blur(8px)'
-                                        }}
+                                        className="absolute bottom-1 right-1 flex items-center gap-1 z-30"
+                                        // Pointer-events isolated so the parent's drag/seek
+                                        // handlers don't see clicks aimed at the icons.
+                                        onMouseDown={(e) => e.stopPropagation()}
+                                        onTouchStart={(e) => e.stopPropagation()}
                                     >
-                                        {row.section}
+                                        {onRowDuplicate && (
+                                            <button
+                                                type="button"
+                                                title="Duplicate this line"
+                                                onClick={(e) => {
+                                                    e.stopPropagation();
+                                                    onRowDuplicate(idx);
+                                                }}
+                                                className="flex items-center justify-center w-6 h-6 rounded-md transition-all hover:scale-110 active:scale-95"
+                                                style={{
+                                                    color: isDark ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.55)',
+                                                    background: isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.04)',
+                                                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
+                                                    backdropFilter: 'blur(8px)',
+                                                }}
+                                            >
+                                                <Copy className="w-3 h-3" />
+                                            </button>
+                                        )}
+                                        {onRowDelete && (
+                                            <button
+                                                type="button"
+                                                title="Delete this line"
+                                                onClick={(e) => {
+                                                    e.stopPropagation();
+                                                    if (window.confirm('Delete this line?')) onRowDelete(idx);
+                                                }}
+                                                className="flex items-center justify-center w-6 h-6 rounded-md transition-all hover:scale-110 active:scale-95"
+                                                style={{
+                                                    color: isDark ? 'rgba(248,113,113,0.95)' : 'rgba(185,28,28,0.85)',
+                                                    background: isDark ? 'rgba(239,68,68,0.12)' : 'rgba(239,68,68,0.08)',
+                                                    border: `1px solid ${isDark ? 'rgba(239,68,68,0.35)' : 'rgba(185,28,28,0.25)'}`,
+                                                    backdropFilter: 'blur(8px)',
+                                                }}
+                                            >
+                                                <X className="w-3 h-3" />
+                                            </button>
+                                        )}
                                     </div>
                                 )}
 
                                 {tokens.map((tok, i) => {
-                                    const isBar = tok === '|' || tok === '||';
-                                    if (isBar) {
+                                    // Avartana boundaries (||) are now drawn as a
+                                    // cross-lane vertical line by AvartanaBoundaryOverlay,
+                                    // so we drop the inline text marker entirely.
+                                    if (tok === '||') return null;
+                                    if (tok === '|') {
                                         return (
                                             <span
                                                 key={i}
                                                 className="font-bold opacity-40 select-none flex-shrink-0"
                                                 style={{
-                                                    fontSize: tok === '||' ? '1.4rem' : '1.2rem',
+                                                    fontSize: '1.2rem',
                                                     color: isDark ? '#fff' : '#000',
-                                                    letterSpacing: tok === '||' ? '-0.1em' : '0',
                                                 }}
                                             >
                                                 {tok}

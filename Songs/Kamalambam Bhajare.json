@@ -14,19 +14,19 @@
             "content": [
                 {
                     "swara": "G;  M;  P; ; ;  snD DP M D N;   |  S; ; ;  snR snD | pmD pmG ; rsN  R ;  ||",
-                    "sahitya": "Ka  ma  lam ba m  Bha ja    re        re   Ma     na    sa ||"
+                    "sahitya": "Ka  Ma  Lam Ba M  Bha Ja    Re        Re   Ma     Na    Sa ||"
                 },
                 {
                     "swara": "G;  M;  P; ; ;  mpdn sndp  M D N;  |  S; ; ;  pdnr ssnd | pmnd pmG ; rsN  R ;  ||",
-                    "sahitya": "Ka  ma  lam ba     m  Bha ja       re         re      Ma     na    sa ||"
+                    "sahitya": "Ka  Ma  Lam Ba     M  Bha Ja       Re         Re      Ma     Na    Sa ||"
                 },
                 {
                     "swara": "P;;; pmG M;  DM MG GR R;   |  SN DN  R; rdpm | gr  G    rsN  R; ; ;     ||",
-                    "sahitya": "Kal  pi       tha  Ma         ya          Kar         yam      -- Thya ja  re ||"
+                    "sahitya": "Kal  Pi       Tha  Ma         Ya          Kar         Yam      -- Thya Ja  Re ||"
                 },
                 {
                     "swara": "P;;; pmG M;  ND MG DM GR  |  SN DN   R;   rdpm | grG    rsN  srgr R;      ||",
-                    "sahitya": "Kal  pi       tha  Ma         ya          Kar         yam       Thya ja  re ||"
+                    "sahitya": "Kal  Pi       Tha  Ma         Ya          Kar         Yam       Thya Ja  Re ||"
                 }
             ]
         },
@@ -35,23 +35,23 @@
             "content": [
                 {
                     "swara": "P; P;  P;;; pmG ; ;        M;;;  |  GRGR   G; D;  |  P,g M,  P;;;  ||",
-                    "sahitya": "Kama la Va        ni      Se    vi  tha      Par  shwam ||"
+                    "sahitya": "Kama La Va        Ni      Se    Vi  Tha      Par  Shwam ||"
                 },
                 {
                     "swara": "P; P;  P;;; pmD pmG   M;;;  |  GR;;   G; D;  |  dpP  ; ; ;  dpP  ; ; ;  ||",
-                    "sahitya": "Kama la Va            ni      Se    vi  tha      Par  shwam ||"
+                    "sahitya": "Kama La Va            Ni      Se    Vi  Tha      Par  Shwam ||"
                 },
                 {
                     "swara": "P,dN;  D,n dpP ;  pmdp pmM  P;;; | snD DP     ; D N ; |  rsS ; ; ;  rsS ; ; ;  ||",
-                    "sahitya": "Kam bu    Ja    ya           Gree   vam      Na tha   De  vam ||"
+                    "sahitya": "Kam Bu    Ja    Ya           Gree   Vam      Na Tha   De  Vam ||"
                 },
                 {
                     "swara": "pdnd dnsn dpP P ;  pmdp pmM    P;  ;; | snD DP     ; D N ; |  rsS ; ; ;  rsS ; ; ;  ||",
-                    "sahitya": "Kam   - - -  bu  Ja-  ya           Gree   vam      Na tha   De  vam ||"
+                    "sahitya": "Kam   - - -  Bu  Ja-  Ya           Gree   Vam      Na Tha   De  Vam ||"
                 },
                 {
                     "swara": "SSGR     SS    drsr  snD     PM      gdpd pmG | GG   N;    D R S sn | D    PPM gdpd pmR ||",
-                    "sahitya": "Kamala   pura  Sada nam  Mrudu Gada nam  | Kama nee ya Radanam   Kamala   Va da  nam ||"
+                    "sahitya": "Kamala   Pura  Sada Nam  Mrudu Gada Nam  | Kama Nee Ya Radanam   Kamala   Va Da  Nam ||"
                 }
             ]
         },
@@ -60,43 +60,43 @@
             "content": [
                 {
                     "swara": "S ; ; ; G ; ; ;  R ; ; ;  P ; R ;   |  R S N S    ; N R ;  |   G ; ; ;  R ; ; ;   ||",
-                    "sahitya": "Sar  Va  sha Pa   ri       poo --          ra ka     Cha  kra ||"
+                    "sahitya": "Sar  Va  Sha Pa   Ri       Poo --          Ra Ka     Cha  Kra ||"
                 },
                 {
                     "swara": "S ; ; ;  R ; S ;  ; ;  P ;  N ; S ;   | S N  R ;      G ; M ; |   Pdn dpP ;  ; ; ; ;   ||",
-                    "sahitya": "Swa  mi   neem    Pa  ra ma    Shi - va        Ka -         mee neem  - - - -   ||"
+                    "sahitya": "Swa  Mi   Neem    Pa  Ra Ma    Shi - Va        Ka -         Mee Neem  - - - -   ||"
                 },
                 {
                     "swara": "D ; ; ;  N ; ; ;  S ; ; ;  snR snD  | P M PD      dp P ; G ;  | ; ; G ;  R ; ; ;   ||",
-                    "sahitya": "Dur va sar chi  tha   Gu - - p       ta  -    Yo    gi  neem ||"
+                    "sahitya": "Dur Va Sar Chi  Tha   Gu - - P       Ta  -    Yo    Gi  Neem ||"
                 },
                 {
                     "swara": "S ; ; N  S N S N   R ; ; ;  G ; G ;   | ; R   G ;    M ; pd pm| G R S ;   ; ; ; ;   ||",
-                    "sahitya": "Dhu   -    kha ---    dhwam  si    nee      em  Ham      si          neem    ||"
+                    "sahitya": "Dhu   -    Kha ---    Dhwam  Si    Nee      Em  Ham      Si          Neem    ||"
                 },
                 {
                     "swara": "N ; ; ;  S, d  S, n   d pP ; P ;   P ;  P , m | sn D D P   P M D ;  |  ; ; D N  S ; ; ;   ||",
-                    "sahitya": "Nir  va    na      Ni   ja   Su    kha      Pra  da      ye -  neem ||"
+                    "sahitya": "Nir  Va    Na      Ni   Ja   Su    Kha      Pra  Da      Ye -  Neem ||"
                 },
                 {
                     "swara": "snD ; ;  G ; R ;    ; ; S rg    R;   S;   |   ; ; S ;      ; ; S r n    |  n S d D P D N ; ;   ||",
-                    "sahitya": "Ni  tya Kal        ya     --     ni            Ka         thya        - - -   ya -  ni - ||"
+                    "sahitya": "Ni  Tya Kal        Ya     --     Ni            Ka         Thya        - - -   Ya -  Ni - ||"
                 },
                 {
                     "swara": "S ; ; ;  P ; ; ;  P ; ; ;  P M D ;   |    dpP ;  R ;   S ; N ;  | R ; ; ;  R ; ; ;   ||",
-                    "sahitya": "Sar  va  ni Ma - dhu      pa       Vi    ja  ya     Ve   ni ||"
+                    "sahitya": "Sar  Va  Ni Ma - Dhu      Pa       Vi    Ja  Ya     Ve   Ni ||"
                 },
                 {
                     "swara": "S ; ; ;  s r N n s D  D ; P ;  dpmg  ; G ;  |    G R ; ;     S, n  S, r | G S R G  rs S  ; ; ;  ||",
-                    "sahitya": "Sath  Gu - ru --    Gu ha   Ja   na       ni - -       Ni -  ran - -  -  ja -  ni - - - ||"
+                    "sahitya": "Sath  Gu - Ru --    Gu Ha   Ja   Na       Ni - -       Ni -  Ran - -  -  Ja -  Ni - - - ||"
                 },
                 {
                     "swara": "G M G R  S , n R S    S N   S ;   N R ;  ;  |   G ; M ;     P ; D ;     | N ;  S sn  R S  S ;   ||",
-                    "sahitya": "Gar vi tha Bhan da -   Su ra Bhan ja neem    Ka   ma     kar shan     ya  di Ran   -  ja neem ||"
+                    "sahitya": "Gar Vi Tha Bhan Da -   Su Ra Bhan Ja Neem    Ka   Ma     Kar Shan     Ya  Di Ran   -  Ja Neem ||"
                 },
                 {
                     "swara": "sn D G R   ; G S rg   rsS ; S  sn  D G R ;  |   S ; s R n   n S d D ;  | P ; gdpm    G g d p m R  ||",
-                    "sahitya": "Nir -  vi she sha Chai tan  ya  roo - pi neem      Oor vi -     ta --  tva     di  Swaru  -   pi - neem ||"
+                    "sahitya": "Nir -  Vi She Sha Chai Tan  Ya  Roo - Pi Neem      Oor Vi -     Ta --  Tva     Di  Swaru  -   Pi - Neem ||"
                 }
             ]
         }

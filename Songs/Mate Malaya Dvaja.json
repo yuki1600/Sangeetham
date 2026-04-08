@@ -14,19 +14,19 @@
             "content": [
                 {
                     "swara": "nDn NS      ; ; - N R     S ,n  N D    P,m   P -    nd   |   M G - M ;      ;  ; - M,m     mmN D - N    rs nd - P P  ||",
-                    "sahitya": "mA- tE-      - -  mala     ya-  dvaja   pAN-Dya sam(n) jA-     tE -      -  -   mA-     tan -   ga  va   da-na-  guha ||"
+                    "sahitya": "Ma- Te-      - -  Mala     Ya-  Dvaja   Pan-dya Sam(n) Ja-     Te -      -  -   Ma-     Tan -   Ga  Va   Da-na-  Guha ||"
                 },
                 {
                     "swara": "nDn NS      ; ; - N R     S ,n  N D    P,m   P -    D   | pM, G - M ;      ;  ; - M;        M N D - N    rs nd - P P  ||",
-                    "sahitya": "mA- tE-      - -  mala     ya-  dvaja   pAN-Dya sam(n) jA-     tE -      -  -   mA-     tan -   ga  va   da-na-  guha ||"
+                    "sahitya": "Ma- Te-      - -  Mala     Ya-  Dvaja   Pan-dya Sam(n) Ja-     Te -      -  -   Ma-     Tan -   Ga  Va   Da-na-  Guha ||"
                 },
                 {
                     "swara": "nDn srns      ; ; - N R     S ,n  N D    P,m   P -   rr   | sn dpmg- M;     ;  ; - M;       gm N D - sn   rs nd - P P  ||",
-                    "sahitya": "mA- tE-      - -  mala     ya-  dvaja   pAN-Dya sam(n)- jA-   -  tE -   -  -   mA-     tan -   ga  va   da-na-  guha ||"
+                    "sahitya": "Ma- Te-      - -  Mala     Ya-  Dvaja   Pan-dya Sam(n)- Ja-   -  Te -   -  -   Ma-     Tan -   Ga  Va   Da-na-  Guha ||"
                 },
                 {
                     "swara": "nDn srgm gr  S ; - ,dN  sRnS ,  , nD  P,m  P - gmpd | nrsn dpmg- M;   ;  ; - M;    gm N D - sn   rs nd - P P  ||",
-                    "sahitya": "mA- tE-    - -  - -  mala  ya-  -    dvajapAN-Dy san-    - - -  jA-   -  tE -   -   mA-   tan -   ga  va   da-na-  guha ||"
+                    "sahitya": "Ma- Te-    - -  - -  Mala  Ya-  -    Dvajapan-dy San-    - - -  Ja-   -  Te -   -   Ma-   Tan -   Ga  Va   Da-na-  Guha ||"
                 }
             ]
         },
@@ -35,19 +35,19 @@
             "content": [
                 {
                     "swara": "D,n sndp   G M D,n      S S   ;  ;      ; ;  ;  ;       |       ;  ;   ; ;              ;  ;   ;  ;           ;  ;  ;  ;        ;  ;  ;   ;   ||",
-                    "sahitya": "shA tO--   da- ri shan-   kari ||"
+                    "sahitya": "Sha To--   Da- Ri Shan-   Kari ||"
                 },
                 {
                     "swara": "D,n sndp   G M D,n      S S -D N     S R - M G  |   R S - NS         R-sn rs nd     dnS- dn Srs    nd-  P nd M   ||",
-                    "sahitya": "shA tO--   da- ri shan-   kari cA-    muN-   DE-     shvari can-     dra ka-lA- --   dha-ri tA- -    yE    gau- ri ||"
+                    "sahitya": "Sha To--   Da- Ri Shan-   Kari Ca-    Mun-   De-     Shvari Can-     Dra Ka-la- --   Dha-ri Ta- -    Ye    Gau- Ri ||"
                 },
                 {
                     "swara": "D,n rs ndp mgM D,n  rsS S -D N     S R - M G  |   R S - NS         R-sn rs nd     dnS- dn Srs    nd-  P nd M   ||",
-                    "sahitya": "shA tO--   da- ri shan- kari    cA-    muN-   DE-     shvari can-     dra ka-lA- --   dha-ri tA- -    yE    gau- ri ||"
+                    "sahitya": "Sha To--   Da- Ri Shan- Kari    Ca-    Mun-   De-     Shvari Can-     Dra Ka-la- --   Dha-ri Ta- -    Ye    Gau- Ri ||"
                 },
                 {
                     "swara": "D,n md  nrrsS dp mgM D,n  rsS S -DN  SR -pmmg G | RS -NS  R-sn rs nd     dnS- dn Srs    nd-  P nd M   ||",
-                    "sahitya": "shA tO--   - -    -- da-ri shan  ka- ri  cA-muN- DE-    -  shvari can-draka-lA- -- dha-ri tA- -     yE   gau- ri ||"
+                    "sahitya": "Sha To--   - -    -- Da-ri Shan  Ka- Ri  Ca-mun- De-    -  Shvari Can-draka-la- -- Dha-ri Ta- -     Ye   Gau- Ri ||"
                 }
             ]
         },
@@ -80,55 +80,55 @@
                 },
                 {
                     "swara": "D ;  D ;     N D - DN    D-DND    DNPM   |  mD, ;  D ;     N R S- N      S D N S      D P mpmm  ||",
-                    "sahitya": "ThamThamTaka Janu ta  Dimita Tari ki ta   Jam     Jam    Kukunta ri     TaJanuta     D P M M ||"
+                    "sahitya": "Thamthamtaka Janu Ta  Dimita Tari Ki Ta   Jam     Jam    Kukunta Ri     Tajanuta     D P M M ||"
                 },
                 {
                     "swara": "D ;  D ;     N G R - N   R S- ND   P N nd M | D,p nDm    M G M- P     MP D D     D N DM  ||",
-                    "sahitya": "ThamTham NGR    N  R S  Thimi Tari ki ta    Jam Jam     Takita- Ta    Kukuntari  Nam-tari ||"
+                    "sahitya": "Thamtham Ngr    N  R S  Thimi Tari Ki Ta    Jam Jam     Takita- Ta    Kukuntari  Nam-tari ||"
                 },
                 {
                     "swara": "D ;   D- R   S N dsN     D ;   D-M   D N - M snN |  D ; D- nr  ss-P D N   D ; D -M   G R S sN,   ||",
-                    "sahitya": "D ;   D- Ninki na ta ri    Je   ku  M   D N   M  ka     Jam ta S  S   Thimita TomtaDhimi ta ki ta ||"
+                    "sahitya": "D ;   D- Ninki Na Ta Ri    Je   Ku  M   D N   M  Ka     Jam Ta S  S   Thimita Tomtadhimi Ta Ki Ta ||"
                 },
                 {
                     "swara": "D ; D -  P   D ; D- N      D ;   D -S   D ; - R D   | ; M G R      S N - D ;    N- S N -N    D D P M   ||",
-                    "sahitya": "D ; D -  P   D ; D -Ta      re    ku  S D ;     R Jam - M G R       S N    D ;  N Taka Ta  din gi  na tom ||"
+                    "sahitya": "D ; D -  P   D ; D -Ta      Re    Ku  S D ;     R Jam - M G R       S N    D ;  N Taka Ta  Din Gi  Na Tom ||"
                 },
                 {
                     "swara": "D D- nddn    d-dnd-dnpm    D D- nrs n -s-dns dpmm  | D D ngr-n  rs - nd pndm   DD mgm-p mpdd-dndm  ||",
-                    "sahitya": "TamTamTakaJanu     ta Dimita Tari ki ta         Jam Jam Kukuntari TaJanuta    d p m m        ThamTham ngr n   rs           Thimi Tarikita       JamJam Takita- Ta  Kukuntari Nam-tari ||"
+                    "sahitya": "Tamtamtakajanu     Ta Dimita Tari Ki Ta         Jam Jam Kukuntari Tajanuta    D P M M        Thamtham Ngr N   Rs           Thimi Tarikita       Jamjam Takita- Ta  Kukuntari Nam-tari ||"
                 },
                 {
                     "swara": "Dd-rsndn      Dd-mdnmn     Dd-sspdn    Dd-mgrsn   |   Dd-pDd-n   Dd-sD-rd |  , mgrsn-D    n-snn d  dpm    ||",
-                    "sahitya": "D d- Ninkina tari         Je  ku  m d n m  ka          Jam ta ss Thimita     TomtaDhimi takita      D d -  p D d  -   Ta      re ku  sD     r Jam -      m g r s n    D           n TakaTadin gi natom ||"
+                    "sahitya": "D D- Ninkina Tari         Je  Ku  M D N M  Ka          Jam Ta Ss Thimita     Tomtadhimi Takita      D D -  P D D  -   Ta      Re Ku  Sd     R Jam -      M G R S N    D           N Takatadin Gi Natom ||"
                 },
                 {
                     "swara": "D ;  D ;     N D - DN    D-;  D N   D NPM   |  mD, ;  D ;     N R S- N      S - D N S      D P mpmm  ||",
-                    "sahitya": "dA- tA-    sa ka   la ka  lA - nipu  Na catura   dA-     tA      vividha ma   da  samaya    sama ra sa ||"
+                    "sahitya": "Da- Ta-    Sa Ka   La Ka  La - Nipu  Na Catura   Da-     Ta      Vividha Ma   Da  Samaya    Sama Ra Sa ||"
                 },
                 {
                     "swara": "D ;  D ;     N G R - N   R S- ND   P-  N nd M | D,p nDm    M G M- P     MP D D     D N DM  ||",
-                    "sahitya": "dA  tA     su labha   hr daya  madhura vaca na  dA-  tA-      sa ra sa  ru    ci ra tara     svara laya ||"
+                    "sahitya": "Da  Ta     Su Labha   Hr Daya  Madhura Vaca Na  Da-  Ta-      Sa Ra Sa  Ru    Ci Ra Tara     Svara Laya ||"
                 },
                 {
                     "swara": "D ;   D- R   S  N  dsN     D ;   D-M   D N - M snN |  D ; D- nr  ss-P D N   D ; D -M   G R S sN,   ||",
-                    "sahitya": "gI-   ta   su khada nija    bhA va ra    si ka  va  ra-     dA- ta ma-hi-shU-ra  nA-da  nAl-  vaTi shrI ||"
+                    "sahitya": "Gi-   Ta   Su Khada Nija    Bha Va Ra    Si Ka  Va  Ra-     Da- Ta Ma-hi-shu-ra  Na-da  Nal-  Vati Shri ||"
                 },
                 {
                     "swara": "D ; D -  P   D ; D- N      D ;   D -S   D ; - R D   | ; M G R      S N - D ;    N-  S N N    D- D P M   ||",
-                    "sahitya": "Kr SNa rAjEn-dra ra     tA-  yE  sa  dA  (p)ore     maha te     hari    kE-   sha manOha rE sadayE ||"
+                    "sahitya": "Kr Sna Rajen-dra Ra     Ta-  Ye  Sa  Da  (P)ore     Maha Te     Hari    Ke-   Sha Manoha Re Sadaye ||"
                 },
                 {
                     "swara": "D D-ndd-n   D-dnd- dpm    D D-nrs- n  s  dns dpmm  |D D ngr- n rs - snd-pdm   DD mgm-p  mpdd-dndm  ||",
-                    "sahitya": "dA tA sakala ka   lA nipuNa catura      dAtA VividhaMada SamayaSamarasa    dAtA SulabhaHrdaya MadhuraVacana dAtA SarasaRu cira tara Svaralaya ||"
+                    "sahitya": "Da Ta Sakala Ka   La Nipuna Catura      Data Vividhamada Samayasamarasa    Data Sulabhahrdaya Madhuravacana Data Sarasaru Cira Tara Svaralaya ||"
                 },
                 {
                     "swara": "Dd-rsndn      Dd-mdnmn     Dd-sspdn    Dd-mgrs-n   |   Dd- pDd- n   Dd-sD-rd |  , mgrsn-D  n sn nd    dpm  ||",
-                    "sahitya": "gIta  SukhadaNija bhAvaRasikaVara      dAta MahishU-ra nAdaNAl-vaTiShrI     KrSNa rAjEndra Ra  tAyE sadA ore    Mahate-Hari  kE shaManOharE SadayE ||"
+                    "sahitya": "Gita  Sukhadanija Bhavarasikavara      Data Mahishu-ra Nadanal-vatishri     Krsna Rajendra Ra  Taye Sada Ore    Mahate-hari  Ke Shamanohare Sadaye ||"
                 },
                 {
                     "swara": "nDn srgm gr  S ; - ,dN  sRnS ,  , nD  P,m  P - gmpd | nrsn dpmg- M;   ;  ; - M;    gm N D - sn   rs nd - P P  ||",
-                    "sahitya": "mA- tE-    - -  - -  mala  ya-  -    dvajapAN-Dy san-    - - -  jA-   -  tE -   -   mA-   tan -   ga  va   da-na-  guha ||"
+                    "sahitya": "Ma- Te-    - -  - -  Mala  Ya-  -    Dvajapan-dy San-    - - -  Ja-   -  Te -   -   Ma-   Tan -   Ga  Va   Da-na-  Guha ||"
                 }
             ]
         },
@@ -137,19 +137,19 @@
             "content": [
                 {
                     "swara": "M , G , M    ;  ; - P S     S - N D M  P S N D |  M G ;- M      ;  ; - P D     N S N D   P M P D   ||",
-                    "sahitya": "shyA-  mE  -  -    saka   la   bhuvana sA—rva   bhau-  mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya-  Me  -  -    Saka   La   Bhuvana Sa—rva   Bhau-  Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "M , G , mp   GM- P S    S -ns nd M  P S N D |  M G ;- M      ;  ; - P D     N S N D   P M P D   ||",
-                    "sahitya": "shyA-  mE  -  -    saka   la  bhuvana sA—rva    bhau-  mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya-  Me  -  -    Saka   La  Bhuvana Sa—rva    Bhau-  Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "M , G , mp   GM- P S    S -ns nd M  PrsS N D |  M ,G ,- M      ;  ; - P D    nsr-nsn D   P M P sn   ||",
-                    "sahitya": "shyA-  mE  -  -    saka   la  bhuvana sA— - rva    bhau-  mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya-  Me  -  -    Saka   La  Bhuvana Sa— - Rva    Bhau-  Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "dpmg  ;   M   ; ;- P R    S -ns nd M gmpd nrss |  dpmg- M ;     ;  ; - P D    N S N D   P M P D     ||",
-                    "sahitya": "shyA- -  mE   --  saka   la  bhuvana sA— - rva    bhau-  mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya- -  Me   --  Saka   La  Bhuvana Sa— - Rva    Bhau-  Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "M , G , M     ;  ; -  PN    D-DP-P   M- GMP  | M ;  ;  M      ;  ;   ;   ;           ;  ;   ;  ;     ;  ;   ;   ;  ||",
@@ -161,11 +161,11 @@
                 },
                 {
                     "swara": "dpmg  ;   M   ; ;- P R    S -ns nd M  P N D P  |  M , G , - M ;     ;  ; - P D    N S N D   P M P D     ||",
-                    "sahitya": "shyA- -  mE   --  saka   la  bhuvana sA— - rva    bhau-  mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya- -  Me   --  Saka   La  Bhuvana Sa— - Rva    Bhau-  Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "ND ND          D P  P M     P  ;   P ;      N D P M    |  G P M ;       ND M ;     S N D P    M ; N D   ||",
-                    "sahitya": "Alt (expanded gamakas for underlying notes) ||"
+                    "sahitya": "Alt (Expanded Gamakas For Underlying Notes) ||"
                 },
                 {
                     "swara": "ND ND          D P  P M     D P  P ;      N D P M    |  G P pmM ;       ND dppmM;   S N D P    mpmm nsnd  ||",
@@ -173,7 +173,7 @@
                 },
                 {
                     "swara": "dpmg  ;   M   ; ;- P R    S -ns nd M gmpd nrss |  dpmg- M ;     ;  ; - P D    N S N D   P M P D     ||",
-                    "sahitya": "shyA- -  mE   --  saka   la  bhuvana sA— - rva    bhau-  mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya- -  Me   --  Saka   La  Bhuvana Sa— - Rva    Bhau-  Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "S S ; - S     N D N S     N , D , - P     M G M P | M , M , M     S M G M     P S N D    N P D N   ||",
@@ -193,7 +193,7 @@
                 },
                 {
                     "swara": "dpmg  ;   M   ; ;- P R    S -ns nd M  P N D P  |  M , G , - M ;     ;  ; - P D    N S N D   P M P D     ||",
-                    "sahitya": "shyA- -  mE   --  saka   la  bhuvana sA— - rva  bhau-     mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya- -  Me   --  Saka   La  Bhuvana Sa— - Rva  Bhau-     Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 },
                 {
                     "swara": "N ;  ; - M     G ;  M ;     D ;  N - ;     ; S M N     |  G ,  M , S       N ; M ;      ND - G ;      ;  ;  N G  ||",
@@ -201,11 +201,11 @@
                 },
                 {
                     "swara": "R G ; - D     ;  R N ;       ;  S D  ;        N ;  P ;       |  D- S  M ;      G M N ;     D ; ; - N     D - G M D  ||",
-                    "sahitya": "(high S, low M)    (SN) ||"
+                    "sahitya": "(High S, Low M)    (Sn) ||"
                 },
                 {
                     "swara": "dpmg  ;   M   ; ;- P R    S -ns nd M  P N D P  |  M , G , - M ;     ;  ; - P D    N S N D   P M P D     ||",
-                    "sahitya": "shyA- -  mE   --  saka   la  bhuvana sA— - rva  bhau-     mE    -  -  shashi maN-dala  ma- dyagE ||"
+                    "sahitya": "Shya- -  Me   --  Saka   La  Bhuvana Sa— - Rva  Bhau-     Me    -  -  Shashi Man-dala  Ma- Dyage ||"
                 }
             ]
         }

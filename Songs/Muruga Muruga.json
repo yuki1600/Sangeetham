@@ -14,27 +14,27 @@
             "content": [
                 {
                     "swara": "; , pM  |  G  ;  R - sr || M , M,  | P ;  P ;   || ; , pD  |  P ;     P ;  || P , dpm  | mpdp     D ;  ||",
-                    "sahitya": "Muru     gA      -    mu-     ru   gA   en-      rAl    --  uru    gA     dO         un-ran--   uL-    Lam- ||"
+                    "sahitya": "Muru     Ga      -    Mu-     Ru   Ga   En-      Ral    --  Uru    Ga     Do         Un-ran--   Ul-    Lam- ||"
                 },
                 {
                     "swara": "|  G  ;  R - sr || M , M,  | P ;  P ;   || ; , pD  |  P ;     P ;  || P , dpm  | mpdp     D ;  ||",
-                    "sahitya": "Mu ru-    gA      -   mu-     ru   gA  en-       rAl     --  uru    gA     dO       un- ran--   uL-     Lam- ||"
+                    "sahitya": "Mu Ru-    Ga      -   Mu-     Ru   Ga  En-       Ral     --  Uru    Ga     Do       Un- Ran--   Ul-     Lam- ||"
                 },
                 {
                     "swara": "; , pD  |  S ;  ; R  || S , S r  | sn D  D ;   || ; , mP | dNp    D ;   || P , dpm  | G,r     R ;  ||",
-                    "sahitya": "Varu     vAi     - va          ru vAi    en--      rAl-     - -pari  vO-     Du-    vA - - -    rA--    yO ||"
+                    "sahitya": "Varu     Vai     - Va          Ru Vai    En--      Ral-     - -Pari  Vo-     Du-    Va - - -    Ra--    Yo ||"
                 },
                 {
                     "swara": "; , sd dpM |  G  ;  R - sr || M , M,  | P ;  P ;   || ; , pD  |  P ;     P ;  || P , dpm  | mpdp     D ;  ||",
-                    "sahitya": "Mu ru-    gA      -   mu-     ru   gA    en-      rAl    --  uru    gA     dO        un- ran--   uL-     Lam- ||"
+                    "sahitya": "Mu Ru-    Ga      -   Mu-     Ru   Ga    En-      Ral    --  Uru    Ga     Do        Un- Ran--   Ul-     Lam- ||"
                 },
                 {
                     "swara": ";   M D  |  S ;  ; R  || S , S r  | sn D  D ;   || mpr- sR | mpdn    , pD|| mP -dpm  | G,r     R ;  ||",
-                    "sahitya": "Varu     vAi     - va           ru vAi    en--     rAl-     - -- - pari  vO-     - - Du vA - - -      rA--    yO ||"
+                    "sahitya": "Varu     Vai     - Va           Ru Vai    En--     Ral-     - -- - Pari  Vo-     - - Du Va - - -      Ra--    Yo ||"
                 },
                 {
                     "swara": "dpM |  G  ;  R - sr || M , M,  | ; ;  P ;   ||",
-                    "sahitya": "Mu ru-    gA      -   mu-      ru   gA   - -       - - ||"
+                    "sahitya": "Mu Ru-    Ga      -   Mu-      Ru   Ga   - -       - - ||"
                 }
             ]
         },
@@ -43,7 +43,7 @@
             "content": [
                 {
                     "swara": "; , p dm |  P ;  ;  D  ||  S , S , |   S ;    S ;    || ;  ; s r   | G ,r   R ;  || S , S r  |  sn D  D ;  ||",
-                    "sahitya": "-- o  ru-    kAl      -  u            rai shei   dA-  lum     - -  un-    pA--  dam      ni  nain  dA- -   lum ||"
+                    "sahitya": "-- O  Ru-    Kal      -  U            Rai Shei   Da-  Lum     - -  Un-    Pa--  Dam      Ni  Nain  Da- -   Lum ||"
                 },
                 {
                     "swara": "; P  dn | P- P   dm-  M  ||  D , S , |   S ;    S ;    || ;  s r pm  | G ,r   R ;  || S , nsrSr",
@@ -51,7 +51,7 @@
                 },
                 {
                     "swara": "| sn D  rsnd  ||",
-                    "sahitya": "-- o  ru-    -  kAl    --    u      rai shei    dA-  lum     -  un- - -   pA--  dam      ni  nain -   dA- -  lum ||"
+                    "sahitya": "-- O  Ru-    -  Kal    --    U      Rai Shei    Da-  Lum     -  Un- - -   Pa--  Dam      Ni  Nain -   Da- -  Lum ||"
                 },
                 {
                     "swara": "pm- P  dn | P- P   dm-  M  ||  D , S , |   S ;    S ;    || ;  s r pm  | G ,r   R ;  || S , nsrSr",
@@ -59,19 +59,19 @@
                 },
                 {
                     "swara": "| sn D  D ;  ||",
-                    "sahitya": "--     o  ru-   -  kAl    --   u      rai shei  dA-  lum     -  un- - -   pA--  dam      ni  nain -   dA- -  lum ||"
+                    "sahitya": "--     O  Ru-   -  Kal    --   U      Rai Shei  Da-  Lum     -  Un- - -   Pa--  Dam      Ni  Nain -   Da- -  Lum ||"
                 },
                 {
                     "swara": "; , p D  |  S ;  ;  R  || S , S r |  sn D  D ;   ||",
-                    "sahitya": "A  ru   LE        -  tan       di  Dum  kan--   dA- ||"
+                    "sahitya": "A  Ru   Le        -  Tan       Di  Dum  Kan--   Da- ||"
                 },
                 {
                     "swara": "; , m D  |  S ;  ;  R  || S , S r |  sn D  D ;   || ; , - mP | d Np    D ; || mP -dpm  | G,r     R ;  ||",
-                    "sahitya": "A  ru   LE        -  tan        di  Dum kan--   dA-        - -  al -  lum--   pa-   gha- - - -    lum-  nAn ||"
+                    "sahitya": "A  Ru   Le        -  Tan        Di  Dum Kan--   Da-        - -  Al -  Lum--   Pa-   Gha- - - -    Lum-  Nan ||"
                 },
                 {
                     "swara": ";   ,m D  |  S ;  ; R  || S , S r  | sn D  D ;   || mpr- sR | mpdn    , pD|| mP -dpm  | G,r     R ;  ||",
-                    "sahitya": "A  ru   LE        -  tan       di  Dum kan--     dA-     - -     al -   lum--      pa-  gha- - - -    lum-  nAn ||"
+                    "sahitya": "A  Ru   Le        -  Tan       Di  Dum Kan--     Da-     - -     Al -   Lum--      Pa-  Gha- - - -    Lum-  Nan ||"
                 }
             ]
         },
@@ -80,19 +80,19 @@
             "content": [
                 {
                     "swara": "||  G ; ,r  |   Srs  R ;      || ; , s R   |  G , r     R ;   || S , rsn  | D gr  rs S  ||",
-                    "sahitya": "A ri     yA-     - du--           nAn-    shei--    da        - - pizhai  yAl-      nI      ve  ru- -  ttA--  yO— ||"
+                    "sahitya": "A Ri     Ya-     - Du--           Nan-    Shei--    Da        - - Pizhai  Yal-      Ni      Ve  Ru- -  Tta--  Yo— ||"
                 },
                 {
                     "swara": "||  G ; ,r  |   Srs  R ;      || ; , s r pm  | G , r     R ;   || S , rsn  | D gr  rs S  ||",
-                    "sahitya": "A ri     yA-     - du--           nAn-    shei--    da        - - pi-zhai yAl--     nI       ve  ru- -  ttA--  yO— ||"
+                    "sahitya": "A Ri     Ya-     - Du--           Nan-    Shei--    Da        - - Pi-zhai Yal--     Ni       Ve  Ru- -  Tta--  Yo— ||"
                 },
                 {
                     "swara": "; , s R  | M ;  ; M  || M , dpm | G , r    R ;    || ; ,  s R    | M ;  P;  ||  P , dpm | mpdp  D ;  ||",
-                    "sahitya": "A n      bE -     - va           Di   vam-  koN-  Da-      - -  a  -     zha   ni    shi-nan -  dA- - yO- ||"
+                    "sahitya": "A N      Be -     - Va           Di   Vam-  Kon-  Da-      - -  A  -     Zha   Ni    Shi-nan -  Da- - Yo- ||"
                 },
                 {
                     "swara": "; , p dm |  P ;  ;  D  ||  S , S , |   S ;    S ;    || ; , s  R   | G ,r   R ;  || S , S r  |  sn D  D ;  ||",
-                    "sahitya": "- - shiri-   yEn      -  en     ku  rai    yel     lAm    - -poru    ttE-   - -        a   ruL   shei--  vAi ||"
+                    "sahitya": "- - Shiri-   Yen      -  En     Ku  Rai    Yel     Lam    - -Poru    Tte-   - -        A   Rul   Shei--  Vai ||"
                 },
                 {
                     "swara": "; , p dm | P- P   dm-  M  ||  D , S , |   S ;    S ;    || ;  s r pm  | G ,r   R ;  || S , nsrSr",
@@ -100,7 +100,7 @@
                 },
                 {
                     "swara": "| sn D  rsnd  ||",
-                    "sahitya": "- shi ri-    -   yEn      -  en     ku  rai    yel     lAm    - po-ru-    ttE-   - -       a   ruL     shei--  vAi ||"
+                    "sahitya": "- Shi Ri-    -   Yen      -  En     Ku  Rai    Yel     Lam    - Po-ru-    Tte-   - -       A   Rul     Shei--  Vai ||"
                 },
                 {
                     "swara": "pm- P  dn| P- P   dm-  M  ||  D , S , |   S ;    S ;    || ;  s r pm  | G ,r   R ;  || S , nsrSr",
@@ -108,15 +108,15 @@
                 },
                 {
                     "swara": "| sn D   D ;  ||",
-                    "sahitya": "- -  shi ri-  -   yEn      -  en     ku  rai    yel     lAm    - po-ru-    ttE-   - -       a   ruL     shei--  vAi ||"
+                    "sahitya": "- -  Shi Ri-  -   Yen      -  En     Ku  Rai    Yel     Lam    - Po-ru-    Tte-   - -       A   Rul     Shei--  Vai ||"
                 },
                 {
                     "swara": "; , p D  |  S ;  R ; || S , S r |  sn D  D ;   ||",
-                    "sahitya": "Shen-   dil        mA          na gar-  vA- -   zhum ||"
+                    "sahitya": "Shen-   Dil        Ma          Na Gar-  Va- -   Zhum ||"
                 },
                 {
                     "swara": "; , p D  |  S ;  R ;  || S , S r |  sn D  D ;   || ; , - mP | d Np    D ; || mP -dpm  | G,r     R ;  ||",
-                    "sahitya": "Shen-   dil        mA           na gar-  vA- -    zhum   --   dE-   vA- -    di     dE    - -      va--    nE ||"
+                    "sahitya": "Shen-   Dil        Ma           Na Gar-  Va- -    Zhum   --   De-   Va- -    Di     De    - -      Va--    Ne ||"
                 },
                 {
                     "swara": ";  , p D  |  S ;  R ;  || S , nsrSr",
@@ -124,7 +124,7 @@
                 },
                 {
                     "swara": "| sn D  D ;   || mpr- sR | mpdn    , pD|| mP -dpm  | G,r     R ; ||",
-                    "sahitya": "Shen-   dil        mA           na  gar- -   vA-   zhum   - -    dE-   vA- -      di    dE    - -      va--    nE ||"
+                    "sahitya": "Shen-   Dil        Ma           Na  Gar- -   Va-   Zhum   - -    De-   Va- -      Di    De    - -      Va--    Ne ||"
                 }
             ]
         }

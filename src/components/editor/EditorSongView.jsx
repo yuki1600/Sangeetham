@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import LaneLabel from '../LaneLabel';
 import NotationLane from '../NotationLane';
+import AvartanaBoundaryOverlay from '../AvartanaBoundaryOverlay';
 import WaveformEditor from './WaveformEditor';
 import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
@@ -287,6 +288,47 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         return Math.max(totalDuration, notationDur);
     }, [totalDuration, aavartanas.length, effectiveAavartanaSec]);
 
+    // Per-section [start, end] ranges in seconds. Always derives a band for
+    // every section in the composition (not just the ones with user-set
+    // cues), so the seek bar can paint section bands regardless of whether
+    // the user has marked any cues yet. Mirrors the cursor logic in
+    // aavartanaTimings: user-marked starts override; otherwise sections
+    // pick up where the previous one ends.
+    const sectionRanges = useMemo(() => {
+        if (!uniqueSections.length) return [];
+        const ranges = [];
+        let cursor = 0;
+        for (const section of uniqueSections) {
+            const count = aavartanas.filter(av => av.section === section).length || 1;
+            const start = sectionTimings[section] ?? cursor;
+            const end = start + count * effectiveAavartanaSec;
+            ranges.push({ section, start, end });
+            cursor = Math.max(cursor, end);
+        }
+        // Stretch the final section so the bands cover the whole timeline
+        // when audio is longer than the natural notation length.
+        if (ranges.length && effectiveDuration > 0) {
+            const last = ranges[ranges.length - 1];
+            if (last.end < effectiveDuration) last.end = effectiveDuration;
+        }
+        return ranges;
+    }, [uniqueSections, aavartanas, sectionTimings, effectiveAavartanaSec, effectiveDuration]);
+
+    // Trackpad horizontal-swipe pan handler — converts a raw wheel deltaPx
+    // into a time delta and seeks the playhead. Wired to every lane via
+    // useWheelZoom so the user can pan from anywhere on the strip.
+    const handleWheelPan = useCallback((deltaPx) => {
+        const pxPerSec = PX_PER_SEC * waveZoom;
+        if (pxPerSec <= 0) return;
+        const dt = deltaPx / pxPerSec;
+        const next = Math.max(0, Math.min(effectiveDuration, currentTimeRef.current + dt));
+        currentTimeRef.current = next;
+        setCurrentTime(next);
+        if (audioRef.current && audioRef.current.readyState > 0) {
+            audioRef.current.currentTime = next;
+        }
+    }, [waveZoom, effectiveDuration]);
+
     // ── Load song data ────────────────────────────────────────────────────────
     useEffect(() => {
         if (!songId) return;
@@ -542,6 +584,20 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         effectiveDuration,
     });
 
+    // Track the seek bar's pixel width so we can decide how many times to
+    // tile each section name across its band (marquee behaviour).
+    const [seekBarWidth, setSeekBarWidth] = useState(0);
+    useEffect(() => {
+        const el = seekBarRef.current;
+        if (!el) return;
+        const ro = new ResizeObserver((entries) => {
+            for (const entry of entries) setSeekBarWidth(entry.contentRect.width);
+        });
+        ro.observe(el);
+        setSeekBarWidth(el.getBoundingClientRect().width);
+        return () => ro.disconnect();
+    }, [seekBarRef]);
+
 
     const handleUndoLastCut = useCallback(() => {
         if (editOpsHistory.length === 0) return;
@@ -595,6 +651,37 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const newComp = applyTokenEdit(composition, aavartanas, avIdx, tokIdx, field, newText);
         setComposition(newComp);
     }, [composition, aavartanas, readOnly]);
+
+    // ── Row duplicate / delete (per-content-row icons in NotationLane) ───────
+    // Both handlers operate on the contentRow's source coordinates
+    // (sectionIdx, contentIdx) and mutate composition. contentRows /
+    // aavartanas / aavartanaTimings will recompute via their useMemo deps.
+    const handleRowDuplicate = useCallback((rowIdx) => {
+        if (readOnly || !composition) return;
+        const row = contentRows[rowIdx];
+        if (!row) return;
+        const next = structuredClone(composition);
+        const sectionContent = next[row.sectionIdx]?.content;
+        if (!sectionContent || sectionContent[row.contentIdx] == null) return;
+        const clone = structuredClone(sectionContent[row.contentIdx]);
+        sectionContent.splice(row.contentIdx + 1, 0, clone);
+        setComposition(next);
+    }, [composition, contentRows, readOnly]);
+
+    const handleRowDelete = useCallback((rowIdx) => {
+        if (readOnly || !composition) return;
+        const row = contentRows[rowIdx];
+        if (!row) return;
+        const next = structuredClone(composition);
+        const sectionContent = next[row.sectionIdx]?.content;
+        if (!sectionContent || sectionContent[row.contentIdx] == null) return;
+        sectionContent.splice(row.contentIdx, 1);
+        // If the section is now empty, drop it so empty headers don't linger.
+        if (sectionContent.length === 0) {
+            next.splice(row.sectionIdx, 1);
+        }
+        setComposition(next);
+    }, [composition, contentRows, readOnly]);
 
     // ── Save ──────────────────────────────────────────────────────────────────
     const handleSave = async () => {
@@ -1400,87 +1487,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         </div>
 
                         {/* ── Section Timings Panel ────────────────────────────────────── */}
-                        {showSections && (() => {
-                            const talamRaw = songData?.song_details?.tala || songData?.tala || 'Adi';
-                            const talamNorm = talamRaw.toLowerCase().replace(/[^a-z0-9]/g, '');
-                            let beats = 8;
-                            if (talamNorm.includes('rupaka')) beats = 6;
-                            else if (talamNorm.includes('misrachapu')) beats = 7;
-                            else if (talamNorm.includes('khandachapu')) beats = 5;
-                            else if (talamNorm.includes('khandatriputa')) beats = 9;
-                            else if (talamNorm.includes('tisratriputa')) beats = 7;
-                            else if (talamNorm.includes('chatusraeka')) beats = 4;
-                            else if (talamNorm.includes('tisraeka')) beats = 3;
-                            else if (talamNorm.includes('sankeernaeka')) beats = 9;
-
-                            const bpm = Math.round((beats / effectiveAavartanaSec) * 60);
-                            const beatsPerSec = (beats / effectiveAavartanaSec).toFixed(2);
-                            const autoSec = autoAavartanaSec.toFixed(2);
-                            return (
+                        {showSections && (
                             <div style={{ borderBottom: `1px solid ${borderColor}`, background: isDark ? 'rgba(251,191,36,0.04)' : 'rgba(180,130,0,0.05)' }}>
-                                {/* Calibration & Tempo Row */}
-                                <div className="flex flex-wrap items-center gap-x-10 px-5 pt-3 pb-2.5 flex-shrink-0">
-                                    {/* Speed Section */}
-                                    <div className="flex items-center gap-3">
-                                        <span className="text-[10px] uppercase font-black tracking-widest flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Speed</span>
-                                        <div className="flex items-center gap-2 text-[11px]" style={{ color: 'var(--text-muted)' }}>
-                                            <span className="flex items-center gap-1 px-2 py-0.5 rounded-lg" style={{
-                                                background: customAavartanaSec ? 'rgba(59,130,246,0.12)' : 'rgba(16,185,129,0.08)',
-                                                color: customAavartanaSec ? '#60a5fa' : '#10b981',
-                                                border: `1px solid ${customAavartanaSec ? 'rgba(59,130,246,0.25)' : 'rgba(16,185,129,0.2)'}`,
-                                            }}>
-                                                <Gauge className="w-3 h-3" />
-                                                <SecondsInput
-                                                    value={customAavartanaSec}
-                                                    defaultValue={autoAavartanaSec}
-                                                    onCommit={v => setCustomAavartanaSec(v)}
-                                                    className="w-12 text-center font-mono font-bold tabular-nums bg-transparent border-none outline-none focus:ring-0"
-                                                    style={{ color: 'inherit' }}
-                                                    title="Edit āvartana duration in seconds"
-                                                />
-                                                <span className="opacity-60">s / āvartana</span>
-                                                {customAavartanaSec && <span className="opacity-40 font-normal">(calibrated)</span>}
-                                            </span>
-                                            {customAavartanaSec ? (
-                                                <>
-                                                    <span className="opacity-30">was {autoSec}s auto</span>
-                                                    <button
-                                                        onClick={() => setCustomAavartanaSec(null)}
-                                                        className="text-[10px] opacity-40 hover:opacity-100 px-1 transition-opacity"
-                                                        title="Reset to auto-calculated speed"
-                                                    >✕ Reset</button>
-                                                </>
-                                            ) : (
-                                                <span className="opacity-40">(auto)</span>
-                                            )}
-                                        </div>
-                                    </div>
-
-                                    {/* Talam Section */}
-                                    <div className="flex items-center gap-3">
-                                        <span className="text-[10px] uppercase font-black tracking-widest flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Talam</span>
-                                        <span 
-                                            className="text-[12px] font-black px-2 py-0.5 rounded-lg"
-                                            style={{ background: isDark ? 'rgba(16,185,129,0.12)' : 'rgba(16,185,129,0.08)', color: '#10b981' }}
-                                        >
-                                            {talamRaw} ({beats} beats)
-                                        </span>
-                                        <div className="flex items-center gap-1.5 text-[11px]" style={{ color: 'var(--text-muted)' }}>
-                                            <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{effectiveAavartanaSec.toFixed(2)}s</span>
-                                            <span className="opacity-50">/ āvartana</span>
-                                            <span className="opacity-30 mx-1">·</span>
-                                            <span className="tabular-nums font-mono font-bold" style={{ color: '#a78bfa' }}>{beatsPerSec}</span>
-                                            <span className="opacity-50">beats/s</span>
-                                            <span className="opacity-30 mx-1">·</span>
-                                            <span className="tabular-nums font-mono font-bold" style={{ color: '#10b981' }}>{bpm}</span>
-                                            <span className="opacity-50">BPM</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {/* Section Cues Row */}
-                                <div className="flex items-center gap-1 px-5 pb-3 overflow-x-auto custom-scrollbar">
-                                <span className="text-[10px] uppercase font-black tracking-widest mr-4 flex-shrink-0" style={{ color: isDark ? '#fff' : '#000' }}>Section cues</span>
+                                {/* Section Cues Row — centered */}
+                                <div className="flex items-center justify-center gap-1 px-5 py-3 overflow-x-auto custom-scrollbar">
                                 {uniqueSections.map((section, si) => {
                                     const t = sectionTimings[section];
                                     const isCurrent = currentSection === section;
@@ -1517,13 +1527,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                         </div>
                                     );
                                 })}
-                                <span className="text-[9px] opacity-30 ml-auto flex-shrink-0">
-                                    Play to the section start, then click Set
-                                </span>
                                 </div>
                             </div>
-                            );
-                        })()}
+                        )}
                     </>
                 )}
 
@@ -1532,6 +1538,21 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     className={`flex-1 flex flex-col relative overflow-hidden select-none ${editorMode === 'view' && isDragging ? 'cursor-grabbing' : editorMode === 'view' ? 'cursor-grab' : 'cursor-default'}`}
                     {...dragHandlers}
                 >
+                    {/* Avartana boundary lines spanning all lanes */}
+                    {contentRows.length > 0 && (
+                        <AvartanaBoundaryOverlay
+                            contentRows={contentRows}
+                            contentRowTimings={contentRowTimings}
+                            avPerRow={avPerRow}
+                            aavartanaSec={effectiveAavartanaSec}
+                            timeRef={currentTimeRef}
+                            playheadFraction={PLAYHEAD}
+                            pxPerSec={PX_PER_SEC}
+                            zoom={waveZoom}
+                            isDark={isDark}
+                        />
+                    )}
+
                     {/* Visual playhead */}
                     <div className="absolute inset-y-0 z-20 pointer-events-none" style={{ left: `${PLAYHEAD * 100}%` }}>
                         <div className="absolute inset-y-0" style={{ width: 24, left: -12, background: 'linear-gradient(to right, transparent, rgba(16,185,129,0.18), transparent)' }} />
@@ -1588,6 +1609,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             aavartanaSec={effectiveAavartanaSec}
                             zoom={waveZoom}
                             onZoomChange={setWaveZoom}
+                            onPan={handleWheelPan}
                             pxPerSec={PX_PER_SEC}
                             onSeek={(t) => {
                                 if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
@@ -1676,6 +1698,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     pxPerSec={PX_PER_SEC}
                                     zoom={waveZoom}
                                     onZoomChange={setWaveZoom}
+                                    onPan={handleWheelPan}
+                                    onRowDuplicate={readOnly ? undefined : handleRowDuplicate}
+                                    onRowDelete={readOnly ? undefined : handleRowDelete}
                                 />
                             </div>
                         )}
@@ -1729,6 +1754,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                                     pxPerSec={PX_PER_SEC}
                                     zoom={waveZoom}
                                     onZoomChange={setWaveZoom}
+                                    onPan={handleWheelPan}
                                 />
                             </div>
                         )}
@@ -1739,7 +1765,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 <div
                     className="flex-shrink-0 flex justify-center"
                     style={{
-                        padding: '12px 24px 16px',
+                        padding: '16px 24px 20px',
                         background: isDark ? 'rgba(10,10,15,0.9)' : 'rgba(248,250,252,0.95)',
                         backdropFilter: 'blur(20px)',
                         borderTop: `1px solid ${borderColor}`,
@@ -1747,7 +1773,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                         position: 'relative',
                     }}
                 >
-                    <div className="flex items-center gap-4 w-full" style={{ maxWidth: 800 }}>
+                    <div className="flex items-center gap-4 w-full" style={{ maxWidth: 1000 }}>
                         <span className="text-sm tabular-nums font-mono font-bold" style={{ color: '#10b981', minWidth: 44 }}>
                             {formatTime(currentTime)}
                         </span>
@@ -1760,61 +1786,88 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                             style={{
                                 flex: 1,
                                 position: 'relative',
-                                paddingTop: 24,
+                                paddingTop: 36,
                                 cursor: 'pointer',
                                 userSelect: 'none',
                             }}
                         >
-                                    {/* Section markers: vertical line + label to the right */}
-                                    {uniqueSections.map(section => {
-                                        const t = sectionTimings[section];
-                                        if (t == null) return null;
-                                        const frac = Math.min(1, t / (effectiveDuration || 1));
-                                return (
-                                    <div
-                                        key={section}
-                                        className="absolute"
-                                        style={{
-                                            left: `${frac * 100}%`,
-                                            top: 0,
-                                            bottom: 0,
-                                            zIndex: 5,
-                                            pointerEvents: 'none',
-                                        }}
-                                    >
-                                        {/* Vertical drop line — anchored exactly at frac position */}
-                                        <div style={{
-                                            position: 'absolute',
-                                            left: 0,
-                                            top: 0,
-                                            bottom: 0,
-                                            width: 1,
-                                            background: '#fbbf24',
-                                            opacity: 0.6,
-                                        }} />
-                                        {/* Label — to the right of the line */}
-                                        <span
-                                            className="text-[10px] font-semibold uppercase tracking-wide whitespace-nowrap px-1.5 py-0.5 rounded cursor-pointer"
-                                            style={{
-                                                position: 'absolute',
-                                                top: 0,
-                                                left: 4,
-                                                background: '#fbbf24',
-                                                color: '#000',
-                                                lineHeight: 1.3,
-                                                pointerEvents: 'auto',
-                                            }}
-                                            onClick={(e) => {
-                                                e.stopPropagation();
-                                                if (audioRef.current) audioRef.current.currentTime = t;
-                                            }}
-                                            title={`${section} — ${formatTime(t)}`}
-                                        >
-                                            {section}
-                                        </span>
-                                    </div>
-                                );
-                            })}
+                                    {/* Section bands — one horizontal strip per
+                                        section spanning its [start, end] range.
+                                        Section name is tiled marquee-style across
+                                        the band so the label is visible regardless
+                                        of how wide or narrow the band is. */}
+                                    {sectionRanges.map((range, ri) => {
+                                        if (effectiveDuration <= 0) return null;
+                                        const startFrac = Math.max(0, Math.min(1, range.start / effectiveDuration));
+                                        const endFrac = Math.max(0, Math.min(1, range.end / effectiveDuration));
+                                        const widthFrac = Math.max(0, endFrac - startFrac);
+                                        if (widthFrac <= 0) return null;
+                                        const widthPx = widthFrac * (seekBarWidth || 0);
+                                        // Width model: uppercase bold char width
+                                        // ≈ font_px × CHAR_EM, plus PAD_PX of inner
+                                        // padding. Same formula at every font size,
+                                        // so the shrink is consistent.
+                                        const BASE_FONT = 11;
+                                        const CHAR_EM = 0.72;
+                                        const PAD_PX = 12;
+                                        const chars = range.section.length;
+                                        const labelAt = (fp) => chars * fp * CHAR_EM + PAD_PX;
+                                        // Start at base font; shrink to fit when
+                                        // even one copy doesn't fit. Floor at 7px
+                                        // so it stays legible.
+                                        let fontPx = BASE_FONT;
+                                        if (widthPx > 0 && labelAt(BASE_FONT) > widthPx) {
+                                            fontPx = Math.max(7, Math.floor((widthPx - PAD_PX) / (chars * CHAR_EM)));
+                                        }
+                                        const labelPx = labelAt(fontPx);
+                                        // Tile a second copy only when the band
+                                        // can comfortably fit two full labels.
+                                        const repeatCount = labelPx > 0
+                                            ? Math.max(1, Math.floor(widthPx / labelPx))
+                                            : 1;
+                                        const isCurrent = currentSection === range.section;
+                                        return (
+                                            <div
+                                                key={`${range.section}-${ri}`}
+                                                className="absolute flex items-center font-black uppercase cursor-pointer rounded overflow-hidden"
+                                                style={{
+                                                    left: `${startFrac * 100}%`,
+                                                    width: `${widthFrac * 100}%`,
+                                                    top: 0,
+                                                    height: 26,
+                                                    fontSize: `${fontPx}px`,
+                                                    letterSpacing: '0.04em',
+                                                    zIndex: 5,
+                                                    background: isCurrent
+                                                        ? 'rgba(251,191,36,0.9)'
+                                                        : 'rgba(251,191,36,0.45)',
+                                                    color: isCurrent ? '#000' : '#1f1300',
+                                                    border: '1px solid rgba(251,191,36,0.6)',
+                                                    justifyContent: repeatCount > 1 ? 'space-around' : 'center',
+                                                    backdropFilter: 'blur(4px)',
+                                                }}
+                                                onClick={(e) => {
+                                                    e.stopPropagation();
+                                                    if (audioRef.current && audioRef.current.readyState > 0) {
+                                                        audioRef.current.currentTime = range.start;
+                                                    }
+                                                    currentTimeRef.current = range.start;
+                                                    setCurrentTime(range.start);
+                                                }}
+                                                title={`${range.section} — ${formatTime(range.start)} → ${formatTime(range.end)}`}
+                                            >
+                                                {Array.from({ length: repeatCount }).map((_, i) => (
+                                                    <span
+                                                        key={i}
+                                                        className="whitespace-nowrap"
+                                                        style={{ padding: '0 6px' }}
+                                                    >
+                                                        {range.section}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        );
+                                    })}
 
                             {/* Actual slider track area */}
                             <div style={{ position: 'relative', height: 44 }}>

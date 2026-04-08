@@ -14,27 +14,27 @@
             "content": [
                 {
                     "swara": "; S N D    P ; pmG   M P,d  pmG   RS rs N   |  ; S  ,r  G      ; M  P ,d        dppm pdpd   P ; ; ;  ||",
-                    "sahitya": "Koluva  ma- re--    ga - - - dA--    - -  - - -       -kO- daN-   - Da pA-        - - - -   - - -   Ni ||"
+                    "sahitya": "Koluva  Ma- Re--    Ga - - - Da--    - -  - - -       -Ko- Dan-   - Da Pa-        - - - -   - - -   Ni ||"
                 },
                 {
                     "swara": ",d-S N D   P ; pmG   mpdp  pm- G   rsN sgrs   |  rn- S  ,r G    ;  M pdnd   dppm pdpd   P ; ; gm  ||",
-                    "sahitya": "Koluva  ma- re--    ga - - - - - dA--    - -  - - -     - - kO- daN-   Da pA- -   - - - -   - - - Ni- - - - ||"
+                    "sahitya": "Koluva  Ma- Re--    Ga - - - - - Da--    - -  - - -     - - Ko- Dan-   Da Pa- -   - - - -   - - - Ni- - - - ||"
                 },
                 {
                     "swara": "pd-S N D   P ; pmG   mpdp  pm- G   rsN sgrs   |  rn- S  ,r G    ; M pdnd   dppm pdpd   P ; pmgm  ||",
-                    "sahitya": "Koluva  ma- re--    ga - -    - - dA--    - -  - - -       - kO- daN-    Da pA- -   - - - -   - - Ni- - - - ||"
+                    "sahitya": "Koluva  Ma- Re--    Ga - -    - - Da--    - -  - - -       - Ko- Dan-    Da Pa- -   - - - -   - - Ni- - - - ||"
                 },
                 {
                     "swara": "pd-nr sn D   P ; pmG   gmpd  ns-N   , dpm G , r   |  sn- S  ,p dp     mg M  mgmd  dmdn ndns   snsr srgr ||",
-                    "sahitya": "Ko lu va  ma- re--    ga - -  - - dA--    - -  - - -        - - kO- daN-   - - Da pA- -   - - - -  Ni- -   - --  - - - ||"
+                    "sahitya": "Ko Lu Va  Ma- Re--    Ga - -  - - Da--    - -  - - -        - - Ko- Dan-   - - Da Pa- -   - - - -  Ni- -   - --  - - - ||"
                 },
                 {
                     "swara": "rs- nr sn D   P ; pmG   gmpd  ns - rs   nd pm-gmpm gr  |  sn- S  ,p dp   mg M mgmd  dmdn ndns   snsr srgr ||",
-                    "sahitya": "Ko lu va  ma- re--    ga - - - - -  dA--    - -  - - -    - - -     - - kO- daN-  - - Da pA- -   - - - -  Ni- -   - --  - - - ||"
+                    "sahitya": "Ko Lu Va  Ma- Re--    Ga - - - - -  Da--    - -  - - -    - - -     - - Ko- Dan-  - - Da Pa- -   - - - -  Ni- -   - --  - - - ||"
                 },
                 {
                     "swara": "rs- nr sn D   P ; pmG   mpdp  pm-G   rsN sgrs   |  rn- S  ,r  G    ;  M  P nd   dppm pdpd   PMP ; ||",
-                    "sahitya": "Ko lu va  ma- re--    ga - - - - - dA--- -  - - -    - - -  kO- daN-  -Da pA-   - - - -  - - - -    Ni- -   - ||"
+                    "sahitya": "Ko Lu Va  Ma- Re--    Ga - - - - - Da--- -  - - -    - - -  Ko- Dan-  -Da Pa-   - - - -  - - - -    Ni- -   - ||"
                 }
             ]
         },
@@ -43,51 +43,51 @@
             "content": [
                 {
                     "swara": "; D D N   S ;  snD       D N D-dn  NS ; ;  |  ; ; ; ;   ; ;  ; ;  |      ; ;  ; ;            ; ;  ; ;  ||",
-                    "sahitya": "Na luva ku   pa--       lu  -  -  ku- la-  - -     - - - -    - -  - -           - - - -           - - - - ||"
+                    "sahitya": "Na Luva Ku   Pa--       Lu  -  -  Ku- La-  - -     - - - -    - -  - -           - - - -           - - - - ||"
                 },
                 {
                     "swara": "; D D N   S ;  snD       D N D-dn  NS ; ;  |  ; D N S    S ; rSn   nDn S N     rs nd D ;  ||",
-                    "sahitya": "Na luva ku   pa--       lu  -  -  ku- la-  - -       ce li ya   ku ru- - kmi- -  Ni    ki- - - - ||"
+                    "sahitya": "Na Luva Ku   Pa--       Lu  -  -  Ku- La-  - -       Ce Li Ya   Ku Ru- - Kmi- -  Ni    Ki- - - - ||"
                 },
                 {
                     "swara": "; D D N   S ;  snD       D N D-dn  NS ; ;  |  ; D N S    S ; rSn   nDn S N      rs nd pdnd  ||",
-                    "sahitya": "Na luva ku   pa--       lu  -  -  ku- la-  - -       ce li ya   ku ru- - kmi- -  Ni    ki- - - - ||"
+                    "sahitya": "Na Luva Ku   Pa--       Lu  -  -  Ku- La-  - -       Ce Li Ya   Ku Ru- - Kmi- -  Ni    Ki- - - - ||"
                 },
                 {
                     "swara": "pm- D D N   S ;  snD       D N D-dn  NS ; ;  |  ; D N S    S ; rSn   nDn S N      rs nd pdnd  ||",
-                    "sahitya": "- -   Na luva  ku   pa--      lu  -  -  ku- la-  - -       ce li ya   ku ru- - kmi- -  Ni    ki- - - - ||"
+                    "sahitya": "- -   Na Luva  Ku   Pa--      Lu  -  -  Ku- La-  - -       Ce Li Ya   Ku Ru- - Kmi- -  Ni    Ki- - - - ||"
                 },
                 {
                     "swara": "pm- D D N   srsr  snD     dnsr G- R  NS ; ;  |  ; D N S    S ; nsrs ,n   nDn S N     rs nd pdnd  ||",
-                    "sahitya": "- -   Na luva  ku   pa--      lu  -  -  ku- la-  - -       ce li ya   ku ru- - -   kmi- -  Ni    ki- - - - ||"
+                    "sahitya": "- -   Na Luva  Ku   Pa--      Lu  -  -  Ku- La-  - -       Ce Li Ya   Ku Ru- - -   Kmi- -  Ni    Ki- - - - ||"
                 },
                 {
                     "swara": "pm- D D N   srsr  snD     dnsr G- R  NS ; ;  |  ; D N S    S ; nsrs ,n   nDn S N     rs nd D ;  ||",
-                    "sahitya": "- -   Na luva  ku   pa--      lu  -  -  ku- la-  - -       ce li ya   ku ru- - -   kmi- -  Ni    ki- - - - ||"
+                    "sahitya": "- -   Na Luva  Ku   Pa--      Lu  -  -  Ku- La-  - -       Ce Li Ya   Ku Ru- - -   Kmi- -  Ni    Ki- - - - ||"
                 },
                 {
                     "swara": "; - N G R       S ;  N S       D N D - dn   N S ; ;  | ; - N G R       S ;  N S       D N D - dn   N S ; dn ||",
-                    "sahitya": "La li ta      ku   sI -        -   -   -     ta-   ku- - -    -  La li ta      ku   sI -        -   -   -     ta-   ku- - - -- ||"
+                    "sahitya": "La Li Ta      Ku   Si -        -   -   -     Ta-   Ku- - -    -  La Li Ta      Ku   Si -        -   -   -     Ta-   Ku- - - -- ||"
                 },
                 {
                     "swara": "S- N G R       S ;  nsrs     dnsn nd -dn   S dn S-dn  | S - N G R     S ;  nsrs     dnsn nd -dn   S dn S-dn ||",
-                    "sahitya": "La li ta      ku   sI -        -   -   -     ta-   ku- - -    -    -  La li ta      ku  sI -        -   -   -    ta-   ku- - - -- ||"
+                    "sahitya": "La Li Ta      Ku   Si -        -   -   -     Ta-   Ku- - -    -    -  La Li Ta      Ku  Si -        -   -   -    Ta-   Ku- - - -- ||"
                 },
                 {
                     "swara": "S- N R R       R ;  srgr     rssn nd -dn   srgr- rssn  | nd - R R R       R ;  srgr     rssn nd -dn   srgr- rssn ||",
-                    "sahitya": "La li ta      ku   sI -        -   -   -   ta-   ku- - -    -    - -  La li ta      ku  sI -        -   -   -    ta-   ku- - - -- ||"
+                    "sahitya": "La Li Ta      Ku   Si -        -   -   -   Ta-   Ku- - -    -    - -  La Li Ta      Ku  Si -        -   -   -    Ta-   Ku- - - -- ||"
                 },
                 {
                     "swara": "S- R R R       rnR- rg Mpm  grsn nd -dn   NS ; ;   | D n r - snD       pdN dpP    mgmd dm-dn   nd N dn sr ||",
-                    "sahitya": "La li ta      ku    sI -      -   -   -   - -   ta-   ku- - -    la- -      - kSma Nu—ni- -  ka- ru-  - -  dai- - -  - na- - - ||"
+                    "sahitya": "La Li Ta      Ku    Si -      -   -   -   - -   Ta-   Ku- - -    La- -      - Ksma Nu—ni- -  Ka- Ru-  - -  Dai- - -  - Na- - - ||"
                 },
                 {
                     "swara": "grg-rnr-nd    n-ddm-G; gmpd  ns - nsrs nd pm-gmpm gr | sn- S  ,p dp   mg M mgmd  dmdn ndns  snsr srgr ||",
-                    "sahitya": "Ko  lu  va     -  ma-  re- ga - - - - -  dA--    - -  - - -    - - -    - -  kO- daN-  - - Da pA- -   - - - -  Ni- -   - --  - - - ||"
+                    "sahitya": "Ko  Lu  Va     -  Ma-  Re- Ga - - - - -  Da--    - -  - - -    - - -    - -  Ko- Dan-  - - Da Pa- -   - - - -  Ni- -   - --  - - - ||"
                 },
                 {
                     "swara": "rs- nr sn D   P ; pmG   mpdp  pm-G   rsN sgrs   |  rn- S  ,r  G    ;  M  P nd   dppm pdpd   PMP ; ||",
-                    "sahitya": "Ko lu va  ma- re--    ga - - - - - dA--- -  - - -    - - -  kO- daN-  -Da pA-   - - - -  - - - -    Ni- -   - ||"
+                    "sahitya": "Ko Lu Va  Ma- Re--    Ga - - - - - Da--- -  - - -    - - -  Ko- Dan-  -Da Pa-   - - - -  - - - -    Ni- -   - ||"
                 }
             ]
         },
@@ -96,59 +96,59 @@
             "content": [
                 {
                     "swara": "; N ; D    D ; P ;     ; ;  ; pm    G ; ; ;  | ; gp mg R   S ; ; ;     ; ; N S            R G M pd ||",
-                    "sahitya": "vE- ku   va - jA-   - -  - mu-  na - - -    -ve- la- yu  cu- - -    - - -  -              -  -   -  - ||"
+                    "sahitya": "Ve- Ku   Va - Ja-   - -  - Mu-  Na - - -    -Ve- La- Yu  Cu- - -    - - -  -              -  -   -  - ||"
                 },
                 {
                     "swara": "N- N ; D   D ; P ;     ; ;  ; pm    G ; ; ;  | ; gp mg R   S ; ; ;     ; ; nDn            S,r  gmpd ||",
-                    "sahitya": "vE- ku   va - jA-   - -  - mu-  na - - -    -ve- la- yu  cu- - -    - - -  -              -  -   -  - - ||"
+                    "sahitya": "Ve- Ku   Va - Ja-   - -  - Mu-  Na - - -    -Ve- La- Yu  Cu- - -    - - -  -              -  -   -  - - ||"
                 },
                 {
                     "swara": "ns- N ; D   D ; pdnd    dpP  ; mp    mpdp ,m G; | ;  gp mg R   S ; ; ;     ; ; nDn            S,r  gmpd ||",
-                    "sahitya": "vE- ku  va- jA-   - -  - -   - mu-   na - - -  - - -    - ve- la- yu  cu- - -    - - -  -              -  -   -  - - ||"
+                    "sahitya": "Ve- Ku  Va- Ja-   - -  - -   - Mu-   Na - - -  - - -    - Ve- La- Yu  Cu- - -    - - -  -              -  -   -  - - ||"
                 },
                 {
                     "swara": "ns- nSd- D   D ; pdnd    dpP  ; mp    mpdp ,d pmG ; | ;  gp mg R   S ; srG     grR  mgM  GR  srgm ||",
-                    "sahitya": "vE-  ku  va- jA-   - -  - -   - mu-   na - - -  - - - -    - ve- la- yu  cu- tam-   bU-  ra -     -  -   - - - - ||"
+                    "sahitya": "Ve-  Ku  Va- Ja-   - -  - -   - Mu-   Na - - -  - - - -    - Ve- La- Yu  Cu- Tam-   Bu-  Ra -     -  -   - - - - ||"
                 },
                 {
                     "swara": "pd- pmG M  P ; ; ;     ; ; ; N         D - N P - dp |  md- ppmg M  P ; ; ;     ; ; ; mn        ,d - d N p - dp ||",
-                    "sahitya": "--   jE- -   ko ni -  -     - -  tam-     -     bU-    ra-   -  -   jE- -   ko ni - - -    - - - tam-      --    bU- -    ra- ||"
+                    "sahitya": "--   Je- -   Ko Ni -  -     - -  Tam-     -     Bu-    Ra-   -  -   Je- -   Ko Ni - - -    - - - Tam-      --    Bu- -    Ra- ||"
                 },
                 {
                     "swara": "md- ppmg M  P ; pdN    dppm-dppm  G ; - pmgr | sn- S sr  G   ; M- pdnd   dppm pdpd   P ;  ;  ;  ||",
-                    "sahitya": "--    jE- -    ko ni- gu--    Na- - - mu- -  la -   - - - -   - -  jelu-von - da bA-      -  - -   Du- -  cu - - - ||"
+                    "sahitya": "--    Je- -    Ko Ni- Gu--    Na- - - Mu- -  La -   - - - -   - -  Jelu-von - Da Ba-      -  - -   Du- -  Cu - - - ||"
                 },
                 {
                     "swara": "; D ;  dn   S ;  S,n       D N D-dn  NS ; ;  |  ; ; ; ;   ; ;  ; ;  |      ; ;  ; ;            ; ;  ; ;  ||",
-                    "sahitya": "- shrI-ka-  ru- ni- -      kA-  -  shri ta- - -     - - -      - -  - -         - -  - -           - -  - - ||"
+                    "sahitya": "- Shri-ka-  Ru- Ni- -      Ka-  -  Shri Ta- - -     - - -      - -  - -         - -  - -           - -  - - ||"
                 },
                 {
                     "swara": "; D ;  dn   S ;  S,n       D N D-dn  NS ; ;  |  ; dn  nS,    ; ; rSn   nDn S N     rs nd D ;  ||",
-                    "sahitya": "- shrI-ka-  ru- ni- -      kA-  -  shri ta- - -     - cin tA-    - - ma-  ni- - -  -      ki - -  - - ||"
+                    "sahitya": "- Shri-ka-  Ru- Ni- -      Ka-  -  Shri Ta- - -     - Cin Ta-    - - Ma-  Ni- - -  -      Ki - -  - - ||"
                 },
                 {
                     "swara": "; D ;  dn   S ;  S,n       D N D-dn  NS ; ;  |  ; dn  nS,    ; ; rSn   nDn S N     rs nd pdnd ||",
-                    "sahitya": "- shrI-ka-  ru- ni- -      kA-  -  shri ta- - -     - cin tA-    - - ma-  ni- - -  -      ki - -  - - - - ||"
+                    "sahitya": "- Shri-ka-  Ru- Ni- -      Ka-  -  Shri Ta- - -     - Cin Ta-    - - Ma-  Ni- - -  -      Ki - -  - - - - ||"
                 },
                 {
                     "swara": "pm- D ;  dn   srsr snD      dn sr G-R   NS ; ;  |  ; dn  nS,    ; ; nsrs ,n nDn S N     rs nd D ; ||",
-                    "sahitya": "- -   shrI-ka-   ru- ni- -      kA-  -  shri  ta- - -     - cin tA-    - - ma-  - ni- - -  -      ki - -  - - - ||"
+                    "sahitya": "- -   Shri-ka-   Ru- Ni- -      Ka-  -  Shri  Ta- - -     - Cin Ta-    - - Ma-  - Ni- - -  -      Ki - -  - - - ||"
                 },
                 {
                     "swara": "; - N G R       S ;  N S       D N D - dn   N S ; ;  |  Dn Srs nD  pdN-dpP  mgmd ,m-D  N D -dnS ||",
-                    "sahitya": "-   vA  -ka      li-  dI -        -   -    -   ra-   pA-  - -    lA- - -  -ra gim- pa-    jE- -   -  -  yu  - -    - - - ||"
+                    "sahitya": "-   Va  -Ka      Li-  Di -        -   -    -   Ra-   Pa-  - -    La- - -  -Ra Gim- Pa-    Je- -   -  -  Yu  - -    - - - ||"
                 },
                 {
                     "swara": "; - N G R       S ;  nsrs     dnsn nd -dn   N S ; ;  |  Dn Srs nD  pdN-dpP  mgmd ,m-D  N D -dnsr ||",
-                    "sahitya": "-   vA  -ka      li-  dI -        -   -    -   ra-   pA-  - -    lA- - -  -ra gim- pa-    jE- -   -  -  yu  - -    - - - ||"
+                    "sahitya": "-   Va  -Ka      Li-  Di -        -   -    -   Ra-   Pa-  - -    La- - -  -Ra Gim- Pa-    Je- -   -  -  Yu  - -    - - - ||"
                 },
                 {
                     "swara": "grg-rnr-nd    n-ddm-G; gmpd  ns - nsrs nd pm-gmpm gr | sn- S  ,p dp   mg M mgmd  dmdn ndns  snsr srgr ||",
-                    "sahitya": "Ko  lu  va     -  ma-  re- ga - - - - -  dA--    - -  - - -    - - -    - -  kO- daN-  - - Da pA- -   - - - -  Ni- -   - --  - - - ||"
+                    "sahitya": "Ko  Lu  Va     -  Ma-  Re- Ga - - - - -  Da--    - -  - - -    - - -    - -  Ko- Dan-  - - Da Pa- -   - - - -  Ni- -   - --  - - - ||"
                 },
                 {
                     "swara": "rs- nr sn D   P ; pmG   mpdp  pm-G   rsN sgrs   |  rn- S  ,r  G    ;  M  P nd   dppm pdpd   PMP ; ||",
-                    "sahitya": "Ko lu va  ma- re--    ga - - - - - dA--- -  - - -    - - -  kO- daN-  -Da pA-   - - - -  - - - -    Ni- -   - ||"
+                    "sahitya": "Ko Lu Va  Ma- Re--    Ga - - - - - Da--- -  - - -    - - -  Ko- Dan-  -Da Pa-   - - - -  - - - -    Ni- -   - ||"
                 }
             ]
         }

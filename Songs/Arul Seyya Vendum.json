@@ -18,51 +18,51 @@
                 },
                 {
                     "swara": "; p d       , p    P       P ,  m      G - M     |    P   ;           ;   ;      |    ;  ;             ;  ;    ||",
-                    "sahitya": "aruL      sheiya    vEN-      dum   ay         yA  -         -  -            -  -           -   - ||"
+                    "sahitya": "Arul      Sheiya    Ven-      Dum   Ay         Ya  -         -  -            -  -           -   - ||"
                 },
                 {
                     "swara": "; p d       , p    P       P ,  m      G - M     |    P   ;           ;   ;      |    ;  ;             dp  dp    ||",
-                    "sahitya": "aruL      sheiya    vEN-      dum   ay         yA  -         -  -            -  -           ay   yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-      Dum   Ay         Ya  -         -  -            -  -           Ay   Ya ||"
                 },
                 {
                     "swara": "D- p d      , p    P       P ,  m      G - M     |    P   ;           ;   ;      |    ;  dp         dp  D    ||",
-                    "sahitya": "aruL      sheiya    vEN-      dum   ay         yA  -         -  -            - ay         yA  nI ||"
+                    "sahitya": "Arul      Sheiya    Ven-      Dum   Ay         Ya  -         -  -            - Ay         Ya  Ni ||"
                 },
                 {
                     "swara": "; - p d      , p    P       dpP ,  m     gr  - , m     |    P   ;           ;   ;      |    ;  d p         dp   D    ||",
-                    "sahitya": "aruL      sheiya    vEN-          dum   ay         yA  -         -  -            -  muru     gay-yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-          Dum   Ay         Ya  -         -  -            -  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "; - p d      , p    P       Mp  m        gr  - , m     |    P   ;           ;   nr      |    sn - d n         dp - pm   ||",
-                    "sahitya": "aruL      sheiya    vEN-          dum   ay         yA  -           -   ara        sE-  muru     gay-yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-          Dum   Ay         Ya  -           -   Ara        Se-  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "P -  p d      , p    P     Mp  m        gr  - , m     |    P   dd           P-   nr      | sn - d d        pm - gr    ||",
-                    "sahitya": "aruL      sheiya    vEN-          dum   ay         yA  -           -   ara        sE-  muru     gay-yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-          Dum   Ay         Ya  -           -   Ara        Se-  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "gm - p d      , n   rsS   dP -p          mg  - , m     |    P   ;           ;-   nr      |    sn - n d        pm - gr    ||",
-                    "sahitya": "aruL      sheiya    vEN-         dum   ay          yA  -           -   ara        sE-  muru     gay-yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-         Dum   Ay          Ya  -           -   Ara        Se-  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "gm - p d      , n   rsS   dP -p          mg  - , m     |    P   dd           P -pm      |   dd - pm        dd - pd    ||",
-                    "sahitya": "aruL      sheiya    vEN-         dum   ay          yA  -               -   ara        sE-  muru     gay-yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-         Dum   Ay          Ya  -               -   Ara        Se-  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "dm - p d      , n   rsS   dP -p          mg  - , gr     |    S R              S -sr      |   gm - pd        ns - nd    ||",
-                    "sahitya": "aruL      sheiya    vEN-         dum      ay          yA  -            -   ara        sE-  muru     gay-yA ||"
+                    "sahitya": "Arul      Sheiya    Ven-         Dum      Ay          Ya  -            -   Ara        Se-  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "pm - p d      , p    P     dpP , m        G  -   , gr     |    S R              S -sr      |   gm - pd        ns - nd    ||",
-                    "sahitya": "- nI   aruL     sheiya    vEN-          dum      ay          yA  -            -   ara        sE-  muru     gay-yA ||"
+                    "sahitya": "- Ni   Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   Ara        Se-  Muru     Gay-ya ||"
                 },
                 {
                     "swara": "pm - p d      , p    D     dpP , m        G  -   , gr     |    gMm-            P D     |    ;   ;           P   ;     ||",
-                    "sahitya": "- nI   aruL     sheiya    vEN-          dum      ay          yA  -            -   -            -  -           -   - ||"
+                    "sahitya": "- Ni   Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   -            -  -           -   - ||"
                 },
                 {
                     "swara": ";   ;             DM         P   ;       ;    ;   |    ;   ;         ;   ;     |    ;   ;          ;   ;  ||",
-                    "sahitya": "Ay-        ya ||"
+                    "sahitya": "Ay-        Ya ||"
                 }
             ]
         },
@@ -71,51 +71,51 @@
             "content": [
                 {
                     "swara": "; p d      , p  D       N   ;           ;  ;      |         ;  ;              S  ;    |        ;   ;    ;   ;      ||",
-                    "sahitya": "maruL   u ra       vE   -          -  -              -  -              -  -             -    -       -    - ||"
+                    "sahitya": "Marul   U Ra       Ve   -          -  -              -  -              -  -             -    -       -    - ||"
                 },
                 {
                     "swara": "; p d      , p  D       snN           , s  S     |  ; n s               , n S     |     n S ,        N  D   ||",
-                    "sahitya": "maruL   u  ra      vE- -          ennai       maya           kkiDum     mA-        -  ya ||"
+                    "sahitya": "Marul   U  Ra      Ve- -          Ennai       Maya           Kkidum     Ma-        -  Ya ||"
                 },
                 {
                     "swara": "; p d      , p  D       snN            S   S     |  ; n s               , n S     |     n S ,       ;    sd ||",
-                    "sahitya": "maruL   u  ra      vE- -          ennai       maya           kkiDum     mA-        - -  ya ||"
+                    "sahitya": "Marul   U  Ra      Ve- -          Ennai       Maya           Kkidum     Ma-        - -  Ya ||"
                 },
                 {
                     "swara": "; p d      , p  D       snN            s-n   S     |  ; n s               , r S     |     n S ,       ;    pd ||",
-                    "sahitya": "maruL   u  ra      vE- -          - ennai       maya           kkiDum     mA-        - -  ya ||"
+                    "sahitya": "Marul   U  Ra      Ve- -          - Ennai       Maya           Kkidum     Ma-        - -  Ya ||"
                 },
                 {
                     "swara": "; p d      , p  D       snN            s-n   S     |  ; n s               , r S     |     nsrs        S R  ||",
-                    "sahitya": "maruL   u  ra      vE- -          - ennai       maya           kkiDum     mA-         ya - ||"
+                    "sahitya": "Marul   U  Ra      Ve- -          - Ennai       Maya           Kkidum     Ma-         Ya - ||"
                 },
                 {
                     "swara": "; p d      , p  D       N  ;            s- s   S     |  ; n s               , r S     |     nsrs        R - G ||",
-                    "sahitya": "maruL   u  ra      vE- -          - ennai       maya           kkiDum     mA-         ya -val ||"
+                    "sahitya": "Marul   U  Ra      Ve- -          - Ennai       Maya           Kkidum     Ma-         Ya -Val ||"
                 },
                 {
                     "swara": "; g m    , g G         gr-S          r - s - sn    |  ;  - pn          ,  p M    | pm nn       pm - nn  ||",
-                    "sahitya": "I ruL    a  ra       vE  jnA      -  na sU       -   riyan       - e na     van-dOr-   -  -   shol- ||"
+                    "sahitya": "I Rul    A  Ra       Ve  Jna      -  Na Su       -   Riyan       - E Na     Van-dor-   -  -   Shol- ||"
                 },
                 {
                     "swara": "pm - p d      , p    D     n P- p          pm  -   , dP     |   pD,               P ;      |    ;   ;           P   ;     ||",
-                    "sahitya": "- -    aruL     sheiya    vEN-          dum        ay         yA  -            -   -            -  -           -   - ||"
+                    "sahitya": "- -    Arul     Sheiya    Ven-          Dum        Ay         Ya  -            -   -            -  -           -   - ||"
                 },
                 {
                     "swara": "; p d      , p  D       N  ;            s- n  s-n     | S- n s               , r S     |     nsrs        R - G ||",
-                    "sahitya": "maruL   u  ra      vE- -          - ennai           maya           kkiDum     mA-         ya -val ||"
+                    "sahitya": "Marul   U  Ra      Ve- -          - Ennai           Maya           Kkidum     Ma-         Ya -Val ||"
                 },
                 {
                     "swara": "; g m    , g G         rg-S          r - s -sn    |  ;  - pn          ,  p M    | pm nn       pm - gr  ||",
-                    "sahitya": "I ruL    a  ra       vE  jnA      -  na sU       -   riyan       - e na     van-dOr-   -  -   shol- ||"
+                    "sahitya": "I Rul    A  Ra       Ve  Jna      -  Na Su       -   Riyan       - E Na     Van-dor-   -  -   Shol- ||"
                 },
                 {
                     "swara": "pm - p d      , n   rsS   nP -p          mg  - ,  gr     |    S R              S -sr      |   gm - pm      pm - pd    ||",
-                    "sahitya": "- -    aruL     sheiya    vEN-          dum      ay          yA  -            -   ara        sE-  muru   gay-yA ||"
+                    "sahitya": "- -    Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   Ara        Se-  Muru   Gay-ya ||"
                 },
                 {
                     "swara": "pm - p d      , p    D     npP , m        G  -   , pm     |   pD,               P ;     |    ;   ;           P   ;     ||",
-                    "sahitya": "- nI   aruL     sheiya    vEN-          dum      ay          yA  -            -   -            -  -           -   - ||"
+                    "sahitya": "- Ni   Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   -            -  -           -   - ||"
                 }
             ]
         },
@@ -124,59 +124,59 @@
             "content": [
                 {
                     "swara": "; pm        , G ,      ;   R           , S ,   |      ; sn        , D    |       ; ns      r s R  ||",
-                    "sahitya": "Nilai       yA -    -  kA         -yam            ilai        yE             i-       da-nai ||"
+                    "sahitya": "Nilai       Ya -    -  Ka         -Yam            Ilai        Ye             I-       Da-nai ||"
                 },
                 {
                     "swara": "; pm        , ggr      gg-  sr          , S ,   |      ; sn        , D    |       ; ns      r s R  ||",
-                    "sahitya": "Nilai       yA -    -  -  kA         -yam         ilai        yE             i-       da-nai ||"
+                    "sahitya": "Nilai       Ya -    -  -  Ka         -Yam         Ilai        Ye             I-       Da-nai ||"
                 },
                 {
                     "swara": "; r s         , R ,      pdp-m        pm- gr |   G   , p       ;  M |      pd M       ; P    ||",
-                    "sahitya": "Nilai       en        ren   Nu-  -     -  va    de     en        na       mA -        - yam ||"
+                    "sahitya": "Nilai       En        Ren   Nu-  -     -  Va    De     En        Na       Ma -        - Yam ||"
                 },
                 {
                     "swara": "; pm        , gr gmp mm  gG  , -  s    R S |      ; sn        , D    |       ; ns      r s R  ||",
-                    "sahitya": "Nilai       yA -    -  -  - -          kA -yam         ilai        yE             i-       da-nai ||"
+                    "sahitya": "Nilai       Ya -    -  -  - -          Ka -Yam         Ilai        Ye             I-       Da-nai ||"
                 },
                 {
                     "swara": "; r s         , R ,      pdp-m        pm- gr |   G   P       ;  M |      pmpd -    M - P    ||",
-                    "sahitya": "Nilai       en        ren  Nu-  -     -   va    de   en        na       mA -        - yam ||"
+                    "sahitya": "Nilai       En        Ren  Nu-  -     -   Va    De   En        Na       Ma -        - Yam ||"
                 },
                 {
                     "swara": "; p d      , p  D      N -N          S  - S     |    ;    ;                 ;   ;      |     ;  ;           ;  ;    ||",
-                    "sahitya": "Ni la      en -       ru   nai         -    yE       - -                   -   -           -   -          - - ||"
+                    "sahitya": "Ni La      En -       Ru   Nai         -    Ye       - -                   -   -           -   -          - - ||"
                 },
                 {
                     "swara": "; p d      , p  D      N -N          S  - S     |  ; n s               , r - S     |     S ;        ,n  D   ||",
-                    "sahitya": "Ni la      en -       ru   nai         -    yE       ninai           ndu nAn      uy          -- ya ||"
+                    "sahitya": "Ni La      En -       Ru   Nai         -    Ye       Ninai           Ndu Nan      Uy          -- Ya ||"
                 },
                 {
                     "swara": "; p d      , p  D      sn  -N         S  - S     |  ; n s               , r - S     |     S ;        ,n  pd   ||",
-                    "sahitya": "Ni la      en -       ru   nai         -    yE       ninai           ndu nAn      uy          -- ya ||"
+                    "sahitya": "Ni La      En -       Ru   Nai         -    Ye       Ninai           Ndu Nan      Uy          -- Ya ||"
                 },
                 {
                     "swara": "; p d      , p  D      sn  -N         S  - S     |  ; n s               , r - S     |     nsrs       S R   ||",
-                    "sahitya": "Ni la      en -       ru   nai         -    yE       ninai           ndu nAn      uy          ya - ||"
+                    "sahitya": "Ni La      En -       Ru   Nai         -    Ye       Ninai           Ndu Nan      Uy          Ya - ||"
                 },
                 {
                     "swara": "; g m    , g  G         R -S          r - s  S    |  ;  - ns          ,  d  P    | pm nn       pm - gr  ||",
-                    "sahitya": "nE-    sha ka       vi  kun      -    ja ra-     -    dA           sa ra     si-  ka-      - -    pri ||"
+                    "sahitya": "Ne-    Sha Ka       Vi  Kun      -    Ja Ra-     -    Da           Sa Ra     Si-  Ka-      - -    Pri ||"
                 },
                 {
                     "swara": "G  g m    , g  G         R -S          r - s  S    |  ;  - ns          ,  d  P    | pm nn       pm - gr  ||",
-                    "sahitya": "ya nE-    sha ka       vi  kun      -    ja ra-     -     dA           sa ra     si-  ka-      - -    pri ||"
+                    "sahitya": "Ya Ne-    Sha Ka       Vi  Kun      -    Ja Ra-     -     Da           Sa Ra     Si-  Ka-      - -    Pri ||"
                 },
                 {
                     "swara": "gm - p d      , n   rsS   nP -p          mg  - ,  gr     |    S R              S - rr      |   sn -  d d      pm - gr    ||",
-                    "sahitya": "- -    aruL     sheiya    vEN-          dum      ay          yA  -            -   ara        sE-  muru   gay-yA ||"
+                    "sahitya": "- -    Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   Ara        Se-  Muru   Gay-ya ||"
                 },
                 {
                     "swara": "gm - p d      , n   rsS   nP -p          mg  - ,  gr     |    S R              S -sr      |   gm - pd       ns - nd    ||",
-                    "sahitya": "- -    aruL     sheiya    vEN-          dum      ay          yA  -            -   ara        sE-  muru   gay-yA ||"
+                    "sahitya": "- -    Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   Ara        Se-  Muru   Gay-ya ||"
                 },
                 {
                     "swara": "pm - p d      , p    D     npP , m        G  -   , pm     |   pD,               P ;     |    ;   ;           P   ;     ||",
-                    "sahitya": "- nI   aruL     sheiya    vEN-          dum      ay          yA  -            -   -          -  -           -   - ||"
+                    "sahitya": "- Ni   Arul     Sheiya    Ven-          Dum      Ay          Ya  -            -   -          -  -           -   - ||"
                 }
             ]
         }

@@ -18,11 +18,11 @@
                 },
                 {
                     "swara": "; G  P D  ||",
-                    "sahitya": "jA lan dhara    supI- - - Tha stE - -   ja   pA--   - ku    suma ||"
+                    "sahitya": "Ja Lan Dhara    Supi- - - Tha Ste - -   Ja   Pa--   - Ku    Suma ||"
                 },
                 {
                     "swara": "ndpg S - gp g- g S ||  ; ;  ; ;  ; ;  || ; ;  ; ;  ; ;  ||",
-                    "sahitya": "bhA-       -    su-   -   hE - ||"
+                    "sahitya": "Bha-       -    Su-   -   He - ||"
                 },
                 {
                     "swara": "G ;  P ;  D N  || S ss  n d P  n D n || S - ndP",
@@ -30,19 +30,19 @@
                 },
                 {
                     "swara": "; G  P D  || ndpn dp - nd p- g p s||",
-                    "sahitya": "jA lan dhara    supI- - - Tha stE - -   ja   pA--   - ku    suma    bhA-       -    su-   -  hE - ||"
+                    "sahitya": "Ja Lan Dhara    Supi- - - Tha Ste - -   Ja   Pa--   - Ku    Suma    Bha-       -    Su-   -  He - ||"
                 },
                 {
                     "swara": "pDp  D N  || S ss  n d P  dnsg || ,s - ndP     ; gp  dn sg  || nS,  nd pg - nd p- g p s||",
-                    "sahitya": "jA lan dhara    supI- - - Tha stE - -    ja   pA--   - ku    suma    bhA-       -    su-   -  hE - ||"
+                    "sahitya": "Ja Lan Dhara    Supi- - - Tha Ste - -    Ja   Pa--   - Ku    Suma    Bha-       -    Su-   -  He - ||"
                 },
                 {
                     "swara": "pDp  D N  || S ss  n d P  dnsg || pg sn    dp- gp   dn  sg  || pg sn dp - nd p- g p s||",
-                    "sahitya": "jA lan dhara    supI- - - Tha stE - -   ja- pA--  -  -  ku   su- ma    bhA-       -    su-   -  hE - ||"
+                    "sahitya": "Ja Lan Dhara    Supi- - - Tha Ste - -   Ja- Pa--  -  -  Ku   Su- Ma    Bha-       -    Su-   -  He - ||"
                 },
                 {
                     "swara": "G ;  ; pd sn N  || N    D  ; ;  ; ;  ||   ; ;          ;  ;    ;  nd  || sn dp   ;  ;  ; ;      ||",
-                    "sahitya": "jA - lan -   -           dha ra ||"
+                    "sahitya": "Ja - Lan -   -           Dha Ra ||"
                 }
             ]
         },
@@ -51,27 +51,27 @@
             "content": [
                 {
                     "swara": "; S   , S ,   S ;  || s n d p       D - N     S ;  ||    ; ;       ; ;       ; ;  ||",
-                    "sahitya": "bA lAr-  kka    kO - - -     Ti    pra  bhE ||"
+                    "sahitya": "Ba Lar-  Kka    Ko - - -     Ti    Pra  Bhe ||"
                 },
                 {
                     "swara": "S ;  S ;  S ;  || s n d p       D - N     S ;  ||",
-                    "sahitya": "bA lAr-  kka    kO - - -     Ti    pra  bhE ||"
+                    "sahitya": "Ba Lar-  Kka    Ko - - -     Ti    Pra  Bhe ||"
                 },
                 {
                     "swara": "d n S  d n S S ;  || N , - n       dp - dn     S ;  ||",
-                    "sahitya": "bA -- lAr-  kka    kO - Ti       - -   pra  bhE ||"
+                    "sahitya": "Ba -- Lar-  Kka    Ko - Ti       - -   Pra  Bhe ||"
                 },
                 {
                     "swara": "d n S  d n S S ;  || N , - n       dp - dn     sGs   ||",
-                    "sahitya": "bA -- lAr-  kka    kO - Ti       - -   pra    bhE ||"
+                    "sahitya": "Ba -- Lar-  Kka    Ko - Ti       - -   Pra    Bhe ||"
                 },
                 {
                     "swara": "nsGS ;  || nsgs  nd     np - dn     sGs   ||",
-                    "sahitya": "bA -- lAr-     - -kka    kO - Ti       - -   pra    bhE ||"
+                    "sahitya": "Ba -- Lar-     - -Kka    Ko - Ti       - -   Pra    Bhe ||"
                 },
                 {
                     "swara": "sgpg gS,  , s S  || g s n d       p g  - nd    p - g p s   ||",
-                    "sahitya": "bA-        lE    pari   pA-  -        li -     ni -    -    sau - - ||"
+                    "sahitya": "Ba-        Le    Pari   Pa-  -        Li -     Ni -    -    Sau - - ||"
                 },
                 {
                     "swara": "S ;  S ;  S ;  || nsgs",
@@ -79,19 +79,19 @@
                 },
                 {
                     "swara": "nd     np - dn     sGs ||",
-                    "sahitya": "bA lAr-  kka    kO - - -     Ti    pra   bhE ||"
+                    "sahitya": "Ba Lar-  Kka    Ko - - -     Ti    Pra   Bhe ||"
                 },
                 {
                     "swara": "sgpg S ;  S sn || g s n d       p g  - nd    p - g p s   ||",
-                    "sahitya": "bA-        lE  pari   pA-  -        li -     ni -   -    sau - - ||"
+                    "sahitya": "Ba-        Le  Pari   Pa-  -        Li -     Ni -   -    Sau - - ||"
                 },
                 {
                     "swara": "pnddP;   D N  || S ss  n d P  dnsg || pg sn    dp- gp  dn  sg  || pg sn dp - nd p- g p s||",
-                    "sahitya": "jA lan dhara    supI- - - Tha stE - -   ja- pA--  -  -  ku   su- ma    bhA-       -    su-   -  hE - ||"
+                    "sahitya": "Ja Lan Dhara    Supi- - - Tha Ste - -   Ja- Pa--  -  -  Ku   Su- Ma    Bha-       -    Su-   -  He - ||"
                 },
                 {
                     "swara": "G ;  ; pd sn N  || N    D  ; ;  ; ;  ||   ; ;          ;  ;    ;  nd  || sn dp   ;  ;  ; ;      ||",
-                    "sahitya": "jA - lan -   -           dha ra ||"
+                    "sahitya": "Ja - Lan -   -           Dha Ra ||"
                 }
             ]
         },
@@ -104,11 +104,11 @@
                 },
                 {
                     "swara": ",  P P    ||",
-                    "sahitya": "bhava      rO       ga ni          vA        -  ri        Ni -  -        bhak   ta-    ja-  na -  - -      pari      pA        li ni ||"
+                    "sahitya": "Bhava      Ro       Ga Ni          Va        -  Ri        Ni -  -        Bhak   Ta-    Ja-  Na -  - -      Pari      Pa        Li Ni ||"
                 },
                 {
                     "swara": ", dppg ps   G- P  ||  D , n   S- snN   D ;   ||  ; P  pg - dp  g p gs  || ; sg  , sgP  ,  P P    ||",
-                    "sahitya": "bhava       rO          ga ni       vA        -  ri --   Ni -  -        bhak   ta-    ja-  na -  - -      pari      pA        li ni ||"
+                    "sahitya": "Bhava       Ro          Ga Ni       Va        -  Ri --   Ni -  -        Bhak   Ta-    Ja-  Na -  - -      Pari      Pa        Li Ni ||"
                 },
                 {
                     "swara": "; d n  , S ,  S ;  || sN,",
@@ -116,11 +116,11 @@
                 },
                 {
                     "swara": ", -n    d p - dn   S ;  ||   ; ;   ; ;  ; ;  ||  ;  ;  ; ;  ; ;   ||",
-                    "sahitya": "nava      sha         kti            sva - rU  - -      pi-  Ni       - -  - -           - -     - -        - -  - - ||"
+                    "sahitya": "Nava      Sha         Kti            Sva - Ru  - -      Pi-  Ni       - -  - -           - -     - -        - -  - - ||"
                 },
                 {
                     "swara": "; s s  , S ,  S ;  || sN,  , -n    d p - dn   S ;  ||   d n S  dn S  S ;  || sN,  , -n    d p - dn   S ;   ||",
-                    "sahitya": "nava      sha         kti            sva - rU  - -      pi-  Ni      na- va  sha -      kti           sva - rU  - -      pi-  Ni ||"
+                    "sahitya": "Nava      Sha         Kti            Sva - Ru  - -      Pi-  Ni      Na- Va  Sha -      Kti           Sva - Ru  - -      Pi-  Ni ||"
                 },
                 {
                     "swara": "d n S  g p p d  n s- S    || nsgs",
@@ -128,19 +128,19 @@
                 },
                 {
                     "swara": "nd   np - dn   s G s   ||",
-                    "sahitya": "na- va     sha -    -   -   kti      sva - -   rU  -  pi-  Ni - - ||"
+                    "sahitya": "Na- Va     Sha -    -   -   Kti      Sva - -   Ru  -  Pi-  Ni - - ||"
                 },
                 {
                     "swara": "sgpg S ;  S sn || g s n d       p g  - nd    p - pG  gS",
-                    "sahitya": "nA - -     da  ha ri   kE -  -       sha-   rA   -     gjni - ||"
+                    "sahitya": "Na - -     Da  Ha Ri   Ke -  -       Sha-   Ra   -     Gjni - ||"
                 },
                 {
                     "swara": "pnddP;   D N  || S ss  n d P  dnsg || pg sn    dp- gp  dn  sg  || pg sn dp - nd p- g p s||",
-                    "sahitya": "jA lan dhara    supI- - - Tha stE - -   ja- pA--  -  -  ku   su- ma    bhA-       -    su-   -  hE - ||"
+                    "sahitya": "Ja Lan Dhara    Supi- - - Tha Ste - -   Ja- Pa--  -  -  Ku   Su- Ma    Bha-       -    Su-   -  He - ||"
                 },
                 {
                     "swara": "G ;  ; P ;  S  || N    D  ; ;  ; ;  ||   ; ;          ;  ;    ;  nd  || s-n dp   ;  ;  ; ;      ||",
-                    "sahitya": "jA - lan -   -           dha ra ||"
+                    "sahitya": "Ja - Lan -   -           Dha Ra ||"
                 }
             ]
         }
