@@ -2,6 +2,8 @@
 
 > A web app for learning and practicing Carnatic music with real-time pitch detection, guided swara exercises, tanpura drone, and a library of 100+ compositions.
 
+> **📐 Product spec:** [`docs/PRD.md`](docs/PRD.md) — the canonical product requirements doc, including the zoned Song View layout, the song lifecycle (add / update / publish / fork / withdraw / admin-request), the data model, the API surface, and the phase-by-phase roadmap. Start here if you're picking the project back up or trying to understand what we're building.
+
 ---
 
 ## What is Sangeetham?

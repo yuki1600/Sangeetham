@@ -1,6 +1,9 @@
 /**
  * Audio Engine — Microphone access and real-time audio buffer management.
- * Uses its own AudioContext, separate from Tone.js.
+ * Owns the shared AudioContext used by both mic capture (analyser graph) and
+ * Song Track Zone playback (MediaElementSource → GainNode graph). Both
+ * concerns share one context because browsers prefer it and the unlock-on-
+ * gesture machinery already exists for the mic side.
  */
 
 let audioContext = null;
@@ -10,13 +13,27 @@ let sourceNode = null;
 let dataBuffer = null;
 
 /**
- * Resume AudioContext if suspended.
+ * Get the shared AudioContext, creating it lazily on first call. The context
+ * starts suspended in browsers that require a user gesture to unlock; call
+ * resumeAudioContext() from inside a click/touch handler to start audio.
+ */
+export function getAudioContext() {
+    if (!audioContext) {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    return audioContext;
+}
+
+/**
+ * Resume AudioContext if suspended. Ensures the context exists first so the
+ * unlock-on-first-gesture flow works even before mic startup.
  * @returns {Promise<void>}
  */
 export async function resumeAudioContext() {
-    if (audioContext && audioContext.state === 'suspended') {
+    const ctx = getAudioContext();
+    if (ctx.state === 'suspended') {
         try {
-            await audioContext.resume();
+            await ctx.resume();
         } catch (err) {
             console.error('Failed to resume AudioContext:', err);
         }
@@ -47,11 +64,8 @@ export async function startMic() {
             });
         }
 
-        if (!audioContext) {
-            audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        }
-
-        // Always try to resume context
+        // Ensure shared context exists, then unlock it if necessary
+        getAudioContext();
         await resumeAudioContext();
 
         if (!analyserNode) {

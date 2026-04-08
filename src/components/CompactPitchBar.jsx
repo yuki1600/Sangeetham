@@ -93,27 +93,26 @@ export default function CompactPitchBar({ tonicHz, onTonicChange, theme }) {
                 )}
             </div>
 
-            {/* Scale Selector */}
-            <div className={`flex items-center p-1 rounded-full border ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'
-                }`} style={{ height: '56px' }}>
-                {TONIC_PRESETS.map((t) => {
-                    const isSelected = t.hz === tonicHz;
-                    return (
-                        <button
-                            key={t.name}
-                            onClick={() => onTonicChange(t.hz)}
-                            className={`
-                                w-9 h-9 rounded-full text-xs font-black transition-all duration-200
-                                ${isSelected
-                                    ? 'bg-emerald-500 text-white shadow-xl scale-110 z-10'
-                                    : `hover:bg-white/10 ${isDark ? 'text-white/60' : 'text-black/60'}`
-                                }
-                            `}
-                        >
+            {/* Tonic dropdown — replaces the 12-button chromatic row to save
+                horizontal space. Native <select> for accessibility. */}
+            <div
+                className={`flex items-center px-2 rounded-full border ${isDark ? 'bg-white/5 border-white/10' : 'bg-black/5 border-black/10'}`}
+                style={{ height: '56px' }}
+            >
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] opacity-50 mr-2">Tonic</span>
+                <select
+                    value={tonicHz}
+                    onChange={(e) => onTonicChange(parseFloat(e.target.value))}
+                    className="bg-transparent text-sm font-black uppercase tracking-wider focus:outline-none cursor-pointer pr-1"
+                    style={{ color: isDark ? '#fff' : '#000', appearance: 'none', WebkitAppearance: 'none' }}
+                    title="Select tonic (Sa)"
+                >
+                    {TONIC_PRESETS.map((t) => (
+                        <option key={t.name} value={t.hz} style={{ background: isDark ? '#141420' : '#fff', color: isDark ? '#fff' : '#000' }}>
                             {t.name}
-                        </button>
-                    );
-                })}
+                        </option>
+                    ))}
+                </select>
             </div>
 
             {/* Drone Controls */}

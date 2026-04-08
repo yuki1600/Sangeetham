@@ -156,7 +156,13 @@ function AppContent() {
     );
   }
 
-  if (view === 'editor-song' && selectedSongId) {
+  // Unified Song View — same component for both routes. Edit Controls,
+  // Sahitya/Swara token editing, trim, calibrate, lyrics, save, history are
+  // always available; the route name only decides where the back button goes
+  // (`editor-song/:id` → editor list/home/browser, `song-view/:id` → song
+  // browser/home).
+  if ((view === 'editor-song' || view === 'song-view') && selectedSongId) {
+    const isEditRoute = view === 'editor-song';
     return (
       <div className="h-full bg-[var(--bg-primary)]">
         <EditorSongView
@@ -164,7 +170,7 @@ function AppContent() {
           theme={theme}
           tonicHz={tonicHz}
           onTonicChange={setTonicHz}
-          onBack={() => setView(editorBackTarget)}
+          onBack={isEditRoute ? () => setView(editorBackTarget) : handleBackFromSong}
         />
       </div>
     );
@@ -264,22 +270,6 @@ function AppContent() {
           theme={theme}
           onRetry={handleRetry}
           onHome={handleHome}
-        />
-      </div>
-    );
-  }
-
-  // Song view
-  if (view === 'song-view' && selectedSongId) {
-    return (
-      <div className="h-full bg-[var(--bg-primary)]">
-        <EditorSongView
-          songId={selectedSongId}
-          readOnly={true}
-          theme={theme}
-          tonicHz={tonicHz}
-          onTonicChange={setTonicHz}
-          onBack={handleBackFromSong}
         />
       </div>
     );

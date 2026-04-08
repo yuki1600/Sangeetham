@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Copy, X } from 'lucide-react';
-import { useWheelZoom } from '../hooks/useWheelZoom';
 
 // Note: AAVARTANA_PX is now dynamically calculated as pxPerSec * aavartanaSec * zoom
 
@@ -65,7 +64,6 @@ export default function NotationLane({
     onRowDelete,
 }) {
     const containerRef = useRef(null);
-    const wheelTargetRef = useRef(null);
     const animRef = useRef(null);
     const currentTimeRef = useRef(currentTime);
     const aavartanaSecRef = useRef(aavartanaSec);
@@ -77,10 +75,9 @@ export default function NotationLane({
     useEffect(() => { aavartanaSecRef.current = aavartanaSec; }, [aavartanaSec]);
     useEffect(() => { pxPerSecRef.current = pxPerSec; zoomRef.current = zoom; }, [pxPerSec, zoom]);
 
-    // Scroll-to-zoom + scroll-to-pan: forward wheel events to the parent.
-    // Horizontal trackpad swipes pan the timeline, pinch + vertical wheel
-    // zoom — see useWheelZoom for the gesture matrix.
-    useWheelZoom(wheelTargetRef, zoom, onZoomChange, { onPan });
+    // Wheel-to-zoom and trackpad-swipe-to-pan are wired on the Song Track
+    // Zone <main> in EditorSongView, not here. The parent handler covers
+    // every track + the empty space around them, so this lane just renders.
 
     // Each avartana covers exactly aavartanaSec * pxPerSec pixels.
     const effectiveAvPx = aavartanaSec * pxPerSec * zoom;
@@ -160,7 +157,7 @@ export default function NotationLane({
             };
 
         return (
-            <div ref={wheelTargetRef} className="relative w-full h-full overflow-hidden no-scrollbar">
+            <div className="relative w-full h-full overflow-hidden no-scrollbar">
                 <div
                     ref={containerRef}
                     className={`absolute top-0 h-full ${hasTextTimings ? '' : 'flex items-center'}`}
@@ -330,11 +327,14 @@ export default function NotationLane({
                     })}
                 </div>
 
+                {/* Past-side mask — solid background covering everything to
+                    the left of the playhead so tokens that scroll across the
+                    playhead are HIDDEN, not faded. */}
                 <div
                     className="absolute inset-y-0 left-0 pointer-events-none z-10"
                     style={{
                         width: `${playheadFraction * 100}%`,
-                        background: `linear-gradient(to right, ${isDark ? '#0a0a0f' : '#f8fafc'}, transparent)`,
+                        background: isDark ? '#0a0a0f' : '#f8fafc',
                     }}
                 />
                 <div
@@ -350,7 +350,7 @@ export default function NotationLane({
 
     // ── Token mode: original per-avartana parsed token rendering ──────────
     return (
-        <div ref={wheelTargetRef} className="relative w-full h-full overflow-hidden no-scrollbar">
+        <div className="relative w-full h-full overflow-hidden no-scrollbar">
             <div
                 ref={containerRef}
                 className="absolute top-0 h-full"

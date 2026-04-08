@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { useWheelZoom } from '../../hooks/useWheelZoom';
+import { extractPeaks } from '../../utils/waveformPeaks';
 
 const RULER_H = 22; // height of time ruler in CSS px
 const SCROLL_EDGE = 60; // px from edge to start auto-scrolling
@@ -59,26 +59,15 @@ export default function WaveformEditor({
 
     const isDark = theme !== 'light';
 
-    // Decode audioBuffer to downsampled waveform samples
+    // Decode audioBuffer to downsampled peak samples (shared with MinimapTrack)
     useEffect(() => {
         if (!audioBuffer) return;
-        const raw = audioBuffer.getChannelData(0);
-        const TARGET = 4000; // higher resolution for zoom
-        const step = Math.max(1, Math.floor(raw.length / TARGET));
-        const samples = new Float32Array(TARGET);
-        for (let i = 0; i < TARGET; i++) {
-            let max = 0;
-            for (let j = 0; j < step; j++) {
-                const v = Math.abs(raw[i * step + j] || 0);
-                if (v > max) max = v;
-            }
-            samples[i] = max;
-        }
-        samplesRef.current = { samples, duration: audioBuffer.duration };
+        samplesRef.current = extractPeaks(audioBuffer, 4000);
     }, [audioBuffer]);
 
-    // Scroll-to-zoom + scroll-to-pan (shared hook with NotationLane)
-    useWheelZoom(containerRef, zoom, onZoomChange, { onPan });
+    // Wheel-to-zoom and trackpad-swipe-to-pan are wired on the Song Track
+    // Zone <main> in EditorSongView so they cover every track + the gaps
+    // between them. This component just renders the waveform.
 
     /**
      * Choose a nice ruler tick interval for the current zoom level.
@@ -127,9 +116,19 @@ export default function WaveformEditor({
             const timeToX = (origT) => playheadX + (origT - t) * pxPerSec;
 
             // ── Time ruler ──────────────────────────────────────────────
+            // Everything in the ruler row (background, bottom border, ticks,
+            // labels) is clipped to the FUTURE side of the playhead so the
+            // ruler also disappears at the playhead curtain. We wrap the
+            // whole block in a save/clip/restore so the clip doesn't bleed
+            // into the waveform drawing below.
             const rulerH = RULER_H;
             const waveTop = rulerH;
             const waveH = H - rulerH;
+
+            ctx.save();
+            ctx.beginPath();
+            ctx.rect(playheadX, 0, W - playheadX, rulerH);
+            ctx.clip();
 
             // Ruler background
             ctx.fillStyle = isDark ? 'rgba(0,0,0,0.4)' : 'rgba(240,240,240,0.6)';
@@ -171,6 +170,8 @@ export default function WaveformEditor({
                 }
             }
 
+            ctx.restore();
+
             // ── Waveform ────────────────────────────────────────────────
             // No audio for the active track? Leave the waveform area blank
             // (the ruler still draws above). The previous behaviour drew
@@ -181,42 +182,48 @@ export default function WaveformEditor({
                 return;
             }
 
-            // Waveform bars
+            // Waveform bars — only drawn on the FUTURE side of the playhead.
+            // Once a bar scrolls past the playhead it disappears (rather than
+            // dimming and persisting on the played side), so the playhead
+            // reads as a curtain that erases what's already played.
+            ctx.fillStyle = 'rgba(16,185,129,0.75)';
             for (let i = 0; i < data.samples.length; i++) {
                 const sampleTime = (i / data.samples.length) * data.duration;
                 const x = timeToX(sampleTime);
-                if (x < -2 || x > W + 2) continue;
+                if (x + 1 < playheadX) continue;
+                if (x > W + 2) continue;
                 const amp = data.samples[i];
                 const barH = Math.max(2, amp * waveH * 0.85);
-                ctx.fillStyle = `rgba(16,185,129,${x < playheadX ? 0.35 : 0.75})`;
                 ctx.fillRect(x - 1, waveTop + (waveH - barH) / 2, 2, barH);
             }
 
-            // Section marker lines
+            // Section marker lines — only drawn on the FUTURE side of the
+            // playhead so the amber PALLAVI / ANUPALLAVI tags disappear at
+            // the playhead curtain, matching the waveform bars.
             for (const { section, time } of (sectionMarkersRef.current || [])) {
                 const mx = timeToX(time);
-                if (mx >= -1 && mx <= W + 1) {
-                    ctx.save();
-                    ctx.shadowColor = '#fbbf24';
-                    ctx.shadowBlur = 6;
-                    ctx.strokeStyle = '#fbbf24';
-                    ctx.lineWidth = 2.5;
-                    ctx.beginPath(); ctx.moveTo(mx, waveTop); ctx.lineTo(mx, H); ctx.stroke();
-                    ctx.shadowBlur = 0;
-                    // Label pill
-                    ctx.font = 'bold 10px system-ui,sans-serif';
-                    ctx.textAlign = 'left';
-                    const labelX = Math.min(mx, W - 70);
-                    const labelText = section.toUpperCase();
-                    const tw = ctx.measureText(labelText).width;
-                    ctx.fillStyle = '#fbbf24';
-                    ctx.beginPath();
-                    ctx.roundRect(labelX, waveTop + 3, tw + 12, 16, 3);
-                    ctx.fill();
-                    ctx.fillStyle = '#000';
-                    ctx.fillText(labelText, labelX + 6, waveTop + 15);
-                    ctx.restore();
-                }
+                if (mx < playheadX) continue;
+                if (mx < -1 || mx > W + 1) continue;
+                ctx.save();
+                ctx.shadowColor = '#fbbf24';
+                ctx.shadowBlur = 6;
+                ctx.strokeStyle = '#fbbf24';
+                ctx.lineWidth = 2.5;
+                ctx.beginPath(); ctx.moveTo(mx, waveTop); ctx.lineTo(mx, H); ctx.stroke();
+                ctx.shadowBlur = 0;
+                // Label pill
+                ctx.font = 'bold 10px system-ui,sans-serif';
+                ctx.textAlign = 'left';
+                const labelX = Math.min(mx, W - 70);
+                const labelText = section.toUpperCase();
+                const tw = ctx.measureText(labelText).width;
+                ctx.fillStyle = '#fbbf24';
+                ctx.beginPath();
+                ctx.roundRect(labelX, waveTop + 3, tw + 12, 16, 3);
+                ctx.fill();
+                ctx.fillStyle = '#000';
+                ctx.fillText(labelText, labelX + 6, waveTop + 15);
+                ctx.restore();
             }
 
             // Overlay: active selection

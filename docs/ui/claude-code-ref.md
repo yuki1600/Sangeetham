@@ -1,127 +1,193 @@
-# Claude Code Prompt Reference — Song Editor (EditorSongView)
+# Claude Code Prompt Reference — Sangeetham Song View
 
-Use these exact names when prompting Claude Code to change parts of the Song Editor screen. Names are stable across the Layout Spec, the Training Manual, and this file.
-
-> Convention: `Zone-Name__WidgetName` — double underscore separates the zone from the widget. Use the full `Zone__Widget` form whenever there could be ambiguity.
+> Use these names when prompting Claude Code (or any AI agent) to change parts of the Song View. Names are stable and match the [PRD](../PRD.md) and [layout map](layout-map.md). Always say `<Zone>__<Cell>__<Widget>` so the request is unambiguous.
 
 ---
 
-## Zone Reference
+## Zone reference
 
-| Zone ID | Zone Name | What it is |
+| ID | Name | Use this in prompts |
 |---|---|---|
-| Z01 | `Top-SongInfo-Zone` | Top-left song header (back, title, raga/tala/composer, edit info, favorite) |
-| Z02 | `Top-AudioControls-Zone` | Top-center audio controls (mic, pitch, tonic selector, mute) |
-| Z03 | `Top-FilesMenu-Zone` | Top-right Files dropdown |
-| Z04 | `Transport-Zone` | Player bar (section, loop, swara/sahitya toggle, play, time, aavartana counter) |
-| Z05 | `EditorToolbar-Zone` | Tool row above the lanes (sections, trim, zoom, calibrate, lyrics, save, etc.) |
-| Z06 | `Audio-Lane-Zone` | Waveform lane with timeline ruler and playhead |
-| Z07 | `Sahitya-Lane-Zone` | Sahitya (lyrics) lane |
-| Z08 | `Swara-Lane-Zone` | Swara (notation) lane |
-| Z09 | `Bottom-Seekbar-Zone` | Bottom mini-map seekbar with section markers |
+| Z1 | Audio Control Zone | `Audio-Control-Zone` |
+| Z2 | Song Track Zone | `Song-Track-Zone` |
+| Z3 | Bottom Bar | `Bottom-Bar` |
 
 ---
 
-## Widget Reference Table
+## Z1 — Audio Control Zone
 
-| What you want to change | Use this name in your prompt |
+| Cell | Use this in prompts |
 |---|---|
-| The whole top header strip | `Top-SongInfo-Zone` |
-| The back arrow | `Top-SongInfo-Zone__BackButton` |
-| The song title text | `Top-SongInfo-Zone__SongTitleLabel` |
-| The raga / tala / composer block | `Top-SongInfo-Zone__RagaTalaComposerMeta` |
-| The Edit Info button | `Top-SongInfo-Zone__EditInfoButton` |
-| The Favorite (heart) button | `Top-SongInfo-Zone__FavoriteButton` |
-| The mic mute button | `Top-AudioControls-Zone__MicMuteToggle` |
-| The Pitch Off pill | `Top-AudioControls-Zone__PitchOffPill` |
-| The chromatic tonic selector (C–B) | `Top-AudioControls-Zone__TonicNoteSelector` |
-| The speaker mute button | `Top-AudioControls-Zone__MuteSpeakerToggle` |
-| The Files dropdown | `Top-FilesMenu-Zone__FilesDropdown` |
-| The active section pill | `Transport-Zone__SectionSelectorPill` |
-| The loop button | `Transport-Zone__LoopButton` |
-| The rewind/restart button | `Transport-Zone__RewindButton` |
-| The Swara/Sahitya switch | `Transport-Zone__SwaraSahityaToggle` |
-| The big green play button | `Transport-Zone__PlayButton` |
-| The current/total time readout | `Transport-Zone__TimeReadout` |
-| The "10 / 41 AAVARTANAS" counter | `Transport-Zone__AavartanaCounter` |
-| The Sections button (with badge) | `EditorToolbar-Zone__SectionsButton` |
-| The Trim button | `EditorToolbar-Zone__TrimButton` |
-| Zoom out / in icon buttons | `EditorToolbar-Zone__ZoomOutButton` / `EditorToolbar-Zone__ZoomInButton` |
-| 1x / 2x / 5x / 10x preset pills | `EditorToolbar-Zone__ZoomPresetPills` |
-| The fine-zoom slider | `EditorToolbar-Zone__ZoomSlider` |
-| The Calibrate button | `EditorToolbar-Zone__CalibrateButton` |
-| The calibration seconds input | `EditorToolbar-Zone__CalibrationValueInput` |
-| The Undo button | `EditorToolbar-Zone__UndoButton` |
-| The Lyrics button | `EditorToolbar-Zone__LyricsButton` |
-| The Reset button | `EditorToolbar-Zone__ResetButton` |
-| The History button | `EditorToolbar-Zone__HistoryButton` |
-| The green Save button | `EditorToolbar-Zone__SaveButton` |
-| The collapse arrow on a lane label | `<Lane>-Zone__LaneCollapseToggle` |
-| The "AUDIO" / "SAHITYA" / "SWARA" tab badge | `<Lane>-Zone__<Lane>LaneLabel` |
-| The timeline ruler above the waveform | `Audio-Lane-Zone__TimelineRuler` |
-| The waveform itself | `Audio-Lane-Zone__WaveformCanvas` |
-| The "0.6x" zoom badge on the waveform | `Audio-Lane-Zone__ZoomLevelBadge` |
-| The vertical green playhead line | `Audio-Lane-Zone__Playhead` |
-| The sahitya tokens row | `Sahitya-Lane-Zone__SahityaTokenStrip` |
-| The swara tokens row | `Swara-Lane-Zone__SwaraTokenStrip` |
-| The single white `\|` barlines | `Swara-Lane-Zone__BarlineMarkers` |
-| The amber `\|\|` aavartana barlines | `Swara-Lane-Zone__DoubleBarlineMarkers` |
-| The bottom seekbar (whole strip) | `Bottom-Seekbar-Zone` |
-| The current-time label (left of seekbar) | `Bottom-Seekbar-Zone__CurrentTimeLabel` |
-| The total-time label (right of seekbar) | `Bottom-Seekbar-Zone__TotalTimeLabel` |
-| The orange section chips above the bar | `Bottom-Seekbar-Zone__SectionMarkerChips` |
-| The seekbar track / fill | `Bottom-Seekbar-Zone__SeekbarTrack` |
-| The draggable seekbar handle | `Bottom-Seekbar-Zone__SeekbarHandle` |
-| The small section ticks across the bar | `Bottom-Seekbar-Zone__SectionTickMarks` |
+| Song Info (back, title, raga, tala, composer, edit info, favorite) | `Audio-Control-Zone__Song-Info` |
+| Transport Controls (loop, restart, swara/sahitya audio toggle, play/pause, time, āvartana counter) | `Audio-Control-Zone__Transport-Controls` |
+| Speed/Pitch Controls (Phase 4) | `Audio-Control-Zone__Speed-Pitch-Controls` |
+| Edit Controls (sections, trim, calibrate, lyrics, save, etc.) | `Audio-Control-Zone__Edit-Controls` |
+| Audio Controls — master volume, drone, mic monitor (Phase 4) | `Audio-Control-Zone__Audio-Controls` |
+| Composer Info | `Audio-Control-Zone__Composer-Info` |
 
----
+### Cell widgets
 
-## Example Claude Code Prompts
-
-**Change styling**
-> "In `Top-SongInfo-Zone`, render `RagaTalaComposerMeta` on a single line with bullet separators instead of a stacked block."
-
-> "Make `Transport-Zone__PlayButton` 64px instead of 48px and add a subtle pulse animation while audio is playing."
-
-**Change behavior**
-> "When the user clicks `Bottom-Seekbar-Zone__SectionMarkerChips`, jump the playhead to the start of that section and pause playback."
-
-> "In `EditorToolbar-Zone__CalibrationValueInput`, debounce changes by 300ms before re-rendering the waveform offset."
-
-**Add a widget**
-> "Add a `Top-AudioControls-Zone__DroneToggleButton` between `MuteSpeakerToggle` and `TonicNoteSelector` that turns the Tone.js drone on and off."
-
-> "Add a `Bottom-Seekbar-Zone__PlaybackSpeedDropdown` to the right of `TotalTimeLabel` with options 0.5x, 0.75x, 1x, 1.25x."
-
-**Change layout**
-> "Stack `Sahitya-Lane-Zone` directly under `Swara-Lane-Zone` and put `Audio-Lane-Zone` at the bottom — invert the current order."
-
-> "Make every lane's `LaneCollapseToggle` chevron 24px and move the lane label tab to the right side."
-
-**Conditional logic / state**
-> "Show `EditorToolbar-Zone__UndoButton` in disabled style (opacity 0.4, no hover) when there is no edit history; enable when at least one edit op exists."
-
-> "Hide `Audio-Lane-Zone__ZoomLevelBadge` when zoom is exactly 1x."
-
-> "When `Transport-Zone__SwaraSahityaToggle` is set to SAHITYA, dim `Swara-Lane-Zone__SwaraTokenStrip` to 60% opacity and vice versa."
-
-**Cross-zone**
-> "Sync the highlighted token in `Swara-Lane-Zone__SwaraTokenStrip` and `Sahitya-Lane-Zone__SahityaTokenStrip` whenever `Audio-Lane-Zone__Playhead` advances."
-
----
-
-## File / Component Hints
-
-These are likely starting points for changes. Verify with grep before editing.
-
-| Zone / Widget | Likely file |
+| Widget | Use this in prompts |
 |---|---|
-| Whole screen, top header, transport, toolbar | [src/components/editor/EditorSongView.jsx](src/components/editor/EditorSongView.jsx) |
-| `Audio-Lane-Zone__WaveformCanvas`, trim handles, cut regions | [src/components/editor/WaveformEditor.jsx](src/components/editor/WaveformEditor.jsx) |
-| `EditorToolbar-Zone__LyricsButton` panel content | [src/components/editor/LyricsEditor.jsx](src/components/editor/LyricsEditor.jsx) |
-| `EditorToolbar-Zone__HistoryButton` slide-in sidebar | [src/components/editor/VersionHistory.jsx](src/components/editor/VersionHistory.jsx) |
-| `Swara-Lane-Zone` / `Sahitya-Lane-Zone` rendering, token edit | [src/components/NotationLane.jsx](src/components/NotationLane.jsx), [src/components/LaneLabel.jsx](src/components/LaneLabel.jsx) |
-| Token parsing, barlines, aavartana building | [src/utils/songParser.js](src/utils/songParser.js) |
-| Audio cut/trim apply pipeline | [src/utils/audioEditor.js](src/utils/audioEditor.js) |
-| WAV export from edited buffer | [src/utils/wavEncoder.js](src/utils/wavEncoder.js) |
-| Backend file storage for edits | `server/songs/<uuid>/` (Express :3001) |
+| Back arrow | `Audio-Control-Zone__Song-Info__BackButton` |
+| Song title | `Audio-Control-Zone__Song-Info__SongTitleLabel` |
+| Raga / tala pills | `Audio-Control-Zone__Song-Info__RagaTalaMetaPills` |
+| Composer label | `Audio-Control-Zone__Song-Info__ComposerMetaLabel` |
+| Edit Info button | `Audio-Control-Zone__Song-Info__EditInfoButton` |
+| Favorite (heart) toggle | `Audio-Control-Zone__Song-Info__FavoriteButton` |
+| Section badge (current section) | `Audio-Control-Zone__Transport-Controls__SectionBadge` |
+| Loop toggle | `Audio-Control-Zone__Transport-Controls__LoopToggleButton` |
+| Restart button | `Audio-Control-Zone__Transport-Controls__RestartButton` |
+| Swara / Sahitya audio toggle | `Audio-Control-Zone__Transport-Controls__SwaraSahityaAudioToggle` |
+| Play / pause button | `Audio-Control-Zone__Transport-Controls__PlayPauseButton` |
+| Time readout (`MM:SS / MM:SS`) | `Audio-Control-Zone__Transport-Controls__TimeReadout` |
+| Āvartana counter | `Audio-Control-Zone__Transport-Controls__AavartanaCounter` |
+| Sections button | `Audio-Control-Zone__Edit-Controls__SectionsButton` |
+| Trim button | `Audio-Control-Zone__Edit-Controls__TrimButton` |
+| Zoom out / in buttons | `Audio-Control-Zone__Edit-Controls__ZoomOutButton` / `__ZoomInButton` |
+| Zoom preset pills (1×/2×/5×/10×) | `Audio-Control-Zone__Edit-Controls__ZoomPresetPills` |
+| Zoom slider | `Audio-Control-Zone__Edit-Controls__ZoomSlider` |
+| Calibrate button | `Audio-Control-Zone__Edit-Controls__CalibrateButton` |
+| Calibration seconds input | `Audio-Control-Zone__Edit-Controls__CalibrationValueInput` |
+| Undo button | `Audio-Control-Zone__Edit-Controls__UndoButton` |
+| Lyrics button | `Audio-Control-Zone__Edit-Controls__LyricsButton` |
+| History button | `Audio-Control-Zone__Edit-Controls__HistoryButton` |
+| Save button | `Audio-Control-Zone__Edit-Controls__SaveButton` |
+| Composer arohana/avarohana display | `Audio-Control-Zone__Composer-Info__ComposerArohanaAvarohanaDisplay` |
+| Files dropdown (header today, relocates Phase 3) | `Audio-Control-Zone__Files-Dropdown` |
+
+---
+
+## Z2 — Song Track Zone
+
+### Tracks
+
+| Track | Use this in prompts |
+|---|---|
+| Sound Track | `Song-Track-Zone__Sound-Track` |
+| Sahitya Track | `Song-Track-Zone__Sahitya-Track` |
+| Swara Track | `Song-Track-Zone__Swara-Track` |
+| Instrument Track 1 — Tala (Phase 4) | `Song-Track-Zone__Instrument-Track-1` |
+| Instrument Track 2 — Tambura (Phase 4) | `Song-Track-Zone__Instrument-Track-2` |
+
+### Per-track widgets (every track has these — substitute the track name)
+
+| Widget | Pattern |
+|---|---|
+| Visibility toggle (label badge, click to collapse/expand) | `Song-Track-Zone__<Track>__VisibilityToggleButton` |
+| Track Controls row (audio/synth tracks only) | `Song-Track-Zone__<Track>__TrackControls` |
+| Mute button (inside Track Controls) | `Song-Track-Zone__<Track>__TrackControls__MuteButton` |
+| Solo button | `Song-Track-Zone__<Track>__TrackControls__SoloButton` |
+| Volume slider | `Song-Track-Zone__<Track>__TrackControls__VolumeSlider` |
+| Bottom-edge resize handle | `Song-Track-Zone__<Track>__ResizeHandle` |
+| Track content (waveform / notation / synth viz) | `Song-Track-Zone__<Track>__Content` |
+
+> **Sahitya Track and Swara Track are visual-only.** They have NO `TrackControls` row (no mute/solo/volume). Only the visibility toggle and the resize handle. Don't ask for `Song-Track-Zone__Sahitya-Track__TrackControls` — it doesn't exist.
+
+### Cross-track widgets (rendered once at the zone level)
+
+| Widget | Use this in prompts |
+|---|---|
+| Āvartana boundary lines (golden vertical strips spanning all tracks) | `Song-Track-Zone__AvartanaBoundaryOverlay` |
+| Playhead (vertical green line at 12.5% of zone width) | `Song-Track-Zone__Playhead` |
+| Loop range overlay (translucent rectangle when looping) | `Song-Track-Zone__LoopRangeOverlay` |
+| Trim selection popup (Sound Track only, in trim mode) | `Song-Track-Zone__TrimSelectionPopup` |
+
+---
+
+## Z3 — Bottom Bar
+
+| Cell | Use this in prompts |
+|---|---|
+| Admin Controls (Reset + Files; Phase 3 relocation pending) | `Bottom-Bar__Admin-Controls` |
+| Condensed Song Track minimap (Phase 4) | `Bottom-Bar__Condensed-Song-Track` |
+| Time Controls (seek bar + time readout) | `Bottom-Bar__Time-Controls` |
+
+### Admin Controls widgets
+
+| Widget | Use this in prompts |
+|---|---|
+| Reset button | `Bottom-Bar__Admin-Controls__ResetButton` |
+| Files dropdown | `Bottom-Bar__Admin-Controls__FilesButton` |
+
+### Time Controls widgets
+
+| Widget | Use this in prompts |
+|---|---|
+| Current time label | `Bottom-Bar__Time-Controls__CurrentTimeLabel` |
+| Total time label | `Bottom-Bar__Time-Controls__TotalTimeLabel` |
+| Seek track / fill bar | `Bottom-Bar__Time-Controls__SeekTrack` |
+| Draggable seek handle | `Bottom-Bar__Time-Controls__SeekHandle` |
+| Āvartana tick marks | `Bottom-Bar__Time-Controls__AavartanaTickMarks` |
+| Section marker bands (amber tiled labels above the track) | `Bottom-Bar__Time-Controls__SectionMarkerBands` |
+
+### Condensed Song Track widgets *(Phase 4)*
+
+| Widget | Use this in prompts |
+|---|---|
+| Waveform peaks | `Bottom-Bar__Condensed-Song-Track__WaveformPeaks` |
+| Section bands overlay | `Bottom-Bar__Condensed-Song-Track__SectionBands` |
+| Viewport indicator | `Bottom-Bar__Condensed-Song-Track__ViewportIndicator` |
+
+---
+
+## Example prompts
+
+### Change styling
+> "In `Audio-Control-Zone__Song-Info`, render `RagaTalaMetaPills` on a single line with bullet separators."
+>
+> "Make `Audio-Control-Zone__Transport-Controls__PlayPauseButton` 64px instead of 48px and add a subtle pulse animation while playing."
+
+### Change behaviour
+> "When the user clicks `Bottom-Bar__Time-Controls__SectionMarkerBands`, jump the playhead to that section's start AND pause playback."
+>
+> "In `Song-Track-Zone__Sound-Track__TrackControls__VolumeSlider`, debounce changes by 50ms before re-applying gain so very fast drags don't thrash."
+
+### Add a widget
+> "Add an `Audio-Control-Zone__Audio-Controls__DroneToggleButton` between the master volume slider and the mic monitor toggle."
+>
+> "Add a `Bottom-Bar__Time-Controls__PlaybackSpeedDropdown` to the right of `TotalTimeLabel` with options 0.5×, 0.75×, 1×, 1.25×."
+
+### Conditional logic
+> "Show `Audio-Control-Zone__Edit-Controls__UndoButton` in disabled style (opacity 0.4, no hover) when the edit history is empty."
+>
+> "When `Audio-Control-Zone__Transport-Controls__SwaraSahityaAudioToggle` is set to SAHITYA, dim `Song-Track-Zone__Swara-Track__Content` to 60% opacity."
+
+### Cross-zone
+> "Sync `Song-Track-Zone__Playhead` with `Bottom-Bar__Condensed-Song-Track__ViewportIndicator` so dragging either one updates both immediately."
+
+### Layout
+> "Stack `Song-Track-Zone__Sahitya-Track` directly under `Song-Track-Zone__Swara-Track` (swap their vertical order)."
+
+---
+
+## File / component hints
+
+These are likely starting points. **Always grep before editing** — Phase 3 is in progress and ownership is moving.
+
+| Zone / Cell / Widget | Likely file (today) | Target file (after Phase 3) |
+|---|---|---|
+| Whole Song View component (orchestrator) | [`src/components/editor/EditorSongView.jsx`](../../src/components/editor/EditorSongView.jsx) | unchanged (becomes thin orchestrator) |
+| `Audio-Control-Zone__*` (header, transport, edit toolbar) | inlined in `EditorSongView.jsx` lines ~920–1560 | `src/zones/audioControlZone/{AudioControlZone, SongInfoPanel, TransportControls, EditControls, ComposerInfoPanel, SpeedPitchControls, AudioMixerControls}.jsx` |
+| `Song-Track-Zone__Sound-Track` waveform | [`src/components/editor/WaveformEditor.jsx`](../../src/components/editor/WaveformEditor.jsx) (rendered) | wrapped by `src/zones/songTrackZone/tracks/SoundTrack.jsx` |
+| `Song-Track-Zone__Sahitya-Track` / `__Swara-Track` notation | [`src/components/NotationLane.jsx`](../../src/components/NotationLane.jsx) (rendered) | wrapped by `src/zones/songTrackZone/tracks/{SahityaTrack, SwaraTrack}.jsx` |
+| `Song-Track-Zone__<Track>__TrackControls` | [`src/components/songview/TrackControls.jsx`](../../src/components/songview/TrackControls.jsx) | `src/zones/songTrackZone/TrackControls.jsx` |
+| `Song-Track-Zone__<Track>__ResizeHandle` | [`src/components/songview/TrackResizeHandle.jsx`](../../src/components/songview/TrackResizeHandle.jsx) | `src/zones/songTrackZone/TrackResizeHandle.jsx` |
+| Per-track state (`muted`/`solo`/`volume`/`visible`/`heightPx`) | [`src/hooks/useTrackMixer.js`](../../src/hooks/useTrackMixer.js) | unchanged |
+| Wheel pan + drag seek wiring | [`src/hooks/useWheelZoom.js`](../../src/hooks/useWheelZoom.js), [`src/hooks/useDragSeek.js`](../../src/hooks/useDragSeek.js) | unchanged |
+| `Song-Track-Zone__AvartanaBoundaryOverlay` | [`src/components/AvartanaBoundaryOverlay.jsx`](../../src/components/AvartanaBoundaryOverlay.jsx) | unchanged |
+| `Bottom-Bar__Time-Controls` (seek bar) | inlined in `EditorSongView.jsx` lines ~1750–1950 | `src/zones/bottomBar/TimeControls.jsx` |
+| `Bottom-Bar__Admin-Controls__ResetButton` | inlined in `EditorSongView.jsx` (Edit Controls toolbar) | `src/zones/bottomBar/AdminControls.jsx` after relocation |
+| `Bottom-Bar__Admin-Controls__FilesButton` | inlined in `EditorSongView.jsx` (header) | `src/zones/bottomBar/AdminControls.jsx` after relocation |
+| Token parsing, barlines, āvartana building | [`src/utils/songParser.js`](../../src/utils/songParser.js) | unchanged |
+| Audio cut/trim apply pipeline | [`src/utils/audioEditor.js`](../../src/utils/audioEditor.js) | unchanged |
+| WAV export | [`src/utils/wavEncoder.js`](../../src/utils/wavEncoder.js) | unchanged |
+
+---
+
+## Naming rules
+
+- **Zones, cells, widgets** are kebab-case with `__` between levels: `Audio-Control-Zone__Edit-Controls__SaveButton`.
+- **Widget names** are PascalCase at the leaf so they read like component names: `SaveButton`, `VolumeSlider`, `SectionMarkerBands`.
+- When you mean a whole zone, drop the trailing `__`: `Song-Track-Zone`, not `Song-Track-Zone__`.
+- When a widget is repeated per track, use `<Track>` as a placeholder in this doc: `Song-Track-Zone__<Track>__TrackControls`. In a real prompt, substitute the actual track: `Song-Track-Zone__Sound-Track__TrackControls`.

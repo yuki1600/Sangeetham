@@ -1,96 +1,28 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import {
-    ArrowLeft, Play, Pause, RotateCcw, Save, Download,
-    History, Undo2, RefreshCw, ChevronDown, ChevronUp,
-    Check, AlertCircle, Scissors, FileText, X,
-    FileAudio, FileJson, Upload, Layers, Music, Gauge, Globe, LayoutGrid,
-    Repeat, Pencil, ZoomIn, ZoomOut, Plus, Minus, Heart
-} from 'lucide-react';
-import LaneLabel from '../LaneLabel';
-import NotationLane from '../NotationLane';
-import AvartanaBoundaryOverlay from '../AvartanaBoundaryOverlay';
-import WaveformEditor from './WaveformEditor';
+import { X, Upload } from 'lucide-react';
 import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
-import CompactPitchBar from '../CompactPitchBar';
+import { useTrackMixer } from '../../hooks/useTrackMixer';
+import AudioControlZone from '../../zones/audioControlZone/AudioControlZone';
+import EditInfoModal from '../../zones/audioControlZone/EditInfoModal';
+import SongTrackZone from '../../zones/songTrackZone/SongTrackZone';
+import BottomBar from '../../zones/bottomBar/BottomBar';
 import { buildAavartanas, buildContentRows, applyTokenEdit } from '../../utils/songParser';
 import { applyEditOps, editedTimeToOriginal } from '../../utils/audioEditor';
 import { TALA_TEMPLATES } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { getRagaScale } from '../../utils/ragaScales';
-import SwaraScale from '../SwaraScale';
 import { audioBufferToWav } from '../../utils/wavEncoder';
 import { audioCache, songDataCache } from '../../utils/audioCache';
-import { formatTime } from '../../utils/formatTime';
 import { triggerDownload } from '../../utils/triggerDownload';
 import { EXPANDED_RAGAM_LIST } from '../../data/ragaList';
-import { PX_PER_SEC, PLAYHEAD } from '../../constants/playback';
+import { PX_PER_SEC } from '../../constants/playback';
 import { useDragSeek } from '../../hooks/useDragSeek';
 import { useSeekBar } from '../../hooks/useSeekBar';
 import { useKeyboardShortcuts } from '../../hooks/useKeyboardShortcuts';
 import { useDropdown } from '../../hooks/useDropdown';
 
-/**
- * SecondsInput — number input that lets the user freely type any value
- * (whole or decimal). Uses a local string buffer so React's controlled
- * value never fights typing in progress. Commits the parsed value on blur
- * or Enter; if the user leaves the field blank or with an invalid value
- * we revert to `defaultValue` (the auto-calculated āvartana length).
- */
-function SecondsInput({ value, defaultValue, onCommit, className, style, title }) {
-    const [buffer, setBuffer] = React.useState(() => String(value ?? defaultValue ?? ''));
-    const focusedRef = React.useRef(false);
-
-    // Mirror external value changes (e.g. calibration via waveform) when not focused.
-    React.useEffect(() => {
-        if (focusedRef.current) return;
-        const next = value != null ? String(parseFloat(Number(value).toFixed(2))) : String(parseFloat(Number(defaultValue ?? 0).toFixed(2)));
-        setBuffer(next);
-    }, [value, defaultValue]);
-
-    const commit = () => {
-        const trimmed = buffer.trim();
-        if (trimmed === '') {
-            // Blank → revert to default
-            onCommit(null);
-            setBuffer(String(parseFloat(Number(defaultValue ?? 0).toFixed(2))));
-            return;
-        }
-        const v = parseFloat(trimmed);
-        if (!Number.isFinite(v) || v <= 0) {
-            onCommit(null);
-            setBuffer(String(parseFloat(Number(defaultValue ?? 0).toFixed(2))));
-            return;
-        }
-        onCommit(v);
-        setBuffer(String(parseFloat(v.toFixed(2))));
-    };
-
-    return (
-        <input
-            type="number"
-            inputMode="decimal"
-            step="any"
-            min="0"
-            value={buffer}
-            onFocus={() => { focusedRef.current = true; }}
-            onChange={e => setBuffer(e.target.value)}
-            onBlur={() => { focusedRef.current = false; commit(); }}
-            onKeyDown={e => {
-                if (e.key === 'Enter') { e.currentTarget.blur(); }
-                else if (e.key === 'Escape') {
-                    setBuffer(String(parseFloat(Number(value ?? defaultValue ?? 0).toFixed(2))));
-                    e.currentTarget.blur();
-                }
-            }}
-            className={className}
-            style={style}
-            title={title}
-        />
-    );
-}
-
-export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack, readOnly = false }) {
+export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack }) {
     // Song data from server
     const [songData, setSongData] = useState(null);
     const [composition, setComposition] = useState(null);
@@ -124,9 +56,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [isSaving, setIsSaving] = useState(false);
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
-    const [sahityaCollapsed, setSahityaCollapsed] = useState(false);
-    const [swaraCollapsed, setSwaraCollapsed] = useState(false);
     const [avPerRow, setAvPerRow] = useState(1);
+
+    // Song Track Zone mixer — central state for Sound/Sahitya/Swara tracks
+    // (mute/solo/volume/visible/heightPx) plus the Sound Track gain graph.
+    // wireSoundTrack(audio) is called once after the audio element is built.
+    // trackOrder + moveTrack let the user reorder the tracks via the up/down
+    // arrows in each track header.
+    const { tracks, setTrackState, wireSoundTrack, trackOrder, moveTrack } = useTrackMixer();
 
     // Track unsaved changes
     const [savedDataStr, setSavedDataStr] = useState('');
@@ -231,8 +168,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     // Per-content-row start times — same logic as aavartanaTimings but at the
     // content-row granularity that text mode actually renders. Without this,
-    // text-mode lanes ignore section cues entirely and the swara/sahitya
-    // refuse to realign when the user marks a section start.
+    // the Sahitya/Swara tracks ignore section cues entirely and refuse to
+    // realign when the user marks a section start.
     const contentRowTimings = useMemo(() => {
         if (!contentRows.length) return null;
         if (!uniqueSections.some(s => sectionTimings[s] != null)) return null;
@@ -281,7 +218,17 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     }, [aavartanaTimings, currentTime, effectiveAavartanaSec, aavartanas.length]);
 
     const currentSection = aavartanas[currentAvIdx]?.section || '';
-    
+
+    // Tala counter origin — beat 1 of the metronome corresponds to the start
+    // of the first section (typically Pallavi). Falls back to 0 when nothing
+    // has been set yet, so the metronome behaves identically to the old
+    // hardcoded "starts at time 0" semantics for unmarked songs.
+    const talaStartTime = useMemo(() => {
+        const firstSection = uniqueSections[0];
+        if (!firstSection) return 0;
+        return sectionTimings[firstSection] ?? 0;
+    }, [uniqueSections, sectionTimings]);
+
     // Effective duration for UI limits (fallback to notation length if no audio)
     const effectiveDuration = useMemo(() => {
         const notationDur = aavartanas.length * effectiveAavartanaSec;
@@ -315,8 +262,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     }, [uniqueSections, aavartanas, sectionTimings, effectiveAavartanaSec, effectiveDuration]);
 
     // Trackpad horizontal-swipe pan handler — converts a raw wheel deltaPx
-    // into a time delta and seeks the playhead. Wired to every lane via
-    // useWheelZoom so the user can pan from anywhere on the strip.
+    // into a time delta and seeks the playhead. Passed to SongTrackZone,
+    // which attaches the wheel listener locally to its <main> via
+    // useWheelZoom (Phase 4: moved into SongTrackZone for reliability).
     const handleWheelPan = useCallback((deltaPx) => {
         const pxPerSec = PX_PER_SEC * waveZoom;
         if (pxPerSec <= 0) return;
@@ -340,8 +288,13 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = cached.editOps || {};
             const cleanOps = { trimStart: 0, trimEnd: null, cuts: [], ...ops };
             const cleanSec = st || {};
+            // Default the first section (typically Pallavi) to start at 0 so
+            // the metronome and section bands have a reference point even
+            // before the user touches the Section Cues panel.
+            const firstSec = cached.composition?.[0]?.section;
+            if (firstSec && cleanSec[firstSec] == null) cleanSec[firstSec] = 0;
             const cleanCalib = savedCalib ?? null;
-            
+
             setEditOps(cleanOps);
             setSectionTimings(cleanSec);
             setCustomAavartanaSec(cleanCalib);
@@ -364,6 +317,11 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = data.editOps || {};
                 const cleanOps = { trimStart: 0, trimEnd: null, cuts: [], ...ops };
                 const cleanSec = st || {};
+                // Default the first section (typically Pallavi) to start at 0
+                // so the metronome and section bands have a reference point
+                // even before the user touches the Section Cues panel.
+                const firstSec = data.composition?.[0]?.section;
+                if (firstSec && cleanSec[firstSec] == null) cleanSec[firstSec] = 0;
                 const cleanCalib = savedCalib ?? null;
 
                 setEditOps(cleanOps);
@@ -484,6 +442,9 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const audio = new Audio();
         audio.preload = 'auto';
         audioRef.current = audio;
+        // Route the new element through the Sound Track gain node so the
+        // mixer's mute/solo/volume actually affect output.
+        wireSoundTrack(audio);
 
         audio.addEventListener('loadedmetadata', () => setTotalDuration(audio.duration));
         audio.addEventListener('ended', () => setIsPlaying(false));
@@ -493,7 +454,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             audio.src = '';
             audioRef.current = null;
         };
-    }, []);
+    }, [wireSoundTrack]);
 
     // ── RAF sync loop ─────────────────────────────────────────────────────────
     const smoothTimeRef = useRef(0);
@@ -535,7 +496,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         return () => cancelAnimationFrame(animRef.current);
     }, [isLoopEnabled, loopRange]);
 
-    // ── Playback controls ─────────────────────────────────────────────────────
+    // ── Transport Controls handlers (play/pause/restart/seek) ────────────────
     const togglePlay = useCallback(() => {
         if (!audioRef.current) return;
         if (isPlaying) {
@@ -549,10 +510,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     const restartAudio = useCallback(() => {
         const targetTime = (isLoopEnabled && loopRange) ? loopRange.start : 0;
-        // Reset every time source so the lane animation snaps to the start
-        // even when there is no audio loaded (e.g. the user has only been
-        // dragging the lyrics around). The rAF tick reads currentTimeRef
-        // directly, so updating it here moves the playhead instantly.
+        // Reset every time source so the Song Track Zone animation snaps to
+        // the start even when there is no audio loaded (e.g. the user has
+        // only been dragging the lyrics around). The rAF tick reads
+        // currentTimeRef directly, so updating it here moves the playhead.
         smoothTimeRef.current = targetTime;
         currentTimeRef.current = targetTime;
         setCurrentTime(targetTime);
@@ -572,11 +533,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         isLoopEnabled,
         loopRange,
         setLoopRange,
-        preLoopTime,
         setPreLoopTime,
     });
 
-    // ── Seek slider drag support (extracted to shared hook) ──────────────────
+    // ── Time Controls drag support (Bottom Bar seek bar — extracted to hook) ─
     const { seekBarRef, onMouseDown: handleSeekMouseDown, onTouchStart: handleSeekTouchStart } = useSeekBar({
         audioRef,
         currentTimeRef,
@@ -628,7 +588,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     // ── Keyboard shortcuts (extracted to shared hook) ────────────────────────
     useKeyboardShortcuts({
-        readOnly,
         editorMode,
         setEditorMode,
         activeSelection,
@@ -647,17 +606,17 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
 
     // ── Token editing ─────────────────────────────────────────────────────────
     const handleTokenEdit = useCallback((avIdx, tokIdx, field, newText) => {
-        if (readOnly || !composition || !aavartanas[avIdx]) return;
+        if (!composition || !aavartanas[avIdx]) return;
         const newComp = applyTokenEdit(composition, aavartanas, avIdx, tokIdx, field, newText);
         setComposition(newComp);
-    }, [composition, aavartanas, readOnly]);
+    }, [composition, aavartanas]);
 
-    // ── Row duplicate / delete (per-content-row icons in NotationLane) ───────
+    // ── Row duplicate / delete (per-content-row icons in Sahitya/Swara tracks) ─
     // Both handlers operate on the contentRow's source coordinates
     // (sectionIdx, contentIdx) and mutate composition. contentRows /
     // aavartanas / aavartanaTimings will recompute via their useMemo deps.
     const handleRowDuplicate = useCallback((rowIdx) => {
-        if (readOnly || !composition) return;
+        if (!composition) return;
         const row = contentRows[rowIdx];
         if (!row) return;
         const next = structuredClone(composition);
@@ -666,10 +625,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         const clone = structuredClone(sectionContent[row.contentIdx]);
         sectionContent.splice(row.contentIdx + 1, 0, clone);
         setComposition(next);
-    }, [composition, contentRows, readOnly]);
+    }, [composition, contentRows]);
 
     const handleRowDelete = useCallback((rowIdx) => {
-        if (readOnly || !composition) return;
+        if (!composition) return;
         const row = contentRows[rowIdx];
         if (!row) return;
         const next = structuredClone(composition);
@@ -681,7 +640,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
             next.splice(row.sectionIdx, 1);
         }
         setComposition(next);
-    }, [composition, contentRows, readOnly]);
+    }, [composition, contentRows]);
 
     // ── Save ──────────────────────────────────────────────────────────────────
     const handleSave = async () => {
@@ -921,1009 +880,155 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         <div className="flex h-full" style={{ background: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
             {/* Main area */}
             <div className="flex flex-col flex-1 min-w-0">
-                {/* ── Header ──────────────────────────────────────────────────── */}
-                <header
-                    className="flex flex-col z-30 flex-shrink-0"
-                    style={{
-                        background: isDark ? 'rgba(10,10,15,0.9)' : 'rgba(248,250,252,0.95)',
-                        backdropFilter: 'blur(20px)',
-                        borderBottom: 'none',
+                {/* ── Audio Control Zone ────────────────────────────────────────
+                    Top zone of the layout. Contains:
+                      Song Info  |  Transport Controls  |  Speed/Pitch Controls
+                                 |  Edit Controls       |  Audio Controls
+                                                                  Composer Info
+                    Edit Controls live in their own row below; the rest of this
+                    zone is the song header (info + transport + manage files). */}
+                <AudioControlZone
+                    theme={theme}
+                    isDark={isDark}
+                    borderColor={borderColor}
+                    tonicHz={tonicHz}
+                    onTonicChange={onTonicChange}
+                    songData={songData}
+                    songId={songId}
+                    onBack={onBack}
+                    onSongDataChange={setSongData}
+                    onOpenEditInfo={openEditInfo}
+                    activeAudioType={activeAudioType}
+                    isPlaying={isPlaying}
+                    togglePlay={togglePlay}
+                    restartAudio={restartAudio}
+                    editedBlobUrl={editedBlobUrl}
+                    isLoopEnabled={isLoopEnabled}
+                    setIsLoopEnabled={setIsLoopEnabled}
+                    setLoopRange={setLoopRange}
+                    setPreLoopTime={setPreLoopTime}
+                    setActiveAudioType={setActiveAudioType}
+                    setShowMissingAudioUpload={setShowMissingAudioUpload}
+                    currentTime={currentTime}
+                    totalDuration={totalDuration}
+                    currentSection={currentSection}
+                    previewBanner={previewBanner}
+                    onPreviewKeep={() => {
+                        setComposition(previewBanner.composition);
+                        setEditOps(previewBanner.editOps || { trimStart: 0, trimEnd: null, cuts: [] });
+                        setPreviewBanner(null);
                     }}
-                >
-                    {/* Header content: song info left, controls right */}
-                    <div className="flex px-5 pt-4 pb-1 gap-4">
-                        {/* Left: back + song info */}
-                        <div className="flex items-start gap-3 min-w-0 flex-shrink-0" style={{ maxWidth: '30%' }}>
-                            <button
-                                onClick={onBack}
-                                className="w-8 h-8 flex items-center justify-center rounded-xl border flex-shrink-0 mt-0.5"
-                                style={{ background: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.04)', borderColor }}
-                            >
-                                <ArrowLeft className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
-                            </button>
-                            <div className="min-w-0">
-                                <div className="font-bold text-sm truncate" style={{ fontFamily: "'Outfit', sans-serif" }}>
-                                    {songData.meta?.title || 'Untitled'}
-                                </div>
-                                <div className="flex flex-col gap-1 mt-0.5">
-                                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest">
-                                        {songData.meta?.raga && (
-                                            <span>
-                                                <span className="opacity-40">Raga: </span>
-                                                <span style={{ color: '#10b981' }}>{songData.meta.raga}</span>
-                                            </span>
-                                        )}
-                                        {songData.meta?.tala && (
-                                            <span>
-                                                <span className="opacity-40">Tala: </span>
-                                                <span style={{ color: '#60a5fa' }}>{songData.meta.tala}</span>
-                                            </span>
-                                        )}
-                                    </div>
-                                    {songData.meta?.composer && songData.meta.composer !== 'Unknown' && (
-                                        <div className="text-[10px] font-bold uppercase tracking-widest">
-                                            <span className="opacity-40">Composer: </span>
-                                            <span style={{ color: '#fbbf24' }}>{songData.meta.composer}</span>
-                                        </div>
-                                    )}
-                                </div>
-                                {(() => {
-                                    const sd = songData?.song_details || {};
-                                    const ragaName = songData?.meta?.raga || sd.raga || '';
-                                    const scale = getRagaScale(ragaName);
-                                    const aro = sd.arohana
-                                        ? (typeof sd.arohana === 'string' ? sd.arohana : sd.arohana.join(' '))
-                                        : (scale ? scale.arohana.join(' ') : null);
-                                    const avaro = sd.avarohana
-                                        ? (typeof sd.avarohana === 'string' ? sd.avarohana : sd.avarohana.join(' '))
-                                        : (scale ? scale.avarohana.join(' ') : null);
-                                    if (!aro && !avaro) return null;
-                                    return (
-                                        <div className="flex flex-col gap-1 mt-1.5">
-                                            {aro && (
-                                                <div className="flex items-center gap-2">
-                                                    <span className="opacity-40 uppercase text-[10px] font-bold">Aro: </span>
-                                                    <SwaraScale swaras={aro} color="#a855f7" className="text-sm font-bold" />
-                                                </div>
-                                            )}
-                                            {avaro && (
-                                                <div className="flex items-center gap-2">
-                                                    <span className="opacity-40 uppercase text-[10px] font-bold">Avaro: </span>
-                                                    <SwaraScale swaras={avaro} color="#a855f7" className="text-sm font-bold" />
-                                                </div>
-                                            )}
-                                        </div>
-                                    );
-                                })()}
-                                {!readOnly && (
-                                    <div className="flex items-center gap-2 mt-2">
-                                        <button
-                                            onClick={openEditInfo}
-                                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-[10px] font-bold uppercase tracking-widest transition-all hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400"
-                                            style={{ color: 'var(--text-muted)', borderColor }}
-                                        >
-                                            <Pencil className="w-3 h-3" />
-                                            Edit Info
-                                        </button>
-
-                                        <button
-                                            onClick={async () => {
-                                                const newFav = !songData.meta.isFavorite;
-                                                try {
-                                                    const res = await fetch(`/api/songs/${songId}/metadata`, {
-                                                        method: 'PATCH',
-                                                        headers: { 'Content-Type': 'application/json' },
-                                                        body: JSON.stringify({ 
-                                                            raga: songData.meta.raga, 
-                                                            tala: songData.meta.tala,
-                                                            isFavorite: newFav 
-                                                        })
-                                                    });
-                                                    const data = await res.json();
-                                                    if (data.ok) {
-                                                        setSongData(prev => ({ 
-                                                            ...prev, 
-                                                            meta: { ...prev.meta, isFavorite: newFav } 
-                                                        }));
-                                                    }
-                                                } catch (e) {
-                                                    console.error('Failed toggling favorite:', e);
-                                                }
-                                            }}
-                                            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border transition-all text-[10px] font-bold uppercase tracking-widest ${songData?.meta?.isFavorite ? 'bg-rose-500/20 border-rose-500/40 text-rose-500' : 'bg-white/5 border-white/10 text-[var(--text-muted)] hover:bg-rose-500/10 hover:border-rose-500/30 hover:text-rose-400'}`}
-                                            title={songData?.meta?.isFavorite ? "Remove from Favorites" : "Mark as Favorite"}
-                                        >
-                                            <Heart className={`w-3.5 h-3.5 ${songData?.meta?.isFavorite ? 'fill-rose-500' : ''}`} />
-                                            {songData?.meta?.isFavorite ? 'Favorite' : 'Favorite'}
-                                        </button>
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-
-                        {/* Right: pitch bar, playback, manage files stacked */}
-                        <div className="flex-1 flex flex-col items-start gap-1 min-w-0">
-                            {/* Pitch bar + manage files row */}
-                            <div className="flex items-center justify-between w-full">
-                                <div className="flex items-center pl-16">
-                                    <CompactPitchBar tonicHz={tonicHz} onTonicChange={onTonicChange} theme={theme} />
-                                </div>
-                                <div className="flex items-center gap-2">
-                            {/* Manage Files dropdown */}
-                            <div className="relative" ref={downloadMenuRef}>
-                                    <button
-                                        onClick={() => setShowDownloadMenu(!showDownloadMenu)}
-                                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm font-black border transition-all ${showDownloadMenu ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
-                                        style={{ borderColor: showDownloadMenu ? undefined : borderColor, color: showDownloadMenu ? undefined : (isDark ? '#fff' : '#000') }}
-                                    >
-                                        <Layers className="w-3.5 h-3.5" />
-                                        Files
-                                        <ChevronDown className="w-3 h-3" />
-                                    </button>
-                                    {showDownloadMenu && (
-                                        <div
-                                            className="absolute right-0 top-full mt-1 rounded-xl border overflow-hidden z-50 shadow-2xl"
-                                            style={{ background: isDark ? '#141420' : '#fff', borderColor, minWidth: 220 }}
-                                        >
-                                            <div className="px-3 py-2 bg-emerald-500/5 border-b" style={{ borderColor }}>
-                                                <div className="text-[10px] uppercase tracking-widest opacity-40 font-black mb-1">Active Track</div>
-                                                <div className="flex flex-col gap-2">
-                                                    <div className={`p-2 rounded-lg border flex items-center justify-between ${activeAudioType === 'swara' ? 'border-emerald-500/40 bg-emerald-500/10' : 'border-transparent opacity-60'}`}>
-                                                        <div className="flex flex-col min-w-0">
-                                                            <div className="text-[10px] font-bold uppercase tracking-wider">Swara</div>
-                                                            <div className="text-[10px] truncate opacity-60">
-                                                                {songData.meta?.hasSwara ? (songData.meta.swaraFilename || 'Swara.mp3') : 'Not Uploaded'}
-                                                            </div>
-                                                        </div>
-                                                        {songData.meta?.hasSwara && activeAudioType === 'swara' && <Check className="w-3 h-3 text-emerald-500" />}
-                                                    </div>
-                                                    <div className={`p-2 rounded-lg border flex items-center justify-between ${activeAudioType === 'sahitya' ? 'border-cyan-500/40 bg-cyan-500/10' : 'border-transparent opacity-60'}`}>
-                                                        <div className="flex flex-col min-w-0">
-                                                            <div className="text-[10px] font-bold uppercase tracking-wider">Sahitya</div>
-                                                            <div className="text-[10px] truncate opacity-60">
-                                                                {songData.meta?.hasSahitya ? (songData.meta.sahityaFilename || 'Sahitya.mp3') : 'Not Uploaded'}
-                                                            </div>
-                                                        </div>
-                                                        {songData.meta?.hasSahitya && activeAudioType === 'sahitya' && <Check className="w-3 h-3 text-cyan-500" />}
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Downloads</div>
-                                            {[
-                                                { label: 'View PDF Notation', icon: FileText, action: () => window.open(`/api/${songData.meta?.pdfPath}`, '_blank'), hidden: !songData.meta?.pdfPath, color: '#f97316' },
-                                                { label: 'Original JSON', icon: FileJson, action: () => handleDownloadJSON(false) },
-                                                { label: 'Edited JSON (Current)', icon: Check, action: () => handleDownloadJSON(true), color: '#10b981' },
-                                                { label: 'Original Audio (.mp3)', icon: FileAudio, action: handleDownloadOriginalAudio },
-                                                { 
-                                                    label: isDownloadingAudio ? 'Converting...' : 'Edited Audio (.mp3)', 
-                                                    icon: isDownloadingAudio ? RefreshCw : FileAudio, 
-                                                    action: handleDownloadEditedMP3, 
-                                                    disabled: !editedBuffer || isDownloadingAudio,
-                                                    color: '#10b981' 
-                                                },
-                                            ].filter(item => !item.hidden).map(item => (
-                                                <button
-                                                    key={item.label}
-                                                    onClick={(e) => { e.stopPropagation(); item.action(); setShowDownloadMenu(false); }}
-                                                    disabled={item.disabled}
-                                                    className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-emerald-500/10 disabled:opacity-40 flex items-center gap-2"
-                                                    style={{ color: item.color }}
-                                                >
-                                                    <item.icon className={`w-3.5 h-3.5 ${item.icon === RefreshCw ? 'animate-spin' : 'opacity-60'}`} />
-                                                    {item.label}
-                                                </button>
-                                            ))}
-                                            
-                                            {!readOnly && (
-                                                <>
-                                                    <div className="h-px w-full" style={{ background: borderColor }} />
-                                                    <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
-                                                    
-                                                    <button
-                                                        onClick={() => { 
-                                                            if (audioSwapRef.current) {
-                                                                audioSwapRef.current.dataset.type = 'swara';
-                                                                audioSwapRef.current.click();
-                                                            }
-                                                            setShowDownloadMenu(false); 
-                                                        }}
-                                                        className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                                                    >
-                                                        <Upload className="w-3.5 h-3.5" />
-                                                        Swap Swara Audio
-                                                    </button>
-                                                    <button
-                                                        onClick={() => { 
-                                                            if (audioSwapRef.current) {
-                                                                audioSwapRef.current.dataset.type = 'sahitya';
-                                                                audioSwapRef.current.click();
-                                                            }
-                                                            setShowDownloadMenu(false); 
-                                                        }}
-                                                        className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                                                    >
-                                                        <Upload className="w-3.5 h-3.5" />
-                                                        Swap Sahitya Audio
-                                                    </button>
-                                                    <button
-                                                        onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
-                                                        className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                                                    >
-                                                        <Upload className="w-3.5 h-3.5" />
-                                                        Swap JSON Composition
-                                                    </button>
-                                                </>
-                                            )}
-                                        </div>
-                                    )}
-                                </div>
-
-                                {/* Hidden swap inputs (Only needed in edit mode) */}
-                                {!readOnly && (
-                                    <>
-                                        <input 
-                                            type="file" 
-                                            ref={audioSwapRef} 
-                                            className="hidden" 
-                                            accept="audio/*,.mp3" 
-                                            onChange={(e) => handleAudioSwap(e, audioSwapRef.current.dataset.type)}
-                                        />
-                                        <input 
-                                            type="file" 
-                                            ref={jsonSwapRef} 
-                                            className="hidden" 
-                                            accept=".json,application/json" 
-                                            onChange={handleJsonSwap}
-                                        />
-                                    </>
-                                )}
-                                </div>
-                            </div>
-                            {/* Playback controls */}
-                            <div className="flex items-center justify-start w-full gap-8 py-1 pl-16">
-                        <div
-                            className="flex items-center gap-6 px-8 py-1.5 rounded-3xl"
-                            style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', border: `1px solid ${borderColor}` }}
-                        >
-                            {/* Section badge */}
-                            <div className="text-[10px] font-black uppercase tracking-[0.2em] px-4 py-1.5 rounded-full border"
-                                style={{ color: '#34d399', borderColor: 'rgba(52,211,153,0.3)', background: 'rgba(52,211,153,0.1)' }}>
-                                {currentSection || 'Pallavi'}
-                            </div>
-
-                            <div className="flex items-center gap-3">
-                                <button
-                                    onClick={() => {
-                                        const targetState = !isLoopEnabled;
-                                        setIsLoopEnabled(targetState);
-                                        if (!targetState) {
-                                            setLoopRange(null);
-                                            setPreLoopTime(null);
-                                        }
-                                    }}
-                                    className={`w-9 h-9 flex items-center justify-center rounded-xl transition-all duration-200 border ${isLoopEnabled
-                                        ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40 shadow-[0_0_15px_rgba(16,185,129,0.2)]'
-                                        : `border-transparent opacity-40 hover:opacity-100 ${isDark ? 'text-white' : 'text-black'}`
-                                        }`}
-                                    title="Loop Mode"
-                                >
-                                    <Repeat className="w-4 h-4" />
-                                </button>
-
-                                <button
-                                    onClick={restartAudio}
-                                    className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:scale-105"
-                                    style={{ background: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.04)', borderColor }}
-                                >
-                                    <RotateCcw className="w-4 h-4" style={{ color: 'var(--text-muted)' }} />
-                                </button>
-
-                                {/* Swara/Sahitya Toggle */}
-                                <div className="flex p-0.5 rounded-xl ml-2" style={{ background: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)', border: `1px solid ${borderColor}` }}>
-                                    <button
-                                        onClick={() => {
-                                            setActiveAudioType('swara');
-                                            if (!songData?.meta?.hasSwara) setShowMissingAudioUpload(true);
-                                        }}
-                                        className={`px-3 py-1.5 text-[10px] font-black uppercase tracking-widest rounded-lg transition-all ${activeAudioType === 'swara' ? 'bg-emerald-500 text-white shadow-lg' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'}`}
-                                    >
-                                        Swara
-                                    </button>
-                                    <button
-                                        onClick={() => {
-                                            setActiveAudioType('sahitya');
-                                            if (!songData?.meta?.hasSahitya) setShowMissingAudioUpload(true);
-                                        }}
-                                        className={`px-3 py-1.5 text-[10px] font-black uppercase tracking-widest rounded-lg transition-all ${activeAudioType === 'sahitya' ? 'bg-cyan-500 text-white shadow-lg' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'}`}
-                                    >
-                                        Sahitya
-                                    </button>
-                                </div>
-
-                                <button
-                                    onClick={togglePlay}
-                                    disabled={!editedBlobUrl}
-                                    className="w-12 h-12 flex items-center justify-center rounded-2xl transition-all hover:scale-105 active:scale-95 shadow-xl disabled:opacity-40"
-                                    style={{
-                                        background: isPlaying ? 'rgba(16,185,129,0.15)' : 'linear-gradient(135deg,#10b981,#059669)',
-                                        border: `1px solid ${isPlaying ? 'rgba(16,185,129,0.4)' : 'transparent'}`,
-                                    }}
-                                >
-                                    {isPlaying
-                                        ? <Pause className="w-6 h-6" style={{ color: '#10b981' }} />
-                                        : <Play className="w-6 h-6 fill-current text-white" />
-                                    }
-                                </button>
-                            </div>
-
-                            <div className="flex items-center gap-4">
-                                <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)' }}>
-                                    {formatTime(currentTime)} / {formatTime(totalDuration)}
-                                </span>
-                                <div className="flex items-center gap-1.5 px-3 py-1 rounded-lg"
-                                    style={{ background: isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)' }}>
-                                    <span className="font-black text-sm">{currentAvIdx + 1}</span>
-                                    <span className="opacity-40 text-xs">/</span>
-                                    <span className="opacity-60 text-xs font-bold">{aavartanas.length}</span>
-                                    <span className="text-[10px] uppercase tracking-widest opacity-40 ml-1">aavartanas</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                </header>
-
-                {/* ── Preview banner ───────────────────────────────────────────── */}
-                {previewBanner && (
-                    <div className="flex items-center justify-between px-5 py-2 flex-shrink-0 text-xs"
-                        style={{ background: 'rgba(251,191,36,0.1)', borderBottom: '1px solid rgba(251,191,36,0.3)' }}>
-                        <span style={{ color: '#fbbf24' }}>Previewing a saved version. Changes are not permanent yet.</span>
-                        <div className="flex items-center gap-2">
-                            <button onClick={() => {
-                                setComposition(previewBanner.composition);
-                                setEditOps(previewBanner.editOps || { trimStart: 0, trimEnd: null, cuts: [] });
-                                setPreviewBanner(null);
-                            }} className="font-bold px-3 py-1 rounded-lg" style={{ background: 'rgba(251,191,36,0.15)', color: '#fbbf24' }}>
-                                Keep this version
-                            </button>
-                            <button onClick={() => {
-                                // Reload current from server
-                                fetch(`/api/songs/${songId}`).then(r => r.json()).then(data => {
-                                    setComposition(data.composition);
-                                    setEditOps(data.editOps || { trimStart: 0, trimEnd: null, cuts: [] });
-                                });
-                                setPreviewBanner(null);
-                            }} className="opacity-60 px-2 py-1 hover:opacity-100">Discard</button>
-                        </div>
-                    </div>
-                )}
-
-                {/* ── Edit Toolbar (Hidden in read-only mode) ──────────────────── */}
-                {!readOnly && (
-                    <>
-                        <div
-                            className="relative flex items-center justify-center gap-3 px-5 py-3 flex-shrink-0 mt-4"
-                            style={{ 
-                                borderTop: `1px solid ${borderColor}`,
-                                borderBottom: `1px solid ${showSections ? 'transparent' : borderColor}`, 
-                                background: isDark ? 'rgba(255,255,255,0.01)' : 'rgba(0,0,0,0.01)' 
-                            }}
-                        >
-                            {/* Center aligned button group */}
-                            <button
-                                onClick={() => setShowSections(s => !s)}
-                                className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-bold border transition-all"
-                                style={{
-                                    borderColor: showSections ? 'rgba(251,191,36,0.5)' : borderColor,
-                                    background: showSections ? 'rgba(251,191,36,0.1)' : 'transparent',
-                                    color: showSections ? '#fbbf24' : 'var(--text-muted)',
-                                }}
-                                title="Set section start times"
-                            >
-                                <LayoutGrid className="w-4 h-4" />
-                                Sections
-                                <span className="text-[10px] opacity-60 tabular-nums ml-0.5">
-                                    {Object.keys(sectionTimings).length > 0 ? Object.keys(sectionTimings).length : ''}
-                                </span>
-                            </button>
-
-                            <button
-                                onClick={() => setEditorMode(m => m === 'trim' ? 'view' : 'trim')}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all ml-2"
-                                style={{
-                                    borderColor: editorMode === 'trim' ? 'rgba(239,68,68,0.4)' : borderColor,
-                                    background: editorMode === 'trim' ? 'rgba(239,68,68,0.1)' : 'transparent',
-                                    color: editorMode === 'trim' ? '#ef4444' : 'var(--text-muted)',
-                                }}
-                                title="Toggle trim mode (T)"
-                            >
-                                <Scissors className="w-4 h-4" />
-                                Trim
-                            </button>
-
-                            {/* Zoom controls */}
-                            <div className="flex items-center gap-1 ml-1 px-2 py-1 rounded-xl border" style={{ borderColor }}>
-                                <button
-                                    onClick={() => setWaveZoom(z => Math.max(0.5, z / 1.5))}
-                                    className="w-6 h-6 flex items-center justify-center rounded-lg transition-all hover:bg-white/10"
-                                    style={{ color: 'var(--text-muted)' }}
-                                    title="Zoom out"
-                                >
-                                    <ZoomOut className="w-3.5 h-3.5" />
-                                </button>
-                                {[1, 2, 5, 10].map(z => (
-                                    <button
-                                        key={z}
-                                        onClick={() => setWaveZoom(z)}
-                                        className="px-1.5 py-0.5 rounded-md text-[10px] font-bold transition-all"
-                                        style={{
-                                            background: Math.abs(waveZoom - z) < 0.05 ? 'rgba(16,185,129,0.8)' : 'transparent',
-                                            color: Math.abs(waveZoom - z) < 0.05 ? '#fff' : 'var(--text-muted)',
-                                        }}
-                                    >
-                                        {z}x
-                                    </button>
-                                ))}
-                                <button
-                                    onClick={() => setWaveZoom(z => Math.min(10, z * 1.5))}
-                                    className="w-6 h-6 flex items-center justify-center rounded-lg transition-all hover:bg-white/10"
-                                    style={{ color: 'var(--text-muted)' }}
-                                    title="Zoom in"
-                                >
-                                    <ZoomIn className="w-3.5 h-3.5" />
-                                </button>
-                                <input
-                                    type="range"
-                                    min={Math.log(0.1)}
-                                    max={Math.log(10)}
-                                    step={0.01}
-                                    value={Math.log(waveZoom)}
-                                    onChange={e => setWaveZoom(Math.exp(Number(e.target.value)))}
-                                    className="w-20 h-1 accent-emerald-500 ml-1"
-                                    style={{ cursor: 'pointer' }}
-                                />
-                            </div>
-
-                            <button
-                                onClick={() => setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate')}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
-                                style={{
-                                    borderColor: editorMode === 'calibrate' ? 'rgba(59,130,246,0.4)' : customAavartanaSec ? 'rgba(59,130,246,0.25)' : borderColor,
-                                    background: editorMode === 'calibrate' ? 'rgba(59,130,246,0.1)' : customAavartanaSec ? 'rgba(59,130,246,0.06)' : 'transparent',
-                                    color: editorMode === 'calibrate' ? '#3b82f6' : customAavartanaSec ? '#60a5fa' : 'var(--text-muted)',
-                                }}
-                                title="Calibrate āvartana speed — select 1 āvartana on waveform (C)"
-                            >
-                                <Gauge className="w-4 h-4" />
-                                Calibrate
-                            </button>
-                            <SecondsInput
-                                value={customAavartanaSec}
-                                defaultValue={autoAavartanaSec}
-                                onCommit={v => setCustomAavartanaSec(v)}
-                                className="w-16 text-center px-1 py-1.5 rounded-lg border text-xs font-bold tabular-nums focus:outline-none focus:border-blue-500/50"
-                                style={{
-                                    background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)',
-                                    borderColor: customAavartanaSec ? 'rgba(59,130,246,0.4)' : borderColor,
-                                    color: customAavartanaSec ? '#60a5fa' : 'var(--text-primary)',
-                                }}
-                                title="Āvartana duration in seconds — edit directly to calibrate"
-                            />
-                            <span className="text-[10px] opacity-40 -ml-1">s</span>
-
-                            <div className="w-px h-6 mx-1" style={{ background: borderColor }} />
-
-                            <button
-                                onClick={handleUndoLastCut}
-                                disabled={editOpsHistory.length === 0}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all disabled:opacity-30"
-                                style={{ borderColor, color: 'var(--text-muted)' }}
-                                title="Undo (Ctrl+Z)"
-                            >
-                                <Undo2 className="w-4 h-4" />
-                                Undo
-                            </button>
-
-                            <button
-                                onClick={() => setShowLyrics(true)}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
-                                style={{
-                                    borderColor: showLyrics ? 'rgba(167,139,250,0.45)' : borderColor,
-                                    background: showLyrics ? 'rgba(167,139,250,0.1)' : 'transparent',
-                                    color: showLyrics ? '#a78bfa' : 'var(--text-muted)',
-                                }}
-                                title="Open lyrics & notation editor"
-                            >
-                                <FileText className="w-4 h-4" />
-                                Lyrics
-                            </button>
-
-                            <button
-                                onClick={handleResetAllEdits}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all"
-                                style={{ borderColor, color: 'var(--text-muted)' }}
-                                title="Reset all edits (R)"
-                            >
-                                <RefreshCw className="w-4 h-4" />
-                                Reset
-                            </button>
-
-                            <div className="w-px h-6 mx-1" style={{ background: borderColor }} />
-
-                            <button
-                                onClick={() => setShowHistory(s => !s)}
-                                className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold border transition-all ${showHistory ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400' : ''}`}
-                                style={{ borderColor: showHistory ? undefined : borderColor, color: showHistory ? undefined : 'var(--text-muted)' }}
-                                title="View Edit History"
-                            >
-                                <History className="w-4 h-4" />
-                                History
-                            </button>
-
-                            <button
-                                onClick={handleSave}
-                                disabled={isSaving}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all disabled:opacity-50"
-                                style={{
-                                    background: saveStatus === 'ok' ? 'rgba(16,185,129,0.15)' : saveStatus === 'error' ? 'rgba(239,68,68,0.15)' : 'linear-gradient(135deg,#10b981,#059669)',
-                                    color: saveStatus ? (saveStatus === 'ok' ? '#10b981' : '#ef4444') : '#fff',
-                                }}
-                            >
-                                {isSaving ? (
-                                    <div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin" />
-                                ) : saveStatus === 'ok' ? (
-                                    <Check className="w-4 h-4" />
-                                ) : saveStatus === 'error' ? (
-                                    <AlertCircle className="w-4 h-4" />
-                                ) : (
-                                    <Save className="w-4 h-4" />
-                                )}
-                                {saveStatus === 'ok' ? 'Saved' : saveStatus === 'error' ? 'Failed' : 'Save'}
-                            </button>
-
-
-                        </div>
-
-                        {/* ── Section Timings Panel ────────────────────────────────────── */}
-                        {showSections && (
-                            <div style={{ borderBottom: `1px solid ${borderColor}`, background: isDark ? 'rgba(251,191,36,0.04)' : 'rgba(180,130,0,0.05)' }}>
-                                {/* Section Cues Row — centered */}
-                                <div className="flex items-center justify-center gap-1 px-5 py-3 overflow-x-auto custom-scrollbar">
-                                {uniqueSections.map((section, si) => {
-                                    const t = sectionTimings[section];
-                                    const isCurrent = currentSection === section;
-                                    return (
-                                        <div key={section} className="flex items-center gap-2 flex-shrink-0">
-                                            {si > 0 && <div className="w-px h-4 mx-1 opacity-20" style={{ background: 'currentColor' }} />}
-                                            <span
-                                                className="text-[11px] font-black uppercase tracking-widest"
-                                                style={{ color: isCurrent ? '#fbbf24' : 'var(--text-primary)', minWidth: 70 }}
-                                            >
-                                                {section}
-                                            </span>
-                                            <span
-                                                className="text-xs font-mono tabular-nums"
-                                                style={{ color: t != null ? '#10b981' : 'var(--text-muted)', opacity: t != null ? 1 : 0.35, minWidth: 36 }}
-                                            >
-                                                {t != null ? formatTime(t) : '--:--'}
-                                            </span>
-                                            <button
-                                                onClick={() => setSectionTimings(prev => ({ ...prev, [section]: currentTime }))}
-                                                className="flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all hover:opacity-100"
-                                                style={{ background: isCurrent ? 'rgba(16,185,129,0.2)' : 'rgba(16,185,129,0.1)', color: '#10b981', border: '1px solid rgba(16,185,129,0.4)' }}
-                                                title={`Set ${section} start to current time (${formatTime(currentTime)})`}
-                                            >
-                                                {isCurrent ? '● Set' : 'Set'}
-                                            </button>
-                                            {t != null && (
-                                                <button
-                                                    onClick={() => setSectionTimings(prev => { const n = { ...prev }; delete n[section]; return n; })}
-                                                    className="text-[10px] opacity-30 hover:opacity-70 px-1"
-                                                    title="Clear this cue"
-                                                >✕</button>
-                                            )}
-                                        </div>
-                                    );
-                                })}
-                                </div>
-                            </div>
-                        )}
-                    </>
-                )}
-
-                {/* ── Three Lanes ───────────────────────────────────────────────── */}
-                <main
-                    className={`flex-1 flex flex-col relative overflow-hidden select-none ${editorMode === 'view' && isDragging ? 'cursor-grabbing' : editorMode === 'view' ? 'cursor-grab' : 'cursor-default'}`}
-                    {...dragHandlers}
-                >
-                    {/* Avartana boundary lines spanning all lanes */}
-                    {contentRows.length > 0 && (
-                        <AvartanaBoundaryOverlay
-                            contentRows={contentRows}
-                            contentRowTimings={contentRowTimings}
-                            avPerRow={avPerRow}
-                            aavartanaSec={effectiveAavartanaSec}
-                            timeRef={currentTimeRef}
-                            playheadFraction={PLAYHEAD}
-                            pxPerSec={PX_PER_SEC}
-                            zoom={waveZoom}
-                            isDark={isDark}
-                        />
-                    )}
-
-                    {/* Visual playhead */}
-                    <div className="absolute inset-y-0 z-20 pointer-events-none" style={{ left: `${PLAYHEAD * 100}%` }}>
-                        <div className="absolute inset-y-0" style={{ width: 24, left: -12, background: 'linear-gradient(to right, transparent, rgba(16,185,129,0.18), transparent)' }} />
-                        <div className="absolute inset-y-0 w-1" style={{ left: -0.5, background: '#10b981', boxShadow: '0 0 12px rgba(16,185,129,0.4)' }} />
-                        <div className="absolute" style={{ top: 0, left: -5, width: 10, height: 10, background: '#10b981', clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)', boxShadow: '0 0 8px rgba(16,185,129,0.8)' }} />
-                    </div>
-
-                    {/* Selection Overlay */}
-                    {loopRange && (
-                        <div
-                            className="absolute inset-y-0 z-10 pointer-events-none transition-none"
-                            style={{
-                                left: `calc(${PLAYHEAD * 100}% + ${(loopRange.start - currentTime) * PX_PER_SEC * waveZoom}px)`,
-                                width: `${(loopRange.end - loopRange.start) * PX_PER_SEC * waveZoom}px`,
-                                background: 'rgba(16,185,129,0.15)',
-                                borderLeft: '1px solid rgba(16,185,129,0.5)',
-                                borderRight: '1px solid rgba(16,185,129,0.5)',
-                                willowChange: 'left, width'
-                            }}
-                        >
-                            {/* Label */}
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-20">
-                                <Repeat className="w-12 h-12 text-emerald-400" />
-                            </div>
-                        </div>
-                    )}
-
-                    {/* Lane 1: Waveform Editor */}
-                    <div className="relative flex-shrink-0" style={{ height: 120, borderBottom: `1px solid ${borderColor}` }}>
-                        <div
-                            className="absolute left-4 z-30 text-[11px] font-black uppercase tracking-[0.2em] px-3.5 py-1.5 rounded-xl pointer-events-none"
-                            style={{
-                                top: 28,
-                                color: isDark ? '#fff' : '#000',
-                                background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
-                                border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
-                                backdropFilter: 'blur(12px)',
-                                boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
-                            }}
-                        >
-                            Audio
-                        </div>
-                        <WaveformEditor
-                            audioBuffer={editedBuffer}
-                            currentTime={currentTime}
-                            timeRef={currentTimeRef}
-                            originalDuration={effectiveDuration}
-                            editorMode={editorMode}
-                            selection={activeSelection}
-                            onSelectionChange={setActiveSelection}
-                            sectionMarkers={sectionMarkers}
-                            theme={theme}
-                            playheadFraction={PLAYHEAD}
-                            aavartanaSec={effectiveAavartanaSec}
-                            zoom={waveZoom}
-                            onZoomChange={setWaveZoom}
-                            onPan={handleWheelPan}
-                            pxPerSec={PX_PER_SEC}
-                            onSeek={(t) => {
-                                if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = t;
-                                currentTimeRef.current = t;
-                                setCurrentTime(t);
-                            }}
-                        />
-                        {/* Delete selection popup */}
-                        {editorMode === 'trim' && activeSelection && activeSelection.endTime != null &&
-                            Math.abs(activeSelection.endTime - activeSelection.startTime) >= 0.1 && (
-                            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 px-4 py-2 rounded-xl shadow-xl border"
-                                style={{
-                                    background: isDark ? 'rgba(20,20,32,0.95)' : 'rgba(255,255,255,0.95)',
-                                    backdropFilter: 'blur(8px)',
-                                    borderColor: 'rgba(239,68,68,0.3)',
-                                }}
-                            >
-                                <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>
-                                    {Math.abs(activeSelection.endTime - activeSelection.startTime).toFixed(2)}s selected
-                                </span>
-                                <button
-                                    onClick={handleDeleteSelection}
-                                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all hover:scale-105"
-                                    style={{ background: 'rgba(239,68,68,0.9)', color: '#fff' }}
-                                >
-                                    <Scissors className="w-3.5 h-3.5" />
-                                    Delete
-                                </button>
-                                <button
-                                    onClick={() => setActiveSelection(null)}
-                                    className="w-7 h-7 flex items-center justify-center rounded-lg transition-all opacity-50 hover:opacity-100"
-                                    style={{ color: 'var(--text-muted)' }}
-                                >
-                                    <X className="w-3.5 h-3.5" />
-                                </button>
-                            </div>
-                        )}
-                    </div>
-
-                    {/* Lane 2: Sahitya */}
-                    <div className="relative transition-all duration-200" style={{
-                        flexShrink: 0,
-                        height: sahityaCollapsed ? 36 : 140,
-                        borderBottom: `1px solid ${borderColor}`,
-                        overflow: 'hidden',
-                    }}>
-                        <div
-                            className="absolute left-0 right-0 z-30 flex items-center pointer-events-none select-none"
-                            style={{ top: 6, height: '28px' }}
-                        >
-                            <button
-                                type="button"
-                                onClick={() => setSahityaCollapsed(c => !c)}
-                                title={sahityaCollapsed ? 'Expand sahitya lane' : 'Collapse sahitya lane'}
-                                className="pointer-events-auto cursor-pointer flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg hover:brightness-110 active:scale-95 transition-all"
-                                style={{
-                                    color: isDark ? '#fff' : '#000',
-                                    background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
-                                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
-                                    backdropFilter: 'blur(12px)',
-                                    boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
-                                }}
-                            >
-                                {sahityaCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
-                                Sahitya
-                            </button>
-                        </div>
-                        {!sahityaCollapsed && contentRows.length > 0 && (
-                            <div className="absolute inset-0" style={{ top: '0px' }}>
-                                <NotationLane
-                                    aavartanas={aavartanas}
-                                    aavartanaTimings={aavartanaTimings}
-                                    contentRowTimings={contentRowTimings}
-                                    currentTime={currentTime}
-                                    timeRef={currentTimeRef}
-                                    totalDuration={effectiveDuration}
-                                    playheadFraction={PLAYHEAD}
-                                    aavartanaSec={effectiveAavartanaSec}
-                                    type="sahitya"
-                                    theme={theme}
-                                    onTokenEdit={handleTokenEdit}
-                                    readOnly={readOnly}
-                                    textMode={true}
-                                    contentRows={contentRows}
-                                    avPerRow={avPerRow}
-                                    pxPerSec={PX_PER_SEC}
-                                    zoom={waveZoom}
-                                    onZoomChange={setWaveZoom}
-                                    onPan={handleWheelPan}
-                                    onRowDuplicate={readOnly ? undefined : handleRowDuplicate}
-                                    onRowDelete={readOnly ? undefined : handleRowDelete}
-                                />
-                            </div>
-                        )}
-                    </div>
-
-                    {/* Lane 3: Swara */}
-                    <div className="relative transition-all duration-200" style={{
-                        flexShrink: 0,
-                        height: swaraCollapsed ? 36 : 140,
-                        overflow: 'hidden',
-                    }}>
-                        <div
-                            className="absolute left-0 right-0 z-30 flex items-center pointer-events-none select-none"
-                            style={{ top: 6, height: '28px' }}
-                        >
-                            <button
-                                type="button"
-                                onClick={() => setSwaraCollapsed(c => !c)}
-                                title={swaraCollapsed ? 'Expand swara lane' : 'Collapse swara lane'}
-                                className="pointer-events-auto cursor-pointer flex items-center gap-1.5 ml-4 text-[11px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-lg hover:brightness-110 active:scale-95 transition-all"
-                                style={{
-                                    color: isDark ? '#fff' : '#000',
-                                    background: isDark ? 'rgba(255,255,255,0.08)' : '#ffffff',
-                                    border: `1px solid ${isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.08)'}`,
-                                    backdropFilter: 'blur(12px)',
-                                    boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 2px 15px rgba(0,0,0,0.08)',
-                                }}
-                            >
-                                {swaraCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
-                                Swara
-                            </button>
-                        </div>
-                        {!swaraCollapsed && aavartanas.length > 0 && (
-                            <div className="absolute inset-0" style={{ top: '0px' }}>
-                                <NotationLane
-                                    aavartanas={aavartanas}
-                                    aavartanaTimings={aavartanaTimings}
-                                    contentRowTimings={contentRowTimings}
-                                    currentTime={currentTime}
-                                    timeRef={currentTimeRef}
-                                    totalDuration={effectiveDuration}
-                                    playheadFraction={PLAYHEAD}
-                                    aavartanaSec={effectiveAavartanaSec}
-                                    type="swara"
-                                    theme={theme}
-                                    onTokenEdit={handleTokenEdit}
-                                    readOnly={readOnly}
-                                    textMode={true}
-                                    contentRows={contentRows}
-                                    avPerRow={avPerRow}
-                                    pxPerSec={PX_PER_SEC}
-                                    zoom={waveZoom}
-                                    onZoomChange={setWaveZoom}
-                                    onPan={handleWheelPan}
-                                />
-                            </div>
-                        )}
-                    </div>
-                </main>
-
-                {/* ── Seek Slider ──────────────────────────────────────────────── */}
-                <div
-                    className="flex-shrink-0 flex justify-center"
-                    style={{
-                        padding: '16px 24px 20px',
-                        background: isDark ? 'rgba(10,10,15,0.9)' : 'rgba(248,250,252,0.95)',
-                        backdropFilter: 'blur(20px)',
-                        borderTop: `1px solid ${borderColor}`,
-                        zIndex: 30,
-                        position: 'relative',
+                    onPreviewDiscard={() => {
+                        fetch(`/api/songs/${songId}`).then(r => r.json()).then(data => {
+                            setComposition(data.composition);
+                            setEditOps(data.editOps || { trimStart: 0, trimEnd: null, cuts: [] });
+                        });
+                        setPreviewBanner(null);
                     }}
-                >
-                    <div className="flex items-center gap-4 w-full" style={{ maxWidth: 1000 }}>
-                        <span className="text-sm tabular-nums font-mono font-bold" style={{ color: '#10b981', minWidth: 44 }}>
-                            {formatTime(currentTime)}
-                        </span>
+                    waveZoom={waveZoom}
+                    setWaveZoom={setWaveZoom}
+                    editorMode={editorMode}
+                    setEditorMode={setEditorMode}
+                    showSections={showSections}
+                    setShowSections={setShowSections}
+                    uniqueSections={uniqueSections}
+                    sectionTimings={sectionTimings}
+                    setSectionTimings={setSectionTimings}
+                    customAavartanaSec={customAavartanaSec}
+                    setCustomAavartanaSec={setCustomAavartanaSec}
+                    autoAavartanaSec={autoAavartanaSec}
+                    editOpsHistory={editOpsHistory}
+                    handleUndoLastCut={handleUndoLastCut}
+                    handleResetAllEdits={handleResetAllEdits}
+                    showLyrics={showLyrics}
+                    setShowLyrics={setShowLyrics}
+                    showHistory={showHistory}
+                    setShowHistory={setShowHistory}
+                    handleSave={handleSave}
+                    isSaving={isSaving}
+                    saveStatus={saveStatus}
+                />
 
-                        {/* Track wrapper: labels + slider positioned relative to track */}
-                        <div
-                            ref={seekBarRef}
-                            onMouseDown={handleSeekMouseDown}
-                            onTouchStart={handleSeekTouchStart}
-                            style={{
-                                flex: 1,
-                                position: 'relative',
-                                paddingTop: 36,
-                                cursor: 'pointer',
-                                userSelect: 'none',
-                            }}
-                        >
-                                    {/* Section bands — one horizontal strip per
-                                        section spanning its [start, end] range.
-                                        Section name is tiled marquee-style across
-                                        the band so the label is visible regardless
-                                        of how wide or narrow the band is. */}
-                                    {sectionRanges.map((range, ri) => {
-                                        if (effectiveDuration <= 0) return null;
-                                        const startFrac = Math.max(0, Math.min(1, range.start / effectiveDuration));
-                                        const endFrac = Math.max(0, Math.min(1, range.end / effectiveDuration));
-                                        const widthFrac = Math.max(0, endFrac - startFrac);
-                                        if (widthFrac <= 0) return null;
-                                        const widthPx = widthFrac * (seekBarWidth || 0);
-                                        // Width model: uppercase bold char width
-                                        // ≈ font_px × CHAR_EM, plus PAD_PX of inner
-                                        // padding. Same formula at every font size,
-                                        // so the shrink is consistent.
-                                        const BASE_FONT = 11;
-                                        const CHAR_EM = 0.72;
-                                        const PAD_PX = 12;
-                                        const chars = range.section.length;
-                                        const labelAt = (fp) => chars * fp * CHAR_EM + PAD_PX;
-                                        // Start at base font; shrink to fit when
-                                        // even one copy doesn't fit. Floor at 7px
-                                        // so it stays legible.
-                                        let fontPx = BASE_FONT;
-                                        if (widthPx > 0 && labelAt(BASE_FONT) > widthPx) {
-                                            fontPx = Math.max(7, Math.floor((widthPx - PAD_PX) / (chars * CHAR_EM)));
-                                        }
-                                        const labelPx = labelAt(fontPx);
-                                        // Tile a second copy only when the band
-                                        // can comfortably fit two full labels.
-                                        const repeatCount = labelPx > 0
-                                            ? Math.max(1, Math.floor(widthPx / labelPx))
-                                            : 1;
-                                        const isCurrent = currentSection === range.section;
-                                        return (
-                                            <div
-                                                key={`${range.section}-${ri}`}
-                                                className="absolute flex items-center font-black uppercase cursor-pointer rounded overflow-hidden"
-                                                style={{
-                                                    left: `${startFrac * 100}%`,
-                                                    width: `${widthFrac * 100}%`,
-                                                    top: 0,
-                                                    height: 26,
-                                                    fontSize: `${fontPx}px`,
-                                                    letterSpacing: '0.04em',
-                                                    zIndex: 5,
-                                                    background: isCurrent
-                                                        ? 'rgba(251,191,36,0.9)'
-                                                        : 'rgba(251,191,36,0.45)',
-                                                    color: isCurrent ? '#000' : '#1f1300',
-                                                    border: '1px solid rgba(251,191,36,0.6)',
-                                                    justifyContent: repeatCount > 1 ? 'space-around' : 'center',
-                                                    backdropFilter: 'blur(4px)',
-                                                }}
-                                                onClick={(e) => {
-                                                    e.stopPropagation();
-                                                    if (audioRef.current && audioRef.current.readyState > 0) {
-                                                        audioRef.current.currentTime = range.start;
-                                                    }
-                                                    currentTimeRef.current = range.start;
-                                                    setCurrentTime(range.start);
-                                                }}
-                                                title={`${range.section} — ${formatTime(range.start)} → ${formatTime(range.end)}`}
-                                            >
-                                                {Array.from({ length: repeatCount }).map((_, i) => (
-                                                    <span
-                                                        key={i}
-                                                        className="whitespace-nowrap"
-                                                        style={{ padding: '0 6px' }}
-                                                    >
-                                                        {range.section}
-                                                    </span>
-                                                ))}
-                                            </div>
-                                        );
-                                    })}
+                <SongTrackZone
+                    dragHandlers={dragHandlers}
+                    isDragging={isDragging}
+                    tracks={tracks}
+                    setTrackState={setTrackState}
+                    trackOrder={trackOrder}
+                    moveTrack={moveTrack}
+                    aavartanas={aavartanas}
+                    aavartanaTimings={aavartanaTimings}
+                    contentRows={contentRows}
+                    contentRowTimings={contentRowTimings}
+                    avPerRow={avPerRow}
+                    effectiveDuration={effectiveDuration}
+                    effectiveAavartanaSec={effectiveAavartanaSec}
+                    sectionMarkers={sectionMarkers}
+                    currentTime={currentTime}
+                    currentTimeRef={currentTimeRef}
+                    audioRef={audioRef}
+                    setCurrentTime={setCurrentTime}
+                    editedBuffer={editedBuffer}
+                    editorMode={editorMode}
+                    activeSelection={activeSelection}
+                    setActiveSelection={setActiveSelection}
+                    handleDeleteSelection={handleDeleteSelection}
+                    waveZoom={waveZoom}
+                    setWaveZoom={setWaveZoom}
+                    handleWheelPan={handleWheelPan}
+                    loopRange={loopRange}
+                    handleTokenEdit={handleTokenEdit}
+                    handleRowDuplicate={handleRowDuplicate}
+                    handleRowDelete={handleRowDelete}
+                    theme={theme}
+                    isDark={isDark}
+                    borderColor={borderColor}
+                />
 
-                            {/* Actual slider track area */}
-                            <div style={{ position: 'relative', height: 44 }}>
-                                {/* Track background */}
-                                <div style={{
-                                    position: 'absolute',
-                                    left: 0,
-                                    right: 0,
-                                    top: '50%',
-                                    transform: 'translateY(-50%)',
-                                    height: 6,
-                                    borderRadius: 3,
-                                    background: isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.12)',
-                                }}>
-                                    {/* Aavartana tick marks */}
-                                    {aavartanas.map((_, i) => {
-                                        const frac = (i * effectiveAavartanaSec) / (effectiveDuration || 1);
-                                        if (frac >= 1 || i === 0) return null;
-                                        return <div key={i} className="absolute top-0 bottom-0 w-px opacity-30" style={{ left: `${frac * 100}%`, background: isDark ? '#fff' : '#000' }} />;
-                                    })}
-                                </div>
-                                {/* Filled portion */}
-                                <div style={{
-                                    position: 'absolute',
-                                    left: 0,
-                                    top: '50%',
-                                    transform: 'translateY(-50%)',
-                                    height: 6,
-                                    borderRadius: 3,
-                                    width: `${Math.min(100, (currentTime / (effectiveDuration || 1)) * 100)}%`,
-                                    background: 'linear-gradient(to right, #10b981, #34d399)',
-                                    boxShadow: '0 0 8px rgba(16,185,129,0.3)',
-                                }} />
-                                {/* Thumb */}
-                                <div style={{
-                                    position: 'absolute',
-                                    top: '50%',
-                                    left: `${Math.min(100, (currentTime / (effectiveDuration || 1)) * 100)}%`,
-                                    transform: 'translate(-50%, -50%)',
-                                    width: 18,
-                                    height: 18,
-                                    borderRadius: '50%',
-                                    background: '#10b981',
-                                    border: '3px solid #fff',
-                                    boxShadow: '0 0 0 3px rgba(16,185,129,0.25), 0 2px 8px rgba(0,0,0,0.3)',
-                                    pointerEvents: 'none',
-                                    zIndex: 2,
-                                }} />
-                            </div>
-                        </div>
-
-                        <span className="text-sm tabular-nums font-mono font-bold" style={{ color: 'var(--text-muted)', minWidth: 44, textAlign: 'right' }}>
-                            {formatTime(effectiveDuration)}
-                        </span>
-                    </div>
-                </div>
+                <BottomBar
+                    /* Admin Controls (Files dropdown — relocated from header) */
+                    songData={songData}
+                    songId={songId}
+                    showDownloadMenu={showDownloadMenu}
+                    setShowDownloadMenu={setShowDownloadMenu}
+                    downloadMenuRef={downloadMenuRef}
+                    activeAudioType={activeAudioType}
+                    isDownloadingAudio={isDownloadingAudio}
+                    editedBuffer={editedBuffer}
+                    handleDownloadJSON={handleDownloadJSON}
+                    handleDownloadOriginalAudio={handleDownloadOriginalAudio}
+                    handleDownloadEditedMP3={handleDownloadEditedMP3}
+                    audioSwapRef={audioSwapRef}
+                    jsonSwapRef={jsonSwapRef}
+                    handleAudioSwap={handleAudioSwap}
+                    handleJsonSwap={handleJsonSwap}
+                    /* Publish flow */
+                    publishStatus={songData?.meta?.publishStatus || 'draft'}
+                    onPublishStatusChange={(next) => setSongData(prev => prev ? ({ ...prev, meta: { ...prev.meta, publishStatus: next } }) : prev)}
+                    /* Time Controls + playback */
+                    currentTime={currentTime}
+                    effectiveDuration={effectiveDuration}
+                    currentSection={currentSection}
+                    sectionRanges={sectionRanges}
+                    aavartanas={aavartanas}
+                    effectiveAavartanaSec={effectiveAavartanaSec}
+                    seekBarRef={seekBarRef}
+                    seekBarWidth={seekBarWidth}
+                    onSeekMouseDown={handleSeekMouseDown}
+                    onSeekTouchStart={handleSeekTouchStart}
+                    onSeek={(t) => {
+                        if (audioRef.current && audioRef.current.readyState > 0) {
+                            audioRef.current.currentTime = t;
+                        }
+                        currentTimeRef.current = t;
+                        setCurrentTime(t);
+                    }}
+                    /* Metronome */
+                    tala={songData?.meta?.tala}
+                    talaStartTime={talaStartTime}
+                    isDark={isDark}
+                    borderColor={borderColor}
+                />
             </div>
 
             {/* ── Version History Sidebar ───────────────────────────────────────── */}
@@ -2029,173 +1134,31 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 />
             )}
 
-            {/* Edit Info Modal */}
-            {showEditInfo && (() => {
-                const scaleBoxRow = (label, items, setItems, resetScale) => (
-                    <div>
-                        <div className="flex items-center justify-between mb-2">
-                            <label className="text-[10px] font-black uppercase tracking-widest opacity-50">{label}</label>
-                            {resetScale && (
-                                <button
-                                    onClick={() => setItems([...resetScale])}
-                                    className="text-[9px] font-bold uppercase px-2 py-0.5 rounded-md transition-all hover:bg-purple-500/20"
-                                    style={{ color: '#a855f7' }}
-                                >
-                                    Reset from Raga
-                                </button>
-                            )}
-                        </div>
-                        <div className="flex items-center gap-0 pt-2">
-                            <div className="flex rounded-2xl border" style={{ borderColor }}>
-                                {items.map((swara, i) => (
-                                    <div key={i} className="relative group/box flex flex-col"
-                                        style={{ borderRight: i < items.length - 1 ? `1px solid ${borderColor}` : 'none' }}>
-                                        <input
-                                            type="text"
-                                            value={swara}
-                                            onChange={e => {
-                                                const next = [...items];
-                                                next[i] = e.target.value;
-                                                setItems(next);
-                                            }}
-                                            className="w-14 text-center py-2.5 text-sm font-bold bg-transparent focus:outline-none"
-                                            style={{ color: '#a855f7' }}
-                                        />
-                                        {items.length > 1 && (
-                                            <button
-                                                onClick={() => setItems(prev => prev.filter((_, j) => j !== i))}
-                                                className="absolute -top-2.5 -right-2.5 w-5 h-5 rounded-full flex items-center justify-center opacity-0 group-hover/box:opacity-100 transition-opacity z-10 shadow-sm"
-                                                style={{ background: '#ef4444', color: '#fff' }}
-                                            >
-                                                <X className="w-3 h-3" />
-                                            </button>
-                                        )}
-                                    </div>
-                                ))}
-                            </div>
-                            <button
-                                onClick={() => setItems(prev => [...prev, ''])}
-                                className="w-10 h-10 flex items-center justify-center rounded-xl border-2 border-dashed ml-2 transition-all hover:border-purple-500/40 hover:bg-purple-500/10"
-                                style={{ borderColor, color: 'var(--text-muted)' }}
-                                title="Add swara"
-                            >
-                                <Plus className="w-4 h-4" />
-                            </button>
-                        </div>
-                    </div>
-                );
-                const scale = getRagaScale(editInfoRaga);
-                return (
-                <div
-                    className="fixed inset-0 z-50 flex items-center justify-center p-4"
-                    style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }}
-                    onClick={(e) => { if (e.target === e.currentTarget) setShowEditInfo(false); }}
-                >
-                    <div
-                        className="w-full max-w-2xl rounded-3xl p-6 border overflow-y-auto"
-                        style={{ background: isDark ? '#141420' : '#fff', borderColor, maxHeight: '85vh' }}
-                    >
-                        <div className="flex items-center justify-between mb-5">
-                            <h2 className="text-lg font-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>Edit Info</h2>
-                            <button onClick={() => setShowEditInfo(false)}
-                                className="w-8 h-8 flex items-center justify-center rounded-xl opacity-60 hover:opacity-100 transition-opacity">
-                                <X className="w-4 h-4" />
-                            </button>
-                        </div>
-                        <div className="space-y-5 mb-6">
-                            <div className="grid grid-cols-3 gap-4">
-                                <div>
-                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Ragam *</label>
-                                    <input
-                                        type="text"
-                                        value={editInfoRaga}
-                                        onChange={e => {
-                                            setEditInfoRaga(e.target.value);
-                                            const s = getRagaScale(e.target.value);
-                                            if (s && editInfoArohana.length === 0) setEditInfoArohana([...s.arohana]);
-                                            if (s && editInfoAvarohana.length === 0) setEditInfoAvarohana([...s.avarohana]);
-                                        }}
-                                        list="edit-info-ragas"
-                                        placeholder="Select ragam..."
-                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
-                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
-                                    />
-                                    <datalist id="edit-info-ragas">
-                                        {allRagas.map(r => <option key={r} value={r} />)}
-                                    </datalist>
-                                </div>
-                                <div>
-                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Talam *</label>
-                                    <input
-                                        type="text"
-                                        value={editInfoTala}
-                                        onChange={e => setEditInfoTala(e.target.value)}
-                                        list="edit-info-talas"
-                                        placeholder="Select talam..."
-                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
-                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
-                                    />
-                                    <datalist id="edit-info-talas">
-                                        {allTalas.map(t => <option key={t} value={t} />)}
-                                    </datalist>
-                                </div>
-                                <div>
-                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Composer</label>
-                                    <input
-                                        type="text"
-                                        value={editInfoComposer}
-                                        onChange={e => setEditInfoComposer(e.target.value)}
-                                        list="edit-info-composers"
-                                        placeholder="Composer..."
-                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
-                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
-                                    />
-                                    <datalist id="edit-info-composers">
-                                        {allComposers.map(c => <option key={c} value={c} />)}
-                                    </datalist>
-                                </div>
-                                <div>
-                                    <label className="block text-[10px] font-black uppercase tracking-widest mb-1.5 opacity-50">Type of Song</label>
-                                    <select
-                                        value={editInfoType}
-                                        onChange={e => setEditInfoType(e.target.value)}
-                                        className="w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none"
-                                        style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', borderColor, color: 'var(--text-primary)' }}
-                                    >
-                                        <option value="">— Select type —</option>
-                                        {COMPOSITION_TYPES.map(t => <option key={t} value={t}>{t}</option>)}
-                                    </select>
-                                </div>
-                            </div>
-
-                            {scaleBoxRow('Arohana', editInfoArohana, setEditInfoArohana, scale?.arohana)}
-                            {scaleBoxRow('Avarohana', editInfoAvarohana, setEditInfoAvarohana, scale?.avarohana)}
-                        </div>
-                        <div className="flex gap-3">
-                            <button
-                                onClick={() => setShowEditInfo(false)}
-                                className="flex-1 py-3 rounded-xl border font-bold text-sm transition-all"
-                                style={{ borderColor, color: 'var(--text-muted)' }}
-                            >
-                                Cancel
-                            </button>
-                            <button
-                                onClick={saveEditInfo}
-                                disabled={editInfoSaving || !editInfoRaga.trim() || !editInfoTala.trim()}
-                                className="flex-1 py-3 rounded-xl font-bold text-sm transition-all disabled:opacity-50 flex items-center justify-center gap-2"
-                                style={{ background: 'linear-gradient(135deg, #10b981, #059669)', color: '#fff' }}
-                            >
-                                {editInfoSaving ? (
-                                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                                ) : (
-                                    <><Check className="w-4 h-4" /> Save</>
-                                )}
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                );
-            })()}
+            {showEditInfo && (
+                <EditInfoModal
+                    editInfoRaga={editInfoRaga}
+                    setEditInfoRaga={setEditInfoRaga}
+                    editInfoTala={editInfoTala}
+                    setEditInfoTala={setEditInfoTala}
+                    editInfoComposer={editInfoComposer}
+                    setEditInfoComposer={setEditInfoComposer}
+                    editInfoType={editInfoType}
+                    setEditInfoType={setEditInfoType}
+                    editInfoArohana={editInfoArohana}
+                    setEditInfoArohana={setEditInfoArohana}
+                    editInfoAvarohana={editInfoAvarohana}
+                    setEditInfoAvarohana={setEditInfoAvarohana}
+                    editInfoSaving={editInfoSaving}
+                    allRagas={allRagas}
+                    allTalas={allTalas}
+                    allComposers={allComposers}
+                    compositionTypes={COMPOSITION_TYPES}
+                    onSave={saveEditInfo}
+                    onClose={() => setShowEditInfo(false)}
+                    isDark={isDark}
+                    borderColor={borderColor}
+                />
+            )}
         </div>
     );
 }

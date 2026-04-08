@@ -24,6 +24,7 @@ db.exec(`
     swaraFilename TEXT,
     sahityaFilename TEXT,
     isPublished INTEGER DEFAULT 0,
+    publishStatus TEXT DEFAULT 'draft',  -- 'draft' | 'pending' | 'published'
     raga TEXT,               -- Song raga metadata
     tala TEXT,               -- Song tala metadata
     composer TEXT,           -- Song composer metadata
@@ -35,15 +36,19 @@ db.exec(`
   )
 `);
 
-// Backfill compositionType column on pre-existing DBs that were created
-// before the column was introduced.
+// Backfill columns on pre-existing DBs that were created before the
+// column was introduced. Idempotent — checks `PRAGMA table_info` first.
 try {
   const cols = db.prepare("PRAGMA table_info(songs)").all().map(c => c.name);
   if (!cols.includes('compositionType')) {
     db.exec('ALTER TABLE songs ADD COLUMN compositionType TEXT');
   }
+  if (!cols.includes('publishStatus')) {
+    // 'draft' (default) | 'pending' (review requested) | 'published' (admin approved)
+    db.exec("ALTER TABLE songs ADD COLUMN publishStatus TEXT DEFAULT 'draft'");
+  }
 } catch (e) {
-  console.error('Failed to backfill compositionType column:', e.message);
+  console.error('Failed to backfill song columns:', e.message);
 }
 
 // Version history table

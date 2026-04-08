@@ -4,21 +4,19 @@ import { useEffect, useRef } from 'react';
  * Editor keyboard shortcuts.
  *
  * Bindings (skipped when focus is in an INPUT/TEXTAREA):
- *   Space             play / pause                    (always active)
- *   T                 toggle Trim mode                (editor only)
- *   C                 toggle Calibrate mode           (editor only)
- *   Ctrl/Cmd+Z        undo last cut                   (editor only)
- *   R                 reset all edits                 (editor only)
- *   Esc               clear active selection          (editor only, in trim/calibrate)
- *   Delete/Backspace  delete selection / set calib    (editor only, in trim/calibrate)
- *   Enter             apply calibration               (editor only, in calibrate mode)
+ *   Space             play / pause
+ *   T                 toggle Trim mode (Edit Controls)
+ *   C                 toggle Calibrate mode (Edit Controls)
+ *   Ctrl/Cmd+Z        undo last cut
+ *   R                 reset all edits
+ *   Esc               clear active selection (in trim/calibrate)
+ *   Delete/Backspace  delete selection / set calib (in trim/calibrate)
+ *   Enter             apply calibration (in calibrate mode)
  *
  * The hook stores all callbacks in a ref so the inner listener never has to
- * be reattached when parent re-renders. Pass `readOnly` to fully disable
- * everything except Space.
+ * be reattached when parent re-renders.
  */
 export function useKeyboardShortcuts({
-    readOnly,
     editorMode,
     setEditorMode,
     activeSelection,
@@ -32,7 +30,6 @@ export function useKeyboardShortcuts({
     const stateRef = useRef({});
     useEffect(() => {
         stateRef.current = {
-            readOnly,
             editorMode,
             activeSelection,
             setEditorMode,
@@ -51,14 +48,12 @@ export function useKeyboardShortcuts({
             if (inInput) return;
             const s = stateRef.current;
 
-            // Space: play / pause (works in read-only mode too)
+            // Space: play / pause
             if (e.code === 'Space') {
                 e.preventDefault();
                 s.togglePlay();
                 return;
             }
-
-            if (s.readOnly) return;
 
             // T: toggle trim mode
             if (e.key === 't' || e.key === 'T') {

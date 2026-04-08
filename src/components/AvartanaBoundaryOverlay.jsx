@@ -79,16 +79,22 @@ export default function AvartanaBoundaryOverlay({
 
     return (
         <div
-            className="absolute inset-0 pointer-events-none overflow-hidden"
-            style={{ zIndex: 15 }}
+            className="absolute inset-y-0 pointer-events-none overflow-hidden"
+            style={{
+                left: `${playheadFraction * 100}%`,
+                right: 0,
+                zIndex: 15,
+            }}
         >
-            {/* Scroll wrapper — origin sits at the playhead so a boundary
-                whose time equals currentTime renders directly under it. */}
+            {/* Scroll wrapper — origin (left:0) sits at the playhead. The
+                outer clipping div starts at the playhead too, so any
+                boundary whose effective position scrolls negative (past the
+                playhead, into the played region) is hidden by overflow. */}
             <div
                 ref={containerRef}
                 className="absolute top-0 bottom-0"
                 style={{
-                    left: `${playheadFraction * 100}%`,
+                    left: 0,
                     willChange: 'transform',
                 }}
             >

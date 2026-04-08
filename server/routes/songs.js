@@ -447,7 +447,7 @@ router.post('/upload', upload.fields([
 /** Get full song data. */
 router.get('/:id', (req, res) => {
   try {
-    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, avartanasPerRow, compositionType, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
+    const row = db.prepare('SELECT id, title, raga, tala, composer, composition, editOps, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, publishStatus, isFavorite, avartanasPerRow, compositionType, createdAt, updatedAt FROM songs WHERE id = ?').get(req.params.id);
     if (!row) return res.status(404).json({ error: 'Song not found' });
 
     const compositionData = JSON.parse(row.composition || '{}');
@@ -465,6 +465,7 @@ router.get('/:id', (req, res) => {
         swaraFilename: row.swaraFilename,
         sahityaFilename: row.sahityaFilename,
         isPublished: !!row.isPublished,
+        publishStatus: row.publishStatus || 'draft',
         createdAt: row.createdAt,
         updatedAt: row.updatedAt,
         pdfPath: compositionData.pdfPath || null,
@@ -476,6 +477,32 @@ router.get('/:id', (req, res) => {
       editOps,
       avartanasPerRow: row.avartanasPerRow || 1
     });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Publish-request flow.
+ *
+ * `POST /api/songs/:id/publish-request` flips publishStatus from 'draft' to
+ * 'pending'. Once in 'pending' it can only be moved to 'published' by an
+ * admin (Phase 7 admin console — not yet built). Idempotent for songs
+ * already in 'pending' or 'published'.
+ */
+router.post('/:id/publish-request', (req, res) => {
+  try {
+    const row = db.prepare('SELECT publishStatus FROM songs WHERE id = ?').get(req.params.id);
+    if (!row) return res.status(404).json({ error: 'Song not found' });
+    if (row.publishStatus === 'published') {
+      return res.json({ ok: true, publishStatus: 'published' });
+    }
+    if (row.publishStatus === 'pending') {
+      return res.json({ ok: true, publishStatus: 'pending' });
+    }
+    const now = new Date().toISOString();
+    db.prepare("UPDATE songs SET publishStatus = 'pending', updatedAt = ? WHERE id = ?").run(now, req.params.id);
+    res.json({ ok: true, publishStatus: 'pending' });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

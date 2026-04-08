@@ -35,7 +35,6 @@ export function useDragSeek({
     isLoopEnabled,
     loopRange,
     setLoopRange,
-    preLoopTime,
     setPreLoopTime,
 }) {
     const [isDragging, setIsDragging] = useState(false);
@@ -100,38 +99,10 @@ export function useDragSeek({
         }
     }, [loopRange, audioRef, setCurrentTime]);
 
-    const onClick = useCallback((e) => {
-        const x = e.clientX ?? (e.touches && e.touches[0].clientX);
-        const dragStartPos = dragData.current?.startX || 0;
-        const deltaX = Math.abs(x - dragStartPos);
-        if (deltaX >= 5) return;
-
-        // Click-while-loop-active reverts to pre-loop position and clears the loop
-        if (isLoopEnabled && loopRange) {
-            if (preLoopTime !== null) {
-                if (audioRef.current && audioRef.current.readyState > 0) {
-                    audioRef.current.currentTime = preLoopTime;
-                }
-                setCurrentTime(preLoopTime);
-                currentTimeRef.current = preLoopTime;
-            }
-            setLoopRange(null);
-            setPreLoopTime(null);
-            return;
-        }
-
-        if (isLoopEnabled) return;
-
-        const rect = e.currentTarget.getBoundingClientRect();
-        const clickX = x - rect.left;
-        const playheadX = rect.width * PLAYHEAD;
-        const pxPerSec = PX_PER_SEC * waveZoom;
-        const deltaT = (clickX - playheadX) / pxPerSec;
-        const newTime = Math.max(0, Math.min(currentTimeRef.current + deltaT, effectiveDuration));
-        if (audioRef.current && audioRef.current.readyState > 0) audioRef.current.currentTime = newTime;
-        setCurrentTime(newTime);
-        currentTimeRef.current = newTime;
-    }, [effectiveDuration, isLoopEnabled, loopRange, preLoopTime, waveZoom, audioRef, currentTimeRef, setCurrentTime, setLoopRange, setPreLoopTime]);
+    // No onClick handler intentionally — clicks/taps on the Song Track Zone
+    // must NOT seek the playhead. Drag-to-scrub is the only way to move
+    // the playhead via the tracks themselves; explicit seek targets like
+    // the seek bar and section bands have their own handlers.
 
     return {
         isDragging,
@@ -143,7 +114,6 @@ export function useDragSeek({
             onTouchStart: onMouseDown,
             onTouchMove: onMouseMove,
             onTouchEnd: onMouseUp,
-            onClick,
         },
     };
 }
