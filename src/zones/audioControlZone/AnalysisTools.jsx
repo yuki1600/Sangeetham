@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutGrid, Scissors, Gauge, Undo2 } from 'lucide-react';
+import { LayoutGrid, Scissors, Gauge, Undo2, ChevronUp, ChevronDown } from 'lucide-react';
 
 /**
  * Audio Control Zone → Analysis & Timing Tools (Cell 2 Bottom)
@@ -13,8 +13,7 @@ export default function AnalysisTools({
     editorMode,
     setEditorMode,
     customAavartanaSec,
-    editOpsHistory,
-    handleUndoLastCut,
+    setCustomAavartanaSec,
     sectionTimingsCount,
     isDark,
     borderColor
@@ -23,7 +22,7 @@ export default function AnalysisTools({
         <button
             onClick={onClick}
             title={title}
-            className={`w-10 h-10 flex items-center justify-center rounded-xl border transition-all hover:scale-105 active:scale-95 ${
+            className={`w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:scale-105 active:scale-95 ${
                 active ? 'bg-white/10 text-white shadow-lg' : ''
             }`}
             style={{ 
@@ -37,7 +36,7 @@ export default function AnalysisTools({
     );
 
     return (
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 p-1.5 rounded-2xl border bg-white/5" style={{ borderColor }}>
             {/* Sections */}
             <div className="relative">
                 {iconBtn(
@@ -64,7 +63,7 @@ export default function AnalysisTools({
             )}
 
             {/* Calibrate */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 pr-1 ml-1">
                 {iconBtn(
                     <Gauge className="w-4 h-4" />, 
                     () => setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate'), 
@@ -73,24 +72,43 @@ export default function AnalysisTools({
                     "#3b82f6"
                 )}
                 {customAavartanaSec && (
-                    <span className="text-[10px] font-black tabular-nums opacity-60 text-blue-400">
-                        {customAavartanaSec.toFixed(2)}s
-                    </span>
+                    <div className="flex items-center gap-1 group">
+                        <div className="flex flex-col">
+                            <button 
+                                onClick={() => setCustomAavartanaSec(prev => Math.max(0.01, (prev || 0) + 0.01))}
+                                className="p-0.5 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
+                                title="Increase by 10ms"
+                            >
+                                <ChevronUp className="w-3 h-3" />
+                            </button>
+                            <button 
+                                onClick={() => setCustomAavartanaSec(prev => Math.max(0.01, (prev || 0) - 0.01))}
+                                className="p-0.5 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
+                                title="Decrease by 10ms"
+                            >
+                                <ChevronDown className="w-3 h-3" />
+                            </button>
+                        </div>
+                        <div className="flex items-center">
+                            <input
+                                key={customAavartanaSec}
+                                type="text"
+                                defaultValue={customAavartanaSec.toFixed(2)}
+                                onBlur={(e) => {
+                                    const val = parseFloat(e.target.value);
+                                    if (!isNaN(val) && val > 0) setCustomAavartanaSec(val);
+                                    else e.target.value = customAavartanaSec.toFixed(2);
+                                }}
+                                onKeyDown={(e) => {
+                                    if (e.key === 'Enter') e.target.blur();
+                                }}
+                                className="w-14 bg-transparent text-[11px] font-black tabular-nums text-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 rounded px-1 transition-all text-center"
+                            />
+                            <span className="text-[10px] font-black text-blue-400/40 ml-0.5">s</span>
+                        </div>
+                    </div>
                 )}
             </div>
-
-            <div className="w-px h-6 mx-1 bg-white/10" />
-
-            {/* Undo */}
-            <button
-                onClick={handleUndoLastCut}
-                disabled={editOpsHistory.length === 0}
-                className="w-10 h-10 flex items-center justify-center rounded-xl border transition-all disabled:opacity-20 hover:scale-105 active:scale-95"
-                style={{ borderColor, color: 'var(--text-muted)' }}
-                title="Undo Last Cut (Ctrl+Z)"
-            >
-                <Undo2 className="w-4 h-4" />
-            </button>
         </div>
     );
 }

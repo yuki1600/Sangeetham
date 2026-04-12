@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, Plus, Search, Filter, Pencil, Trash2, Globe, Music2, Share2, Clipboard, ChevronDown, Check, X, Disc3, RefreshCw, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc, Download } from 'lucide-react';
+import { ChevronLeft, Plus, Search, Filter, Pencil, Trash2, Globe, Music, Share2, Clipboard, ChevronDown, Check, X, Disc3, RefreshCw, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc, Download, ArrowLeft, Clock, Layers, FileJson, Upload, Layout } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';

@@ -143,6 +143,7 @@ export default function AudioControlZone({
                             editorMode={editorMode}
                             setEditorMode={setEditorMode}
                             customAavartanaSec={customAavartanaSec}
+                            setCustomAavartanaSec={setCustomAavartanaSec}
                             editOpsHistory={editOpsHistory}
                             handleUndoLastCut={handleUndoLastCut}
                             sectionTimingsCount={Object.keys(sectionTimings).length}

@@ -1,5 +1,5 @@
-import React from 'react';
-import { FileText, History, Save, RefreshCw, Check, AlertCircle } from 'lucide-react';
+import { Music, FileText, History, Save, RefreshCw, Check, AlertCircle, ExternalLink } from 'lucide-react';
+import { apiUrl } from '../../utils/api';
 
 /**
  * Audio Control Zone → Workflow & Management (Cell 4 / Right)
@@ -40,7 +40,25 @@ export default function WorkflowPanel({
 
     return (
         <div className="flex items-center gap-2 p-1.5 rounded-2xl border bg-white/5" style={{ borderColor }}>
-            {iconBtn(<FileText className="w-4 h-4" />, () => setShowLyrics(true), "Lyrics & Notation Editor", showLyrics, "#a78bfa")}
+            {iconBtn(<Music className="w-4 h-4" />, () => setShowLyrics(true), "Lyrics & Notation Editor", showLyrics, "#a78bfa")}
+            
+            {/* View PDF */}
+            {songData?.meta?.pdfPath && (
+                <a
+                    href={apiUrl(`/api/${songData.meta.pdfPath}`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View PDF Notation"
+                    className="w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:scale-105 active:scale-95"
+                    style={{ borderColor, color: '#f97316', background: 'transparent' }}
+                >
+                    <div className="relative">
+                        <FileText className="w-4 h-4" />
+                        <ExternalLink className="absolute -top-1 -right-1.5 w-2 h-2 opacity-60" />
+                    </div>
+                </a>
+            )}
+
             {iconBtn(<History className="w-4 h-4" />, () => setShowHistory(s => !s), "Edit History", showHistory, "#10b981")}
             {iconBtn(<RefreshCw className="w-4 h-4" />, handleResetAllEdits, "Reset All Edits", false, "#ef4444")}
             
