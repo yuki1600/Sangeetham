@@ -39,28 +39,97 @@ export function useWheelZoom(targetRef, zoom, onZoomChange, opts = {}) {
     useEffect(() => {
         const el = targetRef.current;
         if (!el) return;
+
+        let lastTouchDist = 0;
+        let lastTouchX = 0;
+
         const handleWheel = (e) => {
+            const isPinch = e.ctrlKey;
+            const dx = e.deltaX;
+            const dy = e.deltaY;
+
             // Pinch/Zoom → perform zoom
             if (isPinch && onZoomChangeRef.current) {
                 e.preventDefault();
-                // Ignore stray wheel events with no vertical component
-                if (e.deltaY === 0) return;
-                const factor = -e.deltaY > 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR;
+                if (dy === 0) return;
+                const factor = -dy > 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR;
                 const next = Math.min(max, Math.max(min, zoomRef.current * factor));
                 onZoomChangeRef.current(next);
                 return;
             }
 
-            // Horizontal dominant wheel → pan
-            if (horizontalDominant && onPanRef.current) {
+            // Pan check: 
+            // 1. Horizontal dominance (|dx| > |dy|)
+            // 2. Shift + Wheel (often used for horizontal scroll)
+            const isHorizontal = Math.abs(dx) > Math.abs(dy) || e.shiftKey;
+
+            if (isHorizontal && onPanRef.current && Math.abs(dx) > 0) {
                 e.preventDefault();
-                onPanRef.current(e.deltaX);
+                onPanRef.current(dx);
                 return;
             }
 
             // Otherwise: Normal vertical wheel → let browser scroll
         };
+
+        const handleTouchStart = (e) => {
+            if (e.touches.length === 2) {
+                const dx = e.touches[0].clientX - e.touches[1].clientX;
+                const dy = e.touches[0].clientY - e.touches[1].clientY;
+                lastTouchDist = Math.sqrt(dx * dx + dy * dy);
+                lastTouchX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                // Prevent browser pinch-to-zoom (whole page)
+                if (e.cancelable) e.preventDefault();
+            }
+        };
+
+        const handleTouchMove = (e) => {
+            if (e.touches.length === 2) {
+                if (e.cancelable) e.preventDefault();
+                
+                const dx = e.touches[0].clientX - e.touches[1].clientX;
+                const dy = e.touches[0].clientY - e.touches[1].clientY;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+
+                // Zoom logic
+                if (lastTouchDist > 0 && onZoomChangeRef.current) {
+                    const ratio = dist / lastTouchDist;
+                    // Apply a slightly damped ratio for smoother touch zooming
+                    const sensitivity = 0.5; // dampen the zoom speed
+                    const factor = 1 + (ratio - 1) * sensitivity;
+                    const next = Math.min(max, Math.max(min, zoomRef.current * factor));
+                    
+                    if (Math.abs(ratio - 1) > 0.01) {
+                        onZoomChangeRef.current(next);
+                    }
+                }
+
+                // Pan logic
+                if (onPanRef.current) {
+                    const centerX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                    const deltaX = lastTouchX - centerX;
+                    onPanRef.current(deltaX);
+                    lastTouchX = centerX;
+                }
+
+                lastTouchDist = dist;
+            }
+        };
+
+        const handleTouchEnd = () => {
+            lastTouchDist = 0;
+        };
+
         el.addEventListener('wheel', handleWheel, { passive: false });
-        return () => el.removeEventListener('wheel', handleWheel);
+        el.addEventListener('touchstart', handleTouchStart, { passive: false });
+        el.addEventListener('touchmove', handleTouchMove, { passive: false });
+        el.addEventListener('touchend', handleTouchEnd);
+
+        return () => {
+            el.removeEventListener('wheel', handleWheel);
+            el.removeEventListener('touchstart', handleTouchStart);
+            el.removeEventListener('touchmove', handleTouchMove);
+            el.removeEventListener('touchend', handleTouchEnd);
+        };
     }, [targetRef, min, max]);
 }

@@ -5,6 +5,7 @@ import AnalysisTools from './AnalysisTools';
 import ComposerInfoPanel from './ComposerInfoPanel';
 import PitchMixerRow from './PitchMixerRow';
 import WorkflowPanel from './WorkflowPanel';
+import ZoomControlPanel from './ZoomControlPanel';
 
 /**
  * Audio Control Zone — top zone of the Song View.
@@ -136,7 +137,7 @@ export default function AudioControlZone({
                     </div>
 
                     {/* Right Column: Analysis & Workflow */}
-                    <div className="flex flex-col items-center gap-3 pt-1">
+                    <div className="flex flex-col items-stretch gap-3 pt-1">
                         <AnalysisTools
                             showSections={showSections}
                             setShowSections={setShowSections}
@@ -160,6 +161,12 @@ export default function AudioControlZone({
                             isSaving={isSaving}
                             saveStatus={saveStatus}
                             handleResetAllEdits={handleResetAllEdits}
+                            isDark={isDark}
+                            borderColor={borderColor}
+                        />
+                        <ZoomControlPanel
+                            waveZoom={waveZoom}
+                            setWaveZoom={setWaveZoom}
                             isDark={isDark}
                             borderColor={borderColor}
                         />

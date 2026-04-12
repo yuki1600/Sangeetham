@@ -265,20 +265,6 @@ export default function WaveformEditor({
             ctx.lineWidth = 1.5;
             ctx.beginPath(); ctx.moveTo(playheadX, 0); ctx.lineTo(playheadX, H); ctx.stroke();
 
-            // ── Zoom level indicator (bottom-right) ─────────────────────
-            if (z !== 1) {
-                const label = `${z.toFixed(1)}x`;
-                ctx.font = 'bold 10px system-ui,sans-serif';
-                ctx.textAlign = 'right';
-                const tw = ctx.measureText(label).width;
-                ctx.fillStyle = isDark ? 'rgba(0,0,0,0.5)' : 'rgba(255,255,255,0.7)';
-                ctx.beginPath();
-                ctx.roundRect(W - tw - 16, H - 22, tw + 12, 18, 4);
-                ctx.fill();
-                ctx.fillStyle = isDark ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.6)';
-                ctx.fillText(label, W - 10, H - 8);
-            }
-
             animRef.current = requestAnimationFrame(draw);
         };
         draw();
