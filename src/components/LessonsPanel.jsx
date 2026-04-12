@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ChevronRight, PlayCircle, GraduationCap } from 'lucide-react';
+import { ChevronRight, PlayCircle, GraduationCap, RefreshCw } from 'lucide-react';
 import { EXERCISES } from '../utils/exercises';
 import { apiUrl } from '../utils/api';
 
@@ -105,8 +105,11 @@ export default function LessonsPanel({ onStartExercise, onBrowse }) {
 
                 {/* Category Cards (one per compositionType) */}
                 {loading ? (
-                    <div className="flex items-center justify-center py-10 opacity-40">
-                        <div className="w-5 h-5 rounded-full border-2 border-emerald-500 border-t-transparent animate-spin" />
+                    <div className="flex flex-col items-center justify-center py-12 gap-4">
+                        <div className="w-10 h-10 rounded-xl border border-emerald-500/20 flex items-center justify-center backdrop-blur-md bg-emerald-500/5">
+                            <RefreshCw className="w-5 h-5 text-emerald-500 animate-spin opacity-40" />
+                        </div>
+                        <p className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-500/60">Fetching Curriculum</p>
                     </div>
                 ) : categories.length === 0 ? (
                     <p className="text-xs italic opacity-50 px-2 py-4">No songs in the library yet.</p>

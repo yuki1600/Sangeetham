@@ -40,26 +40,25 @@ export function useWheelZoom(targetRef, zoom, onZoomChange, opts = {}) {
         const el = targetRef.current;
         if (!el) return;
         const handleWheel = (e) => {
-            const isPinch = e.ctrlKey;
-            const horizontalDominant = !isPinch &&
-                Math.abs(e.deltaX) > Math.abs(e.deltaY);
+            // Pinch/Zoom → perform zoom
+            if (isPinch && onZoomChangeRef.current) {
+                e.preventDefault();
+                // Ignore stray wheel events with no vertical component
+                if (e.deltaY === 0) return;
+                const factor = -e.deltaY > 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR;
+                const next = Math.min(max, Math.max(min, zoomRef.current * factor));
+                onZoomChangeRef.current(next);
+                return;
+            }
 
-            // Horizontal swipe → pan
+            // Horizontal dominant wheel → pan
             if (horizontalDominant && onPanRef.current) {
                 e.preventDefault();
                 onPanRef.current(e.deltaX);
                 return;
             }
 
-            // Otherwise → zoom
-            if (!onZoomChangeRef.current) return;
-            // Ignore stray wheel events with no vertical component (e.g.
-            // trackpad horizontal swipes when no onPan is wired up).
-            if (e.deltaY === 0) return;
-            e.preventDefault();
-            const factor = -e.deltaY > 0 ? ZOOM_FACTOR : 1 / ZOOM_FACTOR;
-            const next = Math.min(max, Math.max(min, zoomRef.current * factor));
-            onZoomChangeRef.current(next);
+            // Otherwise: Normal vertical wheel → let browser scroll
         };
         el.addEventListener('wheel', handleWheel, { passive: false });
         return () => el.removeEventListener('wheel', handleWheel);

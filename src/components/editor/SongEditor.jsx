@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Plus, Music, Pencil, Trash2, Clock, Layers, Upload, X, FileAudio, FileJson, Check, Globe, Layout, Search, ChevronDown, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc, Download } from 'lucide-react';
+import { ChevronLeft, Plus, Search, Filter, Pencil, Trash2, Globe, Music2, Share2, Clipboard, ChevronDown, Check, X, Disc3, RefreshCw, Settings, FileText, Heart, ArrowUpDown, Calendar, Edit3, SortAsc, Download } from 'lucide-react';
 import { TALA_TEMPLATES, STANDARD_SECTIONS, generateCompositionTemplate } from '../../utils/talaTemplates';
 import { ALL_SONGS } from '../../utils/carnaticData';
 import { ALL_SONG_METADATA } from '../../utils/allSongMetadata';
@@ -792,8 +792,17 @@ export default function SongEditor({ theme, onEditSong, onBack }) {
             {/* Content */}
             <div className="flex-1 overflow-y-auto px-6 py-6">
                 {loading ? (
-                    <div className="flex items-center justify-center h-40">
-                        <div className="w-8 h-8 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+                    <div className="flex flex-col items-center justify-center py-32 gap-6 w-full">
+                        <div className="relative">
+                            <div className="w-14 h-14 rounded-2xl border-2 border-emerald-500/20 flex items-center justify-center backdrop-blur-md bg-emerald-500/5">
+                                <RefreshCw className="w-8 h-8 text-emerald-500 animate-spin opacity-40" />
+                            </div>
+                            <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-emerald-500 rounded-full border-4 border-[var(--bg-card)] animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
+                        </div>
+                        <div className="text-center space-y-1">
+                            <p className="text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 animate-pulse">Initializing Editor</p>
+                            <p className="text-[11px] text-[var(--text-muted)] font-medium">Loading your private collection...</p>
+                        </div>
                     </div>
                 ) : error ? (
                     <div className="flex flex-col items-center justify-center h-40 gap-3">

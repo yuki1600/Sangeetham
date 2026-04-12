@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ChevronRight, Music2, Globe, Disc3, Pencil, Search, Heart, Plus } from 'lucide-react';
+import { ChevronRight, Music2, Globe, Disc3, Pencil, Search, Heart, Plus, RefreshCw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { apiUrl } from '../utils/api';
 
@@ -62,9 +62,17 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
     }, [baseSongs, searchQuery]);
 
     if (isLoading) return (
-        <div className="flex flex-col items-center justify-center py-20 opacity-40">
-            <div className="w-8 h-8 rounded-full border-2 border-emerald-500 border-t-transparent animate-spin mb-4" />
-            <p className="text-sm font-medium">Loading catalog...</p>
+        <div className="flex flex-col items-center justify-center py-24 gap-6">
+            <div className="relative">
+                <div className="w-12 h-12 rounded-2xl border-2 border-emerald-500/20 flex items-center justify-center backdrop-blur-md bg-emerald-500/5">
+                    <RefreshCw className="w-6 h-6 text-emerald-500 animate-spin opacity-40" />
+                </div>
+                <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-emerald-500 rounded-full border-4 border-[var(--bg-primary)] animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
+            </div>
+            <div className="text-center space-y-1">
+                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 animate-pulse">Syncing Library</p>
+                <p className="text-[11px] text-[var(--text-muted)] font-medium">Fetching latest recordings...</p>
+            </div>
         </div>
     );
 
@@ -235,7 +243,9 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
 function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
     const accent = typeColor(song.compositionType);
     return (
-        <button
+        <div
+            role="button"
+            tabIndex={0}
             onClick={() => onSelectSong({
                 ...song,
                 songViewId: song.id,
@@ -243,24 +253,36 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                 audioUrl: apiUrl(`/api/songs/${song.id}/audio`),
                 isDynamic: true
             })}
-            className="w-full group relative overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-gradient-to-br from-[var(--bg-card)] to-[var(--bg-card-hover)] p-4 text-left transition-all duration-400 hover:border-emerald-500/30 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)]"
+            onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onSelectSong({
+                        ...song,
+                        songViewId: song.id,
+                        jsonUrl: apiUrl(`/api/songs/${song.id}`),
+                        audioUrl: apiUrl(`/api/songs/${song.id}/audio`),
+                        isDynamic: true
+                    });
+                }
+            }}
+            className="w-full group relative overflow-hidden rounded-3xl border border-[var(--glass-border)] bg-gradient-to-br from-[var(--bg-card)] to-[var(--bg-card-hover)] p-5 text-left transition-all duration-400 hover:border-emerald-500/30 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] cursor-pointer"
             style={{ background: 'var(--glass-bg)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)' }}
         >
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 pointer-events-none" />
 
             <div className="relative z-10 flex items-center justify-between gap-4">
-                <div className="flex-1 min-w-0 flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500/10 to-teal-600/10 border border-emerald-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <Disc3 className="w-5 h-5 text-emerald-500" />
+                <div className="flex-1 min-w-0 flex items-center gap-5">
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-600/10 border border-emerald-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                        <Disc3 className="w-6 h-6 text-emerald-500" />
                     </div>
                     <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2 flex-wrap">
-                            <h4 className="text-base font-bold text-[var(--text-primary)] truncate group-hover:text-emerald-400 transition-colors">
+                        <div className="flex items-center gap-2 flex-wrap mb-1">
+                            <h4 className="text-lg font-bold text-[var(--text-primary)] truncate group-hover:text-emerald-400 transition-colors tracking-tight">
                                 {song.title}
                             </h4>
                             {song.compositionType && (
                                 <span
-                                    className="px-2 py-0.5 rounded-md text-[9px] font-black uppercase tracking-[0.15em] flex-shrink-0"
+                                    className="px-2.5 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-[0.15em] flex-shrink-0"
                                     style={{
                                         background: `${accent}1f`,
                                         color: accent,
@@ -271,28 +293,28 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                                 </span>
                             )}
                         </div>
-                        <div className="flex flex-col gap-1.5 mt-2">
-                            <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
-                                <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                                    <span className="opacity-40 uppercase tracking-[0.1em] font-black text-[9px]">Raga</span>
-                                    <span className="text-[12px] font-bold text-emerald-400">{song.raga || 'Other'}</span>
+                        <div className="flex flex-col gap-2 mt-2">
+                            <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                                <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5 group-hover:border-emerald-500/20 transition-colors">
+                                    <span className="opacity-30 uppercase tracking-[0.15em] font-black text-[9px]">Raga</span>
+                                    <span className="text-[13px] font-bold text-emerald-400/90">{song.raga || 'Other'}</span>
                                 </div>
-                                <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                                    <span className="opacity-40 uppercase tracking-[0.1em] font-black text-[9px]">Tala</span>
-                                    <span className="text-[12px] font-bold text-teal-400">{song.tala || 'Other'}</span>
+                                <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5 group-hover:border-teal-500/20 transition-colors">
+                                    <span className="opacity-30 uppercase tracking-[0.15em] font-black text-[9px]">Tala</span>
+                                    <span className="text-[13px] font-bold text-teal-400/90">{song.tala || 'Other'}</span>
                                 </div>
                             </div>
                             {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
-                                <div className="flex items-center gap-1.5 px-2.5 py-0.5">
-                                    <span className="opacity-40 uppercase tracking-[0.1em] font-black text-[9px]">By</span>
-                                    <span className="text-[12px] font-bold text-amber-400/80">{song.composer}</span>
+                                <div className="flex items-center gap-2 px-1">
+                                    <span className="opacity-30 uppercase tracking-[0.15em] font-black text-[9px]">By</span>
+                                    <span className="text-[13px] font-bold text-amber-400/70">{song.composer}</span>
                                 </div>
                             )}
                         </div>
                     </div>
                 </div>
 
-                <div className="flex items-center gap-2 flex-shrink-0">
+                <div className="flex items-center gap-3 flex-shrink-0">
                     <button
                         onClick={async (e) => {
                             e.stopPropagation();
@@ -311,10 +333,10 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                                 console.error('Failed toggling favorite:', err);
                             }
                         }}
-                        className={`p-1.5 rounded-lg border transition-all ${
+                        className={`w-10 h-10 flex items-center justify-center rounded-xl border transition-all ${
                             song.isFavorite
-                                ? 'bg-rose-500/10 border-rose-500/30 text-rose-500'
-                                : 'bg-white/5 border-white/10 text-rose-500/40 hover:text-rose-500 hover:bg-rose-500/5 hover:border-rose-500/20'
+                                ? 'bg-rose-500/10 border-rose-500/30 text-rose-500 shadow-[0_0_15px_rgba(244,63,94,0.1)]'
+                                : 'bg-white/5 border-white/10 text-rose-500/40 hover:text-rose-500 hover:bg-rose-500/10 hover:border-rose-500/30'
                         }`}
                         title={song.isFavorite ? "Remove from Favorites" : "Add to Favorites"}
                     >
@@ -322,14 +344,17 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                     </button>
                     <button
                         onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
-                        className="p-2 rounded-lg bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all shadow-sm"
+                        className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
                         title="Edit Song"
                     >
                         <Pencil className="w-4 h-4" />
                     </button>
-                    <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+                    <div className="w-8 h-8 flex items-center justify-center rounded-full bg-emerald-500/0 group-hover:bg-emerald-500/10 transition-all">
+                        <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
+                    </div>
                 </div>
             </div>
-        </button>
+        </div>
+
     );
 }

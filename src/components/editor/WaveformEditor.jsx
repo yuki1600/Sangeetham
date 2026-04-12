@@ -213,16 +213,20 @@ export default function WaveformEditor({
                 ctx.shadowBlur = 0;
                 // Label pill
                 ctx.font = 'bold 10px system-ui,sans-serif';
-                ctx.textAlign = 'left';
-                const labelX = Math.min(mx, W - 70);
+                ctx.textAlign = 'center';
                 const labelText = section.toUpperCase();
                 const tw = ctx.measureText(labelText).width;
+                const pillW = tw + 12;
+                // Center the pill on the vertical marker line `mx`, 
+                // but clamp it so it doesn't bleed off the canvas edges.
+                const labelX = Math.max(pillW / 2 + 4, Math.min(mx, W - pillW / 2 - 4));
+                
                 ctx.fillStyle = '#fbbf24';
                 ctx.beginPath();
-                ctx.roundRect(labelX, waveTop + 3, tw + 12, 16, 3);
+                ctx.roundRect(labelX - pillW / 2, waveTop + 3, pillW, 16, 3);
                 ctx.fill();
                 ctx.fillStyle = '#000';
-                ctx.fillText(labelText, labelX + 6, waveTop + 15);
+                ctx.fillText(labelText, labelX, waveTop + 15);
                 ctx.restore();
             }
 

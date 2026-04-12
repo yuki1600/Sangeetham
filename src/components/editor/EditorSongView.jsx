@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { X, Upload } from 'lucide-react';
+import { X, Upload, AlertCircle, RefreshCw } from 'lucide-react';
 import VersionHistory from './VersionHistory';
 import LyricsEditor from './LyricsEditor';
 import { useTrackMixer } from '../../hooks/useTrackMixer';
@@ -58,6 +58,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [saveStatus, setSaveStatus] = useState(null); // 'ok' | 'error' | null
     const [isProcessing, setIsProcessing] = useState(false); // applying edit ops
     const [avPerRow, setAvPerRow] = useState(1);
+    const [fetchError, setFetchError] = useState(null);
 
     // Song Track Zone mixer — central state for Sound/Sahitya/Swara tracks
     // (mute/solo/volume/visible/heightPx) plus the Sound Track gain graph.
@@ -97,6 +98,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     const [editInfoArohana, setEditInfoArohana] = useState([]);
     const [editInfoAvarohana, setEditInfoAvarohana] = useState([]);
     const [editInfoSaving, setEditInfoSaving] = useState(false);
+
+    // Phase 4: Audio Engine & Mixer State
+    const [speed, setSpeed] = useState(1.0);
+    const [pitch, setPitch] = useState(0); // semitones
+    const [masterVolume, setMasterVolume] = useState(1.0);
+    const [droneOn, setDroneOn] = useState(false);
+    const [micMonitorOn, setMicMonitorOn] = useState(false);
+
 
     // Canonical compositionType options for the dropdown.
     const COMPOSITION_TYPES = [
@@ -281,7 +290,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     // ── Load song data ────────────────────────────────────────────────────────
     useEffect(() => {
         if (!songId) return;
-
+        setFetchError(null);
+        
         const cached = songDataCache.get(songId);
         if (cached) {
             setSongData(cached);
@@ -310,7 +320,10 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
         }
 
         fetch(apiUrl(`/api/songs/${songId}`))
-            .then(r => r.json())
+            .then(r => {
+                if (!r.ok) throw new Error(`Song not found (${r.status})`);
+                return r.json();
+            })
             .then(data => {
                 songDataCache.set(songId, data);
                 setSongData(data);
@@ -318,9 +331,6 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 const { sectionTimings: st, customAavartanaSec: savedCalib, ...ops } = data.editOps || {};
                 const cleanOps = { trimStart: 0, trimEnd: null, cuts: [], ...ops };
                 const cleanSec = st || {};
-                // Default the first section (typically Pallavi) to start at 0
-                // so the metronome and section bands have a reference point
-                // even before the user touches the Section Cues panel.
                 const firstSec = data.composition?.[0]?.section;
                 if (firstSec && cleanSec[firstSec] == null) cleanSec[firstSec] = 0;
                 const cleanCalib = savedCalib ?? null;
@@ -331,12 +341,14 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 setAvPerRow(data.avartanasPerRow || 1);
                 setSavedDataStr(JSON.stringify({ composition: data.composition, editOps: cleanOps, sectionTimings: cleanSec, customAavartanaSec: cleanCalib, avartanasPerRow: data.avartanasPerRow || 1 }));
                 
-                // Default to sahitya if swara is missing
                 if (data.meta && !data.meta.hasSwara && data.meta.hasSahitya) {
                     setActiveAudioType('sahitya');
                 }
             })
-            .catch(e => console.error('Failed to load song:', e));
+            .catch(e => {
+                console.error('Failed to load song:', e);
+                setFetchError(e.message);
+            });
     }, [songId]);
 
     // ── Decode original audio ─────────────────────────────────────────────────
@@ -869,10 +881,54 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     };
 
 
+    // Only show loading/error screen if we have absolutely no data.
+    // Background re-fetch errors should not break the UI if cached data exists.
     if (!songData) {
         return (
-            <div className="flex items-center justify-center h-full" style={{ background: 'var(--bg-primary)' }}>
-                <div className="w-8 h-8 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+            <div className="flex flex-col items-center justify-center h-full p-6 text-center bg-[var(--bg-primary)]">
+                <div className="glass-card max-w-sm w-full p-10 flex flex-col items-center gap-6 shadow-2xl relative overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent pointer-events-none" />
+                    
+                    {fetchError ? (
+                        <>
+                            <div className="w-16 h-16 rounded-2xl bg-rose-500/10 flex items-center justify-center text-rose-500">
+                                <AlertCircle className="w-8 h-8" />
+                            </div>
+                            <div className="space-y-2">
+                                <h2 className="text-xl font-bold text-[var(--text-primary)]">Loading Failed</h2>
+                                <p className="text-sm text-[var(--text-muted)] leading-relaxed">We couldn't retrieve the composition data. {fetchError}</p>
+                            </div>
+                            <button
+                                onClick={onBack}
+                                className="mt-2 w-full py-3 rounded-xl bg-rose-500/10 text-rose-500 border border-rose-500/20 font-bold text-sm tracking-widest uppercase hover:bg-rose-500 hover:text-white transition-all"
+                            >
+                                Back to Library
+                            </button>
+                        </>
+                    ) : (
+                        <>
+                            <div className="relative">
+                                <div className="w-16 h-16 rounded-2xl border-2 border-emerald-500/20 flex items-center justify-center backdrop-blur-md bg-emerald-500/5">
+                                    <RefreshCw className="w-8 h-8 text-emerald-500 animate-spin opacity-40" />
+                                </div>
+                                <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-emerald-500 rounded-full border-4 border-[var(--bg-card)] animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
+                            </div>
+                            <div className="space-y-1">
+                                <h2 className="text-lg font-bold text-[var(--text-primary)]">Opening Song</h2>
+                                <p className="text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 animate-pulse">Synchronizing...</p>
+                            </div>
+                            <div className="mt-4 flex flex-col items-center gap-3">
+                                <p className="text-xs text-[var(--text-muted)] opacity-60">Preparing your audio workspace</p>
+                                <button
+                                    onClick={onBack}
+                                    className="px-4 py-2 text-[10px] font-black uppercase tracking-widest text-[var(--text-muted)] hover:text-rose-400 transition-colors"
+                                >
+                                    Cancel
+                                </button>
+                            </div>
+                        </>
+                    )}
+                </div>
             </div>
         );
     }
@@ -948,6 +1004,12 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     handleSave={handleSave}
                     isSaving={isSaving}
                     saveStatus={saveStatus}
+                    masterVolume={masterVolume}
+                    setMasterVolume={setMasterVolume}
+                    droneOn={droneOn}
+                    setDroneOn={setDroneOn}
+                    micMonitorOn={micMonitorOn}
+                    setMicMonitorOn={setMicMonitorOn}
                 />
 
                 <SongTrackZone

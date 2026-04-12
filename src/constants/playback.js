@@ -9,7 +9,7 @@
 export const PX_PER_SEC = 100;
 
 /** Fraction of the viewport width where the playhead sits (0 = left, 1 = right). */
-export const PLAYHEAD = 0.125;
+export const PLAYHEAD = 0.16;
 
 /** Default avartana length in seconds when no calibration is saved. */
 export const DEFAULT_AAVARTANA_SEC = 4.0;

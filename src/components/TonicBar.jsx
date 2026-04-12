@@ -81,10 +81,10 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                     }}
                 />
                 
-                <div className="relative z-10 px-6 py-4 flex flex-col lg:flex-row items-center gap-6 lg:gap-0 h-auto lg:h-[84px]">
+                <div className="relative z-10 px-6 py-4 flex flex-col lg:flex-row items-center gap-4 lg:gap-0 h-auto lg:h-[84px]">
                     
                     {/* Left: Drone Controls */}
-                    <div className="flex items-center gap-4 lg:border-r border-[var(--glass-border)] lg:pr-8 flex-shrink-0 min-w-[160px]">
+                    <div className="flex items-center gap-4 lg:border-r border-[var(--glass-border)] lg:pr-6 flex-shrink-0 min-w-[150px]">
                         <button
                             onClick={toggleDrone}
                             className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${
@@ -109,8 +109,8 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                         </div>
                     </div>
 
-                    {/* Center: Live Pitch Monitor (Stable Width, No Internal Borders) */}
-                    <div className="flex-1 flex items-center justify-center pl-4 lg:pl-8 pr-4 lg:pr-8 gap-4">
+                    {/* Center: Live Pitch Monitor (Stable Width, Baseline Aligned) */}
+                    <div className="flex-1 flex items-center justify-center pl-2 lg:pl-6 pr-2 lg:pr-6 gap-4">
                         <button
                             onClick={() => setPitchEnabled(!pitchEnabled)}
                             title={pitchEnabled ? 'Turn off live pitch detection' : 'Turn on live pitch detection'}
@@ -122,7 +122,7 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                         >
                             {pitchEnabled ? <Mic className="w-4 h-4" /> : <MicOff className="w-4 h-4" />}
                         </button>
-                        <div className="min-w-[260px] flex items-center justify-center transition-all duration-300">
+                        <div className="min-w-[240px] flex items-center justify-center transition-all duration-300">
                             {!pitchEnabled ? (
                                 <div className="flex items-center gap-3 opacity-30">
                                     <MicOff className="w-4 h-4 text-[var(--text-muted)]" />
@@ -131,16 +131,16 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                                     </span>
                                 </div>
                             ) : pitchData ? (
-                                <div className="flex items-center gap-8 slide-up">
+                                <div className="flex items-baseline gap-6 slide-up">
                                     <div
                                         className="text-4xl font-black transition-colors duration-200"
-                                        style={{ color: pitchData.color, textShadow: `0 0 15px ${pitchData.color}40` }}
+                                        style={{ color: pitchData.color, textShadow: `0 0 15px ${pitchData.color}40`, lineHeight: '1' }}
                                     >
                                         {pitchData.swara}
                                     </div>
-                                    <div className="w-[1px] h-8 bg-[var(--glass-border)]/50" />
-                                    <div className="flex flex-row items-center gap-3">
-                                        <div className="text-base font-bold text-[var(--text-primary)] tracking-tight">
+                                    <div className="w-[1px] h-6 bg-[var(--glass-border)]/50 self-center" />
+                                    <div className="flex items-baseline gap-3">
+                                        <div className="text-lg font-bold text-[var(--text-primary)] tracking-tight">
                                             {pitchData.hz} <span className="text-[10px] font-normal text-[var(--text-muted)] uppercase">Hz</span>
                                         </div>
                                         <div
@@ -163,9 +163,9 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                     </div>
 
                     {/* Right: Note Select & Volume */}
-                    <div className="flex items-center gap-6 lg:border-l border-[var(--glass-border)] lg:pl-8 flex-shrink-0">
+                    <div className="flex items-center gap-4 lg:border-l border-[var(--glass-border)] lg:pl-6 flex-shrink-0 w-full lg:w-auto justify-between lg:justify-end">
                         {/* Compact Volume */}
-                        <div className="flex items-center gap-3 mr-2">
+                        <div className="flex items-center gap-2">
                             <div className="p-2 rounded-lg bg-white/5 text-[var(--text-muted)]">
                                 {volume <= -40 ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
                             </div>
@@ -176,12 +176,12 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                                 step="1"
                                 value={volume}
                                 onChange={handleVolumeChange}
-                                className="w-20 md:w-28 accent-emerald-500 h-1 rounded-full bg-emerald-500/20 cursor-pointer appearance-none border border-white/5 hover:bg-emerald-500/30 transition-all"
+                                className="w-20 md:w-24 accent-emerald-500 h-1 rounded-full bg-emerald-500/20 cursor-pointer appearance-none border border-white/5 hover:bg-emerald-500/30 transition-all"
                             />
                         </div>
 
-                        {/* Tonic Selector */}
-                        <div className="hidden sm:flex items-center gap-1.5 overflow-x-auto no-scrollbar max-w-[180px] md:max-w-none">
+                        {/* Tonic Selector (Responsive Wrapping) */}
+                        <div className="flex flex-wrap items-center justify-end gap-1 px-1">
                             {TONIC_PRESETS.map((preset) => {
                                 const isSelected = preset.hz === tonicHz;
                                 return (
@@ -189,10 +189,10 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
                                         key={preset.name}
                                         onClick={() => onTonicChange(preset.hz)}
                                         className={`
-                                            flex-shrink-0 min-w-[34px] h-8 rounded-lg text-[10px] font-black transition-all duration-300 border text-black
+                                            flex-shrink-0 min-w-[28px] h-7 px-1.5 rounded-lg text-[9px] font-black transition-all duration-300 border
                                             ${isSelected
-                                                ? 'bg-emerald-500 border-emerald-400 shadow-md shadow-emerald-500/20'
-                                                : 'bg-white/5 border-transparent hover:text-black hover:bg-white/10'
+                                                ? 'bg-emerald-400 border-emerald-300 text-black shadow-md shadow-emerald-400/20'
+                                                : 'bg-white/5 border-transparent text-[var(--text-muted)] hover:text-white hover:bg-white/10'
                                             }
                                         `}
                                     >

@@ -34,9 +34,9 @@ export default function TransportControls({
     borderColor,
 }) {
     return (
-        <div className="flex items-center justify-center w-full gap-8 py-1">
+        <div className="flex items-center justify-center gap-4 py-0.5">
             <div
-                className="flex items-center gap-6 px-8 py-1.5 rounded-3xl"
+                className="flex items-center gap-4 px-5 py-1 rounded-2xl"
                 style={{ background: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)', border: `1px solid ${borderColor}` }}
             >
                 <div className="flex items-center gap-3">

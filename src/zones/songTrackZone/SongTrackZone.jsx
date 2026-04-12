@@ -173,7 +173,7 @@ export default function SongTrackZone({
     return (
         <main
             ref={mainRef}
-            className={`flex-1 flex flex-col relative overflow-hidden select-none ${editorMode === 'view' && isDragging ? 'cursor-grabbing' : editorMode === 'view' ? 'cursor-grab' : 'cursor-default'}`}
+            className={`flex-1 flex flex-col relative overflow-y-auto custom-scrollbar select-none ${isDragging ? 'cursor-grabbing' : 'cursor-default'} ${theme === 'light' ? 'bg-slate-50' : 'bg-[#0a0a0f]'}`}
             {...dragHandlers}
         >
             {/* Avartana boundary lines spanning all tracks */}

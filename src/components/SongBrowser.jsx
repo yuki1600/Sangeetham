@@ -281,9 +281,17 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
 function SongCard({ song, group, onSelect, onEditSong }) {
     const hasExercise = !!song.exerciseId;
     return (
-        <button
+        <div
+            role="button"
+            tabIndex={0}
             onClick={() => onSelect(song)}
-            className="w-full group relative overflow-hidden rounded-xl border border-[var(--glass-border)] p-3.5 text-left transition-all duration-300 hover:border-emerald-500/25 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)]"
+            onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onSelect(song);
+                }
+            }}
+            className="w-full group relative overflow-hidden rounded-xl border border-[var(--glass-border)] p-3.5 text-left transition-all duration-300 hover:border-emerald-500/25 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] cursor-pointer"
             style={{ background: 'var(--glass-bg)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }}
         >
             <div className={`absolute inset-0 bg-gradient-to-r ${group?.color ?? 'from-emerald-500 to-teal-600'} opacity-0 group-hover:opacity-[0.05] transition-opacity duration-300 pointer-events-none`} />
@@ -327,7 +335,8 @@ function SongCard({ song, group, onSelect, onEditSong }) {
                     <ChevronRight className="w-4 h-4 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
                 </div>
             </div>
-        </button>
+        </div>
+
     );
 }
 

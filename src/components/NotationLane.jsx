@@ -384,7 +384,7 @@ export default function NotationLane({
                         >
                             {(avIdx === 0 || aavartanas[avIdx - 1]?.section !== av.section) && (
                                 <div
-                                    className="absolute top-2 left-0 px-2 py-0.5 rounded bg-amber-500/15 text-[11px] font-black tracking-widest uppercase"
+                                    className="absolute top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded bg-amber-500/15 text-[11px] font-black tracking-widest uppercase whitespace-nowrap z-20"
                                     style={{
                                         color: isDark ? '#fbbf24' : '#92400e',
                                         border: `1px solid ${isDark ? 'rgba(251,191,36,0.35)' : 'rgba(146,64,14,0.25)'}`
