@@ -86,12 +86,12 @@ app.use('/api/PDFs', express.static(path.join(__dirname, '../PDFs')));
 const PORT = process.env.PORT || 3001;
 
 function startServer(port) {
-    const server = app.listen(port, () => {
+    app.listen(port, () => {
         console.log(`Server running on :${port}`);
     }).on('error', (err) => {
         if (err.code === 'EADDRINUSE') {
-            console.log(`Port ${port} is busy, trying ${port + 1}...`);
-            startServer(port + 1);
+            console.error(`Port ${port} is busy. Please run 'npm run clean:ports' or use a different port.`);
+            process.exit(1);
         } else {
             console.error('Server error:', err);
         }

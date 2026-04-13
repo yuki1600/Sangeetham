@@ -70,8 +70,9 @@ export default function Header({ theme, onToggleTheme, onEditor, onApprovals, on
                             <span className="text-[8px] font-black uppercase tracking-widest text-emerald-500 opacity-80">{user.role}</span>
                         </div>
                         <img 
-                            src={user.picture} 
+                            src={user.picture || `https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=10b981&color=fff`} 
                             alt={user.name} 
+                            referrerPolicy="no-referrer"
                             className="w-8 h-8 rounded-lg border border-emerald-500/30 group-hover:border-emerald-500 transition-colors"
                         />
                     </button>

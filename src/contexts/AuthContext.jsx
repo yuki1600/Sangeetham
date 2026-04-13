@@ -19,6 +19,7 @@ export function AuthProvider({ children }) {
       // Set token in cookie so backend can read it
       document.cookie = `token=${idToken}; path=/; max-age=3600; SameSite=Lax`;
 
+      console.log('Syncing user with backend...');
       const response = await fetch('/api/auth/sync', {
         method: 'POST',
         headers: {
@@ -29,10 +30,16 @@ export function AuthProvider({ children }) {
       
       if (response.ok) {
         const syncedUser = await response.json();
+        console.log('User synced successfully:', syncedUser.role);
         return syncedUser;
+      } else {
+        const errorData = await response.json().catch(() => ({}));
+        console.error('Backend sync failed:', response.status, errorData);
+        alert(`Authentication sync failed: ${errorData.error || 'Unknown server error'}`);
       }
     } catch (error) {
       console.error('Failed to sync user with backend:', error);
+      alert('Connection error during authentication sync. Please check if the server is running.');
     }
     return null;
   };
@@ -43,6 +50,7 @@ export function AuthProvider({ children }) {
       return;
     }
     try {
+      console.log('Starting Google Login...');
       const result = await signInWithPopup(auth, googleProvider);
       const synced = await syncUser(result.user);
       if (synced) {
@@ -50,6 +58,11 @@ export function AuthProvider({ children }) {
       }
     } catch (error) {
       console.error('Login failed:', error);
+      if (error.code === 'auth/cancelled-popup-request' || error.code === 'auth/popup-closed-by-user') {
+        console.warn('Login attempt cancelled or blocked by popup settings.');
+      } else {
+        alert(`Login failed: ${error.message}`);
+      }
     }
   };
 
@@ -59,6 +72,8 @@ export function AuthProvider({ children }) {
       await signOut(auth);
       document.cookie = 'token=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
       setCurrentUser(null);
+      // Force reload to the landing page to clear all states and prevent blank screens
+      window.location.href = '/';
     } catch (error) {
       console.error('Logout failed:', error);
     }

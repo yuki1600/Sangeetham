@@ -4,6 +4,11 @@
  * Song Track Zone playback (MediaElementSource → GainNode graph). Both
  * concerns share one context because browsers prefer it and the unlock-on-
  * gesture machinery already exists for the mic side.
+ *
+ * The mic is ref-counted: multiple consumers call startMic() / stopMic()
+ * independently, and the hardware stream is only torn down when every caller
+ * has released it. This prevents ExerciseRunner from destroying the stream
+ * that TonicBar / CompactPitchBar / PitchMixerRow are still reading.
  */
 
 let audioContext = null;
@@ -11,6 +16,7 @@ let analyserNode = null;
 let micStream = null;
 let sourceNode = null;
 let dataBuffer = null;
+let micRefCount = 0; // ← ref count: how many callers have "acquired" the mic
 
 export function getAudioContext() {
     if (!audioContext) {
@@ -53,10 +59,12 @@ export function getAudioContextState() {
 }
 
 /**
- * Start microphone capture and set up analyser.
+ * Acquire the microphone.  Each caller must pair this with a matching
+ * stopMic() call.  The hardware stream is reused if already open.
  * @returns {Promise<{ sampleRate: number }>}
  */
 export async function startMic() {
+    micRefCount++;
     try {
         if (!micStream) {
             micStream = await navigator.mediaDevices.getUserMedia({
@@ -85,6 +93,8 @@ export async function startMic() {
 
         return { sampleRate: audioContext.sampleRate };
     } catch (err) {
+        // Failed — undo the ref increment so the count stays consistent
+        micRefCount = Math.max(0, micRefCount - 1);
         console.error('Microphone access failed:', err);
         throw err;
     }
@@ -122,9 +132,31 @@ export function hasSignal() {
 }
 
 /**
- * Stop microphone and clean up.
+ * Release a mic acquisition.  The hardware stream is only stopped when all
+ * callers that called startMic() have called stopMic().
  */
 export function stopMic() {
+    micRefCount = Math.max(0, micRefCount - 1);
+
+    if (micRefCount > 0) {
+        // Other consumers are still using the mic — leave the stream open
+        return;
+    }
+
+    // All holders have released — tear down the hardware stream
+    _teardownMic();
+}
+
+/**
+ * Force-stop the mic regardless of ref count.  Only call this when
+ * intentionally tearing everything down (e.g. page unload).
+ */
+export function forceStopMic() {
+    micRefCount = 0;
+    _teardownMic();
+}
+
+function _teardownMic() {
     if (sourceNode) {
         sourceNode.disconnect();
         sourceNode = null;

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Smartphone, RotateCw, Music, Play, Pause, ArrowLeft, Volume2, VolumeX, Mic, MicOff } from 'lucide-react';
 import PitchVisualizer from './PitchVisualizer';
-import { startMic, stopMic } from '../utils/audioEngine';
 import { initPitchDetector, extractPitchCurveFromAudio } from '../utils/pitchDetection';
 import { hzToSwara, simpleSwaraToHz, TONIC_PRESETS } from '../utils/swaraUtils';
 import { startDrone, stopDrone, isDronePlaying } from '../utils/droneEngine';
@@ -19,7 +18,7 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
     const [referencePitchHistory, setReferencePitchHistory] = useState([]);
     const [fullReferencePitchCurve, setFullReferencePitchCurve] = useState(null);
     const [audioCurrentTime, setAudioCurrentTime] = useState(0);
-    const [micReady, setMicReady] = useState(false);
+    // micReady now comes from usePitchDetection — removed local state
     const [referenceSwara, setReferenceSwara] = useState(null);
     const [isPlaying, setIsPlaying] = useState(true);
 
@@ -88,8 +87,10 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
 
     const [pitchEnabled, setPitchEnabled] = usePitchDetectionEnabled();
 
-    const { pitchData: currentSwara } = usePitchDetection(tonicHz, {
-        enabled: phase === 'playing' && micReady && pitchEnabled,
+    // usePitchDetection owns the mic lifecycle — it acquires on mount and
+    // releases on unmount via ref-counted startMic/stopMic in audioEngine.
+    const { pitchData: currentSwara, micReady } = usePitchDetection(tonicHz, {
+        enabled: phase === 'playing' && pitchEnabled,
         onSample: handlePitchSample,
     });
 
@@ -107,7 +108,8 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
     const currentTarget = sequence[currentNoteIndex];
     useEffect(() => { currentTargetRef.current = currentTarget; }, [currentTarget]);
 
-    // Start mic and audio when playing begins
+    // Audio-only setup (playback + pitch curve extraction).
+    // Mic acquisition is handled entirely by usePitchDetection above.
     useEffect(() => {
         if (phase !== 'playing') return;
 
@@ -115,9 +117,6 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
 
         const setup = async () => {
             try {
-                const { sampleRate } = await startMic();
-                initPitchDetector(sampleRate);
-
                 if (exercise.audioUrl && !audioRef.current) {
                     extractPitchCurveFromAudio(exercise.audioUrl).then(curve => {
                         setFullReferencePitchCurve(curve);
@@ -144,9 +143,6 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
                         }
 
                         setAudioCurrentTime(audio.currentTime);
-
-                        // Always keep state in sync
-                        // (We call this directly instead of ontimeupdate for precision)
                         animFrameRef.current = requestAnimationFrame(syncLoop);
                     };
 
@@ -162,17 +158,16 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
                         loopsRef.current += 1;
                     };
 
-                    await audio.play().catch(e => console.error("Audio play failed:", e));
+                    await audio.play().catch(e => console.error('Audio play failed:', e));
                 }
 
                 if (!cancelled) {
-                    setMicReady(true);
                     startTimeRef.current = performance.now();
                     noteStartRef.current = performance.now();
                     scoresRef.current = sequence.map(() => []);
                 }
             } catch (err) {
-                console.error('Mic setup failed:', err);
+                console.error('Exercise audio setup failed:', err);
             }
         };
 
@@ -180,7 +175,7 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
 
         return () => {
             cancelled = true;
-            stopMic();
+            // Do NOT call stopMic() here — usePitchDetection owns the mic.
             if (audioRef.current) {
                 audioRef.current.onplay = null;
                 audioRef.current.onpause = null;
@@ -189,7 +184,6 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
                 audioRef.current = null;
             }
             if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
-            setMicReady(false);
         };
     }, [phase, sequence, exercise.audioUrl]);
 
@@ -232,11 +226,10 @@ export default function ExerciseRunner({ exercise, tonicHz, theme, onTonicChange
         return () => clearTimeout(timer);
     }, [phase, micReady, currentNoteIndex, sequence, currentTarget, exercise.audioUrl]);
 
-    // When exercise completes
+    // When exercise completes — score and report; mic is NOT stopped here
+    // because usePitchDetection unmounts cleanly via its own effect.
     useEffect(() => {
         if (phase !== 'done') return;
-
-        stopMic();
 
         const endTime = performance.now();
         const durationSec = startTimeRef.current

@@ -74,7 +74,7 @@ export default function Profile({ theme, onBack }) {
                         
                         <div className="relative mb-6">
                             <div className="w-32 h-32 rounded-3xl overflow-hidden border-4 border-emerald-500/20 shadow-2xl transition-transform group-hover:scale-105 duration-500">
-                                <img src={user.picture} alt={user.name} className="w-full h-full object-cover" />
+                                <img src={user.picture || `https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=10b981&color=fff`} referrerPolicy="no-referrer" alt={user.name} className="w-full h-full object-cover" />
                             </div>
                             <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-emerald-500 rounded-2xl flex items-center justify-center text-white border-4 border-[var(--bg-card)] shadow-lg">
                                 <User className="w-5 h-5" />

@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"SERVER_PORT=${SERVER_PORT:-3002} vite\" \"PORT=${SERVER_PORT:-3002} nodemon server/index.js\"",
-    "dev:client": "SERVER_PORT=3002 vite",
-    "server": "PORT=3002 nodemon server/index.js",
-    "server:once": "PORT=3002 node server/index.js",
+    "dev": "concurrently \"SERVER_PORT=3333 vite\" \"PORT=3333 nodemon server/index.js\"",
+    "dev:client": "SERVER_PORT=3333 vite",
+    "server": "PORT=3333 nodemon server/index.js",
+    "server:once": "PORT=3333 node server/index.js",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean:ports": "lsof -ti:3333,5173-5190 | xargs kill -9 2>/dev/null || true"
   },
   "nodemonConfig": {
     "watch": [
