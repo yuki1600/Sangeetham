@@ -46,6 +46,7 @@ export default function SahityaTrack({
     theme,
     isDark,
     borderColor,
+    canEdit = true,
 }) {
     const { visible, heightPx } = state;
     // Expanded → 14px gap below the separator. Collapsed → smaller top so the
@@ -81,13 +82,15 @@ export default function SahityaTrack({
                         {visible ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                         Sahitya
                     </button>
-                    <TrackOrderButtons
-                        onMoveUp={onMoveUp}
-                        onMoveDown={onMoveDown}
-                        canMoveUp={canMoveUp}
-                        canMoveDown={canMoveDown}
-                        isDark={isDark}
-                    />
+                    {canEdit && (
+                        <TrackOrderButtons
+                            onMoveUp={onMoveUp}
+                            onMoveDown={onMoveDown}
+                            canMoveUp={canMoveUp}
+                            canMoveDown={canMoveDown}
+                            isDark={isDark}
+                        />
+                    )}
                 </div>
             </div>
 
@@ -114,6 +117,7 @@ export default function SahityaTrack({
                         onPan={handleWheelPan}
                         onRowDuplicate={handleRowDuplicate}
                         onRowDelete={handleRowDelete}
+                        canEdit={canEdit}
                     />
                 </div>
             )}

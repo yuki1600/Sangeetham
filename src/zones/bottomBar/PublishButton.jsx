@@ -16,8 +16,10 @@ import { apiUrl } from '../../utils/api';
  * persistent across reloads. Until an admin approves it (Phase 7), the
  * button stays in the 'pending' state.
  */
-export default function PublishButton({ songId, publishStatus, onStatusChange, isDark, borderColor }) {
+export default function PublishButton({ songId, publishStatus, onStatusChange, isDark, borderColor, canEdit }) {
     const [isSubmitting, setIsSubmitting] = useState(false);
+
+    if (!canEdit) return null;
 
     const status = publishStatus || 'draft';
 

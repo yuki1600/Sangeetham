@@ -8,7 +8,10 @@ import FeedbackSummary from './components/FeedbackSummary';
 import SongsPanel from './components/SongsPanel';
 import SongEditor from './components/editor/SongEditor';
 import EditorSongView from './components/editor/EditorSongView';
+import ApprovalsPanel from './components/ApprovalsPanel';
+import Profile from './components/Profile';
 import InfoModal from './components/InfoModal';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { TONIC_PRESETS } from './utils/swaraUtils';
 import { EXERCISES } from './utils/exercises';
 import { ChevronRight, Music2 } from 'lucide-react';
@@ -19,6 +22,7 @@ import { ErrorBoundary } from './ErrorBoundary';
 function parseHash() {
   const hash = window.location.hash.slice(1);
   if (hash === 'editor') return { view: 'editor' };
+  if (hash === 'approvals') return { view: 'approvals' };
   if (hash.startsWith('editor-song/')) {
     const id = hash.slice('editor-song/'.length);
     if (id) return { view: 'editor-song', editorSongId: id };
@@ -36,6 +40,7 @@ function parseHash() {
  * Main application — routes between home, song-browser, practicing, and feedback views.
  */
 function AppContent() {
+  const { user, isAdmin, isEditor } = useAuth();
   const _initial = parseHash();
   const [view, setView] = useState(_initial.view);
   const [tonicHz, setTonicHz] = useState(TONIC_PRESETS[0].hz);
@@ -72,6 +77,7 @@ function AppContent() {
     else if (view === 'editor-song' && selectedSongId) hash = `editor-song/${selectedSongId}`;
     else if (view === 'song-view' && selectedSongId) hash = `song-view/${selectedSongId}`;
     else if (view === 'song-browser' && browsedGroupId) hash = `song-browser/${browsedGroupId}`;
+    else if (view === 'approvals') hash = 'approvals';
     // practicing / feedback are transient — refresh sends to home
     history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname);
   }, [view, selectedSongId, browsedGroupId]);
@@ -143,8 +149,31 @@ function AppContent() {
     setView('editor-song');
   }, []);
 
+  // Profile view
+  if (view === 'profile' && user) {
+    return (
+      <div className="h-full flex flex-col overflow-y-auto">
+        <Header
+          theme={theme}
+          onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onEditor={() => setView('editor')}
+          onApprovals={() => setView('approvals')}
+          onProfile={() => setView('profile')}
+          onInfo={() => setShowInfo(true)}
+        />
+        <main className="flex-1 px-6 pb-8 max-w-4xl mx-auto w-full">
+          <Profile theme={theme} onBack={handleHome} />
+        </main>
+      </div>
+    );
+  }
+
   // Editor views
   if (view === 'editor') {
+    if (!isEditor) {
+      setView('home');
+      return null;
+    }
     return (
       <div className="h-full bg-[var(--bg-primary)]">
         <SongEditor
@@ -152,6 +181,29 @@ function AppContent() {
           onEditSong={(id) => handleEditSong(id, 'editor')}
           onBack={handleHome}
         />
+      </div>
+    );
+  }
+
+  // Approvals view
+  if (view === 'approvals') {
+    if (!isAdmin) {
+      setView('home');
+      return null;
+    }
+    return (
+      <div className="h-full flex flex-col overflow-y-auto">
+        <Header
+          theme={theme}
+          onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onEditor={() => setView('editor')}
+          onApprovals={() => setView('approvals')}
+          onProfile={() => setView('profile')}
+          onInfo={() => setShowInfo(true)}
+        />
+        <main className="flex-1 px-6 pb-8 max-w-7xl mx-auto w-full">
+          <ApprovalsPanel theme={theme} onBack={handleHome} />
+        </main>
       </div>
     );
   }
@@ -168,6 +220,7 @@ function AppContent() {
         <EditorSongView
           songId={selectedSongId}
           theme={theme}
+          canEdit={isEditor}
           tonicHz={tonicHz}
           onTonicChange={setTonicHz}
           onBack={isEditRoute ? () => setView(editorBackTarget) : handleBackFromSong}
@@ -184,6 +237,8 @@ function AppContent() {
           theme={theme}
           onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
           onEditor={() => setView('editor')}
+          onApprovals={() => setView('approvals')}
+          onProfile={() => setView('profile')}
           onInfo={() => setShowInfo(true)}
         />
 
@@ -213,6 +268,7 @@ function AppContent() {
                   onSelectSong={handleSelectSong} 
                   onEditSong={(id) => handleEditSong(id, 'home')}
                   onViewAll={() => setView('editor')}
+                  isEditor={isEditor}
                 />
               </div>
             </div>
@@ -230,6 +286,8 @@ function AppContent() {
           theme={theme}
           onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
           onEditor={() => setView('editor')}
+          onApprovals={() => setView('approvals')}
+          onProfile={() => setView('profile')}
           onInfo={() => setShowInfo(true)}
         />
         {showInfo && <InfoModal onClose={() => setShowInfo(false)} theme={theme} />}
@@ -239,6 +297,7 @@ function AppContent() {
             onBack={handleHome}
             onSelectSong={handleSelectSong}
             onEditSong={(id) => handleEditSong(id, 'song-browser')}
+            isEditor={isEditor}
           />
         </main>
       </div>
@@ -280,8 +339,10 @@ function AppContent() {
 
 export default function App() {
   return (
-    <ErrorBoundary>
-      <AppContent />
-    </ErrorBoundary>
+    <AuthProvider>
+      <ErrorBoundary>
+        <AppContent />
+      </ErrorBoundary>
+    </AuthProvider>
   );
 }

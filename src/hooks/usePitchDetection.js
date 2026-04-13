@@ -37,10 +37,10 @@ import { hzToSwara } from '../utils/swaraUtils';
 export function usePitchDetection(tonicHz, opts = {}) {
     const {
         enabled = true,
-        throttleMs = 100,
+        throttleMs = 50,
         onSample,
         signalLevel: trackSignalLevel = false,
-        watchdog = false,
+        watchdog = true,
     } = opts;
 
     const [pitchData, setPitchData] = useState(null);

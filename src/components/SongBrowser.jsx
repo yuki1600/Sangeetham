@@ -33,7 +33,7 @@ const TYPE_META = {
  *      `type:` (e.g. `type:Geetham`). Songs are fetched live from /api/songs
  *      and filtered down to that compositionType.
  */
-export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong }) {
+export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong, isEditor = false }) {
     // Dynamic mode: groupId is "type:Geetham"
     const isTypeGroup = typeof groupId === 'string' && groupId.startsWith('type:');
     const compositionType = isTypeGroup ? groupId.slice('type:'.length) : null;
@@ -52,7 +52,7 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
             .then(r => r.json())
             .then(data => {
                 if (cancelled || !Array.isArray(data)) return;
-                const filtered = data
+                let filtered = data
                     .filter(s => s.isPublished && (s.compositionType || 'Other') === compositionType)
                     // Shape DB rows so they look like the static LESSON_GROUPS songs
                     // SongCard expects (.title, .raga, .tala, .composer, .id).
@@ -64,6 +64,20 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
                         isDynamic: true,
                     }))
                     .sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+
+                // Merge Guest favorites
+                if (!isEditor) {
+                    try {
+                        const stored = localStorage.getItem('sangeetha_favorites');
+                        if (stored) {
+                            const favIds = JSON.parse(stored);
+                            filtered.forEach(s => {
+                                if (favIds.includes(s.id)) s.isFavorite = true;
+                            });
+                        }
+                    } catch (e) {}
+                }
+
                 setDynamicSongs(filtered);
             })
             .catch(e => console.error('Failed to load type group songs:', e))
@@ -270,7 +284,15 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
                     </div>
                 ) : (
                     filtered.map(song => (
-                        <SongCard key={song.id} song={song} group={group} onSelect={onSelectSong} onEditSong={onEditSong} />
+                        <SongCard 
+                            key={song.id} 
+                            song={song} 
+                            group={group} 
+                            onSelect={onSelectSong} 
+                            onEditSong={onEditSong}
+                            isEditor={isEditor}
+                            setDynamicSongs={setDynamicSongs}
+                        />
                     ))
                 )}
             </div>
@@ -278,8 +300,26 @@ export default function SongBrowser({ groupId, onBack, onSelectSong, onEditSong 
     );
 }
 
-function SongCard({ song, group, onSelect, onEditSong }) {
+const TYPE_COLORS = {
+    Geetham:     '#10b981',
+    Swarajathi:  '#06b6d4',
+    Varnam:      '#8b5cf6',
+    Kriti:       '#f59e0b',
+    Tillana:     '#ec4899',
+    Javali:      '#f43f5e',
+    Padam:       '#a855f7',
+    Devaranama:  '#3b82f6',
+    Sankeertana: '#14b8a6',
+    Bhajan:      '#f97316',
+    Slokam:      '#eab308',
+    Viruttam:    '#6366f1',
+};
+const typeColor = (t) => TYPE_COLORS[t] || '#64748b';
+
+function SongCard({ song, group, onSelect, onEditSong, isEditor, setDynamicSongs }) {
     const hasExercise = !!song.exerciseId;
+    const { Heart, Disc3, Pencil, ChevronRight } = LucideIcons;
+    const accent = typeColor(song.compositionType);
     return (
         <div
             role="button"
@@ -291,64 +331,122 @@ function SongCard({ song, group, onSelect, onEditSong }) {
                     onSelect(song);
                 }
             }}
-            className="w-full group relative overflow-hidden rounded-xl border border-[var(--glass-border)] p-3.5 text-left transition-all duration-300 hover:border-emerald-500/25 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] cursor-pointer"
-            style={{ background: 'var(--glass-bg)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }}
+            className="w-full group relative overflow-hidden rounded-3xl border border-[var(--glass-border)] bg-gradient-to-br from-[var(--bg-card)] to-[var(--bg-card-hover)] p-5 text-left transition-all duration-400 hover:border-emerald-500/30 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(0,0,0,0.15)] cursor-pointer"
+            style={{ background: 'var(--glass-bg)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)' }}
         >
-            <div className={`absolute inset-0 bg-gradient-to-r ${group?.color ?? 'from-emerald-500 to-teal-600'} opacity-0 group-hover:opacity-[0.05] transition-opacity duration-300 pointer-events-none`} />
+            <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 pointer-events-none" />
 
-            <div className="relative z-10 flex items-center gap-3">
-                <div className="flex-1 min-w-0">
-                    <h4 className="font-semibold text-sm text-[var(--text-primary)] group-hover:text-emerald-400 transition-colors truncate">
-                        {song.title}
-                    </h4>
-                    <div className="flex flex-col gap-1.5 mt-2">
-                        <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
-                            {song.raga && (
-                                <MetaTag label={song.raga} color="raga" />
+            <div className="relative z-10 flex items-center justify-between gap-4">
+                <div className="flex-1 min-w-0 flex items-center gap-5">
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-600/10 border border-emerald-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                        <Disc3 className="w-6 h-6 text-emerald-500" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2 flex-wrap mb-1">
+                            <h4 className="text-lg font-bold text-[var(--text-primary)] truncate group-hover:text-emerald-400 transition-colors tracking-tight">
+                                {song.title}
+                            </h4>
+                            {song.compositionType && (
+                                <span
+                                    className="px-2.5 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-[0.15em] flex-shrink-0"
+                                    style={{
+                                        background: `${accent}1f`,
+                                        color: accent,
+                                        border: `1px solid ${accent}40`,
+                                    }}
+                                >
+                                    {song.compositionType}
+                                </span>
                             )}
-                            {song.tala && (
-                                <MetaTag label={song.tala} color="tala" />
+                            {hasExercise && (
+                                <span className="px-2.5 py-0.5 rounded-lg text-[10px] font-black uppercase tracking-[0.15em] flex-shrink-0 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                    Practice
+                                </span>
                             )}
                         </div>
-                        {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
-                            <div className="flex items-center gap-1.5 px-0.5">
-                                <span className="opacity-40 uppercase tracking-widest font-black text-[8px]">By</span>
-                                <span className="text-[10px] font-bold text-amber-500/80 uppercase tracking-wide">{song.composer}</span>
+                        <div className="flex flex-col gap-2 mt-2">
+                            <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                                <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5 group-hover:border-emerald-500/20 transition-colors">
+                                    <span className="opacity-30 uppercase tracking-[0.15em] font-black text-[9px]">Raga</span>
+                                    <span className="text-[13px] font-bold text-emerald-400/90">{song.raga || 'Other'}</span>
+                                </div>
+                                <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5 group-hover:border-teal-500/20 transition-colors">
+                                    <span className="opacity-30 uppercase tracking-[0.15em] font-black text-[9px]">Tala</span>
+                                    <span className="text-[13px] font-bold text-teal-400/90">{song.tala || 'Other'}</span>
+                                </div>
                             </div>
-                        )}
+                            {song.composer && song.composer !== 'Traditional' && song.composer !== 'Unknown' && (
+                                <div className="flex items-center gap-2 px-1">
+                                    <span className="opacity-30 uppercase tracking-[0.15em] font-black text-[9px]">By</span>
+                                    <span className="text-[13px] font-bold text-amber-400/70">{song.composer}</span>
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
 
-                <div className="flex items-center gap-1.5 flex-shrink-0">
-                    {hasExercise && (
-                        <span className="text-[9px] font-bold tracking-wider uppercase bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded border border-emerald-500/20">
-                            Practice
-                        </span>
-                    )}
+                <div className="flex items-center gap-3 flex-shrink-0">
                     <button
-                        onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
-                        className="p-2 rounded-lg bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
-                        title="Edit Song"
+                        onClick={async (e) => {
+                            e.stopPropagation();
+                            const newFav = !song.isFavorite;
+
+                            if (!isEditor) {
+                                // Guest mode
+                                try {
+                                    const stored = localStorage.getItem('sangeetha_favorites');
+                                    let favs = stored ? JSON.parse(stored) : [];
+                                    if (newFav) {
+                                        if (!favs.includes(song.id)) favs.push(song.id);
+                                    } else {
+                                        favs = favs.filter(id => id !== song.id);
+                                    }
+                                    localStorage.setItem('sangeetha_favorites', JSON.stringify(favs));
+                                    setDynamicSongs(prev => prev.map(s => s.id === song.id ? { ...s, isFavorite: newFav } : s));
+                                } catch (err) {
+                                    console.error('Failed to update guest favorites:', err);
+                                }
+                                return;
+                            }
+
+                            // Editor mode
+                            try {
+                                const res = await fetch(apiUrl(`/api/songs/${song.id}/metadata`), {
+                                    method: 'PATCH',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify({ raga: song.raga, tala: song.tala, isFavorite: newFav })
+                                });
+                                const data = await res.json();
+                                if (data.ok) {
+                                    setDynamicSongs(prev => prev.map(s => s.id === song.id ? { ...s, isFavorite: newFav } : s));
+                                }
+                            } catch (err) {
+                                console.error('Failed toggling favorite:', err);
+                            }
+                        }}
+                        className={`w-10 h-10 flex items-center justify-center rounded-xl border transition-all ${
+                            song.isFavorite
+                                ? 'bg-rose-500/10 border-rose-500/30 text-rose-500 shadow-[0_0_15px_rgba(244,63,94,0.1)]'
+                                : 'bg-white/5 border-white/10 text-rose-500/40 hover:text-rose-500 hover:bg-rose-500/10 hover:border-rose-500/30'
+                        }`}
+                        title={song.isFavorite ? "Remove from Favorites" : "Add to Favorites"}
                     >
-                        <Pencil className="w-3.5 h-3.5" />
+                        <Heart className={`w-4 h-4 transition-all ${song.isFavorite ? 'fill-rose-500' : 'fill-transparent'}`} />
                     </button>
-                    <ChevronRight className="w-4 h-4 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
+                    {isEditor && (
+                        <button
+                            onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
+                            className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
+                            title="Edit Song"
+                        >
+                            <Pencil className="w-4 h-4" />
+                        </button>
+                    )}
+                    <div className="w-8 h-8 flex items-center justify-center rounded-full bg-emerald-500/0 group-hover:bg-emerald-500/10 transition-all">
+                        <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
+                    </div>
                 </div>
             </div>
         </div>
-
-    );
-}
-
-function MetaTag({ label, color }) {
-    const colorMap = {
-        raga: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
-        tala: 'bg-teal-500/10 text-teal-400 border-teal-500/20',
-        composer: 'bg-[var(--text-muted)]/10 text-[var(--text-muted)] border-[var(--text-muted)]/20',
-    };
-    return (
-        <span className={`inline-block text-[9px] font-bold tracking-wide uppercase px-1.5 py-0.5 rounded border ${colorMap[color] ?? colorMap.raga}`}>
-            {label}
-        </span>
     );
 }

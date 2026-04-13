@@ -23,11 +23,36 @@ export default function SongInfoPanel({
     onBack,
     onSongDataChange,                       // setSongData
     onOpenEditInfo,                         // openEditInfo
+    canEdit = true,
     isDark,
     borderColor,
 }) {
     const handleFavoriteToggle = async () => {
-        const newFav = !songData.meta.isFavorite;
+        const currentFavorite = songData.meta.isFavorite;
+        const newFav = !currentFavorite;
+
+        if (!canEdit) {
+            // Guest mode: save to localStorage
+            try {
+                const stored = localStorage.getItem('sangeetha_favorites');
+                let favs = stored ? JSON.parse(stored) : [];
+                if (newFav) {
+                    if (!favs.includes(songId)) favs.push(songId);
+                } else {
+                    favs = favs.filter(id => id !== songId);
+                }
+                localStorage.setItem('sangeetha_favorites', JSON.stringify(favs));
+                onSongDataChange(prev => ({
+                    ...prev,
+                    meta: { ...prev.meta, isFavorite: newFav },
+                }));
+            } catch (e) {
+                console.error('Failed to update guest favorites:', e);
+            }
+            return;
+        }
+
+        // Editor mode: save to DB
         try {
             const res = await fetch(apiUrl(`/api/songs/${songId}/metadata`), {
                 method: 'PATCH',
@@ -106,9 +131,10 @@ export default function SongInfoPanel({
                     <div className="flex items-center gap-1 flex-shrink-0">
                         <button
                             onClick={onOpenEditInfo}
-                            className="p-1.5 rounded-lg border transition-all hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400"
+                            disabled={!canEdit}
+                            className={`p-1.5 rounded-lg border transition-all ${!canEdit ? 'opacity-30 cursor-not-allowed' : 'hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400'}`}
                             style={{ color: 'var(--text-muted)', borderColor }}
-                            title="Edit Info"
+                            title={canEdit ? "Edit Info" : "Login as Editor to modify metadata"}
                         >
                             <Pencil className="w-3.5 h-3.5" />
                         </button>

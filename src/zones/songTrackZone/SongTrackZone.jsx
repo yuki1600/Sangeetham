@@ -60,6 +60,7 @@ export default function SongTrackZone({
     handleTokenEdit,
     handleRowDuplicate,
     handleRowDelete,
+    canEdit = true,
     // theme
     theme,
     isDark,
@@ -104,6 +105,7 @@ export default function SongTrackZone({
                     theme={theme}
                     isDark={isDark}
                     borderColor={borderColor}
+                    canEdit={canEdit}
                     {...helpers}
                 />
             );
@@ -132,6 +134,7 @@ export default function SongTrackZone({
                     theme={theme}
                     isDark={isDark}
                     borderColor={borderColor}
+                    canEdit={canEdit}
                     {...helpers}
                 />
             );
@@ -157,6 +160,7 @@ export default function SongTrackZone({
                     handleTokenEdit={handleTokenEdit}
                     theme={theme}
                     isDark={isDark}
+                    canEdit={canEdit}
                     {...helpers}
                 />
             );

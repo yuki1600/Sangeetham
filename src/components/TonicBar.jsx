@@ -18,7 +18,7 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
     // Pitch Monitoring (auto-starts on interaction inside the hook)
     const { pitchData, signalLevel, isMicActive } = usePitchDetection(tonicHz, {
         enabled: pitchEnabled,
-        throttleMs: 80,
+        throttleMs: 50,
         signalLevel: true,
         watchdog: true,
     });
@@ -53,14 +53,6 @@ export default function TonicBar({ tonicHz, onTonicChange, theme }) {
         setVolume(val);
         setDroneVolume(val);
     };
-
-    // Resume the AudioContext on user interaction (browser autoplay policy)
-    useEffect(() => {
-        const tryResume = () => resumeAudioContext();
-        const events = ['click', 'mousedown', 'pointerdown', 'touchstart', 'keydown', 'scroll'];
-        events.forEach(e => window.addEventListener(e, tryResume, { passive: true }));
-        return () => events.forEach(e => window.removeEventListener(e, tryResume));
-    }, []);
 
     return (
         <div className="w-full mb-8 sticky top-0 z-30 fade-in">

@@ -59,6 +59,7 @@ export default function BottomBar({
     // theme
     isDark,
     borderColor,
+    canEdit,
 }) {
     return (
         <div
@@ -91,6 +92,7 @@ export default function BottomBar({
                     handleJsonSwap={handleJsonSwap}
                     isDark={isDark}
                     borderColor={borderColor}
+                    canEdit={canEdit}
                 />
                 <PublishButton
                     songId={songId}
@@ -98,6 +100,7 @@ export default function BottomBar({
                     onStatusChange={onPublishStatusChange}
                     isDark={isDark}
                     borderColor={borderColor}
+                    canEdit={canEdit}
                 />
             </div>
 

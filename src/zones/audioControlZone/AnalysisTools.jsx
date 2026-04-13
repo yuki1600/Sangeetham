@@ -15,14 +15,18 @@ export default function AnalysisTools({
     customAavartanaSec,
     setCustomAavartanaSec,
     sectionTimingsCount,
+    canEdit = true,
     isDark,
     borderColor
 }) {
-    const iconBtn = (icon, onClick, title, active = false, color = 'var(--text-muted)') => (
+    const iconBtn = (icon, onClick, title, active = false, color = 'var(--text-muted)', disabled = false) => (
         <button
-            onClick={onClick}
-            title={title}
-            className={`w-9 h-9 flex items-center justify-center rounded-xl border transition-all hover:scale-105 active:scale-95 ${
+            onClick={disabled ? undefined : onClick}
+            title={disabled ? "Login as Editor to use this tool" : title}
+            disabled={disabled}
+            className={`w-9 h-9 flex items-center justify-center rounded-xl border transition-all ${
+                disabled ? 'opacity-20 cursor-not-allowed' : 'hover:scale-105 active:scale-95'
+            } ${
                 active ? 'bg-white/10 text-white shadow-lg' : ''
             }`}
             style={{ 
@@ -44,7 +48,8 @@ export default function AnalysisTools({
                     () => setShowSections(s => !s), 
                     "Set Section Start Times", 
                     showSections, 
-                    "#fbbf24"
+                    "#fbbf24",
+                    !canEdit
                 )}
                 {sectionTimingsCount > 0 && (
                     <span className="absolute -top-1 -right-1 flex items-center justify-center w-4 h-4 rounded-full bg-amber-500 text-[9px] font-black text-white shadow-lg">
@@ -59,7 +64,8 @@ export default function AnalysisTools({
                 () => setEditorMode(m => m === 'trim' ? 'view' : 'trim'), 
                 "Toggle Trim Mode (T)", 
                 editorMode === 'trim', 
-                "#ef4444"
+                "#ef4444",
+                !canEdit
             )}
 
             {/* Calibrate */}
@@ -69,31 +75,35 @@ export default function AnalysisTools({
                     () => setEditorMode(m => m === 'calibrate' ? 'view' : 'calibrate'), 
                     "Calibrate Āvartana Duration (C)", 
                     editorMode === 'calibrate', 
-                    "#3b82f6"
+                    "#3b82f6",
+                    !canEdit
                 )}
                 {customAavartanaSec && (
                     <div className="flex items-center gap-1 group">
-                        <div className="flex flex-col">
-                            <button 
-                                onClick={() => setCustomAavartanaSec(prev => Math.max(0.01, (prev || 0) + 0.01))}
-                                className="p-0.5 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
-                                title="Increase by 10ms"
-                            >
-                                <ChevronUp className="w-3 h-3" />
-                            </button>
-                            <button 
-                                onClick={() => setCustomAavartanaSec(prev => Math.max(0.01, (prev || 0) - 0.01))}
-                                className="p-0.5 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
-                                title="Decrease by 10ms"
-                            >
-                                <ChevronDown className="w-3 h-3" />
-                            </button>
-                        </div>
+                        {canEdit && (
+                            <div className="flex flex-col">
+                                <button 
+                                    onClick={() => setCustomAavartanaSec(prev => Math.max(0.01, (prev || 0) + 0.01))}
+                                    className="p-0.5 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
+                                    title="Increase by 10ms"
+                                >
+                                    <ChevronUp className="w-3 h-3" />
+                                </button>
+                                <button 
+                                    onClick={() => setCustomAavartanaSec(prev => Math.max(0.01, (prev || 0) - 0.01))}
+                                    className="p-0.5 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
+                                    title="Decrease by 10ms"
+                                >
+                                    <ChevronDown className="w-3 h-3" />
+                                </button>
+                            </div>
+                        )}
                         <div className="flex items-center">
                             <input
                                 key={customAavartanaSec}
                                 type="text"
                                 defaultValue={customAavartanaSec.toFixed(2)}
+                                disabled={!canEdit}
                                 onBlur={(e) => {
                                     const val = parseFloat(e.target.value);
                                     if (!isNaN(val) && val > 0) setCustomAavartanaSec(val);
@@ -102,7 +112,7 @@ export default function AnalysisTools({
                                 onKeyDown={(e) => {
                                     if (e.key === 'Enter') e.target.blur();
                                 }}
-                                className="w-14 bg-transparent text-[11px] font-black tabular-nums text-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 rounded px-1 transition-all text-center"
+                                className={`w-14 bg-transparent text-[11px] font-black tabular-nums text-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 rounded px-1 transition-all text-center ${!canEdit ? 'opacity-40 cursor-not-allowed' : ''}`}
                             />
                             <span className="text-[10px] font-black text-blue-400/40 ml-0.5">s</span>
                         </div>

@@ -23,7 +23,7 @@ import { useKeyboardShortcuts } from '../../hooks/useKeyboardShortcuts';
 import { useDropdown } from '../../hooks/useDropdown';
 import { apiUrl } from '../../utils/api';
 
-export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack }) {
+export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, onBack, canEdit = true }) {
     // Song data from server
     const [songData, setSongData] = useState(null);
     const [composition, setComposition] = useState(null);
@@ -343,6 +343,19 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                 
                 if (data.meta && !data.meta.hasSwara && data.meta.hasSahitya) {
                     setActiveAudioType('sahitya');
+                }
+
+                // Initial Guest favorites sync
+                if (!canEdit) {
+                    try {
+                        const favs = JSON.parse(localStorage.getItem('sangeetha_favorites') || '[]');
+                        if (favs.includes(songId)) {
+                            setSongData(prev => ({
+                                ...prev,
+                                meta: { ...prev.meta, isFavorite: true }
+                            }));
+                        }
+                    } catch (e) {}
                 }
             })
             .catch(e => {
@@ -881,6 +894,25 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
     };
 
 
+    const handlePublishRequest = async () => {
+        if (!songId || !canEdit) return;
+        try {
+            const res = await fetch(apiUrl(`/api/songs/${songId}/publish-request`), {
+                method: 'POST'
+            });
+            if (!res.ok) throw new Error('Failed to request publish');
+            const data = await res.json();
+            setSongData(prev => ({
+                ...prev,
+                meta: { ...prev.meta, publishStatus: data.publishStatus }
+            }));
+            alert(data.publishStatus === 'published' ? 'Song published successfully!' : 'Publish request submitted.');
+        } catch (err) {
+            alert('Failed to request publish: ' + err.message);
+        }
+    };
+
+
     // Only show loading/error screen if we have absolutely no data.
     // Background re-fetch errors should not break the UI if cached data exists.
     if (!songData) {
@@ -1004,6 +1036,8 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     handleSave={handleSave}
                     isSaving={isSaving}
                     saveStatus={saveStatus}
+                    handlePublishRequest={handlePublishRequest}
+                    canEdit={canEdit}
                     masterVolume={masterVolume}
                     setMasterVolume={setMasterVolume}
                     droneOn={droneOn}
@@ -1043,6 +1077,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     handleTokenEdit={handleTokenEdit}
                     handleRowDuplicate={handleRowDuplicate}
                     handleRowDelete={handleRowDelete}
+                    canEdit={canEdit}
                     theme={theme}
                     isDark={isDark}
                     borderColor={borderColor}
@@ -1091,6 +1126,7 @@ export default function EditorSongView({ songId, theme, tonicHz, onTonicChange, 
                     talaStartTime={talaStartTime}
                     isDark={isDark}
                     borderColor={borderColor}
+                    canEdit={canEdit}
                 />
             </div>
 

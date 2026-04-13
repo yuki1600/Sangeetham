@@ -51,6 +51,7 @@ export default function SoundTrack({
     theme,
     isDark,
     borderColor,
+    canEdit = true,
 }) {
     const { visible, heightPx } = state;
     // When expanded the WaveformEditor draws a 22px ruler at the top, so the
@@ -89,9 +90,10 @@ export default function SoundTrack({
                                 backdropFilter: 'blur(6px)',
                             }}
                         >
-                            {visible ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
-                            Sound
-                        </button>
+                        {visible ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+                        Sound
+                    </button>
+                    {canEdit && (
                         <TrackOrderButtons
                             onMoveUp={onMoveUp}
                             onMoveDown={onMoveDown}
@@ -99,7 +101,8 @@ export default function SoundTrack({
                             canMoveDown={canMoveDown}
                             isDark={isDark}
                         />
-                    </div>
+                    )}
+                </div>
                     {visible && (
                         <TrackControls
                             state={state}
@@ -132,11 +135,12 @@ export default function SoundTrack({
                         currentTimeRef.current = t;
                         setCurrentTime(t);
                     }}
+                    canEdit={canEdit}
                 />
             )}
 
             {/* Delete selection popup — only in trim mode when a region is picked */}
-            {visible && editorMode === 'trim' && activeSelection && activeSelection.endTime != null &&
+            {visible && canEdit && editorMode === 'trim' && activeSelection && activeSelection.endTime != null &&
                 Math.abs(activeSelection.endTime - activeSelection.startTime) >= 0.1 && (
                 <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 px-4 py-2 rounded-xl shadow-xl border"
                     style={{

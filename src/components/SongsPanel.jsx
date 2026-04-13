@@ -25,7 +25,7 @@ const typeColor = (t) => TYPE_COLORS[t] || '#64748b';
  * SongsPanel — shows published community songs dynamically from the backend.
  * Includes search and tabbed navigation between Favorites and Library.
  */
-export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
+export default function SongsPanel({ onSelectSong, onEditSong, onViewAll, isEditor = false }) {
     const [allSongs, setAllSongs] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -40,6 +40,20 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
                     // Filter published songs only for basic dashboard
                     const published = data.filter(s => s.isPublished);
                     published.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+                    
+                    // Merge Guest favorites
+                    if (!isEditor) {
+                        try {
+                            const stored = localStorage.getItem('sangeetha_favorites');
+                            if (stored) {
+                                const favIds = JSON.parse(stored);
+                                published.forEach(s => {
+                                    if (favIds.includes(s.id)) s.isFavorite = true;
+                                });
+                            }
+                        } catch (e) {}
+                    }
+                    
                     setAllSongs(published);
                 }
             })
@@ -195,6 +209,7 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
                                         onSelectSong={onSelectSong}
                                         onEditSong={onEditSong}
                                         setAllSongs={setAllSongs}
+                                        isEditor={isEditor}
                                     />
                                 </motion.div>
                             ))
@@ -214,7 +229,7 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
                 </AnimatePresence>
 
                 <AnimatePresence>
-                    {activeTab === 'library' && (
+                    {isEditor && activeTab === 'library' && (
                         <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -240,7 +255,7 @@ export default function SongsPanel({ onSelectSong, onEditSong, onViewAll }) {
 /**
  * Reusable Song Card Component
  */
-function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
+function SongCard({ song, onSelectSong, onEditSong, setAllSongs, isEditor }) {
     const accent = typeColor(song.compositionType);
     return (
         <div
@@ -318,8 +333,28 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                     <button
                         onClick={async (e) => {
                             e.stopPropagation();
+                            const newFav = !song.isFavorite;
+
+                            if (!isEditor) {
+                                // Guest mode
+                                try {
+                                    const stored = localStorage.getItem('sangeetha_favorites');
+                                    let favs = stored ? JSON.parse(stored) : [];
+                                    if (newFav) {
+                                        if (!favs.includes(song.id)) favs.push(song.id);
+                                    } else {
+                                        favs = favs.filter(id => id !== song.id);
+                                    }
+                                    localStorage.setItem('sangeetha_favorites', JSON.stringify(favs));
+                                    setAllSongs(prev => prev.map(s => s.id === song.id ? { ...s, isFavorite: newFav } : s));
+                                } catch (err) {
+                                    console.error('Failed to update guest favorites:', err);
+                                }
+                                return;
+                            }
+
+                            // Editor mode
                             try {
-                                const newFav = !song.isFavorite;
                                 const res = await fetch(apiUrl(`/api/songs/${song.id}/metadata`), {
                                     method: 'PATCH',
                                     headers: { 'Content-Type': 'application/json' },
@@ -342,13 +377,15 @@ function SongCard({ song, onSelectSong, onEditSong, setAllSongs }) {
                     >
                         <Heart className={`w-4 h-4 transition-all ${song.isFavorite ? 'fill-rose-500' : 'fill-transparent'}`} />
                     </button>
-                    <button
-                        onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
-                        className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
-                        title="Edit Song"
-                    >
-                        <Pencil className="w-4 h-4" />
-                    </button>
+                    {isEditor && (
+                        <button
+                            onClick={(e) => { e.stopPropagation(); onEditSong(song.id); }}
+                            className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-[var(--text-muted)] hover:text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all"
+                            title="Edit Song"
+                        >
+                            <Pencil className="w-4 h-4" />
+                        </button>
+                    )}
                     <div className="w-8 h-8 flex items-center justify-center rounded-full bg-emerald-500/0 group-hover:bg-emerald-500/10 transition-all">
                         <ChevronRight className="w-5 h-5 text-[var(--text-muted)] group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
                     </div>

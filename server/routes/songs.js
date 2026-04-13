@@ -8,6 +8,8 @@ const { exec } = require('child_process');
 const os = require('os');
 const { PDFParse } = require('pdf-parse');
 
+const { authorizeRole } = require('../middleware/auth');
+
 const router = express.Router();
 
 // ── Tala templates (single source of truth shared with the client) ──────────
@@ -260,10 +262,18 @@ function getSongMeta(id) {
   };
 }
 
-/** List all songs metadata. */
+/** List all songs metadata. Viewers only see published songs. Editors/Admins see all. */
 router.get('/', (req, res) => {
   try {
-    const rows = db.prepare('SELECT id, title, raga, tala, composer, composition, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, isFavorite, avartanasPerRow, compositionType, createdAt, updatedAt FROM songs ORDER BY createdAt DESC').all();
+    let query = 'SELECT id, title, raga, tala, composer, composition, hasSwara, hasSahitya, swaraFilename, sahityaFilename, isPublished, publishStatus, ownerId, isFavorite, avartanasPerRow, compositionType, createdAt, updatedAt FROM songs';
+    const params = [];
+
+    if (!req.user || (req.user.role !== 'admin' && req.user.role !== 'editor')) {
+      query += " WHERE publishStatus = 'published'";
+    }
+
+    query += ' ORDER BY createdAt DESC';
+    const rows = db.prepare(query).all(...params);
     const songs = rows.map(s => {
       const comp = JSON.parse(s.composition || '{}');
       const sd = comp.song_details || {};
@@ -277,6 +287,8 @@ router.get('/', (req, res) => {
         avarohana: sd.avarohana || null,
         pdfPath: comp.pdfPath || null,
         isFavorite: !!s.isFavorite,
+        publishStatus: s.publishStatus || 'draft',
+        ownerId: s.ownerId,
         compositionType: s.compositionType || sd.compositionType || null,
         versionCount: 0
       };
@@ -320,7 +332,7 @@ router.post('/parse-pdf', upload.single('pdf'), async (req, res) => {
  *      The client can also pre-build the composition itself and send it as
  *      the `json` field; this branch exists as a server-side fallback.
  */
-router.post('/upload', upload.fields([
+router.post('/upload', authorizeRole(['admin', 'editor']), upload.fields([
   { name: 'swaraAudio', maxCount: 1 },
   { name: 'sahityaAudio', maxCount: 1 },
   { name: 'json', maxCount: 1 },
@@ -425,13 +437,14 @@ router.post('/upload', upload.fields([
         INSERT INTO songs (
             id, title, raga, tala, composer, composition, editOps, swaraAudio, sahityaAudio,
             hasSwara, hasSahitya, swaraFilename, sahityaFilename,
-            isPublished, avartanasPerRow, compositionType, createdAt, updatedAt
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?, ?, ?)
+            isPublished, publishStatus, ownerId, lastModifiedBy, avartanasPerRow, compositionType, createdAt, updatedAt
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 'draft', ?, ?, ?, ?, ?, ?)
     `).run(
         id, title, raga, tala, composer, JSON.stringify(compositionData), JSON.stringify({ trimStart: 0, trimEnd: null, cuts: [] }),
         swaraFile ? swaraFile.buffer : null, sahityaFile ? sahityaFile.buffer : null,
         swaraFile ? 1 : 0, sahityaFile ? 1 : 0,
         swaraFile ? swaraFile.originalname : '', sahityaFile ? sahityaFile.originalname : '',
+        req.user.id, req.user.id,
         compositionData.avartanasPerRow || 1,
         compositionType,
         now, now
@@ -490,10 +503,19 @@ router.get('/:id', (req, res) => {
  * admin (Phase 7 admin console — not yet built). Idempotent for songs
  * already in 'pending' or 'published'.
  */
-router.post('/:id/publish-request', (req, res) => {
+router.post('/:id/publish-request', authorizeRole(['admin', 'editor']), (req, res) => {
   try {
-    const row = db.prepare('SELECT publishStatus FROM songs WHERE id = ?').get(req.params.id);
+    const row = db.prepare('SELECT publishStatus, ownerId FROM songs WHERE id = ?').get(req.params.id);
     if (!row) return res.status(404).json({ error: 'Song not found' });
+    
+    // Admins can publish directly
+    if (req.user.role === 'admin') {
+      const now = new Date().toISOString();
+      db.prepare("UPDATE songs SET publishStatus = 'published', isPublished = 1, updatedAt = ? WHERE id = ?").run(now, req.params.id);
+      return res.json({ ok: true, publishStatus: 'published' });
+    }
+
+    // Editors set to pending
     if (row.publishStatus === 'published') {
       return res.json({ ok: true, publishStatus: 'published' });
     }
@@ -503,6 +525,34 @@ router.post('/:id/publish-request', (req, res) => {
     const now = new Date().toISOString();
     db.prepare("UPDATE songs SET publishStatus = 'pending', updatedAt = ? WHERE id = ?").run(now, req.params.id);
     res.json({ ok: true, publishStatus: 'pending' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/** Admin: Get all pending songs for approval. */
+router.get('/pending', authorizeRole(['admin']), (req, res) => {
+  try {
+    const rows = db.prepare('SELECT * FROM songs WHERE publishStatus = "pending" ORDER BY updatedAt DESC').all();
+    res.json(rows);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/** Admin: Approve or Reject a song. */
+router.post('/:id/approve', authorizeRole(['admin']), (req, res) => {
+  try {
+    const { action } = req.body; // 'approve' | 'reject'
+    const now = new Date().toISOString();
+    
+    if (action === 'approve') {
+      db.prepare("UPDATE songs SET publishStatus = 'published', isPublished = 1, updatedAt = ? WHERE id = ?").run(now, req.params.id);
+      res.json({ ok: true, publishStatus: 'published' });
+    } else {
+      db.prepare("UPDATE songs SET publishStatus = 'draft', isPublished = 0, updatedAt = ? WHERE id = ?").run(now, req.params.id);
+      res.json({ ok: true, publishStatus: 'draft' });
+    }
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -523,15 +573,16 @@ router.get('/:id/audio', (req, res) => {
 });
 
 /** Save composition + editOps (creates a version snapshot). */
-router.put('/:id', (req, res) => {
+router.put('/:id', authorizeRole(['admin', 'editor']), (req, res) => {
   try {
     const { composition, editOps, avartanasPerRow } = req.body;
     if (!composition) return res.status(400).json({ error: 'composition required' });
 
     const now = new Date().toISOString();
-    const song = db.prepare('SELECT composition FROM songs WHERE id = ?').get(req.params.id);
+    const song = db.prepare('SELECT composition, ownerId FROM songs WHERE id = ?').get(req.params.id);
     if (!song) return res.status(404).json({ error: 'Song not found' });
 
+    // Editors can edit any song (per user request), but we still track lastModifiedBy
     const compositionData = JSON.parse(song.composition || '{}');
     compositionData.composition = composition;
 
@@ -540,8 +591,8 @@ router.put('/:id', (req, res) => {
     const tala = songDetails.tala || songDetails.talam || '';
     const composer = songDetails.composer || '';
 
-    db.prepare('UPDATE songs SET composition = ?, editOps = ?, raga = ?, tala = ?, composer = ?, avartanasPerRow = ?, updatedAt = ? WHERE id = ?')
-      .run(JSON.stringify(compositionData), JSON.stringify(editOps || {}), raga, tala, composer, avartanasPerRow || 1, now, req.params.id);
+    db.prepare('UPDATE songs SET composition = ?, editOps = ?, raga = ?, tala = ?, composer = ?, avartanasPerRow = ?, lastModifiedBy = ?, updatedAt = ? WHERE id = ?')
+      .run(JSON.stringify(compositionData), JSON.stringify(editOps || {}), raga, tala, composer, avartanasPerRow || 1, req.user.id, now, req.params.id);
 
     // Create version snapshot
     const versionId = uuidv4();
@@ -787,8 +838,8 @@ router.post('/convert-to-mp3', upload.single('wav'), (req, res) => {
   }
 });
 
-/** Delete a song. */
-router.delete('/:id', (req, res) => {
+/** Delete a song. Only Admins can delete. */
+router.delete('/:id', authorizeRole(['admin']), (req, res) => {
   try {
     const result = db.prepare('DELETE FROM songs WHERE id = ?').run(req.params.id);
     if (result.changes === 0) return res.status(404).json({ error: 'Song not found' });

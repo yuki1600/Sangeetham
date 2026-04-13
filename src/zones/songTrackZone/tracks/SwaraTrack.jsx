@@ -45,6 +45,7 @@ export default function SwaraTrack({
     // theme
     theme,
     isDark,
+    canEdit = true,
 }) {
     const { visible, heightPx } = state;
     // Expanded → 14px gap below the separator. Collapsed → smaller top so the
@@ -79,13 +80,15 @@ export default function SwaraTrack({
                         {visible ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                         Swara
                     </button>
-                    <TrackOrderButtons
-                        onMoveUp={onMoveUp}
-                        onMoveDown={onMoveDown}
-                        canMoveUp={canMoveUp}
-                        canMoveDown={canMoveDown}
-                        isDark={isDark}
-                    />
+                    {canEdit && (
+                        <TrackOrderButtons
+                            onMoveUp={onMoveUp}
+                            onMoveDown={onMoveDown}
+                            canMoveUp={canMoveUp}
+                            canMoveDown={canMoveDown}
+                            isDark={isDark}
+                        />
+                    )}
                 </div>
             </div>
 
@@ -110,6 +113,7 @@ export default function SwaraTrack({
                         zoom={waveZoom}
                         onZoomChange={setWaveZoom}
                         onPan={handleWheelPan}
+                        canEdit={canEdit}
                     />
                 </div>
             )}

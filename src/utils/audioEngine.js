@@ -12,14 +12,18 @@ let micStream = null;
 let sourceNode = null;
 let dataBuffer = null;
 
-/**
- * Get the shared AudioContext, creating it lazily on first call. The context
- * starts suspended in browsers that require a user gesture to unlock; call
- * resumeAudioContext() from inside a click/touch handler to start audio.
- */
 export function getAudioContext() {
     if (!audioContext) {
         audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        
+        // Global gesture unlockers for modern browsers
+        const tryResume = () => {
+            if (audioContext && audioContext.state === 'suspended') {
+                audioContext.resume().catch(err => console.error('Failed to auto-resume AudioContext:', err));
+            }
+        };
+        const events = ['click', 'mousedown', 'pointerdown', 'touchstart', 'keydown'];
+        events.forEach(e => window.addEventListener(e, tryResume, { passive: true }));
     }
     return audioContext;
 }
@@ -66,7 +70,7 @@ export async function startMic() {
 
         // Ensure shared context exists, then unlock it if necessary
         getAudioContext();
-        await resumeAudioContext();
+        resumeAudioContext(); // Do not await, let it stay pending until gesture
 
         if (!analyserNode) {
             analyserNode = audioContext.createAnalyser();
@@ -129,10 +133,7 @@ export function stopMic() {
         micStream.getTracks().forEach(t => t.stop());
         micStream = null;
     }
-    if (audioContext) {
-        audioContext.close();
-        audioContext = null;
-    }
+    // Do NOT close audioContext as it is a shared global instance.
     analyserNode = null;
     dataBuffer = null;
 }

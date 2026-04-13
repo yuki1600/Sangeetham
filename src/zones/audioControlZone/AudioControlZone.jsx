@@ -69,6 +69,8 @@ export default function AudioControlZone({
     isSaving,
     saveStatus,
     handleResetAllEdits,
+    handlePublishRequest,
+    canEdit = true,
     // Audio Mixer (Cell 3 Bottom)
     masterVolume,
     setMasterVolume,
@@ -148,6 +150,7 @@ export default function AudioControlZone({
                             editOpsHistory={editOpsHistory}
                             handleUndoLastCut={handleUndoLastCut}
                             sectionTimingsCount={Object.keys(sectionTimings).length}
+                            canEdit={canEdit}
                             isDark={isDark}
                             borderColor={borderColor}
                         />
@@ -161,6 +164,8 @@ export default function AudioControlZone({
                             isSaving={isSaving}
                             saveStatus={saveStatus}
                             handleResetAllEdits={handleResetAllEdits}
+                            handlePublishRequest={handlePublishRequest}
+                            canEdit={canEdit}
                             isDark={isDark}
                             borderColor={borderColor}
                         />

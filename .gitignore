@@ -25,3 +25,11 @@ server/songs/*/
 *.njsproj
 *.sln
 *.sw?
+
+# Environment & Secrets
+.env
+.env.example
+server/service-account.json
+npm-cache/
+server/data/*.db
+server/data/*.db-journal

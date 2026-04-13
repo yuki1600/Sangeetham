@@ -62,6 +62,7 @@ export default function NotationLane({
     onPan,
     onRowDuplicate,
     onRowDelete,
+    canEdit = true,
 }) {
     const containerRef = useRef(null);
     const animRef = useRef(null);
@@ -235,7 +236,7 @@ export default function NotationLane({
                                     ...(hasTextTimings ? { position: 'absolute', top: 0, bottom: 0, left: rowLeft } : null),
                                 }}
                             >
-                                {(onRowDuplicate || onRowDelete) && (
+                                {canEdit && (onRowDuplicate || onRowDelete) && (
                                     <div
                                         className="absolute bottom-1 right-1 flex items-center gap-1 z-30"
                                         // Pointer-events isolated so the parent's drag/seek
@@ -415,7 +416,7 @@ export default function NotationLane({
 
                                 const color = isSwara ? swaraColor(tok.text, theme) : (theme === 'light' ? '#000000' : '#fcd34d');
                                 const editKey = `${avIdx}-${tIdx}`;
-                                const isEditing = editMode && editingKey === editKey;
+                                const isEditing = canEdit && editMode && editingKey === editKey;
 
                                 return (
                                     <div
@@ -430,11 +431,11 @@ export default function NotationLane({
                                         <div
                                             className="relative flex flex-col items-center"
                                             style={{
-                                                cursor: editMode ? 'text' : 'default',
-                                                outline: editMode && !isEditing ? '1px dashed rgba(255,255,255,0.12)' : 'none',
+                                                cursor: canEdit && editMode ? 'text' : 'default',
+                                                outline: canEdit && editMode && !isEditing ? '1px dashed rgba(255,255,255,0.12)' : 'none',
                                                 borderRadius: 4,
-                                                padding: editMode ? '2px 4px' : 0,
-                                                background: editMode && !isEditing ? 'rgba(255,255,255,0.03)' : 'transparent',
+                                                padding: canEdit && editMode ? '2px 4px' : 0,
+                                                background: canEdit && editMode && !isEditing ? 'rgba(255,255,255,0.03)' : 'transparent',
                                             }}
                                         >
                                             {isSwara && tok.octave === 'higher' && (

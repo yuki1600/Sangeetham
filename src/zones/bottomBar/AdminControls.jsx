@@ -33,6 +33,7 @@ export default function AdminControls({
     handleJsonSwap,
     isDark,
     borderColor,
+    canEdit,
 }) {
     return (
         <div className="flex items-center gap-2">
@@ -102,43 +103,47 @@ export default function AdminControls({
                             </button>
                         ))}
 
-                        <div className="h-px w-full" style={{ background: borderColor }} />
-                        <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
+                    {canEdit && (
+                        <>
+                            <div className="h-px w-full" style={{ background: borderColor }} />
+                            <div className="px-3 py-2 text-[10px] uppercase tracking-widest opacity-40 font-black">Swap Files</div>
 
-                        <button
-                            onClick={() => {
-                                if (audioSwapRef.current) {
-                                    audioSwapRef.current.dataset.type = 'swara';
-                                    audioSwapRef.current.click();
-                                }
-                                setShowDownloadMenu(false);
-                            }}
-                            className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                        >
-                            <Upload className="w-3.5 h-3.5" />
-                            Swap Swara Audio
-                        </button>
-                        <button
-                            onClick={() => {
-                                if (audioSwapRef.current) {
-                                    audioSwapRef.current.dataset.type = 'sahitya';
-                                    audioSwapRef.current.click();
-                                }
-                                setShowDownloadMenu(false);
-                            }}
-                            className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                        >
-                            <Upload className="w-3.5 h-3.5" />
-                            Swap Sahitya Audio
-                        </button>
-                        <button
-                            onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
-                            className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
-                        >
-                            <Upload className="w-3.5 h-3.5" />
-                            Swap JSON Composition
-                        </button>
-                    </div>
+                            <button
+                                onClick={() => {
+                                    if (audioSwapRef.current) {
+                                        audioSwapRef.current.dataset.type = 'swara';
+                                        audioSwapRef.current.click();
+                                    }
+                                    setShowDownloadMenu(false);
+                                }}
+                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                            >
+                                <Upload className="w-3.5 h-3.5" />
+                                Swap Swara Audio
+                            </button>
+                            <button
+                                onClick={() => {
+                                    if (audioSwapRef.current) {
+                                        audioSwapRef.current.dataset.type = 'sahitya';
+                                        audioSwapRef.current.click();
+                                    }
+                                    setShowDownloadMenu(false);
+                                }}
+                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                            >
+                                <Upload className="w-3.5 h-3.5" />
+                                Swap Sahitya Audio
+                            </button>
+                            <button
+                                onClick={() => { jsonSwapRef.current?.click(); setShowDownloadMenu(false); }}
+                                className="w-full text-left px-4 py-2.5 text-xs font-bold transition-all hover:bg-amber-500/10 flex items-center gap-2 text-amber-500"
+                            >
+                                <Upload className="w-3.5 h-3.5" />
+                                Swap JSON Composition
+                            </button>
+                        </>
+                    )}
+                </div>
                 )}
             </div>
 
